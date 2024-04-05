@@ -152,6 +152,18 @@ def main() -> None:
         help="Filters the type of questions for which the model is prompted",
     )
     parser.add_argument(
+        "--max_questions",
+        type=int,
+        default=None,
+        help="If set, limits the number of questions to the number provided. Used for testing.",
+    )
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        default=None,
+        help="If set, overwrites existing translations with newly-generated translation.",
+    )
+    parser.add_argument(
         "--lp",
         "--dataset_load_path",
         type=str,
@@ -183,6 +195,8 @@ def main() -> None:
         question_type=question_type,
         dataset_load_path=args.dataset_load_path,
         dataset_save_path=args.dataset_save_path,
+        max_questions=args.max_questions,
+        overwrite_answers=args.overwrite,
     )
 
 
