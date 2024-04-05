@@ -54,7 +54,7 @@ def prompt_model_and_store(  # noqa: PLR0913
         languages_to_prompt = q_translation_langs or [question.language]
 
         for q_language in languages_to_prompt:
-            answer_languages = answer_langs or [question.language]
+            answer_languages = answer_langs or [q_language]
 
             for a_language in answer_languages:
                 _prompt_model_and_store(
@@ -132,14 +132,14 @@ def main() -> None:
     )
     parser.add_argument(
         "--question_langs",
-        type=str,
+        type=Language,
         nargs="+",
         default=None,
         help="If set, only prompts with questions originally of the given languages",
     )
     parser.add_argument(
         "--q_translation_langs",
-        type=str,
+        type=Language,
         nargs="+",
         default=None,
         help="Only prompts using translations of questions in the given languages. If not set, untranslated questions are used.",  # noqa: E501
