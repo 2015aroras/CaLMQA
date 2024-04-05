@@ -4,6 +4,7 @@ import argparse
 import copy
 import csv
 import enum
+import hashlib
 import json
 import logging
 from pathlib import Path
@@ -41,7 +42,11 @@ class QuestionID:
         source: Source,
         original_translation: QuestionTranslation,
     ) -> QuestionID:
-        return QuestionID(hash((source, original_translation)))
+        original_translation_json = RootModel[QuestionTranslation](
+            original_translation,
+        ).model_dump_json()
+        string_to_hash = "|".join([str(source), original_translation_json])
+        return QuestionID(int(hashlib.sha256(string_to_hash.encode()).hexdigest(), 16))
 
 
 @dataclass
@@ -55,7 +60,8 @@ class AnswerID:
         prompt: str,
         language: Language,
     ) -> AnswerID:
-        return AnswerID(hash((source, prompt, language)))
+        string_to_hash = "|".join([str(source), prompt, language.name])
+        return AnswerID(int(hashlib.sha256(string_to_hash.encode()).hexdigest(), 16))
 
 
 @dataclass(frozen=True)
@@ -86,14 +92,20 @@ class Question:
     language: Language
     translations: dict[Language, QuestionTranslation]
     url: str | None = PyField(default=None)
-    q_id: QuestionID = PyField(init=False)
+    q_id: QuestionID = PyField(default_factory=lambda: QuestionID(-1))
 
     def __post_init__(self) -> None:
-        object.__setattr__(
-            self,
-            "q_id",
-            QuestionID.make(self.source, self.untranslated),
-        )
+        generated_hash = QuestionID.make(self.source, self.untranslated)
+
+        if self.q_id.id == -1:
+            object.__setattr__(
+                self,
+                "q_id",
+                generated_hash,
+            )
+        elif self.q_id != generated_hash:
+            msg = f"Question id {self.q_id} does not match expected id {generated_hash}"
+            raise ValueError(msg)
 
     @property
     def untranslated(self) -> QuestionTranslation:
@@ -113,10 +125,20 @@ class Answer:
     """What the source was prompted with to get this answer"""
     language: Language
     translations: list[AnswerTranslation]
-    a_id: AnswerID = PyField(init=False)
+    a_id: AnswerID = PyField(default_factory=lambda: AnswerID(-1))
 
     def __post_init__(self) -> None:
-        object.__setattr__(self, "a_id", AnswerID.make(self.source, self.prompt, self.language))
+        generated_hash = AnswerID.make(self.source, self.prompt, self.language)
+
+        if self.a_id.id == -1:
+            object.__setattr__(
+                self,
+                "a_id",
+                generated_hash,
+            )
+        elif self.a_id != generated_hash:
+            msg = f"Answer id {self.a_id} does not match expected id {generated_hash}"
+            raise ValueError(msg)
 
     @classmethod
     def make(
