@@ -10,3 +10,24 @@ authors = [
 ]
 description = "Multilingual Long-Form QA"
 readme = "README.md"
+dependencies = [
+  "accelerate",
+  "openai",
+  "pydantic",
+  "torch",
+  "transformers",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+  # Missing doc strings
+  "D100", "D101", "D102", "D103", "D104", "D105", "D106", "D107",
+  # Missing self type check
+  "ANN101",
+  # Asserts
+  "S101",
+]
