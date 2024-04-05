@@ -153,7 +153,7 @@ class Dataset:
         return [
             copy.deepcopy(entry.question)
             for entry in self.entries
-            if entry.question.type & q_type == entry.question.type
+            if entry.question.type & q_type == q_type
             and (languages is None or entry.question.language in languages)
         ]
 

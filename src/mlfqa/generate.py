@@ -148,7 +148,7 @@ def main() -> None:
         "--question_types",
         type=lambda inp: QuestionType[inp],
         nargs="+",
-        default=[QuestionType.ALL],
+        default=[QuestionType.NONE],
         help="Filters the type of questions for which the model is prompted",
     )
     parser.add_argument(
