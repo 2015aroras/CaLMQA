@@ -84,11 +84,12 @@ def generate(  # noqa: PLR0913
     max_questions: int | None = None,
     overwrite_answers: bool = False,
     save_progress: bool = True,
+    **kwargs
 ) -> None:
     dataset = Dataset.from_file(dataset_load_path)
     dataset.default_save_path = dataset_save_path
 
-    model = Model.make(model_name)
+    model = Model.make(model_name, **kwargs)
     prompt_template = Path(prompt_file_path).read_text()
 
     questions = dataset.get_questions(question_type, question_langs)
@@ -180,6 +181,15 @@ def main() -> None:
         help="Path of file to save the dataset to",
     )
 
+    # Local models args
+    parser.add_argument(
+        "--gpus",
+        nargs="+",
+        type=int,
+        default=[],
+        help="Ids of gpus available for use.",
+    )
+
     args = parser.parse_args()
 
     question_type = QuestionType.NONE
@@ -197,6 +207,7 @@ def main() -> None:
         dataset_save_path=args.dataset_save_path,
         max_questions=args.max_questions,
         overwrite_answers=args.overwrite,
+        gpus=args.gpus,
     )
 
 

@@ -12,7 +12,7 @@ class OpenAIModel(Model):
     MAX_TOKENS = 2048
     SUPPORTED_MODELS = (ModelName.GPT_4,)
 
-    def __init__(self, name: ModelName) -> None:
+    def __init__(self, name: ModelName, **kwargs) -> None:
         super().__init__(name)
         if name not in OpenAIModel.SUPPORTED_MODELS:
             msg = f"{name} is not a valid OpenAI model"

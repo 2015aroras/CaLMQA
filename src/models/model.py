@@ -26,13 +26,13 @@ class Model(metaclass=ABCMeta):
         pass
 
     @classmethod
-    def make(cls: type[Self], model_name: ModelName) -> Model:
+    def make(cls: type[Self], model_name: ModelName, **kwargs) -> Model:
         from models.openai_model import OpenAIModel
         from models.transformers_model import TransformersModel
 
         if model_name in OpenAIModel.SUPPORTED_MODELS:
-            return OpenAIModel(model_name)
+            return OpenAIModel(model_name, **kwargs)
         if model_name in TransformersModel.SUPPORTED_MODELS:
-            return TransformersModel(model_name)
+            return TransformersModel(model_name, **kwargs)
 
         raise NotImplementedError
