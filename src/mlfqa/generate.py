@@ -189,6 +189,12 @@ def main() -> None:
         default=[],
         help="Ids of gpus available for use.",
     )
+    parser.add_argument(
+        "--max_gpu_mem",
+        type=float,
+        default=None,
+        help="Max memory to use on each GPU in bytes.",
+    )
 
     args = parser.parse_args()
 
@@ -208,6 +214,7 @@ def main() -> None:
         max_questions=args.max_questions,
         overwrite_answers=args.overwrite,
         gpus=args.gpus,
+        max_gpu_mem=int(args.max_gpu_mem),
     )
 
 
