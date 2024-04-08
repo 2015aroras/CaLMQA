@@ -80,6 +80,7 @@ def generate(  # noqa: PLR0913
     question_type: QuestionType,
     dataset_load_path: str,
     dataset_save_path: str,
+    max_output_tokens: int,
     *,
     max_questions: int | None = None,
     overwrite_answers: bool = False,
@@ -89,7 +90,7 @@ def generate(  # noqa: PLR0913
     dataset = Dataset.from_file(dataset_load_path)
     dataset.default_save_path = dataset_save_path
 
-    model = Model.make(model_name, **kwargs)
+    model = Model.make(model_name, max_output_tokens, **kwargs)
     prompt_template = Path(prompt_file_path).read_text()
 
     questions = dataset.get_questions(question_type, question_langs)
@@ -153,6 +154,12 @@ def main() -> None:
         help="Filters the type of questions for which the model is prompted",
     )
     parser.add_argument(
+        "--max_tokens",
+        type=int,
+        default=2048,
+        help="Max tokens in output.",
+    )
+    parser.add_argument(
         "--max_questions",
         type=int,
         default=None,
@@ -211,10 +218,11 @@ def main() -> None:
         question_type=question_type,
         dataset_load_path=args.dataset_load_path,
         dataset_save_path=args.dataset_save_path,
+        max_output_tokens=args.max_tokens,
         max_questions=args.max_questions,
         overwrite_answers=args.overwrite,
         gpus=args.gpus,
-        max_gpu_mem=int(args.max_gpu_mem),
+        max_gpu_mem=int(args.max_gpu_mem) if args.max_gpu_mem is not None else None,
     )
 
 

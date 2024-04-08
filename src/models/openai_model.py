@@ -9,11 +9,10 @@ logger = logging.getLogger(__name__)
 
 
 class OpenAIModel(Model):
-    MAX_TOKENS = 2048
     SUPPORTED_MODELS = (ModelName.GPT_4,)
 
-    def __init__(self, name: ModelName, **kwargs) -> None:
-        super().__init__(name)
+    def __init__(self, name: ModelName, max_output_tokens: int, **kwargs) -> None:
+        super().__init__(name, max_output_tokens)
         if name not in OpenAIModel.SUPPORTED_MODELS:
             msg = f"{name} is not a valid OpenAI model"
             raise ValueError(msg)
@@ -28,14 +27,14 @@ class OpenAIModel(Model):
 
     def prompt(self, prompt: str) -> str:
         response = self.client.chat.completions.create(
-            max_tokens=OpenAIModel.MAX_TOKENS,
+            max_tokens=self.max_output_tokens,
             model=self._get_model_param(),
             messages=[{"role": "user", "content": prompt}],
         )
 
         choice = response.choices[0]
         if choice.finish_reason == "length":
-            logger.warning("Exceeded max tokens %d", OpenAIModel.MAX_TOKENS)
+            logger.warning("Exceeded max tokens %d", self.max_output_tokens)
         elif choice.finish_reason != "stop":
             msg = f"Unexpected finish reason {choice.finish_reason}"
             raise RuntimeError(msg)

@@ -18,21 +18,22 @@ class ModelName(enum.Enum):
 
 
 class Model(metaclass=ABCMeta):
-    def __init__(self, name: ModelName) -> None:
+    def __init__(self, name: ModelName, max_output_tokens: int) -> None:
         self.name = name
+        self.max_output_tokens = max_output_tokens
 
     @abstractmethod
     def prompt(self, prompt: str) -> str:
         pass
 
     @classmethod
-    def make(cls: type[Self], model_name: ModelName, **kwargs) -> Model:
+    def make(cls: type[Self], model_name: ModelName, *args, **kwargs) -> Model:
         from models.openai_model import OpenAIModel
         from models.transformers_model import TransformersModel
 
         if model_name in OpenAIModel.SUPPORTED_MODELS:
-            return OpenAIModel(model_name, **kwargs)
+            return OpenAIModel(model_name, *args, **kwargs)
         if model_name in TransformersModel.SUPPORTED_MODELS:
-            return TransformersModel(model_name, **kwargs)
+            return TransformersModel(model_name, *args, **kwargs)
 
         raise NotImplementedError

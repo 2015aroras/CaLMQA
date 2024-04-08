@@ -20,10 +20,11 @@ class TransformersModel(Model):
 
     def __init__(self,
                  name: ModelName,
+                 max_output_tokens: int,
                  gpus: list[int] | None = None,
                  max_mem_per_gpu: int | None = None,
                  **kwargs) -> None:
-        super().__init__(name)
+        super().__init__(name, max_output_tokens)
         if name not in TransformersModel.SUPPORTED_MODELS:
             msg = f"{name} is not a valid transformers model"
             raise ValueError(msg)
@@ -32,6 +33,7 @@ class TransformersModel(Model):
 
         self.tokenizer = TransformersModel._get_tokenizer(self.name)
         self.model = TransformersModel._get_model(self.name, gpus, max_mem_per_gpu)
+        self.max_output_tokens = max_output_tokens
 
     @staticmethod
     def _get_pretrained_model_name_or_path(model_name: ModelName) -> str:
@@ -74,5 +76,5 @@ class TransformersModel(Model):
     def prompt(self, prompt: str) -> str:
         input_ids = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
 
-        outputs = self.model.generate(**input_ids)
+        outputs = self.model.generate(**input_ids, max_new_tokens=self.max_output_tokens)
         return self.tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
