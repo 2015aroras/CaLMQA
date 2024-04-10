@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
+from typing import Any
 
 from models.model import Model, ModelName
 from tqdm import tqdm
@@ -85,7 +86,7 @@ def generate(  # noqa: PLR0913
     max_questions: int | None = None,
     overwrite_answers: bool = False,
     save_progress: bool = True,
-    **kwargs
+    **kwargs: Any,
 ) -> None:
     dataset = Dataset.from_file(dataset_load_path)
     dataset.default_save_path = dataset_save_path
