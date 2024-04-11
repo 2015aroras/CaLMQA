@@ -1,9 +1,16 @@
 import logging
 import os
 
-from dotenv import load_dotenv
 import torch
-from transformers import AutoModelForCausalLM, AutoModelForSeq2SeqLM, AutoTokenizer, PreTrainedModel, PreTrainedTokenizer, PreTrainedTokenizerFast
+from dotenv import load_dotenv
+from transformers import (
+    AutoModelForCausalLM,
+    AutoModelForSeq2SeqLM,
+    AutoTokenizer,
+    PreTrainedModel,
+    PreTrainedTokenizer,
+    PreTrainedTokenizerFast,
+)
 
 from models.model import Model, ModelName
 
@@ -18,12 +25,14 @@ class TransformersModel(Model):
         ModelName.XGLM_7_5B,
     )
 
-    def __init__(self,
-                 name: ModelName,
-                 max_output_tokens: int,
-                 gpus: list[int] | None = None,
-                 max_mem_per_gpu: int | None = None,
-                 **kwargs) -> None:
+    def __init__(
+        self,
+        name: ModelName,
+        max_output_tokens: int,
+        gpus: list[int] | None = None,
+        max_mem_per_gpu: int | None = None,
+        **kwargs,
+    ) -> None:
         super().__init__(name, max_output_tokens)
         if name not in TransformersModel.SUPPORTED_MODELS:
             msg = f"{name} is not a valid transformers model"
@@ -55,26 +64,36 @@ class TransformersModel(Model):
         return AutoTokenizer.from_pretrained(model_name_or_path, token=token)
 
     @staticmethod
-    def _get_model(model_name: ModelName, gpus: list[int] | None, max_mem_per_gpu: int | None = None) -> PreTrainedModel:
+    def _get_model(
+        model_name: ModelName, gpus: list[int] | None, max_mem_per_gpu: int | None = None,
+    ) -> PreTrainedModel:
         gpus = gpus or []
 
         model_name_or_path = TransformersModel._get_pretrained_model_name_or_path(model_name)
 
         max_memory = {i: 0 for i in range(torch.cuda.device_count())}
         for gpu in gpus:
-            max_memory[gpu] = max_mem_per_gpu if max_mem_per_gpu is not None else torch.cuda.get_device_properties(gpu).total_memory
+            max_memory[gpu] = (
+                max_mem_per_gpu
+                if max_mem_per_gpu is not None
+                else torch.cuda.get_device_properties(gpu).total_memory
+            )
         device_map = "auto" if len(gpus) > 0 else None
         token = os.environ.get("HF_USER_ACCESS_TOKEN")
 
         if model_name == ModelName.AYA_101:
             return AutoModelForSeq2SeqLM.from_pretrained(
-                model_name_or_path, device_map=device_map, max_memory=max_memory, token=token)
+                model_name_or_path, device_map=device_map, max_memory=max_memory, token=token,
+            )
 
         return AutoModelForCausalLM.from_pretrained(
-            model_name_or_path, device_map=device_map, max_memory=max_memory, token=token)
+            model_name_or_path, device_map=device_map, max_memory=max_memory, token=token,
+        )
 
     def prompt(self, prompt: str) -> str:
         input_ids = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
 
         outputs = self.model.generate(**input_ids, max_new_tokens=self.max_output_tokens)
-        return self.tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
+        return self.tokenizer.decode(
+            outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True,
+        )
