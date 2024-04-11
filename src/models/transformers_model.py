@@ -95,5 +95,5 @@ class TransformersModel(Model):
 
         outputs = self.model.generate(**input_ids, max_new_tokens=self.max_output_tokens)
         return self.tokenizer.decode(
-            outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True,
+            outputs[0, input_ids["input_ids"].shape[1]:], skip_special_tokens=True, clean_up_tokenization_spaces=True,
         )
