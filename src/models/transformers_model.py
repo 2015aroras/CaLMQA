@@ -38,7 +38,7 @@ class TransformersModel(Model):
     @staticmethod
     def _get_pretrained_model_name_or_path(model_name: ModelName) -> str:
         if model_name == ModelName.GEMMA_7B:
-            return "google/gemma-7b"
+            return "google/gemma-7b-it"
         if model_name == ModelName.XGLM_7_5B:
             return "facebook/xglm-7.5B"
         if model_name == ModelName.MIXTRAL_8X7B:
