@@ -1,5 +1,9 @@
+from __future__ import annotations
+
 import logging
 import os
+from abc import abstractmethod
+from typing import Self
 
 import torch
 from dotenv import load_dotenv
@@ -29,8 +33,6 @@ class TransformersModel(Model):
         self,
         name: ModelName,
         max_output_tokens: int,
-        gpus: list[int] | None = None,
-        max_mem_per_gpu: int | None = None,
         **kwargs,
     ) -> None:
         super().__init__(name, max_output_tokens)
@@ -40,38 +42,51 @@ class TransformersModel(Model):
 
         load_dotenv()
 
-        self.tokenizer = TransformersModel._get_tokenizer(self.name)
-        self.model = TransformersModel._get_model(self.name, gpus, max_mem_per_gpu)
-        self.max_output_tokens = max_output_tokens
+        self.token = os.environ.get("HF_USER_ACCESS_TOKEN")
 
-    @staticmethod
-    def _get_pretrained_model_name_or_path(model_name: ModelName) -> str:
-        if model_name == ModelName.GEMMA_7B:
-            return "google/gemma-7b-it"
-        if model_name == ModelName.XGLM_7_5B:
-            return "facebook/xglm-7.5B"
-        if model_name == ModelName.MIXTRAL_8X7B:
-            return "mistralai/Mixtral-8x7B-Instruct-v0.1"
+    @property
+    @abstractmethod
+    def model_path(self) -> str:
+        pass
+
+    @classmethod
+    def make(
+        cls: type[Self], model_name: ModelName, max_output_tokens: int, **kwargs,
+    ) -> TransformersModel:
         if model_name == ModelName.AYA_101:
-            return "CohereForAI/aya-101"
-        raise NotImplementedError
+            return Aya101Model(model_name, max_output_tokens, **kwargs)
+        if model_name == ModelName.GEMMA_7B:
+            return Gemma7BModel(model_name, max_output_tokens, **kwargs)
+        if model_name == ModelName.MIXTRAL_8X7B:
+            return Mixtral8x7BModel(model_name, max_output_tokens, **kwargs)
+        if model_name == ModelName.XGLM_7_5B:
+            return Xglm7Pt5BModel(model_name, max_output_tokens, **kwargs)
+        raise NotImplementedError(model_name)
 
-    @staticmethod
-    def _get_tokenizer(model_name: ModelName) -> PreTrainedTokenizer | PreTrainedTokenizerFast:
-        model_name_or_path = TransformersModel._get_pretrained_model_name_or_path(model_name)
-        token = os.environ.get("HF_USER_ACCESS_TOKEN")
+    def _init_tokenizer(self) -> PreTrainedTokenizer | PreTrainedTokenizerFast:
+        return AutoTokenizer.from_pretrained(self.model_path, token=self.token)
 
-        return AutoTokenizer.from_pretrained(model_name_or_path, token=token)
-
-    @staticmethod
-    def _get_model(
-        model_name: ModelName,
-        gpus: list[int] | None,
+    def _init_model(
+        self,
+        gpus: list[int] | None = None,
         max_mem_per_gpu: int | None = None,
     ) -> PreTrainedModel:
-        gpus = gpus or []
+        max_memory = self._get_max_memory_map(gpus, max_mem_per_gpu)
+        device_map = "auto" if gpus is not None and len(gpus) > 0 else None
 
-        model_name_or_path = TransformersModel._get_pretrained_model_name_or_path(model_name)
+        return AutoModelForCausalLM.from_pretrained(
+            self.model_path,
+            device_map=device_map,
+            max_memory=max_memory,
+            token=self.token,
+        )
+
+    def _get_max_memory_map(
+        self,
+        gpus: list[int] | None,
+        max_mem_per_gpu: int | None = None,
+    ) -> dict[int, int]:
+        gpus = gpus or []
 
         max_memory = {i: 0 for i in range(torch.cuda.device_count())}
         for gpu in gpus:
@@ -80,23 +95,29 @@ class TransformersModel(Model):
                 if max_mem_per_gpu is not None
                 else torch.cuda.get_device_properties(gpu).total_memory
             )
-        device_map = "auto" if len(gpus) > 0 else None
-        token = os.environ.get("HF_USER_ACCESS_TOKEN")
 
-        if model_name == ModelName.AYA_101:
-            return AutoModelForSeq2SeqLM.from_pretrained(
-                model_name_or_path,
-                device_map=device_map,
-                max_memory=max_memory,
-                token=token,
-            )
+        return max_memory
 
-        return AutoModelForCausalLM.from_pretrained(
-            model_name_or_path,
-            device_map=device_map,
-            max_memory=max_memory,
-            token=token,
-        )
+
+class Gemma7BModel(TransformersModel):
+    MODEL_PATH = "google/gemma-7b-it"
+
+    def __init__(
+        self,
+        name: ModelName,
+        max_output_tokens: int,
+        gpus: list[int] | None = None,
+        max_mem_per_gpu: int | None = None,
+        **kwargs,
+    ) -> None:
+        super().__init__(name, max_output_tokens, **kwargs)
+
+        self.tokenizer = self._init_tokenizer()
+        self.model = self._init_model(gpus, max_mem_per_gpu)
+
+    @property
+    def model_path(self) -> str:
+        return self.MODEL_PATH
 
     def prompt(self, prompt: str) -> str:
         input_ids = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
@@ -107,3 +128,90 @@ class TransformersModel(Model):
             skip_special_tokens=True,
             clean_up_tokenization_spaces=True,
         )
+
+
+class Mixtral8x7BModel(TransformersModel):
+    MODEL_PATH = "mistralai/Mixtral-8x7B-Instruct-v0.1"
+
+    def __init__(
+        self,
+        name: ModelName,
+        max_output_tokens: int,
+        gpus: list[int] | None = None,
+        max_mem_per_gpu: int | None = None,
+        **kwargs,
+    ) -> None:
+        super().__init__(name, max_output_tokens, **kwargs)
+
+        self.tokenizer = self._init_tokenizer()
+        self.model = self._init_model(gpus, max_mem_per_gpu)
+
+    @property
+    def model_path(self) -> str:
+        return self.MODEL_PATH
+
+    def prompt(self, prompt: str) -> str:
+        raise NotImplementedError
+
+
+class Xglm7Pt5BModel(TransformersModel):
+    MODEL_PATH = "facebook/xglm-7.5B"
+
+    def __init__(
+        self,
+        name: ModelName,
+        max_output_tokens: int,
+        gpus: list[int] | None = None,
+        max_mem_per_gpu: int | None = None,
+        **kwargs,
+    ) -> None:
+        super().__init__(name, max_output_tokens, **kwargs)
+
+        self.tokenizer = self._init_tokenizer()
+        self.model = self._init_model(gpus, max_mem_per_gpu)
+
+    @property
+    def model_path(self) -> str:
+        return self.MODEL_PATH
+
+    def prompt(self, prompt: str) -> str:
+        raise NotImplementedError
+
+
+class Aya101Model(TransformersModel):
+    MODEL_PATH = "CohereForAI/aya-101"
+
+    def __init__(
+        self,
+        name: ModelName,
+        max_output_tokens: int,
+        gpus: list[int] | None = None,
+        max_mem_per_gpu: int | None = None,
+        **kwargs,
+    ) -> None:
+        super().__init__(name, max_output_tokens, **kwargs)
+
+        self.tokenizer = self._init_tokenizer()
+        self.model = self._init_model(gpus, max_mem_per_gpu)
+
+    @property
+    def model_path(self) -> str:
+        return self.MODEL_PATH
+
+    def _init_model(
+        self,
+        gpus: list[int] | None = None,
+        max_mem_per_gpu: int | None = None,
+    ) -> PreTrainedModel:
+        max_memory = self._get_max_memory_map(gpus, max_mem_per_gpu)
+        device_map = "auto" if gpus is not None and len(gpus) > 0 else None
+
+        return AutoModelForSeq2SeqLM.from_pretrained(
+            self.model_path,
+            device_map=device_map,
+            max_memory=max_memory,
+            token=self.token,
+        )
+
+    def prompt(self, prompt: str) -> str:
+        raise NotImplementedError

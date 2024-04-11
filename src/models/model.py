@@ -34,6 +34,6 @@ class Model(metaclass=ABCMeta):
         if model_name in OpenAIModel.SUPPORTED_MODELS:
             return OpenAIModel(model_name, *args, **kwargs)
         if model_name in TransformersModel.SUPPORTED_MODELS:
-            return TransformersModel(model_name, *args, **kwargs)
+            return TransformersModel.make(model_name, *args, **kwargs)
 
         raise NotImplementedError
