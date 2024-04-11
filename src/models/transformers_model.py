@@ -151,7 +151,17 @@ class Mixtral8x7BModel(TransformersModel):
         return self.MODEL_PATH
 
     def prompt(self, prompt: str) -> str:
-        raise NotImplementedError
+        messages = [
+            {"role": "user", "content": prompt},
+        ]
+
+        inputs = self.tokenizer.apply_chat_template(messages, return_tensors="pt").to("cuda")
+
+        outputs = self.model.generate(inputs, max_new_tokens=self.max_output_tokens)
+        return self.tokenizer.decode(
+            outputs[0, inputs.shape[1] :],
+            skip_special_tokens=True,
+        )
 
 
 class Xglm7Pt5BModel(TransformersModel):
