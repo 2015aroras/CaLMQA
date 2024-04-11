@@ -65,7 +65,9 @@ class TransformersModel(Model):
 
     @staticmethod
     def _get_model(
-        model_name: ModelName, gpus: list[int] | None, max_mem_per_gpu: int | None = None,
+        model_name: ModelName,
+        gpus: list[int] | None,
+        max_mem_per_gpu: int | None = None,
     ) -> PreTrainedModel:
         gpus = gpus or []
 
@@ -83,11 +85,17 @@ class TransformersModel(Model):
 
         if model_name == ModelName.AYA_101:
             return AutoModelForSeq2SeqLM.from_pretrained(
-                model_name_or_path, device_map=device_map, max_memory=max_memory, token=token,
+                model_name_or_path,
+                device_map=device_map,
+                max_memory=max_memory,
+                token=token,
             )
 
         return AutoModelForCausalLM.from_pretrained(
-            model_name_or_path, device_map=device_map, max_memory=max_memory, token=token,
+            model_name_or_path,
+            device_map=device_map,
+            max_memory=max_memory,
+            token=token,
         )
 
     def prompt(self, prompt: str) -> str:
@@ -95,5 +103,7 @@ class TransformersModel(Model):
 
         outputs = self.model.generate(**input_ids, max_new_tokens=self.max_output_tokens)
         return self.tokenizer.decode(
-            outputs[0, input_ids["input_ids"].shape[1]:], skip_special_tokens=True, clean_up_tokenization_spaces=True,
+            outputs[0, input_ids["input_ids"].shape[1] :],
+            skip_special_tokens=True,
+            clean_up_tokenization_spaces=True,
         )
