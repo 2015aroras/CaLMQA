@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import itertools
 from pathlib import Path
 from typing import Any
 
@@ -51,22 +52,35 @@ def prompt_model_and_store(  # noqa: PLR0913
     overwrite_existing_answers: bool = False,
     save_progress: bool = True,
 ) -> None:
-    for question in tqdm(questions, desc=f"Prompting {model.name}"):
-        languages_to_prompt = q_translation_langs or [question.language]
+    desc = f"Prompting {model.name} with {len(questions)} questions"
+    if q_translation_langs is not None:
+        desc = f"{desc} translated into {len(q_translation_langs)} languages"
+    if answer_langs is not None:
+        desc = f"{desc}, with answers in {len(answer_langs)} languages"
 
-        for q_language in languages_to_prompt:
-            answer_languages = answer_langs or [q_language]
+    q_trans_langs = q_translation_langs or [None]
+    answer_target_langs = answer_langs or [None]
 
-            for a_language in answer_languages:
-                _prompt_model_and_store(
-                    model,
-                    question,
-                    prompt_template,
-                    q_language,
-                    a_language,
-                    dataset,
-                    overwrite_existing_answers=overwrite_existing_answers,
-                )
+    for question, q_lang, a_lang in tqdm(
+        itertools.product(questions, q_trans_langs, answer_target_langs),
+        desc=desc,
+        total=len(questions) * len(q_trans_langs) * len(answer_target_langs),
+    ):
+        q_language = q_lang or question.language
+        if q_language not in question.translations:
+            continue
+
+        a_language = a_lang or q_language
+
+        _prompt_model_and_store(
+            model,
+            question,
+            prompt_template,
+            q_language,
+            a_language,
+            dataset,
+            overwrite_existing_answers=overwrite_existing_answers,
+        )
 
         if save_progress:
             dataset.to_file()
@@ -140,13 +154,21 @@ def main() -> None:
         default=None,
         help="If set, only prompts with questions originally of the given languages",
     )
-    parser.add_argument(
+
+    q_translation_langs_group = parser.add_mutually_exclusive_group()
+    q_translation_langs_group.add_argument(
         "--q_translation_langs",
         type=Language,
         nargs="+",
         default=None,
         help="Only prompts using translations of questions in the given languages. If not set, untranslated questions are used.",  # noqa: E501
     )
+    q_translation_langs_group.add_argument(
+        "--all_q_translation_langs",
+        action="store_true",
+        help="If set, prompts using all translations of questions.",
+    )
+
     parser.add_argument(
         "--question_types",
         type=lambda inp: QuestionType[inp],
@@ -209,6 +231,9 @@ def main() -> None:
     question_type = QuestionType.NONE
     for q_type in args.question_types:
         question_type |= q_type
+
+    if args.all_q_translation_langs:
+        args.q_translation_langs = list(Language)
 
     generate(
         model_name=ModelName[args.model_name],
