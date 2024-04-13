@@ -224,4 +224,7 @@ class Aya101Model(TransformersModel):
         )
 
     def prompt(self, prompt: str) -> str:
-        raise NotImplementedError
+        input_ids = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
+
+        outputs = self.model.generate(**input_ids, max_new_tokens=self.max_output_tokens)
+        return self.tokenizer.decode(outputs[0], skip_special_tokens=True)
