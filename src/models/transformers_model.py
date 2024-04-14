@@ -5,6 +5,7 @@ import os
 from abc import abstractmethod
 from typing import Self
 
+import numpy as np
 import torch
 from dotenv import load_dotenv
 from transformers import (
@@ -15,6 +16,7 @@ from transformers import (
     PreTrainedTokenizer,
     PreTrainedTokenizerFast,
 )
+from transformers.generation.utils import GenerateOutput
 
 from models.model import Model, ModelName
 
@@ -51,7 +53,10 @@ class TransformersModel(Model):
 
     @classmethod
     def make(
-        cls: type[Self], model_name: ModelName, max_output_tokens: int, **kwargs,
+        cls: type[Self],
+        model_name: ModelName,
+        max_output_tokens: int,
+        **kwargs,
     ) -> TransformersModel:
         if model_name == ModelName.AYA_101:
             return Aya101Model(model_name, max_output_tokens, **kwargs)
@@ -129,6 +134,44 @@ class Gemma7BModel(TransformersModel):
             clean_up_tokenization_spaces=True,
         )
 
+    def prompt_and_next_token_probs(
+        self,
+        prompt: str,
+        max_new_tokens: int = 5,
+    ) -> tuple[str, dict[str, float]]:
+        input_ids = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
+
+        outputs = self.model.generate(
+            **input_ids,
+            max_new_tokens=max_new_tokens,
+            return_dict_in_generate=True,
+            output_scores=True,
+        )
+        assert isinstance(outputs, GenerateOutput)
+        assert outputs.scores is not None
+
+        generated_tokens = outputs.sequences[:, input_ids.input_ids.shape[1] :]
+        transition_scores = self.model.compute_transition_scores(
+            outputs.sequences,
+            outputs.scores,
+            normalize_logits=True,
+        )
+
+        token_probabilities = {}
+        for token_id, score in zip(generated_tokens[0], transition_scores[0]):
+            token_str = self.tokenizer.decode(
+                token_id,
+                skip_special_tokens=True,
+                clean_up_tokenization_spaces=True,
+            )
+            token_probabilities[token_str] = np.exp(score)
+
+        output_str = self.tokenizer.decode(
+            outputs[0, input_ids.shape[1] :],
+            skip_special_tokens=True,
+        )
+        return output_str, token_probabilities
+
 
 class Mixtral8x7BModel(TransformersModel):
     MODEL_PATH = "mistralai/Mixtral-8x7B-Instruct-v0.1"
@@ -163,6 +206,47 @@ class Mixtral8x7BModel(TransformersModel):
             skip_special_tokens=True,
         )
 
+    def prompt_and_next_token_probs(
+        self,
+        prompt: str,
+        max_new_tokens: int = 5,
+    ) -> tuple[str, dict[str, float]]:
+        messages = [
+            {"role": "user", "content": prompt},
+        ]
+
+        inputs = self.tokenizer.apply_chat_template(messages, return_tensors="pt").to("cuda")
+
+        outputs = self.model.generate(
+            inputs,
+            max_new_tokens=max_new_tokens,
+            return_dict_in_generate=True,
+            output_scores=True,
+        )
+        assert isinstance(outputs, GenerateOutput)
+        assert outputs.scores is not None
+
+        generated_tokens = outputs.sequences[:, inputs.shape[1] :]
+        transition_scores = self.model.compute_transition_scores(
+            outputs.sequences,
+            outputs.scores,
+            normalize_logits=True,
+        )
+
+        token_probabilities = {}
+        for token_id, score in zip(generated_tokens[0], transition_scores[0]):
+            token_str = self.tokenizer.decode(
+                token_id,
+                skip_special_tokens=True,
+            )
+            token_probabilities[token_str] = np.exp(score)
+
+        output_str = self.tokenizer.decode(
+            outputs[0, inputs.shape[1] :],
+            skip_special_tokens=True,
+        )
+        return output_str, token_probabilities
+
 
 class Xglm7Pt5BModel(TransformersModel):
     MODEL_PATH = "facebook/xglm-7.5B"
@@ -185,6 +269,13 @@ class Xglm7Pt5BModel(TransformersModel):
         return self.MODEL_PATH
 
     def prompt(self, prompt: str) -> str:
+        raise NotImplementedError
+
+    def prompt_and_next_token_probs(
+        self,
+        prompt: str,
+        max_new_tokens: int = 5,
+    ) -> tuple[str, dict[str, float]]:
         raise NotImplementedError
 
 
@@ -228,3 +319,38 @@ class Aya101Model(TransformersModel):
 
         outputs = self.model.generate(**input_ids, max_new_tokens=self.max_output_tokens)
         return self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+    def prompt_and_next_token_probs(
+        self,
+        prompt: str,
+        max_new_tokens: int = 5,
+    ) -> tuple[str, dict[str, float]]:
+        input_ids = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
+
+        outputs = self.model.generate(
+            **input_ids,
+            max_new_tokens=max_new_tokens,
+            return_dict_in_generate=True,
+            output_scores=True,
+        )
+        assert isinstance(outputs, GenerateOutput)
+        assert outputs.scores is not None
+
+        generated_tokens = outputs.sequences
+        transition_scores = self.model.compute_transition_scores(
+            outputs.sequences,
+            outputs.scores,
+            normalize_logits=True,
+        )
+
+        token_probabilities = {}
+        for token_id, score in zip(generated_tokens[0], transition_scores[0]):
+            token_str = self.tokenizer.decode(
+                token_id,
+                skip_special_tokens=True,
+            )
+            token_probabilities[token_str] = np.exp(score)
+
+        output_str = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+        return output_str, token_probabilities

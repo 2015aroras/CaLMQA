@@ -26,6 +26,12 @@ class Model(metaclass=ABCMeta):
     def prompt(self, prompt: str) -> str:
         pass
 
+    @abstractmethod
+    def prompt_and_next_token_probs(
+        self, prompt: str, max_new_tokens: int = 5,
+    ) -> tuple[str, dict[str, float]]:
+        """Prompts the model and retrieves the probabilities for the first generated token."""
+
     @classmethod
     def make(cls: type[Self], model_name: ModelName, *args, **kwargs) -> Model:
         from models.openai_model import OpenAIModel
