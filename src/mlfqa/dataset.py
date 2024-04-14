@@ -156,6 +156,15 @@ class Answer:
             [AnswerTranslation(language, text)],
         )
 
+    @property
+    def untranslated(self) -> AnswerTranslation:
+        untranslated_answers = [
+            translation for translation in self.translations
+            if translation.language == self.language
+        ]
+        assert len(untranslated_answers) == 1
+        return untranslated_answers[0]
+
 
 @dataclass
 class Dataset:
