@@ -8,7 +8,7 @@ import hashlib
 import json
 import logging
 from pathlib import Path
-from typing import TYPE_CHECKING, Any, Self, cast
+from typing import Any, Self, cast
 
 from models.model import ModelName, PromptParameters
 from pydantic import Field as PyField
@@ -16,9 +16,6 @@ from pydantic import RootModel, TypeAdapter
 from pydantic.dataclasses import dataclass
 
 from mlfqa.language import Language
-
-if TYPE_CHECKING:
-    from dataclasses import KW_ONLY
 
 Source = str
 
@@ -130,7 +127,6 @@ class Answer:
     prompt_parameters: PromptParameters
     language: Language
     translations: list[AnswerTranslation]
-    _: KW_ONLY
     source: Source | None = PyField(default=None)
     """Deprecated in favor of `prompt_parameters`"""
     prompt: str | None = PyField(default=None)
