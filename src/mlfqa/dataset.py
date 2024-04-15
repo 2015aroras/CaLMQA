@@ -59,8 +59,11 @@ class AnswerID:
         source: Source,
         prompt: str,
         language: Language,
+        option_probs: dict[str, float] | None,
     ) -> AnswerID:
-        string_to_hash = "|".join([str(source), prompt, language.name])
+        string_to_hash = "|".join(
+            [str(source), prompt, language.name, f"option_probs={option_probs}"],
+        )
         return AnswerID(int(hashlib.sha256(string_to_hash.encode()).hexdigest(), 16))
 
 
@@ -125,10 +128,11 @@ class Answer:
     """What the source was prompted with to get this answer"""
     language: Language
     translations: list[AnswerTranslation]
+    option_probs: dict[str, float] | None = PyField(default=None)
     a_id: AnswerID = PyField(default_factory=lambda: AnswerID(-1))
 
     def __post_init__(self) -> None:
-        generated_hash = AnswerID.make(self.source, self.prompt, self.language)
+        generated_hash = AnswerID.make(self.source, self.prompt, self.language, self.option_probs)
 
         if self.a_id.id == -1:
             object.__setattr__(
@@ -147,6 +151,8 @@ class Answer:
         prompt: str,
         language: Language,
         text: str,
+        *,
+        option_probs: dict[str, float] | None = None,
     ) -> Answer:
         """`make` helps create an answer without any translations."""
         return cls(
@@ -154,12 +160,14 @@ class Answer:
             prompt,
             language,
             [AnswerTranslation(language, text)],
+            option_probs,
         )
 
     @property
     def untranslated(self) -> AnswerTranslation:
         untranslated_answers = [
-            translation for translation in self.translations
+            translation
+            for translation in self.translations
             if translation.language == self.language
         ]
         assert len(untranslated_answers) == 1
