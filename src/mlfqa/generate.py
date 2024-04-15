@@ -30,14 +30,13 @@ def _prompt_model_and_store(  # noqa: PLR0913
 
     existing_answers = dataset.get_answers(question, model.name.name, prompt, a_language)
     assert len(existing_answers) <= 1
-    answer_id = existing_answers[0].a_id if len(existing_answers) == 1 else None
 
-    if not overwrite_existing_answers and answer_id is not None:
+    if not overwrite_existing_answers and len(existing_answers) == 1:
         return
 
-    response = model.prompt(prompt)
+    response, prompt_parameters = model.prompt(prompt)
 
-    answer = Answer.make(model.name.name, prompt, a_language, response)
+    answer = Answer.make(prompt_parameters, a_language, response)
     dataset.add_or_update_answer(question, answer)
 
 
