@@ -31,7 +31,7 @@ class OpenAIPromptParameters(PromptParameters):
 class OpenAIModel(Model):
     SUPPORTED_MODELS = (ModelName.GPT_4,)
     DEFAULT_PARAMETERS = OpenAIPromptParameters(
-        prompt=None, name=ModelName.GPT_4, max_output_tokens=2048,
+        prompt=None, model_name=ModelName.GPT_4, max_output_tokens=2048,
     )
 
     def __init__(self, name: ModelName, max_output_tokens: int, **_) -> None:

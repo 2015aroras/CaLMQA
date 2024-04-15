@@ -134,7 +134,7 @@ class TransformersModel(Model):
 class Gemma7BModel(TransformersModel):
     DEFAULT_PARAMETERS = TransformersPromptParameters(
         prompt=None,
-        name=ModelName.GEMMA_7B,
+        model_name=ModelName.GEMMA_7B,
         max_output_tokens=2048,
         model_path="google/gemma-7b-it",
     )
@@ -224,7 +224,7 @@ class Gemma7BModel(TransformersModel):
 class Mixtral8x7BModel(TransformersModel):
     DEFAULT_PARAMETERS = TransformersPromptParameters(
         prompt=None,
-        name=ModelName.MIXTRAL_8X7B,
+        model_name=ModelName.MIXTRAL_8X7B,
         max_output_tokens=2048,
         model_path="mistralai/Mixtral-8x7B-Instruct-v0.1",
     )
@@ -317,7 +317,7 @@ class Mixtral8x7BModel(TransformersModel):
 class Xglm7Pt5BModel(TransformersModel):
     DEFAULT_PARAMETERS = TransformersPromptParameters(
         prompt=None,
-        name=ModelName.XGLM_7_5B,
+        model_name=ModelName.XGLM_7_5B,
         max_output_tokens=2048,
         model_path="facebook/xglm-7.5B",
     )
@@ -353,7 +353,7 @@ class Xglm7Pt5BModel(TransformersModel):
 class Aya101Model(TransformersModel):
     DEFAULT_PARAMETERS = TransformersPromptParameters(
         prompt=None,
-        name=ModelName.AYA_101,
+        model_name=ModelName.AYA_101,
         max_output_tokens=2048,
         model_path="CohereForAI/aya-101",
     )

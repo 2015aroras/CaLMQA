@@ -12,12 +12,12 @@ __all__ = [
 
 
 class ModelName(enum.Enum):
-    HUMAN = enum.auto()
-    GPT_4 = enum.auto()
-    AYA_101 = enum.auto()
-    GEMMA_7B = enum.auto()
-    MIXTRAL_8X7B = enum.auto()
-    XGLM_7_5B = enum.auto()
+    HUMAN = "Human"
+    GPT_4 = "GPT 4"
+    AYA_101 = "AYA 13B"
+    GEMMA_7B = "Gemma 7B"
+    MIXTRAL_8X7B = "Mixtral 8x7B"
+    XGLM_7_5B = "XGLM 7.5B"
 
 
 @dataclass(frozen=True)
@@ -29,7 +29,7 @@ class PromptParameters:
     """
 
     prompt: str | None
-    name: ModelName
+    model_name: ModelName
     max_output_tokens: int
 
 
