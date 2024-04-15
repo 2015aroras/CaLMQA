@@ -8,13 +8,17 @@ import hashlib
 import json
 import logging
 from pathlib import Path
-from typing import Any, Self, cast
+from typing import TYPE_CHECKING, Any, Self, cast
 
+from models.model import ModelName, PromptParameters
 from pydantic import Field as PyField
 from pydantic import RootModel, TypeAdapter
 from pydantic.dataclasses import dataclass
 
 from mlfqa.language import Language
+
+if TYPE_CHECKING:
+    from dataclasses import KW_ONLY
 
 Source = str
 
@@ -123,44 +127,50 @@ class AnswerTranslation:
 
 @dataclass(frozen=True)
 class Answer:
-    source: Source
-    prompt: str
-    """What the source was prompted with to get this answer"""
+    prompt_parameters: PromptParameters
     language: Language
     translations: list[AnswerTranslation]
+    _: KW_ONLY
+    source: Source | None = PyField(default=None)
+    """Deprecated in favor of `prompt_parameters`"""
+    prompt: str | None = PyField(default=None)
+    """Deprecated in  favor of `prompt_parameters`. What the source was prompted with to get this answer"""  # noqa: E501
     option_probs: dict[str, float] | None = PyField(default=None)
-    a_id: AnswerID = PyField(default_factory=lambda: AnswerID(-1))
-
-    def __post_init__(self) -> None:
-        generated_hash = AnswerID.make(self.source, self.prompt, self.language, self.option_probs)
-
-        if self.a_id.id == -1:
-            object.__setattr__(
-                self,
-                "a_id",
-                generated_hash,
-            )
-        elif self.a_id != generated_hash:
-            msg = f"Answer id {self.a_id} does not match expected id {generated_hash}"
-            raise ValueError(msg)
 
     @classmethod
     def make(
         cls: type[Self],
-        source: Source,
+        prompt_parameters: PromptParameters,
+        language: Language,
+        text: str,
+        *,
+        option_probs: dict[str, float] | None = None,
+    ) -> Answer:
+        """`Create an answer without any translations."""
+        return cls(
+            prompt_parameters,
+            language,
+            [AnswerTranslation(language, text)],
+            option_probs=option_probs,
+        )
+
+    @classmethod
+    def make_human_answer(
+        cls: type[Self],
         prompt: str,
         language: Language,
         text: str,
         *,
         option_probs: dict[str, float] | None = None,
     ) -> Answer:
-        """`make` helps create an answer without any translations."""
+        """Create a human's answer without any translations."""
+        prompt_parameters = PromptParameters(prompt, ModelName.HUMAN, -1)
+
         return cls(
-            source,
-            prompt,
+            prompt_parameters,
             language,
             [AnswerTranslation(language, text)],
-            option_probs,
+            option_probs=option_probs,
         )
 
     @property
@@ -235,16 +245,20 @@ class Dataset:
         entry = self._get_entry(question)
 
         existing_answers = [
-            entry_answer for entry_answer in entry.answers if entry_answer.a_id == answer.a_id
+            entry_answer
+            for entry_answer in entry.answers
+            if entry_answer.prompt_parameters == answer.prompt_parameters
         ]
-        assert len(existing_answers) <= 1, f"Too many answers match answer {answer.a_id}"
+        assert (
+            len(existing_answers) <= 1
+        ), f"Too many answers match answer with prompt parameters: {answer.prompt_parameters}"
 
         if len(existing_answers) == 1:
             existing_answer = existing_answers[0]
             entry.answers = [
                 entry_answer
                 for entry_answer in entry.answers
-                if entry_answer.a_id != existing_answer.a_id
+                if entry_answer.prompt_parameters != existing_answer.prompt_parameters
             ]
 
         entry.answers.append(copy.deepcopy(answer))
@@ -338,8 +352,7 @@ def _construct_dataset_from_dict_entries(
             {language: question_translation},
             dict_entry[Field.URL],
         )
-        answer = Answer.make(
-            dict_entry[Field.ANSWER_SOURCE],
+        answer = Answer.make_human_answer(
             question.untranslated.get_text(),
             language,
             dict_entry[Field.ANSWER],
