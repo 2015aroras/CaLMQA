@@ -12,6 +12,7 @@ __all__ = [
 
 
 class ModelName(enum.Enum):
+    HUMAN = enum.auto()
     GPT_4 = enum.auto()
     AYA_101 = enum.auto()
     GEMMA_7B = enum.auto()
