@@ -4,6 +4,7 @@ import enum
 from abc import ABCMeta, abstractmethod
 from typing import Self
 
+from pydantic import ConfigDict
 from pydantic.dataclasses import dataclass
 
 __all__ = [
@@ -20,7 +21,7 @@ class ModelName(enum.Enum):
     XGLM_7_5B = "XGLM 7.5B"
 
 
-@dataclass(frozen=True)
+@dataclass(frozen=True, config=ConfigDict(extra="allow"))
 class PromptParameters:
     """Model parameters when prompting.
 
