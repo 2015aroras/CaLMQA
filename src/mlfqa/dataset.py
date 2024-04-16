@@ -250,19 +250,26 @@ class Dataset:
     def get_answers(
         self,
         question: Question,
-        source: Source | None = None,
-        prompt: str | None = None,
         language: Language | None = None,
+        **prompt_parameter_kwargs,
     ) -> list[Answer]:
         entry = self._get_entry(question)
 
-        return [
-            copy.deepcopy(answer)
-            for answer in entry.answers
-            if (source is None or source == answer.source)
-            and (prompt is None or prompt == answer.prompt)
-            and (language is None or language == answer.language)
-        ]
+        matching_answers: list[Answer] = []
+        for answer in entry.answers:
+            if language is not None and answer.language != language:
+                continue
+
+            is_matching_answer = True
+            for key, val in prompt_parameter_kwargs:
+                if getattr(answer.prompt_parameters, key, None) != val:
+                    is_matching_answer = False
+                    break
+
+            if is_matching_answer:
+                matching_answers.append(copy.deepcopy(answer))
+
+        return matching_answers
 
     def add_or_update_question_translation(
         self,

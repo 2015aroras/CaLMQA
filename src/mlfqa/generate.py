@@ -1,9 +1,9 @@
 from __future__ import annotations
 
 import argparse
+import dataclasses
 import itertools
 from pathlib import Path
-from typing import Any
 
 from models.model import Model, ModelName
 from tqdm import tqdm
@@ -28,7 +28,13 @@ def _prompt_model_and_store(  # noqa: PLR0913
     prompt = prompt.replace("[question_language]", q_translation_language.name)
     prompt = prompt.replace("[answer_language]", a_language.name)
 
-    existing_answers = dataset.get_answers(question, model.name.name, prompt, a_language)
+    prompt_parameters = model.get_prompt_parameters(prompt)
+
+    existing_answers = dataset.get_answers(
+        question,
+        a_language,
+        **dataclasses.asdict(prompt_parameters),
+    )
     assert len(existing_answers) <= 1
 
     if not overwrite_existing_answers and len(existing_answers) == 1:
@@ -99,7 +105,7 @@ def generate(  # noqa: PLR0913
     max_questions: int | None = None,
     overwrite_answers: bool = False,
     save_progress: bool = True,
-    **kwargs: Any,
+    **kwargs,
 ) -> None:
     dataset = Dataset.from_file(dataset_load_path)
     dataset.default_save_path = dataset_save_path
