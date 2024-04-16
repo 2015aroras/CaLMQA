@@ -67,14 +67,20 @@ class OpenAIModel(Model):
             top_logprobs=prompt_parameters.top_logprobs,
         )
 
-    def prompt(self, prompt: str) -> tuple[str, PromptParameters]:
+    def _get_prompt_parameters(self, prompt: str) -> OpenAIPromptParameters:
         prompt_params_dict = dataclasses.asdict(self.get_default_parameters())
         prompt_params_dict["prompt"] = prompt
         prompt_params_dict["name"] = self.name
         prompt_params_dict["max_output_tokens"] = self.max_output_tokens
         prompt_params_dict["model"] = self.model_version
 
-        prompt_parameters = OpenAIPromptParameters(**prompt_params_dict)
+        return OpenAIPromptParameters(**prompt_params_dict)
+
+    def get_prompt_parameters(self, prompt: str) -> PromptParameters:
+        return self._get_prompt_parameters(prompt)
+
+    def prompt(self, prompt: str) -> tuple[str, PromptParameters]:
+        prompt_parameters = self._get_prompt_parameters(prompt)
 
         response = self._call_chat_api(prompt_parameters)
 

@@ -60,6 +60,10 @@ class Model(metaclass=ABCMeta):
         pass
 
     @abstractmethod
+    def get_prompt_parameters(self, prompt: str) -> PromptParameters:
+        pass
+
+    @abstractmethod
     def prompt(self, prompt: str) -> tuple[str, PromptParameters]:
         pass
 
