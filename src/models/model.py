@@ -33,6 +33,21 @@ class PromptParameters:
     model_name: ModelName
     max_output_tokens: int
 
+    @classmethod
+    def make(cls: type[Self], **kwargs) -> PromptParameters:
+        model_name = kwargs["model_name"]
+        assert isinstance(model_name, ModelName)
+
+        from models.openai_model import OpenAIModel, OpenAIPromptParameters
+        from models.transformers_model import TransformersModel, TransformersPromptParameters
+
+        if model_name in OpenAIModel.SUPPORTED_MODELS:
+            return OpenAIPromptParameters(**kwargs)
+        if model_name in TransformersModel.SUPPORTED_MODELS:
+            return TransformersPromptParameters(**kwargs)
+
+        raise NotImplementedError
+
 
 class Model(metaclass=ABCMeta):
     def __init__(self, name: ModelName, max_output_tokens: int) -> None:

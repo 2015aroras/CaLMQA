@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import copy
 import csv
+import dataclasses
 import enum
 import hashlib
 import json
@@ -10,7 +11,7 @@ import logging
 from pathlib import Path
 from typing import Any, Self, cast
 
-from models.model import ModelName, PromptParameters
+from models.model import Model, ModelName, PromptParameters
 from pydantic import Field as PyField
 from pydantic import RootModel, TypeAdapter
 from pydantic.dataclasses import dataclass
@@ -124,14 +125,52 @@ class AnswerTranslation:
 
 @dataclass(frozen=True)
 class Answer:
-    prompt_parameters: PromptParameters
     language: Language
     translations: list[AnswerTranslation]
+    prompt_parameters: PromptParameters | None = PyField(default=None)
     source: Source | None = PyField(default=None)
     """Deprecated in favor of `prompt_parameters`"""
     prompt: str | None = PyField(default=None)
     """Deprecated in  favor of `prompt_parameters`. What the source was prompted with to get this answer"""  # noqa: E501
     option_probs: dict[str, float] | None = PyField(default=None)
+
+    def __post_init__(self) -> None:
+        if self.prompt_parameters is not None:
+            return
+
+        assert self.source is not None
+        assert self.prompt is not None
+
+        if self.source == "website user":
+            prompt_parameters = PromptParameters(self.prompt, ModelName.HUMAN, -1)
+        else:
+            model_names = [model_name for model_name in ModelName if model_name.name == self.source]
+            assert len(model_names) == 1
+            model_name = model_names[0]
+
+            model = Model.make(model_name, -1)
+
+            prompt_params_dict = dataclasses.asdict(model.get_default_parameters())
+            prompt_params_dict["prompt"] = self.prompt
+            prompt_params_dict["model_name"] = model_name
+
+            prompt_parameters = PromptParameters.make(**prompt_params_dict)
+
+        object.__setattr__(
+            self,
+            "prompt_parameters",
+            prompt_parameters,
+        )
+        object.__setattr__(
+            self,
+            "source",
+            None,
+        )
+        object.__setattr__(
+            self,
+            "prompt",
+            None,
+        )
 
     @classmethod
     def make(
@@ -144,9 +183,9 @@ class Answer:
     ) -> Answer:
         """`Create an answer without any translations."""
         return cls(
-            prompt_parameters,
             language,
             [AnswerTranslation(language, text)],
+            prompt_parameters,
             option_probs=option_probs,
         )
 
@@ -163,9 +202,9 @@ class Answer:
         prompt_parameters = PromptParameters(prompt, ModelName.HUMAN, -1)
 
         return cls(
-            prompt_parameters,
             language,
             [AnswerTranslation(language, text)],
+            prompt_parameters,
             option_probs=option_probs,
         )
 
@@ -265,7 +304,12 @@ class Dataset:
             msg = "No dataset save file path provided and no default is set"
             raise ValueError(msg)
 
-        dataset_json = RootModel[Dataset](self).model_dump_json(indent=2)
+        dataset_json = RootModel[Dataset](self).model_dump_json(
+            indent=2,
+            exclude_none=True,
+            round_trip=True,
+            serialize_as_any=True,
+        )
         Path(save_file_path).write_text(dataset_json)
 
     @classmethod
