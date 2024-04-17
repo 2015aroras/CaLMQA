@@ -72,22 +72,10 @@ class AnswerID:
 @dataclass(frozen=True)
 class QuestionTranslation:
     language: Language
-    title: str | None = None
-    elaboration: str | None = None
-    text: str | None = None
+    text: str
 
     def get_text(self) -> str:
-        if self.text is not None:
-            return self.text
-
-        if self.title is not None:
-            if self.elaboration is not None:
-                return f"{self.title}\n{self.elaboration}"
-
-            return self.title
-
-        msg = "Question translation has neither title not text"
-        raise RuntimeError(msg)
+        return self.text
 
 
 @dataclass(frozen=True)
@@ -126,7 +114,7 @@ class AnswerTranslation:
 @dataclass(frozen=True)
 class Answer:
     language: Language
-    translations: list[AnswerTranslation]
+    translations: dict[Language, AnswerTranslation]
     prompting_state: PromptingState | None = PyField(default=None)
     source: Source | None = PyField(default=None)
     """Deprecated in favor of `prompting_state`"""
@@ -184,7 +172,7 @@ class Answer:
         """`Create an answer without any translations."""
         return cls(
             language,
-            [AnswerTranslation(language, text)],
+            {language: AnswerTranslation(language, text)},
             prompting_state,
             option_probs=option_probs,
         )
@@ -203,20 +191,14 @@ class Answer:
 
         return cls(
             language,
-            [AnswerTranslation(language, text)],
+            {language: AnswerTranslation(language, text)},
             prompting_state,
             option_probs=option_probs,
         )
 
     @property
     def untranslated(self) -> AnswerTranslation:
-        untranslated_answers = [
-            translation
-            for translation in self.translations
-            if translation.language == self.language
-        ]
-        assert len(untranslated_answers) == 1
-        return untranslated_answers[0]
+        return self.translations[self.language]
 
 
 @dataclass
@@ -385,8 +367,9 @@ def _construct_dataset_from_dict_entries(
         elif Field.QUESTION_TITLE in dict_entry:
             question_translation = QuestionTranslation(
                 language,
-                title=dict_entry[Field.QUESTION_TITLE],
-                elaboration=dict_entry.get(Field.QUESTION_ELABORATION),
+                text=dict_entry[Field.QUESTION_TITLE]
+                + "\n"
+                + dict_entry.get(Field.QUESTION_ELABORATION),
             )
         else:
             msg = "No question text fields found"
