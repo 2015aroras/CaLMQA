@@ -20,13 +20,13 @@ from transformers import (
 )
 from transformers.generation.utils import GenerateOutput
 
-from models.model import Model, ModelName, PromptParameters
+from models.model import Model, ModelName, PromptingState
 
 logger = logging.getLogger(__name__)
 
 
 @dataclass(frozen=True)
-class TransformersPromptParameters(PromptParameters):
+class TransformersPromptParameters(PromptingState):
     model_path: str | None = None
     model_input_dict: dict | None = None
     output_scores: bool = False
@@ -99,11 +99,11 @@ class TransformersModel(Model):
             token=self.token,
         )
 
-    def _get_prompt_parameters(
+    def _get_prompting_state(
         self,
         prompt: str,
         max_output_tokens: int | None = None,
-        **prompt_parameters_kwargs,
+        **prompting_state_kwargs,
     ) -> TransformersPromptParameters:
         prompt_params_dict = dataclasses.asdict(self.get_default_parameters())
         prompt_params_dict["prompt"] = prompt
@@ -112,7 +112,7 @@ class TransformersModel(Model):
             max_output_tokens if max_output_tokens is not None else self.max_output_tokens
         )
 
-        return TransformersPromptParameters(**prompt_params_dict, **prompt_parameters_kwargs)
+        return TransformersPromptParameters(**prompt_params_dict, **prompting_state_kwargs)
 
     def _get_max_memory_map(
         self,
@@ -134,15 +134,15 @@ class TransformersModel(Model):
     def _call_generate(
         self,
         model: PreTrainedModel,
-        prompt_parameters: TransformersPromptParameters,
+        prompting_state: TransformersPromptParameters,
     ) -> GenerateOutput | torch.LongTensor:
-        if prompt_parameters.model_input_dict is None:
+        if prompting_state.model_input_dict is None:
             msg = "Model input dictionary cannot be None"
             raise ValueError(msg)
 
         return model.generate(
-            **prompt_parameters.model_input_dict,
-            max_new_tokens=prompt_parameters.max_output_tokens,
+            **prompting_state.model_input_dict,
+            max_new_tokens=prompting_state.max_output_tokens,
         )
 
 
@@ -168,55 +168,55 @@ class Gemma7BModel(TransformersModel):
         self.model = self._init_model(gpus, max_mem_per_gpu)
 
     @classmethod
-    def get_default_parameters(cls: type[Self]) -> PromptParameters:
+    def get_default_parameters(cls: type[Self]) -> PromptingState:
         return Gemma7BModel.DEFAULT_PARAMETERS
 
-    def _get_prompt_parameters(
+    def _get_prompting_state(
         self,
         prompt: str,
         batch_encoding: BatchEncoding | None = None,
-        **prompt_parameters_kwargs,
+        **prompting_state_kwargs,
     ) -> TransformersPromptParameters:
         if batch_encoding is None:
             batch_encoding = self.tokenizer(prompt, return_tensors="pt").to(
                 self.model.device,
             )
 
-        return super()._get_prompt_parameters(
+        return super()._get_prompting_state(
             prompt,
             model_input_dict=batch_encoding,
-            **prompt_parameters_kwargs,
+            **prompting_state_kwargs,
         )
 
-    def get_prompt_parameters(self, prompt: str) -> PromptParameters:
-        return self._get_prompt_parameters(prompt)
+    def get_prompting_state(self, prompt: str) -> PromptingState:
+        return self._get_prompting_state(prompt)
 
-    def prompt(self, prompt: str) -> tuple[str, PromptParameters]:
+    def prompt(self, prompt: str) -> tuple[str, PromptingState]:
         batch_encoding: BatchEncoding = self.tokenizer(prompt, return_tensors="pt").to(
             self.model.device,
         )
 
-        prompt_parameters = self._get_prompt_parameters(
+        prompting_state = self._get_prompting_state(
             prompt,
             batch_encoding=batch_encoding,
         )
 
-        outputs = self._call_generate(self.model, prompt_parameters)
+        outputs = self._call_generate(self.model, prompting_state)
 
         return self.tokenizer.decode(
             outputs[0, batch_encoding.input_ids.shape[1] :],
             skip_special_tokens=True,
             clean_up_tokenization_spaces=True,
-        ), prompt_parameters
+        ), prompting_state
 
     def prompt_and_next_token_probs(
         self,
         prompt: str,
         max_new_tokens: int = 5,
-    ) -> tuple[str, dict[str, float], PromptParameters]:
+    ) -> tuple[str, dict[str, float], PromptingState]:
         batch_encoding = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
 
-        prompt_parameters = self._get_prompt_parameters(
+        prompting_state = self._get_prompting_state(
             prompt,
             batch_encoding=batch_encoding,
             max_output_tokens=max_new_tokens,
@@ -224,7 +224,7 @@ class Gemma7BModel(TransformersModel):
             output_scores=True,
         )
 
-        outputs = self._call_generate(self.model, prompt_parameters)
+        outputs = self._call_generate(self.model, prompting_state)
         assert isinstance(outputs, GenerateOutput)
         assert outputs.scores is not None
 
@@ -248,7 +248,7 @@ class Gemma7BModel(TransformersModel):
             generated_tokens,
             skip_special_tokens=True,
         )
-        return output_str, token_probabilities, prompt_parameters
+        return output_str, token_probabilities, prompting_state
 
 
 class Mixtral8x7BModel(TransformersModel):
@@ -273,14 +273,14 @@ class Mixtral8x7BModel(TransformersModel):
         self.model = self._init_model(gpus, max_mem_per_gpu)
 
     @classmethod
-    def get_default_parameters(cls: type[Self]) -> PromptParameters:
+    def get_default_parameters(cls: type[Self]) -> PromptingState:
         return Mixtral8x7BModel.DEFAULT_PARAMETERS
 
-    def _get_prompt_parameters(
+    def _get_prompting_state(
         self,
         prompt: str,
         inputs: Any | None = None,
-        **prompt_parameters_kwargs,
+        **prompting_state_kwargs,
     ) -> TransformersPromptParameters:
         if inputs is None:
             messages = [
@@ -289,41 +289,41 @@ class Mixtral8x7BModel(TransformersModel):
 
             inputs = self.tokenizer.apply_chat_template(messages, return_tensors="pt").to("cuda")
 
-        return super()._get_prompt_parameters(
+        return super()._get_prompting_state(
             prompt,
             model_input_dict={"inputs": inputs},
-            **prompt_parameters_kwargs,
+            **prompting_state_kwargs,
         )
 
-    def get_prompt_parameters(self, prompt: str) -> PromptParameters:
-        return self._get_prompt_parameters(prompt)
+    def get_prompting_state(self, prompt: str) -> PromptingState:
+        return self._get_prompting_state(prompt)
 
-    def prompt(self, prompt: str) -> tuple[str, PromptParameters]:
+    def prompt(self, prompt: str) -> tuple[str, PromptingState]:
         messages = [
             {"role": "user", "content": prompt},
         ]
         inputs = self.tokenizer.apply_chat_template(messages, return_tensors="pt").to("cuda")
 
-        prompt_parameters = self._get_prompt_parameters(prompt, inputs=inputs)
+        prompting_state = self._get_prompting_state(prompt, inputs=inputs)
 
-        outputs = self._call_generate(self.model, prompt_parameters)
+        outputs = self._call_generate(self.model, prompting_state)
         return self.tokenizer.decode(
             outputs[0, inputs.shape[1] :],
             skip_special_tokens=True,
-        ), prompt_parameters
+        ), prompting_state
 
     def prompt_and_next_token_probs(
         self,
         prompt: str,
         max_new_tokens: int = 5,
-    ) -> tuple[str, dict[str, float], PromptParameters]:
+    ) -> tuple[str, dict[str, float], PromptingState]:
         messages = [
             {"role": "user", "content": prompt},
         ]
 
         inputs = self.tokenizer.apply_chat_template(messages, return_tensors="pt").to("cuda")
 
-        prompt_parameters = self._get_prompt_parameters(
+        prompting_state = self._get_prompting_state(
             prompt,
             inputs=inputs,
             max_output_tokens=max_new_tokens,
@@ -331,7 +331,7 @@ class Mixtral8x7BModel(TransformersModel):
             output_scores=True,
         )
 
-        outputs = self._call_generate(self.model, prompt_parameters)
+        outputs = self._call_generate(self.model, prompting_state)
         assert isinstance(outputs, GenerateOutput)
         assert outputs.scores is not None
 
@@ -354,7 +354,7 @@ class Mixtral8x7BModel(TransformersModel):
             outputs[0, inputs.shape[1] :],
             skip_special_tokens=True,
         )
-        return output_str, token_probabilities, prompt_parameters
+        return output_str, token_probabilities, prompting_state
 
 
 class Xglm7Pt5BModel(TransformersModel):
@@ -379,20 +379,20 @@ class Xglm7Pt5BModel(TransformersModel):
         self.model = self._init_model(gpus, max_mem_per_gpu)
 
     @classmethod
-    def get_default_parameters(cls: type[Self]) -> PromptParameters:
+    def get_default_parameters(cls: type[Self]) -> PromptingState:
         return Xglm7Pt5BModel.DEFAULT_PARAMETERS
 
-    def get_prompt_parameters(self, prompt: str) -> PromptParameters:
+    def get_prompting_state(self, prompt: str) -> PromptingState:
         raise NotImplementedError
 
-    def prompt(self, prompt: str) -> tuple[str, PromptParameters]:
+    def prompt(self, prompt: str) -> tuple[str, PromptingState]:
         raise NotImplementedError
 
     def prompt_and_next_token_probs(
         self,
         prompt: str,
         max_new_tokens: int = 5,
-    ) -> tuple[str, dict[str, float], PromptParameters]:
+    ) -> tuple[str, dict[str, float], PromptingState]:
         raise NotImplementedError
 
 
@@ -418,7 +418,7 @@ class Aya101Model(TransformersModel):
         self.model = self._init_model(gpus, max_mem_per_gpu)
 
     @classmethod
-    def get_default_parameters(cls: type[Self]) -> PromptParameters:
+    def get_default_parameters(cls: type[Self]) -> PromptingState:
         return Aya101Model.DEFAULT_PARAMETERS
 
     def _init_model(
@@ -440,47 +440,47 @@ class Aya101Model(TransformersModel):
             token=self.token,
         )
 
-    def _get_prompt_parameters(
+    def _get_prompting_state(
         self,
         prompt: str,
         batch_encoding: BatchEncoding | None = None,
-        **prompt_parameters_kwargs,
+        **prompting_state_kwargs,
     ) -> TransformersPromptParameters:
         if batch_encoding is None:
             batch_encoding = self.tokenizer(prompt, return_tensors="pt").to(
                 self.model.device,
             )
 
-        return super()._get_prompt_parameters(
+        return super()._get_prompting_state(
             prompt,
             model_input_dict=batch_encoding,
-            **prompt_parameters_kwargs,
+            **prompting_state_kwargs,
         )
 
-    def get_prompt_parameters(self, prompt: str) -> PromptParameters:
-        return self._get_prompt_parameters(prompt)
+    def get_prompting_state(self, prompt: str) -> PromptingState:
+        return self._get_prompting_state(prompt)
 
-    def prompt(self, prompt: str) -> tuple[str, PromptParameters]:
+    def prompt(self, prompt: str) -> tuple[str, PromptingState]:
         batch_encoding: BatchEncoding = self.tokenizer(prompt, return_tensors="pt").to(
             self.model.device,
         )
 
-        prompt_parameters = self._get_prompt_parameters(
+        prompting_state = self._get_prompting_state(
             prompt,
             batch_encoding=batch_encoding,
         )
 
-        outputs = self._call_generate(self.model, prompt_parameters)
-        return self.tokenizer.decode(outputs[0], skip_special_tokens=True), prompt_parameters
+        outputs = self._call_generate(self.model, prompting_state)
+        return self.tokenizer.decode(outputs[0], skip_special_tokens=True), prompting_state
 
     def prompt_and_next_token_probs(
         self,
         prompt: str,
         max_new_tokens: int = 5,
-    ) -> tuple[str, dict[str, float], PromptParameters]:
+    ) -> tuple[str, dict[str, float], PromptingState]:
         batch_encoding = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
 
-        prompt_parameters = self._get_prompt_parameters(
+        prompting_state = self._get_prompting_state(
             prompt,
             batch_encoding=batch_encoding,
             max_output_tokens=max_new_tokens,
@@ -488,7 +488,7 @@ class Aya101Model(TransformersModel):
             output_scores=True,
         )
 
-        outputs = self._call_generate(self.model, prompt_parameters)
+        outputs = self._call_generate(self.model, prompting_state)
         assert isinstance(outputs, GenerateOutput)
         assert outputs.scores is not None
 
@@ -509,4 +509,4 @@ class Aya101Model(TransformersModel):
 
         output_str = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-        return output_str, token_probabilities, prompt_parameters
+        return output_str, token_probabilities, prompting_state

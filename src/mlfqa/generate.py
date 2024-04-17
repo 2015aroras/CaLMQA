@@ -28,21 +28,21 @@ def _prompt_model_and_store(  # noqa: PLR0913
     prompt = prompt.replace("[question_language]", q_translation_language.name)
     prompt = prompt.replace("[answer_language]", a_language.name)
 
-    prompt_parameters = model.get_prompt_parameters(prompt)
+    prompting_state = model.get_prompting_state(prompt)
 
     existing_answers = dataset.get_answers(
         question,
         a_language,
-        **dataclasses.asdict(prompt_parameters),
+        **dataclasses.asdict(prompting_state),
     )
     assert len(existing_answers) <= 1
 
     if not overwrite_existing_answers and len(existing_answers) == 1:
         return
 
-    response, prompt_parameters = model.prompt(prompt)
+    response, prompting_state = model.prompt(prompt)
 
-    answer = Answer.make(prompt_parameters, a_language, response)
+    answer = Answer.make(prompting_state, a_language, response)
     dataset.add_or_update_answer(question, answer)
 
 

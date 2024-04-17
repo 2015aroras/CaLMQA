@@ -11,7 +11,7 @@ import logging
 from pathlib import Path
 from typing import Any, Self, cast
 
-from models.model import Model, ModelName, PromptParameters
+from models.model import Model, ModelName, PromptingState
 from pydantic import Field as PyField
 from pydantic import RootModel, TypeAdapter
 from pydantic.dataclasses import dataclass
@@ -127,22 +127,22 @@ class AnswerTranslation:
 class Answer:
     language: Language
     translations: list[AnswerTranslation]
-    prompt_parameters: PromptParameters | None = PyField(default=None)
+    prompting_state: PromptingState | None = PyField(default=None)
     source: Source | None = PyField(default=None)
-    """Deprecated in favor of `prompt_parameters`"""
+    """Deprecated in favor of `prompting_state`"""
     prompt: str | None = PyField(default=None)
-    """Deprecated in  favor of `prompt_parameters`. What the source was prompted with to get this answer"""  # noqa: E501
+    """Deprecated in  favor of `prompting_state`. What the source was prompted with to get this answer"""  # noqa: E501
     option_probs: dict[str, float] | None = PyField(default=None)
 
     def __post_init__(self) -> None:
-        if self.prompt_parameters is not None:
+        if self.prompting_state is not None:
             return
 
         assert self.source is not None
         assert self.prompt is not None
 
         if self.source == "website user":
-            prompt_parameters = PromptParameters(self.prompt, ModelName.HUMAN, -1)
+            prompting_state = PromptingState(self.prompt, ModelName.HUMAN, -1)
         else:
             model_names = [model_name for model_name in ModelName if model_name.name == self.source]
             assert len(model_names) == 1
@@ -154,12 +154,12 @@ class Answer:
             prompt_params_dict["prompt"] = self.prompt
             prompt_params_dict["model_name"] = model_name
 
-            prompt_parameters = PromptParameters.make(**prompt_params_dict)
+            prompting_state = PromptingState.make(**prompt_params_dict)
 
         object.__setattr__(
             self,
-            "prompt_parameters",
-            prompt_parameters,
+            "prompting_state",
+            prompting_state,
         )
         object.__setattr__(
             self,
@@ -175,7 +175,7 @@ class Answer:
     @classmethod
     def make(
         cls: type[Self],
-        prompt_parameters: PromptParameters,
+        prompting_state: PromptingState,
         language: Language,
         text: str,
         *,
@@ -185,7 +185,7 @@ class Answer:
         return cls(
             language,
             [AnswerTranslation(language, text)],
-            prompt_parameters,
+            prompting_state,
             option_probs=option_probs,
         )
 
@@ -199,12 +199,12 @@ class Answer:
         option_probs: dict[str, float] | None = None,
     ) -> Answer:
         """Create a human's answer without any translations."""
-        prompt_parameters = PromptParameters(prompt, ModelName.HUMAN, -1)
+        prompting_state = PromptingState(prompt, ModelName.HUMAN, -1)
 
         return cls(
             language,
             [AnswerTranslation(language, text)],
-            prompt_parameters,
+            prompting_state,
             option_probs=option_probs,
         )
 
@@ -262,7 +262,7 @@ class Dataset:
 
             is_matching_answer = True
             for key, val in prompt_parameter_kwargs:
-                if getattr(answer.prompt_parameters, key, None) != val:
+                if getattr(answer.prompting_state, key, None) != val:
                     is_matching_answer = False
                     break
 
@@ -289,18 +289,18 @@ class Dataset:
         existing_answers = [
             entry_answer
             for entry_answer in entry.answers
-            if entry_answer.prompt_parameters == answer.prompt_parameters
+            if entry_answer.prompting_state == answer.prompting_state
         ]
         assert (
             len(existing_answers) <= 1
-        ), f"Too many answers match answer with prompt parameters: {answer.prompt_parameters}"
+        ), f"Too many answers match answer with prompt parameters: {answer.prompting_state}"
 
         if len(existing_answers) == 1:
             existing_answer = existing_answers[0]
             entry.answers = [
                 entry_answer
                 for entry_answer in entry.answers
-                if entry_answer.prompt_parameters != existing_answer.prompt_parameters
+                if entry_answer.prompting_state != existing_answer.prompting_state
             ]
 
         entry.answers.append(copy.deepcopy(answer))

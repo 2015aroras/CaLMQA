@@ -22,11 +22,11 @@ class ModelName(enum.Enum):
 
 
 @dataclass(frozen=True, config=ConfigDict(extra="allow"))
-class PromptParameters:
-    """Model parameters when prompting.
+class PromptingState:
+    """State when a model is being prompted.
 
-    Holds parameters that (ideally) can represent the state of a model when
-    it is being prompted.
+    Holds information that (ideally) can represent the global state when
+    a model is being prompted, so that the model prompting can be reproduced.
     """
 
     prompt: str | None
@@ -34,7 +34,7 @@ class PromptParameters:
     max_output_tokens: int
 
     @classmethod
-    def make(cls: type[Self], **kwargs) -> PromptParameters:
+    def make(cls: type[Self], **kwargs) -> PromptingState:
         model_name = kwargs["model_name"]
         assert isinstance(model_name, ModelName)
 
@@ -56,21 +56,21 @@ class Model(metaclass=ABCMeta):
 
     @classmethod
     @abstractmethod
-    def get_default_parameters(cls: type[Self]) -> PromptParameters:
+    def get_default_parameters(cls: type[Self]) -> PromptingState:
         pass
 
     @abstractmethod
-    def get_prompt_parameters(self, prompt: str) -> PromptParameters:
+    def get_prompting_state(self, prompt: str) -> PromptingState:
         pass
 
     @abstractmethod
-    def prompt(self, prompt: str) -> tuple[str, PromptParameters]:
+    def prompt(self, prompt: str) -> tuple[str, PromptingState]:
         pass
 
     @abstractmethod
     def prompt_and_next_token_probs(
         self, prompt: str, max_new_tokens: int = 5,
-    ) -> tuple[str, dict[str, float], PromptParameters]:
+    ) -> tuple[str, dict[str, float], PromptingState]:
         """Prompts the model and retrieves the probabilities for the first generated token."""
 
     @classmethod

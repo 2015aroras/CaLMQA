@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from pydantic.dataclasses import dataclass
 
-from models.model import Model, ModelName, PromptParameters
+from models.model import Model, ModelName, PromptingState
 
 if TYPE_CHECKING:
     from openai.types.chat import ChatCompletion
@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 
 @dataclass(frozen=True)
-class OpenAIPromptParameters(PromptParameters):
+class OpenAIPromptParameters(PromptingState):
     model: str = "gpt-4-0125-preview"
     n: int = 1
     presence_penalty: float = 0.0
@@ -45,7 +45,7 @@ class OpenAIModel(Model):
         self.client = OpenAI()
 
     @classmethod
-    def get_default_parameters(cls: type[Self]) -> PromptParameters:
+    def get_default_parameters(cls: type[Self]) -> PromptingState:
         return OpenAIModel.DEFAULT_PARAMETERS
 
     @property
@@ -54,20 +54,20 @@ class OpenAIModel(Model):
             return "gpt-4-0125-preview"
         raise NotImplementedError
 
-    def _call_chat_api(self, prompt_parameters: OpenAIPromptParameters) -> ChatCompletion:
-        if prompt_parameters.prompt is None:
+    def _call_chat_api(self, prompting_state: OpenAIPromptParameters) -> ChatCompletion:
+        if prompting_state.prompt is None:
             msg = "Prompt cannot be None"
             raise ValueError(msg)
 
         return self.client.chat.completions.create(
-            max_tokens=prompt_parameters.max_output_tokens,
-            model=prompt_parameters.model,
-            messages=[{"role": "user", "content": prompt_parameters.prompt}],
-            logprobs=prompt_parameters.logprobs,
-            top_logprobs=prompt_parameters.top_logprobs,
+            max_tokens=prompting_state.max_output_tokens,
+            model=prompting_state.model,
+            messages=[{"role": "user", "content": prompting_state.prompt}],
+            logprobs=prompting_state.logprobs,
+            top_logprobs=prompting_state.top_logprobs,
         )
 
-    def _get_prompt_parameters(self, prompt: str) -> OpenAIPromptParameters:
+    def _get_prompting_state(self, prompt: str) -> OpenAIPromptParameters:
         prompt_params_dict = dataclasses.asdict(self.get_default_parameters())
         prompt_params_dict["prompt"] = prompt
         prompt_params_dict["name"] = self.name
@@ -76,13 +76,13 @@ class OpenAIModel(Model):
 
         return OpenAIPromptParameters(**prompt_params_dict)
 
-    def get_prompt_parameters(self, prompt: str) -> PromptParameters:
-        return self._get_prompt_parameters(prompt)
+    def get_prompting_state(self, prompt: str) -> PromptingState:
+        return self._get_prompting_state(prompt)
 
-    def prompt(self, prompt: str) -> tuple[str, PromptParameters]:
-        prompt_parameters = self._get_prompt_parameters(prompt)
+    def prompt(self, prompt: str) -> tuple[str, PromptingState]:
+        prompting_state = self._get_prompting_state(prompt)
 
-        response = self._call_chat_api(prompt_parameters)
+        response = self._call_chat_api(prompting_state)
 
         choice = response.choices[0]
         if choice.finish_reason == "length":
@@ -95,13 +95,13 @@ class OpenAIModel(Model):
             msg = f"No message returned by model {self.name} for prompt {prompt}"
             raise RuntimeError(msg)
 
-        return choice.message.content, prompt_parameters
+        return choice.message.content, prompting_state
 
     def prompt_and_next_token_probs(
         self,
         prompt: str,
         max_new_tokens: int = 5,
-    ) -> tuple[str, dict[str, float], PromptParameters]:
+    ) -> tuple[str, dict[str, float], PromptingState]:
         prompt_params_dict = dataclasses.asdict(self.get_default_parameters())
         prompt_params_dict["name"] = self.name
         prompt_params_dict["max_output_tokens"] = max_new_tokens
@@ -109,9 +109,9 @@ class OpenAIModel(Model):
         prompt_params_dict["logprobs"] = True
         prompt_params_dict["top_logprobs"] = 8
 
-        prompt_parameters = OpenAIPromptParameters(**prompt_params_dict)
+        prompting_state = OpenAIPromptParameters(**prompt_params_dict)
 
-        response = self._call_chat_api(prompt_parameters)
+        response = self._call_chat_api(prompting_state)
 
         choice = response.choices[0]
         if choice.finish_reason == "length":
@@ -136,4 +136,4 @@ class OpenAIModel(Model):
         for top_logprob in top_logprobs:
             token_probabilities[top_logprob.token] = np.exp(top_logprob.logprob)
 
-        return choice.message.content, token_probabilities, prompt_parameters
+        return choice.message.content, token_probabilities, prompting_state
