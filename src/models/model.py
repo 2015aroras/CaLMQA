@@ -5,6 +5,7 @@ from abc import ABCMeta, abstractmethod
 from typing import Self
 
 from pydantic import ConfigDict
+from pydantic import Field as PyField
 from pydantic.dataclasses import dataclass
 
 __all__ = [
@@ -32,6 +33,7 @@ class PromptingState:
     prompt: str | None
     model_name: ModelName
     max_output_tokens: int
+    other_state: dict = PyField(default_factory=dict)
 
     @classmethod
     def make(cls: type[Self], **kwargs) -> PromptingState:
