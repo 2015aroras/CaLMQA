@@ -85,7 +85,7 @@ class Answer:
     ) -> Answer:
         """`Create an answer without any translations."""
         return cls(
-            name,
+            name.lower(),
             language,
             {language: AnswerTranslation(language, text)},
             prompting_state,
@@ -156,7 +156,7 @@ class Dataset:
         return matching_entries[0]
 
     def _answer_matches_state(self, answer: Answer, **state) -> bool:
-        return all(getattr(answer.prompting_state, key, None) == val for key, val in state)
+        return all(getattr(answer.prompting_state, key, None) == val for key, val in state.items())
 
     def get_answers(
         self,

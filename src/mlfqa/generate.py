@@ -88,7 +88,7 @@ def _prompt_model_and_store(  # noqa: PLR0913
     response, prompting_state = model.prompt(prompt)
     prompting_state.other_state.update(other_state)
 
-    answer_name = f"{question.name}:{prompting_state.model_name}"
+    answer_name = f"{question.name}:{q_translation_language}:{prompting_state.model_name.value}"
     if rag_num_documents > 0:
         answer_name += f":rag{rag_num_documents}"
 
