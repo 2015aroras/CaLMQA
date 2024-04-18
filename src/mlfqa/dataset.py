@@ -3,15 +3,14 @@ from __future__ import annotations
 import argparse
 import copy
 import csv
-import dataclasses
 import enum
-import hashlib
 import json
 import logging
+from collections import Counter
 from pathlib import Path
 from typing import Any, Self, cast
 
-from models.model import Model, ModelName, PromptingState
+from models.model import ModelName, PromptingState
 from pydantic import Field as PyField
 from pydantic import RootModel, TypeAdapter
 from pydantic.dataclasses import dataclass
@@ -34,41 +33,6 @@ class QuestionType(enum.IntFlag):
     ALL = NON_CULTURAL | CULTURAL | LONG_FORM
 
 
-@dataclass
-class QuestionID:
-    id: int
-
-    @classmethod
-    def make(
-        cls: type[Self],
-        source: Source,
-        original_translation: QuestionTranslation,
-    ) -> QuestionID:
-        original_translation_json = RootModel[QuestionTranslation](
-            original_translation,
-        ).model_dump_json()
-        string_to_hash = "|".join([str(source), original_translation_json])
-        return QuestionID(int(hashlib.sha256(string_to_hash.encode()).hexdigest(), 16))
-
-
-@dataclass
-class AnswerID:
-    id: int
-
-    @classmethod
-    def make(
-        cls: type[Self],
-        source: Source,
-        prompt: str,
-        language: Language,
-        option_probs: dict[str, float] | None,
-    ) -> AnswerID:
-        string_to_hash = "|".join(
-            [str(source), prompt, language.name, f"option_probs={option_probs}"],
-        )
-        return AnswerID(int(hashlib.sha256(string_to_hash.encode()).hexdigest(), 16))
-
-
 @dataclass(frozen=True)
 class QuestionTranslation:
     language: Language
@@ -80,25 +44,12 @@ class QuestionTranslation:
 
 @dataclass(frozen=True)
 class Question:
+    name: str
     type: QuestionType
     source: Source
     language: Language
     translations: dict[Language, QuestionTranslation]
     url: str | None = PyField(default=None)
-    q_id: QuestionID = PyField(default_factory=lambda: QuestionID(-1))
-
-    def __post_init__(self) -> None:
-        generated_hash = QuestionID.make(self.source, self.untranslated)
-
-        if self.q_id.id == -1:
-            object.__setattr__(
-                self,
-                "q_id",
-                generated_hash,
-            )
-        elif self.q_id != generated_hash:
-            msg = f"Question id {self.q_id} does not match expected id {generated_hash}"
-            raise ValueError(msg)
 
     @property
     def untranslated(self) -> QuestionTranslation:
@@ -113,56 +64,16 @@ class AnswerTranslation:
 
 @dataclass(frozen=True)
 class Answer:
+    name: str
     language: Language
     translations: dict[Language, AnswerTranslation]
     prompting_state: PromptingState | None = PyField(default=None)
-    source: Source | None = PyField(default=None)
-    """Deprecated in favor of `prompting_state`"""
-    prompt: str | None = PyField(default=None)
-    """Deprecated in  favor of `prompting_state`. What the source was prompted with to get this answer"""  # noqa: E501
     option_probs: dict[str, float] | None = PyField(default=None)
-
-    def __post_init__(self) -> None:
-        if self.prompting_state is not None:
-            return
-
-        assert self.source is not None
-        assert self.prompt is not None
-
-        if self.source == "website user":
-            prompting_state = PromptingState(self.prompt, ModelName.HUMAN, -1)
-        else:
-            model_names = [model_name for model_name in ModelName if model_name.name == self.source]
-            assert len(model_names) == 1
-            model_name = model_names[0]
-
-            model = Model.make(model_name, -1)
-
-            prompt_params_dict = dataclasses.asdict(model.get_default_parameters())
-            prompt_params_dict["prompt"] = self.prompt
-            prompt_params_dict["model_name"] = model_name
-
-            prompting_state = PromptingState.make(**prompt_params_dict)
-
-        object.__setattr__(
-            self,
-            "prompting_state",
-            prompting_state,
-        )
-        object.__setattr__(
-            self,
-            "source",
-            None,
-        )
-        object.__setattr__(
-            self,
-            "prompt",
-            None,
-        )
 
     @classmethod
     def make(
         cls: type[Self],
+        name: str,
         prompting_state: PromptingState,
         language: Language,
         text: str,
@@ -171,6 +82,7 @@ class Answer:
     ) -> Answer:
         """`Create an answer without any translations."""
         return cls(
+            name,
             language,
             {language: AnswerTranslation(language, text)},
             prompting_state,
@@ -180,6 +92,7 @@ class Answer:
     @classmethod
     def make_human_answer(
         cls: type[Self],
+        name: str,
         prompt: str,
         language: Language,
         text: str,
@@ -190,6 +103,7 @@ class Answer:
         prompting_state = PromptingState(prompt, ModelName.HUMAN, -1)
 
         return cls(
+            name,
             language,
             {language: AnswerTranslation(language, text)},
             prompting_state,
@@ -205,6 +119,19 @@ class Answer:
 class Dataset:
     entries: list[Dataset.Entry]
     default_save_path: str | None = PyField(default=None, exclude=True)
+
+    def __post_init__(self) -> None:
+        answer_names = [
+            answer.name
+            for entry in self.entries
+            for answer in entry.answers
+        ]
+
+        names_counter = Counter(answer_names)
+        duplicate_answer_names = {name for name in names_counter if names_counter[name] > 1}
+        if len(duplicate_answer_names) > 0:
+            msg = f"Duplicate answer names found in dataset: {duplicate_answer_names}"
+            raise ValueError(msg)
 
     @dataclass
     class Entry:
@@ -224,9 +151,9 @@ class Dataset:
         ]
 
     def _get_entry(self, question: Question) -> Dataset.Entry:
-        matching_entries = [entry for entry in self.entries if entry.question.q_id == question.q_id]
-        assert len(matching_entries) <= 1, f"More than 1 entry for question {question.q_id}"
-        assert len(matching_entries) >= 1, f"No entry for a question {question.q_id}"
+        matching_entries = [entry for entry in self.entries if entry.question.name == question.name]
+        assert len(matching_entries) <= 1, f"More than 1 entry for question {question.name}"
+        assert len(matching_entries) >= 1, f"No entry for a question {question.name}"
         return matching_entries[0]
 
     def get_answers(
@@ -308,7 +235,7 @@ class Dataset:
 
     def _merge_entries(self, entry: Dataset.Entry, other_entry: Dataset.Entry) -> None:
         assert entry.question.language == other_entry.question.language
-        assert entry.question.q_id == other_entry.question.q_id
+        assert entry.question.name == other_entry.question.name
         assert entry.question.source == other_entry.question.source
         assert entry.question.type == other_entry.question.type
         assert entry.question.url == other_entry.question.url
@@ -318,13 +245,13 @@ class Dataset:
         raise NotImplementedError(msg)
 
     def merge(self, other: Dataset) -> None:
-        self_entries_by_q_id = {entry.question.q_id.id: entry for entry in self.entries}
+        self_entries_by_q_name = {entry.question.name: entry for entry in self.entries}
 
         for other_entry in other.entries:
-            if other_entry.question.q_id.id not in self_entries_by_q_id:
+            if other_entry.question.name not in self_entries_by_q_name:
                 self.entries.append(copy.deepcopy(other_entry))
             else:
-                self_entry = self_entries_by_q_id[other_entry.question.q_id.id]
+                self_entry = self_entries_by_q_name[other_entry.question.name]
                 self._merge_entries(self_entry, other_entry)
 
 
@@ -341,11 +268,12 @@ class Field(enum.Enum):
 
 
 def _construct_dataset_from_dict_entries(
+    dataset_name: str,
     dict_entries: list[dict[Field, Any]],
 ) -> Dataset:
     entries: list[Dataset.Entry] = []
 
-    for dict_entry in dict_entries:
+    for i, dict_entry in enumerate(dict_entries):
         question_type = QuestionType.LONG_FORM
 
         if not isinstance(dict_entry[Field.IS_CULTURAL], bool):
@@ -376,6 +304,7 @@ def _construct_dataset_from_dict_entries(
             raise ValueError(msg)
 
         question = Question(
+            f"{dataset_name}:{i}",
             question_type,
             dict_entry[Field.QUESTION_SOURCE],
             language,
@@ -383,6 +312,7 @@ def _construct_dataset_from_dict_entries(
             dict_entry[Field.URL],
         )
         answer = Answer.make_human_answer(
+            f"{question.name}:human",
             question.untranslated.get_text(),
             language,
             dict_entry[Field.ANSWER],
@@ -393,7 +323,11 @@ def _construct_dataset_from_dict_entries(
     return Dataset(entries)
 
 
-def _construct_dataset_from_csv_and_metadata(csv_path: str, columns_metadata_path: str) -> Dataset:
+def _construct_dataset_from_csv_and_metadata(
+    csv_path: str,
+    columns_metadata_path: str,
+    dataset_name: str,
+) -> Dataset:
     with Path(csv_path).open("r") as prolific_data_file:
         csv_data = csv.DictReader(prolific_data_file)
 
@@ -435,12 +369,13 @@ def _construct_dataset_from_csv_and_metadata(csv_path: str, columns_metadata_pat
 
             dict_entries.append(dict_entry)
 
-    return _construct_dataset_from_dict_entries(dict_entries)
+    return _construct_dataset_from_dict_entries(dataset_name, dict_entries)
 
 
 def _construct_dataset_from_csvs_and_metadata(
     csv_paths: str,
     columns_metadata_path: str,
+    dataset_name: str,
 ) -> Dataset:
     return Dataset(
         [
@@ -449,6 +384,7 @@ def _construct_dataset_from_csvs_and_metadata(
             for entry in _construct_dataset_from_csv_and_metadata(
                 csv_path,
                 columns_metadata_path,
+                dataset_name,
             ).entries
         ],
     )
@@ -457,7 +393,11 @@ def _construct_dataset_from_csvs_and_metadata(
 def _construct_and_save_dataset(args: argparse.Namespace) -> None:
     dataset: Dataset
     if args.data_source == "csv":
-        dataset = _construct_dataset_from_csvs_and_metadata(args.csv_paths, args.metadata_path)
+        dataset = _construct_dataset_from_csvs_and_metadata(
+            args.dataset_name,
+            args.csv_paths,
+            args.metadata_path,
+        )
     else:
         msg = f"Unimplemented data source: {args.data_source}"
         raise NotImplementedError(msg)
@@ -489,6 +429,11 @@ def _perform_action(args: argparse.Namespace) -> None:
 def _prepare_construct_parser(construct_parser: argparse.ArgumentParser) -> None:
     construct_parser.set_defaults(action="construct")
 
+    construct_parser.add_argument(
+        "dataset_name",
+        type=str,
+        help="Dataset name, used to create question ids.",
+    )
     construct_parser.add_argument(
         "-o",
         "--out_file",
