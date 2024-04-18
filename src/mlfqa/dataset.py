@@ -8,7 +8,7 @@ import json
 import logging
 from collections import Counter
 from pathlib import Path
-from typing import Any, Self, cast
+from typing import TYPE_CHECKING, Any, Self, cast
 
 from models.model import ModelName, PromptingState
 from pydantic import Field as PyField
@@ -16,6 +16,9 @@ from pydantic import RootModel, TypeAdapter
 from pydantic.dataclasses import dataclass
 
 from mlfqa.language import Language
+
+if TYPE_CHECKING:
+    import random
 
 Source = str
 
@@ -121,11 +124,7 @@ class Dataset:
     default_save_path: str | None = PyField(default=None, exclude=True)
 
     def __post_init__(self) -> None:
-        answer_names = [
-            answer.name
-            for entry in self.entries
-            for answer in entry.answers
-        ]
+        answer_names = [answer.name for entry in self.entries for answer in entry.answers]
 
         names_counter = Counter(answer_names)
         duplicate_answer_names = {name for name in names_counter if names_counter[name] > 1}
@@ -156,6 +155,9 @@ class Dataset:
         assert len(matching_entries) >= 1, f"No entry for a question {question.name}"
         return matching_entries[0]
 
+    def _answer_matches_state(self, answer: Answer, **state) -> bool:
+        return all(getattr(answer.prompting_state, key, None) == val for key, val in state)
+
     def get_answers(
         self,
         question: Question,
@@ -169,16 +171,31 @@ class Dataset:
             if language is not None and answer.language != language:
                 continue
 
-            is_matching_answer = True
-            for key, val in prompt_parameter_kwargs:
-                if getattr(answer.prompting_state, key, None) != val:
-                    is_matching_answer = False
-                    break
-
-            if is_matching_answer:
+            if self._answer_matches_state(answer, **prompt_parameter_kwargs):
                 matching_answers.append(copy.deepcopy(answer))
 
         return matching_answers
+
+    def get_random_answers(
+        self,
+        num_answers: int,
+        exclude_answers: list[Answer],
+        rng: random.Random,
+        language: Language | None = None,
+        **prompt_parameter_kwargs,
+    ) -> list[Answer]:
+        excluded_answer_names = {answer.name for answer in exclude_answers}
+
+        candidate_answers = [
+            answer
+            for entry in self.entries
+            for answer in entry.answers
+            if answer.name not in excluded_answer_names
+            and (language is None or answer.language == language)
+            and self._answer_matches_state(answer, **prompt_parameter_kwargs)
+        ]
+
+        return rng.sample(candidate_answers, num_answers)
 
     def add_or_update_question_translation(
         self,
