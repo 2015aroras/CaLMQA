@@ -46,7 +46,7 @@ def _prompt_model_and_store(  # noqa: PLR0913
         if "[documents]" not in prompt_template:
             msg = f"Retrieval augmented requested but no [documents] placeholder in template {prompt_template}"
             raise ValueError(msg)
-        assert "[documents]" not in prompt
+        assert "[documents]" in prompt
 
         human_answers = dataset.get_answers(
             question,
@@ -269,8 +269,8 @@ def main() -> None:
         "--dataset_save_path",
         type=str,
         dest="dataset_save_path",
-        default="data/dataset.json",
-        help="Path of file to save the dataset to",
+        default=None,
+        help="Path of file to save the dataset to. Defaults to the load path",
     )
 
     # Local models args
@@ -313,7 +313,7 @@ def main() -> None:
         q_translation_langs=args.q_translation_langs,
         question_type=question_type,
         dataset_load_path=args.dataset_load_path,
-        dataset_save_path=args.dataset_save_path,
+        dataset_save_path=args.dataset_save_path or args.dataset_load_path,
         max_output_tokens=args.max_tokens,
         max_questions=args.max_questions,
         overwrite_answers=args.overwrite,
