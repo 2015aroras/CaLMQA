@@ -151,7 +151,7 @@ class Gemma7BModel(TransformersModel):
         prompt=None,
         model_name=ModelName.GEMMA_7B,
         max_output_tokens=2048,
-        model_path="google/gemma-7b-it",
+        model_path="google/gemma-1.1-7b-it",
     )
 
     def __init__(
