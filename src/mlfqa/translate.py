@@ -106,17 +106,19 @@ def translate(  # noqa: PLR0913
     question_type: QuestionType,
     dataset_load_path: str,
     dataset_save_path: str,
+    max_output_tokens: int,
     *,
     max_questions: int | None = None,
     translate_questions: bool = False,
     translate_answers: bool = False,
     overwrite_existing: bool = False,
     save_progress: bool = True,
+    **kwargs,
 ) -> None:
     dataset = Dataset.from_file(dataset_load_path)
     dataset.default_save_path = dataset_save_path
 
-    model = Model.make(model_name)
+    model = Model.make(model_name, max_output_tokens, **kwargs)
     prompt_template = Path(prompt_file_path).read_text()
 
     questions = dataset.get_questions(question_type, source_langs)
@@ -179,6 +181,12 @@ def main() -> None:
         help="Filters the type of questions for which translation occurs",
     )
     parser.add_argument(
+        "--max_tokens",
+        type=int,
+        default=2048,
+        help="Max tokens in output.",
+    )
+    parser.add_argument(
         "--max_questions",
         type=int,
         default=None,
@@ -221,6 +229,7 @@ def main() -> None:
         question_type=question_type,
         dataset_load_path=args.dataset_load_path,
         dataset_save_path=args.dataset_save_path or args.dataset_load_path,
+        max_output_tokens=args.max_tokens,
         max_questions=args.max_questions,
         translate_questions=args.type == "questions",
         translate_answers=args.type == "answers",

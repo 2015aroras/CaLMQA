@@ -11,6 +11,7 @@ class Language(enum.Enum):
     Hungarian = "Hungarian"
     Japanese = "Japanese"
     Korean = "Korean"
+    Polish = "Polish"
     Russian = "Russian"
     Spanish = "Spanish"
 
