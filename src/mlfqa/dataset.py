@@ -411,9 +411,9 @@ def _construct_and_save_dataset(args: argparse.Namespace) -> None:
     dataset: Dataset
     if args.data_source == "csv":
         dataset = _construct_dataset_from_csvs_and_metadata(
-            args.dataset_name,
             args.csv_paths,
             args.metadata_path,
+            args.dataset_name,
         )
     else:
         msg = f"Unimplemented data source: {args.data_source}"
