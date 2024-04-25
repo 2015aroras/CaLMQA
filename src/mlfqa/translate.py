@@ -174,11 +174,11 @@ def main() -> None:
         help="If set, only do translations with questions originally of the given languages",
     )
     parser.add_argument(
-        "--question_types_list",
+        "--question_types",
         type=lambda inp: QuestionType[inp],
         nargs="+",
-        default=[QuestionType.ALL],
-        help="Filters the type of questions for which translation occurs",
+        default=[QuestionType.NONE],
+        help="Filters the type of questions for which the model is prompted",
     )
     parser.add_argument(
         "--max_tokens",
@@ -218,7 +218,7 @@ def main() -> None:
     args = parser.parse_args()
 
     question_type = QuestionType.NONE
-    for q_type in args.question_types_list:
+    for q_type in args.question_types:
         question_type |= q_type
 
     translate(
