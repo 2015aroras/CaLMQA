@@ -203,8 +203,8 @@ def main() -> None:
         "--dataset_save_path",
         type=str,
         dest="dataset_save_path",
-        default="data/dataset.json",
-        help="Path of file to save the dataset to",
+        default=None,
+        help="Path of file to save the dataset to. Defaults to the load path",
     )
 
     args = parser.parse_args()
@@ -220,7 +220,7 @@ def main() -> None:
         target_langs=args.target_langs,
         question_type=question_type,
         dataset_load_path=args.dataset_load_path,
-        dataset_save_path=args.dataset_save_path,
+        dataset_save_path=args.dataset_save_path or args.dataset_load_path,
         max_questions=args.max_questions,
         translate_questions=args.type == "questions",
         translate_answers=args.type == "answers",
