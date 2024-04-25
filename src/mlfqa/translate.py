@@ -1,9 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import re
 from pathlib import Path
 
-from models.model import Model, ModelName
+from models.model import Model, ModelName, PromptingState
 from tqdm import tqdm
 
 from mlfqa.dataset import Dataset, Question, QuestionTranslation, QuestionType
@@ -14,11 +15,25 @@ def _translate_text(
     text: str,
     source_lang: Language,
     target_lang: Language,
-    model: Model,
     prompt_template: str,
-) -> str:
+    model: Model,
+    *,
+    context: str | None = None,
+) -> tuple[str, PromptingState]:
     prompt = prompt_template
+
+    text = re.sub("\n+", "\n", text)
     prompt = prompt.replace("[text]", text)
+
+    if "[context]" in prompt_template:
+        assert "[context]" in prompt
+        if context is None:
+            msg = "Context expected in prompt but not provided"
+            raise ValueError(msg)
+
+        context = re.sub("\n+", "\n", context)
+        prompt = prompt.replace("[context]", context)
+
     prompt = prompt.replace("[source_language]", source_lang.value)
     prompt = prompt.replace("[target_language]", target_lang.value)
 
@@ -52,23 +67,30 @@ def _translate_and_store(  # noqa: PLR0913
                 target_lang not in question.translations or overwrite_existing
             ):
                 original_translation = question.translations[q_language]
-                translated_question = _translate_text(
+
+                human_answers = dataset.get_answers(
+                    question,
+                    q_language,
+                    model_name=ModelName.HUMAN,
+                )
+                if len(human_answers) > 1:
+                    msg = f"{len(human_answers)} {q_language} human answers found for question"
+                    raise RuntimeError(msg)
+                context = human_answers[0].untranslated.text if len(human_answers) > 0 else None
+
+                translated_question, prompting_state = _translate_text(
                     original_translation.get_text(),
                     q_language,
                     target_lang,
-                    model,
                     prompt_template,
+                    model,
+                    context=context,
                 )
-
-                use_translation_as_title = (
-                    original_translation.elaboration is None and original_translation.text is None
-                )
-                assert original_translation.title is not None or not use_translation_as_title
 
                 question_translation = QuestionTranslation(
                     target_lang,
-                    title=translated_question if use_translation_as_title else None,
-                    text=translated_question if not use_translation_as_title else None,
+                    translated_question,
+                    prompting_state,
                 )
                 dataset.add_or_update_question_translation(question, question_translation)
 

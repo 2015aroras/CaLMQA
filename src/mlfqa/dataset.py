@@ -40,6 +40,7 @@ class QuestionType(enum.IntFlag):
 class QuestionTranslation:
     language: Language
     text: str
+    prompting_state: PromptingState | None = PyField(default=None)
 
     def get_text(self) -> str:
         return self.text
