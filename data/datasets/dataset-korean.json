@@ -11,6 +11,22 @@
           "Korean": {
             "language": "Korean",
             "text": "바다식목일은 무엇인가요\n\n바다식목일은 언제인가요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is Sea Forestation Day, and when is it observed?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n정부에서는 바다에 해조류를 심어 바다숲을 가꾸어 훼손된 연안생태계를 복원하고 해양생태계의 중요성에 대한 국민적 관심을 끌어내기 위해 2012년에 바다식목일을 법정 기념일(5월 10일)로 지정하고 2013년부터 매년기념행사를 개최하고 있습니다\n관련법령 : 수산자원관리법 제3조의2(바다식목일)\n작성부서 : 해양수산부 수산정책실 어업자원정책관 수산자원정책과 | 044-200-5532\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n바다식목일은 무엇인가요\n바다식목일은 언제인가요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=60105&docId=450611699"
@@ -45,6 +61,22 @@
           "Korean": {
             "language": "Korean",
             "text": "시외버스 고속버스 차이점\n\n시외버스여도 휴게소 빼고 중간경유지가 없는데가 있고 고속버스여도 중간경유지가 있는 게 있는데(예: 신갈) 시외버스와 고속버스는 어떤 기준으로 나뉘는 건가요?!"
+          },
+          "English": {
+            "language": "English",
+            "text": "What are the criteria that differentiate express buses from intercity buses? Some intercity buses, excluding rest stops, do not have any intermediate stops, whereas some express buses do have them (for example, Singal).",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n고속버스와 시외버스 차이점은 일단 면허관할하는 기관이 고속버스는 국토교통부에서 담당하고 시외버스는 광역자치단체에서 담당을 합니다. 그리고 고속버스는 인가조건이 노선거리 100km이상에 고속도로운행비율 60%이상이 되어야하며 시외버스는 노선거리 10km이상에 국도/고속도로운행비율이 정해져있지는 않습니다.\n중간경유지조건도 고속버스는 출/도착 터미널지역에 각각1곳, 그 외 지역에 1곳 이렇게 둘 수 있으며 시외버스는 중간경유지제한이 없으며 고속버스와 시외버스 운행에 중간경유지가 없어도 됩니다. \n운임책정에도 차이점이 있지만 이거까지는 말씀드리면 너무 말이 길어지니 생략하도록 하겠습니다.\n그리고 제일 중요한 게 일반인분들은 많이 모르시는 부분인데 시외버스회사여도 고속노선면허를 소유할 수가 있고, 고속버스회사여도 시외노선면허를 소유할 수가 있으며 상황에 따라서 시외-고속 전환도 가능합니다. 현재 코로나이후로는 노선이 합병되거나 분리되거나 해서 고속에서 시외로 전환하거나 시외에서 고속으로 전환하는 경우가 많다보니 지금은 버스회사만 가지고 시외/고속 구분하는건 현직분들이나 교통에 관심이 많은 매니아분들 아니고서는 힘듭니다.\n\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n시외버스 고속버스 차이점\n시외버스여도 휴게소 빼고 중간경유지가 없는데가 있고 고속버스여도 중간경유지가 있는 게 있는데(예: 신갈) 시외버스와 고속버스는 어떤 기준으로 나뉘는 건가요?!\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=81202&docId=467505251"
@@ -79,6 +111,22 @@
           "Korean": {
             "language": "Korean",
             "text": "우산은 어디다가 버려야 하나요?\n술집 매장에서 일하는 사람입니다.\n우산은 어디다 버려본 적이 없어서 질문드려요\n\n매장에 손님들이 그도안 두고간 우산들이 쌓이고 쌓여서 \n(저와 알바들이 한번씩 비오는날 그 우산들로 퇴근하고 해도 시간이 지나면\n쌓이는게 우산이더군요..)\n\n최소치 몇개만 빼고 열개가량은 지금 버리려 하는데\n재활용 수거해가는데다가 내놓으면 되는건지\n저희 매장이  일반쓰레기 버리는 전봇대쪽에  재활용 모아두는 봉투도 근처에 버리고있거든요\n긴 우산들은 봉투에 안들어가거나 어찌어찌 넣어도 봉투가 찢어지는데\n그냥 재활용 내놓는곳에다가 바닥에 놓아두면 같이 치워가시나요?\n일반쓰레기는 아닌거 같고.. 궁금해서 질문드립니다."
+          },
+          "English": {
+            "language": "English",
+            "text": "Where should I dispose of umbrellas? \n\nI work at a bar, and I've never had to dispose of umbrellas before, so I'm asking this question. We have a growing pile of umbrellas left behind by customers in our store. Even though my coworkers and I use them on rainy days when we go home, over time, the number of umbrellas just keeps increasing. I’m thinking of throwing away about ten of them, leaving only a few behind. I’m wondering if I should put them out for recycling collection, since we usually put our recycling bags near the utility pole where we dispose of general waste. The longer umbrellas don’t fit in the bags or they tear through them if we try to force them in. Can I just leave them on the ground at the recycling drop-off point? They don’t seem to be regular trash, and I’m curious about what to do.",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n우산은 어디다가 버려야 하나요?\n술집 매장에서 일하는 사람입니다.\n우산은 어디다 버려본 적이 없어서 질문드려요\n매장에 손님들이 그도안 두고간 우산들이 쌓이고 쌓여서 \n(저와 알바들이 한번씩 비오는날 그 우산들로 퇴근하고 해도 시간이 지나면\n쌓이는게 우산이더군요..)\n최소치 몇개만 빼고 열개가량은 지금 버리려 하는데\n재활용 수거해가는데다가 내놓으면 되는건지\n저희 매장이  일반쓰레기 버리는 전봇대쪽에  재활용 모아두는 봉투도 근처에 버리고있거든요\n긴 우산들은 봉투에 안들어가거나 어찌어찌 넣어도 봉투가 찢어지는데\n그냥 재활용 내놓는곳에다가 바닥에 놓아두면 같이 치워가시나요?\n일반쓰레기는 아닌거 같고.. 궁금해서 질문드립니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n우산은 어디다가 버려야 하나요?\n술집 매장에서 일하는 사람입니다.\n우산은 어디다 버려본 적이 없어서 질문드려요\n매장에 손님들이 그도안 두고간 우산들이 쌓이고 쌓여서 \n(저와 알바들이 한번씩 비오는날 그 우산들로 퇴근하고 해도 시간이 지나면\n쌓이는게 우산이더군요..)\n최소치 몇개만 빼고 열개가량은 지금 버리려 하는데\n재활용 수거해가는데다가 내놓으면 되는건지\n저희 매장이  일반쓰레기 버리는 전봇대쪽에  재활용 모아두는 봉투도 근처에 버리고있거든요\n긴 우산들은 봉투에 안들어가거나 어찌어찌 넣어도 봉투가 찢어지는데\n그냥 재활용 내놓는곳에다가 바닥에 놓아두면 같이 치워가시나요?\n일반쓰레기는 아닌거 같고.. 궁금해서 질문드립니다.\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=80901&docId=441979891"
@@ -113,6 +161,22 @@
           "Korean": {
             "language": "Korean",
             "text": "야구 시구 안치는 이유\n야구에서 연예인들이 시구하러 나오면 타자가 타석에 서는데 왜 공을 안치나요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why don't batters hit the ball when celebrities throw the first pitch in a baseball game?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n시구는 해당 경기의 홈구단 팬들중에서 유명인을 선정해서 시행합니다.\n​\n시구라는것 자체가 선수 외에는 아무도 올라갈수없는 마운드위에 한번 서게 하는 상징적 효과가 있습니다. 야구의 불문율에는 투수 외의 야수들도 공수교대나 아웃으로 인해 덕아웃으로 돌아갈때 마운드를 지나가지 못한다는 룰도 존재합니다.\n​\n그 정도로 야구에서 가장 신성한 곳이 마운드인데, \n여기에 올라가서 투구를 하는것 자체가 비야구인들에게는 아주 상징적인 일에 해당하는것이죠.\n​\n시구에는 헛스윙해주는게 에티켓입니다.\n​\n과거 이종범이 시구를 타격했다가 시구자를 맞힐뻔한 사건도 있었는데, 자칫하면 사고로 이어질수도 있고 매너에 어긋나는 행위가 바로 시구를 치는 행위입니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n야구 시구 안치는 이유\n야구에서 연예인들이 시구하러 나오면 타자가 타석에 서는데 왜 공을 안치나요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=10&dirId=10010202&docId=445206826"
@@ -147,6 +211,22 @@
           "Korean": {
             "language": "Korean",
             "text": "소면을 물에 헹구는 이유가 있나요\n칼국수는 바로 육수에 끓여서 먹는데\n\n잔치국수는 육수 따로 끓이고\n\n소면을 따로 삶아서 \n\n물에 헹구어서 먹어요 \n\n소면을 칼국수처럼 바로 육수에 넣지 않고\n\n따로 삶아서 물에 헹구는 이유가 있나요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why do we rinse somyeon in water instead of cooking it directly in the broth like we do with kalguksu? For dishes like banquet noodles, the broth is prepared separately, and the somyeon is boiled separately then rinsed in water before eating. Is there a reason for not putting the somyeon directly into the broth like kalguksu, but instead boiling it separately and rinsing it?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n소면을 삶마 헹구지 않으면 전분질때문에 걸쭉해지고\n찬물에 주물러 빨듯이 해야 면이 탱글탱글 또렷또렷해져서 식감이 좋아지고\n전분질도 씻겨져서 국물맛도 좋아지고\n면도 오래 둬도 덜 불기 때문에 소면삶마 물에 씻고 여러번 헹군답니다\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n소면을 물에 헹구는 이유가 있나요\n칼국수는 바로 육수에 끓여서 먹는데\n잔치국수는 육수 따로 끓이고\n소면을 따로 삶아서 \n물에 헹구어서 먹어요 \n소면을 칼국수처럼 바로 육수에 넣지 않고\n따로 삶아서 물에 헹구는 이유가 있나요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=5&dirId=50502&docId=429561704"
@@ -181,6 +261,22 @@
           "Korean": {
             "language": "Korean",
             "text": "조사 '이'와 '은'의 차이 질문\n\n안녕하세요. \n\n지하철이 빠르고 안전해요. 그래서 학교에 갈 때 지하철을 타요.\n\n지하철은 빠르고 안전해요. 그래서 학교에 갈 때 지하철을 타요.\n\n\n두 문장의 차이가 무엇인가요?\n\n첫번째 문장의 '이'는 새로운 화제의 도입, 두번째 문장의 '은'은 일반적인 사실 언급인데 뉘앙스에서 어떤 차이가 있는지 궁금합니다."
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the difference between the particles \"이\" and \"은\" in the sentences?\n\nHello, \nThe subway is fast and safe. That's why I take the subway to school.\nThe subway is (generally) fast and safe. That's why I take the subway to school.\n\nWhat is the difference between these two sentences? I understand that \"이\" in the first sentence introduces a new topic, while \"은\" in the second sentence refers to mentioning a general fact, but I'm curious about the nuance difference between them.",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n이/가'는 주격조사, '은/는'은 보조사입니다. 기본적인 차이는 '이/가'는 격조사이기 때문에 이것이 붙는 것만으로 앞의 체언과 함께 주어를 이룹니다. 하지만 '은/는'은 보조사이기 때문에 주어, 목적어, 부사어, 서술어 등 거의 모든 성분에 사용이 가능합니다. \n​\n또 다른 차이는 '이/가'는 알려지지 않은 새로운 정보와 결합하지만 '은/는'은 이미 언급되거나 알려진 정보와 결합합니다. \n​\n옛날에 한 할아버지(가) 살았어\n할아버지(는) 새끼 염소 한마리(가) 있었어\n그 새끼 염소(는) 매우 귀여웠어\n새끼 염소(는) 새로난 뿔(이) 아주 작고 귀여웠어\n​\n그래서 '이/가'와 결합한 정보는 '미지 정보(알지 못하는 정보)', '은/는'과 결합한 정보는 '기지 정보(이미 알고 있는 정보)'라고 합니다. \n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n조사 '이'와 '은'의 차이 질문\n안녕하세요. \n지하철이 빠르고 안전해요. 그래서 학교에 갈 때 지하철을 타요.\n지하철은 빠르고 안전해요. 그래서 학교에 갈 때 지하철을 타요.\n두 문장의 차이가 무엇인가요?\n첫번째 문장의 '이'는 새로운 화제의 도입, 두번째 문장의 '은'은 일반적인 사실 언급인데 뉘앙스에서 어떤 차이가 있는지 궁금합니다.\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=11080103&docId=457321603"
@@ -215,6 +311,22 @@
           "Korean": {
             "language": "Korean",
             "text": "왜 대학교 졸업에는 조기졸업 코스모스 졸업이 따로 있는 이유가 무엇인가요\n대학교 같은경우 에는 조기졸업 하고\n\n코스모스 졸업이 따로있어요\n\n그렇다면\n\n대학교 졸업은\n\n조기졸업 하고 코스모스\n\n졸업이 따로 있는\n\n이유가 무엇인가요\n\n왜 그런지 알려주세요"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the reason for having separate early graduation and \"Cosmos\" graduations in universities?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n대학교는 고등학교와 달리 필요한 수업 수 및 졸업 조건 (졸업 논문, 발표, 전시, 또는 자격증)을 채우면 졸업이 가능해집니다. 따라서 사람에 따라 그 조건을 빨리 채우거나 늦게 채운다면 4년보다 일찍 졸업하게 되는 조기졸업이나 겨울이 아닌 여름에 졸업하게 되는 코스모스 졸업이 가능하게 됩니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n왜 대학교 졸업에는 조기졸업 코스모스 졸업이 따로 있는 이유가 무엇인가요\n대학교 같은경우 에는 조기졸업 하고\n코스모스 졸업이 따로있어요\n그렇다면\n대학교 졸업은\n조기졸업 하고 코스모스\n졸업이 따로 있는\n이유가 무엇인가요\n왜 그런지 알려주세요\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=110502&docId=408010160"
@@ -249,6 +361,22 @@
           "Korean": {
             "language": "Korean",
             "text": "추석 보름달 왜 뜨는 건지 궁금하고 또 언제 어디서 볼 수 있는지 궁금합니다\n알려주세용"
+          },
+          "English": {
+            "language": "English",
+            "text": "I'm curious about why the full moon rises during Chuseok and also when and where I can see it. Could you please tell me?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n추석에는 왜 항상 달의 모양이 보름달일까요?\n달 – 지구 – 태양 순으로 일직선으로 배열되어 달의 전체면이 태양빛을 반사하여 보름달로 보입니다.\n​\n달의 모양은 지구와 달, 태양의 위치에 따라 모양이 달라지게 됩니다. 이것을 달의 위상이라고 합니다.\n​\n지구-달-태양 순으로 배열이 되면 태양에 의해 달이 보이지 않으므로 달의 위상이 삭이 됩니다.\n​\n달-지구-태양 순으로 배열이 되면 태양의 반대편에 달이 위치하여 빛을 반사하여 달의 동그란 모양이 다 보이게 됩니다.\n​\n이것이 우리가 말하는 보름달이고, 달의 위상으로는 망이라고 합니다.추석 때는 음력 15일로 달-지구-태양 즉 지구를 기준으로 달과 태양이 일직선으로 배열이 되기 때문에 밝은 보름달 모양입니다.\n그래도 보름달이 뜨는 시간은 정해져있기 때문에 뜨는 시간정도는 인지하고 계시는 게 좋을 것 같습니다. 놓치지 않도록 이 글을 꼭 참고하세요https://alpadragon.co.kr/%ec%b6%94%ec%84%9d-%eb%b3%b4%eb%a6%84%eb%8b%ac/\n한국사람 대부분이 추석 보름달을 못 보는 이유?+ 해결책 - 세상 읽어주는 용\n추석 보름달\nalpadragon.co.kr\n\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n추석 보름달 왜 뜨는 건지 궁금하고 또 언제 어디서 볼 수 있는지 궁금합니다\n알려주세용\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=6130103&docId=455033235"
@@ -283,6 +411,22 @@
           "Korean": {
             "language": "Korean",
             "text": "권리금이 뭔지 쉽게 설명부탁드립니다\n안녕하세요\n\n\n1. 권리금이 뭔지 정말 쉽게 설명부탁드려요"
+          },
+          "English": {
+            "language": "English",
+            "text": "Could you please explain in simple terms what a \"goodwill payment\" is?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n간단하게 말하면 권리금이란 원래 장사하고 있던 사람이 끌어놓은 고객에 대한 금액이라고 생각하시면 됩니다. 만약 A라는 빵집이 있었는데 그 자리에서 작성자님이 B라는 빵집을 운영하려 한다고 가정해 볼게요. A라는 빵집의 인기가 많았다면 고객도 많았을 것이고 그 고객들은 자연스럽게 그 자리에 새로 생긴 작성자님의 B빵집으로 오게될 것입니다. A빵집이 장사가 잘되던 집이었다면 권리금이 비싼 이유가 이것이죠.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n권리금이 뭔지 쉽게 설명부탁드립니다\n안녕하세요\n1. 권리금이 뭔지 정말 쉽게 설명부탁드려요\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=4&dirId=402&docId=431668164"
@@ -317,6 +461,22 @@
           "Korean": {
             "language": "Korean",
             "text": "방송에서 상표를 가리는 이유\n제목 그대로\n그리고 브랜드 명도 가리던데..\n이유가 궁금해요"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why are logos blurred out on TV shows?\nJust as the title says,\nAnd they even cover up brand names...\nI'm curious about the reason.",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n제59조의3 방송법 시행령에 써있는 법 때문에 간접광고를 막기 위해서이고,\n협찬을 받지 않았는데도 간접적으로 홍보가 되면 알고보니 문제가 있던 (부실설계, 과대포장 등 이미지가 안좋은)\n브랜드였다면 그 간접광고로 인해 궁금해서 사게 된 사람들에게 피해가 가기 때문에 간접광고,홍보를 막기 위해서입니다.\n​\nhttps://glaw.scourt.go.kr/wsjo/lawod/sjo192.do?contId=2224762&jomunNo=59&jomunGajiNo=3\n \n제59조의3 (간접광고) > 법령 > 법령조문조회 | 종합법률정보\n법령조문 ' 제59조의3 (간접광고) ' 최신공포법령 은 공포일자별로 구분하여 제공하고 있습니다.[자세히 보기] 법령전체보기 제59조의3 간접광고 전체연혁 (59) 연혁법령 (58) 최신법령 (1) 예정법령 (0) 관련판례 (0) 관련문헌 (1) 제32274호 2021. 12. 28. [타법개정] 제32198호 2021. 12. 9. [일부개정] 제32014호 2021. 9. 24. [타법개정] 제31658호 2021. 4. 30. [일부개정] 제31614호 2021. 4. 6. [타법개정] 제31445호 2021. 2. 17. [...\nglaw.scourt.go.kr\n요 링크는 제가 말한 방송법 시행령에 대한 법 입니다. 궁금하시면 보세요.\n\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n방송에서 상표를 가리는 이유\n제목 그대로\n그리고 브랜드 명도 가리던데..\n이유가 궁금해요\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=1&dirId=109&docId=416465255"
@@ -351,6 +511,22 @@
           "Korean": {
             "language": "Korean",
             "text": "샌드바샤크 샌드타이거샤크 차이\n차이가 무엇인가요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the difference between a Sandbar Shark and a Sand Tiger Shark?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n\"샌드바샤크\"와 \"샌드타이거샤크\"는 둘 다 대체로 동일한 종류의 상어를 가리키는 용어입니다. 이 두 용어는 서로 바꿔 사용되거나 혼용되는 경우도 많기 때문에 정확한 차이를 명확히 설명하기 어렵습니다. 그러나 보통 이 두 용어가 사용되는 맥락에 따라 다르게 해석될 수 있습니다.\n​\n샌드바샤크 (Sandbar Shark):\n​\n샌드바샤크는 대개 \"Carcharhinus plumbeus\"라고 불리는 상어의 일반적인 이름입니다.\n주로 조용한 수역, 해변 근처의 모래 바닷물에서 발견됩니다.\n몸은 회색이며 몸통의 하단 부분이 더 밝은 색을 띠고 있습니다.\n물고기, 갑각류, 조개류 등 다양한 먹이를 먹습니다.\n​\n샌드타이거샤크 (Sand Tiger Shark):\n​\n샌드타이거샤크는 \"Carcharias taurus\"라고 불리는 상어의 다른 이름 중 하나입니다.\n몸은 길고 가늘며, 이 샌드타이거샤크는 눈에 두 개의 흰색 마크가 있는 것이 특징입니다.\n주로 서늘한 물에서 수영하며, 큰 아가미로 물의 공기를 흡입하여 부양합니다.\n작은 물고기나 물고기의 알, 오징어 등을 먹습니다.\n​\n요약하면, \"샌드바샤크\"와 \"샌드타이거샤크\"는 다소 혼란스러울 수 있는 상어의 종류에 대한 다른 이름 중 하나입니다. 어떤 경우에는 동일한 종을 가리키는 용어로 사용되며, 다른 경우에는 서로 다른 하위 종을 가리키기도 합니다.따라서 맥락에 따라 정확한 상어의 종을 파악하는 것이 중요합니다.\n\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n샌드바샤크 샌드타이거샤크 차이\n차이가 무엇인가요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=1125&docId=454838156"
@@ -385,6 +561,22 @@
           "Korean": {
             "language": "Korean",
             "text": "들깨차 효능 질문있습니다! (창원 70대후반/여 성인영양)\n안녕하세요. 들깨차 효능이 어떤게 있죠?\n\n이번에 꾸준히 먹으려고요.\n\n자세히 설명해주세요!"
+          },
+          "English": {
+            "language": "English",
+            "text": "Question: I have a question about the benefits of perilla seed tea! (A woman in her late 70s from Changwon seeking adult nutrition advice)\nHello, what are the benefits of perilla seed tea?\nI'm planning to start drinking it regularly.\nCould you please explain in detail?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n안녕하세요, 닥톡-네이버 지식iN 상담영양사 주소영입니다.\n들깨차는 들깨씨를 사용하여 만든 차로, 다양한 효능을 가지고 있습니다. 주요 효능은 다음과 같습니다:\n1. 항산화 작용: 들깨에는 항산화 작용을 하는 비타민 E와 다양한 항산화 물질이 함유되어 있습니다. 이러한 성분들은 자유 라디칼을 제거하여 산화 스트레스를 완화시키고, 세포 손상을 예방하는데 도움을 줄 수 있습니다.\n2. 면역력 강화: 들깨에는 면역력을 강화시키는 성분들이 함유되어 있습니다. 들깨에는 항균 및 항염증 효과가 있는 성분들이 있어 감기 및 기타 감염병에 대한 저항력을 향상시킬 수 있습니다.\n3. 혈압 조절: 들깨에는 혈압을 조절하는데 도움을 주는 성분들이 함유되어 있습니다. 들깨차를 섭취하면 혈압을 안정시키고 혈관을 확장시켜 혈액 순환을 개선시킬 수 있습니다.\n4. 피부 개선: 들깨에는 피부 건강에 도움을 주는 성분들이 함유되어 있습니다. 들깨차를 섭취하면 피부를 촉촉하고 윤기 있게 유지시키는데 도움을 줄 수 있습니다. 또한, 들깨에는 항염증 작용이 있어 피부 염증을 완화시키는데 도움을 줄 수 있습니다.\n5. 소화 개선: 들깨에는 소화를 돕는데 도움을 주는 성분들이 함유되어 있습니다. 들깨차를 섭취하면 소화 효소의 분비를 촉진시키고 위산의 분비를 조절하는데 도움을 줄 수 있어 소화를 원활하게 도와줍니다.\n들깨차는 일반적으로 안전한 음료로 알려져 있지만, 들깨에는 알레르기 반응을 일으킬 수 있는 성분들이 함유되어 있으므로, 들깨에 알레르기가 있는 사람은 주의해야 합니다. 또한, 개인의 건강 상태와 약물 복용 여부에 따라 효과와 부작용이 달라질 수 있으므로, 의사나 전문가와 상담하여 적절한 섭취 방법을 알아보는 것이 좋습니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n들깨차 효능 질문있습니다! (창원 70대후반/여 성인영양)\n안녕하세요. 들깨차 효능이 어떤게 있죠?\n이번에 꾸준히 먹으려고요.\n자세히 설명해주세요!\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=7&dirId=71103&docId=451274756&qb=65Ok6rmo&enc=utf8&section=kin&rank=1&search_sort=0&spq=0"
@@ -419,6 +611,22 @@
           "Korean": {
             "language": "Korean",
             "text": "발사믹 식초 와 흑식초 차이\n제목 그대로 발사믹 식초와 흑식초의 차이를 알고싶습니다.\n\n답변 기다리겠습니다. 감사합니다."
+          },
+          "English": {
+            "language": "English",
+            "text": "What's the difference between balsamic vinegar and black vinegar? As the title says, I'd like to know the differences between balsamic vinegar and black vinegar. Looking forward to your answer. Thank you.",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n흑초는 현미식초를 더 발효시켜 만든 것이고\n​\n발사믹식초는 이탈리아에서 포도로 만든 식초를 말해요\n와인으로 만든 식초는 와인식초라 부릅니다\n\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n발사믹 식초 와 흑식초 차이\n제목 그대로 발사믹 식초와 흑식초의 차이를 알고싶습니다.\n답변 기다리겠습니다. 감사합니다.\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=8020117&docId=391732342"
@@ -453,6 +661,22 @@
           "Korean": {
             "language": "Korean",
             "text": "패딩 세탁 어떻게 하죠\n이거 mlb패딩 흰색인데 세탁을 어떻게 해야하죠? 소매 부분도 너무 더러워서 부분세탁을 해도 되는 건가요…? 드라이클리닝은 하지 말라고 하는데… 알려주세요"
+          },
+          "English": {
+            "language": "English",
+            "text": "How should I wash my padding jacket?\nIt's a white MLB padding jacket and I'm wondering how to clean it properly. The sleeves are very dirty, so is it okay to just partially wash those areas? They say not to dry clean it… Please let me know.",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n패딩의 경우 부분 세탁도 가능합니다.\n중성세제와 부드러운 솔을 이용하여 지저분한 부분이나 때탄 곳을 세제와 솔을 이용하여 문질러 지우시고 깨끗하게 헹굼을 하신 후, 마른 수건으로 물기를 딲고, 건조하시면 됩니다.\n전체적으로 세탁시에는 중성세제나 약산성 잔용세제를 사용하여 세탁하시면 됩니다.\n건조는 자연건조를 하시고, 거의 건조가 완료된 다음 건조기에 넣어서 돌리시면 처음의 부피로 돌아옵니다.\n충전재의 쏠림 현상도 복원이 가능합니다.\n답변이 도움이 되었으면 합니다.\n\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n패딩 세탁 어떻게 하죠\n이거 mlb패딩 흰색인데 세탁을 어떻게 해야하죠? 소매 부분도 너무 더러워서 부분세탁을 해도 되는 건가요…? 드라이클리닝은 하지 말라고 하는데… 알려주세요\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=80903&docId=409269818"
@@ -487,6 +711,22 @@
           "Korean": {
             "language": "Korean",
             "text": "패션 용어들이 궁금해요! (a형 치마,테크웨어,캐주얼 등)\n옷에 완전히 문외한이기도 하고 알아보고 질문해요!\n\n예를 들어서\n스타일\n\n네츄럴: ~~~\n캐쥬얼: ~~~~\n댄디: ~~\n테크웨어:~~~\n\n이런 식으로 알아보기 쉽게 잘 설명해주시면 좋을 것같아요!\n\n이 외에도 치마(H형 등) ,목부분(v넥 등)같은 말이나 조끼,스웨터,후드,맨투맨,블라우스,시스루같은 상의,하의 종류, 소재? 면,실크 같은 거요!\n\n기본적인 패션 용어들 좀 알려주세요!\n자세하고 간단하게 알아보기 쉽게 써주세요! 내공 300"
+          },
+          "English": {
+            "language": "English",
+            "text": "I'm curious about fashion terms! (like A-line skirts, techwear, casual, etc.)\nI'm completely new to fashion and I'm looking to learn, so please explain it in a way that's easy to understand!\nFor example:\nStyle\nNatural: ~~~\nCasual: ~~~\nDandy: ~~\nTechwear:~~~\nAnd so on, described in a way that's easy to grasp!\nAlso, I'd like to know about other terms such as different types of skirts (like H-line, etc.), neckline styles (like V-neck, etc.), and items like vests, sweaters, hoodies, sweatshirts, blouses, see-through tops, types of tops and bottoms, and materials? Like cotton, silk, and so on!\nPlease tell me about the basic fashion terms!\nExplain it in detail but make it simple and easy to understand! I'll appreciate it a lot!",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n네츄럴: 흔히들 말하는 꾸안꾸 스타일입니다\n딱히 어떤 스타일이라고 정립된 말은 아니구요 \n전체적인 착장에서 나오는 분위기로 판단합니다\n​\n캐쥬얼: 청바지,맨투맨,후드티 등 편한 차림의 일상복 스타일을 말합니다\n​\n스트릿패션: 길거리 패션이라는 뜻으로 길거리에서 보이는 모든 패션을 뜻하는 말이지만 주로 힙한룩들의 패션을 말합니다. \n​\n댄디:멋쟁이 신사라는 뜻, 슬랙스, 셔츠, 니트 등을 사용하여 캐주얼보다는 좀 더 단정하고 격식을 차린 스타일입니다\n​\n테크웨어: 스트릿 패션(힙한 스타일)의 줄기 중 하나이며 다양한 디테일, 포인트들이 붙은 패션입니다\n(의상에 주머니나 끈등을 여러개를 단다던지 지퍼를 여러개 추가하는등의 디테일)\n​\n미니멀: 가장 단순하고 간결한 패션입니다. 의상에 포인트들을 최대한 없애고 (예시: 셔츠에 단추를 감추는 것) 단순히 색감, 재질 등으로만 조합하여 심플한 느낌을 주는 착장입니다\n​\n워크웨어: 일할때 입는 옷이라는 뜻으로, 작업복으로 많이 사용되었던 생지, 워커등의 아이템을 이용한 착장입니다\n​\n아메카지: 워크웨어 스타일과 일본의 복고풍 스타일이 합쳐진 패션으로 워크웨어 스타일을 캐주얼한 느낌으로 풀어낸 느낌의 착장입니다\n​\n오피스룩: 회사에서 입는 옷이라는 뜻입니다\n일반적으로 우리가 생각하는 회사원 옷 스타일을 오피스룩이라고 합니다\n​\n치마 \n​\nA형 치마: 알파벳 A처럼 위에는 좁고 아래로 갈수록 넓어지는 치마 스타일을 말합니다\n재질에 따라 다르지만 보통 청순한 느낌의 스타일에 사용됩니다\n​\nH형 치마: 알파벳 H처럼 위에서 아래까지 같은 넓이로 내려오는 치마를 말합니다\n재질에 따라 다르지만 보통 오피스룩 처럼 단정한 스타일에 사용됩니다.\n​\n​\n목부분\n​\nV넥: 알파벳 v모양의 목부분을 말합니다 \n​\nU넥: 알파벳 U모양의 목부분을 말합니다\n​\n소재 \n​\n소재같은 경우는 지금도 계속 새로운 소재가 만들어지고있어 글로 담기 어려운 방대한 종류이기 때문에 그분야를 전공하지 않는 이상 다 알려드리기는 힘든니다만 우리가 주로 쓰는 소재로는\n​\n코튼: 면소재\n​\n실크: 자연에서 나오는 누에고치의 실을 이용하여 만든 찰랑거리는 재질, 잘찢어지고 비쌈\n​\n나일론: 바람막이 재질, 방수가 잘되고 땀에 강하지만 햇빛과 계속 닿으면 변색됨\n​\n폴리에스터: 합성소재, 실크처럼 찰랑거리지만 잘 늘어나고 저렴한 가격\n​\n데님: 청바지 재질, 빨면 색상이 조금씩 빠지ㄹ수있음\n​\n​\n상의 하의 역시 다양한 종류가 있어 말씀드리기 힘들지만 우리가 주로입는 옷들은\n​\n상의 \n​\n반팔\n롱슬리브(긴팔티)\n맨투맨\n후드티\n셔츠(남자는 셔츠,여자는 블라우스)\n​\n하의\n​\n반바지 \n슬랙스\n데님바지\n조거팬츠\n카고팬츠\n스웻팬츠\n나일론팬트\n코튼팬츠\n​\n등이 있습니다\n​\n궁금한점은 추가질문 하시고 채택 부탁드립니다\n\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n패션 용어들이 궁금해요! (a형 치마,테크웨어,캐주얼 등)\n옷에 완전히 문외한이기도 하고 알아보고 질문해요!\n예를 들어서\n스타일\n네츄럴: ~~~\n캐쥬얼: ~~~~\n댄디: ~~\n테크웨어:~~~\n이런 식으로 알아보기 쉽게 잘 설명해주시면 좋을 것같아요!\n이 외에도 치마(H형 등) ,목부분(v넥 등)같은 말이나 조끼,스웨터,후드,맨투맨,블라우스,시스루같은 상의,하의 종류, 소재? 면,실크 같은 거요!\n기본적인 패션 용어들 좀 알려주세요!\n자세하고 간단하게 알아보기 쉽게 써주세요! 내공 300\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=13&dirId=13050501&docId=399947109"
@@ -521,6 +761,22 @@
           "Korean": {
             "language": "Korean",
             "text": "대왕단감 태추단감의 차이"
+          },
+          "English": {
+            "language": "English",
+            "text": "What's the difference between Daewang persimmons and Taechu persimmons?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n안녕하세요.\n대왕단감은 현재 시중에 많이 판매되지는 않는것 같습니다.\n대왕단감은 감 중에 가장 늦게까지 수확가능한 감입니다.\n당도도 높고 크기도 큽니다.\n10월 후반부터 12월중순까지 수확하며\n당도는 17-20bx입니다. 신품종입니다.\n태추단감은 9월에서 10월 중순까지 수확하며 \n당도 18bx 감중에 사이즈가 큰편입니다.\n태추단감은 배처럼 아삭한식감과 수분이 많습니다.\n​\n검색하다보니 이분 블로그에 대왕단감과 태추단감 비교사진이 있어 링크올립니다.\n대왕 ~~~~~단감\n감중에 감은 뭐죠 대왕~~~단감이죵~~~^^ 오늘은 우림원예가든에 늘 인기쟁이 대왕 단감을 소개하려해요 단...\nblog.naver.com\n도움되셨길바랍니다. \n감사합니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n대왕단감 태추단감의 차이\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=5&dirId=50502&docId=407574071&qb=64uo6rCQ&enc=utf8&section=kin&rank=14&search_sort=0&spq=0"
@@ -555,6 +811,22 @@
           "Korean": {
             "language": "Korean",
             "text": "탁구 준결승전\n신유빈이 탁구 준결승전에서 패배했는데 동메달인 이유가 있나요?\n동메달 결정전을 하지 않는 이유가 궁금합니다."
+          },
+          "English": {
+            "language": "English",
+            "text": "Why did Shin Yu-bin receive a bronze medal despite losing in the table tennis semifinals? I'm curious why there was no match to decide the bronze medal.",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n4강에 올라갔을때 대회마다 규정이 다릅니다. \n​\n4강에서 패배 했을시 패배 선수끼리 3,4위전을 하기도 하지만\n​\n이번 아시안게임에서는 3,4위전이 없기 때문에 공동 3위로 동메달 획득을 하게 됩니다.\n\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n탁구 준결승전\n신유빈이 탁구 준결승전에서 패배했는데 동메달인 이유가 있나요?\n동메달 결정전을 하지 않는 이유가 궁금합니다.\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=10&dirId=100107&docId=455693856"
@@ -589,6 +861,22 @@
           "Korean": {
             "language": "Korean",
             "text": "노란 구름이 하늘에.. 이거 뭐죠?\n길 가고있는데 갑자기 하늘에 주변 구름들과 색깔이 다른 구름이 있더라고요.. 한 아파트 8~9층? 정도 높이에서 움직이는것도 눈에 띌 정도로 빠르고.. 주변에 더둘러보니 이런 노란 구름들이 정말 많았는데, 이거 뭐죠? 그냥 황사나 먼지구름인가요? 이런건 처음보네요"
+          },
+          "English": {
+            "language": "English",
+            "text": "What are these yellow clouds in the sky? I was walking and suddenly noticed clouds that were a different color from the others around, about the height of 8 or 9 floors of an apartment building, moving noticeably fast. Looking around, there were many of these yellow clouds. What are these? Just yellow dust or dust clouds? It's my first time seeing something like this.",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n노란 구름은 일반적으로 황사나 먼지 구름으로 알려져 있습니다. 황사는 사막 지역에서 발생한 모래나 흙 먼지가 바람에 의해 먼 거리까지 날려져 오는 현상입니다. 특히 봄과 가을에는 중국과 같은 지역에서 발생한 황사가 한반도로 이동하여 노란 구름으로 나타날 수 있습니다. 이러한 현상은 공기 중의 미세 먼지가 빛을 산란시켜 구름이 노란색으로 보이게 만듭니다. 따라서, 주변에 많은 노란 구름이 보인다면 황사나 먼지 구름일 가능성이 높습니다.\n\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n노란 구름이 하늘에.. 이거 뭐죠?\n길 가고있는데 갑자기 하늘에 주변 구름들과 색깔이 다른 구름이 있더라고요.. 한 아파트 8~9층? 정도 높이에서 움직이는것도 눈에 띌 정도로 빠르고.. 주변에 더둘러보니 이런 노란 구름들이 정말 많았는데, 이거 뭐죠? 그냥 황사나 먼지구름인가요? 이런건 처음보네요\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=815&docId=450416467"
@@ -623,6 +911,22 @@
           "Korean": {
             "language": "Korean",
             "text": "보름날에 가자미를 먹는이유는?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why do we eat flounder on the full moon day?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n정월대보름에 가자미를 먹는 이유는 가자미는 흰살생선이라 소화도 잘되고\n오늘같이 대보름같이 큰명절에는 빠지지 않는 생선입니다\n생선중에 제일 비린 고기는  예를들면정어리,꽁치,멸치,고등어,전갱이 등이 비리지\n조기나 가자미는 많이 비리지 않습니다\n특히 우리나라 정서상..명절,생일상에는 조기나 가자미를 상에 올려야\n된다고 생각하고 있구요\n구워서 냄새가 난다면 간장,조청을 넣고 살짝 조려먹어면 비린내도\n안나고 맛있는 가자미요리가 됩니다\n보름날에 가자미를 먹는 이유는 비리지도 않고 소화도 잘되고 한해를 잘보내라는 의미인것 같습니다\n\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n보름날에 가자미를 먹는이유는?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=8020604&docId=438691204"
@@ -657,6 +961,22 @@
           "Korean": {
             "language": "Korean",
             "text": "조선시대 귀향이 형벌이 아닌이유?\n\n고려시대는 귀향이 형벌\n조선시대는 귀향이 형벌이 아니라고 합니다.\n\n어떤 차이때문에 그런 건지 설명부탁드려요. "
+          },
+          "English": {
+            "language": "English",
+            "text": "Why was going back to one's hometown not considered a punishment in the Joseon Dynasty, even though it was a form of punishment during the Goryeo Dynasty? Could you explain the difference?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n유배형, 그러니까 강제로 어느 곳으로 가서 거기에 머물게 하는 형벌은 고려시대나 조선시대나 있었습니다.\n​\n고려시대때 귀향이 그 유배형이었는데 관직을 그만두고 강제로 개경에서 자기 고향으로 내려가도록 하는 형벌이었습니다. 즉 너 낙향해라.라는 형벌이었던거죠.\n​\n이게 조선시대에 와서는 바뀌는데 '자기 고향으로 내려가게 하는게 어떻게 형벌이 됨?'이라는 논의가 있었고 이로인해 귀'양'제도가 만들어지는데 이는 자기 고향으로 내려가게 하는게 아니라 외딴 섬, 백두대간 언저리(흔히 삼수갑산이라고 하는)로 보내는 제도가 됩니다.\n​\n그러므로 조선시대에는 고향으로 유배를 보내는 경우가 없었으므로 귀향이라는 단어는 형벌이 아니라 그냥 자기 집으로 돌아간다는 의미만 남게 됩니다. 그러니까 형벌이 아닌거죠.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n조선시대 귀향이 형벌이 아닌이유?\n고려시대는 귀향이 형벌\n조선시대는 귀향이 형벌이 아니라고 합니다.\n어떤 차이때문에 그런 건지 설명부탁드려요. \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=111001&docId=451134936"
@@ -691,6 +1011,22 @@
           "Korean": {
             "language": "Korean",
             "text": "콩나물이랑 숙주랑 뭐가 다른가요...? "
+          },
+          "English": {
+            "language": "English",
+            "text": "What's the difference between bean sprouts and mung bean sprouts?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n콩나물은 콩의 싹을 틔운 거고 숙주는 녹두의 싹을 틔운 겁니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n콩나물이랑 숙주랑 뭐가 다른가요...? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=8020602&docId=461068202"
@@ -725,6 +1061,22 @@
           "Korean": {
             "language": "Korean",
             "text": "충전식 손난로의 발열 원리를 자세하게 적어주세요.\n어떤 방법으로 발열이 되는 건지 "
+          },
+          "English": {
+            "language": "English",
+            "text": "Could you please explain in detail the heating principle of a rechargeable hand warmer? How does it generate heat?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n안녕하세요? 충전식 손난로의 발열 원리를 알려드리겠습니다.\n​\n충전식 손난로는 내부에 리튬이온 배터리가 들어있습니다. 이 배터리는 전기 에너지를 저장하고, 사용자가 버튼을 누르면 전기 에너지를 전선으로 방출합니다. 이때 전선의 저항으로 인해 열이 발생합니다.\n​\n즉, 충전식 손난로의 발열 원리는 전기 저항에 의한 발열입니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n충전식 손난로의 발열 원리를 자세하게 적어주세요.\n어떤 방법으로 발열이 되는 건지 \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=5&dirId=50104&docId=454136748"
@@ -759,6 +1111,22 @@
           "Korean": {
             "language": "Korean",
             "text": "\"15번 국도\" 라고 쓸 때는 숫자 '15' 뒤에 '번'을 붙여 쓰는데, \"십오번 국도\" \"십오 번 국도\" 둘 중 뭐가 맞나요? "
+          },
+          "English": {
+            "language": "English",
+            "text": "When writing \"National Road 15\" with the number '15' followed by '번', should it be written together as \"십오번 국도\" or separately as \"십오 번 국도\"?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n십오(15)'는 수 관형사, '번'은 의존 명사이기에 '십오 번'처럼 띄어 써야 합니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n\"15번 국도\" 라고 쓸 때는 숫자 '15' 뒤에 '번'을 붙여 쓰는데, \"십오번 국도\" \"십오 번 국도\" 둘 중 뭐가 맞나요? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=11080103&docId=460197398"
@@ -793,6 +1161,22 @@
           "Korean": {
             "language": "Korean",
             "text": "\n경기외고 수원외고 어느 고등학교가 경쟁률이 높은가요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Which high school has a higher competition rate, Gyeonggi Foreign Language High School or Suwon Foreign Language High School?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n바로 작년에 치뤄진 22년도 고입 기준 경기권 외고 경쟁률에서 수원외고가 압도적이었고, 경기외고가 그 뒤를 이었습니다. 아무래도 수원외고가 공립이다 보니 학비가 저렴하는 메리트가 있어 학생들이 조금 더 몰리는 경향이 있습니다. 결론은 둘다 빡센 편입니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n\n경기외고 수원외고 어느 고등학교가 경쟁률이 높은가요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=110308&docId=438498603&qb=7IiY7JuQ7Jm46rOg&enc=utf8&section=kin&rank=10&search_sort=0&spq=0"
@@ -827,6 +1211,22 @@
           "Korean": {
             "language": "Korean",
             "text": "베트남에 가는데 탕후루 수화물로 가져갈수있나요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Can I bring Tanghulu in my luggage to Vietnam?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n물론 조미를 했어서 더 맞있는 건 맞지만\n과일 천국인 베트남으로 탕후루를 가지고 오시려나 봅니다.\n입국물품에 생과일은 반입금지 품목이지만\n소량 가지고 오시는 건\n패기를 염두에 두고 가지고 오세요.\n인삼 반입을 대체적으로 허용 하듯이 대부분 소량 반입은 가능 합니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n베트남에 가는데 탕후루 수화물로 가져갈수있나요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=9&dirId=9020107&docId=454365998&qb=7YOV7ZuE66Oo&enc=utf8&section=kin&rank=8&search_sort=0&spq=0"
@@ -861,6 +1261,22 @@
           "Korean": {
             "language": "Korean",
             "text": "김장 속 물생기는이유\n\n김장 속이 처음에 버무릴땐 물이 안생겼는데 몇분지나니물이 생기는 이유가 뭔가요? 1.육수를 너무많이 넣어서? 2.무우 채를 전날 썰어놔야하는데 당일에 썰어서 물이생김??"
+          },
+          "English": {
+            "language": "English",
+            "text": "\"Why does water form inside kimchi after a while? When I first mix the kimchi ingredients, there's no water, but after a few minutes, water starts to appear. What's the reason for this? 1. Did I add too much broth? 2. Should I have sliced the radish the day before instead of on the same day, causing water to be drawn out??\"",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n무가 거의 수분입니다\n양념에 젓갈 등이 들어가 있으므로\n버무리면 수분이 나오는 것이 정상입니다.\n조금씩 버무려 가면서 저는 바로 바로 \n소를 넣습니다.\n그리고 무소는 배추를 우선 양념에 버무린 후 \n 사이에 딱 3군데에만 집어 넣으면\n배추가 숙성 되었을때 가장 맛있더군요\n지방마다, 혹은 집집마다 김장이 조금씩\n다르게 담는데 30여년 김장을 직접 담아 보는데\n무소는 적당히 넣는 것이 나중에도 김치 맛이 좋았습니다\n수분 나오는 것은 정상입니다^^\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n김장 속 물생기는이유\n김장 속이 처음에 버무릴땐 물이 안생겼는데 몇분지나니물이 생기는 이유가 뭔가요? 1.육수를 너무많이 넣어서? 2.무우 채를 전날 썰어놔야하는데 당일에 썰어서 물이생김??\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=8020112&docId=434034565"
@@ -895,6 +1311,22 @@
           "Korean": {
             "language": "Korean",
             "text": "송편 유래 좀 알려주세요ㅜㅜ\n\n간단하게 3-4줄로 요약해서 알려주세요!"
+          },
+          "English": {
+            "language": "English",
+            "text": "Could you please explain the origin of Songpyeon? 😭\nJust give me a brief summary in 3-4 lines!",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n송편은 맵쌀가루를 익반죽 하여 풋콩이나 깨, 밤, 대추, 거피팥, 고물, 녹두고물 드의 소를 넣고 반달 모양으로 빚어서 시루나 찜기에 솔잎을 켜켜로 놓고 찌는 우리나라의 전통 떡입니다. 송편의 모양은 반달이나 모시조개 모양이며 또한 송편은 순수 우리나라의 요리로 같은 동아시아 문화 권인 중국이나 일본에서는 송편을 만들어 먹지 않는 음식입니다. 비슷한 절기는 있고 각국의 전통 음식은 우리처럼 반달이 모양이 아닌 둥근 보름달의 모양의 음식입니다.\n​\n송편은 원래 송병이라고 불리었습니다. 소나무 송과 떡 병자를 써서 송병이라는 불렸지만 시간이 지나며 자연스럽게 송편이라고 불리게 되었습니다.\n송편의 소는 송편 안에 들어가는 재료를 말하는 것입니다. 소는 예로부터 깨, 콩, 밤, 팥, 고물, 녹두, 등을 이용하였지만 설탕, 땅콩, 아몬드, 브라질너트 등 시대의 변화에 따라 소의 재료도 다양 해졌습니다. 일반적으로 깨나 설탕을 같이 절이면서 꿀떡처럼 만든 것이 대중적이면 많은 사람들이 좋아하는 송편입니다. 하지만 나이가 많은 어르신들 일수록 콩, 팥, 녹두 등의 종류의 송편 선호하십니다.목은집이라는 문헌에 팥소를 넣은 차기장 떡의 기록이 있으며 차기장 떡도 송편의 일종인 것으로 보아 고려시대에 보편화된 음식으로 추측하고 있습니다.\n​\n송편에 대한 기록은 17세기부터 나타납니다. 요록이라는 문헌에 \"백미 가루로 떡을 만들어 솔잎과 켜켜로 쪄서 물에 씨어낸다\"라고 기록이 있으며 동국세시기에 보면 소로 콩, 검정콩, 팥, 꿀, 대추, 미나리 넣는다는 기록이 있으며 부인 필지에서는 팥, 잣, 호두, 생강, 계피를 소로 넣는다고 기록되어 있습니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n송편 유래 좀 알려주세요ㅜㅜ\n간단하게 3-4줄로 요약해서 알려주세요!\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=802&docId=446591875"
@@ -929,6 +1361,22 @@
           "Korean": {
             "language": "Korean",
             "text": "반짇고리 단어의 받침이 왜 디귿인가요?? 궁금해여 "
+          },
+          "English": {
+            "language": "English",
+            "text": "Why is the final consonant of the word \"반짇고리\" written as \"ㄷ\"? I'm curious.",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n한글 맞춤법 4장 4절 29항\n제29항 끝소리가 ‘ㄹ’인 말과 딴 말이 어울릴 적에 ‘ㄹ’ 소리가 ‘ㄷ’ 소리로 나는 것은 ‘ㄷ’으로 적는다.\n​\n반짇고리는 끝소리가 /ㄹ/인 '바느질'과 '고리'의 합성어이면서 그 소리가 /ㄷ/으로 나므로, ㄷ으로 적습니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n반짇고리 단어의 받침이 왜 디귿인가요?? 궁금해여 \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=11080103&docId=453630869"
@@ -963,6 +1411,22 @@
           "Korean": {
             "language": "Korean",
             "text": "네이밍 쿠션 이랑 정샘물 쿠션 중에 건성 겨울 쿠션으로 뭐가 더 좋나요"
+          },
+          "English": {
+            "language": "English",
+            "text": "Which is better for a dry winter cushion, the NAMING cushion or the Jung Saem Mool cushion?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n정샘물이 훨씬 촉촉한 쿠션이고 커버력도 더 좋습니다.\n네이밍도 커버력이 중상은 되지만 아주 얇게 발리면서 밀착이 되는\n쿠션이다보니 커버력이 정샘물하고 비교하면 떨어지는 편입니다.\n정샘물은 커버가 잘되고 깐달걀표현해주는 걸로 유명하고\n연령대를 잘 가리지 않고 사랑받는 이유가 있어요. \n더 촉촉합니다. \n네이밍을 선택하시면 큰 커버력을 바라지 않으시면 네이밍도 좋아요. \n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n네이밍 쿠션 이랑 정샘물 쿠션 중에 건성 겨울 쿠션으로 뭐가 더 좋나요\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=8030301&docId=457560463&qb=7KCV7IOY66y8&enc=utf8&section=kin&rank=10&search_sort=0&spq=0"
@@ -997,6 +1461,22 @@
           "Korean": {
             "language": "Korean",
             "text": "벽창우 벽창호 복수표준어입니까?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Are \"Byeokchangwoo\" and \"Byeokchangho\" considered standard plural forms?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n벽창우와 벽창호는 이제는 구분해야 합니다.\n벽창호가 벽창우가 변해서 된 말이지만 의미가 분화되어 달라졌습니다.\n벽창우는 고집쟁이라는 의미로는 쓸 수 없습니다.\n고집쟁이의 의미로는 벽창호를 써야 합니다\n​\n[구분]\n벽창우(碧昌牛) ; 평안북도의 벽동(碧潼)ㆍ창성 지방에서 나는 크고 억센 소\n벽창호 ; 고집이 세며 완고하고 우둔하여 말이 도무지 통하지 아니하는 무뚝뚝한 사람.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n벽창우 벽창호 복수표준어입니까?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=11080104&docId=441034810"
@@ -1031,6 +1511,22 @@
           "Korean": {
             "language": "Korean",
             "text": "권리금이 뭔지 쉽게 설명부탁드립니다"
+          },
+          "English": {
+            "language": "English",
+            "text": "Could you please explain in simple terms what a \"key money\" is?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n도시의 토지나 건물 특히 점포의 임대차에 부수하여 법적으로 그 가치를 평가할 수는 없지만 단골손님의 확보나 그 상권 내에서 지명도, 특수한 영업비법 등 그 부동산이 갖는 특수한 장소적 이익 또는 특수한 권리이용의 대가로 임차권의 양수인이 양도인에게 지급하는 금전이다.\n​\n예를 들어, 갑(甲)으로부터 점포를 임차하고 있는 을(乙)이 그 임차권을 병(丙)에게 양도함에 있어서 그 양도의 대가로서 병(丙)이 을(乙)에게 지급하는 금전이 권리금에 해당한다. 이러한 권리금에 대해 민법에는 규정이 없으며, 관행에 의해 규율되고 있다. 권리금을 지급하고 점포의 임차권을 양수한 사람은 자기가 그 점포의 임차권을 양도할 때 다음 양수인에게 권리금을 받을 수 있다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n권리금이 뭔지 쉽게 설명부탁드립니다\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=4&dirId=402&docId=431668164"
@@ -1065,6 +1561,22 @@
           "Korean": {
             "language": "Korean",
             "text": " 다른 나라 우체통은 왜 노란색일까요? 자세한 설명 부탁드립니다ㅠ "
+          },
+          "English": {
+            "language": "English",
+            "text": "Why are mailboxes yellow in other countries? Can you explain in detail, please?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n영국, 캐나다, 일본 등 25개국에서는 빨간색 우체통을, 독일, 프랑스, 브라질 등 17개국에서는 노란색을, 미국과 러시아 등 7개국에선 파란색 우체통을 사용한다고 합니다. 중국에서는 녹색을, 인도네시아는 오렌지색을 쓰기도 하고요\n노란색은 그냥 느리거나 보통우편 긴급우편같은경우  빨간우체통을 쓰는나라두 있기두 한답니다 \n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n 다른 나라 우체통은 왜 노란색일까요? 자세한 설명 부탁드립니다ㅠ \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=81301&docId=445375915"
@@ -1099,6 +1611,22 @@
           "Korean": {
             "language": "Korean",
             "text": "퓨전한복이랑 개량한복의 차이점\n\n 최근에 퓨전?개량?한복을 보고 이뻐서 검색을 해보려 했는데 저 퓨전이랑 개량중에 뭐가 맞는지 햇갈리더라구요. 저 두개가 같은 의미 인지 아니면 어떻게 다른지 알려주세요 "
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the difference between fusion Hanbok and modernized Hanbok? I recently saw this beautiful Hanbok that seemed either fusion or modernized, and when I tried to look it up, I got confused about which term is correct. Can you tell me if these two are the same or how they differ?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n현재 전통한복을 제외한 새로운 형태의 한복을 구분짓는 정식명칭은 지정되지 않았습니다.\n한국복식에 관한 세미나에 다수 참석을 하였는데, \n2020년도에 참석했던 한 세미나에서 \"개량\" 이라는 단어가 나쁜것을 좋게 바꾼다는 부정적인 의미가 포함되어 있는터라 더이상 사용하지 않는것이 좋겠다는 의견이 발제되었고, 이에 따라 한복업계에서는 개량한복이라는 단어의 사용을 점차 줄여가고 있습니다. \n하여 이후에는 생활속에서 입는 한복이라는 의미의 생활한복, \n패션쇼 또는 연예계에서 파격적으로 형태를 변화시켜 착용하는 패션한복, \n전통의 형태를 차용하되, 새로운 소재와 변형으로 만들어지는 신(新)한복, \n전통한복의 요소에 다른 서양복식의 형태를 혼합하여 만들어지는 퓨전한복, \n결혼식이나 기타 예를 차려야 하는 곳에서 착용하는 예복한복 등 여러 단어로 파생되어 사용되고 있습니다.\n따라서 전통한복 이라는 단어와 기타 **한복이라는 단어가 상호 배치된다고 보시면 되겠습니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n퓨전한복이랑 개량한복의 차이점\n 최근에 퓨전?개량?한복을 보고 이뻐서 검색을 해보려 했는데 저 퓨전이랑 개량중에 뭐가 맞는지 햇갈리더라구요. 저 두개가 같은 의미 인지 아니면 어떻게 다른지 알려주세요 \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=5&dirId=50401&docId=461980724"
@@ -1133,6 +1661,22 @@
           "Korean": {
             "language": "Korean",
             "text": "서울건축문화제, 서울도시건축비엔날레 질문  두개가 같은 행사인가요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Is the Seoul Architecture Festival and the Seoul Biennale of Architecture and Urbanism the same event?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n서울건축문화제와 서울도시건축비엔날레는 서로 다른 행사입니다.\n​\n서울건축문화제는 서울시에서 주최하는 건축문화 행사로, 서울시의 건축문화를 홍보하고 건축에 대한 이해를 높이기 위해 다양한 프로그램을 제공합니다. 이 행사는 건축 전시, 세미나, 워크숍, 견학 등 다양한 형태로 진행되며, 일반인들도 참여할 수 있는 기회를 제공합니다.\n​\n반면, 서울도시건축비엔날레는 서울시건축문화센터에서 주최하는 국제적인 건축전시회입니다. 이 행사는 전 세계의 건축가들이 참여하여 자신의 작품을 전시하고, 건축에 대한 다양한 시각과 아이디어를 공유하는 장을 제공합니다. 이 비엔날레는 전문가들과 건축 관련 분야에서 관심을 가지는 사람들에게 큰 관심을 받고 있습니다.\n​\n따라서, 건축 관련 견학을 가는 경우에는 서울건축문화제나 서울도시건축비엔날레 중에서 원하는 행사를 선택하여 방문하시면 됩니다. 사진으로는 전체적인 내용을 파악하기 어려울 수 있으므로, 실제로 방문하여 다양한 프로그램과 전시물을 직접 경험해보시는 것이 좋습니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n서울건축문화제, 서울도시건축비엔날레 질문  두개가 같은 행사인가요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=9&dirId=90106&docId=453665857"
@@ -1167,6 +1711,22 @@
           "Korean": {
             "language": "Korean",
             "text": "우리나라에서 헌혈을 가장 많이 한 사람은??"
+          },
+          "English": {
+            "language": "English",
+            "text": "Who has donated blood the most times in our country?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n시사저널(2002/11/28)에 나온 기사입니다.\nhttp://www.e-sisa.co.kr/sisa_main_view.php?id=2761&kind=16\n통계청 전남통계사무소에 근무하는 손홍식씨(51·광주시 문흥동)는 17년간 3백74 차례나 헌혈해 한국 기네스북에 올랐다. 그는 한 달에 두 번씩 꼬박꼬박 대한적십자사가 운영하는 '금남로 헌혈의 집'을 방문한다.\n손씨에 따르면 헌혈은 무료 건강 검진이다. 혈압과 혈액 비중, 간기능 검사까지 해주기 때문에 헌혈하는 30분이 더없이 행복한 시간이라는 것이다.\n손씨는 \"헌혈은 목욕이나 이발과 마찬가지이다. 밀폐된 실내의 공기를 환기하는 것과 같다. 살아 가면서 건강한 사람이 건강하지 못한 사람에게 줄 수 있는 아름다운 선물이다\"라고 말했다.\n그는 지난해 4월 자신이 죽으면 장기· 뼈·피부 조직은 물론 시신까지 기증키로 했다. 1994년에는 순천에 사는 만성 신부전증 환자에게 콩팥을 떼주었다.\n나권일 광주 주재기자\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n우리나라에서 헌혈을 가장 많이 한 사람은??\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=61002&docId=62189441"
@@ -1201,6 +1761,22 @@
           "Korean": {
             "language": "Korean",
             "text": "마로니에공원이 왜 마로니에 입니까?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why is it called Marronnier Park?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n대학로 마로니에공원에는 공원의 상징인 마로니에나무가 있습니다. 마로니에공원의 상징이 마로니에나무이기 때문에 이름이 마로니에공원이라고 합니다\n71년 전인 1929년 4월 5일 서울대의 전신인 경성제대 때 심어져, 광복 이후 어려운 조국을 위해 고뇌하는 젊은이들과 청춘을 함께 했으며, 1975년 서울대가 관악 캠퍼스로 옮기고 마로니에공원이 생기면서부터는 대학로 문화마당의 상징수가 되었습니다.\n대학로는 혜화동로터리에서 이화동 사거리에 이르는 1.1km의 구간, 50여개의 소극장과 5백여개의 카페가 밀집되어 있습니다.\n마로니에공원과 동숭아트센터 앞에서는 주말마다 가종공연, 마임, 뮤지컬 등이 다양하게 펼쳐집니다.\n마로니에공원은 10대에서 70대까지 어우러진 문화마당입니다. 젊은이들의 풍류마당, 막걸리 문화로 상징되던 80년대의 대학로, 90년대엔 폭주족의 굉음과 힙합댄스 열풍이 불기도 하던 대학로, 이제는 여러 문화가 뒤엉켜 이국적 정취를 느끼려는 사람 또는 신혼부부의 야외 촬영지로도 활용되는 서울의 대표적인 문화 공간이기도 하지요.\n마로니에공원은 젊은이들의 영원한 공간입니다.\n공원내 야외무대에서는 아마추어 가수들의 신선한 춤과 노래가 흘러나오고, 비둘기들은 먹이를 찾아 모여들고. 최근엔 신세대들이 좋아하는 스티커사진점 각종 유흥점등 대학로라는 지성인의 거리가 많이 퇴색되어 변해가고 있지만, 많은이들이 대학로를 찾고 깨끗한 대학로를 만들기 위해 많은 분들이 노력하고 있습니다.\n나무 아래 모여 앉은 거리화가들과 운명을 점쳐주는 점술가들의 천막은 여전하며, 마로니에공원 중심지역에는 소극장 등 무대공연장이 특히 많은데 문예회관 대극장과 소극장을 비롯해 대학로극장·바탕골소극장·연우무대·샘터파랑새극장·학전·코미디아트홀 등 헤아리기 힘들 정도입니다.\n길거리 농구를 즐기는 청소년과 데이트 중인 젊은 남녀, 흰 고무신을 끌고 강아지와 함께 산책을 나온 노인들까지, 공원벤치 여기저기에 누워 있는 노숙자들도 쉽게 볼 수가 있습니다. 그땐 무언가를 느끼게 하죠.\n마로니에 공원은 언제나 사람냄세, 대중문화를 느끼게 하고, 많은이들의 고뇌를 함며 \"공존\"이라는 단어를 생각나게 하는 공원이 아닌가 싶습니다.\n마로니에나무에 대한 자료는http://100.lycos.co.kr/entry/45/58245.asp?where=&dme=&adquery=doosan1 참고하세요\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n마로니에공원이 왜 마로니에 입니까?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=613&docId=46825739"
@@ -1235,6 +1811,22 @@
           "Korean": {
             "language": "Korean",
             "text": "컵라면에 스프가 따로들어있는 이유는 뭔가요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What's the reason for the soup being packaged separately in instant cup noodles?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n라면은 말이죠\n밀가루 반죽을 기름에 제빨리 튀겨내서 수분이 다 날아간 상태랍니다.\n그래서 변질이 잘되지않지염~~\n거기다가 뜨거운 물을 부으면 그 면에(튀겨질때 수분이 빠져나간 자리는 기포가\n생기지염) 수분이 흡수되어 익혀지면서 불거진답니당.\n하지만 스프는요 머 닭고기 뼈가루랑 고춧가루, 간장조미 분말, 여러가지 조미료\n가 수분을 어느정도 함유하구 잇어여...근데 그게 면발처럼 포장되어 있지 않구\n외부에 노출되어 있다면 변질도 빠르구 맛도 없어지겠지염\n그래서 진공포장으로 낱개루 되어잇는거랍니당\n해답이 되셧나염~~~!!\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n컵라면에 스프가 따로들어있는 이유는 뭔가요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=8020102&docId=30737077"
@@ -1269,6 +1861,22 @@
           "Korean": {
             "language": "Korean",
             "text": "까치설날의 유래는?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the origin of Magpie's Day (Kkachiseollal)?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\nkidzip,itsyours,mi9005세분께서 문제제기를 하셨습니다.\n서정범 교수의 주장이 정설로 자리잡았다는 내용과 출처를 밝히라는 내용이었습니다.이군요.\n저는 정설로 굳어진 주장이 없는 것으로 알고 있어 여러가지 설을 나열했었고요.\n여러분들의 의견에 따라 수정합니다.\n그리고 문제제기를 해주신 분들로 인해 더 나은 지식이 될 수 있었기에 감사하게 생각합니다.\n먼저 kidzip님의 의견은 원래 제 답변에도 포함되어 있는 내용이지만 더 상세하기에 그대로 인용합니다.\n까치설날의 유래는 국어학자 서정범 교수가 제시한 설이 정설로 받아들여졌고 한국문화 상징사전에도 수록되어 있습니다. 문화상징사전의 내용을 요약하면...\n섣달 그믐날을 '까치설'이라고도 하는데 '까치까치 설날은 어저께고요~'라는 '설날' 노래가 있기 전에는 까치설이 없었다고 합니다.\n옛날에는 작은설을 가리켜 '아치설', '아찬설'이라고 했습니다. '아치'는 '작은(小)'의 뜻을 지니고 있는데, 아치설의 '아치'의 뜻을 상실하면서 '아치'와 음이 비슷한 '까치'로 엉뚱하게 바뀌었다고 합니다.\n이것의 근거는 음력으로 22일 조금을 남서 다도해 지방에서는 '아치조금'이라 하는데, 경기만 지방에서는 '까치조금'이라 합니다. 이렇게 아치조금이 까치조금으로 바뀌었듯이, 아치설이 까치설이 바뀌었다고 합니다.\n까치까치 설날은 어저께고요~ '설날'이라는 노래의 작사작곡을 하신 윤극영 선생은 이북출신 서울 사람이었다고 합니다.(노래는 1927년작) 이것은 윤극영 선생이 경기도 지방의 언어에 영향을 받았음을 시사합니다.\n다음은 원래 제 답변에 있던 내용중 위의 주장을 제외한 나머지 주장들을 아래에 열거합니다.\n1. 까치설날의 설화\n삼국유사에 기록되어 있는 신라 소지왕 때 왕후가 한 스님과 내통하여 왕을 해하려 하였는데 까치(까마귀)와 쥐, 돼지와 용의 인도로 이를 모면하였다. 이때부터 쥐, 돼지, 용은 모두 12지에 드는 동물이라 그 날을 기념하지만 까치를 기념할 날이 없어 설 바로 전날을 까치의 날이라 하여 까치설이라 이름 지었다.\nhttp://www.eculture.co.kr/new_edition/intro/intro_s.asp\n2. 朴甲洙 서울대학교 명예교수의 설명\n우리의 '설'은 '한설, 한첫날'이라 일러지는 것과 '아찬설, 까치설, 작은설'이라고 일러지는 두 종류가 있다. '한설'은 작은 설에 비해 큰 설이란 뜻으로, '가위(中間)' 가운데 큰 가위를 '한가위(中秋節)'라 하는 것과 같은 말이다. '한첫날'은 일년 열두달 가운데 가장 큰 첫날이란 뜻이다. 이들은 다 같이 '설날'을 가리키는 말이다. '한첫날'은 '元日', '元旦'과 맥을 같이 하는 말이라 하겠다. 이에 대해 '아쏅설'이나 '아쏅설날', '까치설'이란 말은 작은 설, 곧 섣달 그믐, 歲暮를 가리키는 말이다. '아쏅'은 '작은(小)'을 뜻하는 말이다. 조카를 '아쏅아韉'이라 하는 경우가 이러한 것이다. '까치설날'의 '까치'는 '아쏅'이 변한 말로, '아쏅'의 어원 의식이 없어지면서 이렇게 변한 것이다.\nhttp://www.hanja-edu.com/0201_month/17.htm\n기타 설에 대한 참고 자료입니다.\n1. 설의 어원\n'설'이란 이름의 유래는 3가지 정도로 전해져 온다. 먼저, 새해의 첫날이라 아직 익숙하지 않고 낯설다는 의미로 '낯설다'의 어근인 설에서 전한다는 것이다. 마찬가지로 처음 시작이라는 뜻의 '선다'라는 말에서 비롯되어 시간이 흐르면서 선날->설날 이렇게 연음화되었다는 설이 두번째이다. 마지막으로 삼가다라는 뜻의 옛말인 '섧다'에서 비롯되었다는 것인데, 명절이고 즐거운 날인 설의 의미와 동떨어진 듯 느껴지기도 한다. 그러나 설을 한자어로 신일(愼日)이라 표현했던 것과 일맥상통하니, 새해 첫날부터 몸가짐을 조심하라는 뜻이 아닌가 한다.\n2. 설의 변화\n신라시대에 새해아침에 서로 축하를 하며 왕이 군신에게 잔치를 베풀고 해와 달신에게 제사 지내었다는 기록이 있어 설을 쇤 것이 오래됨을 짐작할 수 있다. 현재와 같은 가족중심의 설은 [고려사]에 구대속절의 하나로 기록되어 있고, 조선은 4대 명절의 하나였다. 한때 1895년부터 태양력을 채용하면서 서양의 양력설과 음력설의 논쟁이 되어 일제와 광복 후 국가적인 유도로 양력설을 지정하였었다. 그럼에도, 실제로 대다수가 음력설을 지냄에 따라 1985년 민속의 날로 공휴일이 지정되고 현재는 3일 연휴의 공휴일로 지정되었다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n까치설날의 유래는?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=613&docId=46657515"
@@ -1303,6 +1911,22 @@
           "Korean": {
             "language": "Korean",
             "text": "따로국밥의 어원은?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the origin of the name \"ttarogukbap\"?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n대구지방에 가면 따로국밥이란게 있습니다. 잘 아시겠지만 경상도에는 음식이 발달하지 않았고 그래서 대구가서 뭐 특이한거 없냐고 하면 없다고 하면서 그냥 따로국밥집에 데리고 가곤 하죠...\n그런데 서울처럼 국밥을 줄때 국에 밥을 말아서 주지 않고 국따로 밥따로 준더군요... 이유를 물어보니 밥의 양을 속이지 않았다고 주인이 떳떳해지려고 따로 준다고 합니다. 거꾸로 이야기하면 밥의 양을 속일까봐 손님이 찾는것이고 주인은 그런거 신경쓰기 싫으니까 따로 준다고 하더군요...\n따로국밥은 국밥의 밥을 따로 준다는 거 밖에는 특이한게 없는 음식명입니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n따로국밥의 어원은?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=11080102&docId=47326279"
@@ -1337,6 +1961,22 @@
           "Korean": {
             "language": "Korean",
             "text": "쌀이 우리나라의 주식이 된 이유? "
+          },
+          "English": {
+            "language": "English",
+            "text": "Why did rice become the staple food in our country?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n우리 나라의 식생활사에서 주식과 부식이 분리된 때는 삼국 시대 훨씬 이전으로 보입니다.조상들은 주식인 밥을 부식보다 훨씬 중히 여겨 왔죠.\"밥이 보약이다.\"라고 할 정도로 밥을 최상으로 쳤고 그 중에서도 쌀밥을 중히 여겼죠.벼의 재배 기원에 대해서는 고고학자들이 많이 연구하고 있다. 세계적으로 보면 인도에서는 BC 7,000~5,000년대에, 중국에서는 BC 5,000년경(神農時代)에 벼를 재배하였다고 한다. 한국에는 기원전 2,000년경에 중국으로부터 들어온 것으로 알려져 있다. 이러한 사실은 선사시대 유적지에서 발굴된 탄화된 쌀이나 벼의 탄소 동위원소 연대추정(carbon dating) 및 기타 고고학적 증거로부터 짐작할 수 있다.\n한국에 쌀이 보급되기 이전에는 잡곡(피 ·기장 ·조 ·보리 ·밀 등)을 주식(主食)으로 하였으나 1천여 년 전, 즉 통일신라시대부터 벼의 생산량이 많아지면서 쌀이 우리 식생활의 커다란 부분을 차지하고, 뿌리를 내리기 시작하였다. 결국 쌀이 들어오면서 분식(粉食) 중심에서 쌀밥 중심의 식생활로 전환하게 되었다. 그 후부터 한국에서 쌀이 차지한 정치적 ·경제적 ·농업기술적 위치는 너무나 뚜렷하다.\n쌀은 5∼6세기경까지만 해도 귀족식품으로 인식되었다. 통일신라시대의 주식 유형을 보면 북부는 조, 남부는 보리, 귀족층은 쌀이었다. 고려시대에 들어오면서 쌀은 물가의 기준이요 봉급의 대상으로 할 정도로 귀중한 존재가 되었다. 쌀의 생산량이 좁쌀에 미치지 못하였으나 차차 좁쌀보다 많아져 곡류의 대표격이 된 것은 조선시대에 들어온 후부터라고 생각된다. 쌀을 이용하는 방법으로는 옛날부터 낟알로 밥을 지어 일상식품으로 하였고, 분식으로서는 가루를 내어 떡을 만들어 명절이나 제사 때 별식으로 사용하였다.\n제 답변이 도움이 되셨음.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n쌀이 우리나라의 주식이 된 이유? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=613&docId=53224227"
@@ -1371,6 +2011,22 @@
           "Korean": {
             "language": "Korean",
             "text": "7 행운, 13 불행 그 유래는? "
+          },
+          "English": {
+            "language": "English",
+            "text": "What are the origins of 7 being considered lucky and 13 unlucky?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n7: 행운의 수 신성한 수\n7이 신성한 수로 여겨지게 된이유에는 여러가지 설이 있다. 태양계 7개의 유성운동이 인간의 운명을 결정한다는 점성술에서 유래 한달을 신월, 상현,만월, 하현과 같이 네개로 나누면 그 각각이 거의 7일씩 되기 때문에 이것\n을 1주간으로 하여 거기서 7을 신비적으로 생각하게 됭었다 동서남북 4개의 방위, 상하 2개의 방위와 그 중앙의 점을 통틀어서 7개의 방위를 향하여 배례한다는 종교적 습관에서 7을 신성시하게 되었다\n13: 불행의 수\n시간이 갈수록 민간신앙에서 13은 불행의 수로 굳어지고 있다. 외국 사람ㄷ르은 13명의 손님을 저녁시사에 초대하기를 꺼려한다. 심지어 나폴레옹이나 루즈벨트 같은 역사적인 인물들 조차 13명의 사람들과 함께 탁자에 앉기를 주저했다고 한다. 중국에서는 13은 일년의 분할과 관계가있다. 음력으로 계산하면 일년은 354일이다 그렇기 때문에 몇년이 지나면 양력과 날짜를 맞추기 위해 열세번째 달을 삽입할 수밖에 없었다. 중국인들은 이달을 가리켜'근심의 지배자'라고 불렀다\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n7 행운, 13 불행 그 유래는? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=613&docId=47652192"
@@ -1405,6 +2061,22 @@
           "Korean": {
             "language": "Korean",
             "text": "정상에 오르면 왜 <야호!>를 외치는가? "
+          },
+          "English": {
+            "language": "English",
+            "text": "Why do people shout \"Yaho!\" when they reach the summit?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n야호라고 하는데는 두가지 설명이 있답니다.\n그 첫번째는 \"야호\"가 산악 조난시 구조를 요청할때 외쳤던 소리 였었고, 그 소리가 일반 화 되었다는 설이 있고요(더 무게가 있어보이는 설입니다.)\n또 한 설명은 '야호'가 몽골어의 '가도 좋은가 ?'에서 유래됐다고 설이지요. 아마 고려시대때 몽골군인들이 산위에 올라 \"가도 좋은가?\" 하고 정찰병에게 소리치던 소리에서 유래된 것이라고 보는것인데...\n정확한 판단은 아직 어렵네요.많은 산악인들은 첫번째 구조 요청에서 불러지는 것으로 보고 있답니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n정상에 오르면 왜 <야호!>를 외치는가? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=613&docId=61952881"
@@ -1439,6 +2111,22 @@
           "Korean": {
             "language": "Korean",
             "text": "고개 이름의 재와 령의 차이는?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What's the difference between \"재\" and \"령\" in the names of mountain passes?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n재와 령(嶺)은 모두\n길이 나 있는 높은 고개를 나타냅니다.\n박달재, 말티재 등에 쓰이는 '재'는 순수 우리말이고,\n대관령, 한계령 등에 쓰이는 '령'은 한자 말이죠...\n그러다 보니 어감의 차이는 좀 있습니다.\n돌 '석'에서는 차이가 좀 덜 나지만...\n바위 '암'에서는 차이가 좀 느껴지는데요...(개인적인 것이긴 하지만...)\n왠지 '○○바위' 할 때보다, '○○암' 하는 게 더 큰 바위처럼 느껴지지 않나요?\n좀 무거운 느낌은 들지요?\n고개도\n○○재 하는 것보다, ○○령 하는 게 더 높은 고개처럼 느껴지는 데...\n그것은 순수우리말과 한자어에서 오는 어감의 차이일 뿐입니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n고개 이름의 재와 령의 차이는?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=613&docId=61967701"
@@ -1473,6 +2161,22 @@
           "Korean": {
             "language": "Korean",
             "text": "한강은 어디서 시작되고 어디서 끝나나요? "
+          },
+          "English": {
+            "language": "English",
+            "text": "Where does the Han River start and where does it end?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n한강의 시작, 검룡소의 용틀임 폭포\n검룡소(儉龍沼)는 한강의 발원지로 강원도 태백시 창죽동 금대봉골에 있습니다. 금대봉 기슭의 제당굼샘과 고목나무샘 물구녕의 석간수와 예터굼의 굴물에서 솟는 물이 지하로 스며들어 검룡소에서 다시 솟아나와 514km의 한강 발원지가 되는 곳입니다. 오대산 우통수를 발원하는 오대천보다 검룡소를 발원하는 창죽천이 32km나 더 길어 국립지리원에서는 한강의 발원은 태백시 창죽동 금대봉기슭이라는 공인을 받았습니다. 그리고 이 한강은 514km를 구비구비 돌아 서해안과 만나는 경기도 김포시에서 끝납니다.\n둘레 20여m에 깊이를 알 수 없는 검룡소는 석회암반을 뚫고 올라오는 지하수가 하루 5천여톤 가량 용출하고 있으며 솟아 나온 물이 30여m 경사가 완만한 폭포를 이루며 솓아지는 것이 장관이죠. 오랜세월동안 흐른물이 깊이 1~1.5m 폭 1-2m의 암반이 푹 파여서 그리로 물이 흐르는데 마치 용이 용트림하는 것 같습니다. (이 때문에 검룡이 살았다는 전설이 전해지는 듯 합니다.)\n원래는 강원 평창군 오대산의 산샘 '우통수'가 한강의 발원지로 꼽혔습니다. '우통수가 한강의 발원지'라고 꼭 집어내는 문헌상의 기록은 없지만 예로부터 유명한 샘이었죠. 세종실록지리지 등 거의 모든 지리지에 명시돼 있는데 물맛이 매우 좋고 다른 물과 섞이지 않기 때문에 맑은 빛을 간직한 채 서울까지 흐른다고 합니다.\n그래서 서울의 양반들은 강가에서 뜬 물을 먹지 않고 배를 타고 강 한 가운데로 나가 길어 온 우통수의 맑은 물을 마셨다고 전해집니다. 우통수를 한강의 발원지로 여겼다는 것을 짐작할 수 있습니다.\n그러나 길고 짧은 것은 대봐야 아는 것. 하늘에서 인공위성이 찍은 정확한 지도가 근거가 됐습니다. 지도상의 거리를 측정해 본 결과 검룡소의 물줄기가 약 32㎞ 더 길다는 사실이 확인됐고 1987년 국립지리원이 한강의 발원지로 공식 인정했습니다.\n문제제기가 들어와 '남한강의 발원지'를 덧붙입니다.\n남한강 발원지 중 가장 동남쪽에 위치한 곳으로는 북위 37.20, 동경 128.92, 해발 약 1,000.0m인 강원도 정선군 고한읍 두문동 일명 싸리재 부근입니다.\n지적해 주신 58mgj님께 감사드립니다.\n'북한강의 발원지'는 내금강의 동금강천과 금강천입니다.\n하지만 우리가 보통 '한강의 발원지'라고 하면 '검룡소'를 꼽는 게 일반적입니다.\n지적해 주신 ggulbeol님께 감사드립니다.\n'한강의 끝'은 경기도 김포시 하성면 시암리이며, 이곳에서 한강은 북쪽에서 흘러내려온 임진강과 합류합니다. 즉, 시암리에서 강건너 북쪽 건너편은 경기도 개성땅(정확히는 경기도 개풍군 정곶리)인데, 그곳은 이미 현재는 맘대로 가지 못하는 북한땅입니다.\n이곳 시암리 한강-임진강 합류지점부터 서해바다와 만나는 경기도 김포시 월곶면 보구곶리 유도 인근까지는 할아버지의 강, 조상의 강 이란 의미로 조강(祖江)이라 부릅니다. 그러나 분단 이후부터 조강이란 지명은 점차로 사라지고 현재는 통상 경기도 김포시 월곶면 보구곶리 유도 인근을 한강의 하구로 보고 있습니다.\n그래도 조강의 지명은 육지에 남아있어, 경기도 김포시 월곶면에 \"조강리\"라는 지명이 남아있으며, 그곳의 강건너편인 북한의 개풍군에도 상조강리, 하조강리 라는 지명이 남아 있습니다.\n지적해 주신 jsan0211님께 감사드립니다.\n한강의 발원지로 창죽동 금대봉골에 있습니다. 금대봉 기슭의 제당궁샘과 고목나무샘, 물골의 물구녕 석간수와 예터굼에서 솟아나는 물이 지하로 스며들어 검룡소에서 다시 솟아나와 514㎞의 한강발원지가 되는곳으로 87년 국립지리원에서 도상실측 결과 최장 발원지로 공식 인정되었습니다.\n이 제당궁샘은 해발 1,418m 되는 금대봉(金臺峰)에서 약 150m 아래 위치하며 검룡소까지는 2㎞ 떨어져 있으며 일부 학자는 제당궁샘을 한강의 발원지로 주장하기도 합니다.\n지적해 주신 jrbright님께 감사드립니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n한강은 어디서 시작되고 어디서 끝나나요? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=1112&docId=53922725"
@@ -1507,6 +2211,22 @@
           "Korean": {
             "language": "Korean",
             "text": "가마솥 밥이 맛있다고 하는 이유는? "
+          },
+          "English": {
+            "language": "English",
+            "text": "Why is rice cooked in an iron pot considered delicious?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n잘익은 밥이 맛있는겁니다. 가마솥이나 압력밥솥을 보면요.. 뚜껑이 무겁습니다.. 압력밥솥은 아예\n잠가버리죠.. 따라서 가열을 할때 안의 공기가 팽창+물이 수증기로 변하져.. 그런데 이것들이 빠져나가지\n못하면.. 내부압력이 올라가구욤.. 이러면 물의 끓는점이 올라가게 댑니다(액체의 끓는점은 기압이\n올라가면 끓는점도 올라갑니다.. 같은 끓는거라두.. 더 높은온도에서 끓는단 말이죠.)\n100도 물에서 밥이 익는거랑 120도 물에서 밥이 익는거랑 어느게 더 잘익을지는\n아시겟죠??\n따라서 이런이유로 가마솥이나 압력밥솥밥은 맛있는겁니다.. 아 우리나라사람들이 보편적으로\n찰지거나 쫀득한 밥을 좋아하는데 잘익은밥은 이런맛을 갖고잇죠.. 글구.. 높은온도에서 익으니깐\n더 빨리 익기땜시 쌀의 맛과 향을 밥알안에 가둘수 잇는겁니다..\n아 글구 가마솥같은경우 밑바닥이 둥글기땜시 대류가 일어납니다.. 이러면 밥알들이 서거덩요? 세로로.\n그러면 물도 같이 돌면서 더 잘익게 됩니다.. 따라서 가마솥밥이 압력밥솥보다는 잘익습니다..\n글구.. 전기압력밥솥같은거 보면 밑바닥을 둥글게 만들어 놓은거두 있네욤..\n음.. 밥에관해서라면 미스터 초밥왕을 보세욤.. 거기서 도쿄대회던가?? 거기 나가서 맨첨에 밥을 짓는데\n거기에 밥짓기의 모든것이+_+;; 역시 요리만화~\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n가마솥 밥이 맛있다고 하는 이유는? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=8020101&docId=30690533"
@@ -1541,6 +2261,22 @@
           "Korean": {
             "language": "Korean",
             "text": "삼겹살과 오겹살의 차이는 무엇인가요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the difference between samgyeopsal and ogyeopsal?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n삼겹살과오겹살은 글자 그대로 3겹이냐5겹이냐 차이입니다... 삼겹살은 일반적으로 우리가 사먹는것이고 오겹살이란 돈피 쯕 껍데기가 있는 삼겹을 오겹살이라합니다.. 돈피가 있으므로 3겹이아닌 5겹이 되기 때문이죠.. 제주도는 거의가 오겹살이 보편화 되어 있습니다.. 참조되었으면 합니다.. 저는 육가공회사 대표자입니다..\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n삼겹살과 오겹살의 차이는 무엇인가요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=8020105&docId=29308587"
@@ -1575,6 +2311,22 @@
           "Korean": {
             "language": "Korean",
             "text": "한약은 왜 종이에 쌀까?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why is traditional Korean medicine wrapped in paper?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n한의사를 업으로 하고는 있지만 이런 생각을 해본적이 없어서 조금 당황되는군요.\n하지만... 곰곰히 생각해 보면 답이 나오는군요.\n1. 한약재의 호흡을 위해서.\n한약재중에는 나무의 뿌리, 껍데기, 열매, 잎사귀 등도 있고, 씨앗이나 동물성 약재도 있습니다. 이러한 약재들 중에 씨앗이나 종자 같은 경우에는 사실 죽어 있는 것들은 아니지요. 땅에 심어서 잘 기르면 뿌리내리고 클 수 있는 것들도 있습니다. 이러한 약재를 종이로 쌈으로써 한약재 자체도 호흡할 수 있는 배려가 아닌가 생각합니다. 이렇게 되면 약이 상할 가능성도 많이 줄어듭니다.\n2. 한약을 다릴 때 편리하게.\n요즘은 한약을 거의 한의원에서 다려주지만, 예전엔 첩지에 정성스럽게 쌓아서 집에서 다려서 먹었습니다. 주전자 모양의 약탕기에 한약재를 넣고, 뚜껑부분을 종이로 틀어 막아서 김이 살살 피어오르게 약을 다리는 장면을 TV등을 통해서 보았을 것입니다.\n이때 종이로 뚜껑을 대신하는 이유가 바로 한약의 좋은 성분은 남기고, 좋지 않은 성분은 날려보내기 위한 배려입니다. 이때 사용하는 종이가 한약을 싸가지고 간 종이입니다. 그냥 버리는 것이 아니라 약을 다릴때도 사용하는 것이지요.\n3. 예전엔 종이 밖엔 없지 않았을까요?\n요즘은 비닐봉투도 많고, 여러가지 쇼핑백등도 많지만 예전엔 종이 밖에는 없지 않았을까요? 또한 처방에 따라 약의 크기가 달라지는데 어지간한 정도는 첩지를 쌓는 방법에 따라 조절이 가능하지요. 그 때문에 예전부터 종이를 이용한 것이라 생각되네요. 이러한 습관이 오늘날까지 전해져 내려온 것이지요.\n아마도 이러한 이유때문에 종이에 싸주는 것이 아닐까 생각합니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n한약은 왜 종이에 쌀까?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=7&dirId=703&docId=23408906"
@@ -1609,6 +2361,22 @@
           "Korean": {
             "language": "Korean",
             "text": "평양 냉면과 함흥 냉면의 차이점은?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What are the differences between Pyongyang-style and Hamhung-style cold noodles?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n평양식 냉면 , 함흥식 냉면 면의 성분 함량도 지역에 따라 다소 차이가 있는데, 평양식 냉면은 메밀이 많이 함유된 냉면이며 함흥식 냉면은 감자전분이나 강냉이,고구마 전분의 함량이 많은 냉면입니다. 두 냉면이 뚜렷하게 구별된 것은 아니지만 그 특징에 따라 주로 평양식 냉면 , 함흥식 냉면으로 구분합니다.\n함흥냉면은 질긴 면발과 맵고 진한 냉면 비빔장이 특징입니다. 함경도의 특산물인 감자 전분이 포함되어 있어 정말 쫄깃한 면발을 즐길 수 있습니다. 여기에 식초와 겨자, 따끈한 육수를 곁들여 먹고 나면 온몸엔 땀이 주루룩 이런 매운 양념과 따끈한 육수는 함경도 지역의 혹독한 겨울에 따뜻한 열을 내기에 충분했습니다.함흥 냉면은 이처럼 척박한 땅을 일구며 살아갔던 함경도 사람들의 강인한 기질 처럼 먹는 사람에게 강인한 인상을 주는 것이 특징입니다.\n평양냉면은 추운 겨울 한끼 식사로 또는 술을 먹고 난 후 해장국 대신에 먹었다고 합니다. 물론 냉면의 원조이구요. 냉면 육수로는 주로 동치미 국물이 이용되었으며 긴 면발을 앞이를 이용하여 끊어먹어야 제맛이죠.\n이러한 냉면이 남쪽으로 전파되면서 냉면 면발도 다양해 졌고 각종 육수를 국물로 이용하게 되었으며 냉면 위에 얹어지는 고명 역시 각양각색으로 되었습니다.. 주로 쇠고기, 닭고기,꿩고기로 국물을 낸 후 편육 , 오이무침 , 볶은 고기를 고명으로 올립니다. 함흥식 냉면 중에서도 특히 인기가 있는 것이 홍어회가 든 냉면입니다. 매운 냉면 비빔장과 홍어회 무침을 같이 비빈 것으로 많은 사람들에게 특히 인기있는 메뉴죠. 기호에 따라 식초와 겨자를 곁들여 먹으면 매콤 새콤한 냉면맛을 즐길 수 있습니다\n북한의 유명한 음식들로는 평양 온반, 찹쌀 순대와 오징어 순대, 녹두 지짐과 찰 수수 지짐, 불고기 정식과 신선로, 불고기와 평양식 오리 불고기, 왕만두와 꿩만두, 만두국과 전골과 옥류관 종합 순대, 감자농마국수, 강냉이농마지짐, 장국밥, 태식, 방어반찬, 도미국수, 숭어찜, 김으로 만든 김삼, 노치, 김구이와 나물이, 감자떡, 귀밀떡, 갓김치 등이 유명합니다.\n술로는 강계포도주와 양강주, 해주의 박문주, 개성인삼술, 홍삼술, 순대지짐 머루술 같은 주류가 유명합니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n평양 냉면과 함흥 냉면의 차이점은?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=8020102&docId=29720357"
@@ -1643,6 +2411,22 @@
           "Korean": {
             "language": "Korean",
             "text": "알파벳 Z는 예전에는 '젯트' 라고 배웠는데 요즈음은 '지' 라고 발음해야 한다고 하는데 그러면 알파벳 G도 '지'라고 하는데 Z 와는 발음이 똑같은지 다른지 알려주세요 "
+          },
+          "English": {
+            "language": "English",
+            "text": "I learned that the alphabet Z used to be pronounced as \"zett\" in the past, but nowadays it's said to be pronounced as \"zee\". Given that the alphabet G is also pronounced as \"jee\", could you tell me whether the pronunciation of Z and G are the same or different?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\nG와 Z는 다른 발음입니다. G는 굳이 우리말로 쉽게 설명하자면 '그' '쥐' 로 발음된다면 Z는 '즈'에 가깝고 이빨을 다문 상태에서 '즈'라고 발음하는 소리입니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n알파벳 Z는 예전에는 '젯트' 라고 배웠는데 요즈음은 '지' 라고 발음해야 한다고 하는데 그러면 알파벳 G도 '지'라고 하는데 Z 와는 발음이 똑같은지 다른지 알려주세요 \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=11080308&docId=460858562"
@@ -1677,6 +2461,22 @@
           "Korean": {
             "language": "Korean",
             "text": "상의 사이즈 55 66 이런 게 뭘 말하는 건가요?\n\n허리 둘레를 나타내는 건가요? 그렇다면 몇 cm인가요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What does it mean when shirt sizes are referred to as 55, 66, etc.? Are they indicating waist circumference? If so, how many centimeters do they represent?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n안녕하세요 별이아빠입니다.\n​\n일반적으로 44 55 66의 여성 사이즈를 의미 합니다.\n​\n유래는 1980년에 공업진흥청\n당시 한국여성의 평균 체격이였던 키 155cm의 앞자리를 따 55라고 정해졌다고 합니다.\n​\n현재는 S, M, L 처럼 사이즈를 의미 한다고 보시면 됩니다.\n​\n44사이즈 : 가슴둘레 81cm, 엉덩이둘레 90cm, 허리둘레 62cm\n55사이즈 : 가슴둘레 85cm, 엉덩이둘레 94cm, 허리둘레 66cm\n66사이즈 : 가슴둘레 89cm, 엉덩이둘레 98cm, 허리둘레 70cm\n​\n4cm의 폭이라고 보시면 됩니다.\n​\n쇼핑몰에서는 S, M, L로 표시되는 경우가 많아서,\n44는 XS, 55는 S, 66은 M, 77은 L로 보시면 되시고,\n프리사이즈는 일반적으로 55입니다.\n​\n정확한 사이즈는 해당 쇼핑몰마다 문의하는것이 가장 정확합니다.\n​\n답변이 도움이 되셨기를 바라며,\n채택 부탁드리겠습니다.\n​\n감사합니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n상의 사이즈 55 66 이런 게 뭘 말하는 건가요?\n허리 둘레를 나타내는 건가요? 그렇다면 몇 cm인가요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=5&dirId=50401&docId=446804227"
@@ -1711,6 +2511,22 @@
           "Korean": {
             "language": "Korean",
             "text": "\"기저귀를 떼다\" 에서 떼다는 어디서 유례한건가요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the origin of the term \"떼다\" as used in the expression \"기저귀를 떼다\"?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n떼다는 무엇으로부터 떨어뜨리다라는 뜻입니다.\n오래 전 부터 사용되던 단어이기도합니다.\n시치미를 떼다의 어원에서도 매의 이름표(시치미)를 훔쳐간다. 즉 시치미를 떼어간다.\n정도입니다.\n연구자료를찾아보면분리성동사에관한용어는주로[분리성동사]와[대상을나눔]동사두가지가있습니다.\n[분리성동사]라는개념과[대상을나눔]이라는개념은정병도(1986)에서처음제시되었습니다.\n주로유의관계를형성하고있는[분리]동사군,[절단]동사군,[분할]동사군의공통의미를[대상의나눔]으로본것입니다.\n그중에‘떼다’와‘뜯다’는주로[분리]동사군에속한것으로나누어,선택제한이나어휘의미분석위주로분석하였지만‘떼다’와‘뜯다’의통사적인특징을논의하지않았습니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n\"기저귀를 떼다\" 에서 떼다는 어디서 유례한건가요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=5&dirId=50502&docId=437235717"
@@ -1745,6 +2561,22 @@
           "Korean": {
             "language": "Korean",
             "text": "돈까스 처음 만든 원조 나라 어딘가여?일본?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the original country that first made pork cutlets? Was it Japan?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n슈니첼을 영어로는 커틀릿(cutlet)이라고 합니다. \n슈니첼(Schnitzel)이란 밀가루, 빵가루 등을 섞어 고기에 바르고 기름에 튀긴 오스트리아 요리가 있습니다. 이것이 돈까스의 원조입니다. 이 요리가 프랑스로 넘어가서 포크커틀릿(Pork Cutlet)이란 돼지고기를 얇게 저민 후 간을 한 뒤 밀가루, 빵가루, 달걀을 입혀 튀겨낸 요리가 되고 일본으로 전파되 돈가츠로 변형된겁니다. \n포크(Pork)가 돈이고 커틀릿(Cutlet)이 가츠입니다. 이후 그것이 한국으로 넘어와 돈가스로 변형됐습니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n돈까스 처음 만든 원조 나라 어딘가여?일본?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=5&dirId=50502&docId=366216149"
@@ -1779,6 +2611,22 @@
           "Korean": {
             "language": "Korean",
             "text": "밥 했을때 비닐같은 부스러기 대체 정체가 뭐죠? 왜 생기는 거죠? 어떤 원리로 생기는거죠?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What exactly is the plastic-like residue that appears when I cook rice? Why does it form, and what's the principle behind its formation?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n안녕하세요.\n​\n그것은 비닐이 아니고 전분이 용해된 물(전분풀)이 얇게 마른것이에요.\n쌀을 도정을 하면 미세한 분말(쌀가루)가 뭍어있고, 또 쌀을 씻으면서 쌀에서 전분이 뽀얗게 나와요.\n그래서 쌀뜬물이 뽀얀 하얀색이 되는거에요.\n​\n쉽게 생각하면 전분풀이에요. 김치할때 쓰는 전분풀이요.\n그것이 밥을 하면서 밥솥 벽면에 얇게 코팅되어 있다가 밥이 되면서 전분풀도 익고 또 말라서 그렇게 비닐처럼\n보이는 형상으로 나오게 되는 것입니다.\n​\n쌀전분으로 인해 생긴것으로 섭취하셔도 되는 건조된 전분풀 입니다.\n​\n채택 부탁드립니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n밥 했을때 비닐같은 부스러기 대체 정체가 뭐죠? 왜 생기는 거죠? 어떤 원리로 생기는거죠?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=5&dirId=50502&docId=375823024"
@@ -1813,6 +2661,22 @@
           "Korean": {
             "language": "Korean",
             "text": "돌고래는 왜 이름이 돌고래에요? 돌같이 생긴것도 아닌데"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why are dolphins called \"dolphins\"? They don't look like stones.",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n돌고래라고 불리는 이유는\n중국에서는 돌고래를 '해돈(海豚)'이라고 한다고 합니다\n이는 해석하면 \"바다돼지\"인데 우리나라 옛말에 돼지가 \"돋\"으로 표현되었다고 합니다. \n처음엔 돋고래로 불려지다가 점차 돌고래로 불려지게 되었습니다 \n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n돌고래는 왜 이름이 돌고래에요? 돌같이 생긴것도 아닌데\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=8020604&docId=410218616"
@@ -1847,6 +2711,22 @@
           "Korean": {
             "language": "Korean",
             "text": "발령 받은 지 얼마 안 돼서 \n할 때 안돼서 띄어쓰기가 어떻게 되나요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "How should the spacing be for \"안돼서\" when saying \"it hasn't been long since being assigned\"?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n[답변]\n​\n'안 ∨ 돼서'처럼 띄어 써야 합니다. \n​\n​\n​\n돈 액수 얘기할 때 \n얼마 안돼\n할 때 안돼는 띄어쓰기가 어떻게 되나요?\n​\n[답변]\n​\n역시 '얼마 안 ∨ 돼'처럼 띄어 써야 합니다.\n​\n​\n한 단어인 '안되다'인가? 두 단어인 '안 ∨ 되다'인가? \n이것을 구별하는 요령은 다음과 같습니다. \n​\n'안되다' 앞에 부사 '잘'을 붙여 쓸 수 있으면 한 단어인 '안되다'를 쓰는 것이 맞습니다. '잘'을 붙여 쓸 수 없으면 '안 ∨ 되다'처럼 띄어 써야 합니다. \n​\n(질문의 경우)\n​\n발령받은 지 얼마 잘 안돼서 (?)\n얼마 잘 안돼 (?)\n​\n질문의 경우는 위와 같이 '안되다'가 부사 '잘'과 어울리지 못하므로 '안 ∨ 되다'처럼 띄어 써야 합니다.\n​\n'일정한 수준이나 정도에 이르지 못하다'라는 뜻의 한 단어 '안되다'가 쓰인 예시를 보이면 다음과 같습니다. \n​\n이번 시험에서 우리 중 (잘) 안되어도 세 명은 합격할 것 같다. (O)\n이번에는 (잘) 안되어도 10등 안에는 들어야 한다. (O)\n​\n​\n​\n​\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n발령 받은 지 얼마 안 돼서 \n할 때 안돼서 띄어쓰기가 어떻게 되나요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=11080103&docId=457343302"
@@ -1881,6 +2761,22 @@
           "Korean": {
             "language": "Korean",
             "text": "물 먹는다는 말이 어째서 헛수고가 된다는 의미로 해석되는지 궁금합니다. "
+          },
+          "English": {
+            "language": "English",
+            "text": "I'm curious why the phrase \"물 먹는다\" is interpreted to mean that an effort has gone to waste.",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n물먹다(물먹는다)\n'물먹다'는 (물을) 먹다 또는 (물을) 마시다와는 다른 별개의 단어입니다. 따라서 사전적으로 '물을 마신다'는 의미를 가진다고 할 수 없습니다. 애초에 별개의 의미를 지니기 때문에 독립된 단어로 사전에 등재된 것입니다. 관용적으로는 다음과 같은 의미들을 지닙니다.\n​\n1) 골탕을 먹다.\n2) 속다.\n3) 시험에서 낙방 혹은 탈락 혹은 좌절 혹은 떨어지다. 자리에서 물러나다. 곤란을 당하다.\n4) 선거에서 낙선하다.\n5) 선택되지 못하다.\n​\n그리고 예를 들어 '관용표현'이란, 둘 이상의 낱말이 합쳐져 원래의 뜻과는 전혀 다른 새로운 뜻으로 굳어져서 쓰이는 표현을 말하는 것으로 예를 들어 '발이 넓다'라는 관용 표현을 살펴보면 원래는 '발의 넓이가 넓다'라는 뜻이지만, 관용적으로 쓰일 때에는 '아는 사람이 많다.'라는 새로운 의미를 갖습니다. 이와 같이 '물먹다(물먹는다)' 는 관용적으로 '골탕을 먹다. 속다. 시험에서 낙방 혹은 탈락 혹은 좌절 혹은 떨어지다. 자리에서 물러나다. 곤란을 당하다. 선거에서 낙선하다. 선택되지 못하다'는 의미들을 지닙니다.\n​\n물 먹는다(물 먹다)에 대해선, 물에 빠졌을 때 '물을 먹는 것'에서 유래한 것으로 보입니다. 보통 물에 빠진 사람을 건져 낸 후, 제일 먼저 물을 먹었는지를 확인하게 됩니다. 물을 많이 먹었다면 그만큼 사태가 심각하다고 여기기 때문입니다. 물을 많이 먹는 사람의 경우 자기 체중의 50%까지도 먹는다고 합니다. 그것도 본인이 마시고 싶어서 마신 게 아니라, 본인의 의지와는 상반되게 어쩔 수 없이 먹은 물이었지만, 아무튼 '물 먹었다'는 것은 좋지 않음을 의미합니다.\n​\n이처럼 '물 먹는다(물먹다)'는 다음과 같은 의미를 지니므로, '헛수고가 된다'는 의미로 해석될 수 있습니다.\n1) 골탕을 먹다.\n2) 속다.\n3) 시험에서 낙방 혹은 탈락 혹은 좌절 혹은 떨어지다. 자리에서 물러나다. 곤란을 당하다.\n4) 선거에서 낙선하다.\n5) 선택되지 못하다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n물 먹는다는 말이 어째서 헛수고가 된다는 의미로 해석되는지 궁금합니다. \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=11080102&docId=449346319"
@@ -1915,6 +2811,22 @@
           "Korean": {
             "language": "Korean",
             "text": "10원 동전이 2개인 이유?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the reason for there being two versions of the 10-won coin?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n안녕하세요. 수집부문 초대 파워지식인 입니다.\n​오직, 화폐, 우표, 수집이 전문가로 관련된 부분 만 최선을 다해 답변드리겠습니다.\n​\n우리나라의 10원이 변경되는 원인은,   제조원가 때문입니다.\n1차 10원에는 구리의 함량이 높아서,  이를 줄여서 만들었다가,  이 또한 10원의 가치가 하락되면서\n       지금의 알루미늄을 덧댄 10원으로 변경된 것입니다.\n​\n현재 1차 발행 10원 부터 신형 10원까지,  모두 같이 사용되고 있습니다.\n​\n참고로, 우리나라 10원 동전은 1966년 첫 발행되면서, 총4번의 변화가 있었습니다.​\n1차 -> 2차로 변환 시 동의 함량이 88%에서 65%로 줄었고, 무게가 약간 줄었습니다.\n2차 -> 3차로 변환 시는 도안 만 변경되었고,\n3차 -> 4차로 변경 시는 함량이 65%에서 48%로 줄었으나, 전체적인 크기 및 사이즈가 변경\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n10원 동전이 2개인 이유?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=4&dirId=401&docId=462964501"
@@ -1949,6 +2861,22 @@
           "Korean": {
             "language": "Korean",
             "text": "바지락은 왜 봄이 제철인가요? "
+          },
+          "English": {
+            "language": "English",
+            "text": "Why is spring considered the peak season for clams?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n안녕하십니까? 국립수산과학원 갯벌연구센터입니다. 갯벌 바지락에 관심을 가져주셔서 감사합니다.\n바지락의 제철이 봄인 이유는 이 시기에 가장 살이 많이 차 있기 때문입니다. 이를 비만도가 높다고 표현을 하는데, 바지락의 비만도는 계절 변화에 따라 연중 변동을 보입니다. 추운 겨울을 지나 수온이 상승하는 3월부터는 바지락의 먹이섭취가 증가하고 생식소 중량이 증가합니다. 생식소 중량은 완숙기에 해당하는 5, 6월까지 지속 증가해서 많게는 바지락 전체 무게의 30%까지도 차지하게 됩니다. 따라서 바지락은 주로 3월 하순부터 5월 말 사이에 주로 채취되어 시중 유통됩니다. 이 시기가 1년 중 바지락이 가장 맛있고 품질이 좋은 것으로 알려져 있습니다.\n문의주신 내용에 답변이 되었기를 바라며 추가로 궁금하신 점은 갯벌연구센터(063-472-8608)로 문의하여 주시기 바랍니다. 감사합니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n바지락은 왜 봄이 제철인가요? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=60105&docId=460383972"
@@ -1983,6 +2911,22 @@
           "Korean": {
             "language": "Korean",
             "text": "VS를 \"대\" 라고 부르는 이유는 무엇인가요? "
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the reason \"VS\" is called \"against\"?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\nversus는 \"~에 대한\"이란 뜻의 전치사입니다.\nvs는 versus의 줄임말입니다. \n우리말로 해석할 때는 간결하게 \"대\"라고 합니다.\n​\nplaintiff vs defendant\n\"원고(에) 대(한) 피고\"  \n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\nVS를 \"대\" 라고 부르는 이유는 무엇인가요? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=110803&docId=455541856"
@@ -2017,6 +2961,22 @@
           "Korean": {
             "language": "Korean",
             "text": "컨디셔너=린스 같은건가요? "
+          },
+          "English": {
+            "language": "English",
+            "text": "Is conditioner the same as rinse?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n컨디셔너와 린스는 같은 제품입니다.\n​\n다만 차이점이 있다면 린스는 모발의 표면에 작용하고, 컨디셔너는 모발의 내부에 작용한다는 점입니다.\n​\n린스가 모발을 통째로 코팅하는 식이라면, 컨디셔너는 손상돼서 벌어져있는 큐티클 사이사이를 메꾸는 식으로 모발\n​\n을 매끈하게 만드는 식이라고 보시면 됩니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n컨디셔너=린스 같은건가요? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=5&dirId=5030103&docId=456367510"
@@ -2051,6 +3011,22 @@
           "Korean": {
             "language": "Korean",
             "text": "올리고당 이름 유래 뭔가요"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the origin of the name \"oligosaccharide\"?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n올리고- 는 소수(a few)라는 의미에서 온 접두사로 3~10개 미만의 단량체가 결합한 폴리머를 말할 때도 쓰입니다.\n예: 올리고당, 올리고펩타이드\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n올리고당 이름 유래 뭔가요\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=1115&docId=465554490"
@@ -2085,6 +3061,22 @@
           "Korean": {
             "language": "Korean",
             "text": "\n카톡 조용히 나가기 어떻게 하나요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "How do I leave a KakaoTalk chat quietly?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n카톡. 톱니바퀴(설정) -> 실험실-> 실험실사용누른후->채팅방조용히나가기 클릭 \n하시면 되요~~\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n\n카톡 조용히 나가기 어떻게 하나요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=1&dirId=1060801&docId=457721230"
@@ -2119,6 +3111,22 @@
           "Korean": {
             "language": "Korean",
             "text": "어디서 010-0***-**** 처럼 두번째가 0으로 시작하는 번호는 만들 수 없어서 드라마에서 가상으로 만들어 쓴다고 들었는데.. 진짜인가요? 그렇다면 왜 0으로 시작 할 수 없나요? "
+          },
+          "English": {
+            "language": "English",
+            "text": "I heard that phone numbers starting with 0 in the middle section, like 010-0***-****, cannot be created and are thus made up for use in dramas. Is that true? If so, why can't they start with 0?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n휴대전화 번호 중 가운데자리 0000~1999번호를 제외한 이유는 번호 간 충돌을 피하기 위해서인데요.\n예로 010번호끼리 통화할 때는 010을 누르지 않고도 통화가 가능해 가운데 자리가 '1121'일 경우 자칫하면 경찰서 번호 '112'로 연결될 수 있습니다. 또 번호 앞자리가 0으로 시작할 경우 사업자들이 주로 사용하는 '070'등의 번호와도 혼선 가능성이 있기 때문입니다. 그래서 0과 1로 시작하는 번호가 없습니다.\n​\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n어디서 010-0***-**** 처럼 두번째가 0으로 시작하는 번호는 만들 수 없어서 드라마에서 가상으로 만들어 쓴다고 들었는데.. 진짜인가요? 그렇다면 왜 0으로 시작 할 수 없나요? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=12&dirId=1201&docId=464906859"
@@ -2153,6 +3161,22 @@
           "Korean": {
             "language": "Korean",
             "text": " 왕 이름이 진짜 이름이랑 다른 사람들이 많은데 왜 그런거에요? "
+          },
+          "English": {
+            "language": "English",
+            "text": "Why do many kings have different real names and official names?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n앞에 태종, 세종 이런 것은 임금이 승하한 뒤\n​\n신하들이 정해 올리는 묘호 입니다. 그래서 실제 왕이 살아 있을 때\n​\n썼던 이름과는 다릅니다.\n​\n그리고 왕의 어렸을 때 이름이 즉위하고 나서 이름과 다른 것은\n​\n그 당시엔 왕의 이름과 같은 이름을 일반인이 쓸 수 없기에(피휘 라고 함) 일부러 왕의 이름을\n​\n잘 안 쓰는 한자로 바꿔서 그렇습니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n 왕 이름이 진짜 이름이랑 다른 사람들이 많은데 왜 그런거에요? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=1110&docId=441931708"
@@ -2187,6 +3211,22 @@
           "Korean": {
             "language": "Korean",
             "text": " 24절기 종류는 어떤 것이 있나요?? "
+          },
+          "English": {
+            "language": "English",
+            "text": "What are the types of the 24 solar terms?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n​\n음력월\n\t\n절기\n\t\n양력일자\n\t\n황경\n1월(孟春月)\n\t\n입춘(立 春)\n\t\n2월 4일경\n\t\n315°\n우수(雨 水)\n\t\n2월 19일경\n\t\n330°\n2월(仲春月)\n\t\n경칩(驚 蟄)\n\t\n3월 6일경\n\t\n345°\n춘분(春 分)\n\t\n3월 21일경\n\t\n0°\n3월(季春月)\n\t\n청명(淸 明)\n\t\n4월 5일경\n\t\n15°\n곡우(穀 雨)\n\t\n4월 20일경\n\t\n30°\n4월(孟夏月)\n\t\n입하(立 夏)\n\t\n5월 6일경\n\t\n45°\n소만(小 滿)\n\t\n5월 21일경\n\t\n60°\n5월(仲夏月)\n\t\n망종(芒 種)\n\t\n6월 6일경\n\t\n75°\n하지(夏 至)\n\t\n6월 21일경\n\t\n90°\n6월(季夏月)\n\t\n소서(小 暑)\n\t\n7월 7일경\n\t\n105°\n대서(大 暑)\n\t\n7월 23일경\n\t\n120°\n7월(孟秋月)\n\t\n입추(立 秋)\n\t\n8월 8일경\n\t\n135°\n처서(處 暑)\n\t\n8월 23일경\n\t\n150°\n8월(仲秋月)\n\t\n백로(白 露)\n\t\n9월 8일경\n\t\n165°\n추분(秋 分)\n\t\n9월 23일경\n\t\n180°\n9월(季秋月)\n\t\n한로(寒 露)\n\t\n10월 8일경\n\t\n195°\n상강(霜 降)\n\t\n10월 23일경\n\t\n210°\n10월(孟冬月)\n\t\n입동(立 冬)\n\t\n11월 7일경\n\t\n225°\n소설(小 雪)\n\t\n11월 22일경\n\t\n240°\n11월(仲冬月)\n\t\n대설(大 雪)\n\t\n12월 7일경\n\t\n255°\n동지(冬 至)\n\t\n12월 22일경\n\t\n270°\n12월(季冬月)\n\t\n소한(小 寒)\n\t\n1월 6일경\n\t\n285°\n대한(大 寒)\n\t\n1월 21일경\n\t\n300°\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n 24절기 종류는 어떤 것이 있나요?? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=61301&docId=456436585"
@@ -2221,6 +3261,22 @@
           "Korean": {
             "language": "Korean",
             "text": "시골가면 항상 보이는 마시멜로우 정체가 뭔가요"
+          },
+          "English": {
+            "language": "English",
+            "text": "What are those marshmallow-looking things you always see in the countryside?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n네, 곤포 사일러지로  소 사료로 사용하는 볏짚을 말아 놓은 것 입니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n시골가면 항상 보이는 마시멜로우 정체가 뭔가요\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=110203&docId=457507529"
@@ -2255,6 +3311,22 @@
           "Korean": {
             "language": "Korean",
             "text": "\n계란은 대란 특란 이런건 공장에서 직접 무게를 재나요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Are eggs like large eggs and extra-large eggs weighed directly at the factory?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n안녕하세요? 축산의 미래를 선도하는 축산유통 전문기관 '축산물품질평가원' 입니다.\n​\n계란 중량규격에 대한 질문이신데요\n말씀하신 부분은 선별라인을 갖춘 농장이나 집하장에서 이루어지는 작업으로 입고된 계란은 선별라인에서 중량별로 자동으로 선별을 합니다.\n​\n집하장 등을 통해 유통되는 경우에는 대부분 중량규격별로 선별하여 포장을 하게 됩니다.\n그래서 대부분의 시판용 식용계란은 크기가 비슷한 계란끼리 모아서 유통하는 것이 일반적이라 포장지에 표시된 중량규격을 확인해보시면 쉽게 확인이 가능합니다.\n계란의 크기는 중량에 따라 구분을 하는데 소란, 중란, 대란, 특란, 왕란으로 커지게 됩니다.\n초란의 경우에는 소란이나 중란이 많고 일반 유통과정에서는 대란이나 특란이 가장 많이 유통되는 형태입니다.\n​\n[참고] 계란의 중량규격\n계란은 크기에 따라서 소란, 중란, 대란, 특란, 왕란으로 구분됩니다. \n현재 국내에서 사용하는 중량규격은 개정 중량 기준으로 규격이 통일되었습니다.(2011년 10월)\n각 중량별로 8g 차이가 나도록 설정한 중량규격을 사용하고 있습니다.\n규격\n\t\n왕 란\n\t\n특 란\n\t\n대 란\n\t\n중 란\n\t\n소 란\n중량\n\t\n68g 이상\n\t\n68g 미만 ~\n60g 이상\n\t\n60g 미만 ~\n52g 이상\n\t\n52g 미만~\n44g 이상\n\t\n44g 미만\n계란에 중량을 표기하는 방법은 각 중량규격별 최소 중량을 표기하는 방식을 사용합니다.\n예를 들어 \n특란이라면 60g 이상이므로 60*30 = 1800g 특란/1800g 이상 이런 방식입니다.\n왕란은 68g 이상이므로 68*30 = 2040g 이상, 대란은 52g 이상이므로 52*30 = 1560g 이상으로 표기합니다.\n이렇게 표기하는 이유는 계란은 공산품과 달라서 중량이 일정하지 않고 중량범위 내에서 편차를 보이기 때문에 정확한 중량을 표기하기 어렵기 때문입니다.\n​\n집하장 등을 통해 유통되는 경우에는 대부분 중량규격별로 선별하여 포장을 하게 됩니다.\n그래서 대부분의 시판용 식용계란은 크기가 비슷한 계란끼리 모아서 유통하는 것이 일반적이라 포장지에 표시된 중량규격을 확인해보시면 쉽게 확인이 가능합니다.\n계란의 크기는 중량에 따라 구분을 하는데 소란, 중란, 대란, 특란, 왕란으로 커지게 됩니다.\n초란의 경우에는 소란이나 중란이 많고 일반 유통과정에서는 대란이나 특란이 가장 많이 유통되는 형태입니다.\n​\n축산물품질평가원(www.ekape.or.kr)이나 축산유통정보(www.ekapepia.com)를 방문하시면 축산관련 많은 지식과 정보를 얻으실 수 있습니다.\n※ 상기 답변은 축산물품질평가원의 공식 입장과 다를 수 있으며, 단순 참고용으로만 활용하시기 바랍니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n\n계란은 대란 특란 이런건 공장에서 직접 무게를 재나요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=1124&docId=459333874"
@@ -2289,6 +3361,22 @@
           "Korean": {
             "language": "Korean",
             "text": "장독과 항아리 차이점이 뭔가요??"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the difference between a \"jangdok\" and a jar?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n장독은 항아리의 일부로\n간장 혹은 된장 등 장 종류를 \n보관하는 항아리를 일컫는 말입니다\n항아리는 내용물에 상관없이 중간에\n볼록한 형태의 물건을 담아 보관하는 질 그릇의 총칭입니다\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n장독과 항아리 차이점이 뭔가요??\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=5&dirId=50503&docId=452242429"
@@ -2323,6 +3411,22 @@
           "Korean": {
             "language": "Korean",
             "text": "싣다 실다 쉬게 구분 방법"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the easy way to distinguish between \"싣다\" and \"실다\"?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n[싣다] 의 뜻은 물체나 사람을 옮기기 위해서 수레/비행기/탈것 등에 올리는 것을 말합니다.\n​\n[실다]는 사전적으로 잘못된 표기입니다. 하지만 \"실었다\"로 표기할 수 있습니다.\n​\n\"싣다 / 실었다\" 예시\n​\n짐을 싣다 => 나는 트럭에 짐을 실었다.\n물건을 싣다 => 나는 배에 물건을 실었다.\n짐 싣다 => 나는 가방에 짐을 실었다.\n차에 싣다 => 나는 차에 짐을 실었다.\n힘을 싣다 =>나는 망치에 힘을 실었다\n​\n어렵게 생각하지 마시고\n[싣다]는 있는 말(o), [실다]는 없는 말(x)\n                                  [실었다]는 있는 말(o) \n​\n문장의 흐름에 따라 싣다 / 실었다 를 구분해서 사용하시면 됩니다! ◡̈⃝\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n싣다 실다 쉬게 구분 방법\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=11080101&docId=451694089"
@@ -2357,6 +3461,22 @@
           "Korean": {
             "language": "Korean",
             "text": "조선의 태조 이성계만 왜 임금복장이 파란색인가요?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why is Taejo Lee Seong-gye the only monarch in Joseon whose royal attire was blue?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n조선의 태조 이성계만 왜 임금복장이 파란색인가요?\n다른 왕들은 전부 빨간색인데 왜 태조만 파란색인건가요?\n​\n태조 이성계가 파란색 곤룡포를 입은 이유가 정확하게 밝혀지지는 않았습니다.\n훗날 숙종도 이 점이 궁금하여 신하들과 논의를 했다고 하는데요, 고려 시대에는 푸른색을 숭상하였기에 조선이 건국되고 난 이후에도 푸른색 곤룡포를 입은 것이 아닌가 하고 추측하는 기록만 남아있습니다.\n​\n하지만, 일반적으로 알려진 또 다른 이유도 있습니다. 청색은 동쪽을 상징합니다. 태양은 동쪽에서 떠오르고요.\n즉, 새로운 왕조의 시작을 알리기 위해서 푸른색 곤룡포를 입었을 것이라고 추측하는 거지요.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n조선의 태조 이성계만 왜 임금복장이 파란색인가요?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=11&dirId=111001&docId=458690823"
@@ -2391,6 +3511,22 @@
           "Korean": {
             "language": "Korean",
             "text": "더치커피 콜드브루 같은말?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Are \"Dutch coffee\" and \"cold brew\" the same thing?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n더치커피와 콜드브루는 비슷한 커피 음료지만 약간의 차이가 있습니다.\n​\n더치커피는 일본식으로 추출하는 방식을 말하며, 커피를 물 대신에 냉수로 천천히 추출하는 방법입니다. 이 과정에서 시간이 오래 걸리고, 커피의 향과 풍미를 더욱 강조할 수 있습니다. 더치커피는 일반적으로 유리 병이나 커피 메이커를 사용하여 만들어집니다.\n​\n반면에 콜드브루는 커피를 찬 물에 장시간 절충하여 추출하는 방식을 말합니다. 일반적으로 커피 가루와 물을 12~24시간 정도 함께 냉장고에 절여두고 추출하는 방법입니다. 콜드브루는 부드럽고 산미가 적은 커피 음료로 알려져 있습니다.\n​\n따라서, 더치커피와 콜드브루는 추출 방식과 시간, 맛과 향이 약간 다르기 때문에 약간의 차이가 있습니다. 그러나 일반적으로 두 용어는 혼용되어 사용되기도 합니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n더치커피 콜드브루 같은말?\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=8020306&docId=453159960"
@@ -2425,6 +3561,22 @@
           "Korean": {
             "language": "Korean",
             "text": "\n철없다는 말의 유래는 무엇인가요"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the origin of the term \"철없다\" (meaning immature or lacking discernment)?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n\n철없다는 말은 사리를 분별할 만한 지각이 없다는 뜻입니\n​\n철없다는 말의 유래는 따로 없고 표준국어대사전에는 '철들다’의 '철’이 사리를 분별할 수 있는 힘으로 따로 실려있습니다3\n​\n철부지 역시 이 철을 모른다(不知)라는 뜻입니다\n​\n철없다는 말은 지역별로 다른 표현으로도 쓰입니다. 예를 들어 강원도에서는 오둔없다, 제주도에서는 철읎다, 함경도에서는 셈없다 등으로 쓰입니다\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n\n철없다는 말의 유래는 무엇인가요\n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=61303&docId=448667015"
@@ -2459,6 +3611,22 @@
           "Korean": {
             "language": "Korean",
             "text": "\n전년도 속득 있고 무직자 근로장려금 신청\n전년도 속득 있고 현재 무직자인데 근로장려금 신청가능한가요? "
+          },
+          "English": {
+            "language": "English",
+            "text": "Can I apply for the Earned Income Tax Credit if I had income last year but am currently unemployed?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n작년에 소득이 있다는 건 일한 내역이 있다는 말이실텐데 이 경우에 현재 소득이 없더라도 근로장려금 신청이 가능합니다. 다만 소득 조건에 부합하여야 하는데요,\n단독가구의 경우 상한선이2.200만원 이하, \n홑벌이가구시면 3,200만원까지, 맞벌이가구이시면 3,800만원 이하여야 조건에 해당됩니다.\n​\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n\n전년도 속득 있고 무직자 근로장려금 신청\n전년도 속득 있고 현재 무직자인데 근로장려금 신청가능한가요? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=60802&docId=464393413"
@@ -2493,6 +3661,22 @@
           "Korean": {
             "language": "Korean",
             "text": "원양오징어가뭔가요?  초코오징어같은 종류인가요? 아니면 원양어선에서 잡혀서 원양오징어임가요? 아니면 다른 이유가 있나요? "
+          },
+          "English": {
+            "language": "English",
+            "text": "What is ocean squid? Is it a type like chocolate squid, meaning it bears the same characteristics, or is it called ocean squid because it's caught by ocean-going vessels? Or is there another reason behind its name?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n초코오징어는 해산물은 어획한 직후부터 품질이 조금씩 떨어지기 시작합니다\n갓 잡은 오징어는 선명한 초콜릿빛을 띄고있다가 점차 흰색을 띈다고 해서\n초코오징어라고 합니다\n원양산도 오징어를 갓잡아 바로 급속 동결해서 이루어지는데 \n초콜릿색이 선명한 오징어를이것을 초코오징어라고합니다\n고퀄리티의 오징어로 그만큼 선도가 좋다는 뜻입니다\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n원양오징어가뭔가요?  초코오징어같은 종류인가요? 아니면 원양어선에서 잡혀서 원양오징어임가요? 아니면 다른 이유가 있나요? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=8&dirId=8020604&docId=346130223"
@@ -2527,6 +3711,22 @@
           "Korean": {
             "language": "Korean",
             "text": "아파트 매매후 소유권이전을 마친뒤\n등기부등본에\n전주인(전소유주) 이름이 나오나요?\n혹 나온다면 전주인 이름 안나오게 할수는 없나요? "
+          },
+          "English": {
+            "language": "English",
+            "text": "After completing the transfer of ownership following the sale of an apartment, does the name of the previous owner (previous proprietor) appear on the copy of the registry? If it does, is there a way to prevent the previous owner's name from appearing?",
+            "prompting_state": {
+              "prompt": "Your task is to translate a question from Korean into English. You will be given the Korean answer as the context.\n\nHere is the Korean answer. Use it as the context to make the translation sound natural in the English:\n대한법무사협회 부산지방법무사회(서부지원) 부산 명지 법무사 이유철입니다.\n모든 질문에 수기로 답변을 드리고 있습니다.\n​\n부동산등기사항증명서에는 해당 아파트에 대한 등기(소유권보존등기)가 생성된 이후부터 아파트를 소유하였었던 모든 소유자의 정보(이름, 주소 등)가 나오게 되며, 이를 나오지 않게 할 수 있는 방법은 없습니다.\n\nTranslate the following question from Korean into English. Make it sound as natural as possible:\n아파트 매매후 소유권이전을 마친뒤\n등기부등본에\n전주인(전소유주) 이름이 나오나요?\n혹 나온다면 전주인 이름 안나오게 할수는 없나요? \n",
+              "model_name": "GPT 4",
+              "max_output_tokens": 2048,
+              "other_state": {},
+              "model": "gpt-4-0125-preview",
+              "n": 1,
+              "presence_penalty": 0.0,
+              "temperature": 1.0,
+              "top_p": 1.0,
+              "logprobs": false
+            }
           }
         },
         "url": "https://kin.naver.com/qna/detail.naver?d1id=6&dirId=60215&docId=465242587"
