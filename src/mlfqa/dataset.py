@@ -51,6 +51,7 @@ class Question:
     name: str
     type: QuestionType
     source: Source
+    collector: str
     language: Language
     translations: dict[Language, QuestionTranslation]
     url: str | None = PyField(default=None)
@@ -280,6 +281,7 @@ class Field(enum.Enum):
     QUESTION_TITLE = enum.auto()
     QUESTION_ELABORATION = enum.auto()
     QUESTION_SOURCE = enum.auto()
+    QUESTION_COLLECTOR = enum.auto()
     ANSWER = enum.auto()
     ANSWER_SOURCE = enum.auto()
     URL = enum.auto()
@@ -325,6 +327,7 @@ def _construct_dataset_from_dict_entries(
             f"{dataset_name}:{i}",
             question_type,
             dict_entry[Field.QUESTION_SOURCE],
+            dict_entry[Field.QUESTION_COLLECTOR],
             language,
             {language: question_translation},
             dict_entry[Field.URL],

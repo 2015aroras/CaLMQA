@@ -1,0 +1,2554 @@
+{
+  "entries": [
+    {
+      "question": {
+        "name": "hungarian:0",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "15-16 éves srácnak szokás még pénzt adni a locsolásért? Ha igen, mennyit? Testvér kisfia.\n\nA legátmenetibb korosztály. Aki korban még gyereknek tűnik, de bulizik, barátnője van, bulikban iszogat...tehát kamasz fiatalemberként él."
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/unnepek__husvet__12206681-15-16-eves-sracnak-szokas-meg-penzt-adni-a-locsolasert-ha-igen-mennyit-testve"
+      },
+      "answers": [
+        {
+          "name": "hungarian:0:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Attól függ, milyen a kapcsolat vele. Én adnék ennek a korosztálybeli rokonomnak (főleg, ha tudnám azt is, hogy megtakarítja ill. jóra fordítja).\n\nA pénz mindig jól jön...\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "15-16 éves srácnak szokás még pénzt adni a locsolásért? Ha igen, mennyit? Testvér kisfia.\n\nA legátmenetibb korosztály. Aki korban még gyereknek tűnik, de bulizik, barátnője van, bulikban iszogat...tehát kamasz fiatalemberként él.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:1",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Miért keletkezik a MÁV IC kocsik utasterében minden fékezésnél elviselhetetlen égett fékporszag?\nAnnyira durva már, hogy konkrétan köhögni kezdenek az emberek egy-egy fékezésnél. Ez mennyire egészséges dolog? Miért nem tesz valamit a MÁV ez ellen?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__tomegkozlekedes__12454360-miert-keletkezik-a-mav-ic-kocsik-utastereben-minden-fekezesnel-elviselhetetlen-e"
+      },
+      "answers": [
+        {
+          "name": "hungarian:1:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az IC kocsikon tárcsafék van és azokban pedig \"műanyag\" fékbetét. Tehát nem olyan vas tuskós fék van mint a régebbi vasúti járműveken.\n\nEnnek a fékbetétnek van szaga amikor megmelegszik fékezés közben. Pora nincs. Legalábbis olyan nincs neki mint a tuskós féknek.\n\nEzt a szagot a kocsikban lévő légjavító, szellőztető beszívja és befújja az utastérbe. Ezzel sajnos nem nagyon lehet mit kezdeni.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért keletkezik a MÁV IC kocsik utasterében minden fékezésnél elviselhetetlen égett fékporszag?\nAnnyira durva már, hogy konkrétan köhögni kezdenek az emberek egy-egy fékezésnél. Ez mennyire egészséges dolog? Miért nem tesz valamit a MÁV ez ellen?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:2",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Mennyi BKV-busz égett már le az elmúlt 20 évben?\nAz utóbbi pár évben/évtizedben mi ez a rengeteg tűzeset meg kigyulladó busz a BKV-nál?\n\nVolt egy időszak kb. 20 éve, amikor az Ikarus 412-esek égtek ki sorra azzal kezdődött, aztán volt pár 415/435-ös, aztán pár évig viszonylag nem volt, csak 1-2 kisebb, aztán (már a bilikék korszakban, kb ) pár Mercedes Citaro is égett, de teljesen, kb 7-8 éve, majd néhány behozott szóló Volvo 7000, asszem néhány éve volt egy Karsan kisbusz is, az utóbbi 2-3 évben meg a csuklós Volvo 7700A-k lángolnak, ez a ma hajnali már legalább a 4. ilyen.\n\n\nValaki tudja, hogy miért van/volt ez a rengeteg kigyulladó busz a BKV-nál? Melyikkel mi volt a gond? Illetve mennyi ilyen komolyabb/látványosabb égés volt már az elmúlt 2 évtizedben? Szerintem legalább 30\n\nMás országok fővárosaiban is ilyen magas az arány?\n"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__tomegkozlekedes__11825602-mennyi-bkv-busz-egett-mar-le-az-elmult-20-evben"
+      },
+      "answers": [
+        {
+          "name": "hungarian:2:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nincs az 30 sem.\n\nAz a gond, hogy az emlékezetedben a füstölés is tűzesetként marad meg, és utólag már hozzáköltöd, hogy az a busz leégett. Olyan is volt nem egyszer, hogy a busz bár kigyulladt, de időben megfékezték a tüzet és némi felújítás után visszatért a forgalomba a kocsi.\n\n\nTényszerűen utána lehet nézni a dolgoknak.\n\nVolvo 7700A-ból 4 égett le.\n\n412-esből 4 darab égett le.\n\nKisvolvóból 4 égett le. (tegyük hozzá, hogy ezek 20 éves buszok)\n\nGázos Citaróból 1 égett le.\n\nKarsanból 1 égett le.\n\n\nSzerintem, az utóbbi 20 évből 30 nem fog összejönni, ha valóban leégett buszokat keresel, és nem csupán tűzeseteket.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mennyi BKV-busz égett már le az elmúlt 20 évben?\nAz utóbbi pár évben/évtizedben mi ez a rengeteg tűzeset meg kigyulladó busz a BKV-nál?\n\nVolt egy időszak kb. 20 éve, amikor az Ikarus 412-esek égtek ki sorra azzal kezdődött, aztán volt pár 415/435-ös, aztán pár évig viszonylag nem volt, csak 1-2 kisebb, aztán (már a bilikék korszakban, kb ) pár Mercedes Citaro is égett, de teljesen, kb 7-8 éve, majd néhány behozott szóló Volvo 7000, asszem néhány éve volt egy Karsan kisbusz is, az utóbbi 2-3 évben meg a csuklós Volvo 7700A-k lángolnak, ez a ma hajnali már legalább a 4. ilyen.\n\n\nValaki tudja, hogy miért van/volt ez a rengeteg kigyulladó busz a BKV-nál? Melyikkel mi volt a gond? Illetve mennyi ilyen komolyabb/látványosabb égés volt már az elmúlt 2 évtizedben? Szerintem legalább 30\n\nMás országok fővárosaiban is ilyen magas az arány?\n",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:3",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A szomszédunk ma közölte, hogy fel akar jelenteni minket, mert zavarja a haszonállataink szaga. Megteheti- e ezt, és ha igen, milyen következménye lesz?\n\nEgy vidéki nagyvárosban élünk, de olyan külvárosi részen, ahol az állattartás már megengedett. Tyúkokat és egy malacot tartunk, teljesen normális körülmények között. Ez a család két éve költözött a mellettünk lévő házba, idáig semmiféle ilyen jellegű panaszuk nem volt, erre ma közölték, hogy fel fognak jelenteni minket a rendőrségen, mert idén nyáron már nem hajlandóak elviselni az állataink szagát és szerintük szabálytalanok vagyunk, mert a telkünkön belül a trágya helye az ő házuk felőli oldalon van. Tényleg tehetnek feljelentést? Ha igen, kinek van igaza? Nekik, vagy nekünk? Mi úgy gondoljuk nincs semmi szabálytalan abban ahogy az állatokat tartjuk, de nem tudjuk, kihez fordulhatnánk segítségért. Ha mégis igazuk van, mi lesz a büntetésünk?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/emberek__lakohely-szomszedok__11644155-a-szomszedunk-ma-kozolte-hogy-fel-akar-jelenteni-minket-mert-zavarja-a-haszona"
+      },
+      "answers": [
+        {
+          "name": "hungarian:3:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A trágya veszélyes hulladéknak számít, és nagyon szigorú szabályok vonatkoznak a tárolására.\n\nIgen, tudom, hogy vidéken nem foglalkoznak ezzel, van trágyadomb és kész.\n\nDe a törvény akkor is előírja a megfelelő trágyakezelést, és a zárt trágyatároló létesítését.\n\n\n\"Az istállótrágya tároló kapacitásának legalább 6 havi trágya tárolására elegendőnek kell lennie, szivárgásmentes, szigetelt alappal és a trágyalé összegyűjtésére is alkalmas\n\ncsatornákkal, illetve aknákkal ellátva.\n\nA trágyatárolók befogadó képességére és műszaki követelményeire vonatkozó értékeket az 59/2008. FVM rendelet 5. melléklete tartalmazza.\"\n\nEz a rendelet szövege pontosan.\n\nTehát hivatalosan, törvény szerint nem tarthatod a trágyát csak úgy egy halomba lerakva.\n\nHa tényleg feljelent a szomszéd, téged kötelezhetnek megfelelő trágyatároló kiépítésére, azt nem tudom, hogy meg is büntethetnek-e.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "A szomszédunk ma közölte, hogy fel akar jelenteni minket, mert zavarja a haszonállataink szaga. Megteheti- e ezt, és ha igen, milyen következménye lesz?\n\nEgy vidéki nagyvárosban élünk, de olyan külvárosi részen, ahol az állattartás már megengedett. Tyúkokat és egy malacot tartunk, teljesen normális körülmények között. Ez a család két éve költözött a mellettünk lévő házba, idáig semmiféle ilyen jellegű panaszuk nem volt, erre ma közölték, hogy fel fognak jelenteni minket a rendőrségen, mert idén nyáron már nem hajlandóak elviselni az állataink szagát és szerintük szabálytalanok vagyunk, mert a telkünkön belül a trágya helye az ő házuk felőli oldalon van. Tényleg tehetnek feljelentést? Ha igen, kinek van igaza? Nekik, vagy nekünk? Mi úgy gondoljuk nincs semmi szabálytalan abban ahogy az állatokat tartjuk, de nem tudjuk, kihez fordulhatnánk segítségért. Ha mégis igazuk van, mi lesz a büntetésünk?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:4",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Szilveszterkor ugyanúgy 18-6 között lehet majd tűzijátékozni?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/emberek__lakohely-szomszedok__10874596-szilveszterkor-ugyanugy-18-6-kozott-lehet-majd-tuzijatekozni"
+      },
+      "answers": [
+        {
+          "name": "hungarian:4:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nem, tulajdonképpen korlátlanul hiszen azokat a tűzijátékokat amelyekhez most hozzáférsz I. és II. kategóriába, azaz az egész évben felhasználhatók közé van sorolva.\n\n\nTehát akár 4-kor is fellőheted.\n\n\nViszont arra figyelj, hogy csak magánterületen szabad használni.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Szilveszterkor ugyanúgy 18-6 között lehet majd tűzijátékozni?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:5",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A Csehek miért nem elismert nemzetiség Magyarországon?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/emberek__egyeb-kerdesek__12086464-a-csehek-miert-nem-elismert-nemzetiseg-magyarorszagon"
+      },
+      "answers": [
+        {
+          "name": "hungarian:5:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A nemzetiségek jogairól szóló 2011. évi CLXXIX. törvény értelmében nemzetiség minden olyan – Magyarország területén legalább egy évszázada honos – népcsoport, amely az állam lakossága körében számszerű kisebbségben van, a lakosság többi részétől saját nyelve, kultúrája és hagyományai különböztetik meg, egyben olyan összetartozás-tudatról tesz bizonyságot, amely mindezek megőrzésére, történelmileg kialakult közösségeik érdekeinek kifejezésére és védelmére irányul. E meghatározás alapján a törvény tizenhárom magyarországi nemzetiséget ismer el, ezek: a bolgár, a görög, a horvát, a lengyel, a német, az örmény, a roma, a román, a ruszin, a szerb, a szlovák, a szlovén és az ukrán nemzetiség.\n\n\n\nRáadásul a számuk elenyésző Magyarországon. Érdekes, hogy a zsidó kisebbséget sem ismerik el nemzetiségként.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Csehek miért nem elismert nemzetiség Magyarországon?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:6",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A családi adókedvezmény akkor is jár minden hónapban,ha nem volt 1 év munkaviszonyom?\nTehát januártól augusztusig volt munkám és erre az időre egy összegben kértem az adóvisszatérítést,de a könyvelő 12 hónappal számolt,annak ellenére,hogy csak 8 hónap munkaviszonyom volt és a munkaügyiben sem voltam regisztrálva a maradék 4 hónapra. Ez most hogy van akkor?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/uzlet-es-penzugyek__adozas-konyveles__11186847-a-csaladi-adokedvezmeny-akkor-is-jar-minden-honapbanha-nem-volt-1-ev-munkaviszo"
+      },
+      "answers": [
+        {
+          "name": "hungarian:6:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A családi adóalapkedvezmény nem munkaviszony függvénye. Ha te jogosult voltál egész évben a kedvezményre, akkor egész évre jár. Ha csak egy hónap munkaviszonyod volt, de abban volt annyi jövedelmed, hogy az egész éves keretet igénybe tudd venni, akkor semmi akadálya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A családi adókedvezmény akkor is jár minden hónapban,ha nem volt 1 év munkaviszonyom?\nTehát januártól augusztusig volt munkám és erre az időre egy összegben kértem az adóvisszatérítést,de a könyvelő 12 hónappal számolt,annak ellenére,hogy csak 8 hónap munkaviszonyom volt és a munkaügyiben sem voltam regisztrálva a maradék 4 hónapra. Ez most hogy van akkor?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:7",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Hogyan működik a 25 év alatti szja mentesség?\n\nNagyon nem értem ezt az egészet mert senki nem magyarázta még el nekem hogy hogyan is működik a szja mentesség. Eddig úgy hittem, hogy azt a 15%-ot amit fizetnem kellene szja adóra azt nem kell befizetnem, így megmarad a nettó fizetésembe. Szóval most ha 100.000 ft a nettóm akkor ugye 15.000 ft a szja adó ezen felül. Ezt a 15.000ft én vissza kapom ( így a nettó fizu az 115.000ft lesz) vagy ezt mivel a cégnek nem kell visszafizetnie így a bruttóm lesz csak kevesebb( így a nettó fizu az marad 100.000ft és a bruttó 15% kevesebb) ?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/uzlet-es-penzugyek__adozas-konyveles__12396832-hogyan-mukodik-a-25-ev-alatti-szja-mentesseg"
+      },
+      "answers": [
+        {
+          "name": "hungarian:7:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "\"Hogyan működik a 25 év alatti szja mentesség?\"\n\n\n25 év felettiek:\n\n\nBruttó bér 300.000\n\n- 45.000 (SZJA, mértéke bruttó bér 15 %-a)\n\n- 55.500 (járulék, mértéke bruttó bér 18,5 %-a)\n\n= 199.500 (nettó bér, ami a dolgozónak jár)\n\n\n25 év alattiak:\n\nBruttó bér 300.000\n\n- 55.500 (járulék, mértéke bruttó bér 18,5 %-a)\n\n= 244.500 (nettó bér, ami a dolgozónak jár)\n\n\nA két példát összehasonlítva láthatod, hogy a 25 év alattitől nem vonták le a 15 %-os SZJA összegét, tehát ennyivel több a nettó bére, mint a 25 év felettinek.\n\n\nJogkövető, szabályosan működő cégeknél ez így van.\n\n\nHa valakit feketén, vagy szürkén foglalkoztatnak, ott bármilyen irányban bedőlhet a dolog, hiszen a bérezés egy része vagy egésze ilyen esetben szabálytalan. Ez nyilván hozza magával azt, hogy minden más is szabálytalan lesz vele kapcsolatban. Például \"lenyúlják\" a kedvezményed.\n\n\nHa hivatalosan vagy foglalkoztatva teljes egészében, akkor ilyen nem fordulhat elő."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan működik a 25 év alatti szja mentesség?\n\nNagyon nem értem ezt az egészet mert senki nem magyarázta még el nekem hogy hogyan is működik a szja mentesség. Eddig úgy hittem, hogy azt a 15%-ot amit fizetnem kellene szja adóra azt nem kell befizetnem, így megmarad a nettó fizetésembe. Szóval most ha 100.000 ft a nettóm akkor ugye 15.000 ft a szja adó ezen felül. Ezt a 15.000ft én vissza kapom ( így a nettó fizu az 115.000ft lesz) vagy ezt mivel a cégnek nem kell visszafizetnie így a bruttóm lesz csak kevesebb( így a nettó fizu az marad 100.000ft és a bruttó 15% kevesebb) ?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:8",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Mi az az előrehozott érettségi?És mondjuk matekból lehet ilyet tenni?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozoktatas-tanfolyamok__magyar-iskolak__12020574-mi-az-az-elorehozott-erettsegies-mondjuk-matekbol-lehet-ilyet-tenni"
+      },
+      "answers": [
+        {
+          "name": "hungarian:8:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Előrehozott érettségi az, amit a rendes érettségi előtt teszel le egy vagy több tantárgyból.\n\nRendes érettségi= Az, ami a gimnázium legvégén van: matek, magyar, történelem, idegen nyelv, 1 valasztott tantárgy\n\n\nElőrehozott érettségit csak idegen nyelvből, informatikából és olyan tantárgyakból lehet tenni, amelynek az oktatása a helyi tanterv alapján lezárult.\n\nMatekból, magyarból és történelemből NEM lehet előrehozott érettségit tenni!\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi az az előrehozott érettségi?És mondjuk matekból lehet ilyet tenni?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:9",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Ha jelentkezek egy felsőoktatási intézménybe, akkor a családi pótlékra vonatkozik a \"hátrányos helyzetű\" többletpont?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozoktatas-tanfolyamok__egyeb-kerdesek__3126309-ha-jelentkezek-egy-felsooktatasi-intezmenybe-akkor-a-csaladi-potlekra-vonatkozi"
+      },
+      "answers": [
+        {
+          "name": "hungarian:9:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "[link]\n\n\nHátrányos helyzet miatt 20 többletpont jár minden alapképzési szakon, egységes, osztatlan képzésen, illetve felsőfokú szakképzésen.\n\n\nHátrányos helyzetű az a jelentkező, aki felvétel esetén a beiratkozás időpontjában huszonötödik életévét nem töltötte be ÉS\n\n- akit középfokú tanulmányai során családi körülményei, szociális helyzete miatt a jegyző védelembe vett, és/vagy\n\n- aki után középfokú tanulmányai során rendszeres gyermekvédelmi támogatást folyósítottak, és/vagy\n\n- középfokú tanulmányai során rendszeres gyermekvédelmi kedvezményre jogosult,\n\n- középfokú tanulmányai során állami gondozott volt.\n\n\n\n[link] ?itemNo=3\n\n\nAz alábbi - leggyakrabban előforduló - dokumentumok nem tartoznak sem a hátrányos helyzet, sem pedig a halmozottan hátrányos helyzet igazolásához szükséges dokumentumok közé, vagyis ha ilyen dokumentumot csatol a jelentkezéséhez a felvételiző, akkor a többletpontra vonatkozó kérelmét nem áll módunkban elfogadni: [...] családi pótlék igazolása.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ha jelentkezek egy felsőoktatási intézménybe, akkor a családi pótlékra vonatkozik a \"hátrányos helyzetű\" többletpont?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:10",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Mi a különbség a töltött tojás és a kaszinótojás között?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/etelek-italok__egyeb-kerdesek__12465046-mi-a-kulonbseg-a-toltott-tojas-es-a-kaszinotojas-kozott"
+      },
+      "answers": [
+        {
+          "name": "hungarian:10:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A kaszinó is töltött csak besamell,mustár, só.bors,tört tojássárgája a töltelék.\n\nA töltött tojast bármivel tölthető pl.kaviáros,májas,gombás stb....\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi a különbség a töltött tojás és a kaszinótojás között?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:11",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Hogyan lehet kérni vezetői engedély cseréjét a 102-es kód miatt?\n\nMost lett meg a 2. Csoportu orvosi alkalmasságim és munka miatt kellene jogosítványba bejegyzett 102-es kód, most 101-es van. Ügyfélkapun nem találtam ilyen információt, a kormányablakban pedig szépen szólva el lettem küldve melegebb éghajlatra mert miért nem tudom ezt. Annyit elárultak, hogy lehet azt amit akarok, de azt már nem mondták el, hogy hogyan."
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__egyeb-kerdesek__12533238-hogyan-lehet-kerni-vezetoi-engedely-cserejet-a-102-es-kod-miatt"
+      },
+      "answers": [
+        {
+          "name": "hungarian:11:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Minek akarsz 102-es kódot a jogsidba? Az a hivatásosoknak van vagyis akinek minimum C kategóriás a jogsija, ráadásul ez esetben csak 5 évre kapod meg az orvosit. ( én csak szívásnak érzem, mert utoljára a seregben vezettem teherautót 30 éve)\n\nHa mindenképpen szeretnél ilyen kódot, akkor elmész a dokidhoz, és csináltatsz vele 2-es orvosi alkalmasságit, majd okmányirodában új jogsit, ezzel a \"korlátozással\"\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan lehet kérni vezetői engedély cseréjét a 102-es kód miatt?\n\nMost lett meg a 2. Csoportu orvosi alkalmasságim és munka miatt kellene jogosítványba bejegyzett 102-es kód, most 101-es van. Ügyfélkapun nem találtam ilyen információt, a kormányablakban pedig szépen szólva el lettem küldve melegebb éghajlatra mert miért nem tudom ezt. Annyit elárultak, hogy lehet azt amit akarok, de azt már nem mondták el, hogy hogyan.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:12",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Lehet még valahol kimért vagy fagyasztott sprotnit kapni?\n\nugy értem hogy esetleg lidl vagy tescoban van?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/etelek-italok__elelmiszerek__12532868-lehet-meg-valahol-kimert-vagy-fagyasztott-sprotnit-kapni"
+      },
+      "answers": [
+        {
+          "name": "hungarian:12:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Konkrétan sprotni kell, vagy általánosságban apróhal? Utóbbi mindig van az Auchanban.\n\n\n[link]\n\n\nDe mondjuk nagykerből vagy a gyártótól olcsóbb:\n\n\n[link]\n\n\n[link]\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lehet még valahol kimért vagy fagyasztott sprotnit kapni?\n\nugy értem hogy esetleg lidl vagy tescoban van?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:13",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Miért költöznek haza a kivándorolt magyarok?\n\nBeszélgettünk baráti és családi körben is arról, hányan terveznek kiköltözni, hány olyan ismerős van, aki végül kiköltözött, és levegőbe beszélés helyett kíváncsiságból olvastunk is statisztikákat. Összességében az elmúlt pár évben több kivándorolt magyar költözik haza, mint ahány magyar külföldre költözik.\n\nTaláltunk cikkeket arról is, hogy aki kiköltözik, mivel indokolja, mik az okai erre, viszont arról nem találtunk statisztikát, cikket, adatot, felmérést, hogy a visszatérők miért költöztek vissza.\n\nÍgy kérdésem egyrészt azokhoz szól, ha vannak itt olyanok, akik külföldről költöztek vissza Magyarországra, vagy ismernek ilyen embereket: miért költöztek ki és miért jöttek haza? Mennyi idő után?\n\nA kérdésem másik fele pedig inkább egy kérés: tudnátok-e néhány erre vonatkozó felmérés eredményeit linkelni?\n\n\nLáttam 1-2 ilyesmi kérdést is itt gyakorin, de értelmes válaszokat nem igazán találtam benne. Ezért kérlek, amennyire lehet, politikamentes, és spekulációktól mentes válaszokat írjatok! Vagy saját/ismerős tapasztalatát, vagy hivatalos adatokkal alátámasztott válaszokat (Tehát a \"rájöttek hogy nincs kolbászból a kerítés\" típusú válaszokkal, légyszi, kíméljétek a válaszszekciót!)\n\n\nTöbbek közt ezeket a statisztikákat futottunk át (a teljesség igénye nélkül):\n\n\n[link]\n\n\n[link]\n\n\n[link]\n\n\n[link]\n\n"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/emberek__lakohely-szomszedok__12533395-miert-koltoznek-haza-a-kivandorolt-magyarok"
+      },
+      "answers": [
+        {
+          "name": "hungarian:13:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nem több ilyen ismerősöm van. Az okok: kinti rossz közbiztonság (migránsok), javuló hazai kereseti lehetőségek, magánéleti problémák (elvált a külföldi férjétől), kinti rossz egészségügyi ellátás (bizony!)"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért költöznek haza a kivándorolt magyarok?\n\nBeszélgettünk baráti és családi körben is arról, hányan terveznek kiköltözni, hány olyan ismerős van, aki végül kiköltözött, és levegőbe beszélés helyett kíváncsiságból olvastunk is statisztikákat. Összességében az elmúlt pár évben több kivándorolt magyar költözik haza, mint ahány magyar külföldre költözik.\n\nTaláltunk cikkeket arról is, hogy aki kiköltözik, mivel indokolja, mik az okai erre, viszont arról nem találtunk statisztikát, cikket, adatot, felmérést, hogy a visszatérők miért költöztek vissza.\n\nÍgy kérdésem egyrészt azokhoz szól, ha vannak itt olyanok, akik külföldről költöztek vissza Magyarországra, vagy ismernek ilyen embereket: miért költöztek ki és miért jöttek haza? Mennyi idő után?\n\nA kérdésem másik fele pedig inkább egy kérés: tudnátok-e néhány erre vonatkozó felmérés eredményeit linkelni?\n\n\nLáttam 1-2 ilyesmi kérdést is itt gyakorin, de értelmes válaszokat nem igazán találtam benne. Ezért kérlek, amennyire lehet, politikamentes, és spekulációktól mentes válaszokat írjatok! Vagy saját/ismerős tapasztalatát, vagy hivatalos adatokkal alátámasztott válaszokat (Tehát a \"rájöttek hogy nincs kolbászból a kerítés\" típusú válaszokkal, légyszi, kíméljétek a válaszszekciót!)\n\n\nTöbbek közt ezeket a statisztikákat futottunk át (a teljesség igénye nélkül):\n\n\n[link]\n\n\n[link]\n\n\n[link]\n\n\n[link]\n\n",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:14",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Most akkor a Brexit után érvényes vagy sem a személyim ha haza akarok utazni?\n\nHa jól tudom, Október 31.-e után megtörtént a Brexit, és elvileg már nem jó a személyi, ha repülővel haza akarok utazni.\n\nSajnos az útlevelem lejárt, vagy az útlevelem se lenne alkalmas ha nem járt volna le?\n\n\nNem tudom, hol tájékozódjak a témában, akár idevonatkozó cikket is linkelhettek.\n\n\nKöszi előre is a válaszokat.\n\n"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/utazas__repules-repulojegyek__10204520-most-akkor-a-brexit-utan-ervenyes-vagy-sem-a-szemelyim-ha-haza-akarok-utazni"
+      },
+      "answers": [
+        {
+          "name": "hungarian:14:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "\"Ha jól tudom, Október 31.-e után megtörtént a Brexit\"\n\n\nNem történt meg. Az új határidő január 31. Hogy mi és hogyan lesz jó, az meg majd kiderül. Pont az van, hogy nincs megegyezés... A legrosszabb ami történhet veled az az, hogy útlevél (és vízum) hiányában kitoloncolnak a kilépés után. De úgyis eljönnél. Viszont nyilván nem lesz ilyen gond.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Most akkor a Brexit után érvényes vagy sem a személyim ha haza akarok utazni?\n\nHa jól tudom, Október 31.-e után megtörtént a Brexit, és elvileg már nem jó a személyi, ha repülővel haza akarok utazni.\n\nSajnos az útlevelem lejárt, vagy az útlevelem se lenne alkalmas ha nem járt volna le?\n\n\nNem tudom, hol tájékozódjak a témában, akár idevonatkozó cikket is linkelhettek.\n\n\nKöszi előre is a válaszokat.\n\n",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:15",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A nemzeti konzultációs kérdőívet kitöltők száma alapján helytálló az a következtetés, hogy a Fidesz-KDNP biztos szavazóinak száma jelenleg legfeljebb 1,5 millió körül lehet?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/politika__magyar-politika__12541561-a-nemzeti-konzultacios-kerdoivet-kitoltok-szama-alapjan-helytallo-az-a-kovetkezt"
+      },
+      "answers": [
+        {
+          "name": "hungarian:15:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nincs szoros összefüggés. A közvéleménykutatások szerint ennél többen támogatják őket."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A nemzeti konzultációs kérdőívet kitöltők száma alapján helytálló az a következtetés, hogy a Fidesz-KDNP biztos szavazóinak száma jelenleg legfeljebb 1,5 millió körül lehet?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:16",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Magyarországnak bevált az egy kulcsos adó?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/politika__magyar-politika__12548507-magyarorszagnak-bevalt-az-egy-kulcsos-ado"
+      },
+      "answers": [
+        {
+          "name": "hungarian:16:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Lölőéknek biztosan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Magyarországnak bevált az egy kulcsos adó?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:17",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Miért olcsobb Ausztriába a magyar pick szalámi mint itthon? Oda meg ki is kell szállitani."
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/politika__magyar-politika__12548463-miert-olcsobb-ausztriaba-a-magyar-pick-szalami-mint-itthon-oda-meg-ki-is-kell-s"
+      },
+      "answers": [
+        {
+          "name": "hungarian:17:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "\"359 forinttal, azaz kb. 3,6 százalékkal olcsóbb ebben a konkrét határmenti boltban, mint az itthoni nagy láncoknál.\"\n\n\n\"A Pick Szeged Zrt. korábban az eltérő árazási gyakorlattal és az alacsonyabb áfával magyarázta, hogy egyes nyugati országokban olcsóbbak a termékeik, mint Magyarországon.\"\n\n\nÁfa:\n\n\"Ez például Ausztriában 10%, míg nálunk 27%.\"\n\n\n[link]\n\n\nSzóval olyan hű de sokkal nem olcsóbb, és még a gyártó magyarázata is logikus.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért olcsobb Ausztriába a magyar pick szalámi mint itthon? Oda meg ki is kell szállitani.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:18",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A svédeknek nem is olyan fontos a Nato tagság? Hiszen nem tettek lépést a problémák megoldására, elutasították Orbán Viktor meghívóját.\n\nHa még tárgyalni sem akarnak, akkor gondolom nem érdekli őket.\n\nHa nekik nem fontos, akkor nekünk miért legyen az?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/politika__kulfoldi-politika__12548445-a-svedeknek-nem-is-olyan-fontos-a-nato-tagsag-hiszen-nem-tettek-lepest-a-proble"
+      },
+      "answers": [
+        {
+          "name": "hungarian:18:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Orbán megtette amit tehetett, támogatta a tagságukat és meg is hívta a svédeket tárgyalni róla ismét. A parlamenti képviselők szerintem most még kevésbé gondolják úgy hogy olyasvalakit kellene bevenni a szövetségbe aki így viselkedik velünk.\n\nA svédek nem is akarnak tagok lenni. Ez is olyan mint a többi ügy az eu-ban, ráhagyják a magyarokra hogy nemet mondjanak a baromságokra és közben örülnek, mert ők sem akarták, hogy megtörténjen.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "A svédeknek nem is olyan fontos a Nato tagság? Hiszen nem tettek lépést a problémák megoldására, elutasították Orbán Viktor meghívóját.\n\nHa még tárgyalni sem akarnak, akkor gondolom nem érdekli őket.\n\nHa nekik nem fontos, akkor nekünk miért legyen az?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:19",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Miért nem hoz létre a magyar rendőrség kiberbűnöző elleni csoportokat ország-szerte?\n\nAhogy tapasztalom az elmúlt néhány évben jócskán elszaporodott az internetes bűnelkövetések száma. Ide sorolok mindent, amit interneten követnek el kezdve a banki adatok ellopásával egészen a marketplaces és egyéb használt holmival kereskedő oldalakon elkövetett csalásokig. És ezzel közel sem merítettem ki a netes bűncselekmények repertoáját. Jómagam is voltam már áldozata ilyesminek, a kártyám adatai bent maradtak egy felhasználói fiókban, amit feltörtek és 120.000 Forintot levásároltak a számlámról. Természetesen rögtön a rendőrséghez fordultam, de pechemre egy kőkorszaki nyomozót fogtam ki, aki az éjszaka közepén ügyeletes volt, elég nehéz volt neki elmagyarázni a dolgokat. Szerencsére a bank vissza tudta szerezni a pénzemet, de ha a rendőrségen múlt volna ihattam volna rá egy pohár vizet. Felmerült tehát bennem, hogy a rendőrség miért nem hoz létre legalább megyénként egy-egy ilyen csoportot, ahol hozzáértők foglalkoznának ilyen esetekkel? Szerintem lassan gyakoribbá válnak az ilyen bűncselekmények, mint pl. utcai kifosztás, rablás és sorra azt tapasztalom, hogy a rendőrség az esetek többségében tehetetlen."
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/politika__rendorseg__12548320-miert-nem-hoz-letre-a-magyar-rendorseg-kiberbunozo-elleni-csoportokat-orszag-sze"
+      },
+      "answers": [
+        {
+          "name": "hungarian:19:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Léteznek kiberbűnözés elleni osztályok vármegyei, de országos szinten is. De ezen bűncselekmények felderítése viszont sokkal komplikáltabb. Erről lehetne szakmai vitát indítani, de ez nem éppen a gyakorikérdések platformon van a helye. Szerintem sokkal egyszerűbb a megfelelő bűnmegelőzés mint utána felmosni. Hiszen a legtöbb ilyenből az emberi hiszékenységből kezdődik /ahogy a te eseted is/, amely kellő gyanakvással és odafigyeléssel megúszható.\n\n\nVisszatérve a bűnözőkre. Röviden tömören szervezett bűnszervezetekről van szó, amelyek nem is központosítva működnek hanem mint egy franchise. Elfogod az egyik szálat akkor is tovább megy másik tíz, hiszen függetlenül egymástól, de azonos módszerekkel működnek. Lásd a \"MÁTRIX\" projekt keretében mennyi ember került rendőr kézre, de mai napig mennek tovább. Sokkal komolyabb technológiákkal és \"megoldásokkal\" dolgoznak a bűnözők. A rendőrség nincsen technológiai szinten lemaradva, de annál jobban a megfelelő szakmai emberekkel.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért nem hoz létre a magyar rendőrség kiberbűnöző elleni csoportokat ország-szerte?\n\nAhogy tapasztalom az elmúlt néhány évben jócskán elszaporodott az internetes bűnelkövetések száma. Ide sorolok mindent, amit interneten követnek el kezdve a banki adatok ellopásával egészen a marketplaces és egyéb használt holmival kereskedő oldalakon elkövetett csalásokig. És ezzel közel sem merítettem ki a netes bűncselekmények repertoáját. Jómagam is voltam már áldozata ilyesminek, a kártyám adatai bent maradtak egy felhasználói fiókban, amit feltörtek és 120.000 Forintot levásároltak a számlámról. Természetesen rögtön a rendőrséghez fordultam, de pechemre egy kőkorszaki nyomozót fogtam ki, aki az éjszaka közepén ügyeletes volt, elég nehéz volt neki elmagyarázni a dolgokat. Szerencsére a bank vissza tudta szerezni a pénzemet, de ha a rendőrségen múlt volna ihattam volna rá egy pohár vizet. Felmerült tehát bennem, hogy a rendőrség miért nem hoz létre legalább megyénként egy-egy ilyen csoportot, ahol hozzáértők foglalkoznának ilyen esetekkel? Szerintem lassan gyakoribbá válnak az ilyen bűncselekmények, mint pl. utcai kifosztás, rablás és sorra azt tapasztalom, hogy a rendőrség az esetek többségében tehetetlen.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:20",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Jelenleg munkanélküli vagyok, így fizetem magam után az egészségügyi biztosítását árát, de erről nem szokott visszaigazolást küldeni a NAV, hogy megkapták az utalást?\n\nValamilyen módon nem ellenőrizhető le a rendszerükben, hogy biztosan rendezve van-e a tb-m?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/politika__torvenyek-jog__12548258-jelenleg-munkanelkuli-vagyok-igy-fizetem-magam-utan-az-egeszsegugyi-biztositasa"
+      },
+      "answers": [
+        {
+          "name": "hungarian:20:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A NAV ügyfélszolgálatán bármikor lekérheted, illetve év elején szoktak egy előző évi összesítést küldeni. Ha nagyobb késésben vagy, akkor automatikusan küldik a címedre az értesítőt és pár csekket."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Jelenleg munkanélküli vagyok, így fizetem magam után az egészségügyi biztosítását árát, de erről nem szokott visszaigazolást küldeni a NAV, hogy megkapták az utalást?\n\nValamilyen módon nem ellenőrizhető le a rendszerükben, hogy biztosan rendezve van-e a tb-m?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:21",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A Németországból,Ausztriából behozott autók tényleg sokkal könnyebben rohadnak?\n\nEzt már nagyon sok helyen olvastam, oknak pedig azt írják, hogy ott sokkal erősebben sózzák az utakat télen. Ez valóban igaz lenne? Érdekelne ha van valakinek tapsztalata ezzel. Ha ez tényleg így van akkor minek vesznek az emberek onnan, gondolom más is hallott már erről."
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__autok-motorok__10929401-a-nemetorszagbolausztriabol-behozott-autok-tenyleg-sokkal-konnyebben-rohadnak"
+      },
+      "answers": [
+        {
+          "name": "hungarian:21:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Itt élek, igen, sóznak, de soha senkinek nincs gondja a rozsdával. Úgyhogy nem tudom, hogy Magyarországon miért rohad minden jobban, de itt senkit nem érint."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Németországból,Ausztriából behozott autók tényleg sokkal könnyebben rohadnak?\n\nEzt már nagyon sok helyen olvastam, oknak pedig azt írják, hogy ott sokkal erősebben sózzák az utakat télen. Ez valóban igaz lenne? Érdekelne ha van valakinek tapsztalata ezzel. Ha ez tényleg így van akkor minek vesznek az emberek onnan, gondolom más is hallott már erről.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:22",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Ukrán határon mennyit szokás a vámosnak adni, hogy ne szívózzon, vagy szedje szét a kocsit?\n\nKifele és befele is kell, Eurot is elfogadnak?\n\nNem hozok semmit, csak hallottam, hogy pénz nélkül valamikor órákat váratnak és akadékoskodnak.\n"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__autok-motorok__12544545-ukran-hataron-mennyit-szokas-a-vamosnak-adni-hogy-ne-szivozzon-vagy-szedje-sze"
+      },
+      "answers": [
+        {
+          "name": "hungarian:22:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ok nélkül nem baszogatnak."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ukrán határon mennyit szokás a vámosnak adni, hogy ne szívózzon, vagy szedje szét a kocsit?\n\nKifele és befele is kell, Eurot is elfogadnak?\n\nNem hozok semmit, csak hallottam, hogy pénz nélkül valamikor órákat váratnak és akadékoskodnak.\n",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:23",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A Telekom Mobilvásárlás alkalmazással lehet menetjegyet venni debreceni DKV trolikra/buszokra?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__tomegkozlekedes__12548605-a-telekom-mobilvasarlas-alkalmazassal-lehet-menetjegyet-venni-debreceni-dkv-trol"
+      },
+      "answers": [
+        {
+          "name": "hungarian:23:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "igen lehet\n\n\nvonatjegyet és 1 órás jegyet is tudsz venni\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Telekom Mobilvásárlás alkalmazással lehet menetjegyet venni debreceni DKV trolikra/buszokra?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:24",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A behajtási tilalmat szabályozó táblák (pl. szélesség, magasság, segédmotorkerékpár, kézikocsi, űrhajó stb.) hatálya meddig tart?\n\nLogikusan adná magát, hogy a következő kereszteződésig, hiszen a keresztúton érkező csak ilyen módon értesül a tilalomról.\n\n\nDe ez le van így valahol írva kifejezetten?\n\n\nA KRESZ 14. § (6) pontja hasonlót szabályoz, de az csak a 14. § (1) bekezdés c-g) pontjaiban jelölt táblákra vonatkozik (pl. megfordulni tilos, előzni tilos), a továbbiakra nem.\n"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__egyeb-kerdesek__12548552-a-behajtasi-tilalmat-szabalyozo-tablak-pl-szelesseg-magassag-segedmotorkerek"
+      },
+      "answers": [
+        {
+          "name": "hungarian:24:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Rátaláltál egy olyan dologra, ami nincs explicite leírva a KRESZ-ben, kicsi logika is kell hozzá. :) Ugye ha következő kereszteződéseben olyan útról lehet arra az útra rákanyarodni, ahol nem volt tábla, logikus, hogy rád sem érvényes. Másrészt ezeket a táblákat nem véletlenül teszik ki. Magasságot korlátozni felüljáró/híd miatt szoktak. Nyilván a híd előtt, ha elhagytad a hidat, értelmét veszíti.\n\nSzerinted a Vám/Zoll táblának mi a hatálya, ha már átkeltél akár kereszteződés nélkül a határon? :)\n\n\nAutista, túlképzett mérnöknek biztos nem tetszik az, hogy a törvény nem tér ki minden egyes kiskapura, de az emberek 99%-ának tökéletesen értelmezhető a KRESZ.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "A behajtási tilalmat szabályozó táblák (pl. szélesség, magasság, segédmotorkerékpár, kézikocsi, űrhajó stb.) hatálya meddig tart?\n\nLogikusan adná magát, hogy a következő kereszteződésig, hiszen a keresztúton érkező csak ilyen módon értesül a tilalomról.\n\n\nDe ez le van így valahol írva kifejezetten?\n\n\nA KRESZ 14. § (6) pontja hasonlót szabályoz, de az csak a 14. § (1) bekezdés c-g) pontjaiban jelölt táblákra vonatkozik (pl. megfordulni tilos, előzni tilos), a továbbiakra nem.\n",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:25",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Tömegközlekedéssel hogyan jutok el a Bp.Déli pályaudvarról a Mátyás templomig?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__tomegkozlekedes__12548400-tomegkozlekedessel-hogyan-jutok-el-a-bpdeli-palyaudvarrol-a-matyas-templomig"
+      },
+      "answers": [
+        {
+          "name": "hungarian:25:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Egy megálló az M2-es metróval, vagy a 17-es, 56-os, 56A, 59-es, vagy 61-es villamosok közül bármelyikkel a Széll Kálmán térig, és onnan 16-ossal, vagy 16A busszal fel a Szentháromság térig."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tömegközlekedéssel hogyan jutok el a Bp.Déli pályaudvarról a Mátyás templomig?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:26",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Franciaországban megszerzett jogsi érvényes Magyarországon?\n\nHa Franciaországban leteszem a jogosítványt, akkor Magyarországon is használhatom? Vagy újra kell csinálni az egészet itthon?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__biztositas-papirmunka__12548350-franciaorszagban-megszerzett-jogsi-ervenyes-magyarorszagon"
+      },
+      "answers": [
+        {
+          "name": "hungarian:26:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "EU-s. Hasznalhatod fel evig, aztan at kell valtani, ha akarod. En angol jogsival eltem itthon 3 evet, ha igazoltattak, azt mondtam, hogy Angliaban vagyok sofor, de most szabadsagon vagyok. Ellenorizze le ha tudja."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Franciaországban megszerzett jogsi érvényes Magyarországon?\n\nHa Franciaországban leteszem a jogosítványt, akkor Magyarországon is használhatom? Vagy újra kell csinálni az egészet itthon?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:27",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Útvonal engedélyt csak tulajdonos vagy üzembentartó kérhet?\n\nEladtam az autómat, viszont anyukámék nevén van az autó, nincs rajta műszaki és messzire szeretnék vinni innen, én is kérhetek rá útvonalengedélyt vagy csak ők?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__biztositas-papirmunka__12548351-utvonal-engedelyt-csak-tulajdonos-vagy-uzembentarto-kerhet"
+      },
+      "answers": [
+        {
+          "name": "hungarian:27:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Onnantól hogy eladtad,már nem a te gondod elvinni. Oldja meg a vevőd."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Útvonal engedélyt csak tulajdonos vagy üzembentartó kérhet?\n\nEladtam az autómat, viszont anyukámék nevén van az autó, nincs rajta műszaki és messzire szeretnék vinni innen, én is kérhetek rá útvonalengedélyt vagy csak ők?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:28",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Mire számítsak az M3 metró motorkocsivezető tanuló állás tájékoztatón?\n\nSziasztok. Holnapra megyek meghallgatásra és tájékoztatóra. Inkább a meghallgatás részre érdekelne, hogy ott mikre lesznek kíváncsiak?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__tomegkozlekedes__12548270-mire-szamitsak-az-m3-metro-motorkocsivezeto-tanulo-allas-tajekoztaton"
+      },
+      "answers": [
+        {
+          "name": "hungarian:28:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az M3 metró motorkocsivezető tanuló állás tájékoztatón a BKV Zrt. bemutatja a munkakör feladatait, elvárásait, feltételeit és juttatásait. A tájékoztatón részt vehetsz egy írásbeli teszten, amely a vasútszakmai ismereteidet, a műszaki affinitásodat és a logikai gondolkodásodat méri. Ha sikeresen teljesíted a tesztet, akkor meghívást kapsz egy személyes interjúra, ahol a motivációdat, a személyiségjegyeidet és a stressztűrő képességedet vizsgálják. Ha az interjún is jól szerepelsz, akkor alkalmassági vizsgálatra küldenek, amely magában foglalja az egészségügyi, a pszichológiai és a munkaköri alkalmasságot. Ha ezeket is teljesíted, akkor felvételt nyersz a metró motorkocsivezetői tanfolyamra, amely 7 hónapig tart, és elméleti és gyakorlati képzést foglal magába. A tanfolyam végén egy hatósági vizsgát kell letenned, amely után megkaphatod a metró motorkocsivezetői engedélyedet."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mire számítsak az M3 metró motorkocsivezető tanuló állás tájékoztatón?\n\nSziasztok. Holnapra megyek meghallgatásra és tájékoztatóra. Inkább a meghallgatás részre érdekelne, hogy ott mikre lesznek kíváncsiak?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:29",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Tényleg csak a lakóhelyemhez legközelebbi vizsga ponton lehet vizsgáztatni a kocsimat?\n\nKonkrétan ha püspökszilágyon lakom a szerelőm műszakiztathatja Rétságon?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__autok-motorok__12548142-tenyleg-csak-a-lakohelyemhez-legkozelebbi-vizsga-ponton-lehet-vizsgaztatni-a-koc"
+      },
+      "answers": [
+        {
+          "name": "hungarian:29:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ha nem járt még le a műszakid, akkor mehetsz ahova akarsz.\n\nHa lejárt, akkor el tudom képzelni, hogy nem adnak útvonalengedélyt arra, hogy az ország másik végébe menj.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tényleg csak a lakóhelyemhez legközelebbi vizsga ponton lehet vizsgáztatni a kocsimat?\n\nKonkrétan ha püspökszilágyon lakom a szerelőm műszakiztathatja Rétságon?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:30",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Járhatok a lakóhelyemtől messzebb lévő pszichiátriára?l vagy csak a legközelebbi köteles fogadni?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/egeszseg__mentalis-egeszseg__12548482-jarhatok-a-lakohelyemtol-messzebb-levo-pszichiatriaral-vagy-csak-a-legkozelebbi"
+      },
+      "answers": [
+        {
+          "name": "hungarian:30:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nem kell beutaló!\n\nElviekben szabad orvosválaszás van, gyakorlatilag elküldenek a fenébe, ha nem a lakhelyed szerinti orvosodhoz mész, nekem egy bunkó orvos jutott, magánba mentem inkább.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Járhatok a lakóhelyemtől messzebb lévő pszichiátriára?l vagy csak a legközelebbi köteles fogadni?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:31",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Xiaomi telefonokról miért van annyi kritika ?\n\nNagyon sok helyen olvasni hogy kerülendő márka ,de pontosan mi az oka hogy rengeteg kritika éri?\n\n\nDe egyébként ennek ellenére elég érdekes hogy sokan veszik.\n"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/elektronikus-eszkozok__mobiltelefonok__12508561-xiaomi-telefonokrol-miert-van-annyi-kritika-"
+      },
+      "answers": [
+        {
+          "name": "hungarian:31:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Főleg szoftveres dolgok miatt szokták szidni, hardveresen egész jók. Szoftveresen is már fejlődtek, de még mindig nem egy Samsung, Google vagy Apple."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Xiaomi telefonokról miért van annyi kritika ?\n\nNagyon sok helyen olvasni hogy kerülendő márka ,de pontosan mi az oka hogy rengeteg kritika éri?\n\n\nDe egyébként ennek ellenére elég érdekes hogy sokan veszik.\n",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:32",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Hugomnak előfizettünk próba PrémiumYt-ra, de ma 24-én járt le,- és jött is egy 2300Ft-os számla ami febr.24-ig tart. Mit tegyünk, hogy lemonjduk? Ma nem engedi lemondani, és félünk hogy soha nem is fogja...mit tegyünk? Teljes SOS-be vagyunk.\n\nAki tud valamit ajánlani segítsen légyszíves"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/elektronikus-eszkozok__egyeb-kerdesek__12548520-hugomnak-elofizettunk-proba-premiumyt-ra-de-ma-24-en-jart-le-es-jott-is-egy-2"
+      },
+      "answers": [
+        {
+          "name": "hungarian:32:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Mit értünk, hogy nem engedi lemondani? Hiba üzenet vagy csak nem találjátok? Amúgy pedig a 2300 Ft-os díjat már ki kell fizetni, erre az időre már kiszámlázták a díjat.\n\n\nItt egy link, ahol leírják hogyan kell megszakítani az előfizetést,\n\n[link]\n\n\nItt pedig egy direct link, (az adott felhasználónak kell belépnie, hogy lássa az előfizetést)\n\nhttps://www.youtube.com/paid_memberships\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hugomnak előfizettünk próba PrémiumYt-ra, de ma 24-én járt le,- és jött is egy 2300Ft-os számla ami febr.24-ig tart. Mit tegyünk, hogy lemonjduk? Ma nem engedi lemondani, és félünk hogy soha nem is fogja...mit tegyünk? Teljes SOS-be vagyunk.\n\nAki tud valamit ajánlani segítsen légyszíves",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:33",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Létezik, hogy ez 3600 Ft, vagy átvert a kofa?\n\nMa, a piacon vásároltam fél kiló kovászos uborkát (kilója 2400 Ft-volt, sajnos ez az egy ami megamaradt) fél kiló savanyított dinnyét és 4 szem (közepes méretűek) ecetes almapaprikát. Létezik, hogy ez 3600 Ft-ba került, vagy több száz forinttal megkárosított az eladó?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/etelek-italok__elelmiszerboltok__12548297-letezik-hogy-ez-3600-ft-vagy-atvert-a-kofa"
+      },
+      "answers": [
+        {
+          "name": "hungarian:33:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Létezik. Borzasztó értéktelen a forint. Egy sima bevásárlás, ahol csak pár napra előre megveszem a kaját, egy 10 ezresnél kezdődik..."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Létezik, hogy ez 3600 Ft, vagy átvert a kofa?\n\nMa, a piacon vásároltam fél kiló kovászos uborkát (kilója 2400 Ft-volt, sajnos ez az egy ami megamaradt) fél kiló savanyított dinnyét és 4 szem (közepes méretűek) ecetes almapaprikát. Létezik, hogy ez 3600 Ft-ba került, vagy több száz forinttal megkárosított az eladó?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:34",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Lehet Ausztriában Dörmit venni?\n\nVannak olyan országok, ahol Barni néven megtalálható, érdekelni, hogy ott is ez-e a helyzet. Ha nincs, milyen alternatíva van kint?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/etelek-italok__elelmiszerek__12547725-lehet-ausztriaban-dormit-venni"
+      },
+      "answers": [
+        {
+          "name": "hungarian:34:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ausztriában nincs dörmi,"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lehet Ausztriában Dörmit venni?\n\nVannak olyan országok, ahol Barni néven megtalálható, érdekelni, hogy ott is ez-e a helyzet. Ha nincs, milyen alternatíva van kint?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:35",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Peaches and Cream, Nagymező utca 46-48. Tényleg 1000 Ft-ért All you can drink van?\n\nEzt reklámozzák videóban a Facebookon. Mik a feltételei ennek? Bizonyos időpontokban csak?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/etelek-italok__vendeglatas-ettermek__12456502-peaches-and-cream-nagymezo-utca-46-48-tenyleg-1000-ft-ert-all-you-can-drink-va"
+      },
+      "answers": [
+        {
+          "name": "hungarian:35:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "1 órára..."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Peaches and Cream, Nagymező utca 46-48. Tényleg 1000 Ft-ért All you can drink van?\n\nEzt reklámozzák videóban a Facebookon. Mik a feltételei ennek? Bizonyos időpontokban csak?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:36",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Lehet a metroban applikációs kártyával a Metro Chef termékekből vásárolni?\n\nSziasztok! Tervezek benézni a Metro-ba, applikáción keresztül csináltam is kártyát. Viszont azt sehol sem találtam, hogy minden terméket (beleérte a Metro Chef termékeket) is vásárolhatom? Előre is köszönöm a válaszokat! :D"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/etelek-italok__elelmiszerboltok__12545616-lehet-a-metroban-applikacios-kartyaval-a-metro-chef-termekekbol-vasarolni"
+      },
+      "answers": [
+        {
+          "name": "hungarian:36:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ha már beengednek, akkor azt veszel amit szeretnél."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lehet a metroban applikációs kártyával a Metro Chef termékekből vásárolni?\n\nSziasztok! Tervezek benézni a Metro-ba, applikáción keresztül csináltam is kártyát. Viszont azt sehol sem találtam, hogy minden terméket (beleérte a Metro Chef termékeket) is vásárolhatom? Előre is köszönöm a válaszokat! :D",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:37",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A Lidl-ben vagy máshol nem lehet már kapni Chipsy Kings chipset?\n\nHónapok óta nem láttam, pedig az volt a kedvencem."
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/etelek-italok__elelmiszerek__12545611-a-lidl-ben-vagy-mashol-nem-lehet-mar-kapni-chipsy-kings-chipset"
+      },
+      "answers": [
+        {
+          "name": "hungarian:37:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nem láttam máshol, valószínű saját márkás volt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Lidl-ben vagy máshol nem lehet már kapni Chipsy Kings chipset?\n\nHónapok óta nem láttam, pedig az volt a kedvencem.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:38",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Tesco önkiszolgáló kasszánál mikor kell a kuponkódot szkennelni?\n\nElőször ugye a club kártya kódját kell beszkennelni, utána meg a termékek.\n\nA termékekre vonatkozó kedvezményeket mikor kell érvényesíteni? Van ilyen opció fizetés előtt ahol minden kódot enged szkennelni?\n"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/etelek-italok__elelmiszerboltok__12545608-tesco-onkiszolgalo-kasszanal-mikor-kell-a-kuponkodot-szkennelni"
+      },
+      "answers": [
+        {
+          "name": "hungarian:38:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Kiválasztod, hogy fizetés ott választhatsz kupont kp-t meg kártyát."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tesco önkiszolgáló kasszánál mikor kell a kuponkódot szkennelni?\n\nElőször ugye a club kártya kódját kell beszkennelni, utána meg a termékek.\n\nA termékekre vonatkozó kedvezményeket mikor kell érvényesíteni? Van ilyen opció fizetés előtt ahol minden kódot enged szkennelni?\n",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:39",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Az alábbi gépészmérnök képzések levelező szakon hogy vannak megtartva?\n\nSZE győr\n\nGamf kecskemét\n\n\nCsak szombaton vagy péntek szombat?\n"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozoktatas-tanfolyamok__tanulasi-lehetosegek__12535824-az-alabbi-gepeszmernok-kepzesek-levelezo-szakon-hogy-vannak-megtartva"
+      },
+      "answers": [
+        {
+          "name": "hungarian:39:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Mindkettő péntek-szombati konzultációkat jelent, általában kéthetente. Győrben a pénteki konzultációk délutánonként kezdődnek, így aki nem a közelben lakik, az is könnyedén oda tud érni a pénteki konzultációkra. Viszont szombaton már reggel 8-tól indulhatnak a konzultációk, így aki nem környékbeli, annak Győrben kell aludnia egy éjszakát. Kecskeméten nem tudom, hogy ugyanígy van-e, de a péntek-szombat az biztos. Nagyjából mindkét helyen azzal számolhatsz, hogy egy félévben hét péntek-szombaton vannak a konzultációk, azaz egy évben 14 pénteket kell szabadságként kivenned, ha dolgozol mellette. Ezenkívül sajnos mindkét helyen előfordulhat, hogy egyes vizsgákat nem hirdetnek meg szombati napokon, így azokra a napokra is ki kell venni szabadságot."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Az alábbi gépészmérnök képzések levelező szakon hogy vannak megtartva?\n\nSZE győr\n\nGamf kecskemét\n\n\nCsak szombaton vagy péntek szombat?\n",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:40",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Diákhitel 1 kérdés?\n\nSziasztok!\n\n\nIgényeltem az őszi félévben diákhitel 1-et, egyösszegű kifizetéssel. Szeretnék a tavaszi félévre is igényelni azonban az alábbi üzenetet írta ki, ez mit jelent nem igényelhetek már?\n\n\nLétező szabad felhasználású hiteligénylés Tájékoztatjuk, hogy Ön már rendelkezik azonos hitelcelú szerződéssel. Üzletszabályzatunk értelmében egy Hitelfelvevo egyidejüleg legfeljebb kettő, eltérő hitelcélú (DH1 és DH2) érvényes rendelkezhet. Kérjük, vegye fel a kapcsolatot telefonos diákhitelszerzödéssel\n"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozoktatas-tanfolyamok__egyeb-kerdesek__12548309-diakhitel-1-kerdes"
+      },
+      "answers": [
+        {
+          "name": "hungarian:40:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Változatlan összegben folyósítják ebben a félévben is:\n\n- amennyiben a hallgatói jogviszony fennáll\n\n- nem szüntetted meg a szerződést\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Diákhitel 1 kérdés?\n\nSziasztok!\n\n\nIgényeltem az őszi félévben diákhitel 1-et, egyösszegű kifizetéssel. Szeretnék a tavaszi félévre is igényelni azonban az alábbi üzenetet írta ki, ez mit jelent nem igényelhetek már?\n\n\nLétező szabad felhasználású hiteligénylés Tájékoztatjuk, hogy Ön már rendelkezik azonos hitelcelú szerződéssel. Üzletszabályzatunk értelmében egy Hitelfelvevo egyidejüleg legfeljebb kettő, eltérő hitelcélú (DH1 és DH2) érvényes rendelkezhet. Kérjük, vegye fel a kapcsolatot telefonos diákhitelszerzödéssel\n",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:41",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Melyik technikumok amik kevesebb pontszámmal is felvesznek gyerekeket?\n\nMost esedékes az iskola választás, nem sikerült valami jól a központi írásbeli.Próbálom böngészni az iskolák honlapját, de hátha valaki tudja konkrétan melyek a gyengébb sulik."
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozoktatas-tanfolyamok__magyar-iskolak__12548153-melyik-technikumok-amik-kevesebb-pontszammal-is-felvesznek-gyerekeket"
+      },
+      "answers": [
+        {
+          "name": "hungarian:41:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Sulinavigátor.\n\n[link]\n\nA pontszámolónál meg tudod nézni a korábbi évek felvételi ponthatárait. Ha beírod a jegyeit és az írásbeli eredményét, akkor kiszámolja a felvételi esélyeit a korábbi évek ponthatárai alapján, a színkódok segítenek. Ha nyíllal rámész a kalkulált pontszámra a táblázatban, akkor kiírja, hogy hány százalékos szóbelivel jutott volna be abban az évben (ha az iskola tart szóbelit). Esélylatolgatáshoz nagy segítség.\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Melyik technikumok amik kevesebb pontszámmal is felvesznek gyerekeket?\n\nMost esedékes az iskola választás, nem sikerült valami jól a központi írásbeli.Próbálom böngészni az iskolák honlapját, de hátha valaki tudja konkrétan melyek a gyengébb sulik.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:42",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "BME gtk mennyire bejárós, részt kell e venni az órákon? Tudom, hogy ELTE-n kb. semmire se kötelező bemenni és ez fontos szempont lenne számomra.\n\nEzenfelül ennek a két egyetemnek a gazdálkodási és menedzsment/nemzetközi gazdálkodás alapszakjairól is szívesen meghallgatnék egy-két véleményt. Köszi"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozoktatas-tanfolyamok__magyar-iskolak__12547990-bme-gtk-mennyire-bejaros-reszt-kell-e-venni-az-orakon-tudom-hogy-elte-n-kb-s"
+      },
+      "answers": [
+        {
+          "name": "hungarian:42:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Első féléves gazdmenes vagyok, egyedül a matek gyakorlaton volt jelenléti (ott sem mindig), a többire nem volt kötelező bejárni. Egyébként nekem tetszik a suli, nagyon jó a közösség és nem kell belehalni a tanulásba sem, sok mellette a szabadidő. Az legtöbb tárgy könnyen teljesíthető, egyedül a Közgazdaságtan I. (Mikroökonómia) az, amire több időt kell szánni és hétről-hétre tanulni, mert könnyen el lehet veszni benne. Idén a matek sem volt vészes, 4-5-ös közép matek érettségivel simán hozható."
+            }
+          },
+          "prompting_state": {
+            "prompt": "BME gtk mennyire bejárós, részt kell e venni az órákon? Tudom, hogy ELTE-n kb. semmire se kötelező bemenni és ez fontos szempont lenne számomra.\n\nEzenfelül ennek a két egyetemnek a gazdálkodási és menedzsment/nemzetközi gazdálkodás alapszakjairól is szívesen meghallgatnék egy-két véleményt. Köszi",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:43",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Dzsúdló milyen magas?\n\nNem voltam még koncerten, élőben nem láttam még őt. Viszont sok zenéjében utal arra hogy nagyra nőtt.\n\nValaki esetleg tudja milyen magas Dzsúdló?\n"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/emberek__emberi-tulajdonsagok__12546260-dzsudlo-milyen-magas"
+      },
+      "answers": [
+        {
+          "name": "hungarian:43:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ha minden igaz 192cm, de ebben nem vagyok 100%-ig biztos"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dzsúdló milyen magas?\n\nNem voltam még koncerten, élőben nem láttam még őt. Viszont sok zenéjében utal arra hogy nagyra nőtt.\n\nValaki esetleg tudja milyen magas Dzsúdló?\n",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:44",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Mennyire elfogadott napjainkban a susogós melegítő viselése?\n\nAz igazi nylon anyagú márkás susogós melegítőkre gondolok, nem a poliészterre. Leginkább azok írjanak, akik hordanak ilyet."
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/szepseg-es-divat__oltozkodes__12460699-mennyire-elfogadott-napjainkban-a-susogos-melegito-viselese"
+      },
+      "answers": [
+        {
+          "name": "hungarian:44:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Teljesen. Csak vegyél fel mellé aranyozott kutyaláncot a nyakadba meg egy hamis Rolexet."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mennyire elfogadott napjainkban a susogós melegítő viselése?\n\nAz igazi nylon anyagú márkás susogós melegítőkre gondolok, nem a poliészterre. Leginkább azok írjanak, akik hordanak ilyet.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:45",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Társadalmilag mennyire elfogadott napjainkban, ha valaki önszántából nem szeretne gyereket?\n\nMennyire néznek furán valakire, mennyire tartják ördögtől valónak, ha valaki nem vállal gyereket?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kultura-es-kozosseg__egyeb-kerdesek__11889324-tarsadalmilag-mennyire-elfogadott-napjainkban-ha-valaki-onszantabol-nem-szeretn"
+      },
+      "answers": [
+        {
+          "name": "hungarian:45:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A \"hanyatló nyugaton\" teljesen elfogadott, Magyarországon meg csoda, ha nem köveznek meg érte (főleg a jelenlegi kormányt istenítők tábora)."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Társadalmilag mennyire elfogadott napjainkban, ha valaki önszántából nem szeretne gyereket?\n\nMennyire néznek furán valakire, mennyire tartják ördögtől valónak, ha valaki nem vállal gyereket?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:46",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Bb krémet lehet kapni rossmanban? Vagy hol lehet kapni?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/szepseg-es-divat__smink-es-kiegeszitok__12547860-bb-kremet-lehet-kapni-rossmanban-vagy-hol-lehet-kapni"
+      },
+      "answers": [
+        {
+          "name": "hungarian:46:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Igen, bármelyik drogériában. De google a barátod, a rossmann weboldalán még azt is meg tudod nézni, hogy melyik üzletben van készleten :)"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bb krémet lehet kapni rossmanban? Vagy hol lehet kapni?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:47",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Decathlonba vitt már valaki vissza így terméket?\n\nVettem egy hótaposót, álló munkát végzek a szabadban, nem sokat mozgok. Rá volt írva, hogy *Komforthőmérséklet statikus helyzetben: -8 °C. mozgás közben: -17 °C\", ezért mertem megvenni. Egyszer használtam pár órát, de semmit nem ért, ugyanúgy fázott a lábam benne, hiába húztam fel több zoknit is, gyapjút is.\n\n\nVisszamentem az áruházba, de nem vették vissza, mert már használtam. Azt tudták volna csinálni, hogy kicserélik valami hasonlóra, ezt persze nem kértem.\n\n\nEgyből eszembe jutott, hogy azt fogom csinálni, rendelek a netről egy ugyanilyet, aztán visszaküldöm a mostanit, az újat meg visszaviszem egy másik üzletbe és úgy már vissza kell vegyék.\n"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/szepseg-es-divat__oltozkodes__12096676-decathlonba-vitt-mar-valaki-vissza-igy-termeket"
+      },
+      "answers": [
+        {
+          "name": "hungarian:47:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Menj be a Decatlonba és mond el a panaszod. Ilyenkor le kell teszteljék a terméked és ha úgy vélik, hogy téves infót adtak meg vagy hibás a termék, visszaadják az árát."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Decathlonba vitt már valaki vissza így terméket?\n\nVettem egy hótaposót, álló munkát végzek a szabadban, nem sokat mozgok. Rá volt írva, hogy *Komforthőmérséklet statikus helyzetben: -8 °C. mozgás közben: -17 °C\", ezért mertem megvenni. Egyszer használtam pár órát, de semmit nem ért, ugyanúgy fázott a lábam benne, hiába húztam fel több zoknit is, gyapjút is.\n\n\nVisszamentem az áruházba, de nem vették vissza, mert már használtam. Azt tudták volna csinálni, hogy kicserélik valami hasonlóra, ezt persze nem kértem.\n\n\nEgyből eszembe jutott, hogy azt fogom csinálni, rendelek a netről egy ugyanilyet, aztán visszaküldöm a mostanit, az újat meg visszaviszem egy másik üzletbe és úgy már vissza kell vegyék.\n",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:48",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Debrecenben a Dózsa GY. úton a kínai bolt (Ázsia Centrum) átköltözött? Vagy véglegesen bezárt a kiköltözéssel?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/szepseg-es-divat__oltozkodes__12547640-debrecenben-a-dozsa-gy-uton-a-kinai-bolt-azsia-centrum-atkoltozott-vagy-vegl"
+      },
+      "answers": [
+        {
+          "name": "hungarian:48:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Elvileg bezárt. December 31-ig volt nyitva, sokan kérdezték, hogy mi lesz utána de az eladók nem válaszoltak, valószínűleg megint kiderült, hogy feketén dolgoztatják őket és megb-ták az áruházat. Legutóbb is így alakították át, szóval ki tudja, lehet még más tulajjal lesz ott valami helyette."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Debrecenben a Dózsa GY. úton a kínai bolt (Ázsia Centrum) átköltözött? Vagy véglegesen bezárt a kiköltözéssel?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:49",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "Author",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Honnan lehet venni katonai dolgokat?\n\nFőleg Budapesten keresek használt katonai ruhákat."
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/szepseg-es-divat__oltozkodes__12547512-honnan-lehet-venni-katonai-dolgokat"
+      },
+      "answers": [
+        {
+          "name": "hungarian:49:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Military shop Thököly út\n\n\nObsit Military Shop\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Honnan lehet venni katonai dolgokat?\n\nFőleg Budapesten keresek használt katonai ruhákat.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:50",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A BKV járatain egy (külföldi) nyugdíjas miként igazolja, hogy nyugdíjas a sofőrnél?\n\nÉdesanyámmal szeretnénk menni majd Budapestre egyet kirándulni. Ő már nyugdíjas, így tudtommal EU-s állampolgárként ő is ingyen használhatja a BKV járatait.\n\nDe, ugye első ajtós felszállásnál vagy lyukasztunk, vagy a bérletet mutatjuk fel, stb.\n\nNyudíjasként, főleg külföldi nyugdíjasként mit mutasson fel? Személyit esetleg? (Nyilván abból a sofőr semmit nem olvas le. De, szerintem a bérletem dátumát sem tudja olyan gyorsan, ahogy én általában megvillantom neki.)"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/utazas__magyarorszag__12567467-a-bkv-jaratain-egy-kulfoldi-nyugdijas-mikent-igazolja-hogy-nyugdijas-a-soforn"
+      },
+      "answers": [
+        {
+          "name": "hungarian:50:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nem azt kell igazolnia, hogy nyugdíjas, hanem hogy 65 év fölötti - ez magyar és EU-s állampolgárokra egyaránt igaz! Ehhez a személyigazolvány elég."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A BKV járatain egy (külföldi) nyugdíjas miként igazolja, hogy nyugdíjas a sofőrnél?\n\nÉdesanyámmal szeretnénk menni majd Budapestre egyet kirándulni. Ő már nyugdíjas, így tudtommal EU-s állampolgárként ő is ingyen használhatja a BKV járatait.\n\nDe, ugye első ajtós felszállásnál vagy lyukasztunk, vagy a bérletet mutatjuk fel, stb.\n\nNyudíjasként, főleg külföldi nyugdíjasként mit mutasson fel? Személyit esetleg? (Nyilván abból a sofőr semmit nem olvas le. De, szerintem a bérletem dátumát sem tudja olyan gyorsan, ahogy én általában megvillantom neki.)",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:51",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Debrecen belvárosának kellős közepén miért van egy hatalmas bontási terület parkolónak használva?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/utazas__magyarorszag__12564108-debrecen-belvarosanak-kellos-kozepen-miert-van-egy-hatalmas-bontasi-terulet-park"
+      },
+      "answers": [
+        {
+          "name": "hungarian:51:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Jelenleg csak így lehet megoldani a belváros egyik részének parkolási gondjait. Pillanatnyilag ez a legjobb hasznosítása a területnek!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Debrecen belvárosának kellős közepén miért van egy hatalmas bontási terület parkolónak használva?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:52",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Kiket érint XY városban az idegenforgalmi adó?\n\nPl ha egy bevásárlóközpont parkolójában 2 napig a furgonamban alszok az már díjköteles?\n\nVagy ha egy idenforgalmi adót beszedő városban van egy lakásom/ingatlanon a saját nevemen,de nem oda vagyok bejelentve,akkor is fizetni kell?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/utazas__magyarorszag__12509226-kiket-erint-xy-varosban-az-idegenforgalmi-ado"
+      },
+      "answers": [
+        {
+          "name": "hungarian:52:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ez egy önkormányzati adó, tehát nem csak az összege, hanem az érintettek köre is változó önkormányzatonként. Van ahol kell fizetni valakinek, van ahol meg nem."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kiket érint XY városban az idegenforgalmi adó?\n\nPl ha egy bevásárlóközpont parkolójában 2 napig a furgonamban alszok az már díjköteles?\n\nVagy ha egy idenforgalmi adót beszedő városban van egy lakásom/ingatlanon a saját nevemen,de nem oda vagyok bejelentve,akkor is fizetni kell?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:53",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A MÁV-ban illetve a vonatokon mi a különbség a sima menetjegy és az okos jegy között? Mind a 2 őt meg lehet venni telefonon ez takar valamit?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/utazas__magyarorszag__12484549-a-mav-ban-illetve-a-vonatokon-mi-a-kulonbseg-a-sima-menetjegy-es-az-okos-jegy-ko"
+      },
+      "answers": [
+        {
+          "name": "hungarian:53:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Rögtön a következő képernyőn ki is derül. Az okosjegy vonathoz kötött, a normál menet- és helyjegy pedig részben vonathoz kötött, tehát a menetjegyet érvénytartamon belül más vonaton is felhasználhatod, max másik, új helyjegy kell mellé, ha változtatnál. Okosjegy esetén buktad a teljes jegyet változtatás esetén."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A MÁV-ban illetve a vonatokon mi a különbség a sima menetjegy és az okos jegy között? Mind a 2 őt meg lehet venni telefonon ez takar valamit?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:54",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Önkormányzati jövedelem felülvizsgálatkor teendő?\nSziasztok, 2014-ben önkormányzati lakásba kerültem, akkor nettó 90ezer ft volt a jövedelmem friss pályakezdőként, viszont azóta a munkahelyemen 4x annyival többet keresek, mert előléptettek és emelték a fizetésem a 10 év alatt. Eddig az éves önkormányzati felülvizsgálati szemlekor csak azt nézték a vagyonkezelő dolgozói, hogy a lakbér és a közmű számlák rendezve vannak-e, viszont most kaptam egy olyan levelet, hogy a jövedelmem is igazoljam. Határozatlan az önkormányzati szerződésem, ilyenkor szerintetek felmondhatják, hogy ekkora jövedelemmel nem vagyok jogosult, vagy csak a lakbért fogják emelni? Köszönöm szépen előre is a válaszokat!"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/otthon__alberlet__12578072-onkormanyzati-jovedelem-felulvizsgalatkor-teendo"
+      },
+      "answers": [
+        {
+          "name": "hungarian:54:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nálam évek óta júliusban kérik a jövedelem igazolást, majd az alapján megállapítják januártól a lakbért.\nEleve a 10 évvel ezelőtti jövedelmek már mindenhol emelkedtek. Nem csak nálad.\nNem raknak ki, csak besorolnak a jövedelmed alapján a nm árra."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Önkormányzati jövedelem felülvizsgálatkor teendő?\nSziasztok, 2014-ben önkormányzati lakásba kerültem, akkor nettó 90ezer ft volt a jövedelmem friss pályakezdőként, viszont azóta a munkahelyemen 4x annyival többet keresek, mert előléptettek és emelték a fizetésem a 10 év alatt. Eddig az éves önkormányzati felülvizsgálati szemlekor csak azt nézték a vagyonkezelő dolgozói, hogy a lakbér és a közmű számlák rendezve vannak-e, viszont most kaptam egy olyan levelet, hogy a jövedelmem is igazoljam. Határozatlan az önkormányzati szerződésem, ilyenkor szerintetek felmondhatják, hogy ekkora jövedelemmel nem vagyok jogosult, vagy csak a lakbért fogják emelni? Köszönöm szépen előre is a válaszokat!",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:55",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Vásároltam egy panel lakást és fel szeretném újítani, de az egyik belső falra 5cm EPS szigetelést raktak. Szerintetek leszedjem mert penészes lehet, vagy honnan lehet ezt megtudni?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/otthon__felujitas__12578068-vasaroltam-egy-panel-lakast-es-fel-szeretnem-ujitani-de-az-egyik-belso-falra-5c"
+      },
+      "answers": [
+        {
+          "name": "hungarian:55:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Én leszedném.\nBelülről csak teljes párazárás mellett szigetelünk, azt meg nehéz jól megcsinálni.\nRáadásul azzal, hogy 1 fal le van Szigetelve nem oldunk meg semmit. A fal fodem-padlo csomópontokat belülről nem lehet jól megoldani, mindig marad hőhíd."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Vásároltam egy panel lakást és fel szeretném újítani, de az egyik belső falra 5cm EPS szigetelést raktak. Szerintetek leszedjem mert penészes lehet, vagy honnan lehet ezt megtudni?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:56",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Hogyan lehet kikeverni a Horthy-kori sisakok színét?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/otthon__barkacsolas__12577375-hogyan-lehet-kikeverni-a-horthy-kori-sisakok-szinet"
+      },
+      "answers": [
+        {
+          "name": "hungarian:56:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "M35 tábori sisak. Neten rákeresve találsz róla képeket. Nem kell megijedni a sok árnyalattól, annak idején sem volt tökéletesen egységes.\nEz egy zöldesbarna szín. Talán a RAL6025 áll a legközelebb hozzá. Festékboltban kikeverik géppel. Nem drágább, mint külön megvenni hozzá egy egy dobozzal a festéket és kevergetni.\nEcsettel festették az eredetit."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan lehet kikeverni a Horthy-kori sisakok színét?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:57",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Mitől számít újépítésűnek egy ház? Mitől kell alkalmazni azt az építési jogszabájt, ami köteleti az új építésű házaknál az energiatakarékosságot, fenntarthatóságot, 0 energiaigényt.\nÚgy értem hogy például van egy régi ház, és ha meghagyjuk a falakat, akkor nyilván nem lesz új építésű, de meddig lehet elmenni?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/otthon__epitkezes__12576376-mitol-szamit-ujepitesunek-egy-haz-mitol-kell-alkalmazni-azt-az-epitesi-jogszaba"
+      },
+      "answers": [
+        {
+          "name": "hungarian:57:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ha a tető formályán nem változtatsz, nem építesz hozzá, akkor mehet kalákába az egész. Az utca front modosítással kapcsoladban pl 2 ablak helyett 3 kérdezd meg a helyi jegyzőt. Nálunk nem érdekli őket, de a szomszéd faluban kérik a modosításról szóló terveket."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mitől számít újépítésűnek egy ház? Mitől kell alkalmazni azt az építési jogszabájt, ami köteleti az új építésű házaknál az energiatakarékosságot, fenntarthatóságot, 0 energiaigényt.\nÚgy értem hogy például van egy régi ház, és ha meghagyjuk a falakat, akkor nyilván nem lesz új építésű, de meddig lehet elmenni?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:58",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Mit tehetek, ha a főbérlő olyan károkozással vádol, amit nem követtem el?\nÁtköltöztem egy másik albérletbe, mert az elöző igencsak igénytelen volt, az elöző főbérlő szinte semmit nem akart megjavítani. Penészes falak, beázás, stb.\nElköltöztem, de most egy bútornak az árrát akarja rám verni (150000) mert egy vágás volt rajta, ami a kiköltözésemnél 100%, hogy nem volt ott.Mit tehetek?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/otthon__alberlet__12575015-mit-tehetek-ha-a-foberlo-olyan-karokozassal-vadol-amit-nem-kovettem-el"
+      },
+      "answers": [
+        {
+          "name": "hungarian:58:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Normál esetben beköltözés UTÁN AZONNAL mindenröl fotókat készíteni, meg kiköltözéskor, a lakás átadása során szintén mindent lefényképezni, illetve ÍRÁSBAN átadási protokollt csinálni, amiben minden hiba vagy probléma fel van tüntetve, és aláírta a tulaj is, meg te is két tanu jelenlétében.\nUtólag, bizonyítékok nélkül nem sokat lehet tenni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mit tehetek, ha a főbérlő olyan károkozással vádol, amit nem követtem el?\nÁtköltöztem egy másik albérletbe, mert az elöző igencsak igénytelen volt, az elöző főbérlő szinte semmit nem akart megjavítani. Penészes falak, beázás, stb.\nElköltöztem, de most egy bútornak az árrát akarja rám verni (150000) mert egy vágás volt rajta, ami a kiköltözésemnél 100%, hogy nem volt ott.Mit tehetek?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:59",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Milyen engedélyek kötelezőek ha lakást szeretnék újítani?\nFigyelt kérdés\nEgy régi kissé romos lakást szeretnék felújítani. Tető csere az 100%, szobák/helységek átrendezése, falak bontása, illetve újak építése. Van közvetlen a ház mellett egy pajta, ugyan az a tető fedi mint magát a lakást, csak egy fal válassza el a kettőt, abba ajtót tennék és lakható szobának kialakítanám. Ajtókat, ablakokat is szeretnék kialakítani egy-két helyen.\nAzt tudom hogy mindenhez nem kell engedély.\nPersze ezt nyilván nehéz mind előre megmondani, de a kérdésem az volna, hogy nagyjából melyik engedélyekre lesz mindezek elvégzéséhez szükségem?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/otthon__felujitas__12573094-milyen-engedelyek-kotelezoek-ha-lakast-szeretnek-ujitani"
+      },
+      "answers": [
+        {
+          "name": "hungarian:59:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Félrevezető az első mondat. Nem lakásról van szó akkor, hanem házról.\nTetőcsere esetén, ha a tető formája változik, abban az esetben kell engedély, értsd ha előtte nyeregtetős volt és utána is az lesz, akkor nem kell, de ha pl. előtte sátortető volt vagy lapostető, és pl. nyeregtető lesz akkor kell.\nAmennyiben a térképen felvan tüntetve a pajta is, azonban a tulajdonilap nem tér ki arra, hogy a telken milyen rendeltetésű épületek állnak, akkor gyakorlatilag bővítheted a lakórészt a pajtával, mert nem tudnak mit kezdeni veled.\nHa nem szerepel a térképen akkor erősen nem ajánlom, hogy engedély nélkül ilyenbe fogj, mert onnantól kezdve hiába egy régi épület, egy kvázi \"illegális\" építmény, s ha ezzel bővíted a lakóteret, akkor az ugyanolyan bővítésnek számít, mintha hozzáépítettél volna, ami pedig engedélyköteles tevékenység. Ha szerepel, de a tul.lapon pajtaként, akkor az bukta esetén egyértelmű. Valaki soha az életben nem bukik meg vele, valaki azonnal. Valaki megbukik egy p....a garázzsal vagy tárolóval is... Függ szomszédtól, önkormányzat hozzáállásától, tapasztalatom szerint a település nagyságától is, hogy milyen az önk. hozzáállása.\nBármi másról is legyen szó, belső munkálatok, víz, villany, fűtés, falak áthelyezése, építése, bontása, betonozás, beton bontás, nyílászáró csere és plusz beépítés stb. stb. ezekhez nem kell engedély. Szakember mindegyikhez javasolt. Ha értesz hozzá, akármelyikhez is, akkor nyilván nem kötelező, szóval ez nem olyan, mint egy építés, a felújításnál nem kötelező."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Milyen engedélyek kötelezőek ha lakást szeretnék újítani?\nFigyelt kérdés\nEgy régi kissé romos lakást szeretnék felújítani. Tető csere az 100%, szobák/helységek átrendezése, falak bontása, illetve újak építése. Van közvetlen a ház mellett egy pajta, ugyan az a tető fedi mint magát a lakást, csak egy fal válassza el a kettőt, abba ajtót tennék és lakható szobának kialakítanám. Ajtókat, ablakokat is szeretnék kialakítani egy-két helyen.\nAzt tudom hogy mindenhez nem kell engedély.\nPersze ezt nyilván nehéz mind előre megmondani, de a kérdésem az volna, hogy nagyjából melyik engedélyekre lesz mindezek elvégzéséhez szükségem?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:60",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Mobilházat ha vesz valaki, mi alapján lesz a nevén?\nPl. egy telekre lerakva, ami a szülők nevén van, a mobilház mi alapján azonosítható be, hogy annak ki a tulajdonosa?\nNyilván van vételi szerződés, de a mobilházon van valami szám, vagy egyéb dolog, ami alapján az kimondható egyértelműen, hogy ki a tulajdonosa?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/otthon__ingatlan-vasarlas-eladas__12569945-mobilhazat-ha-vesz-valaki-mi-alapjan-lesz-a-neven"
+      },
+      "answers": [
+        {
+          "name": "hungarian:60:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A mobilház adásvételi szerződése alapján és a fuvarról egy számla, amihez a menetlevelet csatolják (honnan-hová lett szállítva, és azt ki rendelte) már elég egyértelmű lehet, hogy ki, mikor, honnan, hová vitette és hogyan került oda a mobilház."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mobilházat ha vesz valaki, mi alapján lesz a nevén?\nPl. egy telekre lerakva, ami a szülők nevén van, a mobilház mi alapján azonosítható be, hogy annak ki a tulajdonosa?\nNyilván van vételi szerződés, de a mobilházon van valami szám, vagy egyéb dolog, ami alapján az kimondható egyértelműen, hogy ki a tulajdonosa?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:61",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "‘G’ energetikai besorolást kapott a vásárolni kívánt lakásom. Ez mit jelent és hogyan lehetne segíteni rajta?\nEz egy 4 emeletes legfelső lakás. Szigetelt épület, új, korszerű műanyag nyílászárókkal.\nA tető nincs csak víz ellen szigetelve elvileg.\nBeton épület, 44nm\nVasradiátorok vannak benne, simán egy tekerős csappal.\nMajd ha újítom fel álmennyezet van tervben, oda szeretnék szigetelést rakni.\nA fűtéssel mit lehet kezdeni? Érdemes valamit vagy csak én gondolom túl a dolgot?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/otthon__felujitas__12570522-g-energetikai-besorolast-kapott-a-vasarolni-kivant-lakasom-ez-mit-jelent-es-h"
+      },
+      "answers": [
+        {
+          "name": "hungarian:61:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Úgy tudom, azért kötelező eladásnál az energetikai vizsgálat, mert egy adatbázisba kerül, ami a hazai lakásállomány állapotának elemzéséhez szükséges. Nincsenek következményei, ha erre gondolsz. Aki készíti, általában ír egy ajánlást, hogy lehet javítani, de ha szeretnéd korszerűsíteni a lakást, ahhoz úgyis alaposabb tervezés kell."
+            }
+          },
+          "prompting_state": {
+            "prompt": "‘G’ energetikai besorolást kapott a vásárolni kívánt lakásom. Ez mit jelent és hogyan lehetne segíteni rajta?\nEz egy 4 emeletes legfelső lakás. Szigetelt épület, új, korszerű műanyag nyílászárókkal.\nA tető nincs csak víz ellen szigetelve elvileg.\nBeton épület, 44nm\nVasradiátorok vannak benne, simán egy tekerős csappal.\nMajd ha újítom fel álmennyezet van tervben, oda szeretnék szigetelést rakni.\nA fűtéssel mit lehet kezdeni? Érdemes valamit vagy csak én gondolom túl a dolgot?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:62",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Gyömrőn és Sülysápon a vasútállomáson miért akadozik a hangosbemondó?\nFőleg Gyömrőn, szinte állandóan megakad, miközben bemondja az érkező vonatot. Miért akad? Más állomásokon nem szoktam ilyen megakadást hallani."
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__tomegkozlekedes__12589638-gyomron-es-sulysapon-a-vasutallomason-miert-akadozik-a-hangosbemondo"
+      },
+      "answers": [
+        {
+          "name": "hungarian:62:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nem mindenhol van helyben hangosbemondó, hanem egy közeli nagyobb állomásról vezérlik Gondolom vezezék nélküli rendszeren kapja a jelet, amit külső tényezők zavarnak. Egy időben Érd-Felsőn is ezt csinálta, aztán pár hónap múlva megjavították."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Gyömrőn és Sülysápon a vasútállomáson miért akadozik a hangosbemondó?\nFőleg Gyömrőn, szinte állandóan megakad, miközben bemondja az érkező vonatot. Miért akad? Más állomásokon nem szoktam ilyen megakadást hallani.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:63",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Mire figyeljünk az egri Szilágyi Erzsébet Gimiben a szóbeli felvételin?\nEgy hét múlva megyek felvételizni magyarból! Humán vagy általános szakra szeretnék bejutni! A sulit első helyen jelöltem. Sajnos a központim nem lett valami fényes, nagyon kellene egy jó szóbeli!\nHogyan zajlik a szóbeli?\nMire figyeljek?\nTippek, trükkök, taktikák? :)\nElőre is köszönöm!"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozoktatas-tanfolyamok__magyar-iskolak__12585889-mire-figyeljunk-az-egri-szilagyi-erzsebet-gimiben-a-szobeli-felvetelin"
+      },
+      "answers": [
+        {
+          "name": "hungarian:63:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A tantárgyi szóbeli kérdéseken kívül kíváncsiak a kommunikációs készségedre, a beszédstílusodra, a kiejtésedre, szókincsedre, az olvasottságodra, olvasmányélményeidre;\nmilyen versenyeredményeid vannak;\nkommunikációs képesség;\nkifejezőkészség és beszédstílus;\ntanuláshoz való viszony, tanulási szokások;\náltalános tájékozottság ;\ntantárgyi motiváció alapján a motivációval érintett szakterület (irodalom, nyelvtan, nyelvtörténet) feltérképezése;\nértelmi és érzelmi fejlettség;\nszociális kompetenciák átélt történetek és közösségi élmények alapján;"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mire figyeljünk az egri Szilágyi Erzsébet Gimiben a szóbeli felvételin?\nEgy hét múlva megyek felvételizni magyarból! Humán vagy általános szakra szeretnék bejutni! A sulit első helyen jelöltem. Sajnos a központim nem lett valami fényes, nagyon kellene egy jó szóbeli!\nHogyan zajlik a szóbeli?\nMire figyeljek?\nTippek, trükkök, taktikák? :)\nElőre is köszönöm!",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:64",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Diplomával egy másik alapszakra jelentkezés hogy történik? Többletpontot hogy számítanak?\nTegyük fel, hogy van egy informatikus diplomám(BA) és szeretnék jelentkezni pszichológiára.\nA pontszámítás hogy történik? A többletpontokat hogy számítják? Ez érdekelne a a legjobban.\nVan egy emelt történelem érettségim és 2 db B2-es nyelvvizsgám, az így mennyi pontot érne? Mármint többletpontban ugye.\nElőre is köszönöm a válaszokat!"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozoktatas-tanfolyamok__tanulasi-lehetosegek__12571514-diplomaval-egy-masik-alapszakra-jelentkezes-hogy-tortenik-tobbletpontot-hogy-sz"
+      },
+      "answers": [
+        {
+          "name": "hungarian:64:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nem lesz elég a pontod, mivel az emeltet nem számoltját és csak az egyik nyelvvizsgát veszik figyelembe, ha mind a 2 b2....maximum is ha 5 diplomád van és egy nyelvvizsgád 425 pontod lesz...20 ponttal kevesebb mint az utolsó embernek akiket felvettek erre a szakra..."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Diplomával egy másik alapszakra jelentkezés hogy történik? Többletpontot hogy számítanak?\nTegyük fel, hogy van egy informatikus diplomám(BA) és szeretnék jelentkezni pszichológiára.\nA pontszámítás hogy történik? A többletpontokat hogy számítják? Ez érdekelne a a legjobban.\nVan egy emelt történelem érettségim és 2 db B2-es nyelvvizsgám, az így mennyi pontot érne? Mármint többletpontban ugye.\nElőre is köszönöm a válaszokat!",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:65",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5d88f5e629a4eb0001c3f7b4",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Hogyan működik egyetemi felvételinél pontszámítás felsőoktatási oklevél alapján?\nPróbáltam utánanézni, de egyszerűen nem tudok kiigazodni. Nekem van már egy ötös diplomám és szeretnék elkezdeni egy másik alapszakot. Az előző diploma ha jól értem 400 pontot ér. De ha a szakra, amire jelentkeznék a tavalyi ponthatár 435 volt, és többletpontom nincs (nyelvvizsgám van, de ennyi) akkor nincs esélyem bekerülni?\nAz érettségi pontjaim alapján nem lenne meg, ezért szeretném oklevél alapján számolni.\nIlletve hol találom meg, hogy mely szakokon fogadják el ezt a fajta pontszámítást? A szakleírásban nem találtam.\nKöszönöm, ha tudtok segíteni."
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozoktatas-tanfolyamok__magyar-iskolak__12563469-hogyan-mukodik-egyetemi-felvetelinel-pontszamitas-felsooktatasi-oklevel-alapjan__oldal-2"
+      },
+      "answers": [
+        {
+          "name": "hungarian:65:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Neked NEM 400 pontod van, hanem több, mert azt írod, hogy van nyelvvizsgád. Az szinte minden helyen ér többletpontot. Az ELTE pszichológia szakára amúgy nem számítanak be BA diplomát, csak MA-t, szóval ez alapból kiesik.\nHa középfokú a nyelvvizsgád, akkor esetleg egy felsőfokút nem tudnál tenni? Mert arra a Pázmány 50 pontot ad, így 400+50 az már elég lehet (éppen hogy, mert tavaly 449 volt nappalin, levelezőn meg 448), a Károli meg 40-et, de az mondjuk kevéske lesz valószínűleg.\nA Pázmány esztergomi képzési helyén 426 volt tavaly (levelezőn), így az még akkor is esélyes, ha csak középfokú nyelvvizsgád van, szóval ezt is simán megpróbálhatod.\nIlletve most először indul pszichológia szak a Pannon egyetemen (Veszprémben), ott is kapsz 400 pontot a jeles diplomára, meg a középfokúra 25 pontot (felsőfokúra 50-et), és esélyes, hogy sokkal alacsonyabb lesz itt a ponthatár, mint a népszerűbb egyetemeken."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan működik egyetemi felvételinél pontszámítás felsőoktatási oklevél alapján?\nPróbáltam utánanézni, de egyszerűen nem tudok kiigazodni. Nekem van már egy ötös diplomám és szeretnék elkezdeni egy másik alapszakot. Az előző diploma ha jól értem 400 pontot ér. De ha a szakra, amire jelentkeznék a tavalyi ponthatár 435 volt, és többletpontom nincs (nyelvvizsgám van, de ennyi) akkor nincs esélyem bekerülni?\nAz érettségi pontjaim alapján nem lenne meg, ezért szeretném oklevél alapján számolni.\nIlletve hol találom meg, hogy mely szakokon fogadják el ezt a fajta pontszámítást? A szakleírásban nem találtam.\nKöszönöm, ha tudtok segíteni.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:66",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5bc4784e85214800017d8c1a",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Az aranycsapat mitől volt olyan sikeres és miért volt évekig egyértelműen a világ legjobb csapata?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/sport-mozgas__labdajatekok__1323226-az-aranycsapat-mitol-volt-olyan-sikeres-es-miert-volt-evekig-egyertelmuen-a-vila"
+      },
+      "answers": [
+        {
+          "name": "hungarian:66:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Több összetevője is volt a sikerüknek. Elsősorban a játékosok egyéni képességei emelték azt a csapatot a csúcsra. Volt 3-4 kimagasló képességű zseni és 8-10, európai szinten jónak mondható játékosunk. Akkoriban a magyar edzők a világ élvonalába tartoztak, a legnagyobb csapatok kispadján ültek és ez nyilván meg is látszott a magyar játékosok képzettségén. Végül, de nem utolsó sorban, az aranycsapat alkalmazta először az akkoriban forradalminak számító WM-játékrendszert, ami taktikailag is a többi csapat fölé helyezte őket."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Az aranycsapat mitől volt olyan sikeres és miért volt évekig egyértelműen a világ legjobb csapata?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:67",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5bc4784e85214800017d8c1a",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "60 évesen a nők is elmehetnek előnyugdíjba?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/emberek__munkahely-kollegak__12477090-60-evesen-a-nok-is-elmehetnek-elonyugdijba"
+      },
+      "answers": [
+        {
+          "name": "hungarian:67:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nincs olyan, hogy előnyugdíj. Öregségi nyugdíjra az jogosult, aki betölti a rá irányadó öregségi nyugdíjkorhatárt, jelenleg ez 65 év. Ezen kívül, kortól függetlenül mehet az a nő, aki 40 év jogosultsági idővel rendelkezik. Akkor mehet 60 évesen, ha ez a 40 év megven, elméletileg lehetséges. De ez nem előnyugdíj, ez teljes jogú öregségi nyugdíj."
+            }
+          },
+          "prompting_state": {
+            "prompt": "60 évesen a nők is elmehetnek előnyugdíjba?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:68",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5bc4784e85214800017d8c1a",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Mikor szokás a lencsét enni szilveszterkor, éjfél előtt vagy után?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/etelek-italok__egyeb-kerdesek__573515-mikor-szokas-a-lencset-enni-szilveszterkor-ejfel-elott-vagy-utan"
+      },
+      "answers": [
+        {
+          "name": "hungarian:68:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A szokásnak az az eredete, hogy AMIT ÚJÉV NAPJÁN csinálsz, az vonatkozik az egész évre. A lencse a pénzt jelenti (ahogy a rizs és a mák is), ezért ezeket eszik újév napján, hogy egész évben sok pénze legyen nekik."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mikor szokás a lencsét enni szilveszterkor, éjfél előtt vagy után?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:69",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5bc4784e85214800017d8c1a",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A hagyomány szerint mi történik azzal, akit nem locsolnak meg?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/unnepek__husvet__12207474-a-hagyomany-szerint-mi-tortenik-azzal-akit-nem-locsolnak-meg"
+      },
+      "answers": [
+        {
+          "name": "hungarian:69:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A leszakított virág elhervad, nem hoz termést. A locsolkodás a pogány világban gyökerezik. A természet megújulását kb. az egész Óvilágban ünnepelték valamilyen formában. (Erre települt rá a kereszténység, a népek ősi tavaszünnepével összevonva Jézus feltámadását.) Tavasszal vízzel öntözködve megtisztultak az emberek (férfiak is), a nőknél a férfiak általi öntözés biztosította a bőséges gyerekáldást. (Utalva a szexre.) Ha egy asszonynak nem született gyereke, azt nagyon lenézték, így minden lány álma az volt, hogy férjhez menetele után majd sok gyereke születik. Így ha nem öntözték meg, akkor úgy gondolta, hogy terméketlen lesz, azaz elhervad, megöregszik gyerekek nélkül."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A hagyomány szerint mi történik azzal, akit nem locsolnak meg?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:70",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5bc4784e85214800017d8c1a",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Milyen adók vannak az autókra?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/kozlekedes__autok-motorok__12470011-milyen-adok-vannak-az-autokra"
+      },
+      "answers": [
+        {
+          "name": "hungarian:70:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Egyszeri (átíráskor):\n- Vagyonszerzési illeték\n- Eredetiség vizsgálat\nRendszeres:\n- Gépjárműadó (személyautónál teljesítményadó, teherautónál súlyadó)\n- KGFB\n- Műszaki vizsga\n- Cégautóadó (céges tulajdonú személyautóknál)"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Milyen adók vannak az autókra?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:71",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5bc4784e85214800017d8c1a",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A Köztársasági elnök mindig a Sándor-palotában tartózkodik? Úgy tudom, hogy a Sváb-hegyen is van egy Köztársasági elnöki rezidencia. Melyik helyen tartózkodik állandó jelleggel? Illetve minek van szükség kettő rezidenciára?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/politika__egyeb-kerdesek__12583460-a-koztarsasagi-elnok-mindig-a-sandor-palotaban-tartozkodik"
+      },
+      "answers": [
+        {
+          "name": "hungarian:71:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Állandó jelleggel nem tartózkodik sehol. Mindig ott van, ahol épp dolga van. Egyrészt az elnöki hivatallal elég sok külföldi diplomáciai utazás is jár, amikor egy delegációval más országba utazik, de Magyarországon belül is elég sokat szoktak az elnökök utazni. Ahogy már írták is, a Sándor Palota az elnök munkahelye, itt üzemel a Köztársasági Elnöki Hivatal (KEH). Itt van az irodája, ide jár be dolgozni, itt dolgozik a stábja, itt fogadja a hivatalos ügyekben hozzá érkezőket (külföldi delegációk, Magyarországra akkreditált nagykövetek, diplomaták, magyar kormány tisztviselők, egyéb okból vendégül látott közéleti szereplők, stb). A Béla király úti Köztársasági Köztársasági Elnöki rezidencia az elnök lakhelye. Itt él a családjával, ide jár haza a munkájából. Miután megválasztják elnöknek, ide költözik át a korábbi otthonából. Erre azért van szükség, mert ez a ház úgy lett kialakítva, hogy az elnök és családjának otthona mellett megfelelően tudják biztosítani a folyamatos őrzést biztosító testőrség, autó konvoj és egyéb az elnöki tisztséggel járó szükségletet is, ami egy hétköznapi lakásban, de még családi házban sem lenne könnyen kivitelezhető, pláne hosszú távon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Köztársasági elnök mindig a Sándor-palotában tartózkodik? Úgy tudom, hogy a Sváb-hegyen is van egy Köztársasági elnöki rezidencia. Melyik helyen tartózkodik állandó jelleggel? Illetve minek van szükség kettő rezidenciára?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:72",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5bc4784e85214800017d8c1a",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Mi a különbség a nemzeti és az állami ünnep között?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/politika__egyeb-kerdesek__1968662-mi-a-kulonbseg-a-nemzeti-es-az-allami-unnep-kozott"
+      },
+      "answers": [
+        {
+          "name": "hungarian:72:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "\"A magyar jogrendszer megkülönbözteti a nemzeti ünnepet, az állami ünnepet, valamint a többi munkaszüneti napot. Magyarországon két nemzeti és egy állami (és egyben nemzeti) ünnep van, amelyek egyben munkaszüneti napok is. A többi munkaszüneti nap többnyire egyházi ünnepekhez, illetve jeles történelmi eseményekhez köthető. Ezeken felül vannak törvényben rögzített nemzeti emléknapok is, amelyek valamely tragikus vagy örömteli történelmi eseményre való emlékezésre szolgálnak, de nem munkaszüneti napok.\""
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi a különbség a nemzeti és az állami ünnep között?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:73",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5bc4784e85214800017d8c1a",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "A földes utak jogilag közterületnek minősülnek?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/politika__torvenyek-jog__12581705-a-foldes-utak-jogilag-kozteruletnek-minosulnek"
+      },
+      "answers": [
+        {
+          "name": "hungarian:73:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az attól függ... ha az adott parcella \"közepén\" van, akkor tulajdonjogilag a parcella tulajdonosáé, ha két parcella között akkor az önkormányzaté, vagy az államé. Erdő esetében a művelőútra leginkább az első eset vonatkozik. Akármelyik is, ha más terület megközelítése is azon történik akkor többnyire közforgalomnak megnyitott magánút, de NEM kell feltétlenül kitáblázni! Sorompóval csak akkor zárhatja el, ha azzal nem akadályozza más terület megközelítését (azaz ha csak abból az irányból közelíthető meg más erdőrészlet/parcella/tanya stb., akkor köteles szolgalmi jogot biztosítani nekik a közlekedésre)."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A földes utak jogilag közterületnek minősülnek?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "hungarian:74",
+        "type": 5,
+        "source": "Gyakori kérdések",
+        "collector": "5bc4784e85214800017d8c1a",
+        "language": "Hungarian",
+        "translations": {
+          "Hungarian": {
+            "language": "Hungarian",
+            "text": "Mi a különbség a Kardinális, Rákóczi túrós és a Női szeszély között?"
+          }
+        },
+        "url": "https://www.gyakorikerdesek.hu/etelek-italok__egyeb-kerdesek__2573265-mi-a-kulonbseg-a-kardinalis-rakoczi-turos-es-a-noi-szeszely-kozott"
+      },
+      "answers": [
+        {
+          "name": "hungarian:74:human",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Kardinális . leveles tészta tojás hab gyümölcs darabok. A Rákoczi túrós . linzer tészta túró lekvár, tojás hab. Női szeszély. linzer tészta,lekvár tojás hab és hab tetején dió van"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi a különbség a Kardinális, Rákóczi túrós és a Női szeszély között?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
+        }
+      ]
+    }
+  ]
+}
