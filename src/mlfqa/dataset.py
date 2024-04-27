@@ -280,6 +280,7 @@ class Field(enum.Enum):
     QUESTION_WITH_ELABORATION = enum.auto()
     QUESTION_TITLE = enum.auto()
     QUESTION_ELABORATION = enum.auto()
+    QUESTION_ENGLISH_TRANSLATION = enum.auto()
     QUESTION_SOURCE = enum.auto()
     QUESTION_COLLECTOR = enum.auto()
     ANSWER = enum.auto()
@@ -307,13 +308,14 @@ def _construct_dataset_from_dict_entries(
 
         language = Language[dict_entry[Field.LANGUAGE]]
 
+        question_translations: dict[Language, QuestionTranslation] = {}
         if Field.QUESTION_WITH_ELABORATION in dict_entry:
-            question_translation = QuestionTranslation(
+            question_untranslated = QuestionTranslation(
                 language,
                 text=dict_entry[Field.QUESTION_WITH_ELABORATION],
             )
         elif Field.QUESTION_TITLE in dict_entry:
-            question_translation = QuestionTranslation(
+            question_untranslated = QuestionTranslation(
                 language,
                 text=dict_entry[Field.QUESTION_TITLE]
                 + "\n"
@@ -322,6 +324,13 @@ def _construct_dataset_from_dict_entries(
         else:
             msg = "No question text fields found"
             raise ValueError(msg)
+        question_translations[language] = question_untranslated
+
+        if Field.QUESTION_ENGLISH_TRANSLATION in dict_entry:
+            question_translations[Language.English] = QuestionTranslation(
+                Language.English,
+                text=dict_entry[Field.QUESTION_ENGLISH_TRANSLATION],
+            )
 
         question = Question(
             f"{dataset_name}:{i}",
@@ -329,16 +338,21 @@ def _construct_dataset_from_dict_entries(
             dict_entry[Field.QUESTION_SOURCE],
             dict_entry[Field.QUESTION_COLLECTOR],
             language,
-            {language: question_translation},
-            dict_entry[Field.URL],
+            question_translations,
+            dict_entry.get(Field.URL),
         )
-        answer = Answer.make_human_answer(
-            f"{question.name}:human",
-            question.untranslated.get_text(),
-            language,
-            dict_entry[Field.ANSWER],
-        )
-        entry = Dataset.Entry(question, [answer])
+
+        answers = []
+        if Field.ANSWER in dict_entry:
+            answer = Answer.make_human_answer(
+                f"{question.name}:human",
+                question.untranslated.get_text(),
+                language,
+                dict_entry[Field.ANSWER],
+            )
+            answers.append(answer)
+
+        entry = Dataset.Entry(question, answers)
         entries.append(entry)
 
     return Dataset(entries)
