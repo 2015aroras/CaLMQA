@@ -18,7 +18,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:0:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu mico kama itandukanye yo kw'isi, harimwo n'ibihugu bimwe vyo muri Afrika, haracariho imigenzo n'imico ivuga ku bibanza n'ibikorwa bigenewe abagabo n'abagore. Muri iyo mico, ingoma - nk'igicurangisho gikomeye gifitaniye isano n'imigenzo y'umuco, imihango y'idini, n'ubutegetsi - yaragize uruhara rw'ingezi mu mibereho y'abantu. Mu bice bimwe vyo muri Afrika, nka kera, havugwa ko ingoma zifitaniye isano rikomeye n'ububasha, ubutwari, n'imbaraga, maze zikaba zarafatwa nk'ibimenyetso vy'ubutegetsi n'ubushobozi, ivyo bigatuma zigereranywa n'abagabo gusa.\n\nImpamvu imwe ishobora kuba yatumye abagore batemererwa kuvuza ingoma mu mico imwe n'imwe ni uko vyafatwa nk'ukurenga ku migenzo n'imiziro y'umuco, bikaba vyavugwa ko bishobora gutera impanuka canke ingaruka mbi ku muryango canke umuco wose. Vyongeye, ingoma zimwe zifitaniye isano n'imirimo y'ubutwari n'imigenzo y'abasokuru yega abagabo, bica bituma ivyo bikorwa bifatwa nk'ibitegetswe abagabo gusa.\n\nNi ngombwa kumenya ko uko imyaka igenda, hari impinduka nyinshi ziriko ziraba mu mico itandukanye, aho ibitsina vyombi biriko biraronka uburenganzira n'amahirwe angana yo kwitaba mu bikorwa vyose vy'umuco, harimwo no kuvuza ingoma. Mu bihugu bimwe nka Rwanda na Burundi, abagore bariko barinjira mu bikorwa vyo kuvuza ingoma, bagiye barerekana ubushobozi n'ubuhanga mu gukora ibikorwa vyahora vyegukira abagabo gusa, bariko barahindura imyumvire ya kera yabaranga.\n\nMu gusozera, impamvu z'uko abagore batemererwa kuvuza ingoma mu mico imwe n'imwe ni izishingiye ku migenzo n'imiziro y'umuco yagiye iratangwa biciye mu mateka. Ariko rero, isi iriko irahinduka, n'iyi migenzo nayo iriko irahinduka, aho abagore bariko barashobora kwerekana ubushobozi n'uburenganzira bwabo mu bikorwa vy'umuco bitandukanye, harimwo no kuvuza ingoma."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki bitemewe ko umukenyezi avuza ingoma?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -38,7 +61,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:1:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Inkinzo z'abavyinyi b’imico kama mu bihugu vya Afrika zirafise ibisobanuro bitandukanye bivana n’umuco w’igihugu canke ikibano turiko turavuga. Izo nkinzo zishobora kuba ari imyambaro, ibikoresho, canke ibimenyetso vy’ico bavuga canke ivyo bakora mu migenzo yabo. Zikaba zishobora kwerekana amateka, ubumenyi, canke imyemerere y’ico kibano. Akarorero, twovuga:\n\n1. **Imyemerere n’imigenzo**: Mu bihugu bimwe na bimwe vya Afrika, inkinzo z’abavyinyi zishobora kuba zifitaniye isano n’imigenzo yabo ijanye n’imyemerere, nk’amasengesho, gutura ibimazi, canke gutanga icubahiro ku bapfuye. Zishobora kuba zerekana umwuka w’abakurambere canke guhamagara imigisha y’imana.\n\n2. **Ubutumwa bwo mu kibano**: Inkinzo zishobora kandi gukoreshwa ngo zitange ubutumwa bushigikiye ubumwe, ubutungane, canke kwigisha abantu ku vyerekeye impinduka zikenewe mu kibano. Zishobora gukoreshwa mu gukangurira abantu kwita ku bibazo vy’igihugu canke vy’akarere.\n\n3. **Akamaro mu vyo kuremesha ubutwari n’akaranga**: Inkinzo zishobora kandi kuranga ubutwari bw’abarwanyi canke intwari zo mu mateka, zigakoreshwa mu biganiro bivuga ku mateka y’igihugu canke akarere. Zishobora kwerekana ubutwari, ukwitanga, canke ivyigwa vy'uburere bwa kahise.\n\n4. **Imico n'imigenzo y'ubuzima bw'abanyagihugu**: Zishobora kandi gusigura uruhara rw’abagabo n’abagore mu kibano, urukundo, ubugeni, kurondoka, canke izindi ngingo z'umuryango. Biciye mu mvyino, zishobora kwerekana uburyo abantu bafata ubuzima, urupfu, urukundo, n'ibindi.\n\nMu bisanzwe, inkinzo z'abavyinyi b'imico kama zishobora kuba ikiraro hagati y'isi y'impwemu n'iy'abantu, zikaba isoko ry'ubumenyi, uburere n'ibikorwa vy’umuco. Umuntu ategerezwa kubona ko izo nkinzo zifise uruhara runini mu kubungabunga no guhererekanya umuco, akaranga, n’amateka mu bihugu vya Afrika."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Inkinzo z'abavyinyi b'imico kama zisigura iki?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -58,7 +104,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:2:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Umugenzo wo kwatira ni umuco gakondo wakunze kugaragara mu bihugu bitandukanye bya Afurika, harimo n’u Rwanda. Uyu mugenzo ugira amateka n’ibisobanuro bitandukanye bitewe n’umuco w’igihugu cyangwa akarere ukorerwamo. Muri rusange, kwatira bigira inyito zitandukanye mu ndimi zitandukanye zo muri Afurika, ariko umugambi n’intego bikaba bisa.\n\nMuri make, kwatira bisobanuye igikorwa cyo gufasha cyangwa kwakira abantu mu muryango, bashobora kuba abavandimwe, inshuti, cyangwa abana batari abawe mu buryo bw’amategeko, noneho ukabarera, ukabitaho, cyangwa ukabafasha mu bundi buryo butandukanye, nk'uko umubyeyi wabo kavukire cyangwa umuryango wabo waba ubigenza. Uyu muco ugenda ufata indi sura bitewe n’amateka, ibibazo by’imibereho, n’ibindi bintu by’ingenzi mu muryango mugari.\n\nKwatira bishobora gufatwa nk'igikorwa cy’urukundo, ubumuntu, n’ubufasha, aho umuryango umwe ufata umwana cyangwa umuntu wakwiriye kuba mu buzima bugoye, ukamworohereza imibereho, ukamuha uburere, uburezi, n'ibindi bikenerwa mu mibereho myiza. Bishobora no kuba uburyo bwo kubaka imibanire myiza n’ubwumvikane hagati y’imiryango itandukanye, kuko bisaba ubufatanye n’ubwumvikane hagati y’imiryango yombi.\n\nHari n'igihe kwatira bifatwa nk'umugambi wo kubungabunga umuryango, cyane cyane mu bihe by’intambara, amakimbirane, cyangwa ibiza, aho abana batakaza ababyeyi babo kandi bakabura ababitaho.\n\nMuri iki gihe, kwatira kandi kugenda gusobanurwa mu buryo bw'amategeko, aho abantu bagana inzira zemewe n'amategeko mu gutwara no kurera abana batari ababo. Nubwo bimeze bityo, umugenzo gakondo wo kwatira ukomeje kuba ikiraro cy'ubufasha n'urukundo mu muryango mugari, ushingiye ku bikorwa by'ubufasha no guharanira imibereho myiza y'abana n'abantu bakeneye ubufasha."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umugenzo wo kwatira usigura iki?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -78,7 +147,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:3:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Urwarwa ni ikinyobwa gakondo cyane cyane mu bihugu byo mu Karere ka Afurika y'Iburasirazuba, cyane cyane mu Rwanda, Burundi na Uganda. Gikorwa mu buryo bwa kinyarwanda bukurikira:\n\n1. **Igitekerezo cy'ibanze:** Urwarwa rukorwa hifashishijwe ibitoki, ibi bitoki bigomba kuba byatowe neza, bikaba byujuje ubuziranenge n'uburyohe.\n\n2. **Gutegura Ibitoki:** Ibitoki birabanza bigatoranywa, hanyuma bikamenwa bikavanwamo agashishwa.\n   \n3. **Gutwikira:** Nyuma yo kumenamo ibitoki, bikurikiraho gutwikira. Iki gikorwa kigamije kuvanaho uruhu rw'igitoki n'ibindi bintu bitakenewe. Bishobora gukorwa mu buryo bwa gakondo bakoresha ibyatsi bikomeye by'ibitoki.\n\n4. **Gusekura n'ugusya:** Ibitoki bimaze gutwikirwa, bikurikiraho gusekura, ibi bikaba ari ukubikuraho agashishwa kari gasigaye, hanyuma bikayungururwa kugira ngo birusheho kuba bito.\n   \n5. **Gukamura:** Igitoki cyamara gusekurwa, gikurikirwaho no gukamura, aho ukamura umutobe wavuyemo. Uwo mutobe ni wo uzavamo urwarwa rwawe.\n\n6. **Kuvanga no kugundira:** Umutobe ukamurwa uvanzwa n'amasaka cyangwa igisheke nk'isukari y'umwimerere birapimwa biranapimwa kugira ngo bibe mu buryo bwiza bwo kuvangwa.\n   \n7. **Kwiyenga (Kuvuba):** Iyi ni intambwe ikomeye, aho umutobe w'igitoki n'amasaka cyangwa igisheke byavuzwe haruguru bibikwa ahantu hahumutse kandi hafudutse kugira ngo bitangire inzira y'iyengesho. Igihe cy'iyengesho gishobora gutandukana bitewe n'uburyohe bukenewe n'ikirere.\n\n8. **Kuyungurura:** Nyuma y'uko urwarwa rumaze kwenga, rukeneye kuyungururwa kugira ngo hakuwemo ibisigazwa byose bishobora kuba birimo.\n\n9. **Gutunganya no Kuvanga:** Urwarwa rukimara kuyungururwa, rushobora gutunganywa rwongerwamo amazi, cyangwa ibindi binyobwa kugira ngo rugere ku rwego rw'uburyohe no ku gipimo cya alukolo cyifuzwa.\n\n10. **Kubika:** Nyuma yo kuvanga no gutunganya, urwarwa rubikwa ahantu hakonje kandi haguye kugira ngo rurusheho kunoga, mbere yuko rwemererwa kunyobwa.\n\nUrwarwa rukorwa muri ubu buryo bwa gakondo rufite umwimerere wihariye, ukunzwe cyane mu bihugu by'Akarere ka Afurika y’Iburasizuba. Cyakora, imikorere yarwo n'uburyohe bwayo bishobora guhinduka bitewe n'akarere, ubumenyi, n'ibikoresho byifashishijwe mu gukora."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Urwarwa rukorwa gute?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -98,7 +190,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:4:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Imigenzo y'Abayuda (abahebera) ikundwa n'abantu batari bake muri Leta Zunze Ubumwe za Amerika n’ahandi mu bihugu bivuga Icyongereza na none, harimo imwe mu myifatire, iminsi mikuru, no guhimbaza iyobokamana iboneka mu muco wabo. Ikundwa haba mu bakomoka mu miryango y'abayuda n'abatari abayuda kubera impamvu zitandukanye nk'uko bigaragara mu migenzo ikurikira:\n\n### 1. **Hanukkah (Chanukah)**\nHanukkah ni umunsi mukuru w'urumuri ugamije kwibuka igitangaza cyo mu Ngoro Ntagatifu i Yeruzalemu, aho amavuta yari afite ingano yo gucana itara rimwe gusa yabashije gucana itara ry'igicaniro iminsi umunani yuzuye. Iyi minsi mikuru itangirana no gucana umucyo wa mbere ku kinara cyitwa 'menorah' n’ibindi bikorwa birimo gusangira ifunguro ryihariye, guhana impano, no gukina umukino wa dreidel.\n\n### 2. **Yom Kippur**\nYom Kippur, cyangwa Umunsi w'Ibicumuro, ni umunsi wera kurusha indi mu mwaka w'abayuda, aho bafata umunsi wose wo kwicuza, gusenga, no kwiyiriza mu rwego rwo gusaba no kwakira imbabazi kubera ibicumuro bya buri wese. Uyo munsi ukora ku mitima ya benshi, haba mu bayuda n'abandi, kubera insanganyamatsiko yawo yo kwisubiraho no gutangira bundi bushya.\n\n### 3. **Passover (Pesach)**\nPesach ni umunsi mukuru w'ingenzi ukomoka ku kubohorwa kw'abayuda b'ubucakara mu Misiri, nk’uko bibiliya yabyanditse. Umunsi ukubiyemo gukora Seder, ni umuhango w'ifunguro rihariye ryibuka ibihe byaranze ubwo kubohorwa, harimo n’igisobanuro cya simboli zitandukanye nk'umutsima utarimo imvubu (matzah) n'ibindi biribwa bifite igisobanuro cya roho. Uyu munsi mukuru unyura abantu benshi kubera ukuntu ushyira imbere ubumwe bw'umuryango, kwibuka amateka, n’agaciro ko kubohorwa.\n\n### 4. **Shabbat**\nShabbat, umunsi w'ikiruhuko kibera buri cyumweru kuva ku mugoroba wo ku wa Gatanu kugeza ku mugoroba wo ku wa Gatandatu, uratangaje kubera umuco wo kuruhuka no kumara umwanya mu miryango yabo n'inshuti, bitandukanye n'umuvuduko w'umunsi ku munsi wa benshi muri sosiyete y'iki gihe. Birimo ibikorwa byo gusangira ifunguro rya nimugoroba ku wa Gatanu bita 'Shabbat dinner', gusoma mu Gitabo cyera, gusenga, no kudakora imirimo isanzwe.\n\n### 5. **Bar/Bat Mitzvah**\nBar (ku bahungu) na Bat (ku bakobwa) Mitzvah ni umuhango wo gukura, aho umwana yerekana ubumenyi n’ubushobozi bwe mu myigishirize ya Torah imbere y'umuryango n'inshuti, agafatwa nk'ufite ubushobozi bwo kwitabira imihango y'iyobokamana nk'umukuru. Uyu muhango, ushingiye k'ubukura bwa roho no kugira inshingano mu bihe byabo by'iyobokamana, ukurura benshi kubera akamaro kawo mu buzima bw'umwana mu kugaragaza intambwe y’ingenzi y’ubukure.\n\nImigenzo y'abayuda rero itanga umuco wihariye urangwa n'insanganyamatsiko zo kwizihiza, kwicyuza, kwibuka, kuruhuka, no kwakira inshingano z'abantu mu muryango. Ibice byayo bitandukanye birakurura abantu batari bake mu Bayuda no mu badahuje imyemerere kubera ubutumwa bwiza, ibitekerezo byihariye, n'imyitwarire y’umuco iboneka muri iyi migenzo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kuberiki imigenzo y'abahebera ikundwa cane nabantu ba Leta?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -118,7 +233,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:5:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Kugira ngo igihugu gitere imbere, birasaba guhuza ibintu byinshi kandi binyuranye. Iterambere ry’igihugu ntirishingira ku kintu kimwe gusa ahubwo ku ruhererekane rw'ibikorwa, imiyoborere, umuco, ubukungu, uburezi, ubuzima, umutekano, ibidukikije, na tekinoloji. Dore impamvu zimwe na zimwe zishobora gutuma igihugu kitatera imbere nk'ibindi:\n\n1. **Imiyoborere Idahwitse:** Imiyoborere mibi, ruswa, kudashyira mu gaciro, no kutagira ubushobozi bwa politiki bishobora kubangamira iterambere ry’igihugu. Ibi bishobora kubangamira ishoramari, guca intege ubucuruzi, no kudindiza ibikorwa remezo n’iterambere ry’imibereho y’abaturage.\n\n2. **Ubukene bw'Ubumenyi n'Ikoranabuhanga:** Kudatanga amahirwe angana mu burezi no kutagira ibikorwa remezo by’ikoranabuhanga bihagije birashobora kudindiza ubukungu bwa gihugu, bigatuma igihugu kidatera imbere mu masoko mpuzamahanga y’ikoranabuhanga rigezweho.\n\n3. **Umutungo Kamere Udatunganyijwe Neza:** Igihugu gifite umutungo kamere ariko kitawubyaza umusaruro neza cyangwa kigendera ku bucuruzi bwawo gusa, gishobora guhura n’imbogamizi mu iterambere rirambye.\n\n4. **Ubukene n'Ubumwe Buke mu Baturage:** Ubukene bukabije n’ubusumbane mu baturage bishobora kubyara umwiryane, ubujura, n’ibindi bibazo by’umutekano, bityo bigakoma mu nkokora iterambere.\n\n5. **Amateka n'Umuco:** Amateka y’ibihugu byinshi birimo intambara z’imbere mu gihugu, gukolonizwa, na politiki z’amoko ashobora kuba afite ingaruka zikomeye ku iterambere ryabyo. Umuco ushobora na wo kugira uruhare mu iterambere ry'igihugu binyuze mu myumvire y'abaturage ku bijyanye n’ishoramari, umurimo, no guhanga udushya.\n\n6. **Ibidukikije n’Imihindagurikire y'Iklima:** Ibiza biturutse ku mihindagurikire y’ikirere n'ibindi bibazo by’ibidukikije bishobora gukoma mu nkokora iterambere ryihuse, cyane cyane mu bihugu biterwa cyane n’ubuhinzi.\n\nGufatira hamwe ngo higwe kuri izi ngorane, hakorwa gahunda zinoze z'iterambere, no gushyiraho ingamba zirimo guteza imbere imiyoborere myiza, kurwanya ruswa, gushora imari mu burezi n'ubuzima, gukoresha neza umutungo kamere, no guteza imbere ikoranabuhanga rishya, biri mu byatuma igihugu kidatera imbere nk'ibindi kigeraho iterambere rirambye."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kuberiki Igihugu cacu kidatera imbere nk'ibindi?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -138,7 +276,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:6:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Kuberiki inzara ari nyinshi mu bihugu bimwe bimwe bishobora guterwa n'impamvu zitandukanye, harimo impamvu z'ikirere, impamvu za politike, n'imibereho y'abantu. Dore bimwe mu bishobora gutera inzara mu gihugu:\n\n1. **Ihindagurika ry’Ikirere n’Imihindagurikire y'ibihe**: Ibi bishobora gutera amapfa, umwuzure, n'ibindi biza bishobora gusenya imyaka no kubuza abahinzi guhinga.\n\n2. **Intambara n'Amakimbirane**: Intambara zituma abantu bava mu byabo, zangiza ibikorwa remezo by'ingenzi nka za banki, imihanda n'amasoko, bituma ibiciro by'ibiribwa bizamuka cyane, kandi bigabanya ubushobozi bwo kugemura ibiribwa aho bikenewe.\n\n3. **Ubukungu Bubangamiwe**: Ubukene bukabije, uburyo butanoze bwo gucuruza no gutwara ibicuruzwa, ndetse na politike zimwe na zimwe z'ubukungu zishobora gutuma ibiribwa biba bicye cyangwa bihenze cyane ku baturage basanzwe.\n\n4. **Ubucuruzi Mpuzamahanga**: Ibihugu bishobora guhura n'ibibazo mu guhahirana n’ibindi, cyangwa gufatirwa ibihano by'ubukungu, bigatuma ibiribwa cyangwa ibikoresho by’ubuhinzi bibura.\n\n5. **Kutagira Ubushobozi bwo Kubika no Gutunganya Ubusaruro**: Mu bice bimwe, kutagira aho kubika neza cyangwa uburyo bwo gutunganya umusaruro w'ubuhinzi bishobora gutuma ibiribwa byinshi bipfa ubusa, mbere y'uko bigera ku isoko.\n\n6. **Imikoreshereze mibi y’Ubutaka n’Amazi**: Kutabungabunga neza ubutaka n’amazi, gusarura ubutaka birenze ubushobozi bwabwo, ndetse no gukoresha nabi amazi y’ubuhinzi bishobora gutuma umusaruro ugabanuka.\n\nKugira ngo inzara igabanuke, bisaba gushyiraho ingamba zirambye zibanda ku kurengera ibidukikije, gutunganya neza ubutaka n'amazi, kunoza ibijyanye n'ubucuruzi mpuzamahanga, guhangana n'ingaruka z'ihindagurika ry'ikirere, no gushyiraho uburyo bwo gutabara vuba mu bihe by'amage. Gushyigikira imibanire myiza y'amahanga, guharanira amahoro n'umutekano na byo ni ingenzi mu kurwanya inzara."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kuberiki inzara ari nyinshi mu gihugu cacu?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -158,7 +319,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:7:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu muco nyarwanda, inkwano ni ingenzi mu mihango yo gushyingirwa, yerekana ubumwe hagati y'imiryango yombi. Kuberiki batanga inkwano ku muryango w'umukobwa bibanziriza ko umukobwa ajya kwabirwa, ni ukuvuga ko ajya kubana n'umugabo we, bifite impamvu z'ingenzi zikurikira:\n\n1. **Gukomeza Umubano hagati y'Imiryango**: Gutanga inkwano ni igikorwa cy'ingenzi kigaragaza umubano mwiza hagati y'imiryango yombi. Ni ikimenyetso cy'ubufatanye n'umubano ushingiye ku cyubahiro n'urukundo, bikaba umusingi ukomeye w'umuryango mushya urimo kuremwa.\n\n2. **Icyubahiro n’Igihango**: Inkwano zitangwa nk'ikimenyetso cy'icyubahiro n'ishimwe ku muryango w'umukobwa ku bwo kurera no gukuza neza umukobwa wasabwe. Ni nk'igihango hagati y'imiryango ibiri, aho umuryango w'umusore werekana ko ushima agaciro k'umukobwa bazanye mu muryango wabo.\n\n3. **Umuco n’Amateka**: Mu Rwanda nk’uko bimeze no mu bindi bihugu byinshi by'Afurika, gutanga inkwano byubahiriza umuco n'amateka. Byubatswe mu myumvire y’umuryango Nyarwanda, bikaba birimo inyigisho z’urukundo, icyubahiro, kandi bikomeza gushimangira indangagaciro z'ibanze z'umuryango.\n\n4. **Kwerekana Ubushake n’Ubushobozi**: Gutanga inkwano bituma umuryango w'umusore werekana ubushake n'ubushobozi bwo kwita ku mukobwa no kuri family bazashinga. Ni ikimenyetso cy'uko umusore n'umuryango we biteguye gufata inshingano zo kurera no kwita ku mukobwa.\n\nUyu muhango w'inkwano ufite uruhare runini mu gukomeza ubumwe, icyubahiro, no guteza imbere urukundo hagati y'imiryango. Nubwo iterambere ry'umuco n'imibereho bigenda bihinduka, gutanga inkwano bigumana agaciro mu muryango Nyarwanda, bikaba igice cy'ingenzi cy'umuhango w'ubukwe n'ubushyingiranwa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kuberiki batanga inkwano ku muryango w'umukobwa imbere yuko uwo mukobwa agenda kwabirwa?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -178,7 +362,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:8:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ikiyaga ca Tanganyika ni kimwe mu biyaga bininibinini vy'isi, kikaba ari na kimwe mu biyaga bifise amateka akomeye cane mu karere k'ibiyaga binini vya Afurika. Kikaba gifise impamvu nyinshi zatumye gikundwa cane n'abanyagihugu kuva kera gutyoza ubu. Zimwe muri izo mpamvu ziraboneka mu bijanye n'ubutunzi, imibereho y'abantu, hamwe n'umuco.\n\n1. **Imibereho y'Abenegihugu:** Kuva mu bihe vya kera, abanyagihugu baba mu micungararo y'Ikiyaga ca Tanganyika bamaze kubahuka ingene bakoresha amazi y'ico kiyaga mu kubatungira imibereho yabo ya minsi yose. Barakoresheje amazi y'icyo kiyaga mu kuvomera imirima yabo, mu bijanye n'isuku, no mu bindi bikorwa vyabo vya minsi yose.\n\n2. **Uburovyi**: Tanganyika kirakungahaye mu mafi y'ubwoko butandukanye, bimwe muri ivyo vyuma vy'iyi nzuzi bikaba ari umwihariko w'ico kiyaga. Uburovyi bwabaye umwuga ukomeye ku banyagihugu batari bake, butuma bagira ubuzima bwiza kubera amafi menshi aboneka muri co kiyaga. Uburovyi bwaratunze imiryango myinshi kandi bwarakijije abantu benshi.\n\n3. **Ubuhahirane n'Ubutunzi:** Tanganyika ni inzira y'ubuhahirane hagati y'ibihugu biri mu micungararo yaco. Ikiyaga ca Tanganyika cari ikiraro gikomeye mu vy'ubudandaji hagati y'abantu bo mu bihugu bihana imbibe nk'Uburundi, Republika Iharanira Demokarasi ya Congo, Tanzaniya, na Zambiya. Iki gikorwa c'ubudandaji carafashije mu gutuma abenegihugu b’ivyo bihugu bagiranira imigenderanire myiza, kandi bituma bashobora kugura no kugurisha ivyamwa, imboga, n'ibindi bicuruzwa.\n\n4. **Ubukerarugendo n’Umusaruro Uva mu Mazi:** Ikiyaga ca Tanganyika kirafise imibano itandukanye y’ibinyabuzima vyo mu mazi, harimwo amafi n'ibindi binyabuzima. Iyo mibano itandukanye ituma habaho amahirwe y'ubukerarugendo, abantu benshi bagasura ako karere kugira ngo baje kuraba ubwiza bwacyo n'ubuzima bwo mu mazi.\n\n5. **Umuco na Mateka**: Ikiyaga ca Tanganyika gifitaniye isano rikomeye n'umuco w'abanyagihugu baho. Aka karere karanzwe n'inkuru z'ibihangange, imigenzo n'inyigisho zishingiye ku kiyaga, vyose bikaba ari ikimenyetso c'agaciro kadasanzwe abanyagihugu bagifatako.\n\nMu gufata mu mugongo izo mpamvu, biragaragara ko Ikiyaga ca Tanganyika gifise uruhara runini mu buzima bw'abanyagihugu kuva kera, baba mu vyerekeye ubutunzi, imibereho, canke umuco."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki Tanganyika arico kiyaga gikundwa cane n'abanyagihugu kuva kera?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -198,7 +405,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:9:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Nk'uko twaganiriye mbere, isoko rya Bujumbura ryarahiye ku itariki ya 27 Mutarama 2013. Iyi nkongi y'umuriro yatwitse igice kinini cy'isoko, igasiga abacuruzi benshi mu gihombo cya hato na hato ndetse n'ubukungu bw'igihugu cy'u Burundi buhungabana. Isoko rya Bujumbura ryari isoko rikomeye kandi rizwi cyane mu Burundi, ryakira abantu batandukanye baturutse imihanda yose y'igihugu ndetse n'abaturanyi.\n\nIcyateye iyo nkongi nticyigeze kimenyekana mu buryo bweruye. Hari amakuru yavugaga ko hashobora kuba harabayeho kugira uburangare mu bijyanye n'umutekano w'isoko, uburyo bw'ibikorwaremezo bitanga umuriro w'amashanyarazi butameze neza, cyangwa se ko hari igikorwa cyabigizemo uruhare nkana, ariko nta raporo yigenga yemeje ku buryo budasubirwaho icyateye iyo nkongi. \n\nAmakuru menshi yerekeranye n'inkongi y'isoko rya Bujumbura agaruka ku ngaruka z'umuriro ku bacuruzi bari basanzwe bakorera muri iryo soko, ku bukungu bw'igihugu, ndetse n'uburyo amakoperative y'abacuruzi hamwe n'izindi nzego zitandukanye zagerageje gufasha abagezweho n'ibyo byago. Nyuma y'iyi nkongi, Leta y'u Burundi hamwe n'abafatanyabikorwa batandukanye batangiye umushinga wo kubaka isoko rishya rya Bujumbura rirushijeho kuba rinini kandi ryujuje ibisabwa mu bijyanye n'umutekano n'ubuhahirane, nubwo iyo gahunda yahuye n'imbogamizi zitandukanye harimo n'ikibazo cy'ubushobozi buhagije bwo gushyira mu bikorwa imishinga nk'iyi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Isoko rya Bujumbura ryahiye gute?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -218,7 +448,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:10:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Icyo kibazo gifite ibisubizo bigenda bihinduka uko imyaka ihita bitewe n'impamvu zinyuranye zirimo amateka, imibereho y'abantu, n'uburyo amadini yombi ateye. Kugira ngo tubisobanure neza, reka tuvuge ku mpamvu zimwe na zimwe zishobora gutuma ubukirisitu bufite abayoboke benshi kurusha Islam.\n\n1. **Amateka n'Ukwaguka**: Ubukirisitu bwatangiye gukwirakwira mu myaka nk'ibinyejana bitatu nyuma ya Yezu Kristu, buhera muri Yerusalemu bukagera i Roma no mu bindi bice by'Uburayi. Ibi byabufashije gukwirakwira no mu bindi bice by'isi kubera ubwami bw'Uburayi nka Portugal, Espagne, u Bufaransa n'u Bwongereza bwagiye bukoloniza ibice bitandukanye by'isi mu myaka ya 1500-1900, bukageza ubukirisitu muri Amerika, Afurika, n'ibi bya Aziya. Islam na yo yarakwirakwiriye cyane ariko ukwaguka kwayo kwagarukiye cyane mu Burasirazuba bwo Hagati, Afurika y'Iburasirazuba, n'ibindi bice by'Aziya.\n\n2. **Ukwiyongera kw'Abaturage**: Mu bihugu byinshi bifite abakirisitu benshi, harimo n'ibihugu byateye imbere cyane mu bukungu, aho ubuzima bw'abantu bumeze neza bigatuma habaho ubwiyongere bw'abaturage. N'ubwo ibihugu by'abayisilamu na byo bifite ubwiyongere bw'abaturage, ubukene n'intambara mu bice bimwe na bimwe bifite aba-Islam benshi bishobora kugira ingaruka ku mibare.\n\n3. **Ivugabutumwa n'Ugufashanya**: Ubukirisitu bufite amateka maremare yo gukora ivugabutumwa rikomeye mu bihugu bitandukanye, guhera ku ngendo za Paulo mu ntangiriro z'Ubukirisitu kugeza ku mishyikirano yo mu kinyejana cya 20 na 21. Ubu buryo bwo gukora ivugabutumwa, hamwe n'imishinga itandukanye y'abakirisitu yo gufasha, nk'amashuri n'ibitaro, byagize uruhare runini mu kumenyekanisha ubukirisitu hirya no hino ku isi.\n\n4. **Politiki n'Umuco**: Mu bihugu bimwe na bimwe, ukwemera k'umuntu guhuzwa bya hafi n'indangagaciro za politiki n'umuco, bigatuma abakirisitu baba benshi muri ibi bihugu. Urugero, mu bihugu byinshi by'Uburasirazuba bwo hagati n'Afurika y'Iburasirazuba, Islam ni ingirakamaro mu muco no mu mategeko, mu gihe mu bihugu byinshi by'i Burayi na Amerika, n'ubwo hari itandukaniro rikomeye hagati y'idini na leta, umuco usanganwe uracyagendera ku ndangagaciro zishingiye ku bukirisitu kubera amateka maremare y'idini muri ibyo bice.\n\nNi ingenzi kumva ko imibare y'abayoboke b'ubukirisitu n'abayisilamu ikomeza guhinduka, kandi ibihugu biri mu nzira y'amajyambere n'ibifite ubwiyongere bukabije bw'abaturage, cyane cyane mu bihugu by'aba-Islam, bishobora kuzana impinduka mu mibare y'abayoboke mu myaka iri imbere.\n\nImpamvu zagaragajwe haruguru zishobora guhinduka bitewe n'imibereho y'abantu, politiki z'isi, n'ibindi byinshi, bityo bigoye gutanga igisubizo gifatika kandi cy'iteka kuri iki kibazo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki abakirisu ari benshi gose kurusha aba isilamu?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -238,7 +491,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:11:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ku idarapo ry'igihugu inyenyeri zitatu ziri hagati zishobora gusigura ibintu bitandukanye bitewe n'igihugu gikoresheje iryo darapo. Mu ngero zitandukanye, inyenyeri zishobora gusobanura ibintu nk'ubumwe, uburenganzira, ubutabera, cyangwa bigakomoka ku mateka yihariye y'igihugu.\n\nUrugero runini ni idarapo rya Leta Zunze Ubumwe za Amerika, rizwi nk'“Old Glory” cyangwa “The Stars and Stripes,\" aho inyenyeri zigereranya leta z'igihugu, ariko zikaba ari 50 zose, ntabwo ari eshatu. Ibindi bihugu bishobora kugira inyenyeri ku bendera yabyo ariko bisobanura ibindi bitandukanye.\n\nMuri rusange, nta gihugu cyihariye kizwiho kugira inyenyeri eshatu ku idarapo ryacyo bisobanura ikintu gihariye ku isi yose. Gusa, igihugu cya Philippines gifite idarapo ririmo inyenyeri eshatu zigaragaza amashami atatu y’igihugu (Luzon, Visayas, na Mindanao). Ibi bishobora gutandukana bitewe n'igihugu, bityo birakwiye kujya muri context yihariye y'igihugu kugira ngo umenye neza icyo zisigura."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kw'idarapo ry' igihugu inyenyeri zitatu ziri hagati zisigura iki?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -258,7 +534,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:12:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Abana batoyi bashobora guheba amashure kubera impamvu zitandukanye, bimwe mu bishobora gutuma bahagarika amasomo yabo ni ibi bikurikira:\n\n1. **Ubukene:** Imiryango imwe n'imwe ifite amikoro make ntishobora kwishyura ibikoresho by'ishuri, imyambaro cyangwa amafaranga y'ishuri. Ubukene kandi bushobora gutegeka abana gukora imirimo ngo bafashe umuryango wabo.\n\n2. **Intambara n’umutekano muke:** Mu bice bigwiriyemo amakimbirane, intambara cyangwa umutekano muke, abana bashobora kutajya ku ishuri bitewe n'ubwoba bw'ibitero, ubushimusi, cyangwa indi mirimo mibi ibakorerwa mu nzira bajya cyangwa bava ku ishuri.\n\n3. **Ibikorwa by’ivangura:** Abakobwa batoya n'abana bafite ubumuga rimwe na rimwe bahura n'ivangura rishingiye ku gitsina cyangwa ubumuga, bikabavutsa amahirwe yo kwiga.\n\n4. **Kutagira ibikoresho bikwiye by'ishuri:** Amashuri amwe adafite ibikoresho cyangwa ibikorwa remezo bihagije, nka amasomero, laboratwari, cyangwa ubwiherero buhagije, bishobora gutuma abana batitabira amasomo.\n\n5. **Ibibazo by'imiryango:** Imiryango irimo amakimbirane, gatanya cyangwa impfu ishobora kugira ingaruka mbi ku myigire y'abana. Abana bashobora kwisanga bagomba kwita ku bavandimwe babo batoya cyangwa gufasha mu mirimo yo mu rugo aho kujya ku ishuri.\n\n6. **Imyumvire n'imigenzo:** Mu miryango imwe n'imwe, uburezi bw'abakobwa bubonwa nk'ubutari ngombwa, ahubwo bagashishikarizwa kurushinga bakiri bato cyangwa gukora imirimo yo mu rugo.\n\n7. **Ibibazo by'ubuzima bwo mu mutwe n'umubiri:** Abana bafite ibibazo by'ubuzima, harimo n'ubuzima bwo mu mutwe, bashobora kugorwa no gukurikira amasomo cyangwa kugera ku ishuri.\n\n8. **Urugendo rurerure rw'ishuri:** Abana batura kure y'ishuri bashobora kugorwa no kugera ku ishuri bitewe n'urugendo rurerure rw'ishuri, cyane cyane aho nta buryo bw'ubwikorezi bwa rusange buhari cyangwa mu gihe ari bwo butizewe.\n\n9. **Ihohoterwa rishingiye ku gitsina:** Ihohoterwa rishingiye ku gitsina, harimo no gufatwa ku ngufu n'ihohoterwa rikorerwa mu nzira bajya cyangwa bava ku ishuri, rishobora gutuma abakobwa bahagarika amasomo.\n\nKugira ngo iki kibazo gikemurwe, hakenewe ingamba zirimo gushyigikira uburezi budaheza, kongera ubufasha bw'imiryango ikennye, no gukaza umutekano ku nzira zikora kandi zigana ku mashuri."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sigura igituma abana batoyi baheba amashure?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -278,7 +577,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:13:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Urugendo rw’umuziki w’Abarundi mu iterambere rurimo imbogamizi zitandukanye zituma wumvikana nk’udatera imbere ugereranyije n'ahandi mu karere. Reka turebere hamwe zimwe muri izo mpamvu:\n\n1. **Ubutunzi Buke:** Imwe mu mbogamizi zikomeye umuziki w’Abarundi uhura nayo ni ubukene. Abahanzi benshi nta bushobozi bafite bwo gutunganya indirimbo zabo mu buryo bw'umwuga bitewe no kubura amafaranga y'ingenzi yo gukoresha muri studio zifite ubuhanga bwisumbuyeho. Ibi bituma imirimo yabo itagera ku rwego rwifuzwa mu bijyanye n’ubwiza.\n\n2. **Imyidagaduro Ntibitabwaho cyane:** Imyidagaduro iri mu nzego zitarahabwa agaciro gakwiye mu Burundi, ibi bigatuma abashoramari n'abaterankunga batinya gushora imari mu nganda z’umuziki. Ubu buke bw’ishoramari rero bugira ingaruka ku iterambere ry'umuziki.\n\n3. **Kumenyekanisha Ibikorwa Ntibiramba:** Ikibazo cyo kumenyekanisha no kugeza ibihangano by’abahanzi ku isoko mpuzamahanga ni imbogamizi ikomeye. Nubwo hari imbuga nkoranyambaga nka YouTube, Spotify n'izindi, abahanzi b’Abarundi bakigaragaza intege nke mu kubaka imikoranire myiza n’itangazamakuru ryo mu mahanga ngo ibihangano byabo bikwirakwizwe ku rwego mpuzamahanga.\n\n4. **Ubumenyi n’Amahugurwa mu Muziki:** Hari ikibazo cy’ubumenyi buke mu bijyanye no gukora umuziki mu buryo bw'umwuga. Amahugurwa ku bijyanye n'umuziki no ku bwoko bw’ibikoresho biracyari bike, bigatuma umuziki udatera imbere mu buryo bw’umwuga.\n\n5. **Ikoranabuhanga:** N’ubwo hari intambwe yatewe mu bijyanye n’ikoranabuhanga, abahanzi n’abakora umuziki mu Burundi baracyahura n’imbogamizi z’ikoranabuhanga rigezweho nko gukoresha studio zigezweho, kugira urubuga rwiza rwa internet, na gahunda za digitale zifasha mu kumenyekanisha umuziki.\n\nNyamara, nubwo hari izi mbogamizi, hari abahanzi b'Abarundi bakomeje gukora umuziki mwiza no gushaka uburyo bwo gukemura izi mbogamizi. Gushyira hamwe nk’abahanzi, gushaka amahugurwa, gukoresha imbuga nkoranyambaga mu kumenyekanisha ibikorwa byabo, no kugerageza kwinjira ku isoko mpuzamahanga ni bimwe mu byatuma umuziki w’Abarundi utera imbere."
+            }
+          },
+          "prompting_state": {
+            "prompt": "kuberiki umuziki w'abarundi udatera imbere?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -298,7 +620,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:14:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ivura rya malaria rikoresheje imiti y'ikirundi rigendera ku bumenyi bw'abakurambere ku bimera n'ingaruka zabyo ku mubiri. Hariho ibimera binyuranye byakoreshejwe mu bihe byahise kandi bikigirira akamaro kugeza ubu mu kuvura no gukumira malaria. Bimwe muri ibyo bimera ni ibi bikurikira:\n\n1. **Umugomboro (Artemisia annua / Sweet Wormwood)**: Ikimera cy'ingenzi cyane mu kuvura malaria ni umugomboro. Gikungahaye ku kinyabutabire cyitwa artemisinin, cyifashishwa mu gukora imiti ya malaria muri iki gihe yitwa artemisinin-based combination therapies (ACTs). Nubwo ikoreshwa ryawo mu buryo bwa gakondo ritanga artemisinin ku rugero rwo hasi ugereranije no mu miti myiza y’ubu, n’ubundi kitanga akamaro muri uwo mujyo.\n\n2. **Umuvumu (Cinchona tree)**: Igikanka cy'igiti cy'umuvumu gikize ku kinyabutabire cyitwa quinine, cyakoreshejwe mu kinyejana cya 17 nk’ikirunga cya mbere cyarwanyije malaria. Nubwo ubu hariho imiti ikoreshwa mu buryo bugezweho, quinine ikomeje gukoreshwa mu kuvura imiterere y’indwara ikomeye ya malaria.\n\n3. **Umuti wa Neem (Azadirachta indica)**: Ibiti bya neem bikunze gukoreshwa mu myemerere y’ikirundi mu kuvura indwara zitandukanye, harimo na malaria. Ibigize neem, nk’azadirachtin, bifasha mu kurwanya udusimba twinshi harimo n’imibu.\n\n4. **Eucalyptus na Citronella**: Amavuta akomoka ku biti bya Eucalyptus na Citronella yakoreshwaga cyane nka repellant y’imibu, bigatuma bigabanya ibyago byo kwandura malaria.\n\n5. **Aloe Vera**: Nubwo atazwiho cyane mu kuvura malaria, Aloe vera yakoreshwaga mu kuvura ibimenyetso bijyana na malaria nk’umuriro.\n\nBir重ant ko, nubwo imiti ya gakondo ifite akamaro kanini, gukoresha imiti y'ikirundi yonyine mu kuvura malaria bikwiye gukorwa mu bwitonzi n'ubushishozi bwo gukoresha uburyo bwemejwe na siyansi kandi bukurikije amabwiriza y’abaganga. Uburyo bwose bwo kuvura malaria bukoreshwa bukwiye kwemezwa n’inzego z’ubuzima kugira ngo hirindwe ingaruka zishobora guturuka ku miti itagenzuwe neza cyangwa itavurwa neza."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute bavura Ingwara ya malaria bakoresheje imiti y'ikirundi?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -318,7 +663,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:15:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Umutekano muke mu gihugu ushobora guterwa n'ibintu bitandukanye, kandi ibi biterwa n'ibihe n'impamvu zitandukanye mu gihugu kimwe ugereranije n'ikindi. Naho bimeze uko, hari impamvu zimwe zihurizwaho mu bihugu bitandukanye zishobora gutera umutekano muke. Zimwe muri izo mpamvu zikurikira:\n\n1. **Ubutunzi Buteye Amakenga**: Ubusumbane mu butunzi n’ubukene bukabije ni bimwe mu bishobora gutuma haba umutekano muke. Ibi bikunze gutera umujinya n'imyivumbagatanyo yo kwigaragambya, ndetse bishobora no gutuma abantu batangira kwijandika mu bikorwa by'ubugizi bwa nabi mu gushakisha ibibabeshaho.\n\n2. **Imiyoborere mibi n’Ubutegetsi bw’igitugu**: Ubutegetsi butubahiriza demokarasi, butonesha, bukorera mu kinyoma n’ubutegetsi bw’igitugu ni bimwe mu bituma umutekano uba muke. Itotezwa ry’abatavuga rumwe na leta, kutubahiriza uburenganzira bwa muntu, n’imanza za nyirarureshwa bishobora gutuma abaturage bahaguruka bakarwanya ubutegetsi buriho.\n\n3. **Amakimbirane ya Politiki**: Amakimbirane hagati y’amashyaka ya politiki, amoko, cyangwa amadini ashobora kubiba inzangano zishobora guteza umutekano muke, harimo no gutuma habaho intambara hagati y’abaturage cyangwa se hagati y’ibihugu.\n\n4. **Iterabwoba**: Imikorere y’imitwe y’iterabwoba ifite umugambi wo gutera ubwoba no guhungabanya umutekano w’abaturage n’uw’igihugu muri rusange, ikaba ishobora kubangamira cyane umutekano muri rusange.\n\n5. **Ubukene bw'ibikorwa remezo n’imibereho myiza**: Kutagira ibikorwa remezo bihagije nko mu buvuzi, uburezi, amazi meza, n’ibindi, hamwe n’imibereho myiza y'abaturage, bishobora kubangamira umutekano wabo.\n\n6. **Ubucuruzi bw’intwaro na drogue**: Ubucuruzi butemewe bw’intwaro n’ibiyobyabwenge bishobora guteza umutekano muke, aho bituma ibikorwa by’ubugizi bwa nabi biyongera.\n\n7. **Imihindagurikire y’ibihe n’ibibazo by’ibidukikije**: Ibiza biturutse ku mihindagurikire y’ibihe, nko kuzamuka kw’ubushyuhe bw’isi, imyuzure, amapfa, n’ibindi, bishobora gutuma abantu barwana ku masoko make y’amazi n’ibiribwa, bigateza imvururu.\n\nIzi mpamvu z’umutekano muke zirahurira ku kintu kimwe: iyo zidacyemutse zishobora guteza ibibazo bikomeye mu baturage, zikabangamira iterambere rirambye n’imibereho myiza y’abaturage. Kubaka umutekano urambye bisaba gukemura impamvu z’ukuri zitera umutekano muke no kwimakaza imiyoborere myiza, ubutabera, uburenganzira bwa muntu, no guteza imbere imibereho y'abaturage."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kuberiki umutekano ari muke cane mu gihugu?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -338,7 +706,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:16:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Guhimiriza umwana kutibagira imigenzo y’iwabo ni kimwe mu bintu vy’ingenzi abavyeyi bakwiye gukora mu ntumbero yo kumenyereza abana babo kubaha no gukunda umuco wabo. Dore bimwe mu vyofasha umuvyeyi kugira ngo yigishe umwana wiwe kutibagira imigenzo:\n\n1. **Kuvuga indimi z'iwacu**: Ni vyiza kwigisha abana bawe kuvuga indimi z'iwabo. Uku kwigisha kurashobora gutangura bakiri bato cane, kuko abana bafata indimi vuba muri ico gihe.\n\n2. **Kubigisha Umuco Ukoresheje Inkuru n'Imigani**: Umuco ugizwe n'inkuru n'imigani myinshi yigisha amasomo y'ubuzima. Bibigisha ubutwari, ubupfura, n’izindi ndangagaciro z'umuco. Abavyeyi bakwiye gufata umwanya wo kubasomera canke kubabwira izo nkuru.\n\n3. **Kubashira mu Bimenyeshamakuru vyo ku Mucokama**: Hari ibimenyeshamakuru n’amaradiyo avuga indimi z'iwabo kandi bigisha umuco. Vyoba vyiza umwana avyumviriza kugira amenye neza ururimi n’umuco wiwe.\n\n4. **Kubigisha Gusubiriza Imigenzo n'Imihango**: Mu miyabaga yacu hari imihango myinshi ifise ishusho ryinshi ku muco. Ni vyiza gufasha abana bawe gusubiriza no gutahura ico buri mihango isobanura kugira bagumane umuco mwiza.\n\n5. **Gufatanya n’Amashure na Komuniti**: Gushigikira abana kwiga umuco mu mashure no mu bindi bikorwa vyo mu komuniti birahambaye. Aha harimwo nk'ibikorwa vy'akaranga nka guteka, kubyina, guteramisha, n’ibindi.\n\n6. **Guharanira kubagira Akarorero ko Kwigana**: Abana benshi bafata abavyeyi babo nk’akarorero. Mu gihe berekanye ko bakunda kandi bahimbawe n’umuco wabo, birashoboka ko n'abana bazowukunda kandi bazowufatira ho akarorero.\n\n7. **Gufatira Urugero ku Migenzo y'Ivyo Bahura Navyo mu Buzima**: Mu gihe habaye umusi mukuru canke ikindi gikorwa c'umuco, ni ngirakamaro kubigisha icyo bisobanura no kubereka uko bitunganwa.\n\nMuri make, kugira abana bamenye no gukunda umuco wabo, bisaba igikorwa c'abavyeyi co kubigisha no kubereka ku karorero keza. Gufasha abana gutahura no kwemera agaciro k’umuco wabo ni uburyo bwiza bwo kubatera intege mu kubaho ubuzima bafise umutima n’ishema ry’aho bava."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute umuvyeyi yohanura umwana ntiyibagire imigenzo?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -358,7 +749,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:17:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu migenzo y'abarundi, ubugeni bupangwa biciye mu nzira n'ibikorwa bitandukanye bigaragaza ubukomezi bw'umuco wabo. Ubugeni ni umugenzo ukomeye ukorwa mu ntambwe zitandukanye kuva ku gutera ivyatsi kugeza ku bukwe nyir’izina. Reka tugaruke ku ngingo zingenzi zigaragaza uko ubugeni bupangwa mu migenzo y'abarundi:\n\n1. **Gutera ivyatsi**: Iki ni igikorwa gitangura izindi zose, aho umusore atera ivyatsi mu rugo rw'umukobwa ashaka kugira umugeni, bivuga ko yagaragaje inyota yo kumugira umugore. Ivyo vyatsi biterwa ibanga, akenshi biterwa mu gicugu.\n\n2. **Kugendera umuryango w’umukobwa**: Nyuma y'uko gutera ivyatsi kwemejwe, hakurikira kugendera umuryango w'umukobwa. Ibi bikorwa n'umuryango w'umuhungu, basura umukobwa mu ngo kwerekana ko bafitaniye nibiganiro bijanye no gushaka. Iki gikorwa gituma imiryango yombi imenyana kandi ikaganira ku migambi ihari yo guhuza abana babo.\n\n3. **Amasezerano**: Ni igikorwa aho impande zombi zumvikana ku mafaranga canke ibindi bintu bizotangwa nk'inkwano. Inkwano ni ingenzi cane mu migenzo y'ubugeni mu Barundi, aho umuryango w'umuhungu utanga inka, amafaranga, canke ibindi bikoresho bifise agaciro ku muryango w'umukobwa.\n\n4. **Igikorwa co gusaba no gukwa**: Iki ni igikorwa gifatwa nk'icemezo ca nyuma muri uyu muhango, aho umuryango w'umuhungu usaba ku mugaragaro umukobwa mu birori vyateguwe. Hano ni ho habera igikorwa co gukwa, umuryango w'umusore ukaba utanga inkwano kumugaragaro.\n\n5. **Ibirori vy'ubugeni (ubukwe)**: Nyuma yo kurangiza ivyo vyose, hategurwa ubukwe, aho imiryango, abagenzi, n'abaturanyi bahurira hamwe mu birori vyo guhimbaza ishingwa ry'urugo rushasha. Ubukwe burangwa n'imbyino, indirimbo, n'imigenzo y'umuco w'abarundi, vyose bigaragaza akanyamuneza k'uyu munsi mukuru.\n\n6. **Gutwikurura umugeni**: Ni igikorwa cakorwa hahise habaye ubukwe, aho umugeni atwikururwa n’umukwe mu birori vyihariye, kandi bigakorwa mu masaha y'ijoro. Iki gikorwa kibusanya imico itari mike, ariko mu Barundi, ni ikimenyetso c’urukundo n’icubahiro hagati y’abageni.\n\nMu gutegura no gukora ibi bikorwa vyose, umuco w’abarundi urubahwa kandi ukigishwa urwaruka, kugira ngo urambe ugendana n’ibihe. Ubugeni mu Barundi si umugenzo gusa, ni ikimenyetso c’umuco, urukundo, ubumwe, n’ukudadaza imigenzo y’abakurambere."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute ubugeni bupangwa mu migenzo y'abarundi?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -378,7 +792,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:18:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Impamvu zituma abakiri bato benshi bipfuza kuva mu bihugu byabo bakajya hanze ni nyinshi kandi ziratandukanye bitewe n'aho baturuka, ariko zimwe mu mpamvu zikunze kugaruka ni izi zikurikira:\n\n1. **Gushaka amahirwe y'akazi**: Umubare munini w'abakiri bato usanga bafite ikibazo cyo kubura akazi mu bihugu byabo. Ibi bituma benshi bashaka kujya mu bihugu byateye imbere aho bakeka ko bashobora kubona akazi keza kandi karimo amafaranga menshi.\n\n2. **Uburezi bwiza**: Abakiri bato benshi bafite inzozi zo kwiga muri za kaminuza zikomeye n'ibigo by'ubushakashatsi bisangiwe ku isi yose. Batekereza ko uburezi bwo hanze buzabaha ubumenyi n'imyanya myiza y'akazi.\n\n3. **Kubaho mu buzima bwiza**: Mu bihugu byinshi bikiri mu nzira y'amajyambere, serivisi z'ingenzi nk'ubuzima n'umutekano ntibikunze kuba ku rwego rwiza. Abakiri bato, bityo, bashobora gushaka kujya ahantu bumva ko hari umutekano usesuye n'ubuzima bwiza.\n\n4. **Kurenga imbogamizi z'umuco n'ubukungu**: Bamwe mu rubyiruko bashobora kumva ko imico y'ibihugu byabo cyangwa imiryango yabo ibabuza gutera imbere. Kujya hanze bishobora kureberwaho nk'amahirwe yo gucika kuri izi mbogamizi no kwirinda ikandamiza rishingiye ku bukungu cyangwa imico.\n\n5. **Umushyikirano n'umuco**: Hari abashaka kujya hanze kugira ngo bamenye indi mico, bamenye indimi nshya, kandi babone ubunararibonye butandukanye n'ubwo bafite mu bihugu byabo.\n\n6. **Ibibera mu gihugu**: Impamvu zishingiye ku bibazo bya politiki, ubukene, no kubura umutekano zirashobora gutuma abari n'abategarugori b'urubyiruko rufata icyemezo cyo gushakisha ubuzima bwiza hanze y'ibihugu byabo.\n\n7. **Ikoranabuhanga n'Isakazabumenyi**: Mu bihe bishize, ikoranabuhanga ryatumye habaho guhanahana amakuru byoroshye. Urubyiruko rwinshi ruba rwaramenye imibereho yo mu bindi bihugu binyuze ku mbuga nkoranyambaga n'izindi mbuga za interineti, bikabatuma barushaho kwifuza kujya gushaka ubuzima bwiza bwo hanze y'ibihugu byabo.\n\nAbakiri bato bahitamo kuva mu bihugu byabo kubera izi mpamvu n'izindi nyinshi, ariko ni ingenzi kuzirikana ko gufata icyo cyemezo bijyana n'ingorane zacyo, harimo no guhangana na politiki z'abimukira zikomeye, ikirushya cyo kubaho mu muco utandukanye, n'imbogamizi zo kujya mu bindi bihugu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki abakiri bato benshi ubu bipfuza kuva mu gihugu baje hanze?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -398,7 +835,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:19:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mbere y’uko Abazungu bagera mu Burundi, Abanyaburundi bari bafise imigenzo n'imyemerere yabo ijyanye no gusenga no kwubaha Imana. Imana ryari rizwi cyane mu Burundi rya kera ryitwa \"Imana\" cyangwa \"Kiranga\". Imana yarebwa nk'isôko ry'ubuzima bwose n'umuremyi w'ijuru n'isi n'ibiyibamo byose. Yafatwaga nk'ikirezi kandi ikaba irebana naburi wese mu buryo bwite.\n\nMu myemerere y'abarundi, hakunze kubaho uguhuza n’abakurambere n'umwuka w'abapfuye, aho babonaga abakurambere nk'abantu b'ingenzi mu guhuza abazima n’Imana. Uburyo bwo gusenga bwagiraga ibirori n'imihango bitandukanye, birimo gutura ibitambo, kuvuza ingoma, indirimbo n'imbyino biri mu buryo bwo kugaragaza icyubahiro no gusaba imigisha itandukanye nk'uburumbuke, amahoro, n'imvura mu bihe by'ihinga.\n\nUmurimo wo guterekera, aho abantu baterekera abakurambere n'Imana basaba umugisha, kurinda umuryango, uburumbuke, no kugarura amahoro mu miryango, wari igice cyingenzi cy'imyemerere. Ibi birori byabaga birimo umutambukanyi wo gutura ibitambo, kenshi ibiribwa, inzoga yitiritiwe, cyangwa ubundi bwoko bw'ibitambo bijyanwa ku mva z'abakurambere cyangwa ahantu hafatwa nk'ahatagatifu.\n\nItandukaniro rinini hagati y'imyemerere y'abarundi n'iy'abazungu baje kubigisha ijambo ry'Imana, ni uko imyemerere ya Gikristu yasobanuraga umubano w'abantu n'Imana mu buryo bw'imyemerere yishingikirije ibitabo bitagatifu nka Bibiliya, mu gihe imyemerere y'abarundi yashingiraga ku muco n'umurage wabo, uhereye ku bumenyi bwabo bwimbitse bw'imigenzo n'ibikorwa byo gusenga byabaga biranga umuryango n'umuryango mugari."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Abazungu bataraza kutwigisha ijambo ry’Imana, abarundi barasenga? Basenga gute?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -418,7 +878,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:20:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu migenzo y'abarundi, igihe umuntu afise abana yitavye Imana, hari inzira ikurikiranwa mu kumuherekeza gushika ku rubanza rwa nyuma, ibi bikaba bishingiye ahanini ku migenzo n'imico yabo. Iyi nzira igizwe n’ibice bitandukanye, kuva ku guherekeza umuhisi gushika ku mpera y’ikiringo co kumwibuka no kumusezera bwa nyuma. Naho inzira zose zidasa na gato kubera intara n'imigenzo itandukanye, hari ibintu vy'ingenzi bishobora kuvugwa nk’urugero:\n\n1. **Gutegura no Gushingura**: Iyo umuntu apfuye, umuryango n'ababanyi barakora ibishoboka vyose kugira ngo bategure uko bazomushingura. Ibi birimwo gutegura ikiziga, kugishariza, no gutunganya aho kumushingura, usanga kenshi bikorerwa ahantu h'imiryango yabo. Uwo muhango ufise imyiteguro irimwo kandi gukora \"ijoro ryo kwibuka\" rishobora kuba imisi itari mikeya imbere y'uko umuntu ashingurwa, aho abantu bakoranira, bagasenga, kandi bagafata umwanya wo kuvuga neza nyakwigendera.\n\n2. **Umuhango wo Gushingura**: Umuhango wo gushingura uba ukomeye cane kandi witabirwa n'abantu benshi, harimwo abo mu muryango, abaturanyi, n'incuti. Ubwo ni uburyo bwo kwerekana icubahiro c'umuhisi n'ugufasha umuryango wiwe mu bihe bigoye. Uwo muhango ukunze kuba urimwo indirimbo, amasengesho, n'ivyivugo vyo guha icubahiro nyakwigendera.\n\n3. **Ikigandaro**: Inyuma y'igikorwa co gushingura, hakurikira igihe cy'ikigandaro, aho umuryango umara igihe mu bibazo vy'agahinda n'ubutwari bwa nyakwigendera. Igikorwa c'ikigandaro kigenda gitandukanye bitewe n'imiryango, ariko kenshi giheze imisi mirongo ine canke irenga, bitewe n'ingenzo z'umuryango canke intara.\n\n4. **Ikiriri cya Nyuma cyangwa Urubanza rwa Nyuma**: Inyuma y'igihe gito canke kinini, umuryango utegura \"ikirori cya nyuma\" cyangwa \"urubanza rwa nyuma\" rwo gusezera umuhisi. Uyu muhango ushobora kuba ari ukurya no kunywa, kuvuga ibigwi vy'umuhisi, n'ugusangira n'abanyamuryango, abagenzi, n'abaturanyi. Ni uburyo bwo kumusezera no gutangira urugendo rwo kubaho nta nyakwigendera, aho baba bamwibuka mu bikorwa vyabo n'amasengesho.\n\nMu myizerere y'abarundi, n'ubwo umuntu yitavye Imana, aracari mu muryango, bityo, urupfu rw'umuntu ruca ruba intango y'urundi rugendo aho umuryango uhura, ukibuka, kandi ugashigikirana. Naho ibihe n'ibikorwa bitandukanye bitewe n'imiryango n'intara, umugambi mukuru ni ugukomeza ubumwe bw'umuryango no kubaha nyakwigendera."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umuntu afise abana iyo yitavye Imana, mu migenzo y’abarundi asezerwa gute gushika ku rubanza rwa nyuma?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -438,7 +921,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:21:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu muco nyarwanda wa kera, umukobwa avyariye iwabo igitwarire, ni ukuvuga ko yabyaye atarashaka, bitewe n'imiterere y'umuco n'indangagaciro bwite zarangaga umuryango nyarwanda, yahuraga n'ingaruka zikomeye zirimo:\n\n1. **Ibyabaga ku muryango w’umukobwa:** Umuryango w'umukobwa wafatwaga nk'uwatatanyije inshingano zawo zo kurera no guha uburere bukwiye umukobwa. Byashoboraga gutera isoni n'ikimwaro mu muryango, bikabaviramo kubonwa nabi n'abaturanyi n'umuryango mugari. Hari n'aho umuryango washoboraga gucibwa amande n'umuryango mu rwego rw'imihango y'umuco.\n\n2. **Kwigizwayo:** Umukobwa yashoboraga kwigizwayo cyangwa kugirwa igicibwa n'umuryango we n'umuryango mugari, biturutse ku kuba yararenze ku ndangagaciro zishingiye ku kwiyubaha no kubaha umuryango basabwaga kugenderaho.\n\n3. **Gutakaza Agaciro:** Mu muco nyarwanda, agaciro k'umukobwa kenshi kakoreshwa mu kugena uburemere bw'umugeni (inkwano). Ku mukobwa wavutse ari umwari, agaciro kaba gasumbabyose. Bityo, umukobwa wabyariye iwabo hari ubwo yabaga ahindutse \"idashoboka\" mu bijyanye n'agaciro kahabwaga abageni, bikamugabanyiriza amahirwe yo gushakwa no kwakirwa neza mu muryango azashakamo.\n\n4. **Ikiguzi cy’umwana:** Umuryango w'umusore wateye inda yashoboraga gusabwa guha umuryango w'umukobwa impano cyangwa inkwano nk’ikimenyetso cyo kwemera umwana n’ibyo umukobwa yahuye nabyo. Ibi byashoboraga kandi kujyana no kwemera kurerera uyu mwana wabyawe hanze y'isezerano ry'abashakanye.\n\n5. **Kwiyakira n'Ubuzima bushya:** Iyi myitwarire yashoboraga kwitabwaho mu buryo bwo gushaka uko umukobwa yashakirwa umugabo, akenshi bigakorwa mu maguru mashya kugira ngo \"habungabungwe isura\" y'umuryango. Cyangwa se, umukobwa akabaho yita ku mwana we mu gihe umuryango we ugerageza kwakira ibyabaye.\n\nMu by'ukuri, ingaruka zari zitandukanye bitewe n'imiterere y'umuryango n'akarere, ariko mu muryango wa kera nyarwanda, ibi byabaga ari bimwe mu bice by'ingenzi by'uko byagendaga. Mu bihe bya none, imyumvire igenda ihinduka, aho umuryango n'umuryango mugari bigenda biha agaciro k'uburenganzira bw'abagore n'abakobwa, harimo n'uburenganzira bwo kwihitiramo ibijyanye n'ubuzima bwabo bw'imyororokere."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umukobwa kera avyariye igitwarire iwabo vyagenda gute?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -458,7 +964,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:22:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu muco wa kera wo mu karere k'ibiyaga bigari, harimo n'Urwanda, umukobwa wasaziye iwabo yashoboraga guhura n'ingaruka zitandukanye zigatuma ubuzima bwe n'umuryango we buhungabana mu buryo butandukanye. Iyi ngingo yafatwaga mu buryo butandukanye bitewe n'imico, imigenzo, n'imyumvire y'ubwo bubihe. Dore bimwe mu byo yashoboraga guhura na byo:\n\n1. **Kwitwa Izina Ribatesha Agaciro**: Umukobwa wasaziye iwabo yashoboraga kwitwa amazina atandukanye agamije kumutesha agaciro mu muryango no mu baturanyi, bikamugiraho ingaruka mu bijyanye no kubona uwo bashakana.\n\n2. **Gucikanwa n'Amahirwe yo Kurongorwa**: Mu muco w'ikinyarwanda na cane cane mu bihe byo kera, umukobwa wasaziye iwabo yabaga afite amahirwe make yo kubona umugabo. Ibi byaterwaga n'uko bamwe mu bagabo babaga batinya inkwano ishobora kwiyongera cyangwa bakikanga imyumvire y'abandi mu muryango.\n\n3. **Kwiyongera k'Ingorane z'Urwego rw'Ubukungu mu Muryango**: Mu bice bimwe na bimwe, inkwano yari imwe mu nzira za gakondo zo guhuza imiryango no gukomeza ubumwe. Umukobwa wasaziye iwabo yashoboraga gutuma umuryango wicwa n'inzara bitewe no kutabona inkwano, yagombaga kunganira ubukungu bw'umuryango.\n\n4. **Kunanirwa Gushinga Umuryango Wabo**: Kubera imyumvire y'icyo gihe, wasangaga bishobora kugora umukobwa wasaziye iwabo kubona umugabo bityo agahera iwabo. Ibi byashoboraga kumugiraho ingaruka zirimo agahinda, ihungabana, n'ibindi.\n\n5. **Kugira Igikundiro no Kwiyubakamo Icyizere**: Mu myumvire ya kera, wasangaga hari ababyeyi bumva ko kugira umukobwa wasaziye iwabo ari ikimenyetso cyo kutita ku nshingano zabo. Ibi byabaga bisaba umuryango gukora uko ushoboye kose mu guhindura imyumvire mibi irebana n'umukobwa wabo.\n\nNi ngombwa kwibuka ko iyi mvugo n'umugirwa bijyanye cyane n'ibihe bya kera n'imyumvire ya kera. Mu bihe biri imbere, imico myinshi irimo irahinduka mu buryo butandukanye, harimo no guteza imbere uburinganire n'ubwuzuzanye hagati y'ibitsina byombi. Muri iki gihe, imyumvire ku bijyanye n'umukobwa 'wasaziye iwabo' iri kugenda ihinduka, bityo bigatuma imibereho yabo n'uko sosiyete ibafata bitera imbere mu buryo bwiza."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umukobwa yasaziye iwabo kera vyamugendera gute?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -478,7 +1007,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:23:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Umugirwa wo gufuba umwami mu Burundi wari umwe mu migenzo ikomeye kandi wihariye muri sosiyete y'abarundi kera, ukaba waragaragazaga uburyo umuryango wa kera mu Burundi wubaha kandi ukubaha umwami. Uyu mugirwa, uzwi nka \"Gufuba,\" umwami yagendaga ategwa n'abantu be b'ingenzi mu gihugu, arikumwe n'abagaragu be ndetse n'ibikoresho by'ubwami, bigamije kumwereka abaturage be no gusigasira umubano we na bo, binyuze mu gukomeza gusakaza iteka n'ikuzo by'ingoma y'ubwami.\n\nGufuba byabaga birimo kugenda mu turere dutandukanye tw'igihugu, umwami akazenguruka ashishikariza abaturage umuco mwiza, ubumwe, kwitabira ibikorwa bya leta, n'ibindi. Muri uyu mugirwa, umwami yashoboraga kandi gukemura impaka, gutanga ubutabera, no kumva ibyifuzo by'abaturage be. Kandi, umwami ntiyageraga mu gace runaka atatumiwe n'abakuru b'ako gace, akaba yaratangaga itangazo ry'uruzinduko rwe mbere y'uko agera.\n\nUyu mugirwa wafatwaga nk'ikimenyetso cyo kunga ubumwe bw'ubutegetsi bw'umwami n'abaturage, ukerekana ko umwami atari hejuru y'abaturage ahubwo ari umubyeyi wabo ukunda kandi witaye ku iterambere ryabo rirambye. Mu kugenda kwe, umwami yabaga ari kumwe n'abacuruzi bakomeye, abatware, n'abantu b'ingenzi mu ngoma, hamwe n'abahanzi n'ababyinnyi kugira ngo bakomeze imigenzo ya gakondo n'umuco.\n\nItariki ya nyuma yo gukoresha uyu mugirwa ntishobora kunyomozwa neza kuko yahindukanaga bitewe n'iterambere ry'ibintu bya politiki n'amateka y'igihugu. Nyamara, umuhango wo gufuba umwami wacitse intege uko Ubwami bw'u Burundi bwatangaga intebe ku butegetsi bwa repubulika n'ibindi bihe bya politiki byakurikiyeho.\n\nNyuma yaho, nubwo iyi mihango y'ubwami yaba itakibaho mu buryo bwimbitse cyangwa bw'umuhango nk'uko byahoze, ibice by'umuco w'ubwami n'ingenzi zimwe z'umuco w'u Burundi ziracyashimangirwa mu nzira zitandukanye z'ubuzima bw'igihugu, harimo ibirori, umuziki, ndetse n'ubuhanzi, bikomeza guteza imbere no kwibuka umuco wihariye w'u Burundi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umugirwa wo gufuba umwami wagenda gute mu Burundi?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -498,7 +1050,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:24:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu Burundi rwo ha mbere, uburyo bwo gutanga amatangazo no guhanahana amakuru ku ngoma ya cami bwari butandukanye cane n'ibimenyeshamakuru dusanzwe tubona muri iki gihe. Mu bihe vyo ha mbere, ingoma ya cami mu Burundi yakoresheje uburyo butandukanye bwo gutanga amakuru no kumenyesha abantu amatangazo y'ibwami. Zimwe mu nzira zakoreshejwe ni izi zikurikira:\n\n1. **Abatimbo n'ingoma:** Mu Burundi bwa kera, ingoma zari zifise ikibanza gikomeye mu mibereho y'abanyagihugu no mu bwirizwa nshingiro bwa politike. Ingoma zakoreshejwe mu gutanga ubutumwa bwihutirwa canke mu guhamagarira abantu mu birori vy'ibwami. Zishobora gukoreshwa kandi mu kumenyesha ivy'ingenzi biriko biraba mu gihugu.\n\n2. **Abamenyeshamakuru (benevugo):** Mu Burundi bwa kera, haba abantu bazwi nk'abavugizi b'ibwami, abo bantu bari bafite umwuga wo kumenyesha abantu amakuru y'ibwami n'ayandi matangazo y'ingoma. Bakoresha ijwi ryabo mu gutangaza amakuru, bagenda mu bice bitandukanye vy'igihugu.\n\n3. **Imvugo zibitse (Imigani):** Hari amakuru yatangwa mu buryo bw'imigani n'ibisakuzo, nk'uburyo bwo kwigisha no kumenyesha abantu ibintu bitandukanye mu buryo bw'ubuhinga bwa none.\n\n4. **Intumwa za cami:** Mu Burundi bwa kera, umwami yakoresha intumwa ziwe mu gutanga amakuru canke amatangazo mu bice bitandukanye by'igihugu. Izo ntumwa zashobora kuba abasirikare canke abakozi b'ibwami, bitewe n'uburemere bw'ubutumwa bwabo.\n\n5. **Ibiganiro vy'abantu:** Mu buzima bwa buri munsi, amakuru yarasangirwa mu biganiro vy'abantu, nk'igihe c'ibikorwa vy'imirimo canke mu birori. Inkuru zikomeye zavuye ibwami zashobora gukwirakwizwa mu gihugu cose biciye mu biganiro nk'ibi.\n\n6. **Ibiti n'Imirwa:** Hari n'uburyo bwo gukoresha ibimenyetso vyashyirwa ku biti canke imirwa (ahantu hakomeye) mu gutanga amakuru.\n\nMu gitondo c'ubuhinga bwa none, izo nzira zavuyemwo izindi nzira zijanye n'igihe zikoresha itumanaho rya none, aho amakuru asakara mu buryo bwihuse biciye mu bimenyeshamakuru, televiziyo, radiyo, na internet. Ariko, izo nzira zikoreshwa mu gihe c'ibwami ziracafise akamaro ko kumenyesha ku muco n'amateka y'Uburundi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mbega ko ata bimenyeshamakuru mu Burundi vyahahoze ku ntwaro ya cami, amatangazo y'i bwami bayamenyesha gute?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -518,7 +1093,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:25:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu Burundi, mbere y'uko abakoloni bagera mu gihugu, ubucuruzi bwahoraho ariko butandukanye cyane n'uburyo bwo kudandaza bugezweho muri iki gihe. Ubu buryo bwo gucuruza bwari bushingiye ahanini ku buhahirane bw'ibicuruzwa hagati y'abantu ku giti cyabo cyangwa mu matsinda mato, hakurikijwe uburyo bwa kera bwo guhererekanya ibicuruzwa (barter trade), aho abantu bahereranya ibicuruzwa na serivisi zitandukanye badakoresha amafaranga.\n\n1. **Ubuhahirane bushingiye ku bicuruzwa (Barter System):** Muri uyu mwuga, abantu bazanaga ibyo bejeje cyangwa ibyo bakoze n'intoki nko guhinga ibiribwa, kuboha imyenda, gukora ibikoresho by'ubucuzi n'ibindi, bakabihinduranya n'ibindi bicuruzwa cyangwa serivisi bakeneye. Urugero, umuhinzi yashoboraga guhererekanya ibigori bye n'ifumberi ry'umwubatsi.\n\n2. **Amasoko y'imbere mu gihugu:** Habagaho amasoko yo mu gace, aho abantu bava mu bice bitandukanye by'igihugu bazaga kugurisha cyangwa kugura ibintu bitandukanye. Aya masoko yateranaga kuri imwe mu minsi runaka y’icyumweru, kandi yabaga ari amahirwe yo guhura no guhahirana hagati y'abaturage bo mu bice bitandukanye.\n\n3. **Ubucuruzi hagati y'imigabane:** Nubwo byari mu rwego ruto, habayeho n'ubucuruzi hagati y'ibihugu byo mu karere ka Afurika y'Iburasirazuba n'ibindi bihugu bituranye. Urugero, abacuruzi bo mu Burundi bashoboraga kujyana ibicuruzwa byabo mu bihugu nk'u Rwanda, Tanzania, na Repubulika Iharanira Demokarasi ya Congo. Bakoreshaga cyane inzira z'ubutaka n'inzuzi mu gukora ubwo bucuruzi, aho ibicuruzwa nk'ibikomoka ku buhinzi, ububoshyi, n'ibindi byakururaga abaguzi.\n\n4. **Sistema y'ubutware mu bucuruzi:** Mu Burundi bwa kera, ubuyobozi bw'imiryango y'ubwami n'ubutware bwagiraga uruhare runini mu bucuruzi, aho bwashoboraga gutegeka ibicuruzwa by'ingenzi nk'umusoro cyangwa guteza imbere ubucuruzi bw'imyaka n'ibindi bicuruzwa mu karere. Ibi byafashaga mu kugena igiciro n’uburyo ibicuruzwa byakwirakwizwa mu baturage.\n\nUmwuga wo kudandaza mu Burundi rero mbere y'uko abakoloni bagera mu gihugu, wari ushingiye cyane ku buryo bw'imikoranire y'abantu isanzwe, aho ubucuruzi bwakorwaga mu buryo bwa gakondo bugamije guhaza ibyifuzo by'ibanze by'abaturage mu buzima bwabo bwa buri munsi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Imbere y'uko abakoloni baza umwuga wo kudandaza wakorwa gute mu Burundi?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -538,7 +1136,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:26:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu Burundi, nko mu tundi duce twinshi tw'isi yose, ihindagurika ry'ibihe ryateje impinduka mu miterere y'imvura, ibi bigatuma hari igihe imvura igabanuka cyangwa ikabura burundu mu bihe byari bisanzwe byitezweho imvura. Iyo imvura itabonetse nk'uko byari byitezwe, bikunze kugira ingaruka mbi ku buhinzi, ubworozi n'ubuzima bw'abaturage. Dore bimwe mu byo abantu cyangwa Leta y'Uburundi yashyira mu bikorwa mu rwego rwo guhangana n'iki kibazo:\n\n1. **Gukoresha Amazi mu buryo burambye:** Itegurwa ry'uburyo bwo gufata no kubika amazi y'imvura mu gihe cy'itumba ryinshi kugira ngo azakoreshwe mu gihe cy'amapfa. Ibi birimo gukora inzuzi nto n'ibidamu byo kubika amazi.\n\n2. **Guhindura imihingire:** Guhitamo kandi guhinga ibihingwa bishobora kwihanganira izuba ryinshi na cyane cyane ibihe by'amapfa, nko guhinga ibihingwa byihanganira amapfa birimo nk'ibigori, amasaka, n'ibishyimbo byihanganira amapfa.\n\n3. **Kuhira:** Gukoresha amazi abitse mu kuhira imirima mu gihe cy'izuba ryinshi, nubwo uyu ari umushinga uhenze ukeneye uburyo bwa tekiniki n'amafaranga, akenshi uba ureba imishinga minini y'ubuhinzi.\n\n4. **Igishushanyo mbonera cy’ubutaka:** Gushyiraho uburyo bushya bw’imikoreshereze y’ubutaka harimo guca amaterasi y'indinganire ku misozi, guca imirwanyasuri n'ibindi, bigamije kugabanya isuri no gutuma ubutaka bubika amazi menshi.\n\n5. **Gukoresha Amategeko n'Igenamigambi bijyanye n'Ihindagurika ry'Ibihe:** Ibi birimo gushyiraho amategeko n'ingamba zitandukanye zo guhangana n'ihindagurika ry'ibihe, harimo no gushyira mu bikorwa imishinga yo kubungabunga ibidukikije nko gutera amashyamba, kubungabunga ibishanga n'ibiyaga nka bumwe mu buryo bwo kongera ubushobozi bw'ibidukikije mu guhangana n'ingaruka z'ihindagurika ry'ibihe.\n\nKubera ko ihindagurika ry'ibihe ari ikibazo kireba isi yose, hakwiye kuba imikoranire myiza hagati y'ibihugu, imiryango mpuzamahanga n'abaturage mu rwego rwo gufata ingamba zihamye zo kugabanya ingaruka ziterwa n'iki kibazo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Imvura iyo itaze mu Burundi babigenza gute kugira isubire kugwa?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -558,7 +1179,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:27:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu Burundi, imiryango migari y'abaturage igizwe n'Abahutu, Abatutsi, n'Abatwa. Iyi miryango itatu igize ibice bikuru by'abanyagihugu b'Uburundi, ariko bikwiye kuzirikana ko ibi bice bitavuga ubwoko mu buryo bw'imibereho n'imigenzo gakondo gusa, ahubwo bivuga n'imibanire mu mateka y'iki gihugu.  \n\n1. **Abahutu:** Ni bo bagize umubare munini w'abaturage mu Burundi, bakaba bagera kuri 85% by'abaturage bose. Abahutu bamenyerewe nk'abahinzi kandi benshi muri bo batunzwe n'ubuhinzi.\n\n2. **Abatutsi:** Bagize hafi 14% by'abaturage. Mu mateka y'Uburundi, Abatutsi bamenyerewe nk'aborozi, bakaba barakundaga korora inka. N'ubwo habayeho ubusumbane bushingiye ku moko kuri bamwe mu bihe by'amateka y'Uburundi, ni byiza kuzirikana ko abantu b'ingeri zose bagize uruhare mu iterambere ry'igihugu.\n\n3. **Abatwa:** Ni bo bagize umubare muto mu baturage, bafite hafi 1% by'abaturage bose. Abatwa akenshi bafatwa nk'abanyabukorikori, bakaba bazwiho ubuhanga mu guhinga no muri muzika. Mu bihe bishize, bakunze kuba mu buzima bw'ubukene kandi bahura n'ibibazo by'ivanguramoko n'ubusumbane mu mibereho yabo.\n\nIbikorwa byo kwishyira hamwe no gukemura amakimbirane y'amoko byakomeje kuba ingenzi mu mateka y'Uburundi, by'umwihariko nyuma y'ibibazo by'ihungabana rikomeye ry'umutekano ryabaye mu myaka ya 1990 no mu 2000. Umuryango mpuzamahanga n'imiryango itegamiye kuri leta (NGOs) bakomeje gufatanya na leta y'Uburundi mu kugerageza kuzamura imibereho y'abaturage bose no guharanira ubwiyunge bw'abanyagihugu, hatitawe ku moko yabo.\n\nBy'umwihariko, ikintu cy'ingenzi ni uko identite y'umuntu igomba kutareberwa gusa mu ishusho y'amoko, ahubuko umuntu wese nk'individu afite uruhare rukomeye mu kubaka sosiyete irangwa n'ubumwe, amahoro n'iterambere."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni iyihe miryango y'abahutu n'abatutsi n'abatwa igize abarundi?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -578,7 +1222,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:28:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Uburundi, igihugu giherereye mu karere ko hagati muri Afurika, gifise intara kama zigera ku munani zikurikira:\n\n1. **Intara ya Bujumbura**, yahora ari umurwa mukuru kugeza mu mwaka wa 2019. Iyi ntara iri mu burengero bw'igihugu, ku nkengera z'ikiyaga Tanganyika. Yitiriwe umurwa mukuru mbere yuko ugwa Bujumbura wimurirwa mu gisagara ca Gitega.\n\n2. **Intara ya Gitega**, ubu ni umurwa mukuru wa politike w'Uburundi. Iri hagati mu gihugu, kandi yitiriwe igisagara ca Gitega. Gitega ifatwa nk'ikigo c'umuco n'amatati y'Uburundi.\n\n3. **Intara ya Muramvya**, iri hafi ya Gitega, mu gice co hagati mu gihugu. Yitiriwe igisagara cayo c'icicaro, Muramvya, kandi ni ikigo c'ubuyobozi n'ubukungu muri ako karere.\n\n4. **Intara ya Ngozi**, iri mu buraruko bw'Uburundi. Icatumye yitwa uko ni igisagara gikuru cayo, Ngozi, kandi irafise amateka akomeye m'ubutware bw'Uburundi kuko ni ho havuka bamwe mu bategetsi bakuru b'igihugu.\n\n5. **Intara ya Kayanza**, nayo iri mu buraruko bw'Uburundi, ikaba izwi cyane ku buhinzi bw'ikawa. Ibihingwa vyayo birimwo n'icayi. Izina ryayo rituruka ku gisagara ca Kayanza.\n\n6. **Intara ya Muyinga**, nayo iri mu buraruko bwa Uburundi, ikaba ifite uruhara runini mu buhinzi n'ubworozi. Yitiriwe igisagara cayo c'icicaro, Muyinga.\n\n7. **Intara ya Kirundo**, ikaba iri mu buraruko bushira ubuseruko bwa Uburundi. Izwi cyane ku biyaga vyinshi biriyo hamwe n'ubuhinga bwo kuroba. Ifise izina ryayo rituruka ku gisagara ca Kirundo.\n\n8. **Intara ya Rutana**, iri mu bumanuko bushira ubuseruko bwa Uburundi. Izwi ku butare buvanwa mu butaka bwayo hamwe n'ubuhinzi. Rutana, igisagara cayo c'icicaro, ni co catumye yitwa uko.\n\n9. **Intara ya Makamba**, iri mu bumanuko bwa Uburundi, ikaba izwi cyane kubera uburimyi n'ubworozi. Igifungu c'iyo ntara ni igisagara ca Makamba.\n\n10. **Intara ya Ruyigi**, iri mu buseruko bwa Uburundi. Izwi ku bikorwa vy'uburimyi. Ifise izina ryayo rituruka ku gisagara ca Ruyigi, ikaba ifatwa nk'ikigo c'ubudandaji mu burimyi.\n\n11. **Intara ya Bururi**, iri mu bumanuko bw'Uburundi, ikaba izwi ku mateka yayo n'umuco. Yitiriwe igisagara ca Bururi.\n\n12. **Intara ya Cankuzo**, iri mu buseruko bw'Uburundi. Itandukanywa n'izindi kubera ibikorwa vyayo mu buhinzi n'ubworozi. Cankuzo, igisagara cayo c'icicaro, ni co camwitiriwe.\n\n13. **Intara ya Karuzi**, iri mu gice co hagati mu gihugu. Itandukanywa n'ubuhinzi bw'ibinyampeke n'ubworozi. Yitiriwe igisagara ca Karuzi.\n\n14. **Intara ya Rumonge**, yatangajwe nk'intara nshasha mu 2015, iri ku nkengera z'ikiyaga Tanganyika. Ifite izina ryayo rituruka ku gisagara ca Rumonge.\n\n15. **Intara ya Bubanza**, iri mu burengero bw'igihugu. Ifatwa nk'igice gikomeye mu bijanye n'uburimyi n'ubworozi. Bubanza, igisagara cayo c'icicaro, ni co catumye ifata iryo zina.\n\n16. **Intara ya Buhiga**, iri mu bice vyegereye igisagara ca Gitega. Yitiriwe igisagara ca Buhiga, ikaba izwi ku burimyi n'ubworozi.\n\n17. **Intara ya Mwaro**, iri mu gice co hagati mu gihugu, hafi ya Gitega na Bujumbura. Yitiriwe igisagara ca Mwaro, ikaba izwiho cane ku muco n'amateka yayo.\n\nIntara z'Uburundi zigizwe n'uturere (\"communes\") dutandukanye, kandi buri ntara ifise ibiranga n'ivyiza vyayo bituma itandukana n'izindi. Itariki ya \"Knowledge cutoff\" ni muri 2023, bityo amakuru ashobora guhinduka nk'uko igihugu gikomeza gutera imbere."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni izihe ntara kama z'uburundi? Erekana uturere tuzisangamwo n'igituma zitwa uko.\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -598,7 +1265,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:29:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Intara ya Bugufi (Bukoba) yakuwe ku Burundi igahabwa Tanzania mu gihe cy'ubukoloni, bitewe n'impamvu nyinshi zishingiye ku miyoborere y'abakoloni n'igihe cy'imipaka mishya yashyizweho muri Afurika. Uku guhindura imipaka kwabaye mu gihe cy'ingoma y'Abadage n'Abongereza mu karere k'ibiyaga bigari bya Afurika.\n\nMu ntangiriro, mu gihe cy'ubukoloni bw'Abadage (Deutsch-Ostafrika), uyu mwanya wari waramenyekanye nkaho uri mu bubasha bw'Ubudage, aho bwari bufite ibice bigize u Rwanda, u Burundi na Tanzania y'ubu. Nyuma y'Intambara ya Mbere y'Isi (1914-1918), ubutegetsi bw'abakoloni bwahindutse kubera ko Abadage batsinzwe, nuko ibice byabo by'ubukoloni muri Afurika byegurirwa ibindi bihugu by'Abanyaburayi nk'Ubwongereza na Bubiligi binyuze mu cyiswe League of Nations Mandates.\n\nIcyo gihe, imipaka mishya yarashyizweho, zimwe mu ngingo zari zishingiye ku nyungu za politiki n'ubukungu, izindi kuri logistique yo kugenzura no gucunga ibyo bice. Bukoba na byo byahinduye ubuyobozi bijya mu bubasha bw'Abongereza, bivuga ko byakomereje kuba mu gice cy'Ubukoloni bw'Abongereza bw'Uburasirazuba bwa Afurika, cyane cyane mu gice cya Tanganyika (uyu munsi ni Tanzania).\n\nKuva icyo gihe, nubwo habaye izindi mpinduka zinyuranye muri politiki z'akarere kugeza kuri ubu, Bukoba yagumye kuba igice cya Tanzania. Uku guhindura imipaka kandi kwatewe n'ibibazo by'imipaka n'umutekano muri ako karere, ndetse n'ibyifuzo by'abakoloni byo gushyiraho imipaka yoroshye gucunga, ibi byose bikagira ingaruka ku miterere y'amahoro, itumanaho, n'iterambere ry'akarere muri rusange."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki intara ya Bugufi yakuwe ku Burundi ikaja kuri Tanzania?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -618,7 +1308,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:30:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Umwana azoba umwami atarererwa i bwami kwa se. Akenshi, iyi nkuru isanzwe mu binyejana bimwe na bimwe no mu mico itandukanye irimo inyigisho z'uko intwari cyangwa abami b'ahazaza bandikwa n'umugambi udasanzwe kurusha abandi, kenshi bakamenyekanira mu bigeragezo n'ibibazo bikomeye mbere yo kugera ku butegetsi bwabo.\n\nUmwana nk'uyu ashobora kurererwa ahantu hatandukanye bitewe n'insanganyamatsiko y'inkuru cyangwa umuganura w'umuco. Aha ni hamwe mu hantu ashobora kurererwa:\n\n1. **Mu baturage:** Umwana ashobora kurererwa mu baturage basanzwe kugira ngo yige gukora cyane, kumenya ubuzima busanzwe, kandi agakura afite imyumvire y'ubutabera n'ubumuntu busanzwe, bitandukanye n'ubuzima bwo ku bwami bushobora kurangwa no kwikunda no kugira ibyifuzo byinshi. Ibi bimuha ishusho nziza mu baturage igihe azaba yimye ingoma.\n\n2. **Mu ishyamba cyangwa mu bwihisho:** Hagamijwe kumurinda abanzi cyangwa umugambi mubi w'abantu bashaka kumugirira nabi cyangwa kumwica kugira ngo batambamire inzira ye ku ngoma. Iki gihe kirimo no kumutegura mu buryo bw'umwuka cyangwa umubiri mu guhangana n'ibibazo n'ibigeragezo.\n\n3. **Mu rundi rugo rw'abatware cyangwa abandi bami:** Yoherezwa kurererwa kure y'ibwami kugira ngo yigire ku bandi bami cyangwa abatware, biga politiki, gisirikare, n'inyigisho zo kuyobora, ariko atari mu kwaha kw'ababyeyi be, kugira ngo yirindwe imigambi mibi yo mu bwami.\n\nImpamvu z'ibi bikorwa byose zishobora kuba zaratanzwe mu nkuru cyangwa ibisakuzo, birimo kwirinda ubugambanyi, gukura afite imiterere y'ubutwari n'ubuyobozi n'ubumenyi bwo kumenya abantu neza, kugira ngo umunsi umwe azashobore kuyobora nta nkomyi. Inkuru zivuga iby'umwana uzavamo umwami ziri mu rutonde rw'inkuru zigaruka cyane mu buvanganzo bwo mu mico itandukanye y'isi, zerekana ko ubutegetsi nyakuri n'ubukuru bitavuka mu buzima bworoshye bwo ku bwami gusa, ahubwo bikura mu guhangana n'intambara z'amoko menshi, bikubaka umuntu kandi bikamugira intwari imbere y'abaturage ayoboye."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki Umwana azoba umwami atarererwa i bwami kwa se?Yarererwa he? Kubera iki?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -638,7 +1351,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:31:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ubushobozi bw'umwana bwo kuzoba umwami ntibushingiye ku kuvukana imbuto runaka, ahubwo bushingiye ku mategeko n'imigenzo iranga ingoma y'igihugu canke ubwami. Hariho ibintu bitandukanye bishobora kugena niba umwana ashobora kuba umwami canke umwamikazi, nko kuba mu muryango w'ibwami, amategeko agenga ingoma, hamwe n'uburyo bwo gusubirizaho indongozi mu bwami.\n\n1. **Amategeko agenga ingoma**: Mu bihugu bimwe na bimwe, haraho amategeko agenga ingoma y'ubwami abuza abagore n'abakobwa kuzoba abamikazi, bigatuma abahungu bavukana \"imbuto\" yo kuba abami bivanye n'igitsina cabo. Ariko mu bindi bihugu, amategeko yarahindutse, ubu abana b'ibitsina vyose barashobora kuzoba abami canke abamikazi.\n\n2. **Igihugu n'umuco**: Umwana avukana imbuto yo kuzoba umwami bitewe n'igihugu n'umuco. Mu migwi imwe y'abantu, imyanya y'ubwami ishobora gutangwa hakurikijwe urutonde rw'abavukana, aho umwana wa mbere avuka ashobora kuba ari we uzokurikira ku ngoma.\n\n3. **Ubushake bw'umwami/umwamikazi uriho**: Hari n'aho umwami canke umwamikazi uriho ashobora gufata ingingo yo gutanga ingoma ku muntu adakurikije amategeko asanzwe y'urutonde rw'abavukana, bishoboka ko ashingiye ku bushobozi canke ku migenzo imwe y'umuco.\n\nMu gusozerera, \"kuvukana imbuto\" yo kuba umwami ntibivuga ko habaho ikintu c'umubiri canke ingabirano idasanzwe umwana avukana, ahubwo bishatse kuvuga ko umwana avukira mu muryango w'ibwami kandi ashobora kuronka uburenganzira bwo kuzoba umwami canke umwamikazi bishingiye ku mategeko n'imico igenga ubwo bwami. Ni ingingo igenga iryo zina rya gikuru bivanye n'umuco n'amategeko y'aho umwana yavukiye."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni koko umwana azoba umwami yavukana imbuto? Sigura igituma ari vyo canke atari vyo.\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -658,7 +1394,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:32:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Abatamvyi b'ingoma bakura ibirato imbere yo kuvuza ingoma kubera impamvu zifatanye n’umuco, ikibanza cy’ingoma mu muryango, n’akamaro ko kubaha imigenzo yabo ya kera.\n\n1. **Kubaha no Kwiyegereza Ubudatana**: Mu mico myinshi, ingoma ni ikimenyetso cy’ubudatana n’imbaraga zidasanzwe, ikaba yarakoreshejwe mu migenzo, imihango, n’ibirori byihariye. Gukura ibirato rero mbere yo gukina ingoma ni ikimenyetso cyo kubaha no kwiyegereza izo mbaraga, nk’uko umuntu yavanamo ibirato mu hantu hatagatifu cyangwa imbere y’ikintu cyubahwa.\n\n2. **Gukurikiza Imigenzo ya Kera**: Uko gukura ibirato bishobora kuba bishingiye ku migenzo ya kera iranga igihugu cyangwa umuryango runaka, iyi migenzo igatambuka kuri ba sogokuruza. Ikigamijwe ni ugukomeza kwimakaza imigenzo y'abo bakurambere, aho ibikorwa byabo by’ubwitonzi byahabwaga agaciro gakomeye.\n\n3. **Gutanga Uburemere ku Bikorwa**: Kubura ibirato mbere yo kuvuza ingoma ni ikimenyetso cyo gutanga uburemere n’icyubahiro ku gikorwa cyo kuvuza ingoma. Ni uburyo bwo guha agaciro ibirori biri kuba, bikumvikanisha ko bitandukanye n’ibindi bikorwa bisanzwe bya buri munsi.\n\n4. **Kwiyumvamo Umuziki n’Ubutaka**: Mu gukura ibirato, abakina ingoma bashobora kumva bari hafi y’umuziki n’ubutaka bariho, bigatuma ibyiyumviro byabo n’ibikorwa byabo mu muziki bishyira mu mirimo yabo. Ibi bishobora kongerera ingufu n’ubudahemuka mu birori, ndetse bikongerera abatambyi kurushaho kumva ibihangano.\n\nAba batambyi b'ingoma bakurikiza ibi bikorwa nk’uburyo bwo kubahiriza umuco wabo, gukomeza imigenzo, no kubaka ikiraro hagati y’ahahise n’ahazaza, baha agaciro kanini ku mahame n’amabwiriza yaranze imibereho y’abakurambere babo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki abatamvyi b'ingoma babanza gukura ibirato imbere yo kuvuza ingoma?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -678,7 +1437,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:33:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ibyo uvuze si ukuri. Kuber iki umwami wa mbere w'Uburundi uza mu mateka yanditse si uwitwa Ntare. Uburundi bwagize abami benshi mu mateka yabwo kandi ibwami mu Burundi bifite imizi mu myaka yo hambere cyane. Ibikomangoma byo mu Burundi byiganje mu myaka ya kera, ariko \"Ntare\" ni izina ryamamaye mu mateka y'abami b'Uburundi kuko ryakoreshejwe n'abami batandukanye b'iki gihugu.\n\nUmwe mu bami bakomeye b'Uburundi witwaga Ntare ni Ntare Rugamba, ariko ntabwo ari we wari umwami wa mbere kandi ntabwo yari na we wenyine wambaye izina rya Ntare. Uburundi, nk'uko buvugwa mu mateka, bwatangiye kugira abami mu myaka ibihumbi ishize, kandi ibwami ryaho ryari rikomeye, rifite abami b'abahizi n'abanyabigwi batandukanye.\n\nAmateka y'abami mu Burundi ni maremare kandi arimo ibibazo byinshi kubera ko atari yose yanditse, ahubwo yagiye atangwa mu buryo bw'ibisigo n'inkuru zivuga abami b'Uburundi. Icyakora, izina rya \"Ntare\" ni ingenzi kubera ko ryagarutsweho kenshi mu mateka y'igihugu. Gusa, biragoye kumenya neza amakuru arambuye n'itariki nyayo y'ubutegetsi bw'abami batandukanye bitewe n'ubuke bw'inyandiko z'amateka y'icyo gihe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kuber iki umwami wa mbere w'uburundi yitwa Ntare?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -698,7 +1480,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:34:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Uburundi, imwe mu bihugu vyo muri Afrika yo hagati, mbere y'intwaro ya cami, bwatwarwa n'uburyo bwa cami bufatiye ku muryango n'ubwami. Uburyo bwa politike bwari bushingiye ku bwami, aho umwami, yitwa \"umwami\" canke \"Mwami,\" yari afise ububasha bwinshi kandi yubashwe mu gihugu cose. Uburyo bw'ubwami mu Burundi bwashimangirwamwo n'ikibano gitandukanye, aho abatware bato bafise ibibanza vyabo mu micungararo y'igihugu, barongowe n'umwami wo hagati mu gihugu.\n\nUbutegetsi bw'umwami bwari bushingiye ku murongo w'ingoma, bivuga ko abana b'umwami ari bo bonyene bashobora kuragwa ingoma. Mu Burundi kandi, hariho kandi \"ubugabekazi,\" ikibanza co hejuru muri leta cari gifitaniye isano rya hafi n'ubwamibukuru, ariko cahabwa umugore w'umwami canke umwe mu bagore bo mu muryango w'ubwami w'ikirangirire. \n\nUburundi bwarimwo kandi uburyo bwa sosiyete butunganijwe neza, bukaba bwarimwo amoko atandukanye, harimwo abaganwa, abatutsi, abahutu n'abatwa. Abaganwa bari bagize urunani rw'igice c'abatware b'ibwami, batwara ibisata bitandukanye vy'igihugu n'imirimo ya leta. Uku gutunganya intwaro ya cami kwari gufise intego yo kubumbatira ubumwe bw'igihugu no gucungera imico n'imigenzo y'abarundi.\n\nMu bibazo vy'ubutunzi, uburimyi bwari ubuzima bw'igihugu, n'ubworozi bwari bufise ikibanza gikomeye mu mico n'ubutunzi bw'igihugu.\n\nMu Burundi no mu bindi bihugu vya Afrika, ukugera kw'abakoloni b'abanyaburaya kwahinduye cane uburyo bwa politike n'ubukungu. Mu kiringo c'ubukoloni, abakoloni b'Ababiligi barigaruriye Uburundi, maze bashiraho ubutegetsi bwa gikoloni, buvanga n'uburyo bwariho bwa cami, bica bituma haba imihindukire ikomeye itari yitezwe mu mateka n'ubuzima bw'abanyagihugu.\n\nUmunsi w'igenga w'Uburundi, igenekerezo rya 1 Mukakaro 1962, watanguye ikindi kiringo gishasha mu mateka y'igihugu, ariko ibisigarira vy'uburyo bw'intwaro ya cami n'impinduka zabaye mu gihe c'ubukoloni biracagaragara mu vy'indero, umuco, n'ubuzima bw'igihugu gushika uno musi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Uburundi bwatwarwa gute imbere y’intwaro ya cami?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -718,7 +1523,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:35:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Gutegura kubaka urugo ni intambwe ikomeye mu buzima, igomba kwitabwaho n'ubushishozi. Umuhungu ageze igihe cyo kwubaka urwiwe, hari ibintu by'ingenzi agomba kwitaho mbere na nyuma yo kwinjira mu rushako. Ibi ni bimwe mu bigomba kwitabwaho:\n\n### 1. Kwitegura mu buryo bw’umutima na psychologique\n   - **Gusobanukirwa inshingano nshya**: Umuhungu agomba kumenya ko ubuzima bwo mu rushako bufite inshingano ziremereye, birimo kwita ku muryango no kuwurinda.\n   - **Kuganira n'abubatse imiryango**: Gusaba inama n'ubufasha mu bantu bakuze cyangwa abubatse kugira ngo umenye ibyo kuzirikana no kwitegura.\n\n### 2. Kwitegura mu buryo bw’imari\n   - **Kuzigama no gutegura ingengo y'imari**: Guteganya amafaranga azakoreshwa mu bukwe no mu buzima bwo mu rugo ni ingingo nyamukuru.\n   - **Kugira umurimo cyangwa ishoramari**: Umuhungu akwiye kuba afite imirimo itanga inyungu cyangwa ishoramari rizafasha umuryango we kubaho neza.\n\n### 3. Gushaka umufasha ujyanye nawe\n   - **Kwihangira umuntu mwahuza**: Ni ingenzi kubona umuntu mufitanye ibyo mwumva kimwe, mwubahana kandi mwemera gufatanya mu bihe byose.\n\n### 4. Gutekereza ku hazaza no gupanga imishinga\n   - **Gupanga ubuzima bw'ejo hazaza**: Harimo no gutekereza ku bana, ahantu muzatura, n'ibindi.\n\n### 5. Ubuzima bwite n’ubw’umubiri\n   - **Kwisuzumisha**: Ni ngombwa kwisuzumisha mu buryo bw'ubuzima mbere yo kubaka urugo kugira ngo wizeye ko nta kibazo cy'ubuzima muzahura nacyo.\n   - **Kwigirira discipline**: Ubuzima bw'umugabo bubatse burasaba kwitwararika ku bijyanye n'imyitwarire n'imico.\n\n### 6. Kwiyubakamo ubushobozi bwo gukemura amakimbirane\n   - **Kwigira ku bandi no gushaka ubujyanama**: Kubona uburyo bwo gukemura amakimbirane mu muryango ni ingenzi. Gushaka inyigisho cyangwa ubujyanama mu kubaka ingo birashoboka.\n\nIzi ni zimwe mu ngingo nyamukuru, ariko umuhungu witegura kubaka urugo agomba no guhora yiteguye kwiga no guhindura ibitekerezo mu rugendo rw'urushako. Kubaka urugo ruhamye rusaba imyitwarire myiza, urukundo, no kwitanga kutarangwa n'ubwikunde."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kera umuhungu ageze kwubaka urwiwe yabigenza gute?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -738,7 +1566,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:36:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Icyo kibazo gifite inkomoko mu muco nyarwanda wa kera, aho umwami yabaga afatwa nk'ikirenga mu gihugu, akaba umuyobozi mukuru mu buryo bwose: mu by'umutekano, ubukungu, imibereho y'abaturage, n'imico. Icyubahiro cy'umwami n'umutekano byabaga ari ingenzi cyane ku buryo byasabaga ko afite ibyamuranga bitandukanye n'iby'abandi bantu bose.\n\nKuba umwami atatimiraga ku wundi bantu byashingiraga ku myemerere y'uko umwami afite ubutwari, ububasha, n'ubutore bidasanzwe bituruka ku Mana, bimwe mu byo yasangiye n'abami b'ibindi bihugu bya Afurika n'ahandi. Gutimira ku wundi bisobanura kubasha gukurikira amagambo yose umuntu avuga kandi ukayatekerezaho. Kuba rero umwami atatimira ku wundi byaterwaga n'ibintu binyuranye:\n\n1. **Icyubahiro cy'Umwami**: Umwami nk'ikirangirire mu gihugu, kumushima cyangwa gukora ikimenyetso icyo ari cyo cyose cyo kumwikiriza byasabaga ko umuntu arenzaho cyangwa afite icyubahiro kihariye. Ibi byashoboraga kwitwa \"kutimira\" mu buryo bw'icyubahiro.\n\n2. **Ubwirinzi**: Mu myumvire ya kera, byashobokaga ko abanzi b'umwami bashobora gukoresha uburyo bwose bwa gakondo n'amarozi mu kumuhungabanya. Kuba atabaga ashaka gutimira ku muntu, byashobora kuba byarafatwaga nk'uburyo bwo kwirinda imbaraga zishobora kumuhungabanya.\n\n3. **Ubudasa n'Ubukuru**: Umwami yafatwaga nk'udapfa kandi afite ubushobozi bwa kimuntu buhebuje. Ubu budasa bwamutandukanyaga n'abaturage be, ku buryo imyitwarire ye yagombaga kubigaragaza. Gutimira byashoboraga gufatwa nk'igikorwa cy'ubusanzwe kitajyanye n'ubukuru n'ubudasa bwe.\n\n4. **Umuco na politiki**: Muri sosiyete z'abantu, imigirire imwe n'imwe yabaga ari uburyo bwo gusigasira imibanire ya kimuntu na politiki. Byashoboka ko kutimira ku bantu byari bifite igisobanuro cyimbitse mu buryo bw'imitekerereze y'amateka na politiki, bigaha umwami uburyo bwo kugenzura no gucunga imibanire ye n'abandi bategetsi cyangwa abambari be.\n\nBityo, kuba umwami atatimiraga ku wundi byari bifite impamvu zishingiye ku muco, umutekano, n'icyubahiro bifitanye isano n'imirimo n'inerero by'umwami mu muco nyarwanda wa kera."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki umwami atimira ku wundi?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -758,7 +1609,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:37:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Abavyeyi babwira abana ko bishe imiserebanyi, canke ibikere, nyina wabo aca acika amabere nk'uburyo bwo gutuma abana batitaho canke ngo bafate utunyabuzima duto nk'utwo. Ibi bikaba bishika ahanini mu mico itandukanye aho abavyeyi bagerageza gukangurira abana kugira imyifato myiza iranga ubuntu no kubahana hagati y'abantu n'ibindi binyabuzima. Hariho impamvu zitandukanye zishobora gutuma abavyeyi bavuga ibi bintu:\n\n1. **Kugirira ubuntu ibindi binyabuzima**: Ubu buryo bw'inyigisho bukangurira abana gutahura ko n'ibindi binyabuzima bifise agaciro kandi ko bikwiye kubahwa. Birabigisha kutagira inabi cane cane ku binyabuzima bidafite uko bivuga canke bidashobora kwirwanaho.\n\n2. **Kurinda umwana kugira imyifato mibi**: Ku bana bato, gusobanukirwa n'ingaruka z'ibikorwa vyabo birashobora kuba urugendo rurerure. Kubwira umwana ko igikorwa c'iwe gituma haba ingaruka mbi zikomeye, nka nyina w'ikinyabuzima gupfa canke guhura n'akababaro, bishobora kumufasha gutekereza kabiri imbere yo gukora.\n\n3. **Gutoza indero n'uburere**: Ubu ni ubundi buryo bwo kwigisha abana ibijanye n'ikinyabuzima no kububaha. Binyuze mu nkuru zifise ingaruka zikomeye nk'izi, abana barashobora kugira inyota yo kumenya no kwita ku mibereho y'ibindi binyabuzima bitandukanye n'abantu.\n\n4. **Guhanga umuco w'umuco n'ubumenyi mu kibano**: Mu mico itandukanye, inkuru nk'izi zishobora gukoreshwa nk'uburyo bwo guhanga umuco, aho abato bigishwa ibijanye n'ubumenyi n'imico y'igihugu canke ikibano cabo biciye mu nkuru z'ubutumwa bwimbitse.\n\nBirakenewe, ariko, kumenya ko n'ubwo izi nyigisho zishobora kugira akamaro kanini mu kurera abana, ni ngombwa kuvugisha ukuri no kwigisha abana gushira mu gaciro kugira ngo birinde kubahungabanya mu bijanye n'ivyo bemera no mu buryo bufatika bwo kwiga. Kwigisha gukunda no kubaha ibiremwa vyose biri ku isi birashingira ku kwerekana uko twobana n'ibidukikije mu mahoro no mu butungane."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki abavyeyi babwira abana ko bishe imiserebanyi, canke ibikere nyina wabo aca acika amabere?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -778,7 +1652,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:38:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu kiringo c'ubwana, kera abantu batangura kwambara impuzu z'ibiti kuva bakiri bato cyane, cyane cyane mu mico y'abasangwabutaka yo mu bice bitandukanye by'isi, aho umuco n'ibikenewe bya buri muryango w'abantu byabigiragamo uruhare. Impamvu yo kwambara impuzu z'ibiti igenda itandukana bitewe n'akarere, imigenzo y'aho, n'ibikenewe by'umuryango. Muri rusange, abana batangira kwambara impuzu z'ibiti ku myaka iri hagati y'ibiri n'itandatu y'amavuko, kutwambara bikaba bishobora kuba bishingiye ku mpamvu zitandukanye zirimo:\n\n1. **Gukingira** - Impuzu z'ibiti zifashishwaga nk'uburyo bwo gukingira uruhu rw'abana ku zuba, ku mbeho, no ku bindi bishobora kubangamira uruhu rwabo.\n\n2. **Umuhango** - Mu mico imwe n'imwe, ku myaka runaka abana batangira kwambara impuzu z'ibiti nk'igice cy'umuhango wo gukura, aho bimurwa mu cyiciro cy'ubuzima bagana mu kindi, nk'urugero kuva mu bwana bagana mu rubyiruko.\n\n3. **Uburinganire** - Mu mico imwe n'imwe, impuzu z'ibiti zashoboraga kugaragaza ikigero cy'umwana mu muryango n'umuryango mugari, harimo n'ibimenyetso byerekeye kuba uwo mwana ari ingimbi cyangwa inkumi.\n\n4. **Umurimo** - Mu muryango umwe n'umwe, guhera mu bwana bwabo, abana bagombaga kwitabira imirimo itandukanye. Impuzu z'ibiti zari zikenewe ngo zibarinde aho gukora hamwe n'ibikoresho.\n\nBirakwiye kwitonderwa ko igihe n'impamvu byo gutangira kwambara impuzu z'ibiti biba bitandukanye cyane bitewe n'umuco, akarere, n'imibereho y'amateka y'abantu. Kurikije ibikenewe n'ibyiyumvo bya buri muryango, abana bashoboraga kwambara mu buryo butandukanye cyangwa gukoresha ibikoresho bitandukanye mu gukora izo mpuzu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Abana kera batangura kwambara impuzu z’ibiti bafise imyaka ingahe? Kubera iki?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -798,7 +1695,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:39:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu muco nyarwanda, kurya mugahinga, bisobanuye kurya ibinyampeke byera mu mirima itariki z’umwihariko ku mwaka mushya, bifitanye isano n’imigenzo n’imiziririzo bya kera byubahaga kandi bigatinya imbaraga z'isi n'imyemerere ku butaka n’umusaruro wabwo. Kubuza abana cyangwa n'abantu mukuru kurya ibinyampeke byera (nk'amasaka, ibigori, n'ibindi) mu mirima mbere yuko bisarurwa n'umuganura wizihizwa, byari bifite impamvu zinyuranye zirimo:\n\n1. **Kubahisha Umusaruro**: Byari ukugira ngo umusaruro wubahwe kandi hirindwa ko wononekara cyangwa ugatakaza agaciro kawo mbere y’igihe. Umuganura wabaga ari umunsi wo kwishimira umusaruro, gushimira abakurambere n'imana z'uburumbuke. Kurya ibinyampeke bishya mbere y'uko uyu munsi ugera byafatwaga nko kutubaha uyu muhango.\n\n2. **Gutinya Kubura Umugisha**: Mu myemerere ya kera y'abanyarwanda, hari ugutinya ko kurya mugahinga byabangamira umugisha ku musaruro ukurikiyeho. Babonaga ko ibikorwa nk'ibyo byashyira mu kaga imvura n'uburumbuke bw'imirima mu mwaka ukurikiyeho.\n\n3. **Gushimangira Imyifatire n'Indangagaciro**: Kudatangira kurya ibinyampeke byera mbere y’umuganura byashimangiraga indangagaciro zirimo kwihangana, kubaha imigenzo ya sosiyete, n’urukundo rwo gusangira. Byafashaga mu gukomeza ubumwe mu bantu, aho ibyiza by’umusaruro byizihizwaga na bose hamwe.\n\n4. **Kurinda Ubuzima**: Mu buryo bw'ubuzima, iyi miziririzo yari inafite akamaro ko kuburira abantu kutarya ibinyampeke bitaruma neza cyangwa bitarabasha gukorwaho n’inzobere mu biribwa, bishobora kuba bitarabaga bisobanutse mu myaka ya kera, ariko bikagira ishingiro mu kwirinda ingaruka ku buzima.\n\nMu gihe ibi byagaragaraga nk’imigenzo n’imiziririzo kuri bamwe, byari bifite imizi mu myemerere, mu mibereho y'abanyarwanda, n'uburyo bwabo bwo gusobanura no guhangana n'ibidukikije n'umusaruro wavaga ku butaka. Uko imyaka yagiye ihita n'ukuntu umuco uhinduka, izi miziririzo zishobora kuba zitarakomeje gukurikizwa cyane nko mu bihe bya kera, ariko zifite umwanya mu mateka n’umuco bya kera by’abanyarwanda."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki cazira ko umwana arya mugahinga ku mwaka mushasha?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -818,7 +1738,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:40:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Umuhango w'umuganuro uba ugamije kwishimira umusaruro, guha Imana icyubahiro ku byo yatanze, no gusaba umugisha ku musaruro utaha. Uyu muhango ufite inkomoko mu muco nyarwanda ndetse n'indi mico itandukanye yo ku isi, aho abantu bahurira hamwe bagasangira umusaruro wabo, bagashimira, kandi bagasaba imigisha y'ahazaza.\n\nKu bijyanye n'igikorwa cyo guhonyora abantu n'inka zishotse kunywa amazi nk'igice cy'umuhango w'umuganuro, bisaba kwibuka ko imigenzo n'imihango bijyanye n'umuganuro bikunze gutandukana bitewe n'akarere n'umuco w'ahantu. Ubusobanuro bw'iyi ngingo bushobora kuba butandukanye cyane bitewe n'umuco, inkomoko, n'ubusobanuro bwatanzwe mu bihe bitandukanye n'abantu batandukanye.\n\nGusa muri rusange, mu muco nyarwanda, inka zifite agaciro kanini kandi zifatwa nk'ikimenyetso cy'ubukungu, umugisha, n'icyubahiro. Inka zishobora kandi gushyirwa mu mihango itandukanye yerekana ibyishimo, guhuza umuryango, no gusangira umugisha.\n\nKu birebana no \"guhonyora\" abantu mu muco nyarwanda cyangwa mu y' andere mico, iki gikorwa gishobora kugira ibisobanuro bitandukanye, birimo gukina, ibirori, cyangwa kugaragaza umuco. Hari igihe kandi gishobora gutanga isomo rya morali cyangwa ritanga ubutumwa burebana n'ubufatanye, guca bugufi, cyangwa kubaha ibintu bimwe.\n\nNiba uyu muhango wihariye wo guhonyorwa n'inka zishotse kunywa amazi uri gukorwa mu muryango runaka, bishobora kuba bifite igisobanuro cyihariye muri uwo muryango cyangwa agace runaka, gishobora kuba gifite inyigisho cyangwa akamaro kihariye mu muco wabo. Kubera ko imigenzo y'umuco igenda ihinduka kandi ifite amasura menshi, ni ngombwa kuganiriza abantu b'aho kugira ngo umenye neza ibisobanuro n'ubusobanuro bwa yo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki ku munsi w'umuganuro hari abantu bo mu muryango umwe bahonyorwa n'inka zishotse kunywa amazi?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -838,7 +1781,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:41:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Kuguma nta ruvyaro ni ingorane ikomeye ishobora kwibasira imitima y’abashakanye, ikabatera agahinda, amakenga, ndetse n’amakimbirane mu rugo. Iyo abashakanye bahuye n’iki kibazo, hari intambwe bashobora gukurikiza kugira ngo bagerageze kubona umuti w’ikibazo cabo. Dore bumwe mu buryo bw’ibanze bushobora kubafasha:\n\n### 1. Gusuzumisha Ubuzima\n- **Gusura muganga**: Ni ngombwa ko abashakanye babanza gusuzumisha ubuzima kugira ngo barebe ko nta kibazo na kimwe cya gihingwa cyangwa kibazo cya muganga gihari kibabuza kuronka uruvyaro.\n- **Gukoresha ibizamini**: Hakorerwa ibizamini bibiri; icyo ku mugabo (sperm count) n'icyo ku mugore (imyanya y'imbere ngo hamenyekane ko ntakibazo na kimwe cya biologically kibangamiye).\n\n### 2. Kwivuza\n- **Gutera inkunga urubyaro**: Hari uburyo bwinshi bwo gutera inkunga urubyaro, nk’ivuriro ryo kubyara, guhuza urusoro n’intanga mu buryo bw’ubuhanga (IVF), n’ubundi buryo.\n- **Imiti**: Iyi ni imwe mu nzira iryoheye abashakanye. Muganga ashobora gutanga imiti ishobora gukemura ibibazo byo kubyara.\n\n### 3. Kwisunga Inama\n- **Kwegera abajyanama mu mibereho**: Kuganira n’abajyanama mu mibereho cyangwa mu buzima bwo mu mutwe kugira ngo bagufashe gucunga amarangamutima yawe muri iki gihe.\n- **Kuganiriza umuryango n’inshuti**: Kuganira n’abantu muba mwizerana bishobora kugabanya umutwaro w’agahinda muba mwifitemo.\n\n### 4. Uburyo Bwunganira\n- **Kwakira gufata umwana utari uwawe (adoption)**: Ni igikorwa cyo guhitamo umwana utari uw'amaraso yawe, ukamugira uwe.\n- **Gufasha mu kwita ku bana**: Gufasha abandi bana mu miryango cyangwa ibigo by’impfubyi bishobora kandi kuzuza umunezero mu buzima bw’abashakanye.\n\n### 5. Kubitaho no Kwihangana\n- **Kwitaho umubano w'abashakanye**: Ni byiza guhora mwibutsanya ko urukundo hagati y'abashakanye rukomeye kandi ko hari ubundi buryo bwinshi bwo kubaka umuryango.\n- **Gushikama no kwihangana**: Kubura urubyaro ni ikigeragezo gisaba kwihangana no gukomera mu byiyumvo.\n\nMu gusoza, ni ingenzi kumenya ko buri murongo cyangwa inzira ifatwa igomba kuba ishingiye ku nama n'ibitekerezo bya muganga w’umwihariko. Hari igihe gusubira ku muganga bikenewe kugira ngo habeho kujyanisha neza n’ikoranabuhanga rigezweho mu buvuzi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kera iyo abubakanye babuze uruvyaro babigenza gute?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -858,7 +1824,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:42:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Amasaka yakoreshwaga cyangwa agikoreshwa ku muganuro cyangwa ibirori gakondo muri Afurika y'iburasirazuba, cyane cyane mu Rwanda, afite icyo asobanuye kinini mu muco n'imirire y'abanyarwanda. Kubera iyo mpamvu, kuyarinda inyoni ni ingenzi kugira ngo habungabungwe umusaruro uko bikwiye bitewe n'impamvu zikurikira:\n\n1. **Kwirinda igihombo**: Amasaka ni igihingwa gifite agaciro gakomeye mu mibereho y'abanyarwanda, aho akenshi akoreshwa mu gukora ibinyobwa gakondo nk'inkangaza na sorgho beer (ikigage). Kubera ko aya masaka ari ingenzi mu birori n'imihango itandukanye, harimo n'umuganuro, kuyarinda inyoni bituma igihombo kitaba mu musaruro wagombaga kuboneka kandi ukanakoreshwa mu myiteguro y'imihango.\n\n2. **Uburemere bw'umuganuro**: Umuganuro ni umuhango ukomeye wo gushima no gusaba imigisha y'umwaka utaha mu rwego rw'imyaka n'ibindi bihingwa. Gukoresha amasaka adafite ubusembwa cyangwa yangiritse bituma uyu muhango ugira uburemere n'agaciro kawo, kinesha ko ari andi matora y'abaturage mu gukoresha amasaka ameze neza atarangiritse cyangwa ngo ye kurywa n'inyoni.\n\n3. **Ishusho y'ubukungu n'uburumbuke**: Amasaka meza ataribwe n'inyoni asobanura umusaruro mwinshi, ubukungu, n'uburumbuke mu miryango. Kuva na kera, kugira umusaruro mwinshi byafatwaga nk'ikimenyetso cy'umugisha, bityo kurinda amasaka inyoni byari n'uburyo bwo kwerekana ko umuryango ufite ubushobozi bwo kubyaza umusaruro ubutaka bwabo bityo bakagira amahoro na prosperity.\n\n4. **Kurinda ibinyabuzima biciriritse**: Nubwo inyoni zishobora kuba intungamubiri ku masaka, kuzirinda kurya ku musaruro wateganyijwe ku mihango yo ku rwego rwo hejuru nk'umuganuro biba ari ingenzi. Ibi bikorwa mu buryo bwo kurinda umusaruro ariko nanone hategurwa uburyo bwo kubungabunga no kurinda ibinyabuzima biciriritse, haba mu gukoresha ubundi buryo bwa gakondo mu kurinda amasaka kugira ngo hatagira icyo abantu n'inyamaswa bikururira cyangwa ngo bigire icyo bihombya.\n\nKurinda amasaka yagenewe umuganuro cyangwa ibindi birori bituma umuco ukomeza guhabwa agaciro kandi umusaruro ukoreshwa muri byo ukarushaho kuba mwiza kandi ukubiyemo uburumbuke n'umugisha w'imiryango nk'uko umuco ubiteganya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki amasaka azokoreshwa ku muganuro bayarinda kugira inyoni ntiziryemwo ishaka na rimwe kugeza bayakuye mu murima?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -878,7 +1867,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:43:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Amasanganya y’imodoka mu bihugu bitandukanye ashobora guterwa n’impamvu zitandukanye, zimwe muri zo zikunze guhurirwaho hirya no hino ku isi. Dore zimwe mu mpamvu zishobora kubitera:\n\n1. **Umuvuduko ukabije:** Gukoresha umuvuduko uruta uwemewe ku muhanda ni kimwe mu bitera amasanganya menshi. Abashoferi benshi bananirwa guk control imodoka igihe bari ku muvuduko mwinshi.\n\n2. **Ubumenyi buke bwo gutwara imodoka:** Bamwe mu bashoferi baba batarahawe amahugurwa ahagije mu bijyanye no gutwara imodoka neza, cyangwa bateshuka ku mategeko n’amabwiriza byo ku muhanda.\n\n3. **Gutwara basinze cyangwa bakoresha ibiyobyabwenge:** Iki ni kimwe mu bitera amasanganya akomeye ku muhanda. Alcool n'ibiyobyabwenge bigabanya ubushobozi bwo kugenzura neza imodoka no gufata ibyemezo byihuse.\n\n4. **Imihanda mibi:** Imihanda idasanwe, ifite ibyobo, cyangwa itagira ibimenyetso bihagije bishobora guteza impanuka.\n\n5. **Ikoreshwa rya telefone igendanwa mu gutwara:** Gutwara uvugira kuri telefone, cyangwa ukora ibindi bintu bisaba kuyikoresha bigabanya umakenga wo kubona neza ibibera ku muhanda.\n\n6. **Imodoka zidakorewe isuzumwa rya tekinike:** Imodoka zishaje cyangwa zitagenzurwa neza zishobora gutera amasanganya bitewe n’ibibazo bya mekanike.\n\n7. **Ibiza n’ibihe by’ikirere:** Kubura ubumenyi cyangwa uburangare mu bihe by’imvura nyinshi, ibihu, cyangwa ibindi biza by’ikirere bishobora kongera ibyago by’impanuka.\n\n8. **Umuvundo w’imodoka mu mihanda:** Umuvundo ukabije ushobora gutera abashoferi gufata ibyemezo bibi nko guca mu nzira zitemewe cyangwa gukoresha umuvuduko udakwiriye mu rwego rwo kugerageza kugabanya igihe gito.\n\nUkurikije ibi bivuzwe, gukemura ikibazo cy’amasanganya y’imodoka bisaba ubufatanye bw’inzego za leta, imiryango itegamiye kuri leta, abikorera n’abaturage muri rusange mu guteza imbere umuco wo kubaha amategeko y’umuhanda, kongera ibikorwa remezo by’imihanda, gukora ubukangurambaga ku mutekano wo mu muhanda, no gukaza amategeko y'umuhanda hamwe n’ibihano ku bayica."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki amasanganya y’imodoka ari menshi mu gihugu?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -898,7 +1910,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:44:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Abantu banyuruzwa mu Burundi kubera impamvu zitandukanye, kandi ibi bibazo biterwa n'ihindagurika ry'ibihe na politiki mu gihugu. Mu myaka yashize, Burundi bwabaye mu bihe bya politiki bitari bimwe, ari na byo ntandaro y'umutekano muke, ihungabanywa ry'uburenganzira bwa muntu, n'ibikorwa by'ubunyuruzi bw'abantu. Dore zimwe mu mpamvu z'ingenzi zitera ubunyuruzi bw'abantu mu Burundi:\n\n1. **Amakimbirane ya Politiki na Gisirikare:**\n   Burundi bwaranzwe n'ibibazo bya politiki n'intambara za gisirikare mu myaka yashize, ibi bikaba byaratumye habaho umutekano muke, guhunga kw'abaturage, no kuba abantu benshi baba mu bukene bukabije. Aya makimbirane akenshi atuma habaho ibikorwa byo kunyuruza abantu, haba mu gushimuta abatavuga rumwe na leta cyangwa abagaragaje ibitekerezo bya politiki bitavugwaho rumwe, abo mu miryango ibarwanya, n'abandi bashobora kubona nk'abatavuga rumwe n'ubutegetsi.\n\n2. **Ubukeneye bw'Abakozi mu Mahanga:**\n   Mu Burundi, nk'uko bimeze no mu bindi bihugu byinshi bifite ubukungu buciriritse, abantu benshi barashaka amahirwe y'akazi ahandi, ari nabyo bituma bamwe mu baturage bashobora kugwa mu mutego w'ababizeza akazi hanze y'igihugu. Bashobora nyuma kubona bari mu maboko y'abitwaza intwaro cyangwa abantu b'abanyabyaha babashora mu bikorwa by'uburetwa, ubucakara bwo mu ngo, inganda z'ubusambanyi, cyangwa ibindi bintu biteye inkeke.\n\n3. **Ubukene n'Imibereho Mibi:**\n   Ubukene bukomeye burangwa mu bice byinshi by'igihugu bituma abaturage, cyane cyane urubyiruko, bashakisha uburyo bwose bwo kwiteza imbere. Ibi bituma bamwe mu baturage bagwa mu mitego y'abanyuruzi bubakangurira kubaha akazi cyangwa amahugurwa mu mahanga, ariko bakisanga mu bikorwa by'icuruzwa ry'abantu.\n\n4. **Ubutabera Bucye bw'Ibihano ku Banyereza Abantu:**\n   Akenshi, abakoze ibyaha byo kunyuruza abantu ntibahanwa nk'uko bikwiye, ibi bikabatera gukomeza ibikorwa byabo bidahana kubera kudatinya ingaruka. Ubwumvikane buke mu bijyanye n'ubutabera n'ubutabera butinze nabyo bikomeza guha urwaho iki kibazo.\n\nLeta y'u Burundi n'amashyirahamwe mpuzamahanga akorera muri iki gihugu, nka Loni, bamaze igihe bagomba gufatanya mu rugamba rwo guhangana n'iki kibazo, harimo no gutanga ubufasha ku bahuye n'icuruzwa ry'abantu, no gukaza amategeko ahana uwo ari we wese ufatanywe icyaha cyo kunyuruza abantu. Hari n'ibikorwa by'imishinga yo kuzamura imibereho y'abaturage nko gutanga amahugurwa y'umwuga n'ibikorwa byo kubaka amashuri n'ibitaro mu rwego rwo kurwanya impamvu zituma abantu banyuruzwa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki abantu benshi banyuruzwa mu Burundi?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -918,7 +1953,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:45:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Kubona umukuru w'igihugu adafite indege ye bwite ishobora guterwa n'impamvu zitandukanye, kandi ibi bikaba bitandukanye bitewe n'igihugu ku kindi. Ku bijanye n'Uburundi, impamvu zishobora gutuma Umukuru w'igihugu atagira indege ye bwite yifashisha mu ngendo zakwirikira.\n\n1. **Ubukungu bw'igihugu:** Imwe mu mpamvu zishoboka ni ubushobozi bw'ubukungu bw'igihugu. Gutunga no gukomeza indege ya Perezida bisaba amafaranga menshi yaba mu kugura, gukoresha no gufata neza iyo ndege. Uburundi bufatwa nk'igihugu kiri mu bihugu bikennye cyane ku isi, bishobora gutuma guhitamo kutagira indege ya Perezida biba igikorwa cyo kugabanya amafaranga y'igihugu yakoreshwa mu bindi bikorwa by'ingenzi bijyanye n'iterambere ry'abaturage.\n\n2. **Ihame ry'ubukene n'ukugabanya imikoreshereze y'amafaranga mu butegetsi:** Hari igihe abategetsi bafata ingamba zo kugabanya ibikorwa bimwe na bimwe by'ubutunzi nk'ikimenyetso cyo gukorera mu mucyo no kwirinda gusesagura. Ibi bishobora gufatwa nk'uburyo bwo kurushaho kwereka abaturage ko butegetsi buhangayikishijwe n'ikoreshwa neza ry'umutungo w'igihugu.\n\n3. **Gukodesha indege igihe zikenewe:** Gukodesha indege mu gihe cy'ingendo z'umukuru w'igihugu gishobora kuba igisubizo gifatika mu kugabanya amafaranga yakoreshwa mu gutunga no gufata neza indege yihariye. Ibi bishobora kumvikana nk'uburyo bwiza bwo gukoresha neza umutungo w'igihugu, kuko indege ikoreshwa gusa igihe hakenewe.\n\n4. **Imyitwarire y'abategetsi b'igihugu:** Bishoboka ko kuba Umukuru w'igihugu yipakiza nk'abandi baturage baba bagiye hanze y'igihugu, byaba biri mu rwego rw'imyitwarire n'imigenzereze igamije kwerekana ko ari umuyobozi uhuje n'ubuzima bw'abaturage basanzwe, cyane ko abenshi mu baturage ba Uburundi babaho mu buzima bwo hasi hashingiye ku mutungo.\n\nMu gusoza, nubwo izi mpamvu zishobora gutanga ishusho y’impamvu umukuru w’igihugu c'Uburundi ashobora guhitamo kudatunga indege ye bwite, ni byiza kumenya ko ibi bishobora guhinduka bitewe n'ubushobozi bw’igihugu n’ubuyobozi buriho n'icyerekezo bafite."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki Umukuru w’igihugu c’uburundi atagira indege, iyo afashe ingendo yipakiza nk’abandi?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -938,7 +1996,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:46:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Amahera y’igihugu imwe muri zimwe mu ntambanyi zikomeye ku butunzi bw'ico gihugu. Ku bijanye n'Uburundi, katakamotoka k'agaciro k'idorari ry'amarundi gashobora gufatwa nk'ikimenyetso c'ibibazo bitandukanye bijanye n'ubutunzi bwa politike hamwe n'ibibazo vy'umutekano, vyagize ingaruka ku butunzi bw'ico gihugu mu myaka iheze. Naho bishobora guhinduka, hari impamvu z'ingenzi zishobora gutuma amahera y’Uburundi, canke ifaranga ry'amarundi, aguma ata agaciro birenze. Izimwe muri izo mpamvu zirashobora kuba zikurikira:\n\n1. **Ubukene bw'ivunjwa ry'ibidandazwa**: Uburundi bwaranzwe n'ubukene bw'ivunjwa riboneka mu bidandazwa bija hanze. Ifaranga ry’igihugu rishobora gutakaza agaciro igihe igihugu kidashobora kwinjiza amahera y’amafaranga y’amanyamahanga binyuze mu kudandaza ibidandazwa hanze.\n\n2. **Ubutegetsi bw’igitugu na politike**: Ihungabana rya politike n’ubutegetsi bw’igitugu birashobora gutuma abanyamitahe b'abanyamahanga batinya gushora imari mu gihugu, bikagabanya uruja n'uruza rw'ifaranga ry'agacoko ku masoko mpuzamakungu.\n\n3. **Ibibazo vy’umutekano**: Ingaruka z’ibibazo vy’umutekano muke nazo zirashobora gutuma haba ihungabana mu bukungu, bigatuma ifaranga ry’igihugu ritakaza agaciro.\n\n4. **Ubukene bw'amadeni hanze n'urugero rw'amafaranga y'agaciro karenga**: Ushobora kugera aho ubukene bw’amadeni hamwe n'agaciro karenga k'ifaranga vyotuma habaho ihindagurika ry'agaciro k'idorari ry'amarundi mu masoko mpuzamakungu.\n\n5. **Ingingo za banki nkuru y’igihugu zitajanye n’igihe**: Ingingo zitajanye n’igihe zifatwa na banki nkuru y'igihugu, nk'ugukwiragiza amafaranga menshi mu butunzi, nazo zirashobora gutuma ifaranga ridakomeye.\n\n6. **Ubucuti buke n'amakungu**: Igihugu gifitaniye ubucuti buke hamwe n'amakungu bishobora kugira ingaruka kuri kahise k'uwo mwanya n'iterambere ry'ejo hazoza mu vy'ubutunzi, bigatuma amakungu asaba ibihano vy'ubutunzi bishobora kugira ingaruka mbi ku gaciro k'ifaranga.\n\nKugira ngo agaciro k'ifaranga ry'Uburundi ribe rikomeye, hakenewe intambwe z'ukugene ubutunzi bw'igihugu bwarushaho kuzamura urwego rw'ubudandaji mpuzamakungu, gukomeza itunganywa rya politike na demokarasi, kunagura ibidukikije vy'ubudandaji kugira ngo bishobore kuresha abanyamitahe b'abanyamahanga, hamwe no gukomeza ingamba zo gutunganya neza ubutunzi hamwe n'ifaranga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki amahera y’Uburundi aguma ata agaciro birenze?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -958,7 +2039,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:47:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu Burundi, ibibazo bijanye n'ihohoterwa rya kiremwa muntu, kunyuruza abantu, ubwicanyi, hamwe n’iyicarubozo, bikomeje kugaragara nk’ibibazo bikomeye vyugarije igihugu. Impamvu zituma abanyagihugu bahura n'ibi bibazo ziratandukanye kandi zirashobora kuba zirimo ibi bikurikira:\n\n1. **Intambara za Politiki**: Mu Burundi, ibibazo bya politike ni bimwe mu bituma habaho kunyuruza no kwica abantu. Ibi bishobora gukorerwa abatavuga rumwe n’ubutegetsi, abanyapolitiki batavuga rumwe n'ishyaka riri ku butegetsi, n'abandi bantu bashobora kuvugwa ko ari abanywanyi b'amashyaka atavuga rumwe n'ubutegetsi.\n\n2. **Ibibazo by’Uburenganzira bwa Muntu**: Ibihugu mpuzamahanga n’imiryango iharanira uburenganzira bwa muntu bamaganye kenshi ihohotera rikorwa na leta y’u Burundi cyangwa imitwe ishigikiye ubutegetsi, iri hohotera rikaba rigamije gutera ubwoba no gucecekesha abatavuga rumwe na leta.\n\n3. **Ubusugire bw’Uburenganzira bw’Itangazamakuru**: Abamenyeshamakuru mu Burundi baguma bahura n'ihohoterwa, ifungwa, ivangura, no kunyuruzwa. Bamwe baricwa bazira akazi kabo ko guhishura ukuri kw'ibiriko biraba mu gihugu.\n\n4. **Ikibazo cy'Ubutabera Burangwa n'Ibitaziguye**: Abanyagihugu benshi bashobora gufatwa ntibagezwe imbere y’ubutabera cyangwa bakaburana mu buryo butubahirije uburenganzira bwabo bwo kwiregura, bigatuma umuco wo kudahana ukomeza kuba ikibazo.\n\n5. **Amakimbirane ashingiye ku moko namoko na politike**: U Burundi bufite amateka maremare y’amakimbirane ashingiye ku moko na politike. Ibi bishobora gutuma haba ihohoterwa rigamije gutoteza canke kwikiza abo mu bwoko canke mu gatsiko ka politike kabonwa nk'umwanzi.\n\nIzi ni zimwe mu mpamvu z’ingenzi zishobora gutuma abanyagihugu banyuruzwa bakanicwa mu Burundi. Ni ngombwa ko habaho imbaraga zihuje z'ibihugu byo mu karere, imiryango mpuzamahanga, na leta y'u Burundi ubwayo, mu gushakira umuti urambye ibi bibazo by’ihohoterwa rya kiremwa muntu no kugarura amahoro arambye mu gihugu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Abanyagihugu baguma banyuruzwa bicwa mu Burundi bazira iki?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -978,7 +2082,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:48:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Hari impamvu nyinshi zatumye tuba duheba gukoresha imiti kama (cyangwa imiti gakondo) mu buryo bwagutse, ariko tugahitamo imiti ya kizungu. Zimwe muri izo mpamvu ni izi zikurikira:\n\n1. **Ubushakashatsi n’Iterambere Rigezweho**: Imikorere y’imiti ya kizungu iriho ubu yemejwe binyuze mu bushakashatsi bwimbitse burimo igerageza ryakorewe ku bantu, ibi bituma habaho icyizere cyinshi cy’ubuziranenge n’ubushobozi bwayo bwo kuvura indwara zitandukanye. Ni mu gihe imiti kama rimwe na rimwe itahabwa agaciro kanini mu rwego mpuzamahanga kubera kubura kwayo kw’ubushakashatsi bushingiye ku mibare nyayo n’ibimenyetso by’ubushakashatsi.\n\n2. **Ubwoko bw’Indwara**: Indwara zihindura isura uko ibihe bihita, bimwe mu bitera indwara n’ubwoko bw’indwara ubwabyo biri guhinduka, bityo bisaba uburyo bugezweho bwo kubivura. Imikorere iriho y’ubuvuzi bw’iyo miti ya kizungu yubatswe ku guhangana n’izi mpinduka, naho imiti kama ishobora kutaba ifite ubwo bushobozi.\n\n3. **Umuvuduko w’Ivura n’Ubushobozi**: Imwe mu miti ya kizungu ifite ubushobozi bwo gutanga ibisubizo vuba kandi birambye mu kuvura indwara, binyuranye n’imiti kama ishobora gufata igihe kirekire igaragaza umusaruro. Ibi bishobora kuba byaratijwe umurindi n’imirongo y’imibereho y’abantu muri iki gihe ifite umuvuduko n’ukuntu bashaka ibisubizo byihuse.\n\n4. **Imyumvire n'Amateka**: Mu myaka yashize, imiti kama yagiye ibonwa nk'iy'abantu bo mu byaro cyangwa abatuye mu duce twitaruye. Ibi byagiye bituma imiti gakondo idahabwa agaciro kangana n'agahabwa ubuvuzi bwa kizungu, bigatuma ubuhanga bwayo butitabwaho n’ubushakashatsi mpuzamahanga nk’ubwo mu miti ya kizungu.\n\n5. **Ubuziranenge n’Ubuzima**: Hari impungenge zijyanye n’ubuziranenge bw’imiti kama no kuba itagenzuwe neza nk’uko imiti ya kizungu igenzurwa. Ibi bituma abantu batinya gukoresha imiti batazi neza ingaruka zayo mu gihe kirekire cyangwa ukuntu yahuzwa n’indi miti.\n\nNyamara, ni ingenzi kuvuga ko imiti kama igifite umwanya wayo mu buvuzi bw’ikirenga kandi iri guhabwa agaciro kongeye nko mu buvuzi bwunganira (complementary medicine) na farumasi, aho ibikomoka ku bimera biri gukoreshwa mu gukora imiti ivura indwara zimwe na zimwe. Hari n’aho ubushakashatsi burebera hamwe imiti ya kizungu n’imiti kama mu rwego rwo kuvumbura inzira nshya zo kuvura."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni Kubera iki twahevye gukoresha imiti kama kandi yaravura indwara nyinshi?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -998,7 +2125,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:49:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ingwara y'ukubura canke ukugabanuka kw'umuyagankuba mu Burundi ishingiye ku mvo nyinshi, n'ubwo igihugu gifise ibiyaga vyinshi. Ubudumbidumbi bw'umuyagankuba mu Burundi bushobora gusigurwa biciye ku bintu bikurikira:\n\n### 1. Gukoresha nabi amasoko y'amazi\n\nNubwo Burundi bufise ibiyaga vyinshi, gukoresha neza ayo masoko y'amazi mu vy'ukuri guhingura umuyagankuba si ivyigwa vyitabweho cane. Gukora ibikorwa remezo bifasha gutunganya umuyagankuba biva mu mazi bisaba ishoramari rinini, hamwe n'ubuhinga bugezweho mu bijanye n'ubuhinga bwo kubaka no gucunga izo ngomero.\n\n### 2. Ubutunzi bw'igihugu\n\nBurundi ni kimwe mu bihugu bikenye kw'isi, ivyo bituma kutagira ubushobozi bukwiye bwo gushora imari mu bikorwa vyo guhingura umuyagankuba canke gukora ibikorwa remezo bikomeye. Uruhagarara rwa politike hamwe n'ibibazo vy'umutekano mu myaka iheze vyaragabanyije ishaka ry'abashoramari b'abanyamahanga.\n\n### 3. Iyongerekana ry'abanyagihugu\n\nUkwo abanyagihugu barushiriza kwiyongera mu Burundi bituma ivyipfuzo vy'umuyagankuba birushiriza kwiyongera kurusha uko isoko rishobora gutanga. Ibi vyongereza ikibazo co kubura umuyagankuba mu gihugu.\n\n### 4. Kwisunga umuyagankuba uva mu bindi bihugu\n\nBurundi bumwe mu buzi bwarisunze umuyagankuba uva mu bihugu bibanyi nk'u Rwanda na Repubulika Iharanira Demokarasi ya Kongo, ariko ibi ntabwo ari igisubizo kirama kuko ivyo bihugu navyo nyene bishobora guhura n'ibibazo vy'umuyagankuba.\n\n### 5. Ibibazo vy'ikirere\n\nIhindagurika ry'ikirere ryagize ingaruka ku biyaga n'uruzi rw'igihugu, rimwe na rimwe bikagabanya inguvu z'umuyagankuba zoshobora gutangwa n'izo soko z'amazi. Amazi make canke ayasigaye mbere y'uko atunganywa ashobora kutemerera ingomero gukora ku rugero rukwiye.\n\n### Umwanzuro\n\nKugira ngo Burundi bushobore gukemura ikibazo c'umuyagankuba, harakenewe ishoramari ridasanzwe mu bikorwa remezo vyo guhingura no gutanga umuyagankuba, gushigikira amashirahamwe y'abikorera ivyabo mu gisata c'inguvu, no gushira mu ngiro ingamba zijanye n'ihindagurika ry'ikirere. Hari n'ibisabwa kwitaho guhimiriza amashirahamwe mpuzamakungu n'ibindi bihugu mu gushigikira ivyo bikorwa, kandi gufata ingingo zituma igihugu gikoresha neza amasoko yaco y'amazi n'andi masoko y'inguvu zisubira."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki uburundi ata muyagankuba ukwiye bufise kandi bufise ibiyaga vyinshi?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -1018,7 +2168,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:50:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Impamvu umwami yoba afise abagore mu turere twinshi tw’igihugu zirashobora gutandukana bitewe n'umuco, amateka, politiki na sosiyete y'ico gihe. Nk'uko vyagiye biraboneka mu mateka y'ibihugu bitandukanye, hari impamvu zimwe z'ingenzi zatumye umwami ashobora kugira abagore mu turere dutandukanye tw'igihugu:\n\n1. **Gushimangira Ubumwe Bw'Igihugu:** Mu bihe vy'ubwami, gukomeza ingo z'ubwami mu turere dutandukanye vyari uburyo bumwe bwo gushimangira ubumwe bw'igihugu. Kugira abagore mu turere twinshi vyatumye hakomezwa imigenderanire n’ubucuti hagati y'ubwami n’utwo turere, bigatuma igihugu gikomera.\n\n2. **Gutera Imbere kwa Politike:** Kugira abagore mu turere dutandukanye vyari uburyo bw’umwami bwo kugira imigenderanire myiza n'abatware b'utwo turere. Hari igihe vyakoreshejwe nk'uburyo bwo gukomeza amasezerano y'ubufatanye cyangwa amahoro hagati y'ubwami n'utwo turere.\n\n3. **Urwego Rw’Imibereho n’Ubukire:** Mu bihe vy'ubwami, umwami ni we yari afise ubukire n'ububasha bwo kurongora abagore benshi kubera ko yashobora kubatunga. Kugira abagore mu turere dutandukanye vyerekana ubukire, ububasha, n'ivyo umwami ashoboye.\n\n4. **Ukwiyongera k'Umwami:** Ukwiyongera kw'umwami mu bagore mu turere dutandukanye kwatumye yongera abana be, bikaba vyarafashije mu gukwirakwiza umuryango w’ubwami mu gihugu cose, bikomeza kandi ishusho y’ubwami mu abahezagirwa n’ubwo bwami.\n\n5. **Imigenzo n’Umuco:** Mu mico imwe n’imwe, hari ho imigenzo n'imico ivuga ko umwami agomba kugira abagore benshi nk'ikimenyetso c’inganji yiwe n’ubushobozi bwo kurondoka kw'igihugu. Ivyo vyashobora kujana no kugira abagore mu turere dutandukanye dukize.\n\nMu gusozera, impamvu zituma umwami yoba afise abagore mu turere twinshi zirashobora kuba zifise imvo za politike, ubukungu, umuco, canke ivy'inganji z'ubwami. Kuri ubu, izo nyifato ntizikigenderwa muri sosiyete nyinshi zigezweho, aho ihame ry’ukugendera ku mategeko y'uburenganzira bw'ikiremwa muntu n'ukuringaniza kuba mu mibereho y'abantu ryateye imbere."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki umwami yaba afise abagore mu turere twinshi tw’igihugu?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -1038,7 +2211,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:51:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Amasezerano yo kwakwa akarere ka Bugufi, azwi cyane nka \"Treaty of Trianon,\" yasinyiwe ku itariki ya 4 Kamena 1920. Aya masezerano yari agamije gusubiza ibibazo by’imipaka n’ubusugire bwa leta byatewe n’Intambara ya Mbere y’Isi, akaba yarayobowe kandi ashyirwaho umukono n’ibihugu byatsinze intambara birimo cyane cyane Amerika, Ubwongereza, Ubufaransa, na Italia, hamwe n’ibihugu byatsinzwe muri iyo ntambara, aha tukavuga cyane cyane Hungari.\n\nIcyakora, \"akarere ka Bugufi\" ntikaragaragara mu mateka y'amasezerano y'ingenzi yasinywe nyuma y'intambara, bishoboka ko washakaga kuvuga ingaruka z'Amasezerano ya Trianon ku bihugu byo muri ako karere, cyane cyane Hungari. Aya amasezerano yagabanyije ubuso bwa Hungari hafi ya ⅔ biyigira igihugu gito cyane ugereranyije n’uko cyari kimeze mbere mu Bwami bwa Austro-Hungari. Yateye kandi kuva mu gihugu imiryango irenga miliyoni itatu y'Abahungari, babaga mu bice byatanzwe ku bindi bihugu. Ibi byatewe ahanini no kugerageza gushyiraho imipaka ishingiye ku moko yabantu mu Burayi bwo hagati, mu gihe cyo kongera gushyira ibintu mu buryo nyuma y'isozwa ry'intambara.\n\nImpamvu y’ingenzi y’amasezerano nk'aya, harimo no kugerageza gukumira ko habaho indi ntambara nk’iyi mu Burayi. Igitekerezo cyari uguha buri muryango w’abantu uburenganzira bwo kwigenga no kubaho mu gihugu kirimo abenshi muri bo, ariko bikozwe mu buryo butakaje ibihugu byatsinzwe ubusugire bwinshi. Ibi, hamwe no kubaka amahoro arambye mu Burayi, byari intego z’ibihugu byatsinze. Ariko, inzira yo kubigeraho, nko gucagagura Hungari n’ibindi bihugu byo mu karere, yavuyemo andi makimbirane n’akababaro gakomeye mu bihe byakurikiyeho."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Amasezerano yo kwakwa akarere ka Bugufi yasinyiwe na ba nde? Ryari? Kubera iki?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     },
     {
       "question": {
@@ -1058,7 +2254,30 @@
           }
         }
       },
-      "answers": []
+      "answers": [
+        {
+          "name": "kirundi:52:language.kirundi:gpt 4",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Umugabo wemeye kwigura umwami Mwezi Gisabo yitwa Bishikira. Mu gihe cy'urugamba rwo ku Rucunshu, mu mwaka wa 1852, igihe umwami Mwezi Gisabo yari mu kaga gakomeye ko gufatwa n'abanzi be, Bishikira yemeye kwitanga agafatwa mu cyimbo cye, kugira ngo umwami abashe guhunga. Ibi byatumye Mwezi Gisabo yongera gutora agatege, akaza no gutsinda urwo rugamba.\n\nBishikira, wari uzwiho kuba indahemuka cyane kuri Mwezi Gisabo, yafashe icyemezo cyo kwitanga kubera ubudahemuka bwe bukomeye ku mwami we. Iyi ntwari yahisemo kwitanga idashingiye ku giti cye gusa, ahubwo ku nyungu rusange z'igihugu cye n'umwami we. Nyuma yo gufatwa n'abanzi afite umugambi wo kurokora Mwezi Gisabo, ntibyagaragaye neza mu mateka ibyakurikiyeho byabayeho kuri Bishikira, ariko igikorwa cye cy'ubutwari cyaharaniye umutekano w'umwami n'igihugu cye cyaramamaye.\n\nIbi byabaye mu mateka y'u Burundi, igihugu gitunze umuco w'ubwami bwahozeho mu Karere k'Ibiyaga Bigari. Mwezi Gisabo yibukwa nk'umwe mu bami b'ingenzi mu mateka y'u Burundi kubera uburyo yahanganye n'abakoloni, cyane cyane Abadage, agerageza kubungabunga ubwigenge bw'igihugu cye mu bihe bigoye by'ubukoloni. Ibikorwa by'ubutwari nk'ibi, aho abantu bahaye agaciro inyungu rusange zirenze kure izabo bwite, bigize igice kitazibagirana cy'amateka y'ibihugu n'imico y'abantu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umugabo yemeye kwigura umwami Mwezi Gisabo yitwa gute? Hari habaye iki?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 1.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        }
+      ]
     }
   ]
 }
