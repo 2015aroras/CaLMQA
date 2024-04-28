@@ -7,7 +7,7 @@ from pathlib import Path
 from models.model import Model, ModelName, PromptingState
 from tqdm import tqdm
 
-from mlfqa.dataset import Dataset, Question, QuestionTranslation, QuestionType
+from mlfqa.dataset import AnswerTranslation, Dataset, Question, QuestionTranslation, QuestionType
 from mlfqa.language import Language
 
 
@@ -52,10 +52,6 @@ def _translate_and_store(  # noqa: PLR0913
     overwrite_existing: bool = False,
     save_progress: bool = True,
 ) -> None:
-    if translate_answers:
-        msg = "Answer translation not yet implemented"
-        raise NotImplementedError(msg)
-
     for question in tqdm(questions, desc=f"Translating using {model.name}"):
         q_language = question.language
 
@@ -66,8 +62,7 @@ def _translate_and_store(  # noqa: PLR0913
             if translate_questions and (
                 target_lang not in question.translations or overwrite_existing
             ):
-                original_translation = question.translations[q_language]
-
+                # Use human answer as context
                 human_answers = dataset.get_answers(
                     question,
                     q_language,
@@ -79,7 +74,7 @@ def _translate_and_store(  # noqa: PLR0913
                 context = human_answers[0].untranslated.text if len(human_answers) > 0 else None
 
                 translated_question, prompting_state = _translate_text(
-                    original_translation.get_text(),
+                    question.untranslated.get_text(),
                     q_language,
                     target_lang,
                     prompt_template,
@@ -93,6 +88,31 @@ def _translate_and_store(  # noqa: PLR0913
                     prompting_state,
                 )
                 dataset.add_or_update_question_translation(question, question_translation)
+
+            if not translate_answers:
+                continue
+
+            answers = dataset.get_answers(question)
+            for answer in answers:
+                if target_lang in answer.translations and not overwrite_existing:
+                    continue
+
+                translated_answer, prompting_state = _translate_text(
+                    answer.untranslated.text,
+                    answer.language,
+                    target_lang,
+                    prompt_template,
+                    model,
+                    context=question.translations[answer.language].get_text(),
+                )
+
+                answer_translation = AnswerTranslation(
+                    target_lang,
+                    translated_answer,
+                    prompting_state,
+                )
+                answer.translations[target_lang] = answer_translation
+                dataset.add_or_update_answer(question, answer)
 
         if save_progress:
             dataset.to_file()
