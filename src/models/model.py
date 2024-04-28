@@ -2,9 +2,8 @@ from __future__ import annotations
 
 import enum
 from abc import ABCMeta, abstractmethod
-from typing import Self
+from typing import Any, Self
 
-from pydantic import ConfigDict
 from pydantic import Field as PyField
 from pydantic.dataclasses import dataclass
 
@@ -22,7 +21,7 @@ class ModelName(enum.Enum):
     XGLM_7_5B = "XGLM 7.5B"
 
 
-@dataclass(frozen=True, config=ConfigDict(extra="allow"))
+@dataclass(frozen=True)
 class PromptingState:
     """State when a model is being prompted.
 
@@ -47,6 +46,22 @@ class PromptingState:
             return OpenAIPromptParameters(**kwargs)
         if model_name in TransformersModel.SUPPORTED_MODELS:
             return TransformersPromptParameters(**kwargs)
+
+        raise NotImplementedError
+
+    @staticmethod
+    def get_discriminator_value(v: Any) -> str:
+        from models.openai_model import OpenAIModel, OpenAIPromptParameters
+        from models.transformers_model import TransformersModel, TransformersPromptParameters
+
+        assert isinstance(v, dict)
+        model_name = ModelName(v["model_name"])
+        if model_name in OpenAIModel.SUPPORTED_MODELS:
+            return OpenAIPromptParameters.__name__
+        if model_name in TransformersModel.SUPPORTED_MODELS:
+            return TransformersPromptParameters.__name__
+        if model_name == ModelName.HUMAN:
+            return PromptingState.__name__
 
         raise NotImplementedError
 

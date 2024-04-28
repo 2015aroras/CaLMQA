@@ -8,11 +8,13 @@ import json
 import logging
 from collections import Counter
 from pathlib import Path
-from typing import TYPE_CHECKING, Any, Self, cast
+from typing import TYPE_CHECKING, Annotated, Any, Self, cast
 
 from models.model import ModelName, PromptingState
+from models.openai_model import OpenAIPromptParameters
+from models.transformers_model import TransformersPromptParameters
+from pydantic import Discriminator, RootModel, Tag, TypeAdapter
 from pydantic import Field as PyField
-from pydantic import RootModel, TypeAdapter
 from pydantic.dataclasses import dataclass
 
 from mlfqa.language import Language
@@ -21,7 +23,12 @@ if TYPE_CHECKING:
     import random
 
 Source = str
-
+PromptingStateAnnotation = Annotated[
+    Annotated[OpenAIPromptParameters, Tag(OpenAIPromptParameters.__name__)]
+    | Annotated[TransformersPromptParameters, Tag(TransformersPromptParameters.__name__)]
+    | Annotated[PromptingState, Tag(PromptingState.__name__)],
+    Discriminator(PromptingState.get_discriminator_value),
+]
 
 logger = logging.getLogger(__name__)
 
@@ -40,7 +47,7 @@ class QuestionType(enum.IntFlag):
 class QuestionTranslation:
     language: Language
     text: str
-    prompting_state: PromptingState | None = PyField(default=None)
+    prompting_state: PromptingStateAnnotation | None = PyField(default=None)
 
     def get_text(self) -> str:
         return self.text
@@ -65,6 +72,7 @@ class Question:
 class AnswerTranslation:
     language: Language
     text: str
+    prompting_state: PromptingStateAnnotation | None = PyField(default=None)
 
 
 @dataclass(frozen=True)
@@ -72,14 +80,14 @@ class Answer:
     name: str
     language: Language
     translations: dict[Language, AnswerTranslation]
-    prompting_state: PromptingState | None = PyField(default=None)
+    prompting_state: PromptingStateAnnotation | None = PyField(default=None)
     option_probs: dict[str, float] | None = PyField(default=None)
 
     @classmethod
     def make(
         cls: type[Self],
         name: str,
-        prompting_state: PromptingState,
+        prompting_state: PromptingStateAnnotation,
         language: Language,
         text: str,
         *,
