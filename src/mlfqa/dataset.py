@@ -10,6 +10,7 @@ from collections import Counter
 from pathlib import Path
 from typing import TYPE_CHECKING, Annotated, Any, Self, cast
 
+from models.claude_model import ClaudePromptParameters
 from models.model import ModelName, PromptingState
 from models.openai_model import OpenAIPromptParameters
 from models.transformers_model import TransformersPromptParameters
@@ -25,6 +26,7 @@ if TYPE_CHECKING:
 Source = str
 PromptingStateAnnotation = Annotated[
     Annotated[OpenAIPromptParameters, Tag(OpenAIPromptParameters.__name__)]
+    | Annotated[ClaudePromptParameters, Tag(ClaudePromptParameters.__name__)]
     | Annotated[TransformersPromptParameters, Tag(TransformersPromptParameters.__name__)]
     | Annotated[PromptingState, Tag(PromptingState.__name__)],
     Discriminator(PromptingState.get_discriminator_value),

@@ -19,6 +19,7 @@ class ModelName(enum.Enum):
     GEMMA_7B = "Gemma 7B"
     MIXTRAL_8X7B = "Mixtral 8x7B"
     XGLM_7_5B = "XGLM 7.5B"
+    CLAUDE_OPUS = "Claude Opus"
 
 
 @dataclass(frozen=True)
@@ -39,6 +40,7 @@ class PromptingState:
         model_name = kwargs["model_name"]
         assert isinstance(model_name, ModelName)
 
+        from models.claude_model import ClaudeModel, ClaudePromptParameters
         from models.openai_model import OpenAIModel, OpenAIPromptParameters
         from models.transformers_model import TransformersModel, TransformersPromptParameters
 
@@ -46,20 +48,24 @@ class PromptingState:
             return OpenAIPromptParameters(**kwargs)
         if model_name in TransformersModel.SUPPORTED_MODELS:
             return TransformersPromptParameters(**kwargs)
+        if model_name in ClaudeModel.SUPPORTED_MODELS:
+            return ClaudePromptParameters(**kwargs)
 
         raise NotImplementedError
 
     @staticmethod
     def get_discriminator_value(v: Any) -> str:
+        from models.claude_model import ClaudeModel, ClaudePromptParameters
         from models.openai_model import OpenAIModel, OpenAIPromptParameters
         from models.transformers_model import TransformersModel, TransformersPromptParameters
 
-        assert isinstance(v, dict)
-        model_name = ModelName(v["model_name"])
+        model_name = ModelName(v["model_name"]) if isinstance(v, dict) else v.model_name
         if model_name in OpenAIModel.SUPPORTED_MODELS:
             return OpenAIPromptParameters.__name__
         if model_name in TransformersModel.SUPPORTED_MODELS:
             return TransformersPromptParameters.__name__
+        if model_name in ClaudeModel.SUPPORTED_MODELS:
+            return ClaudePromptParameters.__name__
         if model_name == ModelName.HUMAN:
             return PromptingState.__name__
 
@@ -92,9 +98,12 @@ class Model(metaclass=ABCMeta):
 
     @classmethod
     def make(cls: type[Self], model_name: ModelName, *args, **kwargs) -> Model:
+        from models.claude_model import ClaudeModel
         from models.openai_model import OpenAIModel
         from models.transformers_model import TransformersModel
 
+        if model_name in ClaudeModel.SUPPORTED_MODELS:
+            return ClaudeModel(model_name, *args, **kwargs)
         if model_name in OpenAIModel.SUPPORTED_MODELS:
             return OpenAIModel(model_name, *args, **kwargs)
         if model_name in TransformersModel.SUPPORTED_MODELS:
