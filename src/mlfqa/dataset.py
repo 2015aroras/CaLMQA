@@ -189,7 +189,7 @@ class Dataset:
         # Check other_state
         matches = all(
             answer.prompting_state.other_state.get(key) == val
-            for key, val in prompting_state_filter_kwargs["other_state"].items()
+            for key, val in prompting_state_filter_kwargs.get("other_state", {}).items()
         )
 
         # Check base prompting state
