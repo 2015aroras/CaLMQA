@@ -102,10 +102,9 @@ class OpenAIModel(Model):
         prompt: str,
         max_new_tokens: int = 5,
     ) -> tuple[str, dict[str, float], PromptingState]:
-        prompt_params_dict = dataclasses.asdict(self.get_default_parameters())
-        prompt_params_dict["name"] = self.name
+        prompting_state = self._get_prompting_state(prompt)
+        prompt_params_dict = dataclasses.asdict(prompting_state)
         prompt_params_dict["max_output_tokens"] = max_new_tokens
-        prompt_params_dict["model"] = self.model_version
         prompt_params_dict["logprobs"] = True
         prompt_params_dict["top_logprobs"] = 8
 
@@ -114,9 +113,7 @@ class OpenAIModel(Model):
         response = self._call_chat_api(prompting_state)
 
         choice = response.choices[0]
-        if choice.finish_reason == "length":
-            logger.warning("Exceeded max tokens %d", self.max_output_tokens)
-        elif choice.finish_reason != "stop":
+        if choice.finish_reason not in ("length", "stop"):
             msg = f"Unexpected finish reason {choice.finish_reason}"
             raise RuntimeError(msg)
 
