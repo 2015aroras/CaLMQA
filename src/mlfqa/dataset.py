@@ -97,7 +97,7 @@ class Answer:
     ) -> Answer:
         """`Create an answer without any translations."""
         return cls(
-            name.lower(),
+            name,
             language,
             {language: AnswerTranslation(language, text)},
             prompting_state,
@@ -167,6 +167,20 @@ class Dataset:
         assert len(matching_entries) >= 1, f"No entry for a question {question.name}"
         return matching_entries[0]
 
+    def get_answer(
+        self,
+        question: Question,
+        answer_name: str,
+    ) -> Answer | None:
+        entry = self._get_entry(question)
+
+        matching_answers: list[Answer] = [
+            answer for answer in entry.answers if answer.name == answer_name
+        ]
+        assert len(matching_answers) <= 1
+
+        return matching_answers[0] if len(matching_answers) > 0 else None
+
     def _answer_matches_state(self, answer: Answer, **state) -> bool:
         return all(getattr(answer.prompting_state, key, None) == val for key, val in state.items())
 
@@ -225,20 +239,16 @@ class Dataset:
         entry = self._get_entry(question)
 
         existing_answers = [
-            entry_answer
-            for entry_answer in entry.answers
-            if entry_answer.prompting_state == answer.prompting_state
+            entry_answer for entry_answer in entry.answers if entry_answer.name == answer.name
         ]
-        assert (
-            len(existing_answers) <= 1
-        ), f"Too many answers match answer with prompt parameters: {answer.prompting_state}"
+        assert len(existing_answers) <= 1, f"Too many answers match answer with name: {answer.name}"
 
         if len(existing_answers) == 1:
             existing_answer = existing_answers[0]
             entry.answers = [
                 entry_answer
                 for entry_answer in entry.answers
-                if entry_answer.prompting_state != existing_answer.prompting_state
+                if entry_answer.name != existing_answer.name
             ]
 
         entry.answers.append(copy.deepcopy(answer))
