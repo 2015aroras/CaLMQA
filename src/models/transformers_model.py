@@ -212,7 +212,7 @@ class Gemma7BModel(TransformersModel):
     def prompt_and_next_token_probs(
         self,
         prompt: str,
-        max_new_tokens: int = 5,
+        max_new_tokens: int = 128,
     ) -> tuple[str, dict[str, float], PromptingState]:
         batch_encoding = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
 
@@ -315,7 +315,7 @@ class Mixtral8x7BModel(TransformersModel):
     def prompt_and_next_token_probs(
         self,
         prompt: str,
-        max_new_tokens: int = 5,
+        max_new_tokens: int = 128,
     ) -> tuple[str, dict[str, float], PromptingState]:
         messages = [
             {"role": "user", "content": prompt},
@@ -391,7 +391,7 @@ class Xglm7Pt5BModel(TransformersModel):
     def prompt_and_next_token_probs(
         self,
         prompt: str,
-        max_new_tokens: int = 5,
+        max_new_tokens: int = 128,
     ) -> tuple[str, dict[str, float], PromptingState]:
         raise NotImplementedError
 
@@ -476,7 +476,7 @@ class Aya101Model(TransformersModel):
     def prompt_and_next_token_probs(
         self,
         prompt: str,
-        max_new_tokens: int = 5,
+        max_new_tokens: int = 128,
     ) -> tuple[str, dict[str, float], PromptingState]:
         batch_encoding = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
 

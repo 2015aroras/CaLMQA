@@ -100,7 +100,7 @@ class OpenAIModel(Model):
     def prompt_and_next_token_probs(
         self,
         prompt: str,
-        max_new_tokens: int = 5,
+        max_new_tokens: int = 128,
     ) -> tuple[str, dict[str, float], PromptingState]:
         prompting_state = self._get_prompting_state(prompt)
         prompt_params_dict = dataclasses.asdict(prompting_state)
