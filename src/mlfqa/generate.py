@@ -91,6 +91,7 @@ def _prompt_model_and_store(  # noqa: PLR0913
     answer_name = f"{question.name}:{q_translation_language}:{prompting_state.model_name.value}"
     if rag_num_documents > 0:
         answer_name += f":rag{rag_num_documents}"
+    answer_name = answer_name.lower()
 
     answer = Answer.make(answer_name, prompting_state, a_language, response)
     dataset.add_or_update_answer(question, answer)
@@ -253,7 +254,6 @@ def main() -> None:
     parser.add_argument(
         "--overwrite",
         action="store_true",
-        default=None,
         help="If set, overwrites existing translations with newly-generated translation.",
     )
     parser.add_argument(
