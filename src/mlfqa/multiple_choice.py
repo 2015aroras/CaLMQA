@@ -37,6 +37,7 @@ def _prompt_model_and_store(  # noqa: PLR0913
 
     other_state = {}
     other_state["rng_seed"] = rng_seed
+    other_state["is_multiple_choice"] = True
     other_state["mc_options"] = {}
     other_state["mc_correct_answer"] = correct_option_key
 
@@ -95,8 +96,14 @@ def _create_mc_options(
         [human_answer],
         rng,
         language=q_translation_language,
+        other_state={"is_multiple_choice": None},
     )
     answers = [human_answer, *random_answers]
+    # No MC answers allowed in random options
+    assert all(
+        not answer.prompting_state.other_state.get("is_multiple_choice", False)
+        for answer in answers
+    )
     rng.shuffle(answers)
 
     mc_options = dict(zip(option_keys, answers))

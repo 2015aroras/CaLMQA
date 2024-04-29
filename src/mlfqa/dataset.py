@@ -82,7 +82,7 @@ class Answer:
     name: str
     language: Language
     translations: dict[Language, AnswerTranslation]
-    prompting_state: PromptingStateAnnotation | None = PyField(default=None)
+    prompting_state: PromptingStateAnnotation
     option_probs: dict[str, float] | None = PyField(default=None)
 
     @classmethod
@@ -181,14 +181,28 @@ class Dataset:
 
         return matching_answers[0] if len(matching_answers) > 0 else None
 
-    def _answer_matches_state(self, answer: Answer, **state) -> bool:
-        return all(getattr(answer.prompting_state, key, None) == val for key, val in state.items())
+    def _answer_matches_state(
+        self,
+        answer: Answer,
+        **prompting_state_filter_kwargs,
+    ) -> bool:
+        # Check other_state
+        matches = all(
+            answer.prompting_state.other_state.get(key) == val
+            for key, val in prompting_state_filter_kwargs["other_state"].items()
+        )
+
+        # Check base prompting state
+        return matches and all(
+            key == "other_state" or getattr(answer.prompting_state, key, None) == val
+            for key, val in prompting_state_filter_kwargs.items()
+        )
 
     def get_answers(
         self,
         question: Question,
         language: Language | None = None,
-        **prompt_parameter_kwargs,
+        **prompting_state_filter_kwargs,
     ) -> list[Answer]:
         entry = self._get_entry(question)
 
@@ -197,7 +211,7 @@ class Dataset:
             if language is not None and answer.language != language:
                 continue
 
-            if self._answer_matches_state(answer, **prompt_parameter_kwargs):
+            if self._answer_matches_state(answer, **prompting_state_filter_kwargs):
                 matching_answers.append(copy.deepcopy(answer))
 
         return matching_answers
@@ -208,7 +222,7 @@ class Dataset:
         exclude_answers: list[Answer],
         rng: random.Random,
         language: Language | None = None,
-        **prompt_parameter_kwargs,
+        **prompting_state_filter_kwargs,
     ) -> list[Answer]:
         excluded_answer_names = {answer.name for answer in exclude_answers}
 
@@ -218,7 +232,7 @@ class Dataset:
             for answer in entry.answers
             if answer.name not in excluded_answer_names
             and (language is None or answer.language == language)
-            and self._answer_matches_state(answer, **prompt_parameter_kwargs)
+            and self._answer_matches_state(answer, **prompting_state_filter_kwargs)
         ]
 
         return rng.sample(candidate_answers, num_answers)

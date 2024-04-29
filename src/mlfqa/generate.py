@@ -78,7 +78,7 @@ def _prompt_model_and_store(  # noqa: PLR0913
         question,
         a_language,
         **dataclasses.asdict(prompting_state),
-        **other_state,
+        other_state=other_state,
     )
     assert len(existing_answers) <= 1
 
