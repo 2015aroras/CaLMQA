@@ -92,7 +92,7 @@ class Model(metaclass=ABCMeta):
 
     @abstractmethod
     def prompt_and_next_token_probs(
-        self, prompt: str, max_new_tokens: int = 5,
+        self, prompt: str, max_new_tokens: int = 128,
     ) -> tuple[str, dict[str, float], PromptingState]:
         """Prompts the model and retrieves the probabilities for the first generated token."""
 
