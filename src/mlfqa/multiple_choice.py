@@ -95,8 +95,8 @@ def _create_mc_options(
         len(option_keys) - 1,
         [human_answer],
         rng,
+        model_name=ModelName.HUMAN,
         language=q_translation_language,
-        other_state={"is_multiple_choice": None},
     )
     answers = [human_answer, *random_answers]
     # No MC answers allowed in random options
