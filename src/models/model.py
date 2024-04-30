@@ -18,6 +18,7 @@ class ModelName(enum.Enum):
     AYA_101 = "AYA 13B"
     GEMMA_7B = "Gemma 7B"
     MIXTRAL_8X7B = "Mixtral 8x7B"
+    MIXTRAL_8X22B_API = "Mixtral 8x22B (API)"
     XGLM_7_5B = "XGLM 7.5B"
     CLAUDE_OPUS = "Claude Opus"
 
@@ -41,9 +42,12 @@ class PromptingState:
         assert isinstance(model_name, ModelName)
 
         from models.claude_model import ClaudeModel, ClaudePromptParameters
+        from models.mistral_model import MistralModel, MistralPromptingState
         from models.openai_model import OpenAIModel, OpenAIPromptParameters
         from models.transformers_model import TransformersModel, TransformersPromptParameters
 
+        if model_name in MistralModel.SUPPORTED_MODELS:
+            return MistralPromptingState(**kwargs)
         if model_name in OpenAIModel.SUPPORTED_MODELS:
             return OpenAIPromptParameters(**kwargs)
         if model_name in TransformersModel.SUPPORTED_MODELS:
@@ -56,10 +60,13 @@ class PromptingState:
     @staticmethod
     def get_discriminator_value(v: Any) -> str:
         from models.claude_model import ClaudeModel, ClaudePromptParameters
+        from models.mistral_model import MistralModel, MistralPromptingState
         from models.openai_model import OpenAIModel, OpenAIPromptParameters
         from models.transformers_model import TransformersModel, TransformersPromptParameters
 
         model_name = ModelName(v["model_name"]) if isinstance(v, dict) else v.model_name
+        if model_name in MistralModel.SUPPORTED_MODELS:
+            return MistralPromptingState.__name__
         if model_name in OpenAIModel.SUPPORTED_MODELS:
             return OpenAIPromptParameters.__name__
         if model_name in TransformersModel.SUPPORTED_MODELS:
@@ -99,11 +106,14 @@ class Model(metaclass=ABCMeta):
     @classmethod
     def make(cls: type[Self], model_name: ModelName, *args, **kwargs) -> Model:
         from models.claude_model import ClaudeModel
+        from models.mistral_model import MistralModel
         from models.openai_model import OpenAIModel
         from models.transformers_model import TransformersModel
 
         if model_name in ClaudeModel.SUPPORTED_MODELS:
             return ClaudeModel(model_name, *args, **kwargs)
+        if model_name in MistralModel.SUPPORTED_MODELS:
+            return MistralModel(model_name, *args, **kwargs)
         if model_name in OpenAIModel.SUPPORTED_MODELS:
             return OpenAIModel(model_name, *args, **kwargs)
         if model_name in TransformersModel.SUPPORTED_MODELS:
