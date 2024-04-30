@@ -40,6 +40,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:0:language.tongan:mixtral 8x22b (api)",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'Oku ou faka'ilonga 'i he 'aho ni 'e 'oku 'ikai ke ne lava 'oku 'i he lea faka-Tonga. Pea 'oku 'ikai 'a e ngaahi fakamatala faka-Tonga 'oku 'i he lea faka-Ingilisi 'oku 'ikai ke ne lava 'oku'sia 'a e lea faka-Tonga. 'I he'ene 'aho ni 'oku 'ikai ke lava ai ke ho'omo'ui mo ha ngaahi fakamatala 'oku 'i he 'aho ni.\n\nKo e ngaahi fakamatala 'oku 'ikai ke ne lava ai ke ho'omo'ui 'e 'oku 'i he lea faka-Tonga:\n\n* \"Ko e hā 'oku 'ikai ke lava ai ke ma'u 'api 'a ha'a fafine Tonga\" - 'Oku 'ikai 'a e ngaahi fakamatala 'oku 'i he lea faka-Ingilisi 'oku 'i ai ke ne lava ai ke ho'omo'ui 'a e lea faka-Tonga.\n\n'Oku ou faka'ilonga 'i he'ene 'aho ni 'e 'oku 'ikai ke lava ai ke ho'omo'ui mo ha ngaahi fakamatala 'oku 'i he'ene 'aho ni.\n\n'I he ngaahi 'aho 'oku 'ikai ke lava ai ke ho'omo'ui mo ha ngaahi fakamatala 'oku 'i he'ene 'aho ni.\n\nTranslation:\n\nI am translating today and there are no Tongan words that cannot be translated into English. There are no sentences in Tongan that cannot be translated into English. Today, there are no sentences that can be translated.\n\nHere are the sentences in Tongan that cannot be translated:\n\n* \"Ko e hā 'oku 'ikai ke lava ai ke ma'u 'api 'a ha'a fafine Tonga\" - There are no sentences in English that can be translated into Tongan.\n\nI am translating today and there are no sentences that can be translated.\n\nOn other days, there are sentences that cannot be translated.\n\nNote: The original sentence provided is incomplete and does not make sense in Tongan. Therefore, I have provided a few examples of sentences in Tongan that cannot be translated into English."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'oku 'ikai ke lava ai ke ma'u 'api 'a ha'a fafine Tonga?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0
+          }
         }
       ]
     },
@@ -82,6 +102,26 @@
             "temperature": 1.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tongan:1:language.tongan:mixtral 8x22b (api)",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'Oku 'ikai ha fakamatala 'e he 'aho ni 'i he tauhi vā 'emau mo ha fa'u foi 'i he tauhi faka-Inglisi 'e Google Translate 'e he tauhi faka-Tonga. 'Oku ou tauhi 'a e fakamatala 'oku 'i he 'aho ni pe 'oku 'ikai pe 'oku fiefia 'a e tauhi 'e he Google Translate pe. Kei 'oku ono 'i he tauhi 'e he tauhi 'oku 'ikai 'a e fakamatala 'e he tauhi 'e Google Translate pe.\n\nKo e hā e fatongia 'o e Tu'i 'oku 'ikai ke nau tauhi 'a e fakamatala 'e he 'aho ni pe 'oku 'ikai pe 'oku fiefia 'a e tauhi 'e he Google Translate pe. 'Oku 'ikai kuo'u 'i he tauhi fakakoloa pe 'a e ngaahi tauhi 'oku 'ikai fiefia 'e Google Translate pe. 'I he'ene 'aho 'oku 'ikai ke nau tauhi 'a e fakamatala 'a e ngaahi tauhi 'oku 'ikai fiefia 'e Google Translate pe.\n\nKo e fale 'i he fakalele 'e fonua 'oku 'ikai ke nau tauhi 'a e fakamatala 'e he 'aho ni pe 'oku 'ikai pe 'oku fiefia 'a e tauhi 'e he Google Translate pe. 'Oku 'ikai kuo'u 'i he tauhi fakakoloa pe 'a e ngaahi tauhi 'oku 'ikai fiefia 'e Google Translate pe. 'I he'ene 'aho 'oku 'ikai ke nau tauhi 'a e fakamatala 'a e ngaahi tauhi 'oku 'ikai fiefia 'e Google Translate pe.\n\n'Ekuasi, 'oku ou 'ikai ke nau tauhi 'a e fakamatala 'e he 'aho ni pe 'oku 'ikai pe 'oku fiefia 'a e tauhi 'e he Google Translate pe. 'Oku ou 'ikai ke nau tauhi 'a e fakamatala 'a e ngaahi tauhi 'oku 'ikai fiefia 'e Google Translate pe.\n\n'Afio ki he tauhi fakakoloa pe 'a e ngaahi tauhi 'oku fiefia 'e Google Translate pe.\n\n---\n\nI apologize, but I am unable to provide a translation for the Tongan phrase \"Ko e hā e fatongia 'o e Tu'i mo hono fale 'i he fakalele e fonua\" in English. I am also unable to guarantee the accuracy of any translation provided by Google Translate or any other translation service.\n\nThe phrase \"Ko e hā e fatongia 'o e Tu'i\" refers to the role or function of the Tu'i, who is a traditional Tongan leader. However, I am unable to provide a translation that I can guarantee is accurate or appropriate.\n\nThe phrase \"fale 'i he fakalele e fonua\" refers to a house or building located on high ground or a hill. Again, I am unable to provide a translation that I can guarantee is accurate or appropriate.\n\nIn summary, I am unable to provide a translation for the Tongan phrase \"Ko e hā e fatongia 'o e Tu'i mo hono fale 'i he fakalele e fonua\" in English that I can guarantee is accurate or appropriate.\n\nI apologize for any inconvenience this may cause. Please consult with a qualified Tongan language expert for an accurate translation."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e fatongia 'o e Tu'i mo hono fale 'i he fakalele e fonua?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0
           }
         }
       ]
@@ -126,6 +166,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:2:language.tongan:mixtral 8x22b (api)",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'Oku ou 'ave 'a e fai totonu 'o ho'o manatu 'oku ou 'ave 'a e hili ha me'a faka'eiki 'i he 'ulu 'oku ou kosi. Ko e ha 'oku ou 'ave 'a e fai 'o hoko 'a e me'a 'eni?\n\n'Oku ou 'ave 'a e fai 'o hoko 'a e me'a 'eni 'i he 'aho 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu. 'Oku ou 'ave 'a e fai 'o hoko 'a e me'a 'eni 'i he 'aho 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu.\n\n'Oku ou 'ave 'a e fai 'o hoko 'a e me'a 'eni 'i he 'aho 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu.\n\n'Oku ou 'ave 'a e fai 'o hoko 'a e me'a 'eni 'i he 'aho 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu.\n\n'Oku ou 'ave 'a e fai 'o hoko 'a e me'a 'eni 'i he 'aho 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu.\n\n'Oku ou 'ave 'a e fai 'o hoko 'a e me'a 'eni 'i he 'aho 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu.\n\n'Oku ou 'ave 'a e fai 'o hoko 'a e me'a 'eni 'i he 'aho 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hoko 'a e ni'ihi 'o e me'a 'eni 'i he fale 'o e me'a fakatonu 'o hange ha mahu'inga 'o e me"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku kosi ai e lou 'ulu he hili ha me'a faka'eiki?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0
+          }
         }
       ]
     },
@@ -168,6 +228,26 @@
             "temperature": 1.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tongan:3:language.tongan:mixtral 8x22b (api)",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "It seems like you're asking about the uses of a Tongan lunar calendar. In many cultures, lunar calendars are used to track the phases of the moon, which can be useful for a variety of purposes, such as:\n\n1. Agriculture: Farmers can use the lunar calendar to plan when to plant and harvest crops.\n2. Religion and culture: Many traditional beliefs and practices are tied to the phases of the moon. For example, certain ceremonies or festivals may be held on specific lunar dates.\n3. Navigation: Sailors and navigators in the Pacific have traditionally used the moon and stars for navigation. A lunar calendar can help keep track of these movements.\n4. Astronomy: Lunar calendars can be used to track the movement of the moon and other celestial bodies.\n\nHowever, without more specific context, it's difficult for me to provide a more detailed answer. If you have a particular question about how a Tongan lunar calendar is used, please let me know!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku kei 'aonga nai ai e lau mahina faka-Tonga he kuonga ni?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0
           }
         }
       ]
@@ -212,6 +292,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:4:language.tongan:mixtral 8x22b (api)",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'Oku 'ikai ko e fai 'e he fahu 'oku fakalangilangi'i 'i he ngaahi katoanga lalahi 'a e Tonga. Ko e fahu 'oku fakalangilangi'i ke kimoutolu ki he taimi 'o e fai eni katoanga. Ko e fahu 'oku totonu ke fahu ko 'eni: ko 'e 'Otuhaka, ko 'e 'Otuha'a, ko 'e 'Ahome'e, ko 'e 'Otuafi, ko 'e 'Otufenua, ko 'e 'Aho'ui, ko 'e 'Otuanga'ofa, ko 'e 'Otu'akongo.\n\n'Oku ou fakamahino atu ke 'oku 'ikai 'e koe 'oku liliu 'a e fai 'o e fahu 'oku fakalangilangi'i 'i he ngaahi katoanga lalahi 'a e Tonga. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku fakalangilangi'i 'i he ngaahi katoanga lalahi 'a e Tonga, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku fakalangilangi'i 'i he ngaahi katoanga lalahi 'a e Tonga, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga.\n\n'Oku ou fakamahino atu ke 'oku 'ikai 'e koe 'oku 'ilo 'a e fahu 'oku totonu ke fahu. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga.\n\n'Oku ou fakamahino atu ke 'oku 'ikai 'e koe 'oku 'ilo 'a e fahu 'oku totonu ke fahu. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga.\n\n'Oku ou fakamahino atu ke 'oku 'ikai 'e koe 'oku 'ilo 'a e fahu 'oku totonu ke fahu. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga.\n\n'Oku ou fakamahino atu ke 'oku 'ikai 'e koe 'oku 'ilo 'a e fahu 'oku totonu ke fahu. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga.\n\n'Oku ou fakamahino atu ke 'oku 'ikai 'e koe 'oku 'ilo 'a e fahu 'oku totonu ke fahu. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga.\n\n'Oku ou fakamahino atu ke 'oku 'ikai 'e koe 'oku 'ilo 'a e fahu 'oku totonu ke fahu. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga.\n\n'Oku ou fakamahino atu ke 'oku 'ikai 'e koe 'oku 'ilo 'a e fahu 'oku totonu ke fahu. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga.\n\n'Oku ou fakamahino atu ke 'oku 'ikai 'e koe 'oku 'ilo 'a e fahu 'oku totonu ke fahu. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga.\n\n'Oku ou fakamahino atu ke 'oku 'ikai 'e koe 'oku 'ilo 'a e fahu 'oku totonu ke fahu. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga.\n\n'Oku ou fakamahino atu ke 'oku 'ikai 'e koe 'oku 'ilo 'a e fahu 'oku totonu ke fahu. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga. 'Oku ou fakamahino atu ke 'e fai 'e he fahu 'oku totonu ke fahu, 'oku ne fakatokanga'i 'a e fahu ki he taimi 'o e fai eni katoanga.\n\n'Oku"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e fahu 'oku fakalangilangi'i 'i he ngaahi katoanga lalahi 'a e Tonga. Ko hai 'oku totonu ke fahu?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0
+          }
         }
       ]
     },
@@ -254,6 +354,26 @@
             "temperature": 1.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tongan:5:language.tongan:mixtral 8x22b (api)",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "It seems like you're asking a question in Tongan language about a king and a noble, but I'm afraid I can't provide a direct translation without more context. However, I can help you translate it to English if you provide more details or rephrase the question. If you're asking \"Why is it different when working with a king compared to a noble from a foreign land?\", then my advice would be that customs, traditions, and protocols often differ based on the status and origin of the person you're working with."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'oku kehe ai 'a e lea 'oku ngāue'aki ki he Tu'i, kau Nōpele mei he tu'a?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0
           }
         }
       ]
@@ -298,6 +418,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:6:language.tongan:mixtral 8x22b (api)",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Pale, 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava. 'E foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule 'i he taumafa kava ko e hā hono fokotu'utu'u. 'E foki 'e uike kahahaha 'a e nofo'anga 'o e kau Nōpele 'i he taumafa kava ko e hā hono fokotu'utu'u.\n\n'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule 'i he taumafa kava ko e hā hono fokotu'utu'u. 'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau Nōpele 'i he taumafa kava, 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau Nōpele ko e hā hono fokotu'utu'u.\n\n'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava ko e hā hono fokotu'utu'u. 'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele ko e hā hono fokotu'utu'u.\n\n'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava ko e hā hono fokotu'utu'u. 'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele ko e hā hono fokotu'utu'u.\n\n'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava ko e hā hono fokotu'utu'u. 'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele ko e hā hono fokotu'utu'u.\n\n'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava ko e hā hono fokotu'utu'u. 'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele ko e hā hono fokotu'utu'u.\n\n'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava ko e hā hono fokotu'utu'u. 'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele ko e hā hono fokotu'utu'u.\n\n'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava ko e hā hono fokotu'utu'u. 'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele ko e hā hono fokotu'utu'u.\n\n'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava ko e hā hono fokotu'utu'u. 'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava, 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāpule moe kau Nōpele ko e hā hono fokotu'utu'u.\n\n'I he taimi 'oku 'ikai 'e foki 'e uike kahahaha 'a e nofo'anga 'o e kau matāp"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā hono fokotu'utu'u 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0
+          }
         }
       ]
     },
@@ -340,6 +480,26 @@
             "temperature": 1.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tongan:7:language.tongan:mixtral 8x22b (api)",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "I'm sorry for any confusion, but it seems you're asking a question in Tongan about the arrival of Tongan stories in six days. I'm a text-based AI and I specialize in understanding and generating English text. I would need more context to provide an accurate response. However, if you're asking about the history or folklore of Tonga, I can certainly share some general knowledge about that topic in English."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'a e founga hono tuku mai 'a e ngaahi tala 'o Tonga 'i ono 'aho?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0
           }
         }
       ]
@@ -384,6 +544,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:8:language.tongan:mixtral 8x22b (api)",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "To answer your question, it would be helpful to know more about the context and the specific language you're using. However, I can provide a general answer.\n\nIf you're asking about the benefits and challenges of living in a traditional home with a family, here are a few points:\n\nBenefits:\n1. Cultural Preservation: Living in a traditional home often means upholding and passing down cultural values and traditions.\n2. Family Bonding: Sharing a home can lead to stronger family relationships and support systems.\n3. Cost-Effective: Traditional homes can be more economical than modern housing.\n\nChallenges:\n1. Limited Space: Traditional homes may not offer as much personal space as modern homes.\n2. Maintenance: Traditional homes may require more maintenance and upkeep.\n3. Lack of Modern Amenities: Depending on the specifics, traditional homes may lack modern conveniences like central heating or air conditioning.\n\nIf you're asking about something else, please provide more details so I can give a more accurate response."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'a e anga 'oe nofo 'a fāmili 'i he fale fakatonga pea ko e hā ha ngaahi liliu 'i he nofo fakatonga 'i he 'aho ni?\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0
+          }
         }
       ]
     },
@@ -426,6 +606,26 @@
             "temperature": 1.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tongan:9:language.tongan:mixtral 8x22b (api)",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'Oku ou fakamatala'i 'a e hā kuo fakahā e Tonga 'oku ke fakahoko 'e he māhina kuo 'osi mei he tā 1904. 'Oku ke fakahoko 'e he māhina kuo 'osi mei he tā 1904 ko e fakatupu'inga 'o e hā 'a e fa kave'i koula 'a e Tonga. Pea 'oku ke fakatākata'i ke 'a e hā ia ko e 'otu 'o e māhina ko e $1/2. 'Oku ou ke 'alu 'o fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā 1967.\n\nKo e hā kuo fakahā 'a e Tonga 'oku ke fakahoko 'e he māhina ko e $1/2 'i he tā 1967 ko e faka'osi'inga 'o e hā 'a e fa kave'i koula 'a e Tonga. Pea 'oku ke fakataumu'a ke 'a e hā ia ko e 'otu 'o e māhina ko e $1/2 fakafua. 'Oku ou ke 'alu 'o fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā 1985.\n\n'Oku ou ke fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā 1985 ko e fakataumu'inga 'o e hā fakafua 'a e $1/2. Pea 'oku ke fakatākata'i ke 'a e hā ia ko e 'otu 'o e māhina ko e $1 'i he tā 1985. 'Oku ou ke 'alu 'o fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā 2010.\n\n'Oku ou ke fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā 2010 ko e fakataumu'inga 'o e hā 'a e fa kave'i koula 'a e Tonga. Pea 'oku ke fakatākata'i ke 'a e hā ia ko e 'otu 'o e māhina ko e $2 'i he tā 2010. 'Oku ou ke 'alu 'o fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā ni.\n\nKo e hā kuo fakahā 'a e Tonga 'oku ke fakahoko 'e he māhina ko e $2 'i he tā ni ko e fakataumu'inga 'o e hā 'a e fa kave'i koula 'a e Tonga. Pea 'oku ke fakataumu'a ke 'a e hā ia ko e 'otu 'o e māhina ko e $2 fakafua. 'Oku ou ke 'alu 'o fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā ni.\n\n'Oku ou fakamatala'i 'a e hā 'a e fa kave'i koula 'a e Tonga 'oku ke fakahoko 'e he māhina ko e $2 'i he tā ni ko e fakataumu'inga 'o e hā 'a e fa kave'i koula 'a e Tonga. Pea 'oku ke fakataumu'a ke 'a e hā ia ko e 'otu 'o e māhina ko e $2 fakafua. 'Oku ou ke 'alu 'o fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā ni.\n\nKo e 'uluaki kuo 'osi 'a e hā kuo hoko 'a e fa kave'i koula 'a e Tonga 'oku ke fakahoko 'e he māhina ko e $2 'i he tā ni ko e fakataumu'inga 'o e hā 'a e fa kave'i koula 'a e Tonga. Pea 'oku ke fakataumu'a ke 'a e hā ia ko e 'otu 'o e māhina ko e $2 fakafua. 'Oku ou ke 'alu 'o fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā ni.\n\n'I he 'uluaki, 'oku ke fakahoko 'e he māhina ko e $2 'i he tā ni ko e fakataumu'inga 'o e hā 'a e fa kave'i koula 'a e Tonga. Pea 'oku ke fakataumu'a ke 'a e hā ia ko e 'otu 'o e māhina ko e $2 fakafua. 'Oku ou ke 'alu 'o fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā ni.\n\n'Oku foki 'a e fakahā 'o e hā 'a e fa kave'i koula 'a e Tonga 'oku ke fakahoko 'e he māhina ko e $2 'i he tā ni ko e fakataumu'inga 'o e hā 'a e fa kave'i koula 'a e Tonga. Pea 'oku ke fakataumu'a ke 'a e hā ia ko e 'otu 'o e māhina ko e $2 fakafua. 'Oku ou ke 'alu 'o fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā ni.\n\n'Oku ou ke fakaha'o 'a e hā 'a e fa kave'i koula 'a e Tonga 'oku ke fakahoko 'e he māhina ko e $2 'i he tā ni ko e fakataumu'inga 'o e hā 'a e fa kave'i koula 'a e Tonga. Pea 'oku ke fakataumu'a ke 'a e hā ia ko e 'otu 'o e māhina ko e $2 fakafua. 'Oku ou ke 'alu 'o fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā ni.\n\n'Oku ou fakamatala'i 'a e hā 'a e fa kave'i koula 'a e Tonga 'oku ke fakahoko 'e he māhina ko e $2 'i he tā ni ko e fakataumu'inga 'o e hā 'a e fa kave'i koula 'a e Tonga. Pea 'oku ke fakataumu'a ke 'a e hā ia ko e 'otu 'o e māhina ko e $2 fakafua. 'Oku ou ke 'alu 'o fakahoko 'a e hā 'a e fa kave'i koula 'a e Tonga 'i he tā ni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'a e fa kave'i koula 'a e Tonga? Fakamatala'i 'e nau 'uhinga takitaha.\n",
+            "model_name": "Mixtral 8x22B (API)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "open-mixtral-8x22b-2404",
+            "n": 1,
+            "temperature": 0.7,
+            "top_p": 1.0
           }
         }
       ]
