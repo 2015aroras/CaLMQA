@@ -7,6 +7,7 @@ from typing import TYPE_CHECKING, Self
 
 from dotenv import load_dotenv
 from mistralai.client import MistralClient
+from mistralai.models.chat_completion import ChatMessage
 from pydantic.dataclasses import dataclass
 
 from models.model import Model, ModelName, PromptingState
@@ -21,8 +22,7 @@ logger = logging.getLogger(__name__)
 class MistralPromptingState(PromptingState):
     model: str = "open-mixtral-8x22b-2404"
     n: int = 1
-    presence_penalty: float = 0.0
-    temperature: float = 1.0
+    temperature: float = 0.7
     top_p: float = 1.0
 
 
@@ -61,7 +61,7 @@ class MistralModel(Model):
         return self.client.chat(
             max_tokens=prompting_state.max_output_tokens,
             model=prompting_state.model,
-            messages=[{"role": "user", "content": prompting_state.prompt}],
+            messages=[ChatMessage(role="user", content=prompting_state.prompt)],
         )
 
     def _get_prompting_state(self, prompt: str) -> MistralPromptingState:
