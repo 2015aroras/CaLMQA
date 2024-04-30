@@ -74,11 +74,11 @@ def _prompt_model_and_store(  # noqa: PLR0913
 
         other_state["rag_answer_names"] = [answer.name for answer in answers]
 
+    prompting_state.other_state.update(other_state)
     existing_answers = dataset.get_answers(
         question,
         a_language,
         **dataclasses.asdict(prompting_state),
-        other_state=other_state,
     )
     assert len(existing_answers) <= 1
 
