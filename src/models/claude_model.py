@@ -2,20 +2,26 @@ from __future__ import annotations
 
 import dataclasses
 import logging
-from typing import Any, Self
+import time
+from typing import TYPE_CHECKING, Any, Self
 
+import numpy as np
+from anthropic import Anthropic
 from dotenv import load_dotenv
 from pydantic.dataclasses import dataclass
 
 from models.model import Model, ModelName, PromptingState
+
+if TYPE_CHECKING:
+    from anthropic.types import Message
 
 logger = logging.getLogger(__name__)
 
 
 @dataclass(frozen=True)
 class ClaudePromptParameters(PromptingState):
-    # TODO: Add anything that represents the state of the world when the model is being prompted
-    pass
+    model: str = "claude-3-opus-20240229"
+    temperature: float = 1.0
 
 
 class ClaudeModel(Model):
@@ -23,7 +29,9 @@ class ClaudeModel(Model):
     SUPPORTED_MODELS = (ModelName.CLAUDE_OPUS,)
     # Set some defaults. This shouldn't need to change.
     DEFAULT_PARAMETERS = ClaudePromptParameters(
-        prompt=None, model_name=ModelName.CLAUDE_OPUS, max_output_tokens=2048,
+        prompt=None,
+        model_name=ModelName.CLAUDE_OPUS,
+        max_output_tokens=2048,
     )
 
     def __init__(self, name: ModelName, max_output_tokens: int, **_) -> None:
@@ -33,33 +41,73 @@ class ClaudeModel(Model):
             raise ValueError(msg)
 
         load_dotenv()
-
-        # TODO: Your init code, if desired.
+        self.client = Anthropic()
 
     @classmethod
     def get_default_parameters(cls: type[Self]) -> PromptingState:
         return ClaudeModel.DEFAULT_PARAMETERS
+
+    @property
+    def model_version(self) -> str:
+        if self.name == ModelName.CLAUDE_OPUS:
+            return "claude-3-opus-20240229"
+        raise NotImplementedError
 
     def _get_prompting_state(self, prompt: str) -> ClaudePromptParameters:
         prompt_params_dict = dataclasses.asdict(self.get_default_parameters())
         prompt_params_dict["prompt"] = prompt
         prompt_params_dict["name"] = self.name
         prompt_params_dict["max_output_tokens"] = self.max_output_tokens
+        prompt_params_dict["model"] = self.model_version
 
         return ClaudePromptParameters(**prompt_params_dict)
 
     def get_prompting_state(self, prompt: str) -> PromptingState:
         return self._get_prompting_state(prompt)
 
+    def _call_messages_api(self, prompting_state: ClaudePromptParameters) -> Message:
+        if prompting_state.prompt is None:
+            msg = "Prompt cannot be None"
+            raise ValueError(msg)
+
+        max_attempts = 5
+        for attempt_num in range(1, max_attempts + 1):
+            try:
+                return self.client.messages.create(
+                    model=prompting_state.model,
+                    messages=[{"role": "user", "content": prompting_state.prompt}],
+                    temperature=prompting_state.temperature,
+                    max_tokens=prompting_state.max_output_tokens,
+                )
+            except RuntimeError:  # noqa: PERF203
+                wait_time = np.power(2, attempt_num)
+                logger.exception(
+                    "Claude call failed on attempt %d. Waiting %d sec",
+                    attempt_num,
+                    wait_time,
+                )
+                time.sleep(wait_time)
+
+        msg = f"Failed to call messages api {max_attempts} times"
+        raise RuntimeError(msg)
+
     def prompt(self, prompt: str) -> tuple[str, PromptingState]:
         prompting_state = self._get_prompting_state(prompt)
         prompt_params_dict: dict[str, Any] = dataclasses.asdict(prompting_state)
 
-        # TODO: Run the model. If you want to store any info capturing global state
-        # you can put it in `prompt_params_dict` dictionary.
-        # `self.max_output_tokens` contains the max number of output tokens.
-        output = ""
+        response = self._call_messages_api(prompting_state)
 
+        if response.stop_reason == "max_tokens":
+            logger.warning("Exceeded max tokens %d", self.max_output_tokens)
+        elif response.stop_reason != "end_turn":
+            msg = f"Unhandled stop reason {response.stop_reason}"
+            raise RuntimeError(msg)
+
+        if len(response.content) == 0:
+            msg = f"No message returned by model {self.name} for prompt {prompt}"
+            raise RuntimeError(msg)
+
+        output = response.content[0].text
         return output, ClaudePromptParameters(**prompt_params_dict)
 
     def prompt_and_next_token_probs(
@@ -67,15 +115,4 @@ class ClaudeModel(Model):
         prompt: str,
         max_new_tokens: int = 128,
     ) -> tuple[str, dict[str, float], PromptingState]:
-        prompting_state = self._get_prompting_state(prompt)
-        prompt_params_dict: dict[str, Any] = dataclasses.asdict(prompting_state)
-        prompt_params_dict["max_output_tokens"] = max_new_tokens
-
-        # TODO: Run the model, and also get probability distribution over the first token.
-        # You DO NOT need this for now (this will be used for MC later).
-        # If you want to store any info capturing global state
-        # you can put it in `prompt_params_dict` dictionary.
-        output = ""
-        token_probabilities: dict[str, float] = {}
-
-        return output, token_probabilities, ClaudePromptParameters(**prompt_params_dict)
+        raise NotImplementedError
