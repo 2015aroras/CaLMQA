@@ -181,7 +181,7 @@ class Dataset:
         ]
         assert len(matching_answers) <= 1
 
-        return matching_answers[0] if len(matching_answers) > 0 else None
+        return copy.deepcopy(matching_answers[0]) if len(matching_answers) > 0 else None
 
     def _answer_matches_state(
         self,
