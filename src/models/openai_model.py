@@ -137,7 +137,7 @@ class OpenAIModel(Model):
         choice = response.choices[0]
         if choice.finish_reason == "length":
             logger.warning("Exceeded max tokens %d", self.max_output_tokens)
-        elif choice.finish_reason != "stop":
+        elif choice.finish_reason not in ("stop", "eos"):
             msg = f"Unexpected finish reason {choice.finish_reason}"
             raise RuntimeError(msg)
 
