@@ -19,6 +19,7 @@ class ModelName(enum.Enum):
     GEMMA_7B = "Gemma 7B"
     MIXTRAL_8X7B = "Mixtral 8x7B"
     MIXTRAL_8X22B_API = "Mixtral 8x22B (API)"
+    MIXTRAL_8X22B_TOGETHER = "Mixtral 8x22B (together.ai)"
     XGLM_7_5B = "XGLM 7.5B"
     CLAUDE_OPUS = "Claude Opus"
 

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import dataclasses
 import logging
+import os
 from typing import TYPE_CHECKING, Self
 
 import numpy as np
@@ -29,9 +30,11 @@ class OpenAIPromptParameters(PromptingState):
 
 
 class OpenAIModel(Model):
-    SUPPORTED_MODELS = (ModelName.GPT_4,)
+    SUPPORTED_MODELS = (ModelName.GPT_4, ModelName.MIXTRAL_8X22B_TOGETHER)
     DEFAULT_PARAMETERS = OpenAIPromptParameters(
-        prompt=None, model_name=ModelName.GPT_4, max_output_tokens=2048,
+        prompt=None,
+        model_name=ModelName.GPT_4,
+        max_output_tokens=2048,
     )
 
     def __init__(self, name: ModelName, max_output_tokens: int, **_) -> None:
@@ -42,7 +45,23 @@ class OpenAIModel(Model):
 
         load_dotenv()
 
-        self.client = OpenAI()
+        self.client = OpenAI(api_key=self._api_key, base_url=self._base_url)
+
+    @property
+    def _api_key(self) -> str | None:
+        if self.name == ModelName.GPT_4:
+            return os.environ.get("OPENAI_API_KEY")
+        if self.name == ModelName.MIXTRAL_8X22B_TOGETHER:
+            return os.environ.get("TOGETHER_API_KEY")
+        raise NotImplementedError
+
+    @property
+    def _base_url(self) -> str | None:
+        if self.name == ModelName.GPT_4:
+            return None
+        if self.name == ModelName.MIXTRAL_8X22B_TOGETHER:
+            return "https://api.together.xyz/v1"
+        raise NotImplementedError
 
     @classmethod
     def get_default_parameters(cls: type[Self]) -> PromptingState:
@@ -52,6 +71,8 @@ class OpenAIModel(Model):
     def model_version(self) -> str:
         if self.name == ModelName.GPT_4:
             return "gpt-4-0125-preview"
+        if self.name == ModelName.MIXTRAL_8X22B_TOGETHER:
+            return "mistralai/Mixtral-8x22B-Instruct-v0.1"
         raise NotImplementedError
 
     def _call_chat_api(self, prompting_state: OpenAIPromptParameters) -> ChatCompletion:
@@ -63,6 +84,10 @@ class OpenAIModel(Model):
             max_tokens=prompting_state.max_output_tokens,
             model=prompting_state.model,
             messages=[{"role": "user", "content": prompting_state.prompt}],
+            n=prompting_state.n,
+            presence_penalty=prompting_state.presence_penalty,
+            temperature=prompting_state.temperature,
+            top_p=prompting_state.top_p,
             logprobs=prompting_state.logprobs,
             top_logprobs=prompting_state.top_logprobs,
         )
