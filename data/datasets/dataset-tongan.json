@@ -21,28 +21,6 @@
       },
       "answers": [
         {
-          "name": "tongan:0:language.tongan:gpt 4",
-          "language": "Tongan",
-          "translations": {
-            "Tongan": {
-              "language": "Tongan",
-              "text": "'Oku 'ikai ke faingofua 'a e tali ki he fehu'i ko'eni he 'oku lolotonga 'i ai 'a e ngaahi liliu lahi 'i Tonga pea mo hono ngaahi lao, ka 'e lava 'o pehē ko e taha 'o e ngaahi 'uhinga lahi taha 'oku iku ai ha'a fafine Tonga ki he 'ikai ke ma'u 'api ko e ngaahi tupu'anga mo e ngaahi tu'utu'uni fakafonua fekau'aki mo e tofi'a mo e koloa.\n\n'I he tu'unga tukuifonua, 'oku malava ke hoko 'a e tofi'a ko ha palopalema lahi ki he fafine 'i Tonga. Ko e tofi'a, 'oku 'iloa ko e koloa 'oku lulú, 'oku lava ke hoko ko ha kaveinga faka'ulungaanga pe 'a ia 'e tatau ki he kelekele, ko e 'api ko e koloa, mo e ngaahi me'a kehe pe. Ko e ngaahi tu'utu'uni fakafonua 'i Tonga 'oku tokolahi 'oku ne tokanga'i 'a e to'o tofi'a 'o e kelekele mo e ngaahi 'api mei he fo'i hala faka'ulungaanga, 'a ia 'oku ne fakangofua lahi ange ki he tāne ke ma'u 'a e tofi'a mo e kelekele 'o kapau 'oku 'i ai ha tafa'aki fakafamili.\n\nKo e lao Tonga mo e tu'unga faka'ulungaanga 'e lava foki 'o fakahoko ha palopalema ki he fefine 'i he'enau taumu'a ke ma'u 'api. He fakatātaa, ko e 'ulungaanga tokanga'i famili na'e masiva lahi hono fakamo'oni'i kiai 'i he ngaahi tu'unga fakasosiale mo fakapolitikale, pea fakafou 'i he 'ulungaanga mo e anga 'o e nofo 'a e sosaieti Tonga, 'oku lahi ange ai 'a e ngaahi kaveinga 'a e tāne 'i he koloa mo e tofi'a 'i mu'a 'i he fakalelei'i 'o e 'ulungaanga mo e fa'unga fakafonua.\n\nHeni, 'oku anga'ofa 'aupito 'a e ngaahi fakangatangata ko'eni ki he faingamālie 'o e fafine Tonga ke ma'u mo pule'i 'enau 'api pe kelekele, ka 'oku lolotonga fakahoko 'a e ngaahi liliu fakalaumālie mo fakalao 'i Tonga ke fakalahi ange 'a e ngaahi faingamālie tatau ki he kakai tukukehe 'oku puna mei he tu'unga 'ikai fakapatonu'i. 'Oku taketi 'e he ngaahi fakalakalaka fakalao mo fakasosiale 'a e lahi ange 'o e ngaahi faingamālie ke ma'u 'e he'etau fafine 'a e mafai mo e pule 'i honau kelekele mo 'enau 'api, ka ko e fengaue'aki 'i he vaha'a 'o e anga-fakafonua mo e anga-fakalao 'oku fie ma'u ke fakamalohia ke fakapapau'i 'oku 'i ai 'a e faingamālie tatau ma'a e fafine mo e tangata."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Ko e hā 'oku 'ikai ke lava ai ke ma'u 'api 'a ha'a fafine Tonga?\n",
-            "model_name": "GPT 4",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "gpt-4-0125-preview",
-            "n": 1,
-            "presence_penalty": 0.0,
-            "temperature": 1.0,
-            "top_p": 1.0,
-            "logprobs": false
-          }
-        },
-        {
           "name": "tongan:0:language.tongan:mixtral 8x22b (api)",
           "language": "Tongan",
           "translations": {
@@ -84,6 +62,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:0:language.tongan:gpt 4",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Ko e 'uhinga 'oku 'ikai ke lava ai ke ma'u 'api 'a ha'a fafine Tonga 'oku fakatatau ki he ngaahi tu'utu'uni mo e anga fakafonua 'o e fonua. 'I he anga fakafonua Tonga, 'oku 'iloa ko e \"siasi\" pe ko e \"tofi'a\" 'a e ngaahi 'api mo e kelekele 'oku 'oatu ki he ngaahi tangata 'i he famili pe ko e kāinga. 'Oku 'uhinga 'eni ko e ngaahi tofi'a 'oku 'oatu ki he ngaahi tangata 'i he famili 'o fakatatau ki he tu'utu'uni 'o e anga fakafonua mo e ngaahi lao 'o e fonua.\n\nKo e taha 'o e ngaahi 'uhinga mahu'inga 'oku 'ikai ke lava ai ke ma'u 'api 'a ha'a fafine 'i Tonga ko e anga fakafonua 'oku ne fakamamafa'i 'a e tu'unga 'o e tangata 'i he famili mo e kāinga. 'Oku 'uhinga 'eni ko e ngaahi kelekele mo e ngaahi 'api 'oku 'oatu ko e tofi'a ki he ngaahi tangata ke nau pule'i mo tokanga'i, 'o 'ikai ke fakakaukau'i 'a e fafine.\n\nKa neongo 'eni, 'oku 'i ai 'a e ngaahi liliu 'oku hoko 'i he fonua 'i he ngaahi ta'u kimu'a ni, 'o kau ai 'a e ngaahi liliu 'i he lao mo e anga fakafonua ke fakalelei'i 'a e tu'unga fakasōsiale mo faka'ekonōmika 'o e fafine. 'Oku 'i ai 'a e ngaahi polokalama mo e ngaahi fakakaukau ke fakalakalaka 'a e totonu 'o e fafine ke nau ma'u 'api mo e kelekele, ka 'oku kei fiema'u ke fai ha ngaahi liliu lahi ange ke fakapapau'i 'a e totonu tatau 'o e tangata mo e fafine 'i he ngaahi me'a ko 'eni.\n\nKo e liliu 'i he anga fakafonua mo e lao 'oku fiema'u ke fakahoko 'aki ha ngaue lahi mei he pule'anga, ngaahi kautaha fakavaha'apule'anga, mo e kāinga Tonga ke fakalelei'i 'a e tu'unga 'o e fafine 'i he fonua, 'o kau ai 'a hono fakalelei'i 'o e totonu ke ma'u 'api mo e kelekele."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'oku 'ikai ke lava ai ke ma'u 'api 'a ha'a fafine Tonga?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -107,28 +107,6 @@
         "human_evaluated": false
       },
       "answers": [
-        {
-          "name": "tongan:1:language.tongan:gpt 4",
-          "language": "Tongan",
-          "translations": {
-            "Tongan": {
-              "language": "Tongan",
-              "text": "'E lava ke kehekehe e fatongia 'o e Tu'i mo hono fale 'i he fakalele 'o ha fonua, 'o fakatatau ki he fa'unga fonua 'oku nau fakalele'aki. Ka 'i he anga lahi, 'e lava 'o fakamamafa'i e ngaahi fatongia mahu'inga 'e ni'ihi 'oku tokoni lahi ki he pule'anga mo e fonua, 'o kapau 'oku 'i ai ha Tu'i mo hono fale 'oku nau fakalele'i ha fonua. \n\n1. **Fakatoka mo e fakafatufatu'i e 'ulungaanga fakafonua:** 'E 'i ai 'a e fatongia 'a e Tu'i mo hono fale 'o e pule'anga 'i hono fakatoka mo e fakafatufatu'i e 'ulungaanga fakafonua. 'Oku nau 'iloa ko e ngaahi taha 'oku malu'i mo fakamamafa'i e ngaahi 'ulungaanga mo e tu'unga fakafonua, 'a ia 'oku faka'apa'apa'i mo poupou'i he fonua.\n\n2. **Fakafofonga'i 'a e fonua:** He 'oku nau fakafofonga'i 'a e fonua 'i he ngaahi feohi'anga fakavaha'apule'anga pea mo e ngaahi kaveinga 'oku nau kau kiai, ke hoko ko ha fakamatala fakafonua ki tu'apule'anga.\n\n3. **Ngāue fakataha mo e Pule'anga:** 'I he tu'unga he ngaahi fonua 'oku nau pule'i 'e he Pule'anga Tafatolu, pe ko ha fa'unga fakatemokalati 'oku 'i ai ha Tu'i, 'oku mahu'inga 'a e ngaahi fatongia mo e ngāue fakataha 'a e Tu'i mo 'ene pule'anga ki hono fakalele 'o e fonua. 'E kau eni ki hono fakapaasi 'o e ngaahi lao, fakatokanga'i e founga pule'anga, mo e fakapatonu ki he mahu'inga 'o e lea mo e 'atakai.\n\n4. **Tokanga'i 'a e lelei 'a e kakai:** 'I he ngaahi fonua mo e Tu'i, 'oku mahu'inga 'aupito ke tokanga'i 'e he Tu'i mo hono fale 'a e lelei 'o e kakai 'i honau tu'unga fakasoifua. 'Oku kau eni ki hono tokoni'i 'o e ngaahi polokalama sosiale, ako, mo'ui lelei, mo e ngaahi polokalama kehekehe 'oku fakalakalaka'i 'a e lelei 'o e mo'ui 'a e kakai.\n\n5. **Tauhi 'o e ma'utafi mo e malu:** 'Oku 'i ai mo e fatongia 'a e Tu'i mo hono fale ki hono tauhi 'o e ma'utofi mo e malu 'i he fonua, ke ne fakapapau'i 'oku malu mo ma'u faingamālie 'a e kakai 'aki 'a e ngaahi 'ofisi ngaahi me'a fetu'utaki mo e kau polisi mo e ngaahi kautaha fakamālohi.\n\n'Oku mahu'inga ke manatu'i, 'e 'ikai ke tatau e ngaahi fatongia 'o e Tu'i 'i he ngaahi fonua kehekehe 'o fakatatau ki honau fa'unga pule'anga mo e tu'utu'uni 'o e fonua. 'Oku 'i ai 'a e ngaahi fonua 'oku taha pe 'enau tui ki he fakalele fonua, pea 'oku kehe 'a e ngaahi tu'utu'uni mo e tukufakaholo 'o e fonua ko ia."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Ko e hā e fatongia 'o e Tu'i mo hono fale 'i he fakalele e fonua?\n",
-            "model_name": "GPT 4",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "gpt-4-0125-preview",
-            "n": 1,
-            "presence_penalty": 0.0,
-            "temperature": 1.0,
-            "top_p": 1.0,
-            "logprobs": false
-          }
-        },
         {
           "name": "tongan:1:language.tongan:mixtral 8x22b (api)",
           "language": "Tongan",
@@ -171,6 +149,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:1:language.tongan:gpt 4",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'E lava ke kehekehe 'a e fatongia 'o e Tu'i mo hono fale 'i he fakalele 'o e fonua 'i he ngaahi fonua kehekehe mo e ngaahi taimi kehekehe. Ka 'i he laumālie lahi, 'oku 'i ai 'a e ngaahi fatongia mahu'inga 'oku tataki 'e he Tu'i mo hono fale 'i he fakalele 'o e fonua, 'o kau ai:\n\n1. **Fakataha'i 'o e Fonua**: 'Oku fatongia 'a e Tu'i ke ne fakataha'i 'a e kakai 'o e fonua, 'o ne fakamafola 'a e 'uhinga mo e tui fakafonua. 'Oku ne fakatokanga'i 'a e ngaahi kaveinga mo e ngaahi 'ulungaanga fakafonua 'oku mahu'inga ki he kakai.\n\n2. **Fakafofonga'i 'o e Fonua**: 'I he ngaahi feitu'u, 'oku 'i ai 'a e fatongia 'a e Tu'i ke ne fakafofonga'i 'a e fonua 'i he ngaahi feitu'u fakavaha'apule'anga pe ko hono fakamatala'i 'o e fonua 'i he ngaahi me'a fakavaha'apule'anga.\n\n3. **Fakalele 'o e Pule'anga**: 'I he ngaahi fonua, 'oku 'i ai 'a e fatongia 'a e Tu'i ke ne kau ki he fakalele 'o e pule'anga, 'o kau ai 'a e fakamo'oni'i 'o e ngaahi lao, pe ko hono fili 'o e kau taki 'o e pule'anga.\n\n4. **Tauhi 'o e Tu'unga Fakalao mo e Fakafonua**: 'Oku fatongia 'a e Tu'i ke ne tauhi 'a e tu'unga fakalao mo e fakafonua 'o e fonua, 'o ne fakapapau'i 'oku malu 'a e ngaahi tu'utu'uni mo e ngaahi 'ulungaanga fakafonua.\n\n5. **Fakamalumalu ki he Ngaahi 'Otua mo e Lotu**: 'I he ngaahi fonua, 'oku 'i ai 'a e fatongia 'a e Tu'i ke ne fakamalumalu ki he ngaahi 'otua mo e lotu, 'o ne fakapapau'i 'oku 'i ai 'a e sauni mo e malu 'i he ngaahi me'a fakalotu.\n\n6. **Fakalakalaka 'o e Fonua**: 'Oku 'i ai 'a e fatongia 'a e Tu'i ke ne tokoni ki he fakalakalaka 'o e fonua, 'o kau ai 'a e 'ekonōmika, sosiale, mo e 'atakai.\n\nKo e ngaahi fatongia ko 'eni 'oku lava ke kehekehe 'i he ngaahi fonua kehekehe mo e ngaahi taimi kehekehe, pea 'oku mahu'inga ke mahino 'oku 'ikai ko e kotoa 'o e ngaahi fonua 'oku 'i ai 'a e Tu'i 'oku nau fakahoko 'a e ngaahi fatongia ko 'eni 'i he founga tatau."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e fatongia 'o e Tu'i mo hono fale 'i he fakalele e fonua?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -194,28 +194,6 @@
         "human_evaluated": false
       },
       "answers": [
-        {
-          "name": "tongan:2:language.tongan:gpt 4",
-          "language": "Tongan",
-          "translations": {
-            "Tongan": {
-              "language": "Tongan",
-              "text": "Ko e fakakaukau 'o e \"kosi 'o e lou'ulu\" 'i ha ngaahi taimi faka'eiki 'oku mahu'inga ke ma'u ha malamalama ki ai, pea 'oku 'i ai e ngaahi 'uhinga kehekehe 'oku lava ke fakahoko ia. 'Oku 'ikai ko ha me'a fakatu'upake pe 'oku ne hoko ki he tokotaha kotoa pe, ka 'e lava ke 'i ai e ngaahi 'uhinga fakasaienisi mo e anga fakasosiale. Ko e ngaahi 'uhinga lahi taha 'oku kau ki ai:\n\n1. **Mahu'inga 'o e Fakafe'iloaki Fonua**: 'I he ngaahi fonua fakatonga lahi, 'oku 'iloa 'a e kosi 'o e lou'ulu 'o hangē ko ha fakahaa'i 'o e faka'apa'apa mo e 'ulungaanga talangofua ki ha taha 'oku ma'u ha tulunga mahu'inga pe ko ha tokotaha matu'a. 'Oku fakaha 'e he 'ulungaanga ko 'eni 'a e fakatokanga'i 'o e tu'unga fakasosiale pea mo e faka'amu ke faka'apa'apa'i 'a e ngaahi fa'unga mo e ngaahi 'ulungaanga fakafonua.\n\n2. **Tulafono mo e Tu'utu'uni Fakasosiale**: 'I he ngaahi feitu'u 'e ni'ihi, 'oku 'osi 'i ai e ngaahi fa'unga mo e ngaahi tulafono fakasosiale 'oku pule'i 'a e founga 'o e feohi 'a e kakai. 'Oku kau ki he ngaahi tulafono ko 'eni 'a e ngaahi 'ulungaanga fekau'aki mo e kosi ka e fetaulaki mo e kakai 'oku nau ma'u ha tu'unga 'oku laka hake. 'Oku fakapapau'i 'e he 'ulungaanga ko 'eni 'a e lototaha mo e fe'unga 'o e anga fefolau'aki 'i he va 'o e kakai.\n\n3. **Faka'ilonga'i 'o e Tu'unga Ma'olunga pe Faka'apa'apa**: Ko e liliu 'o e ngaahi tu'unga fakalukufua 'i ha feitu'u, 'oku lava ke 'omi 'e he kosi 'o e lou'ulu ha faka'ilonga ki ha tokotaha pe kupu 'oku ne ma'u e tu'unga ma'olunga pe faka'apa'apa. Ko e ngaahi tu'unga ko 'eni 'e lava ke kau ki ai 'a e ngaahi palēmia, tangata'eiki, pe ha taha 'oku ne fakahoko ha fatongia mahu'inga 'i he sosaieti.\n\n4. **Mahu'inga 'o e Me'a Faka'eiki**: 'I he taimi 'oku fakahoko ai e ngaahi 'ulungaanga ko 'eni 'i ha ngaahi me'a faka'eiki, ko e 'ulungaanga ia 'o e lototaha mo e faka'apa'apa, 'a ia 'oku mahu'inga 'i he ngaahi kaveinga 'a e tokolahi 'o e ngaahi fonua fakatonga. 'Oku 'omai 'e he ngaahi 'ulungaanga ko 'eni ha founga ke fakamamafa'i 'a e mahu'inga 'o e me'a faka'eiki mo e anga fakafonua.\n\nKo e ngaahi 'uhinga 'oku 'asi mei 'olunga 'oku ne fakamatala'i ha fa'ahinga falala'anga fakakomesiale pea mo fakasosiale 'a ia 'oku mahu'inga 'i he ngaahi sosaieti kehekehe. 'Oku mahu'inga ke manatu'i 'oku 'ikai ko ha ngaahi 'uhinga ko 'eni pe 'e taha pe ua 'oku ne 'uhinga'i 'a e 'ulungaanga ko 'eni 'i he kotoa 'o e ngaahi fonua, ka 'oku kehekehe 'a e ngaahi 'uhinga 'i he ngaahi feitu'u takitaha."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Ko e ha 'oku kosi ai e lou 'ulu he hili ha me'a faka'eiki?\n",
-            "model_name": "GPT 4",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "gpt-4-0125-preview",
-            "n": 1,
-            "presence_penalty": 0.0,
-            "temperature": 1.0,
-            "top_p": 1.0,
-            "logprobs": false
-          }
-        },
         {
           "name": "tongan:2:language.tongan:mixtral 8x22b (api)",
           "language": "Tongan",
@@ -258,6 +236,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:2:language.tongan:gpt 4",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'Oku 'i ai ha ngaahi 'uhinga kehekehe 'oku malava ke kosi ai e lou 'ulu hili ha me'a faka'eiki, 'o kau ai:\n\n1. **Fakatupu 'o e ngaahi 'elemeniti kemikale**: 'I he taimi 'oku ke inu ai ha me'a faka'eiki, 'oku fakatupu 'e he sino ha ngaahi 'elemeniti kemikale 'oku ui ko e acetaldehyde, 'a ia 'oku ne fakatupu ha ngaahi fakafepaki'aki 'i he sino. 'Oku malava ke fakatupu 'e he acetaldehyde ha ngaahi fakalavea'i 'o kau ai e kosi 'ulu.\n\n2. **Dehydration**: 'Oku 'iloa 'a e me'a faka'eiki ke ne fakasi'isi'i 'a e vai 'i he sino, 'a ia 'oku ui ko e dehydration. 'Oku malava ke fakatupu 'e he dehydration ha kosi 'ulu 'o hangē ko ia 'oku hoko 'i he taimi 'oku 'ikai ke lava 'e he sino 'o ma'u 'a e vai 'oku fiema'u.\n\n3. **Fakalelei'i 'o e toto**: 'Oku malava ke fakalelei'i 'e he me'a faka'eiki 'a e ngaahi toto'anga toto 'i he sino, 'a ia 'oku ne fakatupu ha ngaahi fakalavea'i 'i he tafa'aki 'o e 'atamai mo e sino, 'o kau ai e kosi 'ulu.\n\n4. **Fakatupu 'o e ngaahi 'elemeniti kemikale 'oku ne fakatupulaki 'a e fakafiemalie**: 'Oku malava ke fakatupu 'e he me'a faka'eiki ha ngaahi 'elemeniti kemikale 'oku ne fakatupulaki 'a e fakafiemalie 'i he sino, 'o kau ai 'a e dopamine. 'I he taimi 'oku toki ma'u 'e he sino 'a e dopamine ko 'eni, 'oku ne fakatupu ha fakafiemalie, ka 'i he taimi 'oku hifo ai, 'oku malava ke fakatupu 'e ia ha kosi 'ulu.\n\n5. **Fakatupu 'o e ngaahi fakalavea'i 'i he ngaahi 'elemeniti kemikale 'oku ne tokanga'i 'a e mo'ui lelei 'o e sino**: 'Oku malava ke fakalelei'i 'e he me'a faka'eiki 'a e ngaahi 'elemeniti kemikale 'oku ne tokanga'i 'a e mo'ui lelei 'o e sino, 'o kau ai 'a e serotonin mo e norepinephrine. 'Oku malava ke fakatupu 'e he ngaahi liliu ko 'eni ha ngaahi fakalavea'i 'i he sino, 'o kau ai e kosi 'ulu.\n\nKo e ngaahi 'uhinga ko 'eni 'oku nau fakamatala'i 'a e ngaahi founga kehekehe 'oku malava ke kosi ai e lou 'ulu hili ha me'a faka'eiki. 'Oku mahu'inga ke manatu'i 'oku 'ikai ke tatau 'a e tali 'a e kakai kotoa pe ki he me'a faka'eiki, pea 'e kehekehe 'a e ngaahi 'uhinga mo e ngaahi fakalavea'i 'i he kakai takitaha."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku kosi ai e lou 'ulu he hili ha me'a faka'eiki?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -281,28 +281,6 @@
         "human_evaluated": false
       },
       "answers": [
-        {
-          "name": "tongan:3:language.tongan:gpt 4",
-          "language": "Tongan",
-          "translations": {
-            "Tongan": {
-              "language": "Tongan",
-              "text": "Ko e lau mahina faka-Tonga ‘oku kei ‘aonga lahi pe ia he kuonga ni ‘i he ngaahi ‘uhinga lalahi ‘e ni’ihi. \n\n1. **Tāpuaki mo e fakafamili**: ‘I he ngaahi famili Tonga, ‘oku mahu’inga ‘aupito ‘a e tauhi mo e fakamanatu ‘o e ngaahi ‘aho tāpuaki mo e ngaahi ‘uhinga fakafamili ‘o fakatatau ki he kalena mahina faka-Tonga. ‘Oku tokoni ‘a e lau mahina ki hono fakamanatu’i ‘o e ngaahi ‘aho māhina ta’u pea pehē ki he ngaahi kaveinga fakaemāmani lahi.\n\n2. **Fakaako, Fakafonua mo e Talenití**: ‘Oku fakamālohi’i ‘e he lau mahina faka-Tonga ‘a e fakapapau’i ‘o e ‘ilo mo e mahino ki he lea fakafonua mo e koloa ‘a Tonga. ‘Oku fakahaa’i ‘e he ngaahi marama kotoa pe ‘oku ne tohoaki’i ‘a e ngaahi ngaue’anga, ‘u’anga mo e ngaahi ‘outi fakasāienisi ‘oku ngaue’aki ‘i he faiva, tufunga, pea mo e koloa’ia.\n\n3. **‘Ulumotu’a mo e Tokangaekina ‘o e ‘Atakai**: ‘Oku lahi ‘a e ‘uhinga mo e ngaahi lea ‘oku fakafou mai mei he anga ‘o e mo’ui fakatu’i mo e mo’ui anga fakafonua ‘i Tonga ‘oku fakangaue’aki ‘i he lau mahina faka-Tonga. ‘Oku tokoni ‘eni ki he tokangaekina mo e ako ‘o e kakai ki he tauhi ‘o e ‘atakai mo e fakafepaki’i ‘o e ngaahi fakatamaki fakaenatula.\n\n4. **Ko e Fakamatala mo e Fa’unga ‘o e Vāhenga Taimi**: ‘Oku mahu’inga ‘a e mahina faka-Tonga ki hono fakamatala’i ‘o e vāhenga taimi, tautautefito ki he ngaahi me’a fakafonua mo e talafakatapuí. ‘Oku fa’a ngaue’aki ‘a e kalena mahina ko ha fa’unga ke tokangaekina ‘a e lea mo e tu’unga fakafonua ‘o Tonga.\n\nKo hono kotoa, ‘oku kei mahu’inga ‘aupito ‘a e lau mahina faka-Tonga ‘i he kuonga ni he ko e taha ia ‘o e ngaahi me’angaue ke tauhi mo falala ki he ‘etau koloa fakafonua, mo e tokangaekina e ngaahi fa’unga mo’ui ‘o Tonga. ‘Oku ‘ikai ko ha me’a pe ia ‘oku kei nofo fonu ki he tu’i Tonga pe, ka ‘oku ‘amanaki ke ‘ilo’i mo mahu’inga’i ‘e he toenga ‘o e Tonga mo e Pasifiki lahi."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Ko e ha 'oku kei 'aonga nai ai e lau mahina faka-Tonga he kuonga ni?\n",
-            "model_name": "GPT 4",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "gpt-4-0125-preview",
-            "n": 1,
-            "presence_penalty": 0.0,
-            "temperature": 1.0,
-            "top_p": 1.0,
-            "logprobs": false
-          }
-        },
         {
           "name": "tongan:3:language.tongan:mixtral 8x22b (api)",
           "language": "Tongan",
@@ -345,6 +323,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:3:language.tongan:gpt 4",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'E lava ke kei 'aonga lahi e lau mahina faka-Tonga he kuonga ni 'i he ngaahi 'uhinga lahi. Ko e taha, 'oku ne tokoni ke tauhi mo fakamamafa'i 'a e ngaahi 'angafakafonua mo e tu'unga fakasosiale 'o e kakai Tonga. 'I he'ene fakamafola'i mo hono ako'i 'o e lau mahina faka-Tonga, 'oku ne tokoni ki hono tauhi 'o e 'ilo mo e 'ulungaanga fakafonua, pea mo e fakafamili, 'a ia 'oku mahu'inga lahi ki he kakai Tonga.\n\nKo e lau mahina faka-Tonga 'oku ne fakamafola'i mo e ngaahi 'uhinga fakakoloa, fakafonua, mo e fakasosiale, 'o kau ai 'a e ngaahi fakakaukau mo e ngaahi 'ulungaanga 'oku ne fakamamafa'i 'a e feveitokai'aki, faka'apa'apa, mo e lototō. 'Oku ne tokoni foki ki he kakai Tonga ke nau ma'u ha 'ilo ki he ngaahi me'a fakatātā mo e ngaahi 'aho mahu'inga 'i he kalena Tonga, hange ko e ngaahi 'aho mahu'inga fakalotu, ngaahi fakamanatu, mo e ngaahi 'aho fakafonua.\n\n'Oku mahu'inga foki 'a e lau mahina faka-Tonga ki he ako mo e fakatupulaki 'o e lea Tonga, 'a ia 'oku 'i ai 'a e ngaahi lea mo e ngaahi kupu'ilea 'oku nau fakamatala'i 'a e ngaahi mahina mo e ngaahi 'uho 'o e ta'u fakafonua. 'Oku ne tokoni ki hono tauhi 'o e lea Tonga ke kei nofo ma'u'anga mo fakalakalaka.\n\n'Oku 'ikai ngata ai, 'oku 'aonga foki 'a e lau mahina faka-Tonga ki he ngaahi feitu'u 'oku nau feinga ke tauhi 'enau ngaahi 'angafakafonua mo e ngaahi 'ulungaanga tukufakaholo 'i he ngaahi fonua muli. 'Oku ne tokoni ki he kakai Tonga 'oku nofo muli ke nau kei ma'u ha feso'ota'anga mo e fonua mo e ngaahi 'ulungaanga 'o e fonua tupu'anga.\n\nKo e lahi 'o e 'aonga 'o e lau mahina faka-Tonga 'oku fakatatau ki he founga 'oku ngaue'aki ai 'e he kakai Tonga 'i he'enau mo'ui faka'aho mo e ngaahi feitu'u kehekehe 'oku nau nofo ai. 'Oku ne fakamafola'i 'a e 'ilo, fakalakalaka 'a e lea mo e tu'unga fakafonua, pea mo e fakamalohia 'a e feveitokai'aki 'i he vaha'a 'o e ngaahi famili, kolo, mo e fonua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku kei 'aonga nai ai e lau mahina faka-Tonga he kuonga ni?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -368,28 +368,6 @@
         "human_evaluated": false
       },
       "answers": [
-        {
-          "name": "tongan:4:language.tongan:gpt 4",
-          "language": "Tongan",
-          "translations": {
-            "Tongan": {
-              "language": "Tongan",
-              "text": "'I he anga fakasosiale mo e tu'unga fakafonua 'i Tonga, ko e \"fahu\" ko e lea fakafonua 'oku ne faka'uhinga'i 'a e tu'unga 'o e fefine matāpule (tuofefine) 'uluaki 'a e tu'í, pe ko ha tu'í fefine 'i he famili fakatonga. Ko e fahu 'oku 'i ai ha tu'unga ma'olunga taha 'i he ngaahi katoanga mo e ngaahi fatongia fakafamili, 'o fakalangilangi'i mo fakatokanga'i 'i he ngaahi 'aho mahu'inga pe katoanga fakafonua.\n\nKo e tu'unga 'o e fahu 'oku 'oatu 'a e malu'i mo e fakalangilangi ki hono famili, pea 'oku 'i ai 'ene ngaahi mafai mo fatongia ke ne hoko ko e sipinga ma'olunga 'o e fefine Tonga. 'I he ngaahi fa'ahinga fakafamili 'oku lava ke tokolahi 'a e fānau fefine, ka ko e tuofefine matu'a taha pe ko e fefine matu'a taha 'i he tu'unga fakatokolahi 'oku 'iloa ko e \"fahu\". 'Oku ne ma'u 'a e pule 'i he ngaahi me'a fakafamili 'o kapau 'oku 'ikai 'i ai ha tokotaha tangata 'oku ma'olunga ange hono tu'unga.\n\n'I he ngaahi 'aho ni, 'oku kei hoko atu pe 'a e ngaahi fa'unga mo'ui fakatraditional 'a Tonga 'i he ngaahi fononga 'a e famili mo e koloa, 'o kau ai e 'ulungaanga mo e fakakaukau ki he \"fahu\" 'i he ngaahi katoanga mahu'inga mo e fatongia fakafamili. 'Oku mahu'inga ke fakatokanga'i 'oku fakatupulaki 'a e ngaahi fakakaukau fakamamani lahi mo e fakalakalaka 'o e sosaieti, ka 'oku kei mahu'inga 'aupito 'a e fa'u mo e tu'unga 'o e fahu 'i he ngaahi kaveinga fakasosiale mo e anga fakafonua 'a Tonga."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Ko e fahu 'oku fakalangilangi'i 'i he ngaahi katoanga lalahi 'a e Tonga. Ko hai 'oku totonu ke fahu?\n",
-            "model_name": "GPT 4",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "gpt-4-0125-preview",
-            "n": 1,
-            "presence_penalty": 0.0,
-            "temperature": 1.0,
-            "top_p": 1.0,
-            "logprobs": false
-          }
-        },
         {
           "name": "tongan:4:language.tongan:mixtral 8x22b (api)",
           "language": "Tongan",
@@ -432,6 +410,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:4:language.tongan:gpt 4",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'I he anga fakasosiale mo e tu'unga fakafonua 'a Tonga, ko e \"fahu\" ko e fa'e 'uluaki 'o e tuofefine 'i ha famili pe ko e tuofefine lahi taha 'i he ngaahi tuofefine. 'Oku 'iloa 'a e fahu ko e tokotaha 'oku 'i ai ha tu'unga ma'olunga taha 'i he famili mo e sosaieti Tonga, pea 'oku ne ma'u ha ngaahi mafai mo e ngaahi fatongia motuhake 'i he ngaahi 'aho mahu'inga pe katoanga, hange ko e ngaahi fakamālōlō, ngaahi fakafāmili, mo e ngaahi fakaha'ele.\n\nKo e fahu 'oku ne fakalangilangi'i 'i he ngaahi katoanga lalahi 'a e Tonga 'aki 'a e ngaahi fatongia mo e ngaahi mafai 'oku 'ikai ke ma'u 'e ha taha kehe 'i he famili. 'Oku kau ki he'enau ngaahi fatongia 'a e fakahoko 'o e ngaahi tapuaki, 'a e fakanofo 'o e ngaahi me'a fakafonua, pea mo e fakatau'ataina'i 'o e ngaahi feitu'u 'oku tapu ki he famili pe kāinga. 'I he taimi 'o e mate, 'oku nau 'i ai mo ha tu'unga mahu'inga 'i he fakahoko 'o e ngaahi fatongia fakalotu mo e fakafonua 'oku fakahoko ki he tokotaha kuo malolo.\n\nKo e tu'unga 'o e fahu 'oku fakapapau'i 'aki 'a e mahu'inga 'o e fa'ahinga mo e ngaahi fakapotopoto'anga fakafamili 'i he sosaieti Tonga. 'Oku 'uhinga 'eni 'oku nau ma'u ha malu'i mo ha 'ofa mei he'enau famili mo e kāinga, pea 'oku nau tui ki ai ke nau tokoni'i mo malu'i 'a e ngaahi 'ulungaanga mo e ngaahi tu'unga fakasosiale 'o e famili. 'Oku fakamamafa'i 'e he tu'unga ko 'eni 'a e mahu'inga 'o e feohi fakafamili mo e fakafepaki'i 'o e ngaahi liliu fakasosiale 'oku hoko 'i he vā fakataimi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e fahu 'oku fakalangilangi'i 'i he ngaahi katoanga lalahi 'a e Tonga. Ko hai 'oku totonu ke fahu?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -455,28 +455,6 @@
         "human_evaluated": false
       },
       "answers": [
-        {
-          "name": "tongan:5:language.tongan:gpt 4",
-          "language": "Tongan",
-          "translations": {
-            "Tongan": {
-              "language": "Tongan",
-              "text": "Ko e kehekehe 'i he lea 'oku ngāue'aki ki he Tu'i, kau Nōpele mei he tu'a 'oku ne fa'a hoko mai mei he ngaahi 'ulungaanga lolotonga 'o e sosaieti mo e tu'unga mo'ui fakasosiale 'o e taimi ko ia. 'I he ngaahi fonua lahi, 'oku 'i ai e ngaahi tu'utu'uni mo e ngaahi fatongia 'oku fa'a tānaki atu ki he ngaahi kalasi pe kāinga kehekehe fakasosiale pe fakapolitikale, 'o kau ai 'a e Tu'i mo e kau Nōpele, pea mo e kakai 'o e tu'a.\n\n### Tu'i mo e kau Nōpele\n\n'Oku 'iloa 'a e Tu'i mo e kau Nōpele 'i honau ngaahi fatongia, mafai, mo hono pule'i 'o e fonua pe ko ha va'inga fakasosiale. Ko honau lea mo e ngaahi tukufakaholo 'oku faka'aonga'i ki he kau Nōpele, 'oku lahi hono falala'anga mo e faka'apa'apa, 'o fakafou 'i he'ena tu'unga fakasosiale mo e mafai.\n\n### Tu'a\n\nKo e kakai 'o e tu'a, 'i he tafa'aki kehe, 'oku nau toki hoko mai 'i ha tu'unga kehekehe 'i he sosaiete, 'ikai ke nau ma'u 'a e mafai pe tu'unga fakasosiale 'o hangē ko e kau Nōpele pe Tu'i. He ngaahi taimi, 'oku fa'a fakangatangata ai 'enau ngaue'aki 'o e lea mo e ngaahi tukufakaholo 'oku fe'unga mo e kakai 'o e tu'a, pea 'oku fa'a mamafa ange ai 'a hono ngāue'aki 'o e lea fakatokilalo mo e fe'unga.\n\n### Fakakatoa\n\nKo e fa'a kehekehe 'eni, 'oku ne 'omai 'a e 'uhinga 'oku mahu'inga ke 'ilo 'e he taha kotoa 'a e ngaahi tu'utu'uni mo e kaveinga 'oku fakahā 'i he lea 'oku ngaue'aki, kau ai 'a e ngaahi lao 'o e faka'apa'apa, fakafiemālie, mo e 'ikai fakahoko ha fa'ahinga 'ikai faka'apa'apa pe fakafepaki'aki 'i he taimi 'oku felāfonoaki ai mo e Tu'i, kau Nōpele, pe kakai 'o e tu'a. 'Oku hoko 'a e ngaue fakatatau ki he tu'utu'uni ko 'eni, 'o ne fakapapau'i 'oku tauhi pe 'a e ngaahi fepuna'aki lelei mo e anga-fakafonua 'i he va mo e ngaahi kāinga mo e kau taki fakasosiale."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Ko e hā 'oku kehe ai 'a e lea 'oku ngāue'aki ki he Tu'i, kau Nōpele mei he tu'a?\n",
-            "model_name": "GPT 4",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "gpt-4-0125-preview",
-            "n": 1,
-            "presence_penalty": 0.0,
-            "temperature": 1.0,
-            "top_p": 1.0,
-            "logprobs": false
-          }
-        },
         {
           "name": "tongan:5:language.tongan:mixtral 8x22b (api)",
           "language": "Tongan",
@@ -519,6 +497,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:5:language.tongan:gpt 4",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Ko e lea 'oku ngāue'aki ki he Tu'i, kau Nōpele, mo e tu'a 'i he ngaahi fonua 'oku 'i ai ha fa'unga fakatu'i pe fakapule'anga, 'oku kehekehe ia 'i he ngaahi 'uhinga mahu'inga. 'Oku fakatātau 'a e ngaahi lea mo e ngaahi fakahāhā ni ki he tu'unga fakasosiale, tu'unga fakapolitikale, mo e tu'unga faka'ekonōmika 'o e kau ma'u lea. 'I he ngaahi fonua 'oku 'i ai ha fa'unga fakatu'i, 'oku 'iloa ko e \"lea faka'apa'apa\" 'a e ngaahi lea 'oku ngāue'aki ki he Tu'i mo e kau Nōpele, 'o fakatatau ki he \"lea fakatu'a\" 'oku ngāue'aki ki he kakai 'o e fonua.\n\n1. **Lea Faka'apa'apa ki he Tu'i mo e Kau Nōpele**: 'Oku 'uhinga 'eni ki he ngaahi lea mo e ngaahi fakahāhā 'oku faka'apa'apa mo fakalotolahi'i 'a e tu'unga mo e mahu'inga 'o e Tu'i mo e kau Nōpele 'i he sosaieti. 'Oku kau heni 'a e ngaahi lea 'oku fakapapau'i 'a e 'ofa mo e lohi ki he Tu'i mo hono famili, pea mo e kau Nōpele 'oku nau ma'u ha tu'unga ma'olunga 'i he fonua. 'Oku 'uhinga 'eni ki he ngaahi lea 'oku fakamamafa'i 'a e faka'apa'apa mo e 'ilo ki he tu'unga fakasosiale mo e mahu'inga 'o e kau ma'u lea.\n\n2. **Lea ki he Tu'a**: 'Oku 'uhinga 'eni ki he ngaahi lea 'oku ngāue'aki 'i he feohi mo e kakai 'o e fonua 'oku 'ikai ke nau ma'u ha tu'unga fakatu'i pe fakanofo kau Nōpele. 'Oku lahi ange 'a e ngaahi lea fakatu'a mo e fakangofua 'i he ngaahi feitu'u ko 'eni, 'o 'ikai ke fakangatangata 'e he ngaahi tu'utu'uni fakasosiale pe fakapolitikale 'oku fakamamafa'i 'i he feohi mo e Tu'i mo e kau Nōpele.\n\nKo e kehekehe 'i he lea 'oku ngāue'aki ki he Tu'i, kau Nōpele, mo e tu'a 'oku fakatātau ki he ngaahi tu'utu'uni fakasosiale mo e anga fakakulupu 'oku 'i ai 'i he fonua takitaha. 'Oku fakapapau'i 'e he ngaahi lea mo e ngaahi fakahāhā ko 'eni 'a e tu'unga fakasosiale mo e mahu'inga 'o e kau ma'u lea 'i he sosaieti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'oku kehe ai 'a e lea 'oku ngāue'aki ki he Tu'i, kau Nōpele mei he tu'a?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -542,28 +542,6 @@
         "human_evaluated": false
       },
       "answers": [
-        {
-          "name": "tongan:6:language.tongan:gpt 4",
-          "language": "Tongan",
-          "translations": {
-            "Tongan": {
-              "language": "Tongan",
-              "text": "'I he taumafa kava Tonga, 'oku 'i ai e ngaahi fokotu'utu'u fakatapui ki hono tofi'a 'o e ngaahi nofo'anga 'a e kau matāpule mo e kau Nōpele. Ko e taumafa kava 'oku fakahoko ko ha taha 'o e ngaahi 'ulungaanga mahu'inga taha 'i he sosaieti Tonga, pea 'oku ne fakataha'i 'a e kakai 'o e fonua he ngaahi 'aho mahu'inga pe ko ha ngaahi 'aho fakakoloa.\n\n1. **Nōpele**: 'I he taumafa kava, 'oku 'i ai e nofo'anga mahu'inga 'a e kau Nōpele 'i ha fasi 'o e konga mui 'o e laá, 'oku ui ko e \"mata'itohi\". 'Oku nau nofo 'i he tu'a 'o e Tū'i (kapau 'oku 'i ai ha tū'i 'i he ha'ele'anga) pe 'i he tu'a 'o e tangata matu'a tahá 'o e katoanga. Ko e Nōpele 'oku 'i he ngaahi tu'unga ma'olunga 'i he sosaieti Tonga, mo honau nofo'anga 'i he taumafa kava 'oku ne fakamamafa'i 'enau tu'unga mahu'inga ko ia.\n\n2. **Matāpule**: 'Oku 'oatu ki he kau matāpule, ko e kau tokoni ki he Nōpele pe ko e ngaahi tofi'a kehekehe 'i he fonua, ha ngaahi nofo'anga 'oku 'ikai ke ma'olunga tatau mo e Nōpele ka 'oku pehē foki ki he'ena mahu'inga. 'E nofo 'a e kau matāpule 'i he ngaahi feitu'u kehe 'o e laá ne fakatatau ki honau ngaahi fatongia pe tu'unga 'i he fe'auhi.\n\n3. **Tufunga Kava**: Ko e tufunga kava 'oku 'i ai ha'ane tu'unga mahu'inga 'i he fakahoko 'o e ngaahi fatongia ko 'ení, 'o kau ai 'a hono tufu 'o e kava mo hono tufa. 'Oku 'ikai ia ko ha Nōpele pe matāpule, ka 'oku 'i ai ha'ane tu'unga motuhake.\n\n4. **Tokotaha 'oku taliui**: Taha 'oku ui ko e \"fafine 'oku taliui\" ('i he taimi 'oku ui ko e \"taliui\"), 'oku 'oange 'enau tu'u 'i ha feitu'u motuhake he 'oku nau tali 'a e kava ki he tū'i pe ko e tangata matu'a 'o e katoanga.\n\n5. **Lau 'o e Kava**: Ko e ngaahi fatongia ngaue pe ko e \"lau\" 'o e kava 'oku 'i ai 'a e tokotaha 'oku lau 'a e kava ('oku ui ko e \"laukava\"), 'oku ne lau 'a e hingoa 'o e taha te ne inu 'i hono taimi tatau.\n\n'Oku fakatatau pe 'a e ngaahi nofo'anga 'o e kau fakafofonga 'o e ngaahi kautaha kehekehe 'i he katoanga, pea 'oku mahu'inga 'aupito 'a e pule'i mo e fanongonongo 'o e ngaahi fatongia pea mo hono fakapapau'i 'o e ngaahi tu'unga fakasosiale 'i he sosaieti Tonga."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Ko e hā hono fokotu'utu'u 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava?\n",
-            "model_name": "GPT 4",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "gpt-4-0125-preview",
-            "n": 1,
-            "presence_penalty": 0.0,
-            "temperature": 1.0,
-            "top_p": 1.0,
-            "logprobs": false
-          }
-        },
         {
           "name": "tongan:6:language.tongan:mixtral 8x22b (api)",
           "language": "Tongan",
@@ -606,6 +584,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:6:language.tongan:gpt 4",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'I he taumafa kava 'i Tonga, 'oku 'i ai 'a e fokotu'utu'u mahu'inga mo e tu'unga fakasosiale 'oku fakahoko ki hono nofo'anga 'o e kau matāpule mo e kau Nōpele. 'Oku fa'a ui 'a e fakataha'anga ko 'eni ko e kava, pea 'oku 'i ai 'ene ngaahi tu'utu'uni mo e ngaahi fakalea 'oku tataki 'e he ngaahi tu'unga fakasosiale mo e fakafonua.\n\n1. **Tu'unga 'o e Nōpele**: 'I he fakataha'anga kava, 'oku 'i ai 'a e tu'unga ma'olunga 'a e kau Nōpele 'i Tonga. 'Oku nau nofo 'i ha ngaahi tu'unga ma'olunga 'i he potu kava, 'o hangē ko e tu'unga 'oku fekau'aki mo 'enau tu'unga fakasosiale mo e fakafonua. 'Oku nau 'i he vaha'a 'o e taki (ko e 'eiki 'oku ne taki 'i he kava) mo e kau matāpule 'oku nau ma'u 'a e fatongia ke fakahoko 'a e ngaahi fatongia kehekehe 'i he kava.\n\n2. **Tu'unga 'o e Kau Matāpule**: 'Oku kau 'a e kau matāpule 'i he ngaahi fatongia kehekehe 'i he kava, 'o kau ai 'a hono tufa 'o e kava, hono tānaki 'o e kava, mo e ngaahi fatongia kehekehe 'oku nau fakahoko ke fakalelei'i 'a e fakataha'anga. 'Oku nau nofo 'i ha ngaahi tu'unga 'oku 'ikai ko ha tu'unga ma'olunga taha 'i he sosaieti, ka 'oku mahu'inga 'enau ngaue 'i he fakataha'anga kava.\n\n3. **Fokotu'utu'u 'o e Nofo'anga**: 'Oku fakatatau 'a e nofo'anga 'i he kava ki he tu'unga fakasosiale 'o e kau taki mo e kau fakataha'anga. 'Oku 'i ai 'a e ngaahi tu'unga 'oku fakapapau'i 'e he ngaahi fakalea mo e ngaahi 'ulungaanga fakafonua. 'Oku mahu'inga 'aupito 'a e fakapapau'i 'oku 'i he tu'unga totonu 'a e kotoa 'o e kau fakataha'anga ke fakamālōlō'i 'a e faka'apa'apa mo e fakatokilalo 'i he vā 'o e kau taki mo e kau fakataha'anga.\n\n4. **Faka'apa'apa mo e Fakatokilalo**: 'Oku mahu'inga 'aupito 'a e faka'apa'apa mo e fakatokilalo 'i he taumafa kava. 'Oku fakahā 'eni 'i he founga 'o e nofo 'a e kau fakataha'anga, 'a e founga 'o hono tufa 'o e kava, mo e ngaahi lea 'oku ngaue'aki. 'Oku 'uhinga 'eni ke fakapapau'i 'oku 'i ai 'a e faka'apa'apa mo e fakatokilalo ki he tu'unga fakasosiale 'o e kotoa 'o e kau fakataha'anga.\n\nKo e taumafa kava 'oku 'ikai ko ha me'a pe 'oku fakahoko ki he inu pe, ka 'oku 'i ai 'a e ngaahi 'ulungaanga fakafonua mo e fakasosiale 'oku fakakakato 'aki 'a e fakataha'anga ko 'eni, 'o fakatatau ki he ngaahi tu'utu'uni mo e ngaahi fakalea 'oku ne fakamālōlō'i 'a e fakafonua mo e fakasosiale 'o e fonua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā hono fokotu'utu'u 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -629,28 +629,6 @@
         "human_evaluated": false
       },
       "answers": [
-        {
-          "name": "tongan:7:language.tongan:gpt 4",
-          "language": "Tongan",
-          "translations": {
-            "Tongan": {
-              "language": "Tongan",
-              "text": "'E lava ke fakamatala'i 'aki 'a e ngaahi founga kehekehe 'oku ngaue'aki 'i he hono tuku mai 'o e ngaahi tala 'o Tonga 'i he 'aho ni, ko 'eni 'oku ou sio ai ki he tekinolosia lolotonga 'i he 2023:\n\n1. **Ngaahi Letiō mo e Televīsone**: Ko e ngaahi leō fakamuimuitaha 'a e letiō mo e televīsione 'oku kei hoko 'o hange ko e ngaahi kautaha tuku talanoa tāpuekina 'i Tonga. 'Oku nau fakahoko ngaahi polokalama fakalotofonua mo e ngaahi lipooti 'i he lea faka-Tonga fekau'aki mo e ngaahi me'a fakalotofonua mo e ngaahi me'a fakavaha'a pule'anga.\n\n2. **Fakamatala 'Initaneti**: 'I he 'aho ni, ko e 'initaneti ko e taha ia 'o e ngaahi hala uta tefito'i tala fakamuimuitaha. 'Oku 'i ai 'a e ngaahi uépisaiti fakalotofonua mo e ngaahi 'apí fakamītiaʻanga 'a ia 'oku nau fakamatala faka'ofo'ofa 'a e ngaahi tala mei Tonga. 'Oku kau heni 'a e ngaahi 'uēpisaiti 'o e ngaahi nusipepa mo e ngaahi kautaha fakaletio'o televīsione 'o e fonua, pea mo e ngaahi 'akauni mītia fakasōsiale 'oku nau ngaue'aki ke fa'a tufaki 'a e ngaahi tala fakamuimui mo e fakamatala.\n\n3. **Ngaahi 'Akauni Mītia Fakasōsiale**: 'Oku ngaue'aki 'e he tokolahi 'a e mītia fakasōsiale, hange ko e Facebook, Twitter, Instagram, mo YouTube, ke tufa 'aki 'a e ngaahi tala mo e fakamatala mei Tonga. 'Oku fakahoko 'e he ngaahi pisinisi, kautaha, po'uli faka-politikale, mo e tangata pē ngaahi polokalama mo e ngaahi kautaha mītia mo'oni ke nau 'oatu 'a e ngaahi tala fakamuimui mo e fakamatala ki he kakai 'o e fonua.\n\n4. **Ngaahi 'Ēpiliki**: 'Oku kei poupoua pe mo ngaue'aki e ngaahi 'ēpiliki talafono, tautaha kenau fakahoko mo tufotufa e ngaahi tala mo e fakamatala ki he kakai. 'Oku kau heni 'a e ngaahi 'ēpiliki 'a e ngaahi kautaha niusipepa, letiō mo e televīsione, mo e ngaahi 'ēpiliki fakapule'anga 'a e pule'anga.\n\nKo e ngaahi founga hono tuku mai 'o e ngaahi tala 'oku fa'a uiui taha ai 'a e ngaahi fie ma'u 'a e kakai mei he ngaahi fa'ahinga kotoa 'o e sosaieti, mei he 'ilo fakamuimui taha 'i he ngaahi me'a 'oku hoko 'i Tonga mo mamani fakalukufua."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Ko e hā 'a e founga hono tuku mai 'a e ngaahi tala 'o Tonga 'i ono 'aho?\n",
-            "model_name": "GPT 4",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "gpt-4-0125-preview",
-            "n": 1,
-            "presence_penalty": 0.0,
-            "temperature": 1.0,
-            "top_p": 1.0,
-            "logprobs": false
-          }
-        },
         {
           "name": "tongan:7:language.tongan:mixtral 8x22b (api)",
           "language": "Tongan",
@@ -693,6 +671,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:7:language.tongan:gpt 4",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'I he 'aho ni, 'oku 'i ai 'a e ngaahi founga kehekehe 'oku ngaue'aki ki hono tuku mai 'a e ngaahi tala 'o Tonga. Ko e ngaahi founga ko 'eni 'oku kau ki ai:\n\n1. **Ngaahi Letiō mo e Televisone**: 'Oku kei mahu'inga 'aupito 'a e letiō mo e televisone 'i Tonga ki hono tufa 'o e ngaahi tala mo e fakamatala ki he kakai. 'Oku nau tufa 'a e ngaahi polokalama 'oku kau ki he ngaahi me'a fakalotofonua, ngaahi 'aho ta'efakalao, mo e ngaahi me'a fakapolitikale.\n\n2. **Ngaahi Nusipepa mo e Magasiní**: 'Oku 'i ai 'a e ngaahi nusipepa mo e magasini 'oku lolotonga tufa 'i Tonga, 'oku nau tufa 'a e ngaahi tala mo e fakamatala fekau'aki mo e ngaahi me'a 'oku hoko 'i Tonga mo mamani lahi.\n\n3. **'Initaneti mo e Social Media**: 'I he ngaahi ta'u kimu'a ni, kuo lahi hake 'a e ngaue'aki 'o e 'initaneti mo e social media 'i Tonga ki hono tufa 'o e ngaahi tala. 'Oku kau ki heni 'a e ngaahi website 'a e ngaahi kautaha nusipepa, ngaahi peesi Facebook, Twitter, mo e Instagram 'oku nau tufa 'a e ngaahi tala mo e fakamatala fekau'aki mo Tonga. 'Oku mahu'inga 'aupito 'eni ki he kakai 'oku nofo 'i tu'apule'anga ke nau ma'u 'a e ngaahi tala mei Tonga.\n\n4. **Ngaahi 'Apelekeisoni mo e Ngaahi Polokalama Fakakomipiuta**: 'Oku 'i ai mo e ngaahi 'apelekeisoni mo e ngaahi polokalama fakakomipiuta 'oku designed ke tufa 'a e ngaahi tala mo e fakamatala fekau'aki mo Tonga. 'Oku kau ki heni 'a e ngaahi 'app' 'oku ngaue'aki ki he telefoni poto mo e ngaahi tablet.\n\nKo e ngaahi founga ko 'eni 'oku fakataumu'a ke fakapapau'i 'oku ma'u 'e he kakai 'o Tonga mo e Tonga diaspora 'a e ngaahi tala mo e fakamatala 'oku nau fiema'u ke nau ma'u 'a e 'ilo ki he me'a 'oku hoko 'i Tonga mo e mamani lahi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'a e founga hono tuku mai 'a e ngaahi tala 'o Tonga 'i ono 'aho?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -716,28 +716,6 @@
         "human_evaluated": false
       },
       "answers": [
-        {
-          "name": "tongan:8:language.tongan:gpt 4",
-          "language": "Tongan",
-          "translations": {
-            "Tongan": {
-              "language": "Tongan",
-              "text": "'Oku mahu'inga 'aupito 'a e famili 'i he sosaieti Tonga mo e anga fakafonua 'o Tonga, pea 'oku fakamamafa'i lahi 'a e nofo 'a e famili 'i he fale Tonga ('o hangē ko e fale fakatonga) 'i hono fakamatala'i 'o e mo'ui fakafonua mo e tāpuaki'anga 'o e ngaahi 'ulungaanga fakafonua mo e lototo'a. \n\n### Anga 'oe Nofo 'a Fāmili 'i he Fale Fakatonga:\n1. **To'oto'o 'a e Pule'anga Fakafamili:** Ko e ulungāanga Tonga, 'oku tokangaekina 'a e 'ulungaanga fakafakapotopoto mo e feveitokai'aki he famili, pea 'oku 'i ai e fa'ahinga mafai fakapule'anga 'oku tataki 'e he tamai fale pe ko e mātu'a lahi taha 'i he famili.\n2. **Feveitokai'aki mo e Faka'apa'apa:** 'Oku mahu'inga lahi 'a e faka'apa'apa, feveitokai'aki, pea mo e lototo'a 'i he mo'ui fakafamili, ko e founga 'eni 'o e tāpuaki 'o e mātu'aki mo'ui Tonga.\n3. **Fakatokilalo mo e Fakafāmili:** 'Oku fakapapau'i 'e he anga fakafamili 'a e fakatokilalo mo e ngāue fakataha, pea 'oku fiema'u ke fai ha fatongia 'e taki taha 'i he famili ki hono tauhi 'o e 'api mo e ngāue fakakātoa.\n4. **Lolotonga 'o e Katoanga:** Ko e fale Tonga 'oku fakapitoa 'ene mahu'inga he taimi 'o e katoanga mo e ngaahi 'ahó niu pe ko e fakataha'anga fakafamili, 'oku to e tupulaki ai e fakahoa mo e fetokoni'aki 'i he famili.\n\n### Ngaahi Liliu 'i he Nofo Fakatonga 'i he 'Aho Ni:\n1. **Modernisation mo e Globalisation:** 'Oku 'i ai e liliu 'i he founga nofo 'a e famili Tonga 'i he'ene fehangahangai mo e sosaieti fakamāmani lahi, 'oku 'uhinga eni ki he tekinolosia fo'ou, faka'ekonōmika, mo e faka'aonga'i 'o e mitia fakasōsiale.\n2. **Fakalakalaka 'a e 'Ekenomika mo e Ngaue:** 'Oku mafasia 'a e kau ngāue 'aki 'enau fakalakalaka 'i he ngaahi fatongia 'o e ngaahi 'aho ni, 'oku ne fakafaingofua'i 'a e ngāue mo e ako ka 'oku foki ne fakalalahi 'a e taimi 'oku fai 'aki e ngaahi fatongia 'o tu'a mei he famili.\n3. **Fefolau'aki mo e Migration:** 'Oku 'asi mai mo e liliu 'a e nofo 'a e famili Tonga mei he fefolau'aki 'a e kakai he taimi 'e ni'ihi ki muli ki he ngaahi 'uhinga kehekehe, fakatupu 'eni ha ngaahi fakalakalaka 'i he founga 'o e nofo famili mo e feohi.\n4. **Teuteu'anga Fale Fo'ou:** 'Oku tupu 'a e liliu 'o e anga 'o e fa'u 'o e ngaahi fale, mei he ngaahi fale Tonga tupu'a ki he ngaahi fale māmani lahi mo e ngaahi fale mo'ui lelei ange, 'oku ne fakakite e tālanga 'o e fonua ki ha mo'ui 'oku fakaonopooni ange.\n\nKo hono katoa, ko e anga 'oe nofo 'a fāmili 'i Tonga 'oku kei fonu 'i he ngaahi 'ulungaanga mo e tāpuaki fakafonua, ka 'oku totonu foki ke mahino 'a e ngaahi liliu 'oku lolotonga hoko 'i he sosaieti 'oku tau nofo ai."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Ko e hā 'a e anga 'oe nofo 'a fāmili 'i he fale fakatonga pea ko e hā ha ngaahi liliu 'i he nofo fakatonga 'i he 'aho ni?\n",
-            "model_name": "GPT 4",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "gpt-4-0125-preview",
-            "n": 1,
-            "presence_penalty": 0.0,
-            "temperature": 1.0,
-            "top_p": 1.0,
-            "logprobs": false
-          }
-        },
         {
           "name": "tongan:8:language.tongan:mixtral 8x22b (api)",
           "language": "Tongan",
@@ -780,6 +758,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:8:language.tongan:gpt 4",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'Oku 'i ai 'a e ngaahi 'ulungaanga mo e ngaahi tu'unga 'oku fakatātā'i 'e he nofo 'a e fāmili 'i he fale fakatonga, 'a ia 'oku kehekehe mei he nofo 'a e fāmili 'i he ngaahi fonua kehe. 'I he fale fakatonga, 'oku mahu'inga 'aupito 'a e fe'ofa'aki, faka'apa'apa, mo e tokoni'i 'o e taha ki he taha, pea 'oku lolotonga hoko 'a e ngaahi liliu 'i he nofo fakatonga 'i he 'aho ni 'o fakatatau ki he ngaahi liliu 'i he sosaieti lahi.\n\n### Anga 'oe Nofo 'a Fāmili 'i he Fale Fakatonga\n\n1. **Faka'apa'apa mo e Lototō**: 'Oku mahu'inga 'aupito 'a e faka'apa'apa mo e lototō 'i he nofo 'a e fāmili. 'Oku faka'apa'apa 'a e fanau ki he'enau mātu'a mo e kau matu'a, pea 'oku 'i ai 'a e ngaahi fatongia 'oku fakahoko 'e he taha kotoa pe 'i he fale.\n\n2. **Fe'ofa'aki mo e Tokoni'i**: 'Oku mahu'inga 'a e fe'ofa'aki mo e tokoni'i 'i he vā 'o e memipa 'o e fāmili. 'Oku 'uhinga 'eni ki he tokoni'i 'o e taha ki he taha 'i he ngaahi fatongia fakafāmili, pe ko e tokoni 'i he taimi 'o e fiema'u.\n\n3. **Tauhi Vā Fakafāmili**: 'Oku mahu'inga 'aupito 'a e tauhi vā fakafāmili, 'o kau ai 'a e fakatokanga'i 'o e ngaahi 'aho mahu'inga, pe ko e fakahoko 'o e ngaahi fatongia fakalotu mo e fakafāmili.\n\n### Ngaahi Liliu 'i he Nofo Fakatonga 'i he 'Aho Ni\n\n1. **Ngaahi Liliu Fakasosiale mo e 'Ekonomika**: 'Oku 'i ai 'a e ngaahi liliu fakasosiale mo e 'ekonomika 'oku ne uesia 'a e nofo 'a e fāmili 'i Tonga. 'Oku kau ki ai 'a e hiki 'o e ngaahi fāmili ki he ngaahi fonua kehe ki he ngaahi 'uhinga 'ekonomika pe fakaako, 'a ia 'oku ne fakaliliu 'a e anga 'o e nofo fakafāmili.\n\n2. **Tekinolosia**: 'Oku 'uhinga 'a e tekinolosia ki he ngaahi liliu 'i he founga 'o e fetaulaki mo e fakafeta'i 'i he vā 'o e memipa 'o e fāmili. 'Oku 'uhinga 'eni ki he ngaahi me'a pehe ki he telefoni to'oto'o, 'initaneti, mo e ngaahi polokalama fakasosiale, 'a ia 'oku ne fakalakalaka 'a e fetaulaki 'a e fāmili ka 'oku ne toe fakatupulaki foki 'a e ngaahi palopalema pehe ki he nofo 'i he 'initaneti.\n\n3. **Faka'ekonomika mo e Ngaue**: 'Oku 'i ai 'a e liliu 'i he anga 'o e ngaue 'a e fāmili, 'a ia 'oku tokolahi ange 'a e kakai fefine 'oku nau kau ki he maketi ngaue. 'Oku 'uhinga 'eni ki he liliu 'i he tu'unga 'ekonomika 'o e fāmili pea mo e ngaahi fatongia 'i he fale.\n\n'Oku mahu'inga ke manatu'i ko e ngaahi liliu ko 'eni 'oku 'ikai ke ne 'uhinga ki he ngalo 'a e ngaahi 'ulungaanga mo e ngaahi tu'unga fakatonga, ka 'oku ne fakatupulaki pe fakalakalaka 'a e founga 'o e nofo 'a e fāmili 'i he sosaieti 'oku kei hoko atu 'a e ngaahi liliu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'a e anga 'oe nofo 'a fāmili 'i he fale fakatonga pea ko e hā ha ngaahi liliu 'i he nofo fakatonga 'i he 'aho ni?\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -803,28 +803,6 @@
         "human_evaluated": false
       },
       "answers": [
-        {
-          "name": "tongan:9:language.tongan:gpt 4",
-          "language": "Tongan",
-          "translations": {
-            "Tongan": {
-              "language": "Tongan",
-              "text": "Ko e fa kave'i koula 'a Tonga ko e ngaahi tefito'i mo'oni 'e fa ('e 4) 'oku fa'a fakatatau ki ai 'a e ngaahi fakakaukau mo e anga 'o e mo'ui 'a e kakai Tonga. 'Oku 'iloa 'a e ngaahi kave'i ni 'oku ne fakama'u e tau'atāina, fakafonua, anga fakafonua, mo e tu'unga faka'apa'apa 'i he sosaieti Tonga. Ko e fa kave'i koula 'oku kau ki ai:\n\n1. **Faka'apa'apa**: Ko e tu'utu'uni ko 'eni 'oku 'uhinga ki he faka'apa'apa ki he kakai kotoa pe, fa'a tu'unga 'i he tu'i, kāinga, pē ha fa'ahinga tu'unga fakasōsiale. 'Oku fatu'i e faka'apa'apa ki he ngaahi 'ulungaanga faka-Tonga, hange ko e loto-to ki he lao, anga fakafonua, mo e tāpuaki'i 'o e fa'ahinga fekau'aki mo e ngaahi fakafeta'i ki he Atua mo e ngaahi 'Otua. Ko e faka'apa'apa ko ha konga mahu'inga 'o e ma'u me'a fakamāmani lahi mo e fakakaukau Tonga, 'o ne fakafou 'i he fakatokanga'i 'o e totonu mo e fatongia 'o e taha ki he taha.\n\n2. **Loto Tō**: 'Oku 'uhinga 'eni ki he 'ofa mo e tokoni ki ha taha 'i he taimi 'oku ne fiema'u ai, 'o 'ikai ke tanaki ha'a manatu ki ha me'a 'oku ne ma'u mei ai. Ko e loto tō 'oku ne fakafou 'i he fatongia faka'apa'apa mo fakafāmili, 'a ia 'oku hoko ko e lao'i mo'oni 'i he fe'unga mo e feveitokai'aki 'i he sosaieti Tonga. 'Oku ne mahino'i e mahu'inga 'o e 'ofa mo e tokoni tautautefito ki he ngaahi taimi 'o e fakatamaki mo e ngaahi palopalema.\n\n3. **Tauhi Vāhā**: 'Oku 'uhinga 'eni ki he tauhi 'o e vā faka'apa'apa mo fēfēfēfē 'i waenga he kakai. 'Oku ngāue'aki 'eni 'i he vā 'i he kakai, tukui kāinga, mo e ngaahi kautaha kehe. Ko e tauhi vāhā 'oku ne tānaki atu 'i he manako ke fakapapau'i 'a e ma'u 'a e vā 'oku mo'ui lelei mo fakafepaki'i e vā mama'o pe vā'inga. 'Oku fakahoko 'a e tauhi vāhā 'aki ha ngaahi fakakaukau mo e ngaahi ngāue 'oku ne tokanga'i 'a e anga 'o e feohi mo e fepaki mo ha taha 'i ha founga 'oku fakamātoato pe faka'apa'apa.\n\n4. **Taautaha**: 'Oku 'uhinga 'eni ki he mahu'inga 'o e taau 'o e mo'ui fakafo'ituitui mo e ngaue'aki 'o e koloa mo e ngaahi 'atā. 'Oku ngaue'aki 'a e taautaha ke fakapapau'i 'oku 'ikai ha me'a 'oku nau fiema'u pe tokanga'i 'a ia 'oku fu'u lahi pe lahi taha 'i he me'a 'oku fiema'u mo'oni. Ki he sosaieti Tonga, 'oku 'uhinga 'a e taautaha ki he 'ilo'i 'o e faka'ekonomika, 'a ia 'oku tokoni ki hono tauhi 'o e fa'unga fakafonua, faka'apa'apa mo e mo'ui lelei 'a e kakai.\n\nKo e ngaahi kave'i koula ko 'eni, 'oku ne fakamatala'i 'a e anga mo e ngaahi tefito'i 'ilo 'oku tauhi 'e he Tonga ke tauhi 'a e fakalakalaka mo e mo'ui lelei 'a e fonua mo 'ene kakai."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Ko e hā 'a e fa kave'i koula 'a e Tonga? Fakamatala'i 'e nau 'uhinga takitaha.\n",
-            "model_name": "GPT 4",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "gpt-4-0125-preview",
-            "n": 1,
-            "presence_penalty": 0.0,
-            "temperature": 1.0,
-            "top_p": 1.0,
-            "logprobs": false
-          }
-        },
         {
           "name": "tongan:9:language.tongan:mixtral 8x22b (api)",
           "language": "Tongan",
@@ -861,6 +839,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "tongan:9:language.tongan:gpt 4",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Ko e fa kave'i koula 'a Tonga, 'oku 'iloa ko e ngaahi tu'unga mahu'inga 'i he anga fakasosiale mo e fakapolitikale 'o e fonua. 'Oku kau ki ai 'a e:\n\n1. **Fale Alea 'o Tonga (Legislative Assembly of Tonga)** - Ko e taha 'o e ngaahi konga mahu'inga 'o e pule'anga 'a Tonga, 'oku ne fakahoko 'a e ngaue 'o e lao mo e ngaahi tu'utu'uni ke pule'i 'a e fonua. 'Oku kau 'i he Fale Alea 'a e kau fakafofonga 'o e kakai mo e kau nōpele, 'oku fili 'e he kakai mo e kau nōpele ke nau fakafofonga'i 'enau ngaahi kaveinga 'i he Fale Alea.\n\n2. **Tupou (Royal Family)** - Ko e fāmili fakatu'i 'o Tonga, 'oku nau ma'u ha tu'unga mahu'inga 'i he sosaieti Tonga. 'Oku kau 'a e Tu'i Tonga, 'i he taimi ni ko Tupou VI, 'i he fa'u mo e fakahoko 'o e ngaahi tu'utu'uni fakafonua mo e ngaahi fatongia fakalotofonua. 'Oku 'iloa 'a e fāmili fakatu'i ko ha fa'unga mahu'inga 'o e tu'unga fakasosiale mo e fakapolitikale 'i Tonga.\n\n3. **Siasi (Church)** - 'Oku mahu'inga 'aupito 'a e siasi 'i he mo'ui 'a e Tonga. 'Oku kau ki he ngaahi siasi lahi 'i Tonga 'a e Siasi Uesiliana Tau'atāina 'o Tonga (Free Wesleyan Church), Siasi Katolika, mo e ngaahi siasi kehekehe. 'Oku 'uhinga 'a e siasi ki he mo'ui faka'aho mo e ngaahi 'aho mahu'inga 'o e fonua, 'o kau ai 'a e ngaahi fakataha fakasiasi, ngaahi 'aho mahu'inga fakalotu, mo e ngaahi fatongia fakasosiale kehe.\n\n4. **'Akapulu (Rugby)** - 'Oku 'iloa 'a e 'akapulu ko e sipoti fakafonua 'o Tonga. 'Oku ne fakataha'i 'a e kakai 'o e fonua, 'o ne fakamalohi'i 'a e mo'ui fakasosiale mo e 'uhinga fakafonua. 'Oku mahu'inga 'a e 'akapulu 'i he mo'ui 'a e kakai Tonga, 'o kau ki he ngaahi fe'auhi fakavaha'apule'anga pehe ki he ngaahi kautaha sipoti 'i he fonua. 'Oku faka'ilonga'i 'a e 'akapulu 'i he mahu'inga 'o e fe'ofa'aki, fakataha'i, mo e fakakaukau fakalotofonua.\n\nKo e ngaahi kave'i koula ko 'eni 'oku nau fakakaukau'i ko e ngaahi tu'unga mahu'inga 'i he mo'ui 'a e Tonga, 'o kau ki he anga fakasosiale, fakapolitikale, fakalotu, mo e sipoti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'a e fa kave'i koula 'a e Tonga? Fakamatala'i 'e nau 'uhinga takitaha.\n",
+            "model_name": "GPT 4",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
