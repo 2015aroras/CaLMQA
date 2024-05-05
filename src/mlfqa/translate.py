@@ -179,6 +179,8 @@ def main() -> None:
         default="data/prompts/translation-prompt.txt",
         help="Path of file containing the translation prompt",
     )
+
+    target_langs_group = parser.add_mutually_exclusive_group()
     parser.add_argument(
         "--target_langs",
         type=Language,
@@ -186,6 +188,12 @@ def main() -> None:
         default=[Language.English],
         help="Languages to translate questions/answers to",
     )
+    target_langs_group.add_argument(
+        "--all_target_langs",
+        action="store_true",
+        help="If set, translate to all other languages.",
+    )
+
     parser.add_argument(
         "--source_langs",
         type=Language,
@@ -247,6 +255,9 @@ def main() -> None:
     question_type = QuestionType.NONE
     for q_type in args.question_types:
         question_type |= q_type
+
+    if args.all_target_langs:
+        args.target_langs = list(Language)
 
     translate(
         model_name=ModelName[args.model_name],
