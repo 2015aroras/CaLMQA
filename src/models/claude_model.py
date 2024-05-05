@@ -3,7 +3,7 @@ from __future__ import annotations
 import dataclasses
 import logging
 import time
-from typing import TYPE_CHECKING, Any, Self
+from typing import TYPE_CHECKING, Any
 
 import numpy as np
 from anthropic import Anthropic
@@ -34,7 +34,9 @@ class ClaudeModel(Model):
         max_output_tokens=2048,
     )
 
-    def __init__(self, name: ModelName, max_output_tokens: int, **_) -> None:
+    def __init__(
+        self, name: ModelName, max_output_tokens: int, temperature: float = 1.0, **_,
+    ) -> None:
         super().__init__(name, max_output_tokens)
         if name not in ClaudeModel.SUPPORTED_MODELS:
             msg = f"{name} is not a valid Claude model"
@@ -42,10 +44,17 @@ class ClaudeModel(Model):
 
         load_dotenv()
         self.client = Anthropic()
+        self._default_parameters = ClaudePromptParameters(
+            prompt=None,
+            model_name=name,
+            max_output_tokens=max_output_tokens,
+            model=self.model_version,
+            temperature=temperature,
+        )
 
-    @classmethod
-    def get_default_parameters(cls: type[Self]) -> PromptingState:
-        return ClaudeModel.DEFAULT_PARAMETERS
+    @property
+    def default_parameters(self) -> PromptingState:
+        return self._default_parameters
 
     @property
     def model_version(self) -> str:
@@ -54,11 +63,8 @@ class ClaudeModel(Model):
         raise NotImplementedError
 
     def _get_prompting_state(self, prompt: str) -> ClaudePromptParameters:
-        prompt_params_dict = dataclasses.asdict(self.get_default_parameters())
+        prompt_params_dict = dataclasses.asdict(self.default_parameters)
         prompt_params_dict["prompt"] = prompt
-        prompt_params_dict["name"] = self.name
-        prompt_params_dict["max_output_tokens"] = self.max_output_tokens
-        prompt_params_dict["model"] = self.model_version
 
         return ClaudePromptParameters(**prompt_params_dict)
 

@@ -3,7 +3,7 @@ from __future__ import annotations
 import dataclasses
 import logging
 import os
-from typing import TYPE_CHECKING, Self
+from typing import TYPE_CHECKING
 
 import numpy as np
 from dotenv import load_dotenv
@@ -37,7 +37,19 @@ class OpenAIModel(Model):
         max_output_tokens=2048,
     )
 
-    def __init__(self, name: ModelName, max_output_tokens: int, **_) -> None:
+    def __init__(
+        self,
+        name: ModelName,
+        max_output_tokens: int,
+        *,
+        n: int = 1,
+        presence_penalty: float = 1.0,
+        temperature: float = 1.0,
+        top_p: float = 1.0,
+        logprobs: bool = False,
+        top_logprobs: int | None = None,
+        **_,
+    ) -> None:
         super().__init__(name, max_output_tokens)
         if name not in OpenAIModel.SUPPORTED_MODELS:
             msg = f"{name} is not a valid OpenAI model"
@@ -46,6 +58,22 @@ class OpenAIModel(Model):
         load_dotenv()
 
         self.client = OpenAI(api_key=self._api_key, base_url=self._base_url)
+        self._default_parameters = OpenAIPromptParameters(
+            prompt=None,
+            model_name=name,
+            max_output_tokens=max_output_tokens,
+            model=self.model_version,
+            n=n,
+            presence_penalty=presence_penalty,
+            temperature=temperature,
+            top_p=top_p,
+            logprobs=logprobs,
+            top_logprobs=top_logprobs,
+        )
+
+    @property
+    def default_parameters(self) -> PromptingState:
+        return self._default_parameters
 
     @property
     def _api_key(self) -> str | None:
@@ -62,10 +90,6 @@ class OpenAIModel(Model):
         if self.name == ModelName.MIXTRAL_8X22B_TOGETHER:
             return "https://api.together.xyz/v1"
         raise NotImplementedError
-
-    @classmethod
-    def get_default_parameters(cls: type[Self]) -> PromptingState:
-        return OpenAIModel.DEFAULT_PARAMETERS
 
     @property
     def model_version(self) -> str:
@@ -93,11 +117,8 @@ class OpenAIModel(Model):
         )
 
     def _get_prompting_state(self, prompt: str) -> OpenAIPromptParameters:
-        prompt_params_dict = dataclasses.asdict(self.get_default_parameters())
+        prompt_params_dict = dataclasses.asdict(self.default_parameters)
         prompt_params_dict["prompt"] = prompt
-        prompt_params_dict["name"] = self.name
-        prompt_params_dict["max_output_tokens"] = self.max_output_tokens
-        prompt_params_dict["model"] = self.model_version
 
         return OpenAIPromptParameters(**prompt_params_dict)
 

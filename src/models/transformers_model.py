@@ -74,7 +74,7 @@ class TransformersModel(Model):
         raise NotImplementedError(model_name)
 
     def _init_tokenizer(self) -> PreTrainedTokenizer | PreTrainedTokenizerFast:
-        default_parameters = self.get_default_parameters()
+        default_parameters = self.default_parameters
         assert isinstance(default_parameters, TransformersPromptParameters)
         assert default_parameters.model_path is not None
 
@@ -88,7 +88,7 @@ class TransformersModel(Model):
         max_memory = self._get_max_memory_map(gpus, max_mem_per_gpu)
         device_map = "auto" if gpus is not None and len(gpus) > 0 else None
 
-        default_parameters = self.get_default_parameters()
+        default_parameters = self.default_parameters
         assert isinstance(default_parameters, TransformersPromptParameters)
         assert default_parameters.model_path is not None
 
@@ -105,9 +105,8 @@ class TransformersModel(Model):
         max_output_tokens: int | None = None,
         **prompting_state_kwargs,
     ) -> TransformersPromptParameters:
-        prompt_params_dict = dataclasses.asdict(self.get_default_parameters())
+        prompt_params_dict = dataclasses.asdict(self.default_parameters)
         prompt_params_dict["prompt"] = prompt
-        prompt_params_dict["name"] = self.name
         prompt_params_dict["max_output_tokens"] = (
             max_output_tokens if max_output_tokens is not None else self.max_output_tokens
         )
@@ -166,10 +165,16 @@ class Gemma7BModel(TransformersModel):
 
         self.tokenizer = self._init_tokenizer()
         self.model = self._init_model(gpus, max_mem_per_gpu)
+        self._default_parameters = TransformersPromptParameters(
+            prompt=None,
+            model_name=name,
+            max_output_tokens=max_output_tokens,
+            model_path="google/gemma-1.1-7b-it",
+        )
 
-    @classmethod
-    def get_default_parameters(cls: type[Self]) -> PromptingState:
-        return Gemma7BModel.DEFAULT_PARAMETERS
+    @property
+    def default_parameters(self) -> PromptingState:
+        return self._default_parameters
 
     def _get_prompting_state(
         self,
@@ -271,10 +276,16 @@ class Mixtral8x7BModel(TransformersModel):
 
         self.tokenizer = self._init_tokenizer()
         self.model = self._init_model(gpus, max_mem_per_gpu)
+        self._default_parameters = TransformersPromptParameters(
+            prompt=None,
+            model_name=name,
+            max_output_tokens=max_output_tokens,
+            model_path="mistralai/Mixtral-8x7B-Instruct-v0.1",
+        )
 
-    @classmethod
-    def get_default_parameters(cls: type[Self]) -> PromptingState:
-        return Mixtral8x7BModel.DEFAULT_PARAMETERS
+    @property
+    def default_parameters(self) -> PromptingState:
+        return self._default_parameters
 
     def _get_prompting_state(
         self,
@@ -377,10 +388,16 @@ class Xglm7Pt5BModel(TransformersModel):
 
         self.tokenizer = self._init_tokenizer()
         self.model = self._init_model(gpus, max_mem_per_gpu)
+        self._default_parameters = TransformersPromptParameters(
+            prompt=None,
+            model_name=name,
+            max_output_tokens=max_output_tokens,
+            model_path="facebook/xglm-7.5B",
+        )
 
-    @classmethod
-    def get_default_parameters(cls: type[Self]) -> PromptingState:
-        return Xglm7Pt5BModel.DEFAULT_PARAMETERS
+    @property
+    def default_parameters(self) -> PromptingState:
+        return self._default_parameters
 
     def get_prompting_state(self, prompt: str) -> PromptingState:
         raise NotImplementedError
@@ -416,10 +433,16 @@ class Aya101Model(TransformersModel):
 
         self.tokenizer = self._init_tokenizer()
         self.model = self._init_model(gpus, max_mem_per_gpu)
+        self._default_parameters = TransformersPromptParameters(
+            prompt=None,
+            model_name=name,
+            max_output_tokens=max_output_tokens,
+            model_path="CohereForAI/aya-101",
+        )
 
-    @classmethod
-    def get_default_parameters(cls: type[Self]) -> PromptingState:
-        return Aya101Model.DEFAULT_PARAMETERS
+    @property
+    def default_parameters(self) -> PromptingState:
+        return self._default_parameters
 
     def _init_model(
         self,
@@ -429,7 +452,7 @@ class Aya101Model(TransformersModel):
         max_memory = self._get_max_memory_map(gpus, max_mem_per_gpu)
         device_map = "auto" if gpus is not None and len(gpus) > 0 else None
 
-        default_parameters = self.get_default_parameters()
+        default_parameters = self.default_parameters
         assert isinstance(default_parameters, TransformersPromptParameters)
         assert default_parameters.model_path is not None
 

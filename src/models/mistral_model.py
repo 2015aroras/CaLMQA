@@ -3,7 +3,7 @@ from __future__ import annotations
 import dataclasses
 import logging
 import os
-from typing import TYPE_CHECKING, Self
+from typing import TYPE_CHECKING
 
 from dotenv import load_dotenv
 from mistralai.client import MistralClient
@@ -40,7 +40,16 @@ class MistralModel(Model):
         max_output_tokens=2048,
     )
 
-    def __init__(self, name: ModelName, max_output_tokens: int, **_) -> None:
+    def __init__(
+        self,
+        name: ModelName,
+        max_output_tokens: int,
+        n: int = 1,
+        temperature: float = 0.7,
+        top_p: float = 1.0,
+        transformers_model_path: str = "mistralai/Mixtral-8x22B-Instruct-v0.1",
+        **_,
+    ) -> None:
         super().__init__(name, max_output_tokens)
         if name not in MistralModel.SUPPORTED_MODELS:
             msg = f"{name} is not a valid Mistral model"
@@ -52,9 +61,23 @@ class MistralModel(Model):
 
         self.client = MistralClient(api_key=api_key)
         self.tokenizer = self._init_tokenizer()
+        self._default_parameters = MistralPromptingState(
+            prompt=None,
+            model_name=name,
+            max_output_tokens=max_output_tokens,
+            model=self.model_version,
+            n=n,
+            temperature=temperature,
+            top_p=top_p,
+            transformers_model_path=transformers_model_path,
+        )
+
+    @property
+    def default_parameters(self) -> PromptingState:
+        return self._default_parameters
 
     def _init_tokenizer(self) -> PreTrainedTokenizer | PreTrainedTokenizerFast:
-        default_parameters = self.get_default_parameters()
+        default_parameters = self.default_parameters
         assert isinstance(default_parameters, MistralPromptingState)
         assert default_parameters.transformers_model_path is not None
 
@@ -62,10 +85,6 @@ class MistralModel(Model):
             default_parameters.transformers_model_path,
             token=self.hf_token,
         )
-
-    @classmethod
-    def get_default_parameters(cls: type[Self]) -> PromptingState:
-        return MistralModel.DEFAULT_PARAMETERS
 
     @property
     def model_version(self) -> str:
@@ -89,11 +108,9 @@ class MistralModel(Model):
         prompt: str,
         max_new_tokens: int | None = None,
     ) -> MistralPromptingState:
-        prompt_params_dict = dataclasses.asdict(self.get_default_parameters())
+        prompt_params_dict = dataclasses.asdict(self.default_parameters)
         prompt_params_dict["prompt"] = prompt
-        prompt_params_dict["name"] = self.name
         prompt_params_dict["max_output_tokens"] = max_new_tokens or self.max_output_tokens
-        prompt_params_dict["model"] = self.model_version
 
         return MistralPromptingState(**prompt_params_dict)
 
@@ -131,5 +148,5 @@ class MistralModel(Model):
         tokenization = self.tokenizer.tokenize(output)
         first_token = tokenization[0]
 
-        next_token_probs = {first_token: 1.}
+        next_token_probs = {first_token: 1.0}
         return output, next_token_probs, prompting_state

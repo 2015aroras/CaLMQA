@@ -85,9 +85,9 @@ class Model(metaclass=ABCMeta):
         self.name = name
         self.max_output_tokens = max_output_tokens
 
-    @classmethod
+    @property
     @abstractmethod
-    def get_default_parameters(cls: type[Self]) -> PromptingState:
+    def default_parameters(self) -> PromptingState:
         pass
 
     @abstractmethod
