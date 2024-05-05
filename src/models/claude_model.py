@@ -35,7 +35,7 @@ class ClaudeModel(Model):
     )
 
     def __init__(
-        self, name: ModelName, max_output_tokens: int, temperature: float = 1.0, **_,
+        self, name: ModelName, max_output_tokens: int, temperature: float | None = None, **_,
     ) -> None:
         super().__init__(name, max_output_tokens)
         if name not in ClaudeModel.SUPPORTED_MODELS:
@@ -44,12 +44,16 @@ class ClaudeModel(Model):
 
         load_dotenv()
         self.client = Anthropic()
+        parameters = {
+            "temperature": temperature,
+        }
+        parameters: dict[str, Any] = {k: v for k, v in parameters.items() if v is not None}
         self._default_parameters = ClaudePromptParameters(
             prompt=None,
             model_name=name,
             max_output_tokens=max_output_tokens,
             model=self.model_version,
-            temperature=temperature,
+            **parameters,
         )
 
     @property

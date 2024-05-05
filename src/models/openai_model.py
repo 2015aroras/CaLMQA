@@ -42,11 +42,11 @@ class OpenAIModel(Model):
         name: ModelName,
         max_output_tokens: int,
         *,
-        n: int = 1,
-        presence_penalty: float = 1.0,
-        temperature: float = 1.0,
-        top_p: float = 1.0,
-        logprobs: bool = False,
+        n: int | None = None,
+        presence_penalty: float | None = None,
+        temperature: float | None = None,
+        top_p: float | None = None,
+        logprobs: bool | None = None,
         top_logprobs: int | None = None,
         **_,
     ) -> None:
@@ -58,17 +58,21 @@ class OpenAIModel(Model):
         load_dotenv()
 
         self.client = OpenAI(api_key=self._api_key, base_url=self._base_url)
+        parameters = {
+            "n": n,
+            "presence_penalty": presence_penalty,
+            "temperature": temperature,
+            "top_p": top_p,
+            "logprobs": logprobs,
+            "top_logprobs": top_logprobs,
+        }
+        parameters = {k: v for k, v in parameters.items() if v is not None}
         self._default_parameters = OpenAIPromptParameters(
             prompt=None,
             model_name=name,
             max_output_tokens=max_output_tokens,
             model=self.model_version,
-            n=n,
-            presence_penalty=presence_penalty,
-            temperature=temperature,
-            top_p=top_p,
-            logprobs=logprobs,
-            top_logprobs=top_logprobs,
+            **parameters,
         )
 
     @property

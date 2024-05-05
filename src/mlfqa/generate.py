@@ -240,12 +240,6 @@ def main() -> None:
         help="Filters the type of questions for which the model is prompted",
     )
     parser.add_argument(
-        "--max_tokens",
-        type=int,
-        default=2048,
-        help="Max tokens in output.",
-    )
-    parser.add_argument(
         "--max_questions",
         type=int,
         default=None,
@@ -296,6 +290,20 @@ def main() -> None:
         help="Number of sample answers ('documents') to use for retrieval augmented generation. If set to 0, then retrieval augmentation will not be used.",
     )
 
+    # Model parameter args
+    parser.add_argument(
+        "--max_tokens",
+        type=int,
+        default=2048,
+        help="Max tokens in output.",
+    )
+    parser.add_argument(
+        "--temperature",
+        type=float,
+        default=None,
+        help="Max tokens in output.",
+    )
+
     args = parser.parse_args()
 
     question_type = QuestionType.NONE
@@ -320,6 +328,7 @@ def main() -> None:
         gpus=args.gpus,
         rag_num_documents=args.rag_num_documents,
         max_gpu_mem=int(args.max_gpu_mem) if args.max_gpu_mem is not None else None,
+        temperature=args.temperature,
     )
 
 
