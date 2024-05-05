@@ -66,6 +66,7 @@ class Question:
     language: Language
     translations: dict[Language, QuestionTranslation]
     url: str | None = PyField(default=None)
+    human_evaluated: bool = PyField(default=False)
 
     @property
     def untranslated(self) -> QuestionTranslation:
