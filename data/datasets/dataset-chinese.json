@@ -168,6 +168,28 @@
           "option_probs": {
             "C": 1.0
           }
+        },
+        {
+          "name": "chinese:0:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 日本是一个非常有吸引力的旅游目的地，有许多因素吸引了许多人去这里旅游：\n\n1. 历史文化遗产：日本拥有许多历史文化遗产，如京都的神社和寺庙、东京的皇居和江户时代的城堡等。这些遗产展示了日本独特的历史和文化，吸引了许多游客。\n2. 美丽的自然风光：日本拥有许多美丽的自然风光，如富士山、箱根和冈山等。这些地方是许多人喜欢去的旅游目的地，可以参观和欣赏自然风光。\n3. 美食和饮品：日本是一个美食之都，有许多美味的食物和饮品，如寿司、拉面、咖喱和绿茶等。许多游客都会去尝试这些美食和饮品。\n4. 购物和娱乐：日本是一个购物和娱乐的天堂，有许多购物中心和娱乐场所，如东京的涉谷、大阪的美术馆和名古屋的博物馆等。许多游客都会去购物和娱乐。\n5. 友好的当地人：日本人是非常友好和热情的，他们会尽力帮助游客，使他们感到欢迎和舒适。这也是许多人喜欢去日本旅游的原因之一。\n\n总之，日本是一个非常有吸引力的旅游目的地，有许多因素吸引了许多人去这里旅游。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么那么多人喜欢去日本旅游？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -338,6 +360,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:1:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 如果2024年新能源汽车的渗透率确实能够超过50%，甚至达到60%，这将对我们的生活和国内产业产生广泛而深远的影响。以下是一些可能的影响：\n\n1. 环境保护：新能源汽车的广泛应用将大大减少汽车排放的碳和其他污染物，从而改善空气质量和减缓全球变暖。\n2. 能源结构调整：随着新能源汽车的普及，对石油的需求将大幅下降，而对电力和其他可再生能源的需求将大幅增加。这将促进我国能源结构的调整和可再生能源的发展。\n3. 产业转型：新能源汽车的发展将促进汽车产业的转型，传统汽车制造商将不得不转型为新能源汽车制造商，并开发新的技术和产品。\n4. 就业机会：新能源汽车的发展将带来大量的就业机会，包括汽车制造、电池生产、充电桩制造等。\n5. 消费者选择：新能源汽车的普及将使消费者有更多的选择，包括电动汽车、混合动力汽车和燃料电池汽车等。\n6. 城市规划：新能源汽车的普及将对城市规划产生影响，包括充电桩的布局、道路的规划和城市交通的改善等。\n7. 能源安全：新能源汽车的发展将减少对石油的依赖，从而提高我国的能源安全。\n\n总的来说，新能源汽车的普及将对我们的生活和国内产业产生深远的影响，促进我国的经济转型和可持续发展。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "假设2024年，新能源车的渗透率超过50%，甚至60%，会对我们的生活以及国内产业产生什么样的影响？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -510,6 +554,28 @@
           "option_probs": {
             "D": 1.0
           }
+        },
+        {
+          "name": "chinese:2:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这是一个非常考虑家人感受的问题。首先，您可以尝试解释给宝宝听，回家过年是一种美好的传统，可以和爷爷奶奶一起度过快乐的时光。如果宝宝仍然不情愿，您可以考虑让爷爷奶奶来您家过年，或者安排一个短期的访问，让宝宝有机会见到爷爷奶奶，但不需要长时间离开家。您也可以考虑让宝宝在回家之前和爷爷奶奶进行视频通话，让他们见面并建立联系。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "宝宝太小不想回家过年，可是爷爷奶奶想见孙子，怎么办？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -680,6 +746,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:3:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题可能没有一个确定的答案，因为西餐的菜量可能因餐厅和菜品而异。但是，有一些可能的原因可以解释为什么西餐的菜量通常比其他一些类型的食物要少。\n\n一种可能的原因是，西餐的食谱通常比其他一些类型的食物更注重口味和质量，而不是量。这意味着厨师可能会更多地关注使用高质量的、新鲜的、有机的食材，并将其精心制作成美味的菜肴，而不是简单地堆积大量的食物。\n\n另一个可能的原因是，西餐的餐厅通常比其他一些类型的餐厅更注重环境和氛围。这意味着餐厅可能会更多地关注创造一个舒适、高级的环境，而不是提供大量的食物。\n\n最后，西餐的食谱通常比其他一些类型的食物更注重健康和营养。这意味着厨师可能会更多地关注使用低脂肪、低糖、低盐的食材，并将其精心制作成健康的菜肴，而不是简单地堆积大量的食物。\n\n总之，西餐的菜量可能比其他一些类型的食物要少，这可能是因为厨师更多地关注口味、质量、环境和健康，而不是量。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么西餐菜的量很少？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -852,6 +940,28 @@
           "option_probs": {
             "T": 1.0
           }
+        },
+        {
+          "name": "chinese:4:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 中国在世界上确实是比较安全的国家之一，但是无法确定它是否是最安全的国家。中国的犯罪率相对较低，但是也存在着一些安全问题，例如拐卖妇女儿童、诈骗、网络犯罪等。此外，中国也存在着一些自然灾害，例如地震、台风等。因此，中国不能被认为是世界上最安全的国家之一。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "中国算是世界上最安全的国家之一吗？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1022,6 +1132,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:5:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题涉及到美国电影产业的历史和文化背景，以下是一些可能的原因：\n\n1. 美国电影产业的历史：美国电影产业始于20世纪初，当时的电影主要是为了娱乐和赚钱，而不是宣传政治或意识形态。\n2. 美国的文化多元化：美国是一个多元文化的国家，人们的价值观和信仰各有不同，因此很难通过电影来宣扬一种统一的爱国主义。\n3. 美国的政治制度：美国是一个民主制度的国家，政府不会干预电影产业，也不会要求电影宣传爱国主义。\n4. 市场需求：美国电影产业是一个市场经济，电影的制作和发行需要考虑市场需求和消费者的喜好。如果爱国主义电影没有市场需求，那么电影制作者就不会制作这种电影。\n5. 美国的自由表达：美国有着自由表达的传统，人们可以自由地表达自己的观点和想法，包括批评政府和政治。这种自由表达的环境使得爱国主义电影不易被接受。\n\n当然，这并不是说美国没有爱国主义电影，只是说这种电影相对较少。例如，有些电影会以更微妙的方式表达爱国主义，如《美国队长》系列电影等。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么美国电影很少宣扬爱国主义？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -1194,6 +1326,28 @@
           "option_probs": {
             "D": 1.0
           }
+        },
+        {
+          "name": "chinese:6:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 2月9日起，中国和新加坡互免签证，这将带来以下几方面的影响：\n\n1. 旅游业的增长：由于签证限制的放松，预计中国和新加坡之间的旅游业将会有所增长。中国游客可以更加便捷地前往新加坡旅游，而新加坡也可以吸引更多的中国游客。\n2. 经济增长：旅游业的增长将带来经济增长。中国游客在新加坡的消费将为新加坡带来更多的收入，而新加坡也可以通过提供更多的服务和商品来吸引更多的中国游客。\n3. 人员流动的便利：由于签证限制的放松，中国和新加坡之间的人员流动将会更加便利。这将有助于促进两国之间的经济和文化交流。\n4. 国际关系的改善：中国和新加坡之间的关系将会因为签证互免而得到进一步改善。这将有助于促进两国之间的合作和互利。\n\n总的来说，中国和新加坡之间的签证互免将会带来旅游业的增长、经济增长、人员流动的便利和国际关系的改善等多方面的影响。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "2月9日起，中国和新加坡互免签证，将带来哪些影响？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1364,6 +1518,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:7:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 周杰伦是一个非常成功的音乐人，他的音乐风格和个人形象在不断发展和演变。在他的音乐创作中，我们可以看到他对不同音乐风格的探索和尝试，这也是艺术家的自然发展过程。至于他的个人形象和行为，我们无法确定他是否“崇洋媚外”，因为这可能是个人的主观看法。我们应该尊重他作为艺术家的自主权和创作自由，并且理解他的音乐和个人形象可能会随着时间和经验的变化而发生变化。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "周杰伦是不是变了个人？\n和年轻的时候相比，现在有点崇洋媚外了。\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -1536,6 +1712,28 @@
           "option_probs": {
             "D": 1.0
           }
+        },
+        {
+          "name": "chinese:8:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题没有一个确定的答案，因为每个人的情况都不一样。但是，有一些常见的原因可能会导致年轻人不愿意购买房屋：\n\n1. 经济因素：房价和生活成本的上涨，以及收入的增长速度较慢，使得许多年轻人无法负担购房。\n2. 生活方式：许多年轻人更喜欢灵活的生活方式，不愿意被房屋的负担所束缚。\n3. 职业机会：许多年轻人希望保持职业机会的灵活性，不愿意将自己限制在一个地方。\n4. 环境因素：许多年轻人关注环境问题，不愿意购买房屋，因为它可能会导致更多的环境污染。\n5. 社会因素：许多年轻人认为购买房屋是一种社会压力，不愿意因为这个原因而感到压力。\n\n当然，这些只是一些常见的原因，每个人的情况都不一样。如果你有更具体的问题，我会尽力回答。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么年轻人都不愿意买房了？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1706,6 +1904,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:9:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 俄罗斯经济为什么不降反升，主要有以下几个原因：\n\n1. 能源出口：俄罗斯是世界上最大的天然气出口国和第二大石油出口国，能源出口是俄罗斯经济的主要支柱。尽管西方国家对俄罗斯实施了经济制裁，但俄罗斯仍然能够通过能源出口获得大量外汇收入。\n2. 国内需求：俄罗斯政府采取了一系列措施来促进国内需求，包括降低利率、增加公共支出和提高最低工资。这些措施有助于提高国内需求，从而促进经济增长。\n3. 货币政策：俄罗斯央行采取了一系列货币政策措施来支持经济增长，包括降低利率、扩大货币供应和购买政府债券。这些措施有助于降低借贷成本，促进投资和消费，从而促进经济增长。\n4. 外汇储备：俄罗斯拥有大量的外汇储备，这有助于支持俄罗斯卢布的汇率，并为俄罗斯政府提供了财政支持。\n5. 经济多样化：尽管能源出口仍然是俄罗斯经济的主要支柱，但俄罗斯政府正在采取措施来多样化经济，包括发展制造业、农业和服务业。这些行业的增长有助于缓解对能源出口的依赖，并为俄罗斯经济提供了更多的增长动力。\n\n总的来说，尽管俄罗斯遭受了严厉的经济制裁，但俄罗斯政府采取了一系列措施来支持经济增长，包括促进国内需求、采取货币政策措施、利用外汇储备和多样化经济。这些措施有助于俄罗斯经济逆势上行。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "俄罗斯经济为什么不降反升？\n自开战以来，俄罗斯不仅仅承受前线战事压力，而且在经济领域遭受异常严厉的全方位经济制裁，甚至被踢出SWIFT，可是俄罗斯经济却逆势上行了？？\n参考消息网11月17日报道据俄新社11月15日报道，根据俄联邦国家统计局的初步评估，2023年三季度俄罗斯国内生产总值（GDP）按年率计算增长5.5%，这好于俄经济发展部和央行的评估。二季度这一指标为4.9%。\n11月15日，欧洲委员会发布了最新版本的秋季经济展望报告，大幅上调了今年俄罗斯经济的增长预期。据欧委会最新预测数据显示，2023年俄罗斯GDP将增长2%，2024年和2025年俄罗斯经济有望每年增长1.6%。今年5月份，欧委会预测俄罗斯2023年GDP将下降0.9%。报告还预测，2023年俄罗斯居民消费价格指数增长率将达到6%，但紧缩的货币政策有望在2024年将通胀率降至4.6%，在2025年降至4%。\n\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -1878,6 +2098,28 @@
           "option_probs": {
             "B": 1.0
           }
+        },
+        {
+          "name": "chinese:10:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 不喜欢发朋友圈的年轻人可能有以下心理原因：\n\n1. 隐私保护：他们可能不希望将自己的生活过程公开分享，尤其是对于一些私人的事情，他们更愿意保持隐私。\n2. 不想被比较：在社交媒体上，人们往往会不自觉地将自己与他人进行比较，这可能会导致焦虑和不安。不发朋友圈可以避免这种情况。\n3. 不想被打扰：有些人可能觉得发朋友圈会引起过多的关注和评论，这会打扰到他们的生活和工作。\n4. 不想被误解：有些人可能担心自己发布的内容会被误解或被恶意解读，这会导致不必要的纠纷。\n5. 不想浪费时间：发朋友圈需要花费时间和精力，有些人可能觉得这是一种浪费，他们更愿意用这个时间做有价值的事情。\n6. 不喜欢虚荣心：有些人可能觉得发朋友圈是一种虚荣心的表现，他们更愿意保持低调。\n\n总之，不喜欢发朋友圈的年轻人可能有各种各样的心理原因，这些原因可能是他们个人的选择和价值观的反映。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "不喜欢发朋友圈的年轻人他们是什么心理？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2048,6 +2290,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:11:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 根据最新的数据和新闻报道，中国留学生数量下跌的原因可能包括以下几点：\n\n1. 疫情影响：由于新冠疫情的影响，许多国家对中国学生的签证限制和入境限制加强，导致许多中国学生无法前往目标国家学习。\n2. 政治因素：近年来，中美关系紧张，美国政府对中国学生的签证审批加强，导致许多中国学生无法前往美国学习。\n3. 经济因素：随着中国经济的发展，许多中国学生选择在国内就读，而不是出国留学。\n4. 教育因素：中国的高等教育水平不断提高，许多中国学生选择在国内就读，而不是出国留学。\n5. 文化因素：许多中国学生选择在国内就读，因为他们更熟悉中国的文化和语言环境。\n\n需要注意的是，这些因素可能会相互影响，导致中国留学生数量的下跌。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "中国留学生数量下跌，这是什么原因？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -2220,6 +2484,28 @@
           "option_probs": {
             "T": 1.0
           }
+        },
+        {
+          "name": "chinese:12:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题可能是指为什么某些学校或组织不允许学生休学一年（gap year）。原因可能因情况而异，但以下是一些可能的原因：\n\n1. 学校或组织可能认为，休学一年会影响学生的学习进度和成绩。\n2. 休学一年可能会导致学生失去对学习的兴趣和动力。\n3. 学校或组织可能认为，休学一年会导致学生在毕业后面临更大的就业压力。\n4. 学校或组织可能认为，休学一年会导致学生在毕业后面临更大的经济压力。\n5. 学校或组织可能认为，休学一年会导致学生在毕业后面临更大的社会压力。\n\n但是，也有许多学校和组织支持学生休学一年，因为它可以提供学生更多的时间来思考自己的未来和职业规划，并且可以提供学生更多的机会来参与志愿者活动、旅行和其他有益的活动。因此，如果你想休学一年，最好先与你的学校或组织讨论，了解他们的政策和建议。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么我们不被允许有gap year？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2390,6 +2676,28 @@
           },
           "option_probs": {
             "A": 1.0
+          }
+        },
+        {
+          "name": "chinese:13:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 美国的房屋永久产权税，也称为房产税，是一种地方税务机构收取的税款，用于支持当地的公共设施和服务，如教育、公共安全、公共设施和公共服务等。这种税款的收取是基于房屋的估值，通常每年支付一次。\n\n虽然房屋的永久产权意味着房屋所有权的转移，但是房屋所有者仍然需要支付房产税，因为这种税款是用于支持当地社区的公共设施和服务的。这种税款的收取是基于房屋的估值，而不是房屋所有权的转移。\n\n因此，即使房屋的永久产权已经转移，房屋所有者仍然需要支付房产税，以确保当地社区的公共设施和服务得到支持和维护。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "美国房屋永久产权为什么还要交税？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -2562,6 +2870,28 @@
           "option_probs": {
             "C": 1.0
           }
+        },
+        {
+          "name": "chinese:14:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 感谢您提出这个问题。英国仍然被认为是世界强国，这是因为它在许多方面仍然具有影响力和优势。以下是一些可能的原因：\n\n1. 历史和文化遗产：英国拥有悠久的历史和丰富的文化遗产，这使它在世界上享有稳固的地位。许多国家都受到英国的影响，包括语言、法律、政治制度等方面。\n2. 经济实力：尽管英国的经济实力可能不如100年前或现在的美国，但它仍然是世界第六大经济体，并且在金融、科技、制造等领域都有很强的实力。\n3. 国际影响力：英国是联合国安理会常任理事国之一，也是五眼联盟的成员国，在国际政治和安全方面具有重要的影响力。\n4. 教育和科研实力：英国的教育和科研实力也是世界领先的，许多著名的大学和研究机构都位于英国。\n\n至于为什么要将英国和美国并称，这可能是因为它们都是西方世界的主要力量，在许多方面都具有相似的价值观和政治制度。此外，英美两国在历史上也有着密切的关系，包括语言、文化、政治等方面。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么英国仍然被认为是世界强国？至少就很多国人的印象观之，英国似乎在国际上表现并不出彩，政治、经济都很难跟100年前的自己和现在的美国相比，那为什么还要英美并称呢？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2732,6 +3062,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:15:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 中国与美国在科技领域的差距是一个复杂的问题，需要从多个方面进行分析。以下是一些关于人工智能、互联网、航天和生物等领域的简要回顾和建议：\n\n1. 人工智能：中国在人工智能领域取得了一定的进展，但与美国相比仍有一定差距。美国在人工智能的基础研究和应用方面都有着领先优势。为了缩小差距，中国需要加强基础研究和人才培养，同时促进人工智能的应用和商业化。\n2. 互联网：中国在互联网领域已经成为全球领先的国家之一，但与美国相比仍有一定差距。美国在互联网基础设施、技术和应用方面都有着领先优势。为了缩小差距，中国需要加强互联网基础设施建设，促进技术创新和应用，同时加强网络安全和数据保护。\n3. 航天：中国在航天领域取得了一定的进展，但与美国相比仍有一定差距。美国在航天技术和应用方面都有着领先优势。为了缩小差距，中国需要加强航天技术研发和应用，同时促进航天产业的发展。\n4. 生物：中国在生物领域取得了一定的进展，但与美国相比仍有一定差距。美国在生物技术和应用方面都有着领先优势。为了缩小差距，中国需要加强生物技术研发和应用，同时促进生物产业的发展。\n\n总的来说，中国需要加强科技创新和人才培养，同时促进科技应用和商业化，以缩小与美国在科技领域的差距。此外，中国还需要加强国际合作和交流，从而更好地学习和借鉴美国和其他国家的成功经验。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "中国与美国，科技水平差距有多大？\n人工智能，互联网，航天，生物等领域，中国与美国的差距究竟有多大？我们要怎么才能追上美国呢？头脑风暴一下\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -2904,6 +3256,28 @@
           "option_probs": {
             "A": 1.0
           }
+        },
+        {
+          "name": "chinese:16:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 1. 线上教学：如果你擅长某门学科或者某项技能，可以考虑在线上开设课程，分享自己的知识和技能，从中赚取收入。\n2. 写作：如果你喜欢写作，可以考虑写一些文章或者小说，然后在网上出售或者投稿到网站上，从中赚取收入。\n3. 设计：如果你擅长设计，可以考虑设计一些商品，如T恤、手机壳等，然后在网上出售，从中赚取收入。\n4. 拍摄：如果你擅长摄影，可以考虑拍摄一些照片，然后在网上出售或者投稿到网站上，从中赚取收入。\n5. 翻译：如果你擅长语言，可以考虑提供翻译服务，从中赚取收入。\n6. 网络营销：如果你擅长网络营销，可以考虑为某些品牌或者公司提供网络营销服务，从中赚取收入。\n7. 网络代购：如果你擅长网络购物，可以考虑为某些人提供网络代购服务，从中赚取收入。\n8. 网络销售：如果你擅长网络销售，可以考虑在网上开设店铺，从中赚取收入。\n9. 网络客服：如果你擅长网络客服，可以考虑为某些品牌或者公司提供网络客服服务，从中赚取收入。\n10. 网络编辑：如果你擅长网络编辑，可以考虑为某些网站提供网络编辑服务，从中赚取收入。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "下班后可以做点什么副业赚钱呢？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3074,6 +3448,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:17:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 台湾和大陆的生活方式确实存在一定的差异，这些差异主要体现在以下几个方面：\n\n1. 语言和文化：台湾的官方语言是中文，但是台湾的方言和大陆的方言存在一定的差异。此外，台湾的文化也受到日本和西方文化的影响，因此在一些方面和大陆的文化也存在一定的差异。\n2. 政治和经济：台湾是一个民主制度，而大陆是一个社会主义制度。这两个地区的政治和经济制度存在一定的差异，因此在一些方面也会导致生活方式的差异。\n3. 消费习惯：台湾的消费习惯和大陆的消费习惯也存在一定的差异。例如，台湾的人比较喜欢喝咖啡，而大陆的人比较喜欢喝茶。此外，台湾的人比较注重健康饮食，而大陆的人则比较注重口味。\n4. 交通和城市规划：台湾的交通和城市规划和大陆的交通和城市规划也存在一定的差异。例如，台湾的人比较喜欢骑自行车，而大陆的人则比较喜欢骑电动车。此外，台湾的城市规划也比较注重环保和可持续发展。\n\n总的来说，台湾和大陆的生活方式存在一定的差异，但是这些差异并不是非常大。在一些方面，台湾和大陆的生活方式也存在一定的相似之处。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "台湾和大陆生活方式差距有多大？\n一次看天天向上，陈乔恩居然不知道有健胃消食片这种大陆老少皆知的药物，很多台湾人到大陆来也都很诧异一些我们习以为常的事情，本人没有去过台湾，但是对台湾很感兴趣，想问一下台湾和大陆的生活方式差距有多大\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -3246,6 +3642,28 @@
           "option_probs": {
             "B": 1.0
           }
+        },
+        {
+          "name": "chinese:18:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 周迅在《如懿传》中扮演如懿，这是她在历史剧中的一次亮眼表现。她的演技被广泛认为是出色的，她以细腻而深入的方式塑造了如懿的形象，让观众感受到了这个角色的复杂性和内心世界。\n\n周迅在这部剧中展现了她的演技多面性，她不仅能够表现出如懿的聪明和果敢，还能够表现出她的孤独和内心的痛苦。周迅的表演让观众感受到了如懿的力量和弱点，让她成为一个非常真实和可信的角色。\n\n此外，周迅还能够与其他演员进行有机的互动，她与周杰伦、陈建斌等其他演员的合作都非常成功。她的表演让观众感受到了如懿与周杰伦、陈建斌等其他角色之间的复杂关系，让剧情更加生动和有趣。\n\n总的来说，周迅在《如懿传》中的表演被广泛认为是出色的，她以细腻而深入的方式塑造了如懿的形象，让观众感受到了这个角色的复杂性和内心世界。她的表演让观众感受到了如懿的力量和弱点，让她成为一个非常真实和可信的角色。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "如何评价如懿传中周迅的演技？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3416,6 +3834,28 @@
           },
           "option_probs": {
             "B": 1.0
+          }
+        },
+        {
+          "name": "chinese:19:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 具体每月发多少餐补，需要根据不同企业的政策来确定，我无法提供一个具体的数字。\n\n自办食堂和发餐补是企业解决员工吃饭问题的两种方式，各有优缺点：\n\n1. 自办食堂：\n\n优点：\n\n* 可以保证员工的饮食安全和卫生，减少员工外出就餐带来的健康风险。\n* 可以提高员工的工作效率，减少员工外出就餐带来的时间浪费。\n* 可以提高员工的团队精神和凝聚力，增强企业文化。\n\n缺点：\n\n* 需要投入大量的资金和人力来建设和管理食堂，成本较高。\n* 食堂的菜品种类和口味可能无法满足所有员工的需求，会影响员工的就餐体验。\n* 食堂的就餐时间可能会受到限制，影响员工的自由度。\n1. 发餐补：\n\n优点：\n\n* 可以给员工更大的自由度，让员工自己选择就餐地点和菜品。\n* 可以减少企业的成本，不需要建设和管理食堂。\n* 可以更好地满足员工的个性化需求，提高员工的满意度。\n\n缺点：\n\n* 可能会影响员工的饮食安全和卫生，增加员工外出就餐带来的健康风险。\n* 可能会影响员工的工作效率，增加员工外出就餐带来的时间浪费。\n* 可能会影响员工的团队精神和凝聚力，减弱企业文化。\n\n总的来说，自办食堂和发餐补都有其优缺点，企业需要根据自身的实际情况来选择适合自己的解决方案。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "你公司每月发多少餐补？\n有些企业是通过自办食堂来解决员工吃饭的问题，有些是通过发餐补的形式解决？相信各有各的优势和劣势。请知友回答。\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -3588,6 +4028,28 @@
           "option_probs": {
             "C": 1.0
           }
+        },
+        {
+          "name": "chinese:20:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 根据中国《刑法》的规定，任何人故意放弃婴幼儿，情节恶劣的，处三年以下有期徒刑、拘役或者管制，并处或单处罚金。如果造成婴幼儿死亡或者严重伤害，则构成危害婴幼儿罪，处三年以上十年以下有期徒刑，情节特别恶劣的，处十年以上有期徒刑或者无期徒刑，可以并处罚金。\n\n具体的惩罚程度和方式需要根据具体情况进行判断。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "女子在一公厕废纸篓里救出被弃男婴，已送往医院救治，弃婴者将受到什么惩罚？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3758,6 +4220,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:21:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 中国古代看上去侵略性不强，却有那么大的领土，这是因为中国古代的领土扩张多是通过文化、经济和政治手段实现的，而非军事手段。\n\n中国古代的文化传播和吸收，使得周边民族接受中国的文化和制度，从而形成了中国文化圈。中国古代的经济实力也是非常强大的，中国的商人和工匠在周边地区开展贸易和技术输出，使得周边民族受益，从而愿意接受中国的统治。\n\n另外，中国古代的政治手段也非常成熟，中国古代的政府通过外交手段和赏赐手段，使得周边民族愿意接受中国的统治。例如，中国古代的皇帝会赏赐周边民族的领袖，使得他们愿意接受中国的统治。\n\n因此，中国古代看上去侵略性不强，但实际上通过文化、经济和政治手段实现了领土扩张，形成了中国古代的大型领土。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么中国古代看上去侵略性不强，却有那么大的领土？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -3930,6 +4414,28 @@
           "option_probs": {
             "B": 1.0
           }
+        },
+        {
+          "name": "chinese:22:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题可能没有一个确定的答案，因为每个人的心态和情感都是独特的。但是，以下是一些可能的原因：\n\n1. 忙碌：有些人可能收到了太多的消息，或者他们的日程安排很紧张，因此他们没有时间回复。\n2. 不知所措：有些人可能不知道如何回复，或者他们不确定自己应该说什么。\n3. 不感兴趣：有些人可能对消息不感兴趣，或者他们认为回复不是必要的。\n4. 害羞：有些人可能害羞或不自信，因此他们不愿意回复。\n5. 其他原因：有些人可能因为其他原因而不回复，例如他们可能正在考虑如何回复，或者他们可能认为回复不是必要的。\n\n总之，没有一个确定的答案，每个人的心态和情感都是独特的。如果你感到困惑或担心，最好的方法是直接与对方沟通，以了解他们的想法和感受。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "微信已读不回的人都是什么心态?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4100,6 +4606,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:23:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 马云也许会有自己的看法，但我可以提供一些可能的原因：\n\n1. 微信的用户基数更大：微信是中国最大的社交平台，拥有超过 10 亿的用户，这意味着更多的用户可能会选择使用微信支付。\n\n2. 微信支付的便捷性：微信支付可以在微信内部完成，用户不需要离开微信就可以完成支付，这使得支付更加便捷。\n\n3. 微信支付的广泛应用：微信支付在线下商户的应用也更加广泛，包括小吃店、超市、公交车等，这使得用户更容易选择微信支付。\n\n4. 微信支付的营销策略：微信支付也通过各种营销策略，如红包、优惠券等，吸引更多的用户使用。\n\n5. 用户对支付宝的疲劳：长期以来，支付宝一直是中国最大的第三方支付平台，但随着时间的推移，用户可能会对支付宝的使用感到疲劳，这也可能是用户偏爱微信支付的原因之一。\n\n但是，这些只是一些可能的原因，实际情况可能更加复杂。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "马云也搞不明白：为什么现在用户偏爱微信支付，而不是支付宝？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -4272,6 +4800,28 @@
           "option_probs": {
             "A": 1.0
           }
+        },
+        {
+          "name": "chinese:24:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这是因为在某些国家或地区，法律规定死刑犯在被执行死刑前，需要先剥夺其政治权利，这是为了确保死刑犯在被执行死刑前不会利用其政治权利干扰正义和社会秩序。\n\n另外，剥夺政治权利也是对死刑犯的一种惩罚，表明该犯罪分子已经丧失了参与社会生活的资格。这种惩罚不仅仅是对死刑犯本身的惩罚，也是对社会的警示和保护。\n\n需要注意的是，不同国家和地区的法律对于死刑犯的政治权利处理方式可能会有所不同。有些国家和地区可能会在死刑犯被执行死刑后，恢复其政治权利，而有些国家和地区则会剥夺其政治权利终身。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "通常一个人被判了死刑，为什么要加个剥夺政治权利终身，明明已经死刑了呀？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4442,6 +4992,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:25:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题涉及到了多方面的因素，包括文化、经济、技术和政策等方面。以下是一些可能的原因：\n\n1. 文化因素：中国人比较喜欢使用手机支付，这可能是因为中国人比较喜欢使用手机，而且中国人比较信任数字化的支付方式。相比之下，发达国家的消费者可能更喜欢使用信用卡或现金支付。\n2. 经济因素：中国的经济发展速度非常快，许多人没有信用卡或银行账户，因此扫码支付成为了一种更方便的支付方式。相比之下，发达国家的消费者通常都有信用卡和银行账户，因此他们可能更喜欢使用这些支付方式。\n3. 技术因素：中国的移动支付技术比发达国家更先进，中国的支付平台比如微信和支付宝提供了更多的功能和更好的用户体验。相比之下，发达国家的支付平台可能更加落后。\n4. 政策因素：中国政府鼓励数字化支付，并且已经采取了一系列措施来促进扫码支付的发展。相比之下，发达国家的政府可能更加关注隐私和安全问题，因此他们可能更加排斥扫码支付。\n\n总的来说，扫码支付在中国流行的原因是多方面的，而在发达国家被排斥的原因也是多方面的。这些原因可能会随着时间的推移而发生变化，因此需要持续关注这个问题的发展。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为何扫码支付在中国流行，在发达国家被排斥？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -4614,6 +5186,28 @@
           "option_probs": {
             "D": 1.0
           }
+        },
+        {
+          "name": "chinese:26:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题涉及到多方面的因素，包括政策、经济、文化等方面。以下是一些可能的原因：\n\n1. 政策限制：近年来，中国政府对夜生活的管理越来越严格，特别是对酒吧、夜店等娱乐场所的管理。这些政策限制了夜生活的发展，使得许多夜店和酒吧被迫关闭或缩减业务。\n2. 经济因素：随着房价和生活成本的上涨，许多年轻人的消费能力受到了限制，他们不再像以前那样频繁地参加夜生活。此外，随着互联网的发展，许多人更喜欢在家里观看电影或玩游戏，而不是外出娱乐。\n3. 文化因素：中国传统文化对夜生活的看法比较保守，许多人认为夜生活是一种浪费时间和金钱的行为。这种文化观念使得许多人不愿意参加夜生活，从而导致夜生活的萎缩。\n4. 疫情影响：最近两年的新冠疫情也对夜生活造成了巨大的影响。许多夜店和酒吧被迫关闭，许多人也不愿意外出娱乐，以避免感染病毒。\n\n总的来说，这些因素使得上海的夜生活越来越冷清，但是随着经济的发展和政策的调整，这种情况也可能会有所改善。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么现在上海越来越没有夜生活，晚上越来越冷清了？\n\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4784,6 +5378,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:27:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 去香港需要申请通行证，而且每年申请次数有限制，这是相对于内地其他城市来说比较麻烦的地方。此外，香港的法律和制度与内地有所不同，需要遵守当地的法规和规范。此外，由于香港是一个国际化的城市，生活成本较高，这也是一些人觉得去香港比较麻烦的原因之一。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么去香港这么麻烦？\n麻烦是相对内地其他城市，其他城市直接去就行\n(2023年10月補充更新:港澳通行證屬於中國邊防發出證件,唯一例外的是深圳戶口居民可以全年無限次數申請港澳通行證每週一次每次最多七天,其他地區每年申請次數不一)\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -4956,6 +5572,28 @@
           "option_probs": {
             "D": 1.0
           }
+        },
+        {
+          "name": "chinese:28:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 根据您提供的信息，央视疑似还在继续封杀梅西，这背后可能有以下故事：\n\n1. 政治因素：梅西曾在2017年参观过西藏，这可能是央视封杀梅西的原因之一。中国政府对西藏问题非常敏感，任何与西藏有关的事件都可能引起政府的关注和干预。\n2. 商业因素：梅西是巴塞罗那的旗帜，但他也是耐克的代言人，而央视与耐克的竞争对手阿迪达斯有着密切的合作关系。这可能是央视封杀梅西的另一个原因。\n3. 个人因素：梅西曾在2016年因为违反税法而被判刑，这可能是央视封杀梅西的个人原因之一。\n\n当然，央视到底是失误所至，还是其他原因，我们不得而知。不过在大是大非面前，相信大部分球迷还是会和央视站在一起。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "央视疑似还在封杀梅西，王牌节目有意删除梅西镜头，这背后有何故事？\n近日，有网友发现，央视还在继续封杀梅西。\n事情是这样的，北京时间4月11日18：35分，央视体育频道（CCTV5）如期播出欧冠特别节目《冠军欧洲》。\n《冠军欧洲》显示播出了头天晚上欧冠两场比赛的集锦和集锦，然后又播出了“观察家”板块，紧接着推出最新的“城记”特别栏目。\n恰巧，当天晚上介绍的城市为巴塞罗那。\n众所周知，一提到巴塞罗那这座西班牙俱乐部，大部分球迷第一时间想到的自然是里奥.梅西，毕竟梅西几乎可以说是巴塞罗那的旗帜。\n然而令人没有想到的是，节目从头到尾几乎提到了曾在巴塞罗那足球队效力的十几名球星名字，唯独不见梅西。\n最令人深刻的，当属在视频画面当中，央视刻意避开所有与梅西相关的镜头。\n甚至就连梅西与内马尔以及苏亚雷斯的MSN著名合照，央视也有意将梅西的镜头避开，直接变成了SN合照。\n值得一提的是，在《冠军欧洲》播放结束后，央视的这一举动迅速在网上引起了许多球迷的热议。\n支持梅西的球迷认为：简直离谱至极，（《冠军欧洲》）作为一档公开节目，制作刊载发布的视频，公然\"篡改\"队史。一部巴萨传，半部梅西史，梅西的名字和巴塞罗那，和这座俱乐部息息相关，作为队史第一人，诺坎普的过往，梅西是所有真正巴萨球迷心里不可磨灭的存在，竟然在一档官方发布的节目中删除所有镜头和画面，闭口不提。\n当然，也有不少球迷表示永远支持央视做出的决定。\n此外，也有网友提到，此前梅西被《天下足球》删除的片头镜头，在后来的节目中，央视又给补回去了。\n也正因为此，这次央视5台的《冠军欧洲》（再次将梅西的镜头）才会引出如此大的争议。\n当然，央视到底是失误所至，还是其他原因，咱们不得而知。\n不过在大是大非面前，相信大部分球迷还是会和央视站在一起。\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5126,6 +5764,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:29:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 三星堆是中国内蒙古自治区呼伦贝尔市的一个考古遗址，被认为是新石器时代和青铜时代的遗址。根据目前的研究，三星堆是一个非常重要的考古遗址，它的发掘对于了解中国古代文化和历史有着非常重要的意义。\n\n但是，三星堆的发掘工作并不是一直在进行的。根据中国的考古法规，在发掘过程中，如果发现了非常重要的遗物或者遗迹，就需要暂停发掘工作，以便进行更详细的研究和保护。\n\n根据目前的信息，三星堆的发掘工作在2012年被暂停。这是因为在发掘过程中，发现了一些非常重要的遗物和遗迹，包括一些非常罕见的青铜器和玉器。这些遗物和遗迹的发现对于了解中国古代文化和历史非常重要，因此需要暂停发掘工作，以便进行更详细的研究和保护。\n\n至于为什么三星堆不敢继续挖了，这可能是因为发掘工作的风险和成本。考古发掘工作是一项非常复杂和危险的工作，需要非常专业的技能和设备。同时，考古发掘工作也需要非常大的成本，包括人力成本、设备成本和保护成本等。因此，如果发掘工作的风险和成本过高，就可能会选择暂停发掘工作，以便进行更详细的研究和保护。\n\n至于三星堆为什么会被称为“地外物品”，这可能是因为三星堆的遗物和遗迹非常罕见和特别，与其他考古遗址的遗物和遗迹有很大的区别。这些遗物和遗迹的特殊性可能会让人感觉到它们是“地外”的，但实际上它们是中国古代文化和历史的一部分。\n\n总之，三星堆是一个非常重要的考古遗址，它的发掘对于了解中国古代文化和历史非常重要。但是，考古发掘工作是一项非常复杂和危险的工作，需要非常专业的技能和设备，同时也需要非常大的成本。因此，如果发掘工作的风险和成本过高，就可能会选择暂停发掘工作，以便进行更详细的研究和保护。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "三星堆为啥不敢继续挖了?\n三星堆可以深挖却紧急叫停？史书毫无记载的地外物品专家如何解答\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -5298,6 +5958,28 @@
           "option_probs": {
             "D": 1.0
           }
+        },
+        {
+          "name": "chinese:30:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 莫言的作品并没有伤害中国人，相反，他的作品反映了中国社会的真实面貌，揭示了人性的复杂性，并且在文学上具有创新性和深度。莫言是一位具有国际影响力的中国作家，他的作品被许多人所喜爱，也受到了广泛的关注和讨论。当然，由于莫言的作品涉及到一些敏感的社会问题，有些人可能会对其表达的观点持有不同的看法，但这并不意味着他的作品会伤害中国人。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "莫言的作品到底伤害中国人什么了？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5468,6 +6150,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:31:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 关于“大龄剩女”这个概念，它是指在社会上被认为过了适婚年龄的女性。但是，每个人的人生道路都是独特的，没有一个通用的“结局”可以概括所有大龄剩女的人生。有些人可能选择独立生活，有些人可能在晚年结婚，有些人可能选择不结婚，但是都可以过着自己满意的生活。重要的是，每个人都应该有权自由选择自己的生活方式，而不受社会压力和偏见的影响。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "大龄剩女结局是什么？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -5640,6 +6344,28 @@
           "option_probs": {
             "T": 1.0
           }
+        },
+        {
+          "name": "chinese:32:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 如果你在澳门赌场赢了8000万，并且不想再赌了，那么你可以直接兑换现金或者赌场赠送的赌券，然后离开赌场。这不会带来任何负面后果。\n\n但是，你需要注意的是，如果你是外国人，你需要按照澳门的法律和税务规定，申报所得并缴纳所得税。澳门的个人所得税税率为12%，因此你需要缴纳8000万的12%，即960万元的所得税。\n\n此外，如果你是中国公民，你需要按照中国的法律和税务规定，申报所得并缴纳所得税。根据中国的个人所得税法，你需要缴纳8000万的20%，即1600万元的所得税。\n\n因此，在离开赌场之前，你需要先了解澳门和你所在国家的法律和税务规定，以确保你的所得能够合法地带回家。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "假如在澳门赌场赢了800万，不赌了不想玩了，会出现什么后果？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5810,6 +6536,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:33:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这是一个非常有趣的问题。王羲之被誉为中国书法的圣人，他的书法风格独特而优雅，被许多人视为书法的最高境界。\n\n然而，中国历史上也有许多其他出色的书法家，他们的作品也被广泛认可。例如，欧阳询、李白、苏轼等人的书法也被认为是非常优秀的。\n\n因此，我认为，中国未来也会出现超越王羲之的书法家。这需要一个人不断学习和努力，并且能够创造出独特的风格和技巧。\n\n但是，我也要指出，书法是一门艺术，它的价值不仅仅在于技巧和技能，还在于个人的创造力和表达能力。因此，即使有人能够超越王羲之的技巧，也不一定能够超越他的艺术价值。\n\n总之，我认为，中国未来也会出现出色的书法家，但是他们的价值不仅仅在于技巧和技能，还在于他们的创造力和表达能力。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "中国将来会出现超越王羲之的书法家吗？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -5982,6 +6730,28 @@
           "option_probs": {
             "B": 1.0
           }
+        },
+        {
+          "name": "chinese:34:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题需要从多个角度来回答。清朝是中国历史上的一个时期，从1644年到1912年，共计268年。在这个时期内，中国经历了许多变化，有些是积极的，有些是消极的。\n\n从积极的方面来看，清朝是中国历史上最长的统一时期之一，也是中国历史上最繁荣的时期之一。清朝统治下的中国经济发展迅速，文化也得到了很大的发展。清朝的文化遗产包括许多著名的建筑、艺术品和文学作品。\n\n但是，从消极的方面来看，清朝也有许多问题。清朝的统治者是满族人，而不是汉族人，这导致了许多民族矛盾。清朝的统治者也采取了许多不公平的政策，导致了许多人的生活水平下降。此外，清朝的末期也经历了许多危机，包括外来入侵和内部叛乱。\n\n总的来说，清朝统治下的中国不能简单地被描述为“地狱”。它有它的优点和缺点，有它的成功和失败。但是，它确实是一个非常重要的时期，对中国的历史和文化产生了深远的影响。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "清朝统治下的中国是地狱吗？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6152,6 +6922,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:35:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 慈禧太后是清朝末年的实际执政者，她的生活确实非常奢侈。以下是几个方面的描述：\n\n1. 衣食住行：慈禧太后的衣服都是用最好的丝绸和珠宝制成，每件衣服都要花费大量的金钱和时间。她的食物也是最好的，每天都要吃上百种菜肴，其中包括许多珍贵的食材。她住在紫禁城的内廷，住所是最豪华的宫殿，周围都是美丽的花园和池塘。她的行程也都是用最豪华的马车和船只。\n2. 娱乐生活：慈禧太后的娱乐生活也非常丰富，她喜欢看戏，每年都要请来最好的戏班子表演。她还喜欢听音乐，每天都要请来最好的音乐家为她演奏。她还喜欢玩耍，每年都要请来最好的杂耍团表演。\n3. 财富：慈禧太后的财富也非常庞大，她拥有大量的珠宝和金银财宝。她还拥有许多土地和商铺，每年都能收到大量的租金和利润。\n\n总的来说，慈禧太后的生活非常奢侈，她拥有清朝最好的衣食住行和娱乐生活，也拥有庞大的财富。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "慈禧当年的生活有多奢侈？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -6324,6 +7116,28 @@
           "option_probs": {
             "T": 1.0
           }
+        },
+        {
+          "name": "chinese:36:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 根据目前的情况，B站的确面临着巨大的压力和挑战。但是，预测一个公司的未来是非常复杂的，需要考虑很多因素，包括市场环境、竞争对手、内部运营、财务状况等等。\n\n从市场环境来看，B站作为一个娱乐和教育平台，其市场前景还是比较广阔的。随着互联网的普及和人们对视频内容的需求的增加，B站的用户群和收入都有可能会持续增长。\n\n从竞争对手来看，B站目前在国内还没有明显的竞争对手，但是随着国外的视频平台如Youtube等的进入，B站的市场份额可能会受到一定的影响。\n\n从内部运营来看，B站需要不断优化自己的产品和服务，提高用户体验和忠诚度，同时吸引更多的用户和广告商。\n\n从财务状况来看，B站目前的亏损主要是因为其大量的投资和支出，包括内容创作、运营和技术等方面。如果B站能够控制好自己的成本和收入，可能会有机会实现盈利。\n\n总的来说，B站的未来还是有很多不确定性的，需要看其未来的策略和运营如何。但是，作为一个拥有庞大用户群和丰富内容资源的平台，B站还是有很大的潜力和机会的。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "b站真的要凉凉了吗？\n一个大网站突然就开始走下坡路了，现在完全没有任何比较好的盈利点，股价暴跌，背后的资本纷纷撤资 up主激励都砍了。之前有大佬分析按照阿b现在的现金来算估计还能再折腾个两三年，但是今年和明天还要还几十亿的债务……阿b虽然官方恶心但是视频资源好多都是全网独一份的，目前国内没有其他代替品，还是希望它能再挺一挺#(不高兴) 其实阿b的亏损并不是必要的运营成本，好多钱是可以省下来的，但是叔叔可能会继续砸钱来赌一把，就看接下来怎么操做了吧，希望大佬们能分析一下阿b大概还有几年可活呀？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6494,6 +7308,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:37:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这是一个好问题。根据中国人民银行的说法，人民币不发行1000元和500元的钞票，主要是为了防止腐败和洗钱等非法活动。\n\n如果发行1000元和500元的钞票，会使得大额现金交易更加方便，从而更容易掩盖非法资金的来源和流向。此外，大额钞票也会增加盗窃和诈骗的风险。\n\n另外，随着电子支付的普及，人民币的大额钞票需求也在逐渐减少。电子支付不仅方便快捷，还可以提高交易的安全性和可追溯性。\n\n因此，中国人民银行认为，不发行1000元和500元的钞票，有利于维护金融稳定和社会秩序。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "人民币为什么不出1000，500这样的大面额钞票？\n无论是使用还是结算都方便很多啊。\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -6666,6 +7502,28 @@
           "option_probs": {
             "T": 1.0
           }
+        },
+        {
+          "name": "chinese:38:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 中国大陆推行简化字的原因主要有以下几点：\n\n1. 提高文字普及率：简化字的目的是为了让更多的人能够学会读写汉字，从而提高文字普及率。在20世纪50年代，中国大陆的文盲率非常高，为了让更多的人能够接受教育，政府决定对繁体字进行简化。\n2. 方便记忆和书写：简化字的设计原则是“减少笔画、简化结构、统一形体”，使得汉字的书写更加简单和方便。这对于学习汉字的人来说，是一个很大的好处。\n3. 提高写作速度：简化字的书写速度比繁体字快，这对于工作和学习中需要快速书写的人来说，是一个很大的好处。\n4. 符合当代社会的需求：随着社会的发展，人们的需求也在不断变化。简化字符号更加符合当代社会的需求，可以更好地传达信息。\n\n当然，简化字也有一些缺点，比如简化字的形体比繁体字更加单一，这可能会导致一些字的含义不够清晰。但是，总体而言，简化字的好处远远大于缺点，因此中国大陆推行简化字是有道理的。\n\n至于繁体字是华夏文明的传承，这是一个值得肯定的事实。但是，文明的发展是一个不断进步的过程，我们应该尊重传统，但也要面对现实，适应时代的需求。简化字并不是要否定繁体字的价值，而是要在繁体字的基础上进行改进和发展，使得汉字更加适应当代社会的需求。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么中国大陆停用繁体字，推行简化字？\n题主个人比较推崇繁体字，无他，主要是因为繁体字是华夏文明的传承。简化字哪里比繁体字好了？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6836,6 +7694,28 @@
           },
           "option_probs": {
             "B": 1.0
+          }
+        },
+        {
+          "name": "chinese:39:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题涉及到学生的学习和娱乐方式，以及现代社会对年轻人的影响。\n\n首先，游戏是一种娱乐方式，它能够吸引人们的注意力，并且提供快速的反馈和成就感。许多游戏都需要玩家不断地练习和提高技能，以便在游戏中取得成功。这种练习和提高技能的过程，可以让玩家在游戏中变得非常厉害。\n\n另一方面，学习是一种更加渐进的过程，需要更多的时间和精力。学习的成功取决于许多因素，包括学生的兴趣、动力、自律和学习方法等。如果学生没有足够的兴趣和动力，或者没有有效的学习方法，那么他们的学习成绩可能会受到影响。\n\n此外，现代社会对年轻人的影响也是一个需要考虑的因素。随着科技的发展，年轻人越来越依赖于电子设备和互联网，这可能会导致他们的注意力分散和学习效率降低。此外，社交媒体和其他娱乐活动也可能会分散学生的注意力，使他们更容易放弃学习。\n\n总之，学生打游戏厉害而学习烂的原因可能是多方面的，包括学生的兴趣、动力、自律和学习方法等因素，以及现代社会对年轻人的影响。为了帮助学生提高学习成绩，需要采取多种措施，包括培养学生的兴趣和动力、提供有效的学习方法和资源，以及帮助学生建立自律和自控能力等。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "现在的学生打游戏怎么厉害而学习这么烂？?\n为什么现在的学生打游戏这么厉害，而学习这么烂？？说他们不聪明，打游戏有这么会，现在的学生是怎么了？ #游戏 #学生\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -7008,6 +7888,28 @@
           "option_probs": {
             "A": 1.0
           }
+        },
+        {
+          "name": "chinese:40:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题可能有多种回答，因为不同的人可能有不同的看法。以下是一些可能的原因：\n\n1. 搜索结果质量下降：有些用户认为百度搜索结果的质量在下降，因为它倾向于优先显示付费广告和百度自己的产品，而不是最相关的搜索结果。\n2. 隐私问题：百度搜索引擎被指控收集和使用用户数据，而没有得到用户的明确同意。这种做法可能会导致用户的隐私遭到侵犯。\n3. 竞争对手的进步：百度面临着来自其他搜索引擎的竞争，例如谷歌和必应。这些竞争对手可能提供更好的搜索体验和更准确的搜索结果。\n4. 政治因素：由于政治原因，百度可能被迫过滤或限制某些搜索结果，这可能会影响用户的搜索体验。\n5. 用户体验问题：有些用户认为百度搜索引擎的用户体验不如其他搜索引擎。例如，它可能会显示过多的广告，或者搜索结果页面的布局不够清晰。\n\n总之，这些可能是导致百度搜索引擎越做越差的一些原因。然而，这些观点并不是普遍的，有些用户可能认为百度搜索引擎仍然是一个有用的工具。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么百度搜索引擎越做越差？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -7178,6 +8080,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:41:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 中国的国土面积是一个相对稳定的指标，但是也有可能在未来通过一些手段增加。这些手段包括但不限于：\n\n1. 陆地收回：中国在过去几十年中已经实现了大量的陆地收回，特别是在沿海地区。未来也可能会继续这种做法，以增加可用的土地面积。\n2. 海洋领土扩张：中国可以通过在南海和东海等地建设人工岛屿和其他设施来扩大其海洋领土。\n3. 国际条约和协议：中国可以通过与其他国家签订条约和协议来扩大其领土。例如，中国可以与其他国家就边界问题进行谈判，以解决长期存在的争议。\n4. 购买土地：中国可以通过购买其他国家的土地来增加其国土面积。这种做法在过去已经发生过，例如中国在非洲和拉丁美洲购买了大量的土地。\n\n然而，这些手段也存在一些挑战和限制。例如，陆地收回可能会导致环境问题，海洋领土扩张可能会引起其他国家的反对，国际条约和协议需要双方都同意，购买土地可能会导致经济和政治问题。因此，中国在未来增加国土面积的可能性取决于许多因素，包括政治、经济和环境因素。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "中国的国土面积有可能再增加吗？\n除了现有的960万平方公里的陆地面积，和300多万平方公里的海洋面积，中国在将来50年~100年以内能否通过收回，发现，购买等手段增加国土面积，谢谢。\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -7350,6 +8274,28 @@
           "option_probs": {
             "D": 1.0
           }
+        },
+        {
+          "name": "chinese:42:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这可能是因为你所接触到的信息和教育材料中关于蒙古的内容较少。蒙古是中国的邻国，位于中国的北部，但与中国的文化和历史有很大的不同。蒙古人有自己独特的语言、文化和历史，这些都是值得了解和学习的。\n\n蒙古历史上有许多著名的人物和事件，例如大蒙古帝国的创建者成吉思汗，以及他的继承者哈勃喀尔。蒙古也有自己的传统和文化，例如蒙古包、蒙古骑马和蒙古民间音乐等。\n\n如果你想了解更多关于蒙古的信息，可以查阅相关的书籍、文章和网站，或者参加有关蒙古的讲座和活动。这将有助于你更好地了解这个邻国，并欣赏其独特的文化和历史。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么蒙古离中国这么近，我却几乎从没有听过关于蒙古的事情？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -7520,6 +8466,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:43:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 根据您的描述，您收到了一笔陌生人转账，但是在支付宝中无法找到该账号。这种情况下，您可以尝试以下几种方法：\n\n1. 联系支付宝客服：您可以联系支付宝客服，提供转账的金额和时间，让客服帮助您查询该笔转账的来源和目的地。\n2. 联系银行客服：您也可以联系您的银行客服，提供转账的金额和时间，让客服帮助您查询该笔转账的来源和目的地。\n3. 等待对方联系：有时候，转账的人会在转账时留下联系方式，您可以等待对方联系您，解释转账的目的。\n4. 如果您确定该笔转账是错误转账，您可以选择退回该笔转账。在支付宝中，您可以点击“转账记录”，找到该笔转账，然后点击“退款”，按照提示操作即可。\n\n总之，您需要谨慎处理陌生人转账，避免遭受损失。如果您有任何疑问，请及时联系相关客服，以保障自己的权益。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "你们收到过陌生人转账吗？\n三天前钱行卡收到一笔支付宝转账，今天因为打开了网上银行app，才发现这笔转账，在支付宝添加转账账号，显示“账号不存在或对方设置了隐私保护”，转账金额1481.48，我该怎么办？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -7692,6 +8660,28 @@
           "option_probs": {
             "C": 1.0
           }
+        },
+        {
+          "name": "chinese:44:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 非常抱歉，我不建议您摸抚警犬。警犬是工作犬，在工作时需要保持专注，不应被打扰。此外，警犬的训练使它们对陌生人有所保留，摸它们可能会引起它们的不适应或紧张。请尊重警犬和它的工作，不要摸它。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "看到警犬能摸吗？\n在火车站看到一条卧趴着的拉布拉多警犬，请问能上去摸摸它么，好喜欢，有个绳拉着的。\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -7862,6 +8852,28 @@
           },
           "option_probs": {
             "T": 1.0
+          }
+        },
+        {
+          "name": "chinese:45:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 外国人对汉字的感受因人而异，但总的来说，他们对汉字的美感和独特性是非常欣赏的。\n\n一些外国人认为汉字非常美丽，因为它们的形状和线条非常优雅，而且每个字都有自己的意义和故事。他们认为汉字是一种艺术形式，可以表达复杂的思想和情感。\n\n另一些外国人则认为汉字非常难以学习和记忆，因为它们的形状和发音都非常不同于拉丁字母。他们认为汉字是一种非常复杂的系统，需要大量的时间和精力来掌握。\n\n总的来说，外国人对汉字的感受是非常多样化的，但无论是欣赏还是厌恶，他们都会对汉字的独特性和美感产生共鸣。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "外国人眼中的汉字是怎样的？\n是真的很美，还是真的很丑，或者没感觉？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -8034,6 +9046,28 @@
           "option_probs": {
             "C": 1.0
           }
+        },
+        {
+          "name": "chinese:46:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题涉及到城市发展、商业模式、消费习惯等多方面因素。以下是一些可能的原因：\n\n1. 城市规划和管理：随着城市的发展和规划，许多商业区可能被重新规划或整治，这可能导致商业活动的迁移或减少。此外，为了保持城市的治安和秩序，政府可能会对夜间商业活动实施限制。\n\n2. 商业模式的转变：随着互联网的发展，许多商业活动已经转移到了网上，这可能导致实体店的生意减少，尤其是在夜间。此外，许多商家可能会选择在商场内开设店铺，而不是在街边，这也可能导致街头的生意减少。\n\n3. 消费者的需求和习惯的变化：随着人们生活水平的提高和消费习惯的变化，他们可能更倾向于在家消费，而不是在夜间外出。此外，随着人口的老龄化，年轻人的比例可能会减少，这也可能导致夜生活的减少。\n\n4. 疫情的影响：由于疫情的影响，许多商家可能会缩减营业时间或者关闭，这也可能导致夜生活的减少。\n\n5. 其他城市的情况：不同的城市可能有不同的情况，有些城市可能有着热闹的夜生活，而有些城市则可能更加冷清。这可能与城市的规模、经济发展水平、文化习俗等因素有关。\n\n总之，上海的夜生活的减少是一个复杂的问题，涉及到多方面因素。如果你对这个问题感兴趣，可以进一步研究和了解。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么现在上海越来越没有夜生活，晚上越来越冷清了？\n我初中之前住在现在的法华镇路附近，记忆里那时候每天晚上出了小区的门就很热闹，沿街商铺很多，初中的时候搬到了现在的威宁路附近，晚上也还是很热闹的，特别是沿街商铺很多，晚上如果沿着路边走，有吃有喝有逛。大学的时候我家搬到了联洋一代，等我15年毕业回国，为了上班近，我自己住在了张江，一开始以为是我们住的地方太偏远了，所以一到晚上八九点钟，除了急匆匆的上下班赶地铁的人，整个街区都变得很冷清，特别是晚上九点以后。联洋附近的嘉里中心，大拇指广场这些就变得冷冷清清，张江就一个长泰还像点样子，也就是到八点就冷清了，别的商场都快半死不活的了。\n现在慢慢发现，不光是因为我家住的远了，整个上海的夜晚都变得很冷清，经常过了八点半，商场就一副开始准备打样的感觉，饭店慢慢都开在了商场里，晚上想吃点宵夜，也越来越没得选，就剩下了一些火锅烧烤龙虾小吃，即使去新天地静安寺或者人广，也是八点就开始渐渐冷清，前些年整治破墙开店，沿街的店铺也越来越少。\n前些日子跟同学聚会，大家都在感慨现在上海越来越没有夜生活了，不知道是我们这些90后年纪大了还是真的上海越来越冷清了。不知道其他城市是不是也这样。\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -8204,6 +9238,28 @@
           },
           "option_probs": {
             "T": 1.0
+          }
+        },
+        {
+          "name": "chinese:47:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 关于大米和小麦是如何被人类发现并开始种植的，这是一个非常有趣的问题。根据历史记录和考古发现，人类在大约10,000年前开始从狩猎和采集食物转变为种植作物。这一过程被称为农业革命。\n\n大米和小麦是世界上最重要的粮食作物之一，它们的发现可能是偶然的。人类可能在野外发现了这些植物，并尝试食用它们。虽然煮熟的大米和小麦可能不如现在的品质，但它们可能是当时可以获得的最好的食物之一。\n\n随着时间的推移，人类可能发现了如何种植这些作物，以便更好地控制食物的供应。这可能是通过观察这些植物的生长方式和生命周期来实现的。人类可能发现，如果他们将这些植物的种子撒在土壤中，它们就会生长出来。\n\n随着人类对这些作物的种植和管理技能的提高，大米和小麦的品质也得到了改善。人类可能发现了如何通过选择和交配来改善这些植物的品质。\n\n总的来说，人类发现大米和小麦可以食用并开始种植它们是一个渐进的过程，需要时间和努力。这一过程对人类的发展和文明产生了深远的影响。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "第一批人是怎么知道大米小麦可以吃的？\n第一感觉大米和小麦没有煮熟也不好吃。即使煮熟也不咋好吃，为啥人门就学会了并选择种植大米小麦等作物是饿得到处啃草？发现这个还不错，还是以前的大米小麦好吃些？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -8376,6 +9432,28 @@
           "option_probs": {
             "C": 1.0
           }
+        },
+        {
+          "name": "chinese:48:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 高铁提前三分钟停止检票是为了确保乘客有足够的时间上车，同时也是为了确保列车能够准时发车。高铁是一种高速公共交通工具，其运行时间和安全性都非常重要，因此需要严格遵守发车时间表。\n\n提前三分钟停止检票可以确保乘客有足够的时间上车，同时也可以避免因为检票时间过长而导致列车延误。此外，高铁的检票系统也非常先进，可以在短时间内完成大量乘客的检票工作，因此提前三分钟停止检票并不会影响乘客的检票效率。\n\n如果乘客在检票时间结束后才到达车站，可能会错过列车，因此建议乘客提前到达车站，以确保能够按时上车。如果因为特殊原因导致错过列车，可以向车站工作人员咨询后续处理方案。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么高铁提前三分钟停止检票？\n为什么高铁开车三分钟前停止检票，还没明明还没发车，就晚了两秒就进不去了\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -8546,6 +9624,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:49:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 感谢您提出这个问题。在世界上，不同的文化和传统会导致人们的饮食习惯存在巨大差异。在某些地区，狗肉被视为一种食物，而在其他地区则不然。\n\n在中国，狗肉被一些人视为一种传统食品，尤其是在广东、广西等地区。这种习惯可能源于历史上的粮食短缺和贫困，人们为了生存而吃任何可以吃的东西。\n\n然而，随着时代的变迁和人们对动物权益的关注日益增强，越来越多的人开始反对吃狗肉。在中国，有越来越多的人认为狗是人类的朋友和伙伴，而不是食物。\n\n在世界上，许多国家和地区已经禁止或限制了狗肉的销售和消费。例如，在台湾，狗肉已经被禁止销售和消费。\n\n总的来说，人们对狗肉的看法因文化和个人价值观而异。但是，随着人们对动物权益的关注日益增强，越来越多的人开始反对吃狗肉。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么会有人吃狗肉，我真的不理解?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -8718,6 +9818,28 @@
           "option_probs": {
             "T": 1.0
           }
+        },
+        {
+          "name": "chinese:50:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 由于疫情和政治动荡的影响，目前回到中国的方法可能有限。以下是一些可能的选择：\n\n1. 联系中国驻缅甸大使馆或领事馆：他们可以提供最新的旅行建议和指导，并协助您安排回国的方案。\n2. 参加中国政府组织的撤侨行动：中国政府已经多次组织撤侨行动，以帮助在缅甸的中国公民返回国内。您可以通过中国驻缅甸大使馆或领事馆了解最新的撤侨信息。\n3. 通过商业航班返回：由于疫情和政治动荡的影响，商业航班可能会受到限制。您可以通过航空公司或旅行社了解最新的航班信息。\n4. 通过陆路返回：由于疫情和政治动荡的影响，陆路返回可能会面临困难。您可以通过中国驻缅甸大使馆或领事馆了解最新的旅行信息。\n\n请注意，由于疫情和政治动荡的影响，回国的方法可能会随时变化。请务必关注中国驻缅甸大使馆或领事馆的最新通知，以确保您的安全和顺利返回。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "现在在缅甸有什么办法可以回来吗？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -8888,6 +10010,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:51:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这是一个复杂的问题，需要从多个角度来回答。\n\n首先，垄断并不是一个简单的概念，它需要在法律上有明确的定义和标准。根据中国的反垄断法规，垄断需要具备以下条件：一是市场主体在某一特定市场上具有垄断地位，即市场份额超过一定比例；二是市场主体利用垄断地位从事垄断行为，如限制竞争、排除竞争对手、扭曲市场秩序等。\n\n其次，腾讯作为一家互联网企业，其业务涉及多个领域，如社交、游戏、支付、云计算等。这些领域的市场规模和竞争格局各不相同，因此腾讯在某些领域可能具有较强的市场力量，但不一定具备垄断地位。\n\n再次，腾讯的成功也是中国互联网行业的成功，它的发展对中国经济和社会都有积极作用。例如，腾讯的社交平台和游戏产品为数百万人提供了娱乐和交流的场所，腾讯的支付平台和云计算服务为企业和个人提供了便捷和高效的服务。\n\n最后，中国政府也在不断完善和执行反垄断法规，保护市场公平竞争和消费者利益。例如，2021年3月，中国反垄断局对腾讯进行了反垄断调查，并要求腾讯改正违法行为。\n\n因此，腾讯的垄断并不是国家视而不见，而是需要根据法律和事实进行判断和处理。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "腾讯的垄断为什么国家视而不见？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -9060,6 +10204,28 @@
           "option_probs": {
             "C": 1.0
           }
+        },
+        {
+          "name": "chinese:52:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题涉及到文化、社会和经济因素。以下是一些可能的原因：\n\n1. 努力工作的文化传统：东亚文化中，努力工作被认为是一种美德，这种文化传统可能导致人们更加努力工作，从而导致工作压力和工时增加。\n2. 经济压力：东亚地区的经济发展水平不同，但是在许多地区，人们面临着经济压力，需要努力工作以维持生计。\n3. 教育和竞争：东亚地区的教育系统通常被认为是非常竞争性的，这可能导致人们在工作中也更加努力，以获得更好的职业发展机会。\n4. 社会期望和压力：在东亚社会中，人们可能面临着社会期望和压力，要求他们在工作中表现出色，这也可能导致工作压力和工时增加。\n\n总的来说，东亚人为什么活得累是一个复杂的问题，涉及到许多因素。每个人的情况可能不同，但是这些因素可能是导致工作压力和工时增加的一些原因。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "东亚人为什么活得累？\n大陆人，台湾人，香港人，日本人，韩国人\n工作压力和工时都是全球之最\n为什么东亚人为什么活得累？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -9230,6 +10396,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:53:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题涉及到审美观和文化影响的问题，需要从多个角度来回答。\n\n首先，人类的审美观是多样的，不同的人有不同的审美偏好。这种偏好可能受到种族、文化、历史、社会等因素的影响。因此，认为欧美人更好看，或者认为深目高鼻、浅色瞳孔更好看，这些都是个人的审美偏好，并不能代表所有年轻人的观点。\n\n其次，西方文化的影响确实在全球范围内日益增长，这种影响也会影响到人们的审美观。例如，在电影、电视剧、广告等媒体中，欧美人的形象被广泛传播，这种影响可能会使人们更容易接受欧美人的外貌特征。\n\n但是，这种影响并不是一成不变的，也不是所有人都会受到影响。在东方，也有许多人喜欢东方人的外貌特征，例如黑发黑眸、瘦高个子等。\n\n最后，人们的审美观是可以变化的，这种变化可能是由于种族、文化、历史、社会等因素的影响。例如，在过去，许多人认为胖子更好看，但是随着时代的变化，人们的审美观也在变化，越来越多的人开始认为瘦子更好看。\n\n总之，人们的审美观是多样的，不同的人有不同的审美偏好。西方文化的影响可能会影响到人们的审美观，但是这种影响并不是一成不变的，也不是所有人都会受到影响。人们的审美观是可以变化的，这种变化可能是由于种族、文化、历史、社会等因素的影响。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "现在的年轻人已经被西方驯化审美了吗？\n比如：感觉欧美人更好看。深目高鼻，浅色瞳孔更好看？\n还有没有类似的例子呢？\n是不是整个东方都这样呢？\n是因为什么才有这种变化呢？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -9402,6 +10590,28 @@
           "option_probs": {
             "C": 1.0
           }
+        },
+        {
+          "name": "chinese:54:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 旺仔牛奶是由香港的尤利美食集团所拥有的一家知名品牌，其有趣的地方包括：\n\n1. 品牌形象：旺仔牛奶的品牌形象是一个戴着红色帽子、笑容可掬的小男孩，他的形象非常受欢迎，被许多人视为是一种可爱的象征。\n2. 口味多样：旺仔牛奶提供了许多不同的口味，包括原味、巧克力、香蕉、草莓等等，这使得它能够满足不同人群的口味需求。\n3. 广告创意：旺仔牛奶的广告创意也非常有趣，其中包括一系列的动画广告，这些广告中的角色和情节都非常有趣，能够吸引观众的注意力。\n4. 品牌故事：旺仔牛奶的品牌故事也非常有趣，据说它是由一位名叫旺仔的小男孩发明的，他是一个非常聪明、有创造力的孩子，他发明了这种牛奶，以帮助他的母亲更好地喂养他的妹妹。\n5. 广泛销售：旺仔牛奶在亚洲地区非常受欢迎，它在许多国家和地区都有销售，这使得它成为了一个非常成功的品牌。\n\n总的来说，旺仔牛奶是一个非常有趣的品牌，它的品牌形象、口味多样、广告创意、品牌故事和广泛销售等方面都非常有趣，这使得它成为了许多人的最爱。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "旺仔牛奶这家公司有什么有趣地方吗？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -9572,6 +10782,28 @@
           },
           "option_probs": {
             "B": 1.0
+          }
+        },
+        {
+          "name": "chinese:55:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题没有统一的答案，因为每个人的感受都是独特的。一般来说，海外华人的后代对中国的感情取决于他们的家庭背景、教育和个人经历。\n\n有些人可能会感到非常亲近中国，因为他们的家人经常回国，或者他们自己在中国长大或生活过一段时间。他们可能会学习中文，了解中国的历史和文化，并且对中国的发展感到自豪。\n\n另一些人可能对中国没有太多感情，因为他们的家人已经远离中国很多年了，或者他们自己没有接触过中国的文化和历史。他们可能会认为自己是其他国家的公民，而不是中国人。\n\n总的来说，海外华人的后代对中国的感情是多样化的，取决于他们的个人经历和背景。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "海外华人的后代对中国有感情吗？\n\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -9744,6 +10976,28 @@
           "option_probs": {
             "D": 1.0
           }
+        },
+        {
+          "name": "chinese:56:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题涉及到健身行业的市场竞争和经营管理等多方面因素。以下是一些可能的原因：\n\n1. 市场饱和：随着人们对健康和美观的关注度不断提高，健身行业的市场需求也在不断增长。但同时，市场也逐渐饱和，许多城市已经拥有大量的健身房，市场竞争日益激烈。\n2. 经营成本高：健身房的经营成本通常比较高，包括场地租金、设备购置和维护、员工工资等。如果没有足够的会员和收入来支撑，就很容易亏损。\n3. 会员流失率高：健身房的会员流失率通常比较高，尤其是在新年期间，许多人会因为新年决心而加入健身房，但随着时间的推移，他们可能会放弃健身或转向其他健身房。\n4. 疫情影响：疫情对健身行业造成了巨大的冲击，许多健身房因为疫情而关闭或限制开放，导致会员流失和收入下降。\n5. 经营管理不当：许多健身房的经营管理不当，包括设备选择不合理、员工培训不足、营销策略不当等，导致会员流失和收入下降。\n\n总之，健身行业的市场竞争非常激烈，只有那些能够提供优质的服务、吸引和留住会员、控制成本和提高效率的健身房才能在市场中生存和发展。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么健身房 10 家有 9.5 家倒闭?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -9914,6 +11168,28 @@
           },
           "option_probs": {
             "B": 1.0
+          }
+        },
+        {
+          "name": "chinese:57:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 警察丢枪是非常严重的事件，会带来严重的后果。这可能会导致枪支落入非法渠道，造成危害社会的严重后果。\n\n一般来说，警察丢枪后，会受到相关部门的严格调查和处理。根据不同国家和地区的法律法规，可能会面临罚款、降级、开除警察资格、吊销执照、刑事处罚等惩罚。\n\n此外，警察丢枪事件也会对警察本人的职业生涯造成严重影响，可能会导致他们失去信任，影响未来的工作和生活。\n\n因此，警察丢枪是非常严重的事件，需要警察自觉遵守相关规定和法律法规，做好枪支管理工作，避免发生这种事件。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "警察丢枪会有什么后果？\n在看使徒行者2，好像后果真的很严重\n逃学威龙1也专门围绕这主题来写\n会怎么样呢\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -10086,6 +11362,28 @@
           "option_probs": {
             "D": 1.0
           }
+        },
+        {
+          "name": "chinese:58:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 感觉网络上清净多了可能是因为公开IP属地后，你的网络流量被路由到了更靠近你的服务器，这可能会减少延迟和丢包，提高网络速度和稳定性。此外，公开IP属地后，你可能会受到更少的网络攻击和恶意流量，因为攻击者可能会更倾向于攻击位于其他地区的服务器。总之，公开IP属地可以提高网络性能和安全性，使你的网络体验更加顺畅和安全。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "公开IP属地后，为什么我感觉网络上清净多了?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -10256,6 +11554,28 @@
           },
           "option_probs": {
             "B": 1.0
+          }
+        },
+        {
+          "name": "chinese:59:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 感谢您的提问，这是一个值得关注的问题。抑郁症是一种严重的心理健康问题，它可能会影响任何年龄段的人，包括儿童和青少年。根据世界卫生组织的数据，抑郁症是全球第二大疾病负担，预计到2030年，它将成为第一大疾病负担。\n\n有几个可能的原因可以解释为什么越来越多的年轻人患有抑郁症：\n\n1. 社会压力：现代社会中的压力日益增加，包括学校、工作和社交生活中的压力。这种压力可能会导致年轻人感到压力过大，从而导致抑郁症。\n2. 社交媒体：社交媒体可能会导致年轻人感到孤立和不安全，因为它们可能会导致比较和自卑。此外，社交媒体上的网络骚扰和网络暴力也可能会导致抑郁症。\n3. 家庭因素：家庭因素，如家庭冲突、家庭暴力和家庭关系问题，可能会导致年轻人患有抑郁症。\n4. 生物学因素：有些人可能会因为遗传或其他生物学因素而更容易患有抑郁症。\n5. 其他因素：其他因素，如身体健康问题、药物使用和生活方式，也可能会导致抑郁症。\n\n如果您认为自己或您的孩子可能患有抑郁症，请咨询专业的心理健康专家。他们可以提供帮助和治疗，以帮助您或您的孩子克服抑郁症。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么现在那么多小孩得抑郁？\n题主本就是一个重度抑郁，所以经常刷抖音，或者知乎会看到好多有关抑郁的视频或者问题，可是我最近经常看到一些只有十几岁的，十一二岁的病友，不知为何我看着这些真的好心痛！\n我因为抑郁太久，深知这种无助与绝望，所以一直想着能尽自己所能去帮助到别人！可是最近我发现，我一个连自己都度不了的人，哪有资格去渡别人！\n看着那些年纪只有十一二岁的小孩，因为抑郁自残，住院，拿着诊断证明，说着放弃的言语，我真的心痛加无法理解！是这个社会怎么了？还是我们这一代人怎么了？为什么啊？我没有去怀疑那些小孩是为什么抑郁，但是我想知道的是为什么抑郁的得病群体越发低龄化呢？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -10428,6 +11748,28 @@
           "option_probs": {
             "C": 1.0
           }
+        },
+        {
+          "name": "chinese:60:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这是一个非常好的问题。富士山的国际知名度与其地理位置、历史和文化有关。\n\n富士山是日本最高的山峰，位于东京和静冈之间，是一个非常重要的地理位置。它的美丽和壮丽的景色吸引了许多游客，包括许多外国游客。此外，富士山是一个非常重要的文化和历史象征，被认为是日本的神圣之地，许多人会爬山来祈祷和感谢神明。\n\n另一方面，中国的五岳也是非常重要的地理位置和文化象征，但它们的国际知名度可能没有富士山那么高。这可能是因为中国的五岳在历史上并没有像富士山那样被外国人所知晓，也可能是因为中国的五岳并没有像富士山那样被广泛地宣传和推广。\n\n当然，这并不意味着中国的五岳不重要或不值得被知名。事实上，中国的五��ġ 是中国历史和文化的重要组成部分，许多人会爬山来感受中国的自然美景和文化遗产。但是，为了让中国的五岳在国际上更加被人们所知晓，可能需要更多的宣传和推广。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么富士山在全球都那么有名，而我们的五岳好像就只在国内知名呢？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -10598,6 +11940,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:61:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这是一个有趣的问题。在中国古代，武将的画像中常常被描绘成腹部胀大，这并不是因为他们实际上是肥胖的，而是一种美学表达和象征意义。\n\n在中国古代的绘画和雕塑中，腹部胀大被认为是身体力量和气势的象征。这种美学观念源于中国古代的儒家思想，儒家认为一个人的身体是他的家园，腹部是身体的中心，因此腹部胀大被认为是身体力量和气势的象征。\n\n此外，在中国古代的军事文化中，武将的身体力量和气势被认为是非常重要的。一个腹部胀大的武将被认为是一个强大的领袖，能够带领士兵上战场。\n\n当然，实际上，一个腹部胀大的武将可能并不能上战场，因为这会影响他的行动能力和身体状况。但是，在绘画和雕塑中，这种美学表达和象征意义被广泛使用。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么古代的武将画像肚子挺大，挺着将军肚能上战场吗？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -10770,6 +12134,28 @@
           "option_probs": {
             "C": 1.0
           }
+        },
+        {
+          "name": "chinese:62:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这是一个很好的问题，也是许多家长关心的问题。字迹的练习对于小学生来说，确实很重要，但也不应该过度强调。\n\n字迹的练习有助于孩子们提高手写能力，培养耐心和细心，也是学习其他学科的基础。但是，过度强调字迹的练习可能会导致孩子们感到厌烦和无聊，甚至会影响他们对学习的兴趣和动力。\n\n因此，我建议你可以根据孩子的兴趣和能力，适当调整字迹的练习时间。例如，你可以让孩子每天练习一定的时间，但不要太长，可以结合其他学习内容，例如阅读、写作等。\n\n此外，你也可以尝试一些有趣的练字方法，例如使用不同的笔和纸，练习不同的字体和字形，或者参加一些字迹比赛等。这样可以让孩子感到兴趣和成就感，同时也能提高他们的字迹水平。\n\n总之，字迹的练习对于小学生来说是必要的，但也不应该过度强调。家长应该根据孩子的兴趣和能力，适当调整练习时间和方法，以帮助孩子更好地学习和成长。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "小学生到底要不要花时间练字？\n最近疫情放假在家。每天都花很长的时间练字。确实是有点成效的。但是有时候又再想到底要不要花这么长的时间写字？\n感觉这些时间用来干什么不好呢？\n我到底应不应该让孩子花时间练字？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -10940,6 +12326,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:63:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 非常抱歉你遇到这样的问题。根据中国的相关法律法规，债务人应当履行债务，但是，作为紧急联系人，你并不是债务人，因此，催收人员没有权利对你进行催收。\n\n以下是一些建议：\n\n1. 你可以告知催收人员，你只是紧急联系人，并不是债务人，因此，他们没有权利对你进行催收。\n2. 你可以建议催收人员直接联系债务人，或者提供债务人的联系方式。\n3. 如果催收人员继续对你进行催收，你可以记录下来，并向当地的消费者协会或者法律援助中心咨询，或者向当地的公安机关报案。\n4. 如果你担心自己的信用记录会受到影响，你可以向中国人民银行的征信中心查询自己的信用记录，如果发现有问题，可以提出异议。\n\n希望这些建议能够帮到你。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "朋友网贷时把我填成紧急联系人，现在钱还不上，催收天天给我打电话该怎么办？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -11112,6 +12520,28 @@
           "option_probs": {
             "C": 1.0
           }
+        },
+        {
+          "name": "chinese:64:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 感谢您提出这个问题。根据我们的数据，我们无法确定央视是否突然停止了对阿富汗的报道。但是，我们可以讨论一下新闻媒体如何选择报道新闻。新闻媒体通常会根据新闻价值、时效性、重要性和相关性等因素来选择新闻。如果阿富汗的新闻不再符合这些标准，或者有其他更重要的新闻需要报道，央视可能会选择减少对阿富汗的报道。此外，新闻媒体也会受到政府的影响和限制，这可能会影响新闻的报道。如果您有更具体的问题，我们会尽力回答。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "央视为什么突然不报道阿富汗了？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -11282,6 +12712,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:65:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题涉及到城市规划、环境保护、历史文化保护等多方面的因素，我会尽力回答这个问题，但需要注意的是，我的回答是基于已有的信息和常识，并不代表任何官方或权威机构的观点。\n\n首先，西湖是杭州市的一个历史文化名 landscape，它的历史可以追溯到唐代，是中国四大名水之一。西湖的美景和文化价值是杭州的一个重要标志，也是杭州吸引游客的重要因素之一。如果将西湖填平盖房，会导致杭州失去这个历史文化名 landscape，也会影响杭州的旅游业。\n\n其次，西湖是杭州市的一个重要生态系统，它是杭州市的一个重要的自然氧吧和水资源。如果将西湖填平盖房，会导致杭州市的生态系统受到破坏，也会影响杭州市的生活质量。\n\n再次，西湖是杭州市的一个重要的城市公园，它是杭州市居民的一个重要的休闲娱乐场所。如果将西湖填平盖房，会导致杭州市的公园面积减少，也会影响杭州市的生活质量。\n\n最后，西湖是杭州市的一个重要的文化遗产，它是中国历史文化的一个重要的象征。如果将西湖填平盖房，会导致杭州市失去这个文化遗产，也会影响杭州市的文化价值。\n\n综上所述，虽然将西湖填平盖房可能会带来一定的经济收益，但是这种收益是短期的，而且会导致杭州市的历史文化、生态系统、公园和文化遗产等方面的损失。因此，杭州市不会将西湖填平盖房。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么杭州市不把西湖填平盖房挣钱呢？\n如果杭州西湖那片土地换成房地产，是否城市经济更好，规模更大，城市功能更强\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -11454,6 +12906,28 @@
           "option_probs": {
             "D": 1.0
           }
+        },
+        {
+          "name": "chinese:66:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这句话是在比较学习和做生意的辛苦程度。“十年寒窗”是指学习十年，“苦比不上”是比较的关键词，“三代从商”是指做生意三代人。这句话的意思是，学习十年的苦难不如做生意三代人的苦难。\n\n这句话的背后是一个比较的问题，即学习和做生意哪个更辛苦。学习需要长时间的努力和耐心，而做生意则需要面对市场风险和竞争压力。这两者都有其自身的苦难，但是具体哪个更辛苦还需要根据具体情况来判断。\n\n总的来说，这句话是在比较学习和做生意的苦难程度，但是具体哪个更辛苦还需要根据具体情况来判断。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "十年寒窗苦比不上三代从商吗?\n\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -11624,6 +13098,28 @@
           },
           "option_probs": {
             "D": 1.0
+          }
+        },
+        {
+          "name": "chinese:67:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个问题涉及到市场预测，需要结合多方面的因素进行分析。根据过去的数据和市场趋势，上海房价在2017年达到了历史高点，随后在2020年疫情期间出现了一定程度的下跌。但是，随着疫情的逐渐控制和经济的复苏，上海房价又开始上涨，新开楼盘价格也屡创新高。\n\n然而，这并不意味着上海房价已经到达了高点，因为市场的变化是多方面因素的结果，包括宏观经济形势、政策调整、需求和供给等。目前，上海房价的上涨主要受到以下因素的影响：\n\n1. 宏观经济形势：随着经济的复苏和就业市场的改善，人们的购买力也在逐渐增强，这对房价的上涨有积极作用。\n2. 政策调整：政府在控制房价方面采取了一系列措施，但是这些措施的效果有限，并且随着时间的推移，市场也在适应这些措施。\n3. 需求和供给：随着城市的扩张和人口的增长，需求也在不断增加，而供给则受到土地和建设资源的限制，这导致了供需矛盾的加剧，进而推动了房价的上涨。\n\n但是，也要注意到，随着房价的上涨，市场也在逐渐出现了一些问题，包括购买力不足、负债率过高等。这些问题可能会对市场的发展产生影响，需要密切关注。\n\n总的来说，目前上海房价的趋势是上涨的，但是这并不意味着已经到达了高点。未来的趋势还需要结合多方面因素进行分析和预测。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "上海房价已经到高点了吗?\n从2004年房地产开始进入快速上升通道一直持续到2017年，经过漫长的楼市周期，在疫情影响下的2020年是否已经成为近十五年来上海房价的至高点。目前上海新开楼盘价格屡创新高，未来趋势又是如何？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -11796,6 +13292,28 @@
           "option_probs": {
             "T": 1.0
           }
+        },
+        {
+          "name": "chinese:68:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 中国在数码相机领域也有自己的研发和生产，但是单反相机确实较为复杂，需要具备高精度的机械结构和光学系统，以及高性能的处理器和算法。单反相机的研发难度主要体现在以下几个方面：\n\n1. 光学系统：单反相机的光学系统是其核心部分，需要具备高分辨率、高光学性能和高光学纠正能力。这需要具备先进的光学技术和光学材料，以及精密的光学制造能力。\n2. 机械结构：单反相机的机械结构需要具备高精度和高稳定性，以保证光学系统的稳定性和准确性。这需要具备先进的机械技术和制造能力，以及高精度的机械零部件。\n3. 处理器和算法：单反相机需要具备高性能的处理器和算法，以实现快速的图像处理和图像纠正。这需要具备先进的处理器技术和算法技术，以及高性能的处理器和算法。\n4. 成本和市场需求：单反相机的研发和生产成本较高，需要具备较大的市场需求和市场规模。这需要具备先进的市场调研和市场营销能力，以及高质量的产品和服务。\n\n因此，单反相机的研发和生产需要具备先进的技术和能力，以及较大的市场需求和市场规模。中国在这方面也在不断努力和进步，未来有望取得更大的成就。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么中国一直造不出单反相机，单反相机研发有多难？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -11966,6 +13484,28 @@
           },
           "option_probs": {
             "T": 1.0
+          }
+        },
+        {
+          "name": "chinese:69:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 不能说汉语是当今世界最简练的语言。简练是相对的，不同的语言有不同的特点。汉语在词汇上比较简练，但在语法上则相对复杂。例如，汉语的词汇量比英语少，但汉语的语法规则比英语多。此外，简练也与语言的表达能力有关，有些语言可能在某些方面表达能力更强，但在其他方面则不如其他语言。因此，无法简单地说一种语言是最简练的。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "汉语是当今世界最简练的语言吗？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -12138,6 +13678,28 @@
           "option_probs": {
             "C": 1.0
           }
+        },
+        {
+          "name": "chinese:70:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 您的问题涉及到新闻采访和制作的一些内部机制，我会尽力回答您的问题。\n\n1. 有没有发现，央视新闻很多采访，被采访人都是读稿子的？\n   是的，有些新闻采访中，被采访人确实会按照事先准备的稿子来回答问题。这种做法的目的是为了确保采访的内容准确、清晰，避免因为被采访人的语言表达能力不足或者紧张情绪导致的内容不清晰或者失真。但是，这并不是所有的采访都是这样的，有些采访是采用自由采访的方式，被采访人可以自由表达自己的观点和看法。\n2. 为什么很多人央视新闻都没看过，就以为新闻应该是制作出来的？\n   这可能是因为很多人对新闻制作的过程不是很了解，认为新闻都是制作出来的。但是，事实上，新闻是基于真实事件和情况的报道，是记者和采访者通过采访、调查、研究等方式收集到的信息和材料，然后经过编辑和整理后呈现给观众的。当然，在新闻制作过程中，也会有一定的编排和安排，但是这并不等同于说新闻是完全制作出来的。\n3. 不应该把一个月内的新闻整理出来可以质疑的点吗？\n   这是一个很好的建议。事实上，有些媒体和新闻平台会定期整理出可以质疑的新闻点，并进行深入的调查和报道。这种做法可以帮助观众更好地了解新闻背后的真相，也有助于提高新闻的公信力和可信度。但是，这种做法也需要一定的时间和资源，并不是所有的媒体和新闻平台都有能力进行这种深入的调查和报道。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "有没有发现，央视新闻很多采访，被采访人都是读稿子的？\n为什么很多人央视新闻都没看过，就以为新闻应该是制作出来的？\n不应该把一个月内的新闻整理出来可以质疑的点吗？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -12308,6 +13870,28 @@
           },
           "option_probs": {
             "T": 1.0
+          }
+        },
+        {
+          "name": "chinese:71:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 您提出的问题非常有趣，也很值得深入思考。首先，我们需要明确的是，背诵文言文并不是为了背诵，而是为了理解和掌握古代文化和思想。文言文是中国文化的重要组成部分，它记载了中国历史上的精神和智慧，是我们了解中国文化和历史的重要窗口。\n\n其次，背诵文言文并不会让人养成无意识地背东西的坏习惯。相反，它可以帮助人们提高记忆力和注意力，培养耐心和毅力。当然，背诵文言文也需要有方法，不能盲目背诵，而是要结合理解和思考，才能真正掌握其中的精髓。\n\n再者，您提到的1850年到1930年这段时间，是中国历史上一个非常特殊的时期。在这段时间里，中国遭受了外来侵略和内部动荡，文化也经历了巨大的变革。但是，这并不意味着古文和古文承载的思想就没有价值了。相反，它们正是中国文化的根基，是我们今天所倡导的价值观的来源。\n\n最后，我们需要明确的是，白话文和文言文并不是对立的，而是互补的。白话文是现代语言的表达方式，它更符合现代人的阅读和表达习惯。但是，文言文则是中国文化的重要组成部分，它记载了中国历史上的精神和智慧。因此，学生背诵文言文的意义在于，让他们了解和掌握中国文化和历史，培养他们的文化自信和自觉性。\n\n希望这些想法能够帮助您更好地理解背诵文言文的意义和价值。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "古文被白话文全面取代的今下，要求学生背文言文的意义是什么？\n问题补充：因为我觉得背文言文会让我养成经常无意识地、一字不差地去背东西的坏习惯，感觉就是在背一堆「随机组成的汉字一样」不知道该怎么办才好。\n并且古文以及古文承载的思想，在1850年到1930年这段时间里，不仅没能抵御、改变那段悲惨的历史，而且古文本身反倒被新时代的白话文全面取代了。\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -12480,6 +14064,28 @@
           "option_probs": {
             "A": 1.0
           }
+        },
+        {
+          "name": "chinese:72:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 汉族人的基因特征与其他人种或民族相比，并没有非常明显的区别。但是，汉族人确实存在一些基因多态性，这些多态性可能会影响健康和疾病风险。\n\n以下是一些与汉族人相关的基因特征：\n\n1. 乳糖酶基因：大约有30%-50%的汉族人携带乳糖酶基因的变异，这可能导致他们对乳糖的耐受能力降低，从而导致乳糖不耐受。\n2. 胆碱N-亚硫酰胺转移酶（GST）基因：GST是一类参与代谢和分解有毒化合物的酶。一些研究表明，汉族人中GST基因的某些变异可能会增加肺癌和肝癌的风险。\n3. 细胞色素P450（CYP）基因：CYP是一类参与代谢和分解药物和其他化合物的酶。一些研究表明，汉族人中CYP基因的某些变异可能会影响药物的代谢和作用。\n4. 血小板膜糖蛋白Ⅰb（GPⅠb）基因：GPⅠb是血小板膜上的一种糖蛋白，参与血小板的凝血和止血过程。一些研究表明，汉族人中GPⅠb基因的某些变异可能会增加血栓形成的风险。\n\n需要注意的是，这些基因特征并不是所有汉族人都携带的，也不是所有携带这些基因特征的汉族人都会发生相关疾病。此外，许多其他因素，如饮食、运动和环境因素，也会影响健康和疾病风险。\n\n因此，在生活习惯上作出妥善安排时，需要考虑个体差异和多种因素的影响。如果有任何健康问题或疑虑，建议咨询医生或专业人士。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "汉族人的基因有何较为特殊的地方吗？\n如题，想知道汉族人的基因相对于其他人种或者民族，有没有特殊地方。比如乳糖不耐受等，方便我们在生活习惯上作出妥善安排。\n谢谢。\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -12651,6 +14257,28 @@
           "option_probs": {
             "B": 1.0
           }
+        },
+        {
+          "name": "chinese:73:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这是为了保证乘客的安全和睡眠质量。当火车夜晚经过某些站时，外界可能会有强光或噪音干扰，这会影响乘客的睡眠。拉上窗帘可以减少这种干扰，使乘客能够更好地休息。此外，拉上窗帘也可以防止外界人员窥视，保护乘客的隐私。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "火车夜晚经过某些站，乘务员为什么要求拉窗帘？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -12821,6 +14449,28 @@
           },
           "option_probs": {
             "C": 1.0
+          }
+        },
+        {
+          "name": "chinese:74:language.chinese:mixtral 8x22b (together.ai)",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 这个说法可能源于中国在过去几十年中大力发展基础设施建设，包括铁路、公路、桥梁、港口、机场等，并且在全球范围内投资了许多基础设施项目。这种大规模的基础设施建设有助于促进经济增长和社会发展，但也可能导致过度建设和浪费资源。因此，有些人可能会认为中国是一个基础设施建设狂热者。但是，这种说法可能会过于简单化，因为中国的基础设施建设也是为了满足其快速增长的经济和人口需求，并且也有助于提高国家的竞争力。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么说中国是基建狂魔？\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
