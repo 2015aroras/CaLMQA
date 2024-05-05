@@ -201,12 +201,6 @@ def main() -> None:
         help="Filters the type of questions for which the model is prompted",
     )
     parser.add_argument(
-        "--max_tokens",
-        type=int,
-        default=2048,
-        help="Max tokens in output.",
-    )
-    parser.add_argument(
         "--max_questions",
         type=int,
         default=None,
@@ -235,6 +229,19 @@ def main() -> None:
         help="Path of file to save the dataset to. Defaults to the load path",
     )
 
+    parser.add_argument(
+        "--max_tokens",
+        type=int,
+        default=2048,
+        help="Max tokens in output.",
+    )
+    parser.add_argument(
+        "--temperature",
+        type=float,
+        default=None,
+        help="Max tokens in output.",
+    )
+
     args = parser.parse_args()
 
     question_type = QuestionType.NONE
@@ -254,6 +261,7 @@ def main() -> None:
         translate_questions=args.type == "questions",
         translate_answers=args.type == "answers",
         overwrite_existing=args.overwrite,
+        temperature=args.temperature,
     )
 
 
