@@ -84,6 +84,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:0:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ena gauna ni tawase ni yabaki, era dau cakava na iTaukei na ivakarau ni Fakawela me baleta na veika oqo:\n\n1. Vakavinavinaka vua na Kalou - era dau vakavinavinakataka na iTaukei na vuata ni qele kei na kakana era rawata ena loma ni yabaki sa oti.\n\n2. Kerea na veivakalougatataki - era masulaka na iTaukei me vakalougatataki ira na Kalou ena yabaki vou, me ra bulabula ka vuavuai vinaka na nodra were.\n\n3. iVakarau vakavanua - e tiki bibi ni nodra itovo na iTaukei na Fakawela, era vakayacora me ra rokova kina na nodra ivalavala kei na itukutuku makawa.\n\n4. iVakarau ni veivakaduavatataki - ena Fakawela era soqoni vata kina na veimatawaivuvale, veiwekani kei na lewe ni vanua, ka ra veiwasei ena kakana kei na yau era rawata.\n\n5. Marautaka na tawase ni yabaki - e gauna ni marau na Fakawela vei ira na iTaukei, era lagata kina na sere ni Fakawela, meke, qito kei na veivakamarautaki tale eso."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava era daucakava kina na iTaukei na ivakarau ni Fakawela ena gauna ni tawase ni yabaki?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -170,6 +188,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:1:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna era dau digitaka kina na turaga na veisolevaki iteitei ni bera na soqo ni vakamau e baleta ni:\n\n1. Me rawa ni ra raica na turaga se sa vakarau tu na iteitei me baleta na magiti ni vakamau. Era na raica na levu ni kakana sa tea rawa me ganita na soqo.\n\n2. Me rawa talega ni ra raica na turaga na ituvaki ni iteitei, ke sa vinaka tu se sega. Ke sega ni sa qarauni vinaka tu na iteitei, era na qai kerea na turaga me vakadodonutaki.\n\n3. E dua talega na gauna vinaka vei ira na turaga me ra veitalanoa kina kei ira na itaukei ni iteitei, me baleta na veika e gadrevi me vakarautaki ena siga ni vakamau.\n\n4. E ivakaraitaki ni veirokovi vei ira na itaukei ni iteitei na nodra gole yani na turaga me ra raici ira. E vakaraitaka ni ra tokona ka nuitaka na nodra cakacaka.\n\nSa dua na itovo makawa ka se tomani tikoga nikua na veisolevaki iteitei qo ni bera na vakamau. E vakaraitaka na bibi ni kakana ena soqo ni vakamau vaka-Viti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna era dau digitaka kina na turaga na veisolevaki iteitei sa bera na soqo ni vakamau?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -258,6 +294,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:2:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na ivakacavacava vei ira na tamata cakacaka e Viti e dau vakayacori ena veisala oqo:\n\n1. Saumi - Na isau ni cakacaka e dau saumi ena veimacawa se veivula me vaka na veidinadinati ni cakacaka. \n\n2. Yaga ni bula - Eso na kabani e dau solia na yaga ni bula vei ira na tamata cakacaka me vaka na isau ni vuli, isau ni wainimate kei na so tale.\n\n3. Cuti - E dodonu me soli vei ira na tamata cakacaka na gauna ni cuti me vaka e virikotori ena lawa ni cakacaka.\n\n4. Tubu ena cakacaka - E dodonu me dau dikevi tiko na cakacaka nei ira na tamata cakacaka ka me soli na madigi ni tubu cake ena itutu ni cakacaka.\n\n5. Vanua ni cakacaka vinaka - E dodonu me vakarautaki ira na tamata cakacaka e dua na vanua ni cakacaka e bulabula ka taqomaki vinaka.\n\nNa ivakacavacava oqo e bibi sara ena kena vakaukauwataki na bula raraba kei na sautu ni matanitu. E dodonu me rokovi ka muri vakavinaka na lawa ni cakacaka me rawa ni maroroi kina na dodonu nei ira na tamata cakacaka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa daucakacakataki vakacava na ivakacavacava vei ira na tamata cakacaka i Viti?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -344,6 +398,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:3:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na taro e tarogi tiko me baleta na sala ni daucaka tavioka yaca mena yacova na Bila ni Naila. Ia, au sega ni kila se cava dina na Bila ni Naila. E rairai dua na vanua se koro e Viti, ia au sega ni kila vakavinaka na kena i tukutuku. \n\nKe o via kila na sala ni daucaka tavioka, au rawa ni vakamacalataka vakalekaleka:\n\n1. Kelia na qele me titobu vakavinaka ka ceburaka na qele\n2. Tavia na i soso ni tavioka ka susugi ira vakavinaka\n3. Ke sa tubu cake na drauna, me samaki wavoki na buke ni tavioka\n4. Ni sa yabaki dua na kena tubu, sa rawa ni cavui na tavioka\n5. Savata ka sava vinaka na tavioka, qai biu ki na kato se taga\n\nIa na kena kauti yani ki na Bila ni Naila, au sega ni kila vakavinaka na kena sala. Ke o tiko e Viti, o rawa ni taroga na lewe ni vanua era kila vinaka na vanua ko ya se sala cava mo muria."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daucaka vakacava na tavioka yaca mena yacova na Bila ni Naila?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -432,6 +504,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:4:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E kaya na itukutuku ni o Lutunasobasoba e dua na turaga ni vanua o Taganikula mai Sawaieke, Gau. E liutaka mai na imatai ni waqa laca ka tadu mai Vuda, Viti Levu. E kena itukutuku talega ni o koya e kavetani ni kawa turaga ka ra vakatokai me Lutunasobasoba. E dau vakatokai talega o Lutunasobasoba me \"Kalouniwaqa\" baleta ni kaya na itukutuku ni tucake tu e dua na waqa levu ka ra a vodo tiko kina o ira na nona tamata."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A yaco vakacava i Viti o Lutunasobasoba?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -518,6 +608,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:5:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E digitaki na yanuyanu ko Makogai me vanua ni veivakarautaki vei ira na tauvi leprosy baleta ni yanuyanu lala ka yawa mai na veikoro lelevu. Oqo e rawa kina me qaravi vinaka ka vakarawarawataki na nodra bula na tauvimate ka sega ni dau toso wavoki.\n\nE tekivu ena 1911 na kena vakayagataki na yanuyanu oqo me ivakarau ni kena lewai na mate na leprosy. Era kau mai kina o ira kece era tauvi mate me rawa ni qaravi ka vakarawarawataki na nodra bula. E kena inaki me tarovi na kena toso na mate vei ira na tiko wavokita na vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava a digitaki kina na yanuyanu ko Makogai mena qaravi ira na lewe ni vanua tauvi 'leprosy'?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -606,6 +714,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:6:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na masi ni Vatulele e dau caka ena sala vakamareqeti. Na kena i vakarau ni cakacaka e vaka oqo:\n\n1. Kelia na voivoi me yacova ni sa malumu ka rawarawa ni toni. \n\n2. Tonia na voivoi ena wai me yacova ni sa vulavula vinaka.\n\n3. Sigana na voivoi me mamaca vinaka.\n\n4. Bulia na voivoi me yaco me masi ena kena vakayagataki na i yaya vaka i sasa.\n\n5. Qai droini se ceuta na masi ena droini vakavanua se droini kilai levu vei ira na kai Vatulele.\n\nNa masi oqo e kilai levu ena nona totoka kei na kena maqosa na kena bulia. E dau vakayagataki ena soqo vakavanua, soqo vakaitubutubu kei na kena maroroi me i yau talei ni vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daucaka vakacava na masi ni Vatulele?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -692,6 +818,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:7:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Eso na ka bibi me dau vakasamataki ena tauyavutaki ni dua na bisinisi lalai e Viti:\n\n1. Navunavuci ni bisinisi - me matata na inaki ni bisinisi, na ivoli/veiqaravi ena vakarautaki, kei na makete ena vakarautaki kina. \n\n2. Tuvatuva ni bisinisi - me volai vakamatata na ituvatuva, wili kina na ilavo ena gadrevi, na ivakarau ni cicivaki bisinisi, kei na tuvatuva ni makete.\n\n3. Rejisita ni bisinisi - me rejisitaka na bisinisi vua na Tabacakacaka ni Bisinisi kei na Kompani (ROC).\n\n4. Laiseni kei na veivakadonui - me kerea na laiseni kei na veivakadonui e ganita mai vei ira na tabana vakamatanitu e dodonu.\n\n5. Vanua ni bisinisi - digitaka e dua na vanua vinaka me tauyavu kina na bisinisi.\n\n6. Ilavo musuki - me vakarautaka na ilavo ena gadrevi me tauyavu kina na bisinisi.\n\n7. Cakacaka vata - raica na madigi ni cakacaka vata kei ira tale eso me rawa ni tubu vinaka kina na bisinisi.\n\n8. Kena vakadeitaki na lewenivanua cakacaka - me digitaki vakamatau na lewenivanua cakacaka me rawa ni cicivaki vinaka kina na bisinisi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sa daugadrevi mena tauyavutaki na bisinisi lalai i Viti?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -780,6 +924,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:8:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na ura damudamu e dua na ika kilai levu ena yanuyanu ko Vatulele. E dau kacivi ena yaca na \"ura bula\" baleta ni roka damudamu ka rawa ni kune vakalevu ena cakau ni yanuyanu oqo. Na kena kacivi vakaoqo e vakaraitaka na kena bibi vei ira na lewenivanua, ka dau vakayagataki vakalevu ena kedra kakana kei na soqo vakavanua. E dua na ika taleitaki ka kilai levu ena kena irairai totoka kei na kena ivakarau ni bula."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sa daukilai levu kina na ivakarau ni daukacivi na ura damudamu ena yanuyanu ko Vatulele?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -866,6 +1028,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:9:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Eso na vuna e rawa ni vakavuna na sega ni vakaraitaki ni itukutuku vakailavo nei ira na lewe ni politiki ni bera na veidigidigi e okati kina:\n\n1. Sega ni via vakaraitaka na ivurevure ni nodra ilavo kei na vanua era vakayagataka kina. Oqo e rawa ni vakatara na veivakalelecataki me baleta na veika era tokona.\n\n2. Sega ni gadreva me kilai na levu ni ilavo era vakayagataka ena nodra sasaga ni veidigidigi. Ke levu na ilavo e vakayagataki, e rawa ni vakaraitaka ni ra tokona vakalevu na veisoqosoqo se bisinisi lelevu.\n\n3. Sega soti ni matata se savasava na ivakarau ni maroroi itukutuku vakailavo. Ke sega ni vinaka na ivakarau ni maroroi itukutuku, e dredre me vakarautaki vakatotolo.\n\n4. Sega ni matata na lawa se iwalewale me baleta na vakaraitaki ni itukutuku vakailavo. Ke sega ni matata na lawa, eso era na sega soti ni kauwaitaka me ra muria. \n\n5. Sega ni rawarawa se rawarawa me kumuni ka vakarautaki na itukutuku ena gauna lekaleka. Na kumuni kei na vakarautaki ni itukutuku matailalai e rawa ni dredre ka taura na gauna.\n\nIa, e da sega ni kila na vuna dina. Na sega ni vakaraitaki ni itukutuku vakailavo e rawa ni vakalelecataka na matata kei na nuidei ena sasaga ni veidigidigi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna eso na lewe ni Politiki a sega ni vakaraitaka na nodra itukutuku vakailavo sa bera na veidigidigi ni yabaki 2022?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -954,6 +1134,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:10:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ena gauna ni ualevu, e dau vakavuna na leqa ni ibulubulu vei ira na lewe ni koro i Togoru. Oqo e vica na kena vakavuna:\n\n1. Ena gauna ni ualevu, e dau lutu vakalevu na uca ka sega ni rawa ni bulabula vinaka na qele. Oqo e vakavuna me sega ni rawarawa na keli ibulubulu.\n\n2. Na ualevu e rawa ni kauta mai na wai ki na ibulubulu ka vakavuna me luvu se tasere na yago ni mate. Oqo e sega ni kilikili ka sega ni veiganiti kei na itovo vakavanua.\n\n3. Ni sa luvu na ibulubulu, e rawa ni vakavuna na mate vei ira era tiko voleka yani ena vuku ni manumanu era kania na yago ni mate ka qai vosota wavoki na mate.\n\n4. E dredre talega na cakacaka ni veibulu ena gauna ni ualevu baleta ni dau voleka sara na wai.\n\nO ira na lewe ni koro i Togoru era dau kauwaitaka vakalevu na ibulubulu baleta ni tiki bibi ni nodra itovo kei na vakabauta vakavanua. Na ualevu e vakaleqataka na kena qaravi vakavinaka oqo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa vakavuna vakacava na kauwai vei ira na lewe ni koro i Togoru me baleta na ibulubulu ena gauna ni ualevu?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1040,6 +1238,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:11:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na Legal Aid Commission e Viti e solia na veiqaravi ni veivuke vakailawa vei ira na lewenivanua era sega ni rawa ni volia na veiqaravi vakailawa. \n\nE wili kina na veivakasalataki kei na veivuke ena gauna ni veilewai, veivuke ena kena vakarautaki na ivola ni veidinadinati kei na so tale na ivola vakailawa, kei na kena soli na ivakasala vakailawa ena veika me vaka na veika vakailavo, na veika vakavuvale kei na veika ni cakacaka.\n\nNa kena inaki levu duadua na kena vakarawarawataki vei ira kece na lewenivanua me ra ciqoma na veiqaravi vakailawa, ka me kakua ni dua e sega ni rawata baleta ni sega ni rauta na nona ilavo. E veiqaravi ena kena ivakarau savasava ka tautauvata vei ira kece."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daucakacaka vakacava na veiqaravi ni 'Legal Aid Commission i Viti?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1128,6 +1344,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:12:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Eso na vuna era dau vakamuria kina na ivakarau ni dautama o ira na iTaukei vulagi ena mata ni katuba levu ni vale:\n\n1. Vakarokoroko - Na dautama ena mata ni katuba levu e ivakaraitaki ni vakarokoroko vei ira na itaukei ni vale. E vakaraitaka ni ra rokova na vale kei ira era tiko kina.\n\n2. iVakarau vakavanua - Na dautama ena mata ni katuba levu e dua na ivakarau makawa ni noda vanua ka se maroroi tiko me yacova mai nikua. E vakaraitaka ni ra kila ka rokova na ivakarau vakavanua o ira na vulagi.\n\n3. Taqomaki - E vakabauti ni na taqomaki ira na vulagi mai na veika ca kevaka era muria na ivakarau dodonu ni curu ki na vale.\n\n4. Veikilai - Ni ra dautama ena mata ni katuba levu, e rawa ni ra raici ira vakavinaka na itaukei ni vale ka veikilai kina. E sega ni vinaka me ra curu ga vakaveitalia.\n\n5. Kerea na veivakadonui - Ni ra dautama ena mata ni katuba levu, era sa kerea tiko na veivakadonui me ra curu ki vale. E sega ni vinaka me ra curu vakaveitalia ka sega ni kerei na veivakadonui.\n\nO ira na vulagi era rokova na ivakarau oqo baleta ni ra kila ni bibi ena noda itovo vakavanua kei na veimaliwai vinaka kei ira na itaukei ni vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O ira na iTaukei vulagi era dautama yani ena mata ni katuba levu ni vale, na cava na vuna era dauvakamuria na ivakarau ni dautama o ira na iTaukei vulagi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1214,6 +1448,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:13:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E vuqa na vuna era vinakata kina na Nasi ni veiyanuyanu mera sa lesi i Viti Levu:\n\n1. Vuli - E levu na koronivuli ni vuniwai e Viti Levu me vaka na FNU ka rawa nira vuli kina na Nasi. E rawa talega nira taura na koroi ni vuli cecere.\n\n2. Cakacaka - E levu na vale ni bula lelevu e Viti Levu ka levu kina na itutu ni cakacaka me vaka na CWM, Lautoka Hospital kei Labasa Hospital. Oqo e solia vei ira na madigi ni cakacaka vinaka.\n\n3. Bula raraba - E levu na ka e Viti Levu me vaka na sitoa lelevu, vanua ni vakatatalo kei na kena tale eso. Oqo e vakarawarawataka na nodra bula na Nasi kei na nodra matavuvale.\n\n4. Veivakavoui - E levu na madigi ni vuli kei na kena vakavoui na kila-ka ni Nasi e Viti Levu baleta ni tiko kina na koronivuli ni vuniwai kei na vale ni bula lelevu.\n\n5. Vuvale - E levu na Nasi era via tiko voleka na nodra vuvale ka ra tiko e Viti Levu.\n\nIa, e dina ni levu na ka vinaka e Viti Levu, e bibi mera nanuma tiko na Nasi ni gadrevi vakalevu na nodra veiqaravi e na veiyanuyanu ka mera kakua ni guilecava na nodra itavi taumada."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna era vinakata kina na Nasi ni veiyanuyanu mera sa lesi i Viti Levu?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1302,6 +1554,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:14:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E yaco vakacava i Viti na matai ni daukaulotu?\n\nNa matai ni daukaulotu era yaco i Viti ena 1830 mai na lotu Wesele. O ira oqo e rau oka kina o David Cargill kei William Cross. Rau tadu yani i Lakeba, Lau ena 12 ni Okotova, 1835.\n\nNi bera ni rau yaco yani, sa tiko oti e Viti e dua na dauveivakatavulici ni lotu Wesele o Takai. O koya e dua na turaga ni Tonga ka lako voli me volitaki iyaya. Nona cakacaka vuni me vakatavulica na lotu vei ira na kai Viti.\n\nEna gauna era yaco kina o Cargill kei Cross, era kunea ni sa toso vakavinaka tu na cakacaka ni kaulotu i Takai. Oqo e rawa kina vei rau me rau tekivuna vakavinaka na nodrau cakacaka ni kaulotu e Viti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A yaco vakacava i Viti na matai ni daukaulotu?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1388,6 +1658,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:15:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ena yabaki 1875, e a vakila vakalevu na vanua o Viti na revurevu ni mate na misila. E a vakavuna na mate oqo na veisau levu ena iwiliwili ni lewenivanua kei na bula vakaitikotiko ni lewenivanua.\n\nE a tekivu na mate oqo ena yasana vaka-Ra kei Viti Levu ka totolo sara na kena dewa ki na veiyasana tale eso. E rauta ni 40,000 na lewenivanua era a mate kina, se rauta ni dua na ikatolu ni iwiliwili taucoko ni lewenivanua ena gauna oya.\n\nNa vuna levu ni mate oqo e baleta ni sega ni se bau sotavi oti na mate veitauvi vaka oqo na lewenivanua, ka sega talega ni se bau vakayagataki na wainimate se ivakarau ni taqomaki kina.\n\nE a vakavuna talega na mate oqo na veisau levu ena bula vakaitikotiko ni lewenivanua. E levu na koro era a lala se vakamalumalumutaki vakalevu baleta ni levu era mate kina. E vakavuna talega na luluqa ena kakana kei na dravudravua.\n\nE dina ni a vakaleqai vakalevu kina na vanua o Viti, ia e a vukea talega me yaco na veisau. E a tekivu kina na cakacaka ni kena valuti na mate veitauvi, vakavinakataki na ituvatuva ni bula raraba, ka vakatorocaketaki na veiqaravi ni tabana ni bula."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A vakila vakacava na vanua o Viti ena revurevu ni mate na misila ena yabaki 1875?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1476,6 +1764,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:16:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na Saqa e dua na soqo bibi sara vei ira na lewe ni vanua o Naigani. E dau vakayacori ena veiyabaki me vakananumi kina na nodra bula na qase kei na nodra cakacaka ena gauna sa oti. \n\nNa Saqa e dau tekivu ena nodra soqoni vata na lewe ni vanua, qai muri yani ena meke, sere kei na qito vakavanua. E dau vakayacori talega kina na magiti kei na kana vata. \n\nNa inaki ni Saqa oya me semati ira vata na lewe ni vanua, me ra nanuma na nodra dui tavi ena bula vakoro, ka me ra dui rokova na nodra ituvatuva bula. E dau vakayagataki talega me ra wasea kina na nodra kila kei na veika era vulica mai vei ira na qase.\n\nE bibi sara na Saqa vei ira na lewe ni vanua o Naigani baleta ni vakadeitaka na kena maroroi na nodra itovo kei na ivakarau vakavanua, ka vakadeitaka talega na kena tomani tiko na veiwekani kei na veilomani ena kedra maliwa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava era dautaqomaka kina na Saqa o ira na lewe ni vanua o Naigani?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1562,6 +1868,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:17:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na ilavo ni peniseni e Viti e dau caka ena veivakatagedegede e vica:\n\n1. Peniseni ni Matua - E dau soli vei ira na lewenivanua era sa yabaki 65 lako cake. \n\n2. Peniseni ni Malumalumu - E baleti ira na lewenivanua era sa malumalumu tu vakayago se vakayalo ka sega ni rawa ni cakacaka.\n\n3. Peniseni ni Mate ni Cakacaka - E soli vei ira era sa vakaleqai ena gauna ni cakacaka.\n\n4. Peniseni ni Wati/Yada ni sa Mate na Wekana - E soli vua na wati se yada ni tamata cakacaka sa mate.\n\n5. Peniseni ni Gone Luveniyali - E soli vei ira na gone era sa mai luveniyali.\n\nNa ilavo oqo e dau vakadeitaka na Matanitu me vukea na bula ni lewenivanua ena gauna dredre. Ia, e dau vakatau tiko ga na levu ni ilavo e soli ena iyalayala ni bula (poverty threshold) kei na levu ni ilavo e rawata tiko e dua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daucaka vakacava na ilavo ni Peniseni i Viti?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1650,6 +1974,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:18:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E dua na vuna levu era dau vakatabui kina na yalewa bukete mera qoli ena tobu ni ika baleta ni rawa ni vakaleqa na nodra bula kei na bula ni gone era bukete tiko.\n\nNa tobu ni ika e kena dau titobu ka dredre me ceguva rawa e dua na tamata. Kevaka e qoli kina e dua na marama ka bukete tiko, ena rawa ni sega ni rauta na cegu e rawata mai wai ka na vakaleqa na bula ni gone. \n\nE rawa talega ni vakavuna na mavoa levu kevaka e lutu se tauvi koya e dua na ka ena gauna ni nona qoli tiko e loma ni tobu. Oqo ena vakaleqa sara vakalevu na bula ni tinana kei na gone.\n\nE dina ni ka taleitaki na qoli ia e dodonu mera qarauna na yalewa bukete baleta na bula ni gone era kauta tiko. E vinaka cake mera vakacegu mai vale ka qarauna na kakana era kania me rawa ni bulabula vinaka na gone."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna era dauvakatabui o ira na yalewa bukete mera qoli na tobu ni ika?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1736,6 +2078,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:19:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna era dau vakamuria kina na ivakarau ni bulubulutaki o ira na matavuvale ni tagane vei ira na matavuvale ni yalewa e baleta ni oqo e dua na ivakarau makawa ka vakabibitaki ena noda itovo vakavanua. \n\nEna gauna ni bulubulutaki, e dau laurai ni o ira na matavuvale ni tagane era dau kauta mai na iyau ni bulubulu me vaka na ibe, masi kei na yaya tale eso me baleta na somate. Oqo e dua na ivakaraitaki ni veirokovi kei na veinanumi vei ira na matavuvale ni yalewa ka ra sa mai luluqa.\n\nE kena ibalebale talega ni ra sa vakarautaki ira na matavuvale ni tagane me ra colata na icolacola ni veiqaravi ena gauna ni somate. E dua na itavi bibi oqo ka vakaraitaka na nodra lomani kei na doka na wekadra.\n\nNa kena vakamuri na ivakarau oqo e vakabibitaka na isema ni veiwekani kei na duavata ena kedra maliwa na matavuvale ni tagane kei na yalewa. E vakaraitaka talega na kena bibi na itovo vakavanua kei na kena maroroi me baleta na gauna mai muri."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna era dauvakamuria na ivakarau ni bulubulutaki o ira na matavuvale ni tagane vei ira na matavuvale ni yalewa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1824,6 +2184,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:20:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na yanuyanu o Naigani e tiko ena Yasayasa Vaka Ra kei Viti. E dua na yanuyanu lailai ka tiko kina e rauta ni 200 na lewenivanua. E sega ni kilai levu na itukutuku me baleta na buisavulu 'Buisavulu' e tukuni tiko. Ia, e rairai dua beka ga na iyaya se ka e kilai tani kina na yanuyanu qo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava a biuta kina na yanuyanu o Naigani ko 'Buisavulu'?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1910,6 +2288,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:21:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E dua na kalou bibi ena itukutuku makawa ni Viti ko Degei. Era kaya ni a sucu mai Nakauvadra ka rawa ni veisau na kena irairai me vaka e dua na gata. E kena itavi me vakatawana na lawa kei na ivakarau dodonu vei ira na tamata. Era dau qaravi Degei na lewenivanua ena gauna makawa ka nuitaka na nona veivakalougatataki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A yaco vakacava me kalou ni noda qase iliu ko Degei?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1998,6 +2394,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:22:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E dua na taro vinaka o taroga mai. Ia, e sega ni matata vei au na kena isau baleta ni sega ni'u kila na itukutuku me baleta na veika e rawata o Tui Botinibua e na veitikina i Vitilevu. \n\nAu sega ni kunea rawa e dua na ivurevure ni itukutuku dina me sauma rawa kina na nomu taro. E rairai vinaka mo vaqara na isau ni nomu taro oqo vua e dua e kila vinaka na itukutuku makawa kei na veika e yaco e liu e Vitilevu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A rawata vakacava na veitikina i Vitilevu ko Tui Botinibua?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2084,6 +2498,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:23:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na malanivosa \"Dui Mate Ga Na Nona Ucu Ni Vatu\" e dau vakayagataki vakalevu ena gauna e dau sotavi kina na bolebole lelevu se itavi dredre. E vakaraitaka na noda dui tu vakataki keda ena gauna eda sotava kina na bolebole, ka sega ni rawa ni da vakararavi vua e dua tale.\n\nE vakaraitaka talega na noda dui tu vakataki keda ena noda sasaga, ka sega ni rawa ni da namaka me dua tale me cakava na ka eda rawa ni cakava vakataki keda. E vakauqeti keda meda dui sasaga ka cakacakataka na itavi eda lesi kina.\n\nNa vosa \"ucu ni vatu\" e vakaibalebaletaki ki na iyaya ni ivalu vaka-Viti, ka dau vakayagataki me ivakaraitaki ni kaukauwa kei na qaqa. Kena ibalebale ni da sega ni rawa ni vakararavi vei ira na tani, ia meda dui sasaga ga vakataki keda me vaka na ucu ni vatu e kaukauwa tu vakataki koya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava era dauvakayagataka kina na iTaukei na malanivosa \"Dui Mate Ga Na Nona Ucu Ni Vatu\" ena gauna mera vakarau vakayacora na itavi dredre?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2172,6 +2604,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:24:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na 'Qalu' se 'Vakalolo' e dua na kakana vakaviti ka dau vakayagataki kina na niu, suka kei na dalo se tavioka. \n\nE dau mua se tuki na niu me lumi. Qai dau tuki na dalo se tavioka me malumu vinaka. E dau veisautaki na kena levu me veidonui kei na levu ni niu kei na suka. Ni sa malumu vinaka na dalo/tavioka, sa qai waki vata kei na lumi ni niu. E dau vakasukari me kua ni kamikamica. \n\nNa Qalu e rawa ni kana ga vakakoya se me i coi ni kakana tale eso me vaka na ika, vuaka se toa vakasuasua. E kana talega vakalevu ena gauna ni magiti se solevu.\n\nE dua na kakana taleitaki vakalevu vei ira na iTaukei baleta ni rawa ni vakayagataki kina na kakana era tea ka sega ni dredre na kena vakarautaki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Era daucakava vakacava na iTaukei na 'Qalu se Vakalolo'?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2258,6 +2708,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:25:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na lovo e dua na kakana vakavanua bibi sara vei keda na iTaukei baleta ni vakayagataki vakalevu e na gauna ni soqo lelevu eso me vaka na vakamau, siga ni sucu kei na somate.\n\nE na gauna vakaoqo, e dau vakayagataki kina na lovo me vakaraitaka na noda rokova ka dokai ira na vulagi se o ira eda marautaka tiko. Na kena vakarautaki na lovo e gadrevi kina na cakacaka vata kei na veivuke mai vei ira na lewe ni vanua, ka vakadeitaka ni ra na vakani vinaka ka mamau na vulagi.\n\nE kena ikuri, na lovo e vakaraitaka talega na noda itovo vakavanua kei na kena bibi vei keda na veiwekani kei na veilomani. Na kena twelei vata na kakana, na kena biu vata e na qara ni lovo, kei na kena laki kamikamica vata e vakaraitaka na noda duavata ka veiwekani voleka.\n\nE dina ni sa mai veisau tiko na noda itovo kei na veika eda dau vakayagataka, ia na lovo e se ivakarau ga ni kakana e bibi ka taleitaki sara vei keda na iTaukei ka na sega ni yali rawa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna keda daucakava ka kania na lovo e na gauna e daucaka kina e so na mataqali oga me vaka na siga ni sucu, na vakamau kei na somate?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2346,6 +2814,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:26:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Oqo eso na ivakarau ni kena dau caka na lovo:\n\n1. Kelia na lovo me rauta ni 2-3 na fiti na kena titobu. \n\n2. Vakabutari ira na vatu ena loma ni lovo.\n\n3. Vakacaudrevi ira na vatu me yacova ni ra sa katakata vinaka.\n\n4. Ni sa katakata vinaka na vatu, qai yaviraki laivi na buka kei na qilaiso.\n\n5. Vakadavori ira na kakana (dalo, tavioka, uvi, etc) ena dela ni vatu katakata. Rawa talega ni sovaraki ira na kakana ena loma ni draunivudi se pepa ni lovo.\n\n6. Ubia na kakana ena draunikauvula, qai bulu ena qele.\n\n7. Laivi me rauta ni 2-3 na aua me buta kina vakavinaka.\n\n8. Ni sa buta oti, qai kelia cake na lovo ka kania na kakana!\n\nOqori eso na ivakarau levu ni kena dau caka na lovo. E rawa ni duidui vakalailai na kena icakacaka ena veiyasai Viti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Iko daucakava vakacava na lovo?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2432,6 +2918,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:27:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na kamunaga e dua na itovo vakavanua bibi ena noda itovo vakaviti. Era dau vakaraitaka na wekai tagane na kamunaga me ivakaraitaki ni nodra rokova ka dokai ira na wekadra yalewa kei na nona matavuvale.\n\nE vica na vuna era dau caka kina na kamunaga:\n\n1. Me ivakaraitaki ni veirokovi kei na veidokai - na kamunaga e sala ni vakaraitaki ni rokovi ira na wekana yalewa kei na nona matavuvale. \n\n2. Me vakadinadinataki ni veiwekani - na kena soli na iyau e vakadinadinataka na veiwekani ka vakabibitaka na kena bibi vei rau na yasana ruarua.\n\n3. Me tokoni ira na wekana yalewa - na iyau ni kamunaga e rawa ni vukei ira na wekana yalewa ena nodra bula vakawati, me vaka na kena voli na yaya ni vale.\n\n4. Me maroroi kina na itovo - na kena qaravi tiko ga na kamunaga e sala ni maroroya na noda itovo kei na kena bibi ena noda bula vakavanua.\n\nIa, e sega ni vakabibitaki na levu se sau ni iyau e soli. Na ka e bibi duadua na yalo e soli kina, me ivakaraitaki dina ni loloma kei na veinanumi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa bera ni daucaka na vakawati, na cava na vuna era dauvakaraitaka kina na kamunaga o ira na wekai tagane kivei yalewa kei na nona matavuvale?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2520,6 +3024,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:28:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na isolisoli ka dau soli vei ira na lewe ni vanua o Beqa nira dautara na kama e vakatokai na vilavilairevo. \n\nE dua na itovo makawa ni vanua o Beqa na vilavilairevo ka ra dau vakayacora ena gauna ni solevu lelevu. Era dau qoli vata na turaga kei na marama ka ra qai lakova na buka waqa ka ra dau tara ka ra sega ni kama kina.\n\nE dua na cakacaka bibi ka dokai sara na vilavilairevo vei ira na lewenivanua o Beqa. E vakaraitaka na nodra kaukauwa kei na nodra yalo qaqa. E kena ibalebale talega ni ra sa vakarautaki ira vinaka ka muria na lawa ni vanua me rawa nira cakava rawa na itavi bibi oqo.\n\nE dua na isolisoli talei ka ra dau marautaka na lewenivanua o Beqa na kena maroroi me yacova mai nikua. E tiki bibi ni nodra itovo kei na nodra bula vakavanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "E vu beka vakacava na isolisoli ka soli vei ira na lewe ni vanua o Beqa nira dautara na kama?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2606,6 +3128,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:29:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Kevaka ko via taura na veivuke vaka ilavo mai vua na matanitu me baleta na tiko vakalolovira, e dodonu mo vakarautaka eso na ka bibi me vaka na:\n\n1. iVola ni kerekere - Mo vola e dua na ivola ni kerekere ka tukuna kina na vuna o gadreva kina na veivuke kei na levu ni ilavo o gadreva. \n\n2. iVakadinadina ni nomu a vakaleqai ena gauna ni waluvu - Oqo e rawa ni okati kina na itaba ni vakacaca, ripote mai vei ira na ovisa se tabana ni veivakatorocaketaki.\n\n3. iVakadinadina ni lavo cu mai na cakacaka se bisinisi - Kevaka e vakaleqai na nomu cakacaka se bisinisi ena gauna ni waluvu, e dodonu mo vakaraitaka na ivakadinadina ni lavo cu.\n\n4. Tukutuku ni akaude mai na baqe - Me vakaraitaki na ituvaki ni nomu akaude ena gauna ni waluvu.\n\n5. iVola ni veivakadonui mai vei ira na iliuliu ni koro se yasana - E rawa ni vukea na kena vakadonui na nomu kerekere kevaka e tokoni mai vei ira na iliuliu.\n\nNa veika oqo ena vukea na tabana ni matanitu mera kila na nomu ituvaki dina ka vakadonuya na nomu kerekere. Ia mo nanuma ni bibi mo vakarautaka vakavinaka na nomu ivola ni kerekere kei na veika e gadrevi me rawa ni ciqomi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava soti na ka me vakarautaki yani kevaka ko via taura na veivuke vaka ilavo mai vua na matanitu me baleta na tiko vakalolovira?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2694,6 +3234,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:30:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E sega ni tautauvata na i balebale ni mata tamata vei ira na kai Viti kei ira na iTaukei. \n\nVei ira na kai Viti, na mata tamata e dua na ka bibi sara. E vakaraitaka na veiwekani, na veirokovi kei na veiciqomi. Na mata tamata e rawa ni vakayagataki me vakaraitaki kina na loloma, na yalololoma se na veikauaitaki. E bibi talega na mata tamata ena gauna ni veivosaki, baleta ni rawa ni vukea na kena tarai cake na veimaliwai vinaka.\n\nIa vei ira na iTaukei, e duidui vakalailai na i balebale ni mata tamata. E dina ni bibi talega vei ira, ia e sega ni vakatauvatani rawa kina veimaliwai. Vei ira na iTaukei, na mata tamata e vakaraitaka ga na veirokovi, ia e sega soti ni bibi me vaka vei ira na kai Viti. \n\nO koya, e rawa ni tukuni ni duidui na i balebale ni mata tamata vei rau na i soqosoqo oqo. E bibi cake vei ira na kai Viti, ia e sega soti ni bibi vei ira na iTaukei."
+            }
+          },
+          "prompting_state": {
+            "prompt": "E rawa beka li ni tautauvata na i balebale ni mata tamata o ya na kai Viti kei ira na iTaukei?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2780,6 +3338,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:31:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E sega ni kilikili mo virika vakayawa na vatu ni ko sa daulesutale ki na nomu vale ena bogi. Oqo e rawa ni vakavuna na leqa vei ira na tani se vakacacana na iyau ni tamata tale eso.\n\nNa ka e dodonu mo cakava ni ko sa daulesutale ki vale ena bogi:\n- Kauta tiko e dua na cina me rarama kina na nomu sala \n- Mo qarauna vinaka na vanua ko lakova tiko\n- Dolava vakamalua na katuba ni vale, kakua ni cakava e dua na rorogo levu\n- Kevaka e tiko e dua na koli, kacivaka yani mo kua ni vakarerei koya\n\nNa inaki levu duadua mo yaco rawa ki vale ena bogi ka sega ni vakavuna e dua na leqa se vakacacana e dua na ka. Mo qarauna vinaka na nomu ilakolako."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni dua na lewe ni vanua daulesutale ki na nona vale ni sa buto na bogi, na cava e kilikili kina mo virika vakayawa sara na vatu sabera ni ko na curu taumada ki na nomu loma ni vale?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2868,6 +3444,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:32:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "O Ratu Sir Lala Sukuna e dua na turaga ni vanua kilai levu ena matanitu ko Viti. E sucu ena yabaki 1888 ka mate ena 1958. E kilai levu o koya ena nona veiqaravi ena Matabose iTaukei, Bose Levu Vakaturaga kei na nona veiliutaki ena sasaga ni kena vakatorocaketaki na bula vakaitaukei e Viti.\n\nEso na ka bibi me baleti Ratu Sukuna:\n\n1. E sucu mai Bau, Tailevu vua na Radi Adi Litiana Maopa. \n\n2. E vuli ena Wairuku Indian School, Levuka Public School, kei na Weir House e Uluiqalau, Viti. Qai tomana nona vuli i Ositerelia kei Peritania.\n\n3. E veiqaravi ena iMatai ni iValu Levu ka rawata kina na metali na Légion d'honneur mai Varanise.\n\n4. Ena 1921 sa digitaki me lewena na Bose Levu Vakaturaga, qai veiqaravi tale ga ena Matabose iTaukei me yacova nona mate.\n\n5. E vakatura me tauyavutaki na Fijian Affairs Board (FAB), dua na tabana ni matanitu e qarava na veika vakaitaukei.\n\n6. E tokona vakalevu na sasaga ni kena maroroi na qele vakaitaukei kei na nodra bula na itaukei e Viti.\n\n7. Ena vuku ni nona veiqaravi uasivi, e a laveti kina o Ratu Sukuna me Knight Commander of the Order of the British Empire ena 1946.\n\nE dua dina ga na turaga dokai ka dau nanumi tu ga nona veiqaravi cecere vei ira na lewenivanua e Viti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O cei ko Ratu Sukuna?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2954,6 +3548,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:33:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Oqo eso na ivakarau ni kena vakasavasavataki ka vakarautaki na rourou me rawa ni vakautona:\n\n1. Taura mai na drau ni rourou ka savata vinaka me rawa ni savasava. \n\n2. Qia na drau ni rourou me malumu ka rawarawa ni buli. E rawa ni qia ena liga se vakayagataka na misini ni qiaqia (food processor).\n\n3. Vakarautaka na lolo - veisautaka na niu, ceburaka ka wasea na kena sucu. Vakacuruma na sucu ni niu ena dua na saqa.\n\n4. Vakacuruma na rourou sa qia oti ki na lolo ka vakusakusataka me rawa ni veirauti vinaka.\n\n5. Bika vakamalua toka me yacova ni sa draudrau vinaka ka sa rawa ni kania.\n\n6. Vakarautaka vata kei na kakana tale eso me vaka na ika, vuaka se toa. E rawa talega ni kania vata kei na dalo se tavioka saqa.\n\nOqori eso na ivakarau rawarawa ni vakarautaki ni rourou vakautona, na kakana ka da dau kania vakalevu kina nida kai Viti. E dodonu mo nanuma tiko ni kena gadrevi me savasava vinaka na drau ni rourou ni bera ni vakayagataki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O iko na cakava vakacava na kakana ka daukilai kina nida kai Viti o ya na rourou vakautona?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3042,6 +3654,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:34:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Eso na sala e rawa ni vakayagataka na matanitu me vakavuna kina na tiko sautu ena noda vanua:\n\n1. Vakatorocaketaka na bisinisi lalai kei na veivakatorocaketaki ena taudaku ni koro lelevu. Oqo ena rawa ni vakavuna na cakacaka vou ka vakarabailevutaka na ivurevure vakailavo.\n\n2. Vakarabailevutaka na sasaga ni vakavulici kei na vuli ka. Oqo ena vakarautaka e dua na iwiliwili ni tamata cakacaka maqosa ka vukea na tubu vakailavo.\n\n3. Vakayagataka vakavuku na ilavo ni matanitu ena veivakatorocaketaki me vaka na gaunisala, wai kei na livaliva. Oqo ena vukea na veivakatorocaketaki vakailavo.\n\n4. Vakaukauwataka na lawa kei na veiliutaki vinaka. Oqo ena vakaukauwataka na vakabauta vei ira na dauvakatubu bisinisi me ra vakatubuilavo ena noda vanua.\n\n5. Vakayagataka vakavuku na ivurevure vakailavo mai vei ira na dau soli ilavo me vaka na ADB kei na World Bank me baleta na veivakatorocaketaki bibi.\n\n6. Vakayagataka na veivakatorocaketaki ena tabana ni saravanua me vakarabailevutaki kina na ilavo mai vanuatani.\n\n7. Vakayagataka na tuvatuva ni veivakatorocaketaki me baleta na veika e gadrevi vakalevu me vaka na teitei, qoliqoli kei na misini.\n\nNa kena vakayagataki vakavuku na ivurevure vakailavo oqo ena vukea vakalevu na kena vakatorocaketaki na bula vakailavo ni noda vanua ka vakavuna na tiko sautu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa dau kauta maivei na noda matanitu na ivurevure vakailavo ki na noda vanua me rawa ni vakavuna kina na tiko sautu?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3128,6 +3758,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:35:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna e sega ni vakatarai mera vakaisala o ira na turaga ka mera vakatabui o ira na marama mera vakatarusese ena loma ni dua na koro vakaviti e baleta ni sa i vakarau makawa ni noda vanua.\n\nEna noda i tovo vakaviti, e dau rokovi ka dokai na marama. E vakatokai mera \"i yau bula\" ni vanua. Oqo e kena i balebale ni ra sa i yau talei ka bibi ena noda bula. \n\nE dau kena i vakarau ni ra na sega ni vakatarusese se vakaisala ena loma ni koro na marama me vaka ni sa nodra i tavi mera maroroya na savasava kei na maqosa ni vanua. Ke ra vakayacora oqori ena vakalolomataki kina na vanua.\n\nIa vei ira na turaga, e sega soti ni levu na ka e lavaki vei ira me vaka vei ira na marama. Ia e sega ni kena i balebale oqo ni ra sega ni bibi o ira na turaga se mera caka cala ga vakataki ira.\n\nNa lawa oqo e vakaraitaka ga na veika e namaki vei ira na marama kei na turaga me vaka na nodra i tavi duidui ena loma ni noda vanua kei na noda i tovo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna e sega ni vakatarai mera vakaisala o ira na turaga ka mera vakatabui o ira na marama mera vakatarusese ena loma ni dua na koro vakaviti?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3216,6 +3864,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:36:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E a buli na i vakatakarakara kei Ratu Sukuna me i vakadinadina ni nona veiqaravi cecere vei Viti. E a dua na turaga dokai ka liutaka na vanua ena gauna dredre ni ivalu kei na veisau lelevu. \n\nE a buli na nona i vakatakarakara me vakananumi kina na nona bula ka me i vakaraitaki ni nona yalo dina, yalo qaqa kei na nona veivakarautaki me solibula ena vukudra na lewenivanua. E dua talega na i vakaraitaki ni nona vuku kei na nona kila vakavinaka na i tovo vakaViti.\n\nE tu na nona i vakatakarakara e Suva me rawa ni raica ka nanuma tiko kina na lewenivanua na veika cecere e cakava o Ratu Sukuna me baleta na toso kei na bula sautu ni noda vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava beka e a buli kina na i vakatakarakara kei Ratu Sukuna?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3302,6 +3968,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:37:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E vuqa na vuna e rui mareqeti kina na tabua vei keda na iTaukei. Eso vei ira oqo:\n\n1. Ivakatakilakila ni veiliutaki kei na kaukauwa - na tabua e dau vakayagataki me ivakatakilakila ni dua e liuliu se turaga. \n\n2. Isoro - na kena cabori na tabua e dau vakaraitaka na veivosoti, veivakayarayarataki kei na veivakadodonutaki.\n\n3. Isolisoli - na kena soli na tabua e dau vakaraitaka na veirokovi kei na veikauaitaki.\n\n4. Iyau vakamareqeti - baleta ni sa yali tiko na yavato, sa qai rui talei cake tikoga kina na tabua me vaka e dua na iyau talei.\n\n5. Ivakaraitaki ni veiwekani - na veisau ni tabua e rui bibi ni vakadeitaka na veiwekani kei na veilomani.\n\n6. Tiki bibi ni vakarau vakavanua - e umani tu kina e vuqa na itukutuku makawa me vaka na veika e yaco e liu.\n\nSa ikoya oqori eso na vuna levu e rui talei kina vei keda na tabua. E umani kina na noda itovo, vakarau kei na veiwekani vakavanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna sa rui mareqeti kina na tabua?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3390,6 +4074,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:38:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na isulu vakataga e dau daramaki vakalevu ena gauna ni soqo vakavanua se vakaitutu vaka viti. Oqo e wili kina na soqo ni tevutevu, soqo ni veibuli, kerei ni yalewa kei na so tale.\n\nE duidui na kena daramaki na isulu vakataga ena veiyasana e Viti. Ia, na kena i vakarau taumada sai koya na:\n- Isulu i loma (dau vakayagataki kina na isulu vulavula)\n- Imasi (isulu droka, damudamu se karakarawa)\n- Isala (isulu ni toba, vulavula)\n\nEra dau tokara talega e dua na isala levu (i-oro) ka vakatabana ena isala lailai (i-sala). E dau vakaiukuukutaki ena dua na i-wau se i-oro.\n\nNa isulu vakataga e i-vakatakilakila ni vakarokoroko kei na dokai ni noda i-tovo kei na vakavanua. E bibi kina vei keda na i-taukei me da kila na kena daramaki ka maroroya me kua ni yali."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na gauna vakacava era dau daramaka kina na isulu-vaka-taga o ira na turaga?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3476,6 +4178,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:39:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna levu e daukune kina na tagimoucia e Vanua Levu sega ni daukune ena veiyanuyanu tale e Viti e baleta na draki kei na vanua e tubu kina.\n\nNa tagimoucia e dau vinakata na vanua droka ka vuabale me vaka e Vanua Levu. E sega soti ni dau kune ena veiyanuyanu lalai ka mamaca se sega soti ni droka.\n\nE duidui talega na qele kei na draki e Vanua Levu mai na veiyanuyanu tale eso. Oqo e vuna talega ni tubu vinaka kina na tagimoucia mai kea.\n\nIa e dina ni sega soti ni robataki Viti taucoko na kena tubu, e dua na iyau bula talei ni noda vanua na tagimoucia ka kilai levu kina o Vanua Levu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna e daukune ga iVanua Levu na tagimoucia ka sega ni daukune ena veiyanuyanu tale e iViti?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3564,6 +4284,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:40:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na koti ni drauniuluna na gonelailai iTaukei e na matai ni gauna e dua na soqo bibi vei ira na iTaukei. Era dau marautaka baleta:\n\n1. E dua na ivakatakilakila ni tubu cake kei na veisau ni bula ni gone. E vakaraitaka ni sa tubu cake tiko na gone ka sa biuta tiko na gauna ni gone lailai.\n\n2. E rawa ni caka kina e dua na magiti se solevu lailai me vakananumi kina na gauna oqo. Era dau sureti na veiwekani kei na itokani me ra laki vakaitavi e na marau oqo.\n\n3. E dau soli iloloma se ivakananumi ki vei ira na gone me ra nanuma tiko kina na gauna oqo e na nodra bula.\n\n4. E vakaraitaka na veiwekani kei na veikauwaitaki e tiko vei ira na lewe ni vuvale kei na itikotiko vua na gone.\n\n5. E dua talega na gauna ni veivakavulici vua na gone me baleta na itovo vakavanua, na veika e namaki vua kei na nona itavi.\n\nSa ikoya oqo e so na vuna era dau marautaka kina na iTaukei na koti ni drauniuluna na gone e na imatai ni gauna. E vakaraitaka na bibi ni veisau e sa curuma tiko na gone kei na nona sa toso tiko ki na dua tale na iwasewase ni nona bula."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sara mada era daumarautaka na iTaukei na nona sa koti na drauniuluna na gonelailai iTaukei e na matai ni gauna?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3650,6 +4388,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:41:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Oqo eso na ivakarau ni butu vatu katakata:\n\n1. Digitaka e dua na vanua e levu kina na vatu lalai katakata. E rawa ni vanua oqo e baravi, uciwai se dua na vanua vulikanimate. \n\n2. Vakarautaka na vatu. Ni sa digitaki oti na vanua, kumuna vata na vatu lalai ka biuta ena dua na iqaqi se taga. Ni ra sa biu vata, qaqarauni me kakua ni sivia na 10-15 na vatu.\n\n3. Katakata na vatu. Biuta na vatu ena loma ni dua na kuro ka vakawaqa me yacova ni ra sa katakata vinaka. Ke sega na kuro, e rawa talega ni ra biu ena dua na qilaiso se loma ni lovo.\n\n4. Vakarautaki iko. Ni vo e vica na miniti me ra sa katakata vinaka na vatu, dara na nomu isulu vaqaqa ka davo sobu. E rawa ni tevu e dua na isulu lailai me ubi kina na dakumuniu.\n\n5. Tekivu na butu vatu. Taura vakamalua na vatu ka tekivu butuka na yago. Tekivu mai na yava ka gole cake ki na daku kei na taba ni domo. Tovolea mo kakua ni butuka e dua ga na vanua ena dede.\n\n6. Vakacegu. Ni oti na butu vatu, moce vakadede me rawa ni vakacegui na yago. Gunuva talega e dua na bilo wai me rawa ni sosomitaki na wai e yali ena gauna ni butu vatu.\n\nNanuma tiko, na butu vatu katakata e rawa ni vakavuna na kama kevaka e sega ni qarauni vinaka. Kevaka e baci na katakata ni vatu, walokai ira mada ena wai ni bera ni ra vakayagataki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa dau vakayacori vakacava na butu vatu katakata?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3738,6 +4494,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:42:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na ivakatakilakila ka tabaki toka ena noda kuila ni matanitu e tukuna na noda itukutuku ni veiliutaki kei na noda ivakarau vakavanua.\n\nNa roka damudamu e vakatakarakarataka na noda dra ka soli ena noda ivalu ni veisereki. E vakatakarakarataka talega na yaloqaqa kei na kaukauwa ni noda lewenivanua.\n\nNa roka vulavula e vakatakarakarataka na savasava kei na tiko vinaka. E vakatakarakarataka talega na loloma, sautu kei na duavata.\n\nNa koronivalu e tiko ena kuila e vakatakarakarataka na noda tu vakarau me da taqomaka na noda vanua kei ira na lewena.\n\nNa Sitivatini e dua na ivakatakilakila bibi ni noda vanua ka vakatakarakarataka na noda vakabauta vakarisito.\n\nO koya, na ivakatakilakila yadua ena noda kuila e tukuna e dua na itukutuku bibi me baleta na noda itovo, vakabauta kei na ivakarau ni bula vaka-Viti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na ibalebale ni ivakatakilakila ka tabaki toka na noda kuila ni matanitu?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3824,6 +4598,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:43:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E dau vakayacani na gone vei ira na wekana na tama ni gone baleta e vica na vuna bibi:\n\n1. Vakarokoroko - Na kena vakayacani na gone vei ira na wekana na tama e vakaraitaka na vakarokoroko kei na veidokai vei ira na wekana na tama. E vakaraitaka ni ra bibi ka dokai ena bula ni gone.\n\n2. Veiwekani - E vakabibitaka na veiwekani voleka kei ira na wekana na tama. E vakaraitaka ni ra tiki bibi ni vuvale kei na bula ni gone.\n\n3. Taqomaki - Na kena vakayacani na gone vei ira na wekana na tama e kena inaki me ra taqomaka ka susugi vakavinaka na gone. E nodra itavi me ra qarauna na bula ni gone.\n\n4. iYau - E vakaraitaka talega ni ra iyau talei na gone vei ira na wekana na tama. E dodonu me ra maroroi ka susugi vakavinaka.\n\n5. iVakarau vakavanua - Na kena vakayacani na gone vei ira na wekana na tama e tiki ni noda itovo kei na ivakarau vakavanua na iTaukei. E vakabibitaki kina na veiwekani kei na veikauwaitaki ena loma ni vuvale.\n\nO koya gona, e bibi sara na kena vakayacani na gone vei ira na wekana na tama ena noda ivakarau vakavanua baleta e vakabibitaka na veiwekani, vakarokoroko, taqomaki kei na kena iyau talei na gone ena vuvale."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni sucu na gone ulumatua iTaukei, na cava na vuna dauvakayacani kina na gone vei ira na wekana na tama ni gone?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3912,6 +4704,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:44:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E vica na vuna e tokitaki kina na koroturaga mai Levuka ki Suva:\n\n1. Levuka e tiko ena yanuyanu lailai ka sega ni rabailevu me vakarabailevutaki kina na koroturaga. Suva e tiko ena vanua levu ka rawa ni vakarabailevutaki.\n\n2. Na uciwai mai Levuka e lailai ka sega ni ganita na kena vakayagataki. Suva e tiko kina e dua na uciwai levu ka rawa ni vakayagataki.\n\n3. Levuka e dredre na ikelekele ni waqa lelevu. Suva e tiko kina na tobu vinaka me kelekele kina na waqa lelevu.\n\n4. Levuka e voleka na cakau ka rawa ni vakaleqai ena cagilaba. Suva e tiko vakayawa mai na cakau.\n\n5. Levuka e yawa mai na veiyasana vuqa e Viti ka dredre kina na veitaratara. Suva e tiko ena loma ni vanua ka rawarawa kina na veitaratara.\n\nOqori e vica na vuna bibi e tokitaki kina na koroturaga mai Levuka ki Suva ena 1882."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna a tokitaki kina na koroturaga mai Levuka ki Suva?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3998,6 +4808,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:45:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "O Ratu Sir Kamisese Mara e dua na turaga ni vanua ka liuliu ni matanitu mai Viti. E sucu ena yabaki 1920 ka mate ena 2004. Eso na ka bibi me baleti koya:\n\n- E imatai ni Paraiminisita ni Viti ni sa rawata na tu vakataki koya ena 1970. E veiliutaki me yacova na 1992.\n- E a vukea vakalevu na kena rawati na tu galala vakapolitiki kei na bula sautu ni Viti.\n- E a vunivola tudei ni Matabose Cokovata ni Pasifika (South Pacific Forum) mai na 1973 ki na 1990s.\n- E a Peresitedi talega ni Viti mai 1993 ki 2000.\n- E kilai levu me vaka e dua na dauniveivakasalataki vuku ka dau cakacaka vakaukauwa me baleta na toso ni nona vanua.\n- E a soli vua na itutu vakaturaga na \"Ratu\" kei na itutu vakaPeritania na \"Sir\" baleta na nona veiqaravi uasivi.\n\nO Ratu Mara e dua na iliuliu dokai sara ka bibi ena istoriya ni Viti, ka vakauqeti ira vakalevu na nona tamata me ra toso ki liu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O cei ko Ratu 'Sir' Kamisese Mara?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4086,6 +4914,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:46:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na timi ni rakavi lewe yavitu na 'Flying Fijians' e dua na timi kilai levu ena noda vanua o Viti. Era dau vakaitavi ena qito ni rakavi ena veiyasai vuravura ka ra dau vakaraitaka na kaukauwa kei na maqosa ni noda cauravou ni Viti ena qito oqo.\n\nNa yacadra na 'Flying Fijians' e basika mai na nodra dau cici totolo ka veivakasakiti ena gauna ni qito. E vaka sara ga ni ra vuka tiko ena dela ni rara ni qito! \n\nE levu na gauna era dau rawata kina na qaqa na noda timi ka vakavuna me kilai levu kina na yaca i Viti e vuravura ena qito ni rakavi. Ia, e sega ni dau rawarawa na nodra sasaga baleta ni levu na bolebole era dau sotava me vaka na lailai ni noda vanua kei na levu ni sasaga me ra vulica rawa kina na qito oqo.\n\nE dina ni sega ni ra dau qaqa ena veigauna kece, ia e se tu ga vei ira na yalo dei me ra tutaka na noda vanua lomani o Viti. Era ivakaraitaki uasivi ni yalo qaqa kei na gugumatua vei keda na lewenivanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Era kauta maivei na noda timi ni rakavi lewe yavitu mena yaca ni timi na 'Flying Fijians'?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4172,6 +5018,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:47:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na gauna era daucuruma kina na koro Vaka Viti ko ira na vulagi e duidui. Eso era daucuruma ena gauna ni siga ni sucu, eso tale ena gauna ni solevu se soqo lelevu. Ia, e da rawa ni kaya ni levu era daucuruma ena gauna ni vulai sucu kei na vulai siga baleta ni rawa ni raici kina na itovo vakavanua kei na iyau bula vakaviti. E dau taleitaki talega na curumi ni koro ena gauna oqo baleta ni gauna ni marau kei na veiwasei vata."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava daucaka na gauna era daucuruma na koro Vaka Viti ko ira na Vulagi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4260,6 +5124,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:48:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Au sega ni rawa ni vakaraitaka na qaqa ni meke baleta ni rawa ni vakatabakidua. Ia, au rawa ni vakamacalataka vakalekaleka na meke. Na meke e dua na itovo vakavanua bibi ena noda itovo kei na ivakarau vakaViti. E dau vakayagataki ena soqo lelevu me vaka na tevutevu, vakamau se soqo ni vanua. E dau caka ena matanataka na italanoa makawa, vakabibitaka na itovo kei na ivakarau, se vakaraitaka na vakavinavinaka kei na rokovi vei ira na vulagi dokai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Iko matanataka vakacava na meke?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4346,6 +5228,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:49:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna levu era tauyavutaka kina na PAP ko ira na lewe taumada ni SDLP baleta ni ra via toso tani mai na SDLP ka tauyavutaka e dua na pati vou me rawa ni ra vakaitavi ena politiki ni noda vanua ena sala vou.\n\nEra nanuma ni sa gadrevi me dua na veisau ena politiki kei na veiliutaki ni noda vanua, ka ra nanuma ni rawa ni ra kauta mai na veisau oqori ena nodra tauyavutaka e dua na pati vou.\n\nEra via kauta mai e dua na politiki e sema vakalevu kina veika e baleti ira na lewenivanua, me vaka na bula vakailavo, na vuli, kei na tiko bulabula. Era via cakacaka vata kei ira kece na lewenivanua me rawa ni ra vakatorocaketaka na bula nei ira kece sara ena noda vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna era tauyavutaka na PAP (People Alliance Party), ko ira na lewe taumada ni SDLP (Soqosoqo Duavata Ni Lewe Ni Vanua Party)?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4434,6 +5334,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:50:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna e dau vakatabui kina na iqoliqoli ni sa mate e dua na Turaga Bale baleta ni dua na ivakarau vakavanua me vakaraitaki kina na rokovi kei na tagi ena gauna ni rarawa. \n\nE kena ibalebale ni sega ni dua e rawa ni qoli se cakacakataka na iqoliqoli ena loma ni gauna sa lokuci. E dau yaco vakawasoma oqo me 100 na siga na kena dede, ia e rawa talega ni veisau na balavu ni gauna e vakatau ena lewa ni vanua.\n\nNa inaki ni vakatatabu sai koya me kakua ni vakayagataki na iqoliqoli me vaka e dau caka ena veisiga, ka me vakaraitaka na vanua na nona rarawa kei na rokovi ni Turaga sa mai takali yani. E dua talega na gauna mera vakacegu kina na lewenivanua mai na nodra itavi tara iqoliqoli."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna dauvakatabui kina na iqoliqoli na gauna sa mate kina na Turaga Bale, ka cava na kena balavu ni vakatatabu?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4520,6 +5438,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:51:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Oqo e dua na ivakamacala lekaleka ni saparaki:\n\n1. Vakarautaka na kakana - tamusuka na tamata, karoti, lumi kei na kakana tale eso o via vakayagataka. \n\n2. Vakasuasuataka na tamata ena waiwai ena dua na kuro levu.\n\n3. Vakacuruma na karoti, lumi kei na masala. Vakasuasuataka me yacova ni voleka ni buta.\n\n4. Vakacuruma na wai katakata kei na suka. Vakasuasuataka tale ga vakalekaleka.\n\n5. Biuta na vivili se masima me kena i covi.\n\n6. Vakabatabatataka vakalailai qai tukituki se musuka me vaka o vinakata.\n\nOqori ga e dua na ivakaraitaki rawarawa. E rawa ni veisautaki na kakana kei na kena vakarautaki me veiganiti kei na nomu gagadre."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Iko cakava vakacava na saparaki?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4608,6 +5544,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:52:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Oqo eso na ivakarau ni cakacaka ni qalu:\n\n1. Digitaka na ika vinaka ka savasava. Na ika lelevu e dau vinaka ni qalu.\n\n2. Savata vakavinaka na ika ka tamusuka me vaka na kena levu o vinakata. \n\n3. Vakamarautaka na ika ena waiwai, moli, konisala kei na masima me vaka na nomu gagadre.\n\n4. Kuvuna na ika ena draunikau me kakana vata kaya.\n\n5. Binia na ika ena qaniniwaiwai se lovo me madu vinaka.\n\n6. Vakarautaka vata kei na kakana tale eso me vaka na dalo, tavioka se uvi.\n\n7. Wasea ka kania ni sa buta vinaka.\n\nOqori eso na ivakarau rawarawa ni cakacaka ni qalu. E rawa ni veisau na kena caka me vaka na itovo vakavanua kei na gagadre yadudua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Iko cakava vakacava na qalu?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4694,6 +5648,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:53:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Bula vinaka! Au marautaka na nomu taro baleta na vakasakera. Oqo eso na ivakarau rawarawa ni vakasakera:\n\n1. Digitaka e dua na vanua vinaka kei na siga totoka. E rawa ni vanua ni qito, lomanibai se baravi. \n\n2. Kauta mai na kakana kei na wai ni gunu me rauta na levu ni tamata.\n\n3. Vakarautaka na misini ni vakatagi se radio me rogoci kina na sere.\n\n4. Kauta mai eso na misini ni qito me vaka na polo, rakavi se volleyball.\n\n5. Sureti ira mai na nomu itokani kei na lewe ni vuvale mo ni gade vata ka marautaka na siga.\n\n6. Ke o vinakata, droinitaka eso na qito vata me vakamarautaki ira kece na tiko.\n\n7. Kakua ni guilecava me kau mai na sunblock, koti ni manumanu kei na wainimate ni manumanu!\n\nNa ka bibi duadua mo nanuma ni vakasakera me marautaki ka vakacegui kina na yago kei na vakasama. Marautaka na nomu gauna vata kei ira na nomu daulomani!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Iko cakava vakacava na vakasakera?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4782,6 +5754,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:54:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Oqo e dua na ivakamacala lekaleka ni kai vakasoso:\n\n1. Vakarautaka na soso (lolo ni niu, suka, masima kei na wai)\n2. Tavia na soso me katakata vinaka\n3. Cereka na kai ki na veiiwasewase lalai\n4. Biuta na kai ki na soso katakata ka vakawaicalataka me rauta ni 30 na miniti\n5. Cereka na vuanikau (vudi, cassava se dalo) ka qai biuta ki na soso\n6. Vakawaicalataka tale me vica na miniti me drodro kina na soso\n7. Kania ni sa buta vinaka na kai kei na vuanikau\n\nOqori ga e dua na ivakaraitaki ni sala ni cakacakataki ni kai vakasoso. E rawa ni duidui na kena caka vei ira eso tale na veimatavuvale se vanua e Viti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Iko cakava vakacava na kai vakasoso?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4868,6 +5858,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:55:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Eso na sala e rawa ni o cakava kina na card ni basi ni nodra na malumalumu:\n\n1. Veitaratara vei ira na tabana ni basi se transport ena nomu vanua. Taroga vei ira na ivakarau ni kerei ni card ni basi ni malumalumu.\n\n2. Vakarautaka na ivola ni vuniwai se medical certificate ka vakadinadinataka ni o malumalumu dina. Oqo e dau gadrevi me veidonui kei na nomu kerekere.\n\n3. Vakalewena na fomu ni kerekere ka solia vata kei na nomu ID kei na medical certificate ki na tabana ni basi.\n\n4. Waraka me ra vakadonuya na nomu kerekere. Kevaka e vakadonui, ena soli vei iko e dua na card ni basi ni malumalumu.\n\n5. Kevaka e sega ni vakadonui, e rawa ni o taroga tale se cava e dodonu mo cakava me baleta.\n\nNa veika oqo e rawa ni duidui vakalailai ena veivanua yadua. Ia na imatai ni ka mo cakava ga oya mo veitaratara ki na tabana ni basi se transport ena nomu vanua ka taroga vei ira na ivakarau dodonu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava beka meu cakava mena rawa kina na card ni basi ni nodra na malumalumu?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4956,6 +5964,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:56:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Oqo eso na ivakarau mo muria me rawa kina nomu laiseni ni draiva e Viti:\n\n1. Mo yabaki 17 se sivia. \n2. Vakadeitaka ni tiko vei iko e dua na iVola ni Bula (Birth Certificate) se dua tale na iVola ni Kena Dina (ID).\n3. Vakacavara na fomu ni kerekere (application form) ni laiseni vou mai na LTA (Land Transport Authority).\n4. Sauma na ilavo ni kerekere.\n5. Vakaitavi ena vuli ni lawa ni gaunisala (Road Code theory test). Mo rawata e 90% se sivia.\n6. Vakaitavi ena vuli ni draiva (practical driving test) vata kei na dua na ovisa ni LTA. \n7. Kevaka o rawata na nomu vuli ni draiva, ena soli vei iko na nomu laiseni ni draiva.\n\nMo nanuma tiko ni bibi mo muria vakavinaka na lawa kei na ivakatagedegede ni gaunisala me rawa ni ko draiva vakavinaka ka taqomaki kina na bula nei ira na vo ni lewenivanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na caka beka vakacava me dua noqu laiseni ni draiva?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5042,6 +6068,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:57:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Eso na sala mo rawa ni volia kina e dua na nomu tiki ni qele:\n\n1. Maroroya na ilavo - Vakatubu ilavo ena nomu cakacaka se bisinisi, qai maroroya vakavinaka me rawa ni vo me voli qele kina. Bulia e dua na ituvatuva ni ilavo maroroi.\n\n2. Dinau mai na baqe - Kerekere dinau mai vei ira na baqe me voli qele kina. Raica na baqe e vakarautaka na dinau vakabisinisi kei na dinau ni vale.\n\n3. Cakacaka vata kei ira na wekamu - Raica kevaka e rawa mo cakacaka vata kei ira na wekamu voleka mo volia vata kina e dua na qele levu.\n\n4. Vakasaqara na veivuke ni matanitu - Eso na matanitu era dau solia na veivuke vakailavo se dinau sautu me voli qele kina. Vakadidike se tiko eso na porokaramu vaqori e nomu vanua.\n\n5. Vakayagataka na nomu tiki ni qele - Kevaka sa tiko oti e dua na nomu tiki ni qele, raica mo vakayagataka me rawa tubu kina me qai voli tale kina e dua na tiki ni qele.\n\nNa ka bibi mo bulia e dua na ituvatuva matau ni ilavo qai muria vakavinaka. Kua ni soro, cakacaka vakaukauwa, qai na qai rawati ga vakamalua na nomu sasaga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava me'u cakava mena rawa ni'u volia mena dua kina na noqu tiki ni qele?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -5130,6 +6174,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:58:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vaqiqi moli e dua na bibi ni vaqiqi ka vakayagataki ena vaqiqi ni kakana me vaka na moli, laimi, se na vuanikau tale eso. E dau vakayagataki me vakatetea na kakana me mamaqataka ka vakavinakataka na kena ituvaki. Na kena levu e rawa ni duidui mai na 1/4 ni itini ki na 1 na itini se sivia.\n\nNa vaqiqi moli e rawa talega ni vakayagataki me vakavinakataka na iboi ni kakana, me vaka na kena vakacurumi ena ika se sasalu, se na kena vakayagataki me vakaiboi vinaka na yavu ni kakana vaka-Idia.\n\nE bibi me digitaki vakavinaka na vaqiqi moli me ganita na kakana eda vinakata me vakarautaki. E dodonu me savasava vinaka ka sega ni vakacacani. Kevaka eda via maroroya me balavu, e rawa ni bini ena dua na saqa ka maroroi ena dua na vanua batabata kei na mamaca."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na bibi ni vaqiqi moli?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5216,6 +6278,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:59:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na tabua e dua na iyau talei ka bibi sara ena noda itovo vakaViti. E dau vakayagataki ena gauna ni veivosaki bibi se veiqaravi vakavanua me vaka na:\n\n1. Matanigasau - Kerei ni veivosoti\n2. Duguci - Kerei ni veitokoni se veivuke\n3. iReguregu - Gauna ni rarawa se mate\n\nEna gauna e mate kina na wati ni dua na marama, e dau vakayacori na somate. Oqo na gauna era dau vakaitavi kina na weka voleka ni mate ena kena qaravi na veika e gadrevi me baleta na somate kei na kena ireguregu.\n\nE dau vakayagataki kina na tabua me ivakaraitaki ni loloma, veinanumi kei na veikauwaitaki vei ira na lewe ni vuvale era rarawa tiko. E kena ibalebale ni o ira era soli tabua era tokona tiko na vuvale ena gauna dredre oqo, ka tu vakarau me ra vukei ira ena veika era na gadreva.\n\nO koya, e bibi sara na kena soli na tabua vua na yada me ivakaraitaki ni veitokoni, loloma kei na veikawaitaki ena gauna ni rarawa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava daudiriki kina na tabua vua (dua) na marama, ka sa mate na watina?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -5304,6 +6384,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:60:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ena bula vakavanua vakaViti, e dau vakayagataki vakalevu na veiduguci me vakaraitaki kina na veivakarokorokotaki, na loloma kei na veiwekani. \n\nEso na kena ivakaraitaki na veiduguci e Viti:\n\n1. Veiduguci ni veikidavaki - ni sota e rua na tamata, rau dau veiduguci me rau kidavaki kina. \n\n2. Veiduguci ni vakavinavinaka - ni caka e dua na ka vinaka vei iko, e dodonu mo veiduguci mo vakavinavinakataka kina.\n\n3. Veiduguci ni veivosoti - kevaka e caka e dua na cala, rau qai veiduguci na tamata me rau veivosoti kina.\n\n4. Veiduguci ni veitalatala - ni dua e via vosa vei iko, drau veiduguci taumada ni bera ni vosa.\n\n5. Veiduguci ni veivakamoceri - ni tiko e dua na soqo ni mate, era dau veiduguci na lewe ni vanua me vakaraitaki kina na veivakamoceri.\n\nE vakaraitaka na veiduguci na veimaliwai vinaka kei na veivakarokorokotaki ena bula vakavanua vakaViti. E umani vata kina na yalo ni veilomani, veiciqomi kei na veikauwaitaki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daucaka vakacava na veiduguci ena bula vaka itaukei?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5390,6 +6488,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:61:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ena gauna ni curu ibure, e dau vakayacori na veika oqo vei ira na cauravou:\n\n1. Vakadidike ni yagodra - me raici se ra bulabula vinaka tu. \n\n2. Veisau na nodra isulu - me soli vei ira na isulu ni veivesu.\n\n3. Kena vakamacalataki na lawa ni vale ni veivesu - me ra kila na ka e vakadonui kei na ka e sega ni vakadonui.\n\n4. Vakadidike ni nodra iyaya - me raici se ra kauta tiko mai e so na ka sa tabu tu.\n\n5. Kena soli na nodra rumu se valenimoce - me ra kila na vanua era na moce kina.\n\n6. Kena vakamacalataki na ituvatuva ni veisiga - me vaka na gauna ni katalau, gauna ni vakasigalevu, gauna ni moce.\n\nIa na veika oqo e rawa ni duidui vakalailai ena veivale ni veivesu yadua, ia oqori na ivakarau e dau muri vakararaba."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava e daucaka vei ira na cauravou ena gauna ni curu ibure?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -5478,6 +6594,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:62:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Eso na ka e rawa ni o cakava me rawa kina ni o ciqoma na veivuke mai na tabana ni Social Welfare:\n\n1. Vakadeitaka ni o sotava na veivakarautaki me vaka na yabaki, ituvaki ni vakamau, ituvaki vakailavo kei na so tale. Na veivakarautaki oqo e duidui vakatau ena mataqali veivuke o vinakata.\n\n2. Vakalewena e dua na fomu ni kere veivuke ka vakarautaka na ivola e vinakati me vaka na ID, ivola ni sucu, ivola ni vakamau, itukutuku vakailavo kei na so tale.\n\n3. Kauta na nomu ivola ni kerekere kei na veiivola e gadrevi ki na valenivolavola ni Social Welfare e voleka duadua vei iko.\n\n4. Waraka me ra dikeva na nomu kerekere na vakailesilesi ni Social Welfare. Era na qai vakadeitaka ke o sotava na veivakarautaki se sega.\n\n5. Kevaka e vakadonui nomu kerekere, o na qai tekivu ciqoma na veivuke ena gauna ka lokuci.\n\nE bibi mo nanuma ni duidui na mataqali veivuke e vakarautaka na Social Welfare ka duidui talega na veivakarautaki me baleta na veivuke yadua. Kevaka e sega ni matata se o gadreva na ikuri ni itukutuku, e dodonu mo veitaratara ki na valenivolavola ni Social Welfare me baleta na veivuke."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava meu na cakava mena rawa kina ni ciqoma na veivuke ni Social Welfare?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5564,6 +6698,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:63:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Bula vinaka! Au kila ni sa dua na gauna dredre vei iko kei na nomu matavuvale ena gauna oqo. E dau yaco vakawasoma na leqa ni bula ena noda bula, ia e bibi meda vosota ka veitokoni vata meda rawa ni sotava na bolebole eso.\n\nE rawa beka ni o vakamacalataka vakalailai na leqa e sotava tiko na wekamu? Au na saga meu solia eso na ivakasala se veivuke kevaka e rawa, se meu vakarorogo ga kevaka o gadreva mo wasea na nomu vakanananu.\n\nE bibi talega meda nanuma tiko ni sega ni da taudua ena gauna dredre. E tu na veitokoni mai vei ira na noda itokani, matavuvale kei na lewenivanua. Kakua ni o lomalomarua mo kerea na veivuke kevaka o gadreva.\n\nAu nuitaka ni na vinaka cake tiko na ituvaki ni wekamu, ka dou na kunea na ivakarau ni veivakacegui kei na veivakabulabulataki ena gauna oqo. Mo yalodei tiko ga ka mo kila ni o sega ni tiko duadua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava daucaka ni sa oti na bogi duanadrau nona leqa na wekada?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -5652,6 +6804,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:64:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na soli kina o Viti ki Peretania e yaco ena 10 ni Okotova, 1874. Oqo e baleta ni a kerea na Tui Viti ko Cakobau vei Peretania me vakarorogo Viti ena vuku ni leqa vakailavo kei na veika tale eso e sotava tiko na matanitu. \n\nEna gauna oya, e sotava tiko o Viti e levu na bolebole me vaka na dinau levu, na veivaluvaluti vakavanua, kei na veika tale eso. O Cakobau kei ira na iliuliu tale eso era raica ni na rawa ni vukea na matanitu o Peretania ena kena wali na leqa oqo.\n\nNi oti e vica na veitalanoa, era sa qai vakadonuya na iliuliu ni Viti kei Peretania me soli kina o Viti. E a soli kina vakaivolatabu o Viti vei Peretania ena 10 ni Okotova, 1874, ka yaco kina me kolonitaki Viti.\n\nE dina ni sega ni taleitaki vakalevu na vakatutu oqo vei ira eso na lewenivanua, ia era raica na iliuliu ni Viti ni oqo e sala vinaka duadua me rawa kina ni taqomaki ka vakatorocaketaki na vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava e a soli kina o Viti Ki Peretania?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5738,6 +6908,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:65:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna levu e sa vakacegui kina na Minisita ni Vuli o Asaeli Radrodro mai na nona itutu ena Palimedi baleta ni sa vakadinadinataki ni sa voroka na lawa ni saumi ivakacavacava (FRCS tax laws).\n\nE tukuna na Paraiminisita Voreqe Bainimarama ni sa sega ni ganita me tiko e Palimedi e dua na tamata sa voroka tu na lawa. E kuria ni dodonu me ivakaraitaki vinaka na Minisita vei ira na lewenivanua.\n\nSa mai sosomitaki o Radrodro ena itutu ni Minisita ni Vuli o Mereseini Vuniwaqa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna e sa vakacegui kina na Minisita ni Vuli o Asaeli Radrodro mai na Palimedi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -5826,6 +7014,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:66:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na itukuni me baleta na ura damu ni Vatulele e tukuni tiko kina na kena tauyavutaki na ura damu ena yanuyanu ko Vatulele. \n\nEna dua na gauna makawa, e dua na turaga ni Vatulele e a kauta mai e dua na ura damu mai na vanua tani. E a qai vakayagataka na ura oqo me vakasucuma kina na ura ena nona yanuyanu. \n\nNi sa tubu cake na ura, era sa qai vakatokai me ura damu ni Vatulele baleta ni ra duidui mai na ura tale eso ena kena roka damudamu totoka. E kena irairai ni ra sa mai sucu koso tu ga kina na ura damu oqo ena yanuyanu ko Vatulele.\n\nE dua na ka talei ni itukuni oqo ni sa ikoya e vakamacalataka tiko na kena tauyavutaki e dua na ika kilai levu sara ena noda vanua. Ia, e sega ni matata sara se dina beka na itukuni se sega. Na ka ga e laurai levu ni sa dua na ika kilai levu na ura damu ni Vatulele ka dau taleitaki vakalevu na kena irairai totoka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na itukuni me baleta na ura damu ni Vatulele?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5912,6 +7118,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:67:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na bulubulu e dua na itovo vakavanua bibi ena noda vanua o Viti. E dau vakayacori me vakaraitaki kina na veivosoti, veivakacegui kei na veivakasaututaki. \n\nEna gauna ni bulubulu, e dau cabori kina na iyau bula (tabua, ibe, masi, magiti) vei ira na wekani mate me isoro ni veivosoti kei na vakacegu. E kena inaki me vakavotuya na yalodina ni veivosoti ka semata tale na veiwekani.\n\nE duidui na kena ivakarau ena veiyasana e Viti, ia na kena yavu e tautauvata ga. E bibi ni da maroroya na itovo vakavanua oqo baleta ni yavu ni bula veimaliwai vakaViti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava daucaka ni cara na bulubulu?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -6000,6 +7224,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:68:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vakatoka yaca e dua na ka bibi ena noda bula. E rawa ni da digitaka e dua na yaca totoka, yaga ka ganita na gone. Oqo eso na vakasama me vukea na noda vakatoka yaca:\n\n1. Digitaka e dua na yaca ka rawarawa me cavuti ka volai. Kakua ni digitaka e dua na yaca balavu se dredre.\n\n2. Vakasamataka na kena balebale se ibinibini ni vosa. E rawa ni o digia e dua na yaca ka tukuna na itovo vinaka se dua na ka talei. \n\n3. Vakasamataka na yaca ni vuvale se yaca makawa. Oqo e sala vinaka ni kena rokovi na tubuda.\n\n4. Raica me veiganiti kei na yacamu. Vakasamataka na kena rorogo vata kei na nomu yaca.\n\n5. Kevaka o vinakata, digitaka e dua na yaca ka tiko kina na matanivola isevu ni yacamu kei na watina/watimu.\n\n6. Kakua ni digitaka na yaca ka rawa ni vakayagataki me vosa veiwali se veivakalolomataki.\n\nNa vakatoka yaca e dua na ilesilesi bibi. Ia kevaka o muria na ivakasala oqo, o na rawa ni kunea e dua na yaca totoka ka ganita na luvemu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daucaka vakacava na vakatoka yaca?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -6086,6 +7328,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:69:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Eso na vuna e veisautaki kina na yaca ni mataivalu ni Viti:\n\n1. Ni oti na kena rawati na tu vakayadua ena 1987, sa veisautaki na yaca mai na Royal Fiji Military Forces (RFMF) ki na Republic of Fiji Military Forces (RFMF). Qo e vakaraitaka ni sa sega tale ni veiwekani vakapolitiki kei Peritania.\n\n2. Ena 2013 sa veisau tale na yaca ki na Republic of Fiji Military Forces (RFMF). Qo e vakabibitaka na nona itutu vou na mataivalu me vaka e dua na tabana ni matanitu.\n\n3. Na veiveisau ni yaca e vakaraitaka talega na veiveisau ni itutu vakapolitiki kei na itavi ni mataivalu ena veigauna eso.\n\n4. E rawa ni vakaraitaka talega na gagadre me toso ki liu ka biuta laivi eso na isema makawa ni gauna e liu.\n\nIa, na inaki levu duadua ni kena veisautaki na yaca sai koya me vakaraitaka na veisau ni itutu vakapolitiki kei na itavi ni mataivalu ni Viti me veiganiti kei na toso ki liu ni vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna a veisautaki kina na yaca ni mataivalu ni Viti?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -6174,6 +7434,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:70:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "O Sitiveni Rabuka e dua na daunipolotiki ni vanua ko Viti. Eso na itukutuku baleti koya:\n\n- E sucu ena 1948 mai Nakobo, Cakaudrove, Viti\n- E vuli ena Ratu Kadavulevu School ka qai curu ki na mataivalu ni Viti\n- Ena 1987 e liutaka e rua na veivukayaki ni matanitu ka sa qai mai Paraiminisita kina ena 1992-1999\n- Ena 2022 e sa qai lesu tale mai ki na politiki ka sa mai liutaka na SODELPA\n- Ni oti na veidigidigi ena 2022, sa mai digitaki ko Rabuka me Paraiminisita ni Viti\n\nO Rabuka e kilai levu ena nona veiliutaki vakaivalu ena 1987 kei na nona veisau ki na bula vakapolitiki e muri. E dau vakatokai me tamata qaqa ka dau tu ga ena ulu ni politiki e Viti ena 35 na yabaki sa oti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O cei o Sitiveni Rabuka?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -6260,6 +7538,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:71:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na cakacaka ni Tabana ni Qele Maroroi se iTaukei Land Trust Board (TLTB) e Viti e wili kina na:\n\n1. Maroroya ka cicivaka na qele ni iTaukei me baleti ira na itaukei ni qele kei ira era vakayagataka. \n\n2. Soli lisi ni qele vei ira na via vakayagataka me vaka na bisinisi, veivakavaletaki, kei na teitei.\n\n3. Kumuna na ilavo ni lisi (lease) mai vei ira era vakayagataka na qele ka wasea vei ira na itaukei ni qele.\n\n4. Vakarautaka na veivuke vakailavo (lease security bonus) vei ira na itaukei ni qele.\n\n5. Maroroya na ivolatukutuku kei na mape ni qele ni iTaukei.\n\n6. Veivuke ena kena vakatorocaketaki na bula vakailavo ni itaukei ni qele ena kena vakayagataki vinaka na qele.\n\n7. Solia na ivakasala vei ira na itaukei ni qele kei ira era via vakayagataka na qele me baleta na lawa ni qele maroroi.\n\nNa inaki levu ni TLTB me maroroya ka cicivaka vinaka na qele ni iTaukei me baleta na nodra bula sautu na kawa ni qele nikua kei na veisiga ni mataka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na cakacaka ni Tabana Ni Qele Maroroi se na iTaukei Land Trust Board?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -6348,6 +7644,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:72:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Sori, au sega ni kila na ibalebale ni \"O cei o Ratu Ra La\". E rairai e dua na vosa mai na vosa vaka-Viti, ia au sega ni kila vakavinaka na vosa oqori. Ke o via kerea me'u vakadewataka e dua na ka, au na saga me'u vukei iko ena kena ivakarau vinaka duadua au rawa ni cakava, ia au na sega ni rawa ni vakadewataka na itukutuku e taqomaki ena lawa ni ivola se sere."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O cei o Ratu Ra La?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -6435,6 +7749,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:73:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na Sinuwasa e dua na waqa ni Viti ka a kasa ena yabaki 1985 ena nona ilakolako mai Suva ki Rotuma. E levu era a vakaleqai kina ka ra a yali talega kina e lewe 5 na pasidia. E dua na vakacaca levu ka ra se nanuma tiko nikua na lewenivanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A kasa vakacava na waqa na Sinuwasa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -6521,6 +7853,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:74:language.fijian:claude opus",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na Peresitedi kei Viti e dau digitaki ena sala ni veidigidigi raraba ka dau vakayacori ena veiyabaki va. \n\nNa veidigidigi oqo e dau vakayacori ena loma ni 3 na vula ni sa oti na kena vakaotia na nona itutu vakaPeresitedi o koya e sa digitaki tu.\n\nE dau vakayacori na veidigidigi oqo ena sala ni veidigidigi vuni ka dau vakaitavi kina na lewenivanua kece era yabaki 18 lako cake.\n\nO koya e vinakata me Peresitedi e dodonu me lewenivanua dina ni Viti, me yabaki 40 lako cake, ka me sega ni bau lewai me cakava e dua na cala bibi ena loma ni 5 na yabaki sa oti.\n\nNa Peresitedi e dau digitaki me liutaka na matanitu me baleta e 5 na yabaki ka rawa ni digitaki tale me dua tale na itutu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daudigitaki vakacava na Peresitedi kei Viti?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]

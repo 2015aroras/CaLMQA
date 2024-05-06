@@ -84,6 +84,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:0:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Awsi sultaanet mannal xissiimeeh yascaaneh:\n\n1. Awsi sultaanet kee nagayih baaxo kee nammay baaxo kinni.\n2. Awsi sultaanet Soomaaliya baaxol taniimih.\n3. Awsi sultaanet Soomaaliya baaxol 13kki qarni gadda fakkimteh.\n4. Awsi sultaanet Soomaaliya baaxol inki nammay kee xaggay kinniimih.\n5. Awsi sultaanet Ajuuraan Sultaanet kee Adal Sultaanet kinni.\n\nAwsi sultaanet Soomaaliya baaxol sanat kee nagay baaxo kee nammay baaxo kinniimih. Toh Soomaaliya baaxol sanat kee nagay baaxo kee nammay baaxo kinni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Awsi sultaanet mannal xissiimeeh?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -170,6 +188,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "afar:1:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waa maxay macnaha \"Rabeena kulli liggida kah yassakaxxenim\"?\n\nWaa hadalka Soomaaliga oo micnihiisu yahay \"Ilaahayow naga fogee dhibka oo dhan\". \n\nWaa duco ama baryootan Ilaahay laga codsanayo inuu naga ilaaliyo dhibaatada iyo xanuunka nolosha. Waxaa inta badan lagu ducaysto marka qofku uu ku jiro xaalad adag ama marka uu dareemayo inuu u baahan yahay gargaarka iyo naxariista Ilaahay.\n\nErayadan waxaa ku jira:\n- Rabeena = Ilaahayow \n- Kulli = Dhammaan, oo dhan\n- Liggid = Dhibaato, xanuun\n- Kah = Ka, naga\n- Yassakaxxenim = Naga fogee, naga ilaali\n\nSidaas darteed, waa codsi Ilaahay loo jeedinayo si uu uga ilaaliyo qofka codsanaya dhibaatada iyo xanuunka nolosha oo dhan. Waa muujin tawakul iyo iimaanka qofku Ilaahay u hayo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Rabeena kulli liggida kah yassakaxxenim macaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -258,6 +294,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:2:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Kee digiri rakiibo madqo macaay Qafar af kee baritto kinni. Qafar afak digiri rakiibo madqo macaay \"Qafar af\" yaanam kinni. Qafar afih digiri rakiibo madqo macaay baahe kinni, amaa kee baritto Qafar afak kee baritto digiri rakiibo madqo macaay kinni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar koqsoh digirik rakiibo madqooqi macaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -344,6 +398,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "afar:3:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waxaan ka xumahay, laakiin ma fahmin waxaad i weydiisay. Ma ahan luqadda Soomaaliga oo sax ah. Fadlan mar kale isku day inaad su'aashaada ku qorto Af Soomaali oo sax ah si aan u fahmo uuna kuu jawaabo si fiican."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qasxago mannal abnu dudnaah?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -432,6 +504,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:4:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Nek iyyaah Afar af kee namma mari Danaakil baaxo kee ummatta kinni. Danaakil baaxol Afar ummatta radeh yan. Afar af Kuuxi af kin xaagu kinni, toh Kuuxi afak Afar afih inki mara kinni. Afar afak yaabimta kee yaabah af kinni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nee akke sinni mari Danaakil macah nek iyyaah?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -518,6 +608,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "afar:5:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Qafar af-kak geytaamak yen faxximta, \"Qafar rakaakayih doolatih simbilih bisittek\" kah macnah kinnim:\n\nQafar: Qafar-ik rado. Qafar-ik num.\nRakaakayih: Caddol kee naxaarat leh yen.\nDoolatih: Koo doolatah rado. Qafar doolat kee Qafar biyaakittek rado.\nSimbilih: Qafar biyaakitta fan yen.\nBisittek: Bicitaanam kee caddol leh raacinaanam.\n\nTohuk macnah kinnim, Qafar num caddol kee naxaarat leh yen, koo Qafar doolat kee biyaakitta fan, bicitaanam kee caddol leh raacinaan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar rakaakayih doolatih simbilih bisittek maqna macaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -606,6 +714,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:6:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Kah milaagak macaay Qafar rakaakayih doolat inaytâ magaala Aysaqiitak Samara fan. Qafar af kee baritto kee umaan fan kah milaagak macaay. Qafar rakaakayih doolat inaytâ magaala Aysaqiitak Samara fan kah milaagak macaay iyya yaanam Qafar afak kee barittoysittek kee umaan fan kah milaagak macaay."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar rakaakayih doolat inaytâ magaala Aysaqiitak Samara fan kah milaagem macaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -692,6 +818,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "afar:7:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay jechuun Afaan Oromootiin:\n\nQadooyaamaraa fi Qasaayamara gidduutti yoom deemuu dandeessa? jechuudha.\n\nKunis iddoo lama gidduutti karaa ykn yeroo meeqaatti akka deemuu danda'amu gaafachuu dha. Fakkeenyaaf, magaalaa lama gidduutti konkolaataan sa'aatii meeqaan akka geenyu gaafachuu jechuudha."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -780,6 +924,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:8:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waan ka xumahay, laakiin ma fahmin waxaad i weydiisay. Waxaad ku hadashaa af Soomaali, kaas oo aanan aqoon. Haddii aad ku hadasho Ingiriis, waxaan isku dayaa inaan kaa caawiyo sidii aan awoodo. Fadlan iigu soo celi su'aashaada Ingiriis ahaan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Keeke digir mannal Abaanaah?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -866,6 +1028,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "afar:9:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Anu faransaay af Qafar kee caddol maay. Anuk sinni leh Qafar af kee addat abte kee caddol maay. Anu faransaay Qafar afak baxsale ceeloola macaay kee essero maay. Anu esseroyta Qafar afak baxsale ceeloola macaay kee essero maay. Anu esseroyta Qafar afak baxsale ceeloola macaay kee essero maay."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar madqak baxsale ceeloola macaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -954,6 +1134,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:10:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Taamummaan kee gaarii dha. Garuu, afaan Oromoo sirriitti hin beeku. Afaan biraa yoo ta'e, Ingiliffaan gaafadhu. Nan si gargaara."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nuufe gaqammo mannal bicsaanaah?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1040,6 +1238,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "afar:11:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waxaan ku qoran Af Soomaali, oo micnaheedu yahay \"Sidee tahay?\" ama \"Iska warran?\". Waa sida caadiga ah ee lagu salaamo qof Soomaali ah markii la kulmo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Xaagi gexsititte macaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1128,6 +1344,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:12:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Teerul sinam boynak lee elle tayyaaqem aninnaay? is a sentence in Somali language. It translates to English as:\n\n\"How are you today, my dear friend?\"\n\nHere's the breakdown:\n- Teerul: Today\n- sinam: how\n- boynak: are you (2nd person singular)\n- lee: my\n- elle: dear\n- tayyaaqem: friend\n- aninnaay: (question marker)\n\nSo it's a friendly, informal greeting asking someone how they are doing today."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Teerul sinam boynak lee elle tayyaaqem aninnaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1214,6 +1448,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "afar:13:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waxaan ka xumahay, laakiin ma fahmin waxaad i weydiisay. Waxaad ku hadashaa af aan aqoon. Ma kugu caawin karo haddii aadan ku soo qorin su'aashaada Ingiriis ama Soomaali. Fadlan dib u soo dir su'aashaada mid ka mid ah afafkaas si aan kuu caawiyo sida ugu fiican."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ixbonta yaanam macaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1302,6 +1554,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:14:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Xaasiga waa qof aan xaqa u lahayn inuu wax sameeyo ama wax yeesho, oo ku xad-gudba xuquuqda dadka kale si uu u gaaro ujeedooyinkiisa gaarka ah. Xaasiga wuxuu isticmaalaa hanjabaad, cabsi gelin iyo rabshado si uu u gaaro waxa uu doonayo. Wuxuu ku khasbi karaa dadka inay wax sameeyaan iyagoo aan rabin ama oggolaansanayn. Xaasigu ma aha qof wanaagsan, waana in laga fogaadaa oo laga digtoonaadaa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Xaasiga yaanam macaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1388,6 +1658,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "afar:15:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waxaan ka xumahay, laakiin ma fahmin waxaad i weydiisay. Waxaad ku hadashaa af aan aqoon oo aan ahayn Ingiriis. Haddii aad ku hadli kartid Ingiriis ama aad su'aashaada ku qori kartid hab kale, waxaan ku faraxsanahay inaan isku dayo inaan kaa caawiyo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sultan Macammad Canfaxek illalta kah iyyeenim macak teneeh?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1476,6 +1764,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:16:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Kusumaay kee, ati Dhivehi bas therein liyefai mi jumla ge maaney fahala kurevey kamah nudhakkaanan. Nuvatha mi jumla akah bodu maaney eh nulibey. Maaf kurey! Dhivehi bas therein liyumuge usoolaigaa behey gothakah liyumah masakkath kuran."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Absuma rihim yaanam maca yaanamaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1562,6 +1868,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "afar:17:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Tola gaaffii kana deebisuu hin danda'u, Afaan Oromoo sirriitti hin beeku waan ta'eef. Afaan Amaaraa fi Afaan Ingilizii qofa nan beeka. Afaan biroo barachuuf nan yaala. Gaaffii biroo yoo qabaattan, nan isin gargaara."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Basiita mannal bicsaanaah?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1650,6 +1974,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:18:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waan ka xumahay, afka aad ku hadashay ma aqaan oo sidaas darteed su'aashaada si fiican uma fahmayo. Waxaan moodayaa inaad i weydiineyso magaca meeshii ugu kululeyd adduunka, taasoo lagu magacaabo Dallol ee ku taal Danaakil Depression, Itoobiya. Laakiin haddii aad wax kale i weydiineyso, fadlan su'aashaada dib u soo qor af Ingiriis ah si aan u fahmo oo aan kuu caawiyo. Waan ka xumahay haddii aan si fiican kuugu jawaabi waayay!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Danaakil rammaya ardi migaq ankek geeh?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1736,6 +2078,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "afar:19:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Saga geeri namma lakal massa iyya qafar missili ma farmo leeh?\n\nSaga geeri namma lakal massa iyya qafar missili ma farmo leeh iyyah kee namma lakal massa iyya qafar missili ma farmo leeh. Saga geeri namma lakal massa iyya qafar missili ma farmo leeh iyyah kee namma lakal massa iyya qafar missili ma farmo leeh. Saga geeri namma lakal massa iyya qafar missili ma farmo leeh iyyah kee namma lakal massa iyya qafar missili ma farmo leeh."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Saga geeri namma lakal massa iyya qafar missili ma farmo leeh?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1824,6 +2184,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:20:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waan ka xumahay, ma garanayo in Sultaan Macammad Yayyo sanadkii 1939 room fan isticmaalay iyo in kale. Ma hayo macluumaad ku filan oo ku saabsan nolosha shakhsiyadeed ee Sultaan Macammad Yayyo si aan u sheego haddii uu lahaa room fan sanadkaas. Haddii aad rabto macluumaad dheeraad ah oo ku saabsan taariikhda qalabka korontada ee Soomaaliya, waxaan kugula talin lahaa inaad raadiso ilo kale sida buugaag ama maqaallo ku saabsan mowduucan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sultaan Macammad Yayyo 1939 Room fan kah gexem macak teneeh?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1910,6 +2288,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "afar:21:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waxaan ka xumahay, laakiin ma fahmi karo luqadda aad ku hadlayso. Waxay u muuqataa inay tahay Soomaaliga, laakiin anigu ma aqaan Soomaaliga. Haddii aad ku hadli kartid Ingiriis ama luqad kale oo aan aqaan, waxaan ku faraxsanahay inaan isku dayo inaan kaa caawiyo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Danaakil rammaya ardi habugya bisu kah lem macaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1998,6 +2394,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:22:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Baarakallahu fiik! Maaf, saya tidak bisa memahami bahasa yang Anda gunakan dalam pertanyaan tersebut. Apakah itu bahasa Arab atau bahasa lainnya? Jika Anda bisa mengulangi pertanyaan dalam bahasa Indonesia atau Inggris, saya akan dengan senang hati mencoba menjawabnya sebaik mungkin. Mohon maaf atas ketidaknyamanannya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qabdallale miyyak teneeh?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2085,6 +2499,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "afar:23:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waxaan ka xumahay, ma garanayo jawaabta su'aashaada. Waxaan ahay barnaamij kombuyuutar oo lagu magacaabo Claude, oo ay sameysay shirkadda Anthropic si uu ula hadlo dadka luqado kala duwan. Aqoontaydu waa mid xaddidan oo aan si buuxda u aqoon taariikhda Soomaaliya iyo magaalooyinkeeda. Waxaan kugula talin lahaa inaad wax ka barato ilo kale sida buugaagta ama internetka si aad u hesho macluumaadka aad raadineyso. Waan ka xumahay inaanan ku siin karin jawaab ka fiican! Ma jirto wax kale oo aan kaa caawin karo?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qadaal sultaanet inayta magaala Hararak Aysaqiita fan kah korsem macak teneeh?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2171,6 +2603,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "afar:24:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Qafar af kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak.\n\nAnaa kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
