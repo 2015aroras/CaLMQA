@@ -75,7 +75,7 @@ class PromptingState:
             return TransformersPromptParameters.__name__
         if model_name in ClaudeModel.SUPPORTED_MODELS:
             return ClaudePromptParameters.__name__
-        if model_name == ModelName.HUMAN:
+        if model_name in (ModelName.HUMAN, ModelName.HUMAN_DOT_POINTS):
             return PromptingState.__name__
 
         raise NotImplementedError
