@@ -14,6 +14,7 @@ __all__ = [
 
 class ModelName(enum.Enum):
     HUMAN = "Human"
+    HUMAN_DOT_POINTS = "Human (dot points)"
     GPT_4 = "GPT 4"
     AYA_101 = "AYA 13B"
     GEMMA_7B = "Gemma 7B"
