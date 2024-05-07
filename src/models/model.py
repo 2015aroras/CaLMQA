@@ -78,7 +78,7 @@ class PromptingState:
         if model_name in (ModelName.HUMAN, ModelName.HUMAN_DOT_POINTS):
             return PromptingState.__name__
 
-        raise NotImplementedError
+        raise NotImplementedError(model_name)
 
 
 class Model(metaclass=ABCMeta):
