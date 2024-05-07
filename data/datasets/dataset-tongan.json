@@ -84,6 +84,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:0:language.tongan:claude opus",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'Oku 'i ai 'a e 'uhinga lahi 'oku 'ikai ke lava ai ke ma'u 'api 'a e kakai fefine Tonga:\n\n1. Lao fakasosiale mo e tukufakaholo - 'Oku pehē 'e he 'ulungaanga fakafonua mo e tukufakaholo 'o Tonga ko e tangata pe 'oku totonu ke ma'u 'api. 'Oku 'ikai ke ngofua ki he fafine ke ma'u 'api 'i he lao.\n\n2. Lao fakapule'anga - 'Oku poupou'i 'e he lao 'a e tukufakaholo ko 'eni 'o 'ikai faka'ata ki he kakai fefine ke nau ma'u 'api. \n\n3. Tu'unga fakapa'anga - 'Oku fa'a masiva ange 'a e kakai fefine 'i he kakai tangata 'o 'ikai ke nau ma'u ha pa'anga fe'unga ke fakatau 'api.\n\n4. Mafai fakasosiale - 'Oku si'isi'i ange 'a e mafai 'o e kakai fefine 'i he sosaieti ke nau fai ha ngaahi tu'utu'uni lalahi 'o kau ai 'a e ma'u 'o ha 'api.\n\nKo e fakangatangata ko 'eni 'oku hoko ko ha pole lahi ia ki he kakai fefine Tonga 'o uesia ai 'enau mo'ui fakapa'anga mo fakasosiale. 'Oku fiema'u ha liliu ki he lao mo e 'ulungaanga fakafonua ke fakasi'isi'i 'a e ta'etatau ko 'eni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'oku 'ikai ke lava ai ke ma'u 'api 'a ha'a fafine Tonga?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -170,6 +188,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tongan:1:language.tongan:claude opus",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Ko e fatongia mahu'inga 'o e Tu'i mo hono fale 'i he fakalele 'o e fonua ko e:\n\n1. Pule Fakapolitikale - Ko e Tu'i ko e 'ulu 'o e fonua pea 'oku ne fakamafai'i 'a e ngaahi tu'utu'uni lao 'oku fa'u 'e he pule'anga. \n\n2. Tauhi 'o e Anga Fakafonua - Ko e fatongia 'o e Tu'i ke ne tauhi mo pukepuke 'a e ngaahi tukufakaholo, 'ulungaanga mo e anga fakafonua.\n\n3. Fakatahataha'i 'o e Kakai - Ko e Tu'i 'oku ne fakatahataha'i 'a e kakai 'o e fonua pea ko ha faka'ilonga ia 'o e 'ulungaanga faka'apa'apa mo fetokoni'aki 'i he fonua.\n\n4. Fakafofonga 'o e Fonua - 'Oku fakafofonga'i 'e he Tu'i 'a e fonua 'i he ngaahi fatongia fakalotofonua mo tu'apule'anga.\n\n5. Tokanga'i 'o e Lotu - Ko e Tu'i 'oku ne tokanga'i 'a e Siasi 'o Tonga pea mo e kau taki lotu 'i he fonua.\n\nKo e ngaahi fatongia ko 'eni 'oku mahu'inga ki hono pukepuke 'o e malu, melino mo e fakalakalaka 'a e fonua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e fatongia 'o e Tu'i mo hono fale 'i he fakalele e fonua?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -258,6 +294,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:2:language.tongan:claude opus",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Ko e kosi 'o e 'ulu hili ha me'a faka'eiki 'oku 'uhinga ia ki he faka'apa'apa mo e fakavaivai. \n\n'I he 'ulungaanga faka-Tonga, 'oku 'ikai ngofua ke tu'u 'a e 'ulu 'o ha taha 'i ha feitu'u 'oku 'i ai ha me'a faka'eiki pe ko ha taha ma'olunga ange 'i he tu'unga fakasosiale. Ko ia ai, 'oku kosi pe holoholo e 'ulu ke fakaha 'a e faka'apa'apa mo e anga fakatōkilalo ki he me'a faka'eiki pe ko e taha ma'olunga ange.\n\n'Oku toe fai 'a e kosi 'ulu ko 'eni ke fakaha 'a e loto hounga'ia 'i ha tapuaki pe tāpuekina kuo ma'u mei he me'a faka'eiki. 'Oku 'ikai ko ha me'a ia 'oku fai ke fakamā'ulalo'i kitá, ka 'oku fai ia 'i he loto faka'apa'apa mo e hounga'ia."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku kosi ai e lou 'ulu he hili ha me'a faka'eiki?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -344,6 +398,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tongan:3:language.tongan:claude opus",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'Oku kei mahu'inga 'aupito 'a e lau mahina faka-Tonga 'i he kuonga ni koe'uhi:\n\n1. Ko ha konga mahu'inga ia 'o e tukufakaholo mo e 'ulungaanga faka-Tonga. 'Oku tokoni ke pukepuke 'a e 'ilo mo e poto 'o e kuohili.\n\n2. 'Oku kei ngaue'aki ia 'e he kau ngoue ke nau 'ilo 'a e taimi totonu ke to mo utu ai 'enau ngoue. \n\n3. 'Oku tokoni ia ki hono fakafuofua'i 'o e 'ea ke teuteu ki he ngaahi fakatamaki fakaenatula.\n\n4. 'Oku kei fakahoko 'a e ngaahi ouau mo e ngaahi 'ekitivitī fakasōsiale 'o fakatatau ki he lau mahina faka-Tonga.\n\n5. Ko ha founga lelei ia ke ako'i ai 'a e to'utupu ki he 'ilo mahu'inga 'o e kuohili mo 'enau tukufakaholo.\n\nKo e lau mahina faka-Tonga ko ha konga mahu'inga ia 'o e mo'ui 'a e Tonga 'o tokoni ke fakafehokotaki 'a e kakai mo 'enau hisitōlia, 'ulungaanga mo e 'atakai. Neongo 'a e ngaahi liliu 'o e mo'ui, 'oku kei mahu'inga 'aupito hono tauhi mo fakahoko 'a e lau mahina faka-Tonga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku kei 'aonga nai ai e lau mahina faka-Tonga he kuonga ni?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -432,6 +504,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:4:language.tongan:claude opus",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Ko e fahu 'oku 'uhinga ia ki ha taha 'oku ne tataki pe pule'i ha me'a. 'I he ngaahi katoanga lalahi 'a e Tonga, ko e fahu 'oku totonu ke ne pule'i mo tataki 'a e katoanga ko ia ko ha taha ma'olunga 'i he sosaieti Tonga. \n\n'Oku fa'a fili 'a e fahu mei he kāinga 'o e Tu'i, kau nōpele, pe kau taki lotu. Ko e fahu 'oku totonu ke taukei 'i he ngaahi anga fakafonua mo e ngaahi ouau 'o e katoanga, pea 'oku nau fai 'a e ngaahi fatongia mahu'inga 'o kau ai 'a e fai 'o e ngaahi lea, tāpuaki'i 'o e me'atokoni, mo hono tataki 'o e katoanga fakakātoa.\n\nKo hono fili 'o e fahu totonu 'oku mahu'inga ia ke fakapapau'i 'oku fakahoko 'a e katoanga 'i ha founga faka'apa'apa mo taau, 'o fakahaa'i 'a e ngaahi tui mo e anga fakafonua 'o e kakai Tonga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e fahu 'oku fakalangilangi'i 'i he ngaahi katoanga lalahi 'a e Tonga. Ko hai 'oku totonu ke fahu?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -518,6 +608,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tongan:5:language.tongan:claude opus",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Ko e 'uhinga 'oku kehe ai 'a e lea 'oku ngāue'aki ki he Tu'i mo e kau Nōpele mei he kakai tu'a ko e tauhi 'o e faka'apa'apa. 'Oku 'i ai 'a e ngaahi lea makehe 'oku toki ngāue'aki pē ki he Tu'i mo e kau Nōpele 'o hangē ko e \"me'a\" (kai), \"tōfā\" (mohe), \"hā'ele\" (fononga), \"hoifua\" (fiefia), pea mo e ngaahi lea kehe pē. Ko e ngāue'aki 'o e ngaahi lea koeni 'oku ne fakahāhā 'a e faka'apa'apa lahi ki he Tu'i mo e kau Nōpele 'i he 'enau tu'unga mā'olunga 'i he sosaieti. 'Oku 'ikai ke ngāue'aki 'a e ngaahi lea koeni ki ha taha kehe ka ko e Tu'i mo e kau Nōpele pē. Ko e tauhi 'o e 'ulungaanga faka'apa'apa ko ha konga mahu'inga ia 'o e 'ulungaanga fakafonua 'o Tonga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'oku kehe ai 'a e lea 'oku ngāue'aki ki he Tu'i, kau Nōpele mei he tu'a?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -606,6 +714,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:6:language.tongan:claude opus",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Ko e fokotu'utu'u 'o e nofo'anga 'i he taumafa kava 'oku 'i ai hono mahu'inga lahi. 'Oku nofo 'a e kau matāpule moe kau nōpele 'i he 'otu fakatonga 'o fakatatau ki honau lakanga takitaha. Ko e Tu'i 'oku ne 'afio 'i he tonga'uta pea 'oku nofo ofi taha kiate ia 'a e kau matāpule moe kau nōpele ma'olunga. Ko kinautolu 'oku nau nofo 'i mui 'oku nau ma'ulalo ange 'i he lakanga. 'Oku fakahoko 'a e ngaahi fatongia pau 'e he kau matāpule lolotonga 'a e taumafa kava 'o hangē ko e fai fatongia taumafa, fai fatongia tou'a, mo e tali folau. 'Oku mahu'inga 'aupito 'a e tauhi 'o e ngaahi tapu moe ngaahi 'ulungaanga faka'apa'apa lolotonga 'a e taumafa kava."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā hono fokotu'utu'u 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -692,6 +818,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tongan:7:language.tongan:claude opus",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Ko e founga hono tuku mai 'a e ngaahi tala 'o Tonga 'i ono 'aho 'oku fa'a fakahoko ia 'i he ngaahi founga ko 'eni:\n\n1. Fananga - Ko hono fai 'o e talanoa pe fananga mei he mātu'a ki he fānau fekau'aki mo e ngaahi tala, tūkunga mo'ui, mo e hisitōlia 'o Tonga. \n\n2. Hiva - Ko e hiva 'oku ne fakahā 'a e ngaahi talanoa, akonaki mo e ngaahi me'a mahu'inga 'o e 'ulungaanga faka-Tonga.\n\n3. Maau - Ko e fa'u maau 'oku ne fakahā 'a e ngaahi talanoa, tūkunga mo'ui pea mo e ngaahi akonaki 'o e 'ulungaanga faka-Tonga.\n\n4. Faiva - Hange ko e lakalaka, 'oku fakahoko ai 'a e ngaahi talanoa mo e hisitōlia 'o Tonga 'i hono fakahoko kinautolu.\n\n5. Ngaahi tohi - Ko e hiki 'o e ngaahi talanoa ki he ngaahi tohi ke lava 'o tauhi mo tuku atu ki he to'u tangata.\n\nKo e ngaahi founga ko 'eni 'oku tokoni lahi ki hono tauhi mo fakatolonga 'a e ngaahi talanoa, hisitōlia mo e 'ulungaanga faka-Tonga mei he to'u tangata ki he to'u tangata."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'a e founga hono tuku mai 'a e ngaahi tala 'o Tonga 'i ono 'aho?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -780,6 +924,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tongan:8:language.tongan:claude opus",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Ko e nofo 'a fāmili 'i he fale fakatonga 'oku 'i ai 'a e loki lahi 'i loto 'oku ui ko e loto fale, pea 'oku nofo takai ai 'a e fāmili. Ko e loto fale 'oku fa'a fai ai 'a e ngaahi ngāue faka'aho 'o kau ai 'a e kai, lalanga, mo e ngaahi ngāue kehe pē. Ko e ngaahi loki mohe 'oku tu'u takatakai 'i he loto fale.\n\n'I he ngaahi liliu 'o e nofo fakatonga he 'aho ni:\n\n1. 'Oku 'ikai ke toe lahi 'a e nofo'anga fakataha 'a e ngaahi fāmili 'i he fale pe. Kuo kamata ke nofo māvahevahe 'a e ngaahi fāmili iiki.\n\n2. Kuo hoko 'a e fale fakapalangi ko e fa'unga fale tefito 'oku langa'aki 'a e simā, 'ū matapā sio'ata, mo e 'ato ukamea. 'Oku si'isi'i ange ai 'a e ngāue'aki 'o e naunau fale fakatonga hangē ko e pola mo e kaho.\n\n3. 'Oku 'ikai ke toe ngāue'aki lahi 'a e afi tunu ki he feime'atokoni, ka kuo hoko 'a e sitou ko e me'angāue tefito.\n\n4. 'Oku kei hokohoko atu pē 'a hono tauhi 'o e ngaahi tukufakaholo 'o e nofo fakatonga, neongo 'a e ngaahi liliu lalahi kuo hoko.\n\nKo e konga pē eni 'o e ngaahi liliu kuo hoko ki he nofo fakatonga, ka 'oku kei mahu'inga pē 'a hono tauhi 'o e 'ulungaanga fakatonga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'a e anga 'oe nofo 'a fāmili 'i he fale fakatonga pea ko e hā ha ngaahi liliu 'i he nofo fakatonga 'i he 'aho ni?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -866,6 +1028,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tongan:9:language.tongan:claude opus",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Ko e fa kave'i koula 'a e Tonga ko e:\n\n1. Faka'apa'apa - Ke faka'apa'apa ma'u pe ki he kakai kotoa pe, tautefito ki he kau matu'a mo e kau taki. \n\n2. Lototō - Ke loto fiemālie ma'u pe ke tokoni'i e ni'ihi kehé 'o 'ikai ha totongi pe fakafōtunga. \n\n3. Tauhi vā - Ke tauhi lelei 'a e ngaahi vā fakafāmili, fakakāinga mo e vā ki he kakai kehé foki.\n\n4. Mamahi'i me'a - Ke ngāue malohi mo fakamātoato ke a'usia 'a e ngaahi taumu'a mahu'inga.\n\nKo e ngaahi tefito'i tui mo e 'ulungaanga mahu'inga 'eni 'oku pukepuke 'e he Tonga ke tataki 'enau mo'ui faka'aho. 'Oku nau ue'i e faka'apa'apa, 'ofa, fetokoni'aki mo e ngāue malohi 'i he sōsaieti Tonga. Ko e tauhi 'o e ngaahi tefito'i mo'oni ko 'ení 'oku tokoni ia ke tu'uloa 'a e maau, melino mo e feongoongoi 'i he fonuá."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'a e fa kave'i koula 'a e Tonga? Fakamatala'i 'e nau 'uhinga takitaha.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]

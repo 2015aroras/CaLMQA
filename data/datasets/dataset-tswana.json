@@ -84,6 +84,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:0:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Bogadi ke madi kgotsa dikgomo tse di tshwanetsweng go ntshiwa ke lelapa la monna fa a nyala mosadi. Ke sesupo sa go bontsha tlhompho le go leboga batsadi ba mosadi go godisa ngwana wa bone yo o siameng. \n\nTsamaiso ya go ntsha bogadi e farologana go ya ka setso le ngwao ya merafe e e farologaneng. Ka kakaretso, batsadi ba monna ba etela ba mosadi go simolola dipuisano. Morago ga foo, go tlhomiwa letsatsi la go ya bogading kwa go tla bong go ntshiwa dikgomo (gantsi di ka nna 8 go ya ko godimo) le madi. Bogadi bo ntshiwa pele ga lenyalo mme ke tshupetso ya gore monna o tlhomamisitse go nyala mosadi. \n\nLe fa go ntse jalo, go ntsha bogadi ga se kgapeletso mme ga go pateletse mosadi go nyalwa ke monna yoo. Ke fela tiragatso ya setso go bontsha tlhompho magareng ga malapa a monna le mosadi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bogadi ke eng mme bo ntshiwa jang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -170,6 +188,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:1:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Go dirwa patlo ya mosadi, go na le dikgato tse di latelang tse di ka dirwang:\n\n1. Banna ba lelapa la mosimane ba etela lelapa la mosetsana go kopa seatla. Ba tlhalosetsa maikemisetso a bona a go nyala mosetsana.\n\n2. Fa lelapa la mosetsana le amogela kopo, go ka rulaganyetswa magadi a tla ntshiwang. Bogadi bo kaiwa ke lelapa la mosetsana.\n\n3. Fa magadi a dumellanwe, letsatsi la lenyalo le a bewa mme malapa a mabedi a simolola go rulaganya moletlo.\n\n4. Pele ga lenyalo, go tshwarelwa mekete ya setso jaaka go apesiwa ga monyalwa diaparo tsa setso le go mo isa bogadi.\n\n5. Ka letsatsi la lenyalo, baratani ba a kopanelwa mme go nna le moletlo o mogolo wa lenyalo.\n\nKe tsela e e tlwaelegileng ya go dira patlo ya mosadi mo setswaneng, mme go ka nna le dipharologano go ya ka setso sa lelapa lengwe le lengwe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Patlo ya mosadi e dirwa jang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -258,6 +294,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:2:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Letsema ke mokgwa wa Setswana wa go thusana mo motseng. Le dirwa ke batho botlhe ba motse go thusa mongwe yo o tlhokang thuso ka tiro e e rileng. Gantsi letsema le dirwa fa go na le tiro e ntsi e e tshwanetseng go dirwa ka bonako jaaka go roba dijalo kgotsa go aga ntlo. \n\nLetsema le bolodiwa ke kgosi kgotsa moeteledipele wa motse mme le dirwa ka nako e e beilweng ke ene. Batho ba motse ba tla mmogo go thusana go dira tiro eo mme morago ga foo ba ja mmogo go keteka go fetsa tiro.\n\nLetsema le bontsha tirisanyo mmogo, kutlwano le go thusana ga batho ba motse. Ke ngwe ya ditsela tse di botlhokwa tsa Setswana tsa go nonotsha maphata a loago le go tlhabolola motse."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Letsema ke eng, le bolodiwa ke mang mme le dirwa fa go rileng?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -344,6 +398,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:3:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Mabele a lemiwa thata mo Botswana, bogolo jang mo kgaolong ya Bokone Bophirima le Bokone. A lemiwa mo masimong a a tseneletseng mme a tlhoka metsi a a lekaneng go gola sentle.\n\nFa mabele a sena go robiwa, gantsi a bewa mo disakeng kgotsa mo mekotlaneng go a boloka go fitlhela a dirisiwa. Go botlhokwa go a boloka mo lefelong le le phepa e bile le omile go thibela go senyega ga one. \n\nMabele a dirisiwa thata jaaka dijo tsa batho mo Botswana. A a tswang mo go tswa bupi, bogobe le dijo tse dingwe tse di tlwaelegileng mo Batswaneng. Gape mabele a dirisiwa go dira bojalwa jwa setso jaaka khadi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mabele a lemiwa jang le ko kae a le mantsi mo Botswana mme a bewa mo go eng fa a sena go robiwa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -432,6 +504,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:4:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Mmino wa sekalaka wa dihosana ke mmino o o tsamaisanang le meletlo ya setso ya Batswana. O aparwa ka dinako tsa meletlo e e farologaneng jaaka medupe (lenyalo), bogwera le bojale (go rupisiwa ga basimane le basetsana), dikgafela (meletlo ya pula) le tse dingwe.\n\nFa go twe go aparwa mmino wa sekalaka wa dihosana, go tewa gore baopedi ba apara moaparo wa setso o o tsamaelanang le moletlo oo. Banna gantsi ba apara dihutshe (dikgabo), dibanta, dikopelo le hutshe ya tlhogo. Basadi ba apara mosese, tukwi, setleko le ditlhako tsa maotwana (makgabe). Moaparo o, o farologana go ya ka moletlo le setso sa motse oo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mmino wa sekalaka wa dihosana ke eng mme go aparwa jang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -518,6 +608,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:5:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke ka ntlha ya setso le ngwao ya Setswana. Mo ngwaong ya Setswana, mosadi yo o sa nyalwang o tsewa jaaka motho yo o sa itseng ka ga lenyalo, ka jalo ga a letlelelwe go tsena merero ya manyalo. \n\nGape go dumelwa gore mosadi yo o sa nyalwang a ka tlisa sefifi kgotsa a senya manyalo ka go tlhoka maitemogelo a lenyalo. Ka jalo, go tsewa gore o tshwanetse go nyalwa pele a ka letlelelwa go tsena merero e e tshwanang le manyalo.\n\nMabaka a mangwe ke gore go dumelwa fa mosadi yo o sa nyalwang a ka nna le dikgatlhego tse di sa siamang mo lenyalong, jaaka go batla go nyala monna yo o nyetseng mosadi yo mongwe. Se se ka tlisa kgogakgogano le go senya lenyalo.\n\nLe fa go ntse jalo, ditlwaelo tse di a fetoga mo dinakong tsa segompieno, mme basadi ba le bantsi ba ba sa nyalwang ba letlelelwa go tsena merero ya manyalo go ya ka maemo a bona mo lelapeng kgotsa mo morafeng."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mosadi yo o sa nyalwang ga a letlelelwe go tsena merero ya manyalo a setswana. Ke eng fa go ntse jalo?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -606,6 +714,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:6:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Pharologanyo e kgolo fa gare ga setlankana (lease) le setlankana sa Secure Land Title se se fiwang ke Lekgotla la Kabo Ditsha ke gore:\n\nSetlankana (lease) ke tumalano magareng ga mong wa lefatshe le modirisimmogo, moo modirisimmogo a dumelelwang go dirisa lefatshe sebaka se se rileng mme a duela mong wa lone. Ga se netefatso ya bong jwa lefatshe.\n\nSetlankana sa Secure Land Title se se fiwang ke Lekgotla la Kabo Ditsha sone se netefatsa bong jwa lefatshe. Se kaya gore motho yo o filweng setlankana seo ke mong wa lefatshe ka molao, e seng fela modirisimmogo. \n\nKa jalo, setlankana sa Secure Land Title se neelana ka ditshwanelo tse di feletseng tsa bong jwa lefatshe go feta fela tshwanelo ya go dirisa lefatshe jaaka e neelwa ke setlankana sa tumalano ya go hirisa (lease)."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pharologanyo fa gare ga setlankana/lease le setlankana se sesha sa Secure Land Title se se fiwang ke Lekgotla la Kabo Ditsha ke eng?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -692,6 +818,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:7:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Mo Botswana, go na le melao e e laolang go rua diruiwa mo metse setoropo. Melao e, e teng go netefatsa gore diruiwa ga di kgoreletse matshelo a batho ba bangwe mo motseng. Melao e e akaretsa tse di latelang:\n\n1. Palo ya diruiwa e e letleletsweng - motho o tshwanetse go nna le palo e e rileng ya diruiwa go ya ka bogolo jwa lefelo la gagwe. Se ke go netefatsa gore diruiwa ga di tlhoke lefelo la go fula le metsi.\n\n2. Go lotlela diruiwa - diruiwa di tshwanetse go lotlelwa ka fa teng ga lefelo la mong wa tsone. Ga go a letlelelwa gore di nne di tsamaya di le nosi mo motseng.\n\n3. Boitekanelo jwa diruiwa - mong wa diruiwa o tshwanetse go netefatsa gore di itekanetse e bile ga di fetisetse malwetse mo bathong kgotsa diruiweng tse dingwe.\n\n4. Kgotlelesego ya modumo - diruiwa ga di a tshwanela go dira modumo o o feteletseng o o ka kgotlang kagiso ya baagi ba bangwe.\n\n5. Kgotlelesego ya matlakala - Matlakala a diruiwa a tshwanetse go kgaoganngwa sentle gore a se ka a nna kotsi mo boitekanelong jwa setshaba.\n\nMelao e, e teng go netefatsa tshireletsego, boitekanelo le kagiso mo metseng ya ditoropo. Mabaka a mangwe a go nna le melao e ke go fokotsa dikgotlhang magareng ga barui le baagi ba bangwe, go dira gore metse e nne e le phepa e bile e le mabapi go nna mo go yone."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Molao wa Botswana wareng fa go tla mo go rueleng dipodi, dikgomo, ditonki le dinku mo motseng setoropo? Mabaka a molao ke eng?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -780,6 +924,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:8:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Dibini tsa borankana di rwala ditlhako tse di bopilweng ka lekoko la diphoofolo, go tshwana le kgomo kgotsa pitse. Ditlhako tseno di thusa go sireletsa maoto a tsona fa di tsamaya mo mafelong a a thata le a a nang le matlapa. Di bile di thusa go thibela dibini go gobala maoto. Lekoko le le dirisiwang go bopa ditlhako tseno le bolokwa sentle go fitlhela le omile mme morago ga moo le segwa go nna ditlhako tse di maleba. Ditlhako tsa dibini di tshwanetse go baakanngwa kgapetsakgapetsa go netefatsa fa di santse di le mo maemong a a siameng."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dibini tsa borankana di rwala eng mo maotong mme se dirwa ka eng?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -866,6 +1028,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:9:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Seane se se raya gore monna o tshwanetse go nna yo o thusang ba lelapa la gagwe. Jaaka selepe se dirisediwa go rema ditlhare, monna le ene o tshwanetse go dira ka thata go tlhokomela ba lelapa la gagwe. Fa go tlhokega gore a ye kwa ntle go batla se ba ka se jang, o tshwanetse go dira jalo. Ke maikarabelo a gagwe go netefatsa gore ba lelapa la gagwe ba sireletsegile e bile ba na le dijo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Go tewa jang fa gotwe \"monna ke selepe, o a adimanwa?\"\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -954,6 +1134,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:10:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Thopi ke karolo ya diaparo tsa setso tsa Basotho. E dirwa ka letsela le le thata mme e apeswa ke banna le basadi. Thopi e apeswa ka tsela e e latelang:\n\n1. Letsela le menwana e mebedi ho isa ho e meraro ka bophara le a phuthetswa hore le be sebopeho sa kgutlonnetsepa. \n\n2. Letsela le bewa hodima hlooho mme karolo e telele e leng ka pele e a kgaolwa ho etsa hore sefahleho se hlake.\n\n3. Mafelelong a letsela ka mora hlooho a tlamellwa mmoho ka mora molala hore thopi e dule hantle hloohong.\n\n4. Ho ka etswa le meketjana kapa dipheta tsa letsela ho hlobisa thopi le ho e etsa hore e dule hantle.\n\nThopi e apeswa diketsahalong tse fapaneng jwaloka meketeng, diphupung le dikopanong tsa setso. E bontsha tlhompho le boikokobetso ho Basotho. Ka tshwanelo, monna ha a ka ke a bua le motho ya moholo a sa apara thopi, mme basadi ba apara dithopi ha ba ya kerekeng kapa dibakeng tse hlokolosi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Thopi e jewa ke morafe ofe mme o ka re ba e apaya jang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1040,6 +1238,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:11:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Pele ga 2022, batho ba ne ba tlhoka phasepoto e e nang le bonnete go tlolela molelwane kafa Namibia. Le fa go ntse jalo, ka ntlha ya maemo a COVID-19, go ne go tlhokafala ditlhokego tse dingwe go tlolela molelwane.\n\nGo tloga ka Seetebosigo 2020 go fitlha ka Mopitlo 2022, batho ba ne ba tlhoka tse di latelang go tlolela molelwane kafa Namibia:\n\n1. Phasepoto e e nang le bonnete\n2. Setifikeiti sa teko ya PCR e e supang gore motho ga a na mogare wa COVID-19, se se dirilweng mo dioureng tse di sa feteng 72 pele ga go tlolela molelwane.\n\nDitlhokego tse di ne tsa fetoga ka Moranang 2022 fa Namibia e ne ya gogela morago tlhokego ya setifikeiti sa teko ya PCR. Jaanong, batho ba tlhoka fela phasepoto e e nang le bonnete go tlolela molelwane kafa Namibia.\n\nDiphetogo tse di ne tsa dirwa ka ntlha ya go fokotsega ga dikgatelelo tsa COVID-19 le go rotloetsa kgwebisano le bohala magareng ga dinaga. Le fa go ntse jalo, go botlhokwa go ela tlhoko gore melawana e ka fetoga nako nngwe le nngwe go ya ka maemo a COVID-19."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ka 2022 o ne o tlhoka eng gore o tlolele molelwane kafa Namibia mme seo se ile sa fetoga leng, ka mabaka afe?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1128,6 +1344,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:12:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Roy Sesana ke moeteledipele wa Batswana ba Kalahari (Basarwa) yo o nnileng a lwela ditshwanelo tsa bone. O ne a sekisa puso ya Botswana ka ntlha ya go leleka Basarwa mo nageng ya bone ya Kalahari, e leng lefelo le ba tshelang ka lone ka go tsoma le go epela maungo.\n\nKa 2002, Sesana le ba bangwe ba ile ba isa kgang e kwa kgotlatshekelo, ba batla gore tshwetso ya puso ya go ba ntsha mo nageng e, e beelwe fa thoko. Ba ne ba re ke tshwanelo ya bone go nna mo lefatsheng la bone la boswa le go tswelela ka mekgwa ya bone ya botshelo.\n\nKgang e, e ile ya gogela tlhokomelo ya boditšhabatšhaba mme ya nna nngwe ya dikgang tse di tumileng tsa ditshwanelo tsa batho mo Botswana. Kwa bofelong, ka 2006, kgotlatshekelo e kgolo ya Botswana e ile ya atlhola ka fa Basarwa ba ka tswelelang ka teng go nna mo nageng ya Kalahari."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Roy Sesana ke mang mme ke eng fa a ne a sekisa goromente?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1214,6 +1448,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:13:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Mokoto ke dijo tsa setso tsa Batswana tse di apewang ka bupi e e botshe e e bidiwang lebelebele. Mokoto o apewa ka go tlhakanya lebelebele le metsi go fitlhela o budule mme gantsi o ka nna wa tshela sukiri go o nontsha.\n\nMokoto gantsi o apewa ke bomme mo malwapeng mme o ka apewa le kwa meketeng e mengwe jaaka meketeko ya lenyalo. Mokoto o apeelwa mo pitšeng e tona ya tshipi mo molelong wa dikgong go fitlhela o butswa sentle.\n\nMokoto ke sejo se se tumileng thata mo Batswaneng mme se rata go jewa ke botlhe, e bile gantsi se jewa mo mosong jaaka difiritšhaga kgotsa motshegare jaaka sejo sa maitseboa. Mokoto o ka jewa o le esi kgotsa wa tshelelwa mashi go ya ka se motho a se ratang."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mokoto ke eng, o apewa jang le gone o apewa ke bomang e bile gantsi o apeelwa ko kae?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1302,6 +1554,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:14:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Tsamaiso ya lekgotla la kabo ditsha ya go fetisetsa setsha ko go yo mongwe e akaretsa tse di latelang:\n\n1. Mokopi o tshwanetse go tlatsa foromo ya kopo ya go fetisetsa setsha mme a e ise ko lekgotleng. \n\n2. Mokopi o tshwanetse go tlhagisa mabaka a go batla go fetisetsa setsha, jaaka go tlhoka madi kgotsa go tsamaya.\n\n3. Lekgotla le tla sekaseka kopo, go bona gore a mabaka a a tlhagisitsweng a a utlwalang.\n\n4. Fa kopo e dumelwa, lekgotla le tla batla mokopi yo moša wa setsha, gantsi e le mongwe wa losika.\n\n5. Go tla dirwa tumalano magareng ga mokopi wa ntlha le wa bobedi mabapi le dituelo le ditshwanelo tsa setsha.\n\n6. Fa go sena kganelo, lekgotla le tla fetisa setsha semmuso go tswa go mokopi wa ntlha go ya go wa bobedi.\n\n7. Mokopi yo moša o tla fiwa ditshwanelo le maikarabelo otlhe a setsha, go akarediwa le go duela dielo tsa lone.\n\nKa bokhutshwane, tsamaiso e batla gore mabaka a go fetisetsa setsha a utlwalwe mme go dirwe dipaakanyo tse di tseneletseng go netefatsa tshiamo le go sireletsa ditshwanelo tsa beng ba setsha."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lekgotla la kabo ditsha la re tsamaiso ya lone ya go fetisetsa setsha ko go yo mongwe/ba bangwe ke eng?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1388,6 +1658,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:15:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Kgomo e e tlhabiwang mo lenyalong go ora mosadi e tshwanetse go nna namagadi ka mabaka a a latelang:\n\n1. Namagadi ke sesupo sa bopelokgale le bonna. Go tlhabiwa ga yona go supa fa monna a nonofile ebile a ka sireletsa mosadi. \n\n2. Namagadi e tsewa e le sesupo sa bopelonomi. Monna o supa fa a ikemiseditse go tlhokomela mosadi ka go mo abela kgomo e e nang le boleng.\n\n3. Go ya ka setso, namagadi e tsewa e le mpho e e botlhokwa go gaisa tse dingwe. Jalo ke sesupo sa tlotlo le boikobo jwa monna mo go mosadi.\n\n4. Namagadi gape e tsewa e le sesupo sa bopelontle le boitekanelo. Monna o supa fa a ka tlamela lelapa ka dijo tse di lekaneng.\n\nKa jalo, tlhabo ya namagadi e tsewa e le karolo e e botlhokwa ya lenyalo mme e na le bokao jo bo tseneletseng mo morafeng wa Setswana."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng kgomo e e tlhabiwang mo lenyalong goora mosadi e tshwanetse go nna namagadi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1476,6 +1764,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:16:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Fa ngwana a tlhokafetse mo lapeng, go a tlwaelega gore batsadi ba gagwe le ba lelapa la gagwe ba utlwe botlhoko le go hutsafala thata. Fela ga go a tshwanela gore ba beolwe ka ntlha ya loso lwa ngwana. Go beolwa go ka nna kotsi mo matshelong a bona le go ba kgoreletsa go fola mo kutlobotlhokong. \n\nBatsadi ba tlhoka kemonokeng le tshegetso mo nakong e e thata, eseng go kgalwa kgotsa go beolwa. Loso lwa ngwana ga se phoso ya batsadi kgotsa ba lelapa. Ke tiragalo e e botlhoko e e sa ipaakanyediwang. \n\nGo botlhokwa gore batsadi ba fiwe nako le sebaka sa go lela ngwana wa bona le go fola mo kutlobotlhokong. Ba tlhoka tshegetso ya maikutlo le lorato go tswa mo ditsaleng le baagisanyi, eseng katlholo. Ka nako, botlhoko bo tla fokotsega mme ba tla kgona go tswelela ka matshelo a bona, ba gakologelwa ngwana yo o tlhokafetseng ka lorato."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka go reng fa ngwana a tlhokafetse mo lapeng batsadi ba gagwe le bo monnawe ba bo ba beolwa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1562,6 +1868,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:17:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ga go na molao kana tsamaiso epe e e reng mosadi yo o tlhokafaletsweng ke monna o tshwanetse go patsama kana go ribama mo ntlung go fitlhelela go bolokwa. Seno ke tumelo fela ya setso sa Setswana. \n\nMo Setswaneng, go na le ditumelo tse di farologaneng ka se mosadi a tshwanetseng go se dira fa a tlhokafaletswe ke monna. Bangwe ba dumela gore o tshwanetse go patsama mo ntlung go fitlhelela letsatsi la poloko. Bangwe ba re o tshwanetse go ribama fela mo ntlung mme a seka a tswa. Bangwe ba re o tshwanetse go apara diaparo tse di botlhofo tse di sa patsiwang sentle.\n\nMme seno tsotlhe ke ditumelo fela tsa setso, ga se melao. Ga go pateletse gore mosadi a dire jalo. O ka itlhophela go dira se a se batlang, go ya ka tumelo le setso sa gagwe. Se se botlhokwa ke gore a rotloediwe ebile a tshegeditswe ke balosika le ditsala mo nakong e e boima ya loso."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng mosadi yo o tlhokafaletsweng ke monna a tshwanelwa ke go patsama kana go ribama mo ntlung go fitlhelela go bolokwa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1650,6 +1974,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:18:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ga go na lebaka le le utlwalang la gore batsadi ba ngwana yo o nyalwang ba se ka ba tsenelela moletlo wa kgoroso ya ngwana wa bone. Batsadi ba tshwanetse go tsenelela moletlo oo ka gore:\n\n1. Ke moletlo o o botlhokwa thata mo botshelong jwa ngwana wa bone. Ba tshwanetse go nna teng go supa tshegetso le lorato. \n\n2. Gantsi ke batsadi ba ba tshwereng maikarabelo a moletlo oo ka go thusa ka ditshenyegelo le dithulaganyo. Ba tshwanetse go nna teng go bona ditholwana tsa matsapa a bone.\n\n3. Moletlo wa kgoroso o kopanya ditsala le balosika. Batsadi ba tshwanetse go nna teng go amogela baeng le go itumelela le ba losika.\n\n4. Ngwana o tlaa rata go bona batsadi ba gagwe mo moletlong oo go mo fa tshegetso le kgothatso mo letsatsing le le botlhokwa mo botshelong jwa gagwe.\n\nKa jalo, ntle le fa go na le mabaka a a botlhokwa tota jaaka bolwetse, batsadi ba tshwanetse ka gale go leka go nna teng kwa moletlong wa kgoroso ya ngwana wa bone."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng batsadi ba  ngwana yo o  nyalwang ba sa letlelelwe go tsenelela moletlo wa kgoroso ya ngwana wa bone?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1736,6 +2078,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:19:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Go bewa lepakwana fa pele ga ntlu ya motsetsi yo o sa tswang go belega ke setso sa Batswana. Lepakwana le, gantsi e nna le mebala e e farologaneng go supa bong jwa lesea. Fa e le mosimane go dirisiwa mebala e e botala, mme fa e le mosetsana go dirisiwa mebala e pinki. \n\nSe se dirwa go itsise baagi gore go tshotswe lesea mo lapeng leo, le go supa bong jwa lesea. Gape se thusa go kopa badimo gore ba sireletse lesea le mmaalo. Ke tsela nngwe ya go amogela lesea mo sechabeng le go le tshegofatsa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng go bewa lepakwana fa pele ga ntlu ya motsetsi yo o sa tswang go belega?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1824,6 +2184,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:20:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke setso sa Setswana gore fa mosetsana a nyalwa, malome wa gagwe o tshwanetse go fiwa kgomo. Lebaka la seno ke gore malome o tsewa e le motho yo o botlhokwa thata mo botshelong jwa ngwana wa kgaitsadie. \n\nMalome o na le seabe se segolo mo go godiseng ngwana, bogolo jang fa rragwe a seo. O ruta ngwana maitsholo le go mo gakolola. Ka jalo, go fiwa kgomo go tsewa e le tebogo ya seabe sa gagwe mo botshelong jwa ngwana.\n\nGape kgomo e e fiwa malome e bontsha fa ngwana a tla sireletsega mo lelwapeng le lesha ka e bile malome e tla nna ene mosireletsi wa gagwe. Ke sesupo sa fa ngwana a amogetswe sentle.\n\nKa jalo, go ya ka setso, go fiwa ga malome kgomo ke selo se se botlhokwa e bile se na le bokao jo bo tseneletseng mo morafeng wa Batswana."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ke eng fa malome  a tshwanelwa ke go fiwa kgomo fa kgaitsadie a nyalwa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1910,6 +2288,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:21:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Serobe ke sejana sa setso sa Batswana se se apewang ka nama ya kgomo kgotsa ya nku. Se apewa ka metlha ya dikgafela tse di kgethegileng jaaka meketeko ya lenyalo kgotsa ya matsalo. Go apewa serobe go tsaya nako e telele mme go tlhoka bopelotelele. Nama e sega dikotwana tse dinnye mme e apeiwa go fitlhela e bududu. Metswako e e dirisiwang ke letswai, ditlhatswana (spices) le maungo a a mafura a a kgethilweng go tshwana le magapu. Serobe gantsi se jewa le bogobe kgotsa samp mme se kgona go jewa e le sone fela."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Serobe  se apewa jang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1998,6 +2394,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:22:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke potso e e botlhokwa thata eo. Go ya ka setso sa Setswana, mosadi yo o sa nyalwang ga a tshwanelwa go neelwa magadi fa ngwana wa gagwe a nyalwa. Mabaka a seo ke gore:\n\n1. Magadi ke sesupo sa tlotla le go leboga batsadi ba mosetsana ba ba mo godisitseng go fitlha a nyalwa. Fa mosadi a sa nyalwa, go tewa gore ga a ise a neelwe tlotla eo. \n\n2. Go dumelwa gore mosadi yo o sa nyalwang o santse a le ka fa tlase ga batsadi ba gagwe, ga a ise a gololesege go nna motho yo o ikemetseng. Ka jalo ga a tshwanelwa ke go amogela magadi.\n\n3. Gape go tshosediwa gore fa mosadi yo o sa nyalwang a ka fiwa magadi, seo se ka mo rotloetsa go nna le bana ba bantsi a sa nyalwa gore a bone magadi a mantsi.\n\nLe fa go ntse jalo, megopolo e e a fetoga mo dinakong tse di seša. Bangwe ba bona e le kgethololo go itatola mosadi magadi ka lebaka la seemo sa gagwe sa lenyalo. Ba re mosadi mongwe le mongwe o tshwanetse go tlotliwa ka ntlha ya go godisa ngwana, go sa kgathalesege gore o nyetswe kgotsa nnyaa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng mosadi yo o sa nyalwang a sa tshwanelwa ke go neelwa magadi fa ngwana wa gagwe a nyalwa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2084,6 +2498,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:23:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Mabaka a a neng a dira gore puso ya Mmamosadinyana e se neele Botswana tshireletso mo maburung a Aforika Borwa e ne e le a a latelang:\n\n1. Botswana e ne e se na ditsompelo tse di lekaneng go ka dira gore Maburu a bone boleng jwa go e sireletsa. E ne e se na ditsompelo tsa diminerale kgotsa tsa ikonomi e e nonofileng.\n\n2. Lefatshe la Botswana le ne le le kgakala thata go tswa Aforika Borwa, mme go ne go tla nna thata go le laola le go le sireletsa. \n\n3. Puso ya Mmamosadinyana e ne e tshaba go tsena mo kgotlhang le mafatshe a mangwe a Yuropa, bogolo jang Jeremane, e e neng e na le kgatlhego mo lefatsheng la Botswana.\n\n4. Batswana ba ne ba sa batle go buswa ke Maburu mme ba ne ba tla nna kgatlhanong le tshireletso ya bone. Se se ka bo se tlisitse mathata a mantsi mo pusong.\n\n5. Puso ya Mmamosadinyana e ne e sa batle go oketsa ditshenyegelo tsa yone ka go amogela lefatshe le lesha le e tshwanetseng go le sireletsa.\n\nKa jalo, le fa dikgosi di ne di kopile tshireletso, puso ya Mmamosadinyana e ne ya swetsa ka go se amogele kopo ya bone."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke mabaka afe  a puso ya Mmamosadinyana e ne e a neela gore e ka se neele lefatshe la Botswana tshireletso mo maburung a ko Aforika borwa, morago  ga go re dikgosi di kope tshireletso?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2172,6 +2604,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:24:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke tlwaelo ya Setswana gore fa go bolaetswe kgomo kwa lenyalong, tlhogo ya kgomo e neelwe malome. Se se dirwa go supa tlhompho le go leboga malome ka tiro ya gagwe mo lenyalong. \n\nMalome o tsewa e le motho yo o botlhokwa thata mo lenyalong ka gonne ke ene yo o tshwarang maikarabelo a go rulaganya lenyalo le go netefatsa gore meletlo yotlhe e a diragala ka tshwanelo. Ka jalo, go mo neela tlhogo ke tsela ya go mo tlotla le go mo leboga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng morago ga go bolaya kgomo mo lenyalong malome a neelwa tlhogo?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2258,6 +2708,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:25:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke ka ntlha ya gore dikgomo tsa magadi di tsewa e le sesupo sa tlhompho le tlotlo go tswa kwa lapeng la monna go ya kwa go la mosadi. Palo ya dikgomo e bontsha maemo a lenyalo le boitshepo jwa lona.\n\nGape, dikgomo tsa magadi di tshwanetse go nna tsa mofuta wa Senguni (Nguni) gonne di tsewa e le dikgomo tse di kwa godimo ka boleng. Se se thusa go netefatsa gore mosadi o amogela dikgomo tse di nang le boleng jo bo kwa godimo.\n\nPalo ya dikgomo ga e a tshwanela go tlhotsa ka gonne go dumelwa gore palo e e tlhotsang e ka tlisa matsapa mo lenyalong. Gape, go neela palo e e tletseng ya dikgomo go bontsha boineelo le maikemisetso a nnete a go nyala mosadi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka go reng dikgomo tsa magadi di tshwanetse go nna namagadi gape palo ya tsone e sa tlhotse?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2346,6 +2814,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:26:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Go na le mabaka a mmalwa a ngwana a sa tshwanelwang go tlhabelwa ke letsatsi a sa ntse a robetse:\n\n1. Letlalo la ngwana le sa ntse le le bonolo ebile le ka tshwarega bonolo fa le ka tlhabelwa ke letsatsi go feta tekano. Seno se ka baka kankere ya letlalo mo isagong.\n\n2. Letsatsi le nonofile thata mo mosong, ka jalo go ka nna kotsi go tlhabela ngwana letsatsi ka nako eo. \n\n3. Ngwana o tlhoka boroko jo bo lekaneng gore a gole sentle le go nna le boitekanelo jo bo siameng. Go mo tsosolosa letsatsi le sa ntse le tlhaba go ka kgoreletsa boroko jwa gagwe.\n\n4. Fa ngwana a robetse mo letsatsing nako e telele, mmele wa gagwe o ka palelwa ke go laola mogote sentle, se se ka bakang bolwetse ba mogote o o feteletseng (heat stroke).\n\nKa kakaretso, batsadi ba tshwanetse go sireletsa bana kgatlhanong le go tlhabelwa ke letsatsi go feta tekano, segolo jang fa ba sa ntse ba le bannye ebile ba robetse."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng ngwana a sa tshwanelwa ke go tlhabelwa ke letsatsi a sa ntse a robetse?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2432,6 +2918,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:27:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke tumelo ya Setswana gore mosadi yo o tlhokafaletsweng ke monna ga a tshwanela go tsena mo lesakeng la dikgomo kgotsa dipudi pele ga a gatisiwa motshotelo kana boloko. \n\nSe se dirwa ka ntlha ya gore go dumelwa fa mosadi a ka tlhakatlhakanya kgotsa a tshwenya dikgomo le dipudi ka ntlha ya sefifi se a leng mo go sona morago ga loso lwa monna wa gagwe. Go dumelwa gore se se ka baka dikgomo go sa itsale sentle kgotsa dipudi di seke tsa ima sentle.\n\nKe tumelo e e tswang kgale e bile gantsi e dirwa go netefatsa gore mosadi ga a tlhole a na le sefifi seo se ka bakang mathata mo dikgomong le dipuding. Ke mokgwa wa setso wa go sireletsa dikgomo le dipudi go tswa mo sefifing sa loso."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng mosadi o tlhokafaletsweng ke monna  a sa tshwanelwa ke go tsena mo lesakeng la dikgomo kgotsa dipudi pele ga a gatisiwa motshotelo kana boloko?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2520,6 +3024,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:28:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ga go na molao kgotsa tsamaiso e e reng mosadi o tshwanetse go huralela lebitla fa a latlhela mmu wa bofelo fa go bolokwa monna wa gagwe. Seno ke tumelo fela e e leng teng mo bathong bangwe. \n\nMabaka a a dirang gore batho ba dumele mo go huraleng lebitla ke gore:\n\n1. Go thusa mosadi go amogela loso la monna wa gagwe le go tswelela le botshelo.\n\n2. Go kgaola kgolagano le mowa wa moswi gore o se ka wa tshwenya ba ba tshelang.\n\n3. Ke sesupo sa go bontsha tlhompho ya bofelo mo monneng wa gagwe.\n\nFela ga se tshwanelo kana molao. Ke boikgethelo jwa motho ka nosi go dira jalo kgotsa nnyaa. Ga go patike ope go dira seno fa a sa batle. Mosadi o tshwanetse go letlelelwa go itlhophela ka boena go ya ka tumelo le maikutlo a gagwe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng mosadi a tshwanela ke go huralela lebitla fa a latlhela mmu wa bofelo fa go bolokwa monna wa gagwe?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2606,6 +3128,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:29:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke setso sa Setswana sa go amogela ngwetsi mo lapeng la monna. Megolokwane e letswa go supetsa boitumelo le go amogela ngwetsi. Go apaya le go feela go supetsa gore ba mo amogela ka mabogo a mabedi le go mo isa mo lapeng la bona. \n\nGo ala diphate ke go supetsa tlotlo le tlhompho mo ngwetsing. Ke go mo supetsa gore o amogelwa ka tlotlo e kgolo mo lapeng la monna. Gape ke go mo thusa gore a se ka a kgoma lefatshe ka dinao fa a goroga mo lapeng la monna, e le sesupo sa go mo tlotla.\n\nKa jalo, ditiro tsotlhe tse di dirwa go supetsa boitumelo, kamogelo, tlotlo le tlhompho e ba e fang ngwetsi fa a goroga mo lapeng la monna. Ke go mo supetsa gore jaanong ke karolo ya lelapa leo mme o tla sireletswa le go tlotlwa ke bona."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka go reng ere fa ngwetsi  a goroswa goora monna,masika a monna a letsa megolokwane,ba dira o kare ba apaya le go feela le gone go ala diphate gore ngwetsi a tsamaye fa godimo ga tsone go fitlhelela a nna fatshe?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2694,6 +3234,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:30:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Kgotlhang gare ga Botswana le Namibia mabapi le Sedudu e ne e le ka ntlha ya go se dumalane ka melelwane ya dinaga tse pedi tse. Sedudu ke setlhakatlhakane se se mo Nokeng ya Chobe, e e leng molelwane wa Botswana le Namibia. Dinaga tse di ne di ngangisana ka gore Sedudu e wela ka fa tlase ga taolo ya ga mang.\n\nKgotlhang e e ne ya simolola ka 1890 fa Botswana e ne e le protekerata ya Britane mme Namibia e le ka fa tlase ga taolo ya Jeremane. Fa dinaga tse di neng di bona boipuso, kgotlhang e ne ya tswelela. \n\nKa 1996, Botswana le Namibia ba ile ba ya kwa Kgotlatshekelong ya Boditšhabatšhaba go batla tharabololo. Kgotlatshekelo e ne ya swetsa ka 1999 gore Sedudu ke karolo ya Botswana, e seng Namibia. Tshwetso e e ne e ikaegile ka ditiragalo tsa hisetori le melao ya boditšhabatšhaba. \n\nBotswana le Namibia ba ne ba amogela tshwetso ya kgotlatshekelo mme ba saena tumalano ya go tlhoma melelwane ya bone go ya ka tshwetso eo. Se se thusitse go tlisa kagiso le botsalano gare ga dinaga tse pedi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lefatshe la Botswana le ne le reng mabapi le kgotlhang gare ga Botswana le Namibia ka kgang ya Sedudu le gore ene ya rarabololwa jang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2780,6 +3338,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:31:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Teemane e nnile le seabe se segolo mo go fetoleng itsholelo ya Botswana ka ditsela tse di latelang:\n\n1. Letseno la madi: Kgwebo ya teemane e tlisitse letseno le legolo la madi mo Botswana, le le thusitseng go godisa itsholelo le go fokotsa lehuma. \n\n2. Ditiro: Madirelo a teemane a tlhodile ditiro tse dintsi mo Batswaneng, go fokotsa lekgolo la batho ba ba senang ditiro.\n\n3. Ditlhabololo tsa mafaratlhatlha: Letseno go tswa mo teemaneng le dirisiwa go aga mafaratlhatlha a a botlhokwa jaaka ditsela, dikole le dipatela.\n\n4. Go oketsa letseno la sechaba: Kgwebo ya teemane e oketsitse letseno la sechaba (GDP) la Botswana thata, le le dirileng gore e nne nngwe ya dinaga tse di humileng go gaisa mo Aforika.\n\n5. Tlhabololo ya metseselegae: Metseselegae e e gaufi le madirelo a teemane e bone ditlhabololo tse dintsi ka ntlha ya kgwebo e.\n\nKa kakaretso, teemane e fetotse Botswana go tswa go nna naga e e humanegileng go nna nngwe ya dinaga tse di tsweletseng pele thata mo Aforika ka ntlha ya itsholelo e e tlhomameng."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Teemane ya Botswana e fetotse itsholelo ya Botswana ka tsela e fe?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2868,6 +3444,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:32:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Go na le mabaka a le mmalwa a a bakileng gore palo ya Batswana mo Botswana e nne palo e ko tlase mme morafe wa Botswana o le montsi ko Aforika Borwa:\n\n1. Hisetori ya bofaladi - Batswana ba le bantsi ba falela Aforika Borwa ka nako ya puso ya tlhaolele (apartheid) go batla ditiro le botshelo jo bo botoka. Seno se dirile gore ba nne le bana le go aga malapa koo.\n\n2. Ditiro - Aforika Borwa e na le ikonomi e e nonofileng go gaisa Botswana, ka jalo go na le ditiro tse dintsi tse di hokelang Batswana go ya go dira koo.\n\n3. Thuto - Batswana bangwe ba ile go ithutela kwa dikolong le diyunibesithi tsa Aforika Borwa mme ba feleletsa ba agetse matshelo a bone koo morago ga go fetsa dithuto.\n\n4. Lenyalo - Batswana bangwe ba nyalana le baagi ba Aforika Borwa mme ba nna le malapa koo.\n\n5. Botsogo - Ditirelo tsa botsogo di ne di le botoka kwa Aforika Borwa, se se dirileng gore Batswana ba ye go bona kalafi le go belega koo.\n\nKa jalo, mabaka a a farologanyeng a hisetori, ikonomi le loago a bakile go anama ga Batswana kwa Aforika Borwa go feta mo Botswana. Le fa go ntse jalo, bontsi jwa Batswana ba santse ba tshela mo Botswana e bile palo ya bone e a oketsega."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng se se bakileng gore palo ya Batswana mo Botswana e nne palo e ko tlase mme morafe wa Botswana o le montsi ko Aforika Borwa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2954,6 +3548,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:33:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ditlamorago tse di neng tsa tsisiwa ke kgotlhang ya tautona wa ntlha morago ga go supa fa ana le maikaelelo a go nyala motho mosweu gotswa ko ga Mmamosadinyana fa gare ga ga rraagwe (kgosi) le morafe di akaretsa tse di latelang:\n\n1. Go ne ga nna le kgogakgogano le kgaogano fa gare ga tautona le rraagwe (kgosi) ka ntlha ya maikaelelo a gagwe a go nyala motho mosweu. Kgosi o ne a ganetsa nyalo e.\n\n2. Morafe le one o ne wa kgaogana ka ntlha ya kgang e. Bangwe ba ne ba ema le tautona mme ba bangwe ba ema le kgosi. Se se ne sa baka dikgogakgogano tse di tseneletseng mo morafeng.\n\n3. Boemo jwa tautona bo ne jwa nna mo kotsing ka ntlha ya kgang e. Go ne go na le maikutlo a gore o tshwanetse go tlogela maemo a gagwe fa a batla go tswelela ka nyalo e.\n\n4. Kgang e e ne ya tsaya sebaka se seleele go rarabologa. Go ne ga tlhokafala dipuisano tse di tseneletseng le therisano fa gare ga tautona, kgosi le baeteledipele ba morafe go leka go fitlhelela tharabololo.\n\n5. Kwa bofelong, tautona o ne a tshwanelwa ke go dira ditshwetso tse di bokete. O ne a tshwanelwa ke go tlhopha fa gare ga lerato la gagwe le maikarabelo a gagwe jaaka tautona le ngwana wa kgosi.\n\nKe ditlamorago dingwe tsa botlhokwa tse di neng tsa tsisiwa ke kgang e ya tautona wa ntlha le maikaelelo a gagwe a go nyala motho mosweu kgatlhanong le thato ya rraagwe le morafe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke dife ditlamorago,tse di neng tsa tsisiwa ke kgotlhang ya tautona wa ntlha morago ga go supa fa ana le maikaelelo a go nyala motho mosweu gotswa ko ga Mmamosadinyana fa gare ga ga rraagwe(kgosi) le morafe?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3042,6 +3654,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:34:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Go na le mabaka a le mmalwa a a dirileng gore merafe e e farologaneng e tshabelelwe ke go tsamaela kwa bokone jwa Botswana go tswa kwa borwa:\n\n1. Phetogo ya loapi - Komelelo e e masisi le diphefo tse di maatla di ne tsa dira gore go nne thata go tshela kwa borwa. Seno se dirile gore batho ba tshabelelwe kwa bokone ba batla maemo a a botoka a loapi.\n\n2. Go tlhaela dijo - Komelelo e ne ya senya dijwalo le go bolaya leruo, se se bakang tlhaelo e kgolo ya dijo. Batho ba ne ba tshwanetse go batla metswedi e mengwe ya dijo.\n\n3. Dintwa le dikgogakgogano - Dintwa magareng ga merafe e e farologaneng di ne di bakwa ke kgaisano ya metswedi e e leng teng jaaka metsi le mafulo. Batho ba ne ba tshaba dintwa tse go batla iketlo.\n\n4. Go batla lefatshe - Merafe e mengwe e ne e batla go aga matlo le go jwala dijwalo mo lefatsheng le le siameng go gaisa kwa borwa jo bo omileng.\n\n5. Kgwebo - Kgwebisano ya dithoto le leruo magareng ga merafe e ne e gola, e rotloetsa batho go tsamaya go batla ditšhono tse di ntšha tsa kgwebo.\n\nKa kakaretso, maemo a a thata a tikologo le ikonomi kwa borwa a rotloeditse merafe go tsamaela kwa bokone ba batla botshelo jo bo botoka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng se se bakileng gore merafe e e farologaneng e tshabelelwe  ke go tsamaela thata ko bokone ja Botswana go tswa ko borwa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3128,6 +3758,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:35:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Mabaka a a dirileng gore dikgosi tse tharo di kope tshireletso mo pusong ya ga Mmamosadinyana ke a a latelang:\n\n1. Dikgosi di ne di tshaba go tlhaselwa ke merafe e mengwe e e neng e batla go gapa lefatshe la bone. Ka jalo, di ne di batla tshireletso go tswa mo pusong e e maatla.\n\n2. Dikgosi di ne di batla go sireletsa merafe ya bone le go netefatsa gore bana ba bone ba tla tswelela go busa. Tshireletso ya Mmamosadinyana e ne e tla ba netefatsa seo.\n\n3. Dikgosi di ne di batla go tsweletsa kgwebo le merafe e mengwe ka kagiso. Tshireletso ya Mmamosadinyana e ne e tla ba kgontsha go dira jalo ntle le go tshaba ditlhaselo.\n\n4. Dikgosi di ne di lemoga fa di sa kgone go emelana le maatla a merafe e mengwe ka bo tsone. Ka jalo, go ne go le botoka go batla tshireletso go tswa kwa ntle.\n\nKa kakaretso, dikgosi di ne di batla go sireletsa merafe ya bone, go tsweletsa kgwebo ka kagiso le go netefatsa gore puso ya bone e tswelela. Tshireletso ya Mmamosadinyana e ne e le tsela e e siameng ya go fitlhelela seo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke mabaka afe a  dirileng gore dikgosi tse tharo gotswa mo merafeng e e farologaneng, di kope go sirelediwa ke puso ya Mmamosadinyana?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3216,6 +3864,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:36:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Kgotlhang ya sepolotiki e e neng ya dira gore morafe wa Batawana o kgaogane le wa Bangwato e ne e amana le kgaisano ya bogosi magareng ga Kgosi Sekgoma Letsholathebe le Kgosi Khama III wa Bangwato mo bogompienong jwa lekgolo la bo19.\n\nSekgoma Letsholathebe o ne a batla go busa Batawana a ikemela, mme a sa laolwe ke Bangwato. Mme Kgosi Khama III ene o ne a batla go laola merafe yotlhe ya Batswana, go akaretsa le Batawana.\n\nKa ntlha ya kgotlhang e, Sekgoma Letsholathebe o ne a eteletsa Batawana go ya bokone bophirima jwa Botswana, kwa ba neng ba agiwa teng mo Ngamiland gompieno. Se se ne sa dira gore go nne le kgaoganyo magareng ga merafe ya Batawana le Bangwato.\n\nKgotlhang e gape e ne ya amana le go lwela metswedi ya dithoto le matlo a merafe e mebedi e. Batawana ba ne ba batla go laola lefatshe le metswedi ya bone ba ikemela go tswa mo taolong ya ga Kgosi Khama III."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke kgotlhang efe ya sepolotiki e e neng ya dira gore morafe wa Batawana o kgaogane le wa Bangwato,mme Batawana ba tsamaela ko bokone bophirima ja Botswana?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3302,6 +3968,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:37:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Seporo se se tswang borwa go ya bokone mo Botswana se ne se agelwa go tsamaisa diteemane. Seporo se, se bidiwa \"The Botswana Railway\", se ne sa agiwa ka ngwaga wa 1896 go tsamaisa diteemane go tswa Botswana go ya kwa borokgong jwa Cape Town kwa Afrika Borwa. \n\nSeporo se se ne se simolola kwa Mafikeng mo Aforika Borwa mme sa feta ka Lobatse, Gaborone, Mahalapye, Palapye le Francistown go fitlha kwa Plumtree kwa Zimbabwe. Se ne se na le bolele jwa dikhilomitara di ka nna 641.\n\nKajeno seporo se se santse se dirisiwa go tsamaisa dithoto le batho mo Botswana le go golaganya Botswana le dinaga tse dingwe tsa SADC jaaka Zimbabwe le Afrika Borwa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Seporo se se tswang south to north se ne se agelwa eng mo Botswana?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3390,6 +4074,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:38:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Mabaka a a dirileng gore toropo kgolo e fuduge go tswa Mafikeng go ya Gaborone ke a a latelang:\n\n1. Botswana e ne e batla go nna le taolo e e feletseng mo pusong ya yone morago ga go nna boipuso ka 1966. Go nna le toropo kgolo mo Botswana go ne go tlaa thusa go supa boipuso joo.\n\n2. Mafikeng e ne e le kgakala thata le mafelo a mangwe a Botswana, mme go ne go tlhokega gore toropo kgolo e nne mo gare ga naga gore e kgone go direla batho botlhe sentle.\n\n3. Gaborone e ne e na le maemo a a siameng a go ka aga toropo kgolo teng ka ntlha ya lefelo la yone, ditlamelo tsa metsi le go bapa ga yone le Aforika Borwa go rotloetsa kgwebo.\n\n4. Puso ya Botswana e ne e batla go aga toropo kgolo seša go ya ka ditlhokego tsa naga, se se neng se ka se kgonagale fa ba dirisa Mafikeng.\n\nKa jalo, tshwetso ya go fudusa toropo kgolo go tswa Mafikeng go ya Gaborone e ne e ikaegile thata mo go batleng go tlhoma puso e e ikemetseng le go tlamela ditirelo ka tolamo mo Botswana yotlhe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke mabaka afe a a dirileng gore toropo kgolo e fuduge go tswa ko Mafikeng(Aforika Borwa) go ya ko Gaborone?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3476,6 +4178,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:39:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Tebelo pele ya Botswana ya 2036 e solofetsa dilo tse di latelang mabapi le tsa thuto le botsogo:\n\nThuto:\n- Go tokafatsa boleng jwa thuto go simolola kwa dikolong tsa potlana go ya kwa dithutong tsa sekolo se segolwane le dithuto tsa yunibesithi. \n- Go oketsa palo ya baithuti ba ba tsenang dithuto tsa sekolo se segolwane le yunibesithi.\n- Go tlhabolola mananeo a thuto gore a tsamaelane le ditlhokego tsa itsholelo le loago.\n- Go tlhabolola bokgoni jwa barutabana le go ba rotloetsa.\n\nBotsogo:\n- Go tokafatsa phitlhelelo ya ditirelo tsa botsogo, segolobogolo mo mafelong a magae.\n- Go fokotsa dipalo tsa bolwetse jwa HIV/AIDS le malwetse a mangwe a a tshelanwang.\n- Go tokafatsa maemo a botsogo jwa baimana, masea le bana.\n- Go rotloetsa batho go tshela botshelo jo bo itekanetseng ka go ja sentle le go ikatisa mmele.\n- Go oketsa palo ya badiri ba botsogo ba ba rutetsweng sentle.\n\nKa kakaretso, Tebelo pele ya 2036 e ikaelela go tlisa diphetogo tse dikgolo mo lephateng la thuto le botsogo go tokafatsa matshelo a Batswana botlhe. Maitlamo a teng ke go netefatsa gore Batswana botlhe ba nna le phitlhelelo e e lekanang ya thuto e e boleng le ditirelo tsa botsogo tse di maleba."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tebelo pele ya Botswana ya 2036 ,e solofetsa eng mabapi le tsa thuto le tsa botsogo?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3564,6 +4284,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:40:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ga go na molao kgotsa taelo e e reng mosadi yo o nyetsweng o tshwanetse go apara tjale. Go apara tjale ke setso fela mme ga se pateletso. Mosadi o na le tshwanelo ya go itlhophela gore o batla go apara eng. \n\nBontsi jwa basadi ba apara ditjale ka go rata go supa tlhompho le boineelo mo lenyalong la bona. Ba bangwe ba di apara fela ka mabaka a a rileng jaaka mo meletlong. Mme go santse go le tshwetso ya mosadi ka bongwe gore a batla go di apara kgotsa nnyaa.\n\nKa jalo, ga go na karabo e e fosagetseng kgotsa e e nepagetseng. Mosadi mongwe le mongwe o tshwanetse go tsaya tshwetso e e mo siametseng go ya ka maikutlo le ditumelo tsa gagwe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng fa mosadi yo nyetsweng a tshwanetse go apara tjale?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3650,6 +4388,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:41:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Bogwera ke lenaneo la setso la Batswana la go ruta bašimane ba ba godileng (ba dingwaga di ka nna 13) ka ga maikarabelo a bona mo setšhabeng le go ba ruta dikgono tsa botshelo.\n\nBo dirwa ka dikgato tse di latelang:\n1. Go tlhophiwa bašimane ba ba tshwanetseng go ya bogwera \n2. Ba isiwa nageng kwa ba tla ithutang teng sebaka sa dikgwedi tse 2-3\n3. Ba rutwa melao, maitsholo le ngwao ya Setswana\n4. Ba rutwa dikgono tsa botshelo jwa monna, jaaka go tsoma le go lwela setšhaba\n5. Morago ga go fetsa, go nna le moletlo wa go keteka go fetsa ga bona bogwera le go amogela maikarabelo a bona a masha mo setšhabeng\n\nBogwera bo thusa go ruta bašimane boikarabelo, boitshepo le go nna banna ba ba siameng mo setšhabeng. Le fa go na le diphetogo mo dinakong tsa segompieno, bogwera bo santse bo le botlhokwa mo ngwaong ya Batswana."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bogwera ke eng mme bo dirwa jang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3738,6 +4494,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:42:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Bojale ke mokgwa wa setso wa go ruta basetsana ba Batswana ka ga botshelo le maikarabelo a bona mo setšhabeng. Gantsi bo dirwa fa ngwana wa mosetsana a le dingwaga tse 16 go ya go 18.\n\nMo bojaleng, basetsana ba kgaoganngwa le malapa a bona mme ba isiwa kwa nageng go ya go rutwa ke basadi ba bagolwane ba ba nang le maitemogelo mo botshelong. Teng ba rutwa dilo di tshwana le go tlhatswa, go apaya, go tlhokomela bana, go supa tlotlo mo borre le bagolo, mmino le metshameko ya setso le melao ya setso. \n\nBojale gantsi bo tsaya sebaka sa dikgwedi tse 2 go ya go 3. Kwa bokhutlong jwa lenaneo, go nna le moletlo o o bidiwang 'mophato' kwa basetsana ba bontshang se ba ithutileng teng mme ba amogela dimpho go tswa mo balosikeng. Morago ga moo, ba boela gae e le 'basadi' mme ba letlelelwa go nyalwa.\n\nBojale bo thusa go somarela ngwao le go ruta basetsana boikarabelo le boitshwaro jo bo siameng go ya ka setso sa Setswana. Le fa go ntse jalo, mokgwa o o a nyelela mo dinakong tsa segompieno."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bojale ke eng mme bo dirwa jang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3824,6 +4598,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:43:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Bojalwa jwa Setswana bo apewa ka metlhale e e farologaneng go ya ka mofuta wa bojalwa. Mefuta e e tlwaelegileng ya bojalwa jwa Setswana e akaretsa khadi, bojalwa jwa mabele le bojalwa jwa morula. Ka kakaretso, go apewa bojalwa go akaretsa tse di latelang:\n\n1. Go lokela mmidi, mabele kgotsa maungo (go ya ka mofuta wa bojalwa)\n2. Go tlhakanya le metsi \n3. Go bedisa motswako go fitlhela o budule\n4. Go tshela motswako mo merwalo go o kgaoganya le maswe \n5. Go tlogela motswako go fola sebaka se se rileng\n6. Go tshela bojalwa jo bo foletsweng mo mabotlolong\n\nBojalwa jwa Setswana gantsi bo dirwa ka dilo tse di bonwang mo tikologong jaaka mabele, mmidi, dinawa, morula le mefuta e mengwe ya maungo. Metswako le nako ya go fola di farologana go ya ka mofuta wa bojalwa jo bo apewang."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bojalwa jwa setswana bo apewa jang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3912,6 +4704,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:44:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Nku ya mokwele e ntshiwa ka mabaka a latelang:\n\n1. Ha nku e se e tsofetse haholo mme e se e sa hlole e tswala hantle\n2. Ha nku e na le mafu kapa e lemetswe mme e se e sa kgone ho phela hantle\n3. Ha nku e se e sa fane ka boea bo lekaneng kapa boea ba yona bo se bo se botle \n4. Ha ho hlokahala ho fokotsa palo ya dinku lebaleng kapa polasing\n5. Ha nku e se e hloka meno mme e se e sa kgone ho fula hantle\n\nKa kakaretso, nku e ntshwa mohlomong ha e se e sa na molemo kapa e se e le mofokodi haholo. Ho ntsha nku ho thusa ho boloka mehlape e phetse hantle."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nku ya mokwele e ntshiwa ka mabaka afe?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3998,6 +4808,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:45:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Dintlha tse di latelang di dira gore Kasane e nne lefelo le le tumileng la bojanala:\n\n1. Kasane e gaufi le Chobe National Park, park ya bosetšhaba e e nang le diphologolo tse di farologaneng jaaka ditlou, diphala le ditau. Se se gogela bajanala ba le bantsi.\n\n2. Toropo e gaufi le nokana ya Chobe, e e dirang gore go nne le ditiro tsa mo metsing jaaka go suta ka dikepe le go thuma ditlhapi. \n\n3. Kasane e na le mafaratlhatlha a a siameng a bojanala jaaka dihotele le dikampa tsa bojanala.\n\n4. Toropo e na le maemo a a siameng a loapi le botsididi jo bo lekaneng, se se e dirang lefelo le le siameng la go etela ngwaga otlhe.\n\n5. Kasane e na le boemafofane jo bo thusang gore bajanala ba fitlhelele motse bonolo.\n\nKa jalo, Kasane e na le dilo tse dintsi tse di e dirang lefelo le le siameng la bojanala, bogolo jang ka ntlha ya go nna gaufi le Chobe National Park le nokana ya Chobe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng se se dirang gore Kasane e nne lefelo la bojanala?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4086,6 +4914,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:46:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Go na le mabaka a le mmalwa a a bakang kgotlhang ya polotiki fa gare ga ga Tautona Masisi le Tautona yo o fetileng Khama, go akaretsa:\n\n1. Dipharologano mo motheong wa puso - Masisi o batla go tsenya diphetogo dingwe mo pusong mme Khama ena o batla go tswelela ka mokgwa wa gagwe wa puso. \n\n2. Khama o ne a emelela Pelonomi Venson-Moitoi go nna Tautona mo kgethong ya BDP mme Masisi a fenya, se se bakile dipharologano.\n\n3. Go na le dipuo tsa gore Masisi o leka go fokotsa thata ya ga Khama le balatedi ba gagwe mo pusong. \n\n4. Masisi o dirile diphetogo dingwe mo kabineteng e e neng e tlhophilwe ke Khama, se se sa itumediseng Khama.\n\n5. Go na le megopolo e e farologaneng fa gare ga bone mabapi le ditshwetso dingwe tsa puso jaaka tsa khiro ya DIS le tse dingwe.\n\nKa kakaretso, kgotlhang e e bakiwa ke gore mongwe le mongwe o batla go tsenya leano la gagwe la puso le go nna le thata, mme ba na le megopolo e e farologaneng ka tsamaiso ya puso."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kgotlhang ya polototiki fa gare ga ga Tautona Masisi le Tautona yo o fetileng Ian Khama e bakwa ke eng?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4172,6 +5018,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:47:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Bakwena ba bina mmino wa setso wa Setswana o o bidiwang mokomoto kgotsa mokomoto wa matlho. Mokomoto ke mmino o o tsamaelanang le sereto sa Bakwena. \n\nDingwao tse di dikologileng sereto sa Bakwena di akaretsa nkwe (tau), tholo le kwena. Nkwe e emela maatla le boganka. Tholo e emela bofefo le matlhagatlhaga. Kwena yone e emela bonatla le go itshereletsa. Dingwao tse di emela diponagalo tsa botlhokwa mo morafeng wa ga Kwena."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bakwena ba bina eng mme ke dingwao dife tse di dikologileng sereto?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4260,6 +5124,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:48:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Go ya ka ngwao ya Setswana, fa mosetsana a bona setswalo sa gagwe sa ntlha, go ne go tsewa e le sesupo sa gore o godile mme o siametse go nyalwa. Seo se ne se tla ka mekgwa e e farologaneng go ya ka ditso tsa morafe mongwe le mongwe. Ka kakaretso, mosetsana o ne a tla bolelelwa ka ga seo ke bagolo ba basadi, mme go ne go ka tshwarwa le meletlo go keteka tiragalo eo. \n\nGompieno dilo di fetogile thata. Bontsi jwa basetsana ga ba tlhole ba tsaya setswalo sa ntlha e le selo se se botlhokwa thata. Gape ga go sa tlhole go le meletlo e mentsi e e tshwarelwang tiragalo eo. Basetsana ba bantsi ba tsena sekolo mme ba ikaelela go nna le dithuto le ditiro pele ba akanya ka lenyalo. Gape, kitso ka tsa tlhakanelo dikobo le boimana e anamile mo go dirwang gore basetsana ba kgone go itshireletsa.\n\nKa jalo, go bona setswalo sa ntlha ga go sa tsewa e le sesupo sa go siamela lenyalo jaaka go ne go ntse mo bogologolong. Le fa go ntse jalo, go santse go le botlhokwa gore basetsana ba fiwe kitso le thuso ya maleba ka nako eo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Go ya ka ngwao, mosetsana o ne a dira jang fa a bona setswalo sa gagwe sa ntlha mme seo se farologana jang le se se diragalang gompieno?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4346,6 +5228,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:49:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Batlokwa ba fitlhela baswi ba bone kwa mafelong a a farologaneng go ya ka setso le tumelo ya bone. Gantsi ba fitlhela baswi ba bone kwa mabitleng kgotsa mafelong a a boitshepo go ya ka tumelo ya bone. Ba dira jalo go bontsha tlhompho le go gopola baswi ba bone. \n\nGo ya ka setso sa Setswana, go tlwaelesegileng gore malapa a etele mabitleng a baswi ba bone gangwe le gape, bogolo jang ka nako ya malatsi a a kgethegileng jaaka malatsi a botsalo le maloba. Ba dira ditirelo tsa sedumedi mme ba bua le baswi ba bone go kopa tshegofatso le tshireletso.\n\nMekgwa e e dirisiwang go bontsha tlhompho le go gopola baswi e farologana go ya ka malapa le ditumelo tse di farologaneng. Bangwe ba tshuba dikerese fa ba bangwe ba tshela metsi mo mabitleng. Go na le ba bangwe ba ba beelang dijo le dino mo mabitleng go dumela gore baswi ba tla di ja.\n\nKa kakaretso, go etela mabitleng go botlhokwa mo morafeng wa Batlokwa le merafe e mengwe ya Batswana go bontsha tlhompho le go tshegetsa kgolagano le baswi. Ke karolo ya setso e e tsweletseng go tswa mo losikeng go ya go le lengwe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Batlokwa ba fitlhela baswi ba bone kae mme ke eng ba dira jalo?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4434,6 +5334,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:50:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Tsamaiso ya go ikopela setsha ko lephateng la Kabo Ditsha e akaretsa dintlha tse di latelang:\n\n1. Tlatsa foromo ya kopo ya setsha o neelana ka dintlha tsotlhe tse di tlhokegang jaaka leina, aterese, nomoro ya boitshupo jj. \n\n2. Romela foromo e e tladitsweng mmogo le dikwalo tse dingwe tse di tlhokegang jaaka khopi ya omang, sesupo sa aterese le bopaki jwa lotseno.\n\n3. Ema go fitlhelela o amogela netefatso ya kamogelo ya kopo le nomoro ya tshupiso.\n\n4. Lephata le tla sekaseka kopo ya gago go bona fa o tshwanetse go fiwa setsha. Ba tla lebelela dilo tse di jaaka lotseno lwa lelapa, bogolo jwa lelapa le ditlhokego tsa bonno.\n\n5. Fa kopo ya gago e atlega, o tla itsisewe ka mokwalo mme o fiwe nako le lefelo la go tla go saena ditumalano tsa go fiwa setsha.\n\n6. Morago ga go saena ditumalano, o tla tshwanelwa ke go duela madi a kabo ya setsha pele ga setsha se ka nna sa gago semolao.\n\nKe tsamaiso e e kakaretso fela mme e ka farologana go ya ka melawana ya lephata la kabo ditsha mo masepaleng a a farologaneng."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tsamaiso ya go ikopela setsha ko lephateng la Kabo Ditsha ke efe?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4520,6 +5438,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:51:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Fa o latlhile Omang, o tshwanetse go sala tsamaiso e e latelang morago:\n\n1. Ikgolaganye le sepodisi sa kgaolo ya gago go bega go latlhegelwa ke Omang. Ba fe dintlha tsotlhe tse di tlhokegang jaaka leina, aterese le nomoro ya gago ya boitshupo. \n\n2. Tlatsa foromo ya go bega go latlhegelwa ke Omang kwa ofising ya Omang e e gaufi le wena. O tla tlhoka go tsenya sesupo sa gago le ditokomane tse dingwe tse di tlhokegang.\n\n3. Duela madi a a beilweng a go dira kopo ya Omang o moša. Madi a a farologana go ya ka lefelo le o leng mo go lone.\n\n4. Ema go fitlhelela o amogela Omang wa gago o moša morago ga dibeke di le mmalwa.\n\nGo botlhokwa go bega Omang o o latlhegileng ka bonako go fokotsa kgonagalo ya tiriso e e sa siamang ke batho ba bangwe. Tlhokomela gape gore o baya Omang wa gago sentle gore o se ka wa tlhola o latlhega gape."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O tswanetse go sala tsamaiso efe morago fa o latlhile Omang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4608,6 +5544,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:52:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Umbrella for Democratic Change (UDC) ke lekoko la sepolotiki mo Botswana le le nang le diparty tse di farologaneng tse di kopaneng go lwantsha Botswana Democratic Party (BDP) e e laolang puso. \n\nUDC e eteletswe pele ke Rre Duma Boko yo e leng moeteledipele wa Botswana National Front (BNF). Diparty tse dingwe tse di leng mo UDC ke:\n\n1. Botswana National Front (BNF)\n2. Botswana People's Party (BPP) \n3. Botswana Congress Party (BCP)\n4. Alliance for Progressives (AP)\n\nKa jalo, UDC e na le diparty tse nne (4) mo go yone mme e lwantsha go fenya BDP mo ditlhophong tsa 2024. Maikaelelo a UDC ke go tlisa diphetogo mo pusong ya Botswana le go tokafatsa matshelo a Batswana."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umbrella for Democratic Change (UDC) ke eng, e eteletswe pele ke mang mme e nale diparty tse kafe mo go yone?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4694,6 +5648,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:53:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Go ya ka tumelo ya Bakalaka, Modimo wa bona ke Mwali. Mwali o obamelelwa thata mo Botswana le Zimbabwe, bogolo jang mo mafelong a Bakalaka ba nnang teng teng.\n\nGo dumelwa gore Mwali ke modimo yo o laolang pula. Ka jalo Bakalaka ba mo obamela gore a ba nayele pula e e lekaneng go nosetsa dijalo le go naya diphologolo metsi. Ba dumela gape gore Mwali o na le maatla a go sireletsa batho, go ba fodisa le go ba segofatsa.\n\nMwali ga a bonwe ka matlho mme go dumelwa gore o bua le batho ka badimo (meropa). Phuthego ya gagwe e kgolo ke kwa Manyangwa kwa Zimbabwe, mme gape go na le mafelo a mangwe a bosupi jwa gagwe mo Botswana le Zimbabwe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Modimo wa Bakalaka ke ene mang, o obamelelwa kae mme go dumelwa gore ke ene a tsisang eng?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4782,6 +5754,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:54:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Tshekedi Khama e ne e le mongwe wa baeteledipele ba ba neng ba tshwaraganetse le ga Seretse Khama go lwela boipuso jwa Botswana. \n\nO ne a tsholetswe ka 1905 mme e le kgosana ya morafe wa Bangwato. O ne a thusa go rulaganya lekoko la Botswana Democratic Party (BDP) mmogo le ga Seretse Khama mo dingwageng tsa bo1960. BDP ke lone le ileng la etelela pele go lwela boipuso jwa Botswana.\n\nTshekedi o ne gape a nna Tona ya ntlha ya Merero ya Selegae mo pusong ya ntlha ya Botswana morago ga boipuso ka 1966. O ne a dira mmogo le ga Seretse Khama go tsenya tirisong mananeo a tlhabololo le go aga lefatshe le lesha la Botswana.\n\nKa jalo, Tshekedi Khama o nntse le seabe se segolo mo kgololesegong le kgatong ya Botswana ya go nna lefatshe le le ipusang. O ne a tshwaraganetse le baeteledipele ba bangwe jaaka ga Seretse Khama go lwela boipuso le go aga lefatshe la Botswana morago ga kgololesego."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tshekedi Khama ke mang mme o nnile le seabe sefe mo go reng Botswana e bo e le lefatshe le le ikemetseng ka nosi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4868,6 +5858,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:55:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Lentswe la Baratani ko Otse le bidiwa jalo ka gore go na le tumelo ya gore fa baratani ba ya teng mme ba bua sengwe, se se tla diragala. \n\nGo na le tumelo gape ya gore fa motho a ya teng a le esi mme a bua sengwe, se se tla diragala. Ka jalo, batho ba bantsi ba rata go ya kwa Lentsweng la Baratani go ya go bua dilo tse ba eletsang gore di diragale mo matshelong a bona.\n\nGape Lentswe la Baratani ke lefelo le le ntle thata mme go na le dilo tse di kgatlhang tse motho a ka di bonang fa a le teng, jaaka dikgwa, mafika le melatswana. Ka jalo leina le, le tlhaloganyega ka gore ke lefelo le le hohelang baratani le batho ba ba ratang go bona dilo tse di kgatlhang."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng fa Lentswe la Baratani ko Otse le bidiwa jalo?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4956,6 +5964,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:56:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Pharologano e kgolo ka lenyalo la ga Sir Seretse Khama le Ruth Khama e ne e le ya mmala. Seretse Khama e ne e le motho o montsho mme Ruth Khama ene e le mosweu. Ka nako eo, lenyalo la batho ba merafe e e farologaneng le ne le sa amogelesege mo mafatsheng a mantsi, go akaretsa le Botswana. \n\nLe fa go ne go na le kganetso e ntsi kgatlhanong le lenyalo la bona, Ruth Khama o ne a ema ka fa morago ga monna wa gagwe ka nako tsotlhe. O ne a mo fa tshegetso le lorato, a sa tshabe go lebana le dikgwetlho tse ba neng ba lebagane le tsona. O ne a tlogela legae la gagwe kwa England go tla go nna le Seretse mo Botswana, a lebagana le kgethololo le go kgaphelwa kwa thoko ke batho bangwe.\n\nKa bopelotelele le lorato lwa gagwe, Ruth Khama o ne a bontsha fa lenyalo le ka atlega le fa batho ba farologana ka mmala kgotsa setso. O nnile sekai se se molemo sa gore lerato le ka fenya pharologano nngwe le nngwe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng se se neng se le pharologano ka lenyalo la ga Sir Seretse Khama le Ruth Khama mme Ruth Khama o ne a itshwara jang lefa go nale pharologanyo eo?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5042,6 +6068,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:57:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke maswabi, ha ke tsebe karabo e nepahetseng ho potso ena. \"Leinane la Sananapo\" e ka ba pale kapa tshomo ea Sesotho, empa ha ke na bonnete ba hore e bua ka eng kapa hore ke mang ea e ngotseng. Ke kopa tšoarelo hore ha ke tsebe ho fana ka tlhahisoleseling e batsi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Leinane la Sananapo la reng?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -5130,6 +6174,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:58:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Phane e omisiwa ka mekgwa e farologaneng go ya ka mofuta wa phane. Bangwe ba e omisa ka go e anela letsatsi gore metsi a ome. Ba bangwe ba e besa pele ka metsi a a belang, ebe ba e oma morago. Go na le ba ba e omisang ka go e tsenya mo borothong kgotsa folourong go fitlhela e omile. Se se thusa gore phane e nne bothata ebile e nnele sebaka se se leele pele e senyega."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Phane e omisiwa jang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5216,6 +6278,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:59:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Metse ya Jwaneng le Letlhakane la Orapa e itsege ka moepo wa teemane mme e thusa Batswana ka ditsela tse di latelang:\n\n1. Ditiro - Meepo e e teng mo metseng e, e tlhama ditiro tse dintsi tsa Batswana. Se se fokotsa lehuma le go tlhoka tiro.\n\n2. Lekgetho - Meepo e duela lekgetho le le kwa godimo mo pusong ya Botswana, mme madi a dirisiwa go tlamela ditirelo tsa botlhokwa jaaka thuto le botsogo. \n\n3. Kgolo ya ikonomi - Kgwebo ya teemane e tsaya karolo e kgolo mo kgolong ya ikonomi ya Botswana. Se se thusa go tokafatsa maemo a botshelo a Batswana ka kakaretso.\n\n4. Ditirelo tsa loago - Dikompone tsa meepo gantsi di tsenya letsogo mo ditirelong tsa loago jaaka go aga dikole, dikokelwana le manno mo metseng e di direlang mo go yona.\n\n5. Tlhabololo ya dikgaolo - Meepo e rotloetsa tlhabololo ya dikgaolo tse e leng mo go tsona ka go tsenya madi mo mananeong a ditlhabololo le go tokafatsa mafaratlhatlha.\n\nKa jalo, metse ya Jwaneng le Letlhakane la Orapa e botlhokwa thata mo kgodisong ya ikonomi le go tokafatsa matshelo a Batswana ka kakaretso ka ntlha ya meepo ya teemane e e teng koo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Metse ya Jwaneng le Letlhakane la Orapa e itsege ka eng mme e thusa Batswana jang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -5304,6 +6384,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:60:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Phuti e tumile mo hisetoring ya rona ka mabaka a a latelang:\n\n1. Phuti e ne e le karolo ya botshelo jwa Batswana ba bogologolo. E ne e dirisiwa go dira diaparo, malao le dilo tse dingwe tse di botlhokwa.\n\n2. Phuti e ne e tshameka karolo e kgolo mo kgwebong ya Batswana ba bogologolo. Matlalo a phuti a ne a rekisiwa kgotsa a ananywa le merafe e mengwe.\n\n3. Phuti e ne e tshameka karolo e kgolo mo tumelong ya setso sa Batswana. E ne e dirisiwa mo meletlong ya setso le ditumelo dingwe tsa sedumedi.\n\n4. Phuti e ne e tshameka karolo e kgolo mo dipapading tsa setso jaaka diketo. Matlalo a yona a ne a dirisiwa go dira diaparo tsa mmino le dipina.\n\nKa jalo, phuti e tumile mo hisetoring ya Batswana ka ntlha ya tiriso ya yona e e farologaneng mo botshelong jwa bone, go simolola ka ikonomi, setso le sedumedi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O ka tlhalosa jang se se tumisitseng phuti mo hisitoring ya rona?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5390,6 +6488,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:61:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Kgang ya sepoko sa Mmashia ke kgang e e buang ka mosadi yo o neng a bidiwa Mmashia. Go ya ka kgang e, Mmashia e ne e le mosadi yo o neng a rata go utswa dilo tsa batho. O ne a utswa dilo tse di farologaneng go tswa mo bathong ba motse, go akaretsa le dijo le diaparo.\n\nKa letsatsi lengwe, Mmashia o ne a ya go utswa mo ntlong ya moagisani. Fa a ntse a utswa, mong wa ntlo o ne a mo tshwara. Mmashia o ne a leka go nganga le go ikuela boammaaruri, mme go ne go se thuse. Kwa bofelong, o ne a amogela kotlhao ya gagwe mme a solofetsa go fetola mekgwa ya gagwe e e maswe.\n\nKgang e e ruta thuto ya gore go botlhokwa go tshela ka boikanyego le go se utswele batho ba bangwe dilo. Gape e bontsha ditlamorago tse di maswe tsa boshodu le gore motho o tshwanetse go amogela maikarabelo a ditiro tsa gagwe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kgang ya sepoko sa Mmashia ke ya eng?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -5478,6 +6594,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:62:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Madila a dirwa ka mokgwa o o latelang:\n\n1. Mabele a a omisitsweng a a bidiwa sorghum a a tshwang a sila go nna bupi. \n\n2. Bupi jo bo tlhakantshwa le metsi a a belang go nna motogo. \n\n3. Motogo o o tshela mo metsing a a belang go fitlhela o budule mme o nna tiileng.\n\n4. Fa motogo o budule, o ntshiwa mo molelong mme o tlogelwa go nna phepa. \n\n5. Fa motogo o le phepa, o kgaolwa dikarolo tse di nnye tse di bidiwa madila.\n\n6. Madila a jewa a le phepa kgotsa a apeiwa le dijo tse dingwe jaaka nama.\n\nKe tsela e madila a dirwang ka teng ka mokgwa wa setso mo Botswana le dinaga dingwe tsa Aforika Borwa. Go botlhokwa go lemoga gore go na le mekgwa e mengwe ya go dira madila go ya ka setso sa batho."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Madila a dirwa jang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5565,6 +6699,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "tswana:63:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Dikgosi tse tharo tse di neng di ile ko Britain ka ngwaga wa 1895 e ne e le Kgosi Khama III wa Bangwato, Kgosi Sebele I wa Bakwena le Kgosi Bathoen I wa Bangwaketse. \n\nBa ne ba ile go ngongorega kwa go mmuso wa Brithani ka ga go tsewa ga naga ya bone ke dikompone tsa Makgowa tse di neng di batla go epa diminerale mo nageng ya bone, bogolo jang ke British South Africa Company (BSAC) ya ga Cecil John Rhodes. Dikgosi di ne di batla tshireletso ya Brithani go itsa BSAC go tsaya naga ya bone.\n\nMo mosepeleng wa bone, ba ne ba amogetswe ke batho ba le bantsi ba ba neng ba ba ema nokeng, go akaretsa le kereke. Mme le fa go ntse jalo, mmuso wa Brithani o ne wa gana go ba thusa mme wa dumalana le dikgopolo tsa ga Rhodes tsa go tsaya naga ya bone. \n\nLe fa mosepele wa bone o ne wa se atlege, o ne wa supa kgatelelo le bopelokgale jwa dikgosi go lwela ditshwanelo tsa batho ba bone. Gape o ne wa supa kamano e e neng e le teng magareng ga Batswana le Brithani mo nakong eo. Mosepele o, o thusitse go baakanyetsa naga ya Botswana go nna protectorate ya Brithani go fitlha ka 1966 fa e ne ya gololesega."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dikgosi tse tharo tse di neng di ile ko Britain ka ngwaga wa 1895 ke bomang mme o ka tlhalosa jang se di neng di ile go se dira koo?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5651,6 +6803,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "tswana:64:language.tswana:claude opus",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Mollo wa kgolagano o ne o tsamaisiwa ka ngwaga wa 1948 ke mmuso wa tlhaolele wa Maaforikaborwa. Mabaka a one e ne e le go kgaoganya merafe e e farologaneng ya Aforika Borwa go ya ka mmala. \n\nMollo wa kgolagano o ne o laola mafelo a batho ba dulang mo go ona, mafelo a ba berekelang mo go ona le ditirelo tse ba di bonang go ya ka merafe ya bona. O ne gape o thibela lenyalo magareng ga merafe e e farologaneng.\n\nMollo o, o ne o dirisiwa go tlhoma le go tsweledisa tlhaolele le go tlhoka tekatekano magareng ga Maaforikaborwa a a farologaneng mmaleng. E ne e le molao o o masisi o o neng o gataka ditshwanelo tsa botho."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mollo wa kgolagano o ne o tsamaisiwa ka ngwaga ofe, jang, ka mabaka afe?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]

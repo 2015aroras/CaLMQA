@@ -84,6 +84,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:0:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le palolo o se ituaiga o mea'ai masani i Samoa ma isi atunu'u i le Pasefika. O nisi auala e ta ai palolo:\n\n1. Palolo fa'asuka - Filogia le palolo i le suka ma le vai, ona kukaina lea se'ia pa'epa'e. E masani ona 'aina fa'atasi ma le fa'asuamalie.\n\n2. Palolo fa'apapa - Palu le palolo i le niu ma nisi fualaau fa'asuka, ona tao lea i se papa. \n\n3. Palolo fa'atineia - Palu le palolo i le niu ma nisi mea manogi, ona tao lea i se ogaumu.\n\n4. Palolo fa'avela - Tao le palolo i luga o malala ola se'ia vela lelei.\n\n5. Palolo fa'amoa - Palu le palolo i fuamoa ma nisi mea'ai, ona tao lea e pei o se omelet.\n\nO le palolo e tele ina maua i taimi o le tausaga e o'o mai ai, ma e fiafia tele tagata e 'ai. Ae taua le siakiina o lona lelei ma le 'ona, aua e i ai ituaiga palolo e ono lamatia."
+            }
+          },
+          "prompting_state": {
+            "prompt": "E fa'afefea ona ta palolo?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -170,6 +188,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "samoan:1:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le tala ia Nafanua ma ali'i tau e fa'apea:\n\nNa feiloa'i Nafanua ma ali'i tau i se taua. Na manumalo Nafanua i le taua ma na ia fa'atauanauina ali'i tau. Na ia fa'aipoipo i ali'i tau ma sa la nonofo fa'atasi. \n\nO Nafanua o se tama'ita'i malosi ma fitafita i tala o Samoa. Na te mafaia ona tau ma manumalo i tane i taua. O lona mafutaga ma ali'i tau e fa'aalia ai e mafai e se tama'ita'i ona filifili lona toalua, e oo lava i se toa malosi. O se tala e fa'aalia ai le tulaga maualuga o tama'ita'i i le aganuu Samoa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pe fa'apefea ona avea Nafanua ma ali'i tau?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -258,6 +294,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:2:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le malu o se measina taua i le aganuu ma agaifanua a Samoa. E fa'ataga ai na'o tama'ita'i Samoa e ta latou malu ona o nei mafuaaga:\n\n1. O se fa'ailoga o le ulua'i taimi na amata ai le teine i le taimi o lona matua. O se fa'amanatu o le taimi taua lea i lona olaga.\n\n2. O se fa'ailoga o le mamalu ma le taua o le tama'ita'i i totonu o lona aiga ma lona nu'u. E fa'aalia ai le fa'aaloalo ma le taua o le tama'ita'i.\n\n3. O se measina tufa'asolopito lea ua masani ai Samoa. Ua avea ma vaega 'autū o le aganuu Samoa talu mai le vavau.\n\n4. E fa'aaogaina e fa'ailoa ai le tulaga maualuga o le tama'ita'i i le sosaiete Samoa. O se auala e fa'aalia ai le mamalu o tama'ita'i.\n\n5. O se auala e puipuia ai le tama'ita'i mai mea leaga. E talitonu Samoa e puipuia le tama'ita'i e lana malu.\n\nO ia mafuaaga ua na'o tama'ita'i Samoa e fa'ataga e ta latou malu. O se vaega taua lea o le aganuu ma agaifanua a Samoa e fa'aaloalo ma fa'amamalu ai tama'ita'i."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aisea e fa'ataga ai na'o tama'ita'i Samoa e ta latou malu?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -344,6 +398,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "samoan:3:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le mafua'aga autū e fa'asa ai le fa'atautau lauulu i le pō, ona e fa'apea o le taimi lea e malolo ai le tino ma toe fa'afo'i mai le malosi. A fa'atautau le lauulu i le pō, e mafai ona a'afia ai le malolōga ma le soifua mālōlōina o le tagata.\n\nE talitonu fo'i nisi tagata, e iai ni a'afiaga fa'aleagaga e mafai ona tutupu pe a fa'atautau le lauulu i le pō, aemaise lava i totonu o aiga ma nu'u e fa'avae i tu ma aga fa'a-Samoa. O lea, e sili atu le fa'aeteete ma le fa'aaloalo i tu ma aga, nai lo le fa'atautau lauulu i taimi e lē talafeagai ai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aisea e fa'asa ai na fa'atautau lauulu i le po?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -432,6 +504,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:4:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "E taua tele 'ie toga i le aganuu Samoa. O le tupuaga o 'ie toga e mafua mai i le taimi o tupu ma tamāli'i o Samoa i aso ua mavae. O 'ie toga sa fai ma meaalofa taua i va o aiga ma nu'u. \n\nI le taimi ua mavae, sa lalaga e tama'ita'i Samoa 'ie toga mai lau o le 'u'a. O se galuega tele lea e mana'omia ai le tomai ma le fa'apalepale. O 'ie toga e ese'ese ona mamanu, lanu ma ata, ma e fa'aaogaina mo siva, ositaulaga, ma isi fa'amoemoe fa'aleaganuu taua.\n\nO le lalaga o 'ie toga o se tomai ua tu'ufaasolo mai tupulaga i tupulaga. O se measina o le aganuu Samoa lea e fa'aali ai le agava'a, matagofie ma le taua o fafine Samoa. E ui lava ua suia nisi mea i aso nei, ae o lo'o tumau pea le taua ma le fa'aaogaina o 'ie toga i Samoa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le a le tupuaga o 'ie toga?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -518,6 +608,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "samoan:5:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le tala Samoa lea e faatatau i le taua o le va fealoai i le va o tuagane ma tuafafine. O lona uiga, o tuafafine o ni mea taua ma le matagofie e pei o mata, ma e tatau i tuagane ona tausia lelei ma puipuia i latou tuafafine.\n\nO le tala foi lea e faailoa mai ai le faaaloalo ma le ava e tatau ona i ai i tuagane mo o latou tuafafine. E le gata i lea, ae o se faamanatu foi i ali'i talavou e tauaveina tiute tauave o le aiga e ala i le tausia lelei o latou tuafafine.\n\nO le isi foi uiga o lenei tala, o le faamautuina lea o le tulaga maualuga o tamaitai i totonu o aiga Samoa. E ui o ali'i o ulu o aiga, ae e maualuga le tulaga o tamaitai ma e tatau ona faaaloalogia e o latou tuagane.\n\nO le aotelega o lenei tala Samoa, o se tala e faamautu ai le taua o le va fealoai i totonu o le aiga, aemaise lava le va o tuagane ma tuafafine, ma ia tausia pea lea va mo le lumana'i manuia o aiga ma le atunuu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O fea e tupuga mai ai le tala Samoa faimai \"O tuafafine o iomata ia a a latou tuagane?\"\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -606,6 +714,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:6:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le palusami o se meaai Samoa e masani ona faia i lau fa'i, popo, suauu po'o le pata, ma e fa'aopoopo i ai foi le pe'epe'e. O nisi o laasaga e faia ai le palusami e aofia ai:\n\n1. Tapena le umu. Fa'aaoga se umu mata po'o se ogaumu.\n\n2. Fa'amama ma tipitipi le lau fa'i. Fa'aaoga le pito lau fa'i lanu meamata.\n\n3. Suia le popo i se ipu ma fa'aopoopoina le suauu po'o le pata. Sui se'ia pa'epa'e lelei.\n\n4. Fa'apipi'i le suauu/pata ma le popo i totonu o lau fa'i. Afifi fa'alelei ma nonoa.\n\n5. Tao i luga o le umu se'ia mago ma lanu samasama le lau fa'i. E masani lava ona umi le tao mo le 30-45 minute.\n\n6. A uma ona tao, tala mai le umu ma tu'u i se ipu. E mafai ona fa'aopoopo le pe'epe'e i luga mo se faaopoopoina o le nanamu.\n\nO se taiala faigofie lava lea e fai ai le palusami. E mafai ona fesuia'i fua o le popo ma le suauu e tusa ai ma lou mana'o."
+            }
+          },
+          "prompting_state": {
+            "prompt": "E fa'afefea ona fai le palusami?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -692,6 +818,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "samoan:7:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "E taua tele 'ie toga i le aganu'u fa'asamoa ona o nei mafua'aga:\n\n1. O se fa'ailoga o le mamalu ma le fa'aaloalo - E fa'aaogaina 'ie toga e fa'aaloalo ai i tagata ma fa'amalumaluga ai fo'i fa'alavelave taua e pei o fa'aipoipoga, sauniga lotu, ma isi. \n\n2. O se meaalofa taua - E masani ona tuuina atu 'ie toga e fai ma meaalofa i taimi o fa'alavelave taua po'o taimi fo'i e asia ai e tagata o latou aiga.\n\n3. O se vaega taua o le measina fa'asamoa - E taua le solo (lalaga) o 'ie toga i tina Samoa ma e a'oa'oina i tupulaga talavou e fai ma tomai ma agava'a mo le lumana'i.\n\n4. Fa'aaogaina i siva ma isi fa'afiafiaga fa'asamoa - E fa'aaoga e taupou ma manaia 'ie toga i taimi o siva ma poula.\n\n5. Fa'aaogaina e ufiufi ai fale Samoa - E tautau solo i totonu o fale Samoa 'ie toga matagofie e fai ma teuteu ma ufiufi fo'i.\n\nO nei mafua'aga ua fa'avae ai le taua o 'ie toga i le aganu'u ma aganuu fa'asamoa. O se vaega tumau o le fa'asinomaga fa'asamoa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aisea e taua ai 'ie toga i le aganu'u fa'asamoa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -780,6 +924,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:8:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le tulaga o le taupou e maua e se tama'ita'i e ala i le filifilia o ia e lona aiga po'o le nu'u, ona o lona tu ma aga, lona iloa fa'aaloalo, ma lona tautua i le aiga ma le nu'u. \n\nO nisi o mea e mana'omia mo se tama'ita'i e avea ma taupou e aofia ai:\n\n- O se tama'ita'i e le'i fa'aipoipo\n- E iloa lelei tu ma aga fa'asamoa \n- E iloa tautua ma fa'aaloalo i le aiga ma le nu'u\n- E iloa fai ma tausisi tiute fa'ale-aiga ma fa'ale-nu'u\n- E maua le lagolago mai lona aiga\n\nA filifilia se tama'ita'i e avea ma taupou, e faia se saofa'i (saofa'iga) e fa'amaonia ai lona tulaga. O le taupou e taua tele i le aiga ma le nu'u, ma e fa'atino e ia tofiga fa'apitoa i taimi o fa'alavelave ma isi mea taua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa'afefea ona maua e se tama'ita'i le tulaga lea o le taupou?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -866,6 +1028,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "samoan:9:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le ave ma Matai o se tulaga maualuga ma le mamalu i le aganuu Samoa. O Matai o taitai o aiga ma nu'u, ma e fa'aaloalogia i latou ona o lo latou tofi ma tiute tauave. \n\nO nisi o tapu e fa'atatau i le ave ma Matai e aofia ai:\n\n- Fa'aaloalo ma le migao - e tatau ona fa'aaloalo pea tagata i Matai\n- Usita'i - e tatau i tagata o le aiga ona usita'i i fa'atonuga a le Matai\n- Tautua - o se tiute taua o tagata talavou le tautua i le Matai ma le aiga\n- Ava fatafata - o se fa'aaloaloga fa'apitoa e tuuina atu e ala i le ava\n\nO nei tapu e fa'atumuina ai le va fealoaloa'i ma fa'aaloalogia ai Matai. O se tulaga tofi maualuga ma le mamalu le avea ma Matai i Samoa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O a ni tapu o le ave ma Matai?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -954,6 +1134,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:10:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le aeto i luga o le fu'a o Amerika Samoa o lo'o faatusa i le malosi, le sa'olotoga, ma le mausali o le atunu'u. O le aeto o se manu e iloga ona o lona malosi ma le gafatia e lele i maualuga, ma o se faatusa masani lea mo malo. O lona uiga, o le aeto o se faailoga lelei e faatusa ai i sini ma aiaiga maualuluga a Amerika Samoa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le a ua faatusa i ai le aeto i luga o le fu'a?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1040,6 +1238,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "samoan:11:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O Amerika Samoa o se teritori o le Iunaite Setete o Amerika e aofia ai motu o Tutuila, Aunu'u, Ofu, Olosega, ma Ta'u. O Tutuila o le motu tele lea o Amerika Samoa ma e nofo ai le taulaga o Pago Pago.\n\nO le mea lea, e le ese Tutuila ma Amerika Samoa, ae o se vaega Tutuila o le teritori o Amerika Samoa. O Tutuila o le motu autū ma le toʻatele o tagata o loʻo nonofo ai, ae o Amerika Samoa o le igoa lautele o le teritori atoa e aofia ai motu uma."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le a le eseesega o Amerika Samoa ma Tutuila?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1128,6 +1344,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:12:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le foa'i atu o tupe, 'ie toga ma mea'ai i taimi o maliu ai se tasi o le aiga e fa'aalia ai le alofa ma le agaga fesoasoani i le aiga o lo'o fa'anoanoa. O nisi o mafua'aga e aofia ai:\n\n1. Fesoasoani - O le foa'i atu e fesoasoani ai i le aiga ina ia fa'atino lelei sauniga o le maliu ma isi fa'amaumauga.\n\n2. Fa'aaloalo - O se fa'aaloalo i le tagata ua maliu ma lona aiga i se taimi fa'anoanoa.\n\n3. Alofa - O se fa'aalia o le alofa ma le agaga fa'amagalo i le aiga o lo'o mafatia.\n\n4. Tali le vala'au - I le tele o taimi, e vala'au le aiga mo le fesoasoani, ma e tatau ona tali i lea vala'aulia.\n\n5. Aganuu Samoa - O se vaega taua o aganuu Samoa le lagolagoina o aiga i taimi fa'apenei.\n\nO le foa'i atu e le gata e fesoasoani ai i le aiga, ae fa'aalia fo'i le alofa, le fa'aaloalo ma le lagolago i taimi fa'apenei o le fa'anoanoa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aisea e fa'amalosia ai ona tatou foa'i atu tupe, 'ie toga, ma mea'ai pe a maliu se tasi o tagata o le aiga?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1214,6 +1448,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "samoan:13:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le tali puupuu, ona o le taua o fanua i le aganu'u ma aganuu Samoa. O fanua o se vaega taua o le faasinomaga o tagata Samoa, ma e fesootai ma lo latou sootaga i o latou aiga ma nu'u. O le umia o fanua e tagata aganu'u e fesoasoani e puipuia ma tausia le faasinomaga Samoa.\n\nO nisi mafuaaga auiliili e aofia ai:\n\n1. O fanua o se tofi mai anamua lava mai tupuga. E taua le faaauauina o le pule a le aiga i fanua.\n\n2. O le umia o fanua e tagata aganu'u e mautinoa ai le tumau pea o aganuu ma tu ma aga Samoa e fesootai ma fanua.\n\n3. E puipuia ai fanua mai tagata mai fafo e lē o malamalama i le taua o fanua i le aganu'u Samoa.\n\n4. E fesoasoani e tausia le sootaga o tagata Samoa i o latou aiga, nu'u ma fanua.\n\nAe ui i ia, o loo iai fo'i ni lu'itau ma faafitauli e mafua mai i lenei faiga, aemaise lava i aso nei ua suia ai olaga ma ua toatele tagata Samoa ua nonofo i atunuu i fafo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aisea e fa'atagaina ai na'o tagata aganu'u e umia fanua?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1302,6 +1554,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:14:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le filifiliga o le au Senators e faia e le to'atele o tagata palota i le faiga palota lautele. O le faiga palota mo le au Senate e faia i tausaga ta'itasi e fa, ma e tofia ai Senators se to'alua mai setete ta'itasi mo le umi e ono tausaga. \n\nO le isi vaega o le au Senate e toe filifilia i tausaga ta'itasi e lua, o lona uiga o le tolu o le Senate atoa e filifilia i tausaga ta'itasi e fa. O lea la, e mafai e setete ta'itasi ona filifili Senators se to'alua i taimi 'ese'ese, ae o le a fa'aauau pea ona i ai ni sui e to'alua mai setete ta'itasi i totonu o le Senate i so'o se taimi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "E fa'apefea ona filifilia le au Senators?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1388,6 +1658,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "samoan:15:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le Sa o se taimi taua tele i le aganu'u ma le soifuaga faa-Samoa. O nisi o aoga o le Sa e aofia ai:\n\n1. O se taimi e tapuai ai i le Atua ma faamalo atu mo ana faamanuiaga. E faia ai sauniga lotu ma tatalo.\n\n2. O se avanoa e malolo ai le tino ma le mafaufau mai galuega ma isi feau o le vaiaso. \n\n3. E faamalosia ai le taua o aiga ma fefaauoaiga. E fai ai faigameaai faa-aiga ma mafutaga.\n\n4. O se taimi e faataua ai tu ma aga faa-Samoa e pei o le va fealoa'i, faaaloalo, ma le osi-aiga. \n\n5. E faamamaluina ai aso sa ma isi aso taua faa-le-lotu.\n\n6. O se taimi e fai ai aoaoga faa-le-Tusi Paia ma isi mataupu faa-le-agaga mo tamaiti ma tagata matutua.\n\nO le Sa o se vaega taua o le faasinomaga ma aganu'u Samoa e faataua ai tapuaiga, malologa, aiga, ma tu ma aga. E faamalosia ai le faatuatua i le Atua ma faiā faa-aiga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le a le aoga o le Sa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1476,6 +1764,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:16:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "E taua Tagaloa o le na faia le motu o Samoa i tala o le gagana Samoa. O Tagaloa o se atua taua tele i talitonuga faa-Samoa. E talitonu tagata Samoa o Tagaloa na ia faia le lagi ma le lalolagi, e aofia ai ma Samoa. O ia foi na faia tagata muamua. Ae e leai se tala mautinoa e uiga i auala na faia ai e Tagaloa motu o Samoa, na o le manatu lautele o ia o le Atua sili na faia mea uma, e aofia ai Samoa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "E fa'afefea ona ta'ua Tagaloa na ia faia le motu o Samoa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1562,6 +1868,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "samoan:17:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le kava o se inu taua i le aganuu Samoa. O nisi laasaga e fai ai le kava e aofia ai:\n\n1. Saunia le tanoa (ipu kava), fau (siapo), ma le paogo kava \n2. Fufulu ma faamamā le tanoa ma le fau\n3. Tuu le paogo kava i totonu o le fau ma tuu i totonu o le tanoa\n4. Liligi le vai i luga o le paogo kava i le tanoa\n5. Lomi ma palu le paogo kava i le vai seia mautu ma soo\n6. Tauaao le ipu kava i le tagata o le a taumafa, amata mai tagata matutua\n7. Taumafa le kava ma toe faafoi le ipu\n8. Toe fai le palu seia maua le malosi ma le manogi talafeagai\n\nO se faiga faigofie lenei o le kava. E iai foi isi faiga ma aganuu e faaaogā e tusa ai ma le nuu ma le mafuaaga o le fai o le kava."
+            }
+          },
+          "prompting_state": {
+            "prompt": "E fa'afefea ona fai le kava?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1650,6 +1974,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:18:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "E tusa ai ma le talafaasolopito, na aumai le kalo i Amerika Samoa e tagata na folau mai i vaa mai Polenisia i le va o le 1000 T.A. ma le 1200 T.A.\n\nO le kalo o se faatoaga taua tele mo tagata Polenisia, ma o se tasi o meaai autū sa latou aumaia i o latou malaga. Na latou aumaia fatu o le kalo ma totoina i nofoaga fou na latou folau i ai, e pei o Amerika Samoa.\n\nO le kalo na mafai ona ola lelei i le tau ma le eleele o Amerika Samoa, ma na vave ona avea ma faatoaga taua mo tagata na nonofo ai. O le isi mafuaaga na vave ona talia le kalo ona e faigofie ona totoina ma e matuā tele ona aogā e fai ma meaai.\n\nO lea, o le aumai o le kalo i Amerika Samoa e tagata Polenisia anamua i o latou malaga i le Pasefika i Saute na suia ai le olaga faatoaga ma meaai a tagata o le motu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa'apefea ona o'o le kalo i le motu o Amelika Samoa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1736,6 +2078,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "samoan:19:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le tu ma aga a le taupou e ofu le 'ie toga pe a siva fa'asamoa e amata e pei o le a ta'u i lalo:\n\n1. Muamua lava, e tu le taupou i totonu o le nofoaga o le siva ma fa'afesaga'i i luma. \n\n2. Ona tago lea o ia i le 'ie toga ma fa'apipii i lona ua tauagavale, fa'ata'ita'i ai lona matagofie ma le mamalu.\n\n3. E amo e le taupou le 'ie toga i lona lima taumatau, ma sii i luga e fa'aali ai le matagofie o le 'ie.\n\n4. Mulimuli ane, e tuu ifo le 'ie toga i lalo ma fa'ata'ita'i ai le fa'aaloalo ma le agamalu.\n\n5. E toe sii fa'alua le 'ie toga i luga ma lalo, ona amata loa lea ona siva fa'atasi ma le pese ma musika.\n\nO le ofu o le 'ie toga e le na o se teuga matagofie, ae o se fa'ailoga fo'i o le taua o le taupou i le aganuu fa'asamoa. E fa'aalia ai le mamalu ma le fa'aaloalo i le taupou ma lona aiga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa'apefea ona amata le tu ma aga a le taupou e ofu le 'ie toga pe a siva fa'asamoa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1824,6 +2184,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:20:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le faia o faiava mo tagata faimalaga e mafua mai i ni mafuaaga eseese:\n\n1. Puipuiga - E fesoasoani faiava e puipuia tagata faimalaga mai faama'i pipisi e pei o le fiva mālosi, ma e mafai ona puipuia ai le soifua maloloina o tagata faimalaga.\n\n2. Tulafono - O nisi atunuu e manaomia ai faiava mo tagata faimalaga e ulufale atu i o latou laueleele. O se vaega o a latou tulafono femalagaiga.\n\n3. Fautuaga Foma'i - O nisi taimi e fautuaina ai e foma'i tagata faimalaga e fai ni faiava e tusa ai ma le mea o le a latou ō i ai, aemaise pe afai e maualuga le lamatia o le maua i faama'i.\n\n4. Filifiliga Totino - E filifili nisi e fai faiava mo le puipuiga fa'aopoopo, e tusa lava pe leai se fautuaga po'o se manaoga.\n\nO le faia o faiava e tatau ona faia e se foma'i, ma e tatau i tagata faimalaga ona iloilo lelei fautuaga a le foma'i e uiga i faiava e manaomia mo le mea o le a latou malaga i ai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aisea e faia ai faiava mo tagata o loo faimalaga?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1910,6 +2288,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "samoan:21:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le mafua'aga autū e ese'ese ai tupe a Amerika Samoa ma tupe a Apia, ona o lo'o fa'aaogāina e Amerika Samoa le tupe a le malo tele o Amerika (US Dollar), ae o lo'o fa'aaogāina e Samoa lona lava tupe fa'asolo, o le Tala lea.\n\nO Amerika Samoa o se teritori o Amerika, ma o lea e fa'aaogā ai le US Dollar e pei o isi setete ma teritori o Amerika. A'o Samoa, o se atunu'u tutoatasi ma e iai lona mālosi'aga i le fa'atulagaina o lana tupe fa'asolo, le Tala.\n\nE ui ina tu'ufaatasi uma Samoa i le aganu'u fa'asamoa, ae o le tu'uga'eseina o pulega ma mālosi'aga tau tupe, ua mafua ai ona fa'aaogāina tupe 'ese'ese i Samoa ma Amerika Samoa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aisea e ese'ese ai tupe a Amerika Samoa ma tupe a Apia?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1998,6 +2394,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:22:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le mea moni, e leai ni tagata tumau o loo nonofo i Swains Island i le taimi nei. O lenei motu laiti o se vaega o Amerika Samoa, ae o loo pulea e se aiga e tasi mai Ofu, Manu'a lea e ta'ua o le aiga Jennings.\n\nO le to'atele o tagata sa nonofo ai i le motu i tausaga ua mavae, ae o le taimi nei, e na o ni nai tagata lava e asiasi atu i taitai ma taimi o fagotaga. O le mafuaaga autu o le mea lea ua leai ni tagata tumau, ona ua faigata le olaga i lea motu, e patino lava i auaunaga tau soifua maloloina ma aoga.\n\nE ui e leai se nu'u tumau, ae o loo iai pea le aiga e ana le motu o loo vaaia ma tausia pea lea fanua. E masani ona latou asiasi atu e teu ma vaaia le motu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aisea ua le toe iai ni tagata e nonofo i le Swains Island?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2085,6 +2499,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "samoan:23:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O ili tapili e masani ona fa'aoga e fa'amalama ai siva fa'asamoa. O lona uiga, e fa'aaoga e fa'aali ai le 'au'aunaga o le siva ma fa'amalosia ai fo'i le leo o le siva. \n\nO ili tapili e fa'aaoga e fa'amalosi ai le leo o pesega ma siva e pei o:\n\n- Siva Tau: O se ituaiga siva e fa'aaoga e taulelea ma tamaitai e fa'aali ai lo latou malosi ma le fitafita i taua.\n\n- Siva Afi: O se siva e fa'aaoga ai le afi ma fa'ataatia ai le tomai o le tagata siva i le siva afi.\n\n- Ma isi siva fa'apena e fa'aaoga ai ili tapili e unai ai le 'au'aunaga o le siva.\n\nO le fa'aaogaina o ili tapili i siva fa'asamoa e fa'amalosia ai le agaga o le siva ma fa'aali ai le taua o le aganuu ma le agaifanua fa'asamoa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aisea e fa'aoga ai ili tapili mo nisi siva fa'asamoa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2171,6 +2603,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "samoan:24:language.samoan:claude opus",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "O le tala i le amataga o le siva faataupati a tama Samoa e faapea:\n\nI le vaitaimi o taua, sa masani ona faatino e tama Samoa le siva faataupati e faaali ai lo latou malosi ma le lotogatasi a'o lumana'i i le taua. O lenei siva sa faaaogaina e faamata'u ai le 'au ita.\n\nO le pa o lima ma le pati o vae sa faaaogaina e faaali ai le malosi fa'aletino. O le pa o lima fo'i sa faaaogaina e logoina atu ai nisi tama i mea e fai.\n\nO lenei siva sa avea ma vaega taua o a'oa'oga tau taua a tama Samoa. E oo mai i aso nei, o lo'o fa'aauau pea ona fa'atino lenei siva e tama Samoa i soo se mea e fai ai fa'afiafiaga fa'asamoa e pei o siva ma isi atina'e, e faamanatu ai le taua o lenei measina.\n\nO se tala puupuu lava lenei i le amataga o le siva faataupati, ae o se vaega taua o le aganuu ma le measina a Samoa lea ua masani ai tagata uma."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le a le tala na afua mai ai le siva faataupati a tama Samoa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]

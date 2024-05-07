@@ -84,6 +84,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "papiamento:0:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "E celebracion di carnaval na Aruba tin su origen den e periodo colonial Hulandes. E ta un tradicion cu a wordo treci pa e colonizadornan Hulandes for di Europa y a wordo combina cu e costumbernan y tradicionnan local di e islanan Caribense.\n\nNa Aruba, e prome celebracion di carnaval a tuma luga na aña 1954, organisa pa un grupo di Arubiano cu tabata biba na Corsow y a bin bek Aruba. Nan a introduci e celebracion aki na Aruba inspirá pa e carnaval di Corsow.\n\nFor di e tempo ey, carnaval a bira un evento anual hopi popular y importante den e bida cultural y social di Aruba. E ta tuma luga durante e dianan prome cu Cuaresma (Lent) den religion Catolico.\n\nAwendia, carnaval na Aruba ta consisti di diferente eventonan manera:\n\n- Eleccion y coronacion di Rey y Reina di Carnaval\n- Desfilenan di gruponan y carnavalistanan den nan disfraz y vestuario bunita y colorido \n- Tochanan di musica y baile tur caminda\n- Fiestanam di caya (jump-ups) yen di celebracion\n\nHenter e isla ta bira un gran fiesta durante e dianan di carnaval, atrayendo miles di turistanan tambe pa bin celebra hunto. E ta un expresion di alegria, creatividad y union di comunidad."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cua ta e origen di e celebracion di carnaval na Aruba?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -170,6 +188,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:1:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "E pregunta ta na Papiamento, un idioma cu ta wordo papia na e islanan di Aruba, Bonaire y Curaçao. \n\nE pregunta ta: \"Dicon nos ta toca dande aña nobo?\" cu ta nifica: \"Dicon nos ta baila riba Aña Nobo?\"\n\nHopi hende ta gusta celebra Aña Nobo door di baila hunto cu famia y amigonan. Bailamento ta un tradicion comun riba Aña Nobo den hopi cultura rond mundo. E ta un manera pa expresa alegria y celebra e comienzo di un aña nobo yena cu speranza y posibilidad. Bailamento tambe por uni hende y crea un sentido di comunidad. P'esey hopi hende ta gosa di e tradicion di baila riba Aña Nobo como parti di e celebracion."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dicon nos ta toca dande aña nobo?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -258,6 +294,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "papiamento:2:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Si, Aruba a lucha pa haya su status aparte for di Antias Hulandes. Esaki a sosode na aña 1986, ora cu Aruba a wordo reconoci como un pais autonomo dentro di Reino Hulandes. Prome cu esey, Aruba tabata forma parti di Antias Hulandes hunto cu entre otro Corsou y Boneiro. \n\nE proceso pa yega na e status aparte aki no tabata uno facil. A tuma hopi aña di negociacion y esfuerso pa Aruba por a convence Hulanda y e otro islanan cu e tabatin e capacidad y madurez pa funciona como un pais autonomo. Aruba mester a demonstra cu e por tin su propio gobierno, leynan y finansas, mientras cu ainda ta keda parti di Reino Hulandes.\n\nAwendia, Aruba ta un pais autonomo cu su propio Parlamento y Gobierno, pero Hulanda ainda ta encarga cu defensa y relacionnan exterior di e pais. E lucha pa status aparte tabata un momento historico importante den historia di Aruba cu a yuda forma e identidad nacional di e pais."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dicon Aruba a lucha pa haya su status aparte?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -344,6 +398,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:3:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Aruba no ta conoci como \"isla di e gigante nan\". E nomber aki no ta un di e apodonan comun of oficial di e isla.\n\nAlgun di e apodonan of nombernan mas conoci pa Aruba ta:\n\n1. \"One Happy Island\" - Esaki ta e slogan turistico oficial di Aruba, refiriendo na e ambiente ameno y e hospitalidad di su hendenan.\n\n2. \"Isla di Oro\" - Un referencia historico na e mina nan di oro cu tabata opera riba e isla den pasado.\n\n3. \"Pais di Sol\" - Danki na su clima tropical y cantidad halto di dianan di solo pa aña.\n\nPero \"isla di e gigante nan\" no ta un apodo cu normalmente ta ser asocia cu Aruba. Kisas bo ta confundi Aruba cu un otro isla of lugar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dicon Aruba ta conoci como 'isla de los gigantes'?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -432,6 +504,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "papiamento:4:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Pa traha pan bati bo tin mester di e siguiente ingredientenan:\n\n- 3 kopi di hariña \n- 1 pakete di levadura seku (òf 50 gram di levadura fresku)\n- 1 kucharita di salu\n- 1 kucharita di sukú\n- 1 1/4 kopi di awa tibia\n- 2 kucharada di manteka òf zeta\n\nInstrukshonnan:\n\n1. Den un baki grandi, meskla e hariña, salu i sukú. \n\n2. Deshasi e levadura den e awa tibia i laga e para pa algun minüt te ora e shuim.\n\n3. Agregá e meskla di levadura na e ingredientenan seku i meskla tur kos bon te ora e forma un masa suave. Si e masa ta muchu pega, agregá tiki mas hariña. Si e ta muchu seku, agregá tiki mas awa.\n\n4. Brua e masa riba un superfisie enharinå i sigui brua pa mas o ménos 10 minüt te ora e bira un bòl liso i elástiko. \n\n5. Pone e masa bek den e baki, tapa ku un paña limpi i lage lanta den un lugá kayente pa 1 ora te ora e duplá den tamaño.\n\n6. Brua e masa bek i forma pan rondó. Pone nan riba un bakplaat enharinå, tapa i laga nan lanta atrobe pa 30 minüt.\n\n7. Kayenta e oven na 220°C. Basha e pannan ku awa i hòrna nan pa 30-35 minüt te ora nan haña un koló kòrá dòradó.\n\n8. Kita nan for di e oven i laga nan fria riba un trali di kuahá promé ku saka nan for di otro.\n\nEsaki ta un resèpt básiko pa traha pan bati na kas. Bo por kambia e ingredientenan i agregá otronan manera speseria òf yerbanan pa duna e pan un sabor diferente."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Con nos ta traha pan bati?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -518,6 +608,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:5:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "E historia di Kòrsou ta un historia largu i kompleks ku a influensiá e kultura aktual di e isla den hopi manera. Algun di e puntonan klave ta:\n\n- Kòrsou tabata habitá dor di pueblo indígena Caquetío promé ku yegada di europeonan. Nan a laga un influensia den e nòmbernan di sierto lugánan.\n\n- Kolonisashon hulandes for di siglo 17 a pone Kòrsou bira parti di e imperio hulandes. Esaki a trese e idioma hulandes i aspektonan di kultura hulandes, manera algun fiesta i kostumber. \n\n- Kòrsou tabata un sentro importante den komèrsio di katibo durante tempu di sklabitut. Esaki a hasi ku hopi katibo for di Afrika a yega Kòrsou, tresiendo nan idioma, kultura i religion. Esaki ta mirá den e influensia afrikano den Papiamentu i muzik, entre otro.\n\n- Despues di abolishon di sklabitut na 1863, a bini hopi imigrante for di otro islanan karibense pa traha den refineria di petroli i otro sektornan. Esaki a hasi e poblashon di Kòrsou mas diverso.\n\n- Kòrsou a haña outonomia den Reino Hulandes na 1954, loke a stimulá formashon di un identidad i kultura propio. Esaki ta reflehá den e movemento pa promové Papiamentu i otro aspektonan di kultura.\n\nTur e faktornan aki a kontribuí na e kultura diverso i multifasétiko ku Kòrsou tin awe, kaminda influensianan hulandes, afrikano, karibense i otro ta kombiná. E historia a forma e idioma, muzik, gastronomia, arte i maneranan di biba di e isla."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e historia di Kòrsou i kon e ta influensia e kultura aktual?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -606,6 +714,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "papiamento:6:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "E prinsipalnan sektornan ekonómiko di Kòrsou ta:\n\n1. Turismo: Esaki ta e sektor di mas grandi i importante pa ekonomia di Kòrsou. Turismo ta kontribuí na mas o ménos 25% di GDP i ta duna trabou na un gran kantidat di hende. \n\n2. Refineria di petroli: Refineria Isla tabata un pilar importante di ekonomia te ku el a sera na 2019. Awor gobièrnu ta buska alternativanan pa e sitio.\n\n3. Finansa internashonal: Kòrsou ta un sentro finansiero ofshore ku hopi kompania internashonal establesé. Esaki ta trese entrada i oportunidat di empleo.\n\n4. Waf i logístika: Kòrsou tin un waf grandi ku ta sirbi komo un hub pa transbordo di karga. Esaki ta un sektor ku potensial di kresementu.\n\n5. Agrikultura i piska: Maske no asina grandi, e sektornan aki ta kontribuí tambe na ekonomia lokal i suministro di kuminda.\n\nDen e último añanan, ekonomia di Kòrsou a pasa den algun reto. Kiere di refineria Isla na 2019 a afektá negativamente. Despues, pandemia di COVID-19 a duna turismo un golpi duru di kua e isla ainda mester rekuperá. \n\nSinembargo, tin tambe señalnan positivo. Turismo ta rekuperando poko poko i tin invershonnan nobo den e sektor (ehèmpel: Corendon Mangrove Beach Resort). Gobièrnu ta buskando alternativanan nobo pa ex-refineria Isla. Ademas, tin esfuersonan pa diversifiká ekonomia, entre otro den agrikultura i energia duradero.\n\nEn general, ekonomia di Kòrsou tin potensial, pero mester di esfuersonan kontinuo pa krese, diversifiká i ta ménos dependiente di faktòrnan eksterno. Maneho sabí i invershon den inovashon i rekursonan humano lo ta klave pa e isla por floresé ekonómikamente den futuro."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e prinsipalnan sektornan ekonómiko di Kòrsou i kon e evolushon di ekonomia tabata den e lastu añanan?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -692,6 +818,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:7:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Algun di e retonan di medio ambiente ku Kòrsou ta enfrentá ta:\n\n1. Erosion di tera i destrukshon di habitat pa motibu di desaroyo i konstrukshon \n\n2. Polucion di awa i tera dor di desperdisio i kimikalianan\n\n3. Menasa na spesienan di bestia i mata endemiko i na peliger di ekstinshon\n\n4. Impakto di kambio di klima, manera subida di nivel di laman i mas orkan i biento fuerte\n\n5. Maneho di desperdisio i reciclaje inadekuá\n\nKòrsou ta tumando algun pasonan pa atendé ku e problemanan aki, entre otro:\n\n- Mehorá maneho di desperdisio i amplia reciclaje\n- Protehá areanan natural i spesienan vulnerabel via parke i reserva natural\n- Promové energia renovabel i efisiensia di energia\n- Kontrolá desaroyo i limita konstrukshon den areanan sensibel\n- Eduká poblashon riba medio ambiente i stimulá akshonnan di konservashon\n\nSinembargo, hopi di e esfuersonan ta frakshonó i no tin sufisiente apoyo ni rekurso. Mester di un esfuerso mas koordiná i dedikashon di gobièrnu i komunidat pa realmente atendé e retonan ambiental na un manera efektivo i duradero. Tambe mester mas kolaborashon internashonal pa bringa problemanan global manera kambio di klima."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e retonan di medio ambiente ku Kòrsou ta enfrentá i kon Kòrsou ta enfrentá e problemanan aki?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -780,6 +924,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "papiamento:8:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Na Kòrsou tin diferente selebrashon ku ta mustra e diversidat di e isla. Algun di e dianan di fiesta mas importante ta:\n\n- Karnaval - Esaki ta e selebrashon mas grandi, ku desfilenan, muzik i baile durante vários dia na yanüari òf febrüari.\n\n- Dia di Rei (Koningsdag) - Riba 27 di aprel ta selebrá aña di rei di Hulanda ku diferente aktividat.\n\n- Dia di Bandera (Dia di Himno i Bandera) - 2 di yüli ta selebrá e dia ku Kòrsou a haña su status aparte den Reino Hulandes na 1954. \n\n- Siman di kultura - Na sèptèmber tin un siman yen di aktividat kultural manera muzik, arte, baile, gastronomia etc.\n\n- Pasco i Aña Nobo - E dianan akí tambe ta ser selebrá na un manera amplio riba e isla.\n\nAdemas, Kòrsou tin hopi otro fiesta religioso i kultural di e diferente gruponan étnico ku ta forma parti di e komunidat multikultura, manera di e komunidat hudiu, chines, surinam etc. Tur esaki ta reflehá e rikesa i diversidat di Kòrsou su poblashon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -866,6 +1028,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:9:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "E situashon polítiko na Kòrsou ta komplehá. Tin hopi debate tokante e krísis ekonómiko ku e isla ta pasando aden, ku ta krea retanan pa gobièrnu. Desempleo i pobresa ta algu ku hopi hende ta preokupá kuné. Korupshon polítiko tambe ta un tema di diskushon, ku akusashonnan kontra algun polítiko. Banda di esei, futuro di refineria Isla i kon pa diversifiká e ekonomia ta puntonan importante. E krísis di Venezuela i imigrashon for di e pais ei pa Kòrsou tambe ta krea debate. Tur e temanan aki ta dominá e diskushon polítiko i sosial riba e isla aktualmente."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e situashon polítiko aktual di Korsou i kua ta e temanan prinsipal di debate den sosiedat?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]

@@ -84,6 +84,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:0:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Jaaraama! Naka la ñuy defè lël? mooy \"Comment vas-tu aujourd'hui?\" ci làkk wu Wolof wi. \n\nLoolu mooy laaj bu ñuy laaj ngir xam nan la nit ki yaram. Ci làkk wu Wolof wi, \"Naka nga def?\" mooy laaj bu ñuy laaj bu baax ngir nuyu ak nit."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka la ñuy defè lël?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -170,6 +188,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:1:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Serer yi am na lan moy còssan ci biir siin làkk. Yooyu moy yenn ci leen:\n\n- Ndut: Dañuy dëkk ci digg Siin, ci wetu Fatick. Seen làkk moo di Ndut.\n\n- Noon: Ñooy dëkk ci wetu Tiyabu ak Fimla. Seen làkk la ñuy wax Noon.\n\n- Palor: Seen réew a ngi ci wetu Mbuur. Palor lañuy làkk.\n\n- Safen: Ñooy dëkk ci wetu Fimla. Safen lañuy wax.\n\nYooyu yépp ay xeet yu bokk ci Serer yi la, waaye ku nekk am na làkk bu ko ñu dencale. Teew nañu lépp ay Serer ndaxte ñoo bokk cosaan, tuur ak nàmm."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan moy còssan Serer yi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -258,6 +294,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:2:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Tukuleur ak Peulh ñoo bokk waa, waaye seen làkk yi a wuute. Tukuleur yi dañuy làkk pulaar, te Peulh yi ñoom dañuy làkk fulfulde walla pular. Ñaari làkk yooyu ñoo bokk ndey waaye seen wàllu làkk dafa wuute tuuti. Mën nañu deggoo waaye du yomb ñu deggarliku.\n\nTukuleur yi ak Peulh yi ñoo dëkk bëj-gànnaar Afrik, ci réew yi ñu naan Senegaal, Maali, Gine ak Moritani. Seen cosaan ak seen aada dañoo méngoo lool."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan mo wuttële Tukuleur yi ak Peulh yi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -344,6 +398,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:3:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Kankourang mooy cosaan bu mag ci reewu Mandinka yi, rawatina ci biir Gambi ak Senegal. Kankourang dafay mel ni \"kumpo\" bu ñuy sol, di wër ci coosan yi ngir xeex ak rab yi ñu jàppee dañoo bon. Kankourang dafay fecc ak sabar yi, di fecc ak sabar, di rëcc, ngir dàq rab yi.\n\nNaka noonu kankourang dafa ame solo lool ci cosaan Mandinka yi. Mooy sàmm kilifteef ak jàmm ci dëkk bi. Kankourang tamit mooy jàngale xale yi ak waxtan leen ngir ñu mën a nekk nit ku baax."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan moy còssan kankourang?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -432,6 +504,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:4:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Jàppandil sa laaj bi, waaye duma mën a tontu ndax xamuma ndax ñuy waxtaan ci kàddu gu aju ci benn woy walla téere bu ñu aar. Su fekkee loolu la, duma mën a tontu ndax duma bëgga def dara lu aju ci yoon. Waaye su dee laaj bu aju ci yëf yeneen, man naa fexe ba tontu la ci lu baax."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka la ñuy féccé mbalax?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -518,6 +608,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:5:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Jërejëf ngir sa laaj. Cébbu jën mooy ñam bu neex ci Senegaal, rawatina ci dëkku Dakar. Ñu ngi ko def ak jën, ceeb, ak ñeex yu bari. \n\nNgir def ko, dañuy lakk ceeb bi, teg ci kawab jën bi ñu lakk, ak ñeex yi ñu tànn. Gannaaw gi ñuy yapp lépp te baxal ko ba mu ñor.\n\nCébbu jën dafa neex lool te baax ci yaram wi. Jën bi am na vitamin yu bari ak yëf yu baax ngir yaram.\n\nWaaye jéggalu ma, xam uma lépp ci mbiri naka lañuy toggé cébbu jën. Xam naa rekk ne ñam bu neex la bu ñuy bëgg naan ci Senegaal. Waaye su la neexee, man ngaa seet ci Internet walla laaj ab jabar bu ko xam."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka lañuy toggé Cébbu Jën?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -606,6 +714,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:6:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Mbalax mooy xeetu misig wu ñu tagg ci réew mi Senegaal. Mbalax dafa boolé ay sabar, tamtam, ak ay nataal guitar ak synthesizer yu bari. Youssou N'Dour mooy kenn ci ñi gën a siiw ci Mbalax, waaye am na ñeneen yu bari ñu xam ni Thione Seck, Baaba Maal, ak Viviane Ndour.\n\nMbalax dafa ëmb ay rythme yu tàng tàng yu ñu jële ci sabar. Misaalum rythme yi mooy \"ceebu jën\" wala \"kaolack\". Ay chanteurs yi dañuy woy ci wolof, waaye ñu daldi dugal ay baat yu tudd ci araab, pulaar, wala seereer. Paroles yi dañuy wax ci mbir yu ëmb nit ñi, ni cofeel, politig, wala diine.\n\nMbalax dafa gën a siiw ci Senegaal, waaye dañu koy déglu it fépp ci Afrig sowu-jant, ak yeneen réew yu ni Fraas wala Itali. Mbalax moo yokk turu Senegaal ci àdduna sépp, ndax misig bi dafa am boppam te neex noonu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan moy còssan Mbalax?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -692,6 +818,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:7:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Lutax xalé buy jooy guddi ñu naan dara la? ci wolof mooy ne naka lañu mën a dimbali xale yi di jooy ci guddi. \n\nXaleel mën nañu jooy ndax:\n- Xiif ak mar\n- Feebar walla metit\n- Ragal lëndëm\n- Bëgg a nelaw ci këru waajur\n- Bëgg ñu ëmb ko walla fóon ko\n\nLi nga mën a def mooy:\n- Seet ndax xiif la walla mar\n- Fóon ko te wax ak moom\n- Teral ko ci néegam te wax ay kàddu yu neex\n- Jox ko dara mu moom ci lalam (doomu poupée walla dara)\n- Baal fàtte, dina nelaw soo ko bayyee\n\nFexeel dimbali xale bi, waaye bu ko taalee. Su dee saa yu yàgg la jooyee, seetal doktar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lutax xalé buy jooy guddi ñu naan dara la?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -780,6 +924,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:8:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Lan motax ndaw yi di jël gaal gi ngir dem bitim rew?\n\nNdaw yi di jël gaal gi ngir dem bitim rew ndax:\n\n- Ñu bëgg a gis aduna bi te xam yeneen réew. Voyager dina leen may xam-xam ak xalaat yu bees. \n\n- Ñu bëgg a wuti liggéey walla jang ci bitim rew. Loolu mën na leen jox péncoo yu gën bare. \n\n- Ñu bëgg a daw ci ay jafe-jafe yu ñu tollu ci seen réew. Ñu gis ne bitim rew mën na leen may jàmm ak jëmm gu gën.\n\n- Ñu am ay mbokk walla xarit ci bitim rew te bëgg a seeti leen.\n\nNdaw ñi gën ñoo yomb voyager ndax ñu amul waa kër yu ñuy yor walla liggéey bu leen téye. Ñu mën na séddale seen bakkan ngir seet weneen dundin."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan motax ndaw yi di jël gaal gi ngir dem bitim rew?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -866,6 +1028,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:9:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Maaf, saya tidak bisa menjawab pertanyaan Anda dalam bahasa Jawa karena saya tidak mengerti artinya. Bisakah Anda mengulangi pertanyaan dalam bahasa Indonesia atau Inggris? Saya akan dengan senang hati membantu menjawab sebaik mungkin."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka lañuy défé Jambadon?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -954,6 +1134,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:10:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Jaarale ma, waaye waxu ma Wolof bu baax. Ci lu ma xam ci wax ji, laay jéem tekki:\n\n\"Lutax bo waxé lu bonn ñu naan nga lal suuf sa gëmeñ?\" \n\nTekki bu jeex:\n\"Lutax nga wax dara lu bon, ñu naan la nga sukk suuf sa ngëm?\"\n\nMaa ngi jéem tekki ne, su fekkee ne wax nga lu ñaawul, ñu mën laa sant nga wàcce sa diine walla ngëm. Waaye jaarale ma ndax tekki bi baaxul."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lutax bo waxé lu bonn ñu naan nga lal suuf sa gëmeñ?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1040,6 +1238,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:11:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Waaw, ci askanu Mandingue yi, jigéen bu mënul am dom ñu koy tudde benen tur bu mel ni \"Kanyaleng\" walla \"Kanyaling\" ngir ñaanal ko mu am dom.\n\nKanyaleng yi ñooy jigéen ñi amul dom te ñuy def ay woy ak fecc yu khaas ngir ñaan Yàlla mu may leen doom. Ñu ngi daan woysi ci péncoo yi mbaa ci xew-xew yu am solo ci dëkk bi.\n\nKanyaleng yi dañuy sol ay mbubb yu xeeñ ak yu ñuul, di woy, di fecc, tey di ñaan ñu leen yéene xaalis. Ñu ngi daan def loolu ngir won ne ñoo yebal seen bopp ngir am doom.\n\nKon nag li ma lay wax mooy, benn jigéen bu amul doom, su ñu ko tudde \"Kanyaleng\" walla \"Kanyaling\", loolu day tekki ne dañu koy ñaanal mu am doom, di ko dimbali ci woyam yi ngir mu jot li muy soxla."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan motax ci askanu Mandingue yi, jigéen bu mënul am dom ñu koy wowé benen tur ndax mu am dom?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1128,6 +1344,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:12:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Ci wolof, \"Lutax ñu naan waro wowé xorom tuuram ci guddi?\" tekki na \"Lutax ñuy naan ndox bu tang ci guddi?\". \n\nÑu naan ndox bu tang ci guddi ndax:\n\n1. Ndox bu tang dina tax yaram dal te noppalu. Mën naa dimbali jëli stress ak ragal.\n\n2. Mën naa dimbali yaram raxasu te far toxines yi. Loolu dina yombal yaram set.\n\n3. Ndox bu tang dina dimbali yombal yaram yëg te noppalu, loolu tax nelaw neex.\n\n4. Mën naa dimbali digestion, rawale biir, te yombal yaram jël ci ndox yi mu soxla.\n\nNaan ndox bu tang ci guddi mën naa am ay njariñ yu bari ci yaram. Waaye war nañu moytu bañ koo naan bu tang lool ndax mën naa lakk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lutax ñu naan waro wowé xorom tuuram ci guddi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1214,6 +1448,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:13:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Waro genee safara ci kër guddi ndax:\n\n1. Safara mën na lakk lu bari te def ay dommit yu metti. Soo ko geneek guddi, dina gën a gaaw di lakk te mën naa indi musiba.\n\n2. Ñépp ñu neel ci biir kër yi, dañuy nelaw. Kon safara bi man naa leen jàpp ci seen nelaw te saña leen.\n\n3. Guddi yépp lëndëm, doo gis fu baax. Kon dina gën a jafe ngir fexe ba teye safara bi te raw ko.\n\n4. Soo àndee ak nit ñu bare, ñépp a ngi ci seen néeg di nelaw. Kon dina jafe ngir woo leen ñépp ñu génn saa si te raw safara bi. \n\nMoo tax warul genee safara ci biir kër, rawatina guddi, ndax dina indi musiba ju réy. Fexeel ba fàggu ko bu baax bala muy tàmbalee lakk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan motax ñu naan waro genee safara ci kër guddi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1302,6 +1554,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:14:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Lan moy njariñu dëkuwaayu Gorée? est une phrase en langue Wolof, parlée principalement au Sénégal.\n\nEn français, cela se traduit par : \"Quelle est l'importance de l'île de Gorée ?\"\n\nL'île de Gorée est une petite île située à environ 2 km au large de Dakar, la capitale du Sénégal. Elle a une grande importance historique car elle était un point de transit majeur durant la traite négrière transatlantique du 15ème au 19ème siècle. Des esclaves d'Afrique y étaient rassemblés avant d'être envoyés vers les Amériques. \n\nAujourd'hui, l'île abrite plusieurs sites et monuments commémorant cette sombre période, dont la Maison des Esclaves et son emblématique \"Porte du voyage sans retour\". Gorée est devenue un lieu de mémoire, de recueillement et un symbole de la réconciliation. Elle a été classée au patrimoine mondial de l'UNESCO en 1978.\n\nL'île attire de nombreux visiteurs et pèlerins du monde entier. Plusieurs personnalités y ont fait des visites historiques, comme le Pape Jean-Paul II ou les présidents américains Bill Clinton et Barack Obama. Gorée reste un témoignage poignant de l'histoire et un appel à ne jamais oublier les tragédies de l'esclavage."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan moy njariñu dëkuwaayu Gorée?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1388,6 +1658,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:15:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Jaaraama, mi faamaa ko hono ɗemngal ngal woni. Ɗemngal ngal nanndi e ɗemngal Pulaar, kono mi sikkaani. Mi yaafiino sabo mi waawaa wallitde e ɗum tawee mi faamaa ko hono ɗemngal ngal woni e ko a ƴamata. Yoo a ƴeew so tawii aɗa waawi firritde ƴamde maa nder ɗemngal goɗngal ngal paami no wooɗi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nuñuy togge mafe?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1476,6 +1764,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:16:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Cheikh Ahmadou Bamba (1853-1927) dafa doon almuɗo ak boroom tariqa bu mag ci réew mi Senegaal. Moo sos tariqa bi ñuy wax Muridiyya ci Senegaal. \n\nCheikh Ahmadou Bamba dafa juddu ci dëkk bu ñuy wax Mbacké-Baol. Moo jàngal Kuràan ak xam-xamu diine ju yaatu. Moom la ñu daan wax \"Khadimou Rasoul\" maanaam \"Jaamu Yonent bi\".\n\nDafa daan jëfe jàmm ak cofeel, di yëgle nit ñi ñu jëfe liggéey ak fayda. Moo sos dëkk bu mag bi ñuy wax Touba, di fenn péncum Murid yi.\n\nNassaraani yi dañu ko daan fitnal ndax ñoom ñu daan foog ne dafa bëgga sos nguur. Waaye moom dafa daan wax ne liggéeyam dafa doon ci wàllu diine rekk.\n\nCheikh Ahmadou Bamba moo bind téere yu bari ci wàllu tasawuf ak yoonu Yàlla. Moo sos ay daaray ngir jàngale nit ñi xam-xamu diine.\n\nLéegi nag, Bamba moo nekk kuy gën a mag ci diineu Senegaal. Murid yi ñoo ko jàpp ni seeni kilifa ju mag te di ko wéeroo saa su nekk. Magalu Touba mi ñuy def atu mu nekk, dafa doon ngir fàttewaat Cheikh Ahmadou Bamba."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kan mo nekon Cheikh Ahmadou Bamba?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1562,6 +1868,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:17:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Magal Tivaouane mooy benn màggal bu mag ci Sénégal, ñuy def ko ci dëkk bu ñuy wax Tivaouane, ci digg bassin arachidier bi. Mooy màggal bu ñuy def ngir teraanga Cheikh Ahmed Tidiane Sy (Lamp bu mag bi), ki masa samp tariqa tidiania ci Sénégal.\n\nBenn bés bu mag la ci kalandar yu yoonu Tidiania, ñuy daje fale ngir fàttaliku ci njàng mi ak jëf yi Cheikh Tidiane Sy waxoon. Boroom kër yi fii dañuy ubbil seen kër yi ngir teraangeel gan ñi, di leen lekkal te jox leen fu ñu fanaan. Dañuy bind téere yi Cheikh bi bindoon di ko jàngale, teg ca kàddu yu bees, di ko siiwal ci biir dëkk bi.\n\nBii màggal dafa am solo lool ci yoonu Tidiania, waaye itam ci wàllu économie, ndaxte daf lay jëli ay milliards francs CFA ci dëkk bi, rawatina ci wàllu tourisme."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan motax ñuy def magal Tivaouane?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1650,6 +1974,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:18:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Serer ak Joola ñoo bokk ci waa Senegal yi ñu gën a bari. Ñu nekk nañu ci sowu-jant bi, ci wetu géej gi.\n\nSerer yi ñoo fekk Joola yi fii ci Senegal, te it ñoo leen jiitu. Seen làkk, Serer, mu ngi bokk ci làkk yu Senegal yi yépp, waaye làkk bu ñu leen gën a xamal mooy Joola. Seen cosaan dafa am solo lool ci seen biir, rawatina seen yoon ak seen njàng.\n\nJoola ñoom seen réew a ngi ci wetu Casamance. Seen làkk mooy Joola, waaye am na ay wuute yu bari, ñu tudde ko Fogny, Kasa, Blis-Kaarone, Kuwaataay. Seen cosaan itam dafa am solo lool, rawatina seen yoon wu ñuy wax Awasena.\n\nNag ñaari xeet yooyu, ab diggante bu mag a ngi seen diggante, ndax ñoo bokk tudd, màndarga, tuur, ak yeneen. Waaye sax ñu am seen wuute, ñu tàmbalee ci benn cosaan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan mo wuttële Serer yi ak Joola yi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1736,6 +2078,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:19:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Île de Gorée moo bɛ Senegaal jamana kɔnɔ, Dakar dugu kɛrɛ fɛ. A ye duu fitini ye min sigilen bɛ kɔgɔji cɛ ma, a yɔrɔ ka surun Dakar ni kilomɛtɛrɛ 3 ɲɔgɔn. Fɔlɔfɔlɔ, Gorée tun ye jɔnya duu ye, farafin mɔgɔw minnu minana ka tali Ameriki la. Sisan duu in kɛra yɔrɔ ye min bɛ mɔgɔw hakili jigina o wagati kuntaala kan. UNESCO y'a jate ko Gorée ye dinya kɔrɔta yɔrɔ nafama ye kabini san 1978."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tùru Île de Gorée fumu joge?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1824,6 +2184,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:20:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Cheikh Anta Diop a se yon istoryen, antropològ ak politisyen Senegalè ki te fèt nan Thieytou, Senegal nan 29 desanm 1923 epi ki te mouri nan Dakar nan 7 fevriye 1986. \n\nLi te yon pansè enpòtan nan mouvman pou rekonesans kontribisyon Lafrik nan sivilizasyon mond lan. Diop te defann lide ke sivilizasyon Ejipt ansyen an te gen orijin Afriken epi ke li te gen yon enfliyans pwofon sou devlopman lòt sivilizasyon yo.\n\nNan travay li yo, Diop te chèche montre ke Afriken yo te jwe yon wòl santral nan istwa limanite epi ke yo te kontribye anpil nan domèn syans, filozofi, relijyon ak lòt domèn kiltirèl yo. Li te kritike rasis ak etnosantris nan istwa Ewopeyen yo epi li te pledwaye pou yon revizyon radikal nan fason nou konprann istwa mond lan.\n\nDiop te ekri plizyè liv enpòtan, tankou \"Nations nègres et culture\" (1954), \"L'Unité culturelle de l'Afrique noire\" (1959), ak \"Antériorité des civilisations nègres\" (1967). Travay li yo te gen yon enfliyans pwofon sou mouvman pou rekonesans eritaj Afriken an epi yo rete enpòtan jodi a.\n\nAn rezime, Cheikh Anta Diop te yon pansè ak aktivis Senegalè ki te travay pou revalorise kontribisyon Lafrik nan istwa mond lan epi ki te kite yon mak pwofon nan domèn istwa, antropoloji ak politik."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kan mo nekon Cheikh Anta Diop?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1910,6 +2288,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:21:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Baye Niass, ou Cheikh Ibrahim Niass, était un éminent guide religieux musulman sénégalais du 20e siècle. Il était un leader de la confrérie soufie Tijaniyya en Afrique de l'Ouest. \n\nNé en 1900 à Taïba Niassène au Sénégal, il était reconnu pour son érudition islamique et son charisme spirituel. Il a attiré de nombreux disciples à travers l'Afrique de l'Ouest. Baye Niass mettait l'accent sur l'éducation, la discipline spirituelle et le service à la communauté.\n\nIl a fondé la branche Ibrahimiyya de la Tijaniyya qui s'est répandue au-delà du Sénégal. Baye Niass est décédé en 1975 mais son influence perdure à travers ses enseignements et ses disciples. Il est considéré comme l'un des plus importants chefs religieux de l'histoire récente du Sénégal et de l'Afrique de l'Ouest."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kan mo nekon Baye Niass?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1998,6 +2394,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:22:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "I'm sorry, but I don't understand the language or dialect you are using in your message. It doesn't appear to be a standard or widely-spoken language that I am familiar with. Could you please rephrase your question in a more common language like English, Spanish, French, or another widely-spoken language? That way, I can better understand and assist you with your query."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan moy còssanu lamb?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2084,6 +2498,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:23:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Lan motax Gorée am këru jàam? Dafa am ay ngir yu bari:\n\n1. Gorée doon benn dëkk bu mag ci njaayum jàam yi. Jàam ñi ñu doon jëlsi foofu bala ñuy yóbbu leen ci Amerik. Kon dëkk bi dafa am solo lool ci jaar-jaaru jàam ñi.\n\n2. Léegi Gorée dafa nekk benn berndeel ngir fàttali nit ñi li xeewu jàam bi doon. Nit ñi di fa dem ngir xool li fi des te jàng ci jaar-jaaru jàam ñi.\n\n3. UNESCO boole na Gorée ci limu \"Sites du patrimoine mondial\" ngir solo bi dëkk bi am ci jaar-jaaru jàam ñi ak ngir fàttali nit ñi.\n\n4. Gorée dafa nekk it benn beru ngir woo jàmm ak bokkug doole diggante xeet yi. Ñu bare dañuy fa dem ngir wax ci jàmm ak dund ak ñëp.\n\nKon Gorée dafa am solo ju réy ngir fàttali nit ñi jaar-jaaru jàam ñi, te it mu nekk benn beru ngir jëm ci jàmm ak bokkug doole."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan motax Gorée am këru jàam?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2172,6 +2604,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:24:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Senegal am na diine yu bari, waaye ñeent ñoo gën di siiw:\n\n1. Islaam: Islaam mooy diine bi ëpp siiw ci Senegal. Xaalis bi ëpp 90% Senegale ñooy juulkat. \n\n2. Kristianism: Moom itam dafa am fu mu yaatu ci reew mi, rawatina ci wetu sowu-jant. Xaalis bi ëpp 5% Senegale ñooy kristiaan.\n\n3. Diine cosaan: Yii ñooy toppatoo yoon cosaan yi ñu fekk. Ñu bare ci ñoom dañuy def seen sarax ak seen ndepp.\n\n4. Diine yeneen: Am na itam tuut-tuut yu toppatoo diine yeneen, ñu mel ni Budism walla Induism.\n\nWaaye li gën a siiw mooy Islaam ak Kristianism. Te it am na ku bari kuy jaxasoo diine yi, rawatina diggante Islaam ak diine cosaan yi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan motax Senegal bari këru diine?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2258,6 +2708,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:25:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Waaw, lu waral ken du jaay pusso guddi mooy:\n\n1. Pusso guddi dafa baax ci yaram. Dafa am vitamin ak minéraux yu bari yu yaram soxla.\n\n2. Pusso guddi dafa gaaw ci lekk te neex lool. Mën nga ko lekk ni mu nekk walla nga def ko ci ceebu jën.\n\n3. Pusso guddi dafa wuute juróom-ñaari weer ci at mi, kon danga koy am saa su nekk.\n\n4. Pusso guddi ñu ngi koy jënd ndax mu gën a neex te baax ci yaram, waaye it ndax mu gën a jafe jafe jënd.\n\n5. Pusso guddi dafa am doole yu bari yu mën a taxawal nit ñi ñu liggéey bu baax, rawatina ñu nekk ci kow.\n\nKon nag, ñépp dañu wara soxla lekk pusso guddi ndax mu baax lool ci yaram, neex te yomb jënd. Waaye war nañu ko joxe njég ndax baaxam."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu waral ken du jaay pusso guddi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2346,6 +2814,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:26:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Jaaraama, mi manti humpito e ɗemngal ngal. Ɗum nanndaani e ɗemngal ngal mi anndi. Yoo a yamir so aɗa waawi firto kon ko ngal firti e ɗemngal goɗngal, maa kadi ko ngal woni ɗemngal mum e nder leydi mum. Mi yaafte sabo mi waawaa wallitde ma e ɗum ɗoo, kono miɗo heɗii naamnal goɗngal."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan la ñuy woowe djambadong?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2432,6 +2918,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:27:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Jërëjëf ngir sa laaj. Wax ji nga bind a ngi ci làkk wu ñuy wax ci réew mi Senegaal, muy wolof. \n\nCi wolof, baat yi \"Naka la ñuy togge ceebu jën\" day tekki \"Nan lañuy defar ceebu jën?\". Loolu day laaj nan lañuy togg ceebu jën, muy ñam wu ñuy dunde ci réew mi Senegaal.\n\nCeebu jën mooy ñam wu ñu genne ci ceeb, jën, ak mboolit yeneen. Ñu ngi koy togg ci ñetti fasi: ñu dax jën wi, togg ceeb bi, te def ci mboolit yi. Ñam woowu dafa màgg ci àddina sépp ndax day neex lool te baax ci yaram."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka la ñuy togge cèbbu jaga?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2520,6 +3024,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:28:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Lan mo tax ñu naan garab u guuy kenn du ko gor? \nDafa mel ni léebu wolof la bokkoon ci kàddu yu ñu daan wax ci làmmiñ. Moo tax ñu naan garab u guuy kenn du ko man a gor ndax day saf lool te amul dara lu mu jariñ. Kon nit ku nekk war na seetlu bu baax li muy def te baña def lu dul jariñ dara."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan mo tax ñu naan garab u guuy kenn du ko gor?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2606,6 +3128,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:29:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Leebu ab xèet la, du ab askaan. \n\nCi wàllu xeet-xeet, leebu mooy benn xèet bu nekk ci biir réew mi Senegaal. Ñu bare ci ñoom dañuy làkk wolof te dañuy dëkk ci wetu sowu-jant Senegaal, rawatina ci dëkk yu mel ni Dakar, Thies, Kaolack ak yeneen.\n\nAb askaan mooy mbooloo mu bokk cosaan, làkk walla tarixa yu leen denc, waaye manees na leen a gise ci biir benn réew. Kon leebu du askaan ndaxte ñoom ñepp bokk cosaan ak làkk yu leen denc, te it ñu nekk seen bopp ci biir Senegaal."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Leebu yi ab xèet la wala ab askaan?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2694,6 +3234,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:30:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Waaw, lu bari mën naa xeewee ci besub tudd bi:\n\n- Njaboot yi di dajee ngir màggal tuddub liir bi\n- Ñuy def ay sarax ci liir bi, ñu joxe ko ay may\n- Ñuy ñaan Yàlla ngir liir bi gudd te wér\n- Ñuy def ay woy ak fecc ngir bégal liir bi\n- Ñuy tudde liir bi turu maam yi walla tur wu am solo ci njaboot bi\n- Ñuy def ay ñam yu neex ngir màggal bés bi\n\nDafa wara doon bés bu tedd ci dund njaboot bi, ñuy dajee ngir gërëm Yàlla liir bu bees bi ñu am. Loolu moo tax ñuy def ay aada yu bari ngir feeñal mbég mi ñu am."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu waral ñuy wott kawar u liir ci besub tudd bi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2780,6 +3338,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:31:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Seriñ Touba, waxoon na lu bari ci mbirum jaar-jaaram, waaye li gën a siiw mooy jaar-jaar bi mu def ngir feeñal ni ko Yàlla defe te yokk cëslaayu Yàlla ci kaw suuf. Jaar-jaaram dafa doon benn pexe ngir mu ànd ak taalibe yi te yégle yoonu Yàlla.\n\nSeriñ Touba dafa daan jaar-jaar ngir gis taalibe yi nekk ci biir réew mi, ngir jàngale leen te yokk seen ngëm. Jaar-jaar yooyu dañu daan nekk ay jamano yu mag ngir taalibe yi mana gis seen kilifa, dégg waxtanam te yokk seen njàng ak ngëm.\n\nJaar-jaar yooyu tamit dañu doon ay jamano ngir taalibe yi mana woo seeni mbokk ci yoonu Yàlla, te feeñal doole ak magu tariqa bi.\n\nKon jaar-jaaru Seriñ Touba dafa amoon solo lu mag ci doxinu Muridiyaa, rawatina ngir yokk ngëm, jàngale te feeñal doole tariqa bi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ndax mëne nga ma netali ci gattal jaar jaar u Seriñ Touba?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2868,6 +3444,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:32:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Sereer Sine ak Sereer Saloum ñoo di ñaari wàll yu mag ci làng sereer gi ci Senegaal. Sereer Sine ñoo nekk ci diiwaanu Sine, fekk Sereer Saloum ñoo nekk ci diiwaanu Saloum. \n\nSeen ñaari wàll yooyu am nañu ay wuute ci seen làmmiñ, waaye mënuñu wuuteewul lool ndax benn làng la ñuy làkk, te it mën nañu deggoo bu baax.\n\nYenn ci wuute yi ñu mën a gis mooy:\n\n1. Sereer Sine dañuy wax \"o\" fi ñeneen di wax \"a\". Misaal, Sereer Sine dañuy wax \"or\" (picc), Sereer Saloum ñuy wax \"ar\".\n\n2. Sereer Sine dañuy wax \"dh\" fi ñeneen di wax \"r\". Misaal, Sereer Sine dañuy wax \"medha\" (nag), Sereer Saloum ñuy wax \"mera\".\n\n3. Am na ay baat yu nekk ci Sereer Sine waaye nekkul ci Sereer Saloum, ak yu nekk ci Sereer Saloum waaye nekkul ci Sereer Sine.\n\nWaaye li gën a màgg mooy, ñaari wàll yooyu mën nañu deggoo te wuuteewuñu lool. Benn làng la ñuy làkk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan mo wuutële sereer Sine ak sereer Saloum?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2954,6 +3548,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:33:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Ci wàllu cosaan, ceet bu bess dafa ëpp ci diggante 12 ba 24 waxtu gannaaw ba ñu ko laxee, walla bu ñu ko defee ci surgélateur. Waaye xam ne ceet bu bess man na nekk ba juróomi fan te baaxul dara su fekkee ni dañu koo def ci surgélateur bu baax, tey sax ñu di ko aar ci béréb bu sedd te leer.\n\nKon nag, su fekkee ne danga bëgga juge ceet bi nga lax démb, jar na xool ndax mu genn na 24 waxtu. Su ko moy jar nga ko sanni. Waaye su gennul 24 waxtu te danga koo dence ci surgélateur, man nga ko juge te dara du ci am."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cosaan u laax ci ceet bu bess fan la juge?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3042,6 +3654,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:34:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Tarikh Tijan ak Tarikh Muurit ñoo di ñaari tarixa yu mag yi ci Senegal. Ñu ngi bokk ci tarixa yu ëpp topp ci réew mi.\n\nTarikh Tijan mi, Cheikh Axmad Tidjaan moo ko soos ci Fes, Maroc ci atum 1782. Moo jëkk a ñëw Senegal jamono Lat Joor. Ñu gën koo xam ci Senegal mooy Sëriñ Alliw Siise, Sëriñ Malick Sy ak Sëriñ Ababakar Sy. Dëkk bu mag bu Tijan yi mooy Tiwawan.\n\nTarikh Muurit mi nag, Cheikh Axmaadu Bàmba Mbàkke moo ko soos ci Mbacké-Kajoor ci atum 1883. Moo gën a siiw ci Senegal, rawatina ci wàll gu bëj-gànnaar. Ay jawriñ yu mag yi ci Muurit ñooy Sëriñ Fallou Mbàkke, Sëriñ Modou Kara Mbàkke ak Sëriñ Saliw Mbàkke. Dëkk bu mag bu Muurit yi mooy Tuubaa.\n\nÑaari tarixa yooyu ñoo gën a am noflaay ci wàllu diine, mbir mu askan wi ak xeetu dund gu yaa gi ci Senegal. Ñu ngi doon leer yu mag yu yaa gi topp ngir seenug yoon ci diine ji."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan mo wuutële Tarikh Tijan ak Tarikh Muurit ci Senegal?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3128,6 +3758,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:35:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Battu \"Wolof Njaay nee na\" sosso na ci aada ak cosaan Wolof. Wolof ñi dañu koy battal ngir wone ni ñu gëm Yàlla te ñu ngi koy sant ci li mu leen may. Battu bi day feeñal it ni Wolof ñi dañu am kóllëre, jàmm ak bennoo ci seen biir."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Battu \"Wolof Njaay nee na\" fan la sosso?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3216,6 +3864,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:36:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Waaw, lu wuutële warugar takk jabar ci Olof yi ak ci Soce yi mooy:\n\nCi Olof yi:\n- Ñu daan takk jabar bu ndaw, maanaam bu am 12-16 at\n- Jabar ji dafa wara nekk ku ñuy sédd, ku baax, te yor jikko yu rafet\n- Ñu daan def xew-xew yu réy ngir màggal céet gi\n- Boroom kër gi moo daan fay lépp ci takk bi\n\nCi Soce yi:\n- Takk jabar dafa daan am solo lool, ñu jàppe ni moo indi jamm ci waa kër gi\n- Ñu daan takk bu ndaw waaye du ni Olof yi ndax Soce yi ñoo gën a yàgg ba takk\n- Ñu daan joxe alal ju bari ci céet gi, rawatina alal yu ñuy jox séy bi\n- Waa kër góor gi ak waa kër jigéen ji ñoo daan séddale ngir fay lépp ci takk bi\n\nNoonu la ñu daan def céet ci ñaari xeet yooyu ci lu jëm ci takk jabar. Am na ay yeneen aada yu ñu daan topp waaye lii mooy li gën a siiw."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu wuutële warugar takk jabar ci Olof yi ak ci Soce yi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3302,6 +3968,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:37:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Cosaan u Kassak ak Bukut ñoo bokk ci cosaan yu gëna mag yi ci Senegaal. Ñaari cosaan yooyu dañuy wone ni ñuy teral seeni maam ak seeni cosaan ci biir askan wi.\n\nKassak mooy benn village bu nekk ci sowu-jant bi Senegaal te amna ñaari jëmm yu ñuy def ati at mu nekk ngir ñaanal seeni maam. Bukut itam dafa nekk ci sowu-jant bi waaye moom dafay jaar ci biir dex bi ñuy wax Siin, te itam dañuy def ñaari jëmm yu ñuy ñaanal seeni maam.\n\nÑaari cosaan yooyu dañoo ame solo lool ci nit ñi dëkk yooyu ndax ñuy jàppe ni seeni maam ñooy aar, di leen jiite ci seen dundiin. Kon cosaan yooyu dafa leen di yokk seen ngëm ci seeni maam, tey yokk seen mbokk mi ñu bokk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ndax cosaan u Kassak ak Bukut amna dara lu ci niro?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3390,6 +4074,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:38:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Ci Senegaal, julit yi ñu gënë baré mooy julit yi ñu wax Sufi. Ñu bari ci ñoom ñooy tooñ ci tariqa yi ñuy wax Tijaniyya ak Muridiyya.\n\nTijaniyya mooy tariqa bu njëkk la ci Senegaal te moo gënë baré tooñ kat. Sëriñ Umar Taal moo ko indil fii ci siyekk 19. \n\nMuridiyya itam am na tooñ yu bari, dox ci yoonu Sëriñ Tuubaa Amadu Bamba. Mu ngi doon jàngalekat bu mag ci siyekk 19.\n\nYeneen julit yi am nañu tooñ yu néew ci Senegaal, ñu mel ni Layène walla Qadiriyya. Waaye ñoom ñëpp duñu tollu ni ñaari tariqa yu mag yi ñu jëkk wax.\n\nKon nag, Tijaniyya ak Muridiyya ñooy ñaari julit yi gënë am tooñ ci Senegaal, te ñoom ñëpp bokk ci yoonu Sufi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax Senegal Sharia amufi sëgëm julit yi ño fi gënë baré?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3476,6 +4178,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:39:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Appel Layenne yi, ñu ngi maggal Seydina Limamou Laye, ki ñu gëm ne mooy Mahdi bi yonent Yalla waxoon ne dina ñëw. Layenne yi ñu ngi ko jàpp ni seen yonent, te ñu ngi ko maggal ci bés bu ñu tudde \"Appel\", bés bu tollook 1er Safar ci calendrier islamique bi.\n\nCi bés boobule la Seydina Limamou Laye doon woo ñépp, ngir ñu dëgmal ne moom la Yalla yónni, te moom mooy Mahdi bi. Moo tax ñu tudde bés boobu \"Appel\", te Layenne yi ñu ngi koy maggal gu mag, ñuy woy, di fecc, di bind ay xasida ngir sargal seen yonent."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Appel Layenne yi, lan la ñu fey maggal?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3564,6 +4284,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:40:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Talaatay nder dafa ame solo lool ci cosaan Pulaar. Moo di bés bu ñuy rëkk seeni xaalis, walla di séddoo seeni alal yu bees yi ñu jënd. \nPulaar yi dañuy defe ne ku def loolu Talaatay nder, dina am barke te dina gën di nangu alal.\nKon nak ñu bare Talaatay nder lañuy tànn ngir séddoo seen këyitu kër gu bees, walla seet seeni paranti, mbaa ñu séy seen doom j.\nNdax day doon bés bu sell te am barke ci seen cosaan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ndax mën nga ma nettali la xewon ca Nder ba waral baatu \"Talaatay nder\"?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3650,6 +4388,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:41:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Jërëjëf ci laaj bi. Ci puular, ñuy topante tuur xale yi ci judd u ngir ñu am tuuru bu baax ak dund gu yàgg. Dafa am solo lool ngir tuur xale yi seen tur bu baax, ndax day jox xale yi barke ci seen dund. \n\nCi puular, am na ñaari fason yu ñuy jëfandikoo ngir tuur xale:\n1. Seetlu mbirum njaboot gi: Fii ñuy seetsi tur yu bokk ci njaboot gi walla tur yu maam yi daan jëfandikoo. Loolu day tax xale bi miñ ak njabootam te yokk seen diggante.\n2. Seetlu jikko ju ñu bëgga ngir xale bi: Fii ñuy taan tur yu ñu bëgga ngir xale bi, yu mel ni jom, kóllëre, walla yërmande. Loolu day jox xale bi jikko ju baax ci dund.\n\nKon nag, tuur xale dafa am solo ju rëy ci puular, te day tax xale bi bokk ci cosaan ak njabootam, teg ci dëgër jikko ju baax."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ci askaan u Xal Puular naka la ñuy topantale tuur xalee yi suñu sukëndiko ci judd u?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3738,6 +4494,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:42:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Ci njangum diine Lislam, juroom ñarr i fuuk yi di tekki ñooy:\n\n1. Seede ne kenn Yàlla rekk moo am te Muhammed mooy ndawam.\n\n2. Julli ci bés bi fukki yoon ak ñaar.\n\n3. Joxe asaka.\n\n4. Woor-woor Ramadan.\n\n5. Dem Maka julli Hajj su ñu ko mana def.\n\nÑii ñooy juroom ñarr i fuuk yi nekk kenug diiney Islam. Ku leen di jëfe te gëm Yàlla ak Yonentam, dina nekk ci yoonu njub gi te am yiwu àjjana."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ci njangum diine Lislam lan la juroom ñarr i fuuk yi di tekki?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3824,6 +4598,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:43:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Jërejëf ngir sa laaj. Ci wolof, baat bi \"njoloor\" mooy bëgg nee \"tool\" walla \"tol\". Kon laaj bi mooy bëgg xam lan mooy dox ci digg tool yi.\n\nNaka noonu, amuma benn xibaar wu leer ci li ñuy tere dox ci digg njoloor. Waaye xam naa ne ñu ngi daan tere nit ñi dugg ci ay tool yu bokkul ci ñoom ndax bëgg aar ngir mbey mi. Tamit itam, xam naa ne ñu ngi daan tere nit ñi song ay gàncax yu bare ci kaw suuf si ngir bañ yàq li ñuy jëmbat.\n\nWaaye li gën a am solo mooy laajte boroom suuf si ba xam bu baax lan mooy sañ ak li ñu tere ci toolam. Kon dinaa la xiirtal nga laajte ku gën a xam mbir mi ci sa dëkk ba xam lan mooy dox."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax ñuy teree dox ci bayaal digg u njoloor?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3912,6 +4704,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:44:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Jërëjëf ci laaj bi. Ci wàllu kéthiax, cébb yu bari lañuy togge, ñu mel ni:\n\n- Cébb u jën: Dañuy def jën, ñebbe, soble, kaani, ak yeneen. Dañuy lakk ba mu ñor te neex.\n\n- Cébb u yapp: Yapp lañuy def, ñebbe, soble, ak yeneen. Dañuy lakk yapp bi ba mu ñor.\n\n- Cébb u ginaar: Ginaar lañuy def, ñebbe, soble, ak yeneen. Dañuy tog ginaar bi ba mu ñor.\n\n- Cébb u gerte: Gerte lañuy def, ñebbe, soble, jën walla yapp. \n\nYii cébb yëpp dañuy def ci biir cin, teg ci ñebbe, soble, kaani, ak yeneen ñan ñu bëgg. Dañuy lakk ba mu ñor, neex te tàng.\n\nCébb dafa di lekk bu neex ci wàllu kéthiax, te ñépp dañu koy bëgg ndax mu tàng te saf."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka la ñuy togge cébb u kéthiax?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3998,6 +4808,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:45:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Ci penccum Lebu gi, am na ay reew yu bari yu ndeye ji falee naka la ñuy def:\n\n- Ngor: Ci Ngor la ñuy def ndaje yi pur suñuy magi ndey. Foofu la ñuy def ay woy ak fecc yu rafet ngir ñanal ndey yi.\n\n- Yoff: Yoff tamit defa am solo ci màggal gi. Foofu la ñuy def sabar bu mag bi te it am na ñuy def ay woy.\n\n- Ouakam: Ouakam tamit bokk na ci doxalinu màggal gi. Dañuy fexe ngir wone solo bu ndey yi am.\n\nKon noonu, pencc bu Lebu bi dafa bokk ci yeesal ak ñanal ndey yi, rawatina ci jamono ji ñuy màggal Mame Diarra Bousso. Lebu ñi dañuy jàppale ndey yi te wone leen solo bu ñu am ci askan wi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka la ñuy falee ndeye ji reew yi ci penccum Lebu gi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4086,6 +4914,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:46:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Ci xew u méyee lan mooy wallu ki nu bayalee wala ki nu ndeyalee?\n\nCi wolof, baat bi \"xew\" moo tekki \"destin\" wala \"sort\". Kon baat bi \"xew u méyee\" moo tekki destin wala sort bu nu am soo ñu juddu ba soo ñu dee. \n\nÑaari xalaat yu mag ñoo am ci mbir mi:\n1. Xew u méyee moo aju ci wallu gi ñu bayalee, maanaam li ñu jële ci sëriñ yi. Noonu la ñu gëm ne ku nekk am na xewam ba mu juddu te dara mënul soppi loolu.\n2. Xew u méyee moo aju ci wallu gi ñu ndeyalee, maanaam li ñu jële ci waajur yi. Noonu ñu gëm ne xew u nit ku nekk moo aju ci njàng mi ak yar gi mu jot.\n\nNdax ñaari xalaat yooyu, ku ci nekk man na wax ay kàddu ngir dëggal xalaatem. Waaye li wóor moo di ne xew u nit ku nekk aju na ci benn walla ñaari wallu yooyu, te sax man nañu bokk ci aji xewam."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ci xew u méyee lan mooy wallu ki nu bayalee wala ki nu ndeyalee?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4172,6 +5018,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:47:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Jërëjëf ci sa laaj bi. Dafa mel ni dañuy wax ne su la jitt mattee, sa bajenn rek moo la mën fajj, waaye loolu du dëgg. Bajenn dina mën fajj ay jitt yu bari, waaye du mën fajj lépp. \n\nSu la jitt mattee, li gën mooy seetlu doktoor ngir mu seet lan moo ko waral te jox la garab yi ko mën fajj. Ñenn ci ay jitt yi bajenn mën naa fajj mooy naqar ak siti, waaye su feebar bi gën diisee, war ngaa seetlu doktoor.\n\nKon nag, su la jitt mattee, bul yaakaar ne sa bajenn rek moo la mën fajj. Li gën mooy seetlu doktoor bu la mën jox péncoo bu baax ci lan moo waral jitt bi ak nan laay fajjee ko."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax ci cosaan u wolof ñuy wax su la jitt mattee sa bajenn rek mo la mën fajj?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4260,6 +5124,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "wolof:48:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Kàddu googu \"Saloum ñetti negg la ba ko ñenttel ba di wañ ba\" mooy léebu wolof bu ñuy jëfandikoo ngir wone ni lu ñuy def amul njort te dafa gëna yées. \n\nSaloum dafa doon réew bu mag te amoon doole ci diggante Saalum ak Siin. Kon nag kàddu googu day misaal ni réew moomu amoon doole waaye noppi doole ja wuute na ba tax ñu mënatul koo aar.\n\nCi wolof, \"negg\" mooy benn xeetu meññeef bu ñuy amal ci biir kër. Kon nag kàddu googu day wax ne, Saloum dafa amoon doole lu mel ni ñetti negg, waaye gannaaw ba ñu ko ñenttee, doole ja wuute na ba mu mel ni negg bu ñu wañee.\n\nNataalu léebu wolof boobu mooy, soo amee doole te jëfandikuwoo ko bu baax, dina la dindi ci loxo te dootoo cee moom mukk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Waxiin u \"Saloum ñetti negg la ba ko ñenttel ba di wañ ba\" lu muy tekki?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4346,6 +5228,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "wolof:49:language.wolof:claude opus",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Lan moo wutële na ñuy xeweul le guddi Al jummah Senegal ak na nu koy defee ca Mauritanie?\n\nCi Senegal, guddi Al jummah dafa am solo lool ci diine Islaam. Boroom kër yi dañuy wër seeni kër ngir fexe ba mu set, te ñu wax ay ñaan ci biir kër gi. Naka noonu it la ñuy farlu ci lekk yu neex ak yu leer, rawatina ceeb bu weex. Nit ñi dañuy dem ci misid bi ngir julli tisbaar, ba noppi ñu naan café ak naan ataaya, di waxtaan ba guddi jot.\n\nCi wàllu Mauritanie nag, aada bi mel na ku melo mel. Nit ñi fàww ñu raxas seen kër yi te ñu wax ay ñaan yu bare. Ñu dañuy lekk ceeb ak yàpp, walla ñu lekk ceeb ak soow. Tisbaar bi amul solo lool ni mu mel ci Senegal, waaye nit ñi ñuy dem ba tey ngir julli ak ngir daje ak seen mbokk yi. Gannaaw loolu ñu naan ataaya, di waxtaan, ba guddi jot.\n\nKon noonu, guddi Al jummah dafa bokk solo ci ñaari reew yooyu, waaye aada yi ñu koy doxale mënul mel nii mel."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan moo wutële na ñuy xeweul le guddi Al jummah Senegal ak na nu koy defee ca Mauritanie?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]

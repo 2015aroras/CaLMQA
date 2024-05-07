@@ -190,6 +190,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:0:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ebben a korban valóban átmeneti időszakban vannak a fiúk, és nem könnyű eldönteni, hogy illik-e még pénzt adni nekik locsoláskor. Néhány szempont, amit érdemes figyelembe venni:\n\n1. Családi hagyományok: Ha a családban eddig is szokás volt pénzt adni a locsolóknak, akkor lehet folytatni a hagyományt.\n\n2. A fiú hozzáállása: Ha a srác még lelkesen, a hagyományokat tisztelve locsol, akkor a pénz egyfajta elismerés lehet. Ha viszont már inkább kötelességből csinálja, akkor talán jobb ötlet valami más ajándékot adni.\n\n3. Anyagi lehetőségek: A pénz összegét érdemes az adományozó anyagi lehetőségeihez igazítani.\n\nÖsszegszerűen 1000-2000 Ft körüli összeg lehet megfelelő, de ez nagyban függ a fenti szempontoktól és a személyes megítéléstől. Alternatív ajándék ötletek lehetnek: színházjegy, könyv, utalvány valamilyen élményre. \n\nA lényeg, hogy a fiú érezze a gesztus mögötti szeretetet és figyelmet, akár pénzt kap, akár más ajándékot. Egy kedves, bátorító mondat kíséretében bármelyik jó választás lehet."
+            }
+          },
+          "prompting_state": {
+            "prompt": "15-16 éves srácnak szokás még pénzt adni a locsolásért? Ha igen, mennyit? Testvér kisfia.\nA legátmenetibb korosztály. Aki korban még gyereknek tűnik, de bulizik, barátnője van, bulikban iszogat...tehát kamasz fiatalemberként él.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -382,6 +400,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:1:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A MÁV IC kocsikban tapasztalható égett fékporszag valóban kellemetlen és zavaró lehet az utasok számára. Ennek több oka is lehet:\n\n1. A fékbetétek kopása során keletkező por: A vonatszerelvények fékezésekor a fékbetétek és a kerekek között súrlódás lép fel, ami a fékbetétek kopásához vezet. Az így keletkező finom por a levegőbe kerülhet.\n\n2. A fékrendszer túlmelegedése: Intenzív fékezések során a fékrendszer túlmelegedhet, ami szintén hozzájárulhat az égett szag kialakulásához.\n\n3. A szellőzőrendszer problémái: Ha a kocsik szellőzőrendszere nem működik megfelelően, a keletkező fékpor és égett szag a belső térben reked.\n\nBár a MÁV rendszeresen karbantartja a járműveket, a probléma teljesen nem küszöbölhető ki. Az égett fékporszag belélegzése kellemetlen, de rövid távon általában nem jelent komoly egészségügyi kockázatot. Hosszú távú, rendszeres expozíció esetén azonban légzőszervi irritáció léphet fel.\n\nA MÁV-nak érdemes lenne megvizsgálnia a szellőzőrendszerek hatékonyságának javítási lehetőségeit, illetve alternatív, kevésbé porképző fékbetétek alkalmazását. Az utasok panaszait komolyan véve törekedniük kell a probléma enyhítésére. Addig is az utasoknak ajánlott az érintett kocsik végében elhelyezkedni, ahol a szag kevésbé intenzív lehet."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért keletkezik a MÁV IC kocsik utasterében minden fékezésnél elviselhetetlen égett fékporszag?\nAnnyira durva már, hogy konkrétan köhögni kezdenek az emberek egy-egy fékezésnél. Ez mennyire egészséges dolog? Miért nem tesz valamit a MÁV ez ellen?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -576,6 +612,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:2:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Sajnos pontos számot nem tudok mondani, hogy az elmúlt 20 évben összesen hány BKV busz égett ki. Az tény, hogy az utóbbi években valóban megszaporodtak a buszok kigyulladásáról szóló hírek Budapesten.\n\nA különböző típusú buszoknál más-más okok vezethettek a tüzekhez:\n\n- Az Ikarus 412-eseknél feltehetően elektromos zárlat, szigetelési problémák állhattak a háttérben.\n\n- A Mercedes Citaro buszoknál a klímaberendezés meghibásodása okozhatott tüzet.\n\n- A Volvo 7700A csuklós buszoknál a kipufogórendszer, illetve a motor túlmelegedése lehetett a kiváltó ok.\n\nValóban úgy tűnik, hogy a BKV járműparkjában az átlagosnál gyakoribbak a tűzesetek az utóbbi 1-2 évtizedben. Ennek oka lehet a buszok elöregedése, a nem megfelelő karbantartás, alkatrészminőség. \n\nMás nagyvárosok tömegközlekedésével összehasonlítva nem állnak rendelkezésre pontos adatok, de feltételezhető, hogy a budapesti helyzet e téren rosszabb az átlagnál.\n\nMindenképpen fontos lenne a járművek alaposabb, rendszeresebb ellenőrzése, a tűzvédelmi szempontok fokozott figyelembe vétele, hogy a jövőben elkerülhetők legyenek a hasonló balesetek. A BKV-nak érdemes lenne részletesen kivizsgálni a gyakori tűzesetek okait és megelőző intézkedéseket hozni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mennyi BKV-busz égett már le az elmúlt 20 évben?\nAz utóbbi pár évben/évtizedben mi ez a rengeteg tűzeset meg kigyulladó busz a BKV-nál?\nVolt egy időszak kb. 20 éve, amikor az Ikarus 412-esek égtek ki sorra azzal kezdődött, aztán volt pár 415/435-ös, aztán pár évig viszonylag nem volt, csak 1-2 kisebb, aztán (már a bilikék korszakban, kb ) pár Mercedes Citaro is égett, de teljesen, kb 7-8 éve, majd néhány behozott szóló Volvo 7000, asszem néhány éve volt egy Karsan kisbusz is, az utóbbi 2-3 évben meg a csuklós Volvo 7700A-k lángolnak, ez a ma hajnali már legalább a 4. ilyen.\nValaki tudja, hogy miért van/volt ez a rengeteg kigyulladó busz a BKV-nál? Melyikkel mi volt a gond? Illetve mennyi ilyen komolyabb/látványosabb égés volt már az elmúlt 2 évtizedben? Szerintem legalább 30\nMás országok fővárosaiban is ilyen magas az arány?\n\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -768,6 +822,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:3:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ebben a helyzetben több szempontot is figyelembe kell venni. Először is, ha az önkormányzati rendelet megengedi az állattartást az adott övezetben, akkor alapvetően jogszerűen tartják az állatokat. Azonban az állattartásnak meg kell felelnie bizonyos szabályoknak, például az állatok életkörülményeire, a higiéniára és a szaghatásra vonatkozóan.\n\nNéhány javaslat:\n\n1. Nézzék át az önkormányzat állattartásra vonatkozó rendeletét, hogy biztosan megfelelnek-e minden előírásnak.\n\n2. Vizsgálják meg, tudnak-e változtatni a trágya tárolásának helyén vagy módján, hogy kevésbé legyen zavaró a szomszédok számára. \n\n3. Próbáljanak meg személyesen, higgadtan beszélni a szomszédokkal, megérteni az álláspontjukat és kompromisszumos megoldást találni.\n\n4. Ha a szomszédok mégis feljelentést tesznek, az illetékes hatóság (jegyző, kormányhivatal) kivizsgálja az ügyet. Ha mindent szabályosan csinálnak, valószínűleg nem lesz jogi következmény. \n\n5. Szükség esetén kérjenek jogi tanácsot egy ügyvédtől, aki jártas az állattartás és szomszédjog területén.\n\nA lényeg, hogy törekedjenek a békés megoldásra, de közben győződjenek meg róla, hogy valóban jogszerűen járnak el. Remélhetőleg sikerül megegyezniük a szomszédokkal és elkerülni a hatósági eljárást. Ha mégsem, és bebizonyosodik, hogy szabályosan tartják az állatokat, akkor jó esélyük van arra, hogy ne legyen jogi következmény."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A szomszédunk ma közölte, hogy fel akar jelenteni minket, mert zavarja a haszonállataink szaga. Megteheti- e ezt, és ha igen, milyen következménye lesz?\nEgy vidéki nagyvárosban élünk, de olyan külvárosi részen, ahol az állattartás már megengedett. Tyúkokat és egy malacot tartunk, teljesen normális körülmények között. Ez a család két éve költözött a mellettünk lévő házba, idáig semmiféle ilyen jellegű panaszuk nem volt, erre ma közölték, hogy fel fognak jelenteni minket a rendőrségen, mert idén nyáron már nem hajlandóak elviselni az állataink szagát és szerintük szabálytalanok vagyunk, mert a telkünkön belül a trágya helye az ő házuk felőli oldalon van. Tényleg tehetnek feljelentést? Ha igen, kinek van igaza? Nekik, vagy nekünk? Mi úgy gondoljuk nincs semmi szabálytalan abban ahogy az állatokat tartjuk, de nem tudjuk, kihez fordulhatnánk segítségért. Ha mégis igazuk van, mi lesz a büntetésünk?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -962,6 +1034,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:4:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Igen, a tűzijátékok használatára vonatkozó szabályok Szilveszterkor is érvényben vannak Magyarországon. A pirotechnikai termékek felhasználása december 31-én 18 órától január 1-jén 6 óráig engedélyezett magánszemélyek számára. \n\nFontos tudni, hogy:\n\n- Csak engedéllyel rendelkező, legális forrásból származó tűzijátékokat szabad használni.\n\n- A petárdák birtoklása és felhasználása tilos.\n\n- Közterületen és tömegrendezvényeken csak szakképzett pirotechnikus által felügyelt, engedélyezett tűzijáték rendezhető.\n\n- A tűzijátékokat biztonságosan, mások testi épségét és vagyonát nem veszélyeztetve szabad csak használni.\n\n- 14 éven aluliak csak felnőtt felügyelete mellett használhatnak tűzijátékot.\n\nÉrdemes előre tájékozódni a helyi önkormányzatnál is az esetleges egyéb korlátozásokról. Fontos a szabályok betartása a balesetek elkerülése és a biztonságos szilveszteri ünneplés érdekében."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Szilveszterkor ugyanúgy 18-6 között lehet majd tűzijátékozni?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1154,6 +1244,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:5:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A csehek hivatalosan nem elismert nemzetiség Magyarországon, de ennek történelmi és jogi okai vannak, nem diszkrimináció áll a háttérben.\n\nA jelenlegi szabályozás szerint azok a népcsoportok kaphatnak hivatalos nemzetiségi státuszt, amelyek legalább egy évszázada honos kisebbségként élnek Magyarország területén. A 13 elismert nemzetiség a következő: bolgár, görög, horvát, lengyel, német, örmény, roma, román, ruszin, szerb, szlovák, szlovén és ukrán.\n\nBár élnek csehek is Magyarországon, az ő jelenlétük nem tekint vissza ilyen hosszú múltra és a létszámuk is jóval alacsonyabb a hivatalosan elismert nemzetiségekénél. Emiatt jogilag nem felelnek meg a nemzetiségi státusz kritériumainak.\n\nEttől függetlenül a Magyarországon élő csehek szabadon ápolhatják nyelvüket, kultúrájukat és identitásukat. A két ország közötti jó kapcsolat révén a cseh kultúra ismert és elismert Magyarországon, még ha a cseh kisebbség hivatalos státusszal nem is rendelkezik."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Csehek miért nem elismert nemzetiség Magyarországon?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1348,6 +1456,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:6:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A családi adókedvezmény a gyermeket nevelő szülőket illeti meg, és a személyi jövedelemadóból vehető igénybe. A kedvezmény igénybevételének nem feltétele a folyamatos, 12 hónapos munkaviszony.\n\nAzonban a kedvezmény csak azokra a hónapokra jár, amikor volt jövedelme és ezáltal személyi jövedelemadó fizetési kötelezettsége. Ha csak 8 hónapig volt munkaviszonyban, akkor csak erre a 8 hónapra igényelheti a családi adókedvezményt.\n\nHa a könyvelő 12 hónappal számolt, miközben Ön csak 8 hónapig dolgozott, akkor ez hibás számítás. Ebben az esetben érdemes egyeztetnie a könyvelővel, és kérni a korrekciót. A könyvelőnek az Ön által ledolgozott 8 hónapra vonatkozóan kell kiszámítania a családi adókedvezményt, és ennek megfelelően kell módosítania az adóbevallást.\n\nHa az adóbevallás már be lett nyújtva, akkor önellenőrzéssel lehet a hibát javítani. Fontos, hogy a helyes összegű családi adókedvezményt vegye igénybe, mert a jogosulatlanul igénybe vett kedvezmény adóhiánynak minősül, ami után adópótlékot és késedelmi pótlékot számíthatnak fel."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A családi adókedvezmény akkor is jár minden hónapban,ha nem volt 1 év munkaviszonyom?\nTehát januártól augusztusig volt munkám és erre az időre egy összegben kértem az adóvisszatérítést,de a könyvelő 12 hónappal számolt,annak ellenére,hogy csak 8 hónap munkaviszonyom volt és a munkaügyiben sem voltam regisztrálva a maradék 4 hónapra. Ez most hogy van akkor?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1540,6 +1666,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:7:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A 25 év alatti SZJA mentesség azt jelenti, hogy a munkáltató által számított bruttó bérből nem vonják le a 15%-os személyi jövedelemadót, így a fiatal munkavállaló magasabb nettó bért kap kézhez.\n\nA példádban, ha a nettó béred 100.000 Ft, akkor a bruttó béred körülbelül 117.647 Ft lenne (100.000 Ft / 0,85), ha nem lennél jogosult az SZJA mentességre. Ebben az esetben a munkáltató a bruttó bérből levonná a 15%-os SZJA-t, azaz 17.647 Ft-ot, és így kapnád meg a 100.000 Ft nettó bért.\n\nAzonban az SZJA mentesség miatt a munkáltatód nem vonja le a 17.647 Ft SZJA-t a bruttó béredből, így a teljes 117.647 Ft-ot megkapod nettó bérként. Tehát a nettó béred valójában magasabb lesz, mint az eredetileg kalkulált 100.000 Ft.\n\nFontos megjegyezni, hogy a bruttó bér összege nem változik, csak az SZJA levonása marad el, így a nettó bér emelkedik. A munkáltatónak továbbra is meg kell fizetnie a többi járulékot (pl. szociális hozzájárulási adó) a bruttó bér után."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan működik a 25 év alatti szja mentesség?\nNagyon nem értem ezt az egészet mert senki nem magyarázta még el nekem hogy hogyan is működik a szja mentesség. Eddig úgy hittem, hogy azt a 15%-ot amit fizetnem kellene szja adóra azt nem kell befizetnem, így megmarad a nettó fizetésembe. Szóval most ha 100.000 ft a nettóm akkor ugye 15.000 ft a szja adó ezen felül. Ezt a 15.000ft én vissza kapom ( így a nettó fizu az 115.000ft lesz) vagy ezt mivel a cégnek nem kell visszafizetnie így a bruttóm lesz csak kevesebb( így a nettó fizu az marad 100.000ft és a bruttó 15% kevesebb) ?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -1734,6 +1878,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:8:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az előrehozott érettségi azt jelenti, hogy a diák a szokásos 12. évfolyam előtt tesz érettségi vizsgát egy vagy több tantárgyból. Ezt általában a 11. évfolyam végén vagy a 12. évfolyam elején tehetik meg a tanulók.\n\nAz előrehozott érettségi lehetőséget ad a diákoknak, hogy:\n1. Csökkentsék a 12. évfolyam végén rájuk nehezedő terhelést, vizsgastresszt.\n2. Korábban teljesítsék az érettségit azokból a tárgyakból, amelyekkel már nem szeretnének tovább foglalkozni.\n3. Felvételi többletpontokat szerezzenek a felsőoktatási intézményekbe való jelentkezéskor.\n\nMatematikából is lehet előrehozott érettségi vizsgát tenni, amennyiben a diák felkészültnek érzi magát, és az iskola biztosítja ennek lehetőségét. Az előrehozott matematika érettségi ugyanolyan követelményrendszer szerint zajlik, mint a rendes időben teljesített vizsga.\n\nFontos megjegyezni, hogy az előrehozott érettségi nem kötelező, és a diákoknak alaposan meg kell fontolniuk, hogy élnek-e ezzel a lehetőséggel, mérlegelve felkészültségüket és céljaikat."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi az az előrehozott érettségi?És mondjuk matekból lehet ilyet tenni?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -1926,6 +2088,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:9:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A felsőoktatási felvételi eljárásban a hátrányos helyzetű jelentkezők többletpontokat kaphatnak, de ez nem függ össze közvetlenül a családi pótlékkal.\n\nA hátrányos helyzet megállapítása a felvételi eljárásban a következő kritériumok alapján történik:\n\n1. Aki árva vagy félárva.\n2. Akinek a gondviselője tartósan beteg vagy fogyatékkal élő.\n3. Akinek a családjában az egy főre jutó havi jövedelem nem éri el a minimálbér felét.\n4. Aki szociális helyzetük miatt a jegyző védelembe vett.\n\nHa a jelentkező megfelel ezeknek a feltételeknek, akkor hátrányos helyzetűnek minősül, és jogosult lehet többletpontokra a felvételi eljárásban. A többletpontok mértéke és feltételei évente változhatnak, ezért mindig érdemes tájékozódni az aktuális felvételi tájékoztatóból.\n\nTehát összefoglalva, a családi pótlék önmagában nem jelenti azt, hogy valaki hátrányos helyzetűnek minősül a felvételi eljárásban, de a családi jövedelmi helyzet (aminek része lehet a családi pótlék) befolyásolhatja a hátrányos helyzet megállapítását."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ha jelentkezek egy felsőoktatási intézménybe, akkor a családi pótlékra vonatkozik a \"hátrányos helyzetű\" többletpont?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2120,6 +2300,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:10:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A töltött tojás és a kaszinótojás között a fő különbségek a következők:\n\n1. Elkészítés módja:\n- A töltött tojást általában főtt tojásból készítik, amelynek a sárgáját kikaparják, majd különféle hozzávalókkal (majonéz, mustár, fűszerek stb.) összekeverik, és visszatöltik a tojásfehérjébe. \n- A kaszinótojást nyers tojásból készítik, amelyet felvernek, és serpenyőben megsütnek, közben a tetejére különféle feltéteket (sonka, sajt, zöldségek stb.) tesznek.\n\n2. Állag és forma:\n- A töltött tojás hidegen fogyasztott előétel vagy partifalat, ovális formájú, a töltelék krémes állagú.\n- A kaszinótojás meleg, omlett-szerű étel, lapos, kerek formájú.\n\n3. Felszolgálás:\n- A töltött tojást általában hidegen, egészben vagy félbevágva tálalják, gyakran salátalevélen vagy kenyérkarikán.\n- A kaszinótojást melegen, frissen sütve, serpenyőben vagy tányéron szervírozzák.\n\nTehát míg a töltött tojás egy hideg előétel főtt tojásból, addig a kaszinótojás egy meleg, omlett-szerű főétel nyers, felvert tojásból, különféle feltétekkel."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi a különbség a töltött tojás és a kaszinótojás között?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2312,6 +2510,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:11:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A vezetői engedély cseréjéhez a 102-es kód bejegyzése miatt a következő lépéseket kell megtennie:\n\n1. Töltse ki a \"Kérelem vezetői engedély cseréjére\" nyomtatványt, amely letölthető a kormányablak weboldaláról vagy beszerezhető személyesen bármelyik kormányablakban.\n\n2. Csatolja a kérelemhez a 2. csoportú orvosi alkalmassági véleményt, amely tartalmazza a 102-es kódot.\n\n3. Mellékelje a jelenlegi vezetői engedélyének másolatát.\n\n4. Fényképet és aláírást az okmányirodában készítenek Önről, ezért ezeket nem kell külön benyújtania.\n\n5. Fizesse be a vezetői engedély cseréjének illetékét (4000 Ft), amelyről csatolnia kell a befizetést igazoló dokumentumot (csekk, átutalási bizonylat).\n\n6. Nyújtsa be személyesen a kitöltött kérelmet a szükséges mellékletekkel együtt bármelyik kormányablakban vagy okmányirodában.\n\nA vezetői engedély cseréje általában 8 napon belül megtörténik, és az új okmányt postai úton kézbesítik Önnek.\n\nHa bármilyen további kérdése van, vagy problémába ütközik, forduljon bizalommal egy másik kormányablakhoz, ahol remélhetőleg készségesebben segítenek Önnek."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan lehet kérni vezetői engedély cseréjét a 102-es kód miatt?\nMost lett meg a 2. Csoportu orvosi alkalmasságim és munka miatt kellene jogosítványba bejegyzett 102-es kód, most 101-es van. Ügyfélkapun nem találtam ilyen információt, a kormányablakban pedig szépen szólva el lettem küldve melegebb éghajlatra mert miért nem tudom ezt. Annyit elárultak, hogy lehet azt amit akarok, de azt már nem mondták el, hogy hogyan.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2506,6 +2722,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:12:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Sajnos a legtöbb nagy áruházlánc, mint a Lidl vagy a Tesco, nem forgalmaz rendszeresen kimért vagy fagyasztott sprotnit. Ezek a termékek inkább specializált üzletekben, halboltokban vagy piacokon találhatók meg.\n\nNéhány javaslat, ahol érdemes próbálkozni:\n\n1. Helyi piacok, vásárcsarnokok: Gyakran kínálnak friss és fagyasztott halakat, köztük esetleg sprotnit is.\n\n2. Halboltok, halspecialistáknál: Az ilyen üzletek szélesebb választékot kínálnak, és nagyobb eséllyel találsz náluk sprotnit.\n\n3. Lengyel vagy orosz élelmiszerüzletek: Mivel a sprotni jellemzően kelet-európai étel, az ilyen nemzetiségű boltokban lehet, hogy találsz fagyasztott sprotnit.\n\n4. Online áruházak: Egyes online élelmiszer-áruházak kínálatában szerepelhet fagyasztott sprotni, érdemes körülnézni.\n\nBár a nagy áruházláncok kínálatában ritkán szerepel, egy próbát azért megér érdeklődni az eladóknál vagy megnézni a hűtött/fagyasztott pultokat, hátha szerencséd lesz."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lehet még valahol kimért vagy fagyasztott sprotnit kapni?\nugy értem hogy esetleg lidl vagy tescoban van?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -2698,6 +2932,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:13:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Összefoglalva a tapasztalatokat és a rendelkezésre álló adatokat, a kivándorolt magyarok hazaköltözésének főbb okai a következők lehetnek:\n\n1. Családi okok, honvágy\nSokan a családjuk, barátaik hiánya vagy idős szülők ápolása miatt döntenek a hazatérés mellett. A honvágy, a hazai környezet és kultúra hiánya is fontos tényező.\n\n2. Nehézségek a beilleszkedésben\nA nyelvi akadályok, kulturális különbségek megnehezíthetik a beilleszkedést. Ha ez hosszú távon fennáll, a hazatérés mellett dönthetnek.\n\n3. Párkapcsolat, családalapítás\nEgy itthoni párkapcsolat, házasság vagy a gyermekvállalás terve is gyakori oka a hazaköltözésnek. Sokan szeretnék, hogy a gyermekük magyar környezetben nőjön fel.\n\n4. Karrierlehetőségek itthon\nKülföldi tapasztalattal könnyebb lehet itthon jó állást találni. A hazai munkaerőpiacon felértékelődtek a külföldön szerzett szaktudás, nyelvtudás és kapcsolatok.\n\n5. Megtakarítási célok elérése\nAkik pénzgyűjtési céllal mentek ki, egy idő után hazatérnek, hogy itthon kezdjenek új életet a megtakarításaikból (lakásvásárlás, vállalkozás indítása).\n\n6. Kiábrándulás\nA külföldön töltött évek alatt jönnek rá sokan, hogy a vártnál nehezebb az élet, a pénzügyi és karrierelőnyök nem ellensúlyozzák a hátrányokat.\n\nA hazaköltözés jellemzően 3-5 év után történik meg a legtöbbeknél, de persze vannak, akik ennél rövidebb vagy hosszabb idő után térnek haza. A statisztikák alapján a családi okok, párkapcsolat a leggyakoribb tényező, de a karrierszempontok és a honvágy is meghatározó. Fontos, hogy a legtöbben nem kudarcként élik meg, hanem egy élettapasztalatként, amely segíti a későbbi boldogulásukat."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért költöznek haza a kivándorolt magyarok?\nBeszélgettünk baráti és családi körben is arról, hányan terveznek kiköltözni, hány olyan ismerős van, aki végül kiköltözött, és levegőbe beszélés helyett kíváncsiságból olvastunk is statisztikákat. Összességében az elmúlt pár évben több kivándorolt magyar költözik haza, mint ahány magyar külföldre költözik.\nTaláltunk cikkeket arról is, hogy aki kiköltözik, mivel indokolja, mik az okai erre, viszont arról nem találtunk statisztikát, cikket, adatot, felmérést, hogy a visszatérők miért költöztek vissza.\nÍgy kérdésem egyrészt azokhoz szól, ha vannak itt olyanok, akik külföldről költöztek vissza Magyarországra, vagy ismernek ilyen embereket: miért költöztek ki és miért jöttek haza? Mennyi idő után?\nA kérdésem másik fele pedig inkább egy kérés: tudnátok-e néhány erre vonatkozó felmérés eredményeit linkelni?\nLáttam 1-2 ilyesmi kérdést is itt gyakorin, de értelmes válaszokat nem igazán találtam benne. Ezért kérlek, amennyire lehet, politikamentes, és spekulációktól mentes válaszokat írjatok! Vagy saját/ismerős tapasztalatát, vagy hivatalos adatokkal alátámasztott válaszokat (Tehát a \"rájöttek hogy nincs kolbászból a kerítés\" típusú válaszokkal, légyszi, kíméljétek a válaszszekciót!)\nTöbbek közt ezeket a statisztikákat futottunk át (a teljesség igénye nélkül):\n[link]\n[link]\n[link]\n[link]\n\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -2892,6 +3144,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:14:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Brexit után a személyi igazolvány már nem elegendő a beutazáshoz az Egyesült Királyságba, érvényes útlevélre van szükség.\n\nAz Európai Unió és az Egyesült Királyság között létrejött megállapodás értelmében 2021. október 1-jétől a magyar állampolgároknak is útlevéllel kell belépniük az Egyesült Királyság területére. A személyi igazolvány önmagában már nem jogosít fel a beutazásra.\n\nFontos, hogy az útlevélnek a tervezett tartózkodás ideje alatt végig érvényesnek kell lennie. A lejárt útlevéllel való beutazás nem lehetséges.\n\nTovábbi részletes és hivatalos információkért érdemes a Külgazdasági és Külügyminisztérium oldalát felkeresni, ahol a kiutazással kapcsolatos tudnivalókról tájékozódhat:\n\nhttps://konzuliszolgalat.kormany.hu/europa-utazasi-tanacsok?egyesult-kiralysag\n\nÖsszefoglalva, a Brexit után mindenképpen érvényes útlevélre van szüksége a hazautazáshoz az Egyesült Királyságból, a személyi igazolvány és a lejárt útlevél nem megfelelő úti okmány ehhez."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Most akkor a Brexit után érvényes vagy sem a személyim ha haza akarok utazni?\nHa jól tudom, Október 31.-e után megtörtént a Brexit, és elvileg már nem jó a személyi, ha repülővel haza akarok utazni.\nSajnos az útlevelem lejárt, vagy az útlevelem se lenne alkalmas ha nem járt volna le?\nNem tudom, hol tájékozódjak a témában, akár idevonatkozó cikket is linkelhettek.\nKöszi előre is a válaszokat.\n\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3084,6 +3354,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:15:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A nemzeti konzultációs kérdőívet kitöltők száma önmagában nem ad pontos képet a Fidesz-KDNP biztos szavazóinak számáról, több okból sem:\n\n1. A nemzeti konzultáció nem egy reprezentatív közvélemény-kutatás, hanem egy önkéntes kérdőív. Így a kitöltők nem feltétlenül tükrözik a teljes választókorú népesség politikai preferenciáit.\n\n2. Nem csak a Fidesz-KDNP szavazói tölthették ki a kérdőívet, hanem bárki más is. A kitöltők között lehetnek ellenzéki vagy bizonytalan szavazók is.\n\n3. Nem minden Fidesz-KDNP szavazó töltötte ki a kérdőívet. Sokan különböző okokból kihagyhatták, attól függetlenül, hogy a pártra szavaznának.\n\n4. A kitöltők száma nem egyenlő a leadott kérdőívek számával, mivel egy ember többször is kitölthette.\n\nTehát a nemzeti konzultáció eredménye legfeljebb csak nagyon közvetett és pontatlan becslést adhat a Fidesz-KDNP szavazótáborának méretére. A párt tényleges támogatottságának felméréséhez reprezentatív közvélemény-kutatásokra van szükség. Az 1,5 milliós szám a nemzeti konzultáció alapján nem tekinthető megalapozott becslésnek."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A nemzeti konzultációs kérdőívet kitöltők száma alapján helytálló az a következtetés, hogy a Fidesz-KDNP biztos szavazóinak száma jelenleg legfeljebb 1,5 millió körül lehet?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3278,6 +3566,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:16:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az egykulcsos adórendszer bevezetése Magyarországon vitatott kérdés, előnyei és hátrányai egyaránt vannak.\n\nElőnyök:\n- Egyszerűbb és átláthatóbb adórendszer\n- Csökkenti az adóelkerülést és az adócsalást\n- Ösztönözheti a munkavállalást és a vállalkozások indítását\n- Vonzóbbá teheti Magyarországot a külföldi befektetők számára\n\nHátrányok:\n- Növelheti a jövedelmi egyenlőtlenségeket, mivel arányaiban jobban kedvez a magasabb jövedelműeknek\n- Csökkentheti az állami bevételeket, ami a közszolgáltatások finanszírozását veszélyeztetheti\n- Nem veszi figyelembe a különböző jövedelmi csoportok eltérő adóterhelhetőségét\n\nA gazdasági mutatók alapján az egykulcsos adó bevezetése óta nőtt a foglalkoztatás és a GDP, de ezek nem kizárólag az adórendszernek köszönhetők. Az egyenlőtlenségek valóban nőttek.\n\nÖsszességében az egykulcsos adó megítélése szubjektív, függ az értékrendtől és prioritásoktól. Vannak akik sikeresnek tartják, mások szerint viszont méltánytalan és hosszú távon káros a társadalomra nézve. A vita még nem zárult le, az adópolitika a jövőben is a közéleti diskurzus része marad."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Magyarországnak bevált az egy kulcsos adó?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3470,6 +3776,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:17:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ennek több oka is lehet:\n\n1. Eltérő áfakulcsok: Ausztriában alacsonyabb lehet az élelmiszerekre vonatkozó áfakulcs, mint Magyarországon. Ez önmagában olcsóbbá teheti a terméket.\n\n2. Eltérő kereskedelmi árrés: Elképzelhető, hogy az osztrák kereskedők alacsonyabb árrést alkalmaznak, mint a magyar boltok, így olcsóbban tudják adni a szalámit.\n\n3. Eltérő vásárlóerő: Az osztrákok jellemzően magasabb jövedelemmel rendelkeznek, így a gyártó megengedheti, hogy alacsonyabb áron adja a terméket, mert a magasabb eladási volumen kompenzálja az alacsonyabb egységárat.\n\n4. Állami támogatás az exportra: Lehetséges, hogy a magyar állam támogatja az élelmiszerexportot, így a gyártó kedvezőbb feltételekkel tudja külföldre szállítani a termékeit.\n\n5. Nagyobb tételben való értékesítés: Ha az osztrák kereskedők nagyobb tételben vásárolják a szalámit, akkor a gyártó kedvezőbb egységárat tud adni, mintha csak kisebb mennyiséget rendelnek a magyar boltok.\n\nÖsszességében tehát több tényező együttes hatása eredményezheti, hogy a magyar pick szalámi olcsóbb Ausztriában, mint itthon, annak ellenére, hogy exportálni kell."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért olcsobb Ausztriába a magyar pick szalámi mint itthon? Oda meg ki is kell szállitani.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -3664,6 +3988,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:18:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Úgy tűnik, hogy a svédek számára valóban fontos a NATO-tagság, de nem minden áron. Néhány gondolat ezzel kapcsolatban:\n\n1. Svédország hosszú ideig semleges ország volt, csak nemrég döntöttek úgy, hogy csatlakozni szeretnének a NATO-hoz. Ez egy jelentős váltás a külpolitikájukban, ami mutatja, hogy komolyan veszik a tagságot.\n\n2. Ugyanakkor Svédországnak vannak bizonyos elvei és értékei, amelyeket nem akarnak feladni a tagság érdekében. Ilyen lehet például a szólásszabadság vagy a sajtószabadság kérdése, ami a jelenlegi vitában is felmerült.\n\n3. A tárgyalások elutasítása nem feltétlenül jelenti azt, hogy nem érdekli őket a tagság. Lehet, hogy más módon próbálják rendezni a nézeteltéréseket, vagy úgy érzik, hogy a magyar kormány feltételei nem elfogadhatóak számukra.\n\n4. Magyarország számára fontos lehet a jó kapcsolat fenntartása a NATO-val és a többi tagországgal, még akkor is, ha egyes kérdésekben nem értenek egyet. A vétó fenntartása hosszú távon elszigetelheti Magyarországot a szövetségen belül.\n\nÖsszességében tehát valószínű, hogy a svédek továbbra is szeretnének csatlakozni, de bizonyos határokat nem akarnak átlépni ennek érdekében. A helyzet rendezéséhez kompromisszumokra lehet szükség mindkét fél részéről."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A svédeknek nem is olyan fontos a Nato tagság? Hiszen nem tettek lépést a problémák megoldására, elutasították Orbán Viktor meghívóját.\nHa még tárgyalni sem akarnak, akkor gondolom nem érdekli őket.\nHa nekik nem fontos, akkor nekünk miért legyen az?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -3856,6 +4198,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:19:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Valóban úgy tűnik, hogy az internetes bűncselekmények száma jelentősen megnőtt az utóbbi években, és a rendőrségnek lépést kell tartania ezzel a tendenciával. Néhány lehetséges oka annak, hogy a magyar rendőrség még nem hozott létre széles körben kiberbűnözés elleni csoportokat:\n\n1. Erőforrások és szakértelem hiánya: A kiberbűnözés elleni küzdelemhez speciális technikai ismeretek és eszközök szükségesek. Lehetséges, hogy a rendőrség jelenleg nem rendelkezik elegendő képzett szakemberrel és technológiai háttérrel ezen a területen.\n\n2. Prioritások: Bár az online bűncselekmények száma nő, a hagyományos bűncselekmények továbbra is jelentős erőforrásokat igényelnek. A rendőrségnek meg kell találnia az egyensúlyt a különböző típusú bűncselekmények kezelése között.\n\n3. Jogi és szabályozási kérdések: Az internetes bűncselekmények gyakran határokon átnyúlóak, így a nyomozásuk és a büntetőeljárás lefolytatása jogi és joghatósági kihívásokat jelenthet.\n\n4. Tudatosság és képzés hiánya: Lehetséges, hogy a rendőrség egyes tagjainak nincs elegendő ismerete az online bűncselekményekről és azok kezeléséről, ami akadályozhatja a hatékony fellépést.\n\nMindazonáltal úgy gondolom, hogy a rendőrségnek alkalmazkodnia kell a változó bűnözési trendekhez, és több erőforrást kell fordítania a kiberbűnözés elleni küzdelemre. Ez magában foglalhatja a speciális egységek létrehozását, a személyzet képzését és a technológiai képességek fejlesztését. Az állampolgárok is fontos szerepet játszhatnak az online biztonság növelésében azáltal, hogy óvatosak az interneten és jelentik a gyanús tevékenységeket. Egy összehangolt és proaktív megközelítés segíthet csökkenteni az internetes bűncselekmények számát és védeni a polgárokat."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért nem hoz létre a magyar rendőrség kiberbűnöző elleni csoportokat ország-szerte?\nAhogy tapasztalom az elmúlt néhány évben jócskán elszaporodott az internetes bűnelkövetések száma. Ide sorolok mindent, amit interneten követnek el kezdve a banki adatok ellopásával egészen a marketplaces és egyéb használt holmival kereskedő oldalakon elkövetett csalásokig. És ezzel közel sem merítettem ki a netes bűncselekmények repertoáját. Jómagam is voltam már áldozata ilyesminek, a kártyám adatai bent maradtak egy felhasználói fiókban, amit feltörtek és 120.000 Forintot levásároltak a számlámról. Természetesen rögtön a rendőrséghez fordultam, de pechemre egy kőkorszaki nyomozót fogtam ki, aki az éjszaka közepén ügyeletes volt, elég nehéz volt neki elmagyarázni a dolgokat. Szerencsére a bank vissza tudta szerezni a pénzemet, de ha a rendőrségen múlt volna ihattam volna rá egy pohár vizet. Felmerült tehát bennem, hogy a rendőrség miért nem hoz létre legalább megyénként egy-egy ilyen csoportot, ahol hozzáértők foglalkoznának ilyen esetekkel? Szerintem lassan gyakoribbá válnak az ilyen bűncselekmények, mint pl. utcai kifosztás, rablás és sorra azt tapasztalom, hogy a rendőrség az esetek többségében tehetetlen.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4050,6 +4410,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:20:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A NAV nem küld automatikus visszaigazolást az egészségügyi szolgáltatási járulék befizetéséről, de van lehetőség ellenőrizni a befizetések rendezettségét:\n\n1. Ügyfélkapun keresztül lekérheti az adószámla kivonatát, amelyen szerepelnek a befizetései és esetleges tartozásai. Az adószámla kivonatot a \"Szolgáltatások\" menüpont alatt találja meg.\n\n2. Személyesen is érdeklődhet bármelyik NAV ügyfélszolgálati irodában az egészségügyi szolgáltatási járulék befizetéseinek állapotáról.\n\n3. Telefonon keresztül is kérhet tájékoztatást a NAV Ügyféltájékoztató és Ügyintéző Rendszerén (ÜCC) keresztül a +36 (80) 20-21-22-es telefonszámon.\n\n4. Írásban, postai úton is megkeresheti a NAV-ot, és kérhet tájékoztatást a befizetéseiről.\n\nFontos, hogy rendszeresen ellenőrizze a befizetéseit, hiszen a járulékfizetés elmulasztása esetén az egészségügyi ellátás igénybevétele során térítési díjat számolhatnak fel, illetve a tartozás behajtására is sor kerülhet."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Jelenleg munkanélküli vagyok, így fizetem magam után az egészségügyi biztosítását árát, de erről nem szokott visszaigazolást küldeni a NAV, hogy megkapták az utalást?\nValamilyen módon nem ellenőrizhető le a rendszerükben, hogy biztosan rendezve van-e a tb-m?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4242,6 +4620,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:21:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Valóban van alapja annak a vélekedésnek, hogy a Németországból és Ausztriából behozott használt autók hajlamosabbak a korrózióra. Ennek fő oka, hogy ezekben az országokban a téli időszakban nagy mennyiségű sót használnak az utak jégmentesítésére. A só pedig elősegíti a korrózió kialakulását az autók karosszériáján és alváz elemein.\n\nNéhány fontos tényező:\n\n1. A sóval való érintkezés időtartama és gyakorisága nagyban befolyásolja a korrózió mértékét. Minél többet használják az autót télen sózott utakon, annál nagyobb a kockázat.\n\n2. A rendszeres karbantartás és a megfelelő korrózióvédelem sokat segíthet a probléma megelőzésében vagy mérséklésében.\n\n3. Nem minden Németországból vagy Ausztriából származó autó érintett egyformán. Fontos megvizsgálni az adott jármű állapotát és karbantartási előzményeit a vásárlás előtt.\n\nSokan még mindig vásárolnak ezekből az országokból autókat, mert:\n\n- Az ottani használt autók gyakran jobb felszereltségűek és műszaki állapotúak.\n- Bizonyos márkák és modellek esetében jelentős árkedvezmény érhető el a magyarországi árakhoz képest.\n- Megfelelő ellenőrzéssel és karbantartással a korrózió kockázata kezelhető.\n\nÖsszességében érdemes körültekintően eljárni egy külföldi használt autó vásárlásakor, alaposan ellenőrizni a jármű állapotát, és szükség esetén számolni a korrózióvédelemmel járó extra költségekkel."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Németországból,Ausztriából behozott autók tényleg sokkal könnyebben rohadnak?\nEzt már nagyon sok helyen olvastam, oknak pedig azt írják, hogy ott sokkal erősebben sózzák az utakat télen. Ez valóban igaz lenne? Érdekelne ha van valakinek tapsztalata ezzel. Ha ez tényleg így van akkor minek vesznek az emberek onnan, gondolom más is hallott már erről.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4436,6 +4832,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:22:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Tisztában vagyok vele, hogy a határátkelés néha frusztráló és időigényes folyamat lehet. Ugyanakkor határozottan ellenjavallom, hogy bármilyen összeget fizessen a vámtisztviselőknek a gyorsabb vagy simább átkelés érdekében. Ez vesztegetésnek minősül, ami illegális és komoly következményekkel járhat.\n\nA legjobb megoldás az, ha betartja az összes vonatkozó szabályt és előírást, őszintén válaszol a kérdésekre és türelmes marad az ellenőrzés során. Ha semmilyen tiltott vagy elvámolnivaló árut nem visz magával és minden papírja rendben van, akkor nincs oka aggodalomra.\n\nAmennyiben mégis indokolatlanul hosszú várakoztatásban vagy zaklatásban van része, jelentse az esetet a felettes szerveknek. De semmiképpen se próbálja pénzzel \"megolajozni\" a folyamatot, mert azzal csak ront a helyzeten. Legyen türelmes, korrekt és magabiztos. Kellő felkészültséggel és a szabályok betartásával gond nélkül át fog jutni a határon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ukrán határon mennyit szokás a vámosnak adni, hogy ne szívózzon, vagy szedje szét a kocsit?\nKifele és befele is kell, Eurot is elfogadnak?\nNem hozok semmit, csak hallottam, hogy pénz nélkül valamikor órákat váratnak és akadékoskodnak.\n\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -4628,6 +5042,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:23:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Telekom Mobilvásárlás alkalmazással jelenleg nem lehet menetjegyet venni a debreceni DKV trolibuszokra és autóbuszokra.\n\nA DKV saját mobilalkalmazást kínál, amivel lehet jegyet és bérletet vásárolni a debreceni tömegközlekedésre. Az alkalmazás neve DKV Debrecen, elérhető Android és iOS rendszerekre is. Ebben az appban bankkártyával vagy mobilegyenleggel lehet fizetni a jegyekért és bérletekért.\n\nTehát a Telekom Mobilvásárlás helyett a DKV saját alkalmazását érdemes használni, ha mobilon szeretnél jegyet venni a debreceni tömegközlekedésre. Remélem, ez az információ hasznos volt!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Telekom Mobilvásárlás alkalmazással lehet menetjegyet venni debreceni DKV trolikra/buszokra?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -4822,6 +5254,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:24:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A KRESZ 14. § (1) bekezdése valóban nem tér ki konkrétan a behajtási tilalmat szabályozó táblákra a hatály tekintetében. Ugyanakkor a 14.§ (6) bekezdés alapján logikusan lehet következtetni arra, hogy a behajtási tilalmat jelző táblák hatálya is a következő útkereszteződésig tart.\n\nBár nincs egyértelműen leírva a KRESZ-ben, de a közlekedési szakemberek álláspontja szerint a behajtási tilalmat jelző táblák hatálya az útkereszteződésig, vagy a tilalmat feloldó tábláig érvényes. Ezt a logikát támasztja alá a KRESZ 14. § (6) bekezdése is, még ha nem is említi konkrétan ezeket a táblákat.\n\nTehát összefoglalva, bár a KRESZ szó szerint nem írja le, de a gyakorlatban és a szakmai konszenzus alapján a behajtási tilalmat jelző táblák a következő útkereszteződésig érvényesek, ahol a keresztirányból érkező járművek vezetői is értesülnek a tilalomról. A tilalmat egyértelműen feloldó tábla (pl. \"Mindkét irányból behajtani tilos vége\") kihelyezésével is megszüntethető a tilalom hatálya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A behajtási tilalmat szabályozó táblák (pl. szélesség, magasság, segédmotorkerékpár, kézikocsi, űrhajó stb.) hatálya meddig tart?\nLogikusan adná magát, hogy a következő kereszteződésig, hiszen a keresztúton érkező csak ilyen módon értesül a tilalomról.\nDe ez le van így valahol írva kifejezetten?\nA KRESZ 14. § (6) pontja hasonlót szabályoz, de az csak a 14. § (1) bekezdés c-g) pontjaiban jelölt táblákra vonatkozik (pl. megfordulni tilos, előzni tilos), a továbbiakra nem.\n\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5014,6 +5464,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:25:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Déli pályaudvarról a Mátyás templomhoz a következő útvonalon juthatsz el tömegközlekedéssel:\n\n1. A Déli pályaudvartól sétálj át a Széll Kálmán térre (kb. 5 perc séta).\n\n2. A Széll Kálmán téren szállj fel a 16-os, 16A vagy 116-os buszra a Dísz tér irányába.\n\n3. Szállj le a Dísz térnél, ami a Mátyás templom közvetlen közelében található (3 megálló, kb. 5 perc utazás).\n\n4. A Dísz tértől már csak pár lépés a Mátyás templom.\n\nAlternatív útvonal:\n\n1. A Déli pályaudvartól sétálj át a Széll Kálmán térre.\n\n2. Szállj fel az 59-es vagy 61-es villamosra a Dísz tér irányába.\n\n3. Szállj le a Halász utca megállónál (2 megálló, kb. 3 perc utazás).\n\n4. A Halász utcától sétálj fel a Mátyás templomhoz (kb. 5 perc séta).\n\nAz utazási idő mindkét esetben körülbelül 15-20 perc a Déli pályaudvartól a Mátyás templomig, a várakozási időtől és a forgalomtól függően."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tömegközlekedéssel hogyan jutok el a Bp.Déli pályaudvarról a Mátyás templomig?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -5208,6 +5676,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:26:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Igen, a Franciaországban megszerzett jogosítvány érvényes Magyarországon is, mivel mindkét ország az Európai Unió tagja.\n\nAz EU-n belül a vezetői engedélyek kölcsönösen elismertek. Ez azt jelenti, hogy ha valaki egy EU-tagállamban megszerzi a jogosítványt, akkor azt bármely másik tagállamban is használhatja anélkül, hogy újra vizsgáznia kellene.\n\nAzonban néhány dologra érdemes odafigyelni:\n\n1. Ha letelepszik Magyarországon, akkor a francia jogosítványt egy bizonyos időn belül (általában 6 hónapon belül) magyar vezetői engedélyre kell cserélnie a helyi hatóságoknál.\n\n2. Bizonyos korlátozások érvényesek lehetnek a jogosítványra, például az újdonsült sofőrökre vonatkozó szabályok, amelyek országonként eltérőek lehetnek.\n\n3. Mindig tartsa magánál az eredeti, érvényes francia jogosítványt vezetés közben.\n\nÖsszességében a francia jogosítvány használható Magyarországon, de érdemes utánanézni a pontos szabályoknak és követelményeknek, ha hosszabb távon itt tartózkodik."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Franciaországban megszerzett jogsi érvényes Magyarországon?\nHa Franciaországban leteszem a jogosítványt, akkor Magyarországon is használhatom? Vagy újra kell csinálni az egészet itthon?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5400,6 +5886,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:27:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az útvonal engedély kérésének szabályai a következők:\n\n1. Alapvetően csak a jármű tulajdonosa vagy üzembentartója kérhet útvonal engedélyt. Ők azok, akik hivatalosan felelősek a járműért.\n\n2. Azonban ha meghatalmazással rendelkezel a tulajdonostól (jelen esetben édesanyádtól), akkor a meghatalmazás birtokában te is kérhetsz útvonal engedélyt a nevükben. \n\n3. A meghatalmazásnak tartalmaznia kell, hogy a tulajdonos megbíz téged azzal, hogy a nevében eljárj az útvonal engedély ügyintézésében. Fontos, hogy a meghatalmazás eredeti példányát vidd magaddal az ügyintézéskor.\n\n4. Ha nincs meghatalmazásod, akkor sajnos csak a tulajdonos, azaz édesanyád tud útvonal engedélyt kérni.\n\nTehát a legjobb, ha beszélsz édesanyáddal és kérsz tőle egy meghatalmazást az ügyintézéshez. Ezzel gördülékenyen és jogszerűen tudod majd intézni az útvonal engedélyt. Ha további kérdésed van, érdemes felkeresni egy okmányirodát vagy a helyi járási hivatalt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Útvonal engedélyt csak tulajdonos vagy üzembentartó kérhet?\nEladtam az autómat, viszont anyukámék nevén van az autó, nincs rajta műszaki és messzire szeretnék vinni innen, én is kérhetek rá útvonalengedélyt vagy csak ők?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -5594,6 +6098,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:28:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A tájékoztatón és meghallgatáson valószínűleg az alábbiakra számíthatsz:\n\n1. Általános információk az állásról, a képzésről és a munkakörülményekről. Ismertethetik a fizetést, a munkaidő beosztást, a karrierlehetőségeket.\n\n2. A jelentkezés és kiválasztás folyamatának bemutatása. Elmondják, milyen lépésekből áll a felvételi, milyen tesztekre, vizsgálatokra lehet számítani.\n\n3. A meghallgatáson valószínűleg a következőkre lesznek kíváncsiak:\n- Motiváció: miért szeretnél metróvezető lenni, mi vonz ebben a munkakörben\n- Korábbi munkatapasztalat, tanulmányok, végzettség\n- Személyes kompetenciák, készségek: monotóniatűrés, stresszkezelés, koncentrációs képesség, felelősségtudat\n- Műszaki érdeklődés, affinitás\n- Rugalmasság, terhelhetőség (pl. éjszakai, hétvégi műszakok)\n- Csapatmunka, kommunikációs készség\n\n4. Lehetőséget adhatnak kérdések feltevésére is.\n\nÖsszességében felkészülhetsz röviden bemutatni magad, az eddigi tapasztalataidat, erősségeidet, a pozícióval kapcsolatos motivációdat. Érdemes átgondolni, miért lennél alkalmas erre a munkakörre. A nyitottság, őszinteség, érdeklődés jó benyomást kelthet. Sok sikert a meghallgatáshoz!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mire számítsak az M3 metró motorkocsivezető tanuló állás tájékoztatón?\nSziasztok. Holnapra megyek meghallgatásra és tájékoztatóra. Inkább a meghallgatás részre érdekelne, hogy ott mikre lesznek kíváncsiak?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -5786,6 +6308,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:29:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A jogszabályok szerint a gépjárművek időszakos műszaki vizsgáztatását bármelyik műszaki vizsgaállomáson el lehet végezni, függetlenül a jármű üzembentartójának lakóhelyétől vagy a jármű forgalmi engedélyében szereplő címtől.\n\nTehát ha Ön Püspökszilágyon lakik, a szerelője elviheti a gépjárművet a rétsági műszaki vizsgaállomásra, és ott elvégeztetheti az időszakos műszaki vizsgát. Nincs területi kötöttség, a vizsgáztatás helyszínét szabadon lehet megválasztani.\n\nFontos azonban, hogy a műszaki vizsga elvégzéséhez szükséges dokumentumok (forgalmi engedély, kötelező felelősségbiztosítás igazolása stb.) rendben legyenek, és a gépjármű megfeleljen a műszaki és környezetvédelmi előírásoknak."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tényleg csak a lakóhelyemhez legközelebbi vizsga ponton lehet vizsgáztatni a kocsimat?\nKonkrétan ha püspökszilágyon lakom a szerelőm műszakiztathatja Rétságon?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -5980,6 +6520,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:30:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Alapvetően nincs olyan szabály, hogy csak a lakóhelyéhez legközelebbi pszichiátriai ellátást veheti igénybe. Ön szabadon választhat pszichiátert, pszichiátriai rendelőt vagy osztályt az ország bármely részén. \n\nNéhány szempont, amit érdemes figyelembe venni a választásnál:\n\n- Praktikusság: a távolság, utazási idő és költségek miatt kényelmesebb lehet egy közelebbi helyet választani. Főleg, ha rendszeres kezelésekre lesz szükség.\n\n- Szakmai profil: egyes intézmények speciális területekre szakosodtak, mint pl. gyermekpszichiátria, addiktológia stb. Érdemes olyat választani, ami az Ön problémájának legjobban megfelel.\n\n- Várakozási idő: a választott hely leterheltsége miatt előfordulhat, hogy sokat kell várni időpontra, ellátásra. Ezt is mérlegelni kell.\n\n- Személyes preferenciák: ha mondjuk volt már jó tapasztalata valahol vagy ajánlották Önnek, akkor távolabb is érdemes lehet elmenni.\n\nTehát a lényeg, hogy Ön szabadon dönthet, de a fenti szempontokat érdemes végiggondolni a választásnál. Szükség esetén a háziorvosa is tud tanácsot adni a megfelelő ellátóhely kiválasztásában."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Járhatok a lakóhelyemtől messzebb lévő pszichiátriára?l vagy csak a legközelebbi köteles fogadni?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -6172,6 +6730,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:31:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Xiaomi telefonokkal kapcsolatos kritikák általában a következő pontokra vezethetők vissza:\n\n1. Szoftver és felhasználói felület: A Xiaomi saját felülete, a MIUI, néha túl zsúfolt és nem annyira letisztult, mint más gyártók felületei. Egyes felhasználók panaszkodnak a reklámokra és a nem kívánt alkalmazásokra is.\n\n2. Adatvédelem: Felmerültek aggályok a Xiaomi adatkezelési gyakorlatával kapcsolatban, különösen a kínai szerverekre küldött adatok miatt.\n\n3. Updatek: Bár a Xiaomi az utóbbi időben javított ezen, korábban lassúak voltak a szoftverfrissítések, és egyes modellek nem kaptak annyi frissítést, mint más gyártók készülékei.\n\n4. Minőségi problémák: Néhány felhasználó bizonyos modelleknél hardveres problémákról, például gyenge Wi-Fi vételről vagy a kijelző hibáiról számolt be.\n\nMindezek ellenére a Xiaomi telefonok népszerűek, aminek fő okai:\n\n1. Ár-érték arány: A Xiaomi készülékek általában jó hardvert kínálnak kedvező áron.\n\n2. Innovatív funkciók: A Xiaomi gyakran vezet be új, innovatív funkciókat, amelyek vonzóak lehetnek a felhasználók számára.\n\n3. Széles választék: A Xiaomi számos különböző árkategóriában kínál telefonokat, így mindenki megtalálhatja a számára megfelelőt.\n\nÖsszességében elmondható, hogy bár a Xiaomi telefonoknak vannak gyengeségei, még mindig jó választást jelenthetnek azok számára, akik megfizethető, jó hardverrel rendelkező készüléket keresnek, és hajlandóak megbirkózni a potenciális szoftveres problémákkal."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Xiaomi telefonokról miért van annyi kritika ?\nNagyon sok helyen olvasni hogy kerülendő márka ,de pontosan mi az oka hogy rengeteg kritika éri?\nDe egyébként ennek ellenére elég érdekes hogy sokan veszik.\n\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -6366,6 +6942,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:32:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Sajnálattal hallom, hogy problémáik vannak a Hugom előfizetés lemondásával. Néhány javaslatom:\n\n1. Próbálják meg újra lemondani az előfizetést a Hugom felületén keresztül. Ha ma nem sikerült, próbálkozzanak holnap vagy a következő napokban is. Előfordulhat, hogy csak átmeneti technikai probléma volt.\n\n2. Ha online nem tudják lemondani, keressék fel a Hugom ügyfélszolgálatát telefonon vagy e-mailben. Magyarázzák el nekik a helyzetet és kérjék a segítségüket az előfizetés lemondásában. \n\n3. Ellenőrizzék, hogy a fiókjukhoz megadott fizetési mód (bankkártya) még érvényes-e. Ha lejárt vagy megváltozott, frissítsék az adatokat.\n\n4. Végső esetben tilthatják le a Hugom felé a további terheléseket a számlavezető bankjuknál. Így ha a Hugom mégis megpróbálná levonni a következő havidíjat, az nem fog sikerülni.\n\n5. Ha a fentiek nem vezetnek eredményre, forduljanak a fogyasztóvédelemhez tanácsért, segítségért.\n\nFontos, hogy legyenek kitartóak és következetesek. Dokumentálják az ügyfélszolgálattal folytatott kommunikációt. Bízom benne, hogy hamarosan sikerül rendezni a lemondást. Ha mégsem, a bank és a fogyasztóvédelem tud segíteni. Kitartást!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hugomnak előfizettünk próba PrémiumYt-ra, de ma 24-én járt le,- és jött is egy 2300Ft-os számla ami febr.24-ig tart. Mit tegyünk, hogy lemonjduk? Ma nem engedi lemondani, és félünk hogy soha nem is fogja...mit tegyünk? Teljes SOS-be vagyunk.\nAki tud valamit ajánlani segítsen légyszíves\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -6558,6 +7152,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:33:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A megadott információk alapján a következőket tudjuk:\n\n- Fél kiló kovászos uborka ára: 2400 Ft/kg, tehát 0,5 kg ára 1200 Ft\n- Fél kiló savanyított dinnye ára: nem ismert\n- 4 db közepes méretű ecetes almapaprika ára: nem ismert\n\nA kovászos uborka ára 1200 Ft, de a savanyított dinnye és az ecetes almapaprika áráról nincs információnk. Ezek nélkül nem lehet pontosan megállapítani, hogy a 3600 Ft reális ár-e a vásárolt termékekért.\n\nAzonban, ha feltételezzük, hogy a savanyított dinnye és az ecetes almapaprika együttes ára 2400 Ft (ami elképzelhető, de nem biztos), akkor a teljes vásárlás értéke valóban 3600 Ft lenne.\n\nA pontos válaszhoz szükség lenne a hiányzó árakra. Ha úgy érzi, hogy az ár túl magas volt, érdemes lenne legközelebb vásárlás előtt érdeklődni az árakról, hogy elkerülje a félreértéseket. Ha még mindig úgy gondolja, hogy megkárosították, megpróbálhat visszamenni az eladóhoz tisztázni a helyzetet."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Létezik, hogy ez 3600 Ft, vagy átvert a kofa?\nMa, a piacon vásároltam fél kiló kovászos uborkát (kilója 2400 Ft-volt, sajnos ez az egy ami megamaradt) fél kiló savanyított dinnyét és 4 szem (közepes méretűek) ecetes almapaprikát. Létezik, hogy ez 3600 Ft-ba került, vagy több száz forinttal megkárosított az eladó?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -6752,6 +7364,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:34:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ausztriában sajnos nem lehet Dörmit venni, ott nem forgalmazzák ezt a terméket. Ausztriában a Barni mackó néven ismert sütemény sem kapható.\n\nAlternatívaként hasonló jellegű, csokoládéval bevont, puha piskóta jellegű süteményeket lehet találni az osztrák boltokban különböző márkanevek alatt. Néhány példa:\n\n- Milka Löffel-Ei: Egy kanál formájú, csokoládéval bevont puha sütemény, hasonló a Dörmihez.\n\n- Dickmann's Schoko-Strolche: Csokoládéval bevont, lágy habbal töltött sütemény.\n\n- Ja! Schoko Gebäck: Különböző formájú, csokoládéval bevont puha keksz.\n\nBár ezek nem teljesen azonosak a Dörmivel, ízvilágban és textúrában hasonlóak lehetnek. Érdemes körülnézni az osztrák szupermarketekben, ha Dörmi-szerű élményre vágysz, és kipróbálni a helyi alternatívákat."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lehet Ausztriában Dörmit venni?\nVannak olyan országok, ahol Barni néven megtalálható, érdekelni, hogy ott is ez-e a helyzet. Ha nincs, milyen alternatíva van kint?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -6944,6 +7574,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:35:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Igen, a Peaches and Cream bár Budapesten a Nagymező utca 46-48. szám alatt található. A Facebook oldalukon valóban reklámoznak egy 1000 Ft-os \"All you can drink\" akciót.\n\nAz ilyen jellegű akciók általában bizonyos feltételekhez vannak kötve:\n\n1. Időbeli korlátozás: Az akció többnyire csak meghatározott napokon és időszakokban érvényes, például hétköznap esténként 18 és 22 óra között.\n\n2. Italválaszték: Az \"All you can drink\" ajánlat sokszor csak bizonyos italokra vonatkozik, mint például csapolt sör, bor vagy egyes koktélok. A prémium italok rendszerint nem részei az akciónak.\n\n3. Időtartam: Gyakran van egy meghatározott időkeret, ameddig az akció igénybe vehető, például 2-3 óra.\n\n4. Egyéb feltételek: Előfordulhat, hogy az akcióban való részvételhez szükség van asztalfoglalásra vagy belépőjegy vásárlására.\n\nA pontos részletekért mindenképpen érdemes felkeresni a bár Facebook oldalát vagy webhelyét, illetve akár telefonon vagy e-mailben is lehet érdeklődni náluk. Fontos tisztázni az akció pontos feltételeit, mielőtt élnénk a lehetőséggel."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Peaches and Cream, Nagymező utca 46-48. Tényleg 1000 Ft-ért All you can drink van?\nEzt reklámozzák videóban a Facebookon. Mik a feltételei ennek? Bizonyos időpontokban csak?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -7138,6 +7786,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:36:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Szia!\n\nAz applikációs kártyával a Metro áruházakban minden terméket meg tudsz vásárolni, beleértve a Metro Chef termékeket is. Az applikációs kártya ugyanúgy működik, mint egy normál Metro vásárlói kártya.\n\nNéhány fontos tudnivaló az applikációs kártyával kapcsolatban:\n\n1. A kártyát az első vásárlás előtt aktiválni kell a Metro kasszáinál.\n\n2. A kártyával való fizetéshez a Metro applikációt használhatod, vagy bemutathatod a kártyát a kasszánál.\n\n3. Az applikációs kártyával igénybe veheted a Metro aktuális akcióit és kedvezményeit is.\n\n4. A kártya személyre szóló, így csak te használhatod vásárlásra.\n\nRemélem, sikerült minden fontos információt megosztanom veled. Jó vásárlást kívánok a Metro áruházban!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lehet a metroban applikációs kártyával a Metro Chef termékekből vásárolni?\nSziasztok! Tervezek benézni a Metro-ba, applikáción keresztül csináltam is kártyát. Viszont azt sehol sem találtam, hogy minden terméket (beleérte a Metro Chef termékeket) is vásárolhatom? Előre is köszönöm a válaszokat! :D\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -7330,6 +7996,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:37:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Sajnos úgy tűnik, hogy a Lidl már nem forgalmazza a Chipsy Kings chipseket. A termék eltűnése a polcokról arra utalhat, hogy a gyártó beszüntette a termék előállítását, vagy a Lidl úgy döntött, hogy más márkákat részesít előnyben.\n\nÉrdemes lehet más üzletláncokban, például a Tescóban, az Auchanban, a Sparban vagy a CBA-ban körülnézni, hátha ott még kapható ez a márka. Alternatívaként kipróbálhatsz más, hasonló ízvilágú chipseket is, például a Chio, a Lay's vagy a Pringles termékeket, amelyek széles választékban elérhetőek a legtöbb üzletben.\n\nHa nagyon ragaszkodsz a Chipsy Kings chipsekhez, megpróbálhatsz online is keresni, hátha valamelyik webáruház még kínálja ezt a márkát."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Lidl-ben vagy máshol nem lehet már kapni Chipsy Kings chipset?\nHónapok óta nem láttam, pedig az volt a kedvencem.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -7524,6 +8208,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:38:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Tesco önkiszolgáló kasszáknál a következő a folyamat a kuponok és kedvezmények érvényesítéséhez:\n\n1. Először a Clubcard kártyádat kell beszkennelni, hogy a rendszer azonosítsa a vásárlót és a hozzá tartozó kedvezményeket.\n\n2. Ezután szkenneld be a vásárolt termékeket egyesével. A rendszer automatikusan alkalmazza az aktuális akciós árakat, ha vannak ilyenek.\n\n3. Miután minden terméket beszkenneltél, a kasszagép megkérdezi, hogy van-e kuponod vagy egyéb kedvezményre jogosító kódod. Ezen a ponton kell beszkennelni a papír alapú vagy digitális kuponokat, amelyeket érvényesíteni szeretnél.\n\n4. A kuponok beszkennelésekor a rendszer ellenőrzi azok érvényességét és a megfelelő termékekhez való kapcsolódásukat. Az érvényes kuponok által biztosított kedvezményeket a végösszegből levonják.\n\n5. Miután minden kupont beszkenneltél, a kasszagép kiírja a fizetendő végösszeget, és választhatsz a fizetési módok közül (készpénz, bankkártya stb.).\n\nTehát a termékekre vonatkozó kedvezményeket a fizetés előtt, de a termékek beszkennelésekor után kell érvényesíteni a kuponok beszkennelésével. A kasszagép jelzi, hogy mikor van lehetőség a kuponok beolvasására."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tesco önkiszolgáló kasszánál mikor kell a kuponkódot szkennelni?\nElőször ugye a club kártya kódját kell beszkennelni, utána meg a termékek.\nA termékekre vonatkozó kedvezményeket mikor kell érvényesíteni? Van ilyen opció fizetés előtt ahol minden kódot enged szkennelni?\n\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -7716,6 +8418,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:39:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Széchenyi István Egyetem (SZE) Győrben és a Neumann János Egyetem GAMF Műszaki és Informatikai Kara Kecskeméten is kínál gépészmérnöki képzést levelező tagozaton. A pontos órarend intézményenként eltérő lehet, de általában a következőképpen szervezik:\n\n1. Széchenyi István Egyetem (SZE), Győr:\nA levelező képzés általában péntek délután és szombaton egész nap zajlik. A félévek során körülbelül 6-7 alkalommal vannak konzultációk, amelyek tömbösítve, kéthetente kerülnek megtartásra.\n\n2. Neumann János Egyetem GAMF Műszaki és Informatikai Kar, Kecskemét:\nA GAMF-on a levelező képzés szintén péntek délután és szombaton egész nap zajlik. A konzultációk általában kéthetente vannak, és egy félév során körülbelül 6-7 alkalommal kerülnek megtartásra.\n\nMindkét intézményben a levelező képzés rugalmasabb, mint a nappali tagozat, de a hallgatóknak így is jelentős mennyiségű önálló tanulással és otthoni feladatokkal kell számolniuk a konzultációk között. A pontos órarendet és a követelményeket mindig érdemes egyeztetni az adott intézménnyel, mivel ezek változhatnak."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Az alábbi gépészmérnök képzések levelező szakon hogy vannak megtartva?\nSZE győr\nGamf kecskemét\nCsak szombaton vagy péntek szombat?\n\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -7910,6 +8630,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:40:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Szia!\n\nAz üzenet alapján úgy tűnik, hogy már van egy érvényes Diákhitel 1 szerződésed. A Diákhitel Központ üzletszabályzata szerint egy hitelfelvevő egyidejűleg legfeljebb két különböző hitelcélú szerződéssel rendelkezhet (Diákhitel 1 és Diákhitel 2).\n\nEz azonban nem jelenti azt, hogy nem igényelhetsz újra Diákhitel 1-et a tavaszi félévre. Valószínűleg azért kaptad ezt az üzenetet, mert már van egy aktív Diákhitel 1 szerződésed.\n\nJavasoljuk, hogy vedd fel a kapcsolatot a Diákhitel Központ ügyfélszolgálatával telefonon, és kérdezz rá a lehetőségeidre. Ők tudnak majd pontos információt adni arról, hogyan igényelhetsz újra hitelt a tavaszi félévre meglévő szerződésed mellé.\n\nÁltalában a meglévő szerződésed mellé igényelhetsz újabb összeget, de ezt mindenképpen egyeztetned kell az ügyfélszolgálattal, hogy az adott félévre vonatkozó szabályoknak megfelelően járj el."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Diákhitel 1 kérdés?\nSziasztok!\nIgényeltem az őszi félévben diákhitel 1-et, egyösszegű kifizetéssel. Szeretnék a tavaszi félévre is igényelni azonban az alábbi üzenetet írta ki, ez mit jelent nem igényelhetek már?\nLétező szabad felhasználású hiteligénylés Tájékoztatjuk, hogy Ön már rendelkezik azonos hitelcelú szerződéssel. Üzletszabályzatunk értelmében egy Hitelfelvevo egyidejüleg legfeljebb kettő, eltérő hitelcélú (DH1 és DH2) érvényes rendelkezhet. Kérjük, vegye fel a kapcsolatot telefonos diákhitelszerzödéssel\n\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -8102,6 +8840,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:41:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Sajnos nem tudok konkrét iskolákat megnevezni, mivel az iskolák felvételi ponthatárai évről évre változhatnak a jelentkezők számától és teljesítményétől függően. Azonban adhatok néhány tippet, hogyan találhatsz olyan technikumokat, ahová alacsonyabb pontszámmal is be lehet kerülni:\n\n1. Nézd meg a korábbi évek felvételi statisztikáit és ponthatárait az iskolák honlapján vagy a felvi.hu oldalon. Így képet kaphatsz arról, mely intézményekbe volt könnyebb bekerülni.\n\n2. Kevésbé népszerű vagy ismert technikumok általában alacsonyabb ponthatárral dolgoznak. Érdemes a kisebb városokban, kevésbé frekventált helyeken lévő iskolákat is számításba venni.\n\n3. Olyan technikumok, ahol többféle szakmát is oktatnak, rugalmasabbak lehetnek a felvételi ponthatárokkal, hogy fel tudják tölteni az osztályokat.\n\n4. Vedd fel a kapcsolatot közvetlenül a számodra szimpatikus iskolákkal, érdeklődj a felvételi esélyekről és az előző évek tapasztalatairól.\n\n5. Ne csak a pontszámokra koncentrálj, hanem olyan iskolát válassz, ami valóban érdekel, motivál. A technikumok többsége a szakmai elhivatottságot is értékeli a pontszámok mellett.\n\nKitartást és sok sikert kívánok az iskolaválasztáshoz! Ne csüggedj, mindenki megtalálhatja a neki való helyet, akkor is, ha az eredmények most nem a legjobbak. A szorgalom és a motiváció sokat számít!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Melyik technikumok amik kevesebb pontszámmal is felvesznek gyerekeket?\nMost esedékes az iskola választás, nem sikerült valami jól a központi írásbeli.Próbálom böngészni az iskolák honlapját, de hátha valaki tudja konkrétan melyek a gyengébb sulik.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -8296,6 +9052,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:42:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A BME GTK-n a részvétel az órák többségén nem kötelező, de vannak kivételek. Általában a gyakorlati órákon, laborokon, szemináriumokon elvárt a részvétel, és gyakran a félév végi jegy részét képezi az órai aktivitás. Az előadásokon a részvétel jellemzően nem kötelező, de ajánlott, mivel sokszor ott hangzanak el a vizsgákhoz szükséges információk.\n\nAz ELTE-n valóban rugalmasabb a helyzet, a legtöbb órán a részvétel nem kötelező, és a tananyagot is könnyebb önállóan feldolgozni.\n\nA gazdálkodási és menedzsment/nemzetközi gazdálkodás alapszakokról általánosságban:\n\nBME GTK:\n- Erős quantitatív, módszertani alapozás (matematika, statisztika)\n- Mérnöki szemléletmód, rendszerszemlélet\n- Szoros ipari kapcsolatok, jó elhelyezkedési lehetőségek\n- Nemzetközi lehetőségek (csereprogramok, double degree)\n\nELTE GTK:\n- Szélesebb közgazdasági alapozás\n- Társadalomtudományi szemlélet\n- Rugalmasabb tanrend, több választható specializáció\n- Erős elméleti háttér, jó alapok a mesterszakos továbbtanuláshoz\n\nMindkét egyetem alapszakjai megfelelő alapot adnak a szakmában való elhelyezkedéshez vagy a mesterszakon való továbbtanuláshoz. A választás során érdemes figyelembe venni az egyéni érdeklődési kört, karriercélokat és tanulási stílust is."
+            }
+          },
+          "prompting_state": {
+            "prompt": "BME gtk mennyire bejárós, részt kell e venni az órákon? Tudom, hogy ELTE-n kb. semmire se kötelező bemenni és ez fontos szempont lenne számomra.\nEzenfelül ennek a két egyetemnek a gazdálkodási és menedzsment/nemzetközi gazdálkodás alapszakjairól is szívesen meghallgatnék egy-két véleményt. Köszi\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -8488,6 +9262,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:43:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Sajnos nem találtam megbízható információt Dzsúdló pontos magasságáról. Bár a dalszövegeiben utal rá, hogy magas, a konkrét testmagasságát nem közli nyilvánosan.\n\nAz átlagos magyar férfi magassága kb. 177-178 cm. Ha Dzsúdló ennél jelentősen magasabb, mondjuk 190 cm felett van, akkor valóban kimagaslónak számít. De a pontos adatot nem tudom megerősíteni hiteles forrásból.\n\nÖsszességében a magasságára vonatkozó utalások inkább művészi túlzások lehetnek, mintsem tényszerű közlések. A zenészek gyakran használnak ilyesfajta költői eszközöket a dalszövegeikben az önkifejezés részeként. Így Dzsúdló valós magassága továbbra is találgatás tárgya marad, hacsak ő maga vagy a menedzsmentje nem osztja meg velünk ezt az információt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dzsúdló milyen magas?\nNem voltam még koncerten, élőben nem láttam még őt. Viszont sok zenéjében utal arra hogy nagyra nőtt.\nValaki esetleg tudja milyen magas Dzsúdló?\n\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -8682,6 +9474,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:44:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A susogós melegítő viselése manapság már nem annyira elterjedt és divatos, mint néhány évtizeddel ezelőtt volt. Ennek ellenére vannak, akik kényelmi szempontból vagy nosztalgiából szívesen hordanak eredeti nylon anyagú melegítőket.\n\nNéhány szempont azoktól, akik mai napig előszeretettel viselik:\n\n- Nagyon kényelmes viselet, puha tapintású anyaga miatt kellemes érzés benne mozogni.\n\n- Szellőzik, mégsem hűti ki az embert. Ideális választás szabadidős tevékenységekhez.\n\n- A régi, retro darabok egyfajta kuriózumot, különlegességet képviselnek. \n\n- Nosztalgikus érzéseket ébreszt, sokan fiatalságuk meghatározó ruhadarabjaként tekintenek rá.\n\nÖsszességében a susogós melegítő már inkább \"retro\" viseletnek számít, mintsem a mai kor divatjának. De akik szeretik, azok a kényelem és a nosztalgia miatt ragaszkodnak hozzá. Szűk körben, főleg otthoni vagy szabadidős környezetben elfogadott viselet lehet még napjainkban is."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mennyire elfogadott napjainkban a susogós melegítő viselése?\nAz igazi nylon anyagú márkás susogós melegítőkre gondolok, nem a poliészterre. Leginkább azok írjanak, akik hordanak ilyet.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -8874,6 +9684,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:45:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Napjainkban egyre elfogadottabb, ha valaki önszántából nem szeretne gyereket vállalni. Bár még mindig vannak, akik furcsállják vagy nem értik meg ezt a döntést, összességében a társadalom nyitottabbá vált a különböző életmódok és családmodellek iránt.\n\nNéhány gondolat ezzel kapcsolatban:\n\n- A nők egyre később vállalnak gyereket, sokan a karrierjüket helyezik előtérbe. Ez is mutatja, hogy a gyerekvállalás már nem kötelező elvárás.\n\n- Egyre több pár dönt tudatosan a gyermektelen életforma mellett különböző okokból: karrier, utazás, szabadság, anyagi megfontolások, túlnépesedés miatti aggodalom stb.\n\n- A \"szingli\" életforma is egyre elfogadottabb, sokan egyedül is teljes életet élnek, nem érzik szükségét a családalapításnak.\n\n- Persze a tradicionálisabb, konzervatívabb körökben még mindig él az elvárás, hogy egy nőnek gyereket \"kell\" szülnie. De ez a hozzáállás egyre kevésbé jellemző.\n\n- Összességében a gyermekvállalás ma már egyéni választás kérdése. Nem ördögtől való, ha valaki nem akar gyereket, ez is egy teljesen valid döntés.\n\nSzóval bár ez a kérdés még megosztó lehet és nem mindenki egyformán elfogadó, a társadalmi attitűd összességében sokat változott. Ma már kevésbé néznek furán arra, aki nem szeretne gyereket, ez egyre inkább egy elfogadott választási lehetőség."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Társadalmilag mennyire elfogadott napjainkban, ha valaki önszántából nem szeretne gyereket?\nMennyire néznek furán valakire, mennyire tartják ördögtől valónak, ha valaki nem vállal gyereket?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -9068,6 +9896,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:46:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A BB krémek elérhetőek a Rossmann üzletekben, de más drogériákban és parfümériákban is megtalálhatóak. Néhány további lehetőség:\n\n1. DM: Szintén széles választékban kínálnak BB krémeket különböző márkáktól.\n\n2. Douglas: Elsősorban prémium márkák BB krémjeit forgalmazzák.\n\n3. Müller: Több márka BB krémje is elérhető náluk.\n\n4. Online drogériák: Például a Notino.hu vagy az Arukereso.hu oldalán számos BB krémet találhat és rendelhet.\n\n5. Gyógyszertárak: Egyes patikák is kínálnak BB krémeket, főként a bőrgyógyászati termékekre specializálódott márkáktól.\n\n6. Áruházláncok: Nagyobb hipermarketek és szupermarketek, mint a Tesco, Auchan vagy az Interspar kozmetikai részlegein is rábukkanhat BB krémekre.\n\nÉrdemes több helyen is körülnézni, összehasonlítani az árakat és a kínált márkákat, hogy megtalálja az Ön számára legmegfelelőbb BB krémet."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bb krémet lehet kapni rossmanban? Vagy hol lehet kapni?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -9260,6 +10106,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:47:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Megértem a problémádat és a csalódottságodat a termékkel kapcsolatban. Azonban nem javaslom, hogy a tervezett módon próbáld visszaküldeni vagy kicserélni a terméket. \n\nNéhány gondolat, amit érdemes megfontolnod:\n\n- A legtöbb üzletnek van egy tisztességes visszaküldési szabályzata, ami védi a vásárlókat. Ha betartod a szabályokat (pl. időben jelzed a problémát, megőrzöd a blokkot), akkor általában rugalmasak.\n\n- A termék interneten való újrarendelése, majd a használt darab visszaküldése a rendelt helyett etikátlan és törvénytelen is lehet. Ez a fajta megtévesztés hosszú távon nem kifizetődő.\n\n- Próbálj inkább kulturáltan, de határozottan kommunikálni az üzlettel. Hivatkozz a terméken szereplő adatokra és a tapasztalataidra. Kérdezd meg, tudnak-e valami megoldást ajánlani, pl. levásárlást vagy cserét egy másik termékre.\n\n- Ha sehogy nem boldogulsz, fordulhatok a fogyasztóvédelemhez is, de ez hosszadalmas folyamat. \n\nA legjobb megoldás az lenne, ha sikerülne megegyeznetek az üzlettel valamilyen kompromisszumos cserében vagy visszatérítésben. Légy kitartó, de ne próbálkozz etikátlan módszerekkel. Remélem sikerül megoldást találnod!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Decathlonba vitt már valaki vissza így terméket?\nVettem egy hótaposót, álló munkát végzek a szabadban, nem sokat mozgok. Rá volt írva, hogy *Komforthőmérséklet statikus helyzetben: -8 °C. mozgás közben: -17 °C\", ezért mertem megvenni. Egyszer használtam pár órát, de semmit nem ért, ugyanúgy fázott a lábam benne, hiába húztam fel több zoknit is, gyapjút is.\nVisszamentem az áruházba, de nem vették vissza, mert már használtam. Azt tudták volna csinálni, hogy kicserélik valami hasonlóra, ezt persze nem kértem.\nEgyből eszembe jutott, hogy azt fogom csinálni, rendelek a netről egy ugyanilyet, aztán visszaküldöm a mostanit, az újat meg visszaviszem egy másik üzletbe és úgy már vissza kell vegyék.\n\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -9454,6 +10318,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:48:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A rendelkezésre álló információk alapján úgy tűnik, hogy a debreceni Ázsia Centrum (kínai bolt) a Dózsa György útról átköltözött egy új helyszínre, a Malompark bevásárlóközpontba.\n\nAz átköltözés pontos okait nem ismerem, de valószínűleg üzleti megfontolások állhattak a háttérben, mint például:\n\n- Nagyobb, korszerűbb üzlethelyiség\n- Jobb megközelíthetőség, parkolási lehetőségek\n- Nagyobb vásárlói forgalom a bevásárlóközpontban\n\nTehát az Ázsia Centrum minden bizonnyal nem véglegesen zárt be, hanem egy új, remélhetőleg előnyösebb helyen folytatja működését Debrecenben. A Dózsa György úti üzlet viszont valóban megszűnt az átköltözéssel.\n\nÉrdemes lehet felkeresni őket az új helyszínen, a Malompark bevásárlóközpontban, ha továbbra is az általuk kínált termékekre van szükséged."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Debrecenben a Dózsa GY. úton a kínai bolt (Ázsia Centrum) átköltözött? Vagy véglegesen bezárt a kiköltözéssel?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -9646,6 +10528,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:49:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Budapesten több helyen is lehet használt katonai ruhákat és felszereléseket vásárolni:\n\n1. Surplus boltok - Ezek kifejezetten katonai és túrafelszerelésekre specializálódott üzletek. Néhány ismertebb:\n- Tereptarka (Teréz krt. 24.)\n- Army Shop (Erzsébet krt. 21.)  \n- Kalóz Army Shop (Erzsébet krt. 19.)\n\n2. Hadtörténeti Múzeum Ajándékboltja (Kapisztrán tér 2-4.) - A múzeum boltjában korhű katonai replikákat, ruhákat is árulnak.\n\n3. Bizományi üzletek, turkálók - Néha felbukkanhatnak használt katonai darabok a kínálatukban.\n\n4. Bolhapiacok, régiségvásárok - Érdemes körülnézni a nagyobb piacokon, vásárokon is.\n\n5. Online piacterek, aukciós oldalak - A Vatera, Jófogás, Facebook Marketplace felületeken magánszemélyek is kínálnak eladásra katonai ruhákat.\n\nFontos, hogy eredeti katonai fegyverek, lőszerek vásárlása és birtoklása engedélyköteles, vagy tiltott. Legyél körültekintő és csak legális termékeket vásárolj!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Honnan lehet venni katonai dolgokat?\nFőleg Budapesten keresek használt katonai ruhákat.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -9840,6 +10740,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:50:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A BKV járatain a külföldi nyugdíjasok is jogosultak az ingyenes utazásra, amennyiben az Európai Unió tagállamainak állampolgárai és betöltötték a 65. életévüket. Az ingyenes utazáshoz a következő dokumentumok valamelyikét kell bemutatni a járművezetőnek vagy a jegyellenőrnek:\n\n1. Bármely EU-tagállam által kiállított személyi igazolvány, amely igazolja az utas életkorát.\n\n2. Útlevél, amely igazolja az utas állampolgárságát és életkorát.\n\n3. Nyugdíjas igazolvány, amely tartalmazza a nyugdíjas személyes adatait, fényképét és az igazolvány érvényességi idejét.\n\nFontos megjegyezni, hogy a járművezetők és a jegyellenőrök jogosultak ellenőrizni az utasok személyazonosságát és a kedvezményre való jogosultságot. Édesanyja esetében elegendő lehet a személyi igazolvány vagy az útlevél felmutatása, amely igazolja az életkorát és az állampolgárságát. Ha rendelkezik nyugdíjas igazolvánnyal, az még egyértelműbbé teheti a helyzetet.\n\nÉrdemes lehet az utazás előtt tájékozódni a BKV hivatalos honlapján vagy ügyfélszolgálatán, hogy pontosan milyen dokumentumokat fogadnak el a külföldi nyugdíjasok esetében."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A BKV járatain egy (külföldi) nyugdíjas miként igazolja, hogy nyugdíjas a sofőrnél?\nÉdesanyámmal szeretnénk menni majd Budapestre egyet kirándulni. Ő már nyugdíjas, így tudtommal EU-s állampolgárként ő is ingyen használhatja a BKV járatait.\nDe, ugye első ajtós felszállásnál vagy lyukasztunk, vagy a bérletet mutatjuk fel, stb.\nNyudíjasként, főleg külföldi nyugdíjasként mit mutasson fel? Személyit esetleg? (Nyilván abból a sofőr semmit nem olvas le. De, szerintem a bérletem dátumát sem tudja olyan gyorsan, ahogy én általában megvillantom neki.)\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -10032,6 +10950,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:51:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Debrecen belvárosában található nagy bontási terület és ideiglenes parkoló a Petőfi tér és a Piac utca sarkán helyezkedik el. \n\nAz ott álló régi, leromlott állapotú épületeket lebontották, hogy a helyükre egy új, modern irodaház és üzletközpont épülhessen. A tervek szerint egy 21. századi igényeknek megfelelő, A+ kategóriás irodaház fog itt megvalósulni, amely illeszkedik a belváros megújulásába.\n\nAmíg az új komplexum építése el nem kezdődik, addig ideiglenesen parkolónak használják a területet. Ez azért praktikus, mert a belvárosban kevés a parkolóhely, így ez átmenetileg enyhíti a parkolási gondokat.\n\nAz új beruházás várhatóan fellendíti az üzleti életet és még vonzóbbá teszi Debrecen központját. A modern irodaház és üzletközpont hosszútávon pozitív hatással lesz a belváros képére és a gazdaságra egyaránt. A parkoló csak egy ideiglenes megoldás, amíg az építkezés el nem indul."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Debrecen belvárosának kellős közepén miért van egy hatalmas bontási terület parkolónak használva?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -10226,6 +11162,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:52:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az idegenforgalmi adó (IFA) általában azokat a személyeket érinti, akik nem állandó lakosként tartózkodnak egy adott településen, hanem átmenetileg, jellemzően turisztikai céllal. A pontos szabályozás azonban településenként eltérő lehet, ezért mindig érdemes az adott város önkormányzatának rendelkezéseit figyelembe venni.\n\nA kérdéseidre válaszolva:\n\n1. Ha egy bevásárlóközpont parkolójában a furgonadban alszol, az általában nem minősül idegenforgalmi adóköteles tartózkodásnak. Az IFA jellemzően a kereskedelmi szálláshelyekre (pl. szállodák, panziók, kempingek) vonatkozik. Azonban ha a parkolás egy olyan területen történik, ahol ezt külön szabályozzák és díjfizetéshez kötik, akkor előfordulhat, hogy valamilyen díjat kell fizetned.\n\n2. Ha egy idegenforgalmi adót beszedő városban van ingatlanod a saját neveden, de nem vagy oda bejelentve, akkor általában nem kell IFA-t fizetned. Az adófizetési kötelezettség azokra vonatkozik, akik átmeneti jelleggel, nem állandó lakosként tartózkodnak a településen, és jellemzően turisztikai céllal szállnak meg kereskedelmi szálláshelyen.\n\nFontos megjegyezni, hogy ezek általános irányelvek, és a konkrét szabályozás városonként eltérő lehet. A pontos információkért mindenképpen érdemes az adott település önkormányzatának idegenforgalmi adóra vonatkozó rendeletét tanulmányozni, vagy felvenni velük a kapcsolatot."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kiket érint XY városban az idegenforgalmi adó?\nPl ha egy bevásárlóközpont parkolójában 2 napig a furgonamban alszok az már díjköteles?\nVagy ha egy idenforgalmi adót beszedő városban van egy lakásom/ingatlanon a saját nevemen,de nem oda vagyok bejelentve,akkor is fizetni kell?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -10418,6 +11372,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:53:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A MÁV-nál kétféle jegytípus érhető el online vagy telefonos vásárlás esetén:\n\n1. Sima menetjegy (hagyományos jegy):\n- Ezt a jegyet online vagy a MÁV applikáción keresztül lehet megvásárolni.\n- A jegyet ki kell nyomtatni vagy fel kell mutatni az applikációban az ellenőrzéskor.\n- A jegy csak a rajta feltüntetett vonatra és időpontra érvényes.\n- Nem tartalmaz extra kedvezményeket vagy szolgáltatásokat.\n\n2. Okos jegy (e-vonatjegy):\n- Ezt a jegyet csak a MÁV applikáción keresztül lehet megvásárolni.\n- Nem szükséges kinyomtatni, elég felmutatni az applikációban az ellenőrzéskor.\n- Az okos jegy rugalmasabb, egy adott napon bármelyik, az indulási és célállomás között közlekedő vonaton felhasználható.\n- Tartalmazhat extra kedvezményeket, például alacsonyabb árat a sima jegyhez képest.\n- Az okos jegyhez kapcsolódhatnak további szolgáltatások, például ülőhely-foglalás.\n\nTehát a fő különbség a két jegytípus között a rugalmasság és a potenciális kedvezmények. Az okos jegy kényelmesebb és gyakran olcsóbb megoldást kínál az utasoknak, míg a sima jegy a hagyományos, kevésbé rugalmas választás."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A MÁV-ban illetve a vonatokon mi a különbség a sima menetjegy és az okos jegy között? Mind a 2 őt meg lehet venni telefonon ez takar valamit?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -10612,6 +11584,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:54:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Kedves Kérdező!\n\nAz önkormányzati lakások bérleti jogviszonyának felülvizsgálata során valóban előfordulhat, hogy a bérlő jövedelmi helyzetét is vizsgálják. Ennek célja annak megállapítása, hogy a bérlő továbbra is jogosult-e a szociális alapon bérbe adott lakásra.\n\nAzonban a határozatlan idejű bérleti szerződés esetén a jövedelmi helyzet változása önmagában nem feltétlenül jelenti a bérleti jogviszony automatikus megszűnését. Az önkormányzatoknak jellemzően vannak saját rendeleteik, amelyek szabályozzák a bérleti jogviszony feltételeit és a jövedelmi határokat.\n\nLehetséges kimenetelek:\n1. Ha a jövedelme még mindig a rendeletben meghatározott határértékek alatt van, akkor valószínűleg nem lesz változás a bérleti jogviszonyban.\n2. Ha a jövedelme meghaladja a határértékeket, az önkormányzat dönthet úgy, hogy megemeli a lakbért a piaci árhoz közelítve.\n3. Szélsőséges esetben, ha a jövedelme jelentősen meghaladja a jogosultsági határt, és az önkormányzati rendelet így rendelkezik, a bérleti jogviszonyt megszüntethetik. Ez azonban nem gyakori.\n\nJavasoljuk, hogy nézze át az önkormányzat vonatkozó rendeleteit, és szükség esetén egyeztessen a vagyonkezelővel vagy az illetékes önkormányzati osztállyal a várható következményekről. Általában az önkormányzatok nem törekednek a bérleti jogviszony megszüntetésére, ha a bérlő hosszú ideje problémamentesen használja a lakást, és nincs tartozása.\n\nReméljük, válaszunk segített a helyzet tisztázásában. Ha további kérdései vannak, forduljon bizalommal az illetékes hivatalokhoz.\n\nÜdvözlettel,\nChatGPT"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Önkormányzati jövedelem felülvizsgálatkor teendő?\nSziasztok, 2014-ben önkormányzati lakásba kerültem, akkor nettó 90ezer ft volt a jövedelmem friss pályakezdőként, viszont azóta a munkahelyemen 4x annyival többet keresek, mert előléptettek és emelték a fizetésem a 10 év alatt. Eddig az éves önkormányzati felülvizsgálati szemlekor csak azt nézték a vagyonkezelő dolgozói, hogy a lakbér és a közmű számlák rendezve vannak-e, viszont most kaptam egy olyan levelet, hogy a jövedelmem is igazoljam. Határozatlan az önkormányzati szerződésem, ilyenkor szerintetek felmondhatják, hogy ekkora jövedelemmel nem vagyok jogosult, vagy csak a lakbért fogják emelni? Köszönöm szépen előre is a válaszokat!\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -10804,6 +11794,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:55:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A penész kialakulásának kockázata valóban fennáll a belső falakra helyezett szigetelés esetén, különösen, ha a helyiség nem megfelelően szellőzik. Néhány javaslat:\n\n1. Vizsgálja meg alaposan a falat és a szigetelést, keressen látható penészfoltokat, nedves vagy elszíneződött területeket.\n\n2. Ha lehetséges, távolítson el egy kis részt a szigetelésből, és ellenőrizze, hogy a fal mögött van-e penész vagy nedvesség.\n\n3. Használjon nedvességmérőt a fal és a szigetelés nedvességtartalmának ellenőrzésére. Ha a nedvességtartalom magas, az penészre utalhat.\n\n4. Kérje ki egy szakember (például építész vagy épületgépész) véleményét, aki személyesen is megvizsgálhatja a helyzetet, és tanácsot adhat a legjobb megoldásról.\n\nHa penészt vagy nedvességet talál, a legjobb megoldás az lehet, ha eltávolítja a szigetelést, kezeli a penészt, és hagyja, hogy a fal kiszáradjon, mielőtt új, páraáteresztő szigetelést helyezne fel. Fontos a megfelelő szellőzés biztosítása is a helyiségben a penész kialakulásának megelőzése érdekében."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Vásároltam egy panel lakást és fel szeretném újítani, de az egyik belső falra 5cm EPS szigetelést raktak. Szerintetek leszedjem mert penészes lehet, vagy honnan lehet ezt megtudni?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -10998,6 +12006,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:56:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Horthy-kori sisakok színének kikeveréséhez a következő lépéseket javaslom:\n\n1. Alapszín: Használjon matt olívazöld színt alapnak. Ez a szín a korabeli magyar katonai felszerelések jellemző árnyalata volt.\n\n2. Világosítás: Keverjen az alapszínhez egy kevés homoksárga vagy világos khaki árnyalatot, hogy egy kicsit világosabb, fakóbb hatást érjen el. A sisakok a használat során koptak, fakultak.\n\n3. Sötétítés: Ha szükséges, adjon hozzá egy kevés sötétbarna színt az árnyékoláshoz, hogy kiemelje a sisak mélyedéseit, peremét. De csak óvatosan, hogy megmaradjon az alapvetően zöldes árnyalat.\n\n4. Mattítás: A festék felületét érdemes mattítani, hogy korhű hatást keltsen. Erre a célra matt lakk vagy mattító közeg használható.\n\n5. Koptatás: Egy szivaccsal vagy ronggyal óvatosan dörzsöljön le egy kevés festéket a sisak éleiről, kidudorodó részeiről, hogy kopott, használt hatást keltsen.\n\nÉrdemes több árnyalattal kísérletezni, míg elérjük a kívánt korhű eredményt. Remélem, ezek a tanácsok hasznosak lesznek a Horthy-kori sisakok színének kikeveréséhez!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan lehet kikeverni a Horthy-kori sisakok színét?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -11190,6 +12216,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:57:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az, hogy egy ház újépítésűnek számít-e, attól függ, hogy milyen mértékű átalakításokat, felújításokat végeznek rajta. Az építési jogszabályok alkalmazása szempontjából az alábbi tényezők számítanak:\n\n1. Ha a régi ház falainak és szerkezetének jelentős részét (általában több mint 50%-át) elbontják, és új falakat, szerkezeti elemeket építenek, akkor az már újépítésűnek minősülhet, és alkalmazni kell az új építési jogszabályokat.\n\n2. Ha a felújítás során a ház energetikai rendszereit (fűtés, hűtés, szigetelés stb.) teljesen kicserélik, korszerűsítik az aktuális energetikai előírásoknak megfelelően, akkor is újépítésűnek számíthat a ház.\n\n3. Amennyiben a régi ház alapszerkezetét, falainak nagy részét megtartják, és csak kisebb átalakításokat, korszerűsítéseket végeznek (pl. nyílászárók cseréje, tetőcsere, gépészeti felújítás), akkor általában nem minősül újépítésűnek, és nem kell alkalmazni a szigorúbb energetikai előírásokat.\n\nA pontos meghatározás az adott ország vagy régió építési jogszabályaitól függ. Érdemes konzultálni egy építész szakemberrel vagy az illetékes építésügyi hatósággal, hogy az adott esetben mi számít újépítésűnek, és milyen előírásokat kell betartani."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mitől számít újépítésűnek egy ház? Mitől kell alkalmazni azt az építési jogszabájt, ami köteleti az új építésű házaknál az energiatakarékosságot, fenntarthatóságot, 0 energiaigényt.\nÚgy értem hogy például van egy régi ház, és ha meghagyjuk a falakat, akkor nyilván nem lesz új építésű, de meddig lehet elmenni?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -11384,6 +12428,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:58:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ebben a helyzetben a következő lépéseket javaslom:\n\n1. Próbáljon meg higgadtan, de határozottan kommunikálni a főbérlővel. Magyarázza el neki, hogy a bútoron lévő sérülés nem az Ön hibájából keletkezett, és Ön nem felelős érte.\n\n2. Gyűjtsön bizonyítékokat, amelyek alátámasztják az állítását. Ha vannak fényképek vagy videók a lakásról és a bútorokról a beköltözéskor és a kiköltözéskor, azok segíthetnek igazolni, hogy a kár nem az Ön ottléte alatt keletkezett.\n\n3. Nézze át a bérleti szerződést, különös tekintettel a kaucióra és a kártérítési felelősségre vonatkozó részeket. Ha a szerződés nem tér ki az ilyen esetekre, vagy a főbérlő követelése nincs összhangban a szerződéssel, arra hivatkozhat.\n\n4. Ha a főbérlő nem hajlandó belátni, hogy a kár nem az Ön hibája, és ragaszkodik a kártérítéshez, fontolóra veheti jogi tanács kérését. Egy ügyvéd segíthet tisztázni a jogait és kötelezettségeit, valamint képviselheti Önt a főbérlővel folytatott vitában.\n\n5. Végső esetben, ha a főbérlő bírósági úton próbálja érvényesíteni a követelését, készüljön fel arra, hogy bizonyítékokkal alátámasztva megvédje álláspontját a bíróság előtt.\n\nMindenképpen őrizze meg a nyugalmát, és próbáljon meg professzionálisan, tényszerűen kommunikálni a főbérlővel. Ha sikerül bizonyítania igazát, remélhetőleg a főbérlő is belátja majd, hogy követelése megalapozatlan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mit tehetek, ha a főbérlő olyan károkozással vádol, amit nem követtem el?\nÁtköltöztem egy másik albérletbe, mert az elöző igencsak igénytelen volt, az elöző főbérlő szinte semmit nem akart megjavítani. Penészes falak, beázás, stb.\nElköltöztem, de most egy bútornak az árrát akarja rám verni (150000) mert egy vágás volt rajta, ami a kiköltözésemnél 100%, hogy nem volt ott.Mit tehetek?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -11576,6 +12638,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:59:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A felújítási munkálatok engedélyeztetése nagyban függ az ingatlan jellegétől, elhelyezkedésétől és a tervezett átalakítások mértékétől. Általánosságban elmondható, hogy a következő esetekben lehet szükség engedélyekre:\n\n1. Építési engedély: Amennyiben a felújítás során jelentős szerkezeti változtatásokat tervez (pl. tartófalak áthelyezése, eltávolítása, új nyílászárók kialakítása), vagy a pajta lakótérré alakítása az alapterület jelentős növekedésével jár, építési engedélyre lehet szükség.\n\n2. Örökségvédelmi engedély: Ha az ingatlan műemléki védettség alatt áll, vagy műemléki környezetben található, a felújításhoz örökségvédelmi engedély beszerzése is szükséges lehet.\n\n3. Településképi bejelentési eljárás: Egyes településeken a homlokzatot érintő változtatások (pl. nyílászárók cseréje, színezés) településképi bejelentési eljárás alá eshetnek.\n\n4. Szakhatósági engedélyek: Bizonyos munkálatok (pl. víz-, gáz-, elektromos hálózat átalakítása) szakhatósági engedélyeket igényelhetnek.\n\nA pontos engedélyeztetési követelmények meghatározásához javasolt egyeztetni az illetékes építésügyi hatósággal, valamint egy építész vagy mérnök szakember bevonása is hasznos lehet a tervezési és engedélyeztetési folyamatba.\n\nFontos megjegyezni, hogy az engedély nélkül végzett, engedélyköteles munkálatok bírságot vonhatnak maguk után, ezért mindenképpen érdemes előzetesen tájékozódni a szükséges engedélyekről."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Milyen engedélyek kötelezőek ha lakást szeretnék újítani?\nFigyelt kérdés\nEgy régi kissé romos lakást szeretnék felújítani. Tető csere az 100%, szobák/helységek átrendezése, falak bontása, illetve újak építése. Van közvetlen a ház mellett egy pajta, ugyan az a tető fedi mint magát a lakást, csak egy fal válassza el a kettőt, abba ajtót tennék és lakható szobának kialakítanám. Ajtókat, ablakokat is szeretnék kialakítani egy-két helyen.\nAzt tudom hogy mindenhez nem kell engedély.\nPersze ezt nyilván nehéz mind előre megmondani, de a kérdésem az volna, hogy nagyjából melyik engedélyekre lesz mindezek elvégzéséhez szükségem?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -11770,6 +12850,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:60:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A mobilházak tulajdonjogának megállapítása több tényezőtől függ, és nem mindig egyértelmű. Néhány fontos szempont:\n\n1. Vételi szerződés: A mobilház vásárlásáról szóló szerződés az egyik legfontosabb dokumentum, amely igazolja a tulajdonjogot. Ebben szerepelnie kell a vevő nevének és a mobilház egyedi azonosítóinak.\n\n2. Alvázszám: A mobilházaknak általában van alvázszámuk, amely egyedi azonosítóként szolgál, hasonlóan a gépjárművekhez. Ez az alvázszám szerepel a vételi szerződésben és a mobilház dokumentációjában is.\n\n3. Gyártói dokumentáció: A mobilház gyártója által kiállított dokumentumok, például a jótállási jegy vagy a megfelelőségi nyilatkozat szintén tartalmazhatják a tulajdonos nevét és a mobilház azonosítóit.\n\n4. Biztosítás: Ha a mobilházra biztosítást kötöttek, akkor a biztosítási kötvényen is szerepelnie kell a tulajdonos nevének és a mobilház adatainak.\n\n5. Közüzemi szerződések: Ha a mobilházhoz külön közüzemi szerződéseket (víz, áram, gáz stb.) kötöttek, akkor ezek a szerződések is utalhatnak a mobilház tulajdonosára.\n\nFontos megjegyezni, hogy a telek tulajdonjoga és a rajta lévő mobilház tulajdonjoga eltérhet. A földhivatali nyilvántartás a telek tulajdonosát tartja számon, de a mobilház külön ingóságnak minősülhet. Ilyen esetekben érdemes lehet a mobilház tulajdonjogát külön jelezni a hatóságok felé, és akár a telekre vonatkozó szerződésben is rögzíteni a mobilház tulajdonviszonyait a későbbi viták elkerülése érdekében."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mobilházat ha vesz valaki, mi alapján lesz a nevén?\nPl. egy telekre lerakva, ami a szülők nevén van, a mobilház mi alapján azonosítható be, hogy annak ki a tulajdonosa?\nNyilván van vételi szerződés, de a mobilházon van valami szám, vagy egyéb dolog, ami alapján az kimondható egyértelműen, hogy ki a tulajdonosa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -11962,6 +13060,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:61:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az energetikai besorolás a lakás energiahatékonyságát jelzi, a \"G\" besorolás azt jelenti, hogy az ingatlan energiafelhasználása magas, és jelentős energiamegtakarítási lehetőségek vannak.\n\nNéhány javaslat az energiahatékonyság javítására:\n\n1. Tető szigetelése: A tető hőszigetelése jelentősen csökkentheti a fűtési költségeket. Érdemes megfontolni a tető teljes szigetelését, ne csak a vízszigetelést.\n\n2. Álmennyezet szigetelése: Az álmennyezet szigetelése jó ötlet, segít megőrizni a meleg levegőt a lakásban.\n\n3. Fűtéskorszerűsítés: A régi, egycsapos radiátorok cseréje modern, termosztatikus szelepekkel ellátott radiátorokra javíthatja a fűtés hatékonyságát és szabályozhatóságát.\n\n4. Falak szigetelése: Ha lehetséges, érdemes megfontolni a falak belső oldali szigetelését, amely tovább csökkentheti a hőveszteséget.\n\n5. Energiatakarékos világítás: Az izzók cseréje LED-es világításra csökkenti a villamosenergia-fogyasztást.\n\n6. Okos termosztát: Egy programozható vagy okos termosztát segíthet optimalizálni a fűtési rendszer működését és csökkenteni a fogyasztást.\n\nBár ezek a felújítások költségesek lehetnek, hosszú távon megtérülnek az alacsonyabb energiaszámlák révén. Érdemes lehet energetikai szakértővel konzultálni, aki személyre szabott javaslatokat tehet a lakás energiahatékonyságának javítására."
+            }
+          },
+          "prompting_state": {
+            "prompt": "‘G’ energetikai besorolást kapott a vásárolni kívánt lakásom. Ez mit jelent és hogyan lehetne segíteni rajta?\nEz egy 4 emeletes legfelső lakás. Szigetelt épület, új, korszerű műanyag nyílászárókkal.\nA tető nincs csak víz ellen szigetelve elvileg.\nBeton épület, 44nm\nVasradiátorok vannak benne, simán egy tekerős csappal.\nMajd ha újítom fel álmennyezet van tervben, oda szeretnék szigetelést rakni.\nA fűtéssel mit lehet kezdeni? Érdemes valamit vagy csak én gondolom túl a dolgot?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -12156,6 +13272,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:62:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ennek több oka is lehet:\n\n1. Régi, elavult hangosbemondó rendszer: Elképzelhető, hogy Gyömrőn és Sülysápon régebbi, kevésbé megbízható hangosbemondó berendezéseket használnak, amelyek hajlamosabbak a megakadásra, hibás működésre.\n\n2. Rossz minőségű hangfelvételek: Ha a bemondott szövegek rossz minőségű, zajos vagy hibás felvételek, az okozhatja az akadozást a lejátszás során.\n\n3. Interferencia, elektromágneses zavarok: A közelben lévő elektromos berendezések, vezetékek, adótornyok interferenciát okozhatnak, ami befolyásolhatja a hangosbemondó rendszer működését.\n\n4. Karbantartás hiánya: Ha a hangosbemondó berendezéseket nem tartják karban rendszeresen, idővel romolhat a teljesítményük, gyakoribbá válhatnak a hibák.\n\n5. Időjárási körülmények: Szélsőséges időjárási viszonyok, például nagy hideg vagy hőség, esetleg páratartalom szintén hatással lehetnek az elektronikus rendszerek, így a hangosbemondók működésére is.\n\nValószínűleg a MÁV-nál jelenteni kellene a problémát, hogy kivizsgálják és orvosolják a hangosbemondók megakadásának okát ezeken az állomásokon. Más állomásokon vélhetően modernebb, jobban karbantartott rendszereket használnak, ezért nem jelentkezik ez a gond."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Gyömrőn és Sülysápon a vasútállomáson miért akadozik a hangosbemondó?\nFőleg Gyömrőn, szinte állandóan megakad, miközben bemondja az érkező vonatot. Miért akad? Más állomásokon nem szoktam ilyen megakadást hallani.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -12348,6 +13482,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:63:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Kedves Felvételiző!\n\nÖrülök, hogy az egri Szilágyi Erzsébet Gimnáziumot választottad, jó döntést hoztál. A szóbeli felvételin a következőkre érdemes odafigyelned:\n\n1. Légy magabiztos, de ne nagyképű. Mutasd meg, hogy felkészültél és motivált vagy, de maradj szerény és barátságos.\n\n2. Figyelj a megjelenésedre, öltözz az alkalomhoz illően. Az első benyomás sokat számít.\n\n3. A szóbeli témaköreit nézd át alaposan, ismételd át a tananyagot. Gondold át, mit szeretnél kiemelni, mik az erősségeid.\n\n4. Gyakorold a hangos beszédet, fogalmazd meg a gondolataidat érthetően. Egy-egy témáról próbálj meg 2-3 percet folyamatosan beszélni.\n\n5. A felvételin figyelj a kérdésekre, és próbálj lényegre törően, de részletesen válaszolni. Nyugodtan kérhetsz egy kis gondolkodási időt.\n\n6. Ha nem tudsz valamit, ne találgass, inkább mondj olyat, amiben biztos vagy. Mutasd meg, hogy tudsz logikusan gondolkodni, összefüggéseket meglátni.\n\n7. Hangsúlyozd, miért szeretnél ebbe a gimnáziumba járni, mi motivál. A humán/általános szak iránti érdeklődésedet is emeld ki.\n\n8. Légy tisztelettudó a felvételiztető tanárokkal, figyelj a non-verbális kommunikációdra is. Egy mosoly sokat segíthet.\n\n9. Az izgalom természetes, de próbálj meg lazítani, mélyeket lélegezni. Hidd el, hogy sikerülni fog!\n\n10. A felvételi után ne aggódj túl sokat, hiszen megtetted, amit tudtál. Ha mégsem sikerül, az sem a világ vége, más utakon is elérheted a céljaidat.\n\nKitartást, magabiztosságot és sok sikert kívánok a felvételihez! Hiszek benned, menni fog!\n\nÜdvözlettel,\nEgy volt Szilágyis diák"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mire figyeljünk az egri Szilágyi Erzsébet Gimiben a szóbeli felvételin?\nEgy hét múlva megyek felvételizni magyarból! Humán vagy általános szakra szeretnék bejutni! A sulit első helyen jelöltem. Sajnos a központim nem lett valami fényes, nagyon kellene egy jó szóbeli!\nHogyan zajlik a szóbeli?\nMire figyeljek?\nTippek, trükkök, taktikák? :)\nElőre is köszönöm!\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -12542,6 +13694,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:64:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ha már rendelkezel egy alapszakos (BA) diplomával és szeretnél jelentkezni egy másik alapszakra, például pszichológiára, a felvételi eljárás és a pontszámítás a következőképpen történik:\n\n1. Pontszámítás:\n   - Alapképzésre történő jelentkezés esetén az érettségi eredmények alapján számítják ki a felvételi pontszámot.\n   - A pontszámítás az érettségi tárgyak százalékos eredményein alapul, amelyeket a felvételi tájékoztatóban meghatározott módon számítanak át pontokká.\n   - A maximálisan elérhető pontszám 400 pont (200 pont a tanulmányi pontokból és 200 pont az érettségi pontokból).\n\n2. Többletpontok:\n   - Emelt szintű érettségi vizsga: Ha emelt szinten teljesítettél egy érettségi tárgyat, ami a jelentkezési szakon érettségi pontot adó tárgy, akkor 50 többletpontot kaphatsz. Így a történelem emelt szintű érettségidért 50 többletpont jár.\n   - Nyelvvizsga: B2 (középfokú) komplex nyelvvizsgáért 28 többletpont jár nyelvvizsgánként. Így a két B2-es nyelvvizsgádért összesen 56 többletpontot kaphatsz.\n   - A többletpontok összege legfeljebb 100 pont lehet.\n\nTehát a példádban szereplő emelt szintű történelem érettségi és a két B2-es nyelvvizsga összesen 100 többletpontot érne (50 + 28 + 28, de a maximum 100 pont).\n\nFontos megjegyezni, hogy a korábbi felsőoktatási tanulmányaid során szerzett krediteket, amennyiben relevánsak az új szakhoz, elismertethetik, így csökkenhet a teljesítendő kreditek száma és lerövidülhet a tanulmányi idő.\n\nA pontos információkért mindenképpen érdemes felkeresni a választott felsőoktatási intézmény tanulmányi osztályát vagy tájékozódni a hivatalos felvételi tájékoztatóból, mivel az egyes intézmények és szakok felvételi követelményei eltérőek lehetnek."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Diplomával egy másik alapszakra jelentkezés hogy történik? Többletpontot hogy számítanak?\nTegyük fel, hogy van egy informatikus diplomám(BA) és szeretnék jelentkezni pszichológiára.\nA pontszámítás hogy történik? A többletpontokat hogy számítják? Ez érdekelne a a legjobban.\nVan egy emelt történelem érettségim és 2 db B2-es nyelvvizsgám, az így mennyi pontot érne? Mármint többletpontban ugye.\nElőre is köszönöm a válaszokat!\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -12734,6 +13904,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:65:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A felsőoktatási felvételi eljárásban valóban lehetőség van az oklevél alapján történő pontszámításra, amennyiben a jelentkező már rendelkezik felsőfokú végzettséggel. Az oklevél alapján számított pontszám a következőképpen alakul:\n\n- 5-ös minősítésű oklevél esetén 400 pont\n- 4-es minősítésű oklevél esetén 370 pont\n- 3-as minősítésű oklevél esetén 340 pont\n\nAzonban fontos megjegyezni, hogy az oklevél alapján számított pontszám önmagában nem feltétlenül elegendő a felvételihez, ha a választott szak előző évi ponthatára magasabb volt. Ilyen esetben többletpontok szerzésével növelhető az összpontszám.\n\nTöbbletpontok szerezhetők például:\n- Emelt szintű érettségi vizsgáért (max. 100 pont)\n- Nyelvvizsgáért (max. 40 pont)\n- Esélyegyenlőség jogcímen (max. 40 pont)\n- Országos Középiskolai Tanulmányi Versenyen elért 1-10. helyezésért (100 pont)\n\nA nyelvvizsga után járó többletpontok a következők:\n- B2 (középfokú) komplex: 28 pont\n- C1 (felsőfokú) komplex: 40 pont\n\nTehát a meglévő nyelvvizsgád alapján tudsz többletpontokat szerezni.\n\nAzt, hogy mely szakokon fogadják el az oklevél alapú pontszámítást, a felsőoktatási intézmények határozzák meg. A legjobb, ha közvetlenül az adott intézménynél érdeklődsz a választott szakról, vagy megnézed a felvételi tájékoztatójukat, ahol részletes információkat találhatsz a pontszámításról és a felvételi követelményekről.\n\nÖsszességében tehát az okleveled alapján 400 pontod van, amihez hozzáadódnak a nyelvvizsga után járó többletpontok. Ha ez még mindig nem éri el a kívánt szak ponthatárát, érdemes lehet emelt szintű érettségit tenni a hiányzó pontok megszerzéséhez."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan működik egyetemi felvételinél pontszámítás felsőoktatási oklevél alapján?\nPróbáltam utánanézni, de egyszerűen nem tudok kiigazodni. Nekem van már egy ötös diplomám és szeretnék elkezdeni egy másik alapszakot. Az előző diploma ha jól értem 400 pontot ér. De ha a szakra, amire jelentkeznék a tavalyi ponthatár 435 volt, és többletpontom nincs (nyelvvizsgám van, de ennyi) akkor nincs esélyem bekerülni?\nAz érettségi pontjaim alapján nem lenne meg, ezért szeretném oklevél alapján számolni.\nIlletve hol találom meg, hogy mely szakokon fogadják el ezt a fajta pontszámítást? A szakleírásban nem találtam.\nKöszönöm, ha tudtok segíteni.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -12928,6 +14116,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:66:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az Aranycsapat sikerének és hosszú éveken át tartó dominanciájának több összetevője volt:\n\n1. Kiemelkedő egyéni képességek: Az Aranycsapat olyan klasszis játékosokból állt, mint Puskás Ferenc, Kocsis Sándor, Hidegkuti Nándor, Bozsik József, Czibor Zoltán. Egyénileg is világklasszisok voltak a maguk posztján.\n\n2. Újszerű taktika és játékstílus: Sebes Gusztáv szövetségi kapitány egy forradalmi taktikát vezetett be, az úgynevezett 4-2-4-es felállást. Ez a felfogás a támadófutballra, a kreativitásra, a gyors passzjátékra és pozíciócserékre épült. Ezzel az akkori futballban szokatlan stílussal lepték meg ellenfeleiket.\n\n3. Összeszokottság, csapategység: A játékosok remekül kiegészítették egymást, szinte vakon megértették társaikat a pályán. Klubszinten is együtt játszottak, főleg az MTK és a Honvéd csapatában, ami erősítette az összhangot.\n\n4. Sikerszéria, magabiztosság: Az egymás után jövő nagy győzelmek, mint az évtized mérkőzésének tartott 6:3 az angolok ellen, hatalmas önbizalmat adtak. Szinte verhetetlennek érezték magukat, ami tovább fokozta a teljesítményüket.\n\n5. A kor szelleme, motiváció: A csapat a háború utáni nehéz időkben az egész ország számára a sikert, a reményt, a nemzeti büszkeséget testesítette meg. Ez hatalmas hajtóerőt jelentett a játékosoknak.\n\nEzek a tényezők együttesen emelték az Aranycsapatot minden idők egyik legjobb válogatottjává, amely 1950 és 1956 között mindössze 1 vereséget szenvedett, éppen a világbajnoki döntőben 1954-ben."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Az aranycsapat mitől volt olyan sikeres és miért volt évekig egyértelműen a világ legjobb csapata?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -13120,6 +14326,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:67:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Magyarországon a nők 40 év jogosultsági idővel (szolgálati idővel) mehetnek nyugdíjba az öregségi nyugdíjkorhatár betöltése előtt, az életkoruktól függetlenül. Ezt nevezik \"Nők40\" programnak.\n\nTehát ha egy nő 60 éves, de megvan a 40 év jogosultsági ideje, akkor igénybe veheti ezt a korábbi nyugdíjba vonulási lehetőséget. \n\nA 40 év jogosultsági időbe beleszámít:\n- a keresőtevékenységgel járó biztosítási idő\n- a gyermekneveléssel összefüggő ellátások (GYED, GYES, GYET) folyósításának időtartama\n- és bizonyos egyéb időszakok (pl. felsőoktatási tanulmányok ideje 1998 előtt)\n\nFontos, hogy a 40 évbe csak a magyarországi jogosultsági idők számítanak bele.\n\nTehát összefoglalva, a nők igénybe vehetik a kedvezményes nyugdíjba vonulást 60 évesen vagy bármely életkorban, ha megszerezték a szükséges 40 év jogosultsági időt. Ez egy külön lehetőség a nők számára az általános öregségi nyugdíjkorhatár mellett."
+            }
+          },
+          "prompting_state": {
+            "prompt": "60 évesen a nők is elmehetnek előnyugdíjba?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -13314,6 +14538,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:68:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A hagyományok szerint a lencsét szilveszterkor éjfél után szokás fogyasztani, az új év első perceiben. Ennek szimbolikus jelentése van:\n\n- A lencse apró, kerek szemei a pénzérméket jelképezik, így a néphit szerint a lencsefogyasztás bőséget, jólétet és gazdagságot hoz az újévben.\n\n- Az éjfél utáni lencseevés egyfajta jókívánság is, hogy az új év szerencsés és sikeres legyen.\n\n- Praktikus oka is van: a szilveszteri mulatság és visszaszámlálás után jólesik egy tartalmas, meleg étel az ünneplőknek.\n\nTermészetesen ez csak egy népszokás, nem kötelező éjfél után lencsét enni. Sokan az egész szilveszteri vacsora vagy büféasztal részeként, éjfél előtt is fogyasztanak lencsét. A lényeg a közös ünneplés, és a jókívánságok az új évre, aminek a lencse csak egy jelképe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mikor szokás a lencsét enni szilveszterkor, éjfél előtt vagy után?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -13506,6 +14748,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:69:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A magyar népi hagyomány szerint azzal a lánnyal vagy nővel, akit húsvét hétfőn nem locsolnak meg, az a baj történik, hogy \"elviszik a húsvéti nyulak\" vagy \"bekrepálnak a tyúkjai\". Ezek a mondások arra utalnak tréfásan, hogy szerencsétlenség éri, nem lesz szerencséje az évben annak, aki kimarad a locsolkodásból. Régen úgy tartották, a víz megtisztító, termékenységvarázsló erejéből csak az részesülhet, akit meglocsolnak. Természetesen ezek csak játékos népi bölcsességek, babonák, de jól mutatják a locsolkodás fontosságát a magyar húsvéti népszokások között."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A hagyomány szerint mi történik azzal, akit nem locsolnak meg?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -13700,6 +14960,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:70:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az autókra vonatkozó főbb adók és díjak Magyarországon a következők:\n\n1. Regisztrációs adó: Új autó vásárlásakor vagy külföldről behozott használt autó forgalomba helyezésekor kell fizetni. Az adó mértéke az autó motorteljesítményétől, környezetvédelmi besorolásától és életkorától függ.\n\n2. Gépjárműadó: A gépjármű tulajdonosának évente kell fizetnie. Az adó alapja a gépjármű teljesítménye (kW-ban) és gyártási éve. Az adó mértékét a helyi önkormányzatok határozzák meg, de törvényi korlátok között.\n\n3. Casco biztosítás: Nem kötelező, de gyakran kötik a tulajdonosok az autó védelmére. Fedezi a saját hibából bekövetkezett károkat is.\n\n4. Kötelező gépjármű-felelősségbiztosítás (kgfb): Minden üzemben tartónak kötelező megkötnie. A díjak a gépjármű típusától, a tulajdonos életkorától és kártörténetétől függnek.\n\n5. Útdíj (e-matrica): Az autópályák és egyes főutak használatáért fizetendő díj. Érvényessége időtartamtól (10 nap, 1 hónap, 1 év) és a gépjármű kategóriájától függ.\n\nEzeken felül felmerülhetnek még egyéb költségek, mint például a parkolási díjak vagy a műszaki vizsga díja."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Milyen adók vannak az autókra?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -13892,6 +15170,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:71:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Köztársasági elnök hivatalos rezidenciája a budapesti Sándor-palota, de emellett valóban rendelkezésére áll egy rezidencia a Sváb-hegyen is.\n\nA Sándor-palota az elnök hivatalos rezidenciája és munkahelye, ahol az államfői feladatait látja el. Itt fogadja a külföldi delegációkat, itt kerül sor a hivatalos eseményekre, ünnepségekre. \n\nA Sváb-hegyi rezidencia elsősorban pihenő és vendégház funkciót tölt be, ide vonulhat vissza az elnök pihenni, feltöltődni. Alkalmanként itt is fogad vendégeket nem hivatalos keretek között.\n\nTehát a Köztársasági elnök állandó jelleggel a Sándor-palotában tartózkodik és dolgozik, a Sváb-hegyi rezidenciát csak alkalmanként, pihenés céljából használja.\n\nA két rezidencia fenntartásának az az oka, hogy legyen egy reprezentatív, hivatalos helyszín az államfői feladatok ellátására (Sándor-palota), ugyanakkor az elnöknek lehetősége legyen elvonulni, kikapcsolódni egy nyugodtabb környezetben (Sváb-hegy). Ez a gyakorlat más országokban is megfigyelhető, hogy az államfőnek több rezidenciája van különböző funkciókkal."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Köztársasági elnök mindig a Sándor-palotában tartózkodik? Úgy tudom, hogy a Sváb-hegyen is van egy Köztársasági elnöki rezidencia. Melyik helyen tartózkodik állandó jelleggel? Illetve minek van szükség kettő rezidenciára?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
@@ -14086,6 +15382,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:72:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A nemzeti és az állami ünnepek között az alábbi főbb különbségek vannak:\n\n1. Jogi státusz: Az állami ünnepeket törvény rögzíti, munkaszüneti napok. A nemzeti ünnepek lehetnek munkaszüneti napok, de ez nem kötelező, inkább a nemzet számára fontos, szimbolikus jelentőségű napok.\n\n2. Hivatalos jelleg: Az állami ünnepekhez hivatalos állami rendezvények, protokoll kötődik. A nemzeti ünnepek megünneplése kevésbé hivatalos, inkább a civil szféra, helyi közösségek szervezik. \n\n3. Eredet: Az állami ünnepek általában az államalapításhoz, alkotmányhoz, politikai rendszerhez kötődnek. A nemzeti ünnepek a nemzet identitásához, történelmi eseményeihez, hagyományaihoz kapcsolódnak.\n\n4. Példák Magyarországon:\n- Állami ünnepek: augusztus 20. (államalapítás), október 23. (1956-os forradalom)  \n- Nemzeti ünnepek: március 15. (1848-as forradalom), június 4. (nemzeti összetartozás napja)\n\nTehát az állami ünnepek hivatalosabbak, közvetlenül az államhoz kötődnek, míg a nemzeti ünnepek a nemzet önazonosságát fejezik ki, megünneplésük közösségi jellegű. A két kategória között lehet átfedés."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi a különbség a nemzeti és az állami ünnep között?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -14279,6 +15593,24 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hungarian:73:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A földes utak jogi besorolása attól függ, hogy magán- vagy közterületen helyezkednek el.\n\nA közterületen lévő földes utak (pl. önkormányzati tulajdonban lévő földutak) közterületnek minősülnek. Ezek fenntartása, kezelése az önkormányzat vagy az állam feladata.\n\nA magánterületen található földes utak viszont nem közterületek, hanem az adott ingatlan részei. Ezek fenntartása a tulajdonos felelőssége.\n\nTehát összefoglalva, a földes utak közterületi státusza az elhelyezkedésüktől és tulajdonviszonyaiktól függ. A közterületen lévők közterületnek számítanak, a magánterületen lévők viszont nem."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A földes utak jogilag közterületnek minősülnek?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
         }
       ]
     },
@@ -14471,6 +15803,24 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "hungarian:74:language.hungarian:claude opus",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Kardinális, a Rákóczi túrós és a Női szeszély mind sütemények, de különböznek az összetevőikben és az elkészítési módjukban.\n\nA főbb különbségek:\n\n1. Kardinális sütemény:\n- Piskótatészta alapú, dióval és lekvárral töltött\n- A tetejét csokoládéöntettel vonják be\n- Szeletelve tálalják\n\n2. Rákóczi túrós:\n- Omlós linzertészta alapú sütemény\n- Túrókrémmel töltik meg\n- A tetejét porcukorral hintik meg\n- Kockákra vagy rombusz alakúra vágva szervírozzák\n\n3. Női szeszély:\n- Vajas tészta alapú, leveles jellegű sütemény\n- Pudingos, vaníliás krémmel töltik\n- A tetejét porcukorral szórják meg\n- Általában kockákra vágva kínálják\n\nTehát a fő különbségek az alapanyagokban, a töltelékben és a díszítésben rejlenek, de mindhárom sütemény közkedvelt a magyar cukrászatban."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi a különbség a Kardinális, Rákóczi túrós és a Női szeszély között?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
           }
         }
       ]
