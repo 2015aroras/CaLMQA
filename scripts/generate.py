@@ -7,11 +7,10 @@ import random
 import re
 from pathlib import Path
 
-from models.model import Model, ModelName
-from tqdm import tqdm
-
 from mlfqa.dataset import Answer, Dataset, Question, QuestionType
 from mlfqa.language import Language
+from models.model import Model, ModelName
+from tqdm import tqdm
 
 RAG_RNG_SEED = 1
 
