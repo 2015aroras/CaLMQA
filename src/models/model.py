@@ -18,6 +18,7 @@ class ModelName(enum.Enum):
     GPT_4 = "GPT 4"
     AYA_101 = "AYA 13B"
     GEMMA_7B = "Gemma 7B"
+    LLAMA_3_70B_TOGETHER = "Llama 3 70B (together.ai)"
     MIXTRAL_8X7B = "Mixtral 8x7B"
     MIXTRAL_8X22B_API = "Mixtral 8x22B (API)"
     MIXTRAL_8X22B_TOGETHER = "Mixtral 8x22B (together.ai)"

@@ -30,7 +30,8 @@ class OpenAIPromptParameters(PromptingState):
 
 
 class OpenAIModel(Model):
-    SUPPORTED_MODELS = (ModelName.GPT_4, ModelName.MIXTRAL_8X22B_TOGETHER)
+    TOGETHER_AI_MODELS = (ModelName.LLAMA_3_70B_TOGETHER, ModelName.MIXTRAL_8X22B_TOGETHER)
+    SUPPORTED_MODELS = (ModelName.GPT_4, *TOGETHER_AI_MODELS)
     DEFAULT_PARAMETERS = OpenAIPromptParameters(
         prompt=None,
         model_name=ModelName.GPT_4,
@@ -83,7 +84,7 @@ class OpenAIModel(Model):
     def _api_key(self) -> str | None:
         if self.name == ModelName.GPT_4:
             return os.environ.get("OPENAI_API_KEY")
-        if self.name == ModelName.MIXTRAL_8X22B_TOGETHER:
+        if self.name in OpenAIModel.TOGETHER_AI_MODELS:
             return os.environ.get("TOGETHER_API_KEY")
         raise NotImplementedError
 
@@ -91,7 +92,7 @@ class OpenAIModel(Model):
     def _base_url(self) -> str | None:
         if self.name == ModelName.GPT_4:
             return None
-        if self.name == ModelName.MIXTRAL_8X22B_TOGETHER:
+        if self.name in OpenAIModel.TOGETHER_AI_MODELS:
             return "https://api.together.xyz/v1"
         raise NotImplementedError
 
@@ -99,6 +100,8 @@ class OpenAIModel(Model):
     def model_version(self) -> str:
         if self.name == ModelName.GPT_4:
             return "gpt-4-0125-preview"
+        if self.name == ModelName.LLAMA_3_70B_TOGETHER:
+            return "meta-llama/Llama-3-70b-chat-hf"
         if self.name == ModelName.MIXTRAL_8X22B_TOGETHER:
             return "mistralai/Mixtral-8x22B-Instruct-v0.1"
         raise NotImplementedError
