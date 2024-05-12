@@ -50,27 +50,6 @@
           }
         },
         {
-          "name": "hungarian:0:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Az adott korú fiúnak már önálló vállalkozásokat kell végeznie, hogy pénzt keressen, például kerti munkát, különböző külső munkákat, stb. A locsolásért fizetett pénz függhet a helyi szokásoktól, de általában 500-1000 forint vagy ennél is kevesebb lehet. Természetesen, ha a testvéred kisfia valóban keményen dolgozik, érdemesebb lehet többet fizetni."
-            }
-          },
-          "prompting_state": {
-            "prompt": "15-16 éves srácnak szokás még pénzt adni a locsolásért? Ha igen, mennyit? Testvér kisfia.\nA legátmenetibb korosztály. Aki korban még gyereknek tűnik, de bulizik, barátnője van, bulikban iszogat...tehát kamasz fiatalemberként él.\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:0:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -181,27 +160,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:1:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A fékezés során a fékpofák és a kerekek közötti súrlódás miatt a fékanyag (amely gyakran fémes alapanyagokból és szerves kötőanyagokból áll) apró részecskéire porlik és elég. Ezt a folyamatot nevezzük fékpor-kibocsátásnak. A fékpor-kibocsátás azonban nemcsak az utasterekben, hanem a környezetben is jelentős problémát jelenthet.\n\nA MÁV IC kocsik utasterében érzékelhető égett fékpor szaga és íze a fékpor-kibocsátásból származhat, amelyet a légkondicionáló rendszer szívhat be és terjeszthet el az utasterekben. Ezért az ilyen kocsikban a légkondicionáló rendszer szűrői gyakrabban cserélendők, és a fékpofák karbantartása is fontosabb lehet, mint más járműveknél.\n\nAz égett fékpor fogyasztása nem egészséges, mert a fékporban található anyagok, például a fémrészecskék és a szerves kötőanyagok, károsak lehetnek a tüdőre és az egészségre. A MÁV ezen probléma elleni teendői közé tartozhat a fékrendszer folyamatos karbantartása és a légkondicionáló rendszer szűrőinek gyakori cseréje."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Miért keletkezik a MÁV IC kocsik utasterében minden fékezésnél elviselhetetlen égett fékporszag?\nAnnyira durva már, hogy konkrétan köhögni kezdenek az emberek egy-egy fékezésnél. Ez mennyire egészséges dolog? Miért nem tesz valamit a MÁV ez ellen?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -318,27 +276,6 @@
           }
         },
         {
-          "name": "hungarian:2:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Tekintettel arra, hogy én egy természetes nyelvfeldolgozást végző modell vagyok, nem tudok valós időben keresni különböző statisztikákat vagy eseményeket a való életben, és a BKV belső működésével kapcsolatos információkkal sem rendelkezem. Azonban megkísérelhetem válaszolni a kérdésedre, amennyire lehetséges.\n\nAz elmúlt 20 évben a BKV járműveinél történt tűzesetek száma valóban magasnak tűnhet. A tűzesetek oka általában a járművek főbb műszaki problémáira vezethető vissza, mint például a motor hibája, túlmelegedés, elektromos meghibásodások, stb. Ezenkívül az üzemanyagok és a más tüzelőanyagok jelenléte is tűzveszélyessé teheti a buszokat.\n\nAmennyire tudom, más országok fővárosaiban a tűzesetek aránya általában alacsonyabb a BKV-énál. Ez lehet annak a következménye, hogy a BKV járművei idősebbek, rosszabbul karbantartottak, illetve a magyar viszonyokhoz képest más helyeken jobb a szabályozás és a biztonsági előírások betartása.\n\nFontos megemlíteni, hogy a tűzesetek száma nem mindig egyenletesen oszlik el az időben. Lehetnek időszakok, amikor több tűzeset történik, mint más időszakokban. Ez lehet a véletlennek vagy bizonyos körülményeknek köszönhető, például a járművek állapotának romlása, a karbantartási gyakorlat változása, vagy akár a hőmérséklet növekedése.\n\nAmennyire tudom, nem ismert egyetlen oka a BKV járműveinek tűzeseteinek, és valószínűleg több tényező is közrejátszik bennük. A biztonsági előírások betartása és a járművek rendszeres karbantartása segíthet csökkenteni a tűzesetek számát."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Mennyi BKV-busz égett már le az elmúlt 20 évben?\nAz utóbbi pár évben/évtizedben mi ez a rengeteg tűzeset meg kigyulladó busz a BKV-nál?\nVolt egy időszak kb. 20 éve, amikor az Ikarus 412-esek égtek ki sorra azzal kezdődött, aztán volt pár 415/435-ös, aztán pár évig viszonylag nem volt, csak 1-2 kisebb, aztán (már a bilikék korszakban, kb ) pár Mercedes Citaro is égett, de teljesen, kb 7-8 éve, majd néhány behozott szóló Volvo 7000, asszem néhány éve volt egy Karsan kisbusz is, az utóbbi 2-3 évben meg a csuklós Volvo 7700A-k lángolnak, ez a ma hajnali már legalább a 4. ilyen.\nValaki tudja, hogy miért van/volt ez a rengeteg kigyulladó busz a BKV-nál? Melyikkel mi volt a gond? Illetve mennyi ilyen komolyabb/látványosabb égés volt már az elmúlt 2 évtizedben? Szerintem legalább 30\nMás országok fővárosaiban is ilyen magas az arány?\n\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:2:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -449,27 +386,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:3:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A szomszédoknak joguk van feljelenteni, ha úgy érzik, hogy a szomszédaik által tartott állatok miatt kellemetlenséget szenvednek, de ez nem feltétlenül jelenti azt, hogy a feljelentés jogos és alapzatos.\n\nA vidéki nagyvárosban, ahol laktok, lehetséges, hogy léteznek helyi szabályozások az állattartásra vonatkozóan. Ezeket az előírásokat meg kell nézni, hogy biztosan betartjátok őket.\n\nHa az állatokat normális körülmények között tartjátok, és figyelmet fordítottok a takarmányozás, szállás, ápolás szabályainak betartására, akkor valószínűleg nincs semmi jogellenes a tevékenységtekben.\n\nEmellett figyelembe kell venni, hogy a haszonállatok természetes módon szagot bocsátanak ki, és ez a szomszédoknak elviselhetőnek kell lennie. Ha a szomszédoknak ez a problémája van, akkor lehetőség van párbeszédre, hogy megpróbáljátok megoldani a problémát. Például a trágya helyét áthelyezhetitek.\n\nHa a szomszédok mégis feljelentenek, akkor a hatóságoknak meg kell vizsgálniuk a feljelentést, és eldönteniük kell, hogy a feljelentés jogos és alapzatos-e. Ha a hatóságok úgy találják, hogy a tevékenységnek nincs jogellenes eleme, akkor a feljelentés elutasításra kerül.\n\nHa azonban a hatóságok úgy döntenek, hogy a tevékenység jogellenes, akkor a szankciók függhetnek a helyi szabályozástól és a hatóságok döntésétől. Ez lehet kezelési díj, pénzbüntetés vagy más szankció.\n\nHa tudni szeretnéd, hogy van-e valami jogellenes a tevékenységben, akkor ajánlott egy jogi szakértőt megkérdezni, aki segíthet megérteni a helyi szabályozást és a lehetséges következményeket."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A szomszédunk ma közölte, hogy fel akar jelenteni minket, mert zavarja a haszonállataink szaga. Megteheti- e ezt, és ha igen, milyen következménye lesz?\nEgy vidéki nagyvárosban élünk, de olyan külvárosi részen, ahol az állattartás már megengedett. Tyúkokat és egy malacot tartunk, teljesen normális körülmények között. Ez a család két éve költözött a mellettünk lévő házba, idáig semmiféle ilyen jellegű panaszuk nem volt, erre ma közölték, hogy fel fognak jelenteni minket a rendőrségen, mert idén nyáron már nem hajlandóak elviselni az állataink szagát és szerintük szabálytalanok vagyunk, mert a telkünkön belül a trágya helye az ő házuk felőli oldalon van. Tényleg tehetnek feljelentést? Ha igen, kinek van igaza? Nekik, vagy nekünk? Mi úgy gondoljuk nincs semmi szabálytalan abban ahogy az állatokat tartjuk, de nem tudjuk, kihez fordulhatnánk segítségért. Ha mégis igazuk van, mi lesz a büntetésünk?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -586,27 +502,6 @@
           }
         },
         {
-          "name": "hungarian:4:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Jelenleg még nem tudható, hogy a jövőben Szilveszterkor milyen korlátozások lesznek érvényben a tűzijátékokkal kapcsolatban. A pontos szabályok a jövőben változhatnak, ezért érdemes időnként ellenőrizni a legfrissebb információkat a hivatalos forrásokban. Azonban általánosságban elmondható, hogy a tűzijátékozás korlátozott időtartamon belül engedélyezett, de a pontos időpontok és feltételek országonként és helyenként eltérőek lehetnek.\n\nEzért azt javaslom, hogy a legfrissebb információkért forduljon a helyi hatóságokhoz vagy érdeklődjön a helyi médiában."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Szilveszterkor ugyanúgy 18-6 között lehet majd tűzijátékozni?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:4:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -717,27 +612,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:5:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Magyarországon a Cseh nemzetiség elismert és védett kisebbségnek számít. A magyarországi nemzetiségek elismeréséről és jogairól az Alaptörvény és a nemzeti és etnikai kisebbségekről szóló 2011. évi CLXXIX. törvény rendelkezik. A Cseh nemzetiség Magyarországon hivatalosan elismert kisebbség, és jogosult a kisebbségi önkormányzatok létrehozására és a kisebbségi oktatásra. A kérdésben tapasztalt esetleges félreértés oka lehet, hogy a Cseh nemzetiség nem tartozik a legnagyobb számban képviselt kisebbségek közé Magyarországon, és ezért kevésbé ismert."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A Csehek miért nem elismert nemzetiség Magyarországon?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -854,27 +728,6 @@
           }
         },
         {
-          "name": "hungarian:6:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Nem vagyok jogász, vagy adótanácsadó, de megpróbálom segíteni a kérdésedre.\n\nA családi adókedvezmény (CSOK) Magyarországon olyan adókedvezmény, amelyet azok a szülők kaphatnak, akiknek van gyermekük, és legalább egy éve van munkaviszonyuk. A családi adókedvezményt általában havonta, a fizetésük után juttatják a munkavállalóknak.\n\nAmennyiben nem volt 1 éve munkaviszonyod, akkor a családi adókedvezmény nem jár minden hónapban. A családi adókedvezményt általában csak azok kaphatják meg, akiknek legalább 1 éve van munkaviszonyuk.\n\nAmennyiben a könyvelő 12 hónappal számolt, annak ellenére, hogy csak 8 hónap munkaviszonyod volt, akkor ez hibás számításnak tekinthető. A családi adókedvezményt csak azok a hónapokra kell kiszámítani, amikor a munkaviszonyod volt.\n\nHa úgy tűnik, hogy a könyvelő hibázott, akkor érdemes visszatérni hozzá, és megvitatni a helyzetet. Lehet, hogy a hibát még időben korrigálni lehet, és a helyes összeget kaphatod meg."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A családi adókedvezmény akkor is jár minden hónapban,ha nem volt 1 év munkaviszonyom?\nTehát januártól augusztusig volt munkám és erre az időre egy összegben kértem az adóvisszatérítést,de a könyvelő 12 hónappal számolt,annak ellenére,hogy csak 8 hónap munkaviszonyom volt és a munkaügyiben sem voltam regisztrálva a maradék 4 hónapra. Ez most hogy van akkor?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:6:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -985,27 +838,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:7:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A 25 év alatti szja mentesség azt jelenti, hogy a 25 éven aluli dolgozók nem kell, hogy szja adót fizessenek, illetve a munkaadójuk sem tartozik szja adó befizetésére ezen dolgozók esetében. Ez azt jelenti, hogy ha 100.000 Ft a nettó fizetésed, akkor nem kell további 15.000 Ft szja adót befizetned, így a nettó fizetésed 100.000 Ft marad. Azonban a munkaadódnak nem kell ezt a 15%-ot befizetnie, így a bruttó fizetésed ennek megfelelően alacsonyabb lesz, mint egy nem mentességben részesülő dolgozó esetében. Ezért a bruttó fizetésed 15%-kal kevesebb lesz, mint ami nettó fizetésed."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Hogyan működik a 25 év alatti szja mentesség?\nNagyon nem értem ezt az egészet mert senki nem magyarázta még el nekem hogy hogyan is működik a szja mentesség. Eddig úgy hittem, hogy azt a 15%-ot amit fizetnem kellene szja adóra azt nem kell befizetnem, így megmarad a nettó fizetésembe. Szóval most ha 100.000 ft a nettóm akkor ugye 15.000 ft a szja adó ezen felül. Ezt a 15.000ft én vissza kapom ( így a nettó fizu az 115.000ft lesz) vagy ezt mivel a cégnek nem kell visszafizetnie így a bruttóm lesz csak kevesebb( így a nettó fizu az marad 100.000ft és a bruttó 15% kevesebb) ?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -1122,27 +954,6 @@
           }
         },
         {
-          "name": "hungarian:8:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Az előrehozott érettségi azt jelenti, hogy a tanulók még a 12. évfolyamban, tehát a végzős évük előtt letehetik az érettségi vizsgát. Ez lehetőséget ad a tanulóknak arra, hogy korábban fejezzék be a középiskolát és korábban kezdjenek el egyetemi vagy főiskolai tanulmányaikat.\n\nMátéból is lehet ilyen előrehozott érettségit tenni, ha a tanulók teljesítenek bizonyos feltételeket. Ezek általában az iskolai teljesítményükön és a tanári bizottság véleményén múlnak. Az előrehozott érettségi lehetősége azonban változhat az iskolától és az országtól függően, ezért javasolt minden esetben tájékozódni az adott iskolában vagy a helyi oktatási hatóságoknál."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Mi az az előrehozott érettségi?És mondjuk matekból lehet ilyet tenni?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:8:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -1253,27 +1064,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:9:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A magyarországi felsőoktatási intézmények saját szabályzatokkal rendelkeznek a felvételire érkező jelentkezők pontszámának kalkulálásához. Egyes intézmények, például az ELTE vagy az SZTE, hátrányos helyzetű jelentkezők számára biztosítanak többletpontot a családi pótlékra vonatkozóan.\n\nA hátrányos helyzetű státusz meghatározása intézményenként változó lehet, általában azonban a család jövedelmi és vagyoni helyzetére, valamint a család tagjainak egészségügyi állapotára, illetve a családi háttérre vonatkozó tényezőkre alapul.\n\nA pontos feltételek és a hátrányos helyzetű státusz meghatározásának módja az adott intézmény felvételi szabályzatában található meg."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Ha jelentkezek egy felsőoktatási intézménybe, akkor a családi pótlékra vonatkozik a \"hátrányos helyzetű\" többletpont?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -1390,27 +1180,6 @@
           }
         },
         {
-          "name": "hungarian:10:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A töltött tojás és a kaszinótojás egyaránt tojásból készül, de a két ételnek más-más a receptje és íze.\n\nA töltött tojás egy olyan étel, ami a főtt tojásfehérjéből és a tojássárgájából készül. A tojássárgáját elkülönítik a tojásfehérjétől, majd a sárgáját egy keverékkel keverik össze, ami lehet majonéz, tejföl, mustár, vagy más összetevők keveréke. A keveréket visszatöltik a tojásfehérjébe, és így kész a töltött tojás. A töltött tojást általában előételként, vagy különböző piknikeken fogyasztják.\n\nA kaszinótojás egy olyan étel, ami a főtt tojásfehérjéből, a tojássárgájából, és egy speciális mártásból készül. A kaszinótojás receptje változó lehet, de általában a tojássárgáját elkülönítik a tojásfehérjétől, majd a sárgáját egy speciális mártással keverik össze, ami általában tejfölből, mustárból, és egyéb összetevőkből készül. A keveréket visszatöltik a tojásfehérjébe, és a tetejére sütött zsemlemorzsát szórnak. A kaszinótojást általában főételként, vagy meleg előételekként fogyasztják."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Mi a különbség a töltött tojás és a kaszinótojás között?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:10:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -1521,27 +1290,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:11:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Bocsánatot kérek, hogy nem tudtam segíteni magyar nyelven, de megpróbálom lefordítani a kérdést és választ angolra, hogy segíthessek Önnek:\n\nHogyan lehet kérni vezetői engedély cseréjét a 102-es kód miatt?\nA 2. csoportú orvosi alkalmassági jegyem épp lett kiállítva, és a munkám miatt szükségem van az 102-es kód bejegyzésére a jogosítványomba, most azonban 101-es van bejegyezve. Az ügyfélkapun nem találtam információt erről, a kormányablakban pedig elküldtek mivel nem tudtam kérni. Mondtak valamit arról, hogy lehet, amit akarok, de nem mondták el, hogy hogyan.\n\nA válasz:\nSajnos, én csak angolul és magyarul beszélek, de megpróbálok segíteni. A 102-es kód a magyar vezetői engedélyen azt jelenti, hogy a személy csak autóbuszt vagy teherautót vezethet, míg a 101-es kód azt jelenti, hogy csak személygépkocsit. Ha Önnek szüksége van az 102-es kódra a munkája miatt, akkor át kell mennie egy új orvosi vizsgálaton és egy új vezetői vizsgán, és ezután be kell kérnie az új jogosítványt a kormányhivatalban. Önnek ajánlott lehet egy szakemberrel konzultálnia, például egy jogász vagy egy vezetést tanító személy, hogy segítsen neki ebben a folyamatban."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Hogyan lehet kérni vezetői engedély cseréjét a 102-es kód miatt?\nMost lett meg a 2. Csoportu orvosi alkalmasságim és munka miatt kellene jogosítványba bejegyzett 102-es kód, most 101-es van. Ügyfélkapun nem találtam ilyen információt, a kormányablakban pedig szépen szólva el lettem küldve melegebb éghajlatra mert miért nem tudom ezt. Annyit elárultak, hogy lehet azt amit akarok, de azt már nem mondták el, hogy hogyan.\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -1658,27 +1406,6 @@
           }
         },
         {
-          "name": "hungarian:12:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Igen, lehetőség van fagyasztott vagy kimért sprotni vásárlására különböző boltokban, mint például a Lidl vagy a Tesco. Érdemes azonban megjegyezni, hogy az elérhető termékek és áruk akár helyről helyre is változhatnak.\n\nA legjobb megoldás, ha a Lidl vagy Tesco hivatalos weboldalán keresgélsz a termékek között, vagy éppen az aktuális ajánlatokat nézegeted, hogy pontosan tudjuk, melyik boltban van jelenleg rendelkezésre fagyasztott vagy kimért sprotni.\n\nFontos emellett megemlítenem, hogy az interneten és a speciális élelmiszerboltokban is találsz alternatívákat a sprotni vásárláshoz."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Lehet még valahol kimért vagy fagyasztott sprotnit kapni?\nugy értem hogy esetleg lidl vagy tescoban van?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:12:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -1789,27 +1516,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:13:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Köszönöm a részletes kérdést és a kéréseket. A visszaköltözés okairól nem találok pontos statisztikát, de megosztok néhány lehetséges okot és megjegyzést, amelyeket különböző forrásokból gyűjtöttem össze.\n\n1. Munkát találtak Magyarországon: A gazdaság javulása és a munkanélküliség csökkenése miatt egyre több munkalehetőség áll rendelkezésre Magyarországon. Visszaköltözők közül sokan munkát találtak otthon, ami fontos tényező lehet a döntésben.\n\n2. Nagyobb biztonság: Külföldi tartózkodás során sok ember érzi, hogy nincs elég biztonsága és stabilitása. Hazatérve, Magyarországon újra megtalálhatják azt a biztonságot és stabilitást, amire szükségük van.\n\n3. Család: A családi kötelékek gyakran fontos szerepet játszanak a döntésben. Hazaköltözők közül sokaknak hiányoznak a családtagjaik és a barátaik, és ez egy fontos indok lehet a visszatérésre.\n\n4. Kulturális különbségek: Nem mindenki tud alkalmazkodni a másik ország kultúrájához és szokásaihoz. A kulturális különbségek miatt sok ember úgy dönt, hogy visszatér Magyarországra, ahol ismerik és értik a környezetet.\n\n5. Anyagi okok: A külföldi tartózkodás költségei magasabbak lehetnek, mint azt gondolták, és ez sok ember számára problémát okoz. A hazatérés a költségek csökkentését is jelentheti.\n\n6. Életminőség: Egyes külföldiek számára a magyarországi életminőség magasabb, mint amit külföldön tapasztaltak. A magyarországi lakhatás, élelmiszer és egészségügyi ellátás olcsóbb lehet, mint külföldön.\n\nNéhány érdekes cikk, amelyekben a visszaköltözők beszámolnak az okairól:\n\n- [link]\n- [link]\n- [link]"
-            }
-          },
-          "prompting_state": {
-            "prompt": "Miért költöznek haza a kivándorolt magyarok?\nBeszélgettünk baráti és családi körben is arról, hányan terveznek kiköltözni, hány olyan ismerős van, aki végül kiköltözött, és levegőbe beszélés helyett kíváncsiságból olvastunk is statisztikákat. Összességében az elmúlt pár évben több kivándorolt magyar költözik haza, mint ahány magyar külföldre költözik.\nTaláltunk cikkeket arról is, hogy aki kiköltözik, mivel indokolja, mik az okai erre, viszont arról nem találtunk statisztikát, cikket, adatot, felmérést, hogy a visszatérők miért költöztek vissza.\nÍgy kérdésem egyrészt azokhoz szól, ha vannak itt olyanok, akik külföldről költöztek vissza Magyarországra, vagy ismernek ilyen embereket: miért költöztek ki és miért jöttek haza? Mennyi idő után?\nA kérdésem másik fele pedig inkább egy kérés: tudnátok-e néhány erre vonatkozó felmérés eredményeit linkelni?\nLáttam 1-2 ilyesmi kérdést is itt gyakorin, de értelmes válaszokat nem igazán találtam benne. Ezért kérlek, amennyire lehet, politikamentes, és spekulációktól mentes válaszokat írjatok! Vagy saját/ismerős tapasztalatát, vagy hivatalos adatokkal alátámasztott válaszokat (Tehát a \"rájöttek hogy nincs kolbászból a kerítés\" típusú válaszokkal, légyszi, kíméljétek a válaszszekciót!)\nTöbbek közt ezeket a statisztikákat futottunk át (a teljesség igénye nélkül):\n[link]\n[link]\n[link]\n[link]\n\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -1926,27 +1632,6 @@
           }
         },
         {
-          "name": "hungarian:14:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A Brexit bekövetkezése után átmeneti időszakot hoztak létre, amely 2020. december 31-ig tart. Ezen időszak alatt a személyi igazolvány továbbra is érvényes marad az Egyesült Királyságba való belépéshez. Azonban ez alatt az idő alatt érdemes útlevelet szerezni, ha lejárt a korábbi, mert 2021. január 1-től csak útlevelet fogadnak el az Egyesült Királyságban.\n\nA Brexit utáni utazási szabályokkal kapcsolatban a brit kormány honlapján található összefoglaló: https://www.gov.uk/guidance/visiting-the-uk-after-brexit\n\nMagyarországon a hatóságok honlapján is találhatók információk a témában: https://www.kormany.hu/hu/hirek/brexit-utazasi-informaciok\n\nAjánlom, hogy forduljon a magyar hatóságokhoz, ha további kérdései vannak, vagy szükség van további tisztázásra."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Most akkor a Brexit után érvényes vagy sem a személyim ha haza akarok utazni?\nHa jól tudom, Október 31.-e után megtörtént a Brexit, és elvileg már nem jó a személyi, ha repülővel haza akarok utazni.\nSajnos az útlevelem lejárt, vagy az útlevelem se lenne alkalmas ha nem járt volna le?\nNem tudom, hol tájékozódjak a témában, akár idevonatkozó cikket is linkelhettek.\nKöszi előre is a válaszokat.\n\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:14:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -2057,27 +1742,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:15:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Nem, ez a következtetés nem feltétlenül helytálló. A nemzeti konzultációs kérdőívet kitöltők száma nem feltétlenül egyenlő a Fidesz-KDNP biztos szavazóinak számával. Azon emberek, akik kitöltik a nemzeti konzultációs kérdőívet, lehetnek egyéb pártok szavazói is, vagy akár pártonkívüliek. Emellett az is lehet, hogy nem minden Fidesz-KDNP szavazó tölti ki a nemzeti konzultációs kérdőívet.\n\nA Fidesz-KDNP biztos szavazóinak számát tehát nem lehet pontosan meghatározni a nemzeti konzultációs kérdőívek alapján. A következtetéshez más módszerekkel, például közvélemény-kutatásokkal, szavazói adatokkal kellene alátámasztani."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A nemzeti konzultációs kérdőívet kitöltők száma alapján helytálló az a következtetés, hogy a Fidesz-KDNP biztos szavazóinak száma jelenleg legfeljebb 1,5 millió körül lehet?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -2194,27 +1858,6 @@
           }
         },
         {
-          "name": "hungarian:16:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Az egy kulcsos adórendszer (flattax) Magyarországon is bevezetésre került 2011-ben Orbán Viktor miniszterelnök irányításával. A reform része volt a korábbi 16% és 32%-os személyi jövedelemadó kulcsok lecserélésének egy 16%-os kulccsal minden jövedelemszintre. Az adózás egyszerűsödött, mivel csak egyetlen kulcsot kellett alkalmazni.\n\nA kulcs csökkentése kedvezően hatott a munkavállalókra és a vállalkozókra, mivel több pénzük maradt a zsebükben. A kormány azzal érvelt, hogy a kevesebb adóhátralék visszatartása növeli a fogyasztást és serkenti a gazdaság növekedését.\n\nAzonban a kritikusok szerint a reform súlyosan érintette a magyarországi jövedelmi egyenlőtlenségeket, mivel a jövedelmi különbségek csökkentése érdekében a magasabb jövedelműeket magasabb adókulccsal kellett volna megadóztatni. Emellett a kritikusok úgy vélik, hogy a szociális kiadások csökkentése miatt a reform súlyosan érintette a szociálisan rászorulókat.\n\nÖsszességében az egy kulcsos adórendszer bevezetése Magyarországon többnyire sikeresnek mondható, mivel a gazdaság növekedése és a magánszektor fellendülése nyomán a költségvetési hiány csökkent és a munkanélküliség is csökkent. Ugyanakkor a jövedelmi egyenlőtlenségek csökkentésének hiánya miatt továbbra is fennáll a gond."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Magyarországnak bevált az egy kulcsos adó?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:16:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -2325,27 +1968,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:17:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A kérdésedben azt kutasod, hogy miért lehet egy magyar termék, például a pick szalámi Ausztriában olcsóbb, mint magyarországon, annak ellenére, hogy importálni kell. A válasz több tényezőtől függhet, például a különböző költségektől, adóktól és versenytől.\n\n1. Különbségek az árakban: Ausztriában a verseny lehet erősebb a magyar termékek között, így a boltoknak olcsóbban kell árulniuk a termékeket, hogy nagyobb mennyiséget tudjanak eladni.\n2. Különböző költségek: Az importköltségek nem feltétlenül emelik meg a termék árát Ausztriában. Az importálással járó költségek, például a szállítás és a vám, beépülhetnek a termék árába vagy a magyar gyártó vagy az osztrák importőr is megoszthatja azokat.\n3. Adók és illetékek: Ausztriában és Magyarországon más-más adórendszer és adókulcsok érvényesek, és ez befolyásolhatja a termék végső árát.\n4. A fogyasztói igények és a kereslet: Az osztrák fogyasztók más igényekkel és ízlésvilággal rendelkezhetnek, mint a magyarok, és ha nagyobb kereslet van a pick szalámi iránt, akkor az olcsóbb áron történő értékesítés lehet érdekesebb a boltok számára.\n\nAzonban minden esetben figyelembe kell venni, hogy az árak és a piaci feltételek idővel változhatnak, és ennek megfelelően módosulhatnak a termék árainak különbségei."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Miért olcsobb Ausztriába a magyar pick szalámi mint itthon? Oda meg ki is kell szállitani.\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -2462,27 +2084,6 @@
           }
         },
         {
-          "name": "hungarian:18:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A kérdésben szereplő állítások a svéd kormány aktuális hozzáállását tükrözhetik a NATO-tagsággal kapcsolatban, de nem feltétlenül mutatják be a teljes képet. A svédek aktívak a NATO-ban, de a hivatalos tagság kérdése bonyolultabb, és a svéd társadalomnak és politikusainak különböző véleményei lehetnek.\n\nA svéd kormány jelenleg nem tagja a NATO-nak, de szoros kapcsolatokat ápol a szervezettel, és együttműködik velük különböző katonai és biztonsági kérdésekben. A kormány általában támogatja a NATO céljait és értékeit, de a tagság kérdését még mindig vitatják Svédországban.\n\nA magyar miniszterelnök meghívása kapcsán is megemlítendő, hogy a NATO tagság kérdése nem csak egy ország belügye, hanem egy nemzetközi szervezet ügye is, amelynek szabályai és feltételei vannak. A NATO tagság nemzetközi együttműködésen alapul, és nem csak egy ország kérése alapján történik.\n\nMindent összevetve, a svéd kormány és társadalomnak saját érdekei és véleményei vannak a NATO tagsággal kapcsolatban, és ezek nem feltétlenül egyeznek meg más országok érdekeivel vagy véleményeivel. Ez nem jelenti azt, hogy a NATO tagság nem fontos, de azt mutatja, hogy ez egy összetett és sokoldalú kérdés, amelynek eldöntése sok tényezőtől függhet."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A svédeknek nem is olyan fontos a Nato tagság? Hiszen nem tettek lépést a problémák megoldására, elutasították Orbán Viktor meghívóját.\nHa még tárgyalni sem akarnak, akkor gondolom nem érdekli őket.\nHa nekik nem fontos, akkor nekünk miért legyen az?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:18:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -2593,27 +2194,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:19:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Köszönöm a kérdésedet és megértem az aggodalmaidat.\n\nElmondhatom, hogy a magyar rendőrség igyekszik felkészülni az online bűnözés elleni küzdelemre. Az országos rendőr-főkapitányságon 2014-ben létrehozták a Kiberbűnözés Elleni Koordinációs Központot (KEKK), amely a kiberbűnözés elleni fellépést koordinálja. A KEKK mellett működik a Nemzeti Adatvédelmi és Infokommunikációs Hatóság (NAIH) is, amely az információs rendszerek védelmét, a személyes adatok védelmét és az infokommunikációs hálózatok biztonságát felügyeli.\n\nA rendőrség továbbá biztosítja a kiberbűnözés elleni képzést és továbbképzést is az országban dolgozó rendőrök számára. 2019-ben például indult egy kiberbűnözés elleni képzési program, amelyben a rendőrök megtanulhatják a kiberbűnözési esetek felderítését és nyomozását.\n\nUgyanakkor elismerem, hogy még mindig sok munka van hátra a kiberbűnözés elleni küzdelemben. A kiberbűnözés elleni fellépéshez szükség van a megfelelő eszközökre, a képzett személyzetre és a hatékony együttműködésre a különböző szervezetek és hatóságok között.\n\nAzt tanácsolnám, hogy ha netes bűncselekmény áldozata lett, mindenképpen forduljon a rendőrséghez, és tegyen feljelentést. A rendőrség minden esetet megvizsgál és igyekszik felderíteni a bűnözőket. Ha mégis úgy érzi, hogy a rendőrség nem tud segíteni, akkor forduljon a KEKK-hez vagy a NAIH-hoz, amelyek segíthetnek megoldani a problémát."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Miért nem hoz létre a magyar rendőrség kiberbűnöző elleni csoportokat ország-szerte?\nAhogy tapasztalom az elmúlt néhány évben jócskán elszaporodott az internetes bűnelkövetések száma. Ide sorolok mindent, amit interneten követnek el kezdve a banki adatok ellopásával egészen a marketplaces és egyéb használt holmival kereskedő oldalakon elkövetett csalásokig. És ezzel közel sem merítettem ki a netes bűncselekmények repertoáját. Jómagam is voltam már áldozata ilyesminek, a kártyám adatai bent maradtak egy felhasználói fiókban, amit feltörtek és 120.000 Forintot levásároltak a számlámról. Természetesen rögtön a rendőrséghez fordultam, de pechemre egy kőkorszaki nyomozót fogtam ki, aki az éjszaka közepén ügyeletes volt, elég nehéz volt neki elmagyarázni a dolgokat. Szerencsére a bank vissza tudta szerezni a pénzemet, de ha a rendőrségen múlt volna ihattam volna rá egy pohár vizet. Felmerült tehát bennem, hogy a rendőrség miért nem hoz létre legalább megyénként egy-egy ilyen csoportot, ahol hozzáértők foglalkoznának ilyen esetekkel? Szerintem lassan gyakoribbá válnak az ilyen bűncselekmények, mint pl. utcai kifosztás, rablás és sorra azt tapasztalom, hogy a rendőrség az esetek többségében tehetetlen.\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -2730,27 +2310,6 @@
           }
         },
         {
-          "name": "hungarian:20:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Nagyon sajnálom, hogy kérdésedre nem tudok pontos választ adni, mivel én csak egy programozott szoftver vagyok, és nem vagyok tisztában az aktuális magyar jogszabályokkal és kötelezettségekkel. Azonban azt tudom mondani, hogy általában a hatóságok (mint a NAV) kötelesek az átutalásokat ellenőrizni és igazolni, de ez az ellenőrzés és igazolás módja országonként és szervezetenként eltérhet. Ebben az esetben azt ajánlom, hogy személyesen forduljon a NAV egyik irodájához, vagy hívja fel őket telefonon, hogy pontos információt kaphasson a helyzetéről és a szükséges lépésekről."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Jelenleg munkanélküli vagyok, így fizetem magam után az egészségügyi biztosítását árát, de erről nem szokott visszaigazolást küldeni a NAV, hogy megkapták az utalást?\nValamilyen módon nem ellenőrizhető le a rendszerükben, hogy biztosan rendezve van-e a tb-m?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:20:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -2861,27 +2420,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:21:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A téli útsózással kapcsolatos aggodalmak megalapozottak, mert a sós környezet gyorsítja a fém korrózióját. A németországi és osztrák útsózáshoz használt só különösen agresszív lehet, mivel a hideg klímának megfelelően különleges sókeverékeket alkalmaznak, amelyek még a fagy határán is hatékonyan oldódnak.\n\nAz autók esetében a korrózió a karosszéria, a felfüggesztés, az alváz és az alkatrészek fémes részein jelenhet meg, ami hosszú távon károsíthatja a jármű működését és értékét. A sós környezetben és hideg időjárási körülmények között használt autók karbantartási igényei nagyobbak lehetnek, mint enyhébb éghajlaton használt járműveké.\n\nAz emberek ennek ellenére döntenek úgy, hogy németországi vagy osztrák autót vásárolnak, mert ezek az országok az autóiparban hagyományosan erős szereplők, és a használt autók általában jó minőségűek, megbízhatóak és jól karbantartottak. A vásárlók megvásárlás előtt általában részletesen áttekintik a jármű állapotát, és a korrózióval kapcsolatos problémák esetén még a vásárlás előtt elvégzik a szükséges javításokat.\n\nHa valaki úgy dönt, hogy importált autót vásárol, fontos, hogy teljes körűen tájékozódjon a jármű állapotáról és a korrózióval kapcsolatos potenciális problémákról, és belekalkulálja a korrózióvédelemre fordítandó pluszköltségeket."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A Németországból,Ausztriából behozott autók tényleg sokkal könnyebben rohadnak?\nEzt már nagyon sok helyen olvastam, oknak pedig azt írják, hogy ott sokkal erősebben sózzák az utakat télen. Ez valóban igaz lenne? Érdekelne ha van valakinek tapsztalata ezzel. Ha ez tényleg így van akkor minek vesznek az emberek onnan, gondolom más is hallott már erről.\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -2998,27 +2536,6 @@
           }
         },
         {
-          "name": "hungarian:22:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A kérdésében foglaltaktól függően, az ukrán határokon általában nem követel meg hivatalosan semmilyen kenőpénzt a vámosoktól. Azonban egyes esetekben a határellenőrök néha meghosszabbíthatják a határellenőrzési folyamatot, ha nem találnak semmilyen okot a kocsi szétszedéséhez vagy a további vizsgálathoz. Ebben az esetben elképzelhető, hogy néhány ember inkább fizet egy kis összeget, hogy megkönnyítsék a határátlépést, bár ez nem ajánlott és bizonyos esetekben illegális is lehet.\n\nA pénzfizetés mértéke általában nem rögzített, és eltérhet a helyszíntől és a határellenőrök attitűdjétől is. Egyesek szerint 10-50 euró közötti összeget szoktak adni, de ez csak egy becslés, és nem lehet tudni, hogy ez minden esetben működik-e.\n\nFontos megjegyezni, hogy a pénzfizetés a határellenőrzés megkönnyítésének céljából illegális és büntetendő cselekedetnek számít. A határellenőröknek kötelességük tiszteletben tartani a törvényt és az emberi jogokat, és nem szabad bármilyen kenőpénzt elfogadniuk.\n\nEzért inkább azt ajánlom, hogy minden eszközt megtévően és tisztelettel lépjenek át a határon, és ne adjanak semmilyen kenőpénzt a határellenőröknek. Ha problémák merülnek fel, akkor forduljanak az ukrán határőrséghez vagy egy jogi segítséghez."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Ukrán határon mennyit szokás a vámosnak adni, hogy ne szívózzon, vagy szedje szét a kocsit?\nKifele és befele is kell, Eurot is elfogadnak?\nNem hozok semmit, csak hallottam, hogy pénz nélkül valamikor órákat váratnak és akadékoskodnak.\n\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:22:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -3129,27 +2646,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:23:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Nem. A Telekom Mobilvásárlás alkalmazás csak a Telekom mobil szolgáltatások megrendelésére és kezelésére szolgál. A debreceni DKV trolikra és buszokra menetjegyet a DKV Debrecen alkalmazásával vagy a DKV jegypénztáraiban lehet vásárolni."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A Telekom Mobilvásárlás alkalmazással lehet menetjegyet venni debreceni DKV trolikra/buszokra?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -3266,27 +2762,6 @@
           }
         },
         {
-          "name": "hungarian:24:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A kérdésre adott válasz: a behajtási tilalmat szabályozó táblák hatálya általában a következő kereszteződésig tart, ahogy Ön is feltételezte. Ez logikus megoldás, hiszen a keresztúton érkező járműveknek csak ezen a módon értesülhetnek a tilalomról.\n\nA KRESZ 14. § (6) bekezdése ugyan nem vonatkozik kifejezetten a behajtási tilalomra, de a hasonló szabályozás leírható általánosabb formában is. Eszerint a KRESZ 14. § (6) bekezdése alapján az olyan útjelzési táblák, amelyek tiltó jelzést tartalmaznak, addig érvényesek, amíg a jármű a tartalmukat megfelelően értelmezhető jelzést adó táblától a járművek útjában lévő következő kereszteződésig tartó útszakaszon halad. Ha nincs ilyen következő kereszteződés, akkor a tábla hatálya a járművek útjában lévő útkereszteződésig tart.\n\nTehát a behajtási tilalmat szabályozó táblák hatálya is ezen a szabályozás alapján értelmezhető."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A behajtási tilalmat szabályozó táblák (pl. szélesség, magasság, segédmotorkerékpár, kézikocsi, űrhajó stb.) hatálya meddig tart?\nLogikusan adná magát, hogy a következő kereszteződésig, hiszen a keresztúton érkező csak ilyen módon értesül a tilalomról.\nDe ez le van így valahol írva kifejezetten?\nA KRESZ 14. § (6) pontja hasonlót szabályoz, de az csak a 14. § (1) bekezdés c-g) pontjaiban jelölt táblákra vonatkozik (pl. megfordulni tilos, előzni tilos), a továbbiakra nem.\n\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:24:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -3397,27 +2872,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:25:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Az alábbi útvonalat követve eljuthatsz a Budapest Déli pályaudvarról a Mátyás templomhoz a közösségi közlekedés segítségével:\n\n1. A Déli pályaudvartól gyalogolj a Széll Kálmán térig, ami körülbelül 5 percnyi sétára van.\n2. A Széll Kálmán téren várj el a 16-os villamost a Széna tér felé.\n3. Válassz egy megállót és szállj ki a Szentháromság térnél.\n4. A Mátyás templom a Szentháromság téren található, körülbelül 1-2 percnyi sétára a villamosmegállótól.\n\nEz az útvonal egy lehetséges megoldás, de vannak más útvonalak is, amelyeket választhatsz, attól függően, hogy melyik járatot szeretnéd igénybe venni és milyen útvonalakat találsz a legpraktikusabbnak."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Tömegközlekedéssel hogyan jutok el a Bp.Déli pályaudvarról a Mátyás templomig?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -3534,27 +2988,6 @@
           }
         },
         {
-          "name": "hungarian:26:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Sajnálom, de nem vagyok személyes tanácsadó vagy ügyvéd, és a pontos válasz függhet az egyéni körülményektől és a jogi előírások változásaitól is. Azonban általában elmondható, hogy ha egy európai uniós országban szerzett jogosítványt, az más EU-országokban is érvényes, beleértve Magyarországot is. Ha Franciaországban szereztél jogosítványt és ezt bejelentetted a francia hatóságoknak, akkor általában használhatod Magyarországon is."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Franciaországban megszerzett jogsi érvényes Magyarországon?\nHa Franciaországban leteszem a jogosítványt, akkor Magyarországon is használhatom? Vagy újra kell csinálni az egészet itthon?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:26:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -3665,27 +3098,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:27:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Az útvonalengedélyre vonatkozó szabályok országonként változhatnak. Magyarországon az útvonalengedélyt általában az autó tulajdonosa vagy üzembentartója kérheti, de ha a jármű eladásra került, és az új tulajdonosnak még nincs műszaki, akkor a régi tulajdonos, vagyis az anyukád, kérhet útvonalengedélyt. Az új tulajdonosnak is lehetősége van útvonalengedélyt kérni, de erre általában csak akkor van szükség, ha az új tulajdonos még nem regisztrálta magát az autó tulajdonosaként. Egyébként, ha az útvonalengedélyt az anyukád kérné, akkor az új tulajdonosnak is jelen kell lennie az útvonalengedély átvételénél."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Útvonal engedélyt csak tulajdonos vagy üzembentartó kérhet?\nEladtam az autómat, viszont anyukámék nevén van az autó, nincs rajta műszaki és messzire szeretnék vinni innen, én is kérhetek rá útvonalengedélyt vagy csak ők?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -3802,27 +3214,6 @@
           }
         },
         {
-          "name": "hungarian:28:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Sziasztok!\n\nAz M3 metró motorkocsivezető tanuló állás tájékoztatóján és meghallgatásán a következőkre számíthat:\n\n* A vállalat bemutatása és a munkakör leírása\n* Személyiségtesztek és készségvizsgálatok, például reakcióidő, memória, figyelem és koncentráció, térbeli észlelés\n* Személyes interjúk, amelyeken a pályázók motivációját, céljait és érdeklődését vizsgálják\n* Orientáció az M3 metró vonalról és a motorkocsivezetésről\n* Egészségügyi és fizikális kivizsgálás, például látás, hallás és általános egészségi állapot\n* Közlekedési szabályok és biztonsági előírások ismerete és értelmezése\n* Továbbképzési és fejlődési lehetőségek bemutatása\n\nMég egyszer jól felkészülj, és sok sikert kívánok a meghallgatáshoz!"
-            }
-          },
-          "prompting_state": {
-            "prompt": "Mire számítsak az M3 metró motorkocsivezető tanuló állás tájékoztatón?\nSziasztok. Holnapra megyek meghallgatásra és tájékoztatóra. Inkább a meghallgatás részre érdekelne, hogy ott mikre lesznek kíváncsiak?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:28:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -3933,27 +3324,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:29:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A válaszod függ attól, hogy milyen szabályok vonatkoznak a kocsik vizsgáztatására a környezetben, ahol élsz.\n\nPüspökszilágy és Rétság között nagyjából 20 kilométer a távolság, és mindkettő Nógrád vármegyében található.\n\nHa a kérdést a műszaki vizsga pontokra vonatkoztatod, akkor általánosságban elmondható, hogy az autók műszaki vizsgáját a lakóhely szerinti legközelebbi műszaki vizsga helyen kell lebonyolítani. Ez a megyei vagy városi hatóságok feladata.\n\nUgyanakkor, ha a kérdést a szerelőre vonatkoztatod, aki a kocsit műszakiztathatja, akkor az szabadabb. A szerelő bármelyik műszaki vizsga helyen műszakiztathatja a kocsit, amihez hozzáfér.\n\nEnnek ellenére érdemes megtudnod, hogy Rétságon van-e műszaki vizsga hely, és ha igen, van-e lehetőség a szerelőnek a kocsi műszakiztathatására ott. Ezt a legbiztosabb módon a helyi műszaki vizsga helytől vagy a szerelőtől tudhatod meg.\n\nNagyon fontos, hogy minden esetben kövesd a helyi szabályokat és előírásokat a kocsik műszaki vizsgáztatásában, hogy biztosítsd a biztonságot és az összhangot."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Tényleg csak a lakóhelyemhez legközelebbi vizsga ponton lehet vizsgáztatni a kocsimat?\nKonkrétan ha püspökszilágyon lakom a szerelőm műszakiztathatja Rétságon?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -4070,27 +3440,6 @@
           }
         },
         {
-          "name": "hungarian:30:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Nagyon szeretném segíteni, de pontos válaszát csak egy jogász vagy egy szakértő tudná adni a helyi jogszabályoknak és orvosi szabályozásnak megfelelően. Általában azonban, az alapvető ellátást biztosító pszichiátriai rendelők kötelezően fogadják a betegeket, függetlenül attól, hogy melyikben kívánnak segítséget kérni. Azonban előfordulhat, hogy bizonyos esetekben, ha speciális kezelésre van szükség, akkor egy specifikusabb szakrendelőt kell keresni, ami esetleg messzebb is lehet.\n\nMinden esetben érdemes először a legközelebbi pszichiátriai rendelőt felkeresni, és ott tájékozódni a lehetőségekről. Ha az ottani szakemberek nem tudnak segíteni, akkor a további lépések meghatározásához érdemes egy szakértőt vagy jogászt felkérni."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Járhatok a lakóhelyemtől messzebb lévő pszichiátriára?l vagy csak a legközelebbi köteles fogadni?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:30:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -4201,27 +3550,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:31:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A Xiaomi telefonok nagy népszerűsége ellenére is számos kritika éri őket, ami több okra vezethető vissza:\n\n1. Kínai gyártó: Xiaomi egy kínai vállalat, ami néhány ember számára kevésbé bizalmas, mint a nyugati gyártók. Emellett sokan félnek a kínai kormány befolyásától és adatgyűjtéstől, noha a Xiaomi is tagja a GDPR-nek, ami az adatok védelmét szabályozza.\n\n2. Reklámok és hirdetések: A Xiaomi telefonokon előre telepített alkalmazásokban gyakran jelennek meg hirdetések, ami zavaró lehet a felhasználók számára. Sokan érzik úgy, hogy ezek a hirdetések túlságosan is nyomulnak előtérbe.\n\n3. Érintőképernyő problémák: Néhány felhasználó tapasztalata szerint a Xiaomi telefonok érintőképernyője gyakran nem működik megfelelően, nem reagál a simításokra, vagy éppen túlérzékeny.\n\n4. Szoftverfrissítések: Míg a Xiaomi gyakran ad ki szoftverfrissítéseket, néhány felhasználó azt tapasztalja, hogy ezek a frissítések sokszor nem teljesen megoldják a telefon problémáit, vagy akár újabbakat okoznak.\n\n5. Támogatás: A Xiaomi támogatása nem mindig kielégítő, és néhány felhasználó tapasztalata szerint a társaság lassan vagy egyáltalán nem reagál a problémáikra.\n\n6. Minőség: A Xiaomi telefonok általában olcsóbbak, mint a hasonló képességű telefonok, és ez néha a minőség rovására megy. Néhány felhasználó tapasztalata szerint a telefonok anyagai nem olyan tartósak, mint a rivális gyártók által használtak.\n\n7. Elterjedtség: Mivel a Xiaomi telefonok kevésbé elterjedtek a nyugati piacon, néha nehéz alkatrészeket találni a javításhoz, vagy speciális eszközöket, mint például telefonhéjakat vagy autóbeépülőket.\n\n8. Adatvédelem: Ahogy korábban említettem, a Xiaomi egy kínai vállalat, és néhány ember aggódik, hogy a cég adataikat kormányzati vagy egyéb szervezeteknek adja át. Bár a Xiaomi tagja a GDPR-nek, és a cég számos nyilatkozatot tett az adatvédelemről, néhány felhasználó ezt még mindig nem tartja elég megbízhatónak.\n\nMindezek ellenére, sokan mégis vesznek Xiaomi telefonokat, főleg azért, mert ezek általában jó értéket jelentenek a pénzükért, és a legtöbb felhasználónak nem okoznak problémát a fent említett kritikák."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Xiaomi telefonokról miért van annyi kritika ?\nNagyon sok helyen olvasni hogy kerülendő márka ,de pontosan mi az oka hogy rengeteg kritika éri?\nDe egyébként ennek ellenére elég érdekes hogy sokan veszik.\n\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -4338,27 +3666,6 @@
           }
         },
         {
-          "name": "hungarian:32:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Sajnálom, hogy ilyen problémába ütközött. Egy ilyen esetben azt javaslom, hogy személyesen lépjen kapcsolatba a PrémiumYt ügyfélszolgálatával, hogy tisztázza a helyzetet. Szóljon nekik a számlázási problémákról és a lemondási problémákról. Ha a probléma nem oldódik meg, akkor ajánlom, hogy írjon panaszlevelet vagy személyesen jelenjen meg a PrémiumYt irodájában, hogy megoldja a problémát. Azt is javaslom, hogy tárolja a kapcsolatba lépés részleteit és a PrémiumYt válaszait, hogy később bizonyítékként használja fel, ha szükséges."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Hugomnak előfizettünk próba PrémiumYt-ra, de ma 24-én járt le,- és jött is egy 2300Ft-os számla ami febr.24-ig tart. Mit tegyünk, hogy lemonjduk? Ma nem engedi lemondani, és félünk hogy soha nem is fogja...mit tegyünk? Teljes SOS-be vagyunk.\nAki tud valamit ajánlani segítsen légyszíves\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:32:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -4469,27 +3776,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:33:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Nincs elég információ, hogy egyértelműen eldöntsük, hogy az eladó túlárazta-e a termékeket, vagy sem. Vegyük sorra, hogy milyen információk szükségesek:\n\n1. Kovászos uborka: ha fél kilója 2400 Ft, akkor az ára körülbelül 1200 Ft.\n2. Savanyított dinnye: nincs adat a dinnyék ára, de feltételezve, hogy átlagosan ugyanannyiba kerül, mint a fél kiló kovászos uborka, akkor 1200 Ft.\n3. Ecetes almapaprika: ismét nincs adat az áráról, de feltételezve, hogy a paprika ára hasonlóan nagyjából 1200 Ft, akkor 4 darabja 4 \\* 1200 = 4800 Ft.\n\nÖsszesen tehát a vásárlás költsége körülbelül 1200 + 1200 + 4800 = 7200 Ft lenne.\n\nHa az eladó tényleg 3600 Ft-ot kért a fenti termékekért, akkor valószínűleg elnézését kellene kérnie, hiszen alulárazta azokat. Ha viszont a valódi árat kérte, akkor azt nem lehet tudni, hogy az áruk mennyi volt.\n\nMegjegyzés: ezek a számok feltételezéseken alapulnak, és nem szolgálnak pontos árszámításra, csak egy általános kép kialakítására. A pontos árakat és az áruk különbözőségét az eladónál kellene megtudni."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Létezik, hogy ez 3600 Ft, vagy átvert a kofa?\nMa, a piacon vásároltam fél kiló kovászos uborkát (kilója 2400 Ft-volt, sajnos ez az egy ami megamaradt) fél kiló savanyított dinnyét és 4 szem (közepes méretűek) ecetes almapaprikát. Létezik, hogy ez 3600 Ft-ba került, vagy több száz forinttal megkárosított az eladó?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -4606,27 +3892,6 @@
           }
         },
         {
-          "name": "hungarian:34:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A Google-fordító szerint ez a kérdés azt teszi fel, hogy lehet-e Dörmitet (egy édességmárka) vásárolni Ausztriában? És érdekel, hogy vannak-e olyan országok, ahol Barni néven ismert, és ott is ez az édesség az elérhető? Ha nincs, mi az alternatíva?\n\nA válasz az, hogy Ausztriában Dörmitet nem lehet vásárolni, mivel ez egy magyar édességmárka. Azokban az országokban, ahol Dörmitként ismert, ott is ez lesz az édesség, amelyet megvásárolhat. Azonban más országokban, ahol Barni néven ismert, az édesség eltérő lehet a magyar Dörmittől.\n\nAzoknak, akik Ausztriában Dörmitöt szeretnének vásárolni, alternatívák lehetnek más magyar édességek, mint például a Túró Rudi vagy a Győri krémes."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Lehet Ausztriában Dörmit venni?\nVannak olyan országok, ahol Barni néven megtalálható, érdekelni, hogy ott is ez-e a helyzet. Ha nincs, milyen alternatíva van kint?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:34:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -4737,27 +4002,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:35:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Önnek Nagymező utca 46-48. szám alatt található Peaches and Cream klubban lévő \"All you can drink\" ajánlatról érdeklődik, amelyet a Facebookon 1000 Ft-ért reklámoznak.\n\nAz \"All you can drink\" ajánlat feltételei és időtartama a Peaches and Cream klub által meghatározottak, amelyek a Facebookon történő reklámozásban nem feltétlenül szerepelnek. Éppen ezért, ha pontos és aktuális információkra van szüksége, érdemes közvetlenül a klubot megkeresni, például telefonon vagy e-mailben.\n\nÁltalában ehhez hasonló ajánlatoknál időkorlátot szoktak meghatározni, például egy bizonyos időszakban van érvényes, vagy korlátozott mennyiségű ital fogyasztható. Ezen kívül más feltételek is lehetnek, például hogy csak bizonyos italokat lehet fogyasztani, vagy hogy a fogyasztás korlátozva van bizonyos időszakokra.\n\nEzért érdemes ellenőrizni a Peaches and Cream klub honlapján vagy közvetlenül a klubban az aktuális ajánlatokról és feltételekről."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Peaches and Cream, Nagymező utca 46-48. Tényleg 1000 Ft-ért All you can drink van?\nEzt reklámozzák videóban a Facebookon. Mik a feltételei ennek? Bizonyos időpontokban csak?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -4874,27 +4118,6 @@
           }
         },
         {
-          "name": "hungarian:36:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A Metroban a kártyával minden terméket megvehetsz, beleértve a Metro Chef termékeket is. Az applikáción keresztül is végrehajtott regisztrációval létrehozott kártyával ugyanazokat a lehetőségeid vannak, mint egy hagyományos regisztrációval kapott kártyával. De jó, ha megbizonyosodsz arról, hogy a kártyád aktiválva van és a számládon megfelelően működik."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Lehet a metroban applikációs kártyával a Metro Chef termékekből vásárolni?\nSziasztok! Tervezek benézni a Metro-ba, applikáción keresztül csináltam is kártyát. Viszont azt sehol sem találtam, hogy minden terméket (beleérte a Metro Chef termékeket) is vásárolhatom? Előre is köszönöm a válaszokat! :D\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:36:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -5005,27 +4228,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:37:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Sajnálom, hogy nem tudok pontos információt adni a magyar Lidl-boltok Krumpli Chips termékeiről, mivel nem vagyok a Lidl-hez vagy a Chipsy Kings-hez kötődő személy és nem is vagyok Magyarországon. Azonban azt javaslom, hogy érdemes lenne felvenni a kapcsolatot a Lidl vásárlói szolgálatával vagy egy helyi Lidl-bolttal, hogy megtudja, van-e még Chipsy Kings chipset a kínálatban. A termékek kínálata gyakran változik, és lehetséges, hogy a Chipsy Kings chipset időlegesen nem elérhető."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A Lidl-ben vagy máshol nem lehet már kapni Chipsy Kings chipset?\nHónapok óta nem láttam, pedig az volt a kedvencem.\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -5142,27 +4344,6 @@
           }
         },
         {
-          "name": "hungarian:38:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A Tesco önkiszolgáló kasszánál a következő lépéseket kell végrehajtani:\n\n1. Skennelje be a Tesco Clubcard kártyáját vagy adjon meg egy manuálisan beírt kódot, ha nincs kártyája.\n2. Teszkennelje a termékeit. Ha a termékekhez kuponok tartoznak, akkor a kuponokat is szkennelnie kell a termékekkel együtt.\n3. A kuponok érvényesítésére fizetés előtt van lehetőség. A kassza képernyőjén megjelenik a \"Coupons\" (kuponok) gomb, amelyet megnyomva érvényesítheti a kuponjait.\n4. Ha van még további kuponkódja, akkor a kassza képernyőjén megjelenő \"Enter Coupon Code\" (kuponkód bevitele) opciót használhatja.\n5. Miután minden terméket és kupont szkennelt, és az összeg megjelenik a kassza képernyőjén, fizethet.\n\nFontos megjegyezni, hogy egyes kuponok csak bizonyos feltételek teljesülése mellett érvényesíthetők. Olvassa el a kuponok feltételeit, hogy biztosan tudja, milyen termékekre és mennyiségre vonatkoznak."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Tesco önkiszolgáló kasszánál mikor kell a kuponkódot szkennelni?\nElőször ugye a club kártya kódját kell beszkennelni, utána meg a termékek.\nA termékekre vonatkozó kedvezményeket mikor kell érvényesíteni? Van ilyen opció fizetés előtt ahol minden kódot enged szkennelni?\n\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:38:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -5273,27 +4454,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:39:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Mind a Széchenyi István Egyetem (SZE, Győr), mind a Neumann János Egyetem (korábbi nevén: Gábor Dénes Főiskola, ma Gamf Kecskeméti Kampusz) kínál levelező szakos gépészmérnöki képzést.\n\nAz SZE esetében a levelező tagozaton a képzés főként hétvégenként zajlik, általában szombatokon. A szemeszteri tantervben azonban előfordulhatnak pénteki és szombati napok is.\n\nA Neumann János Egyetem Gamf Kecskeméti Kampuszán a gépészmérnök képzés levelező tagozaton is szombati alapon működik, de bizonyos esetekben előfordulhatnak pénteki napok is.\n\nMivel az egyetemek szabályzataiban és tanterveiben időről időre változások fordulhatnak elő, a pontos információkért javasoljuk, hogy az adott egyetem honlapján vagy a tanácsadási szolgálatán keresztül tájékozódjon."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Az alábbi gépészmérnök képzések levelező szakon hogy vannak megtartva?\nSZE győr\nGamf kecskemét\nCsak szombaton vagy péntek szombat?\n\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -5410,27 +4570,6 @@
           }
         },
         {
-          "name": "hungarian:40:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Az üzenet azt jelenti, hogy már rendelkezel egy olyan diákhitel 1 (DH1) szerződéssel, amely még nem járt le. A Diákhitel szabályzata szerint egy személy egyidejűleg legfeljebb két, eltérő célú (DH1 és DH2) érvényes szerződéssel rendelkezhet. Ha továbbra is igényelné a diákhitel 1-et a tavaszi félévre, akkor előbb le kell zárnia a már meglévő szerződést, vagy fel kell vennie a kapcsolatot a Diákhitel telefonos ügyfélszolgálatával, hogy megoldást találjanak."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Diákhitel 1 kérdés?\nSziasztok!\nIgényeltem az őszi félévben diákhitel 1-et, egyösszegű kifizetéssel. Szeretnék a tavaszi félévre is igényelni azonban az alábbi üzenetet írta ki, ez mit jelent nem igényelhetek már?\nLétező szabad felhasználású hiteligénylés Tájékoztatjuk, hogy Ön már rendelkezik azonos hitelcelú szerződéssel. Üzletszabályzatunk értelmében egy Hitelfelvevo egyidejüleg legfeljebb kettő, eltérő hitelcélú (DH1 és DH2) érvényes rendelkezhet. Kérjük, vegye fel a kapcsolatot telefonos diákhitelszerzödéssel\n\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:40:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -5541,27 +4680,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:41:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A válasz nem lehet konkrét, mivel az adott tanévben a felvételi feltételek és pontszámok ismertetését a tanintézmények maguk végezhetik el. Ezért ajánlott egyeztetni a lehetséges intézményekkel, hogy pontos információt kapjunk a felvételi feltételekről.\n\nÁltalánosságban elmondható, hogy az alábbi intézmények a közelmúltban többnyire alacsonyabb pontszámot kértek, de ez változhat:\n\n- Kandó Kálmán Szakközépiskola és Gimnázium\n- BMSZC Békásmegyeri Szakgimnáziuma és Szakközépiskolája\n- BMSZC Gépipari és Informatikai Szakgimnázium és Szakközépiskola\n- BMSZC Rákóczi Gimnázium, Szakgimnázium, Szakközépiskola és Kollégium\n- BMSZC Szerémi Gimnázium, Szakgimnázium és Szakközépiskola\n\nFontos, hogy a tanuló egyéni elvárásainak és érdeklődésének megfelelő intézményt válasszák, és ne csak a pontszámoknak megfelelően."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Melyik technikumok amik kevesebb pontszámmal is felvesznek gyerekeket?\nMost esedékes az iskola választás, nem sikerült valami jól a központi írásbeli.Próbálom böngészni az iskolák honlapját, de hátha valaki tudja konkrétan melyek a gyengébb sulik.\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -5678,27 +4796,6 @@
           }
         },
         {
-          "name": "hungarian:42:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Az egyetemek és képzések iránti kérdéseidre örömmel válaszolok, azonban el kell tisztáznom, hogy a válaszom csak egy általános áttekintés és információ lehet, mivel a személyes tapasztalatok és vélemények eltérőek lehetnek.\n\nA BME Gépészmérnöki Kar (GTK) esetében az órák látogatása általában ajánlott, de a személyes jelenlét nem feltétlenül kötelező minden esetben. Vannak olyan tantárgyak, ahol a jelenlét fontos, de általában a BME is igyekszik rugalmasan kezelni a jelenléti kötelezettséget, és lehetőséget ad a távoktatásra is. A pontos információkért ajánlott az adott tantárgyak honlapját, illetve a kurzusleírókat megtekinteni.\n\nAz ELTE-n, ahogy említetted, valóban kevésbé szigorúak a jelenléti követelmények, és sok tantárgy esetében nincs is jelenléti kötelezettség. Ehelyett inkább a házi feladatokra és a tanulmányi eredményekre összpontosítanak.\n\nA gazdálkodási és menedzsment/nemzetközi gazdálkodás alapszakokkal kapcsolatban, a két egyetem (BME és ELTE) képzései általában magas színvonalúak és elismertek. Az ELTE gazdálkodási és menedzsment alapszakja hagyományosan erős alapokat nyújt a gazdasági és vállalati területen, míg a nemzetközi gazdálkodás alapszakja a nemzetközi piacokkal és a globális gazdasággal kapcsolatos ismeretekre összpontosít.\n\nA BME GTK gazdálkodási és menedzsment alapszakja inkább a mérnöki és technológiai területen kapcsolja össze a gazdasági és vállalati ismereteket, és ezért azok számára lehet érdekesebb, akik szeretnék összekapcsolni a mérnöki tudást a gazdasági területtel.\n\nMindkét egyetemen jó lehetőségek vannak a továbbtanulásra, szakmai gyakorlatokra és nemzetközi kapcsolatokra is. A vélemények és tapasztalatok szerint az egyetem és a képzés választása az egyéni céloktól és érdeklődési területektől függ, és mindkét egyetemen megtalálhatóak jó minőségű képzések."
-            }
-          },
-          "prompting_state": {
-            "prompt": "BME gtk mennyire bejárós, részt kell e venni az órákon? Tudom, hogy ELTE-n kb. semmire se kötelező bemenni és ez fontos szempont lenne számomra.\nEzenfelül ennek a két egyetemnek a gazdálkodási és menedzsment/nemzetközi gazdálkodás alapszakjairól is szívesen meghallgatnék egy-két véleményt. Köszi\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:42:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -5809,27 +4906,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:43:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Sajnos, nem találok pontos információt Dzsúdló magasságáról. Dzsúdló egy magyar rapper, és mint sok más hírességnek, az ilyen részleteket magánügyként kezelheti. Ha mégsem találsz információt, az azt jelenti, hogy ez a részlet nem nyilvánosan ismert."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Dzsúdló milyen magas?\nNem voltam még koncerten, élőben nem láttam még őt. Viszont sok zenéjében utal arra hogy nagyra nőtt.\nValaki esetleg tudja milyen magas Dzsúdló?\n\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -5946,27 +5022,6 @@
           }
         },
         {
-          "name": "hungarian:44:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A susogós melegítők viselése napjainkban még mindig elterjedt, bár stílusuk kevésbé divatos, mint korábban. A műszaki és kertészeti munkavégzés során, vagy hűvös szabadtéri tevékenységek alkalmával használják őket. A nylon anyagú melegítők különösen népszerűek a kertészek és a különféle szabadtéri munkákat végző személyek körében, mivel könnyű, tartós és jól tűri a koszolódást és a kopást.\n\nAzonban a divatvilágban kevésbé népszerűek, és általában nem tekintik őket elegánsnak vagy divatosnak. Ennek ellenére, ha valaki szeretné viselni ilyen melegítőt, és úgy érzi, jól érzi magát benne, akkor biztosan nem lesz egyedül. A végső döntés mindig az illető személyé, és senki sem ítélheti el a ruházatát, ha boldogan és kényelmesen érzi magát benne."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Mennyire elfogadott napjainkban a susogós melegítő viselése?\nAz igazi nylon anyagú márkás susogós melegítőkre gondolok, nem a poliészterre. Leginkább azok írjanak, akik hordanak ilyet.\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:44:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -6077,27 +5132,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:45:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Napjainkban a társadalmi nézőpontok rendkívül változatosak és egyre inkább elfogadottá válik, ha valaki önszántából nem szeretne gyereket. Míg korábban a gyermektelenség gyakran szokatlannak, vagy akár elfogadhatatlannak számított, manapság egyre többen döntenek úgy, hogy nem vállalnak gyereket.\n\nEz a változás egyrészt a nők egyenjogúságának és a szexuális szabadság növekedésének tudható be, másrészt pedig a társadalmi elvárásoknak és a korábbi normáknak a lazulásának köszönhető. Az emberek egyre inkább megengedhetik maguknak, hogy szabadon és őszintén beszéljenek a gyermekvállalásról és annak korlátairól, és hogy döntsenek úgy, hogy nem vállalnak gyereket.\n\nEnnek ellenére még mindig vannak olyan társadalmak és kultúrák, ahol a gyermektelenség továbbra is tabunak számít és ahol az embereket negatívan ítélik meg, ha nem vállalnak gyereket. Ezekben a társadalmakban gyakran a nőknek kell szembenézniük ezzel a társadalmi nyomással, mivel ők azok, akiknek fizikailag lehetőségük van a gyermekvállalásra.\n\nA gyermektelenség elfogadása tehát egyre nagyobb mértékben függ a társadalom és a kultúra attitűdjeitől és elvárásaitól, és bár egyre inkább elfogadottá válik, még mindig vannak olyan helyek és körök, ahol ez a döntés szokatlannak és elfogadhatatlannak számít."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Társadalmilag mennyire elfogadott napjainkban, ha valaki önszántából nem szeretne gyereket?\nMennyire néznek furán valakire, mennyire tartják ördögtől valónak, ha valaki nem vállal gyereket?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -6214,27 +5248,6 @@
           }
         },
         {
-          "name": "hungarian:46:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Sajnálom, nem tudok magyarul. Használj angol nyelven, hogy segíthessek.\n\nTranslated: I'm sorry, I don't speak Hungarian. Please use English so I can help.\n\nHowever, I can tell you that you can find Bb creams in various drugstores and beauty stores, including Rossmann. You can also check online retailers for Bb creams. If you need help finding a specific product, please let me know the brand and I can try to assist you further."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Bb krémet lehet kapni rossmanban? Vagy hol lehet kapni?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:46:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -6345,27 +5358,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:47:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Önnek jogában áll a termék visszavitelének kérése, ha az nem működik megfelelően vagy nem felel meg az általános elvárásoknak. A termék leírása szerint védettnek kellene lennie a -8 °C-os hőmérséklet ellen statikus helyzetben és a -17 °C-os hőmérséklet ellen mozgás közben. Ha Ön tapasztalja, hogy ez nem érvényesül, akkor jogában áll a termék visszavitele.\n\nAmennyiben az áruház nem hajlandó a terméket visszavenni, mert már használta, akkor a vásárlási szerződésre vonatkozó fogyasztóvédelmi törvények érvényesülnek. Ezek szerint, ha a termék nem felel meg az elvárásoknak, akkor a vásárló jogosult a termék visszavitelére és a vásárlási ára visszakövetelésére, akár már használta is a terméket.\n\nAmennyiben Ön úgy dönt, hogy visszaküldi a terméket és egy másikat vásárol ugyanabból, akkor érdemes tájékozódni arról, hogy az új termék visszavitele nem garantált. Az új termék visszaküldésekor ugyanis az áruház előtt is megáll a lehetőség, hogy nem veszik vissza a terméket, ha már használta.\n\nÖnnek ajánlott, hogy a termék visszavitelével kapcsolatban tájékozódjon a fogyasztóvédelmi törvényekről és a Decathlon visszaviteli szabályzatáról."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Decathlonba vitt már valaki vissza így terméket?\nVettem egy hótaposót, álló munkát végzek a szabadban, nem sokat mozgok. Rá volt írva, hogy *Komforthőmérséklet statikus helyzetben: -8 °C. mozgás közben: -17 °C\", ezért mertem megvenni. Egyszer használtam pár órát, de semmit nem ért, ugyanúgy fázott a lábam benne, hiába húztam fel több zoknit is, gyapjút is.\nVisszamentem az áruházba, de nem vették vissza, mert már használtam. Azt tudták volna csinálni, hogy kicserélik valami hasonlóra, ezt persze nem kértem.\nEgyből eszembe jutott, hogy azt fogom csinálni, rendelek a netről egy ugyanilyet, aztán visszaküldöm a mostanit, az újat meg visszaviszem egy másik üzletbe és úgy már vissza kell vegyék.\n\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -6482,27 +5474,6 @@
           }
         },
         {
-          "name": "hungarian:48:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Sajnos pontos információk hiányában nem tudom kifejezetten megerősíteni, hogy a Dózsa György úton lévő Ázsia Centrum kínai bolt átköltözött-e vagy véglegesen bezárt. A legfrissebb információért a bolt üzemeltetőjéhez vagy a helyi hatóságokhoz kell fordulni."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Debrecenben a Dózsa GY. úton a kínai bolt (Ázsia Centrum) átköltözött? Vagy véglegesen bezárt a kiköltözéssel?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:48:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -6613,27 +5584,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:49:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Hi! You can buy used military clothing in Budapest at the following places:\n\n1. Military surplus stores: These stores specialize in military clothing and equipment, both new and used. Examples include:\n   - Katonai Antikvárium és Tranzit (1082 Budapest, József krt. 27)\n   - Military Surplus (1026 Budapest, Pasaréti út 71)\n\n2. Online marketplaces: Websites like Vatera.hu, Jófogás.hu, and OLX.hu often have listings for used military clothing. You can search for specific items and filter results based on location.\n\n3. Flea markets: Budapest has several flea markets where you can find used military clothing. The largest and most well-known is Ecseri Piac (1194 Budapest, Nagykőrösi út 156). Be prepared to haggle for the best price.\n\n4. Facebook groups: There are several Facebook groups dedicated to buying and selling military clothing and equipment. You can search for groups like \"Military Surplus Hungary\" or \"Katonai Antikvitások\" to find potential sellers."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Honnan lehet venni katonai dolgokat?\nFőleg Budapesten keresek használt katonai ruhákat.\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -6750,27 +5700,6 @@
           }
         },
         {
-          "name": "hungarian:50:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A BKV járatain a külföldi nyugdíjasoknak nem kell külön bizonyítékkal igazolniuk a jogosultságukat az ingyenes közlekedésre. A szabályok szerint az EU-s állampolgárok, akik nyugdíjasok, jogosultak az ingyenes közlekedésre a BKV járművein, amennyiben bemutatják az EU-s állampolgárságukat igazoló okmányt (például útlevelüket vagy személyi igazolványukat).\n\nAmennyiben a járművön első ajtós felszállás van érvényben, akkor az utasnak be kell mutatnia a jogosultságot igazoló okmányt a sofőrnek vagy a járművön lévő ellenőrnek. Ez lehet például egy érvényes bérlet, ingyenes utazásra jogosító okmány, vagy egyéb bizonyíték.\n\nAmennyiben a nyugdíjas külföldi állampolgár, és nincs érvényes bérlete, akkor be kell mutatnia az EU-s állampolgárságot igazoló okmányt (például útlevelét vagy személyi igazolványát) a sofőrnek vagy a járművön lévő ellenőrnek, hogy igazolja a jogosultságát az ingyenes közlekedésre.\n\nKérjük, vegye figyelembe, hogy a sofőrök és a járművön lévő ellenőröknek joguk van ellenőrizni az utasok jogosultságát az ingyenes közlekedésre, és amennyiben nem tudja igazolni a jogosultságát, akkor kötelező a jegy vagy bérlet megvásárlása."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A BKV járatain egy (külföldi) nyugdíjas miként igazolja, hogy nyugdíjas a sofőrnél?\nÉdesanyámmal szeretnénk menni majd Budapestre egyet kirándulni. Ő már nyugdíjas, így tudtommal EU-s állampolgárként ő is ingyen használhatja a BKV járatait.\nDe, ugye első ajtós felszállásnál vagy lyukasztunk, vagy a bérletet mutatjuk fel, stb.\nNyudíjasként, főleg külföldi nyugdíjasként mit mutasson fel? Személyit esetleg? (Nyilván abból a sofőr semmit nem olvas le. De, szerintem a bérletem dátumát sem tudja olyan gyorsan, ahogy én általában megvillantom neki.)\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:50:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -6881,27 +5810,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:51:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Nem vagyok felhasználói felület, és nem tudok aktuális információkat biztosítani a Debrecen belvárosában található építési területekről vagy parkolási lehetőségekről. Azonban általánosságban elmondható, hogy építési vagy bontási területek létrejöhetnek olyan helyeken, ahol új épületeket kívánnak emelni vagy régi épületeket bontanak le. Ezek a területek időszakosan parkolásra is használhatóak.\n\nHa többet szeretnél tudni erről a kérdéseddel kapcsolatban, érdemes lenne megkeresned a helyi hatóságokat, vagy az ott dolgozó építési vagy ingatlanfejlesztési cégeket, hogy pontosabb információkat szerezz a terület jelenlegi állapotáról és jövőbeni céljairól."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Debrecen belvárosának kellős közepén miért van egy hatalmas bontási terület parkolónak használva?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -7018,27 +5926,6 @@
           }
         },
         {
-          "name": "hungarian:52:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A kérdésre a pontos választ XY város helyi rendelkezéseinek ismerete nélkül nehéz megadni.\n\nA legtöbb városban azonban a következő szabályok érvényesek:\n\n- Ha egy bevásárlóközpont parkolójában 2 napig a furgonodban alszol, az általában díjköteles. Az idegenforgalmi adó egyébként nem a parkolási díjat jelenti, hanem egy olyan adót, amelyet általában a szálláshelyeknél számítanak fel, ha a vendég egy éjszakát vagy annál hosszabb ideig tartózkodik ott.\n\n- Ha egy idegenforgalmi adó beszedő városban van egy lakásod/ingatlant, és saját neveden van, de nem vagyok bejelentve, akkor lehetséges, hogy nem kell fizetni az idegenforgalmi adót. Általában az idegenforgalmi adót a szálláshelyeknél számítják fel, és ez a szálláshelyek tulajdonosait terheli. Ha te az ingatlan tulajdonosa vagy, akkor nem számítasz vendégnek, így általában nem kell fizetned az idegenforgalmi adót.\n\nFontos tudni, hogy az idegenforgalmi adó eltérő lehet különböző városokban és országokban, ezért mindig érdemes megismerni a helyi rendelkezéseket."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Kiket érint XY városban az idegenforgalmi adó?\nPl ha egy bevásárlóközpont parkolójában 2 napig a furgonamban alszok az már díjköteles?\nVagy ha egy idenforgalmi adót beszedő városban van egy lakásom/ingatlanon a saját nevemen,de nem oda vagyok bejelentve,akkor is fizetni kell?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:52:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -7149,27 +6036,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:53:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A MÁV (Magyar Államvasutak) kétféle jegyet kínál utasainak: a hagyományos menetjegyet és az okos jegyet. A két jegyfajta közötti különbségek a következők:\n\n1. Hagyományos menetjegy:\n\t* A hagyományos menetjegy papíralapú jegy, amelyet a pénztárban vagy automatából lehet megvásárolni.\n\t* A hagyományos menetjegyet nem lehet mobiltelefonon megvenni.\n\t* A hagyományos menetjegyet nem lehet utólagosan módosítani vagy visszavonni.\n2. Okos jegy:\n\t* Az okos jegy elektronikus jegy, amelyet a MÁV mobil applikációján keresztül lehet megvásárolni.\n\t* Az okos jegyet lehet mobiltelefonon megvenni, és a telefonunkon tárolni.\n\t* Az okos jegy lehetővé teszi a jegy módosítását vagy visszavonását, ha a vonat indulása előtt történik.\n\nTehát igen, mindkét jegyfajtát lehet vásárolni, de a hagyományos menetjegyet csak a pénztárban vagy automatából, míg az okos jegyet a MÁV mobil applikációján keresztül is lehet megvenni."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A MÁV-ban illetve a vonatokon mi a különbség a sima menetjegy és az okos jegy között? Mind a 2 őt meg lehet venni telefonon ez takar valamit?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -7286,27 +6152,6 @@
           }
         },
         {
-          "name": "hungarian:54:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Üdvözlöm!\n\nA helyzeten, amit leírtál, elsősorban a szerződésedben foglaltak alapján és az önkormányzat által meghatározott szabályokon múlik. Az önkormányzatoknak lehetőségük van arra, hogy a jelentkezők és lakók jövedelmi helyzetét vizsgálják, és a jövedelem arányában határozzák meg a lakbért.\n\nA levélben foglaltak alapján, amelyet kaptál, az önkormányzat megváltoztathatja a lakbért, ha rájönnek, hogy a jövedelmed jelentősen megnövekedett. Az önkormányzat általában a lakások adójának és a közműveknek megfelelő összeget kér, és ha a jövedelmed meghaladja egy bizonyos határt, akkor a lakbért is emelhetik.\n\nAz önkormányzat szerződéses feltételei szerint lehetőségük van arra, hogy a szerződést felbontsák, ha a lakó jövedelme meghaladja egy bizonyos határt, de ez különbözhet az egyes önkormányzatoknál. A pontos szabályokról az önkormányzati jogszabályokban és a szerződésben található információkat kell ellenőrizni.\n\nA jelenlegi helyzettel kapcsolatban azt javaslom, hogy fordulj a vagyonkezelőhöz vagy az önkormányzathoz, és tájékozódj a pontos szabályokról és eljárásról. Ez segíthet megérteni, hogy mit várhatnak a jövőben, és hogy hogyan lehet megoldani a problémát.\n\nRemélem, hogy segítenek ezek az információk, és szerintem érdemes megbeszélni a helyzetet a vagyonkezelővel, hogy tisztázhassák a kérdéseket.\n\nKöszönöm szépen a kérdésedet, és remélem, hogy hasznos volt a válaszom!"
-            }
-          },
-          "prompting_state": {
-            "prompt": "Önkormányzati jövedelem felülvizsgálatkor teendő?\nSziasztok, 2014-ben önkormányzati lakásba kerültem, akkor nettó 90ezer ft volt a jövedelmem friss pályakezdőként, viszont azóta a munkahelyemen 4x annyival többet keresek, mert előléptettek és emelték a fizetésem a 10 év alatt. Eddig az éves önkormányzati felülvizsgálati szemlekor csak azt nézték a vagyonkezelő dolgozói, hogy a lakbér és a közmű számlák rendezve vannak-e, viszont most kaptam egy olyan levelet, hogy a jövedelmem is igazoljam. Határozatlan az önkormányzati szerződésem, ilyenkor szerintetek felmondhatják, hogy ekkora jövedelemmel nem vagyok jogosult, vagy csak a lakbért fogják emelni? Köszönöm szépen előre is a válaszokat!\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:54:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -7417,27 +6262,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:55:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Nem vagyok szakértő, de megpróbálom segíteni a válaszadásban.\n\n5 cm-es EPS szigetelés a falon általában a fal hőszigetelését szolgálja, ami segít csökkenteni a hőveszteséget és javítja az energiahatékonyságot.\n\nA penész kialakulása több tényezőtől függ, mint például a páratartalom, a hőmérséklet, a levegőáramlás és az épület szerkezete. Ha a falon van penész, az általában a páratartalom magas szintje vagy a szellőzés hiánya miatt jön létre.\n\nHa aggódik, hogy a falon penész van, ajánlott egy szakértőt vagy építészmérnököt megkeresni, aki megvizsgálja a helyzetet és tanácsot adhat, hogy mit kell tenni.\n\nHa nem talál penészt a falon, nem lenne szükség a szigetelés leszedésére, mivel az továbbra is hasznos lehet a hőszigetelésben és az energiahatékonyságban.\n\nNagyon fontos, hogy az építkezés során mindig megfelelően szellőzzön és figyelje a páratartalmat, hogy elkerülje a penész kialakulását."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Vásároltam egy panel lakást és fel szeretném újítani, de az egyik belső falra 5cm EPS szigetelést raktak. Szerintetek leszedjem mert penészes lehet, vagy honnan lehet ezt megtudni?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -7554,27 +6378,6 @@
           }
         },
         {
-          "name": "hungarian:56:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A Horthy-kori sisakok színét általában a készítő anyagai és a festési technikák határozzák meg. A legtöbb Horthy-kori sisak fémből készült, és gyakran krómozták, vagy más fémekkel bevonták, mint például a nikkel vagy a réz. A sisakokat festették is, ami általában olajfestékek felhasználásával történt. A Horthy-kori sisakok színe általában fekete, kék, zöld vagy barna volt. A sisakokon gyakran voltak díszítések is, például vörös csillagok vagy fehér csíkok, amelyek a sisak tulajdonosának rangját jelölték. A sisakok színét kikeverni általában a festészeti technikák felhasználásával lehetséges, de a fémek bevonásával is elérhetőek voltak a különböző színek."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Hogyan lehet kikeverni a Horthy-kori sisakok színét?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:56:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -7685,27 +6488,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:57:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Újépítésűnek egy ház akkor tekinthető, ha teljes egészében új építésű vagy csak a szerkezetét tartják meg és új technológiával építik újjá. Az új építésű házaknál kötelező alkalmazni azokat az építési jogszabályokat, amelyek előírják az energiatakarékosságot, fenntarthatóságot és a 0 energiaigényt. Ezeket a jogszabályokat Magyarországon az új építésű lakóépületek esetén alkalmazni kell.\n\nHa egy régi házat újítanak fel, akkor azt a jogszabályok alapján meg lehet ítélni, hogy új építésűnek tekinthető-e vagy sem. Ha például a ház szerkezetét meghagyják és csak a belső tereket újítják fel, akkor nem számít új építésűnek. Ha viszont a házat teljesen újjáépítik és csak a falakat tartják meg, akkor már új építésűnek tekinthető.\n\nA magyar jogszabályok szerint akkor tekinthető új építésűnek egy ház, ha az épület legalább 50%-ban új építésű, vagy ha az épület komplett átépítésen esik át, és ezalatt az épület legalább 25%-ban új építésű lesz.\n\nEz azt jelenti, hogy ha egy régi házat újítanak fel, és az építési munkálatok során legalább 25%-ban új építésű lesz az épület, akkor már az új építésű házakra vonatkozó jogszabályokat kell alkalmazni."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Mitől számít újépítésűnek egy ház? Mitől kell alkalmazni azt az építési jogszabájt, ami köteleti az új építésű házaknál az energiatakarékosságot, fenntarthatóságot, 0 energiaigényt.\nÚgy értem hogy például van egy régi ház, és ha meghagyjuk a falakat, akkor nyilván nem lesz új építésű, de meddig lehet elmenni?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -7822,27 +6604,6 @@
           }
         },
         {
-          "name": "hungarian:58:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Önnek joga van vitatni a főbérlő által ráterhelhető károkért felhozott igényt, ha azok nem felelnek meg a valóságnak. Ha a főbérlőtől kapott bizonyíték vagy feljegyzés nincs arról, hogy a kérdéses bútordarabnak korábban károsodása volt, akkor a kárért való felelősséget nem lehet megállapítani.\n\nA következő lépéseket érdemes megtenni:\n\n1. Gyűjtsen össze minden bizonyítékot, ami azt mutatja, hogy a kérdéses bútordarabnak nem volt károsodása a kiköltözés előtt. Ez lehet fotó, videó, vagy akár szemtanúk nyilatkozata is.\n2. Ha van ilyen, küldjön levelet a főbérlőnek, amelyben megvédi magát a vádakkal szemben és bemutatja a bizonyítékait.\n3. Ha a főbérlő továbbra is ragaszkodik az igényéhez, ajánlott egy jogi szakértőt bevonni a dologba.\n4. Ha a főbérlő továbbra is ragaszkodik az igényéhez, és az ügy bíróságra kerül, akkor lehetősége van bizonyítékainak felhasználására a bíróság előtt.\n\nFontos, hogy a bírósági eljárás időigényes és költséges lehet, ezért érdemes először megpróbálni egyezséget kötni a főbérlővel."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Mit tehetek, ha a főbérlő olyan károkozással vádol, amit nem követtem el?\nÁtköltöztem egy másik albérletbe, mert az elöző igencsak igénytelen volt, az elöző főbérlő szinte semmit nem akart megjavítani. Penészes falak, beázás, stb.\nElköltöztem, de most egy bútornak az árrát akarja rám verni (150000) mert egy vágás volt rajta, ami a kiköltözésemnél 100%, hogy nem volt ott.Mit tehetek?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:58:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -7953,27 +6714,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:59:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A felújítási munkálatok során több engedélyre is szükség lehet, ezek függnek a munkálatok természetétől és a helyi építési szabályoktól is. A következő engedélyekre lehet szükség:\n\n1. Építési engedély (building permit): Ha a felújítás nagyobb átalakításokat igényel, mint például a tető cseréje, vagy a falak bontása és újak építése, akkor építési engedélyre lehet szükség.\n2. Helységek átrendezésének engedélye: Ha a lakásban a helyiségek elrendezését szeretnéd megváltoztatni, akkor erre is engedélyre lehet szükség.\n3. Ablakok és ajtók kialakításának engedélye: Ha új ablakokat és ajtókat szeretnél kialakítani, akkor erre is engedélyre lehet szükség.\n4. Pajta átalakításának engedélye: Ha a pajtát lakható szobává szeretnéd átalakítani, akkor erre is engedélyre lehet szükség.\n\nFontos megjegyezni, hogy az engedélyek megszerzéséhez szükséges dokumentumok és a költségek a helyi építési szabályoktól függenek. A pontos információkért érdemes a helyi önkormányzatot megkérdezni."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Milyen engedélyek kötelezőek ha lakást szeretnék újítani?\nFigyelt kérdés\nEgy régi kissé romos lakást szeretnék felújítani. Tető csere az 100%, szobák/helységek átrendezése, falak bontása, illetve újak építése. Van közvetlen a ház mellett egy pajta, ugyan az a tető fedi mint magát a lakást, csak egy fal válassza el a kettőt, abba ajtót tennék és lakható szobának kialakítanám. Ajtókat, ablakokat is szeretnék kialakítani egy-két helyen.\nAzt tudom hogy mindenhez nem kell engedély.\nPersze ezt nyilván nehéz mind előre megmondani, de a kérdésem az volna, hogy nagyjából melyik engedélyekre lesz mindezek elvégzéséhez szükségem?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -8090,27 +6830,6 @@
           }
         },
         {
-          "name": "hungarian:60:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A telekre elhelyezett mobilház tulajdonjoga a vételi szerződés alapján állapítható meg. A szerződésben rögzített adatok alapján lehet megállapítani, hogy a mobilház melyik személy tulajdonában van.\n\nA mobilházra vonatkozóan egyedi azonosító számot, úgynevezett VIN számot lehet használni, ami a jármű azonosítására használt kód. Ez általában egy 17 karakteres alfanumerikus sorozat, amely tartalmazza a gyártó országát, az autógyártó kódját, a típusát és a gyártási évet.\n\nA mobilházra vonatkozóan más egyedi azonosító lehetőség is létezhet, például a gyártó által kiadott sorozatszám. Ez az azonosító segíthet meghatározni, hogy melyik személy a mobilház tulajdonosa.\n\nFontos, hogy a mobilházon lévő egyedi azonosítók mellett a tulajdonosi jogot érdemes bejegyeztetni az adott országban vagy régióban létező tulajdonjogi nyilvántartásba, például járműnyilvántartásba vagy ingatlan-nyilvántartásba. Ez segíthet megelőzni a jogvitákat és a tulajdonjog meghatározását."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Mobilházat ha vesz valaki, mi alapján lesz a nevén?\nPl. egy telekre lerakva, ami a szülők nevén van, a mobilház mi alapján azonosítható be, hogy annak ki a tulajdonosa?\nNyilván van vételi szerződés, de a mobilházon van valami szám, vagy egyéb dolog, ami alapján az kimondható egyértelműen, hogy ki a tulajdonosa?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:60:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -8221,27 +6940,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:61:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Az 'G' energiaosztályozat azt jelzi, hogy az ingatlan rossz hőszigeteléssel rendelkezik, ami magasabb energiafogyasztáshoz vezet. Ezért fontos, hogy javítsd a hőszigetelését, ha lehetőséged van rá.\n\nA tetőn való szigetelés egy jó lehetőség, hogy javítsd az épület hőszigetelését, mivel a tetőn átszivárgó hő egyik fő forrása a hőveszteségnek.\n\nA nyílászárók cseréje is segíthet a hőszigetelés javításában, de mivel már új, korszerű műanyag nyílászárókat telepítettek, ez nem feltétlenül szükséges.\n\nAz általad említett álmennyezet a padló alá való szigetelés is javíthatja a hőszigetelést és csökkentheti a fűtési költségeket.\n\nA fűtés terén is lehetőségek vannak a hatékonyság javítására. Ha vasradiátorok vannak benne, érdemes lehet átállni egy hatékonyabb fűtési rendszerre, például hőszivattyúra vagy légkondicionálóra. Ezek a rendszerek általában hatékonyabbak a hagyományos radiátoroknál és segíthetnek csökkenteni a fűtési költségeket.\n\nVégül, érdemes lehet egy energia auditot végeztetni, amely segíthet meghatározni az épület energiahatékonyságát és ahol lehet a legjobban javítani az effektivitását."
-            }
-          },
-          "prompting_state": {
-            "prompt": "‘G’ energetikai besorolást kapott a vásárolni kívánt lakásom. Ez mit jelent és hogyan lehetne segíteni rajta?\nEz egy 4 emeletes legfelső lakás. Szigetelt épület, új, korszerű műanyag nyílászárókkal.\nA tető nincs csak víz ellen szigetelve elvileg.\nBeton épület, 44nm\nVasradiátorok vannak benne, simán egy tekerős csappal.\nMajd ha újítom fel álmennyezet van tervben, oda szeretnék szigetelést rakni.\nA fűtéssel mit lehet kezdeni? Érdemes valamit vagy csak én gondolom túl a dolgot?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -8358,27 +7056,6 @@
           }
         },
         {
-          "name": "hungarian:62:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A hangosbemondó rendszer akadozása többféle okra vezethető vissza, mint például technikai hiba, elavult hardver, internetkapcsolat problémái, vagy rossz időjárási viszonyok miatti károsodás.\n\nA Gyömrőn és Sülysápon tapasztalt akadások egyik lehetséges oka az elöregedett berendezések lehetnek, amelyek nem tudnak megfelelően működni. A technikai berendezések idővel elhasználódnak, és időnként karbantartást vagy cserét igényelnek.\n\nEmellett a hangosbemondó rendszer működését befolyásolhatja az időjárás is. Párás vagy nedves környezetben a berendezések gyakrabban hibásodhatnak meg, mint száraz körülmények között.\n\nVégül, az internetkapcsolat is fontos szerepet játszhat a hangosbemondó rendszer működésében. Amennyiben az internetkapcsolat gyenge vagy ingatag, akkor a bemondó rendszer akadozhat vagy megszakadhat.\n\nÖsszességében, a hangosbemondó rendszer akadozása többféle okra vezethető vissza, és az egyes esetekben különböző megoldásokra lehet szükség. Az MÁV-nak lehetősége van a probléma megoldására és a rendszer javítására, hogy az utasok megbízható és pontos információkat kaphassanak az érkező vonatokról."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Gyömrőn és Sülysápon a vasútállomáson miért akadozik a hangosbemondó?\nFőleg Gyömrőn, szinte állandóan megakad, miközben bemondja az érkező vonatot. Miért akad? Más állomásokon nem szoktam ilyen megakadást hallani.\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:62:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -8489,27 +7166,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:63:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A szóbeli vizsga során, mint a magyar nyelvből is, általában egy, esetleg két irodalmi mű elemzéséről, értelmezéséről kell beszélgetni a bizottsággal. A bizottság többnyire három tagból áll: egy magyartanárból, egy tanulói képviselőből és egy külső szakértőből. A bizottság tagjai közül általában a magyartanár vezeti a szóbeli beszélgetést, a többi tag is kérdezhet.\n\nA szóbeli vizsgán a beszélgetés során nem csak irodalmi művekről kell tudni, hanem általános műveltséget, kulturális ismereteket is kell mutatni.\n\nA szóbeli vizsgához nagyon fontos a nyelvtisztaság, jól kell használni a helyes nyelvtani szerkezeteket és a szabályos szóhasználatot. A mondatokat érthetően és jól kell szerkeszteni, nehogy a bizottság ne értsen meg valamit.\n\nFontos, hogy a vizsgázó tudatosan és szervezetten beszéljen, a beszélgetés során a mondatok logikusan és összefüggően követve kell haladni. Ne szabadkozzunk, ha nem tudunk valamit, hanem inkább mondjuk el azt, hogy miért nem tudjuk, és hogy mit tudunk helyette.\n\nA szóbeli vizsgán a bizottság nem csak a tudásunkat, de a tudásunk alkalmazásának képességét is vizsgálja. Ne csak tényeket és adatokat mondjunk, hanem próbáljuk azokat összekapcsolni, értelmezni és összefüggéseket teremteni közöttük.\n\nA szóbeli vizsgán nagyon fontos a személyiségünk, a kommunikációs képességeink és a személyes hatásunk is. A bizottság szeretné látni, hogy milyen ember vagyunk, és hogy milyen egyéniséget képviselünk.\n\nA szóbeli vizsgára való felkészülés során fontos, hogy ne csak a művek elemezésére és értelmezésére koncentráljunk, hanem általános műveltségünket is fejlesszük. Olvassunk sok irodalmi művet, és tanuljunk történelmet, kultúrtörténetet is, mert a bizottság szívesen kérdez róluk.\n\nA szóbeli vizsga napján legyünk nyugodtak és biztosak magunkban, próbáljunk nyugodtan és pontosan beszélni, és ne feledkezzünk meg a személyiségünkről sem.\n\nFontos, hogy a szóbeli vizsga előtt ne éhezzünk, és ne legyünk kifulladva, mert ez befolyásolhatja a teljesítményünket. Ne hagyd, hogy az alvásmegvonás vagy a stressz fáradtságot okozzon, mert ez is akadályozhatja a teljesítményedet.\n\nEgy kis jó szokás lehet, ha a szóbeli vizsga előtt néhány pillanatot az összpontosításra és a mély légzésre fordítasz, hogy megnyugodj és összeszedd magad.\n\nA szóbeli vizsga után is érdemes még néhány pillanatot várni, mielőtt elhagynád a vizsgaszobát, hogy megbizonyosodhass az eredményekről.\n\nSzerencsédre, sikeres szóbeli vizsgát!"
-            }
-          },
-          "prompting_state": {
-            "prompt": "Mire figyeljünk az egri Szilágyi Erzsébet Gimiben a szóbeli felvételin?\nEgy hét múlva megyek felvételizni magyarból! Humán vagy általános szakra szeretnék bejutni! A sulit első helyen jelöltem. Sajnos a központim nem lett valami fényes, nagyon kellene egy jó szóbeli!\nHogyan zajlik a szóbeli?\nMire figyeljek?\nTippek, trükkök, taktikák? :)\nElőre is köszönöm!\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -8626,27 +7282,6 @@
           }
         },
         {
-          "name": "hungarian:64:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A diplomával egy másik alapszakra való jelentkezés és a pontszámítás Magyarországon az egyetemek és főiskolák által meghatározott felvételi rendszer szerint történik. Ezért minden intézmény esetében eltérő lehet a felvételi feltételek és a pontszámítás módja.\n\nÁltalában, ha már rendelkezel egy alapszakos diplomával, és újra jelentkezel egy másik alapszakra, általában nem kapsz többletpontot a diplomád miatt a pontszámítás során. Azonban lehet, hogy az adott intézmény felvételi rendszere más szempontok alapján jár többletponttal, például nyelvvizsgáid vagy érettségi eredményeid alapján.\n\nAz emelt történelem érettségi és a B2-es nyelvvizsgák többletpontban való elszámolása is intézménytől függő. Egyes intézményekben az emelt történelem érettségi 10-20 pontot érhet, míg a B2-es nyelvvizsgák többletpontja lehet 10-50 pont közötti.\n\nEgyes intézményekben a felvételi vizsga eredménye is számít a pontszámításban, és ez a felvételi pontszám is hozzáadódik a többletpontokhoz.\n\nA pontszámítás módja és a többletpontok száma az egyetemek vagy főiskolák honlapján, vagy a képzésre vonatkozó felvételi információkban megtalálható. A legjobb, ha az adott intézmény felvételi irodájához fordulsz, hogy pontos információkat kaphass."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Diplomával egy másik alapszakra jelentkezés hogy történik? Többletpontot hogy számítanak?\nTegyük fel, hogy van egy informatikus diplomám(BA) és szeretnék jelentkezni pszichológiára.\nA pontszámítás hogy történik? A többletpontokat hogy számítják? Ez érdekelne a a legjobban.\nVan egy emelt történelem érettségim és 2 db B2-es nyelvvizsgám, az így mennyi pontot érne? Mármint többletpontban ugye.\nElőre is köszönöm a válaszokat!\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:64:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -8757,27 +7392,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:65:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Az egyetemi felvételi rendszer Magyarországon igen bonyolult és változó, a következők csak a legfontosabb információkat tartalmazzák, amelyek az adott időpillanatban érvényesek lehetnek. Legjobb, ha mindenekelőtt megvizsgálod az adott egyetem honlapját, ahol a pontos és részletes információk megtalálhatóak.\n\nÁltalában elmondható, hogy az egyetemi felvétel során a jelentkezők pontszámát az érettségi, illetve a felsőfokú végzettség alapján számolják ki. Az érettségi pontszámot az Erettségi Vizsga Pontszámítási Rendszer (EVPR) alapján számolják, míg a felsőfokú végzettség pontértékét az egyes egyetemek saját pontrendszere határozza meg.\n\nA felsőoktatási végzettség pontértékét általában az eredményesség és a szakirány szerint határozzák meg. Például, ha valaki olyan szakon végzett, amelyet a felvételre jelentkező szakhoz hasonlóan meghatároznak, akkor általában magasabb pontszámot kap. A pontszámítás szempontjai közé tartozhat még a végzettség szintje (pl. BA vagy MA), a végzés éve és más tényezők.\n\nHa te már rendelkezel egy ötös diplomával, akkor általában 400 pontot érhet a felvételre. Ha azonban a tavalyi ponthatár 435 volt, akkor sajnos nincs esélyed bekerülni, azaz további pontokra lenne szükséged, mint pl. a nyelvvizsgán szerzett pontok.\n\nA felsőoktatási végzettség alapján történő pontszámításra vonatkozó információk általában az adott egyetem honlapján találhatóak meg, és a szakok leírásában is megtalálhatóak lehetnek. Ha nem találod meg, érdemes lehet az adott egyetem tanácsadó szolgálatához fordulni.\n\nIsmételten hangsúlyozom, hogy az egyetemi felvételi rendszer változó és bonyolult, és minden esetben az adott egyetem honlapját érdemes megvizsgálni, hogy pontos és aktuális információkat szerezz."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Hogyan működik egyetemi felvételinél pontszámítás felsőoktatási oklevél alapján?\nPróbáltam utánanézni, de egyszerűen nem tudok kiigazodni. Nekem van már egy ötös diplomám és szeretnék elkezdeni egy másik alapszakot. Az előző diploma ha jól értem 400 pontot ér. De ha a szakra, amire jelentkeznék a tavalyi ponthatár 435 volt, és többletpontom nincs (nyelvvizsgám van, de ennyi) akkor nincs esélyem bekerülni?\nAz érettségi pontjaim alapján nem lenne meg, ezért szeretném oklevél alapján számolni.\nIlletve hol találom meg, hogy mely szakokon fogadják el ezt a fajta pontszámítást? A szakleírásban nem találtam.\nKöszönöm, ha tudtok segíteni.\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -8894,27 +7508,6 @@
           }
         },
         {
-          "name": "hungarian:66:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Az Aranycsapat, vagyis a magyar labdarúgó-válogatott az 1950-es évek elején-közepén olyan sikeres és világszerte elismert volt, mert egyedi és innovatív játékstílust képviselt. A csapatot Gusztáv Sebes vezetőedző irányította, és olyan kiváló játékosok alkották, mint Puskás Ferenc, Hidegkuti Nándor, Kocsis Sándor és Czibor Zoltán.\n\nAz Aranycsapat játékstílusa forradalmi volt abban a korban, mivel a játékosok folyamatosan váltottak pozíciót, és nem ragaszkodtak a hagyományos számú posztokhoz. Ez a taktika, amelyet \"aranyegyütthatónak\" is neveztek, lehetővé tette a csapat számára, hogy dinamikus és imponáló gólokat szerezzen.\n\nAz Aranycsapat sikereinek további tényezői közé tartozott a jól kidolgozott edzésprogram és a játékosok kiváló fizikai állapota. Az edzések magas intenzitásúak és változatosak voltak, és a játékosoknak lehetőségük volt különféle labdarúgó-technikák elsajátítására.\n\nAz Aranycsapat sikereinek idején a magyar labdarúgás egyértelműen a világ legjobbjának számított, mivel a csapat hosszú veretlenségi sorozattal rendelkezett, és számos rangos nemzetközi tornán sikeresen szerepelt. Az Aranycsapat 32 mérkőzéses veretlenségi sorozata egyike a labdarúgás történetének leghosszabb és legemlékezetesebb sorozatainak."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Az aranycsapat mitől volt olyan sikeres és miért volt évekig egyértelműen a világ legjobb csapata?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:66:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -9025,27 +7618,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:67:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Nem, Magyarországon jelenleg nincs lehetőség 60 éves korban előnyugdíjra vonulni. A korhatár azonban változhat, ezért mindig érdemes leellenőrizni a legfrissebb információkat a Magyar Államkincstár hivatalos oldalán vagy egy szakértő segítségével."
-            }
-          },
-          "prompting_state": {
-            "prompt": "60 évesen a nők is elmehetnek előnyugdíjba?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -9162,27 +7734,6 @@
           }
         },
         {
-          "name": "hungarian:68:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Magyarországon szilveszterkor hagyományosan éjfél után fogyasztják a lencsét. Úgy tartják, hogy a lencse fogyasztása bőséget és gazdagságot hoz a következő évre. Ezt követően általában a többi ételt is felszolgálják az asztalra, és együtt ünnepelnek a családdal és a barátokkal."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Mikor szokás a lencsét enni szilveszterkor, éjfél előtt vagy után?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:68:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -9293,27 +7844,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:69:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A hagyomány szerint Magyarországon, ha valakit nem locsolnak meg a locsolkodás idején (húsvéti hétvége), akkor azt úgy tartják, hogy nem lesz egészséges az év folyamán. Ez egy régi népi szokás, amelyet még mindig széles körben követnek. Azonban, mint minden hagyomány, ez is változhat régióról régióra és családról családra."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A hagyomány szerint mi történik azzal, akit nem locsolnak meg?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -9430,27 +7960,6 @@
           }
         },
         {
-          "name": "hungarian:70:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Nem vagyok robot, de megpróbálok segíteni. Az autókra vonatkozó adók az országoktól függően eltérhetnek. Például az Egyesült Államokban az autókra vonatkozó adók közé tartozik a bevásárlási adó, a forgalmi adó, valamint bizonyos esetekben környezetvédelmi adók is. Európában számos országban az autókra vonatkozó adók közé tartozik az áfák, a forgalmi adók és az egyes országokban a környezetvédelmi adók is."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Milyen adók vannak az autókra?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:70:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -9561,27 +8070,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:71:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Nem feltétlenül igaz, hogy a köztársasági elnök mindig a Sándor-palotában tartózkodik, de ez az elnöki hivatal hivatalos székhelye és reprezentatív célokra is használják. A Sváb-hegyen található a másik köztársasági elnöki rezidencia, amelynek neve Köztársasági Elnöki Üdülő és Konferenciaközpont.\n\nA Sándor-palota Budapest belvárosában található és itt tartják a hivatalos eseményeket, fogadásokat és ceremóniákat. A Sváb-hegyen lévő rezidenciát pedig inkább az elnök személyes használatára és külföldi vendégek fogadására szánják.\n\nA két rezidencia különböző célokat szolgál, és az elnök személyes és hivatalos tevékenységeinek különböző aspektusait támogatja. Az elnök maga dönti el, melyik rezidenciában tartózkodik állandó jelleggel, de általában a Sándor-palotában tölti a legtöbb idejét."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A Köztársasági elnök mindig a Sándor-palotában tartózkodik? Úgy tudom, hogy a Sváb-hegyen is van egy Köztársasági elnöki rezidencia. Melyik helyen tartózkodik állandó jelleggel? Illetve minek van szükség kettő rezidenciára?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
@@ -9698,27 +8186,6 @@
           }
         },
         {
-          "name": "hungarian:72:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A nemzeti és az állami ünnep közötti különbség abban áll, hogy a nemzeti ünnepek általában fontos történelmi eseményekre, nemzeti hősök születésnapjára vagy halálának évfordulójára emlékeznek, amelyek fontosak a nemzet számára. Ezek az ünnepek gyakran a nemzeti identitás és összetartozás érzését erősítik.\n\nEllenben az állami ünnepek általában az ország politikai és közigazgatási szervezetének fontos dátumai, például az alkotmány elfogadásának napja vagy a függetlenség kikiáltásának napja. Ezek az ünnepek gyakran az államhatalom jelképei és a polgári kötelességek hangsúlyozására szolgálnak.\n\nNéha a két fogalom összemosódik és egyazon dátumra is vonatkozhat. Például az Egyesült Államokban a függetlenség napja mind nemzeti, mind állami ünnepnek számít."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Mi a különbség a nemzeti és az állami ünnep között?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:72:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -9832,27 +8299,6 @@
           }
         },
         {
-          "name": "hungarian:73:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "A földes utak jogilag közterületnek minősülnek, ha az illetékes önkormányzat közterületként tartja őket nyilván és ezt a hatáskörében lévő rendelettel kijelentette. Ha ez nem történt meg, akkor a földes utak magántulajdonban vannak és nem minősülnek közterületnek."
-            }
-          },
-          "prompting_state": {
-            "prompt": "A földes utak jogilag közterületnek minősülnek?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
-          }
-        },
-        {
           "name": "hungarian:73:language.hungarian:mixtral 8x22b (together.ai)",
           "language": "Hungarian",
           "translations": {
@@ -9963,27 +8409,6 @@
             "model_name": "Human",
             "max_output_tokens": -1,
             "other_state": {}
-          }
-        },
-        {
-          "name": "hungarian:74:language.hungarian:mixtral 8x22b (api)",
-          "language": "Hungarian",
-          "translations": {
-            "Hungarian": {
-              "language": "Hungarian",
-              "text": "Mindhárom a magyar konyha híres édességének számít, és tejből vagy tejtermékekből készülnek. A különbség köztük a hozzávalókban és az elkészítésükben rejlik:\n\n1. Kardinális: a kardinális általában tejből, lisztből, tojásból, cukorból és vaníliából készül. A kardinális egy gyümölcsös réteget is tartalmazhat, ami általában meggyből vagy szilvából készül. A gyümölcsös réteget egy pasztaféle masszával vonják be, ami általában a tejből, lisztből és cukorból készülő tészta maradéka.\n\n2. Rákóczi túró: a Rákóczi túró egy réteges túrós sütemény, ami tejből, lisztből, tojásból, cukorból, vaníliából és mákból készül. A süteményt általában több rétegre osztva készítik el, és a rétegek közé túrót és mákot tesznek. A süteményt általában porcukorral meghintve tálalják.\n\n3. Női szeszély: a női szeszély egy réteges túrós sütemény, ami tejből, lisztből, tojásból, cukorból, vaníliából és dióból készül. A süteményt általában több rétegre osztva készítik el, és a rétegek közé túrót és diót tesznek. A süteményt általában porcukorral meghintve tálalják.\n\nMint látható, a három édesség hozzávalói és elkészítési módja hasonló, de a különbség a gyümölcs, a mák és a dió használatában rejlik."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Mi a különbség a Kardinális, Rákóczi túrós és a Női szeszély között?\n",
-            "model_name": "Mixtral 8x22B (API)",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "open-mixtral-8x22b-2404",
-            "n": 1,
-            "temperature": 0.7,
-            "top_p": 1.0,
-            "transformers_model_path": "mistralai/Mixtral-8x22B-Instruct-v0.1"
           }
         },
         {
