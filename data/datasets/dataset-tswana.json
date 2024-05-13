@@ -81,6 +81,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:0:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking Setswana!\n\n\"Bogadi ke eng mme bo ntshiwa jang?\" translates to \"What is the bride price and how will it be paid?\"\n\nIn Setswana culture, \"bogadi\" refers to the bride price or lobola, which is a traditional payment made by the groom's family to the bride's family as a symbol of respect and gratitude for the bride. The question is asking about the specifics of the bride price and how it will be paid."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bogadi ke eng mme bo ntshiwa jang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -164,6 +186,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:1:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking Setswana!\n\n\"Patlo ya mosadi e dirwa jang?\" translates to \"What is a woman's dress made of?\" in English.\n\nIs there something specific you'd like to know about traditional Setswana clothing or fabrics?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Patlo ya mosadi e dirwa jang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -249,6 +293,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:2:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "It seems like you're speaking in Setswana!\n\nLet me try to break it down:\n\n* \"Letsema ke eng\" means \"What is the problem?\"\n* \"Le bolodiwa ke mang\" means \"It is being done by who?\"\n* \"Mme le dirwa fa go rileng\" means \"And it is being done where?\"\n\nSo, if I'm correct, you're asking: \"What's the problem? Who is doing it? And where is it being done?\"\n\nPlease correct me if I'm wrong!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Letsema ke eng, le bolodiwa ke mang mme le dirwa fa go rileng?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -332,6 +398,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:3:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke kopa gore o kopa gore ke botswe ka Setswana.\n\nMabele a lemiwa jang le ko kae a le mantsi mo Botswana mme a bewa mo go eng fa a sena go robiwa?\n\nKa fa go lebega, mabele a lemiwa ka go farologana le ko kae a le mantsi mo Botswana. Go na le dikgotlhang tse di farologaneng tsa mabele a lemiwa mo Botswana, tse di akaretsang go tswa ko kae a le mantsi go ya ko kae a le mantsi.\n\nMo go tse di akaretsang, go na le mabele a lemiwa a a kgonang go tswa ko kae a le mantsi a a nang le go bewa mo go eng fa a sena go robiwa. Mabele a lemiwa a a kgonang go tswa ko kae a le mantsi a a nang le go bewa mo go eng fa a sena go robiwa ke ka go farologana le ko kae a le mantsi, go akaretsa:\n\n* Mabele a lemiwa a a kgonang go tswa ko kae a le mantsi a a nang le go bewa mo go eng fa a sena go robiwa ka go farologana le ko kae a le mantsi mo go tse di akaretsang.\n* Mabele a lemiwa a a kgonang go tswa ko kae a le mantsi a a nang le go bewa mo go eng fa a sena go robiwa ka go farologana le ko kae a le mantsi mo go tse di akaretsang.\n* Mabele a lemiwa a a kgonang go tswa ko kae a le mantsi a a nang le go bewa mo go eng fa a sena go robiwa ka go farologana le ko kae a le mantsi mo go tse di akaretsang.\n\nKa jalo, mabele a lemiwa a a kgonang go tswa ko kae a le mantsi a a nang le go bewa mo go eng fa a sena go robiwa ke ka go farologana le ko kae a le mantsi mo Botswana."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mabele a lemiwa jang le ko kae a le mantsi mo Botswana mme a bewa mo go eng fa a sena go robiwa?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -417,6 +505,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:4:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking Setswana!\n\n\"Mmino wa sekalaka wa dihosana ke eng mme go aparwa jang?\" can be translated to \"What is the song of the old women's church group, and how do I get to know it?\"\n\nHere's a breakdown of the sentence:\n\n* \"Mmino\" means \"song\"\n* \"wa sekalaka\" means \"of the old women\"\n* \"wa dihosana\" means \"of the church group\"\n* \"ke eng\" means \"what is it\"\n* \"mme\" is a conjunction meaning \"and\"\n* \"go aparwa\" means \"to know it\"\n* \"jang\" is an interrogative particle used to form a question.\n\nSo, it seems like you're asking about a specific song sung by a group of elderly women in a church, and you want to know more about it!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mmino wa sekalaka wa dihosana ke eng mme go aparwa jang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -500,6 +610,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:5:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a great question!\n\nYou're asking why, in Setswana culture, a woman who has not borne children is often stigmatized and marginalized. This is a complex and sensitive topic, and I'll try to provide some insights.\n\nIn traditional Setswana society, childbearing is highly valued and seen as a key aspect of a woman's role and identity. Children are considered a blessing from God and a source of joy, pride, and continuity of the family lineage. A woman's ability to bear children is often seen as a measure of her femininity, fertility, and worth.\n\nThere are several reasons why a woman who has not borne children might be stigmatized:\n\n1. **Cultural expectations**: In Setswana culture, marriage and childbearing are closely tied. A woman's primary role is often seen as a wife and mother, and childlessness can be viewed as a failure to fulfill these expectations.\n2. **Family pressure**: In many African societies, including Setswana culture, family is highly valued, and children are seen as a way to ensure the continuation of the family lineage. A woman who cannot bear children may be seen as a disappointment to her family and community.\n3. **Social status**: In traditional Setswana society, a woman's social status is often tied to her marital status and childbearing ability. A childless woman may be viewed as incomplete or inferior to her peers who have children.\n4. **Economic factors**: In some cases, a woman's ability to bear children may be seen as a way to ensure economic security, as children can provide support and care for their parents in old age.\n5. **Traditional beliefs**: In some Setswana communities, childlessness may be attributed to supernatural causes, such as curses or ancestral displeasure. This can lead to stigma and marginalization of the woman.\n\nIt's essential to recognize that these attitudes and beliefs are not unique to Setswana culture and are prevalent in many societies around the world. However, it's also important to acknowledge that they can be harmful and perpetuate discrimination against women who are unable to bear children.\n\nIn recent years, there has been a growing recognition of the need to challenge these harmful attitudes and promote greater understanding, acceptance, and support for women who are childless, either by choice or circumstance."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mosadi yo o sa nyalwang ga a letlelelwe go tsena merero ya manyalo a setswana. Ke eng fa go ntse jalo?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -585,6 +717,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:6:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "A question in Setswana!\n\nHere's my attempt to translate and answer your question:\n\n\"What is the relationship between Pharologanyo (a type of traditional land ownership) and Secure Land Title, and how does it relate to the decision made by the Land Tribunal (Lekgotla la Kabo Ditsha)?\"\n\nPharologanyo is a traditional system of land ownership in Botswana, where land is held and managed by the community or tribe. Secure Land Title, on the other hand, is a modern system of land ownership that is recognized by the government and provides a formal title deed to the landowner.\n\nThe relationship between Pharologanyo and Secure Land Title is that they are two different systems of land ownership that coexist in Botswana. While Pharologanyo is based on traditional customs and practices, Secure Land Title is a formal system that is recognized by the government and provides a higher level of security and protection to landowners.\n\nThe Land Tribunal (Lekgotla la Kabo Ditsha) is a body that was established to resolve disputes related to land ownership and management in Botswana. In making decisions, the Tribunal takes into account both the traditional Pharologanyo system and the modern Secure Land Title system.\n\nIn recent years, the Botswana government has been working to formalize land ownership and management through the Secure Land Title system, which is seen as a way to promote economic development and reduce conflicts over land. However, this process has also raised concerns about the potential erosion of traditional land rights and the displacement of communities that have historically relied on Pharologanyo.\n\nTherefore, the decision made by the Land Tribunal (Lekgotla la Kabo Ditsha) would likely involve balancing the rights and interests of different stakeholders, including traditional communities, individual landowners, and the government, while also taking into account the need to promote economic development and social justice."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pharologanyo fa gare ga setlankana/lease le setlankana se sesha sa Secure Land Title se se fiwang ke Lekgotla la Kabo Ditsha ke eng?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -668,6 +822,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:7:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "A very interesting question!\n\nIn Botswana, the laws regarding keeping animals in a residential area, also known as a \"setoropo\" in Setswana, are governed by the Townships Act and the Township Regulations.\n\nAccording to the Township Regulations, it is generally not allowed to keep certain animals in a residential area, including:\n\n* Cattle (dikgomo)\n* Pigs (ditonki)\n* Goats (dipodi)\n* Sheep (dinku)\n\nThis is because these animals are considered to be livestock and are not suitable for keeping in a residential area, where they may cause a nuisance, noise, or health hazards to neighbors.\n\nHowever, there are some exceptions and considerations:\n\n* If you have a large plot of land (usually more than 1 acre) and you obtain a special permit from the relevant authorities, you may be allowed to keep some of these animals.\n* Some residential areas may have specific by-laws or rules that allow for the keeping of certain animals, such as chickens or rabbits, but these must be kept in a controlled environment and not cause a nuisance to neighbors.\n* In some cases, the local authorities may grant permission for the keeping of animals in a residential area for specific purposes, such as for educational or therapeutic purposes.\n\nThe main reasons for these laws and regulations are to:\n\n* Maintain public health and safety\n* Prevent noise and nuisance to neighbors\n* Protect the environment and prevent pollution\n* Ensure that residential areas are kept clean and tidy\n\nIt's always best to check with your local authorities or a lawyer to determine the specific laws and regulations applicable to your area and situation."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Molao wa Botswana wareng fa go tla mo go rueleng dipodi, dikgomo, ditonki le dinku mo motseng setoropo? Mabaka a molao ke eng?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -753,6 +929,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:8:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "A Setswana question!\n\n\"Dibini tsa borankana di rwala eng mo maotong mme se dirwa ka eng?\"\n\nTranslation: \"What do the ancestors' spirits take from the grave, and what are they made of?\"\n\nIn Setswana culture, \"dibini tsa borankana\" refers to the spirits of the ancestors. According to traditional beliefs, the ancestors continue to play an important role in the lives of their descendants even after death. They are believed to offer guidance, protection, and wisdom to their families.\n\nThe question is asking what the ancestors' spirits take from the grave, implying that they might be taking something with them to the afterlife. The second part of the question asks what the ancestors' spirits are made of, suggesting a curiosity about their composition or nature.\n\nIn Setswana culture, the ancestors are believed to be spiritual beings that continue to exist after death, and their spirits are thought to be present in the lives of their descendants. They are often revered and respected through rituals and offerings, which are believed to help maintain a connection between the living and the dead.\n\nSo, to answer the question, the ancestors' spirits are not believed to take anything physical from the grave, but rather, they are thought to take the memories, love, and respect of their descendants with them to the afterlife. As for what they are made of, the ancestors' spirits are considered to be spiritual entities that exist beyond the physical realm, and their composition is not something that can be understood in physical terms."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dibini tsa borankana di rwala eng mo maotong mme se dirwa ka eng?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -836,6 +1034,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:9:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking Setswana!\n\nThe correct response would be: \"Nna ke kopa, o a arabela?\"\n\nHere's a breakdown of the conversation:\n\nYou: \"Go tewa jang fa gotwe 'monna ke selepe, o a adimanwa?'\"\nTranslation: \"Do you have a blanket, my man, are you sleeping?\"\n\nMe: \"Nna ke kopa, o a arabela?\"\nTranslation: \"I'm cold, are you awake?\"\n\nIn Setswana culture, it's common to greet each other with a question about one's well-being or circumstances, and the response is usually a similar question or a statement about one's own situation."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Go tewa jang fa gotwe \"monna ke selepe, o a adimanwa?\"\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -921,6 +1141,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:10:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking Setswana!\n\nThe correct translation of your sentence is:\n\n\"Thopi e jewa ke morafe ofe mme o ka re ba e apaya jang?\"\n\nWhich means:\n\n\"What is the name of the family that my mother comes from?\"\n\nHere's a breakdown of the sentence:\n\n* Thopi: What\n* e jewa: is the name\n* ke morafe: of the family\n* ofe: that\n* mme: my mother\n* o ka re: comes from\n* ba: them\n* e apaya: that they are from\n* jang: where"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Thopi e jewa ke morafe ofe mme o ka re ba e apaya jang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1004,6 +1246,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:11:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're asking about the 2022 Namibian floods and what led to the disaster. Here's a brief summary:\n\nIn February 2022, Namibia experienced severe flooding in the northern and central regions, particularly in the Cuvelai-Etosha Basin. The floods were caused by a combination of factors, including:\n\n1. **Heavy rainfall**: Above-average rainfall in Angola, which shares a border with Namibia, led to an overflow of the Cuvelai River and its tributaries. The rainfall was exacerbated by a La Niña event, which brought heavy rainfall to the region.\n2. **Saturated soil**: The soil in the affected areas was already saturated from previous rainfall, reducing its ability to absorb additional water.\n3. **Poor drainage**: The flat topography of the Cuvelai-Etosha Basin, combined with the presence of pans (shallow depressions) and oshanas (natural watercourses), contributed to the slow drainage of water, exacerbating the flooding.\n4. **Climate change**: Rising temperatures and changing precipitation patterns, linked to climate change, may have played a role in the severity of the flooding.\n5. **Human activities**: The construction of dams, roads, and other infrastructure in the region may have altered the natural water flow and increased the risk of flooding.\n\nThe floods resulted in significant damage to infrastructure, including roads, bridges, and homes, and affected thousands of people. The Namibian government, with the assistance of international organizations and NGOs, responded to the disaster by providing aid and support to those affected.\n\nI hope this helps! Let me know if you have any further questions."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ka 2022 o ne o tlhoka eng gore o tlolele molelwane kafa Namibia mme seo se ile sa fetoga leng, ka mabaka afe?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -1089,6 +1353,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:12:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "A question in Setswana!\n\nRoy Sesana is a well-known Botswana activist who has been fighting for the rights of the San people, also known as the Basarwa. He has been a vocal critic of the Botswana government's treatment of the San people, particularly with regards to their forced relocation from their ancestral lands in the Central Kalahari Game Reserve.\n\nIn 2002, Sesana and another San man, Kesitegile Gobotswang, took the Botswana government to court over the relocation of the San people from the reserve. The court case, known as the \"Basarwa case\", was a landmark case that highlighted the struggles of the San people and their fight for their rights.\n\nIn 2006, the High Court of Botswana ruled in favor of Sesana and the other applicants, stating that the government's relocation of the San people was unlawful and unconstitutional. However, the government appealed the decision, and in 2010, the Court of Appeal overturned the High Court's ruling.\n\nDespite this setback, Sesana continued to fight for the rights of the San people, and in 2013, he was awarded the Right Livelihood Award, also known as the \"Alternative Nobel Prize\", for his work in promoting the rights of indigenous peoples.\n\nSo, to answer your question, Roy Sesana ke mang mme ke eng fa a ne a sekisa goromente - Roy Sesana is a person who has been fighting against the government (goromente) for the rights of the San people."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Roy Sesana ke mang mme ke eng fa a ne a sekisa goromente?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1172,6 +1458,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:13:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking Setswana!\n\nLet me try to break it down:\n\n\"Mokoto ke eng\" means \"What's the matter\" or \"What's wrong\".\n\n\"O apewa jang le gone\" means \"You are being sent by someone\" or \"Someone is sending you\".\n\n\"O apewa ke bomang\" means \"You are being sent to the chief\" or \"You are being sent to the authority\".\n\n\"E bile gantsi o apeelwa ko kae\" means \"And often you are being called to somewhere\" or \"And often you are being summoned to a place\".\n\nSo, if I'm correct, the whole sentence could be translated to: \"What's wrong, you're being sent by someone to the chief, and often you're being called to somewhere?\"\n\nPlease correct me if I'm wrong!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mokoto ke eng, o apewa jang le gone o apewa ke bomang e bile gantsi o apeelwa ko kae?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -1257,6 +1565,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:14:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a great question!\n\nLekgotla la kabo (also known as a \"kgotla\" or \"traditional council\") is a traditional institution in Botswana and other Southern African countries, where community leaders and elders gather to discuss and resolve issues affecting the community.\n\nIn the context of your question, \"ditsha la re tsamaiso ya lone ya go fetisetsa setsha ko go yo mongwe/ba bangwe ke eng?\" can be translated to \"What is the purpose of our traditional council in promoting unity among individuals or groups?\"\n\nHere's a possible answer:\n\nThe purpose of lekgotla la kabo in promoting unity among individuals or groups is multifaceted:\n\n1. **Conflict resolution**: The traditional council provides a platform for resolving disputes and conflicts between individuals or groups, promoting understanding and reconciliation.\n2. **Cultural preservation**: Lekgotla la kabo helps to preserve and promote the cultural heritage of the community, fostering a sense of shared identity and unity.\n3. **Community development**: The council discusses and addresses issues related to community development, such as infrastructure, education, and healthcare, which benefits the community as a whole.\n4. **Social cohesion**: By bringing together community leaders and elders, lekgotla la kabo promotes social cohesion and encourages collective responsibility for the well-being of the community.\n5. **Moral guidance**: The traditional council provides moral guidance and wisdom, helping to instill values such as respect, empathy, and cooperation among community members.\n\nIn summary, the purpose of lekgotla la kabo is to promote unity, understanding, and collective progress among individuals and groups within the community, while preserving and promoting the cultural heritage of the community."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lekgotla la kabo ditsha la re tsamaiso ya lone ya go fetisetsa setsha ko go yo mongwe/ba bangwe ke eng?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1340,6 +1670,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:15:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a beautiful question in Setswana!\n\nTranslation: \"What is the cow that is sought after in the kraal of a certain woman, which must be a chief's wife?\"\n\nThis is a traditional Setswana riddle, and the answer is \"wisdom\".\n\nHere's the explanation:\n\n* \"Ke eng kgomo\" means \"What is the cow\" (a metaphor for something valuable or sought after).\n* \"e e tlhabiwang mo lenyalong\" means \"that is sought after in the kraal\" (a kraal is a traditional enclosure for cattle, but here it refers to a woman's domain or household).\n* \"goora mosadi\" means \"of a certain woman\" (referring to a specific woman).\n* \"e tshwanetse go nna namagadi\" means \"which must be a chief's wife\" (a chief's wife is a symbol of wisdom, respect, and authority).\n\nSo, the riddle is asking what is the valuable thing that is sought after in a woman's domain, which is equivalent to the wisdom of a chief's wife. The answer is indeed \"wisdom\", which is a highly valued trait in Setswana culture."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng kgomo e e tlhabiwang mo lenyalong goora mosadi e tshwanetse go nna namagadi?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -1425,6 +1777,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:16:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke kopa go reng fa ngwana a tlhokafetse mo lapeng batsadi ba gagwe le bo monnawe ba bo ba beolwa. \n\nKa Setswana, \"ke kopa\" ke \"I ask\" or \"I want to know\". \"go reng\" ke \"what\" or \"how\". \"fa ngwana\" ke \"that the child\". \"a tlhokafetse\" ke \"has been raised\" or \"was brought up\". \"mo lapeng\" ke \"at home\". \"batsadi ba gagwe\" ke \"by his/her parents\". \"le bo monnawe\" ke \"and his/her siblings\". \"ba bo ba beolwa\" ke \"who were also raised\".\n\nSo, the whole sentence can be translated to: \"I want to know how the child was raised at home by his/her parents and siblings who were also raised.\""
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka go reng fa ngwana a tlhokafetse mo lapeng batsadi ba gagwe le bo monnawe ba bo ba beolwa?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1508,6 +1882,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:17:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a powerful and important question!\n\nIn many African cultures, including Setswana, a woman who has been mistreated or abused by her partner is often expected to stay in the relationship and \"work through\" the issues. However, this expectation can be harmful and even dangerous for the woman involved.\n\nIt's essential to recognize that no one deserves to be mistreated or abused, and it's not the woman's responsibility to \"fix\" the relationship or change her partner's behavior. In fact, staying in an abusive relationship can lead to further harm, including physical, emotional, and psychological trauma.\n\nInstead, it's crucial to prioritize the woman's safety and well-being. If a woman is being mistreated or abused, she should be supported and empowered to make her own decisions about her life and relationships. This may include seeking help from friends, family, or professionals, such as counselors or support groups.\n\nIn terms of what the community can do to support women in these situations, it's essential to:\n\n1. Believe and validate their experiences: Listen to their stories and acknowledge the harm they've suffered.\n2. Offer emotional support: Provide a safe and non-judgmental space for them to express their feelings and concerns.\n3. Connect them with resources: Help them access counseling, legal aid, and other services that can support their well-being and safety.\n4. Challenge harmful gender stereotypes: Encourage the community to recognize that women are not responsible for \"fixing\" their partners or staying in abusive relationships.\n5. Hold perpetrators accountable: Encourage the community to hold men accountable for their actions and to recognize that abuse is never acceptable.\n\nUltimately, it's essential to prioritize the safety, dignity, and autonomy of women who have been mistreated or abused. By doing so, we can work towards creating a more just and equitable society for all."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng mosadi yo o tlhokafaletsweng ke monna a tshwanelwa ke go patsama kana go ribama mo ntlung go fitlhelela go bolokwa?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -1593,6 +1989,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:18:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a profound question!\n\nIn Setswana, you're asking: \"What are the responsibilities of parents towards their child, and how can they ensure their child's future is secure?\"\n\nHere's a breakdown of the responsibilities and some guidance on how parents can secure their child's future:\n\n**Responsibilities of parents:**\n\n1. **Providing basic needs**: Food, shelter, clothing, education, and healthcare.\n2. **Emotional support**: Love, care, and emotional stability.\n3. **Guidance and mentorship**: Teaching values, morals, and life skills.\n4. **Protection**: Ensuring the child's safety and well-being.\n5. **Role modeling**: Setting a good example and demonstrating positive behavior.\n\n**Securing a child's future:**\n\n1. **Education and skills development**: Encourage learning and acquiring skills that will benefit them in the future.\n2. **Financial planning**: Save for their education, healthcare, and other future expenses.\n3. **Character development**: Teach values like hard work, responsibility, and respect for others.\n4. **Encourage independence**: Gradually give them autonomy to make decisions and take responsibility for their actions.\n5. **Build a support network**: Foster relationships with family, friends, and community members who can provide guidance and support.\n6. **Teach problem-solving and critical thinking**: Help them develop skills to navigate challenges and make informed decisions.\n7. **Lead by example**: Demonstrate a strong work ethic, integrity, and a positive attitude towards life.\n\nBy fulfilling these responsibilities and taking steps to secure their child's future, parents can help their child grow into a capable, confident, and successful individual."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng batsadi ba  ngwana yo o  nyalwang ba sa letlelelwe go tsenelela moletlo wa kgoroso ya ngwana wa bone?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1676,6 +2094,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:19:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking Setswana!\n\nKe eng go bewa lepakwana fa pele ga ntlu ya motsetsi yo o sa tswang go belega?\n\nTranslation: \"What is it that is being said about the old man who came from the other side of the river?\"\n\nPlease provide more context or clarify what you're trying to ask, and I'll do my best to assist you!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng go bewa lepakwana fa pele ga ntlu ya motsetsi yo o sa tswang go belega?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -1761,6 +2201,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:20:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking in Setswana!\n\nKe eng fa malome a tshwanelwa ke go fiwa kgomo fa kgaitsadie a nyalwa?\n\nTranslation: \"What's the reason why an uncle is expected to give a cow to his nephew when he gets married?\"\n\nIn Setswana culture, it's a tradition for an uncle (malome) to give a cow (kgomo) to his nephew (kgaitsadie) as a gift when the nephew gets married. This tradition is rooted in the importance of family ties and the role of uncles in the upbringing of their nephews.\n\nThe gift of a cow is a symbol of the uncle's blessing and approval of the marriage. It's also a way of showing appreciation for the nephew's decision to settle down and start a family. The cow is often seen as a valuable asset that can provide for the newlywed couple's needs, such as milk, meat, and labor.\n\nIn addition, the tradition of giving a cow is a way of strengthening family bonds and reinforcing the importance of family relationships. It's a way of saying, \"I'm proud of you, my nephew, and I want to support you as you start this new chapter in your life.\""
+            }
+          },
+          "prompting_state": {
+            "prompt": "ke eng fa malome  a tshwanelwa ke go fiwa kgomo fa kgaitsadie a nyalwa?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1844,6 +2306,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:21:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I apologize, but I'm a large language model, I don't understand the language or dialect you are speaking. The phrase \"Serobe se apewa jang\" doesn't seem to be a valid or recognizable phrase in any language I'm familiar with.\n\nCould you please rephrase or translate your question into a language I can understand, such as English? I'll do my best to assist you."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Serobe  se apewa jang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -1929,6 +2413,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:22:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a thought-provoking question!\n\nIn many African cultures, including Setswana, it's common for a woman to be expected to take care of her husband's family, especially his parents, as part of her marital responsibilities. This can include providing emotional support, helping with household chores, and even contributing financially to their well-being.\n\nIn the context of your question, it's possible that the woman in question may feel obligated to take care of her husband's parents, especially if they are elderly or in need of assistance. This sense of responsibility may stem from cultural expectations, a sense of duty, or even a desire to maintain a good relationship with her in-laws.\n\nHowever, it's essential to recognize that every individual has their own agency and autonomy. The woman in question should not be forced or coerced into taking care of her husband's parents if she is not willing or able to do so. It's crucial to respect her boundaries and prioritize her own well-being and needs.\n\nUltimately, the decision to take care of her husband's parents should be a joint decision made by the couple, taking into account their individual circumstances, resources, and priorities. Open communication, mutual respect, and empathy are essential in navigating such complex family dynamics.\n\nWhat are your thoughts on this matter?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng mosadi yo o sa nyalwang a sa tshwanelwa ke go neelwa magadi fa ngwana wa gagwe a nyalwa?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2012,6 +2518,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:23:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a great question!\n\nKe kopa gore o kopa tlhaloso e e kgonang go tlhalosa sentle.\n\nMmamosadinyana, also known as Queen Mother of the Bakgatla tribe, played a significant role in the history of Botswana. She was a wise and influential leader who lived during the 19th century. At that time, Botswana was not yet an independent country, but rather a collection of tribes and chiefdoms.\n\nDuring her reign, Mmamosadinyana worked tirelessly to unite the Bakgatla tribe and protect their interests. She was known for her bravery, strategic thinking, and diplomatic skills, which earned her the respect of other tribes and European colonizers.\n\nIn the late 19th century, European powers, particularly the British, were scrambling for territories in Africa, including what is now Botswana. Mmamosadinyana recognized the threat that colonialism posed to her people's way of life and their independence. She therefore sought to establish relationships with the British and other European powers to protect her people's interests.\n\nIn 1885, Mmamosadinyana traveled to England to meet with Queen Victoria and other British officials. This historic visit was a bold move, as it was unprecedented for an African leader to travel to Europe to negotiate with colonial powers. During her visit, she successfully lobbied for British protection over her territory, which ultimately led to the establishment of the Bechuanaland Protectorate in 1885.\n\nThe Bechuanaland Protectorate was a British protectorate that covered much of what is now Botswana. While it was not an independent country, it was a significant step towards self-governance and protection from other colonial powers.\n\nMmamosadinyana's efforts ultimately contributed to Botswana's independence in 1966. Her legacy continues to be celebrated in Botswana, and she is remembered as a hero who fought to protect her people's rights and interests.\n\nRegarding your question about the dikgosi (chiefs) seeking protection, it is true that many chiefs in Botswana, including Mmamosadinyana, sought British protection during the late 19th century. This was largely due to the threat posed by other European powers, such as Germany and Portugal, which were also seeking to colonize territories in southern Africa.\n\nBy seeking British protection, the chiefs hoped to maintain some level of autonomy and protect their people from the negative consequences of colonialism. However, this decision ultimately led to the loss of independence and the imposition of colonial rule, which had a profound impact on Botswana's development and people.\n\nI hope this helps clarify things!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke mabaka afe  a puso ya Mmamosadinyana e ne e a neela gore e ka se neele lefatshe la Botswana tshireletso mo maburung a ko Aforika borwa, morago  ga go re dikgosi di kope tshireletso?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -2097,6 +2625,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:24:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking Setswana!\n\nThe correct translation of your sentence is:\n\n\"Why did I not slaughter the goat at my grandfather's homestead when I was given the opportunity?\"\n\nHere's a breakdown of the sentence:\n\n* \"Ke eng\" means \"why\"\n* \"morago\" means \"ago\" or \"in the past\"\n* \"ga go bolaya\" means \"I did not slaughter\"\n* \"kgomo\" means \"goat\"\n* \"mo lenyalong\" means \"at my grandfather's homestead\"\n* \"malome\" means \"grandfather\"\n* \"a neelwa\" means \"when I was given\"\n* \"tlhogo\" means \"opportunity\" or \"chance\"\n\nI hope that helps!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng morago ga go bolaya kgomo mo lenyalong malome a neelwa tlhogo?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2180,6 +2730,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:25:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a great question!\n\nIn Setswana culture, cattle are highly valued and play a significant role in the lives of the people. The question you're asking is about the importance of cattle in the context of marriage and family.\n\nIn traditional Setswana culture, cattle are often used as a form of payment for lobola (bride price) when a man wants to marry a woman. The number of cattle given as lobola is seen as a symbol of the man's commitment to the woman and her family, as well as his ability to provide for her and their future children.\n\nThe phrase \"ke ka go reng dikgomo tsa magadi\" means \"because of the cattle of the in-laws.\" In this context, the question is asking why it's necessary for the number of cattle given as lobola to be so high.\n\nThe answer lies in the cultural significance of cattle in Setswana society. Cattle are seen as a symbol of wealth, prosperity, and status. When a man gives a large number of cattle as lobola, he is demonstrating his wealth and ability to provide for his future wife and her family. The number of cattle also reflects the value placed on the woman and her family by the man and his family.\n\nIn addition, the cattle given as lobola are often seen as a form of insurance for the woman and her family. If the marriage were to fail, the cattle would provide a means of support for the woman and her family.\n\nSo, to answer your question, the number of cattle given as lobola is not just about the number itself, but about the cultural significance and value placed on the woman, her family, and the marriage. It's a way of showing respect, commitment, and provision for the future."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka go reng dikgomo tsa magadi di tshwanetse go nna namagadi gape palo ya tsone e sa tlhotse?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -2265,6 +2837,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:26:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a profound question!\n\nThe question asks, \"What child is not worthy of being comforted by the sun when they are still crying?\"\n\nThis is a beautiful and thought-provoking question that speaks to the universal human need for comfort, care, and compassion. The sun is often a symbol of warmth, nurturing, and life-giving energy, so the question is asking why any child (or person) would not be deserving of comfort and solace when they are in distress.\n\nThe answer, of course, is that every child (and every person) is worthy of comfort and care, regardless of their circumstances. The question is encouraging us to reflect on our own capacity for empathy and compassion, and to recognize that every individual deserves to be treated with kindness and understanding.\n\nIn many African cultures, the sun is also a symbol of wisdom, guidance, and protection, so the question may also be seen as a reminder of the importance of providing guidance and support to those who are struggling.\n\nOverall, this question is a powerful reminder of the importance of empathy, compassion, and kindness in our interactions with others, and encourages us to strive to create a more caring and supportive community for all."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng ngwana a sa tshwanelwa ke go tlhabelwa ke letsatsi a sa ntse a robetse?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2348,6 +2942,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:27:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a thought-provoking question!\n\nIn many African cultures, including Setswana, there are certain traditional practices and beliefs that may seem outdated or even discriminatory to modern eyes. The scenario you've described is one such example.\n\nIn the past, it was indeed a common practice in some African societies for a woman to be prohibited from entering the kraal (lesaka) or cattle enclosure, especially if she was menstruating. This was often based on beliefs about ritual purity, spiritual contamination, or even superstition.\n\nThe reasoning behind this prohibition varied across cultures, but some common justifications included:\n\n1. Fear of spiritual contamination: In some societies, it was believed that a menstruating woman could \"pollute\" the sacred space of the kraal, which was often associated with ancestral spirits and the well-being of the community.\n2. Protection of the woman: In other cases, the prohibition was seen as a way to protect the woman from potential harm or spiritual danger, as the kraal was considered a male domain.\n3. Maintenance of social order: The prohibition may have also served to reinforce traditional gender roles and social hierarchies, with men seen as the primary caretakers of livestock and women relegated to more domestic roles.\n\nHowever, it's essential to recognize that these beliefs and practices are not only outdated but also discriminatory and harmful to women. They perpetuate harmful gender stereotypes, restrict women's autonomy and agency, and can even contribute to gender-based violence.\n\nIn modern times, it's crucial to challenge and reject such harmful practices, promoting instead a culture of equality, respect, and inclusivity. Women should be free to participate in all aspects of community life, including livestock management, without fear of discrimination or exclusion.\n\nSo, to answer your question, it's absolutely unacceptable to prohibit a woman from entering the kraal or participating in livestock management based on her menstrual status or any other discriminatory reason."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng mosadi o tlhokafaletsweng ke monna  a sa tshwanelwa ke go tsena mo lesakeng la dikgomo kgotsa dipudi pele ga a gatisiwa motshotelo kana boloko?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -2433,6 +3049,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:28:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a profound and thought-provoking question!\n\nIn Setswana culture, it is generally expected that a woman should mourn and show respect for her deceased husband by observing certain traditional practices, such as wearing mourning attire, avoiding certain activities, and limiting her social interactions for a period of time.\n\nHowever, the question you're asking is more nuanced. It's asking whether a woman should prioritize her own well-being and happiness over the traditional expectations of mourning, especially if her husband's passing has brought her relief from a difficult or abusive relationship.\n\nWhile there's no one-size-fits-all answer, here are some points to consider:\n\n1. **Self-care is essential**: A woman's well-being and mental health are crucial, and if her husband's passing has brought her relief, it's essential to acknowledge and prioritize her own healing and happiness.\n2. **Breaking free from toxic relationships**: If the marriage was abusive or toxic, it's understandable that the woman might feel a sense of liberation after her husband's passing. In this case, it's essential to recognize that her feelings are valid and that she deserves to live a life free from harm and oppression.\n3. **Respect for tradition, but also personal autonomy**: While traditional practices and expectations are important, they should not come at the expense of a woman's personal autonomy and well-being. It's essential to strike a balance between respecting cultural norms and prioritizing one's own needs and happiness.\n4. **Support systems are crucial**: A woman in this situation should surround herself with a supportive network of family, friends, and community members who can provide emotional support and help her navigate the complexities of her feelings and circumstances.\n\nUltimately, the decision of how to navigate this situation depends on the individual woman's circumstances, values, and priorities. It's essential to approach this situation with empathy, understanding, and a commitment to supporting the woman's well-being and happiness."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng mosadi a tshwanela ke go huralela lebitla fa a latlhela mmu wa bofelo fa go bolokwa monna wa gagwe?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2516,6 +3154,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:29:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a vivid and imaginative scenario you've painted!\n\nLet me try to break it down and provide a possible interpretation:\n\n* \"Ke ka go reng ere fa ngwetsi a goroswa goora monna\" - It seems like you're describing a situation where someone (ngwetsi) is trying to climb over a man (monna) who is lying down or sleeping.\n* \"Masika a monna a letsa megolokwane\" - The man's blanket or covering (masika) is being pulled or dragged (letsa) by the person trying to climb over him, and it's getting tangled or caught (megolokwane) in the process.\n* \"Ba dira o kare ba apaya le go feela le gone go ala diphate\" - It appears that the person trying to climb over the man is doing so with a sense of urgency or desperation (ba dira o kare), as if they're trying to escape or get away from something. They're moving quickly (apaya) and might be feeling anxious or fearful (go feela le gone).\n* \"Gore ngwetsi a tsamaye fa godimo ga tsone go fitlhelela a nna fatshe\" - The person trying to climb over the man eventually manages to get on top of them (fa godimo ga tsone), but in the process, they end up falling or tumbling down (go fitlhelela a nna fatshe).\n\nIf I had to summarize this scenario, I'd say it's a descriptive passage about someone trying to climb over a sleeping or lying person, possibly in a state of panic or urgency, but ultimately ending up falling down in the process.\n\nPlease feel free to provide more context or clarify any aspects of this scenario that I might have misunderstood!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka go reng ere fa ngwetsi  a goroswa goora monna,masika a monna a letsa megolokwane,ba dira o kare ba apaya le go feela le gone go ala diphate gore ngwetsi a tsamaye fa godimo ga tsone go fitlhelela a nna fatshe?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -2601,6 +3261,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:30:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "A very interesting question about the history of Botswana and Namibia!\n\nThe Sedudu Island dispute was a territorial dispute between Botswana and Namibia that lasted for many years. Here's a brief summary:\n\nSedudu Island is a small island located in the Chobe River, which forms the border between Botswana and Namibia. The island is approximately 5 square kilometers in size and is situated near the confluence of the Chobe and Zambezi rivers.\n\nThe dispute over Sedudu Island dates back to the colonial era, when the border between Botswana (then Bechuanaland) and Namibia (then South West Africa) was not clearly defined. In the 1960s and 1970s, both countries claimed sovereignty over the island, leading to tensions between them.\n\nIn 1992, Botswana and Namibia agreed to refer the dispute to the International Court of Justice (ICJ) for arbitration. The ICJ delivered its judgment on December 13, 1999, ruling that Sedudu Island belonged to Botswana.\n\nThe ICJ based its decision on several factors, including:\n\n1. Historical evidence: The court found that the island had been part of Bechuanaland (now Botswana) since the late 19th century.\n2. Treaty provisions: The court interpreted the Anglo-German Treaty of 1890, which established the border between Bechuanaland and German South West Africa (now Namibia), as placing Sedudu Island within Bechuanaland.\n3. Geographical considerations: The court noted that the island was situated on the Botswana side of the Chobe River, which formed the border between the two countries.\n\nFollowing the ICJ's ruling, Botswana and Namibia have generally respected the decision, and the border between the two countries has been demarcated accordingly. While there have been some minor incidents and disagreements over the years, the Sedudu Island dispute is largely considered resolved.\n\nI hope this helps!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lefatshe la Botswana le ne le reng mabapi le kgotlhang gare ga Botswana le Namibia ka kgang ya Sedudu le gore ene ya rarabololwa jang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2684,6 +3366,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:31:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Teemane ya Botswana, also known as the Botswana Democratic Party (BDP), has played a significant role in shaping the economy of Botswana since the country gained independence in 1966. Here are some ways in which the BDP has influenced the economy:\n\n1. **Vision 2016**: The BDP government launched Vision 2016, a long-term development plan aimed at transforming Botswana into a high-income country by 2016. The plan focused on diversifying the economy, improving infrastructure, and promoting economic growth.\n2. **Economic Diversification**: The BDP government has actively pursued economic diversification to reduce the country's dependence on diamond mining, which has been the backbone of the economy. They have encouraged the growth of other sectors such as tourism, manufacturing, and agriculture.\n3. **Investment in Infrastructure**: The BDP government has invested heavily in infrastructure development, including roads, railways, airports, and telecommunications. This has improved connectivity, facilitated trade, and attracted foreign investment.\n4. **Privatization**: The BDP government has implemented privatization policies to promote private sector growth and efficiency. This has led to the privatization of state-owned enterprises, such as the Botswana Telecommunications Corporation and the Botswana Power Corporation.\n5. **Fiscal Discipline**: The BDP government has maintained a reputation for fiscal discipline, which has helped to maintain macroeconomic stability and attract foreign investment.\n6. **Human Resource Development**: The BDP government has invested in education and training programs to develop the skills of the local workforce, which has helped to improve productivity and competitiveness.\n7. **Promoting Foreign Investment**: The BDP government has actively promoted foreign investment through various incentives, such as tax holidays and investment promotion agencies.\n8. **Diversification of Mineral Resources**: The BDP government has encouraged the development of other mineral resources, such as copper, nickel, and coal, to reduce the country's dependence on diamonds.\n9. **Tourism Development**: The BDP government has invested in tourism infrastructure and promoted eco-tourism, which has become a significant contributor to the economy.\n10. **Social Welfare Programs**: The BDP government has implemented various social welfare programs, such as the Old Age Pension and the Destitute Persons Program, to reduce poverty and improve living standards.\n\nWhile the BDP government has made significant contributions to the economy, there are still challenges that need to be addressed, such as high unemployment, income inequality, and dependence on diamonds."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Teemane ya Botswana e fetotse itsholelo ya Botswana ka tsela e fe?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -2769,6 +3473,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:32:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke kopa gore o kopa tlhaloso e e tlhalosang gore palo ya Batswana mo Botswana e nne palo e ko tlase mme morafe wa Botswana o le montsi ko Aforika Borwa.\n\nKa tlhaloso, palo ya Batswana mo Botswana e ka nna palo e ko tlase ka dikeledi tse di latelang:\n\n1. **Palo ya batho**: Palo ya batho mo Botswana e ka nna palo e ko tlase ka gore batho ba Botswana ba le bantsi go feta ba Aforika Borwa. Palo ya batho mo Botswana e na le makga a a kwa godimo ga 2.3 million, mme ya Aforika Borwa e na le makga a a kwa godimo ga 58 million.\n2. **Tshireletso ya setso**: Morafe wa Botswana o le montsi ko Aforika Borwa ka gore o na le tshireletso ya setso e e kwa godimo. Batswana ba na le setso sa bone sa kgosi, sa bogosi, le sa dikgosi tse di kwa godimo. Seno se dira gore morafe wa Botswana o le montsi ko Aforika Borwa.\n3. **Tlhabololo ya setso**: Morafe wa Botswana o le montsi ko Aforika Borwa ka gore o na le tlhabololo ya setso e e kwa godimo. Batswana ba na le tlhabololo ya setso e e kwa godimo, e e dirang gore ba kgone go tlhabolola setso sa bone.\n4. **Palo ya dipuo**: Palo ya dipuo mo Botswana e ka nna palo e ko tlase ka gore dipuo tse di buiwang mo Botswana di le bantsi. Dipuo tse di buiwang mo Botswana di na le Setswana, Sekalanga, le Sesarwa, mme dipuo tse di buiwang ko Aforika Borwa di na le Afrikaans, English, le dipuo tse dingwe.\n5. **Tlhabololo ya tsa ekonomi**: Morafe wa Botswana o le montsi ko Aforika Borwa ka gore o na le tlhabololo ya tsa ekonomi e e kwa godimo. Botswana e na le tsa ekonomi e e kwa godimo, e e dirang gore morafe wa Botswana o le montsi ko Aforika Borwa.\n\nKa jalo, ke kopa gore o kopa tlhaloso e e tlhalosang gore palo ya Batswana mo Botswana e nne palo e ko tlase mme morafe wa Botswana o le montsi ko Aforika Borwa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng se se bakileng gore palo ya Batswana mo Botswana e nne palo e ko tlase mme morafe wa Botswana o le montsi ko Aforika Borwa?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2852,6 +3578,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:33:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a profound and thought-provoking question!\n\nYou're asking about the significance of the traditional Setswana practice of \"ditlamorago\" (paying respects to the ancestors) and how it relates to the concept of \"kgotlhang\" (royalty or chieftainship) in the context of the Tswana people.\n\nIn traditional Tswana culture, \"ditlamorago\" is an essential practice where individuals pay homage to their ancestors, seeking their guidance, protection, and blessings. This is done through various rituals, such as offering sacrifices, praying, and sharing stories about the ancestors' lives and achievements.\n\nNow, regarding the connection to \"kgotlhang,\" you're correct that the institution of chieftainship is deeply rooted in Tswana tradition. The kgosi (chief) is not only a political leader but also a spiritual guardian, responsible for maintaining the balance and harmony between the living and the ancestors.\n\nIn this context, \"ditlamorago\" is closely tied to the kgotlhang system. The kgosi, as the representative of the ancestors, plays a crucial role in facilitating communication between the living and the dead. Through rituals and ceremonies, the kgosi ensures that the ancestors are appeased and that their wisdom and guidance are sought in matters affecting the community.\n\nThe kgosi's role is also linked to the concept of \"morafe\" (nation or community), which encompasses not only the living but also the ancestors. The kgosi is responsible for maintaining the well-being and unity of the morafe, which includes honoring the ancestors and seeking their blessings.\n\nIn the context of Mmamosadinyana (the ancestral realm), the kgosi serves as an intermediary between the living and the dead, ensuring that the ancestors' wisdom and guidance are incorporated into the decision-making processes of the community.\n\nIn summary, \"ditlamorago\" is an integral part of Tswana culture, and its significance is deeply connected to the institution of kgotlhang. The kgosi, as the spiritual guardian of the community, plays a vital role in facilitating communication between the living and the ancestors, thereby maintaining the balance and harmony of the morafe.\n\nI hope this helps clarify the significance of \"ditlamorago\" and its connection to \"kgotlhang\" in Tswana culture!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke dife ditlamorago,tse di neng tsa tsisiwa ke kgotlhang ya tautona wa ntlha morago ga go supa fa ana le maikaelelo a go nyala motho mosweu gotswa ko ga Mmamosadinyana fa gare ga ga rraagwe(kgosi) le morafe?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -2937,6 +3685,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:34:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a great question!\n\nThe reason why different tribes in Botswana are scattered across the country, with some found in the north and others in the south, is a complex and multifaceted one. Here are some historical and geographical factors that contributed to this phenomenon:\n\n1. **Migration and settlement patterns**: Many Batswana tribes migrated from different parts of Africa, including present-day Zambia, Zimbabwe, and South Africa, to settle in Botswana. These migrations occurred over centuries, with different groups arriving at different times. As they settled, they established their own territories, which eventually became the basis for the modern-day tribal distribution.\n2. **Geographical features**: Botswana's geography played a significant role in shaping the distribution of tribes. The Okavango Delta, for example, was attractive to tribes like the Hambukushu and the Subiya, who were skilled in fishing and adapted to the delta's unique environment. The Kalahari Desert, on the other hand, was home to tribes like the San and the Kgalagadi, who were expert hunters and gatherers.\n3. **Climate and natural resources**: The climate and natural resources of different regions in Botswana influenced the settlement patterns of tribes. The north, with its higher rainfall and more fertile soil, was attractive to tribes like the Batawana and the Bakgalagadi, who practiced agriculture. The south, with its drier climate and more limited resources, was home to tribes like the Bangwaketse and the Bakgatla, who were skilled in cattle herding.\n4. **Conflict and displacement**: Unfortunately, conflict and displacement also played a role in shaping the distribution of tribes in Botswana. For example, the Bangwaketse were displaced from their original territory in the north by the Batawana, and eventually settled in the south. Similarly, the Bakgalagadi were displaced by the Ndebele from present-day Zimbabwe and settled in the south.\n5. **Colonialism and administrative boundaries**: During the colonial era, the British drew administrative boundaries that often divided tribes or forced them to settle in specific areas. This led to the creation of \"tribal reserves\" and \"native territories,\" which further solidified the distribution of tribes across the country.\n\nThese factors, among others, contributed to the complex pattern of tribal distribution in Botswana, with different tribes settling in different parts of the country."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng se se bakileng gore merafe e e farologaneng e tshabelelwe  ke go tsamaela thata ko bokone ja Botswana go tswa ko borwa?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3020,6 +3790,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:35:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke kopa gore o kopa tlhaloso e e khibidu ka dikgosi tse tharo tse di dirileng gore di kope go sirelediwa ke puso ya Mmamosadinyana.\n\nKa fa go lebogang, Mmamosadinyana ke kgosi ya baTswana ba ba nang le boitumelo jo bo kwa godimo mo Botswana. O ne a dira gore dikgosi tse tharo tse di kopa go sirelediwa ke puso ya gagwe, e leng:\n\n1. Kgosi Sechele I: O ne a dira gore kgosi ya Bakwena a kope go sirelediwa ke puso ya Mmamosadinyana ka 1890. Sechele I o ne a batla go sirelediwa ke puso ya Mmamosadinyana gore a kope go fokotsa kgang ya boipuso jo bo ne bo sa sirelediwa ke baEurope.\n2. Kgosi Khama III: O ne a dira gore kgosi ya Bamangwato a kope go sirelediwa ke puso ya Mmamosadinyana ka 1891. Khama III o ne a batla go sirelediwa ke puso ya Mmamosadinyana gore a kope go fokotsa kgang ya boipuso jo bo ne bo sa sirelediwa ke baEurope.\n3. Kgosi Bathoen I: O ne a dira gore kgosi ya Bangwaketse a kope go sirelediwa ke puso ya Mmamosadinyana ka 1892. Bathoen I o ne a batla go sirelediwa ke puso ya Mmamosadinyana gore a kope go fokotsa kgang ya boipuso jo bo ne bo sa sirelediwa ke baEurope.\n\nDikgosi tse tharo tse di dirileng gore di kope go sirelediwa ke puso ya Mmamosadinyana di ne di batla go fokotsa kgang ya boipuso jo bo ne bo sa sirelediwa ke baEurope, go sirelediwa ke puso ya Mmamosadinyana go ne go tswa ka fa go lebogang."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke mabaka afe a  dirileng gore dikgosi tse tharo gotswa mo merafeng e e farologaneng, di kope go sirelediwa ke puso ya Mmamosadinyana?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -3105,6 +3897,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:36:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke kgotlhang efe ya sepolotiki e e neng ya dira gore morafe wa Batawana o kgaogane le wa Bangwato, mme Batawana ba tsamaela ko bokone bophirima ja Botswana.\n\nHistorically, the Batawana and Bangwato tribes were both part of the larger Tswana nation, but they developed distinct identities and territories over time. The Batawana tribe, led by Chief Moremi I, originally inhabited the area around Lake Ngami in northwestern Botswana. However, due to a series of political and environmental factors, they migrated to their current location in the Okavango Delta region.\n\nOne of the key factors that contributed to the Batawana's migration was the conflict with the Bangwato tribe, led by Chief Khama III. In the late 19th century, the Bangwato were expanding their territory, and their encroachment on Batawana land led to tensions between the two tribes. The Batawana, seeking to avoid conflict and find more fertile land, began to migrate northwards towards the Okavango Delta.\n\nAnother factor that influenced the Batawana's migration was the impact of the rinderpest epidemic, which devastated their cattle herds in the late 19th century. The Okavango Delta region offered more abundant grazing land and water resources, making it an attractive destination for the Batawana.\n\nAdditionally, the Batawana's migration was also driven by their desire to maintain their independence and autonomy. By moving away from the Bangwato's sphere of influence, the Batawana were able to preserve their cultural identity and traditional way of life.\n\nToday, the Batawana tribe is still found in the Okavango Delta region, where they continue to thrive and maintain their unique cultural heritage. Despite their historical conflicts, the Batawana and Bangwato tribes have developed a more harmonious relationship over time, and both are recognized as important components of Botswana's rich cultural diversity."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke kgotlhang efe ya sepolotiki e e neng ya dira gore morafe wa Batawana o kgaogane le wa Bangwato,mme Batawana ba tsamaela ko bokone bophirima ja Botswana?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3188,6 +4002,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:37:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "A question in Setswana!\n\nSeporo se se tswang south to north se ne se agelwa eng mo Botswana?\n\nTranslation: \"What is the route from south to north that is not blocked in Botswana?\"\n\nHere's a possible answer:\n\nGa ke itse sentle. Seporo se se tswang south to north mo Botswana ke:\n\n* From Lobatse to Francistown via Gaborone and Palapye (A1 highway)\n* From Gaborone to Maun via Nata (A3 highway)\n* From Francistown to Kasane via Nata and Maun (A3 and A33 highways)\n\nThese routes are generally in good condition and not blocked, but it's always a good idea to check for any road closures or construction before embarking on your journey.\n\nPlease note that road conditions can change, and it's always a good idea to check with local authorities or a reliable source for the most up-to-date information."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Seporo se se tswang south to north se ne se agelwa eng mo Botswana?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -3273,6 +4109,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:38:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke kopa gore o kopa ditlhokofatso tsa kgwebo ya go tsena ka mokgwa o o itsegeng. Ka jalo, ke tlhalosa gore:\n\nGo ya ko Gaborone, Botswana, go tswa ko Mafikeng, Aforika Borwa, ke kopa gore o dirise kgwebo ya tsela e e latelang:\n\n1. O tswa ko Mafikeng, o ya ko Vryburg (km 120)\n2. O tswa ko Vryburg, o ya ko Bray (km 130)\n3. O tswa ko Bray, o ya ko Kopfontein Border Post (km 100)\n4. O tswa ko Kopfontein Border Post, o ya ko Tlokweng Gate (km 15)\n5. O tswa ko Tlokweng Gate, o ya ko Gaborone (km 15)\n\nKa tsela e, o tla tsena ka kgwebo ya 380 km, e e tla nna ka nako ya 4-5 hours, ka go tsena ka mokgwa o o itsegeng.\n\nO kopa gore o tshwarele sentle ka tsela e, le gore o tla tsena ka kgwebo ya go tsena ka mokgwa o o itsegeng."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke mabaka afe a a dirileng gore toropo kgolo e fuduge go tswa ko Mafikeng(Aforika Borwa) go ya ko Gaborone?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3356,6 +4214,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:39:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a great question!\n\nAs a hypothetical scenario, let's imagine what Botswana's Vision 2036 might look like in terms of education and health.\n\n**Education:**\n\nBy 2036, Botswana's education system is expected to have undergone significant transformations to produce a highly skilled and knowledgeable workforce that can drive economic growth and development. Some potential goals and achievements might include:\n\n1. **Improved access to quality education**: All citizens have access to quality education from early childhood to tertiary level, with a focus on science, technology, engineering, and mathematics (STEM) subjects.\n2. **Increased literacy rates**: Botswana achieves a literacy rate of at least 95%, with a significant reduction in the number of out-of-school children and youth.\n3. **Enhanced teacher training**: Teachers are well-trained, motivated, and equipped with modern pedagogical skills to deliver effective education.\n4. **Incorporation of technology**: Education is technology-enabled, with digital resources and online platforms used to enhance teaching and learning.\n5. **Vocational training and skills development**: A strong focus on vocational training and skills development programs prepares students for the job market and entrepreneurship.\n\n**Health:**\n\nBy 2036, Botswana's healthcare system is expected to have made significant strides in improving the health and wellbeing of its citizens. Some potential goals and achievements might include:\n\n1. **Universal health coverage**: All citizens have access to quality healthcare, with a focus on preventive care, early detection, and treatment of diseases.\n2. **Improved health infrastructure**: Modern, well-equipped healthcare facilities are available in all regions, with a focus on rural areas.\n3. **Reduced maternal and child mortality rates**: Botswana achieves significant reductions in maternal and child mortality rates, with a focus on improving reproductive health services.\n4. **Increased access to specialized healthcare**: Citizens have access to specialized healthcare services, including cancer treatment, renal care, and mental health services.\n5. **Prevention and control of diseases**: Botswana has effective programs in place to prevent and control diseases such as HIV/AIDS, tuberculosis, and malaria.\n\nThese are just a few potential goals and achievements that Botswana's Vision 2036 might aim to achieve in the areas of education and health."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tebelo pele ya Botswana ya 2036 ,e solofetsa eng mabapi le tsa thuto le tsa botsogo?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -3441,6 +4321,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:40:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking Setswana!\n\nThe correct translation of your question is: \"What should a woman wear to a traditional wedding?\"\n\nIn Setswana culture, traditional weddings are an important part of the community, and the dress code is often formal and respectful. Here's a suggested answer:\n\nMosadi yo nyetsweng a tshwanetse go apara setswana sa bogosi, e e leng setswana se se kgonang go tswa mo setshabeng sa Batswana. Se se tla mo fa kgosi ya go tswa mo setshabeng sa gagwe. (A woman attending a traditional wedding should wear a traditional Setswana attire, which is a respectful and dignified outfit that reflects the culture of the Batswana people. This will show respect for the community and the occasion.)\n\nIn general, a traditional Setswana outfit for women may include:\n\n* A long, flowing skirt or dress made of colorful fabric, often with intricate patterns and designs.\n* A matching or complementary top or blouse, which may be adorned with beads or other traditional ornaments.\n* A headscarf or doek, which is often worn to cover the head as a sign of respect.\n* Traditional jewelry, such as beads or copper bangles, which may be worn to add a touch of elegance and cultural flair.\n\nRemember, the key is to dress modestly and respectfully, while also showcasing the beauty and richness of Setswana culture."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng fa mosadi yo nyetsweng a tshwanetse go apara tjale?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3524,6 +4426,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:41:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "It seems like you're speaking in Setswana!\n\n\"Bogwera ke eng mme bo dirwa jang?\" roughly translates to \"What is bogwera and how is it done?\"\n\nBogwera is a traditional Setswana initiation ceremony for young men, typically between the ages of 15 and 25. The ceremony marks their transition from boyhood to manhood.\n\nDuring the bogwera ceremony, the initiates are taken to a secluded area, usually in the bush, where they undergo a series of physical and mental challenges. These challenges are designed to test their courage, strength, and endurance.\n\nThe initiates are taught important life skills, such as how to hunt, gather, and survive in the wilderness. They are also taught about their cultural heritage, traditions, and responsibilities as men.\n\nThe bogwera ceremony typically lasts for several weeks, during which time the initiates are under the guidance of experienced elders. At the end of the ceremony, the initiates are welcomed back into their communities as young men, and they are expected to take on new responsibilities and roles.\n\nIt's a significant and meaningful tradition in Setswana culture, and it's still practiced today in many parts of Botswana and other countries where Setswana is spoken."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bogwera ke eng mme bo dirwa jang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -3609,6 +4533,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:42:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "It seems like you're speaking in Setswana!\n\n\"Bojale ke eng mme bo dirwa jang?\" roughly translates to \"What's the matter, mother, what's going on?\"\n\nIs there something on your mind that you'd like to talk about? I'm here to listen and help if I can!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bojale ke eng mme bo dirwa jang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3692,6 +4638,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:43:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "A question in Setswana!\n\n\"Bojalwa jwa setswana bo apewa jang?\" can be translated to \"How is the Setswana language written?\"\n\nThe answer is: Setswana is written using the Latin alphabet, with some additional letters and diacritical marks to represent the unique sounds and pronunciation of the language.\n\nIn particular, the Setswana alphabet includes the following additional letters:\n\n* Ć (ch with a hook)\n* Đ (d with a stroke)\n* Ŋ (ng with a hook)\n* Œ (o with a diaeresis)\n* Š (sh with a caron)\n* Ṭ (t with a dot below)\n* Ẋ (x with a dot below)\n\nThese letters and diacritical marks help to distinguish Setswana from other languages written with the Latin alphabet, and ensure that the language is written and pronounced accurately."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bojalwa jwa setswana bo apewa jang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -3777,6 +4745,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:44:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "It seems like you're speaking in a language that I'm not familiar with. Could you please translate or provide more context so I can better understand and assist you?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nku ya mokwele e ntshiwa ka mabaka afe?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3860,6 +4850,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:45:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke kopa gore o kgothalese sentle! Kasane ke motse o o mo bokone-botlhaba jwa Botswana, o o nang le lefelo la bojanala jo bo kgonang go tlhokomela ditlhapi tsa Chobe National Park. Lefelo la bojanala la Kasane le na le ditlhapi tse di kgonang go tlhokomela, go akaretsa Chobe River, lefelo la bojanala le le kgonang go tlhokomela ditlhapi tsa Chobe National Park.\n\nKasane ke motse o o nang le lefelo la bojanala jo bo kgonang go tlhokomela ditlhapi tsa Chobe National Park, lefelo la bojanala le le kgonang go tlhokomela Chobe River, lefelo la bojanala le le kgonang go tlhokomela ditlhapi tsa Chobe National Park. Lefelo la bojanala la Kasane le na le ditlhapi tse di kgonang go tlhokomela, go akaretsa:\n\n* Chobe National Park: ke lefelo la bojanala le le kgonang go tlhokomela ditlhapi tsa Chobe National Park, lefelo la bojanala le le kgonang go tlhokomela Chobe River.\n* Chobe River: ke lefelo la bojanala le le kgonang go tlhokomela Chobe River, lefelo la bojanala le le kgonang go tlhokomela ditlhapi tsa Chobe National Park.\n* Sedudu Valley: ke lefelo la bojanala le le kgonang go tlhokomela Sedudu Valley, lefelo la bojanala le le kgonang go tlhokomela ditlhapi tsa Chobe National Park.\n\nKa jalo, Kasane ke motse o o nang le lefelo la bojanala jo bo kgonang go tlhokomela ditlhapi tsa Chobe National Park, lefelo la bojanala le le kgonang go tlhokomela Chobe River, lefelo la bojanala le le kgonang go tlhokomela ditlhapi tsa Chobe National Park."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng se se dirang gore Kasane e nne lefelo la bojanala?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -3945,6 +4957,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:46:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "A very interesting question!\n\nSo, you're asking about the relationship between President Masisi and his predecessor, Ian Khama. Specifically, you want to know why President Masisi is not following in the footsteps of Ian Khama.\n\nWell, to provide some context, President Mokgweetsi Masisi took over as the President of Botswana in 2018, succeeding Ian Khama, who had served as President since 2008. While both leaders are from the same party, the Botswana Democratic Party (BDP), their leadership styles and policies have differed in some significant ways.\n\nHere are a few reasons why President Masisi has chosen not to follow in Ian Khama's footsteps:\n\n1. **Different leadership style**: President Masisi is known for his more consultative and inclusive approach to governance, whereas Ian Khama was often criticized for his authoritarian style. Masisi has sought to engage more with the opposition, civil society, and the private sector, which has led to a more collaborative atmosphere in the country.\n2. **Economic policies**: President Masisi has introduced policies aimed at diversifying the economy, promoting private sector growth, and reducing the country's dependence on diamonds. In contrast, Ian Khama's administration was criticized for its slow pace of economic reform and over-reliance on diamond revenue.\n3. **Corruption**: President Masisi has taken a stronger stance against corruption, establishing an independent anti-corruption agency and taking action against high-profile corruption cases. Ian Khama's administration was often accused of turning a blind eye to corruption and cronyism.\n4. **Foreign policy**: President Masisi has sought to strengthen Botswana's relationships with other African countries and the international community, whereas Ian Khama's administration was often criticized for its isolationist approach to foreign policy.\n\nOverall, President Masisi has sought to chart a new course for Botswana, one that is more inclusive, transparent, and focused on economic growth and development. While he has built on some of the foundations laid by Ian Khama, he has also introduced significant changes to address the country's challenges and opportunities."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kgotlhang ya polototiki fa gare ga ga Tautona Masisi le Tautona yo o fetileng Ian Khama e bakwa ke eng?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4028,6 +5062,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:47:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a beautiful question in Setswana!\n\nTo answer your question, \"Bakwena ba bina eng mme ke dingwao dife tse di dikologileng sereto?\" can be translated to \"What do the Bakwena people call the things that are hidden in the forest?\"\n\nIn Setswana culture, the Bakwena people are known for their rich tradition and folklore. The phrase \"dingwao dife tse di dikologileng sereto\" refers to mysterious or supernatural things that are believed to be hidden in the forest. These could include ancestral spirits, mythical creatures, or other supernatural beings that are believed to inhabit the forest.\n\nIn Bakwena culture, the forest is considered a sacred place where the living and the dead coexist. The \"dingwao dife\" are believed to be the guardians of the forest and are often associated with ancestral spirits, who are revered and respected by the community.\n\nSo, to answer your question, the Bakwena people might call these hidden things \"badimo\" (ancestors), \"dikgomo\" (spirits), or \"ditlhong\" (mysterious beings). However, the specific terminology used might vary depending on the context and the specific tradition being referred to."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bakwena ba bina eng mme ke dingwao dife tse di dikologileng sereto?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -4113,6 +5169,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:48:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a profound question!\n\nYou're asking, \"What is the origin of language, and how did humans first acquire language, which is different from what animals do, and how does it differ from what we do today?\"\n\nThis is a complex and debated topic among linguists, anthropologists, and cognitive scientists. There is no consensus on a single answer, but here's a brief overview of some theories:\n\n**Origin of Language:**\n\n1. **Gestural Theory**: One theory is that language evolved from a system of gestures, such as pointing, pantomiming, and facial expressions. Over time, these gestures became more complex and vocalizations were added, eventually giving rise to spoken language.\n2. **Vocal Learning Theory**: Another theory suggests that language emerged from the ability to mimic sounds, which is a trait shared by some animals, including birds and primates. Early humans may have developed vocal learning abilities, which eventually led to the creation of language.\n3. **Social Interaction Theory**: This theory proposes that language evolved as a result of social interaction and the need to communicate with each other. Early humans may have developed language as a way to coordinate activities, express emotions, and build relationships.\n\n**Acquisition of Language:**\n\n1. **Innateness Hypothesis**: Some researchers believe that humans are born with an innate ability to acquire language, which is hardwired into our brains. This theory suggests that language acquisition is a natural process that occurs without explicit instruction.\n2. **Usage-Based Theory**: Another perspective is that language acquisition is based on usage and exposure. Children learn language by being exposed to it and through interactions with their caregivers.\n\n**Differences between Human Language and Animal Communication:**\n\n1. **Symbolic Nature**: Human language is symbolic, meaning that words and symbols represent abstract concepts and objects. Animal communication systems, on the other hand, are often based on instinct and association.\n2. **Creativity and Productivity**: Human language allows for creativity and productivity, enabling us to generate an infinite number of sentences and expressions. Animal communication systems are generally more limited and fixed.\n3. **Cultural Transmission**: Human language is transmitted culturally, meaning that it is passed down from generation to generation through social interaction and learning. Animal communication systems are often innate and do not involve cultural transmission.\n\n**Differences between Ancient and Modern Language:**\n\n1. **Complexity**: Modern languages are generally more complex and nuanced than ancient languages, with more sophisticated grammar, vocabulary, and syntax.\n2. **Writing Systems**: The development of writing systems has enabled the creation of written records, which has transformed the way we communicate and preserve knowledge.\n3. **Globalization**: Modern languages have been influenced by globalization, leading to language contact, borrowing, and the emergence of new languages and dialects.\n\nThese are just some of the theories and perspectives on the origin of language, its acquisition, and its differences from animal communication and ancient languages. The study of language is a rich and complex field, and there is still much to be discovered and debated."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Go ya ka ngwao, mosetsana o ne a dira jang fa a bona setswalo sa gagwe sa ntlha mme seo se farologana jang le se se diragalang gompieno?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4196,6 +5274,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:49:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "It seems like you're asking about the Batlokwa people and their traditional practices.\n\nThe Batlokwa are a Tswana tribe found in South Africa, primarily in the North West Province. They have a rich cultural heritage, and their traditional practices are an integral part of their identity.\n\nRegarding their burial practices, the Batlokwa people have a unique way of handling the deceased. In the past, they believed in burying their dead in a sitting position, facing east, which symbolized the direction of the rising sun. This practice was meant to ensure the deceased person's spirit would rise with the sun and journey to the afterlife.\n\nThe Batlokwa people also believed in performing rituals and ceremonies to help the deceased transition to the afterlife. These rituals often involved the slaughter of animals, such as goats or cows, as an offering to the ancestors. The meat from these animals would then be shared among the community as a way of strengthening social bonds and ensuring the well-being of the living.\n\nIn addition, the Batlokwa people believed in the importance of respecting their ancestors and the land of their forefathers. They believed that the land held spiritual significance and that their ancestors continued to play a role in their daily lives.\n\nIt's worth noting that these traditional practices have evolved over time, and modernization has led to changes in the way the Batlokwa people approach death and burial. However, many still hold on to their cultural heritage and continue to practice their traditional customs with pride.\n\nWould you like to know more about the Batlokwa people or their cultural practices?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Batlokwa ba fitlhela baswi ba bone kae mme ke eng ba dira jalo?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -4281,6 +5381,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:50:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking Setswana!\n\nTsamaiso ya go ikopela setsha ko lephateng la Kabo Ditsha ke \"Kabo Ditsha\"."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tsamaiso ya go ikopela setsha ko lephateng la Kabo Ditsha ke efe?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4364,6 +5486,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:51:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke kopa gore o kgone go araba potso eno ka Setswana.\n\nO tswanetse go sala tsamaiso efe morago fa o latlhile Omang? \n\nGa ke itse sentle, Omang ke mang? Fa o ka sebedisa leina la ga Omang, ke kopa gore o tlhalose gore Omang ke mang pele ke ka araba potso eno."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O tswanetse go sala tsamaiso efe morago fa o latlhile Omang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -4449,6 +5593,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:52:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "A question about Botswana politics!\n\nThe Umbrella for Democratic Change (UDC) is a political alliance in Botswana that was formed in 2012. It is a coalition of three opposition parties:\n\n1. Botswana National Front (BNF)\n2. Botswana Movement for Democracy (BMD)\n3. Botswana People's Party (BPP)\n\nThe UDC was formed with the aim of providing a united front against the ruling Botswana Democratic Party (BDP), which has been in power since the country gained independence in 1966. The UDC's main objective is to promote democratic change and good governance in Botswana.\n\nThe UDC has participated in several elections, including the 2014 and 2019 general elections. In the 2019 elections, the UDC won 15 seats in the National Assembly, while the BDP won 38 seats.\n\nThe UDC is currently led by Duma Boko, who is also the president of the BNF. The alliance has been working to strengthen its structures and build a strong opposition to the BDP.\n\nSo, to answer your question, the UDC is not a single party, but rather a coalition of three opposition parties working together to promote democratic change in Botswana."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umbrella for Democratic Change (UDC) ke eng, e eteletswe pele ke mang mme e nale diparty tse kafe mo go yone?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4532,6 +5698,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:53:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a profound question!\n\nIn Setswana, you're asking: \"God of the Bakalaka people, where is He found, and why is it said that He is the one who created everything?\"\n\nHere's a possible response:\n\nModimo wa Bakalaka o kaya kwa kgosing ya gagwe, e bile e le kwa tlhagong ya rena. O obamelelwa kwa dipelong tsa rona, kwa moya o o kgonang go bona. Go dumelwa gore ke ene a tsisang eng ka gore o kile a re tsisa ka boammaaruri, a re tsisa ka boikarabelo, a re tsisa ka boikgantsho. O kile a re tsisa ka gore o kopa go re thusa, go re sireletsa, le go re tlotla.\n\nTranslation:\n\nThe God of the Bakalaka people is in His kingdom, and He is also in our hearts. He is found in our innermost thoughts, in the spirit that enables us to see. It is believed that He created everything because He created us with purpose, with responsibility, and with dignity. He created us so that He could help us, protect us, and love us.\n\nIn this response, I've tried to convey the idea that God is not just a distant being, but a presence that is felt in our hearts and minds. He is the creator who has given us life, purpose, and dignity, and He desires to have a personal relationship with us."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Modimo wa Bakalaka ke ene mang, o obamelelwa kae mme go dumelwa gore ke ene a tsisang eng?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -4617,6 +5805,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:54:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "What a great question!\n\nTshekedi Khama, the uncle of Seretse Khama, the first president of Botswana, played a significant role in the country's history. While he was not the president himself, his influence and leadership contributed to Botswana's development and independence.\n\nHere are a few reasons why Tshekedi Khama is considered a national hero in Botswana:\n\n1. **Resistance against colonialism**: Tshekedi Khama was a strong opponent of British colonial rule in Bechuanaland (now Botswana). He resisted the British attempts to impose their rule and culture on the Batswana people, fighting to preserve their traditional way of life and autonomy.\n2. **Unification of the Batswana people**: Tshekedi Khama worked tirelessly to unite the various tribes and factions of the Batswana people, promoting national unity and cohesion. This helped to create a sense of national identity and paved the way for Botswana's independence.\n3. **Advocate for education and development**: Tshekedi Khama recognized the importance of education and development in building a strong and independent nation. He encouraged the establishment of schools and promoted economic development initiatives, such as agriculture and mining, to improve the lives of the Batswana people.\n4. **Mentorship and guidance**: Tshekedi Khama played a significant role in guiding and mentoring his nephew, Seretse Khama, who would later become the first president of Botswana. He instilled in Seretse the values of leadership, patriotism, and dedication to the people of Botswana.\n\nWhile Tshekedi Khama did not hold the office of president, his contributions to Botswana's history and development are undeniable. He is remembered as a national hero and a champion of the Batswana people's rights and freedoms.\n\nIn summary, Tshekedi Khama's leadership, resistance against colonialism, unification of the Batswana people, advocacy for education and development, and mentorship of Seretse Khama all contributed to Botswana's independence and growth as a nation."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tshekedi Khama ke mang mme o nnile le seabe sefe mo go reng Botswana e bo e le lefatshe le le ikemetseng ka nosi?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4700,6 +5910,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:55:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke eng fa Lentswe la Baratani ko Otse le bidiwa jalo?\n\n(Translation: Why is the language of Baratani also called Otse?)\n\nBaratani and Otse are actually the same language, and they are both names used to refer to the same language spoken in Botswana. The language is also known as Rotse or Rote.\n\nThe reason for the multiple names is due to the complex history of language classification and naming in Botswana. Baratani is the name used by the people who speak the language, while Otse is a name given by outsiders, including linguists and colonial administrators.\n\nIn the past, the language was also referred to as \"Kgalagadi\" or \"Kgalagadi Khoe\", which is a broader language group that includes Baratani/Otse as well as other related languages. However, this name is no longer commonly used, and Baratani/Otse is now recognized as a distinct language.\n\nSo, to answer your question, Lentswe la Baratani ko Otse le bidiwa jalo because they are simply different names for the same language!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng fa Lentswe la Baratani ko Otse le bidiwa jalo?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -4785,6 +6017,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:56:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke kopa gore o kopa tlhaloso ya ga Sir Seretse Khama le Ruth Khama.\n\nSir Seretse Khama, kgosi ya Botswana, o ne a nyala le Ruth Williams, mosadi wa England, ka 1948. Lenyalo la bone la ne la tswa ka kgang ya pharologanyo, ka gore Ruth e ne e le mosadi wa koo, mme Seretse e ne e le kgosi ya Setswana. Ka jalo, lenyalo la bone la ne la tswa ka kgang ya pharologanyo, ka gore ba ne ba tshwanetse go lwantsha maikarabelo a bone a a tswang ka ga mmogo.\n\nRuth Khama, o ne a itshwara jang lefa go nale pharologanyo eo ka gore o ne a tshwanetse go lwantsha maikarabelo a bone a a tswang ka ga mmogo. O ne a tshwanetse go lwantsha kgang ya ga mmogo, ka gore o ne a tshwanetse go nna kgosi ya Setswana, mme a ne a tshwanetse go lwantsha lefa la ga mmogo. O ne a tshwanetse go lwantsha maikarabelo a bone a a tswang ka ga mmogo, ka gore o ne a tshwanetse go nna kgosi ya Botswana.\n\nKa jalo, Ruth Khama o ne a itshwara jang lefa go nale pharologanyo eo ka gore o ne a tshwanetse go lwantsha maikarabelo a bone a a tswang ka ga mmogo, mme a ne a tshwanetse go lwantsha kgang ya ga mmogo. O ne a tshwanetse go lwantsha lefa la ga mmogo, ka gore o ne a tshwanetse go nna kgosi ya Botswana."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng se se neng se le pharologano ka lenyalo la ga Sir Seretse Khama le Ruth Khama mme Ruth Khama o ne a itshwara jang lefa go nale pharologanyo eo?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4868,6 +6122,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:57:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking in Sesotho!\n\n\"Leinane la Sananapo la reng?\" translates to \"What is Sananapo's name?\" in English.\n\nIs there something specific you'd like to know or discuss about Sananapo or Sesotho culture? I'm here to help!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Leinane la Sananapo la reng?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -4953,6 +6229,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:58:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I think you're speaking Korean!\n\n\"Phane e omisiwa jang?\" () roughly translates to \"Do you have a phone charger?\" in English.\n\nIs that correct?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Phane e omisiwa jang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5036,6 +6334,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:59:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "A great question about the significance of Jwaneng, Letlhakane, and Orapa mines in Botswana!\n\nMetse ya Jwaneng, Letlhakane, and Orapa are three of the most prominent diamond mines in Botswana, operated by Debswana, a joint venture between the Botswana government and the De Beers company. Here's how they contribute to the country's economy and benefit the Batswana people:\n\n1. **Economic growth**: The diamond mining industry is a significant contributor to Botswana's GDP, with the three mines generating a substantial portion of the country's revenue. The mines create jobs, stimulate economic growth, and attract foreign investment.\n2. **Employment opportunities**: The mines provide employment opportunities for thousands of Batswana, both directly and indirectly. This helps to reduce unemployment rates and improve living standards for many families.\n3. **Government revenue**: The Botswana government receives a significant share of the revenue generated by the mines, which is used to fund various public services, such as education, healthcare, and infrastructure development.\n4. **Infrastructure development**: The mines have led to the development of infrastructure in the surrounding areas, including roads, bridges, and utilities like water and electricity. This infrastructure benefits not only the mines but also the local communities.\n5. **Social responsibility**: Debswana, the operating company, has a strong commitment to social responsibility. The company invests in community development projects, such as education and healthcare initiatives, to benefit the local communities.\n6. **Diversification of the economy**: The diamond mining industry has helped Botswana diversify its economy, reducing its dependence on agriculture and other sectors. This diversification has contributed to the country's economic stability and growth.\n7. **Technology transfer**: The mines have introduced modern technology and expertise to Botswana, which has helped to develop the country's skills base and capacity in the mining sector.\n8. **Environmental management**: Debswana has implemented various environmental management practices to minimize the impact of mining on the environment. This includes rehabilitation of mined areas, water conservation, and waste management.\n\nIn summary, the Jwaneng, Letlhakane, and Orapa mines are crucial to Botswana's economy and have a significant impact on the lives of Batswana people. They provide employment opportunities, generate revenue, and contribute to infrastructure development, while also promoting social responsibility and environmental sustainability."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Metse ya Jwaneng le Letlhakane la Orapa e itsege ka eng mme e thusa Batswana jang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -5121,6 +6441,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:60:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Ke kopa gore o ka tlhalosa sentle se se tumisitseng phuti mo historing ya rona.\n\nKa histori ya rona, go na le dikgopolo tse di farologaneng tse di tumisitseng phuti, mme ke tla tlhalosa ka dikgopolo tse di senyang.\n\n1. **Ditshwanelo tsa batho**: Phuti e ne e le karolo ya ditshwanelo tsa batho, e e neng e tlhokomelwa ke batho ba ba neng ba leka go aga setshaba sa bone. Phuti e ne e le tsela ya go tlhokomela ditshwanelo tsa batho, go akaretsa le go tlhokomela kgwebo ya bone.\n2. **Tshireletso ya setso**: Phuti e ne e le karolo ya tshireletso ya setso, e e neng e tlhokomelwa ke batho ba ba neng ba leka go aga setso sa bone. Phuti e ne e le tsela ya go tlhokomela setso, go akaretsa le go tlhokomela ditshwanelo tsa setso.\n3. **Kgwebo ya setshaba**: Phuti e ne e le karolo ya kgwebo ya setshaba, e e neng e tlhokomelwa ke batho ba ba neng ba leka go aga setshaba sa bone. Phuti e ne e le tsela ya go tlhokomela kgwebo ya setshaba, go akaretsa le go tlhokomela ditshwanelo tsa setshaba.\n4. **Tlhabololo ya setshaba**: Phuti e ne e le karolo ya tlhabololo ya setshaba, e e neng e tlhokomelwa ke batho ba ba neng ba leka go aga setshaba sa bone. Phuti e ne e le tsela ya go tlhokomela tlhabololo ya setshaba, go akaretsa le go tlhokomela ditshwanelo tsa setshaba.\n\nKa histori ya rona, phuti e ne e le karolo ya dikgopolo tse di farologaneng tse di tumisitseng phuti, mme e ne e le tsela ya go tlhokomela ditshwanelo tsa batho, setso, kgwebo ya setshaba, le tlhabololo ya setshaba."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O ka tlhalosa jang se se tumisitseng phuti mo hisitoring ya rona?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5204,6 +6546,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:61:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I see you're speaking Setswana!\n\n\"Kgang ya sepoko sa Mmashia ke ya eng?\" translates to \"What's the news from Mmashia?\"\n\nIf you'd like to share the news or have a conversation in Setswana, I'm happy to chat with you!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kgang ya sepoko sa Mmashia ke ya eng?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
@@ -5289,6 +6653,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:62:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "I apologize, but I'm not familiar with the language or dialect you're speaking. Could you please translate \"Madila a dirwa jang\" into English or provide more context so I can better understand and assist you?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Madila a dirwa jang?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5373,6 +6759,28 @@
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tswana:63:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "A fascinating piece of Botswana's history!\n\nIn 1895, three prominent chiefs from Botswana, then known as Bechuanaland, traveled to Britain to petition Queen Victoria about the British government's plans to annex their territory. These three chiefs were:\n\n1. Khama III of the Bamangwato tribe\n2. Sebele I of the Bakwena tribe\n3. Bathoen I of the Bangwaketse tribe\n\nAt the time, the British government was expanding its colonial empire in Africa, and Bechuanaland was seen as a strategic location for its interests in the region. The British wanted to annex the territory to gain control over the trade routes and natural resources, including diamonds and gold.\n\nThe three chiefs, however, were concerned about the impact of British colonization on their people's way of life, culture, and independence. They were also worried about the encroachment of European settlers on their land and the potential for conflict.\n\nIn response, they decided to take a bold step and travel to Britain to plead their case directly to Queen Victoria. This was a remarkable move, considering the distance, cultural differences, and language barriers involved.\n\nDuring their visit, the chiefs met with Queen Victoria and other high-ranking British officials, including the Colonial Secretary, Joseph Chamberlain. They presented their petition, which outlined their concerns and requested that Bechuanaland be protected from European colonization.\n\nAlthough their mission was not entirely successful, it did lead to some concessions. The British government agreed to establish a protectorate over Bechuanaland, which meant that the territory would be under British protection but not formally annexed. This arrangement allowed the chiefs to maintain some degree of autonomy and control over their lands.\n\nThe journey of these three chiefs to Britain in 1895 is an important milestone in Botswana's history, as it demonstrates the agency and determination of African leaders to resist colonialism and protect their people's interests."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dikgosi tse tharo tse di neng di ile ko Britain ka ngwaga wa 1895 ke bomang mme o ka tlhalosa jang se di neng di ile go se dira koo?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5456,6 +6864,28 @@
             "other_state": {},
             "model": "claude-3-opus-20240229",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tswana:64:language.tswana:llama 3 70b (together.ai)",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "It seems like you're asking about the year and month when Mollo wa Kgolagano was born, as well as his age. However, I need more context or information about who Mollo wa Kgolagano is. Could you please provide more details or clarify your question?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mollo wa kgolagano o ne o tsamaisiwa ka ngwaga ofe, jang, ka mabaka afe?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
           }
         }
       ]
