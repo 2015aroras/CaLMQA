@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING, Annotated, Any, Self, cast
 
 from models.claude_model import ClaudePromptParameters
+from models.google_model import GooglePromptingState
 from models.mistral_model import MistralPromptingState
 from models.model import ModelName, PromptingState
 from models.openai_model import OpenAIPromptParameters
@@ -28,6 +29,7 @@ Source = str
 PromptingStateAnnotation = Annotated[
     Annotated[OpenAIPromptParameters, Tag(OpenAIPromptParameters.__name__)]
     | Annotated[ClaudePromptParameters, Tag(ClaudePromptParameters.__name__)]
+    | Annotated[GooglePromptingState, Tag(GooglePromptingState.__name__)]
     | Annotated[MistralPromptingState, Tag(MistralPromptingState.__name__)]
     | Annotated[TransformersPromptParameters, Tag(TransformersPromptParameters.__name__)]
     | Annotated[PromptingState, Tag(PromptingState.__name__)],

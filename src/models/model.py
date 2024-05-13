@@ -17,6 +17,7 @@ class ModelName(enum.Enum):
     HUMAN_DOT_POINTS = "Human (dot points)"
     GPT_4 = "GPT 4"
     AYA_101 = "AYA 13B"
+    GEMINI_1_5_PRO = "Gemini 1.5 Pro"
     GEMMA_7B = "Gemma 7B"
     LLAMA_3_70B_TOGETHER = "Llama 3 70B (together.ai)"
     MIXTRAL_8X7B = "Mixtral 8x7B"
@@ -45,6 +46,7 @@ class PromptingState:
         assert isinstance(model_name, ModelName)
 
         from models.claude_model import ClaudeModel, ClaudePromptParameters
+        from models.google_model import GoogleModel, GooglePromptingState
         from models.mistral_model import MistralModel, MistralPromptingState
         from models.openai_model import OpenAIModel, OpenAIPromptParameters
         from models.transformers_model import TransformersModel, TransformersPromptParameters
@@ -57,12 +59,15 @@ class PromptingState:
             return TransformersPromptParameters(**kwargs)
         if model_name in ClaudeModel.SUPPORTED_MODELS:
             return ClaudePromptParameters(**kwargs)
+        if model_name in GoogleModel.SUPPORTED_MODELS:
+            return GooglePromptingState(**kwargs)
 
         raise NotImplementedError
 
     @staticmethod
     def get_discriminator_value(v: Any) -> str:
         from models.claude_model import ClaudeModel, ClaudePromptParameters
+        from models.google_model import GoogleModel, GooglePromptingState
         from models.mistral_model import MistralModel, MistralPromptingState
         from models.openai_model import OpenAIModel, OpenAIPromptParameters
         from models.transformers_model import TransformersModel, TransformersPromptParameters
@@ -76,6 +81,8 @@ class PromptingState:
             return TransformersPromptParameters.__name__
         if model_name in ClaudeModel.SUPPORTED_MODELS:
             return ClaudePromptParameters.__name__
+        if model_name in GoogleModel.SUPPORTED_MODELS:
+            return GooglePromptingState.__name__
         if model_name in (ModelName.HUMAN, ModelName.HUMAN_DOT_POINTS):
             return PromptingState.__name__
 
@@ -109,12 +116,15 @@ class Model(metaclass=ABCMeta):
     @classmethod
     def make(cls: type[Self], model_name: ModelName, *args, **kwargs) -> Model:
         from models.claude_model import ClaudeModel
+        from models.google_model import GoogleModel
         from models.mistral_model import MistralModel
         from models.openai_model import OpenAIModel
         from models.transformers_model import TransformersModel
 
         if model_name in ClaudeModel.SUPPORTED_MODELS:
             return ClaudeModel(model_name, *args, **kwargs)
+        if model_name in GoogleModel.SUPPORTED_MODELS:
+            return GoogleModel(model_name, *args, **kwargs)
         if model_name in MistralModel.SUPPORTED_MODELS:
             return MistralModel(model_name, *args, **kwargs)
         if model_name in OpenAIModel.SUPPORTED_MODELS:
