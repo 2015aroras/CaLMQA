@@ -106,12 +106,13 @@ class TransformersModel(Model):
         **prompting_state_kwargs,
     ) -> TransformersPromptParameters:
         prompt_params_dict = dataclasses.asdict(self.default_parameters)
+        prompt_params_dict.update(prompting_state_kwargs)
         prompt_params_dict["prompt"] = prompt
         prompt_params_dict["max_output_tokens"] = (
             max_output_tokens if max_output_tokens is not None else self.max_output_tokens
         )
 
-        return TransformersPromptParameters(**prompt_params_dict, **prompting_state_kwargs)
+        return TransformersPromptParameters(**prompt_params_dict)
 
     def _get_max_memory_map(
         self,
