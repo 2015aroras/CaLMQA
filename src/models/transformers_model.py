@@ -431,14 +431,14 @@ class Aya101Model(TransformersModel):
     ) -> None:
         super().__init__(name, max_output_tokens, **kwargs)
 
-        self.tokenizer = self._init_tokenizer()
-        self.model = self._init_model(gpus, max_mem_per_gpu)
         self._default_parameters = TransformersPromptParameters(
             prompt=None,
             model_name=name,
             max_output_tokens=max_output_tokens,
             model_path="CohereForAI/aya-101",
         )
+        self.tokenizer = self._init_tokenizer()
+        self.model = self._init_model(gpus, max_mem_per_gpu)
 
     @property
     def default_parameters(self) -> PromptingState:
