@@ -135,13 +135,15 @@ class TransformersModel(Model):
         self,
         model: PreTrainedModel,
         prompting_state: TransformersPromptParameters,
+        model_input_dict: dict | None = None,
     ) -> GenerateOutput | torch.LongTensor:
-        if prompting_state.model_input_dict is None:
+        model_input_dict = model_input_dict or prompting_state.model_input_dict
+        if model_input_dict is None:
             msg = "Model input dictionary cannot be None"
             raise ValueError(msg)
 
         return model.generate(
-            **prompting_state.model_input_dict,
+            **model_input_dict,
             max_new_tokens=prompting_state.max_output_tokens,
         )
 
@@ -468,14 +470,11 @@ class Aya101Model(TransformersModel):
         return self._get_prompting_state(prompt)
 
     def prompt(self, prompt: str) -> tuple[str, PromptingState]:
-        encoding = self.tokenizer.encode(prompt, return_tensors="pt")
+        encoding = self.tokenizer.encode(prompt, return_tensors="pt").to(self.model.device)
 
-        prompting_state = self._get_prompting_state(
-            prompt,
-            model_input_dict={"inputs": encoding},
-        )
+        prompting_state = self._get_prompting_state(prompt)
 
-        outputs = self._call_generate(self.model, prompting_state)
+        outputs = self._call_generate(self.model, prompting_state, model_input_dict={"inputs": encoding})
         return self.tokenizer.decode(outputs[0], skip_special_tokens=True), prompting_state
 
     def prompt_and_next_token_probs(
