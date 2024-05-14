@@ -31,6 +31,7 @@ class TransformersPromptParameters(PromptingState):
     model_input_dict: dict | None = None
     output_scores: bool = False
     return_dict_in_generate: bool = False
+    temperature: float = 1.0
 
 
 class TransformersModel(Model):
@@ -145,6 +146,7 @@ class TransformersModel(Model):
         return model.generate(
             **model_input_dict,
             max_new_tokens=prompting_state.max_output_tokens,
+            temperature=prompting_state.temperature,
         )
 
 
@@ -430,6 +432,7 @@ class Aya101Model(TransformersModel):
         max_output_tokens: int,
         gpus: list[int] | None = None,
         max_mem_per_gpu: int | None = None,
+        temperature: float = 1.0,
         **kwargs,
     ) -> None:
         super().__init__(name, max_output_tokens, **kwargs)
@@ -439,6 +442,7 @@ class Aya101Model(TransformersModel):
             model_name=name,
             max_output_tokens=max_output_tokens,
             model_path="CohereForAI/aya-101",
+            temperature=temperature,
         )
         self.tokenizer = self._init_tokenizer()
         self.model = self._init_model(gpus, max_mem_per_gpu)
