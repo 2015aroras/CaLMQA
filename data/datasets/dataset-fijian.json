@@ -103,6 +103,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:0:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na ivakarau ni Fakawela e dau vakayagataki ena gauna ni tawase ni yabaki ena vuku ni vica na vuna bibi ena nodra bula na iTaukei. Eda na raica eso na vuna bibi oqo:\n\n1. **Vakarokoroko kei na Vakarau ni Bula**: Na ivakarau ni Fakawela e dua na sala era dau vakarokorokotaka kina na iTaukei na nodra Kalou, na Kalou ni vanua, kei na nodra qase. E dua na gauna bibi me ra vakavinavinakataka kina na veika vinaka era rawata ena yabaki sa oti ka kerea na veivakalougatataki me baleta na yabaki vou.\n\n2. **Veivakaduavatataki**: Na ivakarau ni Fakawela e dau vakayacori ena veivakaduavatataki ni vanua, matavuvale, kei na yavusa. E dua na gauna me ra sota vata kina na lewe ni vanua, veiwasei, ka vakadeitaka na nodra veiwekani kei na nodra duavata.\n\n3. **Vakarautaki ni Yabaki Vou**: E dua na gauna me ra vakarautaka kina na nodra bula kei na nodra cakacaka me baleta na yabaki vou. E dau vakayacori na veika me vaka na vakasigalevu, vakavinavinaka, kei na veivakauqeti me rawa ni ra vakarau vinaka ena veika era na sotava ena yabaki vou.\n\n4. **Vakarokoroko ni Vanua**: Na ivakarau ni Fakawela e dau vakayacori talega me vakarokorokotaki kina na vanua kei na veika bula kece e tu kina. E dua na gauna me ra vakavinavinakataka kina na veika e solia na vanua kei na nodra qarauna na veika bula.\n\n5. **Vakarokoroko ni Qase**: E dua na gauna bibi me ra vakarokorokotaka kina na nodra qase kei na nodra veivakavulici. E dau vakayacori na veika me vaka na soli ni magiti, veitalanoa, kei na veivakauqeti me rawa ni ra vuli mai vei ira na qase.\n\nNa ivakarau ni Fakawela e dua na ka bibi ena nodra bula na iTaukei, ka vakaraitaka na nodra veiwekani, nodra vakabauta, kei na nodra vakarokoroko ena veika kece e wavokita na nodra bula."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava era daucakava kina na iTaukei na ivakarau ni Fakawela ena gauna ni tawase ni yabaki?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -203,6 +225,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:1:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna era dau digitaka kina na turaga na veisolevaki iteitei sa bera na soqo ni vakamau e rawa ni vu mai na veika e vuqa. E so na vuna bibi e rawa ni wili kina:\n\n1. **Vakarautaki ni Vanua kei na iTuvatuva**: E bibi me vakarautaki vinaka na vanua kei na ituvatuva ni soqo ni vakamau. Na veisolevaki iteitei e rawa ni vukea na kena vakadeitaki ni sa tu vakarau na vanua kei na veika kece e gadrevi.\n\n2. **Vakarautaki ni Kakana**: E bibi me vakarautaki vinaka na kakana me rawa ni marautaki na soqo. Na veisolevaki iteitei e rawa ni vukea na kena vakadeitaki ni sa tu vinaka na kakana kei na kena vakarautaki.\n\n3. **Vakarautaki ni iTavi**: E bibi me kila vinaka na tamata yadua na nona itavi ena soqo. Na veisolevaki iteitei e rawa ni vukea na kena vakadeitaki ni sa kila vinaka na tamata yadua na nona itavi kei na ka me cakava.\n\n4. **Vakarautaki ni iYaya**: E bibi me vakarautaki vinaka na iyaya kece e gadrevi ena soqo. Na veisolevaki iteitei e rawa ni vukea na kena vakadeitaki ni sa tu vinaka na iyaya kece e gadrevi.\n\n5. **Vakarautaki ni iTukutuku**: E bibi me vakarautaki vinaka na itukutuku me baleta na soqo. Na veisolevaki iteitei e rawa ni vukea na kena vakadeitaki ni sa kila vinaka na tamata kece na itukutuku me baleta na soqo.\n\n6. **Vakarautaki ni iTuvatuva ni Siga**: E bibi me vakarautaki vinaka na ituvatuva ni siga me rawa ni muria vinaka na soqo. Na veisolevaki iteitei e rawa ni vukea na kena vakadeitaki ni sa tu vakarau na ituvatuva ni siga kei na veika me caka.\n\nNa veisolevaki iteitei e bibi me rawa ni vakadeitaki ni sa tu vakarau na veika kece e gadrevi me rawa ni marautaki na soqo ni vakamau. E rawa talega ni vukea na kena vakadeitaki ni sa tu vakarau na vanua, na kakana, na iyaya, na itukutuku, kei na ituvatuva ni siga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna era dau digitaka kina na turaga na veisolevaki iteitei sa bera na soqo ni vakamau?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -315,6 +359,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:2:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E Viti, na ivakacavacava e dau kumuni mai vei ira na tamata cakacaka ena kena ivakarau e kilai levu me vaka na \"Pay As You Earn\" (PAYE) tax. Eda na raica mada vakalalai na sala e daucakacakataki kina na ivakacavacava vei ira na tamata cakacaka:\n\n1. **PAYE (Pay As You Earn) Tax**:\n   - Na PAYE e ivakacavacava e kumuni mai vei ira na tamata cakacaka ena veivula. Na ivakacavacava oqo e dau musuki mai na nodra isau ni cakacaka ni bera ni ra ciqoma na nodra isau.\n   - Na levu ni PAYE e vakatau ena levu ni isau ni cakacaka e rawata e dua na tamata cakacaka. E tiko na ivakarau ni ivakacavacava e vakayagataki me vakatauvatani kei na levu ni isau e rawata.\n\n2. **Tax Thresholds and Rates**:\n   - E tiko na ivakarau ni ivakacavacava e vakayagataki ena Viti, ka ra dau vakaleweni ena veiyabaki. Na ivakarau oqo e vakaraitaka na levu ni isau e sega ni vakacavacavataki kei na levu ni ivakacavacava e vakayagataki ena veiyabaki.\n   - Me kena ivakaraitaki, ena 2023, na ivakacavacava e vakayagataki ena isau ni cakacaka e rawata e dua na tamata cakacaka e rawa ni vakaoqo:\n     - Na isau e rawata e sega ni sivia na $30,000 ena dua na yabaki e sega ni vakacavacavataki.\n     - Na isau e sivia na $30,000 ena dua na yabaki e vakacavacavataki ena ivakarau e vakaleweni.\n\n3. **FNPF Contributions**:\n   - E dau musuki talega mai na isau ni cakacaka na nodra ilavo ni vakacegu (FNPF - Fiji National Provident Fund). Na ilavo oqo e sega ni ivakacavacava, ia e dua na ilavo e maroroi me baleta na nodra vakacegu na tamata cakacaka.\n\n4. **Filing Tax Returns**:\n   - Ena so na gauna, e rawa ni gadrevi vei ira na tamata cakacaka mera vakamacalataka na nodra ivakacavacava ena loma ni dua na yabaki. E dau vakayacori oqo ena kena vakayagataki na \"Tax Return\" ka ra dau vakauta yani vei na Fiji Revenue and Customs Service (FRCS).\n\n5. **Tax Deductions and Credits**:\n   - E tiko talega na ivakarau ni musuki ni ivakacavacava e rawa ni ra kerea na tamata cakacaka, me vaka na musuki ni ivakacavacava ena vuku ni nodra vakayagataka na ilavo ena vuli, bula vakavuniwai, kei na so tale na ka.\n\nNa ivakacavacava e dua na ka bibi ena bula vakailavo ni dua na vanua, ka e bibi talega vei ira na tamata cakacaka mera kila na sala e daucakacakataki kina na ivakacavacava me rawa ni ra vakayagataka vakavinaka na nodra ilavo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa daucakacakataki vakacava na ivakacavacava vei ira na tamata cakacaka i Viti?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -415,6 +481,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:3:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na tavioka e dau vakacavara ena vica na sala me yacova na bila ni naila. Eda na raica e ra na iwalewale eso:\n\n1. **Vakacavara na tavioka**: E dau vakacavara na tavioka ni sa matua vinaka. E dau cavu mai na qele ka vakasavasavataki mai na qele kei na drau.\n\n2. **Kauta ki na vale ni vakasobu**: Ni sa vakacavari na tavioka, e dau kauta ki na vale ni vakasobu me vakasavasavataki vinaka.\n\n3. **Vakasavasavataki**: E dau vakasavasavataki vinaka na tavioka ena wai me kua ni vo na qele kei na drau.\n\n4. **Kauta ki na lovo**: Ni sa vakasavasavataki vinaka, e dau kauta ki na lovo me vakasaqa. E rawa talega ni vakasaqa ena dua tale na iwalewale me vaka na vakalolo.\n\n5. **Vakasoburi**: Ni sa vakasaqa oti, e dau vakasoburi na tavioka me vakayagataki ena kena buli na bila ni naila.\n\n6. **Vakayagataki**: Na tavioka sa vakasaqa oti e dau vakayagataki me buli kina na bila ni naila. E dau vakamareqeti na bila ni naila ena so na gauna ni veivakamarautaki kei na soqo.\n\nNa iwalewale ni kena vakacavari na tavioka me yacova na bila ni naila e rawa ni duidui ena veivanua kei na veimataqali iwalewale ni vakasaqa. Ia, na kena bibi me vakasavasavataki vinaka na tavioka ka vakasaqa me rawa ni bulia na bila ni naila vinaka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daucaka vakacava na tavioka yaca mena yacova na Bila ni Naila?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -527,6 +615,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:4:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ena itukutuku makawa kei na veika e dau talanoataki ena itovo vakavanua e Viti, e tukuni ni a yaco mai o Lutunasobasoba ena dua na waqa levu ka yacana na \"Kaunitoni\" se \"Kaunitera\". E tukuni ni a liutaka o Lutunasobasoba na nona matavuvale kei na so tale na lewenivanua ena nodra biubiu mai na vanua o Aferika se na Tokalau ni Vuravura, ka ra qai yaco mai ki Viti. E tukuni ni a tauyavu o Lutunasobasoba ena yasayasa vakaRa, ena vanua e kilai levu ena gauna oqo me o Vuda.\n\nNa itukutuku oqo e sega ni vakadeitaki vakadodonu ena itukutuku vakasaenisi, ia e dua na itukutuku bibi ena itovo vakavanua kei na itovo ni bula vakaviti. E dau talanoataki vakalevu ena veitalanoa ni veimatatamata kei na nodra itukutuku na kawa i Viti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A yaco vakacava i Viti o Lutunasobasoba?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -627,6 +737,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:5:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na yanuyanu ko Makogai e Viti e a digitaki me vanua ni qaravi ira na lewe ni vanua era tauvi 'leprosy' ena vuku ni vica na vuna bibi:\n\n1. **Veiyasaiyanu**: Na Makogai e dua na yanuyanu lailai ka tu vakayawa mai na veiyanuyanu levu. Qo e vukea me vakatabui ira na tauvimate mai na kena veiseyaki yani ki na veivanua tale eso, ka vakalailaitaka na kena basika na mate ena veivanua.\n\n2. **Veikauwaitaki**: Na yanuyanu e rawa ni vakayagataki me dua na vanua ni veivakabulai ka rawa ni vakayacori kina na veiqaravi vakavuniwai. E rawa ni tara kina na valenibula kei na veivale ni tiko na tauvimate.\n\n3. **Veikauyaki ni mate**: Ena gauna makawa, na 'leprosy' e dau nanumi ni dua na mate dau veiseyaki vakalevu. Na kena vakatikori ira na tauvimate ena dua na yanuyanu vakatabui e vukea me vakalailaitaka na rere ni kena veiseyaki.\n\n4. **Veivakatorocaketaki**: Na Makogai e a vakatorocaketaki me dua na vanua ni veivakabulai ka vakaiyau ena veika e gadrevi me qaravi kina na tauvimate. E a tara kina na valenibula, valenivolavola, vale ni tiko, kei na veika tale eso me baleta na nodra bula vinaka na tauvimate.\n\n5. **Veivuke mai vanuatani**: E a tuvanaki talega na veivuke mai na matanitu ni Peritania kei na veimatanitu tale eso me vukea na kena vakatorocaketaki na Makogai me vanua ni veivakabulai.\n\nNa veika kece oqo e vukea na kena digitaki na Makogai me vanua ni qaravi ira na tauvimate ni 'leprosy' ena gauna makawa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava a digitaki kina na yanuyanu ko Makogai mena qaravi ira na lewe ni vanua tauvi 'leprosy'?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -739,6 +871,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:6:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na masi ni Vatulele e dau daucaka ena dua na sala vakatabakidua ka duatani mai na veivanua tale eso e Viti. Na masi oqo e kilai tani ena kena i vakatagedegede kei na kena i vakarau ni cakacaka. Eda na raica na kena i vakarau ni daucaka ena veika oqo:\n\n1. **Kaukauwa ni Vunikau**: Na vunikau e dau vakayagataki ena kena daucaka na masi ni Vatulele e dau kau mai na vunikau ni masi (Broussonetia papyrifera). Na drau ni vunikau oqo e dau vakamamacataki, qai vakayagataki me caka kina na masi.\n\n2. **Vakayagataki ni Vatu**: Na vatu e dau vakayagataki ena kena vakamamacataki na drau ni vunikau ni masi. E dau vakayagataki talega na vatu ena kena vakamareqeti na masi me yaco kina na kena i rairai vinaka.\n\n3. **Vakayagataki ni Drokadroka**: Na drokadrokadrau ni vunikau e dau vakayagataki me vakamareqeti kina na masi. E dau vakayagataki talega na drokadrokadrau ena kena vakamareqeti na masi me yaco kina na kena i rairai vinaka.\n\n4. **Vakayagataki ni Vatu ni Vatu**: Na vatu ni vatu e dau vakayagataki ena kena vakamareqeti na masi. E dau vakayagataki talega na vatu ni vatu ena kena vakamareqeti na masi me yaco kina na kena i rairai vinaka.\n\n5. **Vakayagataki ni Vatu ni Vatu**: Na vatu ni vatu e dau vakayagataki ena kena vakamareqeti na masi. E dau vakayagataki talega na vatu ni vatu ena kena vakamareqeti na masi me yaco kina na kena i rairai vinaka.\n\nNa masi ni Vatulele e kilai tani ena kena i vakatagedegede kei na kena i vakarau ni cakacaka. E dau vakayagataki ena soqo vakavanua, vakawati, kei na soqo tale eso. Na kena i rairai vinaka kei na kena i vakatagedegede e vakatakila na kena bibi ena noda bula vakavanua e Viti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daucaka vakacava na masi ni Vatulele?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -839,6 +993,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:7:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na cava sa daugadrevi mena tauyavutaki na bisinisi lalai i Viti? E vuqa na ka e rawa ni dau vakavuna me dredre na tauyavutaki ni bisinisi lalai e Viti. Eso na vuna bibi e okati kina:\n\n1. **Lack of Access to Finance (Dravudravua ni iLavo ni Veivuke)**: E levu na bisinisi lalai e sega ni rawata na veivuke vakailavo mai vei ira na baqe kei na so tale na vanua ni vakatubuilavo. E dau dredre talega na rawata na vakatubuilavo ni sa sega ni levu na ivakadei.\n\n2. **Regulatory and Bureaucratic Hurdles (iVakarau ni Lewe ni Matanitu kei na Bureacracy)**: E levu na lawa kei na ivakarau ni matanitu e gadrevi me muri, ka rawa ni vakavuna na vakaloloma ni gauna kei na ilavo. E dau vakavuna talega na dredre ni rawata na laiseni kei na vakatulewa ni bisinisi.\n\n3. **Market Access (Rawati ni Makete)**: E dau dredre me ra rawata na makete levu na bisinisi lalai, vakabibi ena veivanua vakayawa. E dau vakavuna na leqa ni veitosoyaki kei na levu ni ilavo e gadrevi me vakayagataki ena kena vakau na iyaya.\n\n4. **Lack of Business Skills and Knowledge (Dravudravua ni Kila kei na Vuku ni Bisinisi)**: E levu na taukei ni bisinisi lalai e sega ni rawata na ivakatagedegede ni vuli kei na kila me baleta na veiliutaki bisinisi, vakatulewa vakailavo, kei na veika tale eso e gadrevi me cicivaki vinaka kina na bisinisi.\n\n5. **Infrastructure Challenges (Leqa ni iTuvatuva ni Veivakatorocaketaki)**: E levu na vanua e Viti e sega ni vinaka na ituvatuva ni veivakatorocaketaki me vaka na gaunisala, livaliva, wai, kei na internet. E rawa ni vakavuna na vakaloloma ni bisinisi kei na kena sega ni rawarawa na veitosoyaki ni iyaya kei na veiqaravi.\n\n6. **Competition (Veiqati)**: E levu na veiqati mai vei ira na bisinisi lelevu kei na bisinisi mai vanuatani. E dau dredre me ra veiqati kina na bisinisi lalai ena vuku ni levu ni nodra ivakadei kei na levu ni nodra iyau.\n\n7. **Economic Conditions (iTuvaki ni Bula Vakailavo)**: Na draki ni bula vakailavo e Viti e rawa ni vakavuna na dredre ni bisinisi lalai. Na veisau ni isau ni iyaya, levu ni cakacaka, kei na veika tale eso e rawa ni vakavuna na leqa ni bisinisi.\n\n8. **Cultural and Social Factors (iTovo kei na iTuvaki ni Vanua)**: E so na gauna e rawa ni vakavuna na itovo vakavanua kei na ituvaki ni vanua na dredre ni tauyavutaki ni bisinisi. Na veiwekani vakavanua kei na veiqaravi vakavanua e rawa ni vakavuna na leqa ni bisinisi.\n\nE bibi me ra kila na taukei ni bisinisi lalai na veika oqo ka ra vakayagataka na veivuke e rawa ni ra rawata me vukea na nodra bisinisi. Na veivuke mai vei ira na matanitu, veivakatorocaketaki ni bisinisi, kei na veivuke vakavuli e rawa ni vukea na nodra rawata na bisinisi lalai na sasaga ni bula vinaka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sa daugadrevi mena tauyavutaki na bisinisi lalai i Viti?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -951,6 +1127,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:8:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na ivakarau ni daukacivi na ura damudamu ena yanuyanu ko Vatulele e daukilai levu baleta ni sa dua na ka makawa ka vakatabakidua ena nodra itovo kei na nodra bula na lewe ni yanuyanu. Na ura damudamu e dua na ka bibi ena nodra bula vakavanua kei na nodra vakabauta na lewe ni yanuyanu. E dau vakayagataki ena so na gauna vakatabakidua, vakabibi ena so na soqo vakavanua kei na soqo vakalotu. Na ivakarau ni kena daukacivi e dua na ka e dau marautaki ka dau vakayacori ena veiyabaki, ka sa dua na ka e dau namaki vakalevu mai vei ira na lewe ni yanuyanu kei ira na vulagi. Na kena daukilai levu e vakavuna talega na kena dau maroroi vakavinaka na itovo makawa kei na kena dau vakayacori ena kena ivakarau dina, ka sega ni veisau vakalevu mai na kena itekitekivu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sa daukilai levu kina na ivakarau ni daukacivi na ura damudamu ena yanuyanu ko Vatulele?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1051,6 +1249,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:9:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E vuqa na vuna e rawa ni sega ni vakaraitaka kina eso na lewe ni politiki na nodra itukutuku vakailavo ni bera na veidigidigi ni yabaki 2022. Eso na vuna bibi e rawa ni wili kina:\n\n1. **Vakararawataki ni Itukutuku**: Eso na lewe ni politiki e rawa ni ra nanuma ni na vakarawarawataka na nodra itutu ke ra sega ni vakaraitaka na nodra itukutuku vakailavo. E rawa ni ra leqataka na veika era na tukuna na lewenivanua me baleta na nodra ituvaki vakailavo.\n\n2. **Vakararawataki ni Veika Vakailavo**: Eso e rawa ni ra sega ni via vakaraitaka na nodra itukutuku vakailavo baleta ni ra leqataka na veika e rawa ni laurai kina, me vaka na nodra vakayagataka vakatawadodonu na ilavo ni matanitu se na nodra vakayagataka vakatawadodonu na ilavo ni veivakadonui.\n\n3. **Leqa ni Vakarautaki**: Eso e rawa ni ra sega ni vakaraitaka na nodra itukutuku vakailavo baleta ni ra sega ni vakarautaka vakavinaka na itukutuku e gadrevi. E rawa ni ra sega ni kila na veika kece e gadrevi me vakaraitaki.\n\n4. **Vakararawataki ni Veika Vakavakarau**: Eso na lewe ni politiki e rawa ni ra sega ni vakaraitaka na nodra itukutuku vakailavo baleta ni ra leqataka na veika e rawa ni yaco ke ra vakaraitaka. E rawa ni ra leqataka na veivakatarogi se veivakacacani mai vei ira na meca vakapolitiki.\n\n5. **Sega ni Vakaroti**: Eso na vanua e rawa ni sega ni vakaroti vakalawa na vakaraitaki ni itukutuku vakailavo ni bera na veidigidigi. Ena kena ituvatuva vakaoqo, eso na lewe ni politiki e rawa ni ra sega ni via vakaraitaka na nodra itukutuku vakailavo baleta ni sega ni gadrevi vakalawa.\n\n6. **Vakararawataki ni Veika Vakailavo**: Eso e rawa ni ra sega ni vakaraitaka na nodra itukutuku vakailavo baleta ni ra leqataka na veika e rawa ni laurai kina, me vaka na nodra vakayagataka vakatawadodonu na ilavo ni matanitu se na nodra vakayagataka vakatawadodonu na ilavo ni veivakadonui.\n\nNa vuna e rawa ni duidui ena veivanua kei na veika e gadrevi vakalawa kei na ituvatuva vakapolitiki e tiko kina na lewe ni politiki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna eso na lewe ni Politiki a sega ni vakaraitaka na nodra itukutuku vakailavo sa bera na veidigidigi ni yabaki 2022?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -1163,6 +1383,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:10:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na kauwai vei ira na lewe ni koro i Togoru me baleta na ibulubulu ena gauna ni ualevu e vu mai na nodra vakabauta kei na nodra ivakarau vakavanua. Ena gauna ni ualevu, era dau vakabauta na lewe ni koro ni na yaco na veika ca ke ra sega ni qarava vakavinaka na nodra ibulubulu. Na ibulubulu e dua na vanua tabu ka dodonu me maroroi vakavinaka, ka ra dau vakabauta ni na vakavuna na leqa kei na tauvimate ke ra sega ni qarava vakavinaka na nodra qase kei na nodra ibulubulu.\n\nEna gauna ni ualevu, na draki ca kei na ualuvu e rawa ni vakacacana na ibulubulu, ka rawa ni vakavuna na nodra kauwai na lewe ni koro ni ra na sega ni qarava vakavinaka na nodra qase. E rawa ni vakavuna talega na leqa ni bula kei na tauvimate ni ra vakabauta ni na vakavuna na cudru ni yalo ni qase ke ra sega ni qaravi vakavinaka. Na kauwai oqo e vu mai na nodra vakabauta vakavanua kei na nodra dau maroroya na nodra itovo kei na nodra ivakarau."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa vakavuna vakacava na kauwai vei ira na lewe ni koro i Togoru me baleta na ibulubulu ena gauna ni ualevu?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1263,6 +1505,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:11:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na veiqaravi ni 'Legal Aid Commission' e Viti e dau vakarautaka na veivuke vakalawa vei ira na lewenivanua era sega ni rawata rawa me ra sauma na nodra i vakailesilesi vakalawa. E vuqa na veiqaravi era dau vakarautaka, ka wili kina:\n\n1. **Vakasama ni Veivuke Vakailesilesi Vakayabaki**: Era dau vakarautaka na veivuke vakalawa vei ira na lewenivanua era sega ni rawata rawa me ra sauma na nodra i vakailesilesi vakalawa ena veika e baleta na veilewai vakavuvale, veilewai ni veivakacacani, veilewai ni veivakacala, kei na veika vakalawa tale eso.\n\n2. **Vakasama ni Veivuke ena Veilewai Vakavuvale**: Era dau vakarautaka na veivuke vakalawa ena veika e baleta na veisere, veiwatini, veitaqomaki ni gone, kei na veika vakavuvale tale eso.\n\n3. **Vakasama ni Veivuke ena Veilewai ni Veivakacala**: Era dau vakarautaka na veivuke vakalawa vei ira na lewenivanua era beitaki ena veivakacala, ka ra sega ni rawata rawa me ra sauma na nodra i vakailesilesi vakalawa.\n\n4. **Vakasama ni Veivuke ena Veika Vakabisinisi**: Era dau vakarautaka na veivuke vakalawa ena veika vakabisinisi, vakataki ira na lewenivanua era via tauyavutaka na nodra bisinisi lailai.\n\n5. **Vakasama ni Veivuke ena Veika Vakaitikotiko**: Era dau vakarautaka na veivuke vakalawa ena veika e baleta na veivakaitikotiko, vakataki ira na lewenivanua era vakatabui mai na nodra itikotiko.\n\n6. **Vakasama ni Veivuke ena Veika Vakavakarau**: Era dau vakarautaka na veivuke vakalawa ena veika e baleta na veivakadeitaki ni veika vakavakarau, vakataki ira na lewenivanua era via vakadeitaka na nodra itukutuku vakalawa.\n\nNa 'Legal Aid Commission' e Viti e dua na i vakatagedegede bibi ena nodra vukei na lewenivanua me ra rawata na nodra dodonu vakalawa, ka me ra taqomaki ena veika vakalawa. E bibi me ra na veitaratara kei na 'Legal Aid Commission' me ra kila na veika e gadrevi me ra rawata kina na veivuke vakalawa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daucakacaka vakacava na veiqaravi ni 'Legal Aid Commission i Viti?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -1375,6 +1639,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:12:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na iTaukei vulagi era dauvakamuria na ivakarau ni dautama ena mata ni katuba levu ni vale me vaka na nodra ivakarau vakavanua kei na nodra itovo vakavanua. Na vuna levu era dauvakamuria kina na ivakarau oqo e vu mai na nodra vakabauta kei na nodra maroroya na itovo vakavanua ka ra dau vakayacora ena nodra veimaliwai kei na nodra veidutaitaka na veiwekani.\n\nEna itovo vakavanua ni iTaukei, na dautama e dua na ivakarau ni vakarokoroko kei na veidokai. Na vulagi e dau vakabibitaki vakalevu ena itovo vakavanua ni iTaukei, ka ra dau vakayacora na itovo ni dautama me vakaraitaka na nodra veikauwaitaki kei na nodra veidokai vua na vulagi. Na dautama ena mata ni katuba levu ni vale e vakaraitaka na nodra maroroya na itovo vakavanua kei na nodra vakarokoroko vua na vulagi, ka vakaraitaka talega na nodra vinakata me marautaki na nona tiko na vulagi ena nodra vale.\n\nEna kena vakayacori na dautama, e dau vakaraitaki kina na veidokai, na veikauwaitaki, kei na veivakabauti, ka ra dau vakabibitaka na iTaukei me maroroi ka me kua ni yali na itovo vakavanua oqo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O ira na iTaukei vulagi era dautama yani ena mata ni katuba levu ni vale, na cava na vuna era dauvakamuria na ivakarau ni dautama o ira na iTaukei vulagi?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1475,6 +1761,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:13:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E levu na vuna era vinakata kina na Nasi ni veiyanuyanu mera sa lesi i Viti Levu. Eso na vuna bibi e okati kina:\n\n1. **Vuli kei na Veivakatorocaketaki**: E levu na gauna, e levu na ivakarau ni vuli kei na veivakatorocaketaki e dau vakayacori e Viti Levu. Na nasi era na rawata kina na veika vou kei na ivakarau ni veiqaravi vinaka.\n\n2. **Cakacaka Vinaka**: E levu na gauna, e levu na cakacaka vinaka kei na isau levu e Viti Levu. Na nasi era na rawata kina na isau vinaka ka vakavinakataka na nodra bula vakailavo.\n\n3. **Vakarautaki Vinaka ni Vale ni Bula**: E levu na vale ni bula kei na valenibula lelevu e Viti Levu ka vakarautaki vinaka ena iyaya kei na ivakarau ni veiqaravi. Na nasi era na rawata kina na veivuke vinaka ena nodra veiqaravi.\n\n4. **Veivakatorocaketaki ni Bula**: E levu na gauna, e levu na veivakatorocaketaki ni bula e Viti Levu ka okati kina na veivakatorocaketaki ni iyaya ni bula, na veivakatorocaketaki ni vanua, kei na veivakatorocaketaki ni veiqaravi.\n\n5. **Vakarautaki Vinaka ni Veivuke**: E levu na veivuke e vakarautaki vinaka e Viti Levu mai vei ira na matanitu, na veitabana ni veivuke, kei na veivakatorocaketaki ni bula.\n\n6. **Vakarautaki Vinaka ni Vuli**: E levu na koronivuli kei na ivakarau ni vuli e Viti Levu ka vakarautaki vinaka ena vuli ni nasi kei na veivakatorocaketaki ni veiqaravi.\n\n7. **Vakarautaki Vinaka ni Bula**: E levu na iyaya ni bula kei na veivakatorocaketaki ni bula e Viti Levu ka vakarautaki vinaka ena nodra veiqaravi na nasi.\n\nNa veika kece oqo e vakaraitaka na bibi ni nodra lesi na nasi ni veiyanuyanu i Viti Levu me rawa ni ra rawata na veivakatorocaketaki vinaka kei na veiqaravi vinaka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna era vinakata kina na Nasi ni veiyanuyanu mera sa lesi i Viti Levu?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -1587,6 +1895,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:14:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na matai ni daukaulotu ka yaco i Viti oya o Reverend William Cross kei Reverend David Cargill mai na London Missionary Society. Era yaco mai ena yabaki 1835. Na nodrau lako mai e a vakavuna na veisau levu ena bula vakayalo kei na bula vakavanua e Viti. Na nodrau cakacaka vakadodonu kei na nodra veivakavulici e a vukea na kena vakadewataki na iVolatabu ena vosa vakaViti kei na kena vakavulici na lotu vaKarisito vei ira na lewenivanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A yaco vakacava i Viti na matai ni daukaulotu?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1687,6 +2017,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:15:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vanua o Viti e vakila vakalevu na revurevu ni mate na misila ena yabaki 1875. Na mate oqo e yaco ena gauna ni veisau levu ena vanua, ni sa qai mai lewa na matanitu vakoloni ni Peritania. Na misila e kauta mai na dua na waqa ni Peritania ka yaco kina na mate oqo me veisiga vica ga sa qai vakatetea vakalevu ena vanua taucoko.\n\nEna vuku ni sega ni vakarau tu na lewenivanua ena mate vou oqo, e levu sara na tamata era mate. E tukuni ni rauta ni 40,000 na kai Viti era mate ena loma ni vica ga na vula. Na mate oqo e vakavuna na levu ni leqa vakayago kei na leqa vakayalo vei ira na lewenivanua, ka vakavuna talega na veisau levu ena nodra bula vakavanua kei na nodra itovo.\n\nNa misila e vakavuna na kena vakalailaitaki na iwiliwili ni lewenivanua, ka vakavuna talega na veisau ena nodra itovo ni bula kei na nodra veiwekani. E vakavuna na levu ni leqa vakayago, vakayalo, kei na leqa vakailavo vei ira na lewenivanua. Na veika oqo e dua na ka bibi ena itukutuku ni vanua o Viti, ka vakavuna na veisau levu ena nodra bula na kai Viti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A vakila vakacava na vanua o Viti ena revurevu ni mate na misila ena yabaki 1875?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -1799,6 +2151,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:16:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na Saqa e dua na ka bibi vei ira na lewe ni vanua o Naigani ena vuku ni nodra itovo vakavanua kei na nodra vakabauta. Eda rawa ni kaya ni sa dua na ka vakavanua ka ra dau maroroya vakavinaka. Na Saqa e rawa ni okati kina na nodra vakavinavinaka, nodra vakamareqeti na nodra vanua, kei na nodra veiwekani vakavanua. E dau okati talega ena nodra soqo vakavanua, vakayalo, kei na nodra itovo ni bula e veisiga. Na kena maroroi na Saqa e vakaraitaka na nodra dau vakamareqeta na nodra itovo makawa kei na nodra vakabauta, ka ra dau vakayacora ena nodra soqo vakavanua kei na nodra veiqaravi vakavanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava era dautaqomaka kina na Saqa o ira na lewe ni vanua o Naigani?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1899,6 +2273,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:17:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E Viti, na ilavo ni peniseni e dau daucaka ena veimataqali sala me vaka na:\n\n1. **Peniseni ni Matanitu**: Na matanitu e solia na peniseni vei ira na tamata cakacaka era sa yacova na yabaki ni vakacegu (vakabibi vei ira na cakacaka ena tabana ni matanitu). Na ilavo ni peniseni e dau vakatau ena gauna era cakacaka kina kei na nodra isau ni cakacaka.\n\n2. **Peniseni ni Tabana ni Cakacaka**: Eso na kabani lelevu kei na tabana ni cakacaka e Viti era dau vakarautaka na nodra ituvatuva ni peniseni vei ira na nodra tamata cakacaka. Na ilavo ni peniseni e dau kumuni mai na isau ni cakacaka ni tamata cakacaka kei na kabani.\n\n3. **Fiji National Provident Fund (FNPF)**: Na FNPF e dua na ituvatuva ni vakacuru ilavo e vakatabakidua vei ira na tamata cakacaka e Viti. Na tamata cakacaka kei na nodra dauveivakatavulici (employer) era dau vakacuru ilavo ki na FNPF ena veivula. Ni sa yacova na yabaki ni vakacegu na tamata cakacaka, e rawa ni ra kerea na nodra ilavo ni FNPF me vaka na nodra isau ni peniseni.\n\n4. **Peniseni ni Veivuke**: Eso talega na ituvatuva ni veivuke e vakarautaki vei ira na tamata era sega ni cakacaka ena dua na gauna balavu se vei ira na sega ni rawata na ilavo ni peniseni ena vuku ni nodra ituvatuva ni cakacaka.\n\nNa ilavo ni peniseni e dau vakatau ena levu ni gauna e cakacaka kina na tamata, na levu ni ilavo e vakacuruma ki na ituvatuva ni peniseni, kei na ituvatuva ni peniseni e vakayagataki. E bibi me ra kila na tamata cakacaka na nodra dodonu kei na ituvatuva ni peniseni e tu vei ira me rawa ni ra vakadeitaka ni ra na rawata na nodra ilavo ni peniseni ni sa yacova na gauna ni vakacegu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daucaka vakacava na ilavo ni Peniseni i Viti?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2011,6 +2407,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:18:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna era dauvakatabui kina o ira na yalewa bukete mera qoli na tobu ni ika e rawa ni vu mai na veika vakavanua kei na vakabauta vakavanua. E so na vanua e dau vakabauti ni na rawa ni vakaleqa na bula ni gone se na vakavuna na leqa ni qoli ke ra qoli na yalewa bukete. E rawa talega ni vu mai na vakabauta ni na rawa ni vakaleqa na bula ni yalewa bukete se na gone ke ra qoli ena gauna ni bukete.\n\nEna so tale na vanua, e rawa ni vu mai na veika vakavanua me vaka na maroroi ni bula ni yalewa kei na gone, ka me kua ni vakaleqai ena veika dredre ni qoli. E rawa talega ni vu mai na vakabauta ni na rawa ni vakavuna na leqa ni qoli se na vakaleqa na bula ni ika ke ra qoli na yalewa bukete.\n\nEna so na gauna, na veika vakavanua oqo e rawa ni sega ni vakamacalataki vakavinaka, ia e dau muria ga na vakabauta kei na ivakarau ni vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna era dauvakatabui o ira na yalewa bukete mera qoli na tobu ni ika?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2111,6 +2529,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:19:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna era dauvakamuria kina na ivakarau ni bulubulutaki o ira na matavuvale ni tagane vei ira na matavuvale ni yalewa e vu mai na itovo vakavanua kei na ivakarau ni bula e dau kilai levu ena so na vanua. E so na vuna bibi e rawa ni okati kina na:\n\n1. **Veidokai kei na Veivakaturagataki**: Na bulubulutaki e dau vakaraitaka na veidokai kei na veivakaturagataki vei ira na matavuvale ni yalewa. E dua na sala me vakaraitaki kina na dokai kei na vakavinavinaka ena nodra vakadonuya na vakawati.\n\n2. **Veivakadeitaki ni Veiyawaki**: Na bulubulutaki e rawa ni dua na sala me vakadeitaki kina na veiyawaki kei na veimaliwai vinaka ena veimatavuvale. E vakaraitaka ni sa duavata na veimatavuvale ena nodra vakadonuya na vakawati.\n\n3. **Veivakadeitaki ni Yalodina**: E vakaraitaka talega na yalodina kei na dina ni nona gagadre na tagane me vakawati kei na yalewa. E dua na sala me vakaraitaki kina na nona vakarau me colata na itavi ni vakawati.\n\n4. **Veivakadeitaki ni Veiyalayalati**: Na bulubulutaki e rawa ni dua na sala me vakadeitaki kina na veiyalayalati ni vakawati. E vakaraitaka ni sa vakarau na tagane me colata na itavi ni veiwatini kei na veivakadeitaki ni nona na maroroya na yalewa.\n\n5. **Veivakadeitaki ni Veivakabauti**: E vakaraitaka talega na veivakabauti kei na veivakadeitaki ni veika vakailavo kei na veika vakayago. E dua na sala me vakaraitaki kina na nona vakarau na tagane me qarava na nona itavi vakavuvale.\n\nNa ivakarau ni bulubulutaki e dau duidui ena veivanua kei na veimataqali itovo vakavanua, ia na kena bibi e tiko ga ena kena vakaraitaki na veidokai, veivakadeitaki, kei na veivakabauti ena veimaliwai ni veimatavuvale."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna era dauvakamuria na ivakarau ni bulubulutaki o ira na matavuvale ni tagane vei ira na matavuvale ni yalewa?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2223,6 +2663,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:20:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na cava a biuta kina na yanuyanu o Naigani ko 'Buisavulu' e dua na taro e dau vakataroga vakalevu ena itukutuku kei na itovo vakavanua e Viti. Na yaca 'Buisavulu' e kilai levu ena itukutuku makawa ni vanua. E kaya na italanoa ni a biuta na yanuyanu o Naigani ena vuku ni veileti kei na veisei vakavanua. E dua na vuna levu e tukuni ni a biuta kina na yanuyanu o Naigani o Buisavulu oya ni a sega ni duavata kei na veiliutaki kei na itovo ni bula e tiko kina ena gauna oya.\n\nEna so na italanoa, e tukuni ni a biuta na yanuyanu o Naigani o Buisavulu me lai vakaitikotiko ena dua tale na vanua e rawa ni lewa vakataki koya na nona bula kei na nona kawa. E dua tale na vuna e rawa ni tukuni ni a biuta kina na yanuyanu o Naigani o Buisavulu oya ni a via vakatovolea na nona kaukauwa kei na nona lewa ena dua tale na vanua vou.\n\nEna itovo vakavanua e Viti, na veiseyaki kei na veitosoyaki ni tamata e dau yaco ena vuku ni veika e so, oka kina na veileti vakavanua, na vakatovolei ni kaukauwa, kei na gagadre me ra kunea na bula vinaka. Na italanoa me baleta na vuna e biuta kina na yanuyanu o Naigani ko Buisavulu e rawa ni duidui ena veivanua kei na veiyatuvosa, ia na kena itinitini e dau tautauvata: a biuta na yanuyanu ena vuku ni veika e yaco ena nona bula kei na nona vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava a biuta kina na yanuyanu o Naigani ko 'Buisavulu'?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2323,6 +2785,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:21:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na yaco ni Degei me kalou ni noda qase iliu e dua na itukutuku bibi ena itovo kei na vakabauta vaka-Viti. E tukuni ni o Degei e dua na kalou levu ka dau vakatulewa ena veika e yaco ena vuravura. E dau vakatakilai vakalevu me dua na gata levu, ka dau tiko ena dua na vanua tabu ena loma ni veikau.\n\nNa yaco ni Degei me kalou e rawa ni vakamacalataki ena vica na sala:\n\n1. **Itukutuku Makawa**: E levu na itukutuku makawa e tukuni kina na yaco ni Degei me kalou. E tukuni ni o koya e dua na kalou kaukauwa ka dau lewa na vuravura kei na bula ni tamata. E dau vakabauta ni o Degei e dau vakatulewa ena veika e yaco ena vuravura kei na bula ni tamata.\n\n2. **Itovo kei na Vakabauta**: Na itovo kei na vakabauta vaka-Viti e dau vakabauta ni o Degei e dua na kalou levu ka dau lewa na vuravura. E dau vakabauta ni o koya e dau vakatulewa ena veika e yaco ena vuravura kei na bula ni tamata.\n\n3. **Veika e Tukuni**: E levu na veika e tukuni me baleta na yaco ni Degei me kalou. E tukuni ni o koya e dua na kalou levu ka dau lewa na vuravura kei na bula ni tamata. E dau vakabauta ni o Degei e dau vakatulewa ena veika e yaco ena vuravura kei na bula ni tamata.\n\n4. **Veika e Tukuni ena iVolatabu**: E levu na veika e tukuni ena iVolatabu me baleta na yaco ni Degei me kalou. E tukuni ni o koya e dua na kalou levu ka dau lewa na vuravura kei na bula ni tamata. E dau vakabauta ni o Degei e dau vakatulewa ena veika e yaco ena vuravura kei na bula ni tamata.\n\nNa yaco ni Degei me kalou e dua na itukutuku bibi ena itovo kei na vakabauta vaka-Viti. E dau vakabauta ni o koya e dua na kalou levu ka dau lewa na vuravura kei na bula ni tamata."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A yaco vakacava me kalou ni noda qase iliu ko Degei?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2435,6 +2919,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:22:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ena itukuni ni vanua kei na itukuni vakavanua e Viti, e dau tukuni ni o Tui Botinibua e dua na turaga kaukauwa ka dau vakayagataka na nona kaukauwa me rawata kina na veitikina e Vitilevu. E dau tukuni ni a vakayagataka na nona vuku, kaukauwa vakayalo, kei na nona kila na veika vakavanua me rawata kina na veivanua. E dau vakabauti ni a vakayagataka talega na nona veimaliwai kei na veiyaloni kei ira na turaga ni vanua me rawa ni vakadeitaka na nona lewa kei na nona veiliutaki.\n\nEna so na itukuni, e dau tukuni ni a vakayagataka na nona kaukauwa vakayalo me vakadruka kina na meca, ka vakayagataka na nona vuku me vakayacora na veiyalayalati kei na veidinadinati kei ira na turaga ni vanua. E dau vakabauti ni a vakayagataka talega na nona kila na veika vakavanua kei na veika vakayalo me rawa ni vakadeitaka na nona lewa kei na nona veiliutaki ena veitikina e Vitilevu.\n\nEna so tale na itukuni, e dau tukuni ni a vakayagataka na nona kaukauwa vakayalo me vakadruka kina na meca, ka vakayagataka na nona vuku me vakayacora na veiyalayalati kei na veidinadinati kei ira na turaga ni vanua. E dau vakabauti ni a vakayagataka talega na nona kila na veika vakavanua kei na veika vakayalo me rawa ni vakadeitaka na nona lewa kei na nona veiliutaki ena veitikina e Vitilevu.\n\nIa, e bibi me da kila ni na duidui na itukuni kei na itukutuku me baleta na Tui Botinibua ena veivanua eso e Viti, ka rawa ni duidui talega na kena iwalewale ni kena vakamacalataki na nona rawata na veitikina e Vitilevu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A rawata vakacava na veitikina i Vitilevu ko Tui Botinibua?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2535,6 +3041,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:23:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na malanivosa \"Dui Mate Ga Na Nona Ucu Ni Vatu\" e dau vakayagataki vakalevu ena nodra vakavakarau na iTaukei ni Viti ena gauna era na vakayacora kina e dua na itavi dredre se bibi. Na ibalebale ni malanivosa oqo e vakaraitaka na yaloqaqa, na duavata kei na yalodina ni tamata yadua ena kena vakayacori na itavi. E vakaraitaka talega ni tamata yadua e na sotava ga na dredre kei na bolebole e donuya, ka sega ni rawa ni vakararavi vei ira na so tale. E vakauqeti ira na tamata me ra yalodina, me ra vakabauta na nodra kaukauwa kei na nodra rawa-ka, ka me ra sega ni rerevaka na dredre era na sotava. E dua na ivakaraitaki ni yaloqaqa kei na duavata ni tamata yadua ena kena vakayacori na itavi bibi ena nodra bula."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava era dauvakayagataka kina na iTaukei na malanivosa \"Dui Mate Ga Na Nona Ucu Ni Vatu\" ena gauna mera vakarau vakayacora na itavi dredre?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2647,6 +3175,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:24:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na 'Qalu se Vakalolo' e dua na iwalewale ni vakasaqa e dau kilai levu ena itovo ni bula ni iTaukei. E dau vakayagataki ena soqo lelevu, vakamau, vakatawase ni gone, kei na soqo ni veivakamarautaki. Na kena vakacokotaki e dau vakayagataki kina na kakana vakatubu waiwai me vaka na niu, tavioka, kei na suka.\n\nEna kena vakasaqa, e dau vakayagataki na niu me vakalolo kina na kakana. Na kena iwalewale e dau vakayacori vakaoqo:\n\n1. **Vakayagataki ni Niu**: Na niu e dau vakasavasavataki, qai vakadredretaki me rawa ni vakayagataki na kena wai kei na kena lolo.\n\n2. **Vakayagataki ni Tavioka**: Na tavioka e dau vakasavasavataki, qai vakalalai se vakamareqeti me rawa ni vakayagataki ena kena vakasaqa.\n\n3. **Vakayagataki ni Suka**: Na suka e dau vakayagataki me vakaloloma kina na kena i lolo.\n\n4. **Vakasasaqa**: Na wai ni niu kei na kena lolo e dau vakamareqeti vata kei na tavioka kei na suka, qai vakasaqa ena dua na kuro levu me yacova ni sa malumu vinaka na tavioka kei na kena sa vakaloloma vinaka na kena i lolo.\n\nNa 'Qalu se Vakalolo' e dua na kakana e dau taleitaki vakalevu ena vuku ni kena i tovo vakavanua kei na kena i vakarau ni vakasaqa. E dau vakayagataki talega ena soqo ni veivakamarautaki kei na soqo ni veivakabulabulataki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Era daucakava vakacava na iTaukei na 'Qalu se Vakalolo'?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2747,6 +3297,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:25:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna levu e dau caka kina na lovo ena gauna ni oga se soqo levu me vaka na siga ni sucu, vakamau, kei na somate e vu mai na kena i tovo vakavanua kei na kena i vakarau ni bula vakavanua e Viti. E so na vuna bibi e okati kina na lovo ena soqo levu oqo e wili kina na:\n\n1. **i Tovo Vakavanua**: Na lovo e dua na i vakarau ni vakasaqa e dau caka vakavanua ka sa i koya na kena i tovo makawa. E dau vakaraitaka na veiwekani kei na veiqaravi vakavanua.\n\n2. **i Kanakana Levu**: Na lovo e rawa ni vakasaqa vakalevu na kakana ena dua ga na gauna. E rawa ni vakani ira na lewe levu ni matavuvale kei na vulagi era tiko ena soqo.\n\n3. **i Kanakana Savasava**: Na kakana e vakasaqarai ena lovo e dau savasava ka bulabula, ni sa vakayagataki kina na kaukamea kei na vatu me vakasaqa kina na kakana, ka sega ni vakayagataki kina na waiwai se na kena i vakatagedegede ni katakata e vakayagataki ena stove.\n\n4. **i Vakaraitaki ni Veidokai**: Na kena caka na lovo e dua na i vakaraitaki ni veidokai kei na veivakaturagataki vei ira na vulagi kei na lewe ni matavuvale. E vakaraitaka na nomu dau veivakabauti kei na nomu dau veivakauqeti ena gauna ni oga.\n\n5. **i Vakarau ni Soqo**: Na lovo e dau okati ena soqo levu me vaka na siga ni sucu, vakamau, kei na somate me vaka ni sa i koya na i vakarau ni soqo vakavanua. E dau vakarautaki kina na kakana e levu ka veivakamarautaki.\n\n6. **i Vakaraitaki ni Veikauwaitaki**: Na kena caka na lovo e vakaraitaka na nomu veikauwaitaki kei na nomu dau veinanumi vei ira na lewe ni matavuvale kei na vulagi. E dua na i vakarau ni veiqaravi kei na veivakabauti.\n\nNa lovo e dua na i vakarau ni vakasaqa e dau taleitaki vakalevu ena Viti ka sa i koya na kena i tovo makawa ka dau caka ena gauna ni soqo levu me vaka na siga ni sucu, vakamau, kei na somate."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna keda daucakava ka kania na lovo e na gauna e daucaka kina e so na mataqali oga me vaka na siga ni sucu, na vakamau kei na somate?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2859,6 +3431,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:26:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na lovo e dua na iwalewale ni vakasaqa magiti vakavanua e Viti. E dau vakayagataki ena soqo lelevu, vakamau, soqo ni matavuvale, kei na soqo vakavanua. Eda na raica mada vakacava na kena daucakava na lovo:\n\n### Me Vakarautaki:\n1. **Kau ni lovo**: E gadrevi na kau ni lovo me vaka na vuni ni vudi, vuni ni niu, se vuni ni ivi.\n2. **Vatu**: E gadrevi na vatu me veivakasaqa. E vinaka me ra vatu ni uciwai baleta ni ra sega ni kabukaburaki.\n3. **Gasau**: E gadrevi na gasau me vakaduria kina na kakana.\n4. **Drauni niu**: E gadrevi na drauni niu me ubia kina na kakana.\n5. **Kakana**: E rawa ni o vakasaqa na vuaka, ika, kakana draudrau, uvi, dalo, kei na so tale na kakana.\n\n### iTuvatuva ni Lovo:\n1. **Vakarautaka na lovo**: \n   - Cava na qele me rauta ni 1-2 futi na kena titobu.\n   - Biuta na vatu ena loma ni qara.\n   - Biuta na kau ni lovo ena dela ni vatu ka vakama me yacova ni sa waqa vinaka na vatu.\n\n2. **Vakarautaka na kakana**:\n   - Biuta na kakana ena gasau se so tale na ka e rawa ni vakayagataki me vaka na lovo basket.\n   - O na rawa ni vakaisulu na kakana ena drauni niu me kua ni vakaleqai ena kubou.\n\n3. **Biuta na kakana ena lovo**:\n   - Ni sa waqa vinaka na vatu, biuta na kakana ena dela ni vatu.\n   - Ubi na kakana ena drauni niu me vakadeitaka ni sa ubi vinaka taucoko.\n\n4. **Kubou**:\n   - Biuta na qele ni sa ubi oti na kakana ena drauni niu. E gadrevi me vakadeitaki ni sa kubou vinaka taucoko me kua ni curuma na cagi.\n\n5. **Vakawaitaka**:\n   - Biuta me rauta ni 2-3 na aua me saqa vinaka kina na kakana. Na kena balavu ni gauna e vakatau ena levu ni kakana kei na kena bibi.\n\n6. **Sereki**:\n   - Ni sa oti na gauna ni vakawaitaka, sereki na qele kei na drauni niu.\n   - Kauta tani na kakana ka vakarautaka me ra kana na tamata.\n\nNa lovo e dua na iwalewale ni vakasaqa e dau taleitaki vakalevu ena vuku ni kena i boi vinaka kei na kena i tovo vakavanua. E dau vakayagataki talega me dua na gauna ni veivakamarautaki kei na veivakauqeti vakamatavuvale kei na veiwekani."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Iko daucakava vakacava na lovo?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2959,6 +3553,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:27:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na bera ni daucaka na vakawati, na kamunaga e dauvakaraitaki me ivakaraitaki ni veidokai, veirokorokovi, kei na veitokani. E dau vakaraitaka talega na veivakadeitaki ni veitokani kei na veivakaliuci ni matavuvale ni tagane kivei yalewa kei na nona matavuvale. Na kamunaga e rawa ni okati kina na iyaya vakavanua, iyau, se iloloma e vakaraitaka na yalo ni veinanumi kei na veidokai. E dua talega na kena ibalebale na kena vakaraitaki ni sa vakarau tu na tagane me taura na itavi ni veimaroroi kei na veitaqomaki ni nona vuvale vou. E dua na ivakarau vakavanua e dau vakayacori me vakadeitaka na veitokani kei na veivakaliuci ni matavuvale ena dua na gauna bibi me vaka na vakawati."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa bera ni daucaka na vakawati, na cava na vuna era dauvakaraitaka kina na kamunaga o ira na wekai tagane kivei yalewa kei na nona matavuvale?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -3071,6 +3687,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:28:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na isolisoli ka soli vei ira na lewe ni vanua o Beqa nira dautara na kama e dua na ka vakasakiti ka kilai levu ena itovo vakavanua e Viti. Na lewe ni vanua o Beqa era kilai levu ena nodra dau tara na kama, ka ra vakatokai me \"bati ni tanoa\" se \"bati ni kama.\"\n\nNa isolisoli e dau soli vei ira na lewe ni vanua o Beqa e dau okati kina na veika e vaka oqo:\n\n1. **Tabua**: Na tabua e dua na ka bibi ena itovo vakavanua e Viti. E dau vakayagataki ena veika bibi me vaka na vakamau, veisorosorovi, kei na veivakamenemenei. Na tabua e dau vakaraitaka na dokai kei na vakarokoroko.\n\n2. **Masi**: Na masi e dua na mataqali isulu vakavanua e Viti, ka dau vakayagataki ena soqo bibi. E dau vakasakiti na kena iubi kei na kena vakamareqeti.\n\n3. **Iyaqona**: Na yaqona e dua na ka bibi ena itovo vakavanua e Viti. E dau vakayagataki ena veisiga ni soqo, vakabibi ena gauna ni veivakamenemenei kei na veivakadrukai.\n\n4. **Iyaloyalo**: Na iyaloyalo e dau okati kina na veika e vaka na isulu, isulu ni vakatagi, kei na veika tale eso e dau vakayagataki ena soqo vakavanua.\n\n5. **Kakana**: Na kakana e dau okati kina na ika, vuaka, dalo, tavioka, kei na veimataqali kakana tale eso e dau vakarautaki ena soqo vakavanua.\n\nNa isolisoli oqo e vakaraitaka na dokai kei na vakarokoroko vei ira na lewe ni vanua o Beqa ena nodra dau tara na kama, ka vakaraitaka talega na veivakamenemenei kei na veivakadrukai vei ira na lewe ni vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "E vu beka vakacava na isolisoli ka soli vei ira na lewe ni vanua o Beqa nira dautara na kama?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3171,6 +3809,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:29:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Kevaka o via taura na veivuke vaka ilavo mai vua na matanitu me baleta na tiko vakalolovira, e tiko eso na ka bibi mo vakarautaka. Na veika oqo e rawa ni duidui vakalailai ena veivanua, ia e dau tuvanaki vakakina:\n\n1. **iVola ni Kerekere**: Mo volavola e dua na ivola ni kerekere ka vakamacalataka kina na nomu leqa vakailavo kei na vuna o gadreva kina na veivuke. E bibi mo vakaraitaka na dina kei na dina ni nomu ituvaki.\n\n2. **iVola ni Kila**: E rawa ni gadrevi mo vakaraitaka e dua na ivola ni kila mai na veitabana vakamatanitu se veivakailesilesi e kilai ka vakadeitaka na nomu ituvaki vakalolovira.\n\n3. **iVola ni Saumi**: Mo vakarautaka na ivola ni saumi ni nomu livaliva, wai, lisi ni vale, kei na so tale na ivola ni saumi me vakaraitaka na nomu ituvaki vakailavo.\n\n4. **iVola ni Kila ni iLavo**: E rawa ni gadrevi mo vakaraitaka na ivola ni kila ni nomu ilavo mai na baqe se na vanua o maroroya kina na nomu ilavo.\n\n5. **iVola ni iVakatakilakila**: Mo vakarautaka na ivola ni ivakatakilakila me vaka na nomu pepa ni sucu, pepa ni ID, se pepa ni veisiko.\n\n6. **iVola ni Veivakadeitaki ni iTuvaki**: Kevaka o tiko ena dua na ituvaki vakalolovira me vaka na tauvimate, vakaleqai ena leqa tubukoso, se so tale na ituvaki, e bibi mo vakaraitaka na ivola ni veivakadeitaki mai na vuniwai se na veitabana e dodonu.\n\n7. **iVola ni Veivakadeitaki ni iTukutuku**: E rawa ni gadrevi mo vakaraitaka na ivola ni veivakadeitaki ni itukutuku mai na veitabana vakamatanitu se veivakailesilesi e kilai ka vakadeitaka na nomu ituvaki vakalolovira.\n\n8. **iVola ni iTukutuku ni iLavo**: Mo vakarautaka na ivola ni itukutuku ni nomu ilavo me vaka na nomu saumi ni cakacaka, penseni, se so tale na ivola ni itukutuku ni ilavo.\n\nE bibi mo vakadeitaka na veika e gadrevi ena nomu vanua ni bera ni o kerekere, ka me vakarautaki vakavinaka na ivola kece e gadrevi. Na kena vakarautaki vakavinaka na ivola oqo ena vukea na nomu kerekere me vakadikevi totolo ka vakadonuya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava soti na ka me vakarautaki yani kevaka ko via taura na veivuke vaka ilavo mai vua na matanitu me baleta na tiko vakalolovira?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -3283,6 +3943,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:30:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "E sega ni tautauvata na ibalebale ni mata tamata \"kai Viti\" kei na \"iTaukei.\" Na \"kai Viti\" e dusia na lewenivanua kece e Viti, wili kina o ira na sega ni iTaukei, ka ra tiko e Viti. E rawa ni okati kina o ira na kai Idia, kai Jaina, kai Rotuma, kei na so tale na mata tamata era sa mai vakaitikotiko e Viti.\n\nNa \"iTaukei\" e dusia ga na lewenivanua dina ni Viti, o ira na kawa i taukei ni vanua, era sa dau vakatokai talega me \"Fijian\" ena vosa vakaPeritania. O ira na iTaukei era taukena na vanua, na itovo vakavanua, kei na veika vakavanua e Viti.\n\nO koya gona, e bibi me da kila na duidui ni ibalebale ni vosa ruarua oqo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "E rawa beka li ni tautauvata na i balebale ni mata tamata o ya na kai Viti kei ira na iTaukei?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3383,6 +4065,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:31:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ena vuku ni itovo vakavanua kei na ivakarau ni bula vakavanua, e dau kilikili me virikotori vakayawa na vatu sabera ni bera ni curu ki loma ni vale ni sa buto na bogi. Na vuna levu e kauta tiko na kena vakayacori na itovo oqo e baleta na kena vakabauta ni rawa ni tiko e dua na yalo ca se dua na ka vakatevoro e rawa ni curu vata kei iko ki loma ni vale. Na virikotori ni vatu sabera e vakaibalebaletaka na kena vakasavasavataki na vanua kei na kena vakasavasavataki na yalo ni tamata me kua ni kauta vata mai na ka ca ki loma ni vale. E dua tale na vuna e rawa ni vakamacalataki kina na itovo oqo oya na kena vakaraitaki ni dokai kei na maroroi ni itovo vakavanua kei na ivakarau ni bula ni noda qase."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni dua na lewe ni vanua daulesutale ki na nona vale ni sa buto na bogi, na cava e kilikili kina mo virika vakayawa sara na vatu sabera ni ko na curu taumada ki na nomu loma ni vale?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -3495,6 +4199,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:32:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ratu Sir Lala Sukuna (1888-1958) e dua na turaga ni vanua ka vakaitutu levu ena itukutuku kei Viti. E kilai levu ena nona veiqaravi vakapolitiki, vakamatasere, kei na nona vakaitavi ena veivakatorocaketaki ni vanua. E dua na turaga ni vanua mai na yasana o Lau, ka vakavulici ena veivakatorocaketaki vakavuli ena veivanua e Viti kei na veimatanitu tani.\n\nE dua na ka levu e kilai kina o Ratu Sukuna oya na nona vakaitavi ena kena tauyavutaki na Native Land Trust Board (NLTB) ena 1940, ka sa qai kilai ena gauna oqo me iTaukei Land Trust Board (TLTB). Na NLTB e dua na tabana bibi e Viti ena kena taqomaki na qele ni taukei kei na kena vakayagataki vakavinaka.\n\nE vakalagilagi talega ena nona veiqaravi ena mataivalu ni Peritania ena iValu Levu I (World War I), ka qai vakalagilagi ena dua na itutu vakaturaga ni Peritania (Knight Bachelor) ena 1939 ena vuku ni nona veiqaravi vakaitaukei kei na veivakatorocaketaki.\n\nNa nona bula kei na nona veiqaravi e vakatoka me dua na ivakaraitaki ni veiliutaki vakaturaga kei na veiqaravi dina ki na vanua kei na matanitu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O cei ko Ratu Sukuna?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3595,6 +4321,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:33:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na rourou vakautona e dua na kakana vakaviti ka daukilai kina na noda vanua. Eda na vakayagataka kina na drau ni dalo (rourou), niu, kei na kena itokani me vaka na ika, moa, se na kena bulumakau. Qo na sala rawarawa ni kena vakarautaki:\n\n### Kena iYaya:\n1. **Rourou** - Drau ni dalo (e rauta ni 10-15 drau)\n2. **Niu** - Lolo ni niu (e rauta ni 2-3 bilo)\n3. **Ika** - Ika droka, ika damudamu, se na ika ni nomu digidigi (e rauta ni 500g)\n4. **Tama ni niu** - (e rauta ni 1 bilo)\n5. **Lolo ni niu** - (e rauta ni 1 bilo)\n6. **Tama ni niu** - (e rauta ni 1 bilo)\n7. **Tama ni niu** - (e rauta ni 1 bilo)\n8. **Tama ni niu** - (e rauta ni 1 bilo)\n9. **Tama ni niu** - (e rauta ni 1 bilo)\n10. **Tama ni niu** - (e rauta ni 1 bilo)\n11. **Tama ni niu** - (e rauta ni 1 bilo)\n12. **Tama ni niu** - (e rauta ni 1 bilo)\n13. **Tama ni niu** - (e rauta ni 1 bilo)\n14. **Tama ni niu** - (e rauta ni 1 bilo)\n15. **Tama ni niu** - (e rauta ni 1 bilo)\n16. **Tama ni niu** - (e rauta ni 1 bilo)\n17. **Tama ni niu** - (e rauta ni 1 bilo)\n18. **Tama ni niu** - (e rauta ni 1 bilo)\n19. **Tama ni niu** - (e rauta ni 1 bilo)\n20. **Tama ni niu** - (e rauta ni 1 bilo)\n21. **Tama ni niu** - (e rauta ni 1 bilo)\n22. **Tama ni niu** - (e rauta ni 1 bilo)\n23. **Tama ni niu** - (e rauta ni 1 bilo)\n24. **Tama ni niu** - (e rauta ni 1 bilo)\n25. **Tama ni niu** - (e rauta ni 1 bilo)\n26. **Tama ni niu** - (e rauta ni 1 bilo)\n27. **Tama ni niu** - (e rauta ni 1 bilo)\n28. **Tama ni niu** - (e rauta ni 1 bilo)\n29. **Tama ni niu** - (e rauta ni 1 bilo)\n30. **Tama ni niu** - (e rauta ni 1 bilo)\n31. **Tama ni niu** - (e rauta ni 1 bilo)\n32. **Tama ni niu** - (e rauta ni 1 bilo)\n33. **Tama ni niu** - (e rauta ni 1 bilo)\n34. **Tama ni niu** - (e rauta ni 1 bilo)\n35. **Tama ni niu** - (e rauta ni 1 bilo)\n36. **Tama ni niu** - (e rauta ni 1 bilo)\n37. **Tama ni niu** - (e rauta ni 1 bilo)\n38. **Tama ni niu** - (e rauta ni 1 bilo)\n39. **Tama ni niu** - (e rauta ni 1 bilo)\n40. **Tama ni niu** - (e rauta ni 1 bilo)\n41. **Tama ni niu** - (e rauta ni 1 bilo)\n42. **Tama ni niu** - (e rauta ni 1 bilo)\n43. **Tama ni niu** - (e rauta ni 1 bilo)\n44. **Tama ni niu** - (e rauta ni 1 bilo)\n45. **Tama ni niu** - (e rauta ni 1 bilo)\n46. **Tama ni niu** - (e rauta ni 1 bilo)\n47. **Tama ni niu** - (e rauta ni 1 bilo)\n48. **Tama ni niu** - (e rauta ni 1 bilo)\n49. **Tama ni niu** - (e rauta ni 1 bilo)\n50. **Tama ni niu** - (e rauta ni 1 bilo)\n51. **Tama ni niu** - (e rauta ni 1 bilo)\n52. **Tama ni niu** - (e rauta ni 1 bilo)\n53. **Tama ni niu** - (e rauta ni 1 bilo)\n54. **Tama ni niu** - (e rauta ni 1 bilo)\n55. **Tama ni niu** - (e rauta ni 1 bilo)\n56. **Tama ni niu** - (e rauta ni 1 bilo)\n57. **Tama ni niu** - (e rauta ni 1 bilo)\n58. **Tama ni niu** - (e rauta ni 1 bilo)\n59. **Tama ni niu** - (e rauta ni 1 bilo)\n60. **Tama ni niu** - (e rauta ni 1 bilo)\n61. **Tama ni niu** - (e rauta ni 1 bilo)\n62. **Tama ni niu** - (e rauta ni 1 bilo)\n63. **Tama ni niu** - (e rauta ni 1 bilo)\n64. **Tama ni niu** - (e rauta ni 1 bilo)\n65. **Tama ni niu** - (e rauta ni 1 bilo)\n66. **Tama ni niu** - (e rauta ni 1 bilo)\n67. **Tama ni niu** - (e rauta ni 1 bilo)\n68. **Tama ni niu** - (e rauta ni 1 bilo)\n69. **Tama ni niu** - (e rauta ni 1 bilo)\n70. **Tama ni niu** - (e rauta ni 1 bilo)\n71. **Tama ni niu** - (e rauta ni 1 bilo)\n72. **Tama ni niu** - (e rauta ni 1 bilo)\n73. **Tama ni niu** - (e rauta ni 1 bilo)\n74. **Tama ni niu** - (e rauta ni 1 bilo)\n75. **Tama ni niu** - (e rauta ni 1 bilo)\n76. **Tama ni niu** - (e rauta ni 1 bilo)\n77. **Tama ni niu** - (e rauta ni 1 bilo)\n78. **Tama ni niu** - (e rauta ni 1 bilo)\n79. **Tama ni niu** - (e rauta ni 1 bilo)\n80. **Tama ni niu** - (e rauta ni 1 bilo)\n81. **Tama ni niu** - (e rauta ni 1 bilo)\n82. **Tama ni niu** - (e rauta ni 1 bilo)\n83. **Tama ni niu** - (e rauta ni 1 bilo)\n84. **Tama ni niu** - (e rauta ni 1 bilo)\n85. **Tama ni niu** - (e rauta ni 1 bilo)\n86. **Tama ni niu** - (e rauta ni 1 bilo)\n87. **Tama ni niu** - (e rauta ni 1 bilo)\n88. **Tama ni niu** - (e rauta ni 1 bilo)\n89. **Tama ni niu** - (e rauta ni 1 bilo)\n90. **Tama ni niu** - (e rauta ni 1 bilo)\n91. **Tama ni niu** - (e rauta ni 1 bilo)\n92. **Tama ni niu** - (e rauta ni 1 bilo)\n93. **Tama ni niu** - (e rauta ni 1 bilo)\n94. **Tama ni niu** - (e rauta ni 1 bilo)\n95. **Tama ni niu** - (e rauta ni 1 bilo)\n96. **Tama ni niu** - (e rauta ni 1 bilo)\n97. **Tama ni niu** - (e rauta ni 1 bilo)\n98. **Tama ni niu** - (e rauta ni 1 bilo)\n99. **Tama ni niu** - (e rauta ni 1 bilo)\n100. **Tama ni niu** - (e rauta ni 1 bilo)\n101. **Tama ni niu** - (e rauta ni 1 bilo)\n102. **Tama ni niu** - (e rauta ni 1"
+            }
+          },
+          "prompting_state": {
+            "prompt": "O iko na cakava vakacava na kakana ka daukilai kina nida kai Viti o ya na rourou vakautona?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -3707,6 +4455,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:34:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na noda matanitu e rawa ni kauta mai na ivurevure vakailavo mai na veivanua eso ena vica na sala me rawa ni vakavuna kina na tiko sautu. Eso na sala bibi e rawa ni vakayagataki kina na ivurevure vakailavo me vakavinakataki kina na bula ni lewenivanua:\n\n1. **Vakatorocaketaki ni Veivakatorocaketaki (Infrastructure Development):** Na matanitu e rawa ni kauta mai na ilavo mai na veimatanitu tale eso se na veika vakailavo me vakayagataki ena tara ni gaunisala, vale ni vuli, valenibula, kei na veika tale eso e gadrevi me rawa ni vakavinakataki kina na bula ni lewenivanua.\n\n2. **Veivakatorocaketaki ni Bisinisi Lalai (Small Business Development):** Na matanitu e rawa ni solia na veivuke vakailavo vei ira na bisinisi lalai me rawa ni ra tubu ka vakalevutaka na nodra rawa ka. E rawa ni vakayagataki na ilavo oqo ena veivuke vakailavo (grants) se na vakalailaitaki ni isau ni dinau (loans).\n\n3. **Veivakatorocaketaki ni Tabana ni Vuli (Education Sector Development):** Na ilavo e rawa ni vakayagataki ena vakavinakataki ni tabana ni vuli, me vaka na tara ni vale ni vuli vou, vakavakarau ni qasenivuli, kei na vakarautaki ni iyaya ni vuli. Na vuli vinaka e rawa ni vukea na tiko sautu ni vanua ena gauna balavu.\n\n4. **Veivakatorocaketaki ni Tabana ni Bula (Health Sector Development):** Na ilavo e rawa ni vakayagataki ena vakavinakataki ni valenibula, vakarautaki ni iyaya ni bula, kei na vakavakarau ni vuniwai kei na vuniwai ni veivuke. Na bula vinaka e bibi ena tiko sautu ni vanua.\n\n5. **Veivakatorocaketaki ni Tabana ni Veivoli (Trade and Investment):** Na matanitu e rawa ni kauta mai na ilavo mai na veivoli kei na veivakatorocaketaki ni bisinisi. E rawa ni vakayagataki na ilavo oqo ena vakavinakataki ni veika vakailavo kei na veivakatorocaketaki ni bisinisi lelevu kei na bisinisi lalai.\n\n6. **Veivakatorocaketaki ni Tabana ni Teitei kei na Iqoliqoli (Agriculture and Fisheries Development):** Na ilavo e rawa ni vakayagataki ena vakavinakataki ni teitei kei na iqoliqoli, me vaka na vakarautaki ni iyaya ni teitei kei na iqoliqoli, vakavakarau ni dau teitei kei na dau qoli, kei na veivuke vakailavo vei ira na dau teitei kei na dau qoli.\n\n7. **Veivakatorocaketaki ni Tabana ni Saravanua (Tourism Development):** Na ilavo e rawa ni vakayagataki ena vakavinakataki ni tabana ni saravanua, me vaka na tara ni vale ni saravanua, vakavakarau ni dauveiqaravi, kei na veivakatorocaketaki ni vanua ni saravanua.\n\nNa kena vakayagataki vakamatau na ivurevure vakailavo oqo ena rawa ni vakavuna na tiko sautu ni vanua kei na vakavinakataki ni bula ni lewenivanua. E bibi talega me vakayagataki vakamatau na ilavo oqo ka me vakatulewa vakamatau na matanitu ena kena vakayagataki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa dau kauta maivei na noda matanitu na ivurevure vakailavo ki na noda vanua me rawa ni vakavuna kina na tiko sautu?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3807,6 +4577,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:35:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna e sega ni vakatarai kina mera vakaisala o ira na turaga ka mera vakatabui o ira na marama mera vakatarusese ena loma ni dua na koro vakaviti e yavutaki ena itovo vakavanua kei na ivakarau ni bula vakavanua e dau maroroi vakavinaka ena veikorokoro vakaviti. E so na vuna bibi e okati kina na:\n\n1. **Itovo Vakavanua**: Na itovo vakavanua e dau maroroi vakavinaka ena veikorokoro vakaviti. Na vakaisala kei na vakatarusese e dau okati me itovo e sega ni dodonu se vakadodonu ena loma ni koro, ka rawa ni vakaleqa na veidokai kei na veivakarokorokotaki e tiko ena loma ni koro.\n\n2. **Veidokai kei na Veivakarokorokotaki**: Na veidokai kei na veivakarokorokotaki e dua na ka bibi ena itovo vakavanua. Na vakaisala kei na vakatarusese e rawa ni vakaleqa na veidokai e tiko vei ira na lewe ni koro, ka rawa ni vakavuna na veiba kei na veisei.\n\n3. **Maroroi ni Sautu kei na Veiyaloni**: Na maroroi ni sautu kei na veiyaloni e dua na ka bibi ena loma ni koro. Na vakaisala kei na vakatarusese e rawa ni vakavuna na veisei kei na veiba, ka rawa ni vakaleqa na sautu kei na veiyaloni e tiko ena loma ni koro.\n\n4. **Vakarokorokotaki ni Yalo ni Vanua**: Na yalo ni vanua e dua na ka bibi ena itovo vakavanua. Na vakaisala kei na vakatarusese e rawa ni vakaleqa na vakarokorokotaki ni yalo ni vanua, ka rawa ni vakavuna na veika ca me yaco ena loma ni koro.\n\n5. **Vakarokorokotaki ni Marama kei na Turaga**: Na vakarokorokotaki ni marama kei na turaga e dua na ka bibi ena itovo vakavanua. Na vakaisala kei na vakatarusese e rawa ni vakaleqa na vakarokorokotaki ni marama kei na turaga, ka rawa ni vakavuna na veika ca me yaco ena loma ni koro.\n\nNa itovo vakavanua e dau maroroi vakavinaka ena veikorokoro vakaviti, ka dau vakabibitaki kina na veidokai, veivakarokorokotaki, sautu, veiyaloni, kei na vakarokorokotaki ni yalo ni vanua. Na vakaisala kei na vakatarusese e sega ni vakatarai ena loma ni koro me rawa ni maroroi vakavinaka na itovo vakavanua kei na veika bibi e okati kina."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna e sega ni vakatarai mera vakaisala o ira na turaga ka mera vakatabui o ira na marama mera vakatarusese ena loma ni dua na koro vakaviti?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -3919,6 +4711,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:36:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na i vakatakarakara kei Ratu Sir Lala Sukuna e a buli kina me vakatakila na nona i tavi bibi ena itukutuku kei na ituvatuva ni veiliutaki e Viti. Ratu Sukuna e kilai levu ena nona veiqaravi vakamatanitu, vakapolitiki, kei na nona vakaitavi ena veika vakavuli kei na veika vakavanua. E a dau vakaitavi ena kena vakadeitaki na veiliutaki vakavanua kei na kena maroroi na itovo kei na vakarau ni bula vaka iTaukei.\n\nE a buli na i vakatakarakara me vakatakila na nona yalo ni veiqaravi, na nona yalomatua, kei na nona vakabauta na veika e dodonu me caka me rawa ni toso vakavinaka na vanua. E a dau vakabibitaka na veika me baleta na nodra vakavulici na gonevuli, na nodra maroroi na qele ni vanua, kei na nodra vakadeitaki na veika vakavanua. Na nona i vakatakarakara e sa i vakatakilakila ni veiliutaki vinaka, na yalo ni veiqaravi, kei na yalo ni veiqaravi vakamatanitu.\n\nNa i vakatakarakara oqo e sa i vakatakilakila ni veidokai kei na veivakadeitaki ni nodra vakabauta na lewenivanua na veika e a cakava o Ratu Sukuna me baleta na nodra bula vinaka kei na nodra toso vakavanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava beka e a buli kina na i vakatakarakara kei Ratu Sukuna?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4019,6 +4833,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:37:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na tabua e rui mareqeti ena vuku ni kena i balebale vakavanua kei na kena i vakatakarakara vakayalo ena veimataqali itovo kei na veika vakavanua e Viti. E dau vakayagataki na tabua me isevu ni veika bibi ena veika vakavanua, me vaka na veivakamarautaki, veivakacegui, veivakabauti, kei na veivakadeitaki ni veiwekani. E dau vakayagataki talega ena veika bibi me vaka na vakamau, mate, veisorosorovi, kei na veivakadeitaki ni veiyalayalati.\n\nNa tabua e dau vakatakilai talega na i vakatakilakila ni veidokai, veivakabauti, kei na veivakaliuci. E dau vakayagataki ena gauna ni veitalanoa bibi kei na veivosaki vakavanua, ka dau vakaraitaka na yalo ni veidokai kei na veivakabauti ni dua na itikotiko se dua na matavuvale.\n\nNa kena i vakatakarakara vakayalo kei na kena i balebale vakavanua e vakavuna me rui mareqeti na tabua, ka me vakayagataki ena veika bibi kei na veika e gadrevi kina na veivakadeitaki kei na veivakabauti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna sa rui mareqeti kina na tabua?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -4131,6 +4967,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:38:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na gauna era dau daramaka kina na isulu-vaka-taga o ira na turaga e vakatau sara ga ena vanua kei na ituvaki ni gauna. Ena so na vanua, na isulu-vaka-taga e dau daramaki ena gauna ni soqo levu, vakamau, soqo ni lotu, se so tale na veivakamarautaki. Ena so tale na vanua, e rawa ni dau daramaki ena veisiga me vakaraitaka na itovo vakavanua kei na dokai ni vanua. E bibi me da kila ni na duidui na ituvaki ni daramaki ni isulu-vaka-taga ena veivanua kei na veimataqali itovo vakavanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na gauna vakacava era dau daramaka kina na isulu-vaka-taga o ira na turaga?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4231,6 +5089,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:39:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na tagimoucia e dua na mataqali senikau e dau kunei ga ena yanuyanu levu o Vanua Levu, ka sega ni dau kune ena veiyanuyanu tale e Viti. E levu na vuna e rawa ni vakamacalataki kina na ka oqo:\n\n1. **Veika e tu ena qele (Soil Composition):** Na qele kei na veika e tu kina e rawa ni duidui ena veiyanuyanu. Na tagimoucia e rawa ni gadreva na mataqali qele e tiko ga ena Vanua Levu, ka sega ni kune ena veiyanuyanu tale eso.\n\n2. **Draki (Climate):** Na draki e rawa ni duidui ena veiyanuyanu. Na tagimoucia e rawa ni gadreva na mataqali draki e tiko ga ena Vanua Levu, ka sega ni kune ena veiyanuyanu tale eso.\n\n3. **Veika bula (Ecosystem):** Na veika bula e tiko ena dua na vanua e rawa ni vakavuna na tubu ni tagimoucia. Na veika bula e tiko ena Vanua Levu e rawa ni duidui mai na veiyanuyanu tale eso, ka rawa ni vakavuna na tubu ni tagimoucia.\n\n4. **Veika Makawa (Historical Factors):** E rawa ni dua na gauna makawa e a tubu kina na tagimoucia ena Vanua Levu ka sega ni yaco ena veiyanuyanu tale eso. Na veika makawa oqo e rawa ni vakavuna na kena kunei ga ena Vanua Levu.\n\nNa veika oqo e rawa ni vakamacalataki kina na vuna e dau kune ga kina na tagimoucia ena Vanua Levu ka sega ni dau kune ena veiyanuyanu tale e Viti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna e daukune ga iVanua Levu na tagimoucia ka sega ni daukune ena veiyanuyanu tale e iViti?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -4343,6 +5223,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:40:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na iTaukei e dau marautaka vakalevu na kena sa koti na drauniuluna na gonelailai iTaukei ena matai ni gauna baleta ni sa dua na ka bibi ena nodra bula vakavanua. Na kena koti na drauniuluna e dau vakatokai me \"vakatevoro\" se \"vakayakavi\" ka sa i vakatakilakila ni sa yaco na gone ki na dua tale na i wasewase ni nona bula. E dau vakayacori na soqo levu ka ra dau sureti kina na lewe ni vuvale, itokani, kei na lewe ni koro me ra mai marautaka vata na kena sa yaco na gone ki na dua tale na i wasewase ni bula. E dau vakayacori talega na veika vakavanua me vaka na vakacabori ni magiti kei na yaqona me vakavinavinakataki kina na Kalou kei na vuvale ni gone. Na soqo oqo e dau vakaraitaka na duavata kei na veikauwaitaki ni lewe ni koro kei na nodra marautaka na bula ni gone."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sara mada era daumarautaka na iTaukei na nona sa koti na drauniuluna na gonelailai iTaukei e na matai ni gauna?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4443,6 +5345,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:41:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na butu vatu katakata e dua na itovo vakavanua e dau vakayacori ena so na vanua ena Pasifika, oka kina o Viti. E dau vakayacori ena so na soqo vakavanua se soqo vakalotu. Na itovo oqo e dau vakaraitaka na vakabauta kei na yaloqaqa ni tamata e butuka na vatu katakata.\n\nEna vakayacori ni butu vatu katakata, e dau vakasaqa taumada na vatu me yacova ni sa katakata sara. E dau vakayagataki na buka levu me vakasaqa kina na vatu. Ni sa katakata na vatu, era na qai butuka na tamata era sa vakarau tu me ra butuka na vatu katakata. E dau vakabauti ni ra na sega ni mavoa se vakacacani na yavadra kevaka era sa vakarau vinaka tu vakayalo kei na vakabauta.\n\nNa itovo oqo e dau vakaraitaka na yaloqaqa, na vakabauta, kei na veidokai ni tamata ki na nodra itovo vakavanua kei na nodra Kalou. E dau vakayacori talega me dua na ivakaraitaki ni nodra vakabauta ni ra na taqomaki mai na mavoa kei na leqa.\n\nE bibi me nanumi ni butu vatu katakata e dua na itovo vakavanua ka dodonu me vakayacori ena veidokai kei na yalo ni veivakabauti. E sega ni dodonu me vakayacori vakaveitalia se me vakayagataki me vakamatea na tamata."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa dau vakayacori vakacava na butu vatu katakata?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -4555,6 +5479,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:42:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na kuila ni matanitu o Viti e dua na ka bibi ka vakatakila na noda itukutuku kei na noda itovo vakavanua. Na kuila oqo e dua na kuila drokadroka ka tiko kina e dua na ivakatakilakila ena yasana i mawi. Na ivakatakilakila oqo e dua na ivakatakilakila ni Union Jack, ka vakatakila na noda veiwekani kei Peritania. Ena yasana i matau ni kuila e dua na ivakatakilakila ni Viti, ka tiko kina e vica na ivakatakilakila bibi:\n\n1. **Na kau ni niu**: E vakatakila na bula kei na veivakatorocaketaki.\n2. **Na manumanu vuka ni tavuto**: E vakatakila na veivakabauti kei na veivakabauti vakavanua.\n3. **Na kau ni dovu**: E vakatakila na noda itovo ni cakacaka vakaukauwa kei na veivakatorocaketaki.\n4. **Na kau ni jaina**: E vakatakila na noda itovo ni veivakatorocaketaki kei na veivakabauti.\n\nNa kuila oqo e dua na ka bibi ka vakatakila na noda itovo, itukutuku, kei na noda veiwekani kei na veimatanitu tale eso. E vakabibitaka talega na noda duavata kei na noda vakabauta na veika e yaco ena noda vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na ibalebale ni ivakatakilakila ka tabaki toka na noda kuila ni matanitu?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4655,6 +5601,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:43:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ena itovo vakavanua ni iTaukei, e dau vakayacani na gone ulumatua vei ira na wekana na tama ni gone me vaka na itovo ni veiwekani kei na veiwekani vakavanua. E vu mai na nodra vakabauta na iTaukei ni na vukea na yaca ni wekana me vakadeitaki kina na veiwekani kei na veiwekani vakavanua. E dau vakabibitaki talega na yaca ni wekana me i vakatakilakila ni veidokai kei na veirokorokovi vei ira na qase kei ira na wekana.\n\nNa kena vakayacani na gone ulumatua ena yaca ni wekana ni tama e dau vakaraitaka talega na nodra vakavinavinaka kei na nodra marau na itubutubu ni gone ena nodra veiwekani kei na nodra veiwekani vakavanua. E dua talega na sala me maroroi kina na yaca ni matavuvale kei na kena itovo, ka me vakadeitaki tiko ga na veiwekani kei na veiwekani vakavanua ena veisiga ni mataka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni sucu na gone ulumatua iTaukei, na cava na vuna dauvakayacani kina na gone vei ira na wekana na tama ni gone?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -4767,6 +5735,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:44:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna levu a tokitaki kina na koroturaga mai Levuka ki Suva e vu mai na veika vakapolitiki, vakailavo, kei na veika vakavolivolita. E so na vuna bibi e koto oqo:\n\n1. **Vanua kei na Rabailevu**: E rabailevu cake o Suva ka vakatauvatani kei Levuka. E levu na vanua e Suva me rawa ni vakatorocaketaki kina na veika vakailavo kei na veika vakavolivolita.\n\n2. **Veika Vakavolivolita**: E tu e dua na vanua veiganiti cake o Suva me rawa ni vakayagataki vakavinaka na waqa lelevu kei na veika ni volivolitaki. E levu talega na vanua e Suva me rawa ni tara kina na veivale lelevu kei na veika tale eso.\n\n3. **Veika Vakailavo**: E rabailevu cake na vanua e Suva me rawa ni vakatorocaketaki kina na bisinisi kei na veika vakailavo. E rawa ni vakayagataki vakavinaka na vanua levu e Suva me tara kina na veitabana ni matanitu kei na veika vakabisinisi.\n\n4. **Veika Vakapolitiki**: E vakabauta na matanitu ni na vinaka cake na nodra veiqaravi ke ra tiko e Suva, ka ni levu na vanua me rawa ni tara kina na veitabana ni matanitu kei na veivale ni veiqaravi.\n\n5. **Veika ni Vakatakilakila**: E levu na veika ni vakatakilakila e Suva ka rawa ni vakayagataki me vakatorocaketaki kina na vanua me vaka na veivale ni volivolitaki, veivale ni bisinisi, kei na veivale ni veivakatorocaketaki.\n\nNa veika kece oqo e vakavuna me ra vakatulewataka na veiliutaki ni matanitu ena gauna oya me tokitaki na koroturaga mai Levuka ki Suva ena 1882."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna a tokitaki kina na koroturaga mai Levuka ki Suva?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4867,6 +5857,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:45:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ratu Sir Kamisese Mara e dua na turaga ka kilai levu ena itukutuku ni Viti. E a sucu ena ika-6 ni Tiseba, 1920, ka mate ena ika-18 ni Me, 2004. E a dau veiqaravi vakalevu ena matanitu o Viti ka kilai levu ena nona itavi vakapolitiki.\n\nE a liutaka na matanitu o Viti me iPrime Minister taumada ni Viti ni sa mai tu vakataki koya na matanitu ena 1970, ka yacova na 1992. E a qai lesi me Peresitedi ni Viti ena 1993 ka yacova na 2000. E a dau kilai levu ena nona vakatulewa vakamatau kei na nona sasaga me vakadeitaka na veivakabauti kei na veivakabauti vakamatanitu ena loma ni Viti.\n\nRatu Sir Kamisese Mara e dau kilai talega ena nona vakabauta na veivakatorocaketaki vakayalo kei na veivakatorocaketaki vakavanua, ka vakabibitaka na veivakatorocaketaki ni bula raraba ni lewenivanua. E a vakalagilagi ena levu na iukuuku vakaturaga kei na veivakadonui vakamatanitu ena vuku ni nona veiqaravi vakaitavi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O cei ko Ratu 'Sir' Kamisese Mara?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -4979,6 +5991,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:46:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na yaca ni timi ni rakavi lewe yavitu ni Viti e sega ni \"Flying Fijians.\" Na yaca \"Flying Fijians\" e dau vakayagataki ena timi ni rakavi lewe ya 15. Na timi ni rakavi lewe yavitu e dau kilai levu ena yaca \"Fiji Sevens\" se \"Fiji 7s.\" E rau sa dau kilai levu ena vuravura ena nodrau qito vinaka kei na qaqa ena sotasota lelevu vaka na World Rugby Sevens Series kei na Olympic Games."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Era kauta maivei na noda timi ni rakavi lewe yavitu mena yaca ni timi na 'Flying Fijians'?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5079,6 +6113,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:47:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na gauna era daucuruma na koro vaka-Viti ko ira na vulagi, era dau cakava e so na ka me vakaraitaka na nodra vakarokoroko kei na nodra doka na vanua kei ira na lewenivanua. E so na ka era dau cakava na vulagi e okati kina na:\n\n1. **Kerekere ni curu**: Era dau kerekere me ra curu ki na koro, ka dau vakayacori ena dua na sala ni vakarokoroko. E dau yaco oqo ena gauna era yaco kina ki na bati ni koro.\n\n2. **Vakarokoroko**: Era dau vakaraitaka na nodra vakarokoroko ena nodra vakayagataka na vosa ni veidokai kei na nodra vakayacora na itovo ni veidokai.\n\n3. **Sevusevu**: E dau kilai levu na kena dau kauta mai na vulagi e dua na sevusevu, ka dau kava. Na sevusevu e dua na ivakarau ni soli magiti me vakaraitaka na nodra vakavinavinaka kei na nodra vakarokoroko.\n\n4. **Vakavinavinaka**: Era dau vakavinavinakataka na vulagi na nodra ciqomi vinaka kei na veivakamarautaki era sotava ena koro.\n\n5. **Vosa ni vakatara**: Na turaga ni koro se na iliuliu ni koro e dau solia na vosa ni vakatara me ra curu na vulagi ka vakayacora na nodra itavi.\n\nNa itovo oqo e vakaraitaka na itovo ni veidokai kei na veivakaturagataki e dau kilai tani kina na itovo vakavanua e Viti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava daucaka na gauna era daucuruma na koro Vaka Viti ko ira na Vulagi?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -5191,6 +6247,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:48:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na meke e dua na iwalewale ni vakatasuasua kei na vakamarautaki ena itovo vakaviti. E dau vakayacori ena soqo lelevu, marau, kei na soqo ni veivakamarautaki. Na meke e dau vakayacori ena veimataqali sala, ka ra dau vakaitavi kina na tagane kei na yalewa, ka ra dau vakaisulu ena isulu vakavanua, ka ra dau vakayagataka na iyaya ni vakatagi vaka-Viti.\n\nEna kena vakacurumi na meke, e dau vakayagataki kina na iwalewale ni vakatagi kei na vakasere, ka ra dau vakayagataka na yago me ra vakatakila kina na itukutuku se itovo vakavanua. E dau vakayacori ena kena vakamuria na kena iwalewale makawa, ka ra dau vakavulici kina na gone mai na nodra qase.\n\nNa meke e dua na ka bibi ena itovo kei na bula vakavanua ni Viti, ka dau vakayacori ena kena marautaki na veika e yaco ena gauna ni soqo. E dau vakaraitaka na veikilai, veidokai, kei na veikauwaitaki ena kedra maliwa na lewe ni vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Iko matanataka vakacava na meke?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5291,6 +6369,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:49:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna era tauyavutaka kina na PAP (People's Alliance Party) ko ira na lewe taumada ni SDLP (Soqosoqo Duavata ni Lewe ni Vanua Party) e rawa ni vu mai na duidui vakapolitiki kei na duidui vakasama e yaco ena loma ni SDLP. E rawa ni dua na iwase ni lewe ni SDLP e sega ni duavata kei na ituvatuva vakapolitiki, na veiliutaki, se na ituvatuva ni veisau e vakayacora tiko na SDLP, ka vakavuna me ra biubiu mai na SDLP ka tauyavutaka na dua na matapolitiki vou.\n\nEna so na gauna, na tauyavutaki ni dua na matapolitiki vou e rawa ni vu mai na gagadre me vakayacori e dua na ituvatuva vakapolitiki vou se me vakayacori vakavinaka na gagadre kei na inakinaki ni lewe ni vanua. Na People's Alliance Party e rawa ni tauyavutaki ena vuku ni gagadre me ra vakayacora e dua na ituvatuva vakapolitiki e duidui mai na kena e vakayacori tiko ena SDLP, ka me ra vakaitavi vakalevu cake ena veiliutaki kei na veivakatorocaketaki ni vanua.\n\nE bibi me nanumi ni na rawa ni duidui na vuna e tauyavutaki kina e dua na matapolitiki vou, ka rawa ni vu mai na veika e yaco tiko ena gauna oya kei na ituvatuva vakapolitiki e gadrevi me vakayacori."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna era tauyavutaka na PAP (People Alliance Party), ko ira na lewe taumada ni SDLP (Soqosoqo Duavata Ni Lewe Ni Vanua Party)?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -5403,6 +6503,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:50:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna e dau vakatatabui kina na iqoliqoli ni sa mate na Turaga Bale e vu mai na itovo vakavanua kei na ivakarau ni bula vakavanua e Viti. Na vakatatabu ni iqoliqoli e dua na sala ni vakarokoroko kei na vakaraitaki ni veidokai ki na Turaga Bale sa yali, ka me vakarautaki kina na gauna me ra vakacegu kina na lewe ni vanua ena nodra vakavinavinaka kei na nodra vakamareqeti koya sa mate.\n\nNa kena balavu ni vakatatabu e dau duidui ena veivanua kei na veiyavusa, ia e dau tiko ena loma ni dua na gauna e rawa ni yacova e vica na vula. Ena so na vanua, e rawa ni vakatatabu tiko na iqoliqoli me yacova ni sa vakayacori oti na soqo ni mate kei na kena vakacavari na veika kece e dodonu me caka me baleta na Turaga Bale sa yali. Na kena balavu ni vakatatabu e rawa ni vakatau talega ena ivakarau ni bula kei na itovo ni vanua yadua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna dauvakatabui kina na iqoliqoli na gauna sa mate kina na Turaga Bale, ka cava na kena balavu ni vakatatabu?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5503,6 +6625,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:51:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na saparaki e dua na ka e dau caka ena veivakawati me vaka na kena vakayagataki na vosa ni veivakauqeti, veivakadeitaki, kei na veivakamarautaki. E dau yaga me rau veitalanoa vakavinaka na veiwatini me rau kila na gagadre kei na gagadre ni veitamani. E rawa ni caka vakaoqo:\n\n1. **Veitalanoa**: Veitalanoa vakavinaka kei na nomu itokani me baleta na ka o gadreva kei na ka e gadreva o koya. E bibi me rau veirogoci ka veidokai.\n\n2. **Veivakauqeti**: Vosa ni veivakauqeti kei na veivakadeitaki e rawa ni vakayagataki me vakayaloqaqataki kina na nomu itokani.\n\n3. **Veivakamarautaki**: Cakava eso na ka e marautaka na nomu itokani. E rawa ni o vakayagataka na gauna vata me rau cakava vata eso na ka e rau dau taleitaka.\n\n4. **Veivakadeitaki**: Veivakadeitaki ni nomu loloma kei na nomu dau tu vakarau me vukei koya ena gauna dredre.\n\n5. **Veivakauqeti vakayalo**: E rawa ni o vakayagataka na vosa ni Kalou se veivakauqeti vakayalo me vakadeitaka na nomu veidokai kei na nomu veinanumi.\n\n6. **Veivakauqeti vakayago**: E rawa ni o vakayagataka na veivakauqeti vakayago me vaka na veimokimokiti, veimokimokiti, se veivakauqeti vakayago tale eso.\n\nE bibi me rau veirogoci ka veidokai na veiwatini ena gauna ni saparaki. Na veitalanoa vakavinaka kei na veidokai e rawa ni vakavinakataka na nodrau veiwekani ka vakadeitaka na nodrau veiyaloni kei na nodrau veidokai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Iko cakava vakacava na saparaki?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -5615,6 +6759,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:52:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na qalu e dua na ka e dau yaco ni sa vakayagataki vakalevu na domo me vakavuna na rorogo levu se na domo e sega ni dodonu. E rawa ni yaco na qalu ena vuku ni veika e so me vaka na tauvimate, na vakayagataki vakasivia ni domo, se na kena sega ni vakayagataki vakavinaka na domo. \n\nEna vukea na kena vakavinakataki na qalu na kena vakayagataki eso na iwalewale me vaka na:\n\n1. **Vakacegu**: Kua ni vakayagataka vakalevu na domo. Mo vakacegu ka vakalailaitaka na vosa.\n\n2. **Gunu Wai Levu**: Mo gunu wai vakalevu me vakamamacataka na domo.\n\n3. **Gunu Wai Katakata**: Gunu wai katakata me vaka na tii se wai ni sitroni kei na oni me vakamamacataka na domo.\n\n4. **Kua ni Gunuva na Yaqona se na Alakolo**: Na yaqona kei na alakolo e rawa ni vakalevutaka na qalu.\n\n5. **Kua ni Kania na Kakana Dredre**: Kua ni kania na kakana e rawa ni vakalevutaka na qalu me vaka na kakana wainimatolu se na kakana e vakavuna na rorogo levu.\n\n6. **Gunu na Matanivai ni Masima**: Mo gunu na matanivai ni masima me vakamamacataka na domo.\n\n7. **Vakasamataka na iVakarau ni Vosa**: Mo vakayagataka na domo ena iwalewale dodonu ka kua ni vakayagataka vakasivia.\n\n8. **Raica na Vuniwai**: Kevaka e sega ni vinaka na qalu ena loma ni vica na siga, mo raica na vuniwai me raica na leqa levu e rawa ni yaco.\n\nE bibi mo vakamuria na iwalewale oqo me rawa ni vakavinakataki na qalu ka maroroi vinaka na domo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Iko cakava vakacava na qalu?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5715,6 +6881,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:53:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vakasakera e dua na iwalewale ni veitalanoa e dau vakayagataki ena veika vakavanua, vakamatanitu, se vakacakacaka me rawa ni vakayacori kina e dua na ka e gadrevi. E rawa ni vakayacori ena veimataqali sala, ka raica mada e vica na sala bibi:\n\n1. **Vakarautaka na iwalewale**: Kena i vakarau bibi me vakarautaka vinaka na ka o na tukuna kei na sala o na vakayagataka kina na nomu vosa. Kena i balebale oqo mo kila vinaka na ka o via rawata kei na ka e gadrevi me rawa kina.\n\n2. **Vakarorogo vinaka**: E bibi mo vakarorogo vinaka vei ira na tamata o veitalanoa tiko kei ira. Kena i balebale oqo mo kila vinaka na nodra rai kei na ka era gadreva.\n\n3. **Vosa vakayalovinaka**: Vosa vakayalovinaka ka vakaraitaka na nomu dokai kei na nomu vakabauta vei ira na tamata o veitalanoa tiko kei ira. Kena i balebale oqo mo kua ni vakayagataka na vosa kaukauwa se vakacacana.\n\n4. **Vakaraitaka na yaga**: Vakaraitaka na yaga ni ka o via rawata vei ira na tamata o veitalanoa tiko kei ira. Kena i balebale oqo mo vakaraitaka na veika vinaka era na rawata ke ra vakadonuya na nomu kerekere.\n\n5. **Vakaraitaka na nomu yalodina**: Vakaraitaka na nomu yalodina kei na nomu dina ena veika o tukuna. Kena i balebale oqo mo kua ni lasu se vakayagataka na veika e sega ni dina.\n\n6. **Vakaraitaka na nomu kila**: Vakaraitaka na nomu kila kei na nomu vuku ena veika o veitalanoa tiko kina. Kena i balebale oqo mo vakaraitaka ni o kila vinaka na veika o via vakasakera kina.\n\n7. **Vakaraitaka na nomu yalomalua**: Vakaraitaka na nomu yalomalua kei na nomu dau veidokai. Kena i balebale oqo mo vakaraitaka ni o dau veidokai ka sega ni dau vakasaurarataki ira na tamata.\n\nNa vakasakera e dua na iwalewale bibi ena bula vakavanua, vakacakacaka, kei na bula vakamatanitu. E bibi mo kila vinaka na sala mo vakayagataka kina na vakasakera me rawa ni o rawata na ka o gadreva."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Iko cakava vakacava na vakasakera?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -5827,6 +7015,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:54:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na cakacaka ni kai vakasoso e dau vakatau ena itovo, ivakarau, kei na ituvatuva ni nodra bula. E so na ka era dau cakava na kai vakasoso e rawa ni okati kina na:\n\n1. **Veivukei kei na Veikauwaitaki**: Era dau veivukei vakalevu ena nodra itikotiko, veivukei ena gauna ni leqa, kei na veivakabulai.\n\n2. **Veivakatorocaketaki ni Bula**: Era dau vakayagataka na nodra kila-ka kei na nodra taledi me ra vukea kina na nodra itikotiko me vakatorocaketaki na bula vakayago kei na bula vakayalo.\n\n3. **Veivakatorocaketaki ni Vanua**: Era dau vakaitavi ena cakacaka ni veivakatorocaketaki ni vanua, me vaka na tara vale, vakavinakataki ni gaunisala, kei na so tale na cakacaka ni veivakatorocaketaki.\n\n4. **Veivakatorocaketaki ni Vuli**: Era dau vakaitavi ena veivakatorocaketaki ni vuli, me vaka na veivuke ena vuli ni gone, veivakavulici ena veika e baleta na bula vakayago kei na bula vakayalo.\n\n5. **Veivakatorocaketaki ni Bula Vakayalo**: Era dau vakaitavi ena veika vakayalo, me vaka na veivakavulici ena lotu, veivuke ena veika vakalotu, kei na veivakabulai vakayalo.\n\n6. **Veivakatorocaketaki ni Bula Vakailavo**: Era dau vakaitavi ena veivakatorocaketaki ni bula vakailavo, me vaka na veivuke ena kena vakatorocaketaki na bisinisi lalai, veivuke ena kena vakatorocaketaki na cakacaka, kei na veivakatorocaketaki ni ituvatuva ni bula vakailavo.\n\nNa cakacaka ni kai vakasoso e dau vakatau talega ena nodra ituvatuva ni bula kei na nodra gagadre me ra vukea na nodra itikotiko kei na nodra vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Iko cakava vakacava na kai vakasoso?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5927,6 +7137,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:55:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Me rawa kina na card ni basi ni nodra na malumalumu, e tiko eso na ka bibi mo cakava:\n\n1. **Kerea na iTukutuku**: Kerea na itukutuku mai na tabana e qarava na nodra veivuke na malumalumu ena nomu vanua. E rawa ni ra solia na ivakamacala me baleta na veika e gadrevi kei na ivakarau ni kena vakayacori.\n\n2. **Vakacavara na Fomu**: Vakacavara na fomu ni kerekere. E rawa ni ra solia na fomu oqo ena tabana e qarava na nodra veivuke na malumalumu se ena initaneti.\n\n3. **Solia na iVakadinadina**: Solia na ivakadinadina ni o sa malumalumu. E rawa ni gadrevi na ivakadinadina mai vua na vuniwai se na tabana ni bula e vakadeitaka na nomu ituvaki.\n\n4. **iVola ni Veivakadeitaki**: E rawa ni gadrevi talega na ivola ni veivakadeitaki mai na tabana e qarava na nodra veivuke na malumalumu.\n\n5. **iVola ni Tiko**: Solia na ivola ni tiko me vakadeitaka ni o tiko ena vanua e gadrevi kina na card ni basi.\n\n6. **iVola ni iVakatagedegede ni iLavo**: Eso na gauna, e rawa ni gadrevi na ivola ni ivakatagedegede ni ilavo me vakadeitaka ni o gadreva dina na veivuke oqo.\n\n7. **Vakawaitaka na iVola**: Vakawaitaka na ivola kece e gadrevi kei na fomu ni kerekere ena tabana e qarava na nodra veivuke na malumalumu.\n\n8. **Wawa na iSau**: Wawa na kena vakadikevi na nomu kerekere. Ke sa donu na nomu kerekere, era na vakauta yani vei iko na card ni basi.\n\n9. **Vakadeitaka na iTuvatuva**: Vakadeitaka na ituvatuva ni kena vakayagataki na card ni basi. Eso na card e rawa ni gadrevi me vakavoui ena dua na gauna e tarava.\n\nNa veika oqo e rawa ni duidui ena veivanua, ia na ivakarau levu ga oqo e dau muri. Mo vakadeitaka tiko ga na itukutuku mai na tabana e qarava na nodra veivuke na malumalumu ena nomu vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava beka meu cakava mena rawa kina na card ni basi ni nodra na malumalumu?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -6039,6 +7271,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:56:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Me rawa ni o rawata e dua na nomu laiseni ni draiva, e dodonu mo muria na veika e gadrevi ena nomu vanua. Ena vakasama raraba, e so na iwalewale e dau muri:\n\n1. **Vuli ni Draiva**: E dodonu mo vuli ni draiva ena dua na koronivuli ni draiva e kilai ka vakadonui. Ena vuli oqo, o na vulica kina na lawa ni gaunisala kei na iwalewale dodonu ni draiva.\n\n2. **Sainitaka na iVola ni Kerekere**: Mo sainitaka e dua na ivola ni kerekere me baleta na laiseni ni draiva. E dau tu ena ivola oqo na nomu itukutuku vakai iko kei na veika e gadrevi me baleta na nomu laiseni.\n\n3. **Vakatovotovo ni Vuli**: E so na vanua e gadrevi mo cakava e dua na vakatovotovo ni vuli (written test) me vakadeitaki ni o kila vinaka na lawa ni gaunisala kei na veika e gadrevi ni draiva.\n\n4. **Vakatovotovo ni Draiva**: Ni sa oti na vakatovotovo ni vuli, o na qai vakatovotaki ena nomu draiva. Ena vakatovotovo oqo, e dua na dauveivakatovolei ena vakaraica na nomu iwalewale ni draiva kei na nomu kila na lawa ni gaunisala.\n\n5. **Sega ni Leqa ni Yago**: E so na vanua e gadrevi mo vakadeitaka ni sega ni dua na leqa ni yago e rawa ni tarova na nomu draiva. E rawa ni gadrevi mo vakayacora e dua na veitarogi ni yago.\n\n6. **Saumi ni iSau**: E dodonu mo sauma na isau e gadrevi me baleta na laiseni ni draiva. Na isau oqo e dau duidui ena veivanua.\n\n7. **Rawata na Laiseni**: Ni sa oti na veika kece oqo, ke o sa rawata na vakatovotovo, o na qai soli kina na nomu laiseni ni draiva.\n\nEna vinaka mo veitaratara kei na tabana e qarava na laiseni ni draiva ena nomu vanua me rawa ni o kila na veika e gadrevi me baleta na nomu laiseni ni draiva."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na caka beka vakacava me dua noqu laiseni ni draiva?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6139,6 +7393,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:57:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Me rawa ni o volia e dua na nomu tiki ni qele, e tiko eso na ka bibi mo cakava. Eda na raica mada e vica na ka bibi:\n\n1. **Vakadidike**: Kena imatai, mo vakadidike vinaka ena vanua o via volia kina na qele. Kena ibalebale oqo mo kila na kena isau, na kena ituvaki, kei na kena lawa e vauca na volitaki ni qele ena vanua oya.\n\n2. **Vakasama Vakailavo**: Mo vakadeitaka ni sa tu vei iko na ilavo e ganita me rawa ni o volia kina na qele. E rawa ni o vakayagataka na nomu ilavo bula se vakatotolo mo kerea e dua na dinau mai na baqe.\n\n3. **Vakarautaka na iYaya Bibi**: E bibi mo vakarautaka na nomu ivolatukutuku vakailavo, ivola ni cakacaka, kei na so tale na ivola e gadrevi me rawa ni o kerea kina na dinau.\n\n4. **Vakarautaka na iVola ni Veidinadinati**: Mo vakadeitaka ni sa tu na ivola ni veidinadinati (contract) me baleta na volitaki ni qele. E bibi mo wilika vinaka na ivola oqo ka kila na ka kece e volai kina.\n\n5. **Vakaraitaka na Nomu Inakinaki**: Mo vakadeitaka ni sa matata vei iko na inakinaki ni qele o via volia. Kena ibalebale oqo mo kila na ka o via cakava ena qele oya, me vaka na tara vale, teitei, se so tale na inakinaki.\n\n6. **Veitalanoa kei na Matai ni Qele**: Mo veitalanoa kei na matai ni qele se na kena dairekita me rawa ni o kila vinaka na ituvaki ni qele o via volia.\n\n7. **Vakarautaka na iVola ni Veidinadinati**: Mo vakadeitaka ni sa tu na ivola ni veidinadinati (contract) me baleta na volitaki ni qele. E bibi mo wilika vinaka na ivola oqo ka kila na ka kece e volai kina.\n\n8. **Vakayagataka na Matai ni Lawa**: E vinaka mo kerea na veivuke ni matai ni lawa (lawyer) me rawa ni raica vinaka na ivola ni veidinadinati ka vakadeitaka ni sa donu na ka kece.\n\n9. **Vakayagataka na Matai ni Qele**: E rawa talega ni o kerea na veivuke ni matai ni qele (real estate agent) me rawa ni vukei iko ena veika e vauca na volitaki ni qele.\n\n10. **Vakayacora na Veidinadinati**: Ni sa donu na ka kece, mo vakayacora na veidinadinati ka sauma na ilavo me vaka e volai ena ivola ni veidinadinati.\n\n11. **Vola ni Qele**: Ni sa oti na veidinadinati, mo vakadeitaka ni sa volai na yacamu ena ivola ni qele (title deed) ka sa tu vei iko na ivola oqo.\n\nNi o muria vinaka na veika oqo, ena rawa ni o volia vakavinaka e dua na nomu tiki ni qele."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava me'u cakava mena rawa ni'u volia mena dua kina na noqu tiki ni qele?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -6251,6 +7527,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:58:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vaqiqi moli e bibi ena vuku ni vica na vuna:\n\n1. **Bula Vinaka**: Na moli e dau kilai levu ena levu ni vitamini C, ka bibi ena vakaukauwataki ni yago kei na kena tarova na mate. Na vaqiqi moli e vukea na kena maroroi na vitamini kei na kena rawarawa me gunuvi.\n\n2. **Vakayagataki Rawarawa**: Na vaqiqi moli e rawarawa cake ni vakayagataki mai na kena kana taucoko. E rawa ni gunuvi vakadodonu, ka sega ni gadrevi me vakavakarau vakalevu.\n\n3. **Maroroi ni Kakana**: Na vaqiqi moli e rawa ni maroroi vakavinaka ena dua na gauna balavu, ka sega ni vakacacani totolo me vaka na moli taucoko.\n\n4. **Vakayagataki ena Kuro**: E levu na kakana e rawa ni vakayagataki kina na vaqiqi moli me vaka na keke, ice cream, kei na so tale na kakana. E dau vakayagataki talega ena so na wainimate ni kena vakavinakataki na kena i tovo.\n\n5. **Vakayagataki ena Soqo**: E dau vakayagataki vakalevu ena soqo kei na so na gauna ni marau me vaka na wainimoli, ka dau taleitaki vakalevu ena kena i tovo bulabula.\n\nNa vaqiqi moli e dua na i vakarau vinaka ni kena vakayagataki na moli, ka vukea na kena rawarawa ni vakayagataki kei na kena maroroi na kena i yaya vinaka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na bibi ni vaqiqi moli?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6351,6 +7649,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:59:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na tabua e dua na ka vakaturaga ka vakayagataki ena veika bibi ena bula vakavanua e Viti. Ena gauna e mate kina e dua na watina, e dau vakayacori na soqo ni veivakacegui kei na veivakabauti vei ira na lewe ni matavuvale kei na itokani. Na tabua e dau vakayagataki ena soqo oqo me vakaraitaka na veidokai, veivakacegui, kei na veivakabauti vei ira na lewe ni matavuvale ni sa yali e dua na nodra i tokani se lewe ni matavuvale.\n\nEna vuku ni marama sa mate na watina, na tabua e dau vakayagataki me vakaraitaka na veivakacegui kei na veivakabauti vei koya kei na nona matavuvale. E vakaraitaka talega na veidokai kei na veivakabauti ni vanua kei na matavuvale ni sa yali e dua na lewe ni matavuvale. Na tabua e dua na ka bibi ena veika vakavanua, ka vakaraitaka na yalo ni veidokai kei na veivakabauti ena gauna ni rarawa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava daudiriki kina na tabua vua (dua) na marama, ka sa mate na watina?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -6463,6 +7783,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:60:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na veiduguci ena bula vaka iTaukei e dau vakayacori ena veika vakavanua, vakabibi ena gauna ni soqo, vakamau, se solevu. E dua na ivakaraitaki ni veidokai kei na veikauwaitaki. E dau vakayacori ena kena veigucugucu na tamata, vakabibi na qase, me vakaraitaka na veikauwaitaki kei na veidokai.\n\nEna so na vanua, na veiduguci e dau vakayacori ena kena veigucugucu na tamata ena yago, vakabibi ena liga se na bati ni gusu. E dua tale na ivakaraitaki ni veidokai kei na veikauwaitaki, ka vakaraitaka na duavata kei na veikilai vinaka.\n\nE bibi me da kila ni na veiduguci e sega ni dua na ka e vakayacori vakaveitalia, ia e dua na ka e dau vakayacori ena yalo ni veidokai kei na veikauwaitaki. E vakaraitaka na yalo ni duavata kei na veikilai vinaka ena loma ni vanua kei na matavuvale."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daucaka vakacava na veiduguci ena bula vaka itaukei?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6563,6 +7905,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:61:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ena gauna ni curu ibure, e dau vakayacori e levu na ka vei ira na cauravou me vaka na veivakatovolei kei na veivakavulici. Na curu ibure e dua na gauna bibi ena bula ni cauravou ena so na vanua vaka-Viti, ka dau okati kina na nodra vakavulici ena itovo vakavanua, na nodra itavi vakavanua, kei na nodra vakarau me ra yaco me tagane dina. E dau vakayacori na veivakatovolei me ra vakaraitaka kina na nodra kaukauwa, yaloqaqa, kei na nodra yalodina. E dau vakavulici talega na cauravou ena itovo ni bula, na veiqaravi vakavanua, kei na nodra itavi ena nodra yavusa se koro. Na curu ibure e dua na gauna bibi ni veisau mai na bula ni gone me yaco me dua na tagane matua ka rawa ni qarava na itavi bibi ena vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava e daucaka vei ira na cauravou ena gauna ni curu ibure?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -6675,6 +8039,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:62:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Me rawa ni o ciqoma na veivuke mai na Social Welfare, e tiko eso na ka bibi mo cakava kei na ivakarau mo muria. Eda na raica eso na ka bibi mo cakava:\n\n1. **Vakadeitaka na nomu dodonu**: Kena imatai, mo vakadeitaka ni o sa dodonu me ciqoma na veivuke. E dau vakatau na veivuke ena nomu ituvaki vakailavo, na levu ni nomu vuvale, kei na nomu ituvaki vakayago se vakasama.\n\n2. **Kerea na fomu ni kerekere**: Mo kerea na fomu ni kerekere mai na tabana ni Social Welfare. E rawa ni o kauta mai na nodra valenivolavola se download mai ena nodra website ke ra sa vakarautaka.\n\n3. **Vakacuruma na itukutuku dina**: Mo vakacuruma na itukutuku dina kei na dodonu ena fomu ni kerekere. E okati kina na nomu yaca, itikotiko, itukutuku vakailavo, kei na itukutuku ni nomu vuvale.\n\n4. **Vakarautaka na ivakadinadina**: E gadrevi mo vakarautaka eso na ivakadinadina me vakadeitaki kina na itukutuku o sa solia. E rawa ni okati kina na nomu ivola ni saumi, ivola ni baqe, ivola ni vakadinadina ni tiko, kei na so tale na ivola e gadrevi.\n\n5. **Vakauta na fomu ni kerekere**: Ni sa oti na nomu vakacuruma na fomu kei na ivakadinadina, mo vakauta yani kina valenivolavola ni Social Welfare. E rawa ni o kauta vakataki iko se vakauta ena imeli ke ra sa vakarautaka na sala oqori.\n\n6. **Wawa na kena vakadikevi**: Ena vakadikeva na tabana ni Social Welfare na nomu kerekere kei na ivakadinadina o sa vakarautaka. Ena rawa ni ra kerea eso tale na itukutuku kevaka e gadrevi.\n\n7. **Ciqoma na kena isau**: Kevaka e ciqomi na nomu kerekere, ena vakauta yani vei iko na Social Welfare na itukutuku ni veivuke o na ciqoma kei na gauna e na tekivu kina.\n\n8. **Murua na ivakarau**: E bibi mo muria na ivakarau e vakarautaka na Social Welfare. Kevaka e veisau na nomu ituvaki, mo vakatakila sara vakatotolo vei ira.\n\nE bibi mo kila ni na duidui na ivakarau kei na veika e gadrevi ena veivanua. Mo veitaratara tiko ga kei na tabana ni Social Welfare ena nomu vanua me rawa ni o kila na veika e gadrevi me baleta na nomu ituvaki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava meu na cakava mena rawa kina ni ciqoma na veivuke ni Social Welfare?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6775,6 +8161,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:63:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ni sa oti na bogi duanadrau nona leqa na wekada, e dau caka na soqo ni veivakananumi kei na veivakacegui vei ira na lewe ni vuvale kei na itokani. E dau vakayacori na lotu ni veivakananumi, ka dau vakayacori kina na masu kei na sere me vakacegui kina na yalo ni wekada sa yali. E dau vakayacori talega na veitalanoa me baleta na bula kei na cakacaka ni wekada sa yali, ka me vakavinavinakataki kina na nona bula kei na nona veitokoni vei ira na vo ni lewe ni vuvale kei na itokani. E dau vakayacori talega na kana vakaturaga me vaka na ivakarau ni vanua kei na itovo vakavanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava daucaka ni sa oti na bogi duanadrau nona leqa na wekada?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -6887,6 +8295,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:64:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna e soli kina o Viti ki Peretania e vu mai na veika lelevu e yaco ena veiliutaki kei na veika vakapolitiki ena gauna ni veiliutaki nei Ratu Seru Epenisa Cakobau. E vuqa na veika e vakavuna na soli ni vanua oqo, ka dua na ka bibi sara oya na leqa vakailavo kei na dinau levu a donumaka o Viti ena gauna oya.\n\nEna 1874, e vakatulewataka o Ratu Cakobau kei ira na turaga ni vanua me soli o Viti ki Peretania me rawa ni ra vukei ena kena sauma na dinau kei na kena vakavinakataki na veika vakailavo kei na veika vakamatanitu. Na veisoli oqo e kilai levu me vaka na \"Deed of Cession\" ka yaco ena Okotova 10, 1874. Ena gauna oqo, e yaco kina o Viti me dua na koloni ni Peretania ka raica na veiliutaki ni Peretania na veika vakamatanitu kei na veika vakailavo ni vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava e a soli kina o Viti Ki Peretania?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6987,6 +8417,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:65:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na Minisita ni Vuli o Asaeli Radrodro e sa vakacegui mai na Palimedi ena vuku ni veika e yaco ena nona vakayagataka vakatawadodonu na nona itutu me baleta na veika vakailavo. Ena dua na itukutuku mai na Prime Minister's Office, e vakaraitaki kina ni a vakayagataki vakatawadodonu o Radrodro na ilavo ni matanitu me baleta na veika e sega ni dodonu. Na veika oqo e vakavuna na nona vakacegui mai na itutu ni Minisita ni Vuli kei na nona vakacegui mai na Palimedi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna e sa vakacegui kina na Minisita ni Vuli o Asaeli Radrodro mai na Palimedi?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -7099,6 +8551,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:66:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na itukuni me baleta na ura damu ni Vatulele e dua na itukuni kilai levu ena Viti. Na Vatulele e dua na yanuyanu ena yasayasa vaka-Ra, ka kilai levu ena kena ura damu, ka ra dau vakatokai talega me \"ura ni Vatulele\" se \"ura ni Viti.\"\n\nE kaya na itukuni ni a dua na gauna makawa, e dua na turaga ni Vatulele a lako yani ki na baravi ka raica e dua na ka veivakurabuitaki. E raica e dua na ura e rui totoka ka duidui sara mai na so tale na ura e dau raica. Na ura oqo e rui damudamu ka totoka sara, ka sega ni bau raici rawa e dua tale na vanua.\n\nNa turaga oqo e kauta lesu na ura ki na koro ka vakaraitaka vei ira na lewe ni koro. Era kurabui ka marau vakalevu na lewe ni koro ena totoka ni ura oqo. Era vakabauta ni sa dua na ka tabu ka solia vei ira na kalougata. Mai na gauna oya, era sa dau maroroya vakavinaka na ura damu ni Vatulele ka sega ni vakatarai me ra kau tani mai na yanuyanu.\n\nEna gauna oqo, na ura damu ni Vatulele e sa dua na ka kilai levu ka taleitaki vakalevu ena Viti kei na veiyasai vuravura. E dau vakayagataki talega ena so na itovo vakavanua kei na soqo vakavanua me vaka na vakamau kei na soqo ni veivakamarautaki.\n\nNa itukuni oqo e vakaraitaka na bibi ni maroroi ni veika bula kei na itovo vakavanua, ka vakabibitaka na yaga ni veika bula e tu ena noda vanua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na itukuni me baleta na ura damu ni Vatulele?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -7199,6 +8673,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:67:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na daucaka ni cara na bulubulu e dau cakacaka ena kena kelia, vakarautaka, kei na maroroya na vanua ni bulubulu. E levu na ka e dau cakava, oka kina na:\n\n1. **Kelia na bulubulu**: E dau kelia na qara me bulu kina na yago ni mate. E dau vakayagataka na iyaya ni kelikeli me vaka na isele ni qele kei na misini ni kelikeli.\n\n2. **Vakarautaka na vanua**: E dau vakarautaka na vanua ni bulubulu me vaka na kena vakavinakataki na qara, vakadodonutaki na qele, kei na kena vakadeitaki ni sa taucoko na cakacaka ni kelikeli.\n\n3. **Maroroya na vanua ni bulubulu**: E dau qarava na vanua ni bulubulu me vaka na kena vakamamacataka na co, vakavinakataka na veiqaravi, kei na kena vakadeitaki ni sa maroroi vinaka na vanua.\n\n4. **Vakarautaka na iyaya ni bulubulu**: E dau vakarautaka na iyaya me vaka na kato ni mate, na isulu ni mate, kei na so tale na iyaya e gadrevi ena gauna ni bulubulu.\n\n5. **Vakarautaka na soqo ni bulubulu**: E dau veivuke ena kena vakarautaki na soqo ni bulubulu, me vaka na kena vakarautaki na vanua ni soqo kei na kena vakadeitaki ni sa tuvanaki vinaka na veika kece.\n\nNa daucaka ni cara na bulubulu e dua na cakacaka bibi ena noda bula vakavanua, ni sa veivuke ena kena vakarautaki na vanua me bulu kina na wekada sa takali."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava daucaka ni cara na bulubulu?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -7311,6 +8807,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:68:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na daucaka ni vakatoka yaca e dau vakayacori ena kena vakayagataki na yaca ni tamata, vanua, ka so tale. E dau vakayacori ena vuku ni veika e so me vaka na kena vakatakilai na yaca ni tamata vou, na yaca ni bisinisi, na yaca ni vanua vou, kei na so tale. E dau yaga na vakatoka yaca ena kena vakatakilai na yaca me rawa ni kilai kina vakavinaka na ka e vakatokai.\n\nEna kena vakatoka yaca, e dau yaga me vakasamataki vinaka na yaca me vakayagataki, me kua ni vakavuna na leqa se veilecayaki. E dau yaga talega me vakasamataki na kena i balebale kei na kena i tuvatuva me rawa ni yaga vakavinaka ena kena vakayagataki.\n\nKevaka o via vakatoka yaca, e yaga mo vakasamataka na veika oqo:\n1. **i Balebale**: Me yaga na yaca ena kena i balebale.\n2. **i Rairai**: Me rairai vinaka na yaca ena kena volai kei na kena rogo.\n3. **i Vakarau**: Me salavata kei na i tovo kei na i vakarau ni vanua se tamata e vakatokai kina.\n4. **i Vakarorogo**: Me rawarawa ni rogo vinaka kei na kena nanumi.\n\nEna so na gauna, e dau yaga talega mo vakataroga vei ira na wekamu se vei ira na dau ni vuli me baleta na kena vakatoka yaca me rawa ni o digitaka na yaca vinaka duadua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daucaka vakacava na vakatoka yaca?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -7411,6 +8929,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:69:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na vuna levu a veisautaki kina na yaca ni mataivalu ni Viti mai na \"Royal Fiji Military Forces\" kina \"Republic of Fiji Military Forces\" e yavutaki ena veisau vakapolitiki kei na kena vakadeitaki na matanitu ni Viti me matanitu galala. Ni oti na kena mai galala na Viti mai na veiliutaki ni Peritania ena 1970, e dodonu me veisautaki na yaca ni mataivalu me salavata kei na yaca ni matanitu vou. Na veisau oqo e vakaraitaka na nodra galala kei na nodra itutu vakatui na lewenivanua ni Viti ena nodra matanitu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna a veisautaki kina na yaca ni mataivalu ni Viti?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -7523,6 +9063,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:70:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "O Sitiveni Rabuka e dua na turaga ni matanitu mai Viti ka kilai levu ena vuku ni nona veiliutaki ena veiliutaki vakapolitiki kei na veika vakamatasere. E kilai levu ena nona liutaka na veivakadodonutaki vakapolitiki ena 1987, ka vakavuna na veisau levu ena matanitu o Viti. E a liutaka na veivakadodonutaki vakapolitiki ena 1987 ka vakavuna na veisau levu ena matanitu o Viti. E a yaco me Prime Minister ni Viti mai na 1992 ki na 1999. E a lesu tale ena veiliutaki vakapolitiki ena 2022 ni sa digitaki me Prime Minister tale ni Viti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O cei o Sitiveni Rabuka?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -7623,6 +9185,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:71:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na Tabana Ni Qele Maroroi, se na iTaukei Land Trust Board (TLTB), e dua na tabana bibi ena Viti ka raica tiko na veika e baleta na qele ni taukei. Na cakacaka levu ni TLTB e wili kina na:\n\n1. **Maroroi ni Qele ni Taukei**: TLTB e qarava na maroroi ni qele ni taukei me vaka na lawa kei na veika e gadrevi ena nodra yaga na taukei ni qele.\n\n2. **Veisoliyaki ni Laiseni kei na Lisi**: TLTB e solia na laiseni kei na lisi ni qele ni taukei vei ira na via vakayagataka na qele me vaka na bisinisi, teitei, kei na veivakatorocaketaki tale eso.\n\n3. **Vakayagataki Vakavinaka ni Qele**: TLTB e raica na kena vakayagataki vakavinaka na qele ni taukei me rawa ni yaga vakalevu vei ira na taukei ni qele kei na lewenivanua raraba.\n\n4. **Vakarautaki ni iTukutuku kei na iVola ni Qele**: TLTB e maroroya na iVola ni Qele kei na iTukutuku me baleta na qele ni taukei, ka vakadeitaka ni sa volai vakavinaka na veika kece e baleta na qele.\n\n5. **Veivuke ena Veika Vakailavo**: TLTB e vukea na taukei ni qele ena kena rawati na i lavo mai na lisi kei na laiseni, ka vakadeitaka ni sauma vakavinaka na lisi o ira na vakayagataka na qele.\n\n6. **Veivakatorocaketaki kei na Vuli**: TLTB e dau vakayacora na veivakatorocaketaki kei na vuli me baleta na taukei ni qele me rawa ni ra kila vinaka na veika e baleta na nodra qele kei na kena vakayagataki.\n\nNa TLTB e dua na tabana bibi ena kena vakadeitaki ni sa maroroi vakavinaka na qele ni taukei ka vakayagataki me yaga vakalevu vei ira na taukei kei na lewenivanua raraba."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na cakacaka ni Tabana Ni Qele Maroroi se na iTaukei Land Trust Board?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -7735,6 +9319,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:72:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "\"O cei o Ratu Ra La?\" is a phrase in Fijian, which translates to \"Who is the Chief of Ra?\" in English. In Fiji, \"Ratu\" is a title of respect used for chiefs or persons of high rank, and \"Ra\" refers to a province on the northern coast of the island of Viti Levu. The question is asking about the identity of the chief in that specific region. The answer to this question would depend on the current leadership and traditional hierarchy within the Ra province."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O cei o Ratu Ra La?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -7841,6 +9447,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "fijian:73:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Na Sinuwasa e dua na waqa ni veivakamarautaki ka dau vakayagataki ena soqo kei na veivakamarautaki ena noda vanua, vakabibi ena Viti. Na kena kasa e dau vakayacori ena vica na sala:\n\n1. **Vakavinakataki ni Waqa**: E dau vakavinakataki na waqa me vaka na kena vakadodonutaki na kena i vakatagedegede, na kena vakavinakataki na kena i vakasobu kei na kena i vakadodonu.\n\n2. **Vakacurumi ni Sinuwasa**: E dau vakacurumi na sinuwasa ena waqa. Na sinuwasa e dau vakayagataki me vaka na kena i vakatagedegede, na kena i vakasobu kei na kena i vakadodonu.\n\n3. **Vakavinakataki ni Sinuwasa**: E dau vakavinakataki na sinuwasa me vaka na kena vakadodonutaki na kena i vakatagedegede, na kena vakavinakataki na kena i vakasobu kei na kena i vakadodonu.\n\n4. **Vakavinakataki ni Waqa kei na Sinuwasa**: E dau vakavinakataki na waqa kei na sinuwasa me vaka na kena vakadodonutaki na kena i vakatagedegede, na kena vakavinakataki na kena i vakasobu kei na kena i vakadodonu.\n\n5. **Vakavinakataki ni Waqa kei na Sinuwasa**: E dau vakavinakataki na waqa kei na sinuwasa me vaka na kena vakadodonutaki na kena i vakatagedegede, na kena vakavinakataki na kena i vakasobu kei na kena i vakadodonu.\n\nNa kena kasa na waqa na Sinuwasa e dua na ka bibi ka gadrevi kina na kila kei na kila vakacakacaka me rawa ni vakayacori vakavinaka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A kasa vakacava na waqa na Sinuwasa?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -7941,6 +9569,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "fijian:74:language.fijian:gpt 4o",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ena vosa vaka-Viti, e dau digitaki na Peresitedi ni Viti ena sala e vakatokai me \"digitaki\" se \"lesi.\" Na Peresitedi e dau digitaki ena veivakadonui ni Bose Levu Vakaturaga (Great Council of Chiefs) kei na Bose ni Veiliutaki (Parliament). Na Bose Levu Vakaturaga e dau vakaitavi ena kena vakatutu na yacadra na tamata era sa vakarau digitaki me ra Peresitedi, ka na qai vakadeitaki na digitaki ni Peresitedi ena Bose ni Veiliutaki.\n\nNa veika bibi me baleta na digitaki ni Peresitedi e okati kina na kena vakadeitaki ni sa vakayacori na veika e gadrevi ena lawa kei na veika e vakadeitaka na Yavu ni Matanitu (Constitution). Na Peresitedi e dau lewena na itutu vakaturaga levu duadua ena matanitu ka dau lewa na veika bibi ena matanitu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daudigitaki vakacava na Peresitedi kei Viti?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,

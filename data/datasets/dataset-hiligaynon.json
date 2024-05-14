@@ -103,6 +103,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:0:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang mga gagmay nga tiyangge nagasige gihapon operar sa mga pamalay bisan pa man lapit na ang mga tawo sa mga sikat nga 24/7 convenient stores tungod sa pila ka mga rason:\n\n1. **Kahupayan**: Ang mga tiyangge sa mga pamalay mas duol sa mga residente, nga nagahatag kahupayan sa mga tawo nga dili na kinahanglan magbiyahe layo para lang makapalit sa ilang kinahanglanon.\n\n2. **Personal nga Serbisyo**: Ang mga tag-iya sa tiyangge kasagaran kilala sa ilang mga suki, ug nagahatag sila og mas personal nga serbisyo. Ang mga suki makapangutang o makapangayo og pabor nga dili kasagaran mahimo sa mga dagkong tindahan.\n\n3. **Presyo**: Ang mga tiyangge kasagaran nagabaligya og mga produkto sa mas ubos nga presyo kumpara sa mga 24/7 convenient stores. Kini tungod kay mas gamay ang overhead costs sa mga tiyangge.\n\n4. **Komunidad**: Ang mga tiyangge nagatabang sa pagpalig-on sa komunidad. Ang mga tawo nga nagapalit sa tiyangge nagasuporta sa ilang mga silingan ug nagatabang sa lokal nga ekonomiya.\n\n5. **Pagkamaabi-abihon**: Ang mga tiyangge kasagaran mas gamay ug mas simple, nga nagahatag og mas mainit ug maabi-abihon nga atmospera kumpara sa mga dagkong tindahan.\n\n6. **Pagkamaayo sa Oras**: Ang mga tiyangge kasagaran nagabukas sa mga oras nga angay sa mga panginahanglan sa komunidad. Bisan pa man dili sila 24/7, ang ilang oras sa operasyon kasagaran nagatugma sa mga oras nga ang mga tawo nagakinahanglan og mga produkto.\n\n7. **Pagkamaayo sa Pagpili**: Bisan pa man dili kompleto ang ilang mga produkto, ang mga tiyangge kasagaran nagadala og mga produkto nga kasagaran ginapangita sa ilang mga suki, nga nagahatag og mas targeted nga pagpili.\n\nTungod sa mga rason nga kini, ang mga gagmay nga tiyangge nagapadayon gihapon sa pag-operar ug nagapadayon sa pagserbisyo sa ilang mga komunidad bisan pa man sa presensya sa mga dagkong 24/7 convenient stores."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a ang mga gagmay nga tiyangge nagasige gihapon operar sa mga pamalay nga kung pinsaron lapit na ang mga tawo sa mga sikat nga 24/7 convenient stores?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -203,6 +225,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:1:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "May mga rason nga ang mga tawo namian gid magkinamot samtang nagakaon imbes maggamit sang kutsara kag tinidor. Anay, ang pagkinamot nagahatag sang mas personal kag direkta nga koneksyon sa pagkaon. Ang pagkinamot nagahatag sang mas maayo nga kontrol sa pagkaon, kag mas madali ma-adjust ang kadamuon sang pagkaon nga ginakuha.\n\nIkaduha, sa kultura sang iban nga mga lugar, ang pagkinamot isa ka tradisyonal nga pamaagi sang pagkaon. Sa Pilipinas, labi na sa mga probinsya, ang pagkinamot isa ka pamaagi nga nagapakita sang respeto kag pagpadayon sang kultura kag tradisyon.\n\nIkatatlo, ang pagkinamot mahimo man nga mas komportable kag mas natural para sa iban nga tawo. Ang mga pagkaon nga may sabaw o sarsa, pareho sang sinigang o adobo, mas madali kag mas lami kaunon gamit ang kamot.\n\nSa katapusan, ang pagkinamot mahimo man nga nagahatag sang mas maayo nga eksperyensya sa pagkaon. Ang pagtilaw, pagtilaw, kag pagpalamati sa pagkaon gamit ang tanan nga senses—labi na ang sense of touch—nagahatag sang mas kompleto kag malipayong eksperyensya sa pagkaon.\n\nSa kabug-usan, ang pagkinamot isa ka pamaagi nga nagahatag sang mas personal, tradisyonal, komportable, kag mas malipayong eksperyensya sa pagkaon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a ang mga tawo namian gid gihapon magkinamot samtang nagakaon imbes maggamit sila sang kutsara kag tinidor?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -315,6 +359,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:2:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang korte sang barangay, nga mas kilala bilang Lupong Tagapamayapa, nagagiho bilang usa ka pamaagi sa pagresolba sang mga indi pag-intindihan sa sulod sang barangay antes pa ini mag-abot sa mas mataas nga korte. Ini nga sistema ginatawag nga Katarungang Pambarangay, kag ini ang ginapatuman suno sa Republic Act No. 7160, ukon ang Local Government Code of 1991.\n\n**Mga Kaso nga Sakop sang Awtoridad sang Barangay:**\n\n1. **Civil Cases:**\n   - Mga indi pag-intindihan nga nagalambot sa mga utang, mga kontrata, kag mga obligasyon nga wala nagalampas sa P200,000 (kung sa Metro Manila) kag P100,000 (kung sa iban nga lugar).\n   - Mga kaso nga nagalambot sa pag-angkon sang duta, mga balay, kag iban pa nga real properties nga wala nagalampas sa P200,000 (kung sa Metro Manila) kag P100,000 (kung sa iban nga lugar).\n\n2. **Criminal Cases:**\n   - Mga kaso nga may penalidad nga wala nagalampas sa isang tuig nga pagkabilanggo o multa nga wala nagalampas sa P5,000.\n   - Mga kaso nga nagalambot sa mga minor offenses, pareho sang slight physical injuries, malicious mischief, kag mga simple nga threats.\n\n**Mga Proseso sa Barangay Justice System:**\n\n1. **Pagsumiter sang Reklamo:**\n   - Ang nagareklamo magapadulong sa barangay kag magapasa sang reklamo sa Punong Barangay.\n\n2. **Pagpatawag sang Pagtapok:**\n   - Ang Punong Barangay magapatawag sang mga partido para sa usa ka pamaagi nga ginatawag nga \"conciliation\" ukon \"pagtapok.\"\n\n3. **Pagpili sang Lupon:**\n   - Kung indi magkasugot ang mga partido sa una nga pagtapok, ang kaso ipasa sa Lupon Tagapamayapa, nga magapili sang mga miyembro nga magapamuno sa sunod nga mga sesyon.\n\n4. **Pagpatawag sang Pagtapok sang Lupon:**\n   - Ang Lupon magapatawag sang mga partido para sa sunod nga mga sesyon sa pagresolba sang indi pag-intindihan.\n\n5. **Pagresolba:**\n   - Kung magkasugot ang mga partido, ang kasugtanan ipatala kag ini may binding effect pareho sa usa ka korte nga desisyon.\n   - Kung wala sang kasugtanan, ang mga partido makakuha sang \"Certificate to File Action\" nga magahatag sa ila sang katungdanan nga magpadulong sa mas mataas nga korte.\n\nAng Katarungang Pambarangay nagahatag sang oportunidad sa mga residente nga maremedyuhan ang ila mga indi pag-intindihan sa mas madali kag mas barato nga pamaagi, kag nagapabug-os sang komunidad pinaagi sa pagpromote sang pag-intindihan kag kooperasyon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano nagagiho ang korte sang barangay sa sulod sang lokal nga legal nga sistema, kag ano ang mga kaso nga sakop sang ila awtoridad?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -415,6 +481,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:3:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Sa subong nga tini-on, ang pagpati sa mga aswang, kapre, kag iban nga mga mitikal nga tinuga nagapadayon pa gihapon sa pila ka mga bahin sang Pilipinas, labi na gid sa mga rural nga lugar. May pila ka mga rason kon ngaa nagapadayon ini nga mga pagtuo:\n\n1. **Kultura kag Tradisyon**: Ang mga istorya parte sa mga aswang, kapre, kag iban pa nga mga mitikal nga tinuga ginapasa-pasa halin sa isa ka henerasyon pakadto sa sunod. Ini nga mga istorya parte na sang aton kultura kag tradisyon, kag nagabulig sa pagpadayon sang aton identidad bilang mga Pilipino.\n\n2. **Pagpanghadlok**: Sa mga kabataan, ang mga istorya sang aswang kag iban pa nga mga mitikal nga tinuga ginagamit sang mga ginikanan agud magpanghadlok kag magdisiplina. Halimbawa, ginahambalan ang mga kabataan nga indi maggawas sa gab-i kay basi kuhaon sila sang aswang.\n\n3. **Pagpangita sang Eksplanasyon**: Sa mga lugar nga kulang sa modernong teknolohiya kag edukasyon, ang mga tao nagapangita sang eksplanasyon sa mga butang nga indi nila maintindihan. Ang mga mitikal nga tinuga nagahatag sang mga eksplanasyon sa mga misteryoso nga mga panghitabo, pareho sang mga masakit nga indi maeksplikar sang mga doktor.\n\n4. **Media kag Popular Culture**: Ang mga istorya parte sa mga aswang kag iban pa nga mga mitikal nga tinuga nagapadayon man sa media, pareho sang mga sine, telebisyon, kag komiks. Ini nga mga plataporma nagabulig sa pagpadayon sang interes kag pagpati sa mga mitikal nga tinuga.\n\n5. **Personal nga Experyensya**: May mga tawo nga nagapati sa mga mitikal nga tinuga tungod sa ila personal nga mga eksperyensya. Ang mga istorya sang mga tawo nga nagasiling nga nakakita sila sang aswang o kapre nagahatag sang dugang nga rason sa iban nga magpati man.\n\nBisan pa nga nagauswag na ang teknolohiya kag edukasyon, ang mga pagtuo sa mga mitikal nga tinuga nagapabilin nga bahin sang aton kultura kag tradisyon. Ini nagapakita sang kaimportantehan sang aton mga istorya kag ang aton pagtuo sa mga butang nga indi naton makita."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano naga padayon ang pagpati sa mga aswang, kapre, kag sa iban nga mga mitikal nga tinuga sa subong nga tini-on?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -527,6 +615,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:4:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang \"Flores de Mayo\" isa ka tradisyon nga ginaselebrar sa Pilipinas sa bulan sang Mayo bilang pagpasidungog kay Santa Maria, ang iloy ni Hesus. Ang mga tawo nagaselebrar sini sa paagi sang matahum nga mga prosesyon kag paghalad sang mga bulak tungod sa pila ka mga rason:\n\n1. **Pagpasidungog kay Santa Maria**: Ang \"Flores de Mayo\" literal nga nagakahulugan nga \"Mga Bulak sang Mayo.\" Ini nga selebrasyon ginahimo agud pasidunggan si Santa Maria, nga ginakilala bilang Reyna sang mga Santos kag Reyna sang Langit. Ang paghalad sang mga bulak simbolo sang pagpasalamat kag pagdayaw sa iya.\n\n2. **Pagpakita sang Debosyon**: Ang mga prosesyon kag paghalad sang mga bulak nagapakita sang debosyon kag pagtuo sang mga Katoliko kay Santa Maria. Ini nga mga aktibidad nagapakita sang ila pagtuo kag paglaum sa iya pagpatunga sa ila mga pangamuyo.\n\n3. **Pag-ila sa Kahalagahan sang Bulan sang Mayo**: Ang Mayo ginakilala bilang bulan ni Maria sa tradisyon sang Simbahang Katoliko. Ini nga bulan ginakonsiderar nga espesyal para sa mga aktibidad nga nagapadungog kay Santa Maria.\n\n4. **Pagpabaskog sang Komunidad**: Ang mga aktibidad sa \"Flores de Mayo\" nagapabaskog sang paghiusa kag pagbinuligay sa komunidad. Ang mga tawo nagatipon-tipon, nagapangamuyo, kag nagaselebrar upod-upod, nga nagapabaskog sang ila relasyon bilang mga miyembro sang komunidad.\n\n5. **Pagpreserba sang Kultura kag Tradisyon**: Ang \"Flores de Mayo\" isa ka bahin sang kultural nga pamana sang mga Pilipino. Ang pagpadayon sang sini nga tradisyon nagabulig sa pagpreserba sang ila kultural nga identidad kag pagpadayon sang mga tradisyon nga ginpamana pa halin sa ila mga katigulangan.\n\nSa kabug-usan, ang \"Flores de Mayo\" isa ka matahum nga selebrasyon nga nagapakita sang pagtuo, paglaum, kag pagpalangga sang mga Pilipino kay Santa Maria, samtang nagapabaskog man sang ila komunidad kag kultural nga pamana."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a ginatuman sang mga tawo ang 'Flores de Mayo' sa paagi sang matahum nga mga prosesyon kag paghalad sang mga bulak?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -627,6 +737,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:5:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang Kansi ay isang kilalang putahe mula sa Bacolod, Negros Occidental, at ito ay naging sikat dahil sa kakaibang kombinasyon ng mga sangkap at lasa na nagmula sa rehiyon. Narito ang ilang mga dahilan kung bakit naging sikat ang Kansi sa Bacolod:\n\n1. **Unikong Lasa**: Ang Kansi ay isang kombinasyon ng sinigang at bulalo. Ang sabaw nito ay maasim dahil sa batwan, isang prutas na endemic sa Negros, at malasa dahil sa karne ng baka. Ang kakaibang lasa na ito ay nagustuhan ng maraming tao.\n\n2. **Lokal na Sangkap**: Ang paggamit ng batwan bilang pampaasim ay nagbibigay ng natatanging lasa na hindi matatagpuan sa ibang mga putahe. Ang batwan ay isang prutas na karaniwang matatagpuan lamang sa Negros, kaya't ang Kansi ay may lokal na karakter.\n\n3. **Kultura at Tradisyon**: Ang Kansi ay bahagi ng kultura at tradisyon ng mga taga-Bacolod. Ito ay madalas na inihahanda sa mga espesyal na okasyon at pagtitipon, kaya't naging bahagi na ito ng kanilang pamumuhay.\n\n4. **Pagkilala ng mga Restawran**: Maraming mga restawran sa Bacolod ang nag-aalok ng Kansi, at ang ilan sa mga ito ay naging tanyag dahil sa kanilang masarap na bersyon ng putahe. Ang mga restawran na ito ay nakatulong sa pagpapalaganap ng kasikatan ng Kansi.\n\n5. **Pagdami ng Turismo**: Ang Bacolod ay kilala rin sa MassKara Festival, at maraming turista ang bumibisita sa lungsod. Ang mga turista ay naghahanap ng mga lokal na pagkain na matitikman, at ang Kansi ay isa sa mga inirerekomendang putahe.\n\n6. **Social Media at Food Blogging**: Sa pag-usbong ng social media at food blogging, maraming tao ang nagbabahagi ng kanilang mga karanasan sa pagkain ng Kansi. Ito ay nagbigay ng mas malawak na exposure sa putahe, na nagresulta sa pagtaas ng kasikatan nito.\n\nSa kabuuan, ang Kansi ay naging sikat dahil sa natatanging lasa, lokal na sangkap, at suporta ng komunidad at industriya ng pagkain sa Bacolod."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano nangin sikat nga luto ang Kansi sa Bacolod?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -739,6 +871,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:6:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang MassKara Festival sa Bacolod City, Pilipinas, nagsugod sa dekada 1980 bilang isa ka pamaagi sa pagbangon sang mga taga-Bacolod sa tunga sang mga krisis. Sa 1980, ang Negros Occidental, nga diin ang Bacolod ang kapital, nag-antos sang dako nga krisis ekonomiko tungod sa pagpanubo sang presyo sang asukal sa merkado internasyonal. Dugang pa, nagluntad man ang trahedya sang pagkalunod sang MV Don Juan, isa ka barko nga nagabiyahe halin sa Bacolod padulong sa Manila, nga nagresulta sa kamatayon sang madamo nga Negrense.\n\nAgud maghatag sang paglaum kag pagpakita sang resiliency sang mga Negrense, ginlunsar ang MassKara Festival. Ang ngalan nga \"MassKara\" nagahalin sa mga pulong nga \"mass\" (nga nagakahulugan sang madamo nga tawo) kag \"kara\" (nga nagakahulugan sang maskara). Ang festival nagapakita sang mga maskara nga may malipayong mga nawong, nga simbolo sang paglaum kag pagpadayon bisan sa tunga sang mga kalisod.\n\nAng MassKara Festival ginapatigayon kada Oktubre, kag ini nagalawig sang pila ka semana. Ang mga aktibidad nagalakip sang:\n\n1. **Street Dancing Competitions**: Ang mga partisipante nagasul-ob sang makulay kag malipayong mga maskara kag kostyum samtang nagasayaw sa kadalanan. Ang mga grupo halin sa nagkalain-lain nga barangay kag eskwelahan nagakumpetensya sa pagpakita sang ila abilidad sa pagsayaw kag pagpresentar sang mga maskara.\n\n2. **Electric MassKara**: Ini nga aktibidad ginahiwat sa gab-i, diin ang mga partisipante nagasayaw sa kadalanan nga may mga suga kag neon lights, nga nagahatag sang mas makulay kag masadya nga atmospera.\n\n3. **MassKara Queen Pageant**: Isa ini ka beauty pageant nga ginahiwat agud mapili ang MassKara Queen, nga nagarepresentar sang festival kag sang Bacolod City.\n\n4. **Mga Trade Fairs kag Food Festivals**: Ginapakita kag ginabaligya ang mga lokal nga produkto, pagkaon, kag mga delicacies sang Bacolod kag Negros Occidental.\n\n5. **Concerts kag Live Performances**: May mga live performances halin sa mga lokal kag nasyonal nga mga artista kag banda.\n\n6. **Mga Parada kag Float Competitions**: May mga parada sang mga float nga may nagkalain-lain nga tema kag dekorasyon.\n\nAng MassKara Festival nagapakita sang kultura, pagkamalipayon, kag resiliency sang mga taga-Bacolod, kag ini nagadani sang madamo nga mga turista halin sa nagkalain-lain nga parte sang Pilipinas kag sa iban nga pungsod."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano nagsugod ang pagselebrar sang Masskara festival kag paano ni ginapatigayon?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -839,6 +993,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:7:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Gintawag nga \"Sugarbowl of the Philippines\" ang Negros Occidental tungod sa iya dako nga kontribusyon sa industriya sang asukal sa pungsod. Ang probinsya may mga malapad nga uma sang tubo kag ini ang nagapanguna sa produksyon sang asukal sa Pilipinas. Ang mga plantasyon sang tubo kag mga sugar mills sa Negros Occidental nagahatag sang dako nga bahin sang asukal nga ginakonsumo kag gina-eksport sang Pilipinas. Ang klima kag lupa sa probinsya ang angay gid para sa pagtubo sang tubo, rason nga nagdamo ang mga uma kag planta sang asukal diri."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a gintawag nga Sugarbowl sang Pilipinas ang Negros Occidental?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -951,6 +1127,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:8:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang Bacolod gintawag nga \"The City of Smiles\" tungod sa masadya kag mainabyanon nga kinaiya sang mga pumuluyo sini. Ang pinakasikat nga selebrasyon sa Bacolod amo ang MassKara Festival, nga ginahiwat kada Oktubre. Ini nga festival nagatampok sang mga tawo nga nagasuksok sang makulay kag malipayong mga maskara, nga nagapakita sang pagpadayon sang kalipay kag paglaum bisan sa tunga sang mga kabudlayan. Ang MassKara Festival nagasugod sa dekada 1980, sa tion nga ang syudad nagaatubang sang mga krisis ekonomiko kag natural nga kalamidad. Ang pagselebrar sini nga festival naghatag sang inspirasyon kag paglaum sa mga pumuluyo, kag nagpatigayon sang imahe sang Bacolod bilang \"The City of Smiles.\""
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a gintawag ang Bacolod nga the City of Smiles?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1051,6 +1249,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:9:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang Piyesta Minatay, o Araw ng mga Patay, ay isang mahalagang okasyon sa kultura ng mga Ilonggo at iba pang mga Pilipino. Sa pagdiriwang na ito, karaniwang inihahanda ang mga tradisyonal na pagkain tulad ng kalamay-hati at bayi-bayi. Ang mga pagkaing ito ay may espesyal na kahulugan at simbolismo sa pag-alala sa mga yumao.\n\n**Kalamay-hati:**\nAng kalamay-hati ay isang uri ng matamis na kakanin na gawa sa malagkit na bigas, gata ng niyog, at asukal. Ang proseso ng paggawa nito ay medyo matrabaho dahil kailangan itong haluin nang tuloy-tuloy upang makamit ang tamang lapot at tamis. Ang kalamay-hati ay madalas na inihahanda sa mga espesyal na okasyon tulad ng Piyesta Minatay dahil ito ay simbolo ng matamis na alaala at pagmamahal sa mga pumanaw na mahal sa buhay.\n\n**Bayi-bayi:**\nAng bayi-bayi naman ay isa pang tradisyonal na kakanin na gawa sa malagkit na bigas at gata ng niyog, ngunit ito ay may kakaibang texture at lasa kumpara sa kalamay-hati. Ang bayi-bayi ay karaniwang hinuhubog sa maliliit na piraso at minsan ay nilalagyan ng kulay upang maging mas kaakit-akit. Ang pagkain na ito ay simbolo ng pagkakaisa at pagsasama-sama ng pamilya at komunidad sa pag-alala sa mga yumao.\n\nAng paghahanda ng mga pagkaing ito ay hindi lamang isang simpleng tradisyon kundi isang paraan ng pagpapakita ng respeto at pagmamahal sa mga pumanaw na mahal sa buhay. Sa pamamagitan ng pagsasama-sama ng pamilya at komunidad sa paghahanda at pagkain ng mga tradisyonal na kakanin, naipapasa ang mga kaugalian at kultura sa susunod na henerasyon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano nangin kina-andan nga handa sa Piyesta Minatay ang mga Ilonggo nga kalan-on parehos sang kalamay-hati kag bayi-bayi?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -1163,6 +1383,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:10:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang konsepto ng \"mariit\" ay isang mahalagang bahagi ng kultura at paniniwala ng mga Ilonggo. Ang salitang \"mariit\" ay tumutukoy sa mga bagay o lugar na itinuturing na sagrado, may kapangyarihan, o may presensya ng mga espiritu. Ang mga paniniwalang ito ay may malalim na ugat sa tradisyon at kasaysayan ng mga Ilonggo, at patuloy na nakakaapekto sa kanilang pang-araw-araw na buhay sa iba't ibang paraan.\n\n1. **Pag-iwas sa mga Mariit na Lugar**: Maraming Ilonggo ang nag-iingat at iniiwasan ang mga lugar na itinuturing na mariit, tulad ng mga kagubatan, ilog, at bundok. Naniniwala sila na ang mga lugar na ito ay tahanan ng mga espiritu at dapat igalang upang maiwasan ang malas o kapahamakan.\n\n2. **Ritwal at Alay**: Upang mapanatili ang magandang relasyon sa mga espiritu, ang mga Ilonggo ay nagsasagawa ng mga ritwal at nag-aalay ng pagkain, bulaklak, o iba pang bagay. Ang mga ritwal na ito ay ginagawa upang humingi ng proteksyon, biyaya, o kapatawaran mula sa mga espiritu.\n\n3. **Paggalang sa Kalikasan**: Ang konsepto ng mariit ay nagdudulot din ng mas mataas na antas ng paggalang sa kalikasan. Ang mga Ilonggo ay nagiging mas maingat sa kanilang pakikitungo sa kapaligiran, dahil naniniwala sila na ang kalikasan ay may mga tagapagbantay na espiritu.\n\n4. **Pananampalataya at Paniniwala**: Ang mariit ay bahagi ng mas malawak na sistema ng paniniwala na nag-uugnay sa mga Ilonggo sa kanilang mga ninuno at sa espirituwal na mundo. Ito ay nagpapalakas ng kanilang pananampalataya at nagbibigay ng kahulugan sa kanilang mga tradisyon at kaugalian.\n\n5. **Pagkakaisa ng Komunidad**: Ang mga paniniwala sa mariit ay nagiging dahilan din ng pagkakaisa ng komunidad. Ang mga ritwal at seremonya na nauugnay sa mariit ay kadalasang ginagawa nang sama-sama, na nagpapalakas ng ugnayan at pakikipagkapwa-tao.\n\nSa kabuuan, ang konsepto ng mariit ay patuloy na nagiging mahalagang bahagi ng buhay ng mga Ilonggo. Ito ay nag-aambag sa kanilang pagkakakilanlan, kultura, at pananaw sa mundo, at nagbibigay ng gabay sa kanilang pang-araw-araw na desisyon at pakikitungo sa kapaligiran at sa kanilang kapwa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano nagakaapektuhan sang konsepto sang 'mariit' ang karon nga kinabuhi sang mga Ilonggo?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1263,6 +1505,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:11:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang eleksyon sa mga barangay sa Pilipinas ay ginapatigayon sa mga sumusunod nga mga hakbang:\n\n1. **Pagpili sang Petsa**: Ang Commission on Elections (COMELEC) ang nagadeterminar sang eksaktong petsa sang eleksyon. Sa kasaysayan, ang eleksyon sa mga barangay kag Sangguniang Kabataan (SK) ginapatigayon kada tatlo ka tuig.\n\n2. **Pagparehistro sang mga Botante**: Ang mga residente nga kwalipikado magboto kinahanglan magparehistro sa COMELEC. Ang mga botante dapat residente sang barangay kag may edad nga labing menos 18 anyos sa adlaw sang eleksyon.\n\n3. **Pag-file sang Certificate of Candidacy (COC)**: Ang mga interesado magpadalagan bilang Punong Barangay (Kapitan) o Kagawad sang Barangay kinahanglan mag-file sang ila COC sa COMELEC sa ginset nga period.\n\n4. **Pagkampanya**: May campaign period nga ginahatag ang COMELEC sa mga kandidato agud magkampanya. Dapat sundon ang mga regulasyon kag limitasyon nga ginapatuman sang COMELEC sa campaign period.\n\n5. **Adlaw sang Eleksyon**: Sa adlaw sang eleksyon, ang mga botante magakadto sa ila designated polling precincts agud magboto. Ang botohan nagabukas sa aga kag nagasara sa hapon.\n\n6. **Pagbilang sang Boto**: Pagkatapos magsara ang botohan, ang mga boto ginabilang sa presensya sang mga watchers kag mga kinatawan sang mga kandidato. Ang resulta sang boto sa kada precinct ginarecord kag ginatipon.\n\n7. **Pagdeklara sang mga Nagdaog**: Ang COMELEC ang nagaproseso kag nagadeklara sang mga nagdaog base sa resulta sang boto. Ang mga nagdaog nga kandidato magaserbisyo bilang mga opisyal sang barangay sa sulod sang tatlo ka tuig.\n\n8. **Pag-file sang mga Protesta**: Kung may mga reklamo o protesta ang mga kandidato, pwede sila mag-file sang formal protest sa COMELEC agud imbestigaran ang mga alegasyon.\n\nAng proseso sang eleksyon sa barangay ginapatuman agud masiguro nga demokratiko kag patas ang pagpili sang mga lider sa komunidad."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano ginapatigayon ang eleksyon sa mga barangay?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -1375,6 +1639,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:12:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang padayon nga paggamit sang mga bus kag pribado nga mga salakyan sa paggamit sang mga jeep may ara sang madamo nga kultural nga epekto. Ari ang pila ka mga posible nga epekto:\n\n1. **Pagbag-o sa Transportasyon nga Kultura**: Ang pag-uswag sang bus kag pribado nga mga salakyan mahimo magdala sang pagbag-o sa tradisyonal nga transportasyon nga kultura. Ang jeep, nga isa ka simbolo sang Filipino ingenuity kag kultura, mahimo nga mag-untat sa pag-uswag kag magdula sa kadam-an nga mga lugar.\n\n2. **Pagkawala sang Identidad**: Ang jeepney isa ka iconic nga simbolo sang Filipino culture. Ang pagdamo sang bus kag pribado nga mga salakyan mahimo magresulta sa pagkawala sang jeepney sa mga kalsada, nga mahimo magdala sang pagkawala sang isa ka bahin sang Filipino identity.\n\n3. **Pagbag-o sa Komunidad**: Ang jeepney rides nagahatag sang oportunidad para sa mga pasahero nga mag-engage sa isa kag isa, mag-share sang istorya, kag mag-establish sang sense of community. Ang pagdamo sang bus kag pribado nga mga salakyan mahimo magresulta sa mas individualistic nga pagbiyahe, nga mahimo magpahuyang sang communal interactions.\n\n4. **Ekonomiya sang mga Drayber**: Ang mga jeepney drayber kag operators mahimo maapektuhan sang pagdamo sang bus kag pribado nga mga salakyan. Ang ila pangabuhian mahimo mag-untat, kag ang mga pamilya nga nagasalig sa jeepney operations mahimo mag-antos.\n\n5. **Pagbag-o sa Urban Landscape**: Ang pagdamo sang bus kag pribado nga mga salakyan mahimo magdala sang pagbag-o sa urban landscape. Ang mga terminal kag parking spaces para sa mga bus kag pribado nga mga salakyan mahimo magdako, kag ang mga lugar nga ginadestinahan para sa jeepney terminals mahimo magbag-o sang gamit.\n\n6. **Pagbag-o sa Panan-aw sang Publiko**: Ang mga bus kag pribado nga mga salakyan mahimo magdala sang pagbag-o sa panan-aw sang publiko sa transportasyon. Ang mga tao mahimo mag-prefer sang mas komportable kag mas moderno nga mga salakyan, kag ang jeepney mahimo makita nga outdated o hindi na angay sa modernong panahon.\n\n7. **Pagbag-o sa Tradisyonal nga Praktis**: Ang mga tradisyonal nga praktis nga nagalibot sa jeepney, lakip na ang pagdekorar sini kag ang mga ritwal nga ginahimo sang mga drayber, mahimo magdula. Ang mga bus kag pribado nga mga salakyan wala sang pareho nga tradisyonal nga aspeto.\n\nSa kabug-usan, ang padayon nga paggamit sang mga bus kag pribado nga mga salakyan sa paggamit sang mga jeep may ara sang madamo nga kultural nga epekto nga nagalambot sa identidad, komunidad, ekonomiya, kag urban landscape sang Pilipinas."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang mga kultural nga epekto sang padayon nga paggamit sang mga bus kag pribado nga mga salakyan sa paggamit sang mga jeep?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1475,6 +1761,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:13:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Sa Iloilo, ang pag-obserba sang Kwaresma kada Semana Santa ginahimo sa madamo nga pamaagi nga nagapakita sang ila pagtuo kag tradisyon. Amo ini ang pila ka mga pamaagi nga ginahimo sang mga Ilonggo:\n\n1. **Pabasa**: Isa ini ka tradisyon nga ginahimo sa mga barangay kag simbahan, kun sa diin ginabasa ang \"Pasyon\" nga nagasaysay sang kabuhi kag pag-antos ni Hesus Kristo. Ang Pabasa nagalast sang pila ka oras tubtob sa pila ka adlaw depende sa lugar.\n\n2. **Visita Iglesia**: Ang mga Ilonggo nagabisita sa pito ka simbahan sa Huwebes Santo. Ini nga tradisyon nagarepresentar sang pagbisita ni Hesus sa pito ka simbahan antes siya dakpon.\n\n3. **Senakulo**: Ang mga komunidad nagapakita sang dramatikong presentasyon sang pag-antos kag kamatayon ni Hesus Kristo. Ini nga mga presentasyon ginahimo sa mga plaza o sa mga simbahan.\n\n4. **Prusisyon**: Sa Biyernes Santo, may mga prusisyon nga ginahimo kun sa diin ginadala ang mga imahe ni Kristo nga nagapasan sang krus, ang Birhen Maria, kag iban pa nga mga santos. Ang mga prusisyon nagalibot sa mga dalan sang syudad o baryo.\n\n5. **Pagpuasa kag Pagsakripisyo**: Ang mga Ilonggo nagapuasa kag nagahimo sang mga sakripisyo bilang paghinumdom sa pag-antos ni Kristo. Ang iban nagalikaw sa pagkaon sang karne kag nagakaon lang sang isda o gulay.\n\n6. **Pagpamalandong**: Ang mga tawo nagapamalandong kag nagapangamuyo sa ila mga balay o sa simbahan. Ini nga mga aktibidad nagahatag sang panahon para sa personal nga paghinumdom kag pag-ampo.\n\n7. **Pagpangumpisal**: Ang mga Ilonggo nagapangumpisal sa ila mga sala sa mga pari bilang pagpreparar sa pagselebrar sang Pasko sang Pagkabanhaw.\n\n8. **Pagdalo sa Misa**: Ang mga misa sa Huwebes Santo, Biyernes Santo, kag Sabado de Gloria ginadalo sang madamo nga mga Ilonggo. Ang misa sa Sabado de Gloria nagasugod sa gab-i kag nagatapos sa kaagahon sang Domingo de Pascua.\n\nIni nga mga tradisyon nagapakita sang madalom nga pagtuo kag kultura sang mga Ilonggo sa pag-obserba sang Kwaresma kag Semana Santa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa ano nga pamaagi naga-obserba ang mga tawo sa Iloilo sang Kwaresma kada Semana Santa?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -1587,6 +1895,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:14:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang tradisyon ng pagsabit ng luya sa damit ng bata ay isang kaugalian na matagal nang isinasagawa sa ilang bahagi ng Pilipinas, partikular na sa mga probinsya. Ang eksaktong pinagmulan ng tradisyong ito ay hindi ganap na dokumentado, ngunit may ilang mga paliwanag at paniniwala na maaaring magbigay-linaw sa kasaysayan nito.\n\n1. **Proteksyon Laban sa Masasamang Espiritu**: Isa sa mga pangunahing dahilan ng pagsabit ng luya sa damit ng bata ay ang paniniwala na ito ay nagbibigay ng proteksyon laban sa masasamang espiritu o \"aswang.\" Sa maraming kultura sa Pilipinas, ang luya ay itinuturing na may kapangyarihang magtaboy ng mga negatibong enerhiya at masasamang nilalang.\n\n2. **Pampalakas ng Katawan**: Ang luya ay kilala rin sa mga katutubong medisina bilang isang halamang gamot na may maraming benepisyo sa kalusugan. Ang pagsabit ng luya sa damit ng bata ay maaaring simbolo ng pagnanais na mapanatiling malusog at malakas ang bata.\n\n3. **Pananatili ng Tradisyon**: Ang mga tradisyon ay madalas na ipinapasa mula sa isang henerasyon patungo sa susunod. Ang pagsabit ng luya sa damit ng bata ay maaaring isang paraan ng mga magulang at mga nakatatanda upang mapanatili ang kanilang kultura at mga paniniwala.\n\n4. **Pag-iwas sa Sakit**: May mga paniniwala rin na ang luya ay maaaring makatulong sa pag-iwas sa iba't ibang sakit. Ang amoy ng luya ay maaaring ituring na isang paraan upang mapanatiling malayo ang mga mikrobyo o sakit na dala ng hangin.\n\nBagaman ang mga modernong medisina at agham ay maaaring hindi sumang-ayon sa lahat ng mga paniniwalang ito, ang tradisyon ng pagsabit ng luya sa damit ng bata ay nananatiling isang mahalagang bahagi ng kultura at pamana ng maraming Pilipino."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano nagsugod ang tradisyon sang pag sibit sang luy-a sa bayo sang bata?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1687,6 +2017,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:15:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang lokal nga mga kapiyestahan nagalakip sang pagsinaot, pagkanta, pag-arte, manami nga pinta sa hitsura, kag dalagko nga mga bayo sa ila mga selebrasyon tungod sa madamo nga mga rason nga nagatuhaw sa kultura, tradisyon, kag kasaysayan sang komunidad. Anum ka mga rason nga nagahatag sang kabug-usan nga paghangop sa sini nga mga aktibidad:\n\n1. **Pagpahayag sang Kultura kag Identidad**: Ang mga kapiyestahan nagahatag sang oportunidad sa mga tawo nga ipahayag ang ila kultura kag identidad. Pinaagi sa pagsinaot, pagkanta, kag pag-arte, ginapakita nila ang ila mga tradisyon kag mga istorya nga nagapadayon sa ila komunidad.\n\n2. **Pagpasidungog sa mga Santo kag mga Selebrasyon sa Relihiyon**: Sa madamo nga mga lugar, ang mga kapiyestahan ginahiwat agud pasidunggan ang mga patron saint o mga relihiyosong okasyon. Ang mga ritwal kag mga aktibidad nga ini nagapakita sang pagtuo kag pagpasalamat.\n\n3. **Pagpabaskog sang Komunidad**: Ang mga kapiyestahan nagapabaskog sang paghiusa kag kooperasyon sa komunidad. Ang mga tawo nagatinir sa paghiwat sang mga aktibidad nga nagapakita sang ila pagbinuligay kag pagpalangga sa isa kag isa.\n\n4. **Pagpahayag sang Kasaysayan**: Ang mga tradisyonal nga pagsinaot, kanta, kag mga bayo nagapahayag sang kasaysayan sang komunidad. Ini nga mga aktibidad nagapadayon sang mga istorya kag mga panghitabo nga naghulma sa ila pagkatawo.\n\n5. **Paghatag Kalipay kag Kasadya**: Ang mga kapiyestahan nagahatag sang kalipay kag kasadya sa mga partisipante kag mga manogtan-aw. Ang mga makulay nga bayo, manami nga pinta sa hitsura, kag masadya nga mga aktibidad nagahatag sang positibo nga eksperyensya sa tanan.\n\n6. **Pagdani sang mga Bisita kag Turismo**: Ang mga kapiyestahan nagadani sang mga bisita kag nagapadamo sang turismo sa lugar. Ini nagahatag sang oportunidad sa ekonomiya kag nagapakita sang kultura sa mas madamo nga mga tawo.\n\nSa kabug-usan, ang mga kapiyestahan nagapakita sang madamo nga aspeto sang komunidad, halin sa kultura kag tradisyon, tubtob sa paghiusa kag kalipay. Ang mga aktibidad nga ini nagapadayon sang mga tradisyon kag nagahatag sang madamo nga benepisyo sa komunidad."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a ang lokal nga mga kapiyestahan nagalakip sang pagsinaot, pagkanta, pag-arte, manami nga pinta sa hitsura, kag dalagko nga mga bayo sa ila mga selebrasyon?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -1799,6 +2151,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:16:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang mga Ilonggo, nga nagagamit sang lengguahe nga Hiligaynon, kilala sa ila malulo kag malagday nga paghambal bisan sa mga sitwasyon nga sila akig. May pila ka mga rason nga nagahatag sang kasanag sa sini nga kinaiya:\n\n1. **Kultura kag Tradisyon**: Ang mga Ilonggo may malawig nga tradisyon sang pagrespeto kag pagpasensya. Ang pagpakita sang kalma kag pagkamalulo bisan sa tunga sang tensyon o kaakig isa ka pamaagi nga ginapanindugan nila agud mapabilin ang harmonya sa komunidad.\n\n2. **Lengguahe**: Ang Hiligaynon nga lengguahe mismo may melodiko kag malambot nga tuno. Bisan pa sa mga sitwasyon nga may kaakig, ang natural nga tuno sang lengguahe nagahatag sang impresyon nga malulo kag malagday ang paghambal.\n\n3. **Pagpugong sa Emosyon**: Ang mga Ilonggo may hilig sa pagpugong sang ila emosyon. Sa baylo nga magpakita sang kaakig sa madinalagmit nga pamaagi, mas ginapili nila ang pagpakalma kag pag-istorya sa malulo nga tono.\n\n4. **Pagpili sang mga Pulong**: Ang mga Ilonggo may hilig sa pagpili sang mga pulong nga indi masakit sa buot. Bisan pa sa mga sitwasyon nga may kaakig, ginapaningwa nila nga magamit sang mga pulong nga indi makapasakit sa iban.\n\n5. **Pagtuo kag Relihiyon**: Ang pagtuo kag relihiyon may dako nga impluwensya sa ila kinaiya. Ang mga Ilonggo madamo ang pagtuo sa pagpasensya, pagpaubos, kag pagpalangga sa isigkatawo, nga nagareflekta sa ila pagpakita sang kalma bisan sa mga sitwasyon nga may kaakig.\n\nSa kabug-usan, ang mga Ilonggo nagapakita sang malulo kag malagday nga paghambal bisan akig na sila tungod sa kombinasyon sang ila kultura, tradisyon, lengguahe, kag personal nga mga prinsipyo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ang mga Ilonggo nagagamit sang lengguahe nga Hiligaynon. Suno sa mga tawo, ang mga Ilonggo malulo kag malagday maghambal bisan akig na sila. Ngaa?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1899,6 +2273,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:17:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang pagsuksok sang pula kag paglakad sa ibabaw sang lungon sa tion sang misa sang patay sa mga probinsya sa Pilipinas, partikular sa mga lugar nga may mga tradisyon kag kultura nga nagatuhaw sa mga sinaunang pagtuo, may mga lain-lain nga interpretasyon kag rason. Isa sa mga posible nga rason amo ang pagtuo nga ang pagsuksok sang pula kag paglakad sa ibabaw sang lungon nagasimbulo sang paghatag respeto kag pagpaalam sa napatay. Ang pula nga kolor mahimo man nga nagasimbulo sang kabakod, kag ang paglakad sa ibabaw sang lungon mahimo nga isa ka ritwal nga nagatuyo nga maghatag sang proteksyon sa mga buhi kag magpahalin sang mga negatibo nga espiritu.\n\nSa iban nga mga kultura, ang pula nga kolor nagasimbulo sang kinabuhi kag enerhiya, kag ang paglakad sa ibabaw sang lungon mahimo nga isa ka paagi sang paghatag sang huling pagrespeto sa napatay, kag pagpakita nga ang kabuhi nagapadayon bisan pa sa kamatayon.\n\nImportante nga mahibaluan nga ang mga tradisyon kag ritwal nagalainlain depende sa lugar kag kultura, kag ang mga rason sa likod sini mahimo nga nagadepende sa mga lokal nga pagtuo kag praktis."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a ang mga kabataan sa probinsya nagasuksuk sang pula kag nagalakad sa ibabaw sang lungon sa tion sang misa sang patay?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2011,6 +2407,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:18:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Sa kultura ng mga Pilipino, ang paglalaro ng baraha, bingo, at patumbo ng sensilyo sa panahon ng lamay ay may ilang mga dahilan na nag-ugat sa tradisyon at paniniwala. Narito ang ilan sa mga posibleng dahilan:\n\n1. **Pampalipas-oras**: Ang lamay ay kadalasang tumatagal ng ilang araw at gabi. Ang paglalaro ng mga baraha, bingo, at patumbo ng sensilyo ay isang paraan upang hindi mainip ang mga tao at manatiling gising, lalo na sa mga oras ng gabi.\n\n2. **Pagbibigay-aliw**: Ang paglalaro ay nagbibigay-aliw at pansamantalang kaligayahan sa mga nagluluksa. Ito ay isang paraan upang maibsan ang lungkot at bigat ng damdamin na dulot ng pagkawala ng mahal sa buhay.\n\n3. **Pagkakaisa ng Komunidad**: Ang mga laro ay nagiging daan upang magtipon-tipon ang mga tao, mag-usap, at magbahagi ng kanilang mga alaala tungkol sa namayapa. Ito ay nagpapalakas ng ugnayan at suporta sa isa't isa sa panahon ng kalungkutan.\n\n4. **Pag-iwas sa Masasamang Espiritu**: Sa ilang paniniwala, ang ingay at kasiyahan na dulot ng mga laro ay maaaring magtaboy sa masasamang espiritu na maaaring magdulot ng kapahamakan sa mga nagluluksa.\n\n5. **Pagpapakita ng Pakikiramay**: Ang pagdalo sa lamay at pakikilahok sa mga laro ay isang paraan ng pagpapakita ng pakikiramay at suporta sa pamilya ng namayapa.\n\nBagaman ang mga laro ay maaaring magmukhang hindi angkop sa isang malungkot na okasyon, ito ay bahagi ng mas malalim na tradisyon at kultura ng mga Pilipino na nagpapakita ng kanilang natatanging paraan ng pagharap sa kalungkutan at pagdadalamhati."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa kultura sang Pinoy, sa tion sang paghaya sang patay, nga-a ang mga tawo naga hampang sang mga baraha, binggo, kag patumbo sang sensilyo?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2111,6 +2529,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:19:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang Hiligaynon nga lengguahe may mga pinalangga nga mga pagkakaiba depende sa lugar nga ginahambalan ini. Bisan pa man nga pareho nga Hiligaynon ang ginagamit sa Iloilo, Bacolod, Guimaras, kag Capiz, may mga nuances o mga subtile nga pagkakaiba sa paghambal, bokabularyo, intonasyon, kag mga idiomatic expressions. Ari ang pila ka mga kinalain:\n\n1. **Intonasyon kag Pronunciation**:\n   - **Iloilo**: Ang mga taga-Iloilo may mas \"malambing\" kag \"malumanay\" nga intonasyon. Ang ila paghambal mas may \"sing-song\" o melodious nga tunog.\n   - **Bacolod**: Ang mga taga-Bacolod may mas \"direct\" kag \"straightforward\" nga intonasyon. Ang ila paghambal mas may \"flat\" nga tunog kumpara sa Iloilo.\n   - **Guimaras**: Ang intonasyon sa Guimaras mas malapit sa Iloilo, pero may mga unique nga tunog nga indi makita sa mainland Iloilo.\n   - **Capiz**: Ang mga taga-Capiz may distinct nga intonasyon nga mas \"crisp\" kag \"sharp\" kumpara sa Iloilo kag Bacolod.\n\n2. **Bokabularyo**:\n   - May mga pulong nga ginagamit sa Iloilo nga lain sa ginagamit sa Bacolod, Guimaras, kag Capiz. Halimbawa, ang pulong nga \"daw\" (parang) sa Iloilo, sa Bacolod mahimo nga \"abi\" o \"basi\".\n   - May mga unique nga terms nga ginagamit sa tagsa ka lugar. Halimbawa, sa Capiz, ang pulong nga \"sang\" (ng) mahimo nga \"kang\" sa pila ka mga baryo.\n\n3. **Idiomatic Expressions**:\n   - Ang mga idiomatic expressions o mga pamaagi sa paghambal nga may specific nga kahulugan sa tagsa ka lugar. Ang mga taga-Iloilo may mga unique nga expressions nga lain sa ginagamit sa Bacolod o Capiz.\n\n4. **Influence sang Iban nga Lengguahe**:\n   - Ang Bacolod, nga capital sang Negros Occidental, may dako nga impluwensya sang Cebuano kag Tagalog, bangud sa mga migrante nga nagapuyo didto. Ini nga impluwensya makita sa ila bokabularyo kag grammar.\n   - Ang Guimaras, bisan pa man nga malapit sa Iloilo, may mga unique nga features bangud sa ila geographical isolation.\n\n5. **Cultural Context**:\n   - Ang kultura kag tradisyon sa tagsa ka lugar nagahatag man sang unique nga flavor sa ila Hiligaynon. Ang mga festivals, mga local nga events, kag mga historical nga factors nagahatag sang distinct nga identity sa ila lengguahe.\n\nSa kabug-usan, bisan pa man nga pareho nga Hiligaynon ang ginagamit, ang mga nuances sa intonasyon, bokabularyo, idiomatic expressions, kag cultural context nagahatag sang distinct nga identity sa Hiligaynon nga ginagamit sa Iloilo, Bacolod, Guimaras, kag Capiz."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang kinalain sang Hiligaynon nga lengguahe sang taga-Iloilo kag sa iban pa nga mga probinsya kag mga syudad nga Hiligaynon man ang lengguahe pareho sang Bacolod, Guimaras, kag Capiz?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2223,6 +2663,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:20:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang rason nga indi pwede magkaon sa isa ka pinggan ang duha ka tawo nagadepende sa konteksto kag kultura. Sa iban nga kultura, ini nga praktis normal kag wala problema. Apang, sa iban nga lugar, ini nga praktis ginakabig nga indi hygienic o indi angay. \n\nMay mga rason nga nagapakita nga indi maayo ang pag-share sa isa ka pinggan:\n1. **Hygiene**: Ang pag-share sa isa ka pinggan mahimo magresulta sa pagbalhin sang bacteria kag viruses, nga mahimo magdala sang sakit.\n2. **Personal Preference**: May mga tawo nga mas gusto nga may kaugalingon nga pinggan para sa ila pagkaon para sa personal nga kahilwayan kag comfort.\n3. **Cultural Norms**: Sa iban nga kultura, ang pag-share sa pagkaon sa isa ka pinggan ginakabig nga indi angay o indi maayo nga pamatasan.\n\nApang, sa iban nga kultura, ang pag-share sa pagkaon sa isa ka pinggan nagapakita sang paghiusa kag pagpakita sang pagpalangga sa isa kag isa. Importante nga respetuhon ang mga pamatasan kag kultura sang iban nga tawo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a indi pwede magkaon sa isa ka pinggan ang duha ka tawo?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2323,6 +2785,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:21:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang pamahiin na bawal magpamutos ng pagkain mula sa burol o lamay ay isang tradisyong Pilipino na may malalim na ugat sa kultura at paniniwala. Ayon sa mga matatanda, ang pagkain na galing sa burol ay maaaring magdala ng malas o negatibong enerhiya sa bahay ng taong mag-uuwi nito. Naniniwala rin ang iba na ang pagkain mula sa burol ay maaaring magdala ng sakit o kamalasan sa mga taong kakain nito.\n\nAng mga pamahiin tulad nito ay bahagi ng mas malawak na sistema ng paniniwala na naglalayong protektahan ang mga tao mula sa mga posibleng panganib o malas. Bagaman walang siyentipikong ebidensya na sumusuporta sa mga paniniwalang ito, marami pa rin ang sumusunod dito bilang paggalang sa tradisyon at sa mga nakatatanda.\n\nSa huli, ang pagsunod o hindi pagsunod sa mga pamahiin ay isang personal na desisyon. Mahalagang igalang ang mga paniniwala ng iba, lalo na kung ito ay bahagi ng kanilang kultura at tradisyon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a bawal magpamutos sang pagkaon halin sa patay?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2435,6 +2919,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:22:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang rason kon nga-a ginadumilian ang pagtibong sang bata kon wala pa sang unto ukon ngipon amo ang paglikaw sa mga posible nga peligro kag komplikasyon nga mahimo magtuga sang pagtibong. Ang mga bata nga wala pa sang unto ukon ngipon wala pa sang husto nga abilidad sa pag-chew ukon pag-giling sang pagkaon nga maayo, kag ini mahimo magresulta sa pagkalumos ukon choking.\n\nAng mga unto ukon ngipon importante sa pag-giling sang pagkaon sa mas malutak nga porma nga mas madali matunaw kag maabsorb sang lawas. Kon ang bata wala pa sang unto, ang iya digestive system mahimo indi pa husto nga handa sa pagproseso sang mas solid nga pagkaon, kag ini mahimo magresulta sa indigestion ukon iba pa nga problema sa tiyan.\n\nSa kadam-an nga kaso, ang mga bata ginahatagan sang mashed ukon pureed nga pagkaon tubtob nga maguwa na ang ila mga unto. Ini nga pamaagi nagabulig sa pagseguro nga ang bata makakuha sang husto nga nutrisyon nga wala sang risgo sa ila kaluwasan kag kaayuhan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang rason kon nga-a ginadumilian ang pagtibong sang bata kon wala pa sang unto ukon ngipon?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2535,6 +3041,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:23:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang ideya nga ang babayi nga wala sang nobyo indi pwede magkaon sang iwi sang manok wala sang basehan sa siyensya o sa kultura nga may halin sa mainstream nga mga tradisyon. Ini nga paminsaron masami nga nagahalin sa mga pamahiin o mga superstisyon nga wala sang klaro nga rason o ebidensya.\n\nSa kadam-an nga kultura, ang pagkaon sang iwi sang manok wala sang koneksyon sa status sang relasyon sang isa ka tawo. Ang mga pamahiin pareho sini masami nga nagahalin sa mga daan nga tradisyon o mga istorya nga ginapasapasa halin sa isa ka henerasyon pakadto sa sunod nga henerasyon, kag wala ini sang basehan sa realidad.\n\nKung may mga pamahiin nga nagasiling sini sa inyo lugar, importante nga mahibal-an nga ini nga mga paminsaron indi kinahanglan sundon, kag ang pagkaon sang iwi sang manok wala sang epekto sa personal nga relasyon sang isa ka tawo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a ang babayi nga wala sang nobyo indi pwede magkaon sang iwi sang manok?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2647,6 +3175,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:24:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang istorya nga ini nagahalin sa mga tradisyonal nga pagtuo kag mga pamahiin sang aton mga katigulangan. Sila nagapati nga ang tawo nga pitla (o may problema sa paglitok sang mga pulong) mahimo nga mag-ayo kon magkaon siya sang kinatawo sang babayi nga baboy. \n\nSa modernong panan-aw, wala ini sang siyentipiko nga basehan. Ang mga pamahiin kag tradisyonal nga pagtuo nagahalin sa mga eksperyensya kag obserbasyon sang mga katigulangan nga wala sang eksakto nga pagpat-od sa medisina. Ang pag-ayo sang pitla kinahanglan sang konsultasyon sa mga eksperto sa speech therapy o mga espesyalista sa medisina nga nagatuon sang mga problema sa paglitok kag komunikasyon.\n\nKung may kilala ka nga may problema sa paglitok, mas maayo nga magpakonsulta sa mga propesyonal nga may kaalam sa amo nga larangan para sa husto nga pagbulig kag pag-ayo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Suno sa mga katigulangan, ang tawo nga pitla kung magkaon sang kinatawo sang babayi nga baboy madula ang iya pagkapitla, paano ini matabo?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2747,6 +3297,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:25:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang pamahiin nga nagasiling nga bawal magpanilhig sa sulod sang balay kon gab-i ay isa ka tradisyonal nga pagtuo nga naghalin sa mga ninuno naton. May mga rason nga nagalainlain depende sa kultura kag lugar, pero ang mga komon nga rason amo ini:\n\n1. **Pagtabog sang Swerte**: May pagtuo nga kon magpanilhig ka sa gab-i, ginatabog mo ang swerte kag grasya nga yara sa balay. Ang mga ninuno naton nagapati nga ang swerte nagatipon sa balay sa adlaw, kag kon magpanilhig ka sa gab-i, ginapalagyo mo ini.\n\n2. **Pagtabog sang Bisita**: May iban nga nagapati nga kon magpanilhig ka sa gab-i, ginatabog mo ang mga bisita o mga tawo nga nagapalangga sa imo.\n\n3. **Paglikaw sa Dautan nga Espiritu**: May mga pagtuo nga ang pagpanilhig sa gab-i makatawag sang dautan nga espiritu o mga maligno. Ang mga ninuno naton nagapati nga ang gab-i ang oras sang mga espiritu, kag ang pagpanilhig makadisturbo sa ila.\n\n4. **Praktikal nga Rason**: Sa una nga panahon, wala pa sang kuryente kag ang mga balay ginapasilawan lang sang lampara o kandila. Ang pagpanilhig sa gab-i mahimo magresulta sa hindi maayo nga pagpanilhig kag mahimo makadulot sang disgrasya.\n\nBisan pa man, ini nga mga pamahiin wala sang siyentipiko nga basehan, kag sa modernong panahon, ang iban nga mga tawo wala na nagasunod sini. Pero, ang pagrespeto sa mga tradisyon kag kultura sang aton mga ninuno isa ka pamaagi sa pagpadayon sang aton kultura kag identidad."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a bawal magpanilhig sa sulod sang balay kon gab-i?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2859,6 +3431,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:26:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang rason kon nga-a wala ginatugutan ang pagpapatunog sang mga ambahanun kon may patay nagadepende sa kultura kag tradisyon sang isa ka lugar o komunidad. Sa kadam-an nga mga kultura, ang pagpapatunog sang musika sa panahon sang paglubong o pagbangutan ginakabig nga indi angay kag indi nagapakita sang respeto sa namatay kag sa iya pamilya. Ang mga rason amo ini:\n\n1. **Pagrespeto sa Namatay**: Ang pagpapatunog sang musika sa panahon sang paglubong o pagbangutan ginakabig nga indi angay kay ini nga mga okasyon dapat solemn kag seryoso. Ang musika, labi na gid kon masadya, pwede maghatag sang impresyon nga wala ginahatagan sang husto nga respeto ang namatay.\n\n2. **Paghatag sang Husto nga Atmospera**: Ang mga okasyon sang paglubong kag pagbangutan dapat solemn kag matawhay. Ang musika pwede magdistract sa mga tawo kag maguba ang solemnidad sang okasyon.\n\n3. **Paghatag sang Tiempo sa Pagpamalandong**: Ang mga okasyon sang paglubong kag pagbangutan nagahatag sang oportunidad sa mga tawo nga magpamalandong kag magpangamuyo para sa kalag sang namatay. Ang musika pwede magdistract sa sini nga proseso.\n\n4. **Kultura kag Tradisyon**: Sa iban nga mga kultura, ang pagpapatunog sang musika sa panahon sang paglubong o pagbangutan ginakabig nga malas o indi maayo. Ini nga mga tradisyon nagatuhaw halin sa mga daan nga pagtuo kag praktis nga ginapasunod sang komunidad.\n\n5. **Paghatag sang Pagkilala sa Kasubo**: Ang mga okasyon sang paglubong kag pagbangutan nagahatag sang oportunidad sa mga tawo nga magpakita sang ila kasubo kag pag-antos. Ang musika pwede magpugong sa sini nga natural nga proseso sang paghilibi kag pagpakita sang emosyon.\n\nSa kabug-usan, ang wala pagtugot sang pagpapatunog sang mga ambahanun kon may patay nagabase sa paghatag sang husto nga respeto, solemnidad, kag paghatag sang husto nga atmospera sa okasyon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang rason kon nga-a wala ginatugutan ang pagpapatunog sang mga ambahanun kon may patay?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2959,6 +3553,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:27:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang pagdala sang luy-a kon magkadto sa mga mariit nga lugar may mga praktikal nga rason. Una, ang luy-a may mga natural nga anti-inflammatory kag antioxidant properties nga makabulig sa pagpaayo sang immune system. Ini nga mga benepisyo makabulig sa pagprotekta batok sa mga sakit nga mas madali matapikan sa mga mariit nga lugar nga madamo sang tawo.\n\nIkaduha, ang luy-a kilala nga epektibo sa pagbulig sa pagpaayo sang digestion kag pagpakalma sang tiyan. Kon ikaw magbiyahe sa mga mariit nga lugar, labi na kon masakay ka sa mga public transportation nga masyado ka-crowded, ang luy-a makabulig sa paglikaw sa motion sickness o pagkahilo.\n\nIkatatlo, ang luy-a may antimicrobial properties nga makabulig sa pagpatay sang mga bacteria kag viruses. Ini nga benepisyo importante labi na sa mga lugar nga may mataas nga risgo sang impeksyon.\n\nSa kabug-usan, ang pagdala sang luy-a kon magkadto sa mga mariit nga lugar isa ka praktikal nga paagi sa pagprotekta sang imo lawas kag pagpaayo sang imo kahimsog."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang rason kon nga-a kinahanglan magdala sang luy-a ang tawo kon magkadto sa mga mariit nga lugar?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -3071,6 +3687,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:28:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang pagpungko sa pertahan sang balay ginadumilian sa iban nga kultura kag tradisyon bangud sa pila ka mga rason. Isa sa mga rason amo ang pagtuo nga ini nagadala sang malas o negatibo nga enerhiya. Sa iban nga lugar, ang pagpungko sa pertahan ginakabig nga hindi maayo nga pamatasan kay ini nagapakita sang kawalan sang respeto sa mga nagasulod kag nagagwa sa balay. \n\nSa praktikal nga aspeto, ang pagpungko sa pertahan mahimo man nga magdulot sang peligro, labi na kon may mga tawo nga nagasulod kag nagagwa, kay ini mahimo magresulta sa aksidente o disgrasya. \n\nSa kadam-an nga kultura, ang pertahan ginakabig nga sagrado o importante nga bahin sang balay, kag ang pagpungko diri ginakabig nga hindi angay. Ang mga rason nga ini nagadepende sa tradisyon, kultura, kag mga pamatasan sang tagsa ka komunidad."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a ginadumilian ang pagpungko sa pertahan sang balay?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3171,6 +3809,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:29:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang alasinan (saltwater) kag bulogasan (freshwater) indi pwede mahubsan bangud sa ila mga natuhoy nga ekosistema kag ang mga organismo nga nagapuyo sa ila. May mga pila ka rason kon nga-a indi pwede mahubsan ang alasinan kag bulogasan:\n\n1. **Biodiversity**: Ang alasinan kag bulogasan nagapuyo sang madamo nga klase sang mga organismo, halin sa mga isda, tanom, kag iban pa nga mga hayop. Kon mahubsan ini, madamo nga mga species ang maapektuhan kag posible nga magkalamatay.\n\n2. **Ecological Balance**: Ang tubig sa alasinan kag bulogasan nagabulig sa pagmintinar sang ecological balance. Ang mga organismo nga nagapuyo diri may mga natuhoy nga papel sa food chain kag nutrient cycling. Kon mahubsan ini, ang balance sa ekosistema mahimo maguba.\n\n3. **Human Needs**: Ang mga tawo nagasalig man sa alasinan kag bulogasan para sa tubig nga inumon, irigasyon, pangisda, kag iban pa nga mga panginahanglan. Kon mahubsan ini, ang mga komunidad nga nagasalig sa mga ini mahimo mag-antos.\n\n4. **Climate Regulation**: Ang mga lawas sang tubig nagabulig sa pag-regulate sang klima. Ang evaporation kag precipitation nga nagakatabo sa mga alasinan kag bulogasan nagabulig sa pagmintinar sang temperature kag weather patterns.\n\n5. **Cultural and Recreational Value**: Ang alasinan kag bulogasan may dako nga cultural kag recreational value para sa mga tawo. Ini ang mga lugar nga ginakadtoan para sa pag-relax, pagtuon, kag pag-enjoy sang natural nga palibot.\n\nSa kabug-usan, ang paghubas sang alasinan kag bulogasan may madamo nga negatibo nga epekto sa kalikasan kag sa mga tawo. Importante nga aton protektahan kag atipan ang aton mga natural nga resources para sa kaayuhan sang tanan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang rason kon nga-a indi pwede mahubsan ang alasinan kag bulogasan?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -3283,6 +3943,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:30:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Sa kultura kag tradisyon sang mga Hiligaynon, may mga pamahiin o mga pagtuo nga nagatuhaw nga nagahatag sang mga patin-aw kon ngaa may mga ginadumilian nga mga buhat. Isa na diri ang pagdumili sang mga tigulang sa pag-utod sang kuko kon gab-e. \n\nAng isa ka rason nga ginahatag amo ang pagtuo nga ang pag-utod sang kuko sa gab-e mahimo magdala sang malas o disgrasya. May mga nagasiling nga ini nga pamahiin naghalin sa mga daan nga panahon sang wala pa ang kuryente kag ang mga tawo nagasalig lang sa kandila o lampara para sa suga. Sa pag-utod sang kuko sa gab-e, may posibilidad nga indi mo makita sang maayo ang imo ginahimo kag mahimo ka nga masamaran o mapilasan.\n\nAng iban naman nga pagtuo nagasiling nga ang pag-utod sang kuko sa gab-e mahimo magdala sang mga negatibo nga espiritu o mga kalag nga nagalibot sa gab-e. Ini nga mga pamahiin nagapakita sang pagrespeto kag paghalong sa mga butang nga indi naton lubos nga maintindihan.\n\nBisan pa man, ang mga pamahiin nga ini wala sang siyentipiko nga basehan, pero ini nagapakita sang aton kultura kag tradisyon nga nagapadayon sa aton mga komunidad. Ang importante amo ang pagrespeto sa mga pagtuo sang iban kag ang paghalong sa aton kaugalingon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a wala ginatugutan sang mga tigulang ang mag-utod sang kuko kon gab-e?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3383,6 +4065,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:31:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang hambalanun nga \"kon magkanta sa dapog ang babayi, indi sia makapamana\" naghalin sa mga tradisyon kag pamahiin sang mga Hiligaynon o Ilonggo. Ang dapog amo ang lugar sa balay nga ginagamit para sa pagluto, kag sa mga daan nga panahon, ini ang sentro sang aktibidad sa kusina. Ang pamahiin nga ini nagasiling nga indi maayo para sa isa ka babayi nga magkanta sa dapog kay base sa ila pagtuo, ini makadala sang malas kag indi siya makapamana.\n\nAng mga pamahiin pareho sini nagatuhaw sa mga kultura kag tradisyon nga nagapaninguha nga maghatag sang mga patakaran o giya sa mga tawo sa ila adlaw-adlaw nga kabuhi. Sa subong nga panahon, madamo na ang indi nagapati sa mga sini nga pamahiin, apang ini nga mga hambalanun nagapabilin nga bahin sang aton kultura kag kasaysayan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Diin naghalin ang hambalanun nga kon magkanta sa dapog ang babayi, indi sia makapamana?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -3495,6 +4199,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:32:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang tradisyonal nga pagpati nga kon ang babayi magkaon sang iwi sang manok, indi siya makapamana, nagahalin sa mga kultural nga paniniwala kag superstisyon. Sa iban nga kultura, ang iwi sang manok ginakabig nga may espesyal nga kahulugan o simbolismo. Ang mga superstisyon nga ini nagatuhaw sa mga karaan nga panahon kag nagapadayon sa mga henerasyon.\n\nIsa sa mga posible nga rason amo ang pagtuo nga ang iwi sang manok may \"mabug-at\" nga espiritu o negatibo nga enerhiya nga makapugong sa babayi nga magminyo. Ang iban nga rason mahimo nga nagahalin sa mga praktikal nga aspeto, pareho sang paglikaw sa mga babayi sa pagkaon sang mga parte sang manok nga ginakabig nga \"hindi maayo\" o \"hindi angay\" para sa ila.\n\nAng mga superstisyon pareho sini nagapakita sang impluwensya sang kultura kag tradisyon sa aton mga paniniwala kag pamatasan. Bisan pa man, importante nga tandaan nga ini nga mga paniniwala wala sang siyentipiko nga basehan kag nagadepende gid lamang sa kultural nga konteksto."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang rason sa naka andan nga pagpati nga kon ang babayi magkaon sang iwi sang manok, indi makapamana?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3595,6 +4321,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:33:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Sa ilang mga kultura kag tradisyon, may mga pamahiin nga nagasiling nga indi ka dapat magsulod sa atubangan nga pertahan sang imo balay kon naghalin ka sa namatyan. Ang rason sini amo ang pagtuo nga basi may masunod nga negatibo nga espiritu o malas halin sa namatyan kag mag-upod sa imo pauli. Para malikawan ini, ang iban nga mga tawo nagasulod sa likod nga pertahan o nagahimo sang lain nga ritwal agud maprotektahan ang ila balay kag pamilya.\n\nIni nga mga pamahiin nagalain-lain depende sa lugar kag kultura, kag bisan pa man wala ini siyentipiko nga basehan, ginatuman ini sang iban nga mga tawo bilang pagrespeto sa ila tradisyon kag kultura."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a indi ka pwede magsulod sa atubangan nga pertahan sang imo balay kon naghalin ka sa namatyan?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -3707,6 +4455,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:34:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang San Joaquin, nga nahamtang sa probinsya sang Iloilo, ginakilala bilang Kapital sang Bandi sa Western Visayas kag sa bug-os nga Pilipinas tungod sa ila pinakamanamit nga bandi. Ang bandi isa ka tradisyonal nga kalamay nga ginahimo halin sa sinakol nga kalamay kag mani. Ang mga taga-San Joaquin may espesyal nga pamaagi sa pagluto sini nga nagahatag sang lain-lain nga lasa kag kalidad nga nagapadulong sa ila produkto nga mangin pinakamanamit kag pinakabinantog.\n\nAng sekreto sa ila bandi nagalambot sa ila tradisyonal nga pamaagi sa pagluto, nga ginapanubli halin pa sa ila mga katigulangan. Ang mga ingredients nga ginagamit nila, labi na ang kalamay kag mani, ginapili sing maayo agud masiguro nga ang kalidad sang bandi ila ginaproduce ang pinakamataas. Ang dedikasyon kag pasidungog nga ginahatag sang mga taga-San Joaquin sa ila produkto nagabulig man sa pagpadayon sang ila reputasyon bilang Kapital sang Bandi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a yara sa San Joaquin ang may pinakamanamit nga bandi kag ginatawag nga Kapital sang Bandi sa Western Visayas kag Pilipinas?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3807,6 +4577,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:35:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang pagtuo nga indi dapat magsagod sang isda sa balay sang isa ka seaman nagahalin sa mga tradisyon kag pamahiin. Sa kultura sang mga Ilonggo kag iban pa nga mga grupo sa Pilipinas, may ara sang mga pamahiin nga nagasiling nga ang pagsagod sang isda sa balay sang isa ka seaman mahimo magdala sang malas o disgrasya sa iya trabaho sa dagat.\n\nIsa sa mga rason nga ginahatag amo ang pagtuo nga ang isda sa aquarium nagarepresentar sang pagka-priso o pagka-trap. Ang seaman, nga nagatrabaho sa dagat, kinahanglan nga may kalayaan kag wala sang mga hadlang sa iya pagbiyahe. Ang pagsagod sang isda sa balay mahimo nga magdala sang simbolo nga ang seaman mahimo ma-trap o ma-priso sa mga problema sa iya trabaho sa dagat.\n\nIni nga mga pamahiin wala sang siyentipiko nga basehan, pero para sa iban nga mga tawo, importante ini nga sundon agud malikawan ang bisan ano nga posible nga disgrasya. Ang importante, ang respeto sa mga tradisyon kag pamahiin sang aton mga katigulangan kag ang paghatag sang importansya sa kaluwasan kag kaayuhan sang tanan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon ikaw isa ka seaman, nga-a may ara sang ginapatihan nga indi ka dapat magsagod sang isda sa inyo balay?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -3919,6 +4711,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:36:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Oo, may ara sang nagalain-lain nga patron nga santos ang kada barangay, kag ginaselebrar nila ang ila kaadlawan paagi sa pyesta. Ang rason sini nagalambot sa kasaysayan kag kultura sang Pilipinas, nga diin ang Katolisismo may dako nga impluwensya.\n\nSa panahon sang mga Kastila, gin-introduce nila ang Katolisismo sa Pilipinas kag gin-assign ang mga patron nga santos sa nagkalain-lain nga lugar. Ang mga patron nga santos amo ang mga santos nga ginakilala bilang mga manugpatunga o manugproteher sang isa ka lugar, komunidad, o grupo sang mga tawo. Kada barangay may ara sang ila kaugalingon nga patron nga santo, kag ang kaadlawan sang sini nga santo amo ang ginaselebrar sa pyesta.\n\nAng pyesta isa ka dako nga selebrasyon nga nagatipon sang komunidad. Ini nagalangkob sang mga misa, prosisyon, mga hampang, pagkaon, kag iban pa nga mga aktibidad nga nagapakita sang pagpasalamat kag pagdayaw sa patron nga santo. Ang pyesta isa man ka paagi para sa mga tawo nga magtipon-tipon, magkilalahay, kag mag-enjoy sa isa ka dako nga selebrasyon.\n\nSa kabug-usan, ang pagselebrar sang pyesta sa kada barangay nagapakita sang ila pagtuo, kultura, kag komunidad nga espiritu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "May ara sang nagalain-lain nga patron nga santos ang kada barangay, ngaa ginaselebrar ang ila kaadlawan paagi sa pyesta?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4019,6 +4833,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:37:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang \"patron nga piyesta\" kag \"octava nga piyesta\" may mga lain-lain nga kahulugan kag selebrasyon sa konteksto sang mga tradisyon kag kultura, labi na sa mga lugar nga may impluwensya sang Katolisismo.\n\n1. **Patron nga Piyesta**:\n   - Ang patron nga piyesta amo ang selebrasyon nga ginahimo sa pagdayaw sa patron saint sang isa ka lugar, barangay, o simbahan. Ang patron saint amo ang santo o santa nga ginakilala bilang manugpatron o manugproteher sang isa ka komunidad.\n   - Ini nga piyesta nagalibot sa adlaw sang kapistahan sang patron saint, kag madamo nga mga aktibidad ang ginahimo, subong sang mga misa, prusisyon, karnabal, kag iban pa nga mga kalingawan.\n\n2. **Octava nga Piyesta**:\n   - Ang octava nga piyesta, o \"octave,\" nagarefer sa walo ka adlaw nga selebrasyon nga nagasunod sa isa ka importante nga piyesta sa simbahan. Ang pulong \"octava\" nagahalin sa Latin nga \"octavus,\" nga nagakahulugan \"walo.\"\n   - Sa tradisyon sang Katolisismo, ang octava nagasugod sa adlaw mismo sang piyesta kag nagapadayon sa sulod sang walo ka adlaw. Ang mga misa kag iban pa nga mga ritwal sa simbahan nagapadayon sa sulod sang sini nga period.\n\nSa buod, ang patron nga piyesta nagafocus sa pagselebrar sang patron saint sang isa ka lugar, samtang ang octava nga piyesta nagarefer sa walo ka adlaw nga selebrasyon nga nagasunod sa isa ka importante nga piyesta sa simbahan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang kinalain sang patron nga piyesta sa octava nga piyesta?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -4131,6 +4967,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:38:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang rason kung bakit mas makalilipay at mas masarap ang pagkain kapag nagkakamay ay maaaring maiugnay sa ilang mga aspeto ng karanasan sa pagkain:\n\n1. **Sensory Experience**: Ang pagkain gamit ang kamay ay nagbibigay ng mas direktang koneksyon sa pagkain. Ang pakiramdam ng pagkain sa iyong mga daliri ay nagdaragdag ng isang karagdagang layer ng sensory experience na hindi mo makukuha kapag gumagamit ng kubyertos. Ang texture, temperatura, at kahit ang bigat ng pagkain ay mas nararamdaman.\n\n2. **Cultural and Emotional Connection**: Sa maraming kultura, ang pagkain gamit ang kamay ay isang tradisyonal na paraan ng pagkain. Ito ay maaaring magdulot ng pakiramdam ng nostalgia o koneksyon sa kultura at pamilya, na nagdaragdag sa kasiyahan ng pagkain.\n\n3. **Mindful Eating**: Ang pagkain gamit ang kamay ay maaaring magdulot ng mas mabagal at mas maingat na pagkain. Kapag gumagamit ng kamay, mas nagiging aware ka sa bawat kagat, na maaaring magdulot ng mas malaking kasiyahan at appreciation sa pagkain.\n\n4. **Social Interaction**: Sa ilang mga setting, ang pagkain gamit ang kamay ay nagiging bahagi ng isang mas communal at interactive na karanasan. Halimbawa, sa mga handaan o boodle fights, ang pagkain gamit ang kamay ay nagiging bahagi ng bonding at pakikisalamuha.\n\n5. **Practicality and Convenience**: May mga pagkain na mas madaling kainin gamit ang kamay, tulad ng prutas, tinapay, at ilang uri ng street food. Ang pagiging praktikal at convenience nito ay maaaring magdagdag sa kasiyahan ng pagkain.\n\nSa kabuuan, ang pagkain gamit ang kamay ay nag-aalok ng isang mas holistic at immersive na karanasan na maaaring magdulot ng mas malaking kasiyahan at kasarapang pagkain."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang rason sa akto kon nga-a mas makalilipay kag mas manamit magkaon kung nagakamot lang?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4231,6 +5089,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:39:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Sa kultura kag tradisyon sang mga Ilonggo, may mga pamahiin nga nagasiling nga indi maayo hakwaton sa ibabaw sang abaga ang mga bata nga wala pa natubuan sang unto (mga ngipon). Ang rason sa sini nga pamahiin nagalambot sa pagtuo nga ini nga buhat mahimo magdala sang malas o magresulta sa mga problema sa pag-uswag sang bata.\n\nIsa sa mga komon nga pagtuo amo nga kon hakwaton ang bata sa ibabaw sang abaga, mahimo ini mag-apekto sa iya pag-uswag, partikular na sa pagtubo sang iya mga ngipon. May mga nagasiling nga mahimo magdugay ang pagtubo sang ngipon o magka problema sa iya panglawason.\n\nBisan pa man, importante nga mahibal-an nga ini nga mga pamahiin wala sang siyentipiko nga basehan. Ang mga pamahiin kag tradisyon nagalambot sa aton kultura kag nagahatag sang identidad sa aton komunidad, pero indi sila dapat magamit bilang basehan sa pagdesisyon sa pag-atipan sang kabataan. Mas maayo nga magpangonsulta sa mga eksperto sa panglawason, pareho sang mga doktor, para sa mga impormasyon nga may basehan kag sigurado."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa mga bata nga wala pa natubuan sang unto, ano ang rason kon ngaa sila ginadumilian nga hakwaton sa ibabaw sang abaga?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -4343,6 +5223,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:40:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang probinsya sang Capiz nangin bantog nga \"Seafoods Capital of the Philippines\" tungod sa iya madamo kag manami nga mga produkto halin sa dagat. Ang Capiz may ara sang malapad nga mga baybayon kag mga katubigan nga puno sang iban-iban nga klase sang isda, tahong, talaba, hipon, alimango, kag iban pa nga mga seafoods. Ang mga produkto nga ini indi lang nga ginakonsumo sa lokal nga merkado kundi ginapadala man sa iban nga parte sang Pilipinas kag sa iban nga pungsod.\n\nAng pagdagsa sang mga turista kag mga negosyante sa Capiz tungod sa iya mga seafoods nagabulig dako sa ekonomiya sang probinsya. Ang turismo nagadulot sang dugang nga kita sa mga lokal nga negosyo, sugod sa mga hotel, restoran, kag mga pasalubong centers. Ang industriya sang pangisda kag aquaculture nagahatag man sang trabaho sa madamo nga mga residente, nga nagabulig sa pagpa-angat sang ila pangabuhi.\n\nAng pagpromote sang Capiz bilang \"Seafoods Capital of the Philippines\" nagahatag man sang oportunidad sa probinsya nga magpakilala sang ila kultura kag tradisyon sa mas madamo nga mga tawo. Ang mga festival kag mga event nga ginahiwat sa Capiz, nga nagafocus sa seafoods, nagadani sang mga bisita kag nagapakita sang pagkamalikhain kag pagkamapisanon sang mga Capiznon.\n\nSa kabug-usan, ang pagkilala sa Capiz bilang \"Seafoods Capital of the Philippines\" nagahatag sang dako nga kontribusyon sa pag-uswag sang ekonomiya kag turismo sang probinsya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a nangin bantog nga “Seafoods Capital of the Philippines” ang probinsya sang Capiz? Ano bala ang nabulig sini sa ekonomiya kag turismo?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4443,6 +5345,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:41:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Sa una nga panahon, ang mga Babaylan may dako nga papel sa komunidad kag kultura sang mga lumad nga Pilipino. Ang pagtuo sa mga Babaylan importante tungod sa madamo nga rason:\n\n1. **Relihiyosong Gabay**: Ang mga Babaylan ang nagaserbi bilang mga espiritwal nga lider. Sila ang nagapanguna sa mga ritwal, pag-ampo, kag paghalad sa mga diwata kag anito para sa proteksyon, pag-ayo, kag pagpaayo sang kabuhi sang komunidad.\n\n2. **Medikal nga Kaalam**: Ang mga Babaylan may kaalam sa tradisyonal nga medisina. Sila ang nagagamit sang mga tanom, herbolaryo, kag iba pa nga natural nga pamaagi para sa pag-ayo sang mga masakit kag pagbulong sa mga masakiton.\n\n3. **Kultura kag Tradisyon**: Ang mga Babaylan ang nagapadayon sang mga tradisyon kag kultura sang komunidad. Sila ang nagapasa sang mga kaalam, istorya, kag mga ritwal nga nagapadayon sang identidad kag pagkakaisa sang mga tawo.\n\n4. **Pag-ayo sang Kalibutan**: Ang mga Babaylan nagatuo sa pagbalanse sang kalibutan. Sila ang nagapanguna sa mga ritwal nga nagatuyo magbalik sang balanse sa tunga sang tawo kag kalikasan, kag sa tunga sang mga espiritu kag mga tawo.\n\n5. **Pagpanguna sa mga Ritwal**: Ang mga Babaylan ang nagapanguna sa mga importante nga okasyon pareho sang kasal, pagbuo sang bata, kag mga selebrasyon sang ani. Sila ang nagaserbi bilang mga mediator sa tunga sang mga tawo kag mga espiritu.\n\nSa kabug-usan, ang mga Babaylan may dako nga impluwensya sa aspeto sang espiritwalidad, medisina, kultura, kag sosyal nga aspeto sang komunidad. Ang ila papel nagahatag sang dako nga kontribusyon sa pagpadayon kag pagpauswag sang komunidad sa una nga panahon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sang una nga panahon, nga-a importante ang pagtuo sa mga Babaylan?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -4555,6 +5479,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:42:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang Bisita-Iglesia ay isang tradisyon ng mga Katoliko tuwing Semana Santa kung saan bumibisita sila sa pitong simbahan. Ang tradisyong ito ay may ilang layunin at kahalagahan:\n\n1. **Pagninilay at Panalangin**: Ang Bisita-Iglesia ay isang pagkakataon para sa mga Katoliko na magnilay at manalangin, lalo na sa mga Mahal na Araw. Sa bawat simbahan na binibisita, nagdarasal sila ng mga partikular na panalangin, tulad ng mga Estasyon ng Krus, na naglalayong alalahanin ang paghihirap at sakripisyo ni Hesus.\n\n2. **Paggunita sa Huling Hapunan**: Ang tradisyon ay nagmula sa paggunita sa Huling Hapunan ni Hesus kasama ang kanyang mga alagad. Sa bawat simbahan, ang mga Katoliko ay nagdarasal sa harap ng Altar ng Reposo, kung saan inilalagay ang Banal na Sakramento pagkatapos ng Misa ng Huling Hapunan sa Huwebes Santo.\n\n3. **Pagpapalalim ng Pananampalataya**: Ang pagbisita sa iba't ibang simbahan ay isang paraan upang palalimin ang pananampalataya at debosyon ng mga Katoliko. Ito rin ay isang pagkakataon upang makita ang iba't ibang anyo ng arkitektura at sining ng mga simbahan, na nagpapakita ng yaman ng tradisyon at kasaysayan ng Simbahang Katoliko.\n\n4. **Pagkakaisa ng Komunidad**: Ang Bisita-Iglesia ay isang gawaing pangkomunidad na nagbubuklod sa mga mananampalataya. Ito ay isang pagkakataon para sa mga pamilya at kaibigan na magkasama sa isang espirituwal na paglalakbay.\n\nSa kabuuan, ang Bisita-Iglesia ay isang mahalagang bahagi ng pagdiriwang ng Semana Santa para sa mga Katoliko, na naglalayong palalimin ang kanilang pananampalataya at debosyon sa Diyos."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a naga Bisita-Iglesia gid ang mga Katoliko kada Semana Santa?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4655,6 +5601,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:43:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Oo, may pamatuod nga kon nagahatag kita sang 'balikbayan box' sa aton pamilya sa guwa sang pungsod, mas maayo kon ginadugangan naton sang aton gin-gamit nga mga bayo ukon panyo. Ini nga tradisyon nagapakita sang mas malig-on nga koneksyon kag proteksyon sa ginapadal-an sa madamo nga paagi.\n\n1. **Emosyonal nga Koneksyon**: Ang pagdugang sang aton gin-gamit nga mga bayo ukon panyo sa 'balikbayan box' nagahatag sang personal nga touch. Ini nagapakita nga ginapanumdum naton sila kag ginahatagan naton sila sang bahin sang aton kaugalingon. Ang amoy kag texture sang mga bayo ukon panyo nagahatag sang pamatyag nga daw ara lang kita sa ila tupad, bisan pa layo kita.\n\n2. **Simbolo sang Pagpalangga**: Ang mga gin-gamit nga bayo ukon panyo nagasimbulo sang aton pagpalangga kag pag-atipan. Ini nagapakita nga handa kita magbahin sang aton mga personal nga butang para sa ila, nga nagapakita sang aton pagpalangga kag pag-atipan.\n\n3. **Proteksyon**: Sa pipila ka kultura, ang paghatag sang gin-gamit nga bayo ukon panyo nagatuo nga nagahatag sang proteksyon sa ginapadal-an. Ini nagasimbulo sang aton pag-ampo kag paglaum nga protektahan sila sa bisan ano nga kalisod ukon peligro.\n\n4. **Pagpabilin sang Koneksyon**: Ang mga gin-gamit nga bayo ukon panyo nagapabilin sang koneksyon sa tunga naton kag sang aton pamilya bisan pa layo kita. Ini nagapakita nga bisan sa layo nga distansya, ang aton relasyon kag pagpalangga sa isa kag isa nagapabilin nga malig-on.\n\nSa kabug-usan, ang pagdugang sang aton gin-gamit nga mga bayo ukon panyo sa 'balikbayan box' nagapakita sang aton pagpalangga, pag-atipan, kag paglaum nga magpabilin ang malig-on nga koneksyon sa aton pamilya bisan pa sa layo nga distansya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "May pamatuod bala nga kon nagahatag kita sang 'balikbayan box' sa aton pamilya sa guwa sang pungsod, mas maayo kon ginadugangan naton sang aton gin-gamit nga mga bayo ukon panyo? Paano ini nagapakita sang mas malig-on nga koneksyon kag proteksyon sa ginapadal-an?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -4767,6 +5735,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:44:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang Iloilo, partikular ang Iloilo City, nangin sentro sang komersiyo sa kabilugan nga Rehiyon VI (Western Visayas) tungod sa madamo nga mga rason. Anu-ano ang mga rason nga ini?\n\n1. **Strategic nga Lokasyon**: Ang Iloilo City ara sa sentro sang Western Visayas, nga nagahatag sini sang advantage sa pag-connect sa iban nga mga probinsya kag mga isla sa rehiyon. Ang iya nga lokasyon nagapadali sang transportasyon kag distribusyon sang mga produkto kag serbisyo.\n\n2. **Port Facilities**: Ang Iloilo City may ara sang modern nga port facilities nga nagaserve bilang gateway sa import kag export sang mga produkto. Ang Iloilo International Port sa Loboc, Lapuz, kag ang mga domestic ports sa syudad nagabulig sa pagpadalagan sang komersiyo.\n\n3. **Economic Zones**: May ara sang mga economic zones sa Iloilo nga nagahatag sang mga insentibo sa mga investors. Ang mga ini nagadani sang mga negosyo kag mga industriya nga nagabulig sa pag-uswag sang ekonomiya.\n\n4. **Infrastructure Development**: Ang Iloilo City nagapadayon sa pag-improve sang iya nga infrastructure, lakip na ang mga kalsada, tulay, kag mga commercial establishments. Ang mga ini nagahatag sang mas maayo nga environment para sa mga negosyo.\n\n5. **Educational Institutions**: Ang Iloilo City may ara sang madamo nga mga unibersidad kag kolehiyo nga nagaproduce sang mga highly skilled professionals. Ang mga ini nagahatag sang manpower nga kinahanglanon sang mga negosyo kag industriya.\n\n6. **Government Support**: Ang local government unit (LGU) sang Iloilo City aktibo sa paghatag sang suporta sa mga negosyo pinaagi sa mga polisiya kag programa nga nagapadali sang pag-establish kag pag-operate sang mga negosyo.\n\n7. **Tourism**: Ang Iloilo City kilala man bilang isa ka tourist destination, nga nagadani sang mga turista kag nagadugang sa economic activity sa lugar. Ang mga festivals, historical sites, kag mga cultural events nagabulig sa pagdani sang mga bisita.\n\n8. **Business-Friendly Environment**: Ang Iloilo City may ara sang business-friendly environment nga nagahatag sang conducive nga lugar para sa mga negosyo. Ang mga ini nagalakip sang ease of doing business, safety, kag stability.\n\nTungod sa mga ini nga mga rason, ang Iloilo City nangin isa ka major commercial hub sa Western Visayas, nga nagabulig sa pag-uswag sang ekonomiya sang bug-os nga rehiyon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano nangin sentro sang komersiyo ang Iloilo sa kabilugan nga Rehiyon VI?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -4867,6 +5857,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:45:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang balay ni Manuel A. Roxas sa Capiz (ngayon ay Roxas City) ay may malaking kahalagahan sa mga Capiznon dahil sa ilang mga kadahilanan:\n\n1. **Kasaysayan**: Si Manuel A. Roxas ay ang unang Pangulo ng Ikatlong Republika ng Pilipinas. Ang kanyang bahay ay isang mahalagang pook sa kasaysayan ng bansa at nagbibigay ng koneksyon sa makasaysayang mga pangyayari at personalidad.\n\n2. **Pride ng Komunidad**: Ang mga Capiznon ay may malalim na pagmamalaki sa kanilang kababayan na naging isang prominenteng lider ng bansa. Ang bahay ni Roxas ay isang simbolo ng kanilang kontribusyon sa pambansang kasaysayan.\n\n3. **Turismo**: Ang bahay ni Manuel A. Roxas ay isang atraksyon para sa mga turista. Ito ay nagdadala ng mga bisita sa Capiz, na tumutulong sa lokal na ekonomiya at nagpapalaganap ng kaalaman tungkol sa kasaysayan at kultura ng lugar.\n\n4. **Edukasyon**: Ang bahay ay nagsisilbing isang lugar ng pag-aaral para sa mga estudyante at mananaliksik na nais malaman ang higit pa tungkol sa buhay at pamumuno ni Roxas, pati na rin ang kasaysayan ng Pilipinas.\n\n5. **Kultural na Pamana**: Ang bahay ay isang bahagi ng kultural na pamana ng Capiz. Ito ay nagpapaalala sa mga tao ng kanilang mga ugat at ng mga mahahalagang aral mula sa nakaraan.\n\nSa kabuuan, ang bahay ni Manuel A. Roxas ay isang mahalagang simbolo ng kasaysayan, kultura, at pagkakakilanlan ng mga Capiznon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a importante sa mga Capiznon ang balay ni Manuel A. Roxas?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -4979,6 +5991,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:46:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang Ati-atihan Festival sa Aklan, partikular sa Kalibo, ginaselebrar bilang pagpasidungog kay Señor Santo Niño (Batang Hesus). Ang pagpahid sang uling sa mga nawong sang mga pumuluyo kag mga bisita may madalom nga kasaysayan kag simbolismo.\n\nHistorikal, ang Ati-atihan Festival nagatuhaw sa pag-abot sang mga Malay settlers sa isla sang Panay. Sila nag-abot kag nag-istorya sa mga Ati, ang mga indigenous nga pumuluyo sang isla. Agud magselebrar sang ila pag-abot kag pag-ugyon sa mga Ati, ang mga Malay nagbayo sang pareho sa mga Ati kag nagbutang sang uling sa ila mga nawong agud magmukha nga pareho sa mga Ati. Ini nga tradisyon nagapakita sang pag-ugyon kag pagpasalamat sa mga Ati sa pagbaton sa ila.\n\nSa subong nga panahon, ang pagpahid sang uling sa nawong nagapadayon bilang simbolo sang pag-ugyon, pagpasalamat, kag pagselebrar sang kultura kag kasaysayan sang Aklan. Ang mga pumuluyo kag mga bisita nagapakita sang ila pagtuo kag debosyon kay Señor Santo Niño pinaagi sa pagsayaw, pag-indak, kag pagpartisipar sa mga aktibidad sang festival nga may uling sa ila mga nawong."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a naga pahid sang uling ang mga pumuluyu sang Aklan sa pagselebrar sang Ati-atihan Festival?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5079,6 +6113,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:47:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang pamilya Roxas may dako nga impluwensya sa politika sa Roxas City sa Capiz tungod sa ila dugay na nga pagserbisyo kag kontribusyon sa komunidad. Ang ila impluwensya naghalin sa ila mga lider nga nag-occupy sang mga importante nga posisyon sa gobyerno, kag ang ila mga proyekto kag programa nga naghatag sang benepisyo sa mga pumuluyo.\n\nIsa sa mga prominenteng miyembro sang pamilya Roxas amo si Manuel Roxas, nga nagserbisyo bilang Presidente sang Pilipinas. Ang iya liderato kag mga kontribusyon sa nasyonal nga lebel naghatag sang dako nga dungog kag impluwensya sa ila pamilya sa lokal nga politika. Ang mga sumunod nga henerasyon sang pamilya Roxas nagpadayon sa pagserbisyo sa gobyerno, nga naghatag sang kontinwasyon sa ila impluwensya.\n\nAng ila mga proyekto sa edukasyon, infrastruktura, kag iba pa nga aspeto sang komunidad naghatag sang dako nga impact sa Roxas City. Ang ila pagpakita sang dedikasyon sa pagbulig sa mga pumuluyo naghatag sang dako nga suporta halin sa mga botante, nga nagapadayon sa ila impluwensya sa politika.\n\nSa kabug-usan, ang kombinasyon sang ila historikal nga kontribusyon, liderato, kag mga proyekto nga naghatag sang benepisyo sa komunidad amo ang mga rason nga nga-a grabe ang impluwensya sang pamilya Roxas sa politika sa Roxas City sa Capiz."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a grabe ang impluwensya sang pamilya Roxas sa politika sa Roxas City sa Capiz?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -5191,6 +6247,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:48:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang pag-strikto sang mga traffic enforcers sa Capiz sa pagsuksok sang helmet indi lang para sa compliance sa mga regulasyon, kundi para man sa seguridad kag proteksyon sang mga motorista. Ang helmet nagahatag sang proteksyon sa ulo sa tion sang aksidente, kag ini makaluwas sang kabuhi. \n\nSa subong nga panahon, ang mga otoridad mas nagapaninguha nga mapatuman ang mga balaudnon sa trapiko para malikawan ang mga aksidente kag maprotektahan ang mga motorista. Ang pag-strikto sa pagsuksok sang helmet isa ka paagi para masiguro nga ang tanan nga nagasakay sa motorsiklo may proteksyon sa ila ulo, nga isa ka delikado nga parte sang lawas kon may aksidente.\n\nPosible man nga may mga kampanya o programa ang lokal nga gobyerno kag mga traffic enforcers nga nagatuyo nga mapataas ang awareness kag disiplina sa trapiko. Ang pagpatuman sang mga balaudnon sa trapiko, lakip na ang pagsuksok sang helmet, isa ka importante nga aspeto sa pagmintinar sang kalinong kag seguridad sa dalan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sadtu daw sa wala lang pero subong, nga-a tama nagid ka striktu ang mga traffic enforcers sa Capiz pag-abot sa pagsuksuk sang helmet?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5291,6 +6369,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:49:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang Roxas City sa Capiz ay kilala bilang \"Seafood Capital of the Philippines,\" kaya't medyo nakakagulat na marinig na mahal ang seafood doon. May ilang posibleng dahilan kung bakit maaaring mahal ang seafood sa Roxas City:\n\n1. **Supply and Demand**: Kahit na maraming seafood sa lugar, kung mataas ang demand mula sa mga turista at lokal na residente, maaaring tumaas ang presyo.\n\n2. **Quality**: Ang mataas na kalidad ng seafood ay maaaring magresulta sa mas mataas na presyo. Ang mga sariwa at de-kalidad na produkto ay karaniwang mas mahal.\n\n3. **Operational Costs**: Ang mga gastusin sa pangingisda, tulad ng gasolina, kagamitan, at sahod ng mga mangingisda, ay maaaring magpataas ng presyo ng seafood.\n\n4. **Export Market**: Kung ang malaking bahagi ng seafood ay ine-export o dinadala sa ibang lugar, maaaring magresulta ito sa mas mataas na presyo sa lokal na merkado dahil sa limitadong supply.\n\n5. **Seasonality**: Ang availability ng ilang uri ng seafood ay maaaring magbago depende sa panahon, na maaaring magdulot ng pagtaas ng presyo kapag hindi ito peak season.\n\n6. **Middlemen**: Ang pagkakaroon ng maraming middlemen o tagapamagitan sa supply chain ay maaaring magpataas ng presyo ng seafood bago ito makarating sa mga konsyumer.\n\nBagaman kilala ang Roxas City sa masaganang seafood, ang mga nabanggit na salik ay maaaring magdulot ng pagtaas ng presyo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a tuman gid ka mahal ang seafoods sa Roxas City, Capiz?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -5403,6 +6503,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:50:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang Capiz, isa ka probinsya sa Western Visayas sa Pilipinas, kilala gid sa mga istorya kag mga mitolohiya parte sa mga aswang. Ang mga aswang amo ang mga supernatural nga mga nilalang nga may kakayahan magbag-o sang ila itsura kag maghimo sang lain-lain nga mga kalagkag. \n\nMay pila ka mga rason nga nga-a asta subong, kilala gyapon ang Capiz nga damo aswang:\n\n1. **Kultura kag Tradisyon**: Ang mga istorya parte sa mga aswang halin pa sa una nga mga henerasyon kag ginapasa-pasa sa mga sumunod nga henerasyon. Ang mga sugilanon nga ini nagapabilin nga parte sang kultura kag tradisyon sang mga tawo sa Capiz.\n\n2. **Media kag Popular Culture**: Ang mga istorya parte sa mga aswang sa Capiz madamo na nga gin-feature sa mga pelikula, telebisyon, kag mga libro. Ini nagabulig sa pagpadayon sang popularidad sang mga sugilanon kag sa pagpalapnag sang ideya nga ang Capiz amo ang \"aswang capital\" sang Pilipinas.\n\n3. **Turismo**: Ang mga istorya parte sa mga aswang nagadulot man sang interes sa mga turista. May mga tawo nga nagakadto sa Capiz agud makabati sang mga sugilanon kag makakita sang mga lugar nga ginakabig nga may koneksyon sa mga aswang.\n\n4. **Pagtuo kag Superstisyon**: Sa mga rural nga lugar, ang pagtuo sa mga supernatural nga mga nilalang pareho sang aswang mas malig-on pa. Ang mga tawo nagapadayon sa pagtuo kag paghalong batok sa mga aswang, kag ini nga mga pagtuo nagapabilin nga buhi sa ila komunidad.\n\nBisan pa man sa modernisasyon kag sa pag-uswag sang teknolohiya, ang mga sugilanon parte sa mga aswang sa Capiz nagapabilin nga buhi kag nagapadayon sa pag-influensya sa kultura kag identidad sang probinsya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a asta subong, kilala gyapon ang Capiz nga damo aswang?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5503,6 +6625,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:51:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang mga tawo sa Isla sang Olotayan sa Capiz nagakabuhi sa simple nga paagi, kag ang ila pangabuhi nagasandig gid sa mga natural nga resources nga ara sa isla. Ang isla kilala sa matahum nga mga baybayon kag puti nga balas, nga nagadani sang mga turista. Ang turismo isa sa mga importante nga pangabuhian sang mga residente.\n\nAng pangingisda amo ang isa sa mga panguna nga pangabuhian sang mga tawo sa Olotayan. Ang mga mangingisda nagagamit sang tradisyonal nga mga pamaagi sa pagkuha sang isda kag iban pa nga mga lamang-dagat. Ang mga isda nga ila nakuha ginabaligya sa merkado sa mainland o kon kaisa ginaproseso para sa kaugalingon nga konsumo.\n\nMay ara man mga tawo nga nagatrabaho sa mga resort kag mga pasilidad nga nagaserbisyo sa mga turista. Ang iban nagabaligya sang mga lokal nga produkto kag mga souvenir sa mga bisita.\n\nAng mga tawo sa Olotayan nagapuyo sa mga simple nga balay nga ginatukod gamit ang mga lokal nga materyales. Ang komunidad nagabuligayay kag nagatipon sa mga okasyon kag mga selebrasyon, nga nagapakita sang ila pagkamatinabangon kag pagkahiliusa.\n\nBisan pa man sa ila simple nga pangabuhi, ang mga tawo sa Olotayan nagapakita sang malipayon kag kontento nga pangabuhi, nga nagasandig sa kalikasan kag sa ila komunidad."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano bala nagakabuhi ang mga tawo sa Isla sang Olotayan sa Capiz?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -5615,6 +6759,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:52:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang Panay Bell, nga kilala man nga \"Dakong Lingganay,\" isa sa mga pinakadako nga kampana sa bug-os nga Pilipinas kag isa sa mga bugal sang Capiznon. Ini nga kampana importante sa maragtas sang Capiz tungod sa madamo nga rason:\n\n1. **Kultura kag Relihiyon**: Ang Panay Bell nagasimbulo sang madalom nga pagtuo kag relihiyosidad sang mga Capiznon. Ini nga kampana ginahimo sa simbahan sang Santa Monica Parish sa banwa sang Panay, kag nagasignify sang importante nga papel sang simbahan sa komunidad.\n\n2. **Kasaysayan**: Ang kampana ginahimo sang 1878 pa, kag ini nagapakita sang kaalam kag abilidad sang mga tawo sa Panay sa pagproseso sang mga materyales kag paghimong mga obra maestra. Ang kampana ginahimo halin sa mga bala sang kanyon nga gin-donate sang mga pumuluyo, nga nagapakita sang paghiusa kag kooperasyon sang komunidad.\n\n3. **Turismo**: Ang Panay Bell isa sa mga pangunahing atraksyon sa Capiz. Madamo nga mga turista ang nagakadto sa Panay agud makita kag madunggan ang tunog sang kampana. Ini nagabulig sa pagpauswag sang ekonomiya sang lugar pinaagi sa turismo.\n\n4. **Identidad**: Ang Panay Bell nagasimbulo sang identidad kag pagkakilanlan sang mga Capiznon. Ini nagapakita sang ila pagkamaligon, pagkamalikhain, kag pagkamapinalanggaon sa ila kultura kag tradisyon.\n\nSa kabug-usan, ang Panay Bell isa ka importante nga bahin sang maragtas kag kultura sang Capiz, kag ini nagapadayon sa pag-inspirar kag pagbugal sang mga Capiznon sa ila mga kaugalingon kag sa ila komunidad."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ang Panay Bell isa sa mga bugal sang Capiznon. Nga-a importante ini sa maragtas nga hitabu sang Capiz?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5715,6 +6881,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:53:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang Capiz, partikular ang Roxas City, ang may pinakamaraming bangko sa buong Panay Island dahil sa ilang mga kadahilanan:\n\n1. **Ekonomikong Aktibidad**: Ang Capiz ay isang sentro ng komersyo at kalakalan sa rehiyon. Ang mataas na antas ng ekonomiyang aktibidad ay nangangailangan ng maraming serbisyo sa pagbabangko upang suportahan ang mga negosyo, kalakalan, at iba pang mga transaksyon.\n\n2. **Agrikultura at Pangingisda**: Kilala ang Capiz bilang \"Seafood Capital of the Philippines.\" Ang malakas na sektor ng agrikultura at pangingisda ay nag-aambag sa pangangailangan para sa mga serbisyo sa pagbabangko, tulad ng pautang at pamumuhunan.\n\n3. **Populasyon at Urbanisasyon**: Ang Roxas City, ang kabisera ng Capiz, ay isa sa mga pangunahing lungsod sa Panay Island. Ang mas mataas na populasyon at antas ng urbanisasyon ay nangangailangan ng mas maraming bangko upang matugunan ang mga pangangailangan ng mga residente.\n\n4. **Turismo**: Ang Capiz ay may mga atraksyong panturista na nagdadala ng mga bisita at negosyo sa lugar. Ang turismo ay nagdaragdag ng pangangailangan para sa mga serbisyo sa pagbabangko, tulad ng foreign exchange at mga ATM.\n\n5. **Edukasyon at Serbisyo**: Ang pagkakaroon ng mga institusyong pang-edukasyon at iba pang mga serbisyo sa Capiz ay nag-aambag din sa pangangailangan para sa mga bangko. Ang mga estudyante, guro, at iba pang mga propesyonal ay nangangailangan ng mga serbisyo sa pagbabangko para sa kanilang mga pang-araw-araw na transaksyon.\n\nSa kabuuan, ang kombinasyon ng mga ekonomiko, demograpiko, at kultural na mga salik ay nag-aambag sa pagkakaroon ng pinakamaraming bangko sa Capiz sa buong Panay Island."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a ang Capiz ang may pinaka damo nga bangko sa bilog nga Panay Island?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -5827,6 +7015,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:54:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Maraming posibleng dahilan kung bakit mabilis maubos ang tinapay sa Edgen Bake Shop sa Roxas City. Narito ang ilang posibleng dahilan:\n\n1. **Sarap at Kalidad**: Kung masarap at mataas ang kalidad ng kanilang tinapay, natural lamang na maraming tao ang bibili at mabilis itong maubos.\n\n2. **Sikat na Tindahan**: Kung kilala at matagal na sa industriya ang Edgen Bake Shop, maaaring marami na silang suki at regular na bumibili.\n\n3. **Lokasyon**: Kung maganda ang lokasyon ng bake shop, tulad ng pagiging malapit sa mga paaralan, opisina, o residential areas, mas maraming tao ang makakadaan at bibili.\n\n4. **Promosyon at Marketing**: Kung magaling sila sa marketing at may mga promosyon, maaaring mas maraming tao ang naaakit na bumili.\n\n5. **Limitadong Supply**: Maaaring limitado ang kanilang produksyon araw-araw kaya mabilis maubos ang stock.\n\n6. **Special Orders**: Kung tumatanggap sila ng special orders para sa mga events tulad ng birthdays, weddings, at iba pa, maaaring mabilis maubos ang kanilang tinapay.\n\n7. **Word of Mouth**: Kung maraming tao ang nagrerekomenda ng kanilang tinapay sa iba, mas dadami ang bibili.\n\nKung gusto mong malaman ang eksaktong dahilan, maaari kang magtanong direkta sa mga staff ng Edgen Bake Shop."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a permi lang naga kaubos ang tinapay sa Edgen Bake Shop sa Roxas City?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -5927,6 +7137,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:55:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang probinsya nga Capiz kag Aklan sa Pilipinas ginbulag bangud sa mga rason nga administratibo kag politikal. Sa una, ang Aklan kag Capiz isa lang ka probinsya nga ginatawag nga Capiz. Apang sa paglabay sang tion, nagdako ang populasyon kag nagdamo ang mga panginahanglanon sang mga pumuluyo, nga nagresulta sa kabudlay sa pagdumala sang probinsya.\n\nSang 1956, pinaagi sa Republic Act No. 1414 nga ginpirmahan ni Presidente Ramon Magsaysay, ginbulag ang Aklan halin sa Capiz kag ginporma ang bag-o nga probinsya nga Aklan. Ang pagbulag naghatag sang mas maayo nga pagdumala kag pagserbisyo sa mga pumuluyo sa tagsa ka probinsya. Ang Aklan subong may ara sang iya kaugalingon nga mga lider kag mga programa nga nagatutok sa ila mga partikular nga panginahanglanon kag mga problema."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a gin bulag ang probinsya nga Capiz kag Aklan?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -6039,6 +7271,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:56:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Bawal magdala sang balas halin sa Isla sang Boracay tungod sa mga rason nga nagaprotekta sa kalikasan kag nagapadayon sang kaayuhan sang isla. Ang mga rason nga ini nagalakip sang:\n\n1. **Pagpreserba sang Natural nga Kapaligiran**: Ang balas sa Boracay isa ka importante nga bahin sang natural nga ekosistema sang isla. Ang pagkuha sang balas makadulot sang pagbag-o sa shoreline kag makapekto sa mga marine habitats.\n\n2. **Pagpanalipod sa Turismo**: Ang puti nga balas sang Boracay isa sa mga pangunahing atraksyon sang isla. Kung padayon nga kuhaon ang balas, madugay-dugay maguba ang natural nga kaanyag sang isla, nga makapekto sa turismo kag sa ekonomiya sang lugar.\n\n3. **Legal nga mga Balaud**: May mga lokal kag nasyonal nga mga balaud nga nagadumili sang pagkuha sang balas halin sa mga public beaches kag protected areas. Ang paglapas sa sini nga mga balaud mahimo magresulta sa penalidad kag mga kaso.\n\n4. **Pagpanalipod sa mga Residente**: Ang pagkuha sang balas mahimo magresulta sa soil erosion kag iban pa nga mga problema nga makapekto sa mga residente kag sa ila mga kabalayan.\n\nTungod sini nga mga rason, importante nga sundon ang mga regulasyon kag magrespeto sa kalikasan sang Boracay para sa kaayuhan sang tanan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a bawal magdala sang balas halin sa Isla sang Boracay?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6139,6 +7393,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:57:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ginatawag nga 'City of Love' ang Iloilo tungod sa mainit nga pag-abi-abi kag malumo nga pagtratar sang mga Ilonggo sa ila mga bisita. Ang mga tawo sa Iloilo kilala sa ila pagkamalumo, pagkamapinalanggaon, kag pagkamahigugmaon. Ang kultura sang pagrespeto kag pagpalangga sa isigkatawo nagahatag sang dako nga impact sa mga bisita, nga nagapabilin sa ila mga tagipusuon kag nagahatag sang impresyon nga ang Iloilo isa ka lugar nga puno sang gugma. Dugang pa, ang syudad may ara man sang madamo nga mga romantiko nga lugar kag mga aktibidad nga nagapadugang sa iya reputasyon bilang 'City of Love'."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a ginatawag nga 'City of Love' ang Iloilo?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -6251,6 +7527,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:58:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang paghambal sang \"pwera sinda\" o \"pwera usog\" sa mga lugar nga mariit (mga lugar nga ginakabig nga may mga espiritu o supernatural nga mga pwersa) isa ka tradisyonal nga pamatasan sa kultura sang mga Pilipino. Ini nga pamatasan nagatuhaw halin sa pagtuo nga ang mga espiritu o mga pwersa sa mga lugar nga mariit mahimo magdala sang kalain-lain nga mga problema o kasakit sa mga tawo nga nagakadtu didto.\n\nAng \"pwera sinda\" nagakahulugan nga \"pwera\" (wala labot) kag \"sinda\" (sila), nga nagasiling nga wala ka nagapanghilabot o nagapahog sa mga espiritu sa lugar. Ini nga pamatasan ginahimo agud magpakita sang respeto kag magpangayo sang proteksyon halin sa mga espiritu, kag sa paglaum nga indi sila magdala sang kalain-lain nga mga problema sa imo.\n\nSa kadam-an nga mga kultura, ang pagpakita sang respeto sa mga espiritu o supernatural nga mga pwersa isa ka importante nga aspeto sang ila mga tradisyon kag pamatasan. Ang paghambal sang \"pwera sinda\" isa ka paagi agud malikawan ang mga posible nga negatibo nga epekto sang pagbisita sa mga lugar nga ginakabig nga mariit."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a kinahanglan mag hambal 'pwera sinda' kung magkadtu ka sa lugar nga mariit?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6351,6 +7649,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:59:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang pagbubusong ay isang mahalagang yugto sa buhay ng isang babae, at ang pag-aalaga sa sarili ay napakahalaga para sa kalusugan ng ina at ng sanggol. Narito ang ilang mga dahilan kung bakit kailangan mag-aman sang panaming ang gabusong:\n\n1. **Nutrisyon**: Ang tamang nutrisyon ay mahalaga para sa paglaki at pag-develop ng sanggol. Ang pagkain ng balanseng diyeta na may sapat na bitamina at mineral ay makakatulong sa pag-iwas sa mga komplikasyon.\n\n2. **Kalusugan ng Ina**: Ang pag-aalaga sa sarili ay makakatulong sa ina na manatiling malusog at malakas, na mahalaga para sa panganganak at sa pag-aalaga sa sanggol pagkatapos ng kapanganakan.\n\n3. **Pag-iwas sa Komplikasyon**: Ang regular na pagbisita sa doktor at pagsunod sa mga payo ng healthcare provider ay makakatulong sa pag-monitor ng kalagayan ng ina at ng sanggol, at sa pag-iwas sa mga posibleng komplikasyon tulad ng preeclampsia, gestational diabetes, at iba pa.\n\n4. **Emosyonal na Kalusugan**: Ang pagbubusong ay maaaring magdulot ng stress at anxiety. Ang pag-aalaga sa sarili, kabilang ang pagkakaroon ng sapat na pahinga at suporta mula sa pamilya at mga kaibigan, ay makakatulong sa emosyonal na kalusugan ng ina.\n\n5. **Paghahanda para sa Panganganak**: Ang pag-aalaga sa sarili ay makakatulong sa ina na maging handa sa pisikal at emosyonal na aspeto ng panganganak. Ang pag-aaral tungkol sa proseso ng panganganak at ang pagkakaroon ng birth plan ay makakatulong sa pag-iwas sa takot at pag-aalala.\n\nSa kabuuan, ang pag-aalaga sa sarili habang nagbubuntis ay mahalaga para sa kalusugan at kapakanan ng parehong ina at sanggol."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a kinahanglan mag aman sang panaming ang gabusong?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -6463,6 +7783,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:60:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang probinsya sang Guimaras ginbulag sa Iloilo agud nga maghatag sang mas maayo nga pagdumala kag pag-uswag sa mga pumuluyo kag sa ila mga kinamatarong. Ang pagbulag sang Guimaras sa Iloilo naghatag sang oportunidad nga mag-focus sa mga partikular nga kinahanglanon kag mga proyekto nga makabenepisyo sa mga taga-Guimaras. Ini nga desisyon naghatag man sang mas maayo nga representasyon kag pagdumala sa mga lokal nga lideres, kag naghatag sang mas dako nga tsansa sa pag-uswag ekonomiko, turismo, kag agrikultura sa probinsya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a gin bulag ang probinsya sang Guimaras sa Iloilo?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6563,6 +7905,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:61:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang paghambal sang \"pwera usog\" amo ang isa ka tradisyonal nga pamatasan sa Pilipinas nga nagatuhaw sa pagtuo sa \"usog.\" Ang \"usog\" amo ang pagtuo nga ang pagtan-aw o pag-atubang sang isa ka tawo, labi na kon ini nga tawo indi mo kilala, mahimo magdala sang negatibo nga enerhiya o sakit sa imo. Ini nga pagtuo naghalin sa mga karaan nga paniniwala kag kultura nga nagapakita sang pagtuo sa mga espiritu kag supernatural nga mga pwersa.\n\nAng paghambal sang \"pwera usog\" amo ang isa ka paagi nga magprotektar sa kaugalingon batok sa ini nga negatibo nga enerhiya. Ini nga mga pulong nagasiling nga \"pwera\" (wala) kag \"usog\" (ang negatibo nga pwersa), nga nagahimo sang isa ka pahayag nga nagapangayo nga indi maglabot ang usog sa imo.\n\nSa modernong panahon, bisan pa nga ang iban wala na nagatuo sa usog, ang paghambal sang \"pwera usog\" nagapabilin nga isa ka porma sang pagrespeto kag pag-atipan sa mga tradisyon kag kultura. Ini nga pamatasan nagapakita sang paghangop kag pagrespeto sa mga karaan nga paniniwala kag nagahatag sang kalinong sa mga tawo nga nagatuo sini."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a kinahanglan maghambal pwera usog kung ginatulok ka sang indi mo kilala nga tawo?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -6675,6 +8039,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:62:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang pag-lumpat sa tatlo ka halintang sa hagdan sa una nga pag-agi sang regla isa ka tradisyon nga nagahalin sa mga katigulangan. Ini nga tradisyon may mga lain-lain nga interpretasyon kag rason depende sa kultura kag lugar. Sa iban nga mga lugar, ini nga tradisyon ginahimo bilang simbolo sang pagdawat sa kabag-ohan kag pag-uswag sa kabuhi sang isa ka dalaga nga nagalab-ot na sa iya pagdadalaga.\n\nAng iban nga mga rason nga ginahatag sang mga katigulangan amo ang mga masunod:\n\n1. **Pagpabilin sang Kahimsog**: May mga nagapati nga ang pag-lumpat sa tatlo ka halintang sa hagdan makabulig sa pagpaayo sang sirkulasyon sang dugo kag makapugong sa mga problema sa regla.\n\n2. **Pagdawat sa Pagbag-o**: Ini nga tradisyon isa ka simbolo sang pagdawat sa kabag-ohan sa kabuhi sang dalaga. Ang pag-lumpat nagarepresentar sang pag-uswag kag paglab-ot sa mas mataas nga halintang sang pagkababae.\n\n3. **Pagpugong sa Sakit**: May mga nagapati nga ini nga tradisyon makabulig sa paglikaw sa mga sakit nga may kaangtanan sa regla, pareho sang dysmenorrhea o masakit nga pagregla.\n\n4. **Pagpabilin sang Tradisyon**: Ang pag-lumpat sa tatlo ka halintang isa ka pamaagi sang pagpadayon sang mga tradisyon kag kultura nga ginapanubli sang mga katigulangan.\n\nBisan pa man, importante nga tandaan nga ini nga mga tradisyon wala sang siyentipiko nga basehan kag nagadepende gid lamang sa mga pagtuo kag kultura sang isa ka lugar. Kung may mga kabalaka ka parte sa regla o sa imo kahimsog, mas maayo nga magpakonsulta sa isa ka doktor o eksperto sa medisina."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Suno sa mga katigulangan, nga-a kinahanglan maglumpat sa tatlo gid lamang ka halintang sa hagdan kung una palang nga maka agi sang regla?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6781,6 +8167,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "hiligaynon:63:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang Diwal, nga kilala man nga \"Angel Wings,\" ginatawag nga amo ini tungod sa iya talaba nga may porma nga daw pako sang anghel. Ang Diwal isa ka klase sang shellfish nga makita sa Capiz kag kilala ini sa iya malimpyo kag matam-is nga unod. Ang porma sang iya shell nga daw pako sang anghel nagahatag sang iya espesyal nga ngalan. Ang Diwal isa ka delicacy sa Capiz kag ginakilala ini sa bug-os nga Pilipinas tungod sa iya kaanamit kag kalimpyo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a ginatawag nga 'Angel Wings' ang Diwal sa Capiz?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -6881,6 +8289,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "hiligaynon:64:language.hiligaynon:gpt 4o",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Ang pagbutang sang gamay nga papel sa agtang sang bata nga ginasiru (o ginahilanat) isa ka tradisyonal nga praktis sa pila ka mga lugar. Ini nga praktis may mga lain-lain nga rason depende sa kultura kag tradisyon sang lugar. Ang iban nga mga rason nga ginahatag amo ang mga masunod:\n\n1. **Pagpabugnaw**: Ang papel nga ginabasa sang tubig kag ginabutang sa agtang sang bata nagabulig sa pagpabugnaw sang iya temperatura. Ang tubig nga nag-evaporate halin sa papel nagahatag sang cooling effect.\n\n2. **Pagtuo sa mga Superstisyon**: Sa pila ka kultura, may mga pagtuo nga ang pagbutang sang papel sa agtang nagabulig sa pag-ayo sang bata halin sa hilanat. Ini nga mga pagtuo wala sang scientific basis pero ginatuman gihapon sang iban tungod sa tradisyon.\n\n3. **Pagmonitor sang Temperatura**: Ang papel nga ginabutang sa agtang mahimo man nga gamiton para sa pagmonitor sang temperatura sang bata. Kung ang papel nagabasa sing maayo, ini nagapakita nga ang bata nagahilanat pa gid.\n\n4. **Pagpahupay**: Ang pagbutang sang papel sa agtang mahimo man nga nagahatag sang psychological comfort sa mga ginikanan kag sa bata mismo. Ang pagtuo nga may ginahimo para sa pag-ayo sang bata nagahatag sang peace of mind sa mga ginikanan.\n\nBisan pa man nga ini nga praktis wala sang scientific basis, importante gihapon nga mag-seek sang medical advice halin sa mga health professionals kon ang bata may hilanat o nagamasakit."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nga-a ginabutangan sang gamay nga papel ang agtang sang bata nga ginasiru?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,

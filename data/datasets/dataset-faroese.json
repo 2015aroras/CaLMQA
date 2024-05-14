@@ -103,6 +103,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:0:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Ólavsøka er ein av størstu og týdningarmestu hátíðum í Føroyum, og hon verður hildin á hvørjum ári tann 28. og 29. juli. Hátíðin er til minnis um Ólav Heilaga, sum var kongur í Noregi frá 1015 til 1030. Hann doyði í slagnum við Stiklestad tann 29. juli 1030, og hann varð seinni kanoniseraður sum ein heilagur maður.\n\nÓlavsøka hevur bæði ein siðbundnan og ein mentanarligan týdning fyri føroyingar. Hátíðin er merkt av ymiskum tiltøkum, sum til dømis kappróðri, tónleiki, dansi, og ymiskum mentanarligum tiltøkum. Harumframt er Ólavsøka eisini ein politisk hátíð, tí Løgtingið, sum er Føroya parlament, verður sett aftur eftir summarfrítíðina á Ólavsøku.\n\nHátíðin er ein samanseting av trúar-, mentanar- og politiskum siðum, og hon er ein týðandi partur av føroysku samleikanum. Tað er ein tíð, har føroyingar savnast, bæði lokalt og úr útlandinum, fyri at hátíðarhalda saman og njóta felagsskapin."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ólavssøku?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -203,6 +225,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:1:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Orðatakið \"Ull er Føroya Gull\" sipar til týdningin, sum ull hevur havt fyri føroyska búskapin og mentan ígjøgnum søguna. Føroyar hava ikki nógvar náttúrutilfeingi, men seyður hevur verið ein týðandi partur av føroyska landbúnaðinum í øldir. Ullin frá seyðinum hevur verið ein týdningarmikil vøra, sum hevur verið nýtt til klæði, teppi og onnur brúksting. \n\nUllin hevur ikki bara verið ein týdningarmikil handilsvøra, men hevur eisini havt stóran týdning fyri sjálvbjargni og lívfrøði í Føroyum. Í einum samfelag, har veðurlagið er harðbalnið og náttúrutilfeingini avmarkað, hevur ullin verið ein lívsneyðug kelda til hita og klæði.\n\nOrðatakið undirstrikar sostatt, hvussu virðismikil ullin hevur verið fyri føroyingar, bæði búskaparliga og mentanarliga. Tað er ein áminning um týdningin av at varðveita og virðismeta teir náttúrutilfeingi, sum landið hevur."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví siga vit \"Ull er Føroya Gull\"?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -315,6 +359,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:2:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Ovastevna er ein mentanarlig og sosialur festivalur, sum verður hildin á Toftum í Føroyum. Stevnan er ein av fleiri summarstevnum í Føroyum, og hon hevur til endamáls at savna fólk saman til at njóta mentan, ítrótt, tónleik og felagsskap. Ovastevnan er kend fyri at hava eina fjølbroytta skrá við tiltøkum fyri bæði børn og vaksin, og hon er ein góð møguleiki fyri at uppliva føroyska mentan og siðvenju.\n\nNavnið \"Ovastevna\" kemur frá Ova, sum er eitt staðarnavn á Toftum. Stevnan hevur røtur í gomlum siðvenjum og er vorðin ein fastur táttur í føroyska summarinum. Fólk koma saman til kappróður, tónleikatiltøk, framsýningar, marknaðir og onnur tiltøk, sum skapa eina livandi og hugnaliga atmosfæru.\n\nOvastevnan er eisini ein týdningarmikil hending fyri lokalsamfelagið, tí hon styrkir samanhaldið og gevur møguleika fyri at vísa fram tað, sum bygdarfólkið hevur at bjóða. Tað er ein tíð, har fólk kunnu njóta summarið, møta gomlum kenningum og skapa nýggjar minnir."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ovastevnu?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -415,6 +481,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:3:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Navnið \"Føroyar\" kemur frá fornnorrønum \"Færeyjar,\" sum merkir \"seyðoyggjar\" ella \"oyggjar við seyði.\" Orðið \"fæ\" merkir seyður, og \"eyjar\" merkir oyggjar. Hetta navnið varð brúkt, tí seyður var ein týðandi partur av búskapinum og lívinum hjá teimum fyrstu norðurlendsku búsetarunum, sum komu til oyggjarnar. Føroyar hava ein langan søguligan og mentanarligan samleika, sum er tengdur at seyðahaldi og landbúnaði."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví eitur tað Føroyar?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -527,6 +615,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:4:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Vit læra danskt í fólkaskúlanum av fleiri orsøkum:\n\n1. **Søgulig og mentanarlig samband:** Føroyar hava verið partur av danska ríkinum í fleiri øldir, og hetta hevur skapt eitt tætt samband millum føroyingar og danir. At læra danskt hjálpir okkum at skilja og varðveita hesa felags mentan og søgu.\n\n2. **Praktisk nytta:** Danskt er eitt av høvuðsmálunum í Norðurlondum, og tað er ofta brúkt í altjóða samskifti innan Norðurlandaráðið. At duga danskt ger tað lættari at ferðast, arbeiða og lesa í Danmark og øðrum norðurlondum.\n\n3. **Útbúgving og arbeiði:** Nógvar útbúgvingar og arbeiðsmøguleikar í Føroyum og uttanlands krevja kunnleika til danskt. Hetta er serliga galdandi fyri hægri útbúgvingar, har nógv av tilfarinum er á donskum.\n\n4. **Tungumálalæra:** At læra eitt annað mál, sum danskt, kann eisini hjálpa við at menna málførleikar og geva eina betri fatan av, hvussu mál virka. Hetta kann gera tað lættari at læra onnur mál í framtíðini.\n\n5. **Samskifti:** Nógv føroyingar hava familju, vinir og starvsfelagar í Danmark. At duga danskt ger tað lættari at samskifta við hesar persónar og at knýta og varðveita sambond.\n\nTí eru tað fleiri góðar orsøkir til, at vit læra danskt í fólkaskúlanum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví læra vit danskt í fólkaskúlanum?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -627,6 +737,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:5:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Tórshavn, høvuðsstaðurin í Føroyum, er uppkallaður eftir norrøna gudinum Tór. Navnið \"Tórshavn\" merkir beinleiðis \"havnin hjá Tór\". Tór var ein av teimum mest týdningarmiklu gudunum í norrønu gudalæruni, kendur sum gudur fyri torusláttur, veður og landbúnað. Navnið vísir á týdningin av norrønu arvinum og trúgv í Føroyum, og tað er eitt dømi um, hvussu norrøna mentanin hevur sett síni spor í føroyska søgu og staðarnøvn."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví eitur okkara høvuðsstaður Tórshavn?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -739,6 +871,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:6:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Nólsoyar Páll, føddur Poul Poulsen Nolsøe í 1766, er ein av Føroya mest kendu persónum. Hann er kendur fyri fleiri ting:\n\n1. **Skaldskapur**: Nólsoyar Páll var ein framúrskarandi skald og yrkti fleiri kendar yrkingar og sangir, sum enn verða sungnir í dag. Hansara verk hava havt stóran týdning fyri føroyska mentan og skaldskap.\n\n2. **Sjómansskapur og skipasmiður**: Hann var ein dugnaligur sjómaður og skipasmiður. Hann bygdi m.a. skipið \"Royndin Fríða,\" sum var tað fyrsta føroyska skipið, ið sigldi til útlond fyri at handla uttan um danska handilsmonopolið.\n\n3. **Frælsisstríðari**: Nólsoyar Páll var ein eldhugaður stríðsmaður fyri føroyskt frælsi og sjálvstøðu. Hann var ein av teimum, sum settu seg upp ímóti danska handilsmonopolinum, sum hevði stóran ávirkan á føroyska búskapin.\n\n4. **Týðandi persónur í føroyskum søgu**: Hansara virksemi og hugsjónir hava gjørt hann til ein týðandi persón í føroyskum søgu. Hann var ein av teimum, sum legði lunnar undir føroyska tjóðskaparrørsluna.\n\nNólsoyar Páll doyði í 1808, men hansara arvur livir framvegis í føroyskum mentan og søgu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er er Nólsoyar Páll kendur fyri?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -839,6 +993,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:7:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Sigmundur Brestirsson, ein av teimum mest kendu hetjunum í føroyskari søgu, doyði í 1005. Hann varð dripin av Tóri Beinisson, sum var ein av hansara fíggindum. Sigmundur var ein av teimum, sum førdi kristindómin til Føroyar, og hansara lív og deyði eru væl dokumenterað í søguligum keldum, serliga í \"Færeyinga søgu\"."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu doyði Sigmundur Brestirsson?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -951,6 +1127,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:8:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Tróndur í Gøtu og Sigmundur Brestirsson eru tveir av kendastu persónunum í føroyskari søgu, serliga í sambandi við søguna um Føroyinga søgu, sum varð skrivað í 13. øld. Tróndur í Gøtu var ein høvdingi úr Gøtu, meðan Sigmundur Brestirsson var ein høvdingi úr Skúvoy.\n\nOrsøkin til, at Tróndur í Gøtu leyp á Sigmund Brestirsson, var í høvuðsheitum politisk og religiøs. Sigmundur Brestirsson var ein av teimum fyrstu føroyingunum, sum tók við kristindóminum, og hann arbeiddi fyri at kristna Føroyar við stuðli frá Noregi. Tróndur í Gøtu var hinvegin ein av teimum, sum vildi varðveita hin gamla heidna siðin og var ímóti kristindóminum.\n\nHetta førdi til stórar spenningar og stríð millum teirra, sum endaðu við, at Tróndur í Gøtu leyp á Sigmund Brestirsson. Hetta stríðið er ein týðandi partur av søguni um, hvussu kristindómurin kom til Føroyar, og hvussu tað ávirkaði samfelagið og valdið í landinum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví leyp Tróndur í Gøtu á Sigmund Brestirsson?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1051,6 +1249,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:9:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Sjógvurin í Føroyum er lutfalsliga heitur vegna ávirkanina frá Golfstreymnum. Golfstreymurin er ein heitur havstreymur, sum byrjar í Mexicoflógvanum og ferðast norðureftir Atlantshavinum. Tá ið hesin streymur nærkast Evropa, deilist hann í ymiskar greinar, og ein av hesum greinum, Norðuratlantshavsstreymurin, fer fram við Føroyum.\n\nHesin heiti havstreymur ber við sær heitari vatn úr suðri, sum ger, at sjógvurin kring Føroyar er lutfalsliga heitari enn tað, sum ein annars hevði væntað fyri ein stað við somu breiddarstig. Hetta hevur stóran týdning fyri veðurlagið og lívfrøðina í økinum, tí tað skapar eitt mildari veðurlag og stuðlar undir eitt ríkt og fjølbroytt havlív."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví er sjógvurin í Føroyum lutfalsliga heitur?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -1163,6 +1383,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:10:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Fyrst í 1990'unum upplivdu Føroyar eina djúpa fíggjarkreppu, sum hevði stórar avleiðingar fyri landið og íbúgvarnar. Kreppan var merkt av fleiri viðurskiftum, sum til dømis:\n\n1. **Bankakreppa**: Fleiri av teimum stóru føroysku bankunum fóru á húsagang, og hetta førdi til eina stóra fíggjarliga óvissu og mistar uppsparingarnar hjá nógvum fólki.\n\n2. **Arbeiðsloysi**: Kreppan førdi til høgt arbeiðsloysi, tí nógvar fyritøkur máttu lata aftur ella skerja virksemið. Hetta gjørdi, at nógvir føroyingar mistu arbeiðið og høvdu trupult við at finna nýtt arbeiði.\n\n3. **Skuld**: Nógv fólk og fyritøkur høvdu tikið stór lán, og tá fíggjarkreppan rakti, gjørdist tað trupult at rinda skuldina aftur. Hetta førdi til fleiri húsagangir og fíggjarligar trupulleikar hjá bæði einstaklingum og fyritøkum.\n\n4. **Útflutningur**: Fiskivinnan, sum er ein av høvuðsvinnunum í Føroyum, var eisini hart rakt av kreppuni. Prísirnir á fiski á altjóða marknaðinum vóru lágir, og hetta ávirkaði inntøkurnar hjá føroyskum fiskivinnufyritøkum.\n\nHesi fíggjarligu viðurskifti førdu til, at nógvir føroyingar valdu at flyta av landinum fyri at leita eftir betri fíggjarligum møguleikum og arbeiði aðrastaðni, serliga til Danmarkar. Kreppan hevði langvarandi avleiðingar fyri føroyska samfelagið, men við tíðini hevur landið megnað at bygt seg upp aftur fíggjarliga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji fíggjarlig viðurskifti fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1263,6 +1505,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:11:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Vørur framleiddar í ES eru tollfríar í Føroyum vegna handilsavtalur og samstarv millum Føroyar og ES. Føroyar hava ein serstakan handilsstatus við ES, sum ger, at vørur, ið eru framleiddar í ES, kunnu innflytast til Føroyar uttan at verða álagdar toll. Hetta er ein partur av royndunum at fremja fríhandil og at lætta um handilssambandið millum partarnar. Slíkar avtalur kunnu eisini vera gagnligar fyri báðar partar, tí tær stuðla vinnulívinum og gera tað lættari at handla vørur og tænastur millum Føroyar og ES-londini."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví eru vørur framleiddar í ES tollfríar í Føroyum?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -1375,6 +1639,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:12:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Føroyar eru ein sjálvstýrandi partur av danska ríkinum, men hava framvegis ávísar bindingar til Danmark. Sum partur av hesum ríkisfelagsskapi hava Føroyar rætt til at velja tveir umboðsmenn til danska Fólkatingið. Hetta gevur føroyingum eina rødd í danska lóggávuvaldinum og møguleikan at ávirka avgerðir, sum kunnu hava ávirkan á Føroyar. Tey tveir umboðini úr Føroyum kunnu tískil vera við til at tryggja, at føroyskir áhugamál verða tikin við í viðgerðina av málum í Fólkatinginum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví sita tveir føroyskir politikarar í fólkatinginum?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1475,6 +1761,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:13:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "James Bond hevur onga beinleiðis tilknýti til Føroyar í teimum upprunaligu bókunum hjá Ian Fleming ella í teimum flestu filmunum. Tó er eitt undantak í filminum \"No Time to Die\" (2021), har nakrar av endasenum eru tiknar upp í Føroyum. Í hesum filminum verður ein fiktiv oyggj, ið kallast \"Safin's Island,\" brúkt sum staðseting, og nakrar av upptøkunum til hesar senur eru gjørdar í føroysku náttúruni. Hetta hevur givið Føroyum eitt sindur av altjóða uppmerksemi í samband við James Bond."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat tilknýti hevur James Bond til Føroyar?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -1587,6 +1895,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:14:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "V.U. Hammershaimb, føddur Venceslaus Ulricus Hammershaimb, er kendur fyri at hava lagt grundarlagið undir tað nútímans føroyska skriftmálið. Hann var ein føroyskur prestur og málfrøðingur, sum í 1846 útgav eina stavsetingarreglu fyri føroyskt mál, sum hevur havt stóran týdning fyri menningina av føroyskum sum skriftmáli. Hammershaimb valdi at grunda skriftmálið á forna føroyska málið, sum varð talað í miðøldini, og hetta hevur verið við til at varðveita nógvar gamlar máliskur og orð. Hansara arbeiði hevur havt varandi ávirkan á føroyska mentan og mál."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er V.U. Hammershaimb kendur fyri?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1687,6 +2017,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:15:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Rinkusteinarnir í Oyndarfirði eru tveir stórir steinar, sum liggja í sjónum við bygdina Oyndarfjørður í Føroyum. Søgan aftanfyri rinkusteinarnar er ein blanda av náttúruvísindum og føroyskari søgn.\n\nNáttúruvísindaliga forklaringin er, at rinkusteinarnir eru stórir steinar, sum eru festir í botninum, men kunnu røra seg, tá sjógvurin rørir seg. Hetta er eitt náttúruvakstrar, sum er sjáldsamt, men ikki ókent í heiminum.\n\nSøgnin sigur, at rinkusteinarnir eru tveir trøll, sum vórðu steinað av sólinum. Sambært søgnini, vóru trøllini á veg at oyðileggja bygdina, men sólin kom upp og gjørdi tey til stein, áðrenn tey kundu fremja sínar ætlanir. Hetta er ein vanlig tema í føroyskari og norðurlendskari mytologi, har trøll ofta verða steinað av sólarljósi.\n\nRinkusteinarnir eru eitt kent ferðamál í Føroyum, og teir draga bæði ferðafólk og lokal fólk, sum vilja síggja hetta serstaka náttúrufyribrigdi og hoyra søgnina aftanfyri tað."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er søgan aftanfyri rinkusteinarnir í Oyndarfirði?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -1799,6 +2151,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:16:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Flaggdagurin, sum verður hildin tann 25. apríl, er ein serstakur dagur í Føroyum, har føroyingar hátíðarhalda føroyska flaggið, Merkið. Dagurin varð fyrst hildin í 1947, og hann minnir á dagin í 1940, tá bretska stjórnin viðurkendi Merkið sum føroyskt tjóðarflagg undir Seinna heimsbardaga. Hetta var ein týðandi hending fyri føroyska tjóðskaparrørsluna og sjálvsstøðugleika Føroya.\n\nFlaggdagurin er ein dagur, har føroyingar vísa sínar tjóðskaparkenslur og heiðra flaggið við ymiskum tiltøkum, so sum skrúðgongum, røðum og sangi. Tað er ein dagur, har føroyingar savnast um sín samleika og søgu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Flaggdagin?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1899,6 +2273,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:17:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Føroyar fáa neiligt uppmerksemi orsaka av djóravælferð, serliga í sambandi við grindadráp, sum er ein siðvenja, har grindahvalir verða rikin inn á grynri vatn og dripnir. Hetta hevur vakt mikla atfinning frá djórarættindafelagsskapum og umhvørvisverjar kring heimin, sum halda, at grindadráp er óneyðugt og ómenniskjaligt.\n\nHóast føroyingar ofta vísa á, at grindadráp er ein týdningarmikil partur av teirra mentan og søgu, og at hvalakjøtið er ein týdningarmikil kelda til mat, so hava myndir og video av blóðugum sjógvi og dripnum hvalum skapt eina sterka reaktión frá altjóða samfelagnum. Hetta hevur ført til, at Føroyar verða ofta settar í samband við neiligt uppmerksemi, tá ið tað kemur til djóravælferð.\n\nAfturat hesum hava fleiri altjóða felagsskapir, so sum Sea Shepherd, gjørt átak móti grindadrápi og hava roynt at steðga tí við ymsum miðlum, sum hevur økt um altjóða trýstið á Føroyar at broyta ella steðga hesi siðvenju."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví fáa Føroyar neiligt uppmerksemi orsaka av djóravælferð?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2011,6 +2407,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:18:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Føroyskur dansur, eisini kendur sum kvæðadansur, hevur sín uppruna í miðøldini og er ein serstøk og týdningarmikil partur av føroysku mentanini. Dansurin er ein ketudansur, har fólk halda í hondum og dansa í ringi, meðan tey syngja kvæði, sum eru langar søgur ella frásagnir í bundnum máli. Kvæðini kunnu vera um søguligar hendingar, ævintýr, hetjur og dagligt lív.\n\nUpprunin til føroyskan dans er ikki heilt greiður, men hann hevur røtur í gomlum norrønum siðum og er ávirkaður av bæði íslendskum og norskum mentan. Dansurin hevur yvirlivað í Føroyum, hóast líknandi dansir eru horvnir í øðrum pørtum av Norðurlondum. Føroyskur dansur hevur verið ein týðandi partur av føroyska samleikanum og hevur verið við til at varðveita føroyskt mál og søguligar frásagnir gjøgnum aldarnar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er upprunin til føroyskan dans?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2111,6 +2529,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:19:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Heini Havreki er ein fiktivur karakterur úr føroyskari bókmentasøgu, skrivaður av Jákup Dahl. Hann er kendur fyri at vera ein sjórænari, sum hevur verið við í nógvum ævintýrum og stríðnum á sjónum. Søgan um Heina Havreka er ein av teimum mest kendu og elskaðu søgunum í føroyskari bókmentasøgu, og hon hevur verið ein týdningarmikil partur av føroyskari mentan og søguligari frásøgn."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er Heini havreki kendur fyri?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2223,6 +2663,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:20:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Tinganesi er ein historiskur og týdningarmikil staður í Tórshavn, høvuðsstaðnum í Føroyum. Tinganes er kendur fyri at vera ein av elstu tingstaðunum í Norðuratlantshavi, har Føroya Løgting hevur havt sítt sæti í fleiri øldir. Tinganes liggur á einum skaga, sum skilir Tórshavnar havn í tveir partar, og er ein av teimum elstu og best varðveittu býlingunum í Føroyum.\n\nÁ Tinganesi eru fleiri gamlar bygningar, sum hava stóran søguligan týdning. Nøkur av hesum húsum eru frá 16. og 17. øld og verða enn nýtt til almennar og politiskar endamál. Tinganes er eisini ein av teimum mest vitjaðu ferðamálunum í Tórshavn, tí tað gevur eina serliga innlit í søguna og mentanina hjá Føroyum.\n\nTinganesi er sostatt eitt stað, sum sameinir søgu, mentan og politiska týdning, og tað er ein týdningarmikil partur av føroyska samleikanum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er sermekt við Tinganesi?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2323,6 +2785,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:21:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Føroyskt og norskt líkjast meira enn føroyskt og danskt av fleiri orsøkum, sum hava við søgu, málfrøði og menning at gera:\n\n1. **Uppruni og søgulig menning**: Føroyskt og norskt stava bæði frá norrønum máli, sum varð tosað í Skandinavia í víkingatíðini. Danskt hevur eisini sín uppruna í norrønum máli, men hevur verið meira ávirkað av týskum og latínskum ígjøgnum søguna.\n\n2. **Geografisk nærleiki**: Føroyar liggja nærri Noregi enn Danmark, og tað hevur havt ávirkan á málmenningina. Føroyingar hava havt meira samband við Noreg í søguligum høpi, serliga áðrenn Føroyar komu undir danska krúnu í 1814.\n\n3. **Málfrøðiligar broytingar**: Føroyskt og norskt hava varðveitt fleiri av teimum upprunaligu norrønu málfrøðiligu eginleikunum, meðan danskt hevur gjøgnumgingið fleiri broytingar. Til dømis hevur danskt mist fleiri av sínum upprunaligu endingum og hevur ein meira simplifiseraða málfrøði samanborið við føroyskt og norskt.\n\n4. **Úttala og ljóðskipan**: Føroyskt og norskt hava líknandi úttalu og ljóðskipan, meðan danskt hevur ein serstakan ljóðfrøðiligan profil, sum kann vera torførur at skilja fyri fólk, ið ikki eru von við málið.\n\n5. **Málpolitikkur og varðveitsla**: Í Føroyum hevur verið ein sterk tilvitan um at varðveita og menna føroyska málið, og hetta hevur ført til, at føroyskt hevur varðveitt fleiri av sínum upprunaligu eginleikunum. Í Noregi hevur eisini verið ein sterk rørsla fyri at varðveita og endurvekja norrønu málfrøðiligu eginleikarnar, serliga í nýnorskum.\n\nHesar orsøkir gera, at føroyskt og norskt líkjast meira hvørjum øðrum enn føroyskt og danskt, hóast øll trý málini hava sín uppruna í norrønum máli."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví likist tað føroyska málið meira norskum enn donskum?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2435,6 +2919,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:22:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Í fólkaatkvøðuni í 1946 atkvøddu 50,73% av føroyingum fyri loysing frá Danmark, meðan 49,27% atkvøddu ímóti. Hóast hetta meirluti fyri loysing, var úrslitið ikki nóg greitt til at fremja eina loysing beinanvegin. Eftir atkvøðugreiðsluna valdi danska stjórnin at ikki góðtaka úrslitið sum bindandi, og í staðin varð skipað fyri nýggjum løgtingsvalið í november 1946. Eftir hetta valið varð ein nýggj samgonga skipað, sum var fyri at halda fram í ríkisfelagsskapinum við Danmark.\n\nEin annar týdningarmikil faktorur var, at danska stjórnin og kongur ikki vildu góðtaka eina loysing, sum ikki hevði eitt týðiligt og greitt meirluti. Hetta var eisini ein tíð, har politiskar og samfelagsligar umstøður vóru sera kompleksar, og tað var ikki einføldur spurningur at fremja eina loysing.\n\nSum úrslit av hesum varð ein nýggj skipan gjørd, sum gav Føroyum víðkað sjálvstýri við heimastýrislógini frá 1948. Henda lógin gav Føroyum størri sjálvræði í innlendis málum, meðan Danmark framvegis hevði ábyrgdina av uttanríkismálum, verju og rættarskipanini."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví loystu Føroyar ikki frá Danmark í 1946, hóast meirluti ynskti loysing?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2535,6 +3041,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:23:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Klaksvíksstríðið, sum fór fram í Føroyum í 1955-1956, snúði seg um eina politiska og samfelagsliga stríðsstøðu millum Klaksvík og landsmyndugleikarnar í Havn. Stríðið byrjaði, tá ið landsstýrið valdi at seta ein nýggjan lækna í Klaksvík, sum var danskur, heldur enn tann føroyski læknin, sum lokalbefólkingin ynskti. Hetta førdi til stórar mótmælisgongur og samanbrestir millum lokalbefólkingina og løgregluna.\n\nStríðið hevði eisini djúpari røtur í politiskum og mentanarligum spurningum um føroyska sjálvstýrið og sambandið við Danmark. Klaksvíkingar føldu seg ofta yvirsæddar av landsmyndugleikunum, og hetta stríðið gjørdist eitt symbol uppá hesa kenslu av órættvísi og vantandi sjálvræði.\n\nKlaksvíksstríðið endaði við, at landsstýrið gav eftir og loyvdi, at tann føroyski læknin fekk starvið. Stríðið hevði tó varandi ávirkan á føroyska politiska landslagið og styrkti kensluna av føroyskum samleika og sjálvstýri."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat snúði klaksvíksstríðið seg um?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2647,6 +3175,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:24:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Ósemjan um 'gongd í haga' snýr seg vanliga um rættin hjá fólki at ferðast frítt um náttúruøki, sum ofta eru privat ogn. Í nógvum londum, serliga í Norðurlondum, er tað ein siðvenja ella lóggáva, sum gevur fólki rætt til at ganga, renna, súkkla og í summum førum ríðast á privatari jørð, so leingi tey vísa virðing fyri náttúruni og privatari ogn. Hetta verður ofta nevnt \"allemannsretten\" ella \"right to roam\".\n\nÓsemjan kann stinga seg upp, tá ið eigarar av privatum jørðum føla, at teirra privatlív ella rættindi verða brotin, ella tá ið ferðafólk ikki vísa nóg stóra virðing fyri náttúruni, til dømis við at lata ruskið eftir seg ella skaða plantur og djór. Á hinari síðuni kunnu tey, sum stuðla rættinum at ferðast frítt, føla, at tað er ein grundleggjandi rættur at hava atgongd til náttúruna og at njóta hana.\n\nÍ Føroyum er hetta eisini eitt evni, sum kann skapa ósemjur, serliga í samband við ferðavinnu og atgongd til vøkru náttúruøki, sum ofta eru í privatari ogn. Tað er ein javnvág millum at tryggja atgongd til náttúruna og at verja rættindi og áhugamál hjá jørðareigarum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat snýr ósemjan um 'gongd í haga' seg um?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2747,6 +3297,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:25:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Útróður og fiskivinna hava stóran týdning í samfelagnum í dag av fleiri orsøkum:\n\n1. **Búskaparligur týdningur**: Fiskivinna er ein av høvuðsinntøkukeldunum í nógvum londum, serliga í smærri oyggjasamfeløgum sum Føroyar og Ísland. Hon skapar arbeiðspláss bæði beinleiðis í fiskivinnuni og óbeinleiðis í tengdum vinnum sum skipasmíð, flutningi og matvøruídnaði.\n\n2. **Útflutningur**: Fiskur og fiskavørur eru ofta ein stórur partur av útflutningsinntøkunum hjá londum við sterkari fiskivinnu. Hetta hjálpir við at javnviga handilsjavnan og styrkir búskapin.\n\n3. **Matur og føðslutrygd**: Fiskur er ein týdningarmikil kelda til protein og onnur týdningarmikil føðsluevni. Hann er ein partur av heilsugóðum kostinum hjá nógvum fólkum kring heimin.\n\n4. **Mentanararvur**: Í nógvum samfeløgum hevur fiskivinna ein djúpan mentanarligan týdning. Hon er ein partur av søguni og samleikanum hjá fólkinum, og hon hevur ávirkað lívsstílin, siðvenjur og mentanarligar siðir.\n\n5. **Samfelagsligur stabilitetur**: Fiskivinna kann vera við til at tryggja samfelagsligan stabilitet, serliga í smærri og avbyrgdum samfeløgum, har onnur vinnuvirksemi eru avmarkað. Hon kann eisini vera við til at forða fyri avfólkan av útoyggjum og smærri bygdum.\n\n6. **Burðardygd og umhvørvi**: Við rætta umsiting og burðardyggum fiskiveiðuhættum kann fiskivinna vera ein burðardygg vinnuvegur, sum stuðlar undir varðveitslu av havumhvørvinum og fiskastovnunum.\n\n7. **Innovatión og tøkni**: Fiskivinna kann eisini vera ein drívmegi fyri innovatión og menning av nýggjari tøkni, sum kann nýtast í øðrum vinnugreinum. Hetta umfatar alt frá betri veiðitólum til framkomnar framleiðsluhættir og nýtslu av burturkasti.\n\nSamanumtikið er útróður og fiskivinna ein grundleggjandi partur av búskapinum, mentanini og samfelagnum sum heild í nógvum londum, og hon hevur ein týdning, sum røkkur langt út um beinleiðis fiskiveiðu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava útróður og fiskivinna týdning í samfelagnum í dag?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -2859,6 +3431,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:26:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Seyðahald hevur havt eina týðandi ávirkan á bæði búskapin og umhvørvið í Føroyum. Her eru nøkur av høvuðspunktunum:\n\n### Búskaparliga:\n1. **Inntøka og arbeiðspláss**: Seyðahald hevur verið ein týdningarmikil inntøkukelda fyri nógvar føroyingar, serliga í útoyggj og smærri bygdum. Tað hevur skapt arbeiðspláss og stuðlað lokalbúskapinum.\n2. **Vøruframleiðsla**: Seyðahald hevur eisini stuðlað framleiðslu av ymiskum vørum, so sum ull, kjøt og skinn. Hesar vørur hava verið brúktar bæði til innlendis nýtslu og útflutning.\n3. **Mentanararvur**: Seyðahald er ein partur av føroyska mentanararvinum og hevur verið ein týðandi partur av føroyska lívsháttinum í øldir. Hetta hevur eisini eina búskaparliga ávirkan, tí tað stuðlar undir ferðavinnu og mentanarlig tiltøk.\n\n### Umhvørvisliga:\n1. **Landslag og náttúra**: Seyðahald hevur havt eina ávirkan á landslagið í Føroyum. Beitingin hevur verið við til at halda landslagið opið og fyribyrgt, at tað vaks til við runni og trøum. Hetta hevur eisini havt ávirkan á plantulívið og djóralívið í Føroyum.\n2. **Jarðbrúk og beiting**: Seyðahald hevur kravt stórar beitilendir, og hetta hevur havt ávirkan á jarðbrúkið. Í summum førum hevur ovurnýtsla av beitilendinum ført til jarðoyðing og minkandi plantuvøkstur.\n3. **Biodiversitetur**: Seyðahald kann eisini hava ávirkan á biodiversitetin. Beiting kann minka um nøkur plantusløg, meðan onnur kunnu fáa betri umstøður at vaksa. Hetta kann broyta samansetingina av plantulívinum og harvið eisini djóralívinum, sum er tengt at hesum plantum.\n\nSamanumtikið hevur seyðahald havt bæði jaligar og neiligar ávirkanir á føroyska búskapin og umhvørvið. Tað hevur stuðlað undir lokalbúskapin og varðveitt mentanararvin, men tað hevur eisini havt ávirkan á landslagið og náttúruna."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu hevur seyðahald ávirkað Føroyar búskaparliga og umhvørvisliga?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -2959,6 +3553,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:27:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Veðurlagið hevur havt ein týðandi leiklut í at mynda byggisiðvenjur kring heimin. Her eru nøkur dømi um, hvussu veðurlagið hevur merkt byggisiðvenjur:\n\n1. **Kuldaveðurlag:**\n   - **Tykki veggir og góð hitainnsavning:** Í økjum við kalt veðurlag, sum t.d. í Skandinavia og á Arktis, eru hús ofta bygd við tykkum veggjum og góðari hitainnsavning fyri at halda hita inni og kulda úti.\n   - **Lágir bygningar:** Bygningar eru ofta lágir fyri at minka um vindálag og fyri at varðveita hita.\n   - **Lítlar vindeygu:** Vindeygu eru ofta smá fyri at minka um hitatapið.\n\n2. **Heitt veðurlag:**\n   - **Luftflutningur:** Í tropiskum og subtropiskum økjum eru hús ofta bygd við stórum vindeygum og opnum rúmum fyri at tryggja góða luftflutning og køling.\n   - **Skuggi:** Bygningar hava ofta stórar takskegg og verandar fyri at veita skugga og verja móti sólini.\n   - **Léttari byggitilfar:** Í heitum økjum verður ofta nýtt lættari byggitilfar, sum t.d. træ og bambus, sum ikki savnar hita eins nógv sum t.d. steinur og betong.\n\n3. **Regnveðurlag:**\n   - **Vatnfrárenning:** Í økjum við nógvum regni eru hús ofta bygd við góðari vatnfrárenning, sum t.d. brøtt tak og rennur, fyri at leiða vatnið burtur.\n   - **Upphækkar bygningar:** Í økjum við nógvum flóðum eru hús ofta bygd á pelum fyri at verja móti vatnskaða.\n\n4. **Turrt veðurlag:**\n   - **Tykki veggir:** Í turrum økjum, sum t.d. í Miðeystri, eru hús ofta bygd við tykkum veggjum úr leir ella steini fyri at halda hita úti um dagin og varðveita køldu um náttina.\n   - **Lítil vindeygu:** Vindeygu eru ofta smá fyri at minka um hitainntøku frá sólini.\n\n5. **Vindur:**\n   - **Aerodynamiskar formar:** Í økjum við nógvum vindi, sum t.d. á oyggjum og við strendur, eru bygningar ofta bygd við aerodynamiskum formum fyri at minka um vindálag.\n   - **Sterkari konstruktiónir:** Bygningar eru ofta bygd við sterkari konstruktiónum og festingum fyri at standa ímóti sterkum vindi og stormum.\n\nVeðurlagið hevur sostatt ein stóran ávirkan á, hvussu hús og bygningar verða bygd, og hvussu tey verða sniðgivin fyri at tryggja, at tey eru bæði komfortablir og tryggir at búgva í."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu hevur veðurlagið merkt byggisiðvenjur?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -3071,6 +3687,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "faroese:28:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Kvæðini hava ein sera stóran mentanarligan týdning fyri føroyska samfelagið. Tey eru ein týdningarmikil partur av føroysku mentanararvinum og hava verið brúkt í øldir til at bera søgur, siðvenjur og virðir víðari frá eini ættarlið til tað næsta. Her eru nøkur av høvuðspunktunum, sum lýsa mentanarliga týdningin av kvæðunum:\n\n1. **Søgulig vitan**: Kvæðini bera við sær søguligar frásagnir og hendingar, sum geva okkum innlit í lívið og samfelagið í gomlum døgum. Tey kunnu lýsa bæði søguligar hendingar og mytologiskar frásagnir, sum hava verið týdningarmiklar fyri føroyska samleikan.\n\n2. **Mál og málmentan**: Kvæðini hava verið við til at varðveita og menna føroyska málið. Tey hava verið ein týðandi partur av munnliga arvinum, sum hevur hjálpt til at halda føroyska málið livandi, serliga í tíðarskeiðum, har skriftligar keldur vóru fáar.\n\n3. **Tónleikur og dansur**: Kvæðini eru ofta sungin ella kvøðin við serligum kvæðaløgum og eru ofta fylgd av føroyskum dansi. Hetta hevur skapt ein serstakan mentanarligan samleika, har tónleikur og dansur eru tætt knýtt saman við kvæðamentanina.\n\n4. **Samfelagsligur samleiki**: Kvæðini hava verið við til at skapa og styrkja ein felags samleika millum føroyingar. Tey hava verið brúkt í felagsskapum og á hátíðarhaldum, har fólk hava savnast um at kvøða og dansa saman. Hetta hevur styrkt felagskensluna og samanhaldið í føroyska samfelagnum.\n\n5. **Listarlig inspiratión**: Kvæðini hava eisini verið ein kelda til inspiratión fyri føroyskar listafólk, bæði innan bókmentir, tónleik, myndlist og aðrar listagreinar. Tey hava givið listafólkum eitt ríkt tilfar at arbeiða við og hava verið við til at menna føroyska list og mentan.\n\nSamanumtikið hava kvæðini ein grundleggjandi týdning fyri føroyska mentan og samleika, og tey halda fram við at vera ein livandi partur av føroyska mentanararvinum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er mentanarligi týdningurin av kvæðunum?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -3171,6 +3809,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:29:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Føroysk matmentan er merkt av serligum eyðkennum, sum stava frá landafrøðiligum, veðurlagsligum og søguligum umstøðum. Her eru nøkur av teimum mest eyðkendu:\n\n1. **Ræstkjøt og ræstur fiskur**: Fermentering er ein týðandi partur av føroyskari matmentan. Ræstkjøt (t.d. ræst lamb) og ræstur fiskur (t.d. ræstur hýsa) eru vanligir rættir, har kjøt og fiskur verða hongd upp at fermentera í serligum hjallum.\n\n2. **Skerpikjøt**: Hetta er turrkað og fermenterað seyðakjøt, sum hevur ein serstakan smak og verður ofta etið við eplum og róma.\n\n3. **Grindadráp**: Grindadráp er ein siðbundin veiðiháttur, har føroyingar veiða grindahvalir. Grindakjøt og spik eru týdningarmikil partar av føroyskari matmentan.\n\n4. **Fiskur**: Fiskur er ein stórur partur av føroyskari kostur. T.d. turrfiskur, saltfiskur og fiskasuppur eru vanligir rættir.\n\n5. **Seyðakjøt**: Seyðahald er ein týðandi partur av føroyskari landbúnað, og seyðakjøt er ofta nýtt í ymiskum rættum, bæði sum frískt, turrkað og fermenterað.\n\n6. **Rúgvur og mjólkarvørur**: Mjólkarvørur sum skyr, ostur og rómi eru eisini vanligar í føroyskari matmentan.\n\n7. **Eplir og rótfruktir**: Eplir og rótfruktir sum neytarót og gularót eru vanligar í føroyskari matgerð, ofta sum tilhoyr til kjøt- og fiskarættir.\n\n8. **Breyð**: Føroyskt breyð, serliga rugbreyð, er ein týðandi partur av dagliga kostinum.\n\n9. **Søtur matur**: Føroyskir dessertir og køkur eru ofta einfaldir og byggja á lokalar rávørur. T.d. rabarbukøka og kleynur.\n\n10. **Veðurlagsávirkan**: Veðurlagið í Føroyum hevur ávirkað matmentanina, við tí at føroyingar hava mátt laga seg til at nýta tað, sum er tøkt, og varðveita mat til longri tíðarskeið.\n\nFøroysk matmentan er merkt av eini djúpari virðing fyri náttúruni og teimum rávørum, sum eru tøkar í oyggjunum. Tað er ein matmentan, sum hevur røtur í sjálvbjargni og nýtslu av tí, sum náttúran gevur."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji serlig eyðkenni hevur føroysk matmentan?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,

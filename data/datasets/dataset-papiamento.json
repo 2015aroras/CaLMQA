@@ -103,6 +103,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "papiamento:0:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "E celebracion di carnaval na Aruba ta origina di un mescla di tradishon europeo, africano, i latinoamericano. E origen di carnaval ta remonta na e tempu colonial, ora cu e islanan Karibe a wordo influenciá pa e cultura europeo, particularmente e cultura di e paisnan católiko manera España i Portugal, cu tabata celebra carnaval manera un periodo di fiesta i desborde antes di e cuaresma católiko.\n\nNa Aruba, e celebracion di carnaval a cuminza na anja 1950, cu e introduccion di e costumbrenan di carnaval di e islanan vecino manera Trinidad i Tobago, cu tabata tin un carnaval hopi vibrante i colorido. E inmigrantenan di Trinidad i Tobago a trece e tradishon di carnaval cu nan, i e comunidad local a adapta i desaroya su propio estilo di carnaval.\n\nE carnaval di Aruba a crece pa bira un evento grandisimo cu hopi actividadnan, incluyendo desfilenan grandioso, concurso di reina di carnaval, i fiesta di calle. E celebracion ta un refleho di e mescla cultural di e isla, cu influencia di e herencia africano, europeo, i latinoamericano, i ta un periodo di alegria, musica, baile, i color cu ta uni e comunidad arubiano."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cua ta e origen di e celebracion di carnaval na Aruba?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -203,6 +225,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:1:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "¡Claro! Aquí tienes algunas ideas para celebrar el Año Nuevo:\n\n1. **Fiestas en casa**: Organiza una fiesta en tu hogar con amigos y familiares. Puedes tener música, comida, bebidas y juegos para mantener a todos entretenidos hasta la medianoche.\n\n2. **Eventos públicos**: Muchas ciudades organizan eventos públicos con fuegos artificiales, conciertos y otras actividades. Consulta el calendario de eventos de tu localidad para ver qué se ofrece.\n\n3. **Restaurantes y bares**: Algunos restaurantes y bares tienen eventos especiales para la noche de Año Nuevo, con menús especiales, música en vivo y otras sorpresas.\n\n4. **Viajes**: Si te gusta viajar, considera pasar el Año Nuevo en una ciudad diferente o incluso en otro país. Lugares como Nueva York, París, y Río de Janeiro son famosos por sus celebraciones de Año Nuevo.\n\n5. **Retiros y escapadas**: Si prefieres algo más tranquilo, puedes optar por un retiro de bienestar o una escapada a la naturaleza para recibir el Año Nuevo en un ambiente relajado.\n\n6. **Tradiciones culturales**: Participa en tradiciones culturales y rituales que se practican en tu comunidad o en tu familia. Esto puede incluir desde cenas especiales hasta rituales de buena suerte.\n\n7. **Celebraciones virtuales**: Si no puedes estar físicamente con tus seres queridos, organiza una celebración virtual a través de videollamadas para compartir el momento juntos.\n\n8. **Actividades al aire libre**: Si el clima lo permite, considera actividades al aire libre como acampar, hacer una fogata o simplemente disfrutar de una caminata nocturna.\n\nRecuerda que lo más importante es pasar el tiempo con las personas que te importan y disfrutar del momento. ¡Feliz Año Nuevo!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dicon nos ta toca dande aña nobo?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -315,6 +359,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "papiamento:2:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Sí, Aruba luchó por obtener su \"status aparte\" dentro del Reino de los Países Bajos. Este proceso comenzó en la década de 1970 y culminó el 1 de enero de 1986, cuando Aruba se convirtió en un país autónomo dentro del Reino de los Países Bajos. Antes de esto, Aruba era parte de las Antillas Neerlandesas.\n\nLa lucha por el \"status aparte\" fue impulsada por líderes políticos arubeños que querían más autonomía y control sobre los asuntos internos de la isla. Uno de los principales defensores de esta causa fue Betico Croes, un político arubeño que jugó un papel crucial en las negociaciones con el gobierno neerlandés.\n\nEl \"status aparte\" permitió a Aruba tener su propio gobierno y mayor control sobre sus asuntos internos, aunque sigue siendo parte del Reino de los Países Bajos, lo que significa que comparte la defensa y las relaciones exteriores con los otros países del Reino (Países Bajos, Curazao y Sint Maarten)."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dicon Aruba a lucha pa haya su status aparte?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -415,6 +481,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:3:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "No, Aruba no ta conoci como 'isla di los gigantes'. Aruba ta conoci mas bien como 'isla feliz' o 'One Happy Island' en inglés. E nombre ta refleha e ambiente amigable y e belleza natural di e isla. Aruba ta un destinacion turistico popular, con playas hermosas, un clima tropical y un ambiente hospitable. E nombre 'isla di los gigantes' no ta un sobrenombre comunmente asocia cu Aruba."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dicon Aruba ta conoci como 'isla de los gigantes'?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -527,6 +615,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "papiamento:4:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Pa traha pan bati, bo lo mester e siguiente ingredientenan i pasonan:\n\n**Ingredientenan:**\n- 2 tas di hariña\n- 1 tas di lechi\n- 1 webo\n- 1 cucharita di bakoba (baking powder)\n- 1/2 cucharita di sal\n- 1 cucharita di azeta (opcional)\n- Azúcar na smak (opcional)\n\n**Pasonan:**\n\n1. **Prepara e meskla:**\n   - Den un bol grandi, meskla e hariña, bakoba, i sal.\n   - Den un otro bol, bati e webo i agrega e lechi i azeta (si bo ta usa).\n   - Poko a poko, agrega e meskla di lechi i webo den e ingredientenan sekonan, mesklando tur ora pa evita formashon di grumo.\n\n2. **Deja e meskla drumi:**\n   - Deja e meskla drumi pa mas o menos 10-15 minuut pa e hariña por absorbe e likido bon.\n\n3. **Prepara e sarten:**\n   - Calenta un sarten antiadherente (non-stick) of un plancha na temperatura medio.\n   - Si bo ke, bo por pone un tiki manteka of azeta riba e sarten pa evita e pan bati pega.\n\n4. **Hasi e pan batinan:**\n   - Usa un cucharon of un tas pa pone e meskla den e sarten. E meskla lo tende forma di un circulo.\n   - Laga e pan bati kue pa 2-3 minuut te ora bo mira burbuha riba e superfisie i e randanan ta kuminsa bira dor di e pan bati.\n   - Bira e pan bati i laga e otro banda kue pa 1-2 minuut mas te ora e ta dor.\n\n5. **Sirbi:**\n   - Sirbi e pan batinan ku manteka, sirop, fruta, of otro topping di bo smak.\n\nBon probecho!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Con nos ta traha pan bati?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -627,6 +737,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:5:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Kòrsou, konosí ofisialmente komo Kurasao, tin un historia riku i komplika ku a influensia su kultura aktual di manera signifikante. E isla a ser deskubrí pa e eksploradó español Alonso de Ojeda den 1499, pero pronto a bini bou di kontrol di e Holandesnan den 1634. E periodo kolonial a marká un tempu di desaroyo ekonomiko i sosial, inkluíendo e plantashonnan di suku i e trafiko di esklavitud.\n\nE meskla di diferente kultura a forma e fundashon di e identidad di Kòrsou. E idioma Papiamentu, ku ta un meskla di Pòrtuges, Spañó, Holandés, Afrikano i otro idioma, ta un testimonio di e diversidat linguístiko i kultural di e isla. E kultura di Kòrsou ta reflehá influensia di e indíjenan Arawak, e kolonisadónan europeo, i e esklavonan Afrikano, asina komo e inmigrantenan di otro parti di mundu.\n\nE kultura di Kòrsou ta inkluí tradishon musikal riku, manera tambú i tumba, ku ta reflehá e erensia Afrikano. E isla tambe ta konosí pa su arte, gastronomia, i festivales, manera Karnaval, ku ta un di e mas grandi i kolóritu den Karibe.\n\nE historia di kolonialismo i esklavitud a kreá un fundashon pa un komunidat ku ta balorá su libertad i identidad kultural. E lucha pa autonomia i e desaroyo di un identidad nashonal a influensia e manera den kua e hende di Kòrsou ta mira nan mes i nan lugar den mundu.\n\nDen resumen, e historia di Kòrsou ta un meskla di influensianan di diferente kultura i evento históriconan ku a forma su kultura aktual, duna e isla un karácter uniko i divers."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e historia di Kòrsou i kon e ta influensia e kultura aktual?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -739,6 +871,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "papiamento:6:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Kòrsou, un isla den e Karibe Hulandes, tin un ekonomia diversifiká ku ta inkluí varios sektornan prinsipal. E sektornan ekonómiko prinsipal di Kòrsou ta:\n\n1. **Turismo**: Turismo ta un di e sektornan mas importante pa e ekonomia di Kòrsou. E isla ta atrahé turista di tur mundu pa su playas bunita, historia kolonial, i kultura vibrante. Resortnan, hotelnan, i otro fasilidatnan turístiko ta kontribuí grandemente na e ekonomia lokal.\n\n2. **Refineria di Pètroleo**: E refineria di Isla Refineria, ku a operá pa hopi aña, tabata un pilar di e ekonomia di Kòrsou. Sinembargo, e refineria a enfrentá varios desafionan den e últimanan añanan, inkluíendo problema di operashon i buska di nobo kontraktornan.\n\n3. **Servisio Finansiero**: Kòrsou ta un sentro finansiero internashonal ku ta ofresé varios produkto i servisio finansiero, inkluíendo bankonan, aseguranza, i trust services. E sektor aki ta benefisiá di e leinan favorabel i e posishon geográfiko di e isla.\n\n4. **Komersio i Logístika**: Kòrsou ta un hub importante pa komersio i logístika den e región Karibe. E puerto di Willemstad ta un di e mas busy den e área, i e zona franka ta ofresé fasilidatnan pa importashon i exportashon.\n\n5. **Industria Marítimo**: E sektor marítimo ta inkluí servisionan komo reparashon di barku, bunkering (suplí di pètroleo na barku), i otro servisio relashoná ku e tráfiko marítimo.\n\nDen e últimanan añanan, e ekonomia di Kòrsou a enfrentá varios desafionan i a sufri un evolushon signifikante:\n\n- **Krisis di Refineria**: E problema ku e refineria di Isla a krea inestabilidat i pèrdita di trabou pa hopi hende. E buska pa nobo invershon i kontraktornan a keda un tema importante.\n\n- **Pandemia di COVID-19**: E pandemia a tin un impakto devastador riba e sektor di turismo, ku a resultá den un disminushon signifikante di turista i un pèrdita di ingreso pa hopi negoshinan lokal.\n\n- **Rekoverashon i Diversifikashon**: Kòrsou ta traha riba diversifiká su ekonomia pa no ta dependé tanto riba un sektor so. Inisiativanan pa promové turismo sostenibel, desaroyá e sektor di teknologia i inovashon, i atraé invershon extranhero ta parti di e esfuersonan pa fortifiká e ekonomia.\n\n- **Ayudo di Hulanda**: Hulanda a duna ayudo finansiero i suport pa asistí Kòrsou den su rekoverashon di e krisis ekonomik i di salud públiko.\n\nE ekonomia di Kòrsou ta den un fase di transishon, ku enfoke riba rekoverashon i diversifikashon pa logra un futuro mas sostenibel i resiliente."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e prinsipalnan sektornan ekonómiko di Kòrsou i kon e evolushon di ekonomia tabata den e lastu añanan?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -839,6 +993,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:7:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Kòrsou ta enfrentá varios retos di medio ambiente ku ta inkluí:\n\n1. **Kontaminashon di aire**: E refineria di Isla ta un fuente prinsipal di kontaminashon di aire, ku ta resulta den emishon di gases dañino komo dióxido di sulfuro (SO2) i partikulanan fin (PM). E kontaminashon aki por afektá salud di hende i ekosistema.\n\n2. **Kontaminashon di awa**: E kontaminashon di awa ta bini di varias fuentes, inkluí e refineria, e industria di turismo, i e uso di pesticida i fertilizante den agrikultura. E kontaminashon aki por afektá e vida marino i e kalidat di awa di kranchi.\n\n3. **Manejo di deshecho**: Maneho di deshecho ta un otro reto grandi. E landfill di Kòrsou ta yega su kapasidat i no tin sufisiente sistema pa rekupera i reusa deshecho. E problema aki ta kontribuí na kontaminashon di suelo i awa.\n\n4. **Erosión di kosta**: Erosión di kosta ta un problema ku ta bini di kombinasion di faktornan natural i humano, inkluí desaroyo di turismo i urbanisashon. Erosión por afektá e ekosistema di kosta i e komunidatnan ku ta dependé di dje.\n\n5. **Kambio klimátiko**: Kambio klimátiko ta trese varios retos, inkluí aumento di nivel di laman, kambio den patronan di tempu, i aumento di frekuensia i severidat di desaster natural komo hurakan.\n\nPa enfrentá e problemanan aki, Kòrsou ta tuma varios paso:\n\n1. **Regulashon i monitoreo**: Ta implementá regulashon mas striktu pa kontrolá emishon di kontaminante i ta hasi monitoreo kontinuo pa asegurá ku e regulashon ta sigui.\n\n2. **Invershon den teknologia limpi**: Ta buska pa implementá teknologia ku ta reducí emishon di kontaminante, komo planta di energia renovabel i sistema di tratamiento di awa.\n\n3. **Kampaña di edukashon**: Ta hasi kampaña di edukashon pa konsientisá e komunidat tokante e importansia di protehá e medio ambiente i pa promové praktikanan sostenibel.\n\n4. **Manejo di deshecho**: Ta implementá sistema di rekuperashon i reusa di deshecho, inkluí programa di rekuperashon di material i planta di kompost.\n\n5. **Protehá e kosta**: Ta implementá medidanan pa protehá e kosta kontra erosión, komo plantashon di manglar i otro vegetashon ku ta protehá e kosta.\n\n6. **Plan di adaptashon pa kambio klimátiko**: Ta desaroyá plan di adaptashon pa kambio klimátiko ku ta inkluí medidanan pa protehá e komunidatnan mas vulnerabel i pa manejá e riesgo di desaster natural.\n\nE paso aki ta mustra un esfuerso kontinuo pa protehá i preservá e medio ambiente di Kòrsou pa e generashon aktualmente i e generashon futú."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e retonan di medio ambiente ku Kòrsou ta enfrentá i kon Kòrsou ta enfrentá e problemanan aki?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
@@ -951,6 +1127,28 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "papiamento:8:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Kòrsou, konosí ofisialmente komo Kòrsou, ta un isla ku ta forma parti di e Reino Hulandes. E isla ta konosí pa su rikeza kultural i diversidat, ku ta reflektá den su idioma, gastronomia, i tradishon. E idioma ofisial ta Papiamentu, un idioma kreol ku ta kombiná elementu di Hulandes, Spañó, Portugués, i otro idioma.\n\nKòrsou ta selebrá diversidat na diferente manera, inkluíendo atravez di su dianan di fiesta. E dianan di fiesta mas importante na Kòrsou ta:\n\n1. **Dia di Reinashon (Koningsdag)** - 27 di April: Un fiesta nashonal pa selebrá e aña nobo di bida di e Rei di Hulanda, Willem-Alexander. E dia aki ta yena ku aktividatnan kulturel i deporte.\n\n2. **Dia di Bandera (Dia di Bandera di Kòrsou)** - 2 di Juli: Un dia pa selebrá e bandera i identidat di Kòrsou. Ta un okashon pa reflektá riba e historia i kultura di e isla.\n\n3. **Karnaval** - E temporada di Karnaval ta un di e evento mas grandi i koló di Kòrsou, ku ta inkluí desfilé grandi, musika, i baile. E evento aki ta tuma lugá den e semana anterior na e Kuáresma katóliko.\n\n4. **Dia di Tula (Dia di Libertat)** - 17 di Augustus: Un dia pa komemorá e rebelion di Tula, un lider di e rebelion di esklabonan na 1795. E dia aki ta un momentu pa reflektá riba e lucha pa libertat i justisia.\n\n5. **Dia di Reino (Koninkrijksdag)** - 15 di Desèmber: Un dia pa selebrá e formashon di e Reino Hulandes, ku Kòrsou ta un parti di dje.\n\n6. **Pasku i Aña Nobo** - E selebrashon di Pasku i Aña Nobo ta inkluí tradishon lokal, kuminda spesial, i fiesta familiar.\n\nE dianan di fiesta aki ta reflektá e diversidat i e rikeza di e kultura di Kòrsou, i ta duna e komunidat un oportunidad pa uní i selebrá su identidat uniko."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
         }
       ]
     },
@@ -1051,6 +1249,28 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:9:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Awe, e situashon polítiko di Kòrsou ta karakterisá pa un serie di desafiu i desaroyo ku ta influensia e islanan di Karibe Hulandes. E temanan prinsipal di debate den sosiedat ta inkluí:\n\n1. **Ekonomia i Finansas**: Kòrsou ta enfrenta desafiu ekonómiko, inkluí un deuda públiko signifikante i un nesesidat pa diversifiká su ekonomia. E pandemia di COVID-19 a agrava e situashon, i e isla ta buskando manera pa rekobrá i stimulá kreshimentu ekonómiko.\n\n2. **Gobernashon i Transparensia**: Ta kontinuamente tin diskushon riba e tema di gobernashon bon i transparensia. Korupshon i mal manejamentu di fondo públiko ta un preokupashon persistente, i ta pidi pa mas kontrol i responsabilidat den e sektornan públiko.\n\n3. **Salú Públiko**: E sistema di salú ta bai na un proseso di reforma pa mehorá su efektividat i aksesibilidat. E pandemia a pone un preshon adicional riba e sistema di salú, i ta pidi pa mehoras struktural.\n\n4. **Edukashon**: E kalidat di edukashon ta un otro tema di importansia. Ta pidi pa mehoras den e sistema edukativo pa garantisá ku e hobenan ta haña e konosementu i destrezanan nesesario pa prosperá den un mundo ku ta kambia rapidamente.\n\n5. **Medioambiente**: Ta pidi pa mas atenshon riba protekshon di e medioambiente, inkluí maneho di deshecho, protekshon di e rifnan di koral, i sostenibilidat di e sektor turístiko.\n\n6. **Relashon ku Hulanda**: E relashon di Kòrsou ku Hulanda ta un tema kontinua di diskushon, spesialmente den kontektu di autonomia i e ayuda finansiero ku Hulanda ta duna. Ta pidi pa klaridat riba e kondishonnan di e ayuda i e futuro di e relashon politik.\n\n7. **Kriminalidat i Seguridat**: Kriminalidat, inkluí violensia i trafiko di droga, ta un preokupashon mayor. Ta pidi pa mehoras den e sistema di hustisia i mas resursonan pa e fuerzan di seguridat.\n\nE situashon polítiko di Kòrsou ta diná pa e desafiu i oportunidatnan ku e isla ta enfrenta, i e debatunan den sosiedat ta reflehá e nesesidat pa solushon duradero i inklusivo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e situashon polítiko aktual di Korsou i kua ta e temanan prinsipal di debate den sosiedat?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
             "n": 1,
             "presence_penalty": 0.0,
             "temperature": 0.0,
