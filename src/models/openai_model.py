@@ -30,8 +30,9 @@ class OpenAIPromptParameters(PromptingState):
 
 
 class OpenAIModel(Model):
+    GPT_MODELS = (ModelName.GPT_4_TURBO, ModelName.GPT_4O)
     TOGETHER_AI_MODELS = (ModelName.LLAMA_3_70B_TOGETHER, ModelName.MIXTRAL_8X22B_TOGETHER)
-    SUPPORTED_MODELS = (ModelName.GPT_4_TURBO, *TOGETHER_AI_MODELS)
+    SUPPORTED_MODELS = (*GPT_MODELS, *TOGETHER_AI_MODELS)
     DEFAULT_PARAMETERS = OpenAIPromptParameters(
         prompt=None,
         model_name=ModelName.GPT_4_TURBO,
@@ -82,7 +83,7 @@ class OpenAIModel(Model):
 
     @property
     def _api_key(self) -> str | None:
-        if self.name == ModelName.GPT_4_TURBO:
+        if self.name in OpenAIModel.GPT_MODELS:
             return os.environ.get("OPENAI_API_KEY")
         if self.name in OpenAIModel.TOGETHER_AI_MODELS:
             return os.environ.get("TOGETHER_API_KEY")
@@ -90,7 +91,7 @@ class OpenAIModel(Model):
 
     @property
     def _base_url(self) -> str | None:
-        if self.name == ModelName.GPT_4_TURBO:
+        if self.name in OpenAIModel.GPT_MODELS:
             return None
         if self.name in OpenAIModel.TOGETHER_AI_MODELS:
             return "https://api.together.xyz/v1"
@@ -100,6 +101,8 @@ class OpenAIModel(Model):
     def model_version(self) -> str:
         if self.name == ModelName.GPT_4_TURBO:
             return "gpt-4-0125-preview"
+        if self.name == ModelName.GPT_4O:
+            return "gpt-4o-2024-05-13"
         if self.name == ModelName.LLAMA_3_70B_TOGETHER:
             return "meta-llama/Llama-3-70b-chat-hf"
         if self.name == ModelName.MIXTRAL_8X22B_TOGETHER:

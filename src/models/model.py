@@ -16,6 +16,7 @@ class ModelName(enum.Enum):
     HUMAN = "Human"
     HUMAN_DOT_POINTS = "Human (dot points)"
     GPT_4_TURBO = "GPT 4 Turbo"
+    GPT_4O = "GPT 4o"
     AYA_101 = "AYA 13B"
     GEMINI_1_5_PRO = "Gemini 1.5 Pro"
     GEMMA_7B = "Gemma 7B"
