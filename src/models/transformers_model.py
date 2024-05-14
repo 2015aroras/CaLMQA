@@ -464,35 +464,15 @@ class Aya101Model(TransformersModel):
             token=self.token,
         )
 
-    def _get_prompting_state(
-        self,
-        prompt: str,
-        batch_encoding: BatchEncoding | None = None,
-        **prompting_state_kwargs,
-    ) -> TransformersPromptParameters:
-        if batch_encoding is None:
-            batch_encoding = self.tokenizer(prompt, return_tensors="pt").to(
-                self.model.device,
-            )
-
-        prompting_state_kwargs["model_input_dict"] = batch_encoding
-
-        return super()._get_prompting_state(
-            prompt,
-            **prompting_state_kwargs,
-        )
-
     def get_prompting_state(self, prompt: str) -> PromptingState:
         return self._get_prompting_state(prompt)
 
     def prompt(self, prompt: str) -> tuple[str, PromptingState]:
-        batch_encoding: BatchEncoding = self.tokenizer(prompt, return_tensors="pt").to(
-            self.model.device,
-        )
+        encoding = self.tokenizer.encode(prompt, return_tensors="pt")
 
         prompting_state = self._get_prompting_state(
             prompt,
-            batch_encoding=batch_encoding,
+            model_input_dict={"inputs": encoding},
         )
 
         outputs = self._call_generate(self.model, prompting_state)
