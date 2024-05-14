@@ -474,9 +474,10 @@ class Aya101Model(TransformersModel):
                 self.model.device,
             )
 
+        prompting_state_kwargs["model_input_dict"] = batch_encoding
+
         return super()._get_prompting_state(
             prompt,
-            model_input_dict=batch_encoding,
             **prompting_state_kwargs,
         )
 
