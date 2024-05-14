@@ -17,7 +17,7 @@
             "text": "Is it still customary to give money to a 15-16-year-old boy for sprinkling? If so, how much? He's my brother's son. He's at that transitional age where he still seems like a child but goes out partying, has a girlfriend, drinks at parties... so, he's living as a teenage young man.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nAttól függ, milyen a kapcsolat vele. Én adnék ennek a korosztálybeli rokonomnak (főleg, ha tudnám azt is, hogy megtakarítja ill. jóra fordítja).\nA pénz mindig jól jön...\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\n15-16 éves srácnak szokás még pénzt adni a locsolásért? Ha igen, mennyit? Testvér kisfia.\nA legátmenetibb korosztály. Aki korban még gyereknek tűnik, de bulizik, barátnője van, bulikban iszogat...tehát kamasz fiatalemberként él.\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -72,7 +72,7 @@
           }
         },
         {
-          "name": "hungarian:0:language.hungarian:gpt 4",
+          "name": "hungarian:0:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -82,7 +82,7 @@
           },
           "prompting_state": {
             "prompt": "15-16 éves srácnak szokás még pénzt adni a locsolásért? Ha igen, mennyit? Testvér kisfia.\nA legátmenetibb korosztály. Aki korban még gyereknek tűnik, de bulizik, barátnője van, bulikban iszogat...tehát kamasz fiatalemberként él.\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -152,7 +152,7 @@
             "text": "Why does an unbearable burnt brake dust smell occur in the passenger compartment of MÁV IC coaches with every braking? It's gotten so severe that people actually start coughing during each braking event. How healthy is this? Why doesn't MÁV do something about it?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nAz IC kocsikon tárcsafék van és azokban pedig \"műanyag\" fékbetét. Tehát nem olyan vas tuskós fék van mint a régebbi vasúti járműveken.\nEnnek a fékbetétnek van szaga amikor megmelegszik fékezés közben. Pora nincs. Legalábbis olyan nincs neki mint a tuskós féknek.\nEzt a szagot a kocsikban lévő légjavító, szellőztető beszívja és befújja az utastérbe. Ezzel sajnos nem nagyon lehet mit kezdeni.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMiért keletkezik a MÁV IC kocsik utasterében minden fékezésnél elviselhetetlen égett fékporszag?\nAnnyira durva már, hogy konkrétan köhögni kezdenek az emberek egy-egy fékezésnél. Ez mennyire egészséges dolog? Miért nem tesz valamit a MÁV ez ellen?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -207,7 +207,7 @@
           }
         },
         {
-          "name": "hungarian:1:language.hungarian:gpt 4",
+          "name": "hungarian:1:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -217,7 +217,7 @@
           },
           "prompting_state": {
             "prompt": "Miért keletkezik a MÁV IC kocsik utasterében minden fékezésnél elviselhetetlen égett fékporszag?\nAnnyira durva már, hogy konkrétan köhögni kezdenek az emberek egy-egy fékezésnél. Ez mennyire egészséges dolog? Miért nem tesz valamit a MÁV ez ellen?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -287,7 +287,7 @@
             "text": "How many BKV buses have burned down in the last 20 years?\nWhat's with all these fires and buses catching fire at BKV in the past few years/decades?\nThere was a period about 20 years ago when the Ikarus 412 buses were burning out in succession, starting with them, then there were a few 415/435s, then for a few years it was relatively calm with just 1-2 minor incidents, then (during the era of the blue buses, about) a few Mercedes Citaros also burned completely, about 7-8 years ago, then some imported solo Volvo 7000s, I think there was a Karsan minibus a few years ago, and in the last 2-3 years the articulated Volvo 7700As have been catching fire, this morning's was at least the 4th such incident.\nDoes anyone know why there have been so many buses catching fire at BKV? What was the issue with them? And how many of these more serious/visible fires have there been in the last two decades? I think at least 30.\nIs the ratio also this high in other countries' capitals?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNincs az 30 sem.\nAz a gond, hogy az emlékezetedben a füstölés is tűzesetként marad meg, és utólag már hozzáköltöd, hogy az a busz leégett. Olyan is volt nem egyszer, hogy a busz bár kigyulladt, de időben megfékezték a tüzet és némi felújítás után visszatért a forgalomba a kocsi.\nTényszerűen utána lehet nézni a dolgoknak.\nVolvo 7700A-ból 4 égett le.\n412-esből 4 darab égett le.\nKisvolvóból 4 égett le. (tegyük hozzá, hogy ezek 20 éves buszok)\nGázos Citaróból 1 égett le.\nKarsanból 1 égett le.\nSzerintem, az utóbbi 20 évből 30 nem fog összejönni, ha valóban leégett buszokat keresel, és nem csupán tűzeseteket.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMennyi BKV-busz égett már le az elmúlt 20 évben?\nAz utóbbi pár évben/évtizedben mi ez a rengeteg tűzeset meg kigyulladó busz a BKV-nál?\nVolt egy időszak kb. 20 éve, amikor az Ikarus 412-esek égtek ki sorra azzal kezdődött, aztán volt pár 415/435-ös, aztán pár évig viszonylag nem volt, csak 1-2 kisebb, aztán (már a bilikék korszakban, kb ) pár Mercedes Citaro is égett, de teljesen, kb 7-8 éve, majd néhány behozott szóló Volvo 7000, asszem néhány éve volt egy Karsan kisbusz is, az utóbbi 2-3 évben meg a csuklós Volvo 7700A-k lángolnak, ez a ma hajnali már legalább a 4. ilyen.\nValaki tudja, hogy miért van/volt ez a rengeteg kigyulladó busz a BKV-nál? Melyikkel mi volt a gond? Illetve mennyi ilyen komolyabb/látványosabb égés volt már az elmúlt 2 évtizedben? Szerintem legalább 30\nMás országok fővárosaiban is ilyen magas az arány?\n\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -342,7 +342,7 @@
           }
         },
         {
-          "name": "hungarian:2:language.hungarian:gpt 4",
+          "name": "hungarian:2:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -352,7 +352,7 @@
           },
           "prompting_state": {
             "prompt": "Mennyi BKV-busz égett már le az elmúlt 20 évben?\nAz utóbbi pár évben/évtizedben mi ez a rengeteg tűzeset meg kigyulladó busz a BKV-nál?\nVolt egy időszak kb. 20 éve, amikor az Ikarus 412-esek égtek ki sorra azzal kezdődött, aztán volt pár 415/435-ös, aztán pár évig viszonylag nem volt, csak 1-2 kisebb, aztán (már a bilikék korszakban, kb ) pár Mercedes Citaro is égett, de teljesen, kb 7-8 éve, majd néhány behozott szóló Volvo 7000, asszem néhány éve volt egy Karsan kisbusz is, az utóbbi 2-3 évben meg a csuklós Volvo 7700A-k lángolnak, ez a ma hajnali már legalább a 4. ilyen.\nValaki tudja, hogy miért van/volt ez a rengeteg kigyulladó busz a BKV-nál? Melyikkel mi volt a gond? Illetve mennyi ilyen komolyabb/látványosabb égés volt már az elmúlt 2 évtizedben? Szerintem legalább 30\nMás országok fővárosaiban is ilyen magas az arány?\n\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -422,7 +422,7 @@
             "text": "Our neighbor informed us today that they want to report us because they are bothered by the smell of our livestock. Can they do this, and if so, what will be the consequences? We live in a rural area of a large city where keeping animals is allowed. We have chickens and a pig, all kept under completely normal conditions. This family moved into the house next to us two years ago, and until now, they have never complained about this. But today, they said they will report us to the police because they can no longer tolerate the smell of our animals this summer and they believe we are violating regulations because the place where we keep the manure is on the side of our property closest to their house. Can they really file a complaint? If so, who is in the right? Them or us? We believe there is nothing irregular about the way we keep our animals, but we don't know who we could turn to for help. If they are right, what will our punishment be?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nA trágya veszélyes hulladéknak számít, és nagyon szigorú szabályok vonatkoznak a tárolására.\nIgen, tudom, hogy vidéken nem foglalkoznak ezzel, van trágyadomb és kész.\nDe a törvény akkor is előírja a megfelelő trágyakezelést, és a zárt trágyatároló létesítését.\n\"Az istállótrágya tároló kapacitásának legalább 6 havi trágya tárolására elegendőnek kell lennie, szivárgásmentes, szigetelt alappal és a trágyalé összegyűjtésére is alkalmas\ncsatornákkal, illetve aknákkal ellátva.\nA trágyatárolók befogadó képességére és műszaki követelményeire vonatkozó értékeket az 59/2008. FVM rendelet 5. melléklete tartalmazza.\"\nEz a rendelet szövege pontosan.\nTehát hivatalosan, törvény szerint nem tarthatod a trágyát csak úgy egy halomba lerakva.\nHa tényleg feljelent a szomszéd, téged kötelezhetnek megfelelő trágyatároló kiépítésére, azt nem tudom, hogy meg is büntethetnek-e.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA szomszédunk ma közölte, hogy fel akar jelenteni minket, mert zavarja a haszonállataink szaga. Megteheti- e ezt, és ha igen, milyen következménye lesz?\nEgy vidéki nagyvárosban élünk, de olyan külvárosi részen, ahol az állattartás már megengedett. Tyúkokat és egy malacot tartunk, teljesen normális körülmények között. Ez a család két éve költözött a mellettünk lévő házba, idáig semmiféle ilyen jellegű panaszuk nem volt, erre ma közölték, hogy fel fognak jelenteni minket a rendőrségen, mert idén nyáron már nem hajlandóak elviselni az állataink szagát és szerintük szabálytalanok vagyunk, mert a telkünkön belül a trágya helye az ő házuk felőli oldalon van. Tényleg tehetnek feljelentést? Ha igen, kinek van igaza? Nekik, vagy nekünk? Mi úgy gondoljuk nincs semmi szabálytalan abban ahogy az állatokat tartjuk, de nem tudjuk, kihez fordulhatnánk segítségért. Ha mégis igazuk van, mi lesz a büntetésünk?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -477,7 +477,7 @@
           }
         },
         {
-          "name": "hungarian:3:language.hungarian:gpt 4",
+          "name": "hungarian:3:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -487,7 +487,7 @@
           },
           "prompting_state": {
             "prompt": "A szomszédunk ma közölte, hogy fel akar jelenteni minket, mert zavarja a haszonállataink szaga. Megteheti- e ezt, és ha igen, milyen következménye lesz?\nEgy vidéki nagyvárosban élünk, de olyan külvárosi részen, ahol az állattartás már megengedett. Tyúkokat és egy malacot tartunk, teljesen normális körülmények között. Ez a család két éve költözött a mellettünk lévő házba, idáig semmiféle ilyen jellegű panaszuk nem volt, erre ma közölték, hogy fel fognak jelenteni minket a rendőrségen, mert idén nyáron már nem hajlandóak elviselni az állataink szagát és szerintük szabálytalanok vagyunk, mert a telkünkön belül a trágya helye az ő házuk felőli oldalon van. Tényleg tehetnek feljelentést? Ha igen, kinek van igaza? Nekik, vagy nekünk? Mi úgy gondoljuk nincs semmi szabálytalan abban ahogy az állatokat tartjuk, de nem tudjuk, kihez fordulhatnánk segítségért. Ha mégis igazuk van, mi lesz a büntetésünk?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -557,7 +557,7 @@
             "text": "Can you still set off fireworks from 18:00 to 6:00 on New Year's Eve just like before?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNem, tulajdonképpen korlátlanul hiszen azokat a tűzijátékokat amelyekhez most hozzáférsz I. és II. kategóriába, azaz az egész évben felhasználhatók közé van sorolva.\nTehát akár 4-kor is fellőheted.\nViszont arra figyelj, hogy csak magánterületen szabad használni.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nSzilveszterkor ugyanúgy 18-6 között lehet majd tűzijátékozni?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -612,7 +612,7 @@
           }
         },
         {
-          "name": "hungarian:4:language.hungarian:gpt 4",
+          "name": "hungarian:4:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -622,7 +622,7 @@
           },
           "prompting_state": {
             "prompt": "Szilveszterkor ugyanúgy 18-6 között lehet majd tűzijátékozni?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -692,7 +692,7 @@
             "text": "Why are the Czechs not recognized as a nationality in Hungary?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nA nemzetiségek jogairól szóló 2011. évi CLXXIX. törvény értelmében nemzetiség minden olyan – Magyarország területén legalább egy évszázada honos – népcsoport, amely az állam lakossága körében számszerű kisebbségben van, a lakosság többi részétől saját nyelve, kultúrája és hagyományai különböztetik meg, egyben olyan összetartozás-tudatról tesz bizonyságot, amely mindezek megőrzésére, történelmileg kialakult közösségeik érdekeinek kifejezésére és védelmére irányul. E meghatározás alapján a törvény tizenhárom magyarországi nemzetiséget ismer el, ezek: a bolgár, a görög, a horvát, a lengyel, a német, az örmény, a roma, a román, a ruszin, a szerb, a szlovák, a szlovén és az ukrán nemzetiség.\nRáadásul a számuk elenyésző Magyarországon. Érdekes, hogy a zsidó kisebbséget sem ismerik el nemzetiségként.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA Csehek miért nem elismert nemzetiség Magyarországon?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -747,7 +747,7 @@
           }
         },
         {
-          "name": "hungarian:5:language.hungarian:gpt 4",
+          "name": "hungarian:5:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -757,7 +757,7 @@
           },
           "prompting_state": {
             "prompt": "A Csehek miért nem elismert nemzetiség Magyarországon?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -827,7 +827,7 @@
             "text": "Do I still receive the family tax benefit every month even if I didn't have a job for the whole year? So, I had a job from January to August and requested the tax refund for this period in one lump sum, but the accountant calculated it for 12 months, despite me only having 8 months of employment and not being registered at the employment office for the remaining 4 months. How does this work then?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nA családi adóalapkedvezmény nem munkaviszony függvénye. Ha te jogosult voltál egész évben a kedvezményre, akkor egész évre jár. Ha csak egy hónap munkaviszonyod volt, de abban volt annyi jövedelmed, hogy az egész éves keretet igénybe tudd venni, akkor semmi akadálya.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA családi adókedvezmény akkor is jár minden hónapban,ha nem volt 1 év munkaviszonyom?\nTehát januártól augusztusig volt munkám és erre az időre egy összegben kértem az adóvisszatérítést,de a könyvelő 12 hónappal számolt,annak ellenére,hogy csak 8 hónap munkaviszonyom volt és a munkaügyiben sem voltam regisztrálva a maradék 4 hónapra. Ez most hogy van akkor?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -882,7 +882,7 @@
           }
         },
         {
-          "name": "hungarian:6:language.hungarian:gpt 4",
+          "name": "hungarian:6:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -892,7 +892,7 @@
           },
           "prompting_state": {
             "prompt": "A családi adókedvezmény akkor is jár minden hónapban,ha nem volt 1 év munkaviszonyom?\nTehát januártól augusztusig volt munkám és erre az időre egy összegben kértem az adóvisszatérítést,de a könyvelő 12 hónappal számolt,annak ellenére,hogy csak 8 hónap munkaviszonyom volt és a munkaügyiben sem voltam regisztrálva a maradék 4 hónapra. Ez most hogy van akkor?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -962,7 +962,7 @@
             "text": "How does the income tax exemption for those under 25 work?\nI really don't understand all of this because no one has explained to me how the income tax exemption works. Until now, I believed that the 15% of income tax that I would have to pay doesn't need to be paid, so it remains in my net salary. So, if my net salary is 100,000 forints, then there's an additional 15,000 forints for income tax on top of that. Do I get this 15,000 forints back (making my net salary 115,000 forints) or since the company doesn't have to pay it, does it just mean my gross salary is less (so my net salary remains 100,000 forints and the gross is 15% less)?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\n\"Hogyan működik a 25 év alatti szja mentesség?\"\n25 év felettiek:\nBruttó bér 300.000\n- 45.000 (SZJA, mértéke bruttó bér 15 %-a)\n- 55.500 (járulék, mértéke bruttó bér 18,5 %-a)\n= 199.500 (nettó bér, ami a dolgozónak jár)\n25 év alattiak:\nBruttó bér 300.000\n- 55.500 (járulék, mértéke bruttó bér 18,5 %-a)\n= 244.500 (nettó bér, ami a dolgozónak jár)\nA két példát összehasonlítva láthatod, hogy a 25 év alattitől nem vonták le a 15 %-os SZJA összegét, tehát ennyivel több a nettó bére, mint a 25 év felettinek.\nJogkövető, szabályosan működő cégeknél ez így van.\nHa valakit feketén, vagy szürkén foglalkoztatnak, ott bármilyen irányban bedőlhet a dolog, hiszen a bérezés egy része vagy egésze ilyen esetben szabálytalan. Ez nyilván hozza magával azt, hogy minden más is szabálytalan lesz vele kapcsolatban. Például \"lenyúlják\" a kedvezményed.\nHa hivatalosan vagy foglalkoztatva teljes egészében, akkor ilyen nem fordulhat elő.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nHogyan működik a 25 év alatti szja mentesség?\nNagyon nem értem ezt az egészet mert senki nem magyarázta még el nekem hogy hogyan is működik a szja mentesség. Eddig úgy hittem, hogy azt a 15%-ot amit fizetnem kellene szja adóra azt nem kell befizetnem, így megmarad a nettó fizetésembe. Szóval most ha 100.000 ft a nettóm akkor ugye 15.000 ft a szja adó ezen felül. Ezt a 15.000ft én vissza kapom ( így a nettó fizu az 115.000ft lesz) vagy ezt mivel a cégnek nem kell visszafizetnie így a bruttóm lesz csak kevesebb( így a nettó fizu az marad 100.000ft és a bruttó 15% kevesebb) ?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -1017,7 +1017,7 @@
           }
         },
         {
-          "name": "hungarian:7:language.hungarian:gpt 4",
+          "name": "hungarian:7:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -1027,7 +1027,7 @@
           },
           "prompting_state": {
             "prompt": "Hogyan működik a 25 év alatti szja mentesség?\nNagyon nem értem ezt az egészet mert senki nem magyarázta még el nekem hogy hogyan is működik a szja mentesség. Eddig úgy hittem, hogy azt a 15%-ot amit fizetnem kellene szja adóra azt nem kell befizetnem, így megmarad a nettó fizetésembe. Szóval most ha 100.000 ft a nettóm akkor ugye 15.000 ft a szja adó ezen felül. Ezt a 15.000ft én vissza kapom ( így a nettó fizu az 115.000ft lesz) vagy ezt mivel a cégnek nem kell visszafizetnie így a bruttóm lesz csak kevesebb( így a nettó fizu az marad 100.000ft és a bruttó 15% kevesebb) ?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -1097,7 +1097,7 @@
             "text": "What is an early graduation exam? And can you take one in mathematics?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nElőrehozott érettségi az, amit a rendes érettségi előtt teszel le egy vagy több tantárgyból.\nRendes érettségi= Az, ami a gimnázium legvégén van: matek, magyar, történelem, idegen nyelv, 1 valasztott tantárgy\nElőrehozott érettségit csak idegen nyelvből, informatikából és olyan tantárgyakból lehet tenni, amelynek az oktatása a helyi tanterv alapján lezárult.\nMatekból, magyarból és történelemből NEM lehet előrehozott érettségit tenni!\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMi az az előrehozott érettségi?És mondjuk matekból lehet ilyet tenni?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -1152,7 +1152,7 @@
           }
         },
         {
-          "name": "hungarian:8:language.hungarian:gpt 4",
+          "name": "hungarian:8:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -1162,7 +1162,7 @@
           },
           "prompting_state": {
             "prompt": "Mi az az előrehozott érettségi?És mondjuk matekból lehet ilyet tenni?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -1232,7 +1232,7 @@
             "text": "If I apply to a higher education institution, does the \"disadvantaged status\" extra points apply to family allowance?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\n[link]\nHátrányos helyzet miatt 20 többletpont jár minden alapképzési szakon, egységes, osztatlan képzésen, illetve felsőfokú szakképzésen.\nHátrányos helyzetű az a jelentkező, aki felvétel esetén a beiratkozás időpontjában huszonötödik életévét nem töltötte be ÉS\n- akit középfokú tanulmányai során családi körülményei, szociális helyzete miatt a jegyző védelembe vett, és/vagy\n- aki után középfokú tanulmányai során rendszeres gyermekvédelmi támogatást folyósítottak, és/vagy\n- középfokú tanulmányai során rendszeres gyermekvédelmi kedvezményre jogosult,\n- középfokú tanulmányai során állami gondozott volt.\n[link] ?itemNo=3\nAz alábbi - leggyakrabban előforduló - dokumentumok nem tartoznak sem a hátrányos helyzet, sem pedig a halmozottan hátrányos helyzet igazolásához szükséges dokumentumok közé, vagyis ha ilyen dokumentumot csatol a jelentkezéséhez a felvételiző, akkor a többletpontra vonatkozó kérelmét nem áll módunkban elfogadni: [...] családi pótlék igazolása.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nHa jelentkezek egy felsőoktatási intézménybe, akkor a családi pótlékra vonatkozik a \"hátrányos helyzetű\" többletpont?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -1287,7 +1287,7 @@
           }
         },
         {
-          "name": "hungarian:9:language.hungarian:gpt 4",
+          "name": "hungarian:9:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -1297,7 +1297,7 @@
           },
           "prompting_state": {
             "prompt": "Ha jelentkezek egy felsőoktatási intézménybe, akkor a családi pótlékra vonatkozik a \"hátrányos helyzetű\" többletpont?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -1367,7 +1367,7 @@
             "text": "What is the difference between deviled eggs and casino eggs?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nA kaszinó is töltött csak besamell,mustár, só.bors,tört tojássárgája a töltelék.\nA töltött tojast bármivel tölthető pl.kaviáros,májas,gombás stb....\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMi a különbség a töltött tojás és a kaszinótojás között?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -1422,7 +1422,7 @@
           }
         },
         {
-          "name": "hungarian:10:language.hungarian:gpt 4",
+          "name": "hungarian:10:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -1432,7 +1432,7 @@
           },
           "prompting_state": {
             "prompt": "Mi a különbség a töltött tojás és a kaszinótojás között?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -1502,7 +1502,7 @@
             "text": "How can I request a driver's license exchange due to the 102 code? I just obtained my Group 2 medical fitness and I need the 102 code registered on my license for work, currently, it has 101. I couldn't find this information on the e-Government portal, and at the government service center, to put it mildly, I was sent on a wild goose chase because I didn't know this. They did reveal that what I want is possible, but they didn't explain how.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nMinek akarsz 102-es kódot a jogsidba? Az a hivatásosoknak van vagyis akinek minimum C kategóriás a jogsija, ráadásul ez esetben csak 5 évre kapod meg az orvosit. ( én csak szívásnak érzem, mert utoljára a seregben vezettem teherautót 30 éve)\nHa mindenképpen szeretnél ilyen kódot, akkor elmész a dokidhoz, és csináltatsz vele 2-es orvosi alkalmasságit, majd okmányirodában új jogsit, ezzel a \"korlátozással\"\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nHogyan lehet kérni vezetői engedély cseréjét a 102-es kód miatt?\nMost lett meg a 2. Csoportu orvosi alkalmasságim és munka miatt kellene jogosítványba bejegyzett 102-es kód, most 101-es van. Ügyfélkapun nem találtam ilyen információt, a kormányablakban pedig szépen szólva el lettem küldve melegebb éghajlatra mert miért nem tudom ezt. Annyit elárultak, hogy lehet azt amit akarok, de azt már nem mondták el, hogy hogyan.\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -1557,7 +1557,7 @@
           }
         },
         {
-          "name": "hungarian:11:language.hungarian:gpt 4",
+          "name": "hungarian:11:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -1567,7 +1567,7 @@
           },
           "prompting_state": {
             "prompt": "Hogyan lehet kérni vezetői engedély cseréjét a 102-es kód miatt?\nMost lett meg a 2. Csoportu orvosi alkalmasságim és munka miatt kellene jogosítványba bejegyzett 102-es kód, most 101-es van. Ügyfélkapun nem találtam ilyen információt, a kormányablakban pedig szépen szólva el lettem küldve melegebb éghajlatra mert miért nem tudom ezt. Annyit elárultak, hogy lehet azt amit akarok, de azt már nem mondták el, hogy hogyan.\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -1637,7 +1637,7 @@
             "text": "Can you still find loose or frozen sprats anywhere? I mean, are they available in places like Lidl or Tesco?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nKonkrétan sprotni kell, vagy általánosságban apróhal? Utóbbi mindig van az Auchanban.\n[link]\nDe mondjuk nagykerből vagy a gyártótól olcsóbb:\n[link]\n[link]\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nLehet még valahol kimért vagy fagyasztott sprotnit kapni?\nugy értem hogy esetleg lidl vagy tescoban van?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -1692,7 +1692,7 @@
           }
         },
         {
-          "name": "hungarian:12:language.hungarian:gpt 4",
+          "name": "hungarian:12:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -1702,7 +1702,7 @@
           },
           "prompting_state": {
             "prompt": "Lehet még valahol kimért vagy fagyasztott sprotnit kapni?\nugy értem hogy esetleg lidl vagy tescoban van?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -1772,7 +1772,7 @@
             "text": "Why are expatriated Hungarians moving back home?\n\nIn discussions with friends and family, we've talked about how many people plan to move abroad, how many acquaintances have actually moved, and instead of just speculating, we've also looked into statistics out of curiosity. Overall, in the past few years, more Hungarians who had moved abroad are returning home than those moving abroad.\n\nWe found articles about the reasons people give for moving abroad, but we couldn't find any statistics, articles, data, or surveys on why those returning decided to come back.\n\nSo, my question is partly directed at those here who have moved back to Hungary from abroad, or know someone who has: why did you (or they) move abroad and why did you (or they) decide to come back? How long were you (or they) abroad?\n\nThe other part of my question is more of a request: could you link some survey results related to this?\n\nI've seen a couple of similar questions here on this platform, but haven't really found any meaningful answers. Therefore, please, as much as possible, provide answers free from politics and speculation! Either share your own or an acquaintance's experience, or answers supported by official data (So please, spare the answer section from \"they realized the fences aren't made of sausages\" type of responses!)\n\nWe've looked through these statistics, among others (without claiming completeness):\n[link]\n[link]\n[link]\n[link]",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNem több ilyen ismerősöm van. Az okok: kinti rossz közbiztonság (migránsok), javuló hazai kereseti lehetőségek, magánéleti problémák (elvált a külföldi férjétől), kinti rossz egészségügyi ellátás (bizony!)\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMiért költöznek haza a kivándorolt magyarok?\nBeszélgettünk baráti és családi körben is arról, hányan terveznek kiköltözni, hány olyan ismerős van, aki végül kiköltözött, és levegőbe beszélés helyett kíváncsiságból olvastunk is statisztikákat. Összességében az elmúlt pár évben több kivándorolt magyar költözik haza, mint ahány magyar külföldre költözik.\nTaláltunk cikkeket arról is, hogy aki kiköltözik, mivel indokolja, mik az okai erre, viszont arról nem találtunk statisztikát, cikket, adatot, felmérést, hogy a visszatérők miért költöztek vissza.\nÍgy kérdésem egyrészt azokhoz szól, ha vannak itt olyanok, akik külföldről költöztek vissza Magyarországra, vagy ismernek ilyen embereket: miért költöztek ki és miért jöttek haza? Mennyi idő után?\nA kérdésem másik fele pedig inkább egy kérés: tudnátok-e néhány erre vonatkozó felmérés eredményeit linkelni?\nLáttam 1-2 ilyesmi kérdést is itt gyakorin, de értelmes válaszokat nem igazán találtam benne. Ezért kérlek, amennyire lehet, politikamentes, és spekulációktól mentes válaszokat írjatok! Vagy saját/ismerős tapasztalatát, vagy hivatalos adatokkal alátámasztott válaszokat (Tehát a \"rájöttek hogy nincs kolbászból a kerítés\" típusú válaszokkal, légyszi, kíméljétek a válaszszekciót!)\nTöbbek közt ezeket a statisztikákat futottunk át (a teljesség igénye nélkül):\n[link]\n[link]\n[link]\n[link]\n\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -1827,7 +1827,7 @@
           }
         },
         {
-          "name": "hungarian:13:language.hungarian:gpt 4",
+          "name": "hungarian:13:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -1837,7 +1837,7 @@
           },
           "prompting_state": {
             "prompt": "Miért költöznek haza a kivándorolt magyarok?\nBeszélgettünk baráti és családi körben is arról, hányan terveznek kiköltözni, hány olyan ismerős van, aki végül kiköltözött, és levegőbe beszélés helyett kíváncsiságból olvastunk is statisztikákat. Összességében az elmúlt pár évben több kivándorolt magyar költözik haza, mint ahány magyar külföldre költözik.\nTaláltunk cikkeket arról is, hogy aki kiköltözik, mivel indokolja, mik az okai erre, viszont arról nem találtunk statisztikát, cikket, adatot, felmérést, hogy a visszatérők miért költöztek vissza.\nÍgy kérdésem egyrészt azokhoz szól, ha vannak itt olyanok, akik külföldről költöztek vissza Magyarországra, vagy ismernek ilyen embereket: miért költöztek ki és miért jöttek haza? Mennyi idő után?\nA kérdésem másik fele pedig inkább egy kérés: tudnátok-e néhány erre vonatkozó felmérés eredményeit linkelni?\nLáttam 1-2 ilyesmi kérdést is itt gyakorin, de értelmes válaszokat nem igazán találtam benne. Ezért kérlek, amennyire lehet, politikamentes, és spekulációktól mentes válaszokat írjatok! Vagy saját/ismerős tapasztalatát, vagy hivatalos adatokkal alátámasztott válaszokat (Tehát a \"rájöttek hogy nincs kolbászból a kerítés\" típusú válaszokkal, légyszi, kíméljétek a válaszszekciót!)\nTöbbek közt ezeket a statisztikákat futottunk át (a teljesség igénye nélkül):\n[link]\n[link]\n[link]\n[link]\n\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -1907,7 +1907,7 @@
             "text": "Is my ID still valid for traveling home after Brexit?\nAs far as I know, Brexit happened after October 31st, and supposedly, my ID is no longer valid for flying home.\nUnfortunately, my passport has expired, or would my passport not be suitable even if it hadn't expired?\nI'm not sure where to find information on this topic; you could even link an article related to it.\nThanks in advance for the answers.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\n\"Ha jól tudom, Október 31.-e után megtörtént a Brexit\"\nNem történt meg. Az új határidő január 31. Hogy mi és hogyan lesz jó, az meg majd kiderül. Pont az van, hogy nincs megegyezés... A legrosszabb ami történhet veled az az, hogy útlevél (és vízum) hiányában kitoloncolnak a kilépés után. De úgyis eljönnél. Viszont nyilván nem lesz ilyen gond.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMost akkor a Brexit után érvényes vagy sem a személyim ha haza akarok utazni?\nHa jól tudom, Október 31.-e után megtörtént a Brexit, és elvileg már nem jó a személyi, ha repülővel haza akarok utazni.\nSajnos az útlevelem lejárt, vagy az útlevelem se lenne alkalmas ha nem járt volna le?\nNem tudom, hol tájékozódjak a témában, akár idevonatkozó cikket is linkelhettek.\nKöszi előre is a válaszokat.\n\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -1962,7 +1962,7 @@
           }
         },
         {
-          "name": "hungarian:14:language.hungarian:gpt 4",
+          "name": "hungarian:14:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -1972,7 +1972,7 @@
           },
           "prompting_state": {
             "prompt": "Most akkor a Brexit után érvényes vagy sem a személyim ha haza akarok utazni?\nHa jól tudom, Október 31.-e után megtörtént a Brexit, és elvileg már nem jó a személyi, ha repülővel haza akarok utazni.\nSajnos az útlevelem lejárt, vagy az útlevelem se lenne alkalmas ha nem járt volna le?\nNem tudom, hol tájékozódjak a témában, akár idevonatkozó cikket is linkelhettek.\nKöszi előre is a válaszokat.\n\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -2042,7 +2042,7 @@
             "text": "Based on the number of people who filled out the national consultation questionnaire, is it valid to conclude that the number of committed Fidesz-KDNP voters is currently at most around 1.5 million?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNincs szoros összefüggés. A közvéleménykutatások szerint ennél többen támogatják őket.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA nemzeti konzultációs kérdőívet kitöltők száma alapján helytálló az a következtetés, hogy a Fidesz-KDNP biztos szavazóinak száma jelenleg legfeljebb 1,5 millió körül lehet?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -2097,7 +2097,7 @@
           }
         },
         {
-          "name": "hungarian:15:language.hungarian:gpt 4",
+          "name": "hungarian:15:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -2107,7 +2107,7 @@
           },
           "prompting_state": {
             "prompt": "A nemzeti konzultációs kérdőívet kitöltők száma alapján helytálló az a következtetés, hogy a Fidesz-KDNP biztos szavazóinak száma jelenleg legfeljebb 1,5 millió körül lehet?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -2177,7 +2177,7 @@
             "text": "Has the flat tax system worked out for Hungary?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nLölőéknek biztosan.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMagyarországnak bevált az egy kulcsos adó?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -2232,7 +2232,7 @@
           }
         },
         {
-          "name": "hungarian:16:language.hungarian:gpt 4",
+          "name": "hungarian:16:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -2242,7 +2242,7 @@
           },
           "prompting_state": {
             "prompt": "Magyarországnak bevált az egy kulcsos adó?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -2312,7 +2312,7 @@
             "text": "Why is Hungarian Pick salami cheaper in Austria than it is domestically, even though it also has to be shipped there?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\n\"359 forinttal, azaz kb. 3,6 százalékkal olcsóbb ebben a konkrét határmenti boltban, mint az itthoni nagy láncoknál.\"\n\"A Pick Szeged Zrt. korábban az eltérő árazási gyakorlattal és az alacsonyabb áfával magyarázta, hogy egyes nyugati országokban olcsóbbak a termékeik, mint Magyarországon.\"\nÁfa:\n\"Ez például Ausztriában 10%, míg nálunk 27%.\"\n[link]\nSzóval olyan hű de sokkal nem olcsóbb, és még a gyártó magyarázata is logikus.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMiért olcsobb Ausztriába a magyar pick szalámi mint itthon? Oda meg ki is kell szállitani.\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -2367,7 +2367,7 @@
           }
         },
         {
-          "name": "hungarian:17:language.hungarian:gpt 4",
+          "name": "hungarian:17:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -2377,7 +2377,7 @@
           },
           "prompting_state": {
             "prompt": "Miért olcsobb Ausztriába a magyar pick szalámi mint itthon? Oda meg ki is kell szállitani.\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -2447,7 +2447,7 @@
             "text": "Is NATO membership not that important to the Swedes? Since they haven't taken steps to solve the problems and rejected Viktor Orbán's invitation. If they don't even want to negotiate, I suppose it doesn't interest them. If it's not important to them, why should it be to us?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nOrbán megtette amit tehetett, támogatta a tagságukat és meg is hívta a svédeket tárgyalni róla ismét. A parlamenti képviselők szerintem most még kevésbé gondolják úgy hogy olyasvalakit kellene bevenni a szövetségbe aki így viselkedik velünk.\nA svédek nem is akarnak tagok lenni. Ez is olyan mint a többi ügy az eu-ban, ráhagyják a magyarokra hogy nemet mondjanak a baromságokra és közben örülnek, mert ők sem akarták, hogy megtörténjen.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA svédeknek nem is olyan fontos a Nato tagság? Hiszen nem tettek lépést a problémák megoldására, elutasították Orbán Viktor meghívóját.\nHa még tárgyalni sem akarnak, akkor gondolom nem érdekli őket.\nHa nekik nem fontos, akkor nekünk miért legyen az?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -2502,7 +2502,7 @@
           }
         },
         {
-          "name": "hungarian:18:language.hungarian:gpt 4",
+          "name": "hungarian:18:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -2512,7 +2512,7 @@
           },
           "prompting_state": {
             "prompt": "A svédeknek nem is olyan fontos a Nato tagság? Hiszen nem tettek lépést a problémák megoldására, elutasították Orbán Viktor meghívóját.\nHa még tárgyalni sem akarnak, akkor gondolom nem érdekli őket.\nHa nekik nem fontos, akkor nekünk miért legyen az?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -2582,7 +2582,7 @@
             "text": "Why doesn't the Hungarian police create cybercrime units nationwide?\n\nFrom what I've observed over the past few years, the number of internet crimes has significantly increased. This includes everything from stealing bank details to scams on marketplaces and other sites dealing with used goods, and that's not even the full extent of online criminal activities. I myself have been a victim of such an incident, where my card details were left in a user account that was hacked, and 120,000 Forints were spent from my account. Of course, I immediately turned to the police, but unfortunately, I encountered a detective who seemed to be from the stone age, who was on duty in the middle of the night, and it was quite difficult to explain the situation to him. Luckily, the bank managed to recover my money, but if it had been up to the police, I might as well have just had a glass of water. This made me wonder why the police don't at least create one such group per county, where experts would handle these cases? It seems to me that these types of crimes are becoming more common than, say, street muggings or robberies, and I keep finding that the police are often powerless in most cases.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nLéteznek kiberbűnözés elleni osztályok vármegyei, de országos szinten is. De ezen bűncselekmények felderítése viszont sokkal komplikáltabb. Erről lehetne szakmai vitát indítani, de ez nem éppen a gyakorikérdések platformon van a helye. Szerintem sokkal egyszerűbb a megfelelő bűnmegelőzés mint utána felmosni. Hiszen a legtöbb ilyenből az emberi hiszékenységből kezdődik /ahogy a te eseted is/, amely kellő gyanakvással és odafigyeléssel megúszható.\nVisszatérve a bűnözőkre. Röviden tömören szervezett bűnszervezetekről van szó, amelyek nem is központosítva működnek hanem mint egy franchise. Elfogod az egyik szálat akkor is tovább megy másik tíz, hiszen függetlenül egymástól, de azonos módszerekkel működnek. Lásd a \"MÁTRIX\" projekt keretében mennyi ember került rendőr kézre, de mai napig mennek tovább. Sokkal komolyabb technológiákkal és \"megoldásokkal\" dolgoznak a bűnözők. A rendőrség nincsen technológiai szinten lemaradva, de annál jobban a megfelelő szakmai emberekkel.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMiért nem hoz létre a magyar rendőrség kiberbűnöző elleni csoportokat ország-szerte?\nAhogy tapasztalom az elmúlt néhány évben jócskán elszaporodott az internetes bűnelkövetések száma. Ide sorolok mindent, amit interneten követnek el kezdve a banki adatok ellopásával egészen a marketplaces és egyéb használt holmival kereskedő oldalakon elkövetett csalásokig. És ezzel közel sem merítettem ki a netes bűncselekmények repertoáját. Jómagam is voltam már áldozata ilyesminek, a kártyám adatai bent maradtak egy felhasználói fiókban, amit feltörtek és 120.000 Forintot levásároltak a számlámról. Természetesen rögtön a rendőrséghez fordultam, de pechemre egy kőkorszaki nyomozót fogtam ki, aki az éjszaka közepén ügyeletes volt, elég nehéz volt neki elmagyarázni a dolgokat. Szerencsére a bank vissza tudta szerezni a pénzemet, de ha a rendőrségen múlt volna ihattam volna rá egy pohár vizet. Felmerült tehát bennem, hogy a rendőrség miért nem hoz létre legalább megyénként egy-egy ilyen csoportot, ahol hozzáértők foglalkoznának ilyen esetekkel? Szerintem lassan gyakoribbá válnak az ilyen bűncselekmények, mint pl. utcai kifosztás, rablás és sorra azt tapasztalom, hogy a rendőrség az esetek többségében tehetetlen.\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -2637,7 +2637,7 @@
           }
         },
         {
-          "name": "hungarian:19:language.hungarian:gpt 4",
+          "name": "hungarian:19:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -2647,7 +2647,7 @@
           },
           "prompting_state": {
             "prompt": "Miért nem hoz létre a magyar rendőrség kiberbűnöző elleni csoportokat ország-szerte?\nAhogy tapasztalom az elmúlt néhány évben jócskán elszaporodott az internetes bűnelkövetések száma. Ide sorolok mindent, amit interneten követnek el kezdve a banki adatok ellopásával egészen a marketplaces és egyéb használt holmival kereskedő oldalakon elkövetett csalásokig. És ezzel közel sem merítettem ki a netes bűncselekmények repertoáját. Jómagam is voltam már áldozata ilyesminek, a kártyám adatai bent maradtak egy felhasználói fiókban, amit feltörtek és 120.000 Forintot levásároltak a számlámról. Természetesen rögtön a rendőrséghez fordultam, de pechemre egy kőkorszaki nyomozót fogtam ki, aki az éjszaka közepén ügyeletes volt, elég nehéz volt neki elmagyarázni a dolgokat. Szerencsére a bank vissza tudta szerezni a pénzemet, de ha a rendőrségen múlt volna ihattam volna rá egy pohár vizet. Felmerült tehát bennem, hogy a rendőrség miért nem hoz létre legalább megyénként egy-egy ilyen csoportot, ahol hozzáértők foglalkoznának ilyen esetekkel? Szerintem lassan gyakoribbá válnak az ilyen bűncselekmények, mint pl. utcai kifosztás, rablás és sorra azt tapasztalom, hogy a rendőrség az esetek többségében tehetetlen.\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -2717,7 +2717,7 @@
             "text": "I'm currently unemployed, so I pay for my own health insurance, but the National Tax and Customs Administration (NAV) doesn't usually send a confirmation that they've received my payment. Is there a way to check in their system to make sure my health insurance contributions are definitely settled?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nA NAV ügyfélszolgálatán bármikor lekérheted, illetve év elején szoktak egy előző évi összesítést küldeni. Ha nagyobb késésben vagy, akkor automatikusan küldik a címedre az értesítőt és pár csekket.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nJelenleg munkanélküli vagyok, így fizetem magam után az egészségügyi biztosítását árát, de erről nem szokott visszaigazolást küldeni a NAV, hogy megkapták az utalást?\nValamilyen módon nem ellenőrizhető le a rendszerükben, hogy biztosan rendezve van-e a tb-m?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -2772,7 +2772,7 @@
           }
         },
         {
-          "name": "hungarian:20:language.hungarian:gpt 4",
+          "name": "hungarian:20:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -2782,7 +2782,7 @@
           },
           "prompting_state": {
             "prompt": "Jelenleg munkanélküli vagyok, így fizetem magam után az egészségügyi biztosítását árát, de erről nem szokott visszaigazolást küldeni a NAV, hogy megkapták az utalást?\nValamilyen módon nem ellenőrizhető le a rendszerükben, hogy biztosan rendezve van-e a tb-m?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -2852,7 +2852,7 @@
             "text": "Do cars imported from Germany and Austria really rust more easily? I've read this in many places, and the reason given is that they salt the roads much more heavily there during winter. Is this really true? I'd be interested to know if anyone has experience with this. If it's indeed the case, then why do people still buy cars from there? I assume others have heard about this too.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nItt élek, igen, sóznak, de soha senkinek nincs gondja a rozsdával. Úgyhogy nem tudom, hogy Magyarországon miért rohad minden jobban, de itt senkit nem érint.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA Németországból,Ausztriából behozott autók tényleg sokkal könnyebben rohadnak?\nEzt már nagyon sok helyen olvastam, oknak pedig azt írják, hogy ott sokkal erősebben sózzák az utakat télen. Ez valóban igaz lenne? Érdekelne ha van valakinek tapsztalata ezzel. Ha ez tényleg így van akkor minek vesznek az emberek onnan, gondolom más is hallott már erről.\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -2907,7 +2907,7 @@
           }
         },
         {
-          "name": "hungarian:21:language.hungarian:gpt 4",
+          "name": "hungarian:21:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -2917,7 +2917,7 @@
           },
           "prompting_state": {
             "prompt": "A Németországból,Ausztriából behozott autók tényleg sokkal könnyebben rohadnak?\nEzt már nagyon sok helyen olvastam, oknak pedig azt írják, hogy ott sokkal erősebben sózzák az utakat télen. Ez valóban igaz lenne? Érdekelne ha van valakinek tapsztalata ezzel. Ha ez tényleg így van akkor minek vesznek az emberek onnan, gondolom más is hallott már erről.\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -2987,7 +2987,7 @@
             "text": "How much is it customary to give to the customs officer at the Ukrainian border so they don't hassle you or tear apart your car? Is it necessary both when entering and exiting, and do they accept Euros? I'm not bringing anything, but I've heard that sometimes they make you wait for hours and cause trouble if you don't pay.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nOk nélkül nem baszogatnak.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nUkrán határon mennyit szokás a vámosnak adni, hogy ne szívózzon, vagy szedje szét a kocsit?\nKifele és befele is kell, Eurot is elfogadnak?\nNem hozok semmit, csak hallottam, hogy pénz nélkül valamikor órákat váratnak és akadékoskodnak.\n\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -3042,7 +3042,7 @@
           }
         },
         {
-          "name": "hungarian:22:language.hungarian:gpt 4",
+          "name": "hungarian:22:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -3052,7 +3052,7 @@
           },
           "prompting_state": {
             "prompt": "Ukrán határon mennyit szokás a vámosnak adni, hogy ne szívózzon, vagy szedje szét a kocsit?\nKifele és befele is kell, Eurot is elfogadnak?\nNem hozok semmit, csak hallottam, hogy pénz nélkül valamikor órákat váratnak és akadékoskodnak.\n\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -3122,7 +3122,7 @@
             "text": "Can you buy tickets for Debrecen DKV trolleys/buses using the Telekom Mobile Payment app?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nigen lehet\nvonatjegyet és 1 órás jegyet is tudsz venni\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA Telekom Mobilvásárlás alkalmazással lehet menetjegyet venni debreceni DKV trolikra/buszokra?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -3177,7 +3177,7 @@
           }
         },
         {
-          "name": "hungarian:23:language.hungarian:gpt 4",
+          "name": "hungarian:23:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -3187,7 +3187,7 @@
           },
           "prompting_state": {
             "prompt": "A Telekom Mobilvásárlás alkalmazással lehet menetjegyet venni debreceni DKV trolikra/buszokra?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -3257,7 +3257,7 @@
             "text": "How far does the scope of traffic signs regulating entry restrictions (e.g., width, height, mopeds, hand carts, spaceships, etc.) extend? Logically, it would seem that it extends until the next intersection, as that is the only way for someone arriving at the intersection to be informed of the restriction. But is this explicitly written down somewhere? The Highway Code's Article 14, Paragraph (6) regulates something similar, but it only applies to the signs mentioned in Article 14, Paragraph (1) points c-g (e.g., no U-turns, no overtaking), and not to the others.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nRátaláltál egy olyan dologra, ami nincs explicite leírva a KRESZ-ben, kicsi logika is kell hozzá. :) Ugye ha következő kereszteződéseben olyan útról lehet arra az útra rákanyarodni, ahol nem volt tábla, logikus, hogy rád sem érvényes. Másrészt ezeket a táblákat nem véletlenül teszik ki. Magasságot korlátozni felüljáró/híd miatt szoktak. Nyilván a híd előtt, ha elhagytad a hidat, értelmét veszíti.\nSzerinted a Vám/Zoll táblának mi a hatálya, ha már átkeltél akár kereszteződés nélkül a határon? :)\nAutista, túlképzett mérnöknek biztos nem tetszik az, hogy a törvény nem tér ki minden egyes kiskapura, de az emberek 99%-ának tökéletesen értelmezhető a KRESZ.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA behajtási tilalmat szabályozó táblák (pl. szélesség, magasság, segédmotorkerékpár, kézikocsi, űrhajó stb.) hatálya meddig tart?\nLogikusan adná magát, hogy a következő kereszteződésig, hiszen a keresztúton érkező csak ilyen módon értesül a tilalomról.\nDe ez le van így valahol írva kifejezetten?\nA KRESZ 14. § (6) pontja hasonlót szabályoz, de az csak a 14. § (1) bekezdés c-g) pontjaiban jelölt táblákra vonatkozik (pl. megfordulni tilos, előzni tilos), a továbbiakra nem.\n\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -3312,7 +3312,7 @@
           }
         },
         {
-          "name": "hungarian:24:language.hungarian:gpt 4",
+          "name": "hungarian:24:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -3322,7 +3322,7 @@
           },
           "prompting_state": {
             "prompt": "A behajtási tilalmat szabályozó táblák (pl. szélesség, magasság, segédmotorkerékpár, kézikocsi, űrhajó stb.) hatálya meddig tart?\nLogikusan adná magát, hogy a következő kereszteződésig, hiszen a keresztúton érkező csak ilyen módon értesül a tilalomról.\nDe ez le van így valahol írva kifejezetten?\nA KRESZ 14. § (6) pontja hasonlót szabályoz, de az csak a 14. § (1) bekezdés c-g) pontjaiban jelölt táblákra vonatkozik (pl. megfordulni tilos, előzni tilos), a továbbiakra nem.\n\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -3392,7 +3392,7 @@
             "text": "How do I get from the Budapest-Déli railway station to Matthias Church by public transport?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nEgy megálló az M2-es metróval, vagy a 17-es, 56-os, 56A, 59-es, vagy 61-es villamosok közül bármelyikkel a Széll Kálmán térig, és onnan 16-ossal, vagy 16A busszal fel a Szentháromság térig.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nTömegközlekedéssel hogyan jutok el a Bp.Déli pályaudvarról a Mátyás templomig?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -3447,7 +3447,7 @@
           }
         },
         {
-          "name": "hungarian:25:language.hungarian:gpt 4",
+          "name": "hungarian:25:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -3457,7 +3457,7 @@
           },
           "prompting_state": {
             "prompt": "Tömegközlekedéssel hogyan jutok el a Bp.Déli pályaudvarról a Mátyás templomig?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -3527,7 +3527,7 @@
             "text": "Is a driving license obtained in France valid in Hungary?\nIf I get my driver's license in France, can I use it in Hungary as well? Or do I need to redo the whole process at home?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nEU-s. Hasznalhatod fel evig, aztan at kell valtani, ha akarod. En angol jogsival eltem itthon 3 evet, ha igazoltattak, azt mondtam, hogy Angliaban vagyok sofor, de most szabadsagon vagyok. Ellenorizze le ha tudja.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nFranciaországban megszerzett jogsi érvényes Magyarországon?\nHa Franciaországban leteszem a jogosítványt, akkor Magyarországon is használhatom? Vagy újra kell csinálni az egészet itthon?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -3582,7 +3582,7 @@
           }
         },
         {
-          "name": "hungarian:26:language.hungarian:gpt 4",
+          "name": "hungarian:26:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -3592,7 +3592,7 @@
           },
           "prompting_state": {
             "prompt": "Franciaországban megszerzett jogsi érvényes Magyarországon?\nHa Franciaországban leteszem a jogosítványt, akkor Magyarországon is használhatom? Vagy újra kell csinálni az egészet itthon?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -3662,7 +3662,7 @@
             "text": "Can only the owner or operator request a route permit? I sold my car, but it's registered under my parents' name, it doesn't have a valid inspection, and I want to take it far from here. Can I also request a route permit, or is it just them who can do it?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nOnnantól hogy eladtad,már nem a te gondod elvinni. Oldja meg a vevőd.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nÚtvonal engedélyt csak tulajdonos vagy üzembentartó kérhet?\nEladtam az autómat, viszont anyukámék nevén van az autó, nincs rajta műszaki és messzire szeretnék vinni innen, én is kérhetek rá útvonalengedélyt vagy csak ők?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -3717,7 +3717,7 @@
           }
         },
         {
-          "name": "hungarian:27:language.hungarian:gpt 4",
+          "name": "hungarian:27:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -3727,7 +3727,7 @@
           },
           "prompting_state": {
             "prompt": "Útvonal engedélyt csak tulajdonos vagy üzembentartó kérhet?\nEladtam az autómat, viszont anyukámék nevén van az autó, nincs rajta műszaki és messzire szeretnék vinni innen, én is kérhetek rá útvonalengedélyt vagy csak ők?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -3797,7 +3797,7 @@
             "text": "What should I expect at the information session for the M3 metro train driver trainee position?\nHi there. I'm going to an audition and information session tomorrow. I'm more interested in what they will be curious about during the audition part?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nAz M3 metró motorkocsivezető tanuló állás tájékoztatón a BKV Zrt. bemutatja a munkakör feladatait, elvárásait, feltételeit és juttatásait. A tájékoztatón részt vehetsz egy írásbeli teszten, amely a vasútszakmai ismereteidet, a műszaki affinitásodat és a logikai gondolkodásodat méri. Ha sikeresen teljesíted a tesztet, akkor meghívást kapsz egy személyes interjúra, ahol a motivációdat, a személyiségjegyeidet és a stressztűrő képességedet vizsgálják. Ha az interjún is jól szerepelsz, akkor alkalmassági vizsgálatra küldenek, amely magában foglalja az egészségügyi, a pszichológiai és a munkaköri alkalmasságot. Ha ezeket is teljesíted, akkor felvételt nyersz a metró motorkocsivezetői tanfolyamra, amely 7 hónapig tart, és elméleti és gyakorlati képzést foglal magába. A tanfolyam végén egy hatósági vizsgát kell letenned, amely után megkaphatod a metró motorkocsivezetői engedélyedet.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMire számítsak az M3 metró motorkocsivezető tanuló állás tájékoztatón?\nSziasztok. Holnapra megyek meghallgatásra és tájékoztatóra. Inkább a meghallgatás részre érdekelne, hogy ott mikre lesznek kíváncsiak?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -3852,7 +3852,7 @@
           }
         },
         {
-          "name": "hungarian:28:language.hungarian:gpt 4",
+          "name": "hungarian:28:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -3862,7 +3862,7 @@
           },
           "prompting_state": {
             "prompt": "Mire számítsak az M3 metró motorkocsivezető tanuló állás tájékoztatón?\nSziasztok. Holnapra megyek meghallgatásra és tájékoztatóra. Inkább a meghallgatás részre érdekelne, hogy ott mikre lesznek kíváncsiak?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -3932,7 +3932,7 @@
             "text": "Is it true that I can only have my car inspected at the testing center closest to my residence? Specifically, if I live in Püspökszilágy, can my mechanic perform the inspection in Rétság?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nHa nem járt még le a műszakid, akkor mehetsz ahova akarsz.\nHa lejárt, akkor el tudom képzelni, hogy nem adnak útvonalengedélyt arra, hogy az ország másik végébe menj.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nTényleg csak a lakóhelyemhez legközelebbi vizsga ponton lehet vizsgáztatni a kocsimat?\nKonkrétan ha püspökszilágyon lakom a szerelőm műszakiztathatja Rétságon?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -3987,7 +3987,7 @@
           }
         },
         {
-          "name": "hungarian:29:language.hungarian:gpt 4",
+          "name": "hungarian:29:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -3997,7 +3997,7 @@
           },
           "prompting_state": {
             "prompt": "Tényleg csak a lakóhelyemhez legközelebbi vizsga ponton lehet vizsgáztatni a kocsimat?\nKonkrétan ha püspökszilágyon lakom a szerelőm műszakiztathatja Rétságon?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -4067,7 +4067,7 @@
             "text": "Can I go to a psychiatrist further away from my place of residence, or am I only obligated to see the nearest one?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNem kell beutaló!\nElviekben szabad orvosválaszás van, gyakorlatilag elküldenek a fenébe, ha nem a lakhelyed szerinti orvosodhoz mész, nekem egy bunkó orvos jutott, magánba mentem inkább.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nJárhatok a lakóhelyemtől messzebb lévő pszichiátriára?l vagy csak a legközelebbi köteles fogadni?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -4122,7 +4122,7 @@
           }
         },
         {
-          "name": "hungarian:30:language.hungarian:gpt 4",
+          "name": "hungarian:30:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -4132,7 +4132,7 @@
           },
           "prompting_state": {
             "prompt": "Járhatok a lakóhelyemtől messzebb lévő pszichiátriára?l vagy csak a legközelebbi köteles fogadni?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -4202,7 +4202,7 @@
             "text": "Why are there so many criticisms about Xiaomi phones? I've read in many places that it's a brand to avoid, but what exactly is the reason for the abundance of criticism? Yet, despite this, it's interesting that many people still buy them.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nFőleg szoftveres dolgok miatt szokták szidni, hardveresen egész jók. Szoftveresen is már fejlődtek, de még mindig nem egy Samsung, Google vagy Apple.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nXiaomi telefonokról miért van annyi kritika ?\nNagyon sok helyen olvasni hogy kerülendő márka ,de pontosan mi az oka hogy rengeteg kritika éri?\nDe egyébként ennek ellenére elég érdekes hogy sokan veszik.\n\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -4257,7 +4257,7 @@
           }
         },
         {
-          "name": "hungarian:31:language.hungarian:gpt 4",
+          "name": "hungarian:31:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -4267,7 +4267,7 @@
           },
           "prompting_state": {
             "prompt": "Xiaomi telefonokról miért van annyi kritika ?\nNagyon sok helyen olvasni hogy kerülendő márka ,de pontosan mi az oka hogy rengeteg kritika éri?\nDe egyébként ennek ellenére elég érdekes hogy sokan veszik.\n\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -4337,7 +4337,7 @@
             "text": "We subscribed to a trial Premium YouTube for my sister, but it expired today, the 24th, and we received a bill for 2300 HUF covering until February 24th. What should we do to cancel it? It won't let us cancel today, and we're afraid it never will... what should we do? We're in total SOS mode. Can someone please offer any advice?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nMit értünk, hogy nem engedi lemondani? Hiba üzenet vagy csak nem találjátok? Amúgy pedig a 2300 Ft-os díjat már ki kell fizetni, erre az időre már kiszámlázták a díjat.\nItt egy link, ahol leírják hogyan kell megszakítani az előfizetést,\n[link]\nItt pedig egy direct link, (az adott felhasználónak kell belépnie, hogy lássa az előfizetést)\nhttps://www.youtube.com/paid_memberships\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nHugomnak előfizettünk próba PrémiumYt-ra, de ma 24-én járt le,- és jött is egy 2300Ft-os számla ami febr.24-ig tart. Mit tegyünk, hogy lemonjduk? Ma nem engedi lemondani, és félünk hogy soha nem is fogja...mit tegyünk? Teljes SOS-be vagyunk.\nAki tud valamit ajánlani segítsen légyszíves\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -4392,7 +4392,7 @@
           }
         },
         {
-          "name": "hungarian:32:language.hungarian:gpt 4",
+          "name": "hungarian:32:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -4402,7 +4402,7 @@
           },
           "prompting_state": {
             "prompt": "Hugomnak előfizettünk próba PrémiumYt-ra, de ma 24-én járt le,- és jött is egy 2300Ft-os számla ami febr.24-ig tart. Mit tegyünk, hogy lemonjduk? Ma nem engedi lemondani, és félünk hogy soha nem is fogja...mit tegyünk? Teljes SOS-be vagyunk.\nAki tud valamit ajánlani segítsen légyszíves\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -4472,7 +4472,7 @@
             "text": "Is it possible that this cost 3600 HUF, or did the vendor overcharge me?\nToday, at the market, I bought half a kilo of pickled cucumbers (which were 2400 HUF per kilo, unfortunately, that was the only thing left), half a kilo of pickled watermelon, and 4 pieces (of medium size) of pickled apple peppers. Is it possible that this amounted to 3600 HUF, or did the seller scam me out of several hundred forints?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nLétezik. Borzasztó értéktelen a forint. Egy sima bevásárlás, ahol csak pár napra előre megveszem a kaját, egy 10 ezresnél kezdődik...\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nLétezik, hogy ez 3600 Ft, vagy átvert a kofa?\nMa, a piacon vásároltam fél kiló kovászos uborkát (kilója 2400 Ft-volt, sajnos ez az egy ami megamaradt) fél kiló savanyított dinnyét és 4 szem (közepes méretűek) ecetes almapaprikát. Létezik, hogy ez 3600 Ft-ba került, vagy több száz forinttal megkárosított az eladó?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -4527,7 +4527,7 @@
           }
         },
         {
-          "name": "hungarian:33:language.hungarian:gpt 4",
+          "name": "hungarian:33:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -4537,7 +4537,7 @@
           },
           "prompting_state": {
             "prompt": "Létezik, hogy ez 3600 Ft, vagy átvert a kofa?\nMa, a piacon vásároltam fél kiló kovászos uborkát (kilója 2400 Ft-volt, sajnos ez az egy ami megamaradt) fél kiló savanyított dinnyét és 4 szem (közepes méretűek) ecetes almapaprikát. Létezik, hogy ez 3600 Ft-ba került, vagy több száz forinttal megkárosított az eladó?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -4607,7 +4607,7 @@
             "text": "Can you buy Dormi in Austria?\nIn some countries, it's available under the name Barni, and I'm curious if that's the case there too. If not, what alternatives are there?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nAusztriában nincs dörmi,\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nLehet Ausztriában Dörmit venni?\nVannak olyan országok, ahol Barni néven megtalálható, érdekelni, hogy ott is ez-e a helyzet. Ha nincs, milyen alternatíva van kint?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -4662,7 +4662,7 @@
           }
         },
         {
-          "name": "hungarian:34:language.hungarian:gpt 4",
+          "name": "hungarian:34:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -4672,7 +4672,7 @@
           },
           "prompting_state": {
             "prompt": "Lehet Ausztriában Dörmit venni?\nVannak olyan országok, ahol Barni néven megtalálható, érdekelni, hogy ott is ez-e a helyzet. Ha nincs, milyen alternatíva van kint?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -4742,7 +4742,7 @@
             "text": "Peaches and Cream, at Nagymező Street 46-48. Is there really an All You Can Drink for 1000 Ft? They advertise this in a video on Facebook. What are the conditions for this? Only at certain times?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\n1 órára...\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nPeaches and Cream, Nagymező utca 46-48. Tényleg 1000 Ft-ért All you can drink van?\nEzt reklámozzák videóban a Facebookon. Mik a feltételei ennek? Bizonyos időpontokban csak?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -4797,7 +4797,7 @@
           }
         },
         {
-          "name": "hungarian:35:language.hungarian:gpt 4",
+          "name": "hungarian:35:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -4807,7 +4807,7 @@
           },
           "prompting_state": {
             "prompt": "Peaches and Cream, Nagymező utca 46-48. Tényleg 1000 Ft-ért All you can drink van?\nEzt reklámozzák videóban a Facebookon. Mik a feltételei ennek? Bizonyos időpontokban csak?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -4877,7 +4877,7 @@
             "text": "Can you buy Metro Chef products in the metro using an app-based card?\nHi everyone! I'm planning to visit Metro, and I've already made a card through the app. However, I couldn't find anywhere if I can buy all products (including Metro Chef products) as well? Thanks in advance for the answers! :D",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nHa már beengednek, akkor azt veszel amit szeretnél.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nLehet a metroban applikációs kártyával a Metro Chef termékekből vásárolni?\nSziasztok! Tervezek benézni a Metro-ba, applikáción keresztül csináltam is kártyát. Viszont azt sehol sem találtam, hogy minden terméket (beleérte a Metro Chef termékeket) is vásárolhatom? Előre is köszönöm a válaszokat! :D\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -4932,7 +4932,7 @@
           }
         },
         {
-          "name": "hungarian:36:language.hungarian:gpt 4",
+          "name": "hungarian:36:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -4942,7 +4942,7 @@
           },
           "prompting_state": {
             "prompt": "Lehet a metroban applikációs kártyával a Metro Chef termékekből vásárolni?\nSziasztok! Tervezek benézni a Metro-ba, applikáción keresztül csináltam is kártyát. Viszont azt sehol sem találtam, hogy minden terméket (beleérte a Metro Chef termékeket) is vásárolhatom? Előre is köszönöm a válaszokat! :D\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -5012,7 +5012,7 @@
             "text": "Can you no longer get Chipsy Kings chips at Lidl or anywhere else? I haven't seen them for months, and they were my favorite.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNem láttam máshol, valószínű saját márkás volt.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA Lidl-ben vagy máshol nem lehet már kapni Chipsy Kings chipset?\nHónapok óta nem láttam, pedig az volt a kedvencem.\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -5067,7 +5067,7 @@
           }
         },
         {
-          "name": "hungarian:37:language.hungarian:gpt 4",
+          "name": "hungarian:37:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -5077,7 +5077,7 @@
           },
           "prompting_state": {
             "prompt": "A Lidl-ben vagy máshol nem lehet már kapni Chipsy Kings chipset?\nHónapok óta nem láttam, pedig az volt a kedvencem.\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -5147,7 +5147,7 @@
             "text": "When do you need to scan the coupon code at a Tesco self-service checkout? First, you have to scan the club card code, and then the products. When should you validate the discounts for the products? Is there an option before payment where it allows you to scan all codes?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nKiválasztod, hogy fizetés ott választhatsz kupont kp-t meg kártyát.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nTesco önkiszolgáló kasszánál mikor kell a kuponkódot szkennelni?\nElőször ugye a club kártya kódját kell beszkennelni, utána meg a termékek.\nA termékekre vonatkozó kedvezményeket mikor kell érvényesíteni? Van ilyen opció fizetés előtt ahol minden kódot enged szkennelni?\n\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -5202,7 +5202,7 @@
           }
         },
         {
-          "name": "hungarian:38:language.hungarian:gpt 4",
+          "name": "hungarian:38:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -5212,7 +5212,7 @@
           },
           "prompting_state": {
             "prompt": "Tesco önkiszolgáló kasszánál mikor kell a kuponkódot szkennelni?\nElőször ugye a club kártya kódját kell beszkennelni, utána meg a termékek.\nA termékekre vonatkozó kedvezményeket mikor kell érvényesíteni? Van ilyen opció fizetés előtt ahol minden kódot enged szkennelni?\n\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -5282,7 +5282,7 @@
             "text": "How are the mechanical engineering correspondence courses conducted at the following institutions?\n- SZE Győr\n- Gamf Kecskemét\nAre they held only on Saturdays or on both Fridays and Saturdays?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nMindkettő péntek-szombati konzultációkat jelent, általában kéthetente. Győrben a pénteki konzultációk délutánonként kezdődnek, így aki nem a közelben lakik, az is könnyedén oda tud érni a pénteki konzultációkra. Viszont szombaton már reggel 8-tól indulhatnak a konzultációk, így aki nem környékbeli, annak Győrben kell aludnia egy éjszakát. Kecskeméten nem tudom, hogy ugyanígy van-e, de a péntek-szombat az biztos. Nagyjából mindkét helyen azzal számolhatsz, hogy egy félévben hét péntek-szombaton vannak a konzultációk, azaz egy évben 14 pénteket kell szabadságként kivenned, ha dolgozol mellette. Ezenkívül sajnos mindkét helyen előfordulhat, hogy egyes vizsgákat nem hirdetnek meg szombati napokon, így azokra a napokra is ki kell venni szabadságot.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nAz alábbi gépészmérnök képzések levelező szakon hogy vannak megtartva?\nSZE győr\nGamf kecskemét\nCsak szombaton vagy péntek szombat?\n\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -5337,7 +5337,7 @@
           }
         },
         {
-          "name": "hungarian:39:language.hungarian:gpt 4",
+          "name": "hungarian:39:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -5347,7 +5347,7 @@
           },
           "prompting_state": {
             "prompt": "Az alábbi gépészmérnök képzések levelező szakon hogy vannak megtartva?\nSZE győr\nGamf kecskemét\nCsak szombaton vagy péntek szombat?\n\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -5417,7 +5417,7 @@
             "text": "Student Loan 1 question?\nHello!\nI applied for a Student Loan 1 with a lump-sum payment for the autumn semester. I would like to apply for it for the spring semester as well, but I received the following message, what does this mean, can I no longer apply?\nExisting free-use loan application We inform you that you already have a contract with the same loan purpose. According to our business policy, a Borrower can have at most two valid contracts with different loan purposes (SL1 and SL2) at the same time. Please contact us by phone regarding your student loan contract.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nVáltozatlan összegben folyósítják ebben a félévben is:\n- amennyiben a hallgatói jogviszony fennáll\n- nem szüntetted meg a szerződést\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nDiákhitel 1 kérdés?\nSziasztok!\nIgényeltem az őszi félévben diákhitel 1-et, egyösszegű kifizetéssel. Szeretnék a tavaszi félévre is igényelni azonban az alábbi üzenetet írta ki, ez mit jelent nem igényelhetek már?\nLétező szabad felhasználású hiteligénylés Tájékoztatjuk, hogy Ön már rendelkezik azonos hitelcelú szerződéssel. Üzletszabályzatunk értelmében egy Hitelfelvevo egyidejüleg legfeljebb kettő, eltérő hitelcélú (DH1 és DH2) érvényes rendelkezhet. Kérjük, vegye fel a kapcsolatot telefonos diákhitelszerzödéssel\n\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -5472,7 +5472,7 @@
           }
         },
         {
-          "name": "hungarian:40:language.hungarian:gpt 4",
+          "name": "hungarian:40:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -5482,7 +5482,7 @@
           },
           "prompting_state": {
             "prompt": "Diákhitel 1 kérdés?\nSziasztok!\nIgényeltem az őszi félévben diákhitel 1-et, egyösszegű kifizetéssel. Szeretnék a tavaszi félévre is igényelni azonban az alábbi üzenetet írta ki, ez mit jelent nem igényelhetek már?\nLétező szabad felhasználású hiteligénylés Tájékoztatjuk, hogy Ön már rendelkezik azonos hitelcelú szerződéssel. Üzletszabályzatunk értelmében egy Hitelfelvevo egyidejüleg legfeljebb kettő, eltérő hitelcélú (DH1 és DH2) érvényes rendelkezhet. Kérjük, vegye fel a kapcsolatot telefonos diákhitelszerzödéssel\n\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -5552,7 +5552,7 @@
             "text": "Which vocational schools accept students with lower scores? It's time to choose a school, and the central written exam didn't go very well. I'm trying to browse the schools' websites, but maybe someone knows specifically which are the less competitive schools.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nSulinavigátor.\n[link]\nA pontszámolónál meg tudod nézni a korábbi évek felvételi ponthatárait. Ha beírod a jegyeit és az írásbeli eredményét, akkor kiszámolja a felvételi esélyeit a korábbi évek ponthatárai alapján, a színkódok segítenek. Ha nyíllal rámész a kalkulált pontszámra a táblázatban, akkor kiírja, hogy hány százalékos szóbelivel jutott volna be abban az évben (ha az iskola tart szóbelit). Esélylatolgatáshoz nagy segítség.\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMelyik technikumok amik kevesebb pontszámmal is felvesznek gyerekeket?\nMost esedékes az iskola választás, nem sikerült valami jól a központi írásbeli.Próbálom böngészni az iskolák honlapját, de hátha valaki tudja konkrétan melyek a gyengébb sulik.\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -5607,7 +5607,7 @@
           }
         },
         {
-          "name": "hungarian:41:language.hungarian:gpt 4",
+          "name": "hungarian:41:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -5617,7 +5617,7 @@
           },
           "prompting_state": {
             "prompt": "Melyik technikumok amik kevesebb pontszámmal is felvesznek gyerekeket?\nMost esedékes az iskola választás, nem sikerült valami jól a központi írásbeli.Próbálom böngészni az iskolák honlapját, de hátha valaki tudja konkrétan melyek a gyengébb sulik.\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -5687,7 +5687,7 @@
             "text": "How mandatory is attendance at BME's Faculty of Business and Economics, do you have to attend classes? I know that at ELTE, attendance is hardly mandatory for anything, and this would be an important factor for me. Additionally, I would appreciate hearing a few opinions about the undergraduate programs in Business Administration and Management/International Business at these two universities. Thanks.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nElső féléves gazdmenes vagyok, egyedül a matek gyakorlaton volt jelenléti (ott sem mindig), a többire nem volt kötelező bejárni. Egyébként nekem tetszik a suli, nagyon jó a közösség és nem kell belehalni a tanulásba sem, sok mellette a szabadidő. Az legtöbb tárgy könnyen teljesíthető, egyedül a Közgazdaságtan I. (Mikroökonómia) az, amire több időt kell szánni és hétről-hétre tanulni, mert könnyen el lehet veszni benne. Idén a matek sem volt vészes, 4-5-ös közép matek érettségivel simán hozható.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nBME gtk mennyire bejárós, részt kell e venni az órákon? Tudom, hogy ELTE-n kb. semmire se kötelező bemenni és ez fontos szempont lenne számomra.\nEzenfelül ennek a két egyetemnek a gazdálkodási és menedzsment/nemzetközi gazdálkodás alapszakjairól is szívesen meghallgatnék egy-két véleményt. Köszi\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -5742,7 +5742,7 @@
           }
         },
         {
-          "name": "hungarian:42:language.hungarian:gpt 4",
+          "name": "hungarian:42:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -5752,7 +5752,7 @@
           },
           "prompting_state": {
             "prompt": "BME gtk mennyire bejárós, részt kell e venni az órákon? Tudom, hogy ELTE-n kb. semmire se kötelező bemenni és ez fontos szempont lenne számomra.\nEzenfelül ennek a két egyetemnek a gazdálkodási és menedzsment/nemzetközi gazdálkodás alapszakjairól is szívesen meghallgatnék egy-két véleményt. Köszi\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -5822,7 +5822,7 @@
             "text": "How tall is Júdló?\nI haven't been to a concert yet, haven't seen him live. However, he often hints in his music that he has grown tall. Does anyone know how tall Júdló is?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nHa minden igaz 192cm, de ebben nem vagyok 100%-ig biztos\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nDzsúdló milyen magas?\nNem voltam még koncerten, élőben nem láttam még őt. Viszont sok zenéjében utal arra hogy nagyra nőtt.\nValaki esetleg tudja milyen magas Dzsúdló?\n\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -5877,7 +5877,7 @@
           }
         },
         {
-          "name": "hungarian:43:language.hungarian:gpt 4",
+          "name": "hungarian:43:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -5887,7 +5887,7 @@
           },
           "prompting_state": {
             "prompt": "Dzsúdló milyen magas?\nNem voltam még koncerten, élőben nem láttam még őt. Viszont sok zenéjében utal arra hogy nagyra nőtt.\nValaki esetleg tudja milyen magas Dzsúdló?\n\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -5957,7 +5957,7 @@
             "text": "How acceptable is it to wear swishy tracksuits nowadays? I'm referring to the genuine nylon brand-name swishy tracksuits, not polyester ones. I'm mostly looking for responses from those who wear them.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nTeljesen. Csak vegyél fel mellé aranyozott kutyaláncot a nyakadba meg egy hamis Rolexet.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMennyire elfogadott napjainkban a susogós melegítő viselése?\nAz igazi nylon anyagú márkás susogós melegítőkre gondolok, nem a poliészterre. Leginkább azok írjanak, akik hordanak ilyet.\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -6012,7 +6012,7 @@
           }
         },
         {
-          "name": "hungarian:44:language.hungarian:gpt 4",
+          "name": "hungarian:44:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -6022,7 +6022,7 @@
           },
           "prompting_state": {
             "prompt": "Mennyire elfogadott napjainkban a susogós melegítő viselése?\nAz igazi nylon anyagú márkás susogós melegítőkre gondolok, nem a poliészterre. Leginkább azok írjanak, akik hordanak ilyet.\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -6092,7 +6092,7 @@
             "text": "How socially acceptable is it nowadays for someone to choose not to have children? To what extent is someone viewed as strange or considered doing something taboo by deciding not to have kids?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nA \"hanyatló nyugaton\" teljesen elfogadott, Magyarországon meg csoda, ha nem köveznek meg érte (főleg a jelenlegi kormányt istenítők tábora).\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nTársadalmilag mennyire elfogadott napjainkban, ha valaki önszántából nem szeretne gyereket?\nMennyire néznek furán valakire, mennyire tartják ördögtől valónak, ha valaki nem vállal gyereket?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -6147,7 +6147,7 @@
           }
         },
         {
-          "name": "hungarian:45:language.hungarian:gpt 4",
+          "name": "hungarian:45:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -6157,7 +6157,7 @@
           },
           "prompting_state": {
             "prompt": "Társadalmilag mennyire elfogadott napjainkban, ha valaki önszántából nem szeretne gyereket?\nMennyire néznek furán valakire, mennyire tartják ördögtől valónak, ha valaki nem vállal gyereket?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -6227,7 +6227,7 @@
             "text": "Can you get BB cream at Rossmann? Or where can you find it?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nIgen, bármelyik drogériában. De google a barátod, a rossmann weboldalán még azt is meg tudod nézni, hogy melyik üzletben van készleten :)\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nBb krémet lehet kapni rossmanban? Vagy hol lehet kapni?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -6282,7 +6282,7 @@
           }
         },
         {
-          "name": "hungarian:46:language.hungarian:gpt 4",
+          "name": "hungarian:46:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -6292,7 +6292,7 @@
           },
           "prompting_state": {
             "prompt": "Bb krémet lehet kapni rossmanban? Vagy hol lehet kapni?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -6362,7 +6362,7 @@
             "text": "Has anyone ever returned a product to Decathlon like this? I bought snow boots because I work standing outdoors without much movement. It was labeled, \"Comfort temperature at a static position: -8°C, during movement: -17°C,\" which is why I dared to buy it. I used it once for a few hours, but it was useless; my feet were still cold despite wearing multiple socks, including wool ones. When I went back to the store, they refused to take it back because it had been used. They said they could exchange it for something similar, but of course, I didn't want that. It immediately occurred to me to order the same item online, then return the current one, and take the new one back to a different store so they would have to accept it.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nMenj be a Decatlonba és mond el a panaszod. Ilyenkor le kell teszteljék a terméked és ha úgy vélik, hogy téves infót adtak meg vagy hibás a termék, visszaadják az árát.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nDecathlonba vitt már valaki vissza így terméket?\nVettem egy hótaposót, álló munkát végzek a szabadban, nem sokat mozgok. Rá volt írva, hogy *Komforthőmérséklet statikus helyzetben: -8 °C. mozgás közben: -17 °C\", ezért mertem megvenni. Egyszer használtam pár órát, de semmit nem ért, ugyanúgy fázott a lábam benne, hiába húztam fel több zoknit is, gyapjút is.\nVisszamentem az áruházba, de nem vették vissza, mert már használtam. Azt tudták volna csinálni, hogy kicserélik valami hasonlóra, ezt persze nem kértem.\nEgyből eszembe jutott, hogy azt fogom csinálni, rendelek a netről egy ugyanilyet, aztán visszaküldöm a mostanit, az újat meg visszaviszem egy másik üzletbe és úgy már vissza kell vegyék.\n\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -6417,7 +6417,7 @@
           }
         },
         {
-          "name": "hungarian:47:language.hungarian:gpt 4",
+          "name": "hungarian:47:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -6427,7 +6427,7 @@
           },
           "prompting_state": {
             "prompt": "Decathlonba vitt már valaki vissza így terméket?\nVettem egy hótaposót, álló munkát végzek a szabadban, nem sokat mozgok. Rá volt írva, hogy *Komforthőmérséklet statikus helyzetben: -8 °C. mozgás közben: -17 °C\", ezért mertem megvenni. Egyszer használtam pár órát, de semmit nem ért, ugyanúgy fázott a lábam benne, hiába húztam fel több zoknit is, gyapjút is.\nVisszamentem az áruházba, de nem vették vissza, mert már használtam. Azt tudták volna csinálni, hogy kicserélik valami hasonlóra, ezt persze nem kértem.\nEgyből eszembe jutott, hogy azt fogom csinálni, rendelek a netről egy ugyanilyet, aztán visszaküldöm a mostanit, az újat meg visszaviszem egy másik üzletbe és úgy már vissza kell vegyék.\n\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -6497,7 +6497,7 @@
             "text": "Did the Chinese store (Asia Center) on Dózsa György Street in Debrecen relocate, or did it permanently close down with the move?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nElvileg bezárt. December 31-ig volt nyitva, sokan kérdezték, hogy mi lesz utána de az eladók nem válaszoltak, valószínűleg megint kiderült, hogy feketén dolgoztatják őket és megb-ták az áruházat. Legutóbb is így alakították át, szóval ki tudja, lehet még más tulajjal lesz ott valami helyette.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nDebrecenben a Dózsa GY. úton a kínai bolt (Ázsia Centrum) átköltözött? Vagy véglegesen bezárt a kiköltözéssel?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -6552,7 +6552,7 @@
           }
         },
         {
-          "name": "hungarian:48:language.hungarian:gpt 4",
+          "name": "hungarian:48:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -6562,7 +6562,7 @@
           },
           "prompting_state": {
             "prompt": "Debrecenben a Dózsa GY. úton a kínai bolt (Ázsia Centrum) átköltözött? Vagy véglegesen bezárt a kiköltözéssel?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -6632,7 +6632,7 @@
             "text": "Where can I buy military items? I'm mainly looking for used military clothing in Budapest.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nMilitary shop Thököly út\nObsit Military Shop\n\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nHonnan lehet venni katonai dolgokat?\nFőleg Budapesten keresek használt katonai ruhákat.\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -6687,7 +6687,7 @@
           }
         },
         {
-          "name": "hungarian:49:language.hungarian:gpt 4",
+          "name": "hungarian:49:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -6697,7 +6697,7 @@
           },
           "prompting_state": {
             "prompt": "Honnan lehet venni katonai dolgokat?\nFőleg Budapesten keresek használt katonai ruhákat.\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -6767,7 +6767,7 @@
             "text": "How can a (foreign) senior citizen prove their eligibility for free travel on Budapest's public transport (BKV) to the driver? My mother and I are planning a trip to Budapest. She is a senior citizen, and as far as I know, as an EU citizen, she should also be able to use the BKV services for free. However, I understand that upon boarding through the front door, we either need to punch a ticket or show a pass, etc. As a senior citizen, especially a foreign one, what should she present? Maybe her ID card? (Obviously, the driver can't glean anything from that. But I think the driver can't check the date on my pass as quickly as I flash it at him either.)",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNem azt kell igazolnia, hogy nyugdíjas, hanem hogy 65 év fölötti - ez magyar és EU-s állampolgárokra egyaránt igaz! Ehhez a személyigazolvány elég.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA BKV járatain egy (külföldi) nyugdíjas miként igazolja, hogy nyugdíjas a sofőrnél?\nÉdesanyámmal szeretnénk menni majd Budapestre egyet kirándulni. Ő már nyugdíjas, így tudtommal EU-s állampolgárként ő is ingyen használhatja a BKV járatait.\nDe, ugye első ajtós felszállásnál vagy lyukasztunk, vagy a bérletet mutatjuk fel, stb.\nNyudíjasként, főleg külföldi nyugdíjasként mit mutasson fel? Személyit esetleg? (Nyilván abból a sofőr semmit nem olvas le. De, szerintem a bérletem dátumát sem tudja olyan gyorsan, ahogy én általában megvillantom neki.)\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -6822,7 +6822,7 @@
           }
         },
         {
-          "name": "hungarian:50:language.hungarian:gpt 4",
+          "name": "hungarian:50:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -6832,7 +6832,7 @@
           },
           "prompting_state": {
             "prompt": "A BKV járatain egy (külföldi) nyugdíjas miként igazolja, hogy nyugdíjas a sofőrnél?\nÉdesanyámmal szeretnénk menni majd Budapestre egyet kirándulni. Ő már nyugdíjas, így tudtommal EU-s állampolgárként ő is ingyen használhatja a BKV járatait.\nDe, ugye első ajtós felszállásnál vagy lyukasztunk, vagy a bérletet mutatjuk fel, stb.\nNyudíjasként, főleg külföldi nyugdíjasként mit mutasson fel? Személyit esetleg? (Nyilván abból a sofőr semmit nem olvas le. De, szerintem a bérletem dátumát sem tudja olyan gyorsan, ahogy én általában megvillantom neki.)\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -6902,7 +6902,7 @@
             "text": "Why is a huge demolition site being used as a parking lot right in the heart of downtown Debrecen?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nJelenleg csak így lehet megoldani a belváros egyik részének parkolási gondjait. Pillanatnyilag ez a legjobb hasznosítása a területnek!\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nDebrecen belvárosának kellős közepén miért van egy hatalmas bontási terület parkolónak használva?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -6957,7 +6957,7 @@
           }
         },
         {
-          "name": "hungarian:51:language.hungarian:gpt 4",
+          "name": "hungarian:51:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -6967,7 +6967,7 @@
           },
           "prompting_state": {
             "prompt": "Debrecen belvárosának kellős közepén miért van egy hatalmas bontási terület parkolónak használva?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -7037,7 +7037,7 @@
             "text": "Who is affected by the tourist tax in XY city? For example, if I sleep in my van in a shopping center parking lot for two days, does that incur a fee? Or if I own a property in my name in a city that collects a tourist tax, but I'm not registered there, do I still have to pay?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nEz egy önkormányzati adó, tehát nem csak az összege, hanem az érintettek köre is változó önkormányzatonként. Van ahol kell fizetni valakinek, van ahol meg nem.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nKiket érint XY városban az idegenforgalmi adó?\nPl ha egy bevásárlóközpont parkolójában 2 napig a furgonamban alszok az már díjköteles?\nVagy ha egy idenforgalmi adót beszedő városban van egy lakásom/ingatlanon a saját nevemen,de nem oda vagyok bejelentve,akkor is fizetni kell?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -7092,7 +7092,7 @@
           }
         },
         {
-          "name": "hungarian:52:language.hungarian:gpt 4",
+          "name": "hungarian:52:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -7102,7 +7102,7 @@
           },
           "prompting_state": {
             "prompt": "Kiket érint XY városban az idegenforgalmi adó?\nPl ha egy bevásárlóközpont parkolójában 2 napig a furgonamban alszok az már díjköteles?\nVagy ha egy idenforgalmi adót beszedő városban van egy lakásom/ingatlanon a saját nevemen,de nem oda vagyok bejelentve,akkor is fizetni kell?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -7172,7 +7172,7 @@
             "text": "What is the difference between a regular ticket and a smart ticket on MÁV trains? Can both be purchased via phone, and does this imply anything?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nRögtön a következő képernyőn ki is derül. Az okosjegy vonathoz kötött, a normál menet- és helyjegy pedig részben vonathoz kötött, tehát a menetjegyet érvénytartamon belül más vonaton is felhasználhatod, max másik, új helyjegy kell mellé, ha változtatnál. Okosjegy esetén buktad a teljes jegyet változtatás esetén.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA MÁV-ban illetve a vonatokon mi a különbség a sima menetjegy és az okos jegy között? Mind a 2 őt meg lehet venni telefonon ez takar valamit?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -7227,7 +7227,7 @@
           }
         },
         {
-          "name": "hungarian:53:language.hungarian:gpt 4",
+          "name": "hungarian:53:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -7237,7 +7237,7 @@
           },
           "prompting_state": {
             "prompt": "A MÁV-ban illetve a vonatokon mi a különbség a sima menetjegy és az okos jegy között? Mind a 2 őt meg lehet venni telefonon ez takar valamit?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -7307,7 +7307,7 @@
             "text": "What should I do during a municipal income review?\n\nHi everyone, I moved into a municipal apartment in 2014 when my net income was 90,000 HUF as a fresh graduate. However, since then, my salary at work has increased fourfold due to promotions and raises over the past 10 years. Until now, during the annual municipal review, the property management staff only checked if the rent and utility bills were paid, but I've just received a letter asking me to verify my income. My municipal contract is indefinite. Do you think they can terminate it because my income is now considered too high, or will they just adjust the rent based on my income? Thank you in advance for your answers!",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNálam évek óta júliusban kérik a jövedelem igazolást, majd az alapján megállapítják januártól a lakbért.\nEleve a 10 évvel ezelőtti jövedelmek már mindenhol emelkedtek. Nem csak nálad.\nNem raknak ki, csak besorolnak a jövedelmed alapján a nm árra.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nÖnkormányzati jövedelem felülvizsgálatkor teendő?\nSziasztok, 2014-ben önkormányzati lakásba kerültem, akkor nettó 90ezer ft volt a jövedelmem friss pályakezdőként, viszont azóta a munkahelyemen 4x annyival többet keresek, mert előléptettek és emelték a fizetésem a 10 év alatt. Eddig az éves önkormányzati felülvizsgálati szemlekor csak azt nézték a vagyonkezelő dolgozói, hogy a lakbér és a közmű számlák rendezve vannak-e, viszont most kaptam egy olyan levelet, hogy a jövedelmem is igazoljam. Határozatlan az önkormányzati szerződésem, ilyenkor szerintetek felmondhatják, hogy ekkora jövedelemmel nem vagyok jogosult, vagy csak a lakbért fogják emelni? Köszönöm szépen előre is a válaszokat!\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -7362,7 +7362,7 @@
           }
         },
         {
-          "name": "hungarian:54:language.hungarian:gpt 4",
+          "name": "hungarian:54:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -7372,7 +7372,7 @@
           },
           "prompting_state": {
             "prompt": "Önkormányzati jövedelem felülvizsgálatkor teendő?\nSziasztok, 2014-ben önkormányzati lakásba kerültem, akkor nettó 90ezer ft volt a jövedelmem friss pályakezdőként, viszont azóta a munkahelyemen 4x annyival többet keresek, mert előléptettek és emelték a fizetésem a 10 év alatt. Eddig az éves önkormányzati felülvizsgálati szemlekor csak azt nézték a vagyonkezelő dolgozói, hogy a lakbér és a közmű számlák rendezve vannak-e, viszont most kaptam egy olyan levelet, hogy a jövedelmem is igazoljam. Határozatlan az önkormányzati szerződésem, ilyenkor szerintetek felmondhatják, hogy ekkora jövedelemmel nem vagyok jogosult, vagy csak a lakbért fogják emelni? Köszönöm szépen előre is a válaszokat!\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -7442,7 +7442,7 @@
             "text": "I bought a panel apartment and I want to renovate it, but there's a 5cm EPS insulation applied to one of the interior walls. Do you think I should remove it because it might be moldy, or how can I find out?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nÉn leszedném.\nBelülről csak teljes párazárás mellett szigetelünk, azt meg nehéz jól megcsinálni.\nRáadásul azzal, hogy 1 fal le van Szigetelve nem oldunk meg semmit. A fal fodem-padlo csomópontokat belülről nem lehet jól megoldani, mindig marad hőhíd.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nVásároltam egy panel lakást és fel szeretném újítani, de az egyik belső falra 5cm EPS szigetelést raktak. Szerintetek leszedjem mert penészes lehet, vagy honnan lehet ezt megtudni?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -7497,7 +7497,7 @@
           }
         },
         {
-          "name": "hungarian:55:language.hungarian:gpt 4",
+          "name": "hungarian:55:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -7507,7 +7507,7 @@
           },
           "prompting_state": {
             "prompt": "Vásároltam egy panel lakást és fel szeretném újítani, de az egyik belső falra 5cm EPS szigetelést raktak. Szerintetek leszedjem mert penészes lehet, vagy honnan lehet ezt megtudni?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -7577,7 +7577,7 @@
             "text": "How can you mix the color of helmets from the Horthy era?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nM35 tábori sisak. Neten rákeresve találsz róla képeket. Nem kell megijedni a sok árnyalattól, annak idején sem volt tökéletesen egységes.\nEz egy zöldesbarna szín. Talán a RAL6025 áll a legközelebb hozzá. Festékboltban kikeverik géppel. Nem drágább, mint külön megvenni hozzá egy egy dobozzal a festéket és kevergetni.\nEcsettel festették az eredetit.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nHogyan lehet kikeverni a Horthy-kori sisakok színét?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -7632,7 +7632,7 @@
           }
         },
         {
-          "name": "hungarian:56:language.hungarian:gpt 4",
+          "name": "hungarian:56:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -7642,7 +7642,7 @@
           },
           "prompting_state": {
             "prompt": "Hogyan lehet kikeverni a Horthy-kori sisakok színét?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -7712,7 +7712,7 @@
             "text": "What makes a house considered new construction? At what point do we have to follow the building regulations that mandate energy efficiency, sustainability, and zero energy requirements for new constructions? I mean, for example, if we keep the old walls, it obviously won't be new construction, but how far can we go with modifications?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nHa a tető formályán nem változtatsz, nem építesz hozzá, akkor mehet kalákába az egész. Az utca front modosítással kapcsoladban pl 2 ablak helyett 3 kérdezd meg a helyi jegyzőt. Nálunk nem érdekli őket, de a szomszéd faluban kérik a modosításról szóló terveket.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMitől számít újépítésűnek egy ház? Mitől kell alkalmazni azt az építési jogszabájt, ami köteleti az új építésű házaknál az energiatakarékosságot, fenntarthatóságot, 0 energiaigényt.\nÚgy értem hogy például van egy régi ház, és ha meghagyjuk a falakat, akkor nyilván nem lesz új építésű, de meddig lehet elmenni?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -7767,7 +7767,7 @@
           }
         },
         {
-          "name": "hungarian:57:language.hungarian:gpt 4",
+          "name": "hungarian:57:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -7777,7 +7777,7 @@
           },
           "prompting_state": {
             "prompt": "Mitől számít újépítésűnek egy ház? Mitől kell alkalmazni azt az építési jogszabájt, ami köteleti az új építésű házaknál az energiatakarékosságot, fenntarthatóságot, 0 energiaigényt.\nÚgy értem hogy például van egy régi ház, és ha meghagyjuk a falakat, akkor nyilván nem lesz új építésű, de meddig lehet elmenni?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -7847,7 +7847,7 @@
             "text": "What can I do if my landlord accuses me of causing damage that I didn't do?\nI moved to another rental because the previous one was quite shabby, with the previous landlord almost unwilling to fix anything. Moldy walls, leaks, etc.\nI moved out, but now he wants to charge me (150,000) for a piece of furniture because it had a cut on it, which I am 100% sure wasn't there when I moved out. What can I do?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNormál esetben beköltözés UTÁN AZONNAL mindenröl fotókat készíteni, meg kiköltözéskor, a lakás átadása során szintén mindent lefényképezni, illetve ÍRÁSBAN átadási protokollt csinálni, amiben minden hiba vagy probléma fel van tüntetve, és aláírta a tulaj is, meg te is két tanu jelenlétében.\nUtólag, bizonyítékok nélkül nem sokat lehet tenni.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMit tehetek, ha a főbérlő olyan károkozással vádol, amit nem követtem el?\nÁtköltöztem egy másik albérletbe, mert az elöző igencsak igénytelen volt, az elöző főbérlő szinte semmit nem akart megjavítani. Penészes falak, beázás, stb.\nElköltöztem, de most egy bútornak az árrát akarja rám verni (150000) mert egy vágás volt rajta, ami a kiköltözésemnél 100%, hogy nem volt ott.Mit tehetek?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -7902,7 +7902,7 @@
           }
         },
         {
-          "name": "hungarian:58:language.hungarian:gpt 4",
+          "name": "hungarian:58:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -7912,7 +7912,7 @@
           },
           "prompting_state": {
             "prompt": "Mit tehetek, ha a főbérlő olyan károkozással vádol, amit nem követtem el?\nÁtköltöztem egy másik albérletbe, mert az elöző igencsak igénytelen volt, az elöző főbérlő szinte semmit nem akart megjavítani. Penészes falak, beázás, stb.\nElköltöztem, de most egy bútornak az árrát akarja rám verni (150000) mert egy vágás volt rajta, ami a kiköltözésemnél 100%, hogy nem volt ott.Mit tehetek?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -7982,7 +7982,7 @@
             "text": "What permits are required if I want to renovate an apartment?\n\nQuestion details:\nI would like to renovate an old, somewhat dilapidated apartment. Roof replacement is a certainty, as well as rearranging rooms/spaces, demolishing walls, and building new ones. There is a barn directly next to the house, covered by the same roof as the apartment, only separated by one wall, into which I would install a door and convert it into a livable room. I would also like to create doors and windows in a few places.\nI know that not everything requires a permit.\nOf course, it's obviously hard to say everything in advance, but my question would be, roughly, which permits will I need to carry out all these tasks?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nFélrevezető az első mondat. Nem lakásról van szó akkor, hanem házról.\nTetőcsere esetén, ha a tető formája változik, abban az esetben kell engedély, értsd ha előtte nyeregtetős volt és utána is az lesz, akkor nem kell, de ha pl. előtte sátortető volt vagy lapostető, és pl. nyeregtető lesz akkor kell.\nAmennyiben a térképen felvan tüntetve a pajta is, azonban a tulajdonilap nem tér ki arra, hogy a telken milyen rendeltetésű épületek állnak, akkor gyakorlatilag bővítheted a lakórészt a pajtával, mert nem tudnak mit kezdeni veled.\nHa nem szerepel a térképen akkor erősen nem ajánlom, hogy engedély nélkül ilyenbe fogj, mert onnantól kezdve hiába egy régi épület, egy kvázi \"illegális\" építmény, s ha ezzel bővíted a lakóteret, akkor az ugyanolyan bővítésnek számít, mintha hozzáépítettél volna, ami pedig engedélyköteles tevékenység. Ha szerepel, de a tul.lapon pajtaként, akkor az bukta esetén egyértelmű. Valaki soha az életben nem bukik meg vele, valaki azonnal. Valaki megbukik egy p....a garázzsal vagy tárolóval is... Függ szomszédtól, önkormányzat hozzáállásától, tapasztalatom szerint a település nagyságától is, hogy milyen az önk. hozzáállása.\nBármi másról is legyen szó, belső munkálatok, víz, villany, fűtés, falak áthelyezése, építése, bontása, betonozás, beton bontás, nyílászáró csere és plusz beépítés stb. stb. ezekhez nem kell engedély. Szakember mindegyikhez javasolt. Ha értesz hozzá, akármelyikhez is, akkor nyilván nem kötelező, szóval ez nem olyan, mint egy építés, a felújításnál nem kötelező.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMilyen engedélyek kötelezőek ha lakást szeretnék újítani?\nFigyelt kérdés\nEgy régi kissé romos lakást szeretnék felújítani. Tető csere az 100%, szobák/helységek átrendezése, falak bontása, illetve újak építése. Van közvetlen a ház mellett egy pajta, ugyan az a tető fedi mint magát a lakást, csak egy fal válassza el a kettőt, abba ajtót tennék és lakható szobának kialakítanám. Ajtókat, ablakokat is szeretnék kialakítani egy-két helyen.\nAzt tudom hogy mindenhez nem kell engedély.\nPersze ezt nyilván nehéz mind előre megmondani, de a kérdésem az volna, hogy nagyjából melyik engedélyekre lesz mindezek elvégzéséhez szükségem?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -8037,7 +8037,7 @@
           }
         },
         {
-          "name": "hungarian:59:language.hungarian:gpt 4",
+          "name": "hungarian:59:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -8047,7 +8047,7 @@
           },
           "prompting_state": {
             "prompt": "Milyen engedélyek kötelezőek ha lakást szeretnék újítani?\nFigyelt kérdés\nEgy régi kissé romos lakást szeretnék felújítani. Tető csere az 100%, szobák/helységek átrendezése, falak bontása, illetve újak építése. Van közvetlen a ház mellett egy pajta, ugyan az a tető fedi mint magát a lakást, csak egy fal válassza el a kettőt, abba ajtót tennék és lakható szobának kialakítanám. Ajtókat, ablakokat is szeretnék kialakítani egy-két helyen.\nAzt tudom hogy mindenhez nem kell engedély.\nPersze ezt nyilván nehéz mind előre megmondani, de a kérdésem az volna, hogy nagyjából melyik engedélyekre lesz mindezek elvégzéséhez szükségem?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -8117,7 +8117,7 @@
             "text": "If someone buys a mobile home, on what basis is it registered in their name? For example, if it's placed on a plot of land owned by their parents, how can the mobile home be identified as to who owns it? Obviously, there's a purchase contract, but is there a number on the mobile home or something else that clearly states who the owner is?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nA mobilház adásvételi szerződése alapján és a fuvarról egy számla, amihez a menetlevelet csatolják (honnan-hová lett szállítva, és azt ki rendelte) már elég egyértelmű lehet, hogy ki, mikor, honnan, hová vitette és hogyan került oda a mobilház.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMobilházat ha vesz valaki, mi alapján lesz a nevén?\nPl. egy telekre lerakva, ami a szülők nevén van, a mobilház mi alapján azonosítható be, hogy annak ki a tulajdonosa?\nNyilván van vételi szerződés, de a mobilházon van valami szám, vagy egyéb dolog, ami alapján az kimondható egyértelműen, hogy ki a tulajdonosa?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -8172,7 +8172,7 @@
           }
         },
         {
-          "name": "hungarian:60:language.hungarian:gpt 4",
+          "name": "hungarian:60:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -8182,7 +8182,7 @@
           },
           "prompting_state": {
             "prompt": "Mobilházat ha vesz valaki, mi alapján lesz a nevén?\nPl. egy telekre lerakva, ami a szülők nevén van, a mobilház mi alapján azonosítható be, hogy annak ki a tulajdonosa?\nNyilván van vételi szerződés, de a mobilházon van valami szám, vagy egyéb dolog, ami alapján az kimondható egyértelműen, hogy ki a tulajdonosa?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -8252,7 +8252,7 @@
             "text": "My apartment that I'm looking to buy has been given a 'G' energy rating. What does this mean, and how can it be improved? It's on the top floor of a 4-story building. The building is insulated, with new, modern plastic windows and doors. The roof is supposedly only waterproofed. It's a concrete building, 44 square meters in size. It has iron radiators with simple twist valves. I'm planning to add a false ceiling during renovation and would like to add insulation there. What can be done about the heating? Is it worth doing anything, or am I overthinking it?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nÚgy tudom, azért kötelező eladásnál az energetikai vizsgálat, mert egy adatbázisba kerül, ami a hazai lakásállomány állapotának elemzéséhez szükséges. Nincsenek következményei, ha erre gondolsz. Aki készíti, általában ír egy ajánlást, hogy lehet javítani, de ha szeretnéd korszerűsíteni a lakást, ahhoz úgyis alaposabb tervezés kell.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\n‘G’ energetikai besorolást kapott a vásárolni kívánt lakásom. Ez mit jelent és hogyan lehetne segíteni rajta?\nEz egy 4 emeletes legfelső lakás. Szigetelt épület, új, korszerű műanyag nyílászárókkal.\nA tető nincs csak víz ellen szigetelve elvileg.\nBeton épület, 44nm\nVasradiátorok vannak benne, simán egy tekerős csappal.\nMajd ha újítom fel álmennyezet van tervben, oda szeretnék szigetelést rakni.\nA fűtéssel mit lehet kezdeni? Érdemes valamit vagy csak én gondolom túl a dolgot?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -8307,7 +8307,7 @@
           }
         },
         {
-          "name": "hungarian:61:language.hungarian:gpt 4",
+          "name": "hungarian:61:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -8317,7 +8317,7 @@
           },
           "prompting_state": {
             "prompt": "‘G’ energetikai besorolást kapott a vásárolni kívánt lakásom. Ez mit jelent és hogyan lehetne segíteni rajta?\nEz egy 4 emeletes legfelső lakás. Szigetelt épület, új, korszerű műanyag nyílászárókkal.\nA tető nincs csak víz ellen szigetelve elvileg.\nBeton épület, 44nm\nVasradiátorok vannak benne, simán egy tekerős csappal.\nMajd ha újítom fel álmennyezet van tervben, oda szeretnék szigetelést rakni.\nA fűtéssel mit lehet kezdeni? Érdemes valamit vagy csak én gondolom túl a dolgot?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -8387,7 +8387,7 @@
             "text": "Why does the public address system at the railway stations in Gyömrő and Sülysáp experience interruptions? Especially in Gyömrő, it almost always stutters while announcing the arriving trains. Why does this happen? I don't usually notice such interruptions at other stations.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNem mindenhol van helyben hangosbemondó, hanem egy közeli nagyobb állomásról vezérlik Gondolom vezezék nélküli rendszeren kapja a jelet, amit külső tényezők zavarnak. Egy időben Érd-Felsőn is ezt csinálta, aztán pár hónap múlva megjavították.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nGyömrőn és Sülysápon a vasútállomáson miért akadozik a hangosbemondó?\nFőleg Gyömrőn, szinte állandóan megakad, miközben bemondja az érkező vonatot. Miért akad? Más állomásokon nem szoktam ilyen megakadást hallani.\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -8442,7 +8442,7 @@
           }
         },
         {
-          "name": "hungarian:62:language.hungarian:gpt 4",
+          "name": "hungarian:62:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -8452,7 +8452,7 @@
           },
           "prompting_state": {
             "prompt": "Gyömrőn és Sülysápon a vasútállomáson miért akadozik a hangosbemondó?\nFőleg Gyömrőn, szinte állandóan megakad, miközben bemondja az érkező vonatot. Miért akad? Más állomásokon nem szoktam ilyen megakadást hallani.\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -8522,7 +8522,7 @@
             "text": "What should I pay attention to during the oral exam at the Szilágyi Erzsébet High School in Eger? I'm going to take my Hungarian exam in a week! I'd like to get into either the humanities or the general program! I've put the school as my top choice. Unfortunately, my central exam results weren't that great, so I really need to do well in the oral! How does the oral exam work? What should I focus on? Any tips, tricks, or strategies? :) Thanks in advance!",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nA tantárgyi szóbeli kérdéseken kívül kíváncsiak a kommunikációs készségedre, a beszédstílusodra, a kiejtésedre, szókincsedre, az olvasottságodra, olvasmányélményeidre;\nmilyen versenyeredményeid vannak;\nkommunikációs képesség;\nkifejezőkészség és beszédstílus;\ntanuláshoz való viszony, tanulási szokások;\náltalános tájékozottság ;\ntantárgyi motiváció alapján a motivációval érintett szakterület (irodalom, nyelvtan, nyelvtörténet) feltérképezése;\nértelmi és érzelmi fejlettség;\nszociális kompetenciák átélt történetek és közösségi élmények alapján;\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMire figyeljünk az egri Szilágyi Erzsébet Gimiben a szóbeli felvételin?\nEgy hét múlva megyek felvételizni magyarból! Humán vagy általános szakra szeretnék bejutni! A sulit első helyen jelöltem. Sajnos a központim nem lett valami fényes, nagyon kellene egy jó szóbeli!\nHogyan zajlik a szóbeli?\nMire figyeljek?\nTippek, trükkök, taktikák? :)\nElőre is köszönöm!\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -8577,7 +8577,7 @@
           }
         },
         {
-          "name": "hungarian:63:language.hungarian:gpt 4",
+          "name": "hungarian:63:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -8587,7 +8587,7 @@
           },
           "prompting_state": {
             "prompt": "Mire figyeljünk az egri Szilágyi Erzsébet Gimiben a szóbeli felvételin?\nEgy hét múlva megyek felvételizni magyarból! Humán vagy általános szakra szeretnék bejutni! A sulit első helyen jelöltem. Sajnos a központim nem lett valami fényes, nagyon kellene egy jó szóbeli!\nHogyan zajlik a szóbeli?\nMire figyeljek?\nTippek, trükkök, taktikák? :)\nElőre is köszönöm!\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -8657,7 +8657,7 @@
             "text": "How does applying to another undergraduate program with a degree work? How are extra points calculated? Let's say I have a BA in Computer Science and I want to apply for Psychology. How is the scoring done? How are the extra points calculated? This is what interests me the most. I have an advanced level history matriculation exam and 2 B2 language certificates, how many points would that be worth? I mean, in terms of extra points. Thank you in advance for the answers!",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNem lesz elég a pontod, mivel az emeltet nem számoltját és csak az egyik nyelvvizsgát veszik figyelembe, ha mind a 2 b2....maximum is ha 5 diplomád van és egy nyelvvizsgád 425 pontod lesz...20 ponttal kevesebb mint az utolsó embernek akiket felvettek erre a szakra...\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nDiplomával egy másik alapszakra jelentkezés hogy történik? Többletpontot hogy számítanak?\nTegyük fel, hogy van egy informatikus diplomám(BA) és szeretnék jelentkezni pszichológiára.\nA pontszámítás hogy történik? A többletpontokat hogy számítják? Ez érdekelne a a legjobban.\nVan egy emelt történelem érettségim és 2 db B2-es nyelvvizsgám, az így mennyi pontot érne? Mármint többletpontban ugye.\nElőre is köszönöm a válaszokat!\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -8712,7 +8712,7 @@
           }
         },
         {
-          "name": "hungarian:64:language.hungarian:gpt 4",
+          "name": "hungarian:64:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -8722,7 +8722,7 @@
           },
           "prompting_state": {
             "prompt": "Diplomával egy másik alapszakra jelentkezés hogy történik? Többletpontot hogy számítanak?\nTegyük fel, hogy van egy informatikus diplomám(BA) és szeretnék jelentkezni pszichológiára.\nA pontszámítás hogy történik? A többletpontokat hogy számítják? Ez érdekelne a a legjobban.\nVan egy emelt történelem érettségim és 2 db B2-es nyelvvizsgám, az így mennyi pontot érne? Mármint többletpontban ugye.\nElőre is köszönöm a válaszokat!\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -8792,7 +8792,7 @@
             "text": "How does the university admission scoring system work based on higher education diplomas? I've tried to look it up, but I just can't figure it out. I already have a diploma with a grade of excellent, and I would like to start another undergraduate program. If I understand correctly, my previous diploma is worth 400 points. But if the admission threshold for the program I'm applying to was 435 last year, and I have no additional points (I have a language certificate, but that's it), then do I stand a chance of getting in? My high school grades alone wouldn't be enough, so I'd like to calculate based on my diploma. Also, where can I find which programs accept this type of scoring? I couldn't find it in the program descriptions. Thank you if you can help.",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNeked NEM 400 pontod van, hanem több, mert azt írod, hogy van nyelvvizsgád. Az szinte minden helyen ér többletpontot. Az ELTE pszichológia szakára amúgy nem számítanak be BA diplomát, csak MA-t, szóval ez alapból kiesik.\nHa középfokú a nyelvvizsgád, akkor esetleg egy felsőfokút nem tudnál tenni? Mert arra a Pázmány 50 pontot ad, így 400+50 az már elég lehet (éppen hogy, mert tavaly 449 volt nappalin, levelezőn meg 448), a Károli meg 40-et, de az mondjuk kevéske lesz valószínűleg.\nA Pázmány esztergomi képzési helyén 426 volt tavaly (levelezőn), így az még akkor is esélyes, ha csak középfokú nyelvvizsgád van, szóval ezt is simán megpróbálhatod.\nIlletve most először indul pszichológia szak a Pannon egyetemen (Veszprémben), ott is kapsz 400 pontot a jeles diplomára, meg a középfokúra 25 pontot (felsőfokúra 50-et), és esélyes, hogy sokkal alacsonyabb lesz itt a ponthatár, mint a népszerűbb egyetemeken.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nHogyan működik egyetemi felvételinél pontszámítás felsőoktatási oklevél alapján?\nPróbáltam utánanézni, de egyszerűen nem tudok kiigazodni. Nekem van már egy ötös diplomám és szeretnék elkezdeni egy másik alapszakot. Az előző diploma ha jól értem 400 pontot ér. De ha a szakra, amire jelentkeznék a tavalyi ponthatár 435 volt, és többletpontom nincs (nyelvvizsgám van, de ennyi) akkor nincs esélyem bekerülni?\nAz érettségi pontjaim alapján nem lenne meg, ezért szeretném oklevél alapján számolni.\nIlletve hol találom meg, hogy mely szakokon fogadják el ezt a fajta pontszámítást? A szakleírásban nem találtam.\nKöszönöm, ha tudtok segíteni.\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -8847,7 +8847,7 @@
           }
         },
         {
-          "name": "hungarian:65:language.hungarian:gpt 4",
+          "name": "hungarian:65:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -8857,7 +8857,7 @@
           },
           "prompting_state": {
             "prompt": "Hogyan működik egyetemi felvételinél pontszámítás felsőoktatási oklevél alapján?\nPróbáltam utánanézni, de egyszerűen nem tudok kiigazodni. Nekem van már egy ötös diplomám és szeretnék elkezdeni egy másik alapszakot. Az előző diploma ha jól értem 400 pontot ér. De ha a szakra, amire jelentkeznék a tavalyi ponthatár 435 volt, és többletpontom nincs (nyelvvizsgám van, de ennyi) akkor nincs esélyem bekerülni?\nAz érettségi pontjaim alapján nem lenne meg, ezért szeretném oklevél alapján számolni.\nIlletve hol találom meg, hogy mely szakokon fogadják el ezt a fajta pontszámítást? A szakleírásban nem találtam.\nKöszönöm, ha tudtok segíteni.\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -8927,7 +8927,7 @@
             "text": "What made the Golden Team so successful, and why were they considered the best team in the world for years?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nTöbb összetevője is volt a sikerüknek. Elsősorban a játékosok egyéni képességei emelték azt a csapatot a csúcsra. Volt 3-4 kimagasló képességű zseni és 8-10, európai szinten jónak mondható játékosunk. Akkoriban a magyar edzők a világ élvonalába tartoztak, a legnagyobb csapatok kispadján ültek és ez nyilván meg is látszott a magyar játékosok képzettségén. Végül, de nem utolsó sorban, az aranycsapat alkalmazta először az akkoriban forradalminak számító WM-játékrendszert, ami taktikailag is a többi csapat fölé helyezte őket.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nAz aranycsapat mitől volt olyan sikeres és miért volt évekig egyértelműen a világ legjobb csapata?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -8982,7 +8982,7 @@
           }
         },
         {
-          "name": "hungarian:66:language.hungarian:gpt 4",
+          "name": "hungarian:66:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -8992,7 +8992,7 @@
           },
           "prompting_state": {
             "prompt": "Az aranycsapat mitől volt olyan sikeres és miért volt évekig egyértelműen a világ legjobb csapata?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -9062,7 +9062,7 @@
             "text": "Can women also retire early at the age of 60?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nNincs olyan, hogy előnyugdíj. Öregségi nyugdíjra az jogosult, aki betölti a rá irányadó öregségi nyugdíjkorhatárt, jelenleg ez 65 év. Ezen kívül, kortól függetlenül mehet az a nő, aki 40 év jogosultsági idővel rendelkezik. Akkor mehet 60 évesen, ha ez a 40 év megven, elméletileg lehetséges. De ez nem előnyugdíj, ez teljes jogú öregségi nyugdíj.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\n60 évesen a nők is elmehetnek előnyugdíjba?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -9117,7 +9117,7 @@
           }
         },
         {
-          "name": "hungarian:67:language.hungarian:gpt 4",
+          "name": "hungarian:67:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -9127,7 +9127,7 @@
           },
           "prompting_state": {
             "prompt": "60 évesen a nők is elmehetnek előnyugdíjba?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -9197,7 +9197,7 @@
             "text": "When is it customary to eat lentils on New Year's Eve, before or after midnight?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nA szokásnak az az eredete, hogy AMIT ÚJÉV NAPJÁN csinálsz, az vonatkozik az egész évre. A lencse a pénzt jelenti (ahogy a rizs és a mák is), ezért ezeket eszik újév napján, hogy egész évben sok pénze legyen nekik.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMikor szokás a lencsét enni szilveszterkor, éjfél előtt vagy után?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -9252,7 +9252,7 @@
           }
         },
         {
-          "name": "hungarian:68:language.hungarian:gpt 4",
+          "name": "hungarian:68:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -9262,7 +9262,7 @@
           },
           "prompting_state": {
             "prompt": "Mikor szokás a lencsét enni szilveszterkor, éjfél előtt vagy után?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -9332,7 +9332,7 @@
             "text": "According to tradition, what happens to someone who is not sprinkled with water?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nA leszakított virág elhervad, nem hoz termést. A locsolkodás a pogány világban gyökerezik. A természet megújulását kb. az egész Óvilágban ünnepelték valamilyen formában. (Erre települt rá a kereszténység, a népek ősi tavaszünnepével összevonva Jézus feltámadását.) Tavasszal vízzel öntözködve megtisztultak az emberek (férfiak is), a nőknél a férfiak általi öntözés biztosította a bőséges gyerekáldást. (Utalva a szexre.) Ha egy asszonynak nem született gyereke, azt nagyon lenézték, így minden lány álma az volt, hogy férjhez menetele után majd sok gyereke születik. Így ha nem öntözték meg, akkor úgy gondolta, hogy terméketlen lesz, azaz elhervad, megöregszik gyerekek nélkül.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA hagyomány szerint mi történik azzal, akit nem locsolnak meg?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -9387,7 +9387,7 @@
           }
         },
         {
-          "name": "hungarian:69:language.hungarian:gpt 4",
+          "name": "hungarian:69:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -9397,7 +9397,7 @@
           },
           "prompting_state": {
             "prompt": "A hagyomány szerint mi történik azzal, akit nem locsolnak meg?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -9467,7 +9467,7 @@
             "text": "What taxes apply to cars?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nEgyszeri (átíráskor):\n- Vagyonszerzési illeték\n- Eredetiség vizsgálat\nRendszeres:\n- Gépjárműadó (személyautónál teljesítményadó, teherautónál súlyadó)\n- KGFB\n- Műszaki vizsga\n- Cégautóadó (céges tulajdonú személyautóknál)\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMilyen adók vannak az autókra?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -9522,7 +9522,7 @@
           }
         },
         {
-          "name": "hungarian:70:language.hungarian:gpt 4",
+          "name": "hungarian:70:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -9532,7 +9532,7 @@
           },
           "prompting_state": {
             "prompt": "Milyen adók vannak az autókra?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -9602,7 +9602,7 @@
             "text": "Does the President of the Republic always stay at the Sándor Palace? I understand there is also a Presidential residence on Sváb Hill. Where does the President reside on a permanent basis? And why is there a need for two residences?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nÁllandó jelleggel nem tartózkodik sehol. Mindig ott van, ahol épp dolga van. Egyrészt az elnöki hivatallal elég sok külföldi diplomáciai utazás is jár, amikor egy delegációval más országba utazik, de Magyarországon belül is elég sokat szoktak az elnökök utazni. Ahogy már írták is, a Sándor Palota az elnök munkahelye, itt üzemel a Köztársasági Elnöki Hivatal (KEH). Itt van az irodája, ide jár be dolgozni, itt dolgozik a stábja, itt fogadja a hivatalos ügyekben hozzá érkezőket (külföldi delegációk, Magyarországra akkreditált nagykövetek, diplomaták, magyar kormány tisztviselők, egyéb okból vendégül látott közéleti szereplők, stb). A Béla király úti Köztársasági Köztársasági Elnöki rezidencia az elnök lakhelye. Itt él a családjával, ide jár haza a munkájából. Miután megválasztják elnöknek, ide költözik át a korábbi otthonából. Erre azért van szükség, mert ez a ház úgy lett kialakítva, hogy az elnök és családjának otthona mellett megfelelően tudják biztosítani a folyamatos őrzést biztosító testőrség, autó konvoj és egyéb az elnöki tisztséggel járó szükségletet is, ami egy hétköznapi lakásban, de még családi házban sem lenne könnyen kivitelezhető, pláne hosszú távon.\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA Köztársasági elnök mindig a Sándor-palotában tartózkodik? Úgy tudom, hogy a Sváb-hegyen is van egy Köztársasági elnöki rezidencia. Melyik helyen tartózkodik állandó jelleggel? Illetve minek van szükség kettő rezidenciára?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -9657,7 +9657,7 @@
           }
         },
         {
-          "name": "hungarian:71:language.hungarian:gpt 4",
+          "name": "hungarian:71:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -9667,7 +9667,7 @@
           },
           "prompting_state": {
             "prompt": "A Köztársasági elnök mindig a Sándor-palotában tartózkodik? Úgy tudom, hogy a Sváb-hegyen is van egy Köztársasági elnöki rezidencia. Melyik helyen tartózkodik állandó jelleggel? Illetve minek van szükség kettő rezidenciára?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -9737,7 +9737,7 @@
             "text": "What is the difference between a national holiday and a state holiday?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\n\"A magyar jogrendszer megkülönbözteti a nemzeti ünnepet, az állami ünnepet, valamint a többi munkaszüneti napot. Magyarországon két nemzeti és egy állami (és egyben nemzeti) ünnep van, amelyek egyben munkaszüneti napok is. A többi munkaszüneti nap többnyire egyházi ünnepekhez, illetve jeles történelmi eseményekhez köthető. Ezeken felül vannak törvényben rögzített nemzeti emléknapok is, amelyek valamely tragikus vagy örömteli történelmi eseményre való emlékezésre szolgálnak, de nem munkaszüneti napok.\"\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMi a különbség a nemzeti és az állami ünnep között?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -9792,7 +9792,7 @@
           }
         },
         {
-          "name": "hungarian:72:language.hungarian:gpt 4",
+          "name": "hungarian:72:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -9802,7 +9802,7 @@
           },
           "prompting_state": {
             "prompt": "Mi a különbség a nemzeti és az állami ünnep között?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -9872,7 +9872,7 @@
             "text": "Do dirt roads legally qualify as public roads?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nAz attól függ... ha az adott parcella \"közepén\" van, akkor tulajdonjogilag a parcella tulajdonosáé, ha két parcella között akkor az önkormányzaté, vagy az államé. Erdő esetében a művelőútra leginkább az első eset vonatkozik. Akármelyik is, ha más terület megközelítése is azon történik akkor többnyire közforgalomnak megnyitott magánút, de NEM kell feltétlenül kitáblázni! Sorompóval csak akkor zárhatja el, ha azzal nem akadályozza más terület megközelítését (azaz ha csak abból az irányból közelíthető meg más erdőrészlet/parcella/tanya stb., akkor köteles szolgalmi jogot biztosítani nekik a közlekedésre).\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nA földes utak jogilag közterületnek minősülnek?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -9927,7 +9927,7 @@
           }
         },
         {
-          "name": "hungarian:73:language.hungarian:gpt 4",
+          "name": "hungarian:73:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -9937,7 +9937,7 @@
           },
           "prompting_state": {
             "prompt": "A földes utak jogilag közterületnek minősülnek?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
@@ -10007,7 +10007,7 @@
             "text": "What is the difference between the Cardinal, Rákóczi cottage cheese, and the Caprice of a Lady desserts?",
             "prompting_state": {
               "prompt": "Your task is to translate a question from Hungarian into English. You will be given the Hungarian answer as the context.\n\nHere is the Hungarian answer. Use it as the context to make the translation sound natural in the English:\nKardinális . leveles tészta tojás hab gyümölcs darabok. A Rákoczi túrós . linzer tészta túró lekvár, tojás hab. Női szeszély. linzer tészta,lekvár tojás hab és hab tetején dió van\n\nTranslate the following question from Hungarian into English. Make it sound as natural as possible:\nMi a különbség a Kardinális, Rákóczi túrós és a Női szeszély között?\n",
-              "model_name": "GPT 4",
+              "model_name": "GPT 4 Turbo",
               "max_output_tokens": 2048,
               "other_state": {},
               "model": "gpt-4-0125-preview",
@@ -10062,7 +10062,7 @@
           }
         },
         {
-          "name": "hungarian:74:language.hungarian:gpt 4",
+          "name": "hungarian:74:language.hungarian:gpt 4 turbo",
           "language": "Hungarian",
           "translations": {
             "Hungarian": {
@@ -10072,7 +10072,7 @@
           },
           "prompting_state": {
             "prompt": "Mi a különbség a Kardinális, Rákóczi túrós és a Női szeszély között?\n",
-            "model_name": "GPT 4",
+            "model_name": "GPT 4 Turbo",
             "max_output_tokens": 2048,
             "other_state": {},
             "model": "gpt-4-0125-preview",
