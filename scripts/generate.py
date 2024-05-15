@@ -27,7 +27,7 @@ def _prompt_model_and_store(  # noqa: PLR0913
     *,
     rng: random.Random | None = None,
     overwrite_existing_answers: bool = False,
-) -> None:
+) -> bool:
     q_translation = question.translations[q_translation_language]
 
     cleaned_question = q_translation.get_text()
@@ -83,7 +83,7 @@ def _prompt_model_and_store(  # noqa: PLR0913
     assert len(existing_answers) <= 1
 
     if not overwrite_existing_answers and len(existing_answers) == 1:
-        return
+        return False
 
     response, prompting_state = model.prompt(prompt)
     prompting_state.other_state.update(other_state)
@@ -95,6 +95,8 @@ def _prompt_model_and_store(  # noqa: PLR0913
 
     answer = Answer.make(answer_name, prompting_state, a_language, response)
     dataset.add_or_update_answer(question, answer)
+
+    return True
 
 
 def prompt_model_and_store(  # noqa: PLR0913
@@ -147,9 +149,7 @@ def prompt_model_and_store(  # noqa: PLR0913
                 minute_start = time.time()
                 prompts_in_minute = 0
 
-            prompts_in_minute += 1
-
-        _prompt_model_and_store(
+        model_prompted = _prompt_model_and_store(
             model,
             question,
             prompt_template,
@@ -160,6 +160,9 @@ def prompt_model_and_store(  # noqa: PLR0913
             rng=rng,
             overwrite_existing_answers=overwrite_existing_answers,
         )
+
+        if model_prompted and prompts_in_minute is not None:
+            prompts_in_minute += 1
 
         if save_progress:
             dataset.to_file()
