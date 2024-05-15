@@ -2,26 +2,24 @@ from __future__ import annotations
 
 import dataclasses
 import logging
+import os
 import time
-from typing import TYPE_CHECKING, Any
+from typing import Any, Iterable
 
-import google.generativeai as genai
 import numpy as np
+import vertexai
 from dotenv import load_dotenv
-from google.ai.generativelanguage import Candidate
 from pydantic.dataclasses import dataclass
+from vertexai.preview.generative_models import FinishReason, GenerationResponse, GenerativeModel
 
 from models.model import Model, ModelName, PromptingState
-
-if TYPE_CHECKING:
-    from google.generativeai.types import GenerateContentResponse
 
 logger = logging.getLogger(__name__)
 
 
 @dataclass(frozen=True)
 class GooglePromptingState(PromptingState):
-    model: str = "gemini-1.5-pro-latest"
+    model: str = "gemini-1.5-pro-preview-0514"
     temperature: float = 1.0
 
 
@@ -48,7 +46,11 @@ class GoogleModel(Model):
             raise ValueError(msg)
 
         load_dotenv()
-        self.model = genai.GenerativeModel(self.model_version)
+        vertexai.init(
+            project=os.environ["PROJECT_ID"],
+            location=os.environ["REGION"],
+        )
+        self.model = GenerativeModel(self.model_version)
         parameters = {
             "temperature": temperature,
         }
@@ -68,7 +70,7 @@ class GoogleModel(Model):
     @property
     def model_version(self) -> str:
         if self.name == ModelName.GEMINI_1_5_PRO:
-            return "gemini-1.5-pro-latest"
+            return "gemini-1.5-pro-preview-0514"
         raise NotImplementedError
 
     def _get_prompting_state(self, prompt: str) -> GooglePromptingState:
@@ -83,7 +85,7 @@ class GoogleModel(Model):
     def _call_generate_content_api(
         self,
         prompting_state: GooglePromptingState,
-    ) -> GenerateContentResponse:
+    ) -> GenerationResponse:
         if prompting_state.prompt is None:
             msg = "Prompt cannot be None"
             raise ValueError(msg)
@@ -91,14 +93,19 @@ class GoogleModel(Model):
         max_attempts = 5
         for attempt_num in range(1, max_attempts + 1):
             try:
-                return self.model.generate_content(
+                response = self.model.generate_content(
                     prompting_state.prompt,
-                    generation_config=genai.GenerationConfig(
-                        candidate_count=1,
-                        max_output_tokens=prompting_state.max_output_tokens,
-                        temperature=prompting_state.temperature,
-                    ),
+                    generation_config={
+                        "candidate_count": 1,
+                        "max_output_tokens": prompting_state.max_output_tokens,
+                        "temperature": prompting_state.temperature,
+                    },
                 )
+                if isinstance(response, Iterable):
+                    n_responses = len(list(response))
+                    msg = f"Response is iterable of size {n_responses}, expected single response"
+                    raise TypeError(msg)
+                return response
             except RuntimeError:  # noqa: PERF203
                 wait_time = np.power(2, attempt_num)
                 logger.exception(
@@ -122,10 +129,10 @@ class GoogleModel(Model):
             raise RuntimeError(msg)
         candidate = response.candidates[0]
 
-        if candidate.finish_reason == Candidate.FinishReason.MAX_TOKENS:
+        if candidate.finish_reason == FinishReason.MAX_TOKENS:
             logger.warning("Exceeded max tokens %d", self.max_output_tokens)
-        elif candidate.finish_reason == Candidate.FinishReason.STOP:
-            msg = f"Unhandled stop reason {candidate.finish_reason.name}"
+        elif candidate.finish_reason != FinishReason.STOP:
+            msg = f"Unhandled stop reason {candidate.finish_reason.name} in response: {response}"
             raise RuntimeError(msg)
 
         if len(candidate.content.parts) > 1:
