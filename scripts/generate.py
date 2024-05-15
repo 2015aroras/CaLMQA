@@ -5,6 +5,7 @@ import dataclasses
 import itertools
 import random
 import re
+import time
 from pathlib import Path
 
 from mlfqa.dataset import Answer, Dataset, Question, QuestionType
@@ -107,6 +108,7 @@ def prompt_model_and_store(  # noqa: PLR0913
     *,
     overwrite_existing_answers: bool = False,
     save_progress: bool = True,
+    max_prompts_per_minute: int | None = None,
 ) -> None:
     desc = f"Prompting {model.name} with {len(questions)} questions"
     if q_translation_langs is not None:
@@ -119,6 +121,9 @@ def prompt_model_and_store(  # noqa: PLR0913
 
     rng = random.Random(RAG_RNG_SEED) if rag_num_documents > 0 else None
 
+    minute_start = time.time() if max_prompts_per_minute else None
+    prompts_in_minute = 0 if max_prompts_per_minute else None
+
     for question, q_lang, a_lang in tqdm(
         itertools.product(questions, q_trans_langs, answer_target_langs),
         desc=desc,
@@ -129,6 +134,20 @@ def prompt_model_and_store(  # noqa: PLR0913
             continue
 
         a_language = a_lang or q_language
+
+        # Limit max number of prompts within a minutes
+        if max_prompts_per_minute is not None:
+            assert minute_start is not None
+            assert prompts_in_minute is not None
+
+            if prompts_in_minute >= max_prompts_per_minute:
+                time_to_minute_end = max(minute_start + 60 - time.time(), 0)
+                time.sleep(time_to_minute_end)
+
+                minute_start = time.time()
+                prompts_in_minute = 0
+
+            prompts_in_minute += 1
 
         _prompt_model_and_store(
             model,
@@ -159,6 +178,7 @@ def generate(  # noqa: PLR0913
     rag_num_documents: int,
     *,
     max_questions: int | None = None,
+    max_prompts_per_minute: int | None = None,
     overwrite_answers: bool = False,
     save_progress: bool = True,
     **kwargs,
@@ -183,6 +203,7 @@ def generate(  # noqa: PLR0913
         q_translation_langs,
         overwrite_existing_answers=overwrite_answers,
         save_progress=save_progress,
+        max_prompts_per_minute=max_prompts_per_minute,
     )
 
     dataset.to_file()
@@ -243,6 +264,12 @@ def main() -> None:
         type=int,
         default=None,
         help="If set, limits the number of questions to the number provided. Used for testing.",
+    )
+    parser.add_argument(
+        "--max_prompts_per_minute",
+        type=int,
+        default=None,
+        help="If set, limits the number of times the model is prompted per minute.",
     )
     parser.add_argument(
         "--overwrite",
@@ -323,6 +350,7 @@ def main() -> None:
         dataset_save_path=args.dataset_save_path or args.dataset_load_path,
         max_output_tokens=args.max_tokens,
         max_questions=args.max_questions,
+        max_prompts_per_minute=args.max_prompts_per_minute,
         overwrite_answers=args.overwrite,
         gpus=args.gpus,
         rag_num_documents=args.rag_num_documents,
