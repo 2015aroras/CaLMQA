@@ -120,7 +120,6 @@ class GoogleModel(Model):
 
     def prompt(self, prompt: str) -> tuple[str, PromptingState]:
         prompting_state = self._get_prompting_state(prompt)
-        prompt_params_dict: dict[str, Any] = dataclasses.asdict(prompting_state)
 
         response = self._call_generate_content_api(prompting_state)
 
@@ -131,6 +130,9 @@ class GoogleModel(Model):
 
         if candidate.finish_reason == FinishReason.MAX_TOKENS:
             logger.warning("Exceeded max tokens %d", self.max_output_tokens)
+        elif candidate.finish_reason == FinishReason.OTHER:
+            logger.warning("Finish reason OTHER, returning empty string response")
+            return "", prompting_state
         elif candidate.finish_reason != FinishReason.STOP:
             msg = f"Unhandled stop reason {candidate.finish_reason.name} in response: {response}"
             raise RuntimeError(msg)
@@ -142,7 +144,7 @@ class GoogleModel(Model):
             msg = "Response has no parts"
             raise RuntimeError(msg)
         output = candidate.content.parts[0].text
-        return output, GooglePromptingState(**prompt_params_dict)
+        return output, prompting_state
 
     def prompt_and_next_token_probs(
         self,
