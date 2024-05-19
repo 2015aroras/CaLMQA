@@ -146,8 +146,10 @@ def prompt_model_and_store(  # noqa: PLR0913
                 time_to_minute_end = max(minute_start + 60 - time.time(), 0)
                 time.sleep(time_to_minute_end)
 
-                minute_start = time.time()
                 prompts_in_minute = 0
+
+            if prompts_in_minute == 0:
+                minute_start = time.time()
 
         model_prompted = _prompt_model_and_store(
             model,
