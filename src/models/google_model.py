@@ -130,12 +130,9 @@ class GoogleModel(Model):
 
         if candidate.finish_reason == FinishReason.MAX_TOKENS:
             logger.warning("Exceeded max tokens %d", self.max_output_tokens)
-        elif candidate.finish_reason == FinishReason.OTHER:
-            logger.warning("Finish reason OTHER, returning empty string response")
-            return "", prompting_state
         elif candidate.finish_reason != FinishReason.STOP:
-            msg = f"Unhandled stop reason {candidate.finish_reason.name} in response: {response}"
-            raise RuntimeError(msg)
+            logger.warning("Finish reason %s encountered",  candidate.finish_reason.name)
+            return candidate.finish_reason.name, prompting_state
 
         if len(candidate.content.parts) > 1:
             msg = f"Response has {len(candidate.content.parts)} parts"
