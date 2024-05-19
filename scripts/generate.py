@@ -230,14 +230,14 @@ def main() -> None:
     )
     parser.add_argument(
         "--answer_langs",
-        type=Language,
+        type=lambda lang: Language(lang.title()),
         nargs="+",
         default=None,
         help="Languages in which an answer should be generated. If not set, the answer will be generated in the same language as the question",  # noqa: E501
     )
     parser.add_argument(
         "--question_langs",
-        type=Language,
+        type=lambda lang: Language(lang.title()),
         nargs="+",
         default=None,
         help="If set, only prompts with questions originally of the given languages",
@@ -246,7 +246,7 @@ def main() -> None:
     q_translation_langs_group = parser.add_mutually_exclusive_group()
     q_translation_langs_group.add_argument(
         "--q_translation_langs",
-        type=Language,
+        type=lambda lang: Language(lang.title()),
         nargs="+",
         default=None,
         help="Only prompts using translations of questions in the given languages. If not set, untranslated questions are used.",  # noqa: E501
