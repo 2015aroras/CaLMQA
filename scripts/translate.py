@@ -4,11 +4,10 @@ import argparse
 import re
 from pathlib import Path
 
-from models.model import Model, ModelName, PromptingState
-from tqdm import tqdm
-
 from mlfqa.dataset import AnswerTranslation, Dataset, Question, QuestionTranslation, QuestionType
 from mlfqa.language import Language
+from models.model import Model, ModelName, PromptingState
+from tqdm import tqdm
 
 
 def _translate_text(
@@ -51,16 +50,16 @@ def _translate_and_store(  # noqa: PLR0913
     translate_answers: bool = False,
     overwrite_existing: bool = False,
     save_progress: bool = True,
+    answer_models: list[ModelName] | None = None,
 ) -> None:
     for question in tqdm(questions, desc=f"Translating using {model.name}"):
         q_language = question.language
 
         for target_lang in target_langs:
-            if target_lang == q_language:
-                continue
-
-            if translate_questions and (
-                target_lang not in question.translations or overwrite_existing
+            if (
+                translate_questions
+                and target_lang != q_language
+                and (target_lang not in question.translations or overwrite_existing)
             ):
                 # Use human answer as context
                 human_answers = dataset.get_answers(
@@ -95,6 +94,12 @@ def _translate_and_store(  # noqa: PLR0913
             answers = dataset.get_answers(question)
             for answer in answers:
                 if target_lang in answer.translations and not overwrite_existing:
+                    continue
+
+                if (
+                    answer_models is not None
+                    and answer.prompting_state.model_name not in answer_models
+                ):
                     continue
 
                 translated_answer, prompting_state = _translate_text(
@@ -133,6 +138,7 @@ def translate(  # noqa: PLR0913
     translate_answers: bool = False,
     overwrite_existing: bool = False,
     save_progress: bool = True,
+    answer_models: list[ModelName] | None = None,
     **kwargs,
 ) -> None:
     dataset = Dataset.from_file(dataset_load_path)
@@ -155,6 +161,7 @@ def translate(  # noqa: PLR0913
         translate_answers=translate_answers,
         overwrite_existing=overwrite_existing,
         save_progress=save_progress,
+        answer_models=answer_models,
     )
 
     dataset.to_file()
@@ -176,7 +183,7 @@ def main() -> None:
         "-p",
         "--prompt_file",
         type=str,
-        default="data/prompts/translation-prompt.txt",
+        default=None,
         help="Path of file containing the translation prompt",
     )
 
@@ -207,6 +214,13 @@ def main() -> None:
         nargs="+",
         default=[QuestionType.NONE],
         help="Filters the type of questions for which the model is prompted",
+    )
+    parser.add_argument(
+        "--answer_models",
+        default=None,
+        type=lambda name: ModelName[name],
+        nargs="+",
+        help="If set, only translate answers from these models",
     )
     parser.add_argument(
         "--max_questions",
@@ -272,6 +286,7 @@ def main() -> None:
         translate_questions=args.type == "questions",
         translate_answers=args.type == "answers",
         overwrite_existing=args.overwrite,
+        answer_models=args.answer_models,
         temperature=args.temperature,
     )
 
