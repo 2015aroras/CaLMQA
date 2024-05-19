@@ -42,7 +42,7 @@ def _get_lang_code(language: Language) -> str:
 
 def _get_model_code(model_name: ModelName) -> str:
     model_name_to_code = {
-        ModelName.GPT_4: "gpt4turbo",
+        ModelName.GPT_4_TURBO: "gpt4turbo",
         ModelName.MIXTRAL_8X22B_API: "mixtral22b",
         ModelName.MIXTRAL_8X22B_TOGETHER: "mixtral22b",
         ModelName.CLAUDE_OPUS: "claude",
