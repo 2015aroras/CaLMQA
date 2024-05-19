@@ -31,7 +31,8 @@ class TransformersPromptParameters(PromptingState):
     model_input_dict: dict | None = None
     output_scores: bool = False
     return_dict_in_generate: bool = False
-    temperature: float = 1.0
+    temperature: float | None = None
+    do_sample: bool = False
 
 
 class TransformersModel(Model):
@@ -147,6 +148,7 @@ class TransformersModel(Model):
             **model_input_dict,
             max_new_tokens=prompting_state.max_output_tokens,
             temperature=prompting_state.temperature,
+            do_sample=prompting_state.do_sample,
         )
 
 
@@ -432,7 +434,9 @@ class Aya101Model(TransformersModel):
         max_output_tokens: int,
         gpus: list[int] | None = None,
         max_mem_per_gpu: int | None = None,
-        temperature: float = 1.0,
+        temperature: float | None = None,
+        *,
+        do_sample: bool = False,
         **kwargs,
     ) -> None:
         super().__init__(name, max_output_tokens, **kwargs)
@@ -443,6 +447,7 @@ class Aya101Model(TransformersModel):
             max_output_tokens=max_output_tokens,
             model_path="CohereForAI/aya-101",
             temperature=temperature,
+            do_sample=do_sample,
         )
         self.tokenizer = self._init_tokenizer()
         self.model = self._init_model(gpus, max_mem_per_gpu)
@@ -478,7 +483,11 @@ class Aya101Model(TransformersModel):
 
         prompting_state = self._get_prompting_state(prompt)
 
-        outputs = self._call_generate(self.model, prompting_state, model_input_dict={"inputs": encoding})
+        outputs = self._call_generate(
+            self.model,
+            prompting_state,
+            model_input_dict={"inputs": encoding},
+        )
         return self.tokenizer.decode(outputs[0], skip_special_tokens=True), prompting_state
 
     def prompt_and_next_token_probs(
