@@ -12,11 +12,14 @@ description = "Multilingual Long-Form QA"
 readme = "README.md"
 dependencies = [
   "accelerate",
+  "anthropic",
+  "mistralai",
   "openai",
   "pydantic",
   "python-dotenv",
   "torch",
   "transformers",
+  "vertexai",
 ]
 
 [tool.ruff]
