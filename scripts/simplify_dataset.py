@@ -10,9 +10,14 @@ from mlfqa.language import Language
 
 def simplify_cultural_dataset(
     dataset: Dataset,
+    *,
+    human_eval_only: bool = False,
 ) -> list[dict]:
     simplified_dataset = []
     for question in dataset.get_questions(QuestionType.CULTURAL):
+        if human_eval_only and not question.human_evaluated:
+            continue
+
         answers = dataset.get_answers(question)
         for answer in answers:
             if answer.prompting_state.other_state.get("is_multiple_choice") is True:
@@ -22,6 +27,7 @@ def simplify_cultural_dataset(
                 "lang": question.language.value,
                 "type": "culture-specific",
                 "question": question.untranslated.get_text(),
+                "question_english": question.translations[Language.English].get_text(),
                 "answer": answer.untranslated.text,
                 "model": answer.prompting_state.model_name.value,
                 "id": answer.name.replace(str(answer.language).lower(), ""),
@@ -33,9 +39,14 @@ def simplify_cultural_dataset(
 
 def simplify_non_cultural_dataset(
     dataset: Dataset,
+    *,
+    human_eval_only: bool = False,
 ) -> list[dict]:
     simplified_dataset = []
     for question in dataset.get_questions(QuestionType.NON_CULTURAL):
+        if human_eval_only and not question.human_evaluated:
+            continue
+
         answers = dataset.get_answers(question)
         for answer in answers:
             if answer.prompting_state.other_state.get("is_multiple_choice") is True:
@@ -45,6 +56,7 @@ def simplify_non_cultural_dataset(
                 "lang": answer.language.value,
                 "type": "culture-agnostic",
                 "question": question.translations[answer.language].get_text(),
+                "question_english": question.translations[Language.English].get_text(),
                 "answer": answer.untranslated.text,
                 "model": answer.prompting_state.model_name.value,
                 "id": answer.name.replace(str(answer.language).lower(), ""),
@@ -59,13 +71,17 @@ def simplify_dataset(
     output_path: str,
     *,
     language: Language | None,
+    human_eval_only: bool = False,
 ) -> None:
     simplified_dataset = []
     for dataset_path in dataset_paths:
         dataset = Dataset.from_file(dataset_path)
 
-        simplified_dataset += simplify_cultural_dataset(dataset)
-        simplified_dataset += simplify_non_cultural_dataset(dataset)
+        simplified_dataset += simplify_cultural_dataset(dataset, human_eval_only=human_eval_only)
+        simplified_dataset += simplify_non_cultural_dataset(
+            dataset,
+            human_eval_only=human_eval_only,
+        )
 
         del dataset
 
@@ -100,6 +116,11 @@ def main() -> None:
         required=True,
         help="Path of save simplified dataset",
     )
+    parser.add_argument(
+        "--human_eval_only",
+        action="store_true",
+        help="If set, retrieve only questions that were used in the human eval",
+    )
 
     args = parser.parse_args()
 
@@ -107,6 +128,7 @@ def main() -> None:
         args.dataset_paths,
         args.output_path,
         language=args.language,
+        human_eval_only=args.human_eval_only,
     )
 
 
