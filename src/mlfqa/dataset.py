@@ -41,6 +41,23 @@ logger = logging.getLogger(__name__)
 DEFAULT_PROMPT = "[question]"
 
 
+class Category(enum.Enum):
+    EDUCATION_AND_CAREER = "education (and career)"
+    LAW_AND_GOVERNANCE = "law and governance"
+    POLITICS_AND_SOCIETY = "politics (and society)"
+    GEOGRAPHY_AND_CLIMATE = "geography and climate"
+    TECHNOLOGY = "technology"
+    ECONOMY_AND_INDUSTRY = "economy and industry"
+    MEDIA_AND_ENTERTAINMENT = "media and entertainment"
+    FOOD_AND_DRINK = "food and drinks"
+    EVERYDAY_LIFE = "everyday life"
+    HISTORY = "history"
+    LANGUAGE_ART_AND_LITERATURE = "language, art and literature"
+    RELIGION_AND_BELIEFS = "religion and beliefs"
+    TRADITIONS_CUSTOMS_AND_HOLIDAYS = "traditions/customs and holidays"
+    OTHERS = "others"
+
+
 class QuestionType(enum.IntFlag):
     NONE = 0
     CULTURAL = enum.auto()
@@ -69,6 +86,7 @@ class Question:
     translations: dict[Language, QuestionTranslation]
     url: str | None = PyField(default=None)
     human_evaluated: bool = PyField(default=False)
+    category: Category | None = PyField(default=None)
 
     @property
     def untranslated(self) -> QuestionTranslation:
@@ -241,6 +259,20 @@ class Dataset:
         ]
 
         return rng.sample(candidate_answers, num_answers)
+
+    def add_or_update_question(
+        self,
+        question: Question,
+    ) -> None:
+        matching_entries = [entry for entry in self.entries if entry.question.name == question.name]
+        assert len(matching_entries) <= 1, f"More than 1 entry for question {question.name}"
+
+        if len(matching_entries) == 1:
+            entry = matching_entries[0]
+            entry.question = copy.deepcopy(question)
+        else:
+            entry = Dataset.Entry(copy.deepcopy(question), [])
+            self.entries.append(entry)
 
     def add_or_update_question_translation(
         self,
