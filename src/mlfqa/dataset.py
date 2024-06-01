@@ -42,20 +42,18 @@ DEFAULT_PROMPT = "[question]"
 
 
 class Category(enum.Enum):
-    EDUCATION_AND_CAREER = "education (and career)"
-    LAW_AND_GOVERNANCE = "law and governance"
-    POLITICS_AND_SOCIETY = "politics (and society)"
-    GEOGRAPHY_AND_CLIMATE = "geography and climate"
+    EDUCATION_AND_CAREER = "education and career"
+    GOVERNANCE_AND_SOCIETY = "governance and society"
+    GEOGRAPHY_TOURISM_AND_CLIMATE = "geography, tourism, and climate"
     TECHNOLOGY = "technology"
     ECONOMY_AND_INDUSTRY = "economy and industry"
     MEDIA_AND_ENTERTAINMENT = "media and entertainment"
     FOOD_AND_DRINK = "food and drinks"
-    EVERYDAY_LIFE = "everyday life"
     HISTORY = "history"
     LANGUAGE_ART_AND_LITERATURE = "language, art and literature"
-    RELIGION_AND_BELIEFS = "religion and beliefs"
-    TRADITIONS_CUSTOMS_AND_HOLIDAYS = "traditions/customs and holidays"
-    OTHERS = "others"
+    RELIGION_BELIEFS_CUSTOMS_TRADITIONS = "religion, beliefs, customs, and traditions"
+    HEALTH_AND_WELLNESS = "health and wellness"
+    OTHER = "other"
 
 
 class QuestionType(enum.IntFlag):
