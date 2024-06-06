@@ -5,9 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 dynamic = ["version"]
 name = "mlfqa"
-authors = [
-  {name = "Shane Arora", email = "shane.arora@utexas.edu"},
-]
+authors = []
 description = "Multilingual Long-Form QA"
 readme = "README.md"
 dependencies = [
