@@ -180,6 +180,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:0:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Abagore mu mico y'ikirundi ni abantu baciye bugufi bafise isoni, badashobora kuvuga menshi , ndetse bafise n'inguvu nke.\n-Nico gituma mu Kirundi babita abapfasoni, bisigura gupfana isoni. Ibi bisigura ko kubera isoni bemera bagapfa.\n-Hari ibikorwa vyinshi bidakorwa n'abagore guko iyo abikoze baca bamubona nk'uwataye indero.\n-Kuvuza ingoma ni igikorwa gisaba inguvu umwete no gudatinya, rero abagore ntabwo bashobora kuzivuza."
+            },
+            "English": {
+              "language": "English",
+              "text": "-In Burundian culture, women are people who are submissive, who cannot talk alot and weak.\n-That's why they are called \"Abapfasoni\" in Kirundi, to mean \"someone who can even accept to die in some situations, instead  of fear of being shameless.\n-There are some activities that cannot be done by wome because one does them, she will be considered as a shameless woman.\n-Playing drums is one of the activities that require strength, assiduity and not being afraid of a lof of spectators, that's why women cannot play them."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki bitemewe ko umukenyezi avuza ingoma?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -346,6 +366,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:1:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Abavyinyi b'imico kama bavyina bafise nkinzo n'icumu mu maboko.\n-Bavyina bambaye impuzu zifise amabara y'ingwe kandi nabo nta birato bavyinana.\n-Iyo bariko baravyina umukuru wabo aguma avuga amajambo yo kwihaya ico bamaze n'akamaro bamariye ihiguhu.\n-Baba bafise inkinzo n'icumu mu kwiyereka.\n-Iyo nkinzo hamwe n'icumu ni ibimenyetso vy'uko bahari kandi biteguriye kurwanya umwansi kugira barwanire igihugu."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Traditional dancers dance with a wooden shield and a spear in their hands.\n-They dance wearing cloths which look like the tiger's skin and they do not waer shoes either.\n-When they are dancing, their chief keeps saying wonderful words about they they do and thier contribution to the country.\n-All of them have a spear and a wooden shield while showing up.\n-The spear and the shield is a symbol showing that they are their ready to fight against the country's enemy and defend their nation."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Inkinzo z'abavyinyi b'imico kama zisigura iki?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -514,6 +554,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:2:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Guca imanza no Kwatira ni umuco wa kera cane mu Burundi.\n-Kuri kira mutumba mu Burundi hariho abacamanza bacaguwe batunganiriza abantu bafitaniye amatati.\n-Kubera abantu bapfa abandi bakimuka, abashingantahe baratira abashingantahe bashasha.\n-Kugira ngo yatirwe babanza kuraba ko ari umugabo w'ijambo kandi yitwara neza.\n-Maze abisavye bakabona ko abikwiye, baramutuma guhwanya inzoga nyinshi z'impeke n'urwarwa bakaza kurya no kunywa maze bakamwatira nawe akaba mubazohora baca imanza."
+            },
+            "English": {
+              "language": "English",
+              "text": "-To settle disputes and to invest is Burundian culture which started a long ago.\n-In each village in Burundi there are chosen people who settle disputes or any other problem between people.\n-Since some people die and others relocate, the chosen people could invest new ones.\n-In order to be invested, You have to request it and  they could observe the behavior and thepersonality of the person who requested it.\n-If they see that he deserves it, they could tell him to prepare lots of banana wine and sorghum wine. They could come, eat and drink and then invest him and then be part of those in charge of settling problems in the community."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umugenzo wo kwatira usigura iki?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -680,6 +740,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:3:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Mu gukora urwara utegerezwa kuba ufise ibitoke bihiye.\n-Uba kandi warondeye ivyatsi bita isovu bakoresha mu kugana ibitoke.\n-Uca ufata ibitoke wabitonoye ukabishira mu bwato maze ugaca ushiramwo rya sovu maze ugakanya.\n-Iyo amake ya mbere abonetse, baca bayakuramwo maze bagaca basukamwo amazi bagakanya bakaja kuvanga ayo make mu nyuma.\n-Mu nyuma baca basya amasaka maze iryo fu bakarishira muri ayo make mu ntango maze bagatara iyo nzoga imisi ibiri canke itatu bakabona kunywa urwo rwarwa ruhiye."
+            },
+            "English": {
+              "language": "English",
+              "text": "-To make banana beer, you mush have ripe bananas.\n-You also have to search a kind of grass used to make banana beer.\n-Then you take the peeled ripe bananas, you put them in the trough, you put the grass and then start mashing them.\n-When the first drink is obtained, they remove it and then put water  and continue mashing. They mix both drink after finishing.\n-After this, they grind sorghum and mix the flour with that drink in a big pot and then put that drink near the fire for two or three days. After those days, it's already a nice banana beer ready to be drunk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Urwarwa rukorwa gute?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -848,6 +928,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:4:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Abategetsi benshi barakunda intambo z'abahebera guko ni intambo zerekana umuco.\n-Abakozi ba Leta barakunda intambo z'abahebera guko zihayagiza ubutwari n'ubwira bw'abategetsi ndetse n'abatamvyi ubwabo.\n-Abakozi ba Leta  barakunda intambo z'abahebera kubera zituma zirakundisha abenegihugu igihugu cabo.\n-Abakozi ba Leta barakunda intambo z'abahebera guko harimwo ukwivuga amazina navyo biraryohera amatwi."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Government employees love the tradition of Hebera drama dance because the dance shows the culture of the country.\n-Government employees love the tradition of Hebera drama dance because this dance honors the assiduity and comitment of the civil servants.\n-Government employees love the tradition of Hebera drama dance because the speeches in it makes people love their country.\n-Government employees love the tradition of Hebera drama dance because there is a kind of poetry in it and this sounds good in our ears."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kuberiki imigenzo y'abahebera ikundwa cane nabantu ba Leta?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -1014,6 +1114,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:5:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Igihugu cacu kiri mu bihugu bibiri bikenye cane kw'isi.\n-Igihugu cacu kirafise Nickel nyinshi ariko ntabwo iratangura kwimbwa.\n-Igihugu cacu nta mahinguriro gifise, abantu benshi nta buzi bafise.\n-Igihugu cacu gikenera ibintu vyinshi hanze maze hagaca habura amahera mva makungu yo kubigura kubera ata bintu vyinshi igihugu gishora hanze."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Our country is among the last two poorest country in the world.\n-Our country has got a lot of Nickel but it is not mined yet.\n-Our country does not have industries and a lot of people do not have jobs.\n-Our country needs a lot of importation but does not have foreign currency in order to import what is needed because in Burundi, we do not have many things to export."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kuberiki Igihugu cacu kidatera imbere nk'ibindi?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -1182,6 +1302,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:6:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Inzara mu gihugu ni nyinshi cane kubera uburyo buke bw'abarimye guko bagira uburimyi bwo kwibeshaho gusa.\n-Inzara ni nyinshi guko hari ibiza vy'ibirere bigenda nabi, harimwo n'urubura.\n-Hamwe imvura iragwa ari nyinshi,imivo igatwara ibitegwa ahandi ikanka kugwa ibitegwa bikuma bigatuma ibiterwa vyononekara.\n-Abarimyi batera imbuto uko bashatse, nta bahinga babafasha kugira babereke ingene borima kijambere.                                                                "
+            },
+            "English": {
+              "language": "English",
+              "text": "-There is much hunger in our country because of loss cultivators' income because it's the subsistence economy.\n-There is much hunger because of scourges of climatic hazards.including hail.\n-When it rains, it rains heavily and floods destroy plants and when it stops, ten or more days can pass.\n-Cultivators sow whichever seeds they want and however they want. There are no agriculture engineers to help them to how to do."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kuberiki inzara ari nyinshi mu gihugu cacu?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -1348,6 +1488,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:7:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Mu mico y'abarundi ndetse no mu bindi bihugu vyinshi nkwano iratangwa.\n-Umugabo mu mico y'ikirundi ni umuntu akomeye yerekana ko afise ubushobozi busumba cane ubw'u umugore.\n-Umugabo mu mico y'Ikirundi ni umuntu akeneye kwubahwa cane, ndetse iyo agiye kuramukanya ku bavyeyi b'umugore wiwe afatwa neza cane.\n-Inkwano itangwa kugira haboneke ca cubahiro kiboeneke canke umugabo yerekane ko atari umuntu asanzwe."
+            },
+            "English": {
+              "language": "English",
+              "text": "-In Burundian culture and even in some other countries' cultures, the pride price is given.\n-In Burundian culture, a man is a very strong and respected person, and he must show that he has power and strength superior to that of a woman.\n-In Burundian culture a man is a person that deserves honor and respect, and when he goes to his parents in-law he is highly valued.\n-The pride price is given in order to seek the honor from that family because if one didn't give it, he is taken as a simple person and decreases."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kuberiki batanga inkwano ku muryango w'umukobwa imbere yuko uwo mukobwa agenda kwabirwa?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -1516,6 +1676,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:8:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Uburundi bufise ibiyaga bine ariko Tanganyika nico gikundwa cane.\n-Ikiyaga Tanganyika ni ikiyaga kini cane kandi kiryoshe kuraba.\n-Ikiyaga Tanganyika gifise amafi aryoshe cane.\n-I Bujumbura harashushe, rero iyo ugiye ku kiyaga Tanganyika bituma wumva akayaga keza cane gatuma umubiri uruhuka neza."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Burundi has around four lakes but Lake Tanganyika is the most loved one.\n-Lake Tanganyika is large and long, it is pleasing to see.\n-Lake Tanganyika has a lot delicious fishes.\n-In Bujumbura city, the weather is hot and when you go Lake Tanganyika, you relax a lot because of fresh air."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki Tanganyika arico kiyaga gikundwa cane n'abanyagihugu kuva kera?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -1683,6 +1863,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:9:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Isoko nkuru ya Bujumbura yahiye mu mwaka wa 2013.\n-Yari isoko nini cane kandi y'akamaro cane guko niyo yari nkuru mu gihugu.\n-Uko yahiye bivugwa ko ari umuriro wadutse indani maze kubera hariyo ibintu vyinshi bikozwe muri plastic uca uba mwinshi binanirana ko uzima.\n-Ariko icatangaje abantu benshi ni uko iriko irasha batabaje maze bagasanga imodoka za kizimya moto zose siho ziri ndetse izihari nazo ata mazi zari zifise, izindi nazo ntizari zipompye bituma isoko isha iratokombera guko n izaje zaratevye cane."
+            },
+            "English": {
+              "language": "English",
+              "text": "-The Bujumbura biggest market was burnt in 2013.\n-It was a very large and important market because it was the first in our country.\n-The way it was burnt, it is said that the fire erupted from inside and since there were lots of plastic made materials, it became uncontrollable.\n-But what amazed a lot of people is that when the market started burning, people cried out for help but the fire extinguishers were not around, those which were not far from that market had no water, others were not inflated.This caused the market to be burnt completely because the ones which came later were too late."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Isoko rya Bujumbura ryahiye gute?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -1849,6 +2049,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:10:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Kuba umukiristu canke umwisilamu bivana naho wakuriye, inyigisho wumva wemera cane ndetse n'umuryango wawe.\n-Abakiristu ni benshi ugereranije n'aba islamu kubera Islam yaje mu nyuma.\n-Abakiristu ni benshi gusumba aba islamu kubera benshi baremeza ko Yesu yabayeho, yapfiriye ivyaba vy'abari mw'isi kandi yaduze mw'ijuru akaba kandi azogaruka kujana abamwizeye.\n-Abakiristu barasumba abisilamu kubera dufatiye muri Afrika yo musi ya Sahara, abaje gucira inzira abakoloni, ni aba misiyonere kandi abo nabo bari abakirisu."
+            },
+            "English": {
+              "language": "English",
+              "text": "-To be a christian or a muslim depends on where you grww up, doctrine you were taught and ypur family.\n-There are lots christians in Burundi comparing to muslims because Islam came after Christianism.\n-In Burundi, christians are than muslims because most of them agree that Jesus lived, died for the sins of the whole world and went back to heaven and will come back to taje those who believe in him.                                                                                                                                                                                                                                                                                                               \n-The number of Christians is more than that of muslims because in in Sub-saharan Africa, those who came to make a way for colonizers are the missionaries and those were christians."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki abakirisu ari benshi gose kurusha aba isilamu?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -2033,6 +2253,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:11:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Mw'idarapo y'igihugu harimwo inyenyeri zitatu zifise amasonga atandatu atandatu ziri hagati.\n-Izo nyenyeri ziratukura indani ariko inyuma zikikujwe n'ibara ry'urwatsi rubisi kandi zirafise ico zisigura.\n-Izo nyenyeri uko ari zitatu zisigura icivugo c'Uburundi naco kigizwe n'amajambo atatu nyene: Ubumwe, Ibikorwa, Amajambere.\n-Hari kandi abavuga ko izo nyenyeri zidasigura ivyo ahubwo zifigura ubwoko butatu buri mu Burundi: Abahutu, Abatusti, Abatwa."
+            },
+            "English": {
+              "language": "English",
+              "text": "-In the Burundi National Flag, there are three six-pointed stars  in the middle of the flag.\n-Those stars are red but the borders are green borders and they have what they mean.\n-Those three stars correspond to the motto of Burundi: Unity, Work and Progress.\n-However, some people say that those three stars do not represent the motto of Burundi, rather they represent the three ethnic groups: Hutu, Tutsi and Twa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kw'idarapo ry' igihugu inyenyeri zitatu ziri hagati zisigura iki?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -2199,6 +2439,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:12:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Abana bakiri bato baraheba amashure cane mu Burundi ku mvo zitandukanye.\n-Bamwe baheba kubera abavyeyi babo ari abakene bataba bashoboye no kubagurira udukoresho tw'ishure,bagahitamwo guheba kugira barondere amahera.\n-Abandi baraheba kubera usanga bavuye kw'ishure ata bifungurwa bihari muhira bigatuma babura umwete wo kwiga.\n-Abandi bana baraheba kubera nta kamaro babona mu mashure guko mu kibano babona huzuye ibishomeri bitagira akazi."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Young children drop out of school in Burundi for different reasons.\n-Some drop out of school because their parents are poor and are unable to provide them with school materials, so they opt to drop out of school in order to make little money.\n-Others drop out because when they go home from school, there is no food at home, this demotivates them.\n-Other children drop out because they do not see any point in going to school since they see thousands of jobless young people in their neighborhood."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sigura igituma abana batoyi baheba amashure?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -2367,6 +2627,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:13:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Umuziki wo mu Burundi ntutera imbere kandi imvo ntawuzizi neza ariko zimwe muri zo zirahari.\n-Abakiri bato bafise ingabire zo mu muziki ntabwo baronka amahera kugira bashikire indoto zabo, guko ubukene buri mu Burundi burarenze.\n-Kubera ko ubu umuziki umenyekanira cane kuri youtube, ico ni ikibazo guko interenete mu Burundi imeze nabi ndetse no kugura MB birazimvye kubera ubukene.\n-Abamaze kumenyekana mu muziki ntabwo bitaho abakiri hasi kugira babamenyekanishe."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Burundian music is not developing because of some reasons among which some are the following.\n-Young talent people do not have money in order to achive their dream, because there is extreme poverty in Burundi.\n-Since the current music gets to be known on youtube and other platforms, this is a big problem because the internet in Burundi si not good and to buy MBs is expensive because of the poverty of young people.\n-The artists who already got the success in music do not care about young artists who have not got the success yet."
+            }
+          },
+          "prompting_state": {
+            "prompt": "kuberiki umuziki w'abarundi udatera imbere?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -2533,6 +2813,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:14:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Imbere yuko imiti y'ikizungu iza abarundi bari bazi kuvura ingwara zitandukanye.\n-Uko urunganwe rwaza rurakwirikirana niko bagenda bigishanya ingene iyo miti ikoreshwa.\n-Mu kuvura malaria hari amababi y'ibiti bakoresha ugaca ukira.\n-Bafata amababi y'umubirizi canke ya kinine bakayavuguta mu mazi maze bakayanywa maze bagakira ingwara zitandukanye."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Before the arrival of these chemical medicines, Burundian knew how to treat different diseases.\n-They were teaching each other generation to generation how these medicines are used.\n-To treat malaria, there were leaves of some trees that were used and one could recover very well.\n-They used to take some leaves of traditional quinquina or another tree called vernonia, pound them and put them into water and squeez. They then drunk that mixture and one could get well from different diseases."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute bavura Ingwara ya malaria bakoresheje imiti y'ikirundi?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -2701,6 +3001,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:15:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Umutekano mu Burundi ni muke guko nta minsi ibiri ihera ata bantu banyurujwe canke bishwe.\n-Hari ibibazo vya politike guko iyo umuntu atari mu mugambwe uri ku butegetsi aca afatwa nk'umwansi w'igihugu ndetse umwanya n'umwanya ashobora kwicwa.\n-Hari abanyepolitike bamwe bangajwe, bari hanze kandi Leta ntikeneye ibiganiro nabo. Abo rero baguma bategura ibitero.\n-Leta nta kintu ikora kiboneka kugira inywanishe abarundi bari mu migambwe itandukanye. "
+            },
+            "English": {
+              "language": "English",
+              "text": "-There is little security in Burundi because two days rarey pass without hearing that found dead or kidnapped.\n-There are lots of political problems because if someone is in another political party other than the ruling party, they is immediately considered as the ennemy of the country, and any time, they can be killed.\n-There are many politicians who fled the country and the government does not want to negotiate with them. Those are sometimes organising attacks against the government.\n-The government is not doing anything to reconcile Burundians who are  from different political parties."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kuberiki umutekano ari muke cane mu gihugu?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -2867,6 +3187,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:16:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Mu Burundi abavyeyi mu guhanura abana babicisha mu migani n'ibitito bigatuma abana batibagira ivyo bigishijwe.\n-Imigani imwe n'ibitito vyaba biteye ubwoba abana bavyumvise bakagira ubwoba bigatuma batinya gukora ivyo bumvise muri yo.\n-Kenshi imigani n'ibitito abavyeyi babibwira abana mw'ijoro bateramye barindiye ko ibifungurwa bisha.\n-Ubu ivy'imigenzo nticigishwa cane ndetse n'imico iguma itakara kubera ivyo twita itera mbere.\n-Abavyeyi nta mwanya bagifise wo kubibwira abana babo, ndetse n'abana ubu bateramira ku mboneshakure canke kumaterefone."
+            },
+            "English": {
+              "language": "English",
+              "text": "-In order to advise kids in Burundi, parents could do it through fables and proverbs and this could help kids not to forget what they were taught.\n-Some proverbs and fables were frightening and when kids hear them, they could be frightened and this could stay in theirmemory and they could not dare do what they heard in the fables.\n-Most of the time, parents used to tell fables and proverbs to the kids at night while waiting for food to be ready.\n-Nowadays, tradition is no longer well followed because even culture is regressing because of what is called civilisation and development.\n-Parents no longer have time to tell fables to their children; and children pass their time watching TV or phones."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute umuvyeyi yohanura umwana ntiyibagire imigenzo?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -3035,6 +3375,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:17:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Mu migenzo y'abarundi ubugeni bupangwa n'umuryango w'umuhungu ni nawo utanga inkwano.\n-Umuryango w'umugore bategura inzoga zo kuja gutwikurura no gusohora umugeni  kugira bizokunde ko ashobora kuzoja gutembera iwabo guko urwo rubanza rudakozwe ntabwo ashobora kuzoja iwabo.\n-Kera urubanza rwo gutwikurura rwaba ubugeni bwaraye bubaye hanyuma gusohora naho bikaba haheze nk'ukwezi.\n-Ariko ubu zose ziba ku musi w'ubugeni nyene kugira birinde gusesagura ndetse kandi ngo bubahirize n'ivyo bita iterambere.\n-Kugira ubugeni bube nuko baba barangije kwiyandikisha muri Leta hanyuma bagaca baca mu rusengero guhezagirwa (guko benshi ni abakiristu mu Burundi) guko udasenga nta bantu baza kuguherekeza.\n-Bamwe baja mu rusengero hanyuma muhira naho bagasigara barategura ibinyobwa baza gushika banywa amajambo akavugwa urubanza rukagenda neza."
+            },
+            "English": {
+              "language": "English",
+              "text": "-In Burundian tradition, marriage is organized mostly by the family of the bridegroom, that's the family which also pays the dowry.\n-The family of the bride could prepare drinks for the ceremonies called 'Ugutwikurura' and 'Ugusohora umugeni' so as it can be possible for the newly married woman to go to visit her family because if that ceremony of \"Ugusohora umugeni\" is not done, she cannot go to visit her family.\n-In the past, the ceremony of 'Ugutwikurura' could be done one day after the marriage and then 'Ugusohora' could be done after around a month.\n-But nowadays, both are done on the wedding day in order to avoid lots of expenses and it is also due to what they call civilisation.\n-In order to celebrate marriage, the first thing was to get registered in the Civil Status office, and then go to the church for blessings(for christians since it's the majority in Burundi) because if you are a pagan, many people cannot come to your wedding.\n-Some could follow the couple to church and others stay at home preparing drinks for the day; speeches could be held and the ceremony could pass very well."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute ubugeni bupangwa mu migenzo y'abarundi?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -3202,6 +3562,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:18:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu Burundi hari ikibazo gikomeye cane c'ukubura akazi. Urwaruka rwinshi, abize ama kaminuza n'abatayize, bose nta kazi bafise guko ni igihugu kirakenye, kandi nta n'amahinguriro gifise. Abamara amashure ni benshi cane kand Leta ntaco iriko irakora kugira n'imiburiburi igabanye igitigiri kirenze c'abarondezi b'akazi. Nico gituma baca bahitamwo kuja mu bindi bihugu kugira barabe ko boronka n'ubwo gucumbisha kumwe kubera ata cizere bafise ca kazoza. Ubu rero ababishoboye bahejeje kaminuza canke amashure yisumbuye baca barondera ingene bava mu gihugu kugira barabe ko bova muri ubwo buruhe bwo kubura ico bakora, n'ubukene burenze urugero."
+            },
+            "English": {
+              "language": "English",
+              "text": "In Burundi, there is a major problem of not getting jobs. Many young people, university graduates and those who only finished secondary schools do not have jobs because the country is poor, and there are no industries in Burundi. A lot of people finish their studies and the government is not doing anything to solve this problem in order to at least decrease the huge number of jobless. That's why they choose to leave the counry and go to other countries in order to get how to make ends meet because they do not have any hope for their future. Nowadays, those who are capable of getting how to travel, after finishing either their secondary studies or university stuidies, they seek how to escape the tiredness of doing nothing and that overwhelming poverty."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki abakiri bato benshi ubu bipfuza kuva mu gihugu baje hanze?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -3368,6 +3748,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:19:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Abarundi barasenga imbere y'uko abavugabutumwa b'abazungu baza.\n-Abarundi barizera ko hariho Imana imwe yitwa Mushobora vyose, Imana rurema imbere yuko abavugabutumwa b'abazungu baza.\n-Abarundi bari bafise umuhuza abahuza n'Imana, uwo yitwa Kiranga.\n-Niwe abarundi bacako bakamubwira ivyo bipfuza maze Imana ikabibaha.\n-Barashikanira Imana ibinyobwa, ibitungwa biciye mu guterekera.\n-Hariho n'umugirwa wo \"kubandwa\" ari vyo twokwita nko kubatizwa muri ibi bihe.  "
+            },
+            "English": {
+              "language": "English",
+              "text": "-Burundians prayed to God before the arrival of white missionaries.\n-Burundians believed in one God, the Mighty God, the Creator of everything before missionaries came.\n-Burundians had a mediator between them and God whose name was KIRANGA.\n-People could consult the mediator and tell him what they need and God could accomplish it.\n-Burundians could could offer drinks, food and sheep or a he-goat thRough the traditional culture called \"uguterekera\"(offering to God).\n-Burundians had a culture called \"Ukubandwa\" which is considered nowadays as baptism."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Abazungu bataraza kutwigisha ijambo ry’Imana, abarundi barasenga? Basenga gute?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -3552,6 +3952,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:20:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Iyo umuntu afise abana yitavye Imana ntiyaca ahambwa ubwo nyene nk'abandi bantu bapfuye badasize abana.\n-Mu kumuhamba abana bose babanza gukorana kugira bose bamusezere ubwa nyuma.\n-Bahejeje kumufuba barataha muhira bagakora umugirwa wo kunywa amata.\n-Inyuma y'ibi, baca bamara indwi ata gikorwa bakora, ico gihe bacita ukugandara.\n-Iyo ndwi iheze bagira umugirwa wo guca ku mazi, barahwanya inzoga abantu bakaza ijambo rikavugwa kugira namba yapfuye hari abantu afitiye ideni babivuge, ndetse kumbure n'umwana yoba yaravyaye hanze bakaba bari batamuzi abonekane.\n-Umuntu yaba atavuze ikibazo afise kuri uwo munsi ntabwo yongera kuzogaruka kugorana mu nyuma.\n-Inyuma y'umwaka haraba urubanza rwa nyuma rwitwa \"Kuruvako\" aho bahwanya inzoga nyinshi maze abantu benshi bakaza amajambo akavugwa; abana biwe bose baba barashonesheje impuzu zisa bambara uwo munsi, uwo munsi havugwa vyinshi guko nirwo rwari urubanza rwa nyuma."
+            },
+            "English": {
+              "language": "English",
+              "text": "-When a man who has got children dies, he could not be buried immediately the one who does not have children.\n-Before burying him, all his children had to gather in order to give him the last farewell.\n-After the burial, they all had to go home to perform a custom called \"Ugukaraba\"(to wash hands).\n-After this, they had to spend a whole week without doing anything.This is called \"Ukugandara\"(mourning).\n-After a week, they had to do what we call \"Uguca ku mazi\"(lifting of partial mourning). They could prepare drinks and a lot of people had to come and speeches were held to inquire if the deceased was in debt or maybe he had an unknown child out of the wedlock.\n-If any person had not said their concerns on that day, it was finished. He could no longer come back to bother the family.\n-After one year, the last ceremony had to be prepared. It is called \"Ukuruvako\"(Permanent lifting of mourning). A lot of drinks were prepared and speeches were held. All his children had to wear clothes with the same color. Speeches were held and everything had to be talked about since it was the last ceremony.                                      "
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umuntu afise abana iyo yitavye Imana, mu migenzo y’abarundi asezerwa gute gushika ku rubanza rwa nyuma?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -3718,6 +4138,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:21:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu mico y'ikirundi, carazira ko umukobwa aja kwabirwa atakiri isugi. Iyo yagiye kwabirwa umugabo agasanga umukobwa atakiri isugu, yarashobora kumwirukana burundi, canke abiwabo bakazana inzoga bagasaba ikigongwe. Ikibazo gikomeye caba mu gihe umukobwa atwaye inda akiri iwabo. Ico gihe waba ari nk'umuvumo n'isoni muri urwo rugo, ndetse abavyeyi baca bacika ibimaramare, abantu bakabatwenga ko batareze neza. Icaca gikorwa umuryango warakorana bagafata uwo mukobwa yatwaye inda bakaja kumuta mu kinogo citwa igisumanyenzi akazopfirayo."
+            },
+            "English": {
+              "language": "English",
+              "text": "In Burundian culture, it was shameful for a woman to get married if she is not virgin.If she gets married and the bridegroom finds out that she is no longer virgin, he had the right to repudiate her, or her family could come to apologize with some gifts to offer to the bridegroom. The major problem could happen if a woman gets pregnant while she is still at her parents' home. That was a curse and shame to the family. Neighbors could laugh at them because they did not educate well their child. So, the whole family had to gather and take that pregnant girl to throw her in a deep sinkhole called 'IGISUMANYENZI' in kirundi and had to die there."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umukobwa kera avyariye igitwarire iwabo vyagenda gute?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -3902,6 +4342,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:22:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu muco w'ikirundi carazira ko umukobwa asazira iwabo guko yaba ahombeje umurynago. Rero iyo umukobwa yakuze hanyuma hakabura umusore amushima kugira bubakane, vyaba ari ikibazo gikomeye ndetse umuryango waramaramara cane. Iyo rero babonye ageze mu myaka usanga atawoba akimushima, umuryango warakorana maze bagafata uwo mukobwa bakamujana mw'ishamba kure ahantu hariyo n'ibikoko vyinshi bakamwubakirayo akazu gato kitwa agahundwe, bagaca bamusigayo wenyene. Hari ibikoko vyaryana cane vyitwa Ngeni, nivyo vyaheza bikazomurirayo, bitamuriye naho yagumayo kugeza apfuye. Ntan'uwaja kumuraba canke kumuhamba. Niho havuye imvugo ku mukobwa agiye kwabirwa, aho bamubwira bati\"Urakira Ngeni\", guko yaba akize kubera yaronse umugabo. "
+            },
+            "English": {
+              "language": "English",
+              "text": "In the traditional Burundian culture, it was not accepted for a girl who is grown up to remain at her parents' home and gets old there because that was a loss and a shame to the family. So, if a girl is grown up and did not get any young man to love her, this was a serious problem and the family became ashamed. If the family sees that the daughter has reached the years when there is no man who could love her, the family had to gather and decide to take her to the farthest forest where there are ferocious animals and they built a small house for her in that forest and she was left there. There were ferocious animals known by the name of \"Ngeni\", these animals were the ones to devour her there in that forest.  If these animals do not devour her, she had to stay there till her death. No one could go there to visit or to bury her. That's why in Kirundi, if a woman gets married, they go to visit her and say \"Urakira ngeni\"(May you be saved from Ngeni) congratulating her because she is saved from those animals called Ngeni whcih could devour the unmarried ones."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umukobwa yasaziye iwabo kera vyamugendera gute?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -4069,6 +4529,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:23:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Kugandarira umwami vyamara  hagati y'indwi zitatu n'imisi 40, iyo igahera ata gikorwa na kimwe gikozwe ndetse n'abagore bakambura imiringa, bakareka kuryamana n'abagabo.\n-Umwami ntabwo yafubwa n'abantu abaribo bose, hari ubwoko bumwe bwari buvyemerewe abandi bose barinyegeza iyo ikiziga c'umwami giciye mu nzira barimwo.\n-Hari umubitsi, uwo niwe yagenda arasemerera avuga ko umwami yatanze gushika iyo nkuru ishikiriye ubwoko bw'abitwan\"Abiru\".\n-Abiru nibo baja guhamba umwami ababa bari i bwami bose baca bahunga kugeza abiru bagarutse bavuye guhamba umwami."
+            },
+            "English": {
+              "language": "English",
+              "text": "-When a king dies, the mourning period was between three weeks and 40 days. During this period, no one was allowed to do any activity and women had to unwear jewels and had to spend all the mourning time without sleeping with their husbands.\n-A king was not buried by any person and not any person could even dare follow the corpse. There was one clan which was responsible for burying kings. All other people had to hide and themselves and flee when the corpse is passing their way.\n-There was one person whose role was to widespread the bad news of the dead king. He was the one to yell saying that the king passed away till this news reaches the clan of \"Abiru\".\n-\"Abiru\" were the only people to bury a king . All people at the palace had to run away and hide themselves till the \"Abiru\" come back ."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umugirwa wo gufuba umwami wagenda gute mu Burundi?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -4235,6 +4715,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:24:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ku ntwaro z'abami nta bimenyeshamakuru vyari bihari, ariko i bwami hariho abantu bajejwe kumenyesha amakuru. Amatangazo y'ibwami kugira ashike ku banyagihugu abantu bamara iminsi bazunguruka igihugu bavuga cane bakoresheje amahembe y'inka kugira ngo abanyagihugu bose bumve amakuru y'ibwami. Hariho kandi n'uburyo bwo guhanahana amakuru vyoroshe mu buryo bw'uko umuntu yumvise amakuru atayigumizako ahubwo abwira abandi abo nabo bakabwira abandi gutyo gutyo amakuru akihuta gushika kure, maze abantu bakamenya ivyavugiwe i bwami. "
+            },
+            "English": {
+              "language": "English",
+              "text": "In the Kings' dynasty, there were no medias and newspapers/magazines. However, there were people in charge of communication at the palace. In order to transmit announcements from the palace to the citizens, there were people who used to spend days circulating in the country telling people the news from the palace using cows' horns to speak loudly in order to be heard. There were also other ways of spreading information in an easy manner that if anyone gets any news, he had to widespread it with a loud voice, and whoever else hears it does the same till the news get further and everyone gets information from the palace."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mbega ko ata bimenyeshamakuru mu Burundi vyahahoze ku ntwaro ya cami, amatangazo y'i bwami bayamenyesha gute?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -4419,6 +4919,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:25:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Abarundi baradandaza imbere y'uko abakoloni baza. \n-Nta murundi yashobora kuronka ukwoboko bwose bw'imbuto \n-Abarundi iyo bejeje baraja kurondera ivyo batarimye ahandi. \n-Abarundi baraguza ivyimuburwa bafatiye gu gaciro kavyo kubera ko ata mahera yarahari. \n-Uwufise ibigori akeneye ubushaza, yategerezwa gutanga ibigori vyinshi kugira aronke ubushaza. \n-Ukuguzanya ivyimburwa vyarabafasha kugira bashobore gufungura ivyo bipfuza \n-Vyarabafasha kugira banashobore kuronka imbuto. \n-Baranaja mu bihugu bibanyi bakazana ibirimwa badafise maze bakabizimbako ndetse bakahungukira cane."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Burundians did business before the arrival of colonizers.\n-No Burundian could get all the types of seeds.\n-When it's time to harvest, Burundians could go to seek what they did not grow.\n-Burundians could exchange their harvests by taking into consideration the value of each haverst because there was no money.\n-If someone has maize and needs peas, he had to give a lot of maize in order to get a small quantity of peas.\n-Exchanging crops helped them a lot in order to eat different types of food.\n-Exchanging crops helped them to get seeds.\n-Some Burundians could go to neighboring countries to bring crops that they do not have and this could be sold with a high value and they could get benefits."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Imbere y'uko abakoloni baza umwuga wo kudandaza wakorwa gute mu Burundi?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -4602,6 +5122,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:26:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Mu Burundi umwami yaba ari umuntu arengeye abantu, bose bitezeko vyose.\n-Iyo haje ikiza, baca bavuga ko umwami yatwaye ubwami Imana itabishaka. Bavyita umuvumo uje gusema umwami.\n-Iyo ibintu vyinshi vyononekaye, umwami yaca asabwa \"gucanira abana b'ingoma\" nawe akabikora.\n-Mu kubikora baca bamwubakira akazu gatoya bagaca bamuha inzoga irimwo ubuki akaborerwa maze bagaca bamuturirira muri ako kazu, agaheza agapfa."
+            },
+            "English": {
+              "language": "English",
+              "text": "-In Burundi, a king was considered a supernatural being, from who everything was expected.\n-If ever a calamity comes, people could say that the king was not approved by God. That was considered as a curse which must take him away.\n-If a lot of things are damaged by that calamity, a king was asked \"gucanira abana b'ingoma\"i.e. to commit a kind of suicide, and he had to do it.\n-This was done by building a very small hut and the king was given a wine made from honey. He could drink it in that hut and get drunk. When he became drunk, they could burn that hut and the king died inside."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Imvura iyo itaze mu Burundi babigenza gute kugira isubire kugwa?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -4768,6 +5308,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:27:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Mu Burundi hari imiryango myinshi cane y'abahutu, abatutsi n'abatwa.\n-Ntabwo twoyivuga yose ariko rero tuvuge imwe muri yo.\n-Muri make mu Burundi nta bwoko butatu buhari nk'uko benshi babivuga, ahubwo hari ubwoko bumwe guko bose bavuga ururimi rumwe kandi kuva kera bose barabana hamwe.\n-Imwe mu miryango y'abahutu ni iyi: Abashubi, abahanza, abazibira, abasanzu, abavumu, abahuzu, ababeya, ababingo, ababogo, abacuri, etc.\n-Imwe mu miryango y'abatutsi ni iyi: Abanyakarama, abenengwe, abakundo, abashoka, abavubikira, ababibe, abanyawanda, abanyabugufi, etc.\n-Abatwa nta miryango yabo bwite bafise, biyitirira imiryango y'abahutu n'iy'abatutisi baba barabagabiye maze bagaca bitwa uko. Nico gituma imiryango yabo uyisanga muy'abahutu n'iy'abatutsi."
+            },
+            "English": {
+              "language": "English",
+              "text": "-There are lots of Hutu, Tutsi and Twa clans.\n-We cannot list all of them because the list is exhaustive. Let's list some of them.\n-In few words, we do not have the three ethnic groups as it is said, rather we have only clans because all the so-called ethnic groups speak the same language, Kirundi and live together.\n-Some of the Hutu clans are the following: Abashubi, abahanza, abazibira, abasanzu, abavumu, abahuzu, ababeya, ababingo, ababogo, abacuri, etc.\n-Some of the Tutsi clans are the following: Abanyakarama, abenengwe, abakundo, abashoka, abavubikira, ababibe, abanyarwanda, abanyabugufi, etc.\n-The Twa did not have their own clans, they took the clans of Hutu and Tutsi who gave them a place to live and other things. That's why their  clans are found in Tutsi and Hutu clans."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni iyihe miryango y'abahutu n'abatutsi n'abatwa igize abarundi?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -4936,6 +5496,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:28:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Uburundi ubu bugizwe n'intara 18 arizo mu misi zizohindurwamwo zitanu. Kera uburundi bwari bugizwe n'intara 11.\n-Intara kama zari zagutse izindi zikaba ndende ndetse zikagira amazina bivanye n'akarere uko kazwi ku bintu ka naka.\n-Hari intara ya BUGESERA, BUYENZI, BWERU izo zari mu buraruko bw'Uburundi, MUMIRWA iyo yari ku nkengera y'iyindi yitwa IMBO  izo nazo zikaba ziri mu burengero.\n-BURAGANE na BUTUSI ziri mu bumanuko bw'igihu, MOSO na BUYOGOMA mu buseruko.\n-MUGAMBA iri mu burengero bushira ubumanuko, KIRIMIRO hagati mu gihugu."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Now, Burundi is made of 18 provinces which will be soon changed into 5 provinces. Burundia had 11 traditional regions in the past.\n-Traditional regions were vast, others were long and had names depending on the area where they were.\n-There were BUGESERA, BUYENZI, BWERU these were in the North of Burundi, MUMIRWA  was at the border of IMBO and these were in West.\n-BURAGANE and BUTUSI were in the South of the country, MOSO and BUYOGOMA in the East.\n-MUGAMBA is in the South West, KIRIMIRO is in the center of the country."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni izihe ntara kama z'uburundi? Erekana uturere tuzisangamwo n'igituma zitwa uko.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -5102,6 +5682,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:29:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Uburundi bwaratakaje intara ya Bugufi, iva ku burundi ija kuri Tanzania. Ivyo vyabaye mu mwaka wa 1919 aho habaye amasezerano bise Orts-Milner. Muri ayo masezerano abo bashingantahe babiri Orts w'Umubiligi na Milner w'umwongereza basinye ko intara ya Bugufi yokurwa ku Burundi maze igashirwa kuri Tanzania kugira bizokunde bazokore ibarabara ry itereni bita umureri rizova muri Afrika y'epfo rija muri Egiputa. Uwo mugambi ntiwakozwe ariko iyo ntara ya Bugufi ntabwo yagarutse kuburundi guko umwami w'Uburundi yari yarashengeye maze akaba yari yasubiriwe n'umuhungu wiwe nk'uko imico imiryango ivukamwo abami yavuga. Uwo mwana yasubiriye se ku ngoma maze akaba umwami mushasha yari akiri umwana ntabwo ari nawe yatwara kubera atari bwakure, ahubwo baramutwarira. Rero ntabwo yashoboye gusaba ko iyo ntara igaruka ku burundi, ndetse n' igihe yari yakuze yarinumiye. N'abamusubiriye ntaco bigeze bavuga. Nico gituma kugeza uyu munsi iyo ntara ikiri kuri Tanzaniya."
+            },
+            "English": {
+              "language": "English",
+              "text": "Burundi lost the region of Bugufi and it became attached to Tanzania. This happened in 1919 when the convention Orts-Milner was signed. In that Orts-Milner convention, those two gentlemen, Orts a Belgian and Milner a British signed that the region of Bugufi be detached from Burundi and attached to Tanzania so as to fcilitate a railway tracing from South Africa to Egypt. The project was not implemented but the region stayed attached to Tanzania because that time, the king of Burundi had passed away and was replaced by his son as it was stated by the dynasty. The child who was enthroned was too young to take decisions. He was not even the one ruling the kingdom because he was still a little child. He did not claim that region to be given back and he did not say anything by the time he had grown up. Moreover his successors did not say anything. That is why that region is still an area of Tanzania."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki intara ya Bugufi yakuwe ku Burundi ikaja kuri Tanzania?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -5270,6 +5870,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:30:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Umwana azosubirira se wiwe mu kibanza c'Ubwami ntabwo yarererwa ibwami. Ica mbere umwana azoba umwami yaba ari mu bana ba nyuma b'umwami. Ni umwana umwami yatoranya mu gihe abonye ko ariko aragera muza bukuru kugira azomusubirire. Uwo mwana rero amaze kumenyekana ko azoba umwami yaca aja kurererwa kwa inasenge, agakurirayo maze iyo amaze kuba umusore akuze, barazana igiseke kirimwo ifu umwami yahonyoyemwo kugira wa mwana nawe ahonyoremwo barabe ko banganya ikirenge, bitume umwami amenya ko igihe ciwe co gutwara caheze, maze yihe ubuki asigire ubwami umwana wiwe guko carazira nta mwami yimira ku wundi. Umwana rero yarererwa kwa inasenge kugira bamurinde urwanko rwa benewabo canke ibindi bibazo vyoshika."
+            },
+            "English": {
+              "language": "English",
+              "text": "A child who will succeed his father and be the king was not raised at the palace. First of all, a child who will become a king had to be among the last children of the king. It is a child that a king chose when he saw that he is old enough. After the prospective king who will succeed his father was known, he had to be raised at his father's aunts. He had to grow up there and when they see that he has grown up, they used to bring a basket full of flour in which the king had put his footstep so as to measure if his feet are equal to his sons' in order to knwo that his time of ruling is over, thus commit suicide which was called in Kirundi \"kwiha ubuki\"(to drink honey), so as to leave the throne to his son because it was impossible that a new king be enthroned while the previous one is still alive. The child was raised at his aunts' so as to be prevented from the hatred of his siblings or any other problem which may occur. "
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki Umwana azoba umwami atarererwa i bwami kwa se?Yarererwa he? Kubera iki?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -5436,6 +6056,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:31:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Vyavugwa ko, ndetse abarundi bose bari bazi ko umwana azoba umwami agasubirira se ku ngoma yavuka apfumbatse imbuto mu kiganza. Ariko ntivyari vyo guko mu bana ba mbere b'umwami nta n'umwe yazivukana. Umwami iyo abonye ageze muza bukuru, mw'ibanga rikomeye yaragenda akabwira abakiriza bazokwakira umwe mu bagore biwe biteze kuvyara, ati uriya mwana niyavuka ari umuhungu muzoce mumupfumbatisha imbuto mu kiganza maze muce muhamagara abantu bose baze barabe ico gitangaza c'umwana yavukanye imbuto. Babikora uko maze abantu basubira inyuma bemeye ko ari igitangaza cabaye ndetse ko uwo mwana ariwe mwami wo mu minsi iri imbere guko yavukanye imigisha yo guhezagira igihugu n'abanyagihugu."
+            },
+            "English": {
+              "language": "English",
+              "text": "People said that, even all burundians were told and knew that a child who will succeed his father and be the king was born with seeds in his hands. However, that was not true because among all the first children of the king, no one could be born with those seeds in his hands. A king, when he saw that he is old enough, he could go secretely to the traditional midwives and tell them that a male child who will be born from one of his choosen wife will be given different types of seeds that he will hold in his hands after birth, and then communicate to many people and leaders so that they come to see that miraculous child born with seeds. It was done like that and people who came to see that miracle went back having in their minds that a prospective king is already born with blessing to the country and to the citizens."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni koko umwana azoba umwami yavukana imbuto? Sigura igituma ari vyo canke atari vyo.",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -5604,6 +6244,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:32:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Kuvuza ingoma ni umuco wa kera cane mu Burundi.\n-Ingoma zifise ikibanza kinini mu mico y'abarundi, ndetse no kubirango vy'Uburundi harimwo ingoma.\n-Abavuza ingoma bazivuza bambaye imitamana ifise amabara atatu agize idarapo y'igihugu c'Uburundi.\n-Abavuza ingoma ntabwo bazivuza bambaye ibirato kubera mu muco w'Uburundi kuva na kera bazivuza atavyo bambaye, rero bavyambaye boba bahonyanze umuco.\n-Ikindi naco nuko mu gutamba ingoma baza barasimba. Rero bambaye ibirato vyotuma badasimba neza."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Playing drums is a culture that existed in Burundi long ago.\n-Drums play a big role in the culture of Burundi, even the coat of arms of Burundi, there is a drum.\n-Drumers could beat drums wearing cloths made in the three flag colors.\n-Drumers could not wear shoes because in Burundian culture, since ever, they play drums without shoes.  So if they waer shoes now, that would be violating our culture.\n-Another thing is that, while playing drums, they sometimes jump and perform some actions. So, wearing shoes could prevent them from jumping very well."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki abatamvyi b'ingoma babanza gukura ibirato imbere yo kuvuza ingoma?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -5770,6 +6430,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:33:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Abami mu Burundi bari mu migwi ine ndetse n'amazina yabo yari mu migwi ine nyene naho bari abo mu muryango umwe.\n-Umwami wa mbere yitwa (Lion), Uwa kabiri yitwa Mwezi, uwa gatatu yitwa Mutaga(Day) hanyuma uwa kane yitwa Mwambutsa.\n-Umwami yasubirira uwo wa kane yaca agaruka kwitwa izina ry'uwa mbere ariko akagira izina ry'iritazirano ridasa n'iry uwo.\n-Ayo mazina y'abami nta wuzi iyo yaje ava, ndetse n'umwami wa mbere w'Uburundi nta wuzi neza iyo yaje ava.\n-Hari abavuga ko yaje ava i Buha muri Tanzania, abandi mu Rwanda, abandi mw'ishamba, abandi mu mugina, abandi kuri Nkoma mu Burundi nyene, abandi bakavuga ko yaje ava mw'ijuru."
+            },
+            "English": {
+              "language": "English",
+              "text": "-In Burundi, kings were divided into four groups and their names were divided into four geoups though all those kings were from the same family.\n-The first king's name was Ntare(Lion), the second wa Mwezi, the third was Mutaga and the fourth was Mwambutsa.\n-There was a cycle of those four names. It means a king who replaces that fourth one  had the name of the first king, Ntare, but he had a second name different from that.\n-No one knows where these names came from and even there is no one who knows where the first king of Burundi came from.\n-Some say, he came from Buha in Tanzania, others in Rwanda, other in the forest, others in Nkoma and others say that he came from haveaven."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kuber iki umwami wa mbere w'uburundi yitwa Ntare?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -5938,6 +6618,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:34:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Imbere y'uko intwaro ya cami iza uburundi bwari bufise abatware benshi.\n-Uburundi bwatwarwa n'abantu batandukanye umwe wese akagira igice atwara ariko ntabwo umutware yitwa umwami canke umuganwa.\n-Abo batware bararwana hagati yabo kugira bagure akarere batwara. Uuwutsinze yaba atsindiye aho yafashe.\n-Umwami wa mbere aje niwe yaciye aba umutware mukuru abo bandi baca babandanya batwara utwo turere ariko bari munsi y'ubutware bwiwe.\n-Ivyo vyari ivy'akamaro cane guko vyatumye za ntambara zahora ziba hagati mu gihugu zihagarara. Baciye bunga ubumwe ahubwo baca batangura kwiyumvira ingene botera ubundi bwami kugira bagure igihugu."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Before the monarchy, Burundi had a lot of rulers.\n-Burundi was ruled by different people and everyone had his own area that he ruled but the chief was neither called a king nor a prince.\n-Those chiefs could fight one against another in order to enlarge their territory. The winner could conquer the territory.\n-When the first king came, he immediately became the chief of all those chiefs, but those chiefs to continued to rule their territory under the authority of the King.\n-This was very important because all the wars between those chiefs were stopped completetely. They became united and started thinking of attacking the neighboring kingdoms in order to enlarge the Kingdom."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Uburundi bwatwarwa gute imbere y’intwaro ya cami?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -6105,6 +6805,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:35:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Kera umuhungu ageze kwubaka ntabwo yashobora kwicagurira uwo bazobana.\n-Iyo umuhungu ageze kwubaka yaca abwira se, maze se akaja kumuronderera umugeni.\n-Se yaja kumuronderera umugeni mu bantu azi ineza ingene bitwara kugira ngo umuhungu wiwe azokwubake neza.\n-Abavyeyi nibo bavugana vyose bagatwara inkwano umuhungu atarabona uwo bazobana.\n-Umuhungu yamenya uwo bagiye kubana bamumuzaniye mu nzu mw'ijoro. Ndetse yamubona neza bararanye guko mw'ijoro ntivyari gukunda ko amubona. "
+            },
+            "English": {
+              "language": "English",
+              "text": "-In the past, a man ready for marriage could not chose a woman with whom he would live.\n-When a man is ready to get married, he had to tell it to his father and he was the one responsible for seeking his son's wife.\n-His father had to seek his prospective daughter in-law from a family he knows better how tthey behave so as to get a well mannered wife to his son.\n-Parents from side had to sit together, discuss about dowry give it before their son sees the one he will live with.\n-The man could know his his wife to be when she enters his house at night when parents bring her. Even he could see her better after having spent a night together, because he could not see her properly at night."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kera umuhungu ageze kwubaka urwiwe yabigenza gute?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -6271,6 +6991,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:36:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Mu Burundi kuva kera na rindi nta mwami yashobora gutwara uwundi akihari.\n-Nico gituma Umwami yatwara kugeza ashengeye guko nta matora yabaho.\n-Umugenzo wo kwiha ubuki nta bami bawukora guko wari utinyitse.\n-Vyavugwa ko hamaze kuboneka umwana yavukanye imbuto, umwami yaca yitegura kuzova ku ngoma uwo mwana amaze gukura.\n-Abami baratinya kwiha ubuki ari naco gituma barondera umwana azobasubirira mu myaka yabo y'Ubusaza.\n-Umwami yaratwara kugeza apfuye guko abonye ko ageze kure niho yaca arondera umwe mu bana biwe azomusubirira, maze uwo mwana avutse bakamupfumbatisha imbuto kugira bemeze abantu ko yatoranijwe kuva akiri mu nda kwa Nyina."
+            },
+            "English": {
+              "language": "English",
+              "text": "-In Burundi, no King could be enthroned while the other one is still alive.\n-That's why a king could rule till his death because there were no election during the dynasty.\n-The custom of committing suicide called in Kirundi(Kwiha ubuki) \"to give honey to yourself\" was frightening and no king ever did it.\n-It was said that after having identified the child who was born with seeds, the king had to be ready to leave the throne to his son when he grows up.                                                                                                                                                                                                                                 -Kings were afraid of committing that kind of suicide, that's why they were choosing the child who will succeed to them when they are old enough.\n-A king could rule till his death because when he saw that he is in his last years, he could look for a child who will replace him, thus when the child is born, they could put seeds in his hands to convince all people that the child was chosen since his mother's womb."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki umwami atimira ku wundi?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -6455,6 +7195,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:37:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu mico y'ikirundi abana bigishwa kuva bakiri bato ko kwica ari bibi cane.Kubera ko abana basanzwe bakunda ba nyina cane, ndetse bakaba kandi bakunda ibere, abavyeyi barabwira abana ko kwica ibikoko bizotuma ba nyina bacika amabere bigatuma badashobora kuzosubira kwonka amabere ya ba nyina kubera azoba yaracitse. Rero abana baca bakura batinya kwicwa imiserebanyi hamwe n'ibikere ndetse n'utundi dukoko duto kubera batinya ko ba nyina bogira ibibazo, maze abana bakagira indero runtu mu kwubaha ibidukikije.  "
+            },
+            "English": {
+              "language": "English",
+              "text": "In Burundian culture, kids were taught from their early age that killing is very bad. Since kids love their mothers so much, and that they also like to be breastfed, parents used to tell their kids that if they kill those animals, their mothers' breasts will be cut off and they will no longer be breastfed. So children gew up with the fear of killing lizards and frogs and even other animals because they knew that if they do it, their mother will get problems thus kids were educated in such a way by respecting things around them."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki abavyeyi babwira abana ko bishe imiserebanyi, canke ibikere nyina wabo aca acika amabere?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -6621,6 +7381,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:38:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Kera mu Burundi impuzu bambara zari impuzu ziva mu bishishwa vy'ibiti bahinguye mu buryo bari bashoboye. Izo mpuzu ntabwo zari zoroshe kuronka kubera hari ubwoko bw' ibiti bakoramwo izo mpuzu, ntabwo vyari ibiti ivyari vyo vyose. Izo mpuzu zambarwa n'abavyeyi b'abana kubera ko umuvyeyi atogenda gusa imbere y'abana yavyaye. Abana ntibambara kubera zari zigoye kuronka ariko hari imyaka umwana yageramwo bigatuma bamuha impuzu yambara. Nko kuva ku myaka 14, ni ukuvuga mu gihe umwana w'umuhungu canke w'umukobwa atanguye kugaragaza ibimenyetso vy'umuntu akuze, ico gihe abavyeyi baca bamuronderera impuzu kugira yambare guko nawe nyene atambaye vyaramutera isoni. Hari abana batambara ariko barenza ndetse iyo myaka 15 kubera mu gihe umwana yaba ataragaragaza ivyo bimenyetso vy'ubuyabaga, ntabwo yambara. Bararindira kugeza ivyo bimenyetso vy'ubuyabaga bibonetse."
+            },
+            "English": {
+              "language": "English",
+              "text": "In the past, Burundians used to wear clothes from the bark of the tree that they made according to their ability. Those clothes were gotten because there are types of trees from which those clothes were made, not from any tree. Those clothes were worn by parents because they could not walk naked before their kids. Kids could not get the clothes because it was difficult to get them, but there was the age after which the kid had to wear those clothes. Most of the time from the age of 14, i.e during the puberty, when the child has got secondary sex characteristics, from this period, parents had to give clothes to their daughter/son to wear so as not to be ashamed. But there were also other children who could not wear clothes though they were more than 15 years of age because if the child has not got the secondary sex characteristics, they could not be given clothes. They had to wait till the appearance of those characteristics."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Abana kera batangura kwambara impuzu z’ibiti bafise imyaka ingahe? Kubera iki?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -6805,6 +7585,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:39:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Uko umwaka utashe mu Burundi hariho umugigwa wo kurya umwaka.\n-Uwo musi mukuru waba inyuma y'umusi w'umuganuro.Umwami ahejeje guha umwaka abarundi bose, umugabo wese  nawe yaca ategura umusi wo gusa umwaka abo mu rugo rwiwe.\n-Mu gutanga umwaka bacumba ubugari maze agahera ku mwana mu kuru akamuha akavuga amajambo y'imihezagiro gushika ku mwana wa nyuma.\n-Vyari bibujijwe ko umwana arya mu gahinga ku mwaka mushasha mu gihe se atarabaha umwaka muhira, guko carazira kurya indya z'umwaka mushasha hanze."
+            },
+            "English": {
+              "language": "English",
+              "text": "-At the beginning of every year,there was a tradition of wishing a good year to the family through eating, which was called \"gutanga umwaka\"(to give a year) or \"Kurya umwaka\"(to eat a year\")\n-That great day had to take place after the great day of Umuganuro.After the king had finished to give a year to all Burundians, every man had to prepare a day of giving a year to his family.\n-To give a year, the family had to prepare a millet bread and the father started giving that millet bread from the elder,and said some blessing words up to the youngest in the same way.\n-It was strictly and culturally forbidden that a child eats at the neighbor's house at the new year or even after it while their father had not given them a year at home."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki cazira ko umwana arya mugahinga ku mwaka mushasha?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -6988,6 +7788,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:40:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Umusi w'umuganuro wari umusi aho umwami yipfuriza abarundi bose umwaka mwiza.\n-Abantu ibihumbi nibo baba batumiwe harimwo n'abakuru w'uturere bose mu gihugu cose guko wari umusi wo guhezagira imbuto, kugaba hamwe no kuraba ko abatware bose bakimuyoboka.\n-Hari abantu bava mu muryango w'abahirwa aari bo batangwako nk'ibimazi kuri uwo musi. Bahonyangwa n'inka ziriko ziriruka zigiye kunywa amazi guko zaba zimaze imisi zitanywa.\n-Iki cari ikimenyetso c'urukundo abo bantu bari bafitiye igihugu ndetse bakacigura kandi umuryango waba wahevye ababo bagahonyangwa n'inka wahabwa ubushimwe bwinshi buvuye i bwami."
+            },
+            "English": {
+              "language": "English",
+              "text": "-The Umuganuro event was a day on which the king had to wish a new year to all Burundians.\n-Thousands of people were invited including all chiefs throughout the country because it was a day of blessing the seeds, offering gifts and talking to all chiefs to see if they are still on his side.                                                                                                                                                                                                         \n-There were people from one clan called \"Abahirwa\" who were offered as sacrifices. They were trampled by thirsty oxen running to drink water, because they had to spend days without drinking and that was the day to drink water.\n-This was a sign of love to the country and the family whose members were trampled was given a lot of kings from the king."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki ku munsi w'umuganuro hari abantu bo mu muryango umwe bahonyorwa n'inka zishotse kunywa amazi?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -7154,6 +7974,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:41:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Imbere y'uko ubukoloni buza bakaza bazanye ubundi buryo bwo kwizera Imana, abarundi barasenga.\n-Baremera ko Imana ishoboye vyose ndetse ko iri hose ariko hariho ibibanza ikunda kubamwo kenshi\n-Iyo abarongoranye haheze imyaka myinshi bataravyara, barahwanya inzoga bakarondera n'amahera makeya bakabitwara ahantu mu misozi ku rutare rw'amabuye bagashira inzoga y'impeke, n'amahera bikagumaho.\n-Baca kandi bahashira n'ubwatsi bakazungurutsa ayo mahera n' inzoga bakahasasa neza.\n-Iyo nzoga nta muntu yatweruka kuyinywa ayibonye aho hantu, n'ayo mahera ntawayakorakora ngo ayatware, vyose vyaherera aho, maze inyuma y'ikiringo runaka baravyara umwana."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Before the arrival of colonizers with their way of believing in God, Burundians believed in God.\n-They believed that God is the Almighty and omnipresent, but there were some specific places to find God most of the time.\n-If it has been a long time since the married has not got a child they could prepare a sorghum beer and could seek some little money and could take those things to a mountain in the rocks and could put that sorghum drink and that money there.\n-They could also lie some glass there around that money and that drink.\n-Nobody could dare drink that sorghum beer or take that money. Both that money and drink could stay there till theyare completely destroyed, and after a given time, they could get a child."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kera iyo abubakanye babuze uruvyaro babigenza gute?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -7322,6 +8162,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:42:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Mu mico y'ikirundi baraha agaciro gakomeye ikintu kikiri isugi guko caba cubashwe cane.\n-Umuganuro wari umusi ukomeye cane ndetse wari ufise agaciro muvy'umuco.\n-Ibintu vyose vyakora kuri uwo musi vyategerezwa kuba bitigeze vyononekara guko niko umuco wavuga.\n-Amasaka yakoreshwa ku muganuro yaba ari isugi, nukuvuga nta nyoni nimwe yaba yarakuyeko urutete na rumwe guko hagize uruvako ntivyari gukunda ko ayo masaka akoreshwa."
+            },
+            "English": {
+              "language": "English",
+              "text": "-In Burundian culture, a high value is given to something that has not been kept untouched.\n-Umuganuro was a very important day and had a very significant role in culture.\n-All things had to be used on that day had to be new, untouched as stated by the culture.\n-The sorghum to be used for the Umuganuro event had to be untouched \"virgin\", it means that no bird could not even eat one grain from that field till the day of harvest because if a single grain is eaten, that sorghum could not be used for the Umuganuro day. "
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki amasaka azokoreshwa ku muganuro bayarinda kugira inyoni ntiziryemwo ishaka na rimwe kugeza bayakuye mu murima?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -7488,6 +8348,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:43:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu Burundi hari impanuka z'imodoka nyinshi kubera imvo zitatu zikurikira: Ikibazo c'amabarabara ari mato, ikibazo c'abatwara imodoka batazi amategeko hamwe n'ikibazo c'ibihano abakoze isanganya bahabwa. Amabarabara yo mu Burundi ni mato ariko abanyonga amamodoka umenga ntabwo bibaraba. Ntabwo baheza ngo bagende bukebuke, ivyo bica bituma bagongana n'izindi modoka canke bakagonga abagenda n'amaguru. Hari kandi igitigiri kinini c'abafise impusha zo kunyonga imodoka kandi ata mategeko yibarabara bize. Hari abaronka izo mpusha biciye mu nzira zitemewe n'amategeko maze bakagendesha imodoka batazi amategeko abagenga bigatuma amasanganya aba menshi. Iyo imodoka igonze umuntu, ibihano uwagonze umuntu ahabwa ntabwo bikwiranye n'icaha kiba cakozwe. Ivyo biratuma abagendesha imodoka bagenda uko bagomvye kubera ibihano bisanzwe, ndetse asiranse nayo ikabafasha kuriha iyo habaye isanganye. Ivyo birahungabanya agateka ka zina muntu guko abagenda n'amaguru nta mategeko y'ibarabara baba barize ariko abagendesha imodoka botegerejewe kuba bayazi neza."
+            },
+            "English": {
+              "language": "English",
+              "text": "In Burundi, there are lots of car accidents because of three reasons: The problem of narrow roads, the problem of drivers who are not aware of the road code and the problem of punishments given to those who cause accidents.  Roads in Burundi are narrow but drivers don't care. They do not drive according to the state of the roads. This causes accidents with other cars or they knock down pedestrians. There is also a large number of drivers who have the drivers' license without being aware of the road code. Some get the driver's license through illegal ways and they drive without knowing rules and regulations of driving, which causes accidents. If a vehicle hits a person, punishments to the driver who caused the accident are not as severe as the damage caused. This encourages drivers to drive however they want because punishments are simple since the insurance helps them to pay when there is an accident which occured. This violates the human rights because pedestrians did not learn the road code, but drivers are supposed to know them."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki amasanganya y’imodoka ari menshi mu gihugu?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -7656,6 +8536,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:44:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Iyo uri mumugambwe uhanganye cane n'ubutegetsi umwanya n'umwanya ushobora kunyuruzwa.\n-Iyo ufise ivyiyumviro bidahuye n'ivyo abategetsi bipfuza ushobora kunyuruzwa.\n-Iyo uvuze ibibi abatwara igihugu bakora umwanya n'umwanya uraburirwa irengero.\n-Iyo werekanye ivyorekwa n'ivyokorwa kugira igihugu gitere imbere uca ufatwa nk'umwansi w'igihugu kandi urashobora kunyuruzwa."
+            },
+            "English": {
+              "language": "English",
+              "text": "-If you are in a political party that is opposing the government, you can be kidnapped at any time.\n-If you have ideas different from what the rulers have, you can be be kidnapped.\n-If you dare say bad things perpetrated by the rulers, you do not have the right to live.\n-If you show what should be done and what should not be done for the country to prosper, you are considered an enemy to the country and you can be kidnapped."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki abantu benshi banyuruzwa mu Burundi?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -7822,6 +8722,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:45:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Umukuru w'Igihugu c'Uburundi nta nta ndege afise kubera ngo igihugu nta mahera gifise.\n-Ubutunzi bw'igihugu bukoreshwa nabi cane bigatuma abategtsi benshi babwikoreramwo ivyiwabo aho gukora imigambi y'Igihugu.\n-Ibiturire vyaramugaje igihugu maze bigatuma amahera yinjira mu kigega ca Leta ari make guko amategeko ntakurikizwa.\n-Amategeko y'igihugu akingira abategetsi bo hejuru aho usanga benshi muri bo binjiza ibidandazwa vyabo mu gihugu ata kori ritanzwe ivyo bigatuma igihugu kiguma gihahombera."
+            },
+            "English": {
+              "language": "English",
+              "text": "-The President of Burundi does not have a private jet because it is said that the country is poor.\n-The country's treasure is misused and some leaders use it to do their own businesses instead of the country's businesses.\n-Corruption is prevailing in the country and this causes the government income to be low because laws are not respected.\n-Laws are there to protect high personalities to the extent that their goods enter from abroad without paying taxes and the country loses a lot."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki Umukuru w’igihugu c’uburundi atagira indege, iyo afashe ingendo yipakiza nk’abandi?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -7990,6 +8910,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:46:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Amahera y’Uburundi aguma ata agaciro kubera ivyo Uburundi bushora hanze ni bike ugereranije n’ivyinjira.\n-Amahera y’Uburundi aguma ata agaciro kubera Uburundi buguma mu bibazo vya politike.\n-Uburundi bukenera ibintu vyinshi hanze guko nta mahinguriro ariyo, ivyo navyo bisaba amahera mva makungu.\n-Igihugu kubera ibihano cafatiwe n’Uburayi hamwe na America vyatumye imfashanyo zigabanuka, maze amahera mva makungu aca arakena.\n-Amahera mva makungu abonetse hari abategetsi baca bayakura muri Banki y’Igihugu bakayakoresha ivyabo bigatuma haguma ibibazo vy’amahera nk’uko Umukuru w’Igihugu yabivuze."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Burundian Currency is devaluating time to time because exportation is less comparing to what we import\n- Burundian Currency is devaluating time to time because the country is most of the time in political conflicts\n-Burundi needs a lot of things from outside because there are no industries, so in order to import, foreign currency is needed.\n-The country, because economic sanctions taken by Europe and The US, aids were reduced, and this caused the lack of Foreign Currency\n-When foreign currency is there in the National Bank, there are some high personalities who withdraw it and use it in their own affairs as declared by the president of the Republic of Burundi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki amahera y’Uburundi aguma ata agaciro birenze?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -8156,6 +9096,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:47:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Mu Burundi nta ntambara ihari iboneka ariko abantu baguma banyuruzwa abandi bakicwa.\n-Ikibazo gikomeye mu Burundi ni uko iyo utari mu mugambwe uri ku butegetsi uca ufatwa nk'umwansi w'igihugu.\n-Abantu benshi bicwa bahorwa kuba bari mu mugambwe utari ku butegetsi  ariko urwanya Leta cane.\n-Benshi kugira ntibicwe bemera kuja mu mugambwe uri kubutegetsi naho batawukunda.\n-Nico gituma ata Demokarsi iri mu Burundi ahubwo ivugwa ku munwa gusa."
+            },
+            "English": {
+              "language": "English",
+              "text": "-There is no apparent war in Burundi but people are kidnapped and killed every day.\n-The major problem in Burundi is that if you are not in the ruling party, you are considered as the enemy to the Country.\n- Many people are killed because of being in a party that is highly opposing the government.\n- Some people, so as not to be killed, accept to belong to the ruling party though they do not love it.\n- That is why there is no Democracy in Burundi, it is only theroreticsl."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Abanyagihugu baguma banyuruzwa bicwa mu Burundi bazira iki?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -8324,6 +9284,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:48:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Abarundi kera baravura ingwara bakoresheje imiti kama kandi ingwara nka zose zarakira.\n-Barigisha abana babo ingene ibiti vyo mw'ishamba ari ivy'akamaro ndetse bakabikingira.\n-Kuva aho iyi miti ihinguwe iziye, abarundi ntibasubiriye kwigisha abana imiti kama bibagira ko iyo miti ihinguye ifise ingaruka mbi.\n-Ubu n'uwugerageje kuvuza imiti kama benshi bamufata nk'umupfumu."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Burundians used to treat different diseases using traditional medicines.\n-Burundians used to teach their children how trees are very important and how to protect them.\n-Since the arrival of these chemical medicines, Burundians did not continue to teach to their children about the traditional medicines without bearing in mind the side effects of those medicines.\n-Nowadays, if anyone tries to treat diseases using traditional medicines, he is consodered as a witch."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni Kubera iki twahevye gukoresha imiti kama kandi yaravura indwara nyinshi?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -8490,6 +9470,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:49:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Uburundi buri mu bihugu bike bifise inzuzi n’ibiyaga vyinshi ariko bikenye umuyagankuba.\n-Uburundi bufise inzu zishika indwi hamwe n’ibiyaga bishika 4 ariko nta muyagankuba ukwiye uhari.\n-Abategetsi b’Uburundi ntabwo bitaho kwubaka ingomero z’umuyagankuba ahubwo bitaho kwubaka ibibuga vy’umupira.\n-Ingomero zihari ni izubatswe kera kandi vyasabwa ko zisubirwamo kugira n’imiburiburi zitange umuriro usumba uwo zitanga.\n-Ibiti bakoresha mu kujana amatara mu gihugu hagati biguma bigwa, ivyo bigatuma umuyagankuba uguma ucika kandi utari unakwiye.\n-Henshi mu gihugu nta muyagankuba bafise, abawuronka ni ababa hafi y’amabarabara makuru ahuza intara."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Burundi is among very few countries which have a lot of lakes and rivers but which do not have enough electricity.\n-Burundi has around 7 rivers and 4 lakes, yet there isn’t enough electricity.\n-Burundi leaders do not care a lot about building dams but care about building football fields.\n-Dams which are there were built long ago and need to be renewed so as to give much power more than they do.\n-Electricity poles are always falling down and this causes electricity shortage throughout the country.\n-Most parts of the country do not have electricity. Those who live alongside the main roads which unite provinces are the only people with electricity."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki uburundi ata muyagankuba ukwiye bufise kandi bufise ibiyaga vyinshi?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -8658,6 +9658,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "kirundi:50:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Umwami carazira ko agira umugore umwe guko abakobwa beza beza bo mu gihugu nibo baza baracaguramwo abagore b'Umwami.\n-Iyo umwami agiye mu gihugu hagati, ntiyajana n'umugore wiwe kandi carazira ko umwami arara wenyene.\n-Iyo umwami agiye gutembera mu ntara, baba bamurondereye umukobwa mwiza baza kurarana.\n-Intara yose yaba agiyemwo yategerezwa gusanga bamurondereye inkumi y'isugi ari naco catuma umwami usanga afise abagore n'abana benshi kandi mu ntara zose z'igihugu."
+            },
+            "English": {
+              "language": "English",
+              "text": "-It could not be for a king to have just one wife because all the beautiful ladies in the country were his.\n-When a king goes to the countryside, he could not go with his wife and it was forbidden for a king to sleep alone.\n-If a king goes to visit provinces, a beautiful virgin lady who will spend the night with the king was made raedy.\n-In any province that the king visits, it was mandatory to prepare a virgin lady for him. That's why a king had a lot wives and children in all parts of the country."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki umwami yaba afise abagore mu turere twinshi tw’igihugu?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
+          }
         }
       ]
     },
@@ -8824,6 +9844,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:51:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Amasezerano yo kwakwa akarere ka Bugufi yakozwe abarundi batabajijwe kubera hari ku ntwaro y'Ababiligi.\n-Ayo masezerano yasinywe hagati y'Umubiligi yatwara Uburundi hamwe n'Umwongereza yatwara Tanzania.\n-Abarundi n'abatanzania ntibabanje kubazwa guko nta burenganzira bari bafise ku bihugu vyabo.\n-Ayo masezerano yasinywe muri 1919 naho mu nyuma ivyo bashaka gukora bidakunze.\n-Ayo masezerano yasinywe kubera bagomba kwubaka umureri uzohuza Africa y'epfo hamwe na Egiputa."
+            },
+            "English": {
+              "language": "English",
+              "text": "-The agreement of depriving Burundi from the region of Bugufi was done without consulting Burundians because it was during the colonisation.\n-That agreement was signed between a Belgian who represented Burundi and a British who represented Tanzania.                                       \n-Burundians and Tanzanians were not consulted because they had no right on their own countries.\n-That agreement was signed in 1919 though what they wanted to do was not done.\n-That agreement was signed because they wanted to build a railway which would unite South Africa and Egypt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Amasezerano yo kwakwa akarere ka Bugufi yasinyiwe na ba nde? Ryari? Kubera iki?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
@@ -9007,6 +10047,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "kirundi:52:human",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "-Abadagi baje gukoloniza Uburundi ku ntwaro y’Umwami Mwezi Gisabo.\n-Abasoda b’Uburunid bararwanye n’abazungu ariko birangira ab’Uburundi batsinzwe\n-Abasoda b’abadagi bashaka gufata umwami Mwezi gisabo akomeye canke yapfuye.\n-Mwezi Gisaba n’abasoda biwe baratsinzwe hanyuma binyegeza mu nzu.\n-Umugabo yitwa BIHOME nawe yari kumwe nabo abonye ko umwanya n’umwanya abasoda bose baza kwicirwa muri iyo nzu, ndetse n’Umwami akajamwo, yaciye asaba Umwami ngo amuhe impuzu z’Ubwami azambare.\n-Bihome yambaye izo mpuzu maze aca arasohoka muri iyo nzu yiruka, abazungu baca baramurasa aca arapfa. Bobo bibabza ngo barashe Umwami.\n-Abadagi baciye batamba intsinzi bibaza ngo Umwami yapfuye. Hanyuma umwami n’abasoda bari kumwe barokoka uko."
+            },
+            "English": {
+              "language": "English",
+              "text": "-Germans came to colonize Burundi during the reign of the King Mwezi Gisabo.\n-Burundian soldiers fought against white soldiers, finally Burundian soldiers were defeated.\n-German soldiers wanted to catch the King Mwezi Gisabo alive or dead.\n-The King Mwezi Gisabo and his soldiers were defeated and chose to hide themselves in a house \n-A man named BIHOME was also with them, when he saw that at any time, Burundian soldiers including the King will be shot dead, he requested the king to give him his clothes and he wore them.\n-BIHOME wore those king’s clothes and got out of that house and ran away. Immediately, the German soldiers shot at him thinking that he is the king, and he died.\n-The Germans started singing the victory thinking that the King was already assassinated. Then the king and his soldiers were save in that way."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umugabo yemeye kwigura umwami Mwezi Gisabo yitwa gute? Hari habaye iki?",
+            "model_name": "Human",
+            "max_output_tokens": -1,
+            "other_state": {}
           }
         }
       ]
