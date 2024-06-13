@@ -302,7 +302,6 @@ def main() -> None:
         max_prompts_per_minute=args.max_prompts_per_minute,
         overwrite_answers=args.overwrite,
         gpus=args.gpus,
-        rag_num_documents=args.rag_num_documents,
         max_gpu_mem=int(args.max_gpu_mem) if args.max_gpu_mem is not None else None,
         temperature=args.temperature,
     )
