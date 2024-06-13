@@ -3,7 +3,6 @@ from __future__ import annotations
 import argparse
 import dataclasses
 import itertools
-import random
 import re
 import time
 from pathlib import Path
@@ -13,8 +12,6 @@ from mlfqa.language import Language
 from models.model import Model, ModelName
 from tqdm import tqdm
 
-RAG_RNG_SEED = 1
-
 
 def _prompt_model_and_store(  # noqa: PLR0913
     model: Model,
@@ -23,9 +20,7 @@ def _prompt_model_and_store(  # noqa: PLR0913
     q_translation_language: Language,
     a_language: Language,
     dataset: Dataset,
-    rag_num_documents: int,
     *,
-    rng: random.Random | None = None,
     overwrite_existing_answers: bool = False,
 ) -> bool:
     q_translation = question.translations[q_translation_language]
@@ -39,40 +34,6 @@ def _prompt_model_and_store(  # noqa: PLR0913
 
     prompting_state = model.get_prompting_state(prompt)
     other_state = {}
-
-    if rag_num_documents > 0:
-        assert rng is not None
-
-        if "[documents]" not in prompt_template:
-            msg = f"Retrieval augmented requested but no [documents] placeholder in template {prompt_template}"
-            raise ValueError(msg)
-        assert "[documents]" in prompt
-
-        human_answers = dataset.get_answers(
-            question,
-            model_name=ModelName.HUMAN,
-        )
-        assert len(human_answers) == 1
-        human_answer = human_answers[0]
-
-        random_answers = dataset.get_random_answers(
-            rag_num_documents - 1,
-            [human_answer],
-            rng,
-            language=q_translation_language,
-        )
-        answers = [human_answer, *random_answers]
-        rng.shuffle(answers)
-        answers: list[Answer]
-
-        documents = [
-            f"Document {i+1}: {re.sub("\n+", "\n", answer.translations[q_translation_language].text)}"
-            for i, answer in enumerate(answers)
-        ]
-
-        prompt = prompt.replace("[documents]", "\n".join(documents))
-
-        other_state["rag_answer_names"] = [answer.name for answer in answers]
 
     prompting_state.other_state.update(other_state)
     existing_answers = dataset.get_answers(
@@ -89,8 +50,6 @@ def _prompt_model_and_store(  # noqa: PLR0913
     prompting_state.other_state.update(other_state)
 
     answer_name = f"{question.name}:{q_translation_language}:{prompting_state.model_name.value}"
-    if rag_num_documents > 0:
-        answer_name += f":rag{rag_num_documents}"
     answer_name = answer_name.lower()
 
     answer = Answer.make(answer_name, prompting_state, a_language, response)
@@ -105,7 +64,6 @@ def prompt_model_and_store(  # noqa: PLR0913
     prompt_template: str,
     answer_langs: list[Language] | None,
     dataset: Dataset,
-    rag_num_documents: int,
     q_translation_langs: list[Language] | None = None,
     *,
     overwrite_existing_answers: bool = False,
@@ -120,8 +78,6 @@ def prompt_model_and_store(  # noqa: PLR0913
 
     q_trans_langs = q_translation_langs or [None]
     answer_target_langs = answer_langs or [None]
-
-    rng = random.Random(RAG_RNG_SEED) if rag_num_documents > 0 else None
 
     minute_start = time.time() if max_prompts_per_minute else None
     prompts_in_minute = 0 if max_prompts_per_minute else None
@@ -158,8 +114,6 @@ def prompt_model_and_store(  # noqa: PLR0913
             q_language,
             a_language,
             dataset,
-            rag_num_documents,
-            rng=rng,
             overwrite_existing_answers=overwrite_existing_answers,
         )
 
@@ -180,7 +134,6 @@ def generate(  # noqa: PLR0913
     dataset_load_path: str,
     dataset_save_path: str,
     max_output_tokens: int,
-    rag_num_documents: int,
     *,
     max_questions: int | None = None,
     max_prompts_per_minute: int | None = None,
@@ -204,7 +157,6 @@ def generate(  # noqa: PLR0913
         prompt_template,
         answer_langs,
         dataset,
-        rag_num_documents,
         q_translation_langs,
         overwrite_existing_answers=overwrite_answers,
         save_progress=save_progress,
@@ -311,14 +263,6 @@ def main() -> None:
         type=float,
         default=None,
         help="Max memory to use on each GPU in bytes.",
-    )
-
-    # Retrieval augmented generation args
-    parser.add_argument(
-        "--rag_num_documents",
-        type=int,
-        default=0,
-        help="Number of sample answers ('documents') to use for retrieval augmented generation. If set to 0, then retrieval augmentation will not be used.",
     )
 
     # Model parameter args
