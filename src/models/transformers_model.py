@@ -3,7 +3,7 @@ from __future__ import annotations
 import dataclasses
 import logging
 import os
-from typing import Any, Self
+from typing import Any
 
 import numpy as np
 import torch
@@ -60,7 +60,7 @@ class TransformersModel(Model):
 
     @classmethod
     def make(
-        cls: type[Self],
+        cls,
         model_name: ModelName,
         max_output_tokens: int,
         **kwargs,

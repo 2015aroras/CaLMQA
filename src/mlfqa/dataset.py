@@ -8,7 +8,7 @@ import json
 import logging
 from collections import Counter
 from pathlib import Path
-from typing import TYPE_CHECKING, Annotated, Any, Self, cast
+from typing import TYPE_CHECKING, Annotated, Any, cast
 
 from models.claude_model import ClaudePromptParameters
 from models.google_model import GooglePromptingState
@@ -108,7 +108,7 @@ class Answer:
 
     @classmethod
     def make(
-        cls: type[Self],
+        cls,
         name: str,
         prompting_state: PromptingStateAnnotation,
         language: Language,
@@ -127,7 +127,7 @@ class Answer:
 
     @classmethod
     def make_human_answer(
-        cls: type[Self],
+        cls,
         name: str,
         prompt: str,
         language: Language,
@@ -317,7 +317,7 @@ class Dataset:
         Path(save_file_path).write_text(dataset_json)
 
     @classmethod
-    def from_file(cls: type[Self], load_file_path: str) -> Dataset:
+    def from_file(cls, load_file_path: str) -> Dataset:
         dataset_json = Path(load_file_path).read_text()
         return TypeAdapter(Dataset).validate_json(dataset_json)
 

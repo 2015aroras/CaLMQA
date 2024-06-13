@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import enum
 from abc import ABCMeta, abstractmethod
-from typing import Any, Self
+from typing import Any
 
 from pydantic import Field as PyField
 from pydantic.dataclasses import dataclass
@@ -42,7 +42,7 @@ class PromptingState:
     other_state: dict = PyField(default_factory=dict)
 
     @classmethod
-    def make(cls: type[Self], **kwargs) -> PromptingState:
+    def make(cls, **kwargs) -> PromptingState:
         model_name = kwargs["model_name"]
         assert isinstance(model_name, ModelName)
 
@@ -115,7 +115,7 @@ class Model(metaclass=ABCMeta):
         """Prompts the model and retrieves the probabilities for the first generated token."""
 
     @classmethod
-    def make(cls: type[Self], model_name: ModelName, *args, **kwargs) -> Model:
+    def make(cls, model_name: ModelName, *args, **kwargs) -> Model:
         from models.claude_model import ClaudeModel
         from models.google_model import GoogleModel
         from models.mistral_model import MistralModel
