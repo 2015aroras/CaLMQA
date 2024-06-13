@@ -7,8 +7,8 @@ import re
 import time
 from pathlib import Path
 
-from mlfqa.dataset import Answer, Dataset, Question, QuestionType
-from mlfqa.language import Language
+from calmqa.dataset import Answer, Dataset, Question, QuestionType
+from calmqa.language import Language
 from models.model import Model, ModelName
 from tqdm import tqdm
 

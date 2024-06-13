@@ -9,8 +9,8 @@ from pathlib import Path
 from pydantic import TypeAdapter
 from pydantic.dataclasses import dataclass
 
-from mlfqa.dataset import Category, Dataset, Question, QuestionType
-from mlfqa.language import Language
+from calmqa.dataset import Category, Dataset, Question, QuestionType
+from calmqa.language import Language
 from models.model import Model, ModelName
 from tqdm import tqdm
 

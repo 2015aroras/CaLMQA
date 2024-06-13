@@ -4,8 +4,8 @@ import argparse
 import re
 from pathlib import Path
 
-from mlfqa.dataset import AnswerTranslation, Dataset, Question, QuestionTranslation, QuestionType
-from mlfqa.language import Language
+from calmqa.dataset import AnswerTranslation, Dataset, Question, QuestionTranslation, QuestionType
+from calmqa.language import Language
 from models.model import Model, ModelName, PromptingState
 from tqdm import tqdm
 
@@ -183,7 +183,7 @@ def main() -> None:
         "-p",
         "--prompt_file",
         type=str,
-        default=None,
+        default="data/prompts/question-translation-prompt.txt",
         help="Path of file containing the translation prompt",
     )
 
@@ -239,7 +239,7 @@ def main() -> None:
         "--dataset_load_path",
         type=str,
         dest="dataset_load_path",
-        default="data/dataset.json",
+        default="data/datasets/dataset-agnostic-english.json",
         help="Path of json file containing the dataset",
     )
     parser.add_argument(

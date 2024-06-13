@@ -20,7 +20,7 @@ from pydantic import Discriminator, RootModel, Tag, TypeAdapter
 from pydantic import Field as PyField
 from pydantic.dataclasses import dataclass
 
-from mlfqa.language import Language
+from calmqa.language import Language
 
 if TYPE_CHECKING:
     import random

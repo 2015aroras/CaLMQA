@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 dynamic = ["version"]
-name = "mlfqa"
+name = "calmqa"
 authors = []
-description = "Multilingual Long-Form QA"
+description = "CaLMQA: Exploring culturally specific long-form question answering across 23 languages"
 readme = "README.md"
 dependencies = [
   "accelerate",
