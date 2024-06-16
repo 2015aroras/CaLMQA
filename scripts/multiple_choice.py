@@ -10,8 +10,8 @@ from typing import Any
 from models.model import Model, ModelName
 from tqdm import tqdm
 
-from mlfqa.dataset import Answer, Dataset, Question, QuestionType
-from mlfqa.language import Language
+from calmqa.dataset import Answer, Dataset, Question, QuestionType
+from calmqa.language import Language
 
 
 def _prompt_model_and_store(  # noqa: PLR0913

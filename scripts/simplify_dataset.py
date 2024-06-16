@@ -4,8 +4,8 @@ import argparse
 import json
 from pathlib import Path
 
-from mlfqa.dataset import Dataset, QuestionType
-from mlfqa.language import Language
+from calmqa.dataset import Dataset, QuestionType
+from calmqa.language import Language
 
 
 def simplify_cultural_dataset(

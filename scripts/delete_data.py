@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import argparse
 
-from mlfqa.dataset import Dataset
+from calmqa.dataset import Dataset
 from models.model import ModelName
 
 

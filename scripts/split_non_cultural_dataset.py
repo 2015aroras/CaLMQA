@@ -4,8 +4,8 @@ import argparse
 import copy
 from collections import defaultdict
 
-from mlfqa.dataset import Dataset, QuestionType
-from mlfqa.language import Language
+from calmqa.dataset import Dataset, QuestionType
+from calmqa.language import Language
 
 
 def split_non_cultural_dataset(

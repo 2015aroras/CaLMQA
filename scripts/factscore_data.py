@@ -4,8 +4,8 @@ import argparse
 import json
 from pathlib import Path
 
-from mlfqa.dataset import Dataset
-from mlfqa.language import Language
+from calmqa.dataset import Dataset
+from calmqa.language import Language
 from models.model import ModelName
 
 
