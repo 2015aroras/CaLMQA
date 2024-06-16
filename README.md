@@ -108,7 +108,7 @@ temperature set to 0.
 
 #### Language Detection
 
-We prompt models to generate answers to questions using
+We detect language using
 [scripts/detect_lang.py](https://github.com/2015aroras/CaLMQA/blob/main/scripts/detect_lang.py).
 For each question in a data file
 (e.g. [data/datasets/dataset-specific-german.json](https://github.com/2015aroras/CaLMQA/blob/main/data/datasets/dataset-specific-german.json)),
@@ -128,3 +128,17 @@ For culturally agnostic questions (e.g. those in
 [data/datasets/dataset-agnostic-german.json](https://github.com/2015aroras/CaLMQA/blob/main/data/datasets/dataset-agnostic-german.json)),
 the extra argument `--q_translation_lang <language>` should be passed to tell the script to prompt
 using the non-English version of the question.
+
+#### Repetition Detection
+
+We detect repetitions using
+[scripts/detect_repetitions.py](https://github.com/2015aroras/CaLMQA/blob/main/scripts/detect_repetitions.py).
+For each question in a data file
+(e.g. [data/datasets/dataset-specific-german.json](https://github.com/2015aroras/CaLMQA/blob/main/data/datasets/dataset-specific-german.json)),
+the script tokenizes answers using [`tiktoken`](https://github.com/openai/tiktoken) with the
+`o200_base` encoding and then looks for repeated n-grams.
+The command to detect the percentage of a model's answers with repetitions is:
+```
+python scripts/detect_repetitions.py --dataset_load_path <dataset path> --model_name <model>
+```
+More options can be found by running `python scripts/detect_repetitions.py --help`. 
