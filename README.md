@@ -15,11 +15,15 @@ TBA
 ### Installation
 
 Make a new Python 3.10+ environment using `virtualenv` or `conda`. Then install the `calmqa` package locally using:
-
 ```
 git clone https://github.com/2015aroras/CaLMQA.git
 cd CaLMQA
 pip install -e .
+```
+To run automatic evaluations, you will also need to install optional extra dependencies
+using:
+```
+pip install -e ".[autoeval]"
 ```
 
 ### Authentication for API calls
