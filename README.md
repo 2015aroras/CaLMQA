@@ -94,15 +94,37 @@ We ran all translations of culturally agnostic questions with GPT-4 Turbo and te
 We prompt models to generate answers to questions using
 [scripts/categorize.py](https://github.com/2015aroras/CaLMQA/blob/main/scripts/categorize.py).
 For each question in a data file
-(e.g. [data/datasets/dataset-german.json](https://github.com/2015aroras/CaLMQA/blob/main/data/datasets/dataset-german.json)),
+(e.g. [data/datasets/dataset-specific-german.json](https://github.com/2015aroras/CaLMQA/blob/main/data/datasets/dataset-specific-german.json)),
 this script fills in the categorization prompt
 (e.g. [data/prompts/categorization-english-prompt.txt](https://github.com/2015aroras/CaLMQA/blob/main/data/prompts/categorization-english-prompt.txt))
 with the question, category names, category descriptions and category examples.
 The script uses the prompt to make a model categorize the question.
 The base form of the command is
 ```
-python scripts/generate.py <model> categorize.py <model> --all_categories -p <prompt file> --dataset_load_path <dataset path> --dataset_save_path <save path> --temperature <temperature>
+python scripts/categorize.py <model> --all_categories -p <prompt file> --dataset_load_path <dataset path> --dataset_save_path <save path> --temperature <temperature>
 ```
 Supported models and more options can be found by running `python scripts/categorize.py --help`. We ran all our categorization with
 temperature set to 0.
 
+#### Language Detection
+
+We prompt models to generate answers to questions using
+[scripts/detect_lang.py](https://github.com/2015aroras/CaLMQA/blob/main/scripts/detect_lang.py).
+For each question in a data file
+(e.g. [data/datasets/dataset-specific-german.json](https://github.com/2015aroras/CaLMQA/blob/main/data/datasets/dataset-specific-german.json)),
+this script uses the [`polyglot`](https://pypi.org/project/polyglot/) or
+[`langid`](https://pypi.org/project/py3langid/) package to detect the language
+of a question or answer.
+The command to detect the language of a model's answers is:
+```
+python scripts/detect_lang.py --dataset_load_path <dataset path> --model_name <model>
+```
+
+Similarly, language detection for questions can be done using
+```
+python scripts/detect_lang.py --dataset_load_path <dataset path> --check_questions
+```
+For culturally agnostic questions (e.g. those in
+[data/datasets/dataset-agnostic-german.json](https://github.com/2015aroras/CaLMQA/blob/main/data/datasets/dataset-agnostic-german.json)),
+the extra argument `--q_translation_lang <language>` should be passed to tell the script to prompt
+using the non-English version of the question.

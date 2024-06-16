@@ -21,6 +21,16 @@ dependencies = [
   "vertexai",
 ]
 
+[project.optional-dependencies]
+autoeval = [
+  "fasttext",
+  "langdetect",
+  "langid",
+  "polyglot",
+  "pycld2",
+  "PyICU",
+]
+
 [tool.ruff]
 line-length = 100
 
