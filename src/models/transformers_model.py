@@ -170,14 +170,14 @@ class Gemma7BModel(TransformersModel):
     ) -> None:
         super().__init__(name, max_output_tokens, **kwargs)
 
-        self.tokenizer = self._init_tokenizer()
-        self.model = self._init_model(gpus, max_mem_per_gpu)
         self._default_parameters = TransformersPromptParameters(
             prompt=None,
             model_name=name,
             max_output_tokens=max_output_tokens,
             model_path="google/gemma-1.1-7b-it",
         )
+        self.tokenizer = self._init_tokenizer()
+        self.model = self._init_model(gpus, max_mem_per_gpu)
 
     @property
     def default_parameters(self) -> PromptingState:
@@ -186,17 +186,11 @@ class Gemma7BModel(TransformersModel):
     def _get_prompting_state(
         self,
         prompt: str,
-        batch_encoding: BatchEncoding | None = None,
         **prompting_state_kwargs,
     ) -> TransformersPromptParameters:
-        if batch_encoding is None:
-            batch_encoding = self.tokenizer(prompt, return_tensors="pt").to(
-                self.model.device,
-            )
 
         return super()._get_prompting_state(
             prompt,
-            model_input_dict=batch_encoding,
             **prompting_state_kwargs,
         )
 
@@ -204,19 +198,16 @@ class Gemma7BModel(TransformersModel):
         return self._get_prompting_state(prompt)
 
     def prompt(self, prompt: str) -> tuple[str, PromptingState]:
-        batch_encoding: BatchEncoding = self.tokenizer(prompt, return_tensors="pt").to(
-            self.model.device,
-        )
+        encoding = self.tokenizer.encode(prompt, return_tensors="pt").to(self.model.device)
 
-        prompting_state = self._get_prompting_state(
-            prompt,
-            batch_encoding=batch_encoding,
-        )
+        prompting_state = self._get_prompting_state(prompt)
 
-        outputs = self._call_generate(self.model, prompting_state)
+        outputs = self._call_generate(
+            self.model, prompting_state, model_input_dict={"input_ids": encoding}
+        )
 
         return self.tokenizer.decode(
-            outputs[0, batch_encoding.input_ids.shape[1] :],
+            outputs[0, encoding.shape[1] :],
             skip_special_tokens=True,
             clean_up_tokenization_spaces=True,
         ), prompting_state
@@ -281,14 +272,14 @@ class Mixtral8x7BModel(TransformersModel):
     ) -> None:
         super().__init__(name, max_output_tokens, **kwargs)
 
-        self.tokenizer = self._init_tokenizer()
-        self.model = self._init_model(gpus, max_mem_per_gpu)
         self._default_parameters = TransformersPromptParameters(
             prompt=None,
             model_name=name,
             max_output_tokens=max_output_tokens,
             model_path="mistralai/Mixtral-8x7B-Instruct-v0.1",
         )
+        self.tokenizer = self._init_tokenizer()
+        self.model = self._init_model(gpus, max_mem_per_gpu)
 
     @property
     def default_parameters(self) -> PromptingState:
@@ -393,14 +384,14 @@ class Xglm7Pt5BModel(TransformersModel):
     ) -> None:
         super().__init__(name, max_output_tokens, **kwargs)
 
-        self.tokenizer = self._init_tokenizer()
-        self.model = self._init_model(gpus, max_mem_per_gpu)
         self._default_parameters = TransformersPromptParameters(
             prompt=None,
             model_name=name,
             max_output_tokens=max_output_tokens,
             model_path="facebook/xglm-7.5B",
         )
+        self.tokenizer = self._init_tokenizer()
+        self.model = self._init_model(gpus, max_mem_per_gpu)
 
     @property
     def default_parameters(self) -> PromptingState:
