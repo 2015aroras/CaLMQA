@@ -212,6 +212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جِہاز توکا پرچیّا شروآہ دیماۓ سواریاں نِندینا پھدا پُشتے**\n\n**1. جہاز توکا پرچیّا شروآہ دیماۓ Sobald وہ 100% प्रगति हुई हो।**\n\n**2. जہاز توکا پرچیّا शروآہ دیमाۓ के बाद 24-48 घण्टों में 90% प्रगति हुई होगी।**\n\n**3. जہاز توिका परची की शروआह के बाद 48-72 घण्टों में 95% प्रगति हुई होगी।**\n\n**4. जہاز توिका परची की शרוआह के बाद 72-96 घण्टों में 98% प्रगति हुई होगी।**\n\n**5. जہاز توिका परची की शרוआह के बाद 96-120 घण्टों में 99% प्रगति हुई होगी।**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "جِہاز توکا پرچیّا  شروآہ دیماۓ سواریاں نِندینا پھدا پُشتے ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -423,6 +443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**اجابہ:**\n\nسگریٹ ءِ کشگ پہ دل ءَ پرچا اینچو حراب نہیں کرتا، بلکہ اس کا نتیجہ lahko صحتی اور فزیکی صحت کے لیے خطرات رکھता ہے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "سگریٹ ءِ کشگ پہ دل ءَ پرچا اینچو حراب انت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -642,6 +682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "iOS 15 ஐப் பின்பொத்து, iPhone-ல் ஒரு புதிய \"Files\" அம்சம் அறிவிக்கப்பட்டது. இது, முன்பு \" iCloud Drive\" இல் சேமிக்கப்பட்ட கோப்புகளை இணையின்றி அணுகுவதுடன், மேலும் பல்வேறு கோப்புகளை இடமாற்றம், அகற்றம் அல்லது பகிர்செய்ய முயலாம்.\n\n**iPhone-ல் Files அம்சத்தின் வசதிகள்:**\n\n* **இணையின்றி கோப்புகளை அணுகுவது:** Files அம்சம் iCloud Drive இல் சேமிக்கப்பட்ட கோப்புகளை இணையின்றி அணுகுவதுடன், மெல்லிய இணைய இல்லாத இடங்களில்도 கோப்புகளை அணுக முயலாம்.\n* **கோப்புகளை இடமாற்றம், அகற்றம் அல்லது பகிர்செய்ய முயலாம்:** Files அம்சம் கோப்புகளை இடமாற்றம், அகற்றம் அல்லது பகிர்செய்ய முயலாம். இது, கோப்புகளை ஏதேனும் இடத்திற்கு இடமாற்றம் செய்வதுடன், அல்லது கோப்புகளை வேறு நபர்களுடன் பகிர்செய்வதுடன் உதவியாகும்.\n\n**iPhone-ல் Files அம்சத்தின் எல்லைகள்:**\n\n* **இருப்பிட அணுகுவது:** Files அம்சம் iCloud Drive இல் சேமிக்கப்பட்ட கோப்புகளை மட்டுமே அணுகுவதுடன், அல்லது அப்பல் வேறு ஏதேனும் நிமிடத்திற்கு கோப்புகளை அணுக முயலாம்.\n* **கோப்புகள் அகற்றப்போது:** Files அம்சம் கோப்புகளை அகற்றியவுடன், அவை iCloud Drive இல் அகற்றப்போது. இது, கோப்புகளை அகற்றியவுடன் இழக்கப்போவதாக அல்லது அவை மீண்டும் பதிக்கப்போவதாக அல்லது அவை வேறு ஒரு இடத்திற்கு இடமாற்றப்போவதாக அல்லது பகிர்செய்யப்போவதாக அல்லது.\n\n**iPhone-ல் Files அம்சத்தின் பயன்பாடுகள்:**\n\n* **கோப்புகளை இடமாற்றம் செய்வது:** Files அம்சம் கோப்புகளை ஏதேனும் இடத்திற்கு இடமாற்றம் செய்வதுடன் உதவியாகும்.\n* **கோப்புகளை பகிர்செய்வது:** Files அம்சம் கோப்புகளை வேறு நபர்களுடன் பகிர்செய்வதுடன் உதவியாகும்.\n* **கோப்புகளை அகற்றி இடைக் கைக்கொள்வது:** Files அம்சம் கோப்புகளை அகற்றியவுடன், அவை iCloud Drive இல் அகற்றப்போது. இது, கோப்புகளை அகற்றியவுடன் இழக்கப்போவதாக அல்லது அவை மீண்டும் பதிக்கப்போவதாக அல்லது அவை வேறு ஒரு இடத்திற்கு இடமாற்றப்போவதாக அல்லது பகிர்செய்யப்போவதாக அல்லது."
+            }
+          },
+          "prompting_state": {
+            "prompt": "آئیفون توکا ڈیلیٹڈ فائلز و فوٹوز کُجا روانِنت ریسینٹلی ڈیلیٹڈ آ پَہد ا ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -853,6 +913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جنگ ءَ پیسر تچگ پرچا پہ برز سٹگ ءَ کنت**\n\n**1914ء**\n\n* 28 جولن 1914ء کو، س erbia ءَ Austria-Hungary درمیان میں تنازعہ اور جنگ کا آغاز ہوا۔\n* 1914ء میں، برطانیہ اور فرانس دونوں Austria-Hungary اور Serbia کے ساتھ تھے اور انہوں نے اس تنازعہ پر حملہ نہیں کیا۔\n\n**1915ء**\n\n* 1915ء میں، osmaniaں نے osmaniaں اور Serbia کے درمیان میں تنازعہ کا استعمال کیا اور osmaniaں اور Serbia کے درمیان میں جنگ کا آغاز ہوا۔\n* osmaniaں اور Austria-Hungary دونوں برطانیہ اور فرانس کے ساتھ تھے اور انہوں نے اس تنازعہ پر حملہ نہیں کیا۔\n\n**1916ء**\n\n* 1916ء میں، Russia اور Germany دونوں osmaniaں اور Austria-Hungary کے ساتھ تھے اور انہوں نے اس تنازعہ پر حملہ نہیں کیا۔\n\n**1917ء**\n\n* 1917ء میں، America ءَ Russia دونوں osmaniaں اور Austria-Hungary کے ساتھ نہیں تھے اور انہوں نے اس تنازعہ پر حملہ نہیں کیا।\n\n**1918ء**\n\n* 1918ء میں، osmaniaں اور Austria-Hungary دونوں defeat ہوئے اور جنگ کا اختتام ہوا।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "سِٹّ جنگ ءَ پیسر تچگ پرچا پہ برز سٹگ ءَ  کنت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1072,6 +1152,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**زھگانی شیرانی تہا انٹی بائیڈز چیا مان گیجگ نہ بیت**\n\nزھگانی شیرانی تہا انٹی بائیڈز چیا مان گیجگ نہ بیت. انہاں دونوں کا تعلق نہیں ہے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "زھگانی شیرانی تہا انٹی بائیڈز چیا مان گیجگ نہ بیت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1283,6 +1383,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**انٹرنیٹ ءِ رپتار ءَ چوں گر و دار کنت**\n\n**انٹرنيٹ ءِ رپتار**\n\nانٹرنيٹ ءِ رپتار وہ مقامات ءِ معلومات ءِ معلومات ءِ خدمات ءِ وسائل ءِ تعليم ءِ سرگرمی ءِ تجارت ءِ تعاون ءِ سرحدوں ءِ زبانوں ءِ طبقات ءِ ممالک ءِ قوموں ءِ تمام انسانیت ءِ شامل ہیں۔\n\n**و دار کنت**\n\nو دار کنت وہ مقامات ءِ معلومات ءِ معلومات ءِ خدمات ءِ وسائل ءِ تعليم ءِ سرگرمی ءِ تجارت ءِ تعاون ءِ سرحدوں ءِ زبانوں ءِ طبقات ءِ ممالک ءِ قوموں ءِ تمام انسانیت ءِ شامل نہیں ہیں۔\n\n**انٹرنيٹ ءِ رپتار ءَ و دار کنت کے درمیان کا فرق**\n\n* **انٹرنيٹ ءِ رپتار** تمام انسانیت ءِ شامل ہے، جبکہ **و دار کنت** بعض محدود مقامات ءِ معلومات ءِ معلومات ءِ خدمات ءِ وسائل ءِ تعليم ءِ سرگرمی ءِ تجارت ءِ تعاون ءِ سرحدوں ءِ زبانوں ءِ طبقات ءِ ممالک ءِ قوموں ءِ شامل نہیں ہے۔\n\n**مختصرًا، انٹرنيٹ ءِ رپتار تمام انسانیت ءِ شامل ہے، جبکہ و دار کنت بعض محدود مقامات ءِ معلومات ءِ معلومات ءِ خدمات ءِ وسائل ءِ تعليم ءِ سرگرمی ءِ تجارت ءِ تعاون ءِ سرحدوں ءِ زبانوں ءِ طبقات ءِ ممالک ءِ قوموں ءِ شامل نہیں ہے۔**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "منی وائی فائی داتگیں انٹرنیٹ ءِ رپتار ءَ چوں گر و دار کنت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1502,6 +1622,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**مثال:**\n\n**شركة ABC**\n\n**رقم ضريب:** 123456789\n\n**تاريخ ضريب:** 01/01/2023\n\n**مبلغ ضريب:** 1000\n\n**شركة XYZ**\n\n**رقم ضريب:** 987654321\n\n**تاريخ ضريب:** 02/02/2023\n\n**مبلغ ضريب:** 2000\n\n**شركة KLM**\n\n**رقم ضريب:** 555555555\n\n**تاريخ ضريب:** 03/03/2023\n\n**مبلغ ضريب:** 3000\n\n**...**\n\n**ملاحظة:**\n\n* ضريب رقم ضريب هو الرقم الذي يتم استخدامه لتحديد الضريب.\n* تاريخ ضريب هو التاريخ عندما تم دفع الضريب.\n* مبلغ ضريب هو مبلغ الضريب الذي تم دفع."
+            }
+          },
+          "prompting_state": {
+            "prompt": "گیشتر ہون کشگ ءَ پد باسک ءَ را برز کنگ پرچا بیت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1713,6 +1853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\n**ٹیکنالوجی موبائل فون:**\n\n* ٹیکنالوجی موبائل فون (Mobile Technology) میں شامل ہے:\n    * Apps اور Games\n    * Mobile Payments\n    * GPS Tracking\n    * Social Media\n    * Entertainment\n\n**گڈا ما پرچا ٹی وی اسٹوڈیو:**\n\n* گڈا ما پرچا ٹی وی اسٹوڈیو (Good Morning Production TV Studio) میں شامل ہے:\n    * News and Current Affairs\n    * Entertainment Programs\n    * Educational Content\n    * Corporate Videos\n\n**بتگر کارمرز:**\n\n* بتگر کارمرز (Better Commerce) میں شامل ہے:\n    * Online Shopping\n    * Digital Marketing\n    * Customer Service\n    * Logistics and Supply Chain Management"
+            }
+          },
+          "prompting_state": {
+            "prompt": "\nوہدے ہمے ٹیکنالوجی موبائل فون ءِ کد ءَ دسترس ءَ انت، \nگڈا ما پرچا ٹی وی اسٹوڈیو ءِ بتگر کارمرز کنیں؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1932,6 +2092,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\nچنچو گَرمیں میں 100°C تک temperature ہو سکتا ہے، جسے انسان کے لئی risky اور hazardous کہا جاتا ہے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "زمین اے درمیان چنچو گَرمیں  ،اے چھوں زاناں؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2143,6 +2323,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\nبوہگ ءِ امر ءَ دیم چیا دانگ بیت 12000 روپے ہیں۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ورنا بوہگ ءِ امر ءَ دیم چیا دانگ بیت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2362,6 +2562,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\nميش چہ کاہ ءُ آپ ءَ پژم ءُ دگہ میش چوں جوڑ کنت، ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ءَہم ءَ وہ ء"
+            }
+          },
+          "prompting_state": {
+            "prompt": "میش چہ کاہ ءُ آپ ءَ پژم ءُ دگہ میش چوں جوڑ کنت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2573,6 +2793,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\nجسمانی اور ذہنی صحت کے حصول اور تحفظہ کے لیے بہت سے요ہ요ں ہیں۔ بعض اہم요ں میں شامل ہیں۔\n\n**1. صحتی کھानہ خورنا:**\n* صحتی کھानہ خورنا، جس میں بے کار کربوہائیڈات اور trans فetts نہیں ہوتے ہیں۔\n* suficiente پانی اور vezہ رکھنا\n\n**2. منظم 운동:**\n* ہر روز کم از کم 30 منٹوں کا नियमित 운동\n\n**3. استرخاء اور مدیتیشن:**\n* استرخاء اور مدیتیشن ajuda کرتے ہیں کہ جسمانی اور ذہنی استпетиہ کو کم کرے اور صحت اور طاقتور میں betterment लाؤں\n\n**4. godly اور صحتی مطالعہ:**\n* godly مطالعہ اور صحتی مطالعہ ajuda کرتے ہیں کہ صحتی راہوں اور استراتيجياتوں को सीखیں\n\n**5. suficiente sueño:**\n* ہر noite 7-8 گھنٹے सु면\n\n**6. रגיע اور تع networking:**\n* رגיע اور تع networking میں شامل ہونے से صحتی اورfulfilled감 کا احساس بڑھاتہ ہے\n\n**7.定期 معاینہ:**\n*定期 معاینہ اور علاج منصوبہ بنانے में मदद करते हैं\n\n**8. استütünہ اور مدد:**\n* استütünہ اور مدد کا استعمال صحتی اور ذہنی صحت کے حصول اور تحفظہ میں مدد دیتا ہے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "کسے ءِ جسم ءِ چرپی ءِ درسد  چتور زانگ بیت، یا مردم انچو اٹکل جننت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2792,6 +3032,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**سائسنی پشدر**\n\nسائسنی پشدر وہی صحتی کا عنصر ہے جسے انسانوں اور demais جانداروں میں صحت اور Energy کے لیے ضروري ہے۔ یہاں وہی vitamins اور minerals شامل ہیں۔\n\n**مرکزی nutrients**\n\n* Vitamin A\n* Vitamin C\n* Vitamin B12\n* Iron\n* Zinc\n\n**مثال**\n\n* سبزی\n* پھُل\n* دال\n* meat\n* Eggs\n\n**سائسنی پشدر کے فوائد**\n\n* یہ Energy اور Strength میں اضافہ کرتا ہے۔\n* یہ immune system کو Strong بناتا ہے۔\n* یہ digestion system کو بہتر بناتا ہے۔\n* یہ cardiovascular system کو Strong بناتا ہے۔\n* یہ skin health اور hair growth میں betterment लाता ہے۔\n\n**سائسنی پشدر کے ع premat**\n\n* یہ cholesterol levels میں اضافہ کر سکتا ہے۔\n* یہ weight gain کا Grund بن سکتا ہے۔\n\n**سائسنی پشدر کا استعمال**\n\n* یہاں saasni diet plans ka element hota hai।\n* یہاں fitness plans mein nourishment ka element hota hai।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "واب مرگ ءِ سائسنی پشدر چے انت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3003,6 +3263,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**ملتكم**\n\nملتكم، جس کا अर्थ है \"बहुत कुछ\", एक शब्द है जो विभिन्न क्षेत्रों में उपयोग किया जाता है। यह एक सामान्य शब्द है जो विभिन्न विषयों में विभिन्न अर्थों में उपयोग किया जाता है।\n\n**अर्थ**\n\n* **संस्कारिक:** मल्टिकल्चरल समाजों में, मल्टكم का उपयोग विभिन्न संस्कृतियों का प्रतिनिधित करने के लिए किया जाता है।\n* **भौतिक:** मल्टिकॉरपोरेट में, मल्टكم विभिन्न प्रकार के उत्पादों या सेवाओं का प्रतिनिधित करता है।\n* **व्यक्तिगत:** मल्टिकैपिटल में, मल्टكم विभिन्न प्रकार के निधियों का प्रतिनिधित करता है।\n\n**उदाहरण**\n\n* \"यह एक मल्टिकल्चरल समाज है।\" (संस्कारिक)\n* \"इस कंपनी में मल्टिकॉरपोरेट उत्पाद हैं।\" (भौतिक)\n* \"उसने मल्टिकैपिटल में विभिन्न निधियों का निधि लिया।\" (व्यक्तिगत)"
+            }
+          },
+          "prompting_state": {
+            "prompt": "میٹل کم چھی آ  َنبی ایگن ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3222,6 +3502,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**ترجمہ:**\n\nہبر چہ زانت ءَ در انت کہ تائیوان دنیا ءِ شرتریں مائیکروچپس جوڑ کنت ءُ کس چشیں جوڑ کت نہ کنت، ا ے وڑ چوں بوت کنت؟\n\n**ترجمہ:**\n\nہبر نے کہا کہ تائیوان نے دنیا ءِ شرتریں مائیکروچپس جوڑ کنت ءُ کس چشیں جوڑ نہیں کر سका، اور وہاں یہ وجہ ہے کہ وہاں بوت نہیں کر سका۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "اے ہبر چہ زانت ءَ در انت کہ تائیوان دنیا ءِ شرتریں مائیکروچپس جوڑ کنت ءُ کس چشیں جوڑ کت نہ کنت، ا ے وڑ چوں بوت کنت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3433,6 +3733,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جانورانی ہُون سوہرین**\n\nجانورانی ہُون سوہرین وہی وہی نہیں ہیں۔ وہاں کچھ اور عنصر شامل ہیں۔\n\n**1. ذہنیت اور شعور**\n\n* جانورانی ہُون سوہرین ذہنیت اور شعور رکھدے ہیں۔\n* وہ اپنی Requirements اور مقاصد پر عمل کر سکتے ہیں۔\n\n**2. سلوک اور تعامل**\n\n* وہاں انسانوں اور جانورانیوں کے درمیان سلوک اور تعامل کا ایک نظام ہے، جس میں انسانوں اور جانورانیوں دونوں کے حقوق اور ذمہانیات کا احاطہ شامل ہے۔\n\n**3. ماحول اور ecosystems**\n\n* جانورانی ہُون سوہرین ماحول اور ecosystems پر اثر رکھدے ہیں۔\n* وہاں ماحول اور ecosystems پر جانورانیوں اور انسانوں کے impacts کا مطالعہ اور प्रबंधن کا ایک شعبہ ہے۔\n\n**4. صحت اور بیماری**\n\n* وہاں جانورانیوں کی صحت اور بیماری پر مطالعہ اور प्रबंधن کا ایک شعبہ ہے۔\n* وہاں جانورانیوں کی صحت اور بیماری پر انسانوں اور جانورانیوں دونوں کے impacts کا مطالعہ اور प्रबंधن کا ایک شعبہ ہے۔\n\n**5. تعلیم اور مطالعہ**\n\n* وہاں جانورانی ہُون سوہرین تعلیم اور مطالعہ پر زور دیتے ہیں۔\n* وہاں جانورانیوں پر مطالعہ اور انہیں تحفظہ اور حفاظت کرنے میں مدد کرنے کا مطالعہ شامل ہے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "دُرائیں جانورانی ہُون سوہرین چی آ ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3652,6 +3972,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\n**1. پروشوگ:**\n\n* بے بی اور جور بے بی پر مشتملہ پروشوگ برائے صحتی اور فیتنس کا اہم عنصر ہے۔\n* یہ بے بی اور جور بے بی میں است június اور انہیں بے بی اور جور بے بی پر مشتملہ پروشوگ دہانی سکتا ہے۔\n\n\n**2. ورزش:**\n\n* ورزش بے بی اور جور بے بی کے صحتی اور فیتنس کے relações میں اہم papelranath رکھता ہے۔\n* یہ بے بی اور جور بے بی को صحتی اور فیتنس رکھنا اور انہیں بے بی اور جور بے بی پر مشتملہ پروشوگ دہانی سکتا ہے۔\n\n\n**3. تھچگ:**\n\n* تھچگ بے بی اور جور بے بی के Muskle strength اور flexibility میں betterment ला سکتا ہے۔\n* یہ بے بی اور جور بے بی को بے بی اور جور بے بی پر مشتملہ پروشوگ دہانی سکتا ہے۔\n\n\n**4. بوڈی بلڈिंग:**\n\n* بوڈی بلڈिंग بے بی اور جور بے بی के fitness level اور body composition میں betterment ला سکتا ہے۔\n* یہ بے بی اور جور بے بی को بے بی اور جور بے بی پر مشتملہ پروشوگ دہانی سکتا ہے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "جانِ پروشوگ وت  جور بے بی ، ورزش و تھچگ و بوڈی بلڈنگ ہمے چِیزہ ختم یا کم ناکن گایں ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3863,6 +4203,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "* **بہترِ کارکردگی**\n* **بہترِ تعلقات**\n* **بہترِ رentista**\n* **بہترِ سہولی**\n\n**جواب:**\n\n**بہترِ کارکردگی**، **بہترِ تعلقات**، **بہترِ رentista** اور **بہترِ سہولی** سبھِ یکہٍ فائیدہِ کلدارنِ کے لیے ہیں۔\n\n**بہترِ کارکردگی**\n\n* ڈسکاؤنٹات کارکنوں کو مزید مہربان بناتے ہیں اور انہیں کار میں مزید متوجہ رکھتے ہیں۔\n* یہ کارکنوں کی کارکردگی اور کاروبار کی کامیابی دونوں میں betterment लाؤnga.\n\n**بہترِ تعلقات**\n\n* ڈسکاؤنٹات عملاء اور کارکنوں के बीच melhor تعلقات بناتے ہیں۔\n* یہ کاروبار اور اس کے stakeholders کے درمیان اعتماد اور شراکت建立 میں مدد دے سکتا ہے۔\n\n**بہترِ رentista**\n\n* ڈسکاؤنٹات کاروبار کی رentista میں betterment लाؤnga، جسے کاروبار اور اس کے cổ shareholders کے لیے فائدہ من bringta hai.\n\n**بہترِ سہولی**\n\n* ڈسکاؤنٹات کاروبار اور اس کے کارکنوں के लिए سہولی میں betterment लाؤnga.\n* یہ کاروبار اور اس کے stakeholders के लिए مطلع اور مستقبل میں thànhجحیت میں مدد دے سکتا ہے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "یَک کمپنیِ وطی چِیزاں ڈسکاؤنٹا پھدا  چُوں فائیدہ کلدارں کما عنِی ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4082,6 +4442,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\n* **لاپ پور پھدّا  چی آ:**  لاپ پور پھدّا  چی آ  سُری  نہیں  ہے اور اس  لئی  بی  بیمار  بی  درداء  محسوس نہیں  ہے۔\n\n\n* **نبیّاں:**  نبیّاں  سُری  نہیں  ہیں اور اس  لئی  بی  بیمار  بی  درداء  محسوس نہیں  ہے।\n\n\n* **شروآ سئے ماہِ توکا بی:**  شروآ سئے ماہِ توکا بی  سُری  نہیں  ہے اور اس  لئی  بی  بیمار  بی  درداء  محسوس نہیں  ہے।\n\n\n* **دورائیں  حمل وکتا  حمے:**  دورائیں  حمل وکتا  حمے  سُری  نہیں  ہے اور اس  لئی  بی  بیمار  بی  درداء  محسوس نہیں  ہے।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "کیمیں سُوریں جننیں لاپ پور پھدّا  چی آ    سوبے بیمار بی آں او دیگا کمیں نبیّاں ،  اور دیگا کمیں جنین  شروآ سئے ماہِ توکا بی  و  دےگا  جنین  دورائیں  حمل وکتا  حمے  درداء  محسوس کناں ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4293,6 +4673,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**கோரம்**\n\nகோரம் மிகவும் வெப்பமானது. வெப்பநிலை 40°C வரை அடங்கலாம்.\n\n**மலைகள்**\n\nமலைகள் மிகவும் குளுதமானது. வெப்பநிலை 10°C வரை அடங்கலாம்.\n\n**கடல்**\n\nகடல் மிதமான வெப்பநிலையை கொண்டுள்ளது. வெப்பநிலை 25°C வரை அடங்கலாம்.\n\n**மழைக்காடுகள்**\n\nமழைக்காடுகள் வெப்பமானது. வெப்பநிலை 30°C வரை அடங்கலாம்.\n\n**காடுகள்**\n\nகாடுகள் வெப்பமானது. வெப்பநிலை 25°C வரை அடங்கலாம்.\n\n**கோரம்**\n\nகோரம் மிகவும் வெப்பமானது. வெப்பநிலை 40°C வரை அடங்கலாம்.\n\n**மலைகள்**\n\nமலைகள் மிகவும் குளுதமானது. வெப்பநிலை 10°C வரை அடங்கலாம்.\n\n**கடல்**\n\nகடல் மிதமான வெப்பநிலையை கொண்டுள்ளது. வெப்பநிலை 25°C வரை அடங்கலாம்.\n\n**மழைக்காடுகள்**\n\nமழைக்காடுகள் வெப்பமானது. வெப்பநிலை 30°C வரை அடங்கலாம்.\n\n**காடுகள்**\n\nகாடுகள் வெப்பமானது. வெப்பநிலை 25°C வரை அடங்கலாம்."
+            }
+          },
+          "prompting_state": {
+            "prompt": "چی آ   گرمائشت  مختلفین ؟ مختلفین روچ و سیزن آ ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4512,6 +4912,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**حرابیں امے صحت واسطہ**\n\n**1. تِمُر**\n* تِمُر امے صحت اور Energy کا بڑا ذریہہ ہے۔\n* یہ Antioxidants اور Polyphenols کا ایک مجموعہ भी है जो कई रोगों का जोखम कम करता है।\n\n**2. گُرُن جَو**\n* گُرُن جَو امے के लिए एक महत्वपूर्ण खनिज है जो ऑक्सीकरण को रोकता है।\n* यह भी Antioxidants का एक स्रोत है।\n\n**3. विटामिन C**\n* विटामिन C एक मजबूत Antioxidants है जो ऑक्सीकरण को रोकता है।\n* यह भी रोगाणों को मजबूत बनाता है।\n\n**4. फेनोलिक अम्ल**\n* फेनोलिक अम्ल Antioxidants का एक प्रकार है जो कई रोगों का जोखम कम करता है।\n* यह भी विषाशय को बाहर करने में मदद करता है।\n\n**5. कौरी**\n* कौरी एक मजबूत Antioxidants है जो कई रोगों का जोखम कम करता है।\n* यह भी विषाशय को बाहर करने में मदद करता है।\n\n**6. लॉसन**\n* लॉसन एक मजबूत Antioxidants है जो कई रोगों का जोखम कम करता है।\n* यह भी विषाशय को बाहर करने में मदद करता है।\n\n**7. हल्दी**\n* हल्दी एक मजबूत Antioxidants है जो कई रोगों का जोखम कम करता है।\n* यह भी विषाशय को बाहर करने में मदद करता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "زۆرُک چی آ  حرابیں  امے صحت واسطہ ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4723,6 +5143,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\n* **سرخ** اور **زخمانی** دونوں ک Wang  صحت کے لیے خطرات رکھتے ہیں۔\n* **سرخ**  سرخ دماغ اور رگڑیوں  کو متاثر کر سکتا ہے، جس سے  ہ sırasında  تعبير، یاداشت اور  تصرف  کو متاثر کر سکتا ہے۔\n* **زخمانی**  زخمانہ  نerves  کو  متاثر کر سکتا ہے، جس سے  حالیہ  تعبير، یاداشت اور  تصرف  کو متاثر کر سکتا ہے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "درد  کنگ صحیح  پِش دآرگین زخمانی؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4942,6 +5382,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**سہ دارانی** | ** života سाल**\n------- | --------\nجمالddin | 1950-2023\nجمال شافعي | 1970-2023\nجمال الدین محمد | 1980-2023\n\n**اختلافات:**\n\n* **حياة سाल:** سہ دارانیجمالddin وجمال شافعي وجمال الدین محمد مختلفين.\n* **تاريخ الميلاد:** سہ دارانیجمالddin وجمال شافعي وجمال الدین محمد مختلفين."
+            }
+          },
+          "prompting_state": {
+            "prompt": "چی آ مختلفین سہ دارانی مختلفین زندگی سالاں  ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5105,6 +5565,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**نبی سہ داراں گُوں**\n\n* ** Prophet Muhammad (SAW)**: Islam کا بانی اور Muslims کا رہنما.\n* **Jesus Christ (AS)**: Christianity کا بانی اور Christians کا رہنما.\n* **Moses (AS)**: Judaism کا بانی اور Jews کا رہنما."
+            }
+          },
+          "prompting_state": {
+            "prompt": "چی آ انسان لاپ پور   نبی  سہ داراں گُوں ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5276,6 +5756,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**فنکشن** هو تعامل بين مدخل (input) و versehen (output) بحيث يتم الحصول على versehen من مدخل.\n\n**المعادلة الرياضية للفנקشن:**\n\n$$y = f(x)$$\n\n* **x** هو المدخل.\n* **y** هو versehen.\n* **f** هو الوظيفة.\n\n**أمثلة على الوظائف:**\n\n* ** Adder:** $$y = x + 5$$\n* **Subtractor:** $$y = x - 2$$\n* **Multiplier:** $$y = 2x$$\n* **Divider:** $$y = \\frac{x}{3}$$\n\n**خصائص الوظائف:**\n\n* **التحدد:** الوظيفة يجب أن تعين مدخل واحد فقط versehenًا واحدًا.\n* **الاستمرارية:** الوظيفة يجب أن تكون مستمرة في جميع النقاط.\n* **الاشتقاق:** الوظيفة يجب أن يكون لها مشتق في جميع النقاط.\n\n**الوظائف مهمة في العديد من المجالات، بما في ذلك:**\n\n* الرياضيات\n* الفيزياء\n* علوم الكمبيوتر\n* الاقتصاد\n\n**يمكن استخدام الوظائف لنمذجة العديد من الظواهر، مثل:**\n\n* نمو السكان\n* تكلفة الإنتاج\n* دخل المستهلكين"
+            }
+          },
+          "prompting_state": {
+            "prompt": "واب فنکشن چی انت ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5439,6 +5939,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**उत्तार:**\n\nहार्ट  ریट / دل की तीव्रता का अनुपात है। यह मनुष्यों में विभिन्न कारकों के लिए भिन्न हो सकता है, जैसे आयु, लिंग, स्वास्थ्य स्थिति और जीवनशैली।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "تچوکین مردُمائے “ ہارٹ  ریٹ / دل تیزی”   چی آ کمِیں  نہ تچوکیں مردُماچ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5610,6 +6130,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**解:**\n\n* **pH** 1-7 کی स्थिति में अम्ल होती है।\n* **pH** 7 की स्थिति में उदासीन होती है।\n* **pH** 7-14 की स्थिति में क्षारीय होती है।\n\n**कना में pH का मान:**\n\n* शुद्ध जल का pH 7 है।\n* अधिकांश शुद्ध पदार्थों का pH 7 से कम है।\n* कुछ पदार्थों का pH 7 से अधिक है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "شاوارا پھد من چی آ  باز ہید کناں ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5773,6 +6313,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جوزinga بيلنس:**\n\n* **نسبة جوزinga:** 1:2\n* **نسبة بيلنس:** 2:3\n\n**نسبة جوزinga + نسبة بيلنس = 1 + 2/3 = 5/3**\n\n**نسبة جوزinga / نسبة بيلنس = 1/2**\n\n**نسبة جوزinga = (1/2) * 5/3 = 5/6**\n\n**نسبة بيلنس = (2/3) * 5/3 = 10/9**\n\n**لכן، جوزinga 5/6 من إجمالي جوزinga والبيلنس 10/9 من إجمالي جوزinga والبيلنس.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "چی آ سائیکل جوزینگا بیلنس بی اور جک اگ آ  بیلنس نبی ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5944,6 +6504,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**نان**\n\nنان ایک%{100} کاربوہائیڈریٹ اور {20-25} protien کا مictureہ ہے۔ یہ عام طور پر آلو اور گندھوں سے بنایا جاتا ہے، لیکن یہ کچھ اور بھی مواد سے بنایا جا سکتا ہے۔\n\n**ورگ خرابیں**\n\nورگ خرابیں وہ viuہی یا امواتی substances ہیں۔ یہ viuہی organisms اور inorganic materials دونوں پر اثر رکھ سکتے ہیں۔\n\n**نان اورورگ خرابیں کے درمیان تعلق**\n\nنان اورورگ خرابیں کے درمیان تعلق متعدد اور वेगے ہیں۔\n\n* **نان اورورگ خرابیں کا تعلق** -نان اورورگ خرابیں کا تعلق متعدد اور वेगے ہے۔\n* **نان اورورگ خرابیں کا استعمال** -نان اورورگ خرابیں کا استعمال متعدد اور वेगے ہے۔\n* **نان اورورگ خرابیں کا budouاق** -نان اورورگ خرابیں کا budouاق متعدد اور वेगے ہے۔\n\n**نان اورورگ خرابیں کا تعلق**\n\nنان اورورگ خرابیں کا تعلق متعدد اور वेगے ہے۔\n\n* **فیزیکی تعلق** -نان اورورگ خرابیں کا فیزیکی تعلق nanoparticles اور biomolecules کے درمیان electrostatic اور van der Waals forces کے ذریعہ وجود رکھता ہے۔\n* **inetic تعلق** -نان اورورگ خرابیں کاinetic تعلق nanoparticles اور biomolecules के बीच chemical reactions and enzymatic reactions के माध्यम से وجود رکھता ہے۔\n* **بیologiques تعلق** -نان اورورگ خرابیں का biiological interaction nanoparticles and biomolecules के बीच biological responses के माध्यम से وجود रکھता।\n\n**نان اورورگ خرابیں का استعمال**\n\nنان اورورگ خرابیں का استعمال متعدد اور वेगے।\n\n* **سرطان 치료** -نان اورورگ خرابیں का उपयोग سرطان के उपचार में किया जा सकता है।\n* **طبیकी** -نان اورورگ خرابیں का उपयोग दवा के प्रबंधन में किया जा सकता है।\n* **환경** -نان اورورگ خرابیں का उपयोग प्रदूषण को कम करने में किया जा सकता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "چی آ سوچوکیں نان  ورگ خرابیں ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6107,6 +6687,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**شُوریں:**\n\n* **مُحدّد وقت Plan بنانے:** وقت Plan بنانے اور اس پر عمل करने से وقت का उपयोग करने का बेहतर तरीका है।\n* **प्राथमिकता को स्थापित:** काम की प्राथमिकता को स्थापित करने से आप काम को व्यवस्थित तरीकों से करने में सहायता करेगी।\n* **अपनी आवश्यकता से काम को व्यवस्थित:** काम की आवश्यकता से काम को व्यवस्थित करने से आप काम को करने में अधिक प्रभावी बनें।\n* **अपनी स्थिति से काम को व्यवस्थित:** काम की स्थिति से काम को व्यवस्थित करने से आप काम को करने में अधिक कुशल बनें।\n\n**مشكلें:**\n\n* **अनुपयुक्त समय प्रबंधन:** समय प्रबंधन के अनुचित तरीकों का उपयोग समय का उपयोग करने में कठिनाई पैदा कर सकता है।\n* **कमी से काम की प्राथमिकता:** काम की प्राथमिकता को स्थापित करने में कमी से काम की प्राथमिकता कम प्रभावी काम करने का कारण बन सकती है।\n* **अपनी आवश्यकता से काम को व्यवस्थित करने में कमी:** काम की आवश्यकता से काम को व्यवस्थित करने में कमी से काम को करने में प्रभावी नहीं बनता है।\n* **अपनी स्थिति से काम को व्यवस्थित करने में कमी:** काम की स्थिति से काम को व्यवस्थित करने में कमी से काम को करने में कुशल नहीं बनता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "چِی آ شُوریں جاگا وپسگ مشکللیں؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6278,6 +6878,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\n**1. हार्डवेयर समस्याएं:**\n\n* कठिन डिस्क ±  या रम Drive\n* मृत्यु के लिए ऑपरेटिंग सिस्टम\n* वित्तीय प्रबंधन की कमी\n* हार्डवेयर की कमी\n\n\n**2. सॉफ्टवेयर समस्याएं:**\n\n* बग्स या वायरल\n* अपडेट न करने में कठिनाई\n* सुरक्षा खंडों में कमजोरियाँ\n* अनुसंधान की कमी\n\n\n**3. उपयोगकर्ता की त्रुटि:**\n\n* अत्यधिक प्रोग्राम या फайल खुलने का उपयोग\n* अत्यधिक ताप या ठंडा\n* बिद्युत की कमी\n\n\n**4. भौतिक कारक:**\n\n* गर्म या नमी\n* कंप्यूटर की स्थिति\n* बिद्युत की समस्याएं"
+            }
+          },
+          "prompting_state": {
+            "prompt": "کمپیوٹر کریش کے بی اگیں اَصلا چی بی اگیں کمپیوٹر توکا؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6441,6 +7061,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\nامے جِسم آ چی \"رसी\" होय।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "اگر امّا یک جاگا ے آ   پھسّتگُوں ، ھمودا آپ رسی و نان نامِلی ، امے جِسم آ چی بی ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6612,6 +7252,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "** جواب:**\n\nمرگ رندا اماگُوں نہیں ہوتی، کیونکہ وہ एक शुभा प्रकति है। मृत्यु केवल व्यक्तिगत जीवन का समापन है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "اے کبھی زانگ بی کہ مرگ رندا اماگُوں چِی بی ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6775,6 +7435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**نہ، میں دوبارہ پرچا نہیں رکھ سکتا.**\n\nمجھے یہ کارمل نہیں है और मैं किसी जानकारी या प्रणाली का प्रबंधन नहीं करता है जो परچा प्रबंधित करता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ھڈ دوبارہ پرچا نہ ردیت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6946,6 +7626,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "** مادن**\n\n* پرچا گران مادن ءَ نہاد پرچا ءَ نِہِضُّ ءَ مُضَمّن ءَ مُجَمّع ءَ مُتزاوج ءَ مُتحدّث ءَ مُتغيّر ءَ مُتوازن ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّن ءَ مُوصِف ءَ مُجرب ءَ مُتعلّم ءَ مُتطور ءَ مُمتاز ءَ مُتقنّ"
+            }
+          },
+          "prompting_state": {
+            "prompt": "\nتلاء ءِ نہاد پرچا گران انت؟ ایدگہ مادن، چش کہ نگرہ ءَ پرچا گران تر انت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7109,6 +7809,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\nجِبِہِ Earth ءَ پر نہیں کنت چَيا، تو وہ Earth ءَ پر نہیں رہِتا، بلکہ وہ Space ءَ میں گُرِب جاتا ہے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "کئو زمین ءَ پُر نہ کنت چیا کہ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7280,6 +8000,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**إجابتي:**\n\nيمكن أن يكون هناك العديد من الأسباب التي تجعل الهاتفك يتأرجح من واباں. بعض الأسباب الشائعة تشمل:\n\n* **الشبكة غير المستقرة:** يمكن أن تؤثر الضعف أو عدم استقرار الشبكة على أداء الهاتف.\n* **الاستخدام الزائد للشبكة:** يمكن أن يؤثر استخدام الهاتف للشبكة على أداء الهاتف.\n* **البرمجيات غير المصممة:** يمكن أن تؤثر برمجيات الهاتف غير المصممة على أداء الهاتف.\n* **البطارية المنخفضة:** يمكن أن تؤثر بطارية الهاتف المنخفضة على أداء الهاتف.\n* **الاستخدام غير المناسب للهاتف:** يمكن أن يؤثر استخدام الهاتف بطريقة غير مناسبة على أداء الهاتف."
+            }
+          },
+          "prompting_state": {
+            "prompt": "منی فون ءَ چوں سما بیت من واباں؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7443,6 +8183,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\n* **زنجير** - یہ گیشتر اور ز anger دونوں کے درمیان میں एक संबंध estableہ رکھता है اور دونوں को ملحوظ رکھتا ہے۔\n* **نہار** - یہ گیشتر اور ز anger دونوں के लिए یک اور اہم 요소 ہے۔ گیشتر اور ز anger دونوں کا Day and Night Cycle متناظر ہوتا ہے۔\n* **سمج** - یہ گیشتر اور ز anger دونوں के लिए एक आवश्यक 요소 ہے۔ گیشتر اور ز anger دونوں के लिए समج की आवश्यकता होती ہے۔\n* **حلم** - یہ گیشتر اور ز anger دونوں के लिए एक اہم 요소 ہے۔ گیشتر اور ز anger دونوں के लिए Hope is essential for survival."
+            }
+          },
+          "prompting_state": {
+            "prompt": "اگاں گیشتر چیزانی تام چہ بو ءَ زانگ بیت، گڈا پرچا لہتیں چیزانی بو وش بنت بلے جند اش بدتام بنت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7614,6 +8374,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\nشبو پرچا روت نہیں کرتا، بلے آئی ءَ ہر ششت کنت ءَ شبو پرچا نہیں رکھتا ہے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "سابون دست ءِ ہر چیز ءَ ششت کنت، بلے آئی ءِ وشبو پرچا نہ روت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7777,6 +8557,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**سہ داراں زمین چنڈ ءِ شبینگ چونی ءَ بیت**\n\n**زمینی سہ داراں:**\n\n* امریکن سہ داراں\n* انڈسٹریل سہ داراں\n* جہاں سہ داراں\n* رورل سہ داراں\n\n**شبینگ سہ داراں:**\n\n* ٹل Comrade\n* Airtel\n* Reliance Communications\n* Vodafone Idea\n\n**بیت سہ داراں:**\n\n* Wipro\n* Infosys\n* Accenture\n* TCS\n\n**یہاں سہ داراں:**\n\n* Amazon\n* Flipkart\n* Myntra\n* Snapdeal\n\n**امریکن سہ داراں:**\n\n* Apple\n* Microsoft\n* Google\n* Amazon\n\n**انڈسٹریل سہ داراں:**\n\n* Tata Consultancy Services (TCS)\n* Wipro\n* Infosys\n* Accenture\n\n**جہاں سہ داراں:**\n\n* Reliance Industries\n* Adani Group\n* Godrej & Boyce\n* Mahindra & Mahindra\n\n**رورل سہ داراں:**\n\n* ITC Limited\n* Bajaj Auto\n* Mahindra & Mahindra\n* Tata Motors"
+            }
+          },
+          "prompting_state": {
+            "prompt": "سہ داراں زمین چنڈ ءِ شبینگ چونی ءَ بیت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7948,6 +8748,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\n\"گاسگ ءِ وہد ءَ دپ ءَ چہ آپ یا تَک پرچا رچیت نہیں ہے। یہ ایک अमानवीय प्रणाली है।\""
+            }
+          },
+          "prompting_state": {
+            "prompt": " گاسگ ءِ وہد ءَ دپ ءَ چہ آپ یا تَک پرچا رچیت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8111,6 +8931,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**كنترول كانَگ بے بِی**\n\nكنترول كانَگ بے بِي هو نظام إدارة يمكنه التحكم في سلوك الإنسان من خلال التحكم في بيئة. يتم استخدام هذا النظام في العديد من المجالات، بما في ذلك الصحة، التعليم والعمل.\n\n**مُجالات الاستخدام:**\n\n* **الصحة:** يمكن استخدام كنترول كانَگ بے بِي لتنظيف السلوكيات التي تساهم في الأمراض.\n* **التعليم:** يمكن استخدام كنترول كانَگ بے بِي لتطوير سلوكيات التعلمية الإيجابية.\n* **العمل:** يمكن استخدام كنترول كانَگ بے بِي لزيادة الإنتاجية والابتكار.\n\n**أنواع كنترول كانَگ بے بِي:**\n\n* **كنترول السلوك:** يتم التحكم في سلوك الفرد من خلال تقديم مكافآت أو عقاب.\n* **كنترول البيئة:** يتم التحكم في البيئة من خلال تغيير الظروف الفيزيائية أو الاجتماعية.\n\n**مُزايا كنترول كانَگ بے بِي:**\n\n* يمكنه تغيير سلوكيات غير المرغوبة.\n* يمكنه تحسين الصحة والتعليم والعمل.\n* يمكنه استخدامها في مجموعة واسعة من الظروف.\n\n**عيوب كنترول كانَگ بے بِي:**\n\n* يمكنه أن يكون قاسيًا.\n* يمكنه أن يكون غير فعّال.\n* يمكنه أن يُستخدم بطرق ضارة.\n\n**التحديات:**\n\n* صعوبة تحديد المعلمات التي تؤثر على سلوك الإنسان.\n* صعوبة التحكم في سلوك الإنسان من خلال التحكم في بيئة.\n* صعوبة استخدام كنترول كانَگ بے بِي بطرق آمنة وفعالة."
+            }
+          },
+          "prompting_state": {
+            "prompt": "موسم کنٹرول کانَگ بے بِی یا مردم وت جور کوت کتی ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8282,6 +9122,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**Translation:**\n\nWhat is the meaning of the proverb \"When the fox comes, the chickens will be afraid\"?\n\n**Answer:**\n\nThe proverb means that when a cunning or dangerous person arrives, the weaker or more vulnerable people will be afraid."
+            }
+          },
+          "prompting_state": {
+            "prompt": "تو وہدے دہل ءِ تاکاں سندئے دہل چون بیت؟\nتو آئی ءَ تاوان دیگائے، دہل وتارا گپت کنت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8445,6 +9305,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:** پیسر مردم دی گيشتر انہاں د‏‏ی ذہنیت، تجربہ، تعلیم تے کارہابیہ skills دا Zusammen textStatus ا‏‏ے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "وپسگ ءَ پیسر مردم چیا گیشتر جیڑیت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8616,6 +9496,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\nدارگ بنت نہیں ہے، وہ ترنسگ جنس کا رکھ ہے اور ارس پرچا کا کاہنت ہے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "پیماز ءِ ترنسگ ءَ ارس پرچا در کاہنت،\nاے چوں دارگ بنت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8779,6 +9679,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\n* **لوگ ءِ دیمی سہ دار:** لوگ ءِ دیمی سہ دار وہ لوگ ہوتے ہیں جو دیمی سہ دار اور اس کے عمل پر control رکھتے ہیں۔\n* **دست ءِ مرزگ پرچا:** دست ءِ مرزگ پرچا وہ لوگ ہوتے ہیں جو دیمی سہ دار اور اس کے عمل پر control نہیں رکھتے لیکن وہ دیمی سہ دار کے عمل پر impact رکھ سکتے ہیں۔\n* **بیت:** بیت وہ لوگ ہوتے ہیں جو دیمی سہ دار اور اس کے عمل پر control نہیں رکھتے اور وہ دیمی سہ دار کے عمل پر impact نہیں رکھ سکتے۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "\nگیشتر لوگ ءِ دیمی سہ دار ءَ  دست ءِ مرزگ پرچا وش بیت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8950,6 +9870,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**مہ ضوابط:**\n\n* **نہاں، مجھے یہ نہیں معلوم کہ سافٹ وئیر چیا نوکاز کنگ لوٹ انت یا نہیں**\n* **مجھے یہ نہیں معلوم کہ مہ کناں گڈا چے بیت یا نہیں**\n\n**مہ تجویز:**\n\n* **سافٹ وئیر چیا نوکاز کنگ لوٹ نہیں**\n* **مہ کناں گڈا چے بیت نہیں**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "مارا ہروہد ءَ سافٹ وئیر چیا نوکاز کنگ لوٹ انت؟ من اگاں مہ کناں گڈا چے بیت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9113,6 +10053,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "** جواب:**\n\nدار اگاں زر ءَ بہ بیت زر برزتر بیت نہیں ہے।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "یہ دار  اگاں زر ءَ بہ بیت زر برزتر بیت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9284,6 +10244,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**1. سلول‌های نورونی:**\n* سلول‌های نورونی بافته‌های عصبانی را تشکیل می‌دهند و انتقال پیام‌های الکتریکی را از یک سلول به سلول دیگر منتقل می‌کنند.\n\n\n**2. سلول‌های اندوتلیال:**\n* سلول‌های اندوتلیال با غشای سلول‌های رگ‌های خونی راbelline می‌کنند و انتقال مواد از رگ‌ها به سلول‌ها و از سلول‌ها به رگ‌ها را facilitating می‌کنند.\n\n\n**3. سلول‌های بین‌سلولی:**\n* سلول‌های بین‌سلولی با غشای سلول‌های دیگر را به هم متصل می‌کنند و انتقال پیام‌های بین سلول‌ها را facilitating می‌کنند.\n\n\n**4. سلول‌های عصبانی:**\n* سلول‌های عصبانی با سلول‌های نورونی ارتباط دارد و انتقال پیام‌های الکتریکی را از سلول‌های نورونی به سلول‌های عصبانی منتقل می‌کنند.\n\n\n**5. سلول‌های لنف:**\n* سلول‌های لنف با سیستم لنفی ارتباط دارد و انتقال مواد بین سلول‌ها را facilitating می‌کنند.\n\n\n**6. سلول‌های استروئیدی:**\n* سلول‌های استروئیدی با غدد استروئیدی ارتباط دارد و هormon استروئیدی را ترشح می‌کنند.\n\n\n**7. سلول‌های Defense:**\n* سلول‌های Defense با سیستم ایمنی ارتباط دارد و با باختن با باکتری‌ها و ویروس‌ها از بدن محافظت می‌کنند."
+            }
+          },
+          "prompting_state": {
+            "prompt": "تقریباً موچ امّائے جِسم سیل نوکیا جور بِیت باں گُور امئے  دماگ سیل  چی آ مختِلفاں؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9451,6 +10431,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:**\n\nمُکمل ختم نہیں کُرت گاں، کیونکہ یہ एक अपूर्ण प्रश्न ہے۔ یہ जानकारी नहीं बताता कि क्या आपका प्रश्न है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ڈانڈو/ فلیزاں   امَا چی آ  مُکمل ختم کُرت نِکن گاں؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9614,6 +10614,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.balochi:gemma 7b",
+          "language": "Balochi",
+          "translations": {
+            "Balochi": {
+              "language": "Balochi",
+              "text": "**جواب:** و پسگ چُھوں مردُما جت نہیں کرتا، کیونکہ یہ एक मानव की विशेषता नहीं है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "نہ وپسگ چُھوں مردُما جت ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFofane di palamelela kwa pele go ya kwa morago adalah untuk melindungi daun-daun palamelela dari hama-hama yang dapat menyebabkan kerusakan. Fofane ini berfungsi sebagai barrier yang melindungi daun-daun dari pengaruh langsung dari matahari, angin, dan air."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa difofane di palamelela kwa pele go ya kwa morago?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nPelong merupakan proses perubahan dari zat yang lebih kompleks menjadi zat yang lebih sederhana. Dalam proses pelong, zat yang lebih kompleks akan terurai menjadi zat yang lebih sederhana. Pelong merupakan proses yang penting dalam berbagai bidang, termasuk kimia, biologi, dan geologi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa go goga motsoko go kotsi thata mo pelong?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "iPhone difaele le difoto di phimolwang di ya kae fa di tlosiwa mo 'tse di sa tswang go phimolwa. Le difoto di phimolwang di ya kae fa di tlosiwa mo 'tse di sa tswang go phimolwa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mo iPhone, difaele le difoto tse di phimolwang di ya kae fa di tlosiwa mo 'tse di sa tswang go phimolwa'?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nPele ga go tlola go re thusa go tlola kwa godimo adalah proses di mana sel-sel dalam tubuh kita menghasilkan lebih banyak protein dan enzim yang dibutuhkan untuk membangun dan memperbaiki jaringan dan organ. Hal ini dilakukan untuk mengatasi kerusakan dan tekanan yang dilakukan pada tubuh selama aktivitas fisik yang berat."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa go siana pele ga go tlola go re thusa go tlola kwa godimo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFa melemo ya maatla a mmele/masea a mangwe a a mo mašimong a ga mma, a sa kgone go tsenngwa mo dijoeng tsa bana ba ba sa anyang, ya ika le fa melemo yamaatla a mmele/masea a mangwe a a mo mašimong a ga mma, ya ika le fa melemo yamaatla a mmele/masea a mangwe a a mo mašimong a ga mma, lefa ga tsenngwa ya bana ba ba sa anyang."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa melemo ya maatla a mmele/masea a mangwe a a mo mašimong a ga mma, a sa kgone go tsenngwa mo dijoeng tsa bana ba ba sa anyang?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Jang fa mofani wa me wa wifi a laola lebelo la moedi wa internet.\n\n**Ufahamu wa maoni haya:**\n\nMaoni haya yanasema kuwa kuna uunganzi wa kihisia kati ya mtu binafsi na teknolojia ya wifi. Kuna matukio ya kusikitisha ambayo yanatokea wakati mtu binafsi anajaribu kuunganzi na teknolojia ya wifi.\n\n**Maoni haya yanakataa maoni ya kwamba:**\n\n* Teknolojia ya wifi ni ya kuaminifu.\n* Uunganzi wa kihisia kati ya mtu binafsi na teknolojia ya wifi ni wa kuaminifu.\n\n**Maoni haya yanakataa maoni ya kwamba:**\n\n* Teknolojia ya wifi ni ya kuaminifu.\n* Uunganzi wa kihisia kati ya mtu binafsi na teknolojia ya wifi ni wa kuaminifu.\n\n**Maoni haya yanakataa maoni ya kwamba:**\n\n* Teknolojia ya wifi ni ya kuaminifu.\n* Uunganzi wa kihisia kati ya mtu binafsi na teknolojia ya wifi ni wa kuaminifu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Jang fa mofani wa me wa wifi a laola lebelo la moedi wa internet?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFa go tshwarwa madi gantsi mo kobamelong ya letsoho la gago e ke ntlha ya go tshwarwa ka dikgomo ya letsoho la gago. Letsoho la gago ke letsoho lefatsheng, lefa lefatsheng lekgotsi lekgotsi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa go tshwarwa madi gantsi mo kobamelong ya letsoho la gago?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\n**1. Keajaiban Teknologi Digital:**\n\n* Kamera digital menggunakan sensor digital untuk menangkap gambar, sedangkan kamera analog menggunakan film.\n* Sensor digital dapat mengumpulkan lebih banyak informasi dari area yang lebih kecil, sedangkan film hanya dapat mengumpulkan informasi dari area yang lebih besar.\n* Hal ini berarti bahwa kamera digital dapat menghasilkan gambar yang lebih dpi (dots per inch) dan lebih jelas dari kamera analog.\n\n\n**2. Kontrol yang Lebih Baik:**\n\n* Kamera digital memiliki kontrol yang lebih baik dari kamera analog.\n* Pengguna dapat menyesuaikan berbagai pengaturan, seperti ISO, aperture, dan shutter speed, untuk mendapatkan gambar yang diinginkan.\n\n\n**3. Pengurangan Noise:**\n\n* Kamera digital memiliki fitur pengurangan noise yang lebih baik dari kamera analog.\n* Hal ini berarti bahwa gambar digital lebih bersih dan jelas dari gambar analog.\n\n\n**4. Format File yang Lebih Kompakt:**\n\n* Gambar digital disimpan dalam format file yang lebih kompak, sedangkan gambar analog disimpan dalam format file yang lebih besar.\n* Hal ini berarti bahwa penyimpanan dan berbagi gambar digital lebih mudah dari penyimpanan dan berbagi gambar analog.\n\n\n**5. Keajaiban Post-Processing:**\n\n* Gambar digital dapat dengan mudah diubah dan diperbaiki di software post-processing.\n* Pengguna dapat menyesuaikan warna, contrast, dan lainnya untuk mendapatkan gambar yang diinginkan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa re sa ntse re dirisa dikamera tse dikgolo tsa setudio sa thelebishene fa thekenoloji e tshwanang jaanong e le mo go tsa selefouno tse dinnye?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Tšhepo ya gore:**\n\n* Tšhepo ya gore e le tšhepo ya kgomo ya gore.\n* Tšhepo ya gore e le tšhepo ya kgomo ya gore e le tšhepo ya kgomo ya gore.\n\n**Lefatshe:**\n\n* Lefatshe ya gore e le kgomo ya gore.\n* Lefatshe ya gore e le kgomo ya gore e le kgomo ya gore.\n\n**Kgorong:**\n\n* Kgorong ya gore e le kgomo ya gore.\n* Kgorong ya gore e le kgomo ya gore e le kgomo ya gore.\n\n**Tšhepo ya gore:**\n\n* Tšhepo ya gore e le tšhepo ya kgomo ya gore.\n* Tšhepo ya gore e le tšhepo ya kgomo ya gore e le tšhepo ya kgomo ya gore.\n\n**Lefatshe:**\n\n* Lefatshe ya gore e le kgomo ya gore.\n* Lefatshe ya gore e le kgomo ya gore e le kgomo ya gore.\n\n**Kgorong:**\n\n* Kgorong ya gore e le kgomo ya gore.\n* Kgorong ya gore e le kgomo ya gore e le kgomo ya gore."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ba itse jang gore mogote wa teng ga lefatshe o kana kang?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nMakhwapha ka bontsi ya bosha ya go tlhagala ka ntlha ya fa go tlhagala makhwapha. Bosha ya go tlhagala ka ntlha ya fa go tlhagala makhwapha ya go tlhagala ka ntlha ya fa go tlhagala makhwapha."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa go tlhagala makhwapha ka bontsi mo nakong ya bosha?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFetola jang bojang le metsi go nna mashi, boboa le dinku tse dingwe.\n\nJadi, fetola jang bojang le metsi go nna mashi, sedangkan boboa le dinku tse dingwe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dinku di fetola jang bojang le metsi go nna mashi, boboa le dinku tse dingwe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Mangwe a Mafura:**\n\n* Mango ya Golden Delicious\n* Mango ya Tommy Atkins\n* Mango ya Atavia\n* Mango ya Kent\n* Mango ya Sugar\n\n**Mmeleng wa Gagwe:**\n\n* Mango ya Golden Delicious\n* Mango ya Tommy Atkins\n* Mango ya Atavia\n\n**Batho ba a Akanya Fela:**\n\n* Mango ya Kent\n* Mango ya Sugar\n\n**Jang Gore:**\n\n* Mango ya Golden Delicious\n* Mango ya Tommy Atkins\n* Mango ya Atavia\n* Mango ya Kent\n* Mango ya Sugar\n\n**Mangwe a Mafura a a akanyanywa jang gore:**\n\n* Mango ya Golden Delicious\n* Mango ya Tommy Atkins\n* Mango ya Atavia\n\n**Mmeleng wa Gagwe a a akanyanywa jang gore:**\n\n* Mango ya Golden Delicious\n* Mango ya Tommy Atkins\n* Mango ya Atavia\n\n**Batho ba a Akanya Fela a a akanyanywa jang gore:**\n\n* Mango ya Kent\n* Mango ya Sugar"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Motho o itse jang gore ke peresente mangwe a mafura mo mmeleng wa gagwe, kgotsa batho ba a akanya fela?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:** Gore boroko jwa go thibelwa go tsoga se dire adalah \"Semangat\"."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng se se dirang gore boroko jwa go thibelwa go tsoga se dire?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Tsela jang go ise go ye kae:**\n\n* Tsela ya go ise go ye kae ke tsela ya go tshwama kae.\n* Tsela ya go ise go ye kae ke tsela ya go tshwama kae ya go tshwama kae.\n* Tsela ya go ise go ye kae ke tsela ya go tshwama kae ya go tshwama kae ya go tshwama kae.\n\n**Tsela ya go ise go ye kae ke tsela ya go tshwama kae:**\n\n* Tsela ya go ise go ye kae ke tsela ya go tshwama kae ya go tshwama kae ya go tshwama kae.\n* Tsela ya go ise go ye kae ke tsela ya go tshwama kae ya go tshwama kae ya go tshwama kae.\n\n**Tsela ya go ise go ye kae ke tsela ya go tshwama kae ya go tshwama kae:**\n\n* Tsela ya go ise go ye kae ke tsela ya go tshwama kae ya go tshwama kae ya go tshwama kae.\n\n**Tsela ya go ise go ye kae ke tsela ya go tshwama kae ya go tshwama kae ya go tshwama kae:**\n\n* Tsela ya go ise go ye kae ke tsela ya go tshwama kae ya go tshwama kae ya go tshwama kae."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Re sa fedisetsang tsela jang go ise go ye kae?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "* Nna lefatsheng le le nngwe fela kwa Taiwan e dira dikhomphiutha tse di gaisang tsotlhe mo lefatsheng.\n* Nna lefatsheng le le nngwe fela kwa Taiwan e dira dikhomphiutha tse di gaisang tsotlhe mo lefatsheng, le ka kgonega jang.\n\n**Tlhaloganyo:**\n\nKhampani e le nngwe fela kwa Taiwan e dira dikhomphiutha tse di gaisang tsotlhe mo lefatsheng, le ka kgonega jang."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke tlhaloganya gore khampani e le nngwe fela kwa Taiwan e dira dikhomphiutha tse di gaisang tsotlhe mo lefatsheng mme go se na ope yo mongwe yo o ka di etsang jaaka tsone. Seo se ka kgonega jang?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nA diphologolo di le dintsi a le kgubedu ya le a le magare a le kgubedu le diphologolo. Le magare ya le kgubedu le a le karakteristik le magare ya a diphologolo, le magare ya kgubedu le magare ya a diphologolo le a le sifat le magare ya a diphologolo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa madi a diphologolo di le dintsi a le kgubedu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Fa botsofe ke:**\n\n- Go fela ga bokgoni jwa mmele go itlhamela gape.\n- Ka ntlha yang fa go itshidila le go aga'mele (ka tsela e e siameng) ga di dirise bokgoni joo bogolo.\n\n**Ka bokhutshwane:**\n\n- Go fela ga bokgoni jwa mmele go itlhamela gape.\n- Ka ntlha yang fa go itshidila le go aga'mele (ka tsela e e siameng) ga di dirise bokgoni joo bogolo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa botsofe ke, ka bokhutshwane, go fela ga bokgoni jwa mmele go itlhamela gape, ke ka ntlha yang fa go itshidila le go aga 'mele (ka tsela e e siameng) ga di dirise bokgoni joo bogolo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "Khamphani e dira jang madi ka go rekisa dihlahiswa TSA yona ka theolelo e kgolo. TSA e di organo ya go tsamaya le go regolela matla le matla a go feta dika. TSA e dika go tsamaya le kgolo ka matla le matla e go rekisa dihlahiswa dihlahiswa.\n\n**TSA ya e dika go:**\n\n* Tsamaya le kgolo ka matla le matla\n* Rekisa dihlahiswa dihlahiswa\n* Regolela matla le matla a go feta dika\n\n**TSA ya e dika go rekisa dihlahiswa dihlahiswa:**\n\n* Go tshwanelo le matla le matla\n* Go tshwanelo le dihlahiswa dihlahiswa\n\n**TSA ya e dika go tsamaya le kgolo ka matla le matla:**\n\n* Go tshwanelo le matla le matla\n* Go tshwanelo le dihlahiswa dihlahiswa\n\n**TSA ya e dika go regolela matla le matla a go feta dika:**\n\n* Go tshwanelo le matla le matla\n* Go tshwanelo le dihlahiswa dihlahiswa\n\n**TSA ya e dika go rekisa dihlahiswa dihlahiswa:**\n\n* Go tshwanelo le matla le matla\n* Go tshwanelo le dihlahiswa dihlahiswa\n\n**TSA ya e dika go tsamaya le kgolo ka matla le matla:**\n\n* Go tshwanelo le matla le matla\n* Go tshwanelo le dihlahiswa dihlahiswa\n\n**TSA ya e dika go regolela matla le matla a go feta dika:**\n\n* Go tshwanelo le matla le matla\n* Go tshwanelo le dihlahiswa dihlahiswa\n\n**TSA ya e dika go rekisa dihlahiswa dihlahiswa:**\n\n* Go tshwanelo le matla le matla\n* Go tshwanelo le dihlahiswa dihlahiswa\n\n**TSA ya e dika go tsamaya le kgolo ka matla le matla:**\n\n* Go tshwanelo le matla le matla\n* Go tshwanelo le dihlahiswa dihlahiswa"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Khamphani e dira jang madi ka go rekisa dihlahiswa tsa yona ka theolelo e kgolo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\n**1. Ke ka ntlha yang fa basadi bangwe ba nna le \"bolwetse jwa moso\":**\n\n- \"Bolwetse jwa moso\" ke motso wa Setswana wa \"mulai dengan semangat yang kuat\".\n- Ntone le ke monna le goba sebakeng sa makgodisa.\n\n\n**2. Ke ka ntlha yang fa ba imile mme ba bangwe ba sa nne le jone:**\n\n- Imile ya sa nne le jone ke motso wa Setswana wa \"tidak ada yang tidak dapat dilakukan\".\n- Ntone le ke monna le goba sebakeng sa makgodisa, lediba makgodisa yang kompleks.\n\n\n**3. Ke ka ntlha yang fa ba le bantsi ba bo nna le mo karolong ya ntlha ya bokhachane mme ba bangwe ba bo nna le mo nakong yotlhe ya bokhachane:**\n\n- Ke mo karolong ya ntlha ya bokhachane, monna le goba sebakeng sa makgodisa lediba makgodisa yang kompleks.\n- Ke mo nakong yotlhe ya bokhachane, monna le tunya minat le kesabaran yang besar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa basadi bangwe ba nna le \"bolwetse jwa moso\" fa ba imile mme ba bangwe ba sa nne le jone? Ke ka ntlha yang fa ba le bantsi ba bo nna le mo karolong ya ntlha ya bokhachane mme ba bangwe ba bo nna le mo nakong yotlhe ya bokhachane?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Fa mocheso:**\n- Fa mocheso o le mongwe o ka ikutlwa o farologane ka botlalo mo malatsing a a farologaneng kgotsa dikgakologo.\n- Fa mocheso o le mongwe o ka ikutlwa o farologane ka botlalo mo malatsing a a farologaneng kgotsa dikgakologo le ka mokgatlo o o othusa.\n\n**Mongwe:**\n- Mongwe o le mongwe o ka ikutlwa o farologane ka botlalo mo malatsing a a farologaneng kgotsa dikgakologo le ka mokgatlo o o othusa.\n\n**Botlalo:**\n- Botlalo o le mongwe o ka ikutlwa o farologane ka botlalo mo malatsing a a farologaneng kgotsa dikgakologo le ka mokgatlo o o othusa.\n\n**Malatsing:**\n- Malatsing a a farologaneng kgotsa dikgakologo le ka mokgatlo o o othusa.\n\n**Kgotsa dikgakologo:**\n- Kgotsa dikgakologo le ka mokgatlo o o othusa.\n\n**Mokgatlo:**\n- Mokgatlo o o othusa le ka mokgatlo o o othusa.\n\n**Othusa:**\n- Othusa le ka mokgatlo o o othusa.\n\n**Fa mocheso o le mongwe o ka ikutlwa o farologane ka botlalo mo malatsing a a farologaneng kgotsa dikgakologo le ka mokgatlo o o othusa.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa mocheso o le mongwe o ka ikutlwa o farologane ka botlalo mo malatsing a a farologaneng kgotsa dikgakologo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Mathata a botsogo jwa'mele:**\n\n* Mathata a botsogo jwa'mele ke mathata a goba ga dikgomo, dikgomo le dikgomo tšha.\n* Mathata a botsogo jwa'mele ke mathata a goba ga dikgomo le dikgomo tšha.\n* Mathata a botsogo jwa'mele ke mathata a goba ga dikgomo le dikgomo tšha.\n\n**Stress o baka jang mathata a botsogo jwa'mele:**\n\n* Stress o baka jang mathata a botsogo jwa'mele ke stress o baka jang dikgomo le dikgomo tšha.\n* Stress o baka jang mathata a botsogo jwa'mele ke stress o baka jang dikgomo le dikgomo tšha.\n* Stress o baka jang mathata a botsogo jwa'mele ke stress o baka jang dikgomo le dikgomo tšha."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Stress o baka jang mathata a botsogo jwa 'mele?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Botlhoko jwa mmele:**\n\n* Mmele ya nepo maemo a dikotsi tsa mmele e dikgolwane ke kgopelo ya dikgomo.\n* Dikgomo di supa ka nepo maemo a dikotsi tsa mmele dikgolwane ke kgopelo ya dikgomo.\n* Dikgomo di supa ka nepo maemo a dikotsi tsa mmele dikgolwane ke kgopelo ya dikgomo.\n\n**Tlhabo jwa botlhoko:**\n\n* Dikgomo di supa ka nepo maemo a dikotsi tsa mmele dikgolwane ke kgopelo ya dikgomo.\n\n**Tšwetelelo jwa botlhoko:**\n\n* Dikgomo di supa ka nepo maemo a dikotsi tsa mmele dikgolwane ke kgopelo ya dikgomo.\n\n**Tlhabo jwa tšwetelelo:**\n\n* Dikgomo di supa ka nepo maemo a dikotsi tsa mmele dikgolwane ke kgopelo ya dikgomo.\n\n**Tšwetelelo jwa tšwetelelo:**\n\n* Dikgomo di supa ka nepo maemo a dikotsi tsa mmele dikgolwane ke kgopelo ya dikgomo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A botlhoko jwa mmele bo supa ka nepo maemo a dikotsi tsa mmele?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFofologolo le na le lobaka lwa botshelo lo lo farologaneng ke sa bokgoni le ya le diphologolo ya botshelo. Fofologolo ya botshelo le ya le diphologolo ya na le lobaka lwa botshelo le ya le diphologolo ya le dikgonelo.\n\nFofologolo ya botshelo le ya le diphologolo ya na le lobaka lwa botshelo le ya le diphologolo ya le dikgonelo le ya le dikombinerana le ya le diinterpretasikan le ya le dikomunikasi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa diphologolo di na le lobaka lwa botshelo lo lo farologaneng?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFathologolo adalah studi tentang penyakit dan prosesnya. Salah satu fokusnya adalah pada perubahan yang terjadi di tubuh manusia akibat penyakit. Oleh karena itu, fisiologolo memiliki pengetahuan yang luas tentang fungsi organ dan sistem dalam tubuh manusia, termasuk perubahan yang terjadi di tubuh akibat penyakit."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa batho ba sa kgone go ima ka diphologolo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Eng ya boroko ke tiragatso ya boroko ke eng ya eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng engeng**\n\n**Eng ya boroko ke tiragatso ya boroko ke eng ya eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng eng engeng**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tiragatso ya boroko ke eng?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nPeloponya ya motho yo o sianang e kaya ka lebelo le le kwa tlase go feta la motho yo o sa sianeng. Peloponya ya motho yo o sianang e lebo ya go feta le go tshwarela, le go tshwarela le go tshwarela le go tshwarela. Peloponya ya motho yo o sa sianeng e lebo ya go feta le go tshwarela le go tshwarela le go tshwarela le go tshwarela."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa pelo ya motho yo o sianang e kaya ka lebelo le le kwa tlase go feta la motho yo o sa sianeng?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFa ke fufulela thata morago ga go tswa mo shaweng kgadi lefatsheng, lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng lefatsheng."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa ke fufulela thata morago ga go tswa mo shaweng?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFa go le motlhofo go leka-lekana mo sethuthuthung fa se ntse se tsamaya mme go le thata thata fa se eme fela, ke ntlha ya go le etsa lekgotla ya go leka-lekana. Lekgotla ya go leka-lekana ke go le etsa lekgotla ya go le thata thata fa se eme fela."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa go le motlhofo go leka-lekana mo sethuthuthung fa se ntse se tsamaya mme go le thata thata fa se eme fela?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nPrinsip keharmonisan dalam fisika menyatakan bahwa setiap tindakan memiliki respon yang sama dan berlawanan. Dalam konteks ini, setiap perubahan yang dilakukan pada suatu sistem akan menyebabkan perubahan yang sama dan berlawanan di sistem lain yang terhubung dengannya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang go ja dijo tse di fisitsweng go le kotsi mo go wena?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFa go le thata go robala mo tikologong e e lerata adalah karena tilogi merupakan proses yang kompleks yang membutuhkan waktu dan tenaga yang signifikan. Oleh karena itu, proses tilogi biasanya dilakukan secara berulang-ulang untuk mencapai hasil yang optimal."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa go le thata go robala mo tikologong e e lerata?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nMe e dirang jang fa e thulametse. Jang fa e thulametse ke jang fa e tshwarang le e bakeng sa me e dirang."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Komporo ya me e dirang jang fa e thulametse?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Answer:**\n\nLefelong le le nang le metsi a a ka ikanngwang mme go se na dijo, go tla diragalang ka mmele wa me. Lefelong le le nang le metsi a a ka ikanngwang mme go se na dijo, go tla diragalang ka mmele wa me."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa nka bo ke tsenwe kwa lefelong le le nang le metsi a a ka ikanngwang mme go se na dijo, go tla diragalang ka mmele wa me?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Risposta:**\n\nNon ho accesso a informazioni reali-time o a eventi passati, quindi non posso fornire informazioni sulle notizie attuali o passate."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A re tla kile ra itse se se re diragalelang fa re sena go swa?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nGolpe gape adalah gerakan yang dilakukan dengan cara memukulkan bola dengan tangan atau kaki tanpa menggunakan peralatan khusus seperti raket atau sepatu. Gaya ini biasanya digunakan dalam permainan sepakbola atau futsal."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa marapo a sa gole gape?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\n**Botlhokwa** ya e le matlafatle ya kgopelo ya botlhokwa ya selefera. Botlhokwa go feta dimetale tse dingwe, jaaka selefera, le go tshona ya kgopelo ya botlhokwa ya selefera."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa gauta e le botlhokwa jaana? Mme ke ka ntlha yang fa e le botlhokwa go feta dimetale tse dingwe, jaaka selefera?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Gore mawatle a se ka a khaphatseha lefatshe**\n\nGore mawatle a se ka a khaphatseha lefatshe ke gore mawatle a se ka a tshwama lefatshe. Gore mawatle a se ka a tshwama lefatshe ke gore mawatle a se ka a tshwama lefatse."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng se dirang gore mawatle a se ka a khaphatseha lefatshe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Answer:**\n\nFounu yame e itse jang fa ke robetse. Founu e amanye e itse jang fa ke robetse."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Founu yame e itse jang fa ke robetse?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Tšolwa:** Monko ke monate di ka utlwala bosula."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa gantsi se re se utlwang ka monko se tlhotlheletsa tatso, ke eng fa dilo dingwe tse di nkgang monate di ka utlwala bosula?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFa sesepa se kgona go tlhapa dilo di le dintsi mo diatleng TSA gago mme se sa kgone go tlosa monko wa sone mo go wena adalah 1000 gram.\n\n1 kilogram = 1000 gram.\n\nJadi, 1 kgona go tlhapa dilo di le dintsi mo diatleng TSA gago mme se sa kgone go tlosa monko wa sone mo go wena adalah 1000 gram."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa sesepa se kgona go tlhapa dilo di le dintsi mo diatleng tsa gago mme se sa kgone go tlosa monko wa sone mo go wena?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Phoofolo di lemoga jang thoromo ya lefatshe e e tlang**\n\nLemoga jang thoromo ya lefatshe e e tlang ke lemogeng ya lefatshe e e tlang. Lemogeng ya lefatshe e e tlang ke lemogeng ya lefatshe ya oke, lemogeng ya lefatshe ya oke ke lemogeng ya lefatshe ya oke.\n\n**Phafa ya lemogeng ya lefatshe e e tlang**\n\nPhafa ya lemogeng ya lefatshe e e tlang ke phafa ya lemogeng ya lefatshe ya oke. Phafa ya lemogeng ya lefatshe ya oke ke phafa ya lemogeng ya lefatshe ya oke.\n\n**Matla ya lemogeng ya lefatshe e e tlang**\n\nMatla ya lemogeng ya lefatshe e e tlang ke matla ya lemogeng ya lefatshe ya oke. Matla ya lemogeng ya lefatshe ya oke ke matla ya lemogeng ya lefatshe ya oke.\n\n**Tshedi ya lemogeng ya lefatshe e e tlang**\n\nTshedi ya lemogeng ya lefatshe e e tlang ke tshedi ya lemogeng ya lefatshe ya oke. Tshedi ya lemogeng ya lefatshe ya oke ke tshedi ya lemogeng ya lefatshe ya oke."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Phoofolo di lemoga jang thoromo ya lefatshe e e tlang?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFa molomo wa me ka dinako dingwe o fafatsa mate fa ke thimologa kgosi ka ntlha ya fa molomo wa me ka dinako dingwe o fafatsa mate fa ke thimologa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa molomo wa me ka dinako dingwe o fafatsa mate fa ke thimologa?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Tšwetelelo:**\n\n* Batho maemo a bosa ke batho ba kgotsa.\n* Batho ba kgotsa ke batho ba dirwa ke batho maemo a bosa.\n\n**Tlhabo:**\n\n* Batho ba kgotsa ke batho ba dirwa ke batho maemo a bosa.\n\n**Tlhabo le Tšwetelelo:**\n\n* Batho ba kgotsa ke batho ba dirwa ke batho maemo a bosa.\n\nGo ya go kae le jang."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A ka laolwa kgotsa a dirwa ke batho maemo a bosa? Fa go le jalo, go ya go kae le jang?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Answer:**\n\nLe utlwisa botlhoko le setlhare se kgona go fola. Le utlwisa botlhoko le setlhare le diragalang ka sona, le setlhare se kgona go fola ka le utlwisa botlhoko le diragalang ka sona."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa o kumola letlhare la setlhare, go diragalang ka sona? A o a bo o le utlwisa botlhoko mme a setlhare seo se kgona go fola?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nThata pele re robala adalah sebuah bentuk kata yang digunakan untuk menyatakan bahwa sesuatu telah dilakukan atau terjadi. Kata ini terdiri dari dua bagian, yaitu:\n\n* **Thata pele:** yang berarti \"sudah\".\n* **Re robala:** yang berarti \"terjadi\".\n\nJadi, \"thata pele re robala\" berarti \"sudah terjadi\"."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa re akanya thata pele re robala?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nEle adalah ikan. ikan biasanya hidup di air, dan air memiliki sifat yang dapat menyebabkan seno mereka menjadi terkelupas."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke eng se se bakang gore re ele dinao fa re rema ditamati? A go na le tsela ya go thibela seno?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFofoofolo merupakan hewan yang hidup di air. Oleh karena itu, mereka tidak dapat hidup di rata-rata go amaega yang merupakan wilayah darat."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa diphoofolo tse dintsi tsa lapeng di rata go amaega?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nRe tlhoka go nna re dira diapdeite TSA software ka metlha adalah proses yang relatif kompleks dan membutuhkan pengetahuan yang spesifik tentang TSA regulations, sistem, dan proses. Berikut adalah beberapa langkah yang terlibat dalam proses ini:\n\n**1. Pengumpulan Data**\n\n* Pengumpulan data tentang perusahaan, karyawan, dan proses bisnis.\n* Pengumpulan data tentang TSA regulations dan guidelines.\n\n\n**2. Evaluasi Risiko**\n\n* Evaluasi risiko potensial perusahaan terhadap TSA regulations.\n* Identifikasi area yang membutuhkan peningkatan.\n\n\n**3. Pengembangan Plan**\n\n* Pengembangan rencana untuk memenuhi TSA regulations.\n* Tentukan tujuan dan sasaran.\n* Tentukan langkah-langkah yang diperlukan untuk mencapai tujuan.\n\n\n**4. Pelatihan dan Pendidikan**\n\n* Pelatihan karyawan tentang TSA regulations dan proses.\n* Pendidikan karyawan tentang perubahan yang dilakukan.\n\n\n**5. Implementasi**\n\n* Implementasi rencana yang telah dikembangkan.\n* Monitoring dan evaluasi proses.\n\n\n**6. Dokumenasi**\n\n* Dokumenasi proses dan hasil.\n* Penyimpanan bukti yang diperlukan untuk menunjukkan kepatuhan terhadap TSA regulations."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang re tlhoka go nna re dira diapdeite tsa software ka metlha? Go tla direga eng fa ke sa di dira?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Tšweletsa:** Nna ke gore metsi a tlwaelegile.\n\n**Masego:** Nna ke gore metsi a tlwaelegile."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A na dikepe di dira gore metsi a lewatle a nne kwa godimo go feta jaaka a tlwaelegile?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFarologane ya rona o na le diselara di farologane ya ka ntlha yang fa diselara. Farologane ya ka ntlha yang fa diselara di farologane ya rona o na le disegelah dalam bentuk tablet atau kapsul."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mmele wa rona o na le diselara tse di ka ikatisang gape. Ke ka ntlha yang fa diselara tsa boko di farologane?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Jawaban:**\n\nFa re sa kgone go nyeletsa ditlhako gotlhelele karena:\n\n* **Ketidakmampuan ekonomi:** Banyak orang di negara-negara berkembang memiliki pendapatan yang rendah dan kesulitan memenuhi kebutuhan dasar mereka. Hal ini membuat mereka tidak dapat membeli tiket perjalanan yang relatif mahal.\n* **Kurang infrastruktur:** Ada beberapa negara di dunia yang memiliki infrastruktur transportasi yang buruk, yang membuatnya sulit untuk mencapai tujuan mereka.\n* **Kurang peluang:** Orang di negara-negara berkembang mungkin tidak memiliki peluang yang cukup untuk mendapatkan pekerjaan yang baik dan meningkatkan pendapatan mereka.\n* **Faktor budaya:** Ada beberapa budaya di dunia yang tidak mendukung perjalanan, terutama jika perjalanan berarti keluar dari negara mereka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ke ka ntlha yang fa re sa kgone go nyeletsa ditlhako gotlhelele?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.tswana:gemma 7b",
+          "language": "Tswana",
+          "translations": {
+            "Tswana": {
+              "language": "Tswana",
+              "text": "**Tlhoka boroko go bolaya motho jang: **\n\n* **Bolaya motho jang ke motso wa go bolaya motho wa jang lebogeng.**\n* **Motho jang ke motho wa jang lebogeng wa go bolaya motho jang.**\n* **Bolaya motho jang ke go tshwela motho jang lebogeng wa go bolaya motho jang.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Go tlhoka boroko go bolaya motho jang?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

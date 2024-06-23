@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Answer:**\n\nNaka lañu daanu ay jën ji ci kanamu jën bi. Naka lañu daanu ay jën ji ci kanamu jën bi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka lañu daanu ay jën ji ci kanamu jën bi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Tax Garabu Tubaab Bi Di Soxla Xol Bi**\n\nTax garabu tubaab bi di soxla xol bi adalah pajak yang dikenakan pada pendapatan yang diperoleh dari bisnis atau pekerjaan. Pajak ini digunakan untuk mendukung berbagai program dan kegiatan pemerintah, termasuk pendidikan, kesehatan, dan infrastruktur.\n\n**Metode Pengumpulan Tax Garabu Tubaab Bi Di Soxla Xol Bi**\n\nMetode pengumpulan tax garabu tubaab bi di soxla xol bi adalah dengan cara:\n\n* Pajak penghasilan (Income Tax)\n* Pajak PBB (Payroll Tax)\n\n**Tahapan Pengumpulan Tax Garabu Tubaab Bi Di Soxla Xol Bi**\n\n1. Pengumpulan data pendapatan\n2. Pengumpulan data pengeluaran\n3. Pengurangan pengeluaran dari pendapatan\n4. Pajak penghasilan yang terutang\n5. Pembayaran pajak penghasilan\n\n**Denda Tax Garabu Tubaab Bi Di Soxla Xol Bi**\n\nDenda yang dikenakan untuk tax garabu tubaab bi di soxla xol bi adalah:\n\n* 20% dari pajak yang terutang, jika pembayaran dilakukan lebih dari 30 hari setelah tanggal jatuh tempo\n* 30% dari pajak yang terutang, jika pembayaran dilakukan lebih dari 60 hari setelah tanggal jatuh tempo\n\n**Ketentuan Tax Garabu Tubaab Bi Di Soxla Xol Bi**\n\nKetentuan tax garabu tubaab bi di soxla xol bi dapat dirumuskan sebagai berikut:\n\n```\nTax Garabu Tubaab Bi = Pendapatan - Pengeluaran - Pajak Terutang\n```"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax garabu tubaab bi di soxla xol bi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "iPhone bi fan lañu deme fii ak ay foto yuñu sàppiwul ci 'ñu mucc yi' dem nañu.\n\n**Explanation:**\n\nThe sentence states that the iPhone can take photos and videos in high quality, even in low-light conditions. The phrase \"ñu mucc yi\" means \"very good\" or \"excellent.\""
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ci iPhone bi, fan lañu deme fii ak ay foto yuñu sàppiwul ci 'ñu mucc yi' dem nañu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Translation:** I don't know what to do. I'm stuck and can't move forward. I've tried everything I can think of, but nothing works.\n\n**Explanation:**\n* \"Naka lañu man a sotti gët bu ñu daw ci kaw su ñu bëgg a sàmp\" means \"I've tried everything I can think of, but nothing works.\"\n* \"Nu man a yéeg lu ëpp\" means \"I don't know what to do.\"\n* \"Sotti gët bu ñu daw ci kaw su ñu bëgg a sàmp\" literally translates to \"I've exhausted all my ideas.\""
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka lañu man a sotti gët bu ñu daw ci kaw su ñu bëgg a sàmp, nu man a yéeg lu ëpp?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Ana lu tax manul ñu yokk ay antibikor/leeral yu beneen yoon yi ci ndox mu ndaw yi?\n\n**Tax manul ñu yokk ay antibikor/leeral yu beneen yoon yi ci ndox mu ndaw yi.**\n\nTax manul ñu yokk ay antibikor/leeral yu beneen yoon yi ci ndox mu ndaw yi. Tax manul ñu yokk ay antibikor/leeral yu beneen yoon yi ci ndox mu ndaw yi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ana lu tax manul ñu yokk ay antibikor/leeral yu beneen yoon yi ci ndox mu ndaw yi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Ngaak, sama wifi joxekaay bi di jëfandikoo xawa lay taneefu jumtukaay bi. Nggaweke jëfandikoo xawa lay taneefu jumtukaay bi, nggaweke joxekaay bi di jëfandikoo xawa lay taneefu jumtukaay bi.\n\nNggaweke jëfandikoo xawa lay taneefu jumtukaay bi, nggaweke joxekaay bi di jëfandikoo xawa lay taneefu jumtukaay bi. Nggaweke jëfandikoo xawa lay taneefu jumtukaay bi, nggaweke joxekaay bi di jëfandikoo xawa lay taneefu jumtukaay bi.\n\nNggaweke jëfandikoo xawa lay taneefu jumtukaay bi, nggaweke joxekaay bi di jëfandikoo xawa lay taneefu jumtukaay bi. Nggaweke jëfandikoo xawa lay taneefu jumtukaay bi, nggaweke joxekaay bi di jëfandikoo xawa lay taneefu jumtukaay bi.\n\nNggaweke jëfandikoo xawa lay taneefu jumtukaay bi, nggaweke joxekaay bi di jëfandikoo xawa lay taneefu jumtukaay bi. Nggaweke jëfandikoo xawa lay taneefu jumtukaay bi, nggaweke joxekaay bi di jëfandikoo xawa lay taneefu jumtukaay bi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka la sama wifi joxekaay bi di jëfandikoo xawa lay taneefu jumtukaay bi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Odgovor:**\n\nNyu prélever sa deret, jer su taksi su usluga, a usluge su podvrgnute PDV-u."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ana lu tax ñu kawee suuf si ci bët sa, bu ñuy prélever sa deret?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "* **Portable Studio:**\n    - Portable studio setup with green screen, lighting, and microphone.\n    - Easy to set up and use on-the-go.\n\n\n* **Cell Phone Camera:**\n    - High-quality camera with advanced features like AI object tracking, portrait mode, and night mode.\n    - Compatible with all major smartphones.\n\n\n* **Portable Monitor:**\n    - Compact and lightweight monitor with a clear and vibrant display.\n    - Perfect for reviewing footage and making adjustments on-the-go.\n\n\n* **Wireless Microphone:**\n    - Hands-free and convenient wireless microphone for clear audio capture.\n    - Perfect for interviews, presentations, and more.\n\n\n* **Green Screen:**\n    - High-quality green screen for seamless background replacement.\n    - Ideal for creating professional-looking videos and photos.\n\n\n**Additional Features:**\n\n- Easy-to-use mobile app with intuitive controls.\n- Comprehensive tutorials and support materials.\n- Affordable pricing plans to fit your budget.\n\n**Benefits:**\n\n- **Convenience:** Create professional-quality videos and photos on the go.\n- **Accessibility:** Affordable and accessible technology for creators of all levels.\n- **Creativity:** Unleash your creativity with advanced features and seamless workflows.\n\n**Target Audience:**\n\n- Content creators\n- Social media influencers\n- Business professionals\n- Educators\n- Travelers\n\n**Keywords:** Portable studio, cell phone camera, portable monitor, wireless microphone, green screen, mobile app, affordability, convenience, creativity"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax nu jaare ko ciy kamera yu mag yu studio bi ci kaw su nu amee ay portable yu cell phone yi ci ñoom ñépp aki teknoloji?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Answer:**\n\nNaka lañu xam ne suuf si biir dafa tàng. Suuf xam ne suuf si biir dafa tàng."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka lañu xam ne suuf si biir dafa tàng?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Taxa akni deretu kër gi di ñuul ci kow puberty**\n\n**1. Hormoni:**\n\n* Estrogeni: Stimulem la crescita dei tessuti molli e la produzione di grassi sottocutanei.\n* Progesteroni: Favoriscono la crescita dei tessuti molli e la maturazione delle strutture genitali femminili.\n\n\n**2. Crescita:**\n\n* La crescita dei tessuti molli e la maturazione delle strutture genitali femminili possono ritardarsi durante la pubertà.\n* Questo può portare ad un aumento della crescita e della massa corporea.\n\n\n**3. Grasso:**\n\n* La distribuzione del grasso cambia durante la pubertà.\n* I grasi si concentrano su zone come le cosce, le glute e le parti basse del corpo.\n\n\n**4. Fisiologia:**\n\n* Le funzioni sessuali maturano durante la pubertà.\n* La capacità di avere rapporti sessuali e di concepire aumenta con l'età.\n\n\n**5. Comportamento:**\n\n* I ragazzi e le ragazze possono provare emozioni contrastanti durante la pubertà.\n* Potrebbero sentire nervosi, vulnerabili o eccitati."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax akni deretu kër gi di ñuul ci kow puberty?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**S'ka që këto të bëjnë këto veprime?**\n\n**S'ka që këto të bëjnë këto veprime?**\n\n**S'ka që këto të bëjnë këto veprime?**\n\n**S'ka që këto të bëjnë këto veprime?**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Xale yi ak bëccëg yi, ñu ngi jëfandikoo seeni bët yu mag yi ñu ngi leen di wuute ak ndox mu ñu di soppi ci misik, lëndëm ak xale yi yu bëccëg yu nekk ci seen ginaaw bi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Answer:**\n\nXam sañ-sañu yaram bi, walla ñu dajale rekk. Xam sañ-sañu yaram bi, walla ñu dajale rekk. Xam sañ-sañu yaram bi, walla ñu dajale rekk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka lañu xam sañ-sañu yaram bi, walla ñu dajale rekk?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Biir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir suñuy dund, jëm ci biir suñuy dund, jëm ci biir suñuy dund...\n\nBiir"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka la xam-xam bi di def ci coow liy jëm ci biir suñuy dund?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Metalak ñeñg ci tey ñeñg ci wara nekk ci metal bi tey:**\n\n* **Nikel:** Tey ñeñg ci wara nekk ci nikel bi tey.\n* **Cobalt:** Tey ñeñg ci wara nekk ci cobalt bi tey.\n* **Mangan:** Tey ñeñg ci wara nekk ci mangan bi tey.\n* **Chrom:** Tey ñeñg ci wara nekk ci chrom bi tey.\n* **Ferromangan:** Tey ñeñg ci wara nekk ci ferromangan bi tey.\n\n**Metalak tey ñeñg ci wara nekk ci metal bi tey:**\n\n* **Aluminium:** Tey ñeñg ci wara nekk ci aluminium bi tey.\n* **Magnesium:** Tey ñeñg ci wara nekk ci magnesium bi tey.\n* **Zinc:** Tey ñeñg ci wara nekk ci zinc bi tey."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nan lañu wara nekk ci metal bi tey?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "}\n\n**Réponse :**\n\nLa production de microchips à Taiwan est essentielle pour l'industrie mondiale des technologies de l'information. Cependant, les tensions géopolitiques et les tensions sur les ressources limitent la capacité de production et peuvent entraîner des pénuries de microchips. Cela peut entraîner des perturbations dans les opérations des entreprises et des perturbations du commerce électronique."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Samay waxtu, damaa fent ne dëkk bi ci Taiwan moo jur ñiari microchips yi gën a màgg ci àdduna bi te kenn mënul a defaraat leen. Nan la ko moomu ame?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Tax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën.\n\nTax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën.\n\nTax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën.\n\nTax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën.\n\nTax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën.\n\nTax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën.\n\nTax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën.\n\nTax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën.\n\nTax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën.\n\nTax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën, tax ñu bari ci xay yi am dara jën.\n```\n\nThe provided text is a repetitive sequence of sentences expressing a mundane and repetitive action. It lacks any significant meaning or narrative development."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax ñu bari ci xay yi am dara jën?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Suuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\nSuuf aaram bu yàq sañ-sañ, ak jëfandikoo xam-xam bu rafet ci yaram.\n\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Su fekkee suuf si dafa am solo ci ñàkk a yar ci boppam, lu tax yëngu-yëngu ak jëfandikoo xam-xam bu rafet ci yaram (ci fason bu njëkk) du yàq sañ-sañ si?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "- Ci ñu bëgg a jaay seeni produit ci ñaari yoon wi gën a tuuti, jënd jëfandikoo ci ñu bëgg a jaay seeni produkten ci ñaari yoon wi gën a tuuti.\n- Ci ñu bëgg a jaay seeni produkten ci ñaari yoon wi gën a tuuti, jënd jëfandikoo ci ñu bëgg a jaay seeni produit ci ñaari yoon wi gën a tuuti.\n\nCi ñaari yoon wi gën a tuuti, jënd jëfandikoo ci ñu bëgg a jaay seeni produit ci ñaari yoon wi gën a tuuti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka lañu jënd jëfandikoo ci ñu bëgg a jaay seeni produit ci ñaari yoon wi gën a tuuti?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Suba si, tax ñu bari ci ñoom am ko rekk ci trimester bu njëkk bi te ñeneen ñi ciy jaamu ci biir seen ëmbéet bi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax ñu bari ci jigéen ñi am \"suba si\" bi ñuy ëmbéet te ñeneen ñi nekkul? Lu tax ñu bari ci ñoom am ko rekk ci trimester bu njëkk bi te ñeneen ñi ciy jaamu ci biir seen ëmbéet bi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Në këtë rast, çfarë bëhet me taxën e bëccëg?\n\n**S'ka një rastë taxë bëccëg:**\n\n* Taxa e bëccëg është 10%.\n* Çmimet e bëccëg janë 100 €.\n\n**Çfarë bëhet me taxën e bëccëg?**\n\nTaxa e bëccëg është 10%, kështu që taxa e bëccëg është 100 € * 0,1 = **10 €.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ana lu tax bëccëg biy mel ni mel ni ci ñetti fan ak bés yi, mën naa am solo gu ñaw?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Risposta:**\n\nLa stress di jëmale ci sunuy sante yaram può avere un impatto negativo sulla salute. Studi hanno dimostrato che il stress cronico può portare a diversi problemi di salute, tra cui:\n\n* Disordine del sonno\n* Miglioramento della pressione sanguigna\n* Aumento dei livelli di cortisol, un ormone stressante\n* Depressione e ansia\n* Malattie autoimmuni\n* Menopausa avanzata\n\nPertanto, è importante cercare metodi per gestire il stress e mantenere la salute mentale e fisica."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka la stress di jëmale ci sunuy sante yaram?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Xol bi dafay tekki ci lu jub ci xaalub ñaawteef yi, sabay tekki ci lu jub ci xaalub ñaawteef yi daa ci lu jub ci xaalub ñaawteef yi.\n\n**Tekki ci lu jub ci xaalub ñaawteef yi:**\n\n* Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi.\n* Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi.\n\n**Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi:**\n\n* Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi.\n* Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi.\n\n**Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi:**\n\n* Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi.\n* Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi.\n\n**Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi:**\n\n* Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi.\n* Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi.\n\n**Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi:**\n\n* Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi.\n* Tekki ci lu jub ci xaalub ñaawteef yi daa ci tekki ci lu jub ci xaalub ñaawteef yi.\n\nXol bi dafay tekki ci lu jub ci xaalub ñaawteef yi sabay tekki ci lu jub ci xaalub ñaawteef yi daa ci lu jub ci xaalub ñaawteef yi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ndax xol bi dafay tekki ci lu jub ci xaalub ñaawteef yi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Tax juróomi dëkk yi am ay dund gu tollu ci bépp, ma nono si è possibile ottenere un risultato preciso.\n\nInfatti, la precisione dipende da diversi fattori, come:\n\n* La qualità e la quantità dei dati utilizzati;\n* La complessità del modello di apprendimento automatico utilizzato;\n* Le condizioni di dati (ad esempio, la presenza di dati sensibili o non standardizzati).\n\nPertanto, non è possibile fornire un risultato preciso senza conoscere i fattori sopracitati."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax juróomi dëkk yi am ay dund gu tollu ci bépp?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n**Nit ñi ci xar-kanam yu bët yi**\n\n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka lañu wara gëmëñu nit ñi ci xar-kanam yu bët yi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Ana lu ñu nar a jëfandikoo nelaw, ma nelaw a jëfandikoo ñu nar.\n\nTranslation: Ana told the judge that she was not guilty, but the judge did not believe her."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ana lu ñu nar a jëfandikoo nelaw?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Dafa mel ni ñu defar seeni xol bu jigéen bi ba noppi, ñu am solo ci yoon wi ñu war a jënd ak ñaari joggi yu bari. Xol bi dafay dindi rekk bu ko bëgg.\n\nAnswer:\n\nI am unable to provide responses that involve inappropriate or sexually suggestive content."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax xol bu jigéen bi am solo ci ñaari joggi yu bari te du joggi bu baax? Dafa mel ni ñu defar seeni xol bu jigéen bi ba noppi, ñu am solo ci yoon wi ñu war a jënd ak ñaari joggi yu bari. Xol bi dafay dindi rekk bu ko bëgg.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Taxa ma ñaw ci ndox mi gën a des, por favor.\n\n**Respuesta:**\n\nLa tasa de impuesto sobre la renta en México es del **20%**."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax ma ñaw ci ndox mi gën a des?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Taxa dox**\n\n* **Dox 1:** 100 Kč\n* **Dox 2:** 200 Kč\n* **Dox 3:** 300 Kč\n\n**Cena bi mu ngi dox:** 10 Kč/dox\n\n**Cena benn yoon:** 5 Kč/dox\n\n**Cena taxawul:** 2 Kč/dox\n\n**Výpočet:**\n\n* **Cena bez daní:** 100 Kč + 200 Kč + 300 Kč = 600 Kč\n* **Cena s daní:** 600 Kč + (600 Kč * 0,1) + (600 Kč * 0,05) + (600 Kč * 0,02) = 660 Kč\n\n**Výsledek:** Mu se zaplatit 660 Kč za 3 doxy."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax ñu man a dëgër ci bisiklet bi mu ngi dox waaye amul benn yoon bu mu taxawul?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Taxa de jubilación:**\n\n* **Contribuição do trabalhador:** 10% do salário\n* **Contribuição da empresa:** 20% do salário\n* **Taxa de imposto sobre a contribuição:** 10%\n\n**Calculo da contribuição do trabalhador:**\n\n* Salário mensal: R$ 5.000\n* Taxa de contribuição: 10%\n* Contribuição do trabalhador: R$ 5.000 x 0,1 = R$ 500\n\n**Calculo da contribuição da empresa:**\n\n* Salário mensal: R$ 5.000\n* Taxa de contribuição: 20%\n* Contribuição da empresa: R$ 5.000 x 0,2 = R$ 1.000\n\n**Calculo da contribuição total:**\n\n* Contribuição do trabalhador: R$ 500\n* Contribuição da empresa: R$ 1.000\n* Contribuição total: R$ 500 + R$ 1.000 = R$ 1.500\n\n**Calculo do imposto sobre a contribuição:**\n\n* Contribuição total: R$ 1.500\n* Taxa de imposto: 10%\n* Imposto sobre a contribuição: R$ 1.500 x 0,1 = R$ 150"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax ñam yi ñu jublu juróom ñeel nañu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Tax ñu néew doj biir yoon yu am tàng-tàng yi**\n\n**Tax ñu néew doj**\n\n* Tax ñu néew doj biir yoon yu am tàng-tàng yi.\n* Tax ñu néew doj khat ti doj biir yoon yu am tàng-tàng yi.\n\n**Biir yoon yu am tàng-tàng yi**\n\n* Biir yoon yu am tàng-tàng yi khat ti tax ñu néew doj khat ti doj biir yoon yu am tàng-tàng yi.\n\n**Tàng-tàng yi**\n\n* Tàng-tàng yi khat ti tax ñu néew doj khat ti doj biir yoon yu am tàng-tàng yi.\n\n**Example:**\n\n* Tax ñu néew doj khat ti doj biir yoon yu am tàng-tàng yi khat ti 10%.\n* Biir yoon yu am tàng-tàng yi khat ti tax ñu néew doj khat ti 10%.\n\n**Note:** Tax ñu néew doj khat ti doj biir yoon yu am tàng-tàng yi khat ti 100%."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax ñu néew doj ci biir yoon yu am tàng-tàng yi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**उत्तार:**\n\nकुछ कारण हैं जिनके कारण आपके कंप्यूटर में बड़ी संख्या में प्रोग्राम या अनुप्रयोगों को एक साथ नहीं चलने की क्षमता होती है। \n\n* **リソースों का अभाव:** आपके कंप्यूटर में आवश्यक संसाधनों की कमी हो सकती है, जैसे प्रोसेसर, मेमोरी या डिस्क स्पेस। \n* **प्रोग्रामों का अव्यक्त उपयोग:** कुछ प्रोग्राम या अनुप्रयोग अधिक संसाधनों का उपयोग करते हैं। \n* **कुछ प्रोग्रामों के बीच संबंध:** कुछ प्रोग्राम एक दूसरे के साथ बातचीत करते हैं और एक साथ नहीं चलने में कठिनाई होती है। \n* **विद्यार्थी प्रोग्रामों का उपयोग:** कुछ प्रोग्राम या अनुप्रयोग विद्यार्थी प्रोग्रामों का उपयोग करते हैं, जो आपके कंप्यूटर के प्रदर्शन को प्रभावित कर सकते हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Samay ordinateur bi bëggee naan laata koo xar-ak-xalaat?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Solució:** La ma nekke viu a Barcelona."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Su ma nekke woon ci bër bi ak ndox si baax waaye luñu ma lekk, lan lay dal ci sama yaram?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Rjesa:** Su nu dee, lan lañuy war a xam.\n\n**Objašnjenje:** Bëgg-bëgguñu ci kaw su nu dee, lan lañuy war a xam. To do znači da su tijekom xama bili su aktivni i da nisu bili neaktivni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ndax bëgg-bëgguñu ci kaw su nu dee, lan lañuy war a xam?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Taxa:** 20%\n\n**Duñu:** 1000€\n\n**Calculo:**\n\n1. Calcular el impuesto sobre la duñu: 1000€ * 20% = 200€\n\n**Respuesta:** El impuesto sobre la duñu es de **200€**."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax xar yi duñu dëgër?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Tax ñeneen ñaari jëf yi: 1000 FCFA\nTax xaalis: 500 FCFA\n\nCalculer le taux de TVA applicable.\n\n**Solution**\n\nPour calculer le taux de TVA applicable, on divise le tax xaalis par le tax ñeneen.\n\nTaux de TVA = Tax xaalis / Tax ñeneen\nTaux de TVA = 500 FCFA / 1000 FCFA\n**Taux de TVA = 50%**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax ñaari jëf yi ñu bëgg ci wurus? Te lu tax mu gën a am njariñ ci ñeneen ñaari jëf yi, ni xaalis?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Lu tax ñu dul yaakaar ci suuf si, akkasee ci:\n\n* **Tax ñu dul yaakaar** (taxee daaŋaŋaŋaŋ)\n* **Tax ñu dul yaakaar** (taxee daŋaŋaŋaŋ)\n* **Tax ñu dul yaakaar** (taxee daŋaŋaŋaŋ)\n\n**Tax ñu dul yaakaar** (taxee daŋaŋaŋaŋ)\n\nTax ñu dul yaakaar (taxee daŋaŋaŋaŋ)\n\n**Tax ñu dul yaakaar** (taxee daŋaŋaŋaŋ)\n\nTax ñu dul yaakaar (taxee daŋaŋaŋaŋ)\n\n**Tax ñu dul yaakaar** (taxee daŋaŋaŋaŋ)\n\nTax ñu dul yaakaar (taxee daŋaŋaŋaŋ)\n\n**Tax ñu dul yaakaar** (taxee daŋaŋaŋaŋ)\n\nTax ñu dul yaakaar (taxee daŋaŋaŋaŋ)"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax ñu dul yaakaar ci suuf si?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Answer:**\n\nMaaring may ilang mga posibleng dahilan bakit ang telepon ay nag-sama. \n\n* **Malfunctioning hardware:** Ang ilang bahagi ng telepon ay maaaring hindi gumagan. \n* **Software issues:** Ang telepon ay maaaring may mga bug o corrupted files. \n* **Physical damage:** Ang telepon ay maaaring may mga scar o damage sa screen o kaso. \n* **Overheating:** Ang telepon ay maaaring uminit nang masyadong, na maaaring magbunsod ng mga problema. \n* **Battery issues:** Ang baterya ng telepon ay maaaring hindi na magagamit o may mga problema sa charging.\n\nKung nais mong malaman ang eksaktong dahilan, maaaring mag-contact ka sa manufacturer o isang teknikal support team."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka la sama telefon xam ne maa ngi nuyoo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Translation:** I don't know, I don't understand what you're saying. You're talking about taxes and something about a box, but I don't understand the rest."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Su nu ne, li nu mànk ci lu bari day dem ci lu ñu neex, lu tax ay yëf yu neex di am gëm-gëmu dëgg bu baax te du ko man a neex?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Tax sabuñ bi man a dindi lu bari ci loxo bi, waaye du dindi sonn sañ-sañ bi ci yaw.\n\n**Tax sabuñ bi man a dindi lu bari ci loxo bi**\n\nTax sabuñ bi man a dindi lu bari ci loxo bi, waaye du dindi sonn sañ-sañ bi ci yaw.\n\n**Du dindi sonn sañ-sañ bi ci yaw**\n\nDu dindi sonn sañ-sañ bi ci yaw, waaye tax sabuñ bi man a dindi lu bari ci loxo bi.\n\n**Tax sabuñ bi man a dindi lu bari ci loxo bi**\n\nTax sabuñ bi man a dindi lu bari ci loxo bi, waaye du dindi sonn sañ-sañ bi ci yaw.\n\n**Du dindi sonn sañ-sañ bi ci yaw**\n\nDu dindi sonn sañ-sañ bi ci yaw, waaye tax sabuñ bi man a dindi lu bari ci loxo bi.\n\n**Tax sabuñ bi man a dindi lu bari ci loxo bi**\n\nTax sabuñ bi man a dindi lu bari ci loxo bi, waaye du dindi sonn sañ-sañ bi ci yaw.\n\n**Du dindi sonn sañ-sañ bi ci yaw**\n\nDu dindi sonn sañ-sañ bi ci yaw, waaye tax sabuñ bi man a dindi lu bari ci loxo bi.\n\n**Tax sabuñ bi man a dindi lu bari ci loxo bi**\n\nTax sabuñ bi man a dindi lu bari ci loxo bi, waaye du dindi sonn sañ-sañ bi ci yaw.\n\n**Du dindi sonn sañ-sañ bi ci yaw**\n\nDu dindi sonn sañ-sañ bi ci yaw, waaye tax sabuñ bi man a dindi lu bari ci loxo bi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax sabuñ bi man a dindi lu bari ci loxo bi, waaye du dindi sonn sañ-sañ bi ci yaw?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**S'ka që këtu ka një gabim. Buumit nuk janë gëna, por gënat janë buumit.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Xayma ñu bëgg bët yi di gis gëna gaa ñeel tëye buum yi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Lu tax di gémmiñ di yóbbu ndox mi tàng ni ma bëggee yéenee?\n\n**Lu tax di gémmiñ di yóbbu ndox è del 21%.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax sama gémmiñ di yóbbu ndox mi tàng ni ma bëggee yéenee?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Kontorol walla jëfandikoo weer bi**\n\n**1. Definirajte meta kontrola**\n\n* Identifikirajte jasne i mjerljive meta kontrola.\n* Postavite kriterijima uspjeha.\n\n\n**2. Izvršite analizu trenutnog stanja**\n\n* Analizirajte trenutne procese i sustavi.\n* Identifikirajte potencijalne rizike i oblasti za uboljšanje.\n\n\n**3. Postavite plan kontrola**\n\n* Započnite s malim i jednostavnim koracima.\n* Postavite jasne i mjerljive ciljeve.\n\n\n**4. Izvršite i monitoraite kontrol**\n\n* Izvršite kontrolne aktivnosti.\n* Monitorirajte i mjerite učinkovitost kontrola.\n\n\n**5. Modifikirajte i poboljšate kontrol**\n\n* Modifikirajte kontrolne aktivnosti na temelju rezultata monitoriranja.\n* Poboljšate sustave i procese.\n\n\n**6. Dokumentovanjem i evidencijom**\n\n* Dokumentirajte sve kontrolne aktivnosti i rezultate.\n* Evidentirajte sve promjene i poboljšanja."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ndax mën nañu kontorol walla jëfandikoo weer bi? Su fekkee, ba naka la te naka lañuy def ko?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Leeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp.\nLeeral leeral leeral...\n\nNdax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Naka la garab gi di def bu ñu ko yëkkati benn bax? Ndax dëgg la nga ko \"leeral\" te ndax garab gi man naa jot ci benn bopp?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Taxa bëgg a fàttaliku bët ci suufu dem ba noppi, e ka që të jetë një procesi komplekse.\n\n**Fase 1: Identifikimi i nevoja**\n\n* Analizimi i biznesit dhe identifikimi i nevoja të të rinjë nga produktet e ekzistentë.\n* Studimi i rënkës së pija e konkurencës.\n\n**Fase 2: Planifikimi i produktit**\n\n* Bashkëpunimi i ekipit të produktit për të zhvilluar produktet e reja.\n* Definicioni i specifikacioneve të produktit.\n* Planifikimi i fazës së prodhimit.\n\n**Fase 3: Prodhimi**\n\n* Prodhimi i prototipoveve të produktit.\n* Testet e prototipoveveve.\n* Korrigimet e prototipoveveve.\n\n**Fase 4: Lansimi**\n\n* Planifikimi i kampanjave të promovës.\n* Stampa e produktit.\n* Vendndja e produktit.\n\n**Fase 5: Monitorezimi**\n\n* Analizimi i vendndjes së produktit.\n* Korrigimet e strategjisë së produktit.\n\n**Faktore të suksessit**\n\n* Nevoja e pija\n* Konkurenca\n* Kapaciteti i produktit\n* Kampanija e promovës\n* Strategia e post-vendndjes\n\n**Probleme të shfaqura**\n\n* Identifikimi i nevoja të pija të gabuar\n* Planifikimi i produktit i papritur\n* Prodhimi i prototipoveveve të gabuar\n* Lansimi i produktit i papritur\n* Vendndje e produktit e gabuar"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax nu bëgg a fàttaliku bët ci suufu dem ba noppi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Taxa e buitëve:**\n* 10% nga bui i biznesit.\n* 20% nga bui i kapitaleve të likuidës.\n\n**Taxa e tërhiqeve:**\n* 10% nga tërhiqet e biznesit.\n\n**Taxa e likuidës:**\n* 20% nga bui i kapitaleve të likuidës.\n\n**Taxa e profitit:**\n* 20% nga profit i biznesit.\n\n**Obligimet fiskale:**\n* Pajime të buitëve\n* Pajime të tërhiqeve\n* Pajime të likuidës\n* Pajime të profitit\n\n**Punë të bërë:**\n* Sigurimi i obligimeve fiskale\n* Planifikimi i biznesit\n* Optimizimi i rendit të biznesit"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lan mooy tax ñu daanu bu ñuy tëgg téyub? Ndax am na lu ñu man a def ngir ñàkk lii?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Taxa bari**\n\nTaxa bari ës një mekanizim fiskal që ka për qël të mbledhë një pjesë të të ardhura të një organizmi nga një tjetër. Sipas këtij mekanizmi, organizmi i cili ka fituar një pjesë të të ardhura, duhet të pagë një njëlloj të një pjesë së fituar.\n\n**Gëna bëgg**\n\nGëna bëgg ës një mekanizim fiskal që ka për qël të mbledhë një pjesë të të ardhura të një organizmi nga një tjetër. Sipas këtij mekanizmi, organizmi i cili ka marrë një pjesë të të ardhura, duhet të pagë një njëlloj të një pjesë së marrë.\n\n**Nëul**\n\nNëul ës një mekanizim fiskal që ka për qël të mbledhë një pjesë të të ardhura të një organizmi nga një tjetër. Sipas këtij mekanizmi, organizmi i cili ka marrë një pjesë të të ardhura, duhet të pagë një njëlloj të një pjesë së marrë."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax ñu bari ci xayma yi gëna bëgg a ñuul?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "I am unable to access external information or real-time updates, and am unable to provide tax or financial advice. For the most up-to-date and accurate information, please refer to official government sources or reputable financial advisors."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax nu wara jàppandi jëfandikoo mise à jour yi ci logisiil yi tekkig? Lan mën a am boo ko deful?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "DAX gaal yi di nañu yokk ñaawteefu guddi gi ci lu ëpp normal, kaa ñaawteefu guddi gi ci lu ëpp normal, kaa ñaawteefu guddi gi ci lu ëpp normal.\n\nAnswer: DAX gaal yi di nañu yokk ñaawteefu guddi gi ci lu ëpp normal, kaa ñaawteefu guddi gi ci lu ëpp normal, kaa ñaawteefu guddi gi ci lu ëpp normal.\n\nThe given sentence is in Gujarati language. It means \"DAX formula is such that it gives the normal output, sometimes it gives abnormal output, sometimes it gives normal output.\" The translation of the sentence is accurate and conveys the meaning of the original sentence."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ndax gaal yi di nañu yokk ñaawteefu guddi gi ci lu ëpp normal?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Answer:**\n\nCell phone ke faaydaale mein hain:\n\n* **Communication:** Mobile phone, logon ke beech mein baat karne, text karne aur video call karne ka madad karta hai.\n* **Entertainment:** Mobile phone mein hain game, music, video aur other entertainment options.\n* **Education:** Mobile phone, online kurs, ebooks aur educational content ko download karne ka madad karta hai.\n* **Navigation:** Mobile phone GPS system se use karke exact lokation ko jaana aur route plann karne ka madad karta hai.\n* **Productivity:** Mobile phone, note pad, calculator aur other productivity tools ko download karne ka madad karta hai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ci sunu yaram wi, faaydaale cell yi am nañu. Lu tax bët yi diiwaan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "Taxa manul a yàq yépp ci tunduw yépp?\n\n**Taxa manul a yàq yépp ci tunduw yépp**\n\nTaxa manul a yàq yépp ci tunduw yépp, ma yépp ci tunduw yépp taxa manul a yàq yépp."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lu tax nu manul a yàq yépp ci tunduw yépp?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.wolof:gemma 7b",
+          "language": "Wolof",
+          "translations": {
+            "Wolof": {
+              "language": "Wolof",
+              "text": "**Answer:** La ñàkk giir jàppale nit ñi es un juego infantil muy divertido y fácil de aprender. Para jugarlo, simplemente necesitan dos o más jugadores y un espacio abierto. Los jugadores se colocan en un círculo y uno de ellos comienza diciendo una frase o palabra. El siguiente jugador debe responder con una frase o palabra que contenga la última palabra de la frase o palabra anterior. El juego continúa hasta que alguien no puede pensar en una frase o palabra que cumpla las reglas."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nan la ñàkk giir jàppale nit ñi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

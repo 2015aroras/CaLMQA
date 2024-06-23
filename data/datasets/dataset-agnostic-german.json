@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nFlugzeuge werden von vorne nach hinten bestuhlt, um den Luftstrom zu optimieren. Die Luftströmung von vorne nach hinten ist für die Stabilität und den Auftrieb des Flugzeugs verantwortlich."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum werden Flugzeuge von vorne nach hinten bestuhlt?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Rauchen ist schädlich für das Herz, da:**\n\n**1. Es die Herzmuskelfunktion stört:**\n- Nikotin, eine Droge, die in Tabak enthalten ist, kann die Herzmuskelfunktion stören und die Herzrate erhöhen.\n- Dies kann zu Herzangst und Herzinfarkt führen.\n\n\n**2. Es die Blutdruck erhöht:**\n- Rauchen kann die Blutdruck erhöhen, was zu einem höheren Risiko von Herzinfarkt und Schlaganfall führt.\n\n\n**3. Es die Atherosklerose fördert:**\n- Tabak enthält Substanzen, die die Bildung von Atherosklerose fördern, einer Krankheit, bei der Fettstoff und Cholesterin an den Wänden der Blutgefäße abgelagert werden.\n- Dies kann zu Herzinfarkt und Schlaganfall führen.\n\n\n**4. Es die Herzgefäße verschanzt:**\n- Rauchen kann die Herzgefäße verschanzen, was zu einer Verschlechterung der Blutzirkulation und einem höheren Risiko von Herzinfarkt führt.\n\n\n**5. Es Entzündungen im Körper auslöst:**\n- Rauchen kann Entzündungen im Körper auslösen, was zu einer höheren Wahrscheinlichkeit von Herzinfarkt und Schlaganfall führt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum ist Rauchen so schädlich für das Herz?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "* **Trash-Bin (Mülleimer)**: iPhone-Geräte haben keinen Trash-Bin. Gelöschte Dateien und Fotos werden nicht in einen Mülleimer versendet.\n* **Datenpartition**: Gelöschte Dateien und Fotos werden in der Datenpartition des iPhones gelagert. Diese Partition ist für die Speicherung von Daten und Informationen des Benutzers bestimmt.\n* **Interne Storage**: Gelöschte Dateien und Fotos werden auf dem internen Storage des iPhones gelagert.\n* **Cloud-Speicherung**: Wenn Sie Dateien und Fotos mit iCloud oder einem anderen Cloud-Speicherdienst synchronisiert haben, können sie nach dem Löschen von iPhone-Dateien auf einem anderen Gerät oder im Cloud-Speicher wiederhergestellt werden."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wo gehen gelöschte Dateien und Fotos auf einem iPhone hin, nachdem sie aus dem Ordner \"Zuletzt gelöscht\" entfernt wurden?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nWenn wir vor dem Sprung laufen, erhalten wir eine zusätzliche Impuls, die unsere Höhe beim Springen erhöht. Die Impuls wird auf unsere Füße übertragen und führt zu einer höheren Geschwindigkeit, mit der wir aufspringen."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum können wir höher springen, wenn wir vor dem Sprung laufen?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nAntikörper und andere Vorteile von Muttermilch sind für die spezifische Immunreaktion des Neugeborenen ausgelegt. Die Zusammensetzung von Muttermilch ist für die Entwicklung des Immunsystems des Kindes angepasst und kann nicht durch Babynahrung ersetzt werden. Die Zugabe von Antikörpern aus Muttermilch zu Babynahrung kann zu Immunreaktionen führen."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum können Antikörper/andere Vorteile von Muttermilch nicht Babynahrung zugesetzt werden?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "* **Technisch:** Wie werden Geschwindigkeitsbegrenzungen umgesetzt?\n* **Vertraulichkeitsaspekte:** Was passiert mit meinen Daten, wenn die Geschwindigkeitsbegrenzung aktiviert ist?\n\n**Technische Umsetzung der Geschwindigkeitsbegrenzung:**\n\n* **Traffic-Shaping:** Algorithmen analysieren den Datenverkehr und identifizieren Anwendungen, die viel Daten verwenden. Diese Anwendungen werden dann mit einer höheren Geschwindigkeitsbegrenzung versehen.\n* **Deep Packet Inspection (DPI):** Diese Technologie ermöglicht es dem Anbieter, den Inhalt des Datenpakets zu analysieren und zu identifizieren, ob es sich um Daten für Streaming, Gaming oder andere Anwendungen handelt.\n* **Rate Limiting:** Die Geschwindigkeit des Datenflusses wird auf einen bestimmten Wert reduziert, um die Gesamtlast im Netz zu reduzieren.\n\n**Vertraulichkeitsaspekte:**\n\n* Die Daten, die für die Geschwindigkeitsbegrenzung verwendet werden, werden in der Regel verschlüsselt.\n* Die meisten Anbieter haben Polity zur Datenprivatsphäre, die die Verwendung und Speicherung von Daten regeln.\n* Es ist wichtig zu beachten, dass die Geschwindigkeitsbegrenzung die Leistung Ihrer Internetverbindung beeinflussen kann.\n\n**Tipps zur Umgehung von Geschwindigkeitsbegrenzungen:**\n\n* Vermeiden Sie die Verwendung von Anwendungen, die viel Daten verwenden.\n* Achten Sie auf die Zeit des Tages und des Wochenendes, wenn die Geschwindigkeitsbegrenzung möglicherweise höher ist.\n* Wechseln Sie zu einem Anbieter mit einer höheren Geschwindigkeitsbegrenzung."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wie kontrolliert mein WLAN-Anbieter die Geschwindigkeitsbegrenzung des Internets?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nEine typische Blutentnahme an der Armbeuge wird durchgeführt, da:\n\n* **Flecken und Venen sind leicht zugänglich:** Die Haut an der Armbeuge ist dünner und weicher als an anderen Körperteilen, was die Insertion von Nadeln und Kanülen erleichtert.\n* **Venen sind größer:** Die Venen an der Armbeuge sind größer als an anderen Körperteilen, was mehr Blut fließen und eine präzisere Blutentnahme ermöglicht.\n* **Blutfluss ist gleichmäßig:** Der Blutfluss an der Armbeuge ist gleichmäßig und konstant, was die Blutentnahme präziser macht."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum wird eine typische Blutentnahme an der Armbeuge durchgeführt?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nDie Verwendung von riesigen Fernsehstudio-Kameras und -studioausrüstung ist nicht unbedingt mit der Verfügbarkeit von Handys mit gleichen Funktionen vergleichbar. Die professionelle Qualität und die Funktionalität dieser Studiokameras sind in einer anderen Klasse. Sie bieten Funktionen wie:\n\n* **Hohe Auflösung und Bildqualität:** Studiokameras bieten eine höhere Auflösung und Bildqualität als Handys.\n* **Professionelle Funktionen:** Sie sind mit professionellen Funktionen ausgestattet, wie z. B. Zoom, Focus und White Balance.\n* **Stabile und präzise Bildgebung:** Studiokameras sind für professionelle Anwendungen und sind für eine stabile und präzise Bildgebung ausgelegt.\n* **Komplexes und professionelles Design:** Die Design und die Konstruktion von Studiokameras sind komplex und professionell.\n\nDiese Funktionen sind für professionelle Anwendungen, wie z. B. Fernsehsendungen, Film und Video, von entscheidender Bedeutung."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum verwenden wir immer noch riesige Fernsehstudio-Kameras, wenn die gleiche Technologie jetzt in Handy-Größe verfügbar ist?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "Die Temperatur des Erdkerns kann mit Hilfe von seismischen Wellen und anderen Geophysik-Verfahren bestimmt werden."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wie wissen sie, wie heiß der Erdkern ist?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nAkne tritt in der Pubertät häufig auf, da zu diesem Zeitpunkt:\n\n* **Hormonbalansänderungen:** Die Produktion von Testosteron und Östrogen, zwei Hormonen, die für die Entwicklung der Haut und die Produktion von Talg sind, ist in dieser Phase stark erhöht. Diese Hormone können zu einer Überproduktion von Talg führen, was zu Akne führt.\n* **Vermehrte Hautölproduktion:** Die Hautölproduktion ist in der Pubertät in der Regel erhöht, was zu einer Verschanzung der Poren und einer höheren Wahrscheinlichkeit von Akne führt.\n* **Vermehrtes Ansreiben von Bakterien:** In der Pubertät sind die Anzahl und Aktivität von Bakterien auf der Haut erhöht, was zu einer höheren Wahrscheinlichkeit von Akne führt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum tritt Akne in der Pubertät häufig auf?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nSchafe wandeln Gras und Wasser in Milch, Wolle und mehr Schafe durch die folgenden Prozesse:\n\n**1. Verdauung:**\n- Schafe haben einen vierkammigen Magens, der Gras in kleine Partikel zerkleinert und den Nährstoff in den Blut umwandelt.\n- Die Mikroorganismen im Magens sind für die Umwandlung von Gras in Aminosäuren verantwortlich.\n\n\n**2. Milchproduktion:**\n- Milch wird in den Milchdrüsen produziert, die Milchprotein, Milchfett und Milchzucker enthalten.\n- Die Milchproduktion wird durch die Verfügbarkeit von Energie und Protein aus der Verdauung gesteuert.\n\n\n**3. Wolleproduktion:**\n- Wolle wird aus den Haaren der Schafe gewonnen.\n- Die Haare werden abgeschnitten oder mit einer Schafeharnsmaschine entfernt.\n\n\n**4. Fortpflanzungsfähigkeit:**\n- Schafe sind Zwittermtiere und können sowohl männliche als auch weibliche Nachkommen haben.\n- Die Fortpflanzungsfähigkeit wird durch die Verfügbarkeit von Energie und Protein aus der Verdauung und den Hormonen des Tieres gesteuert."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wie verwandeln Schafe Gras und Wasser in Milch, Wolle und mehr Schafe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "%\n\n**Mögliche Methoden zur Bestimmung des Körperfettanteils:**\n\n**1. Bioelektrometrische Analyse (BIA):**\n- Messung von Körperwiderstand, Körperkapazität und Herzfrequenz\n- Berechnet den Körperfettanteil und Muskelmasse\n\n\n**2. Ultraschall-Biometrie:**\n- Verwendung von Ultraschallwellen um Körperfett und Muskelmasse zu messen\n- Genauigkeit: 1-2%\n\n\n**3. Dual-Energy X-ray Absorption (DXA):**\n- Verwendung von Röntgenstrahlen um Körperfett und Muskelmasse zu messen\n- Genauigkeit: 0,5-1%\n\n\n**4. Bodenseifenanalyse:**\n- Messung von Körperfett in Blut\n- Kann den Körperfettanteil und -zuwachs anzeigen\n\n\n**5. Visuelle Beurteilung:**\n- Subjektive Einschätzung des Körperfettanteils\n- Kann zu Fehlern führen, da visuelle Beurteilungen nicht immer korrekt sind\n\n\n**Hinweis:** Die beste Methode zur Bestimmung des Körperfettanteils ist die DXA, da sie die höchste Genauigkeit bietet."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wie kann man seinen Körperfettanteil bestimmen, oder schätzen die Leute einfach nur?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "Die wissenschaftliche Erklärung für Schlafparalyse ist noch nicht vollständig verstanden. Es gibt verschiedene Theorien, die die Ursache und das Phänomen erklären.\n\n**1. Neurophysiologische Theorien:**\n\n* Diese Theorien erklären Schlafparalyse durch neurophysiologische Veränderungen im Gehirn während des Schlafs.\n* Sie postulieren, dass die Abnahme der neuronalen Aktivität und die damit verbundene Reduzierung der sensorischen und motorischen Funktionen während des Schlafs zu der Paralyse führen.\n\n**2. Limbic-System-Theorien:**\n\n* Diese Theorien konzentrieren sich auf die Rolle des limbischen Systems im Schlafparalyse-Phänomen.\n* Sie argumentieren, dass das limbische System die Kontrolle der motorischen Funktionen während des Schlafs beeinflusst und bei Schlafparalyse zu einer Unterdrückung der motorischen Aktivitäten führt.\n\n**3. Neurotransmitter-Theorien:**\n\n* Diese Theorien postulieren, dass bestimmte Neurotransmitter, wie z. B. Acetylcholin, eine Rolle bei Schlafparalyse spielen.\n* Sie argumentieren, dass die Abnahme der Neurotransmitterkonzentration während des Schlafs die motorischen Funktionen beeinträchtigen kann.\n\n**4. Elektromagnetische Felder:**\n\n* Diese Theorien erklären Schlafparalyse durch die Einwirkung von elektromagnetischen Feldern auf das Gehirn.\n* Sie postulieren, dass die Feldeinflüsse die neuronalen Aktivitäten beeinflussen und zu der Paralyse führen können."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wie lautet die wissenschaftliche Erklärung für Schlafparalyse?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nDie Recycling von Metallen spielt eine entscheidende Rolle bei der Erhaltung der Metalle und der Reduzierung des Metallkonsums. Durch Recycling können Metalle von Produkten und Geräten wieder gewonnen und für neue Produkte verwendet werden."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wie haben wir es geschafft, noch nicht das gesamte Metall zu verbrauchen?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "Diese Aussage ist nicht korrekt. Es gibt mehrere Unternehmen in der ganzen Welt, die Mikrochips herstellen, und die Qualität und Leistung dieser Chips variieren."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mein Verständnis ist, dass eine Firma in Taiwan die besten Mikrochips der Welt herstellt und niemand anderes diese nachbilden kann. Wie ist das möglich?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nDiese Aussage ist nicht korrekt. Nicht alle Tiere haben rotes Blut. Einige Tiere, wie zum Beispiel Krabbe und Krebstiere, haben blauen Blut."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum haben fast alle Tiere rotes Blut?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nSport und Bodybuilding (auf gesunde Weise betrieben) verbessern die Fähigkeit des Körpers, sich selbst zu reparieren. Durch die Ausübung von Sport werden die Körperzellen und -gewebe in einem höheren Maße mit Nährstoffen versorgt, was die Heilung und Regeneration von Schäden fördert. Darüber hinaus kann Sport die Produktion von Wachstumsfaktoren und anderen Faktoren fördern, die die Selbstheilung und den Wiederaufbau von Schäden unterstützen."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wenn das Altern im Kern die Erschöpfung der Fähigkeit des Körpers ist, sich selbst zu reparieren, warum verschlechtern Sport und Bodybuilding (auf gesunde Weise betrieben) diese Fähigkeit nicht?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nEin Unternehmen kann Geld verdienen, indem es seine Produkte stark vergünstigt verkauft, indem es:\n\n* **Hohe Verkaufsvolumina** generiert, was zu einem höheren Umsatz führt.\n* **Niedrigere Produktionskosten** hat, was es ermöglicht, niedrigere Preise zu bieten.\n* **Effiziente Lagerverwaltung** und -logistik ermöglicht es, Kosten zu senken.\n* **MarkensStrategy** und Werbestrategien nutzen, um Kunden anzulocken und zu halten."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wie verdient ein Unternehmen Geld, indem es seine Produkte stark vergünstigt verkauft?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Mögliche Gründe:**\n\n* **Individuelle Empfindlichkeit:** Einige Frauen sind mehr anfällig für Morgenübelkeit als andere.\n* **Hormons: **Die Schwangerschaftshormonen können die Empfindlichkeit für Geschmack und Geruch erhöhen.\n* **Verdauungsprobleme:** Probleme mit der Verdauung können zu Übelkeit führen.\n* **Stress und Ernährung:** Stress und eine ungesunde Ernährung können die Empfindlichkeit für Morgenübelkeit erhöhen.\n* **Art der Schwangerschaft:** Die Art der Schwangerschaft kann auch die Empfindlichkeit für Morgenübelkeit beeinflussen.\n* **Medikamente:** Einige Medikamente können Morgenübelkeit als Nebenwirkung haben.\n\n\n**Die genaue Ursache von Morgenübelkeit ist in vielen Fällen unbekannt.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum leiden manche Frauen während der Schwangerschaft an „Morgenübelkeit“ und andere nicht? Warum tritt sie bei vielen nur im ersten Trimester auf, während einige sie während der gesamten Schwangerschaft erfahren?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nDie Empfindung von Temperatur hängt von mehreren Faktoren ab, einschließlich:\n\n**1. Körperliche Faktoren:**\n- Körperliche Temperatur\n- Fitnesszustand\n- Gewohnheiten\n\n**2. Umgebungsfaktoren:**\n- Luftfeuchtigkeit\n- Windgeschwindigkeit\n- Strahlung des Bodens oder der Umgebungs\n\n**3. Psychische Faktoren:**\n- Emotionen\n- Vorerfahrungen\n- Kultur\n\n**4. Zeitliche Faktoren:**\n- Tageszeit\n- Jahreszeit\n- Langfristige Anpassung an die Umgebungstemperatur\n\nDiese Faktoren beeinflussen die Art und Weise, wie wir Temperatur wahrnehmen und empfinden."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum kann dieselbe Temperatur an verschiedenen Tagen oder in verschiedenen Jahreszeiten völlig unterschiedlich empfunden werden?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Stress kann zu körperlichen Gesundheitsproblemen führen, da:**\n\n**1. Neurotransmitter-Störungen:**\n* Stress kann die Produktion von Neurotransmittern wie Dopamin und Noradrenalin stören, was zu emotionalen Unruhen, Konzentrationsstörungen und Depressionen führen kann.\n\n\n**2. Hormonbalansstörung:**\n* Stress kann die Produktion von Stresshormonen wie Kortisol und Glucocorticoid erhöhen, was zu Wasser- und Elektrolytverstößen, Schlafschwierigkeiten und Gewichtszuwachs führen kann.\n\n\n**3. Immunsystemschwächung:**\n* Stress kann das Immunsystem schwächen, was zu einer erhöhten Anfälligkeit für Krankheiten und Infektionen führt.\n\n\n**4. Bluthochdruck und Herzrisiko:**\n* Stress kann die Blutdruck erhöhen und das Herzrisiko erhöhen.\n\n\n**5. Muskelschmerzen und Kopfschmerzen:**\n* Stress kann Muskelschmerzen und Kopfschmerzen verursachen, da es die Muskelspannung und den Stresshormonspiegel erhöht.\n\n\n**6. Magensyndrome:**\n* Stress kann Magensyndrome wie Übelkeit und Erbrechen verursachen, da es die Produktion von Magensäuren und -enzymen stören kann."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wie führt Stress zu körperlichen Gesundheitsproblemen?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nNein, Schmerz ist nicht vollständig genau als Indikator für den Zustand von körperlichen Verletzungen.\n\n**Gründe:**\n\n* **Subjektivität:** Schmerz ist eine subjektive Erfahrung, die von verschiedenen Faktoren wie Persönlichkeit, Kultur und Vorerfahrungen beeinflusst werden kann.\n* **Mehrfaches Phänomen:** Schmerz ist ein komplexes Phänomen mit verschiedenen Faktoren, die zu seiner Entstehung und Ausprägung beitragen können, darunter Biomechanische Faktoren, neurophysiologische Prozesse und psychologische Faktoren.\n* **Verwirrung mit anderen Schmerzen:** Schmerz kann mit anderen Schmerzen verwechselt werden, die nicht mit körperlichen Verletzungen zusammenhängen.\n* **Temporäre Natur:** Schmerz kann vorübergehend sein, ohne dass eine ernsthafte Verletzung vorliegt.\n\n**Somit kann Schmerz nicht allein verwendet werden, um den Zustand von körperlichen Verletzungen zu diagnostizieren. Eine vollständige Untersuchung und Bewertung durch einen Arzt sind erforderlich.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ist Schmerz ein vollständig genauer Indikator für den Zustand von körperlichen Verletzungen?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Mögliche Gründe:**\n\n**1. Genetische Faktoren:**\n* Unterschied in Genomgröße und -organisation\n* Variationen in Genaktivität\n* Polymorphismen in Genen, die für das Wachstum, die Entwicklung und die Gesundheit verantwortlich sind\n\n**2. Umweltfaktoren:**\n* Temperatur\n* Luftfeuchtigkeit\n* Ernährung\n* Stress\n* Bedrohungen\n\n**3. Biologische Faktoren:**\n* Körpergröße und -gewicht\n* Lebensweise\n* Fortpflanzungsstrategie\n\n**4. Immunsystem:**\n* Effizienz des Immunsystems\n* Anfälligkeit für Krankheiten\n\n**5. Metabolikus:**\n* Effizienz des Energieumsatzes\n* Anfälligkeit für Krankheiten\n\n**6. Genominstabilität:**\n* Anfälligkeit für Mutationen und Krankheiten\n\n**7. Epigenetische Modifikationen:**\n* Modifikationen der DNA oder Proteine, die das Genom beeinflussen können\n* Diese Modifikationen können das Lebenspan und die Gesundheit eines Tieres beeinflussen\n\n**8. Evolutionäre Geschichte:**\n* Tiere mit längeren Lebensplänen haben in der Vergangenheit mehr Zeit für Fortpflanzungs und Akkumulation von Genmaterial\n\n**9. Interaktion zwischen Faktoren:**\n* Die meisten Lebenspans werden durch eine Kombination von verschiedenen Faktoren beeinflusst"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum haben verschiedene Tiere unterschiedliche Lebensspannen?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nDiese Aussage ist nicht korrekt. Menschen können von Tieren schwanger werden, da sie Hybrids bilden können."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum können Menschen nicht von Tieren schwanger werden?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "* A) Die Körperfunktion zu verbessern\n* B) Die Emotionen zu regulieren\n* C) Den Körper zu reparieren und zu regenerieren\n* D) Alle der genannten Optionen\n\n\n**Antwort:** D\n\n**Erklärung:** Schlafen spielt eine wichtige Rolle bei der Verbesserung der Körperfunktion, der Regulierung der Emotionen und der Reparatur und Regeneration des Körpers."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Was ist die Funktion des Schlafes?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nDie Herzfrequenz eines Läufers ist niedriger als die eines Nicht-Läufers, da das Training die Herzmuskelfunktion verbessert und die Herzrate bei gleichem Stresszustand senkt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum ist die Herzfrequenz eines Läufers niedriger als die eines Nicht-Läufers?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Mögliche Gründe:**\n\n* **Erhöhte Körpertemperatur:** Duschen können die Körpertemperatur erhöhen, was zu einer höheren Wasserverdunstung und Schweißproduktion führt.\n* **Erhöhte Luftfeuchtigkeit:** Die Luftfeuchtigkeit nach dem Duschen ist oft höher, was die Hautfeuchtigkeit erhöht und zu mehr Schweiß führt.\n* **Vermehrter Blutfluss:** Duschen können den Blutfluss in der Haut verbessern, was zu mehr Wasser und Salz auf der Haut führt.\n* **Hormonsteuerungen:** Duschen können die Produktion von Hormonen wie Estrogen und Progesteron beeinflussen, was zu mehr Schweiß führen kann.\n* **Stress oder Angst:** Stress oder Angst können die Produktion von Stresshormonen wie Kortisol auslösen, was zu mehr Schweiß führt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum schwitze ich nach dem Duschen mehr?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nWenn das Fahrrad in Bewegung ist, hat es eine Translationsbewegung und eine Rotationsbewegung. Diese beiden Bewegungen erzeugen eine Kraft, die das Gleichgewicht auf dem Fahrrad aufrechterhält.\n\nWenn das Fahrrad stillsteht, hat es keine Translationsbewegung und keine Rotationsbewegung. Daher gibt es keine Kraft, die das Gleichgewicht auf dem Fahrrad aufrechterhält."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum ist es einfach, auf einem Fahrrad das Gleichgewicht zu halten, wenn es sich bewegt, aber fast unmöglich, wenn es stillsteht?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nVerbranntes Essen enthält toxische Substanzen, wie Carbonmonoxid und Stickoxide, die für Gesundheitsprobleme verantwortlich sind. Diese Substanzen können im Körper akkumulieren und zu Krankheiten und sogar zum Tod führen."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum ist es schlecht für dich, verbranntes Essen zu essen?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nIn lauten Umgebungen wird das Nervensystem mit Störsignalen überfordert, was die Einschlafsfähigkeit beeinträchtigt. Die hohe Lautstärke kann das Gleichgewicht des Hormonhaushhalts stören, was zu Stress und Unruhe führt. Darüber hinaus kann die Lautstärke die Herzfrequenz und den Blutdruck erhöhen, was die Einschlafsfähigkeit weiter verringert."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum fällt es uns schwerer, in lauten Umgebungen einzuschlafen?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "Ein Computerabsturz kann verschiedene Ursachen haben. Die drei Hauptgründe dafür sind:\n\n**1. Hardwareprobleme:**\n* Defekte an der Hardware, wie z. B. Festplatte, Arbeitsspeicher oder Prozessor.\n* Überhitzung oder Unterkühlung des Computers.\n* Defekte an der Stromversorgung.\n\n\n**2. Softwareprobleme:**\n* Fehlerhafte oder veraltete Software.\n* Konflikte zwischen verschiedenen Softwareanwendungen.\n* Malware- oder Virusinfektionen.\n\n\n**3. Betriebssystemprobleme:**\n* Fehlerhafte oder veraltete Betriebssystemversion.\n* Konflikte zwischen dem Betriebssystem und anderen Softwareanwendungen.\n* Hardware- oder Softwarekonfigurationsprobleme.\n\n\nUm den Grund des Absturzes zu finden, werden verschiedene Techniken verwendet, wie z. B.:\n\n* **Systemprotokollanalyse:** Analyse der Systemprotokolle, um Fehler zu finden.\n* **Blue Screen-Analyse:** Analyse des \"Blue Screen of Death\" (BSOD) - Fehlercodes, um den Fehler zu lokalisieren.\n* **Hardware- und Software-Tests:** Test der Hardware und Software, um Defekte zu finden."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Was genau passiert mit meinem Computer, wenn er abstürzt?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nIn diesem Fall würde Ihr Körper mit einer Mangel an Nährstoffen zu kämpfen beginnen. Die Wasserversorgung ist zwar zuverlässig, aber ohne Nahrung gibt es keine Energie- und Nährstoffzufuhr für Ihren Körper.\n\n**Folgen:**\n\n* **Schwäche und Erschöpfung:** Mangel an Nährstoffen führt zu einer Abnahme der Energieproduktion und kann zu Erschöpfung und Schwächung führen.\n* **Verringerter Immunsystem:** Die Mangel an Nährstoffen kann das Immunsystem geschwächt und die Anfälligkeit für Krankheiten erhöhen.\n* **Muskelabbau:** Ohne Nährstoffe wird der Muskelstoffabbau beschleunigt.\n* **Verringerter Stoffwechsel:** Die Mangel an Nährstoffen kann den Stoffwechsel beeinträchtigen und zu einer Verstehensminderung führen.\n* **Anpassung des Körpers:** Der Körper kann sich an die Mangel an Nährstoffen anpassen, indem er die Produktion von Hormonen und anderen Botenstoffen reduziert.\n\nIm Laufe der Zeit kann dies zu ernsthaften gesundheitlichen Problemen führen."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Was würde mit meinem Körper passieren, wenn ich irgendwo eingeschlossen wäre, wo es eine zuverlässige Wasserversorgung, aber keine Nahrung gibt?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "Es gibt viele Theorien und Überzeugungen zu diesem Thema, aber es gibt keine definitive Antwort.\n\n**Mögliche Theorien:**\n\n* **Es gibt kein Leben nach dem Tod:** Diese Theorie besagt, dass das Leben nach dem Tod endet.\n* **Es gibt ein jenseitses Leben:** Diese Theorie besagt, dass es nach dem Tod eine Art von afterlife gibt, in dem Menschen ihre Seele weiterleben.\n* **Transmigration:** Diese Theorie besagt, dass Menschen ihre Seele in andere Körper umziehen.\n* **Es gibt eine Art von Energiefeld:** Diese Theorie besagt, dass das Leben nach dem Tod in einem Energiefeld weitergeht.\n\n**Die Antwort ist wahrscheinlich, dass es keine definitive Antwort gibt.** Die meisten Menschen haben ihre eigenen Überzeugungen und Theorien zum Thema."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Werden wir jemals erfahren, was nach unserem Tod mit uns geschieht?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nKnochen können nachwachsen, da sie bis zu einem gewissen Grad an Elastizität und Wachstumsfähigkeit besitzen. Die Elastizität der Knochen ermöglicht es ihnen, sich zu dehnen und zu wieder in ihre ursprüngliche Form zu zurückkehren."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum können Knochen nicht nachwachsen?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Gold ist so wertvoll, weil:**\n\n* **Es ist selten:** Gold ist in der Erde sehr selten und nur in bestimmten Lagerstätten zu finden.\n* **Es ist beständig:** Gold ist chemisch inert und neigt sich nicht zu korrodieren.\n* **Es ist schön:** Gold hat einen glänzenden, glänzenden Glanz, der es zu einem attraktiven und begehrten Material macht.\n* **Es hat eine hohe Wertschätzung:** Gold hat eine lange und berühmte Geschichte und wird als Statussymbol und Investment verwendet.\n\n**Gold ist wertvoller als Silber, weil:**\n\n* **Es ist seltener:** Gold ist in der Erde viel seltener als Silber.\n* **Es ist beständiger:** Gold ist chemisch inert und neigt sich nicht zu korrodieren, während Silber an Luft und Feuchtigkeit korrodiert.\n* **Es hat eine höhere Wertschätzung:** Gold hat eine höhere Wertschätzung als Silber."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum ist Gold so wertvoll? Und warum ist es wertvoller als andere Metalle, wie zum Beispiel Silber?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nDie Ozeane werden von Kontinenten und anderen Landformen gehalten, die ihre Ausdehnung und den Wasserstand auf der Erde begrenzen."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Was hält die Ozeane davon ab, die Erde zu überfluten?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "Many Menschen haben die Frage, wie ihr Handy weiß, wann sie schlafen. Die Antwort ist: Das Handy kennt keine Informationen darüber, wann Sie schlafen.\n\nHandys sammeln Daten zu Ihrem Verhalten und Ihrer Umgebung, einschließlich Ihrer GPS-Position, Ihrer Internetverbindung und Ihrer App-Nutzung. Sie können jedoch keine Informationen über Ihre Schlafgewohnheiten oder Ihren Schlafstatus erhalten."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wie weiß mein Handy, wann ich schlafe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nDer Geruch ist nur ein Teil des Geschmackserlebnisses. Andere Faktoren, wie Geschmack, Textur und Temperatur, spielen auch eine wichtige Rolle bei der Bestimmung des Geschmackes von Speisen."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wenn das meiste, was wir schmecken, durch den Geruch bestimmt wird, warum schmecken dann manche Dinge, die gut riechen, schlecht?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nSeife enthält Anionen, die mit Kationen in Wasser dissoziieren. Diese Anionen sind für die Reinigungskraft der Seife verantwortlich. Die Anionen binden zu den positiven Ladungen an den Verschmutzungen und entfernen diese von der Haut.\n\nDer Duft von Seife ist jedoch nicht mit Anionen oder Kationen verbunden. Der Duft von Seife wird von den Ölen und Aromen in der Seife verursacht. Diese Öle und Aromen bleiben auf der Haut und erzeugen den Geruch."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum kann Seife fast alles von deinen Händen waschen, aber ihren Duft nicht von dir abwaschen?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Tiere können ein bevorstehendes Erdbeben durch:**\n\n* **Veränderungen im Elektromagnetischen Feld** wahrnehmen, die durch das Erdbeben erzeugt werden.\n* **Veränderungen in der Gravitation** des Planeten.\n* **Veränderungen in der Temperatur** und Luftdruck.\n* **Veränderungen in der Vibration** des Bodens."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wie spüren Tiere ein bevorstehendes Erdbeben?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "Speichel enthält Wasser, Salze und Enzyme. Die Enzyme sind wichtig für die Verdauung von Speisen. Wenn du gähnest, wird der Speichel in deinem Mund gerührt und die Enzyme werden mit dem Wasser und den Salzen vermischt. Dies kann zu einer Reaktion führen, die zu kleinen Tröpfchen Speichel führt, die aus deinem Mund sprühen."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum spritzt manchmal Speichel aus meinem Mund, wenn ich gähne?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nDas Wetter kann zu einem gewissen Grad kontrolliert oder künstlich erzeugt werden. Es gibt verschiedene Technologien und Methoden, um das Wetter zu beeinflussen.\n\n**1. Cloud-Seeding:**\n\n* Ein Verfahren, bei dem künstliche Partikel in Wolken eingebracht werden, um die Bildung von Regentropfen zu fördern.\n* Kann die Niederschlagsmenge und -frequenz beeinflussen.\n\n\n**2. Weather Modification:**\n\n* Verwendung von Flugzeugen oder anderen Geräten, um die Wind, Temperatur und Feuchtigkeit in der Atmosphäre zu beeinflussen.\n* Kann die Bildung von Sturmfronten und Regenwolken kontrollieren.\n\n\n**3. Ionisation:**\n\n* Ein Prozess, bei dem die Luft mit Ionen aufgeladen wird.\n* Kann die Cloud-Bildung und das Niederschlagsverhalten beeinflussen.\n\n\n**4. Bodenbewässerung:**\n\n* Beschützt den Boden vor Erosion und kann die Luftfeuchtigkeit erhöhen.\n* Kann die Temperatur und den Wind auf der Erde beeinflussen.\n\n\n**5. Energieumwandlung:**\n\n* Umwandlung von Energie in Wärme oder Wind.\n* Kann die Temperatur und Windbedingungen beeinflussen.\n\n\n**Limitierte Kontrolle:**\n\n* Die Kontrolle des Wetters ist jedoch begrenzt.\n* Die Umweltbedingungen und die Komplexität des Wettersystems machen eine vollständige Kontrolle unmöglich.\n* Die Auswirkungen von Wettermodifikation können schwer vorhersehbar sein.\n\n\n**Anwendungsfälle:**\n\n* Verbesserung der landwirtschaftlichen Ernte\n* Schutz von Menschen und Eigentum vor Extremen\n* Reduzierung von Hagel- und Windschäden\n* Verbesserung der Luftqualität"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kann das Wetter kontrolliert oder künstlich erzeugt werden? Wenn ja, in welchem Umfang und wie?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Was passiert mit einer Pflanze, wenn man ihr ein Blatt abzupft?**\n\nWenn man einem Blatt einer Pflanze den Stiel abbricht, wird das Blatt von der Pflanze getrennt. Das Blatt kann nicht mehr Wasser und Nährstoffe von der Pflanze erhalten.\n\n**Tut man ihr weh?**\n\nJa, das Blatt wird Schmerzen verspüren, da es von der Pflanze getrennt wurde. Die Pflanze kann das Blatt nicht mehr nutzen, um Energie zu gewinnen.\n\n**Kann sich die Pflanze davon erholen?**\n\nJa, die Pflanze kann sich von dem Abbruch eines Blats erholen. Die Pflanze kann neue Blätter bilden, um den Energiehaushalt aufrecht zu erhalten.\n\n**Faktoren, die die Erholung der Pflanze beeinflussen:**\n\n* Art der Pflanze\n* Alter der Pflanze\n* Größe des Blats\n* Temperatur\n* Licht\n* Wasserversorgung"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Was passiert mit einer Pflanze, wenn man ihr ein Blatt abzupft? Tut man ihr weh und kann sich die Pflanze davon erholen?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Mögliche Gründe:**\n\n* **Überanstrengung:** Zu viel Stress und Aktivität im Tag können zu einer Überanstrengung des Gehirns führen, was zu Müdigkeit und Schlafschwierigkeiten führt.\n* **Hormons: **Hormons wie Serotonin und Dopamin können die Schlafstigkeit und den Schlaffortschritt beeinflussen.\n* **Neurotransmitter:** Neurotransmitter wie GABA und Acetylcholin spielen eine Rolle bei der Regulation des Schlafs und des Wachens.\n* **Mentales Stress: **Angst, Sorgen und Stress können die Qualität des Schlafs beeinträchtigen.\n* **Zeit des Tages:** In der Abendphase neigen wir dazu, mehr zu denken und zu konzentrieren, was zu einem höheren Schlafschwierigkeitsgrad führen kann.\n\n**Zusätzlich zu diesen Gründen können auch andere Faktoren wie:**\n\n* Ernährung\n* Bewegung\n* Licht\n* Umgebungstemperatur\n\ndie Schlafsqualität und den Schlaffortschritt beeinflussen."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum neigen wir dazu, vor dem Schlafen viel nachzudenken?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Gründe für das Tränen beim Zwiebelschneiden:**\n\n* **Biochemische Reaktion:**\n    - Zwiebel enthalten eine Enzym-Substrat-Reaktion, die Schwefelsäure und ein Aminokarbon (Glutamin) in einer Reaktion umsetzt.\n    - Diese Reaktion produziert Wasser und eine Schwefelsäure-Aminokarbonsäure-Verbindung.\n\n* **Physikalische Reaktion:**\n    - Die Reaktionsprodukte sind leicht flüchtig und werden durch die Luftstromung am Schneidbereich transportiert.\n    - Diese Flüchtigkeit führt zu einer höheren Konzentration der Reaktionsprodukte in der Luft und zu Tränen.\n\n\n**Möglichkeiten, das Tränen zu verhindern:**\n\n**1. Kälteschneiden:**\n    - Halten Sie Zwiebel und Schneidfläche in der Kühlschrank auf, um die Reaktionsgeschwindigkeit zu verlangsamen.\n\n**2. Wasser auf das Zwiebel aufbringen:**\n    - Wasser absorbiert die Reaktionsprodukte und verhindert, dass sie in die Luft diffundieren.\n\n**3. Schutzbrille tragen:**\n    - Schutzbrille können die Reaktionsprodukte von den Augen abhalten.\n\n**4. Schneiden unter Wasser:**\n    - Schneiden Sie Zwiebel unter Wasser, um die Reaktionsprodukte zu versinken.\n\n**5. Verwendung von Zwiebelhaltern:**\n    - Zwiebelhalter halten Zwiebel während des Schneidens auf und verhindern, dass die Haut in Kontakt mit der Schneidfläche kommt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Was verursacht das Tränen beim Zwiebelschneiden? Gibt es eine Möglichkeit, dies zu verhindern?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nHaustiere mögen es, gestreichelt zu werden, da es eine positive und beruhigendende Erfahrung für sie ist. Die Streichelung kann Stress abbauen, Endorphine freisetzen und eine allgemeine Verbesserung des Wohlbefindens bewirken."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum mögen die meisten Haustiere es, gestreichelt zu werden?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Software-Updates sind wichtig, da sie:**\n\n* **Sicherheitsprobleme und Sicherheitslücken schließen:** Neuere Versionen von Software enthalten häufig Verbesserungen in der Sicherheits, um Daten und Geräte vor Angriffen zu schützen.\n* **Verbesserte Leistung und Funktionalität:** Software-Updates können neue Funktionen und Verbesserungen der Leistung einführen.\n* **Kompatibilität mit neuen Geräten und Betriebssystemen:** Neuere Versionen von Software sind oft mit neuen Geräten und Betriebssystemen kompatibel.\n\n**Wenn Sie Software-Updates nicht durchführen:**\n\n* **Ihre Daten sind gefährdet:** Sicherheitslücken können zu Datenverlust oder -korruption führen.\n* **Ihre Geräte können nicht optimal funktionieren:** Verbesserungen der Leistung und neue Funktionen können nicht genutzt werden.\n* **Sie können auf neue Funktionen und Sicherheitsmaßnahmen nicht zugreifen:** Neuere Versionen von Software bieten häufig neue Funktionen und Verbesserungen der Sicherheit.\n\n**Es ist wichtig, Software-Updates regelmäßig zu durchführen, um die Sicherheit, die Leistung und die Kompatibilität Ihrer Geräte zu gewährleisten.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum müssen wir ständig Software-Updates durchführen? Was passiert, wenn ich es nicht tue?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nSchiffe können die Meeresspiegelhöhe beeinflussen, aber nicht direkt. Die Wassermasse im Meer sind zu groß und haben eine große Trägheit. Die Einfahrt und Abfahrt von Schiffen beeinflussen den Wasserstand nur in einem sehr kleinen Maße.\n\nDie Veränderungen des Meeresspiegels werden hauptsächlich durch Klimaänderungen, Wasserhaushalt und Gezeiten beeinflusst."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Verursachen Schiffe, dass der Meeresspiegel höher ist, als er normalerweise wäre?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Antwort:**\n\nDie Gehirnzellen sind anders zu regenerieren als andere Zellen in unserem Körper, da sie eine zentrale Rolle im Lernen und Denken spielen. Die Regeneration von Gehirnzellen ist ein komplexer und längerfristiger Prozess, der mehr Zeit und Ressourcen erfordert als die Regeneration anderer Zellen."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fast jede Zelle in unserem Körper kann sich regenerieren. Warum sind die Gehirnzellen anders?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "1. Sie sind resistent gegenüber vielen Giftstoffen.\n2. Sie haben eine große Fortpflanzungsrate.\n3. Sie können neue Lebensformen entwickeln, die Giftstoffe widerstandsfähig sind.\n4. Alle drei Punkte.\n\n**Antwort:** Alle drei Punkte.\n\nFlöhe sind resistent gegenüber vielen Giftstoffen, haben eine große Fortpflanzungsrate und können neue Lebensformen entwickeln, die Giftstoffe widerstandsfähig sind. Diese Eigenschaften machen es schwierig, Flöhe vollständig ausrotten."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Warum können wir Flöhe nicht vollständig ausrotten?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.german:gemma 7b",
+          "language": "German",
+          "translations": {
+            "German": {
+              "language": "German",
+              "text": "**Schlafmangel kann Menschen durch verschiedene Mechanismen umbringen.**\n\n**1. Neurologische Schäden:**\n* Schlafmangel kann die Neurotransmitterfunktion beeinträchtigen, was zu Konzentrationsmangel, Abschweifungen und einem erhöhten Risiko von Unfällen führt.\n* Langfristiger Schlafmangel kann zu Hirnschäden führen, die zu Demenz und anderen neurologischen Erkrankungen führen können.\n\n**2. Immunsystemschwächung:**\n* Schlafmangel kann das Immunsystem schwächen, was Menschen anfälliger für Krankheiten macht.\n* Studien haben gezeigt, dass Schlafmangel mit einem erhöhten Risiko von Infekten und anderen Krankheiten zusammenhängt.\n\n**3. Herz-Kreislaufliche Probleme:**\n* Schlafmangel kann die Herzfrequenz und Blutdruck erhöhen, was zu einem erhöhten Risiko von Herzinfarkt und Schlaganfall führt.\n* Langfristiger Schlafmangel kann zu Herzinsuffizienz führen.\n\n**4. Stoffwechselstörungen:**\n* Schlafmangel kann die Hormonsynthese und den Stoffwechsel beeinträchtigen, was zu Gewichtszuwachs und anderen Gesundheitsproblemen führen kann.\n\n**5. Psychische Erkrankungen:**\n* Schlafmangel kann zu Depression, Angst und anderen psychischen Erkrankungen führen.\n* Studien haben gezeigt, dass Schlafmangel mit einem erhöhten Risiko von Suizid und Depression zusammenhängt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Wie kann Schlafmangel jemanden umbringen?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

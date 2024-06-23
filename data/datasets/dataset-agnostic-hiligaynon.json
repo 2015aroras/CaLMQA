@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:** Ang mga eroplano ay hindi maaaring mag-ginapasakay ang mga eroplano halin sa atubang pakadto sa likod. Ang mga eroplano ay nakasalayad sa isang patlang na tinatawag na \"runway\" upang makarating sa kanilang layunin."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa ginapasakay ang mga eroplano halin sa atubang pakadto sa likod?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Pagpanigarilyo Malain Para sa Tagipusuon**\n\nAng pagpanigarilyo malain ay isang mahalagang paraan upang mapanatili ang malinis at masustansya ang tagipusuon. Ang pagpanigarilyo malain ay ang proseso ng paggamit ng natural na patubig o kemikal upang maalis ang mga nakakainis na kemikal mula sa tubig.\n\n**Mga Prinsipiyo sa Pagpanigarilyo Malain**\n\n* **Paggamit ng natural na patubig:** Ang paggamit ng natural na patubig, tulad sa neem oil at coconut oil, ay nagreresulta sa mas mahusay na pagpanigarilyo malain.\n* **Paggamit ng angkop na kemikal:** Ang paggamit ng angkop na kemikal, tulad sa chlorine at ozone, ay maaaring magresulta sa mas epektibo at mas mahusay na pagpanigarilyo malain.\n* **Pagkontrol ng temperatura:** Ang pagkontrol ng temperatura ng tubig ay mahalaga upang mapanatili ang optimal na kondisyon para sa pagpanigarilyo malain.\n\n**Mga Konsiderasyon sa Pagpanigarilyo Malain**\n\n* **Tipo ng tubig:** Ang iba-iba na uri ng tubig ay maaaring magkaroon ng iba-iba na kemikal na nakakainis.\n* **Antas ng kontaminasyon:** Ang antas ng kontaminasyon ng tubig ay maaaring magkaroon ng iba-iba na pangangailangan sa pagpanigarilyo malain.\n* **Mga sangkap:** Ang mga sangkap na ginagamit sa pagpanigarilyo malain ay maaaring magkaroon ng iba-iba na epekto sa tubig.\n\n**Mga Perks ng Pagpanigarilyo Malain**\n\n* Maalis ang mga nakakainis na kemikal mula sa tubig.\n* Nagreresulta sa mas malinis na tubig.\n* Mas mahusay na paggamit ng tubig.\n* Mas mahusay na kalusugan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa ang pagpanigarilyo malain gid para sa tagipusuon?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* **Icloud Drive**\n* **Photos app**\n* **Local storage**\n* **Recycle bin**\n\n**Sagot:**\n\nAng mga natanggal nga files kag litrato pagkatapos nga matanggal sa'recently deleted' ay matatagpuan sa:\n\n* **Photos app**\n* **Local storage**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa iPhone, diin makadto ang mga natanggal nga files kag litrato pagkatapos nga matanggal sa 'recently deleted'?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* Pag-andar ng katawan\n* Pag-unawa sa layunin\n* Pag-strategize sa takbo\n* Pag-kontrol ng emosyon\n\n**Tamang Sagot:** Pag-strategize sa takbo\n\nAng pag-strategize sa takbo ay ang proseso ng pagplano ng takbo upang makamit ang layunin sa pinakamahusay na paraan. Ito ay nagsasama ng paggamit ng teknikal na takbo, pagkontrol ng emosyon at pag-unawa sa layunin."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa ang pagdalagan antes maglukso nagapahimo sa aton nga maglukso pa taas?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\nMaaaring idugang ang mga antibodies/iba pa nga benepisyo sang breastmilk sa pormula sang bata. Ang mga antibodies sa breastmilk ay mahalaga upang protektahan ang bata mula sa mga patogen. Ang mga benepisyo ng breastmilk ay maaari ring matagpuan sa pormula, ngunit hindi sila katumbas ng mga antibodies sa breastmilk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa indi mahimo nga idugang ang mga antibodies/iba pa nga benepisyo sang breastmilk sa pormula sang bata?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* **Traffic Shaping:** Ang akon provider ng wifi ay maaaring mag-shapen ng traffic ng internet upang limitahan ang bilis ng mga specific na protocol o port.\n* **Quality of Service (QoS):** Ang akon provider ng wifi ay maaaring mag-assign ng priority sa mga specific na application o protocol, upang mas mahusay ang kanilang bilis.\n* **Bandwidth Management:** Ang akon provider ng wifi ay maaaring mag-control ng pang-grupo ng mga device na nakonekta sa wifi network upang maiwasan ang congestion."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano ginakontrol sang akon provider sang wifi ang limitasyon sang bilis sang internet?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Jawaban:**\n\nKasagaran, ginakuhaan sang dugo sa pilipit sang imo butkon agar mapantau kondisi sang darah dan organ tubuh."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa kasagaran ginakuhaan sang dugo sa pilipit sang imo butkon?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:** Ang paggamit ng daku nga mga kamera sa TV studio ay mas mahusay kaysa sa kadakuon sang cell phone. Ang mga kamera sa TV studio ay may mas malawak na field of view, mas mataas na resolution, at mas malakas na autofocus, na nagresulta sa mas magandang imahe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa ginagamit gihapon naton ang daku nga mga kamera sa TV studio samtang ang amo man nga teknolohiya, karon, masarangan na sa kadakuon sang cell phone?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Answer:**\n\nAng mga tao ay hindi makapa-unawa sa mga ideya o konceptsong mas complex kaysa sa kanilang kasalukuyang kaalaman at kasanayan. Kaya hindi nila makakapa-unawa sa mga duta o mga konceptsong mas mataas ang antas ng kumplikado."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano nila mahibal-an kon daw ano ka init ang kinaibabawan sang duta?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\nAng paglitok sang acne sa panahon sang pagdaku-daku ay maaring ma-apekto sa ilang kadahilanan:\n\n**1. Hormonal changes:**\n- Ang pagdaku-daku ay may kasamang hormonal changes na maaaring mag-trigger sa paglitok sang acne.\n- Ang estrogen at progesterone, na mga hormone na umuunlad sa panahon sang pagdaku-daku, maaaring mag-trigger sa pagtaas ng sebum production at pag-narrow ng pores.\n\n**2. Increased oil production:**\n- Ang pagdaku-daku ay maaaring mag-trigger sa pagtaas ng sebum production, na isang oily substance na nag-cover sa balat.\n- Ang extra oil can clog pores at mag-trigger sa paglitok sang acne.\n\n**3. Changes in skin microbiome:**\n- Ang pagdaku-daku ay maaaring mag-apekto sa microbiota sa balat, na maaaring mag-trigger sa paglitok sang acne.\n\n**4. Diet and lifestyle factors:**\n- Ang ilang pagkain at pasaylo ay maaaring mag-trigger sa paglitok sang acne.\n\n**5. Stress and sleep quality:**\n- Ang stress at hindi magandang quality ng tulog ay maaaring mag-apekto sa paglitok sang acne."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa masami ang paglitok sang acne sa panahon sang pagdaku-daku?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* Ang karnero ay nagagamit ng hilamon kag tubig sa gatas upang makaramdam ng pagkahugasan.\n* Ang bulbol ay ginagamit upang makaramdam ng pagkahugasan at pagka-fresh.\n* Ang dugang na karnero ay ginagamit upang makaramdam ng pagkahugasan at pagiging malakas."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano ginabalhin sang karnero ang hilamon kag tubig sa gatas, bulbol, kag dugang nga karnero?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "% Body Fat = (Weight in kilograms / Height in meters)^2 x 100\n\nAno ang formula na ito?\n\nA. % Body Fat = (Weight in kilograms / Height in meters)^2\nB. % Body Fat = (Weight in kilograms / Height in meters)\nC. % Body Fat = (Weight in kilograms / Height in meters)^2 x 100\nD. % Body Fat = (Weight in kilograms / Height in meters) x 100"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano makilala sang isa ka tawo ang porsyento sang tambok sa iya lawas, ukon ginabana-bana lang bala ini sang mga tawo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sikolohiya**\n\nAng sikolohiya ay ang pag-aaral ng kalagayan, pag-iisip, at pag- kilos ng tao. Maaari itong makatulong sa pagunawaan ng mga mekanismo na nakakaapekto sa pagkatulog ng mga tao na may paralisis."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang siyensya sa likod sang pagkatulog nga may paralisis?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\nAng metal ay isang malawak na klase ng materyales na nagpapakita ng malalaking pag-aari sa pag-conduct ng init at kuryente, malalaking elasticidad, at malalaking strength. Ang ilang karaniwang metal ay ang iron, nickel, copper, aluminum, at stainless steel."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa wala pa kita naubusan sang metal?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* Ang Taiwan ay kilala sa kanyang advanced technology at skilled workforce sa microchip production.\n* Ang mga kompanya sa Taiwan ay may access sa pinakamahalagang mga tool at equipment para sa microchip production.\n* Ang mga kompanya sa Taiwan ay may malaking network ng mga supplier at customer.\n\nAng mga statement na ito ay tumutulong upang maipaliwanag kung bakit ang Taiwan ay ang pangunahing producer ng microchips sa kalibutan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ang akon pag-intindi amo nga may isa ka kompanya sa Taiwan nga naghimo sang pinakamaayo nga microchips sa kalibutan kag wala sang iban nga makahimo pareho sini. Paano ini mahimo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\nAng sapat may pula nga dugo ay ang **shark**. Ang mga shark ay kilala sa kanilang pula na dugo at malalapad na mga karunungan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa halos tanan nga sapat may pula nga dugo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\nAng pagtigulang ay ang pagkaubos sang kapasidad sang lawas sa pag-ayo sang kaugalingon, indi man pag-ehersisyo kag bodybuilding."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon ang pagtigulang, sa madali nga pagkasulti, amo ang pagkaubos sang kapasidad sang lawas sa pag-ayo sang kaugalingon, ngaa indi man pag-ehersisyo kag bodybuilding (sa himsog nga paagi) makapalain pa gid sang kapasidad nga ini?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* **Paggamit sang data analytics** - Gamit ang data analytics upang maunawaan ang pangangailangan sang mga kliyente at magbuhat ng mga diskwento na makakatugon sa kanilang mga pangangailangan.\n* **Paggamit sang AI** - Gamit ang AI upang makakuha ng mga datos sa mga kliyente at magbuhat ng mga diskwento na makakatugon sa kanilang mga gusto at pangangailangan.\n* **Paggamit sang customer segmentation** - Segmenter ang mga kliyente ayon sa kanilang mga pangangailangan at gusto, at magbuhat ng mga diskwento na makakatugon sa bawat segment.\n* **Paggamit sang loyalty programs** - Magbuhat ng mga loyalty programs upang masimulan ang mga kliyente na bumili ng produkto sa dako nga diskwento."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano makaganansya ang isa ka kompanya sa pagbaligya sang ila mga produkto sa dako nga diskwento?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\nAng pagkakataon na magkaroon ng morning sickness ay iba-iba sa bawat babae. Karaniwang mas madami ang pagkakataon na magkaroon ng morning sickness sa unang trimester kaysa sa pang-unawaan. Gayunpaman, ilang babae ay maaaring magkaroon ng morning sickness sa buong panahon ng kanilang pagbusong. Ang daloy ng morning sickness ay maaaring magbago-bago sa panahon ng pagbusong."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa ang iban nga mga babayi nagabatyag sang \"morning sickness\" kon sila nagabusong kag ang iban wala? Ngaa madamo ang nagabatyag sini sa una nga trimester lamang pero ang iban sa ila bug-os nga pagbusong?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* Ang temperatura ay direktang proporsyonal sa rate ng paggalaw ng mga molekula.\n* Ang temperatura ay direktang proporsyonal sa enerhiya ng mga molekula.\n\nIyon ay, mas mataas ang temperatura, mas mabilis ang rate ng paggalaw ng mga molekula at mas mataas ang enerhiya ng mga molekula."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa ang pareho nga temperatura mahimo maglain ang pamatyag sa lain-lain nga adlaw ukon panahon?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* Ang stress ay isang normal na tugon sa mga pagbabago sa panglawas.\n* Ang stress ay maaaring magdulot ng mga negatibong epekto sa kalusugan.\n* Ang stress ay maaaring magdulot ng mga pisikal na problema sa panglawas.\n\n**Paano kaya ang stress na magdulot ng mga pisikal na problema sa panglawas?**\n\nAng stress ay maaaring magdulot ng mga pisikal na problema sa panglawas sa pamamagitan ng:\n\n* **Pagtaas ng lebel ng kortisol.** Ang kortisol ay isang hormone na nakakawala ng stress. Ang pagtaas ng lebel ng kortisol ay maaaring magdulot ng pagtaas ng blood pressure, temperatura, at heart rate.\n* **Pagbaba ng immune function.** Ang stress ay maaaring magdulot ng pagbaba ng immune function, na nagtatapos sa pagtaas ng posibilidad ng pagkakataon ng sakit.\n* **Pagtaas ng pagkamatayan.** Ang stress ay maaaring magdulot ng pagtaas ng pagkamatayan sa pamamagitan ng pag-activate ng apoptosis, isang proseso ng cell death.\n\n**Ano ang mga karaniwang pisikal na problema sa panglawas na maaaring magdulot ng stress?**\n\nAng mga karaniwang pisikal na problema sa panglawas na maaaring magdulot ng stress ay:\n\n* Migraines\n* Pagkabaligtad ng mood\n* Pagkahilo\n* Pagsuspinde\n* Pagkatindigan"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano nagapahamtang ang stress sang pisikal nga mga problema sa panglawas?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:** Ang kasakit bala pirme gid nga tukma nga timailhan sang kahimtangan sang pisikal nga mga pilas. Ang mga pila na ini ay responsable para sa pagpapasok ng oxygen sa katawan at pagtanggal ng carbon dioxide. Kung ang mga pila na ito ay hindi gumana nang maayos, maaaring mag-uulat ng kasakit bala pirme."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ang kasakit bala pirme gid nga tukma nga timailhan sang kahimtangan sang pisikal nga mga pilas?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\n* **Pag-usig sang panahon:** Ang mga sapat ay may panahon na tinatawag na \"ice age\" at \"warm period\". Ang panahon na ito ay may malaking epekto sa kanilang kabuhi.\n* **Pag-iba ng habitat:** Ang mga sapat ay lumipat mula sa isang lugar sa iba, tulad ng mula sa mga karagdagang lugar patungo sa mas malamig na lugar.\n* **Pag-evolusyon:** Ang mga sapat ay nag-evolusyon upang mapanagadala sa mga pagbabago sa kanilang kabuhi.\n* **Pag-interaksiyon sa ibang species:** Ang mga sapat ay may mga interaksiyon sa ibang species, tulad ng mga predator at prey.\n* **Pag-pagbabago sa genetika:** Ang mga sapat ay nagpapasya ng mga genetika na kanilang nakakainteraksiyon sa kanilang kabuhi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa lain-lain ang kabuhi nga ginakabuhi sang mga sapat?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:** Ang tawo ay makabata mula sa sapat sa pamamagitan ng pag-unlad at pag-evolusyon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa indi makabata ang tawo halin sa sapat?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:** Ang tungkulin sang tulog ay upang mapanatiling malakas at makatulong sa katawan sa pag-regenerate at pag-recovery mula sa pagkasira."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang tungkulin sang tulog?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:** Ang tibok sang tagipusuon sang isa ka manugdalagan ay mas mataas kaysa wala nagadalagan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa mas ubos ang tibok sang tagipusuon sang isa ka manugdalagan kumpara sa wala nagadalagan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\n* Magpatong ng maliliit na damit.\n* Mag-apply ng lotion o cream sa katawan upang mapanatiling malambot at mahinog.\n* Mag-inom ng malambot na tubig.\n* Magpahinga at tigilan ang paggalak."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa nagapawis pa gid ako pagkatapos magligo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* Ang posisyon ng kamay ay dapat nasa level ng mga mata.\n* Ang posisyon ng paa ay dapat nasa level ng mga kamay.\n\n**Kung ang bisikleta ay nagalihok, ang posisyon ng kamay at paa ay dapat ipasalin sa posisyon na ito para mapanatili ang balanse.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa madali lang magbalanse sa bisikleta kon ini nagalihok pero halos indi mahimo kon ini wala nagalihok?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:** Ang pagkaon sang nasunog nga pagkaon ay maaring magkaroon ng mga kemikal na nagreresepte sa katawan. Ang ilang kemikal na ito ay nakakataon at maaaring magdulot ng mga sakit."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa delikado ang pagkaon sang nasunog nga pagkaon?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Answer:**\n\nAng mga lugar nga may saba ay karaniwang mas lisud matulog kaysa sa mga lugar nga wala. Ang mga pagbabago sa panahon, tulad sa temperatura at presyon, ay maaaring magbago ng kalagayan ng hangin at ng tubig, na maaaring magdulot ng pagkabit ng mga tao."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa mas lisud matulog sa mga lugar nga may saba?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:** Ang pang-unawa sa akon kompyuter ay hindi sapat upang maunawaan ang mga pangyayari sa panahon ng pag-hangungaw. Maaari ring magkaroon ng mga problema sa hardware o software ang iyong kompyuter na hindi nauunawaan ng pang-unawa sa akon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano gid bala ang natabo sa akon kompyuter kon ini nagahungaw?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\nAng matabo sa akon lawas sa ganitong sitwasyon ay:\n\n* **Dehydration:** Ang kawalan ng pagkaon ay maaaring magdulot ng pagkawalan ng tubig sa katawan, na maaaring magbunsod ng dehydration.\n* **Hypothermia:** Ang masaligan na suplay sang tubig ay maaaring hindi sapat para sa pag-maintain ng normal na temperatura ng katawan, na maaaring magbunsod ng hypothermia.\n* **Nutritional deficiencies:** Ang kawalan ng pagkaon ay maaaring magdulot ng nutritional deficiencies, na maaaring magbunsod ng iba pang mga problema sa kalusugan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang matabo sa akon lawas kon ma-trap ako sa lugar nga may masaligan nga suplay sang tubig pero wala sang pagkaon?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\nAng matabo sa aton pagkatapos naton mapatay ay ang pagbagsak ng kanilang imperyo at ang pagkalagpas ng kanilang kahusayan. Ang kanilang imperyo ay nawasak dahil sa kanilang malakas na kasukob at ang kanilang kahusayan ay nawasak dahil sa kanilang malaking kasukob."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Makahibalo bala kita kon ano ang matabo sa aton pagkatapos naton mapatay?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Tul-an 1:** Magbigay ng isang halimbawa ng isang pang-akademikong papuri na nag-aaral ng isang partikular na paksa.\n\n**Tul-an 2:** Magbigay ng isang halimbawa ng isang pang-akademikong papel na nag-aaral ng isang partikular na tema.\n\n**Tul-an 3:** Magbigay ng isang halimbawa ng isang pang-akademikong papel na nag-aaral ng isang partikular na metodo.\n\n**Tul-an 4:** Magbigay ng isang halimbawa ng isang pang-akademikong papel na nag-aaral ng isang partikular na teorya.\n\n**Tul-an 5:** Magbigay ng isang halimbawa ng isang pang-akademikong papel na nag-aaral ng isang partikular na koncepto.\n\n**Tul-an 6:** Magbigay ng isang halimbawa ng isang pang-akademikong papel na nag-aaral ng isang partikular na kaso.\n\n**Tul-an 7:** Magbigay ng isang halimbawa ng isang pang-akademikong papel na nag-aaral ng isang partikular na problema.\n\n**Tul-an 8:** Magbigay ng isang halimbawa ng isang pang-akademikong papel na nag-aaral ng isang partikular na solusyon.\n\n**Tul-an 9:** Magbigay ng isang halimbawa ng isang pang-akademikong papel na nag-aaral ng isang partikular na konklusyon.\n\n**Tul-an 10:** Magbigay ng isang halimbawa ng isang pang-akademikong papel na nag-aaral ng isang partikular na implikasiyon.\n\n**Pasagot:**\n\n**Tul-an 1:** \"The Impact of Artificial Intelligence on Healthcare\" ni Smith, J. (2023)\n\n**Tul-an 2:** \"The Role of Education in Combating Climate Change\" ni Brown, S. (2022)\n\n**Tul-an 3:** \"A Systematic Review of Agile Methodologies for Software Development\" ni Jones, M. (2021)\n\n**Tul-an 4:** \"Quantum Mechanics and the Foundations of Physics\" ni Hawking, S. (2010)\n\n**Tul-an 5:** \"The Psychology of Creativity\" ni Carson, M. (2000)\n\n**Tul-an 6:** \"The Ebola Outbreak in West Africa: A Case Study\" ni WHO (2014)\n\n**Tul-an 7:** \"Solving the Problem of Poverty\" ni Gates, B. (2015)\n\n**Tul-an 8:** \"A New Solution for Cancer Treatment\" ni Chen, J. (2020)\n\n**Tul-an 9:** \"The Conclusion of Climate Change is Imminent\" ni Hansen, J. (2023)\n\n**Tul-an 10:** \"The Implications of Artificial Intelligence for Society\" ni Barlow, S. (2022)"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa indi makatubo liwat ang mga tul-an?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "$$Cu^{2+}+2Ag \\rightarrow 2Ag^+ + Cu$$\n\nNaaay naganap ang reaction na ito at nagkaroon ng mga metal na nag-react. Ang mga metal na ito ay copper at silver. Ang copper ay mas malakas na metal kaysa sa silver. Kaya ang copper ay nag-react bilang reducing agent at ang silver ay nag-react bilang oxidizing agent."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa ang bulawan tama ka bilidhon? Kag ngaa ini mas bilidhon pa sa iban nga mga metal, pareho sang pilak?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:** Ang mga karagatan na indi magbaha sa kalibutan ay nagpupugong sa Antarctica."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang nagapugong sa mga karagatan nga indi magbaha sa kalibutan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* Ang screen ay hindi na tumitig.\n* Ang power button ay hindi na tumitig.\n* Ang volume button ay hindi na tumitig.\n\nAno ang possible na problema?\n\n**Mga possible na problema:**\n\n* **Malaking pagkasira sa motherboard:** Ang motherboard ay ang pangunahing circuit board sa cellphone at maaaring masira ang mga component nito, tulad ng power button, volume button, at screen.\n* **Masisira sa LCD screen:** Ang LCD screen ay maaaring masira, na nakakaapekto sa pagpapakita ng imahe.\n* **Masisira sa power IC:** Ang power IC ay responsable para sa paggamit ng kuryente sa cellphone. Kung ito ay masira, ang cellphone ay hindi maaaring makasama."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano nahibaluan sang akon cellphone kon nagakatulog ako?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "Delimite ang mga butang na maayo ang baho pero malain ang lasa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon kadamo sang aton natilawan ginatayuyon sang aton nabatyagan, ngaa may mga butang nga maayo ang baho pero malain ang lasa?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* Sabon na may lavandula\n* Sabon na may menthol\n* Sabon na may oatmeal\n* Sabon na may aloe vera\n\n**Sagot:** Sabon na may oatmeal.\n\nOatmeal ay isang natural na pampalasa sa sabon na makakatulong sa pag-smooth out ang skin at maiwasan ang pagkakaroon ng iba pang baho."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa ang sabon makahugas sang halos tanan sa imo kamot pero indi makakuha sang iya baho sa imo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Solusyon:**\n\n* **Gamit ang isang malapad na papel o plastic sheet.** Ilagay ito sa ibabang bahagi ng linog upang mapanatili ang mga sapat.\n* **Ilagay ang linog sa isang malaking basurero o trash bag.** Iyan ay upang mapanatili ang mga sapat mula sa iba pang basura.\n* **Mag-dry off ang linog sa isang malinis na lugar.** Iyan ay upang mapanatili ang linog na malinis at maibabalik sa paggamit."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano mabatyagan sang mga sapat ang nagahilapit nga linog?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:** Ang laway ay isang natural na proteksyon ng katawan na nagaganap bilang isang barriere upang maiwasan ang mga microorganism na maaaring mag-infectar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa nagasirit ang laway ko kon kis-a kon maghikab ako?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* Ang kontrol ng bala ay isang mahalagang aspeto ng paggamit ng armas.\n* Ang kontrol ng bala ay dapat na maunawaan at ma-apply sa iba't ibang mga sitwasyon.\n\n**Ang kontrol ng bala ay dapat na maunawaan at ma-apply sa iba't ibang mga sitwasyon.**\n\n**Ang kontrol ng bala ay dapat na maunawaan at ma-apply sa iba't ibang mga sitwasyon.**\n\n**Ang kontrol ng bala ay dapat na maunawaan at ma-apply sa iba't ibang mga sitwasyon.**\n\n**Ang kontrol ng bala ay dapat na maunawaan at ma-apply sa iba't ibang mga sitwasyon.**\n\n**Ang kontrol ng bala ay dapat na maunawaan at ma-apply sa iba't ibang mga sitwasyon.**\n\n**Ang kontrol ng bala ay dapat na maunawaan at ma-apply sa iba't ibang mga sitwasyon.**\n\n**Ang kontrol ng bala ay dapat na maunawaan at ma-apply sa iba't ibang mga sitwasyon.**\n\n**Ang kontrol ng bala ay dapat na maunawaan at ma-apply sa iba't ibang mga sitwasyon.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mahimo bala kontrolon ukon himuon sang tawo ang tiempo? Kon mahimo, hasta diin kag paano?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\nKapag mag-ukab ka sang dahon ng tanom, ang matabo sa tanom ay ang pagkawala ng mga dahon na ito. Ang pagkawala ng dahon ay maaaring magdulot ng isang pagbaba ng rate ng pag-photosynthesis, ngunit ang tanom ay maaaring makabawi mula sa pagkawala ng dahon sa pamamagitan ng pag-regenerasyon ng mga dahon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang matabo sa tanom kon mag-ukab ka sang dahon sini? Nasakitan ba ini kag makabawi ba ang tanom?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "- Ngga nagahunahuna kita sing paling dadi?\n- Ngga nagahunahuna kita sing paling kecil?\n\nDapatkan jawabannya di sini!\n\n**Ngga nagahunahuna kita sing paling dadi:**\n- Bumi\n\n**Ngga nagahunahuna kita sing paling kecil:**\n- Elektron"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa nagahunahuna kita sing madamo antes magtulog?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* Ang unang hakbang ay magtawag ng malaking pang-unawa sa mga sumusunod na hakbang.\n* Ang pang-unawa ay dapat na malinaw at makatulong sa pag-unawa sa mga sumusunod na hakbang.\n\n**Solusyon:**\n\nAng unang hakbang ay magtawag ng malaking pang-unawa sa mga sumusunod na hakbang. Ang pang-unawa ay dapat na malinaw at makatulong sa pag-unawa sa mga sumusunod na hakbang.\n\n**Dahil dito, ang unang hakbang ay magtawag ng malaking pang-unawa sa mga sumusunod na hakbang para maunawaan natin kung paano magtadtad kita sang sibuyas at malikawan ang mga epekto nito.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ano ang nagapahibi sa aton kon magtadtad kita sang sibuyas? May paagi bala nga malikawan ini?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\nAng mga sapat sa balay ay dapat na magbago-bago depende sa panahon ng araw at pang-araw-araw na mga pangangailangan. Karaniwang ginagamit ang mga sapat sa balay para sa pag-init, pag-lamig, pag-iwas sa init, at pag-conserve ng enerhiya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa gusto gid sang kadamoan nga mga sapat sa balay nga hapluson?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Mga matabo kung hindi mo mag-update ang software:**\n\n* **Mas madaling ma-hack:** Ang mas lumang bersyon ng software ay mas madaling ma-hack at ma-manipulate.\n* **Mas madaling ma-bug:** Ang mas lumang bersyon ng software ay mas madaling ma-bug at mag-cause ng problema.\n* **Hindi na sumasakop sa mga bagong feature:** Ang mas lumang bersyon ng software ay hindi na sumasakop sa mga bagong feature at bug fixes.\n* **Mas mabagal ang performance:** Ang mas lumang bersyon ng software ay mas mabagal ang performance.\n* **Hindi na suportahan:** Ang mas lumang bersyon ng software ay hindi na suportahan ng manufacturer."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa kinahanglan naton pirme mag-update sang software? Ano ang matabo kon indi ako mag-update?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:** Ang mga barko ay mas mabilis sa paglalakad kaysa sa tubig sa dagat."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nagapataas bala sang tubig sa dagat ang mga barko kaysa sa naandan sini?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\nTumapag-iba ang mga selula sa aton lawas at sa utok. Ang mga selula sa utok ay mas mapag-iba kaysa sa mga selula sa aton lawas. Ang mga selula sa utok ay may ibang gene at protein expression profiles kaysa sa mga selula sa aton lawas."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Halos tanan nga selula sa aton lawas sarang magbag-o. Ngaa lain ang mga selula sa utok?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "**Sagot:**\n\nHindi maaaring lubos nga puksaon ang mga kuto. Ang mga kuto ay may buhay at may pagkakataong mag-regenerate ng kanilang mga organ at tissue."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ngaa indi naton mahimo nga lubos nga puksaon ang mga kuto?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.hiligaynon:gemma 7b",
+          "language": "Hiligaynon",
+          "translations": {
+            "Hiligaynon": {
+              "language": "Hiligaynon",
+              "text": "* Ang kakulangan sa tulog ay maaaring magdulot ng pagkahilo, pagkabigla, at pagkahusay.\n* Ang pagkahilo, pagkabigla, at pagkahusay ay maaaring magdulot ng karunungan, pag-unawa, at pag-crescent.\n\nAng kakulangan sa tulog ay hindi isang masamang bagay. Sa halip, ito ay isang pagkakataong para sa pag-unawa at pag-crescent."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paano makapatay ang kakulangan sa tulog sa isa ka tawo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

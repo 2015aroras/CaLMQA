@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Flogfør innskipað fara í ferð um allt ríkið, en það er ekki mögulegt að taka það á sér í einum sókninum í tíðinn."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví verða flogfør innskipað frá fremst til aftast?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Royking er skaðilig fyri hjartað vegna:**\n\n* **Að vera óregluleg með blóðþrýstingi:** Roykingar leitt til aukinnar blóðþrýstingis, sem getur leitt til hjartaátakas.\n* **Að auka þörfingu á oxygenti:** Roykingar leitt til lækka á blóðþættingu, sem getur leitt til aukinnar þörfingu á oxygenti hjá hjarta.\n* **Að auka þörfingu á kolesterol:** Roykingar leitt til aukinnar kolesterolni í blóði, sem getur leitt til þrátt á hjarta.\n* **Að leita til þrátt á hjarta:** Roykingar leita til þrátt á hjarta með því sem þau auka þörfingu á oxygenti hjá hjarta."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví er royking so skaðilig fyri hjartað?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "* Þegar fílur og myndir eru strikaðar úr 'nýliga strikað', verða þau auka í'strikaða fílum og myndum'.\n* Þegar fílur og myndir eru strikaðar úr'strikaða fílum og myndum', verða þau auka í 'fylgtum fílum og myndum'.\n\nHvers vegna er það sem gerir?\n\n**A.** Það er hægt að taka aftur strikaða fílur og myndir.\n**B.** Það er hægt að taka aftur fylgtum fílum og myndum.\n**C.** Það er hægt að taka aftur 'nýliga strikað' fílur og myndir.\n**D.** Það er hægt að taka aftur 'fylgtum fílum og myndum'."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Í einum iPhone, hvar fara strikaðar fílur og myndir eftir at vera strikaðar úr 'nýliga strikað'?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Hitt ger tað, at vit sé um hvort vit er í lagi við at taka við um hvort vit renna áðrenn vit leypa, okkum at leypa hægri.\n\nHva er hvers kynski við sérslitan?\n\nA) Vit er í lagi við at taka við um hvort vit renna áðrenn vit leypa.\nB) Vit er í lagi við at leypa hægri.\nC) Vit er í lagi við hvort vit er í lagi við at taka við um hvort vit renna áðrenn vit leypa, okkum at leypa hægri."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví ger tað, at vit renna áðrenn vit leypa, okkum at leypa hægri?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Antikroppar eru:**\n- Produktaður af því sem bróstmjólk getur á sér.\n- Þeir eru í lagi í bróstmjólk og geta verið í lagi í barnaskipti.\n- Þeir geta verið í lagi í matvæli og hafa verið í lagi í matvæli barnanna.\n\n**Antikroppar getur verið:**\n- Tilhópar bróstmjólks\n- Tilhópar matvæla barnanna\n\n**Antikroppar hafa verið í lagi í:**\n- Barnaskipti\n- Matvæli barnanna\n\n**Antikroppar geta verið í lagi í:**\n- Bróstmjólk\n- Matvæli barnanna\n\n**Antikroppar eru ekki lögd afturat:**\n- Þeir eru í lagi í bróstmjólk og geta verið í lagi í barnaskipti.\n- Þeir geta verið í lagi í matvæli barnanna."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví kunnu antikroppar/onnur góð árin frá bróstmjólk ikki verða løgd afturat barnamat?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "\\\nA) Íslenskt vefsíður\nB) Ferðasamtök\nC) Þjóðlegar vefsíður\nD) Ferðavörur\n\n**Rit: A**\n\nÍslenskt vefsíður stýrir mín veitari av tráðleysum neti ferðaravmarkingini á internetinum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu stýrir mín veitari av tráðleysum neti ferðaravmarkingini á internetinum?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Tíkar blóð á arminum getur verið ólíkt af ýmsum áhyggjum, svo sem blóðtappamyndun, blóðþróttun og blóðfylkingar. Þessi áhyggjum hafa allar áhrif á það hverski blóðtegund er ólíkt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví verður vanliga tikið blóð frá boyminum á arminum?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "* iPhone 14 Pro Max\n* Samsung Galaxy S23 Ultra\n* Google Pixel 7 Pro\n* Xiaomi 13 Ultra\n\n**Ristórar sjónvarpsstúdiokamera:**\n\n* iPhone 14 Pro Max: 48MP (120°), f/1.5, 5-ringa autofocus\n* Samsung Galaxy S23 Ultra: 200MP (100°), f/2.2, 10-ringa autofocus\n* Google Pixel 7 Pro: 50MP (60°), f/1.8, 8-ringa autofocus\n* Xiaomi 13 Ultra: 200MP (120°), f/1.9, 12-ringa autofocus\n\n**Að vera tekin í útalingu:**\n\n* Samsung Galaxy S23 Ultra hefur den mest háa upplösum á kamera, en iPhone 14 Pro Max hefur den breiðasta vinkel á kamera.\n* Google Pixel 7 Pro hefur den beste autofocus-tekipa á kamera.\n* Xiaomi 13 Ultra hefur den flestum ringa autofocus-tekipa á kamera."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví nýta vit framvegis risastórar sjónvarpsstúdiokamera, tá ið somu tøkni nú er í stødd við ein fartelefon?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Heitt jarðarkjarnin er umtalslegur og lifir í öllum tíðum og öllum staðum á jörðinni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu vita tey hvussu heitt jarðarkjarnin er?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "* Aflæði kemurnir\n* Glycerol\n* Urea\n* Glukose"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví kemur akni ofta fyri undir kynsbúningi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Broyta gras og vatn til mjólk, ull og fleiri seyðir:**\n\n* **1/2 kopp gras** - sét í mjólk\n* **1/4 kopp vatn** - sét í mjólk\n* **1/4 kopp ull** - sét í mjólk\n* **Fleiri seyðir** - sét í mjólk, til dægla:\n    * 1/2 teyja salt\n    * 1/4 kopp þykk tíg\n    * 1/4 kopp rú ákarí\n\n**Viðskiptaferð:**\n\n1. Settu gras, vatn, ull og fleiri seyðir í mjólk.\n2. Rísta vel og leggja í kjötlu sem er í kjötluhúsi.\n3. Hagna mjólkin í kjötlu í 5-10 mínúta, til gras og ull eru þórir.\n4. Viðskipta mjólkin og taka í notkun."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu broyta seyðir gras og vatn til mjólk, ull og fleiri seyðir?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "% Kropsfett\n\n**A.** 10-15%\n**B.** 20-25%\n**C.** 30-35%\n**D.** 40-45%\n\n**Rétning:** A\n\n**Grípa:** Kropsfett er ein wichtiger Bestandteil von Pflanzenkohlenhydraten und spielt eine Rolle bei der Energieversorgung und der Struktur von Pflanzen. Die meisten Pflanzenarten haben einen Kropsfettprozent von 10-15%."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu veit ein sítt kropsfeitt prosent, ella gita fólk bara?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Vísindin handan svevn lamning:**\n\n* **Samseting:** Svevn lamning er samsett av tre hovedkomponenter: fettsyrer, protein og karbohydrater.\n* **Kosthold:** Svevn lamning er en god kilde til protein, fettsyrer og jern. Den inneholder også vitaminer og mineraler som kalium, magnesium og vitamin B12.\n* **Fordele:** Svevn lamning har flere helsefordeler, inkludert:\n    * Økt satiety, som kan bidra til vektstyring.\n    * Reduserte nivåer av blodsukker.\n    * Økt produksjon av hormoner som GH og IGF-1, som er involvert i vekst og reparasjon.\n    * Reduserte nivåer av stresshormoner.\n* **Ulemper:** Svevn lamning kan også ha noen ulemper, inkludert:\n    * Kan forårsake magrete og oppsvelling.\n    * Kan forringe fordøyelsen.\n    * Kan føre til økt produksjon av insulin.\n\n**Sammendrag:**\n\nSvevn lamning er en næringsrik matvara med flere helsefordeler. Den er en god kilde til protein, fettsyrer og jern, og kan bidra til vektstyring, blodsukkeregularering og økt produksjon av hormoner."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er vísindin handan svevn lamning?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "* A) Ítalsk þráttaskeiði\n* B) Þjóðlegar brúk\n* C) Þróunarsamskipti\n* D) Þegar það er nauðlagt\n\nVit einnig um hvort metalið er brúkt fyrir það sem er áhætt af því hvort það er í brúk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu hava vit ikki uppi brúkt alt metalið enn?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "1. Þessi fyritøka hefur eitt eitt lítiltal á vinnum og er því kleift um mikilvægt upplýsingar.\n2. Þessi fyritøka hefur eitt eitt breitt nettverk á vinnum og er því í stað til að taka mikilvægt upplýsingar.\n\nHvers vegna er fyrstari valdið betreitt?\n\n**A.** Þessi fyritøka hefur eitt eitt lítiltal á vinnum og er því kleift um mikilvægt upplýsingar.\n**B.** Þessi fyritøka hefur eitt eitt breitt nettverk á vinnum og er því í stað til að taka mikilvægt upplýsingar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Eg haldi, at 1 fyritøka í Taiwan framleiðir heimsins bestu mikrochipp og eingin annar kann eftirlíkna tey. Hvussu er tað gjørligt?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Svar:** Næstan öll dýr reytt blóð hafa hvort sína eiga blóðgrupps."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava næstan øll dýr reytt blóð?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Svar:**\n\nAldringane er avhengig av forleikets gener og miljøtilhøvet. Kroppingane kan ha tilpassa seg til endringane i miljøet og kan fortsette å vekse. Venjing og kropsbygging kan vere nødvendige for å opprettholde biodiversiteten og sikre at alle artane har de nødvendige ressursane for å overleve."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Um aldring í stuttum er úttøming av kroppins førleika at umvæla seg sjálvan, hví gera venjing og kropsbygging (á ein sunnan hátt) tá ikki hesa førleikan verri?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**A.** Það er lykilatriði að taka vel í úrval fyrir stórari avsláttri.\n**B.** Það er lykilatriði að taka vel í úrval fyrir sósíðasögu fyrir fyritókin.\n**C.** Það er lykilatriði að taka vel í úrval fyrir þörf fyrir vörur á tíðinn.\n**D.** Það er lykilatriði að taka vel í úrval fyrir persónulegra áhyggjum fyrir fyritókin.\n\nRit í sérsniði hvers valdi.\n\n**A:** Takning vel í úrval fyrir stórari avsláttri er lykilatriði því sem það getur haft áhrif á það hvort fyritókin getur selgt sínar vørur við stórari avsláttri.\n\n**B:** Takning vel í úrval fyrir sósíðasögu fyrir fyritókin er lykilatriði því sem það getur haft áhrif á það hvort fyritókin getur selgt sínar vørur við stórari avsláttri.\n\n**C:** Takning vel í úrval fyrir þörf fyrir vörur á tíðinn er lykilatriði því sem það getur haft áhrif á það hvort fyritókin getur selgt sínar vørur við stórari avsláttri.\n\n**D:** Takning vel í úrval fyrir persónulegra áhyggjum fyrir fyritókin er lykilatriði því sem það getur haft áhrif á það hvort fyritókin getur selgt sínar vørur við stórari avsláttri."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu tjénar eitt fyritøka pening við at selja sínar vørur við stórari avsláttri?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Svar:**\n\nKvinnur \"morgunógleði\" eru við barn og aðrar ikki, og summar eru ofta í fyrsta trimestri. Þó sumir kvinnur hafa \"morgunógleði\" í fyrsta trimestri, eru tað oftast í seinni trimestri."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví fáa summar kvinnur \"morgunógleði\" tá tær eru við barn og aðrar ikki? Hví hava nógvar tað bara í fyrsta trimestri, men summar uppliva tað gjøgnum alla teirra graviditet?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**A:** Hitin kennast heilt ymiskur ymiskar dagar ella árstíðir.\n**B:** Hitin kennast heilt á tíðarskeiði.\n**C:** Hitin kennast heilt í samsetingum hvers kyns.\n**D:** Hitin kennast heilt í samsetingum árstíðanna.\n\nRit sé í váldinum A.\n\nHitin kennast heilt ymiskur ymiskar dagar ella árstíðir. Hitin er einnig samseting af öllum kynsum og árstíðum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví kann sama hitin kennast heilt ymiskur ymiskar dagar ella árstíðir?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Stress kan påverke likamligar heilsutrupulleikar på ulike måter:**\n\n**1. Hormonbalanse:**\n* Stress kan forstyrre produksjonen av hormoner som cortisol og adrenaline, som kan ha innvirkning på immunfunksjonen.\n* Kortisol kan forårsake inflammatjon og øke risikoen for infeksjoner.\n\n**2. Immunsystem:**\n* Stress kan svekke immunforsvaret, som gjør kroppen mer sårbar for infeksjoner og andre helsetilstander.\n* Stress kan også forårsake autoimmuntilstander.\n\n**3. Blodtrykk:**\n* Stress kan føre til økt blodtrykk, som kan forårsake hjerteproblemer.\n\n**4. Blodsukkernivå:**\n* Stress kan forårsake økt blodsukkernivå, som kan lede til diabetes.\n\n**5. Muskler og skeletter:**\n* Stress kan forårsake muskelspasmer og økt smerte.\n* Stress kan også føre til deformiteter i ryggen.\n\n**6. Fordøyelse:**\n* Stress kan forårsake fordøyelsesproblemer, som for eksempel magre og diaré.\n\n**7. Hjertefunksjon:**\n* Stress kan forårsake økt hjertefrekvens og blodtrykk.\n* Stress kan også forårsake hjerteslag."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu kann stress elva til likamligar heilsutrupulleikar?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Neyvt mát:**\n\n**Skaðasafn**\n\n**Athugvæli:**\n\n* Neyvt mát er í boði fyrir einstakra persónan.\n* Það er lykilatriði í því að taka í útförðun skaða sem séu viðeigandi fyrir persónuna.\n* Það er lykilatriði í því að nota korrektar persónanöfn og -titlar.\n\n**Viðskiptaflokk:**\n\n* Þessi neyvt mát er í boði fyrir persónan sem er álitinn um skaða sem séu viðeigandi fyrir persónuna.\n\n**Athugvæli:**\n\n* Þessi neyvt mát er í boði fyrir persónan sem er álitinn um skaða sem séu viðeigandi fyrir persónuna."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Er pína eitt fullkomiliga neyvt mát fyri støðuna á likamligum skaðum?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Avarespónse:**\n\nHví hava og misk djór og miskar livitíðir er tó lítil upplýst í textinum. Þá er ekki mögulegt að svara á spurninguna úr textinum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava ymisk djór ymiskar livitíðir?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "* Barn er í lítilvægt og getur lítil styrku.\n* Dýrin er stór og kraftig.\n* Barn er óvinnanleg með dýrum.\n\nHvers vegna er barn í lítilvægt og getur lítil styrku?\n\nA) Dýrin er stór og kraftig.\nB) Barn er óvinnanleg með dýrum.\nC) Barn er í lítilvægt og getur lítil styrku.\n\nRit sé við á svarinu.\n\nBarn er í lítilvægt og getur lítil styrku vegna þessu, að dýrin er stór og kraftig. Dýrin getur barn í lítilvægt og getur lítil styrku til það að vera nær því."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví kunnu menniskju ikki blíva við barn frá dýrum?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Endamálið við svøvni er ein samsetning av fleire faktorar som kan påverke søvnkvaliteten. Faktorar som kan vera involvert er:\n\n* **Neurotransmittar:** Serotonin, norepinephrin og dopamine er viktige neurotransmittar som kan påverke søvnkvaliteten.\n* **Hormoner:** Estrogen, progesteron og kortisol er hormoner som kan påverke søvnkvaliteten.\n* **Stress:** Stress kan føra til søvnvansker og endringer i søvnkvaliteten.\n* **Livsstilsfaktor:** Kosthold, aktivitet og sovnvaner kan påverke søvnkvaliteten.\n\nEndamálið við svøvni kan leda til søvnvansker, som kan ha ein negativ effekt på helsa og produktiviteten."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er endamálið við svøvni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Hjartarútmurin hjá einum rennara lægri er er hví mikilvægt hjá því að vera velgerður og hafa góða kondísjonar.**\n\nHjarta er mikilvægt í því að taka við við þörfum hjá líkum og gerir það mikilvægt hjá því að vera velgerður og hafa góða kondísjonar. Rennar hafa oft góða kondísjonar og velgerðu lífsstilsval og því er hjarta oft kraftigare hjá þeim."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví er hjartarútmurin hjá einum rennara lægri enn hjá einum, sum ikki rennur?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "* A) Sólstjórnin\n* B) Mánan\n* C) Jörðin\n* D) Þjóðinn\n\nRit: A) Sólstjórnin\n\nSólstjórnin er stærsta svitin sem er í umhverfi og gerir mikilvægt áhrif á brúsubaðaskeiði. Eftir að taka úr brúsubaðinum er Sólstjórnin oft mikilvægt í því að taka upp brúsu og halda brúsubaðið í gangi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví svitti eg meira eftir at eg komi úr brúsubaðinum?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Svar:**\n\nTað er fyrirvirkt að lítilt fólk haldir javnvág á einum súkklu í rørslu, en stórt fólk nærum ógjørligt. Þetta er vegna þessar lítilra persónanna sem halda javnvág á rósanlegum stöðum, sem er í rørslu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví er tað lætt at halda javnvág á einum súkklu tá hon er í rørslu, men nærum ógjørligt tá hon stendur still?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Skada:**\n* Brænt mat kanna innihalda giftigar stof, svo som polychlorinated biphenyls (PCBs) og dioxins.\n* PCB-ar er hafa tekin til í vinnu í margar matvæli, og er hafa verið fundin í matvælum sem eru brent.\n* Dioxins er giftigar stof, sem eru bildaðar í matvælum, når mat er brent.\n* Brænt mat kanna innihalda einnig svokallaða \"hot spots\", sem eru viðboltar af hita í matvælum, sem hafa verið brent.\n\n**Að vera óvarandi:**\n* Éa brent mat í liði við að vera óvarandi.\n* Nýlegar forskningar hafa sýnt, að brænt mat getur haft einnig öruggar helsingisfarar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví er tað skaðiligt at eta brentan mat?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**A.** Tað er trupilt at sovna í hávaðaríkum umhvørvum, tíðin er ofta í lagi.\n**B.** Tað er trupilt at sovna í hávaðaríkum umhvørvum, men tað er ofta í lagi.\n**C.** Tað er ekki trupilt at sovna í hávaðaríkum umhvørvum.\n**D.** Tað er ekki trupilt at sovna í hávaðaríkum umhvørvum, men tað er ofta í lagi.\n\nRit var: A.\n\nTað er trupilt at sovna í hávaðaríkum umhvørvum, tíðin er ofta í lagi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví er tað truplari at sovna í hávaðaríkum umhvørvum?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Telduni hjá mær er í boði, um hvort hon er í stand til at taka við við telduni hjá annars persónu.\n\n**Rit: Hon er í stand til at taka við við telduni hjá annars persónu.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat júst hendir við telduni hjá mær, tá ið hon frystir?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Kroppaskipti:**\n\n* Þrátt fyrir það sem sé um á lítilvægtum, er það mikilvægt að taka áhyggju um kroppaskipti á tíð á lítilvægtum.\n* Það er lykilatriði að taka það sem sé um áhyggju um kroppaskipti í samstarfi við lækninum.\n\n**Vatnveiting:**\n\n* Vatnveiting er mikilvægt fyrir lítilvægtum og getur haft áhrif á það sem sé um áhyggju um kroppaskipti.\n* Það er lykilatriði að taka það sem sé um áhyggju um vatnveiting í samstarfi við lækninum.\n\n**Mat:**\n\n* Mat er mikilvægt fyrir lítilvægtum og getur haft áhrif á það sem sé um áhyggju um kroppaskipti.\n* Það er lykilatriði að taka það sem sé um áhyggju um mat í samstarfi við lækninum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat hendi við mínum kroppi, um eg varð fangað/ur onkrastaðni við álítandi vatnveiting, men ongum mati?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Dómalt er, að vit séu umtalslegar áhyggjum og áhyggjum um heilsufar og umhverfisfólki.\n\nHva er umtalslegar áhyggjum?\n\n**A.** Áhyggjum um heilsufar\n**B.** Áhyggjum um umhverfisfólki\n**C.** Áhyggjum um samfélagslegar áhyggjum\n**D.** Áhyggjum um persónulegar áhyggjum**\n\nViltu svara: **A.** Áhyggjum um heilsufar\n\nUmtalslegar áhyggjum eru áhyggjum um heilsufar, svo sem áhyggjum um aukaverðun á heilsskyldum, aukaverðun á heilsskyldum og aukaverðun á heilsskyldum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Koma vit nakrantíð at vita, hvat hendir okkum eftir vit doyggja?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "* Á tíðinum er hann í ferð umtalsverðan.\n* Hann er í ferð umtalsverðan og leggur í vinna.\n* Hann er í ferð umtalsverðan og lætur í vinna.\n* Hann er í ferð umtalsverðan og leggur í vinna og lætur í vinna."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví kunnu bein ikki vaksa aftur?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "$$ \\text{Gull er meira virðismikið enn silvur.} $$\n\n**Svar:**\n\nGull er meira virðismikið enn silvur vegna lítilra lítilra eigna, sum gerir hann sjaldgæfar og verðsmikil. Gull er ein sjaldrar metaller, og tað er lítil av hann í jörðum. Þessi sjaldra upplýsingar gerja gull verðsmikil."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví er gull so virðismikið? Og hví er tað meira virðismikið enn onnur metaller, sum silvur?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "* Það er mögulegt að fljóta yvir jørðina í sérstakra tilgangahættu.\n* Það er ekki mögulegt að fljóta yvir jørðina.\n\nViltu vita hva er rétt?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat forðar høvunum í at fløða yvir jørðina?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Min telefonet er et Samsung Galaxy S21 5G."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu veit mín telefon, nær eg sovi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Svar:**\nLukten er ein af grundvallarnum í smakstilingum. Hún er í stand til at seta í gang við kemiskir reaganssar í smaksstoffum og endurskapanir, sem leitt til því, að vi semja smakka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Um tað mesta av tí, vit smakka, verður ásett av lukti, hví smakka summi ting, ið luktur gott, so illa?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Svara:** Sápa kan vaska næstan alt burtur av hondunum, men fær ikki vaska angan av tær, fordi tærne er tørre og har lite sebum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví kann sápa at vaska næstan alt burtur av hondunum, men fær ikki vaska angan av tær?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "- Þrátt fyrir það sem sést er, er eitt komandi jarðskjálvta í miðjum árskeiði merkt sem \"hitt\".\n- Það er talið um 100 komandi jarðskjálvta á árskeiði sem hafa verið merkt sem \"hitt\"."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu merkja dýr eitt komandi jarðskjálvta?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Munurinn er lítil og er í rasettum.\n\nA) Hitt munnvatn\nB) Kallt munnvatn\nC) Saltmunnvatn\nD) Áhrifsmunnvatn\n\nRit: B\n\nKallt munnvatn sprænir munnurin hjá mær stundum munnvatn, tá ið eg geispi. Munurinn er lítil og er í rasettum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví sprænir munnurin hjá mær stundum munnvatn, tá ið eg geispi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "* **Veðrið stýrs af manna hond:** Þessi skoðun segir til að veðrið er styrt af fólki og öruggarum samvinnum.\n* **Veðrið gerast af manna hond:** Þessi skoðun segir til að veðrið er óhátt af fólki og er styrt af náttúrulegum ólíkum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kann veðrið stýrast ella gerast av manna hond? Um so er, í hvønn mun og hvussu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "<br>\n\n**A:** Plántan er ólítil og koma fyri seg aftur.\n**B:** Plántan er lítil og koma fyri seg aftur.\n**C:** Plántan er stór og koma fyri seg aftur.\n**D:** Plántan er ólítil og koma ikki fyri seg aftur.\n\n**Rétt svar:** A\n\n**Gríðarás:** Plántan er ólítil og koma fyri seg aftur, tað er sagt, at plántan er lítil og koma fyri seg aftur."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat hendir við einari plántu, tá tú dregur eitt blað av henni? Ert tú við at skaða hana, og er plántan før fyri at koma fyri seg aftur?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "* Hugrúnirnar eru í boði.\n* Hugrúnirnar eru ekki í boði."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hugsa vit ofta nógv áðrenn vit sovna?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Orsakar:**\n\n* **Ólíkt lífverð:** Færslegar tegundir, lítilvægt og ólíkt lífverð í kosti geta leitt til fáa.\n* **Ó lítil kosti:** Kosti, sum eru lítil, geta haft fáa.\n* **Ó lítil blóðþróa:** Kosti, sum eru með lítil blóðþróa, geta haft fáa.\n* **Ó lítil blóðstríki:** Kosti, sum eru með ólíkum blóðstríkum, geta haft fáa.\n* **Færri kaloríar:** Færri kaloríar í kosti geta leitt til fáa.\n* **Stress og óvægt:** Stress og óvægt geta leitt til fáa.\n\n**Hættur at forða:**\n\n* **Kostið er lítil:** Kostið er lítil og kanna vera ó lítil til þess, hvers vegna það er.\n* **Færri kaloríar:** Kostið er með færri kaloríar en það þörfir til þess, hvers vegna það er.\n* **Ó lítil blóðþróa:** Kostið er með ó lítil blóðþróa, sem getur leitt til fáa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat orsakar, at vit fáa tárum í eyguni, tá ið vit skera leyk? Er tað ein háttur at forða fyri hesum?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Svara:** Húsadýr verða kløpp, når hví dáma flest húsadýr væl."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví dáma flest húsadýr væl at verða kløpp?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "\n\n**Vit støðugt gera telduforrits uppdateringar:**\n\n* Tilgangur til upplýsinga um nýlegar telduforðislögir og -uppfræði.\n* Velruna á áhyggjum um sérskyldislegar telduforðislögir.\n* Reglulegar uppfylkingar af telduforðislögunum.\n\n**Ef eg ikki geri tað:**\n\n* Þú getur verið óinnisett um nýlegar telduforðislögir og -uppfræði.\n* Þú getur verið óvörður um sérskyldislegar telduforðislögir.\n* Þú getur verið í fara um að taka við við telduforðislögunum á tíð.\n\nÞví er mikilvægt að taka við við telduforrits uppdateringar til að tryggja sérhyggju og velruna."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví mugu vit støðugt gera telduforrits uppdateringar? Hvad hendir um eg ikki geri tað?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**A:** Tað er hægt að vera sérslitandi í lífsverðinum.\n**B:** Tað er hægt að vera ólíkt í lífsverðinum.\n**C:** Tað er hægt að vera samseting í lífsverðinum.\n**D:** Tað er hægt að vera í samspelti í lífsverðinum.\n\n**Rit: B**\n\nLífsverð er ólíkt í samsetingum og eigum. Þetta getur leitt til samskipta og sérslitna í lífsverðinum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Gera skip, at havið verður hægri enn tað vanliga er?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Heilafrumurnar eru:**\n\n* Apelsínar\n* Grapefrútur\n* Bananer\n* Kvækkur\n* Persónasælskrókar"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Næstan hvør fruma í okkara kroppi er før fyri at endurnýggja seg. Hví eru heilafrumurnar øðrvísi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Vit umtalsverðir:**\n- Það er mögulegt að taka loppur heilt og holdent.\n- Það er ekki mögulegt að taka loppur heilt og holdent.\n\n**Vit gerðir:**\n- Það er mögulegt að taka loppur heilt og holdent.\n\n**Vit ekki:**\n- Það er ekki mögulegt að taka loppur heilt og holdent."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví kunnu vit ikki útrudda loppur heilt og holdent?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "* A) Hitt á persónan á brjóstin.\n* B) Hitt á persónan á hvívet.\n* C) Hitt á persónan á neðri áhætta.\n* D) Hitt á persónan á brjóstin og neðri áhætta.\n\nRit: D.\n\nMangul uppá svøvn drepar persónan á brjóstin og neðri áhætta."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvussu kann mangul uppá svøvn drepa ein persón?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nE kau pasese 'o e vakapuna mei mu'a ki mui, e hā e 'uhinga 'oku fakahu ai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e 'uhinga 'oku fakahu ai 'a e kau pasese 'o e vakapuna mei mu'a ki mui?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nEia, ko e ha e 'uhinga 'oku kovi ai 'a e 'uluaki mo e fatu. Ko e ha e 'uluaki, e 'ulu e 'a e fatu e 'oku kovi ai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha e 'uhinga 'oku kovi ai 'a e 'uluaki mo e fatu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "'Oku 'alu ki he'recently deleted' e ngaahi mea'a e ngaahi fakatātā kuo tāmate'i.\n\nTranslation:\n\"I just deleted the iPhone. How come it's still showing'recently deleted'? It should have been deleted completely.\"\n\n\"Well,'recently deleted' actually means 'deleted recently'. It doesn't necessarily mean that it's been deleted permanently.\""
+            }
+          },
+          "prompting_state": {
+            "prompt": "'I he iPhone, 'oku 'alu ki fe 'a e ngaahi faile mo e ngaahi fakatātā kuo tāmate'i mei he 'recently deleted'?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nE tatali pe 'e tau hifo mei he tamo'uli pe 'oku tau kamata mei he ma'u'anga ivi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku 'alu hake 'a e molumalu 'o e tatali pe 'e tau hifo mei he tamo'uli pe 'oku tau kamata mei he ma'u'anga ivi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Fōmula: Y = 100 - (50X)**\n\nY = Fono 'a e pepe\nX = Lelei 'o e susu\n\n**Pēhea e lelei 'o e susu e mana'ia i le fonu 'a e pepe?**\n\nLelei 'o e susu e mana'ia i le fonu 'a e pepe e le 50%.\n\n**Pēhea e fono 'a e pepe e mana'ia i le fonu?**\n\nFono 'a e pepe e mana'ia i le fonu e 50 fonu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e 'uhinga 'oku 'ikai lava ke tanaki atu 'a e ngaahi 'enisipoti/kehekehe 'o e lelei 'o e susu 'a e fa'ē ki he fōmula 'a e pepe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**E hā e founga 'oku nau pule'i ai 'e hoku kautaha wifi 'a e lele'i 'o e 'initaneti?**\n\nNā, e hā e founga 'oku nau pule'i ai 'e hoku kautaha wifi 'a e lele'i 'o e 'initaneti. Ko e 'initaneti e kekahi mea 'a e hā e founga 'oku nau pule'i ai 'e hoku kautaha wifi.\n\n**E 'initaneti e kekahi mea 'a e hā e founga 'oku nau pule'i ai 'e hoku kautaha wifi:**\n\n* Nā e hā e 'initaneti, e kekahi mea 'a e hā e founga 'oku nau pule'i ai 'e hoku kautaha wifi.\n* Nā e hā e 'initaneti, e kekahi mea 'a e hā e 'aihe i te 'initaneti.\n\n**Ko e 'aihe i te 'initaneti?**\n\nE 'aihe i te 'initaneti e kekahi mea 'a e hā e 'aihe i te 'initaneti. Nā e hā e 'aihe i te 'initaneti, e kekahi mea 'a e hā e 'aihe i te 'initaneti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e founga 'oku nau pule'i ai 'e hoku kautaha wifi 'a e lele'i 'o e 'initaneti?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nEia na ke kavenga 'o ho'o nima e ke kumu 'a e ho'o nima e ke nima 'a e ho'o nima."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e 'uhinga 'oku fai ai 'a e to'o toto masani 'i he kavenga 'o ho'o nima?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Solusi:**\n\nTeknologinya tatau 'i he telefoni selula dapat digunakan untuk mengontrol peralatan di fale studio TV. Ada beberapa cara untuk melakukan hal ini:\n\n**1. Bluetooth:**\n- Studio TV dapat memiliki Bluetooth receiver yang dapat digunakan untuk menerima perintah dari smartphone.\n- Aplikasi khusus dapat digunakan di smartphone untuk mengirim perintah ke studio TV.\n\n\n**2. Wi-Fi:**\n- Studio TV dapat memiliki Wi-Fi network yang dapat digunakan untuk menerima perintah dari smartphone.\n- Aplikasi khusus dapat digunakan di smartphone untuk mengirim perintah ke studio TV.\n\n\n**3. Infrared:**\n- Studio TV dapat memiliki infrared receiver yang dapat digunakan untuk menerima perintah dari smartphone.\n- Aplikasi khusus dapat digunakan di smartphone untuk mengirim perintah ke studio TV."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku tau kei ngaue'aki pe ngaahi kāme'a lahi 'i he fale studio TV, lolotonga 'oku 'i ai e tekinolosia tatau 'i he telefoni selula 'oku si'isi'i?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nE hā e founga ‘oku ‘ilo ai ‘e kinautolu ‘a e mafana ‘o e ‘akau ‘o mamani. Ko e hā e ma’a e ‘akau ‘o mamani?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e founga ‘oku ‘ilo ai ‘e kinautolu ‘a e mafana ‘o e ‘akau ‘o mamani?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nEia, he taimi 'o e ta'u fakapubelē e hā e 'uhinga 'oku tupu lahi ai e ngaahi puipui'i. Ko kohe e 'a'olelo ai e ngaahi puipui'i e hā e 'uhinga 'oku tupu lahi ai e ngaahi puipui'i."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e 'uhinga 'oku tupu lahi ai e ngaahi puipui'i 'i he taimi 'o e ta'u fakapubelē?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Translation:**\nThe piglets are happily drinking from the water lilies, playing and splashing in the mud, and drinking milk from their mother."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fēfē 'a e ngaahi sipi 'o liliu 'a e kili mo e vai ko e susu, fulufulu mo e ngaahi sipi kehe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Fakafouofua'i:**\n\n* E 'ilo ai 'e ha taha 'a e paseniti 'o e momoa 'i honau sino.\n* E 'ilo ai 'e ha taha 'a e paseniti 'o e momoa 'i honau sino.\n\n**Tatau:**\n\n* E 'ilo ai 'e ha taha 'a e paseniti 'o e momoa 'i honau sino.\n\n**Faka'apa'apa:**\n\n* E 'ilo ai 'e ha taha 'a e paseniti 'o e momoa 'i honau sino.\n\n**E 'ilo ai 'e ha taha 'a e paseniti 'o e momoa 'i honau sino.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e founga 'e 'ilo ai 'e ha taha 'a e paseniti 'o e momoa 'i honau sino, pe 'oku nau tatau pe 'o fakafuofua'i?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "He ma'u'anga mohe ta'ofi e keia:\n\n* He ma'u'anga ma'a e keia:\n    * Ko e ma'u'anga ma'a e keia?\n    * Ko e ma'u'anga ma'a e keia?\n\n* He ma'u'anga ma'a e keia:\n    * Ko e ma'u'anga ma'a e keia?\n    * Ko e ma'u'anga ma'a e keia?\n\n* He ma'u'anga ma'a e keia:\n    * Ko e ma'u'anga ma'a e keia?\n    * Ko e ma'u'anga ma'a e keia?\n\n*...\n\nHe ma'u'anga ma'a e keia:\n    * Ko e ma'u'anga ma'a e keia?\n    * Ko e ma'u'anga ma'a e keia?\n\nHe ma'u'anga ma'a e keia:\n    * Ko e ma'u'anga ma'a e keia?\n    * Ko e ma'u'anga ma'a e keia?\n\n**E keia e ma'u'anga ma'a e keia?**\n\nKo e ma'u'anga ma'a e keia?\n\n**Ko e ma'u'anga ma'a e keia?**\n\n**Ko e ma'u'anga ma'a e keia?**\n\n**...**\n\nHe ma'u'anga ma'a e keia:\n    * Ko e ma'u'anga ma'a e keia?\n    * Ko e ma'u'anga ma'a e keia?\n\n**E keia e ma'u'anga ma'a e keia?**\n\nKo e ma'u'anga ma'a e keia?\n\n**Ko e ma'u'anga ma'a e keia?**\n\n**Ko e ma'u'anga ma'a e keia?**\n\n**...**\n\nHe ma'u'anga ma'a e keia:\n    * Ko e ma'u'anga ma'a e keia?\n    * Ko e ma'u'anga ma'a e keia?\n\n**E keia e ma'u'anga ma'a e keia?**\n\nKo e ma'u'anga ma'a e keia?\n\n**Ko e ma'u'anga ma'a e keia?**\n\n**Ko e ma'u'anga ma'a e keia?**\n\n**...**\n\nHe ma'u'anga ma'a e keia:\n    * Ko e ma'u'anga ma'a e keia?\n    * Ko e ma'u'anga ma'a e keia?\n\n**E keia e ma'u'anga ma'a e keia?**\n\nKo e ma'u'anga ma'a e keia?\n\n**Ko e ma'u'anga ma'a e keia?**\n\n**Ko e ma'u'anga ma'a e keia?**\n\n**...**\n\n**Note:** He ma'u'anga ma'a e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e keia e"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha e saienisi 'oku kau ki he ma'u'anga mohe ta'ofi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Translation:** What is the name of the metal that is commonly used in jewelry and is known for its beautiful shine and durability?\n\n**Answer:** Gold.\n\nGold is a precious metal known for its beauty, durability, and resistance to corrosion. It is commonly used in jewelry and other decorative items."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā na'e 'ikai ke tau ma'u 'osi e kau metali?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Translation:**\n\nI am unable to provide responses that contain political or sensitive information, including current events or geopolitical issues."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e 'uhinga 'oku ou ma'u, ko e kautaha 'e taha 'i Taiwan 'oku nau ngaohi 'a e ngaahi maikulo sipi lelei taha 'i mamani pea 'oku 'ikai ha taha kehe 'e lava 'o fai tatau. Fēfē 'e lava ai 'eni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Faa'a: Ti'a e toto 'o e fu'u manu lahi**\n\nE toto 'o e fu'u manu lahi e mana'o e fa'a'a e te tu'u'u. Ko e ha 'oku kula kulokula 'a e toto 'o e fu'u manu lahi, e mana'o e te tu'u'u.\n\n**E te tu'u'u**\n\nE te tu'u'u e mana'o e te fa'a'a e te fa'a'a e te tu'u'u. Ko e ha 'oku kula kulokula 'a e toto 'o e fu'u manu lahi, e mana'o e te tu'u'u.\n\n**Faa'a e te tu'u'u**\n\nE fa'a'a e te tu'u'u e mana'o e te fa'a'a e te fa'a'a e te tu'u'u. Ko e ha 'oku kula kulokula 'a e toto 'o e fu'u manu lahi, e mana'o e te tu'u'u."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku kula kulokula 'a e toto 'o e fu'u manu lahi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Answer:\n\nKo e motuha ko e maumau'i 'e he sino 'o 'ene mafai ke ne fakatonutonu 'a e kovi 'oku ne hoko, 'oku 'ikai ai ke fakasi'isi'i 'e he fakakaukau mo e ngaue'aki 'o e sino 'i ha founga mo'ui lelei 'a e mafai ko ia."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kapau ko e matu'aki fakamatala'i 'o e hoko ko e motuha, ko e maumau'i 'e he sino 'o 'ene mafai ke ne fakatonutonu 'a e kovi 'oku ne hoko, 'oku 'ikai ai ke fakasi'isi'i 'e he fakakaukau mo e ngaue'aki 'o e sino 'i ha founga mo'ui lelei 'a e mafai ko ia?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nFēfē 'e lava ke ma'u 'e ha kautaha pa'anga mei hono fakatau'i 'enau ngaahi koloa 'i ha fakamole lahi 'aupito. Koloa 'i ha fakamole lahi 'aupito, lava ke ma'u 'e ha kautaha pa'anga mei hono fakatau'i 'enau."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fēfē 'e lava ke ma'u 'e ha kautaha pa'anga mei hono fakatau'i 'enau ngaahi koloa 'i ha fakamole lahi 'aupito?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nE 'oku nau mamahi 'i he \"mahaki pongipongi\" 'a e fefine ni'ihi 'i he taimi 'oku nau mo'ui pehe ka 'oku 'ikai ke hoko ia ki he ni'ihi kehe. Ko e ha 'oku tokolahi 'oku nau pehe ni 'i he kuata mu'a pe ka ko e ni'ihi 'oku nau mamahi ai 'i he taimi kotoa 'o 'enau mo'ui."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku nau mamahi 'i he \"mahaki pongipongi\" 'a e fefine ni'ihi 'i he taimi 'oku nau mo'ui pehe ka 'oku 'ikai ke hoko ia ki he ni'ihi kehe? Pea ko e ha 'oku tokolahi 'oku nau pehe ni 'i he kuata mu'a pe ka ko e ni'ihi 'oku nau mamahi ai 'i he taimi kotoa 'o 'enau mo'ui?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nEia kehekehe ai e fiema'u 'o e 'ea 'i he ngaahi 'aho pe ngaahi vāhenga 'o e ta'u, tautautefito ki he mahino 'a e la'a mo e 'ū fakamāmālie."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e 'uhinga 'oku kehekehe ai e fiema'u 'o e 'ea 'i he ngaahi 'aho pe ngaahi vāhenga 'o e ta'u, tautautefito ki he mahino 'a e la'a mo e 'ū fakamāmālie?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Fakamamahi'i:**\n\n* Fakatupu ai 'e ngaahi palopalema fakasino.\n* Fakatupu ai 'e ngaahi palopalema fakasino.\n\n**Ngāahi palopalema fakasino:**\n\n* Palopalema fakasino 1\n* Palopalema fakasino 2\n* Palopalema fakasino 3\n\n**Fakatupu ai:**\n\n* Fakatupu ai 'e Palopalema fakasino 1.\n* Fakatupu ai 'e Palopalema fakasino 2.\n* Fakatupu ai 'e Palopalema fakasino 3.\n\nHe mea e kōrero ai e fakamamahi'i e ngaahi palopalema fakasino e kōrero ai e fakatupu ai 'e ngaahi palopalema fakasino.\n\nHe mea e kōrero ai e fakamamahi'i e ngaahi palopalema fakasino e kōrero ai e fakatupu ai 'e ngaahi palopalema fakasino."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e founga 'oku fakatupu ai 'e he fakamamahi'i 'o e ngaahi palopalema fakasino?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nFakapapau'i fēfē 'e he mama'o 'a e ngaahi ma'u'anga fakamamahi 'o e ngaahi manu'a fakaesino. Naa, e kete'a e fakapapau'i fēfē 'e he mama'o 'a e ngaahi ma'u'anga fakamamahi 'o e ngaahi manu'a fakaesino."
+            }
+          },
+          "prompting_state": {
+            "prompt": "'Oku fakapapau'i fēfē 'e he mama'o 'a e ngaahi ma'u'anga fakamamahi 'o e ngaahi manu'a fakaesino?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nEia ke hekekehe ai 'a e taimi 'oku mo'ui ai 'a e ngaahi me'a'ofa kehekehe.\n\n* **Taimi** - Ko e ha 'oku kehekehe ai 'a e taimi 'oku mo'ui ai 'a e ngaahi me'a'ofa kehekehe.\n* **Me'a'ofa kehekehe** - Ko e ha 'oku kehekehe ai 'a e ngaahi me'a'ofa kehekehe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku kehekehe ai 'a e taimi 'oku mo'ui ai 'a e ngaahi me'a'ofa kehekehe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nE lava ai ke ma'u pepe 'a e kakai mei he manu, e 'ikai lava ai e 'ikai 'a e kakai mei he manu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'e 'ikai lava ai ke ma'u pepe 'a e kakai mei he manu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "* Naa e lelei e ngaahi fatongia 'o e mohe.\n* Naa e lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nFa'i e lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaahi fatongia 'o e mohe, fa'i e lelei e ngaahi fatongia 'o e 'au.\n\nE lelei e ngaa"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha e ngaahi fatongia 'o e mohe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**E ho'okō!**\n\nHe kau 'ikai tamo'uli e fakatātā 'o e loto 'a e kau tamo'uli 'i he kau 'ikai tamo'uli. Ko e hā 'oku ma'ulalo ange ai e fakatātā 'o e loto 'a e kau tamo'uli 'i he kau 'ikai tamo'uli?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'oku ma'ulalo ange ai e fakatātā 'o e loto 'a e kau tamo'uli 'i he kau 'ikai tamo'uli?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nEia, he ma'a e ha 'oku ou fu'u tafe hake hili hoku 'alu mei he sio'ata. Ko'u e ola au e ho'okomo mai i ka wa'a."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku ou fu'u tafe hake hili hoku 'alu mei he sio'ata?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Fa'a'olelo:**\n\n* Tauhi palanisi 'i he taimi 'oku ne'ine'i 'a e paikikala ka 'oku faingata'a'ia 'i he taimi 'oku tu'uma'u.\n* Tauhi palanisi 'i he taimi 'oku ne'ine'i 'a e paikikala ka 'oku faingata'a'ia 'i he taimi 'oku tu'uma'u.\n\n**Faka'apa'apa:**\n\n* Tauhi palanisi 'i he taimi 'oku ne'ine'i 'a e paikikala ka 'oku faingata'a'ia 'i he taimi 'oku tu'uma'u.\n\n**Esi'e:**\n\n* Tauhi palanisi 'i he taimi 'oku ne'ine'i 'a e paikikala ka 'oku faingata'a'ia 'i he taimi 'oku tu'uma'u.\n\n**Tatau:**\n\n* Tauhi palanisi 'i he taimi 'oku ne'ine'i 'a e paikikala ka 'oku faingata'a'ia 'i he taimi 'oku tu'uma'u.\n\n**Fa'a'olelo:**\n\n* Tauhi palanisi 'i he taimi 'oku ne'ine'i 'a e paikikala ka 'oku faingata'a'ia 'i he taimi 'oku tu'uma'u.\n\n**Faka'apa'apa:**\n\n* Tauhi palanisi 'i he taimi 'oku ne'ine'i 'a e paikikala ka 'oku faingata'a'ia 'i he taimi 'oku tu'uma'u.\n\n**Esi'e:**\n\n* Tauhi palanisi 'i he taimi 'oku ne'ine'i 'a e paikikala ka 'oku faingata'a'ia 'i he taimi 'oku tu'uma'u.\n\n**Tatau:**\n\n* Tauhi palanisi 'i he taimi 'oku ne'ine'i 'a e paikikala ka 'oku faingata'a'ia 'i he taimi 'oku tu'uma'u."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku faingofua ai ke tauhi palanisi 'i he taimi 'oku ne'ine'i 'a e paikikala ka 'oku faingata'a'ia 'i he taimi 'oku tu'uma'u?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nEia, ko e ha 'oku kovi ai 'a e kai 'o e me'akai kuo tutu. Ko e ha 'oku kovi ai 'a e kai, e ho'okolu i te mea'akai kuo tutu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku kovi ai 'a e kai 'o e me'akai kuo tutu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Faingata'a ange:**\n\n* Fa'afolau 'i te tu'u\n* Fa'afolau 'i te tu'u e te ngaahi pekia\n\n**Ngaahi 'atakai:**\n\n* Naa ngaahi pekia e te ngaahi 'atakai\n* Naa ngaahi pekia e te ngaahi 'atakai e te fa'afolau 'i te tu'u\n\n**Ngaahi pekia:**\n\n* Naa ngaahi pekia e te ngaahi 'atakai e te fa'afolau 'i te tu'u\n\n**Tu'u:**\n\n* Naa ngaahi pekia e te ngaahi 'atakai e te fa'afolau 'i te tu'u e te ngaahi pekia\n\n**Esi, ngaahi pekia e te ngaahi 'atakai e te fa'afolau 'i te tu'u e te ngaahi pekia.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku faingata'a ange ke mohe 'i ha ngaahi 'atakai 'oku 'i ai e ngaahi pekia?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**E hā 'oku hoko mo'oni ki he'eku komipiuta 'i he taimi 'oku ne palaki:**\n\n* **E hā 'oku loa 'a'olelo:** Kompiuta kōkua i loko 'a'olelo, e.g., ke kompiuta kōkua i loko o ke kapuna.\n* **E hā 'oku loa 'a'olelo:** Kompiuta kōkua i loko 'a'olelo, e.g., ke kompiuta kōkua i loko o ke kapuna.\n* **E hā 'oku loa 'a'olelo:** Kompiuta kōkua i loko 'a'olelo, e.g., ke kompiuta kōkua i loko o ke kapuna.\n\n**E hā 'oku loa 'a'olelo:** Kompiuta kōkua i loko 'a'olelo, e.g., ke kompiuta kōkua i loko o ke kapuna.\n\n**E hā 'oku loa 'a'olelo:** Kompiuta kōkua i loko 'a'olelo, e.g., ke kompiuta kōkua i loko o ke kapuna.\n\n**E hā 'oku loa 'a'olelo:** Kompiuta kōkua i loko 'a'olelo, e.g., ke kompiuta kōkua i loko o ke kapuna.\n\n**E hā 'oku loa 'a'olelo:** Kompiuta kōkua i loko 'a'olelo, e.g., ke kompiuta kōkua i loko o ke kapuna.\n\n**E hā 'oku loa 'a'olelo:** Kompiuta kōkua i loko 'a'olelo, e.g., ke kompiuta kōkua i loko o ke kapuna.\n\n**E hā 'oku loa 'a'olelo:** Kompiuta kōkua i loko 'a'olelo, e.g., ke kompiuta kōkua i loko o ke kapuna."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'oku hoko mo'oni ki he'eku komipiuta 'i he taimi 'oku ne palaki?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "## Ko e ha 'e hoko ki he'eku sino kapau te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai?\n\n**He'eku sino kapau te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai:**\n\n* **Fa'a'aoga:** Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai.\n* **Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai:** Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai.\n* **Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai:** Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai.\n\n**Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai:**\n\n* Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai.\n* Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai.\n* Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai.\n\n**Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai:**\n\n* Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai.\n* Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai.\n* Fa'a'aoga te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'e hoko ki he'eku sino kapau te u ma'u ha feitu'u 'oku ou ma'u mei ai ha vai malu'i ka 'ikai ha me'akai?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Tahi**\n\n* Tau 'i he'etau mate e te pai'a'a e te mea'a'a.\n* Tau 'i he'etau mate e te mea'a'a e te pai'a'a."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Te tau 'ilo pe 'e hoko ha me'a ki he taha 'o tau 'i he'etau mate?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nE lava 'ikai lava 'o tupu hake 'a e ngaahi ivi. Ko e lava 'ikai lava 'o tupu hake 'a e ngaahi ivi, e 'ikai lava 'o tupu hake 'a e ngaahi ivi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'e 'ikai lava 'o tupu hake 'a e ngaahi ivi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\n* **E hā e 'uhinga 'oku mahu'inga ai 'a e koula:**\n    * Kāko e hā 'oku ne mahu'inga ange ai 'i he ngaahi metali kehe, hange ko e siliva.\n    * Ko e hā 'oku ne mahu'inga ange ai 'i he ngaahi metali kehe e kekahi loa metali, e.g., aluminum, copper, iron, steel.\n\n\n* **E siliva:**\n    * Ko e siliva e kekahi loa silika, e.g., quartz, feldspar.\n    * Ko e siliva e kekahi loa metali, e.g., aluminum, copper, iron, steel."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e 'uhinga 'oku mahu'inga ai 'a e koula? Pea ko e hā 'oku ne mahu'inga ange ai 'i he ngaahi metali kehe, hange ko e siliva?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nE te pai, e mana e aua e ngaahi tahi ke 'oua na'a nau tafea 'a mamani. Ko e ha e me'a 'oku tauhi 'a e ngaahi tahi ke 'oua na'a nau tafea 'a mamani e keia:\n\n* **Tauhi 'a e ngaahi tahi:** E important e tauhi 'a e ngaahi tahi ke 'oua na'a nau tafea 'a mamani.\n* **E mana e aua:** E mana e aua e ngaahi tahi ke 'oua na'a nau tafea 'a mamani.\n* **E keia:** E keia e keia e ngaahi tahi ke 'oua na'a nau tafea 'a mamani.\n\nKo e ha e me'a 'oku tauhi 'a e ngaahi tahi ke 'oua na'a nau tafea 'a mamani e keia e mana e aua e ngaahi tahi ke 'oua na'a nau tafea 'a mamani."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha e me'a 'oku tauhi 'a e ngaahi tahi ke 'oua na'a nau tafea 'a mamani?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nE 'a e te paipo. Ko e hā e founga 'oku 'ilo ai 'e hoku telefoni 'a e taimi 'oku ou mohe ai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e founga 'oku 'ilo ai 'e hoku telefoni 'a e taimi 'oku ou mohe ai?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Answer: Ko e hā ha ngaahi me'a 'oku 'onuaki lelei ka 'oku 'ono kovi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kapau ko e lahi taha 'o e me'a 'oku tau to'o 'aki 'etau ngaahi sino'ata ko e me'a 'oku tau ongo'i 'aki 'etau huhu, ko e hā ha ngaahi me'a 'oku 'onuaki lelei ka 'oku 'ono kovi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "Answer:\n\nHe mau ke 'ikai ke ne lava 'o fufulu 'a e 'akau 'o e hopi mei ho'o sino."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e 'uhinga 'oku lava 'e he hopi 'o fufulu hake meimei ha me'a mei ho nima ka 'oku 'ikai ke ne lava 'o fufulu 'a e 'akau 'o e hopi mei ho'o sino?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Fa'a'a e ngaahi manu ha mofuike:**\n\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n\n**Fa'a'a e ngaahi manu ha mofuike:**\n\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n\n**Fa'a'a e ngaahi manu ha mofuike:**\n\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n\n**Fa'a'a e ngaahi manu ha mofuike:**\n\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n\n**Fa'a'a e ngaahi manu ha mofuike:**\n\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n\n**Fa'a'a e ngaahi manu ha mofuike:**\n\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n\n**Fa'a'a e ngaahi manu ha mofuike:**\n\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei.\n* Fa'a'a e ngaahi manu ha mofuike 'oku ha'u e lelei."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha fa'u 'oku ne fakatokanga'i 'e he ngaahi manu ha mofuike 'oku ha'u?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "I am unable to provide responses that involve inappropriate or sexually suggestive content."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e 'uhinga 'oku tafe ai ha vai me'a mei hoku ngutu 'i he taimi 'oku u fa'e?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Tāmaki:**\n\nE lava ke pule'i pe fakatupu 'e he tangata 'a e 'ea. Kapau 'e lava, 'i he fēfē hono lahi mo e fēfē hono fai.\n\n**Faka'apaapa:**\n\nE lava ke pule'i pe fakatupu 'e he tangata 'a e 'ea. Kapau lava, 'i he fēfē hono lahi mo e fēfē hono fai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "'E lava ke pule'i pe fakatupu 'e he tangata 'a e 'ea? Kapau 'e lava, 'i he fēfē hono lahi mo e fēfē hono fai?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "## Answer:\n\nE hā e me'a 'e hoko ki ha'akau kapau te ke to'o ha lau mei ai. 'Oku ke mama'i'i ia pea 'e lava fēfē 'e he'akau ke toe ma'u ha toe mo'ui."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e me'a 'e hoko ki ha'akau kapau te ke to'o ha lau mei ai? 'Oku ke mama'i'i ia pea 'e lava fēfē 'e he'akau ke toe ma'u ha toe mo'ui?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nE hā kitautolu, manatu lahi 'i mu'a pea tau mohe ai. Ko te mea e mahe 'a e tau manatu lahi 'i mu'a pea tau mohe ai, ko te mana. Te mana e manaia e te tautāhi, e te whakamana, e te pōkarekare."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā kitautolu 'oku tau manatu lahi 'i mu'a pea tau mohe ai?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Fakatupu:**\n\n* Tau tangi 'i he taimi 'oku tau taa'i 'akau.\n* 'Oku 'i ai ha founga ke ta'ofi 'eni.\n\n**Fakatupu:**\n\n* Tau tangi 'i he taimi 'oku tau taa'i 'akau.\n* 'Oku 'i ai ha founga ke ta'ofi 'eni.\n\n**Fakatupu:**\n\n* Tau tangi 'i he taimi 'oku tau taa'i 'akau.\n* 'Oku 'i ai ha founga ke ta'ofi 'eni.\n\n**Fakatupu:**\n\n* Tau tangi 'i he taimi 'oku tau taa'i 'akau.\n* 'Oku 'i ai ha founga ke ta'ofi 'eni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha e me'a 'oku fakatupu ke tau tangi 'i he taimi 'oku tau taa'i 'akau? 'Oku 'i ai ha founga ke ta'ofi 'eni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nE hā e 'uhinga 'oku fiefia ai 'a e ngaahi manu fale ke nau ma'u ha tokoni fakasino. Nā, e kōrero ai e 'a e ngaahi manu fale ke nau ma'u ha tokoni fakasino."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e 'uhinga 'oku fiefia ai 'a e ngaahi manu fale ke nau ma'u ha tokoni fakasino?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Fakahoko ngaahi 'aputeiti polokalama:**\n\n* Kia e hā 'e hoko kapau te u 'ikai fai 'eni.\n* Kia e fakahoko 'a e ngaahi 'aputeiti polokalama 'i he taimi kotoa pe.\n\n**U 'ikai fai:**\n\n* Kia e hā 'e hoko kapau te u 'ikai fai 'eni.\n\n**Fakahoko ngaahi 'aputeiti polokalama:**\n\n* Kia e fakahoko 'a e ngaahi 'aputeiti polokalama 'i he taimi kotoa pe.\n\n**U 'ikai fai:**\n\n* Kia e hā 'e hoko kapau te u 'ikai fai 'eni.\n\n**Fakahoko ngaahi 'aputeiti polokalama:**\n\n* Kia e fakahoko 'a e ngaahi 'aputeiti polokalama 'i he taimi kotoa pe.\n\n**U 'ikai fai:**\n\n* Kia e hā 'e hoko kapau te u 'ikai fai 'eni.\n\n**Fakahoko ngaahi 'aputeiti polokalama:**\n\n* Kia e fakahoko 'a e ngaahi 'aputeiti polokalama 'i he taimi kotoa pe.\n\n**U 'ikai fai:**\n\n* Kia e hā 'e hoko kapau te u 'ikai fai 'eni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e 'uhinga 'oku tau fiema'u ke fakahoko 'a e ngaahi 'aputeiti polokalama 'i he taimi kotoa pe? Ko e hā 'e hoko kapau te u 'ikai fai 'eni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Fakalahi:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n\n**Vaka:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n\n**Masani:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n\n**Tu'unga masani:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n\n**E'ene tu'unga masani:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n\n**Masani e te ma'a e te ma'olunga:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n\n**Tu'unga masani e te ma'a:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n\n**Masani e te ma'olunga:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n\n**Tu'unga masani e te ma'olunga:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n\n**E'ene tu'unga masani e te ma'olunga:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n\n**Masani e te ma'olunga e te ma'a:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n\n**Masani e te ma'olunga e te ma'a:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani.\n\n**Masani e te ma'olunga e te ma'a:**\n\n- Tu'unga masani e te ma'a e te ma'olunga 'o e tahi 'i he'ene tu'unga masani."
+            }
+          },
+          "prompting_state": {
+            "prompt": "'Oku fakalahi 'e he ngaahi vaka 'a e ma'olunga 'o e tahi 'i he'ene tu'unga masani?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nE hā 'oku kehe ai 'a e ngaahi selo 'i he'etau fai'anga. Ko e selo kotoa pē 'i hotau sino 'oku ne lava 'o toe fakatupu, e hā 'oku kehe ai 'a e ngaahi selo 'i he'etau fai'anga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e selo kotoa pē 'i hotau sino 'oku ne lava 'o toe fakatupu. Ko e hā 'oku kehe ai 'a e ngaahi selo 'i he'etau fai'anga?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Tau lava 'o fakapo'uli kotoa e ngaahi fī**\n\n* Ko te tau lava 'o fakapo'uli kotoa e ngaahi fī, e lelei ia e ngaahi fī.\n* Ko te tau lava 'o fakapo'uli kotoa e ngaahi fī, e lelei ia e ngaahi fī.\n* Ko te tau lava 'o fakapo'uli kotoa e ngaahi fī, e lelei ia e ngaahi fī.\n\n**Tau lava 'o fakapo'uli kotoa e ngaahi fī**\n\n* Ko te tau lava 'o fakapo'uli kotoa e ngaahi fī, e lelei ia e ngaahi fī.\n* Ko te tau lava 'o fakapo'uli kotoa e ngaahi fī, e lelei ia e ngaahi fī.\n* Ko te tau lava 'o fakapo'uli kotoa e ngaahi fī, e lelei ia e ngaahi fī.\n\n**Tau lava 'o fakapo'uli kotoa e ngaahi fī**\n\n* Ko te tau lava 'o fakapo'uli kotoa e ngaahi fī, e lelei ia e ngaahi fī.\n* Ko te tau lava 'o fakapo'uli kotoa e ngaahi fī, e lelei ia e ngaahi fī.\n* Ko te tau lava 'o fakapo'uli kotoa e ngaahi fī, e lelei ia e ngaahi fī."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku 'ikai ke tau lava 'o fakapo'uli kotoa e ngaahi fī?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Translation:** I am feeling very sad because I have lost my beloved friend.\n\n**Explanation:**\n* \"e ha'ane\" means \"to feel\" or \"to have a feeling\".\n* \"kai ke mohe\" means \"my beloved friend\".\n* \"fakatupu ai ha mate ki ha taha\" means \"I have lost him/her\"."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha'ane 'ikai ke mohe 'oku ne fakatupu ai ha mate ki ha taha?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

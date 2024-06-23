@@ -212,6 +212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:**\n\nCaka nema loma ni waqavuka, jer uvijek ima dva suprotna načina gibanja."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava a caka kina na vakavodo tekivu iliu qai toso yani imuri ena loma ni waqavuka?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -423,6 +443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "Ate Vuso na kana tavako, na kanaka-kanaka na ang kanyang katawan, ay nagsimula nang maglakad. Naglakad siya sa paligid ng paligid, at nakasalubong siya sa ilang tao.\n\nAng unang tao na nakasalubong niya ay si Mangga, na kilala sa kanyang malilimutin. Mangga ay nagpakain sa Ate Vuso, at ang kanilang pagkain ay masarap.\n\nAng pangalawang tao na nakasalubong niya ay si Banana, na kilala sa kanyang masayang tunaw. Banana ay naglaro sa Ate Vuso, at ang kanilang laro ay masaya.\n\nAng pangatlong tao na nakasalubong niya ay si Mango, na kilala sa kanyang malaking katawan. Mango ay nagbigay ng ilang mga regalo sa Ate Vuso, at ang kanilang regalo ay masarap.\n\nAno ang pangalan ng unang tao na nakasalubong sa Ate Vuso?\n\nA. Banana\nB. Mango\nC. Mangga\nD. Ate Vuso"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sa sega ni vinaka kina vua na Ate Vuso na kana tavako?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -642,6 +682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "- Faile kei: \"com.apple.cloud.icloud\"\n- Itaba: \"com.apple.cloud.icloud.mobilebackup\"\n\nSa qai bokoci wale tikoga oqo, iPhone-a ga se kaku na mode \"Recovery Mode\".\n\n**Kakau sa volim da riješim ovaj problem?**\n\n**1. Pokušite da resetirate iPhone-a.**\n- Uključite iPhone-a i održite pritisnuto knuto \"Volume Up\" i \"Volume Down\" sve dok se logo Apple ne pojavite na ekranu.\n- Održite pritisnuto knuto \"Sleep/Wake\" dok se iPhone ne restartira.\n\n**2. Pokušite da ubrijete iPhone-a na macOS.**\n- Upotrebite USB kabel da vežete iPhone-a s Mac-om.\n- U macOS-u, otvorite iTunes i odaberite \"iPhone\".\n- U iTunes-u, odaberite opciju \"Restore\".\n\n**3. PosProcessEventjte Apple Support-a.**\n- Idite na Apple Support sastav i obratite se njihovom timu.\n\n**4. Probajte da resetirate i iCloud-a.**\n- U iPhone-u, otvorite podešavanja i odaberite \"iCloud\".\n- U iCloud-u, odaberite \"Uklonite sve podataka\".\n\n**5. Probajte da ubrijete iPhone-a na Windows.**\n- Upotrebite USB kabel da vežete iPhone-a s Windows-om.\n- U Windows-u, instalirate iTunes i pokrenete ga.\n- U iTunes-u, odaberite \"iPhone\".\n- U iTunes-u, odaberite opciju \"Restore\"."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na loma ni iPhone, dau lako ivei na faile kei na itaba ni sa qai bokoci wale tikoga oqo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -853,6 +913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:**\n\nMeda lade sara icake na cici sa bera kina na lade icake su:\n\n- glukoza\n- fruktoza\n- maltoza\n- sacharin"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava dauvukei keda kina meda lade sara icake na cici sa bera kina na lade icake?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1072,6 +1152,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Rawa:**\n- 100kg wainisucu tinani gone mena biu na sucu tavaya ni gone.\n- 20kg sucu tavaya ni gone.\n\n**Tabe:**\n| Sucu | Kiwa |\n|---|---|\n| Wainisucu | 100kg |\n| Sucu tavaya | 20kg |\n\n**Soalan:**\nBerapa kilogram wainisucu tinani gone mena biu na sucu tavaya ni gone?\n\n**Jawaban:**\nDari tabel di atas, kita tahu bahwa:\n- Wainisucu tinani gone mena biu na sucu tavaya ni gone adalah 100kg.\n- Sucu tavaya ni gone adalah 20kg.\n\nJadi, berat wainisucu tinani gone mena biu na sucu tavaya ni gone adalah **100kg**."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sega ni rawa kina na itatarovi ni tauvimate kei na eso tale na isosomi ni wainisucu ni tinani gone mena biu na sucu tavaya ni gone?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1283,6 +1383,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Jawaban:**\n\n- Pastikan router Anda dikonfigurasi dengan mode \"Station\".\n- Pastikan koneksi internet Anda stabil.\n- Pastikan Anda menggunakan nama pengguna dan kata sandi yang benar untuk login ke router Anda.\n- Pastikan firmware router Anda diperbarui.\n- Hubungi penyedia internet Anda jika Anda masih menghadapi masalah."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dau vakatulewataka vakacava na noqu misini ni wifi na iyalayala ni totolo ni initaneti?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1502,6 +1622,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:** Draga lobika je otrovna za konje i mačke, pa bi joj se izbjegavati."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sa dautauri kina na dra na gauna o lobika na ligamu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1713,6 +1853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Sagot:**\n\nAng itaba vakaitamera ni TV ay dapat na iyaloyalo sa tabaki toka ena talevoni veikauyaki upang maiwasan ang pagkasira ng TV."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava eda vakayagataka tiko kina na itaba vakaitamera ni TV, ia na iyaloyalo sa tabaki toka ena talevoni veikauyaki?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1932,6 +2092,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:** Nisu svaka vakacava na ivakarau ni katakata ni uto ni vuravura. Neki putnici koriste i vanjske stambene objekte, poput hotela ili apartmana."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Era kila vakacava na ivakarau ni katakata ni uto ni vuravura?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2143,6 +2323,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Answer:**\n\nAng kwento na ibinasa ay hindi nagsasalin ng ganitong pakikipag-usap. Hindi ito nagsasalin ng kwento o pangyayari na may kaugnayan sa cava dauyaco, kina wasoma, waliwalia, kei na mate, kuli ni yago, o tubu vakayago."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava dauyaco kina wasoma na waliwalia kei na mate ni kuli ni yago na gauna ni tubu vakayago?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2362,6 +2562,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:**\n\nSipi mena sucu ima na Wai o ira 365 dana u godini. Na toj lokaciji, temperatura se kreće od 18°C do 30°C."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dauveisautaka vakacava  na co kei na wai o ira na Sipi mena sucu, vauvau kei na so tale na Sipi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2573,6 +2793,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Rata:**\n\n* **A:** Ura na tamata ira na tamata.\n* **B:** Yagona na tamata ira na tamata.\n\n**Solusion:**\n\nUra na tamata ira na tamata. Ura na tamata edua na nona pasede ni uro ni yagona."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daukila vakacava edua na nona pasede ni uro ni yagona, se dautukuna ga o ira na tamata?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2792,6 +3032,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:**\n\nParaliza ni yago je neurološki problem koji se može dogoditi zbog različitih uzroka, poput udaraca, bolesti i neuroloških poremećaja. U ovoj situaciji, moce su bilete na paralizu ni yago, što znači da su bile u stanju da muče u trenutku kad je došlo do paralize."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na nodra ivakamacala na dauvakadidike me baleta na paralasi ni yago ena gauna ni moce?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3003,6 +3263,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Rawa tiko kina na vatu ka daubuli me kaukamea**\n\n* **Vatu ka daubuli me kaukamea** - Vatu e daubuli me kaukamea na veikalai, vanua, au mea.\n* **Rawa tiko** - Rawa e tiko na veikalai, vanua, au mea.\n\n**Seka ni rawa tiko kina na vatu ka daubuli me kaukamea**\n\n* **Vatu e daubuli me kaukamea** - Vatu e daubuli me kaukamea na veikalai, vanua, au mea.\n* **Rawa e tiko** - Rawa e tiko na veikalai, vanua, au mea.\n\n**Tolu e dua na rawa tiko kina na vatu ka daubuli me kaukamea**\n\n* Vatu e daubuli me kaukamea na veikalai, vanua, au mea.\n* Rawa e tiko na veikalai, vanua, au mea."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sega ni oti rawa tiko kina na vatu ka daubuli me kaukamea?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3222,6 +3502,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Resepon:**\n\nSa iTaiwan, dua kabani iloma sa dau bulia na'microchips' uasivi e vuravura taucoko. Kabani itamae i 'Taiwan Semiconductor Manufacturing Company (TSM)' kabani ika 'United Microelectronics Corporation (UMC)'."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Au kila oya ni dua na kabani iloma iTaiwan sa dau bulia na 'microchips' uasivi e vuravura taucoko, ka sega ni dua tale sa tautauvata kei na kabani oqo. Sa rawa vakacava oya?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3433,6 +3733,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Answer:**\n\nCava na vuna ni volekata na wiliwili ni manumanu taucoko sa taukena na dra damudamu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava na vuna ni volekata na wiliwili ni manumanu taucoko sa taukena na dra damudamu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3652,6 +3972,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Ratibuna:**\n\n* Vakacacana sara vakalevu na sotia ni yago oya na vakaukauwa yago kei na lave ka bi.\n* Vuna sa sega ni vakacacana sara vakalevu na sotia ni yago oya na vakaukauwa yago kei na lave ka bi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kevaka na toso ni yabaki ni bula sa iusutu na oca ni sotia ni yago ka dauvukea na yagoda. Cava na vuna sa sega ni vakacacana sara vakalevu na sotia ni yago oya na vakaukauwa yago kei na lave ka bi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3863,6 +4203,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Solusion:**\n\nVakacava na ilavo o ira na kabani mai na volitaki iyaya ena isau lutu sobu levu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa daurawata vakacava na ilavo o ira na kabani mai na volitaki iyaya ena isau lutu sobu levu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4082,6 +4442,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Respon:**\n\nCava na vuna dautauvimate kina vakamatakalailai eso vei ira na marama ena gauna ni kunekune. Cava na vuna dautauvimate na iwiliwili levu ni marama bukete ena matai ni wasewase. Ia eso vei ira dauvakila na tauvimate na gauna taucoko ni nodra kunekune."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava na vuna dautauvimate kina vakamatakalailai eso vei ira na marama ena gauna ni kunekune? Cava na vuna dautauvimate na iwiliwili levu ni marama bukete ena matai ni wasewase. Ia eso vei ira dauvakila na tauvimate na gauna taucoko ni nodra kunekune?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4293,6 +4673,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:**\n\nDraki kei na siga ena duavata ga na ivakarau ni draki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna dauvakilai na duidui ni draki kei na siga ena duavata ga na ivakarau ni draki?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4512,6 +4912,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Solucija:**\n\nVakacava na yagoda na revurevu ni lomaocaoca na yagoda na lomaocaoca."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dauvakila vakacava na yagoda na revurevu ni lomaocaoca?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4723,6 +5143,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Sagot:**\n\n- Nida kaya na ivakatakilakila ni mosi oya na ivakarau ni mavoa vakayago.\n- Ang mavoa vakayago ay tumatawag sa mga microorganism na nakatira sa tubig at naglalayong ng bacteria, archaea, at fungi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sa rawa beka nida kaya na ivakatakilakila ni mosi oya na ivakarau ni mavoa vakayago?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4942,6 +5382,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Cava na vuna dauduidui kina na balavu ni nodra bula o ira na manumanu lelevu kei na manumanu lalai.**\n\n**Nodra bula:**\n- Nodra bula ni nodra bula o ira na manumanu lelevu kei na manumanu lalai.\n- Nodra bula ni nodra bula o ira na manumanu lelevu kei na manumanu lalai.\n\n**Manumanu lelevu:**\n- Manumanu lelevu kei na manumanu lalai.\n- Manumanu lelevu kei na manumanu lalai.\n\n**Manumanu lalai:**\n- Manumanu lalai kei na manumanu lelevu.\n- Manumanu lalai kei na manumanu lelevu.\n\n**Nodra bula:**\n- Nodra bula ni nodra bula o ira na manumanu lelevu kei na manumanu lalai.\n- Nodra bula ni nodra bula o ira na manumanu lelevu kei na manumanu lalai.\n\n**Manumanu lelevu:**\n- Manumanu lelevu kei na manumanu lalai.\n- Manumanu lelevu kei na manumanu lalai.\n\n**Manumanu lalai:**\n- Manumanu lalai kei na manumanu lelevu.\n- Manumanu lalai kei na manumanu lelevu.\n\n**Nodra bula:**\n- Nodra bula ni nodra bula o ira na manumanu lelevu kei na manumanu lalai.\n- Nodra bula ni nodra bula o ira na manumanu lelevu kei na manumanu lalai.\n\n**Manumanu lelevu:**\n- Manumanu lelevu kei na manumanu lalai.\n- Manumanu lelevu kei na manumanu lalai.\n\n**Manumanu lalai:**\n- Manumanu lalai kei na manumanu lelevu.\n- Manumanu lalai kei na manumanu lelevu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava na vuna dauduidui kina na balavu ni nodra bula o ira na manumanu lelevu kei na manumanu lalai?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5105,6 +5565,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Rasa:**\n- Sweet, refreshing, and slightly tart.\n- Notes of ripe mango, passion fruit, and guava.\n\n**Aroma:**\n- Tropical fruit punch with hints of lime and vanilla.\n- Fresh and inviting scent that evokes summer days.\n\n**Taste:**\n- Balanced sweetness and acidity.\n- Creamy texture with a hint of minerality.\n- Long and lingering finish with notes of ripe mango and passion fruit.\n\n**Pairing:**\n- Grilled fruit and cheese platter\n- Shrimp cocktail\n- Tropical fruit salad\n\n**Ingredients:**\n- Cava base\n- Natural fruit flavors\n- Carbonation\n\n**Note:** This cava is perfect for a refreshing summer drink or an elegant cocktail."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava na vuna sa sega ni rawa mena vakaluveni na kawa tamata ena wai ni manumanu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5276,6 +5756,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:** Ne znam osobe, pa ne mogu odgovoriti na pitanje."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na itavi ni moce?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5439,6 +5939,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Answer:**\n\nCava na vuna sa daulailai na ivakarau ni pamu ni nona ate vuso o koya na tamata daucici maivei na tamata sega ni daucici."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava na vuna sa daulailai na ivakarau ni pamu ni nona ate vuso o koya na tamata daucici maivei na tamata sega ni daucici?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5610,6 +6130,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:** Sisili na cava au a buno vakalevu kina."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava au a buno vakalevu kina ni sa oti na sisili?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5773,6 +6313,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Sagot:** Basikeli gauna sa toso.\n\nAng basikeli ay mas malaki kaysa ang toso kaya ito ang nagagamit sa rawarawa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sa rawarawa kina mena tudei na basikeli ena gauna sa toso kina. Ia sa sega ni tudei na gauna sega ni toso kina?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5944,6 +6504,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Answer:**\n\nAng Cava sa Dauca kina vei iko mo kania na kakana sa vakamai ay noong **Pebrero 14, 2023**."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava sa dauca kina vei iko mo kania na kakana sa vakamai?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6107,6 +6687,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Cava sa dredre na moce lutu ena vanua vakasausa**\n\n**Ingrediens:**\n\n* 1/2 kavali cava\n* 1/4 kavali moce lutu\n* 1/4 kavali vakasausa\n* 1/2 kori kokoda\n* 1/4 kori salan\n* 1/4 kori dhania\n\n**Uku:**\n\n1. Cava, moce lutu, vakasausa, kokoda, salan, dhania ni qaravi.\n2. Cava ni cut ni qaravi.\n3. Moce lutu ni cut ni qaravi.\n4. Vakasausa ni cut ni qaravi.\n5. Kokoda ni cut ni qaravi.\n6. Salan ni mix ni qaravi.\n7. Dhania ni mix ni qaravi.\n8. Cava, moce lutu, vakasausa, kokoda, salan, dhania ni mix ni qaravi.\n9. Viti ni qaravi.\n\n**Tips:**\n\n* Cava ni qaravi ni sautu ni qaravi.\n* Moce lutu ni qaravi ni sautu ni qaravi.\n* Vakasausa ni qaravi ni sautu ni qaravi.\n* Kokoda ni qaravi ni sautu ni qaravi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava sa dredre na moce lutu ena vanua vakasausa?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6278,6 +6878,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Solusyon:**\n\n* **Siguruhin na ang kompiuta ay nakasama sa isang mapagkukulang na lugar.** Ang pagkakaroon ng mapagkukulang na lugar ay makakatulong upang protekta ang kompiuta mula sa mga malilimutin o pagkakataon na maaaring ma-damage ito.\n* **Gumamit ng isang malakas na parol o password.** Ang parol o password ay dapat na malakas upang hindi ito ma-crack o ma-hack.\n* **I-install ang mga pinakamahalagang antivirus at firewall software.** Ang antivirus software ay makakatulong upang protekta ang kompiuta mula sa mga virus at malware, samantalang ang firewall software ay makakatulong upang protekta ang kompiuta mula sa mga malilimutin o ang internet.\n* **Gumamit ng isang backup system.** Ang backup system ay makakatulong upang protekta ang iyong datos mula sa pagkawala o pagkasira."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sa yacova na noqu komipiuta ni sa sega ni rawa ni laurai na matanivola ena sikirini?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6441,6 +7061,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Rata: 3**\n\n**Sabunti:**\n\n* Ia sega na kakana na vanua vata kei na waidroka.\n* Yagoqu kevaka au a tao edua na vanua vata kei na waidroka.\n\n**Tema:** Vanua vata kei na waidroka\n\n**Pesan:** Ia sega na kakana na vanua vata kei na waidroka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vakila na yagoqu kevaka au a tao edua na vanua vata kei na waidroka, ia sega na kakana?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6612,6 +7252,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:**\n\n- Kada je u pitanju beka o keda na cava, to znači da je beka upoznat s kedom i da je u stanju da je prepoznaje.\n- Kada je u pitanju beka o keda na vakila, to znači da beka ima sposobnost da prepoznaje kedu na osnovu njenog izgleda.\n- Kada je u pitanju beka o keda na bula, to znači da beka ima sposobnost da prepoznaje kedu na osnovu njenog ponašanja."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sana kila beka o keda na cava keda na vakila ni sa mate o keda na bula oqo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6775,6 +7435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Answer:**\n\nCava sega ni rawa mena tubu lesutale na sui. Cava sega ni rawa mena tubu lesutale na sui."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava sega ni rawa mena tubu lesutale na sui?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6946,6 +7626,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:**\n\nYaga sara vakalevu na koula maivei ira na veivatu talei vaka na siliva."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava na vuna sa yaga sara vakalevu na koula maivei ira na veivatu talei vaka na siliva?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7109,6 +7809,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Sagot:**\n\nMaroroya na wasawasa mena tarova na waluvu ivuravura ay isang malaking problema sa mga karagdagang isla ng Pilipinas. Ang mga tarova na ito ay nagdudulot ng malaking pagkawala ng mga coral at seaweed sa mga karagdagang isla."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava sa maroroya na wasawasa mena tarova na waluvu ivuravura?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7280,6 +8000,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Vakacava:**\n\n* Na veika ni vakacava e dua na veika ni moce tiko.\n* Na veika ni vakacava e dua na veika ni kevaka au.\n\n**Talevoni:**\n\n* Na talevoni e dua na talevoni ni moce tiko.\n* Na talevoni e dua na talevoni ni kevaka au.\n\n**Vakacava vs Talevoni:**\n\n* Na veika ni vakacava e dua na veika ni moce tiko, while na talevoni e dua na talevoni ni moce tiko.\n* Na veika ni vakacava e dua na veika ni kevaka au, while na talevoni e dua na talevoni ni kevaka au.\n\n**Conclusion:**\n\nNa vakacava na noqu talevoni veikauyaki kevaka au moce tiko."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daukila vakacava na noqu talevoni veikauyaki kevaka au moce tiko?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7443,6 +8183,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Cevap:**\n\nVeika boi oya vinaka sa tuituina na kena ikanakana."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kevaka sa voleka ni veika eda tovolea sa vakatulewataka na iboi ni veika oya. Cava na vuna ni eso na veika  boi vinaka sa tuituina na kena ikanakana?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7614,6 +8374,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:**\n\nCava na vuna sa rawa kina na sovu savata laivi voleka na veika kecega ena ligamu, ia sega dausavata laivi na kena iboi maivei iko."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava na vuna sa rawa kina na sovu savata laivi voleka na veika kecega ena ligamu, ia sega ni dausavata laivi na kena iboi maivei iko?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7777,6 +8557,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Vakacava o ira na manumanu ni sa vakarau vakilai na uneune:**\n\n* **Vakacava o ira:**\n    * Sa ira na manumanu ni sa vakarau vakilai na uneune.\n    * Sa ira na manumanu ni sa vakarau vakilai na uneune.\n* **Vakacava o ira:**\n    * Sa ira na manumanu ni sa vakarau vakilai na uneune.\n    * Sa ira na manumanu ni sa vakarau vakilai na uneune.\n\n**Vakacava o ira na manumanu ni sa vakarau vakilai na uneune:**\n\n* **Vakacava o ira:**\n    * Sa ira na manumanu ni sa vakarau vakilai na uneune.\n    * Sa ira na manumanu ni sa vakarau vakilai na uneune.\n* **Vakacava o ira:**\n    * Sa ira na manumanu ni sa vakarau vakilai na uneune.\n    * Sa ira na manumanu ni sa vakarau vakilai na uneune.\n\n**Vakacava o ira na manumanu ni sa vakarau vakilai na uneune:**\n\n* **Vakacava o ira:**\n    * Sa ira na manumanu ni sa vakarau vakilai na uneune.\n    * Sa ira na manumanu ni sa vakarau vakilai na uneune.\n* **Vakacava o ira:**\n    * Sa ira na manumanu ni sa vakarau vakilai na uneune.\n    * Sa ira na manumanu ni sa vakarau vakilai na uneune."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Daukila vakacava  o ira na manumanu ni sa vakarau vakilai na uneune?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7948,6 +8748,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:** Cava na vuna je relativno velika i teža od vode, pa se može lako izgubiti u vodi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava na vuna  dausika na weli eso na gauna ni au lamawa kina?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8111,6 +8931,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Jawaban:**\n\nRawa beka na tamata mena vakatulewataka na draki di tempat yang aman, seperti di sala cava."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Rawa beka na tamata mena vakatulewataka na draki? Kevaka sa rawa; na sala cava?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8282,6 +9122,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:**\n\nDrauna o sa betia laivi su socijalne životinje i ovise o društvenoj interakciji za preživljavanje. Drauna o su osjetljive na promjene u okruženju i mogu se osjećati ugroženim u društvenim situacijama. Budući da su ovisne o društvenoj interakciji, drauna o mogu se osjećati i zavisno o tome kako ih ljudi tretiraju."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava dauvakila na kau sa tei kevaka iko betia laivi na drauna? Iko sa vakamavoataka na kau oya se sa rawa na kau oqo mena sosimitaka na drauna o sa betia laivi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8445,6 +9305,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Solusion:**\n\nCava keda rairai dauvakasama vakalevu sa bera na moce.\n\n* **Cava:** Cava keda rairai dauvakasama vakalevu sa bera na moce.\n* **Keda:** Cava keda rairai dauvakasama vakalevu sa bera na moce.\n* **Rairai:** Cava keda rairai dauvakasama vakalevu sa bera na moce.\n* **Dauvakasama:** Cava keda rairai dauvakasama vakalevu sa bera na moce.\n* **Vakalevu:** Cava keda rairai dauvakasama vakalevu sa bera na moce.\n* **Sa:** Cava keda rairai dauvakasama vakalevu sa bera na moce.\n* **Bera:** Cava keda rairai dauvakasama vakalevu sa bera na moce.\n* **Na:** Cava keda rairai dauvakasama vakalevu sa bera na moce.\n* **Moce:** Cava keda rairai dauvakasama vakalevu sa bera na moce."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava keda rairai dauvakasama vakalevu sa bera na moce?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8616,6 +9496,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Turu ni wai ni matada:**\n- 1/2 kg matada\n- 1/4 kg musuka\n- 1/4 kg varasa\n- 1/2 ts vanilla extract\n- 1/4 ts baking powder\n- 1/4 cup powdered sugar\n\n**Sala mena:**\n- 1/2 cup unsalted butter, softened\n- 1 cup granulated sugar\n- 2 large eggs\n- 1 teaspoon vanilla extract\n\n**Tarova:**\n- 1/2 cup heavy cream\n- 1/4 cup powdered sugar\n\n**Instructions:**\n\n**1. Preheat oven:**\n- Preheat oven to 350 degrees F (175 degrees C). Grease and flour a 9-inch round baking pan.\n\n**2. Make the cake batter:**\n- In a medium bowl, whisk together the matada, musuka, varasa, vanilla extract, baking powder, and powdered sugar.\n- In a large bowl, cream together the butter and sugar until light and fluffy, 2-3 minutes.\n- Gradually add the eggs, one at a time, beating well after each.\n- Combine the dry ingredients with the wet ingredients in a alternating fashion, beginning and ending with the dry ingredients.\n\n**3. Bake the cake:**\n- Pour the batter into the prepared pan and bake for 30-35 minutes, or until a toothpick inserted into the center comes out clean.\n- Let the cake cool in the pan for a few minutes before transferring to a wire rack to cool completely.\n\n**4. Make the frosting:**\n- In a medium bowl, whisk together the heavy cream and powdered sugar until until stiff peaks form.\n\n**5. Assemble the cake:**\n- Place the cooled cake on a serving plate.\n- Spread the frosting over the top of the cake.\n\n**6. Serve and enjoy!**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava vakavuna na turu ni wai ni matada kevaka keda musuka na varasa? Sa tiko beka na sala mena tarova na turu ni wai ni matada?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8779,6 +9679,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Odgovor:**\n\nNa cava dautaleitaka kina o ira na manumanu na nodra vakamareqeti maivei ira na tamata. To je jer su manumanu i tamata bogate izvorima vitamina C, koji je potreban za zdravlje i imuni sistem."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Na cava dautaleitaka kina o ira na manumanu na nodra vakamareqeti maivei ira na tamata?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8950,6 +9870,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Rata:** 1:2\n\n**Solusion:**\n\nRata 1:2 na mona livaliva keda mena vakavouiya wasoma.\n\n1 + 2 = 3\n\n3 = 100%\n\n1 = 100% / 3 = 33.33%\n\n2 = 100% - 33.33% = 66.67%\n\n**Keda mena vakavouiya wasoma na mona livaliva: 33.33%**\n\n**Keda mena vakavouitaki: 66.67%**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava daugadrevi kina o keda mena vakavouiya wasoma na mona livaliva? Cava dauyaco na mona livaliva kevaka sa sega ni vakavouitaki?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9113,6 +10053,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Isu:**\n\n* Waqavakatiko na wai e dua na waqa lelevu.\n* Waqavakatiko na wai e dua na wasawasa.\n\n**Solusi:**\n\n* Waqavakatiko na wai e dua na waqa lelevu.\n* Waqavakatiko na wai e dua na wasawasa.\n\n**Jawaban:**\n\nWaqavakatiko na wai e dua na waqa lelevu danawa e dua na wasawasa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dauvakatuburua beka na ivakarau ni wai ena wasawasa na waqa lelevu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9284,6 +10244,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Rasa:**\n- Yagoda sa rawa ni sosomitaki\n- Duidui kina na sotia ni mona\n\n**Metode:**\n1. Punja yagoda sa rawa ni sosomitaki.\n2. Duidui kina na sotia ni mona.\n3. Ajakani yagoda sa duidui kina na sotia ni mona.\n4. Tista rasa danu.\n\n**Tips:**\n- Guna yagoda yang segar dan berkualitas tinggi.\n- Gunakan sosomitaki yang berkualitas terbaik.\n- Pastikan sotia ni mona telah matang."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Voleka na veisotia kece ni yagoda sa rawa ni sosomitaki? Cava sa duidui kina na sotia ni mona?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9451,6 +10431,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Jawaban:**\n\nCava sa sega ni rawa kina mena vakarusai vakadua na kutu adalah 120 liter."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Cava sa sega ni rawa kina mena vakarusai vakadua na kutu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9614,6 +10614,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.fijian:gemma 7b",
+          "language": "Fijian",
+          "translations": {
+            "Fijian": {
+              "language": "Fijian",
+              "text": "**Answer:**\n\nVakacava na tamata kevaka sa sega na moce vakavinaka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dauvakamatea vakacava na tamata kevaka sa sega na moce vakavinaka?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

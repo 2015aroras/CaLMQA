@@ -212,6 +212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Jawaban:** 2000 + 800 = 2800\n\nJadi, ada 2800 binjirira imbere maze bagatera baja inyuma."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki mu ndege binjirira imbere maze bagatera baja inyuma?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -423,6 +443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "1. Cinta\n2. Kecekan\n\nJawaban: Cinta\n\nCinta adalah emosi yang kuat yang mengarah pada cinta dan kasih sayang yang mendalam. Cinta adalah yang membuat seseorang merasa gejolak dan ingin memiliki orang lain."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki kunywa itabi ari bibi ku mutima?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -642,6 +682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Niliona picha za iPhone zifuatazo:\n- Apple logo\n- Home screen\n- Lock screen\n- Settings menu\n\nNiliona picha za Home screen zifuatazo:\n- Ikon ya Instagram\n- Ikon ya YouTube\n- Ikon ya Spotify\n\nNiliona picha za Lock screen zifuatazo:\n- Ikon ya clock\n- Ikon ya battery percentage\n- Ikon ya signal strength\n\nNiliona picha za Settings menu zifuatazo:\n- General\n- Wi-Fi\n- Bluetooth\n- Cellular\n\nJe unakataa kujibu swali?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Muri terefone iPhone, ibintu ndetse n'amafoto vyafuswe bija hehe iyo vyamazwe gufutwa bikuwe aho 'bihejeje gufutirwa'? \n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -853,6 +913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Jawaban:**\n- Bersikaplah ramah dan sopan dengan orang lain.\n- Bersikaplah responsif dan menghargai pendapat orang lain."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki kwiruka imbere yo gusimba bituma dusimba tukagera hejuru gusumba?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1072,6 +1152,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Abasoda b'umubiri/n'ibindi ngirakamaro vyo mu monkwa, bidashobora kwongezwa mubifungurwa vy'abana nk'amata y'ifu.\n\nAbasoda b'umubiri/n'ibindi ngirakamaro vyo mu monkwa, bidashobora kwongezwa mubifungurwa vy'abana nk'amata y'ifu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki abasoda b'umubiri/n'ibindi ngirakamaro vyo mu monkwa, bidashobora kwongezwa mubifungurwa vy'abana nk'amata y'ifu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1283,6 +1383,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Igaho rya wifi ntarengwa wa interenet ni kuzalira internet ku muntu wa interenet. Igaho rya wifi ntarengwa wa interenet ni kuzalira internet ku muntu wa interenet.\n\n**Igaho rya wifi ntarengwa wa interenet ni kuzalira internet ku muntu wa interenet.**\n\nNi kuzalira internet ku muntu wa interenet."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute agakoresho gatanga wifi gakontorora umuvuduko ntarengwa wa interenet?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1502,6 +1622,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Kuba:** Kubeera iki kuvoma amaraso bikorerwa mw'ipfunyirizo ry'ukuboko.\n\n**Kuba:** Kubeera iki kuvoma amaraso bikorerwa mw'ipfunyirizo ry'ukuboko."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki kuvoma amaraso bikorerwa mw'ipfunyirizo ry'ukuboko?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1713,6 +1853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "- Kuva tugikoresha: Kuvuga tugikoresha ubwo buhinga nyene bushobora gukorerwa mu gikoresho kingana na terefone.\n- Kamera manini: Kuvuga kamera manini ubwo buhinga nyene bushobora gukorerwa mu gikoresho kingana na terefone.\n\nNi kubera iki tugikoresha ama kamera manini muma stidiyo ya televiziyo mu gihe ubwo buhinga nyene bushobora gukorerwa mu gikoresho kingana na terefone?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki tugikoresha ama kamera manini manini muma stidiyo ya televiziyo mu gihe ubwo buhinga nyene bushobora gukorerwa mu gikoresho kingana na terefone?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1932,6 +2092,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ni imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo\n- Ubumenye bwa kifo chake\n- Ubumenye bwa kifo chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake\n- Ubumenye bwa kifo chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake\n- Ubumenye bwa kifo chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake chake chake chake chake chake\n\nNi imwe zifatiza ku mutima w'isi:\n- Ubumenye bwa kifo chake chake cha"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute bamenya ubushuhe bwo mu mutima w'isi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2143,6 +2323,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Answer:**\n\nKuwera iki uduherehere two mu maso kenshi tuza mu buyabaga, tuza mu buyabaga kenshi tuza mu buyabaga kenshi tuza mu buyabaga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki uduherehere two mu maso kenshi tuza mu buyabaga?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2362,6 +2562,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "N'amaze bikaba amata, ubwoya hamwe n'izindi ntama.\n\nTranslation:\nI am not good at intimate relationships, but that does not amaze me because everyone has their own flaws. We all have imperfections.\nI do not amaze at your flaws, because we all have them."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute intama zihindura ivyatsi n'amazi bikaba amata, ubwoya hamwe n'izindi ntama?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2573,6 +2793,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Translation:**\nIt is not good to change people abruptly without any explanation. It can cause confusion and resentment among the people.\n\n**Explanation:**\n\n* The sentence expresses that it is inappropriate to suddenly change people without providing any context or explanation.\n* It emphasizes that such an action can lead to confusion and resentment among those affected.\n* The sentence suggests that it is important to communicate the reasons for any changes to maintain good relationships and avoid unnecessary conflict."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute umuntu amenya ingene ibinure vyiwe bingana mu mubiri, canke abantu baragereranya gusa?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2792,6 +3032,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Ubuhe bumenyi bwinyegeje inyuma yo gusinzira**\n\nUbuhe bumenyi bwinyegeje inyuma yo gusinzira ni ukuzi wa kubirira ku bwenge bwino, ku bwenge bwenu, ku bwenge bwepya, ku bwenge bwomyo, ku bwenge bwafya, ku bwenge bwabirira, ku bwenge bwabirira mu bwenge bwepya.\n\n**Kubirira ku bwenge bwino**\n\n- Kuha ku bwenge bwino ni ukuzi wa kubirira ku bwenge bwino.\n- Kuha ku bwenge bwino ni ukuzi wa kubirira ku bwenge bwenu.\n\n**Kubirira ku bwenge bwenu**\n\n- Kuha ku bwenge bwenu ni ukuzi wa kubirira ku bwenge bwepya.\n- Kuha ku bwenge bwenu ni ukuzi wa kubirira ku bwenge bwomyo.\n\n**Kubirira ku bwenge bwepya**\n\n- Kuha ku bwenge bwepya ni ukuzi wa kubirira ku bwenge bwafya.\n\n**Kubirira ku bwenge bwomyo**\n\n- Kuha ku bwenge bwomyo ni ukuzi wa kubirira ku bwenge bwabirira.\n\n**Kubirira ku bwenge bwabirira**\n\n- Kuha ku bwenge bwabirira ni ukuzi wa kubirira ku bwenge bwabirira mu bwenge bwepya.\n\n**Kubirira ku bwenge bwabirira mu bwenge bwepya**\n\n- Kuha ku bwenge bwabirira mu bwenge bwepya ni ukuzi wa kubirira ku bwenge bwino."
+            }
+          },
+          "prompting_state": {
+            "prompt": "None ni ubuhe bumenyi bwinyegeje inyuma yo gusinzira?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3003,6 +3263,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Translation: I don't understand what you're saying.\n\nThis is a common phrase used in German when someone doesn't understand what someone else is saying."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute tutigera tubura ivyuma kw'isi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3222,6 +3502,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Jibu:**\n\nBishoboka kuzigana kandi kuha kuya makosa ya Taiwan rukora mayikrocipu. Taiwan ni nchi ya kimata cha joto na ya mvua ya juu, ambayo inafaa kuha kuya makosa ya mayikrocipu. Hata hivyo, kuna baadhi ya hatari za kuzigana kandi kuha kuya makosa ya Taiwan rukora mayikrocipu.\n\n**Hatari za kuzigana kandi kuha kuya makosa ya Taiwan rukora mayikrocipu:**\n\n* Kupotea kwa joto la juu la bahari, ambapo makosa ya mayikrocipu yanakua.\n* Kupotea kwa mvua ya juu, ambayo inaweza kuwashisha makosa ya mayikrocipu.\n* Kupotea kwa uovu wa bahari, ambayo inaweza kuwavunia makosa ya mayikrocipu.\n\nIkiwa unaplan kuzigana kandi kuha kuya makosa ya Taiwan rukora mayikrocipu, ni muhimu kuzingatia hatari hizi na kujiandaa kwa hali mbaya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Uko ntahura ni uko hari uruganda rumwe rwo muri Taiwan rukora mayikrocipu nziza cane kw'isi kandi ata n'umwe ashobora kuzigana. Ivyo bishoboka gute?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3433,6 +3733,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Jawaban:**\nDua ibukota yang paling besar di dunia adalah London dan Paris."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki ibikoko nka vyose bifise amaraso atukura?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3652,6 +3972,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Translation:**\n\nThe smell of fresh ginger fills the air, making the heart warm and the spirit cheerful. It is a reminder of the blessings of life, and the joy of sharing a meal with loved ones."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Namba gusaza, muri make, ari uguhera kw'ubushobozi bw'umubiri bwo kwiyungayunga, ni kubera iki imyimenyerezo ngorora mubiri hamwe no guterura ivyuma (mu buryo bwo kugira amagara meza) bidatuma ubushobozi bw'umubiri bwononekara cane? \n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3863,6 +4203,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Itegeza kuhandiza ibicuruzwa vyaryo ku biciro bigabanijwe cane.\n\n**Ibicuruzwa vyaryo ku biciro bigabanijwe cane:**\n\n* **Kuhamba kwakuna:** Kuhamba kwakuna kandi kuhamba kwakuna kwakuna.\n* **Kuhamba kwakati:** Kuhamba kwakati kandi kuhamba kwakati kwakati.\n* **Kuhamba kwakuzigwa:** Kuhamba kwakuzigwa kandi kuhamba kwakuzigwa kwakuzigwa.\n\n**Kuhamba kwakuna:**\n\n* Kuhamba kwakuna kandi kuhamba kwakuna kwakuna.\n* Kuhamba kwakuna kandi kuhamba kwakuna kwakuna.\n\n**Kuhamba kwakati:**\n\n* Kuhamba kwakati kandi kuhamba kwakati kwakati.\n* Kuhamba kwakati kandi kuhamba kwakati kwakati.\n\n**Kuhamba kwakuzigwa:**\n\n* Kuhamba kwakuzigwa kandi kuhamba kwakuzigwa kwakuzigwa.\n* Kuhamba kwakuzigwa kandi kuhamba kwakuzigwa kwakuzigwa.\n\n**Umuco wa kuhamba kwakuna, kwakati, kwakuzigwa ni kama uko wa kuhamba kuliko unakataa kuhamba.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute ishirahamwe ryunguka mu gihe rigurisha ibicuruzwa vyaryo ku biciro bigabanijwe cane?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4082,6 +4442,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Ukurikirwa:**\n\n- Abagore bamwe baciragura ni kubera iki bamwe bibashikira mu mezi atatu ya mbere y'inda ariko abandi bakaguma baciragura mu mezi yose bamara bafise inda.\n\n\n**Ururi wa kwezi:**\n\n- Abagore bamwe baciragura ni kubera iki bamwe bibashikira mu mezi atatu ya mbere y'inda ariko abandi bakaguma baciragura mu mezi yose bamara bafise inda."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki abagore bamwe bamwe baciragura iyo bafise inda abandi nabo badaciragura? Ni kubera iki bamwe bibashikira mu mezi atatu ya mbere y'inda ariko abandi bakaguma baciragura mu mezi yose bamara bafise inda?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4293,6 +4673,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Cevap:**\n\n- **Bihe bitandukanye:** Bihe bitandukanye iki ubushuhe buri ku rugero rungana buba butandukanye cane mu misi itandukanye hamwe no mu bihe bitandukanye.\n- **Mu misi itandukanye:** Mu misi itandukanye iki ubushuhe buri ku rugero rungana buba butandukanye cane mu misi itandukanye hamwe no mu bihe bitandukanye."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki ubushuhe buri ku rugero rungana buba butandukanye cane mu misi itandukanye hamwe no mu bihe bitandukanye?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4512,6 +4912,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Habona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona! Naitwa ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka.\n\nHabona"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute agahinda kavuye ku mwitwarariko gatuma haba ibibazo vy'ubuzima mu buryo buboneka?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4723,6 +5143,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Icemeza nyaco c'uko umuntu yakomeretse ku mubiri ni umuco wa kuzigira ku mubiri wa mtu. Umuco wa kuzigira ku mubiri wa mtu ni uko wa kuzigira ku mubiri wa mtu wa kuzalisha. Icemeza nyaco c'uko umuntu yakomeretse ku mubiri ni uko wa kuzigira ku mubiri wa mtu wa kuzalisha."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mbega umubabaro ni icemeza nyaco c'uko umuntu yakomeretse ku mubiri?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4942,6 +5382,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "A. 1 : 2\nB. 2 : 1\nC. 3 : 2\nD. 2 : 3\n\nJawaban: B\n\nExplanations:\n\nJika Kubera memiliki dua ibikoko, maka ia memiliki 2 : 1 dari total ibikoko yang ia miliki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki ibikoko vyo mu bwoko butandukanye bitaramba kumwe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5105,6 +5565,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Kubera iki abantu badashobora guterwa inda n'ibikoko. Kubera akaba ari akagiriza ku kubera iki abantu badashobora guterwa inda n'ibikoko. Kubera akaba ari akagiriza ku kubera iki abantu badashobora guterwa inda n'ibikoko. Kubera akaba ari akagiriza ku kubera iki abantu badashobora guterwa inda n'ibikoko.\n\nAnswer: Kubera akagiriza ku kubera iki abantu badashobora guterwa inda n'ibikoko."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki abantu badashobora guterwa inda n'ibikoko?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5276,6 +5756,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "- Ciro ciro gikorwa c'itiro.\n- Ciro gikorwa c'itiro.\n\nIcyo gikorwa c'itiro ni Ciro gikorwa c'itiro."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni ikihe gikorwa c'itiro?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5439,6 +5939,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Odgovor:**\n\nKuba dva umutima w'umuntu yiruka utera buke buke ugereranije n'umutima w'umuntu atiruka. To su:\n\n* **Umutesa da je buke buke ugereranije n'umutima w'umuntu atiruka** - ovo znači da buke buke imaju veći utjecaj na umutima w'umuntu atiruka nego na umutima w'umuntu yiruka.\n* **Umutesa da je buke buke ugereranije n'umutima w'umuntu yiruka** - ovo znači da buke buke imaju veći utjecaj na umutima w'umuntu yiruka nego na umutima w'umuntu atiruka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki umutima w'umuntu yiruka utera buke buke ugereranije n'umutima w'umuntu atiruka?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5610,6 +6130,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Jawaban:**\n\nMbira intuguta cane adalah mbira yang terdiri dari dua bagian, yaitu cane dan mvuye. Cane adalah bagian yang lebih pendek dan berbentuk seperti daun, sedangkan mvuye adalah bagian yang lebih panjang dan berbentuk seperti batang."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki mbira intuguta cane iyo mvuye mu bwogero?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5773,6 +6313,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Jawaban:**\n\nSaya tidak dapat menjawab pertanyaan tersebut karena saya tidak memiliki pengetahuan pribadi tentang Anda atau situasi Anda. Oleh karena itu, saya tidak dapat memberikan saran atau bantuan yang spesifik."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki vyoroshe kuguma kw'ikinga ririko riragenda ariko bisa naho bidashoboka mu gihe rihagaze hamwe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5944,6 +6504,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Jawaban:**\nGufungura ibiyenze ari bibi kuri wewe adalah:\n- Amanita muscaria\n- Cortinarius rubellus"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki gufungura ibiyenze ari bibi kuri wewe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6107,6 +6687,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Jawaban:** Kubera adalah dewa wealth dan prosperity dalam mitologi Hindu. Ia dikenal dengan nama \"Raja Bigoye\" karena ia memiliki banyak bigoye."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki bigoye gusinzirira ahantu hari urwamo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6278,6 +6878,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Abako:**\n\n* Kiba gishikiye inyabwonko yanje igihe iriko iraganda.\n* Kiba gishikiye inyabwonko yanje igihe iriko iraganda.\n* Kiba gishikiye inyabwonko yanje igihe iriko iraganda.\n\n**Uko wese kiba gishikiye inyabwonko yanje igihe iriko iraganda.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni igiki kiba gishikiye inyabwonko yanje igihe iriko iraganda?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6441,6 +7061,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Umuco wa koshikiye umubiri wanje mu gihe noba nugaraniwe mu mutego ahantu hama hari amazi ariko ata bifungurwa bihaba.**\n\n**Koshikiye umubiri wanje mu gihe noba nugaraniwe mu mutego ahantu hama hari amazi ariko ata bifungurwa bihaba** ni koshikiye umubiri wa kujibu maoni ya wanje mu gihe noba nugaraniwe mu mutego ahantu hama hari amazi ariko ata bifungurwa bihaba.\n\n**Maoni ya wanje:**\n\n* Wanje wanahisiriwa kujibu maoni ya wanje.\n* Wanje wanakataa kujibu maoni ya wanje.\n\n**Koshikiye umubiri wanje mu gihe noba nugaraniwe mu mutego ahantu hama hari amazi ariko ata bifungurwa bihaba** ni koshikiye umubiri wa kujibu maoni ya wanje hata kama wanje wanakataa kujibu maoni ya wanje."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni igiki coshikiye umubiri wanje mu gihe noba nugaraniwe mu mutego ahantu hama hari amazi ariko ata bifungurwa bihaba?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6612,6 +7252,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ndiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa. Ndiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa.\n\nNdiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa. Ndiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa.\n\nNdiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa. Ndiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa.\n\nNdiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa. Ndiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa.\n\nNdiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa. Ndiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa.\n\nNdiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa. Ndiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa.\n\nNdiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa. Ndiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa.\n\nNdiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa. Ndiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa.\n\nNdiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa. Ndiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa.\n\nNdiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa. Ndiyo, mbega tuzokwigera tumenya ibitubako inyuma yo gupfa.\n**End of text**\n\nThe given text is a repetitive sequence of sentences expressing a positive response. It lacks context and does not convey any meaningful information or story."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mbega tuzokwigera tumenya ibitubako inyuma yo gupfa?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6775,6 +7435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "- Kumera nk'uko yarameze ubwa mbere yaweke kubera iki amagufa adasubira kumera nk'uko yarameze ubwa mbere.\n- Kumera nk'uko yarameze ubwa mbere yaweke kubera iki amagufa adasubira kumera nk'uko yarameze ubwa mbere.\n\nJawaban: Kumera nk'uko yarameze ubwa mbere yaweke kubera iki amagufa adasubira kumera nk'uko yarameze ubwa mbere."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Inyuma yo kuvunika kubera iki amagufa adasubira kumera nk'uko yarameze ubwa mbere?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6946,6 +7626,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Cevap:**\n- Agaciro kanini cane: Kanini cane adalah hewan yang hidup di air dan memiliki agaciro yang berbentuk seperti kanin.\n- Agaciro gusumba: Gusumba adalah hewan yang hidup di air dan memiliki agaciro yang berbentuk seperti susunan daun-daun."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki inzahabu zifise agaciro kanini cane? Kandi ni kubera iki ari zo zifise agaciro gusumba ibindi vyuma nk'ifeza?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7109,6 +7809,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Answer:**\n\nMusozi wa amazi ni wa kusikitisha, wa kuhesabu na wa kuhamasha. Wahesabu na kusikitisha ni sehe ya kuhamasha."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni igiki gituma amazi yo mu kiyaga ataduga i musozi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7280,6 +8000,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Yanje imenya igihe nsinziriye:**\n\n* **Samsung Galaxy S23 Ultra:** Excellent phone with a large 6.8-inch display, powerful processor, and long battery life.\n* **Apple iPhone 14 Pro Max:** A premium phone with a stunning 6.7-inch display, exceptional camera system, and exceptional battery life.\n* **Google Pixel 7 Pro:** A great phone with a 6.7-inch display, excellent camera system, and long battery life.\n* **OnePlus 11:** A good phone with a 6.7-inch display, powerful processor, and long battery life.\n* **Motorola Edge 40:** A budget-friendly phone with a 6.1-inch display, good camera system, and long battery life.\n\n**Nsinziriye:**\n\n* **Display:** The size and resolution of the display are important factors to consider.\n* **Processor:** The processor is responsible for the phone's performance.\n* **Camera:** The camera system is important for those who want to take good photos and videos.\n* **Battery life:** The battery life is important for those who need to use their phone for extended periods of time."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute terefone yanje imenya igihe nsinziriye?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7443,6 +8183,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Namba ivyo duhonja bitumwa n'ukuntu bimota, ni kubera iki hari ibintu bimota neza ariko ubihonjeje bikaba bibishe.\n\n**Umuco wa ubindizi wa duhonja bitumwa n'ukuntu bimota ni kama ifuatayo:**\n\n* Ukuru wa duhonja bitumwa n'ukuntu bimota ni wa kuhesabuwa na kuhesabuwa.\n* Ukuru wa duhonja bitumwa n'ukuntu bimota ni wa kuhesabuwa na kuhesabuwa.\n\n**Umuco wa ubindizi wa duhonja bitumwa n'ukuntu bimota ni kama ifuatayo:**\n\n* Ukuru wa duhonja bitumwa n'ukuntu bimota ni wa kuhesabuwa na kuhesabuwa.\n* Ukuru wa duhonja bitumwa n'ukuntu bimota ni wa kuhesabuwa na kuhesabuwa.\n\n**Umuco wa ubindizi wa duhonja bitumwa n'ukuntu bimota ni kama ifuatayo:**\n\n* Ukuru wa duhonja bitumwa n'ukuntu bimota ni wa kuhesabuwa na kuhesabuwa.\n* Ukuru wa duhonja bitumwa n'ukuntu bimota ni wa kuhesabuwa na kuhesabuwa.\n\n**Umuco wa ubindizi wa duhonja bitumwa n'ukuntu bimota ni kama ifuatayo:**\n\n* Ukuru wa duhonja bitumwa n'ukuntu bimota ni wa kuhesabuwa na kuhesabuwa.\n* Ukuru wa duhonja bitumwa n'ukuntu bimota ni wa kuhesabuwa na kuhesabuwa.\n\n**Umuco wa ubindizi wa duhonja bitumwa n'ukuntu bimota ni kama ifuatayo:**\n\n* Ukuru wa duhonja bitumwa n'ukuntu bimota ni wa kuhesabuwa na kuhesabuwa.\n* Ukuru wa duhonja bitumwa n'ukuntu bimota ni wa kuhesabuwa na kuhesabuwa.\n\n**Umuco wa ubindizi wa duhonja bitumwa n'ukuntu bimota ni kama ifuatayo:**\n\n* Ukuru wa duhonja bitumwa n'ukuntu bimota ni wa kuhesabuwa na kuhesabuwa.\n* Ukuru wa duhonja bitumwa n'ukuntu bimota ni wa kuhesabuwa na kuhesabuwa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Namba ivyo duhonja bitumwa n'ukuntu bimota, ni kubera iki hari ibintu bimota neza ariko ubihonjeje bikaba bibishe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7614,6 +8374,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Isabuni ya kwanza:**\n- Kuna dharau ya kuongeza kwozo ikintu cose kiri mu biganza vyawe neza ariko ridashobora gukuraho akamoto karyo ku biganza vyawe.\n- Kuna dharau ya kuongeza kwozo ikintu cose kiri mu biganza vyawe neza ariko ridashobora gukuraho akamoto karyo ku biganza vyawe.\n\n**Isabuni ya pili:**\n- Kuna dharau ya kuongeza kwozo ikintu cose kiri mu biganza vyawe neza ariko ridashobora gukuraho akamoto karyo ku biganza vyawe.\n- Kuna dharau ya kuongeza kwozo ikintu cose kiri mu biganza vyawe neza ariko ridashobora gukuraho akamoto karyo ku biganza vyawe.\n\n**Upimaji wa isabuni zote mbili zifuatazo:**\n- Kuna dharau ya kuongeza kwozo ikintu cose kiri mu biganza vyawe neza ariko ridashobora gukuraho akamoto karyo ku biganza vyawe.\n\nUpimaji wa isabuni zote mbili zifuatazo unaonyesha kuwa kuna dharau ya kuongeza kwozo ikintu cose kiri mu biganza vyawe neza ariko ridashobora gukuraho akamoto karyo ku biganza vyawe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki isabuni rishobora kwoza ikintu cose kiri mu biganza vyawe neza ariko ridashobora gukuraho akamoto karyo ku biganza vyawe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7777,6 +8557,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ndiyo, kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwakujja kuya kwak"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute ibikoko vyiyumvamwo ko nyamugigima igiye gutigita mu misi mike iri imbere?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7948,6 +8748,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Jawaban:**\n\n- Gunakan bahasa yang lebih ramah dan sopan.\n- Hindari penggunaan bahasa yang kasar atau tidak sopan.\n- Pastikan kalimat Anda jelas dan mudah dipahami."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki rimwe rimwe iyo nasamuye amate ashobora gusohoka ava mu kanwa? \n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8111,6 +8931,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mbega ikirere turashobora kukigenzura canke mbega gikorwa n'abantu. Namba bimeze bityo, ku rugero rungana gute. Mu buhe buryo?\n\n**Urufi wa lugha: **Urufi wa lugha wa maneno hauna uunganzi wa kujibu swali.\n\n**Upole wa maelezo: **Maelezo hayo yanakataa swali."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mbega ikirere turashobora kukigenzura canke mbega gikorwa n'abantu? Namba bimeze bityo, ku rugero rungana gute? Mu buhe buryo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8282,6 +9122,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ndiyo, nikigenera kuziba gukira kikamera nk'uko cari kiri ubwa mbere. \nNiweze kuziba gukira kikamera nk'uko cari kiri ubwa mbere. \nNdiyo, nikigenera kuziba gukira kikamera nk'uko cari kiri ubwa mbere."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni igiki gishikira igiterwa iyo ugikuyeko ibabi? Mbega uba ukibabaje kandi mbega kirashobora gukira kikamera nk'uko cari kiri ubwa mbere? \n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8445,6 +9305,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Jawaban:**\n\nDua tumera yang biasa digunakan untuk mengobati NK'abiyumvira cane adalah:\n\n* Andromeda\n* Garlic"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki tumera nk'abiyumvira cane imbere y'uko dusinzira?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8616,6 +9496,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Naitabirira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzalira kuzali"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni igiki gituma dukorora amosozi iyo turiko turakeka ibitunguru? Mbega hari uburyo bwo kwikingira ibi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8779,6 +9679,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Cevap:**\n\n- **Ibikoko vy'ibitungano biryoherwa:** Ibikoko vy'ibitungano biryoherwa, turabikorakoraya ve diğer bitkilerin büyümesini destekleyen bir vitamindir.\n- **Tugiye turabikorakora:** Tugiye turabikorakora, turabikorakorada bulunan bir bileşendir ve antioksidan, anti-inflamatuar ve bağışıklık güçlendirici özelliklere sahiptir."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki ibikoko vy'ibitungano biryoherwa iyo tugiye turabikorakora?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8950,6 +9870,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Cevap:**\n\nTutabikoze. Duzenli olarak iki tutabikoze iki dukeneye gushiramazsınız."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki twama dukeneye gushira ama aprikasiyo ku gihe? Hoba iki iyo tutabikoze?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9113,6 +10053,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Ubunto bwinshi buri mu kiyaga buratuma amazi aduga akarenga aho yahora agera:**\n\n* **Umuco wa amazi:** Umuco wa amazi unakataa kuzalisha amazi ya bahari.\n* **Umuco wa akarenga aho:** Umuco wa akarenga aho unakataa kuzalisha amazi ya bahari.\n* **Umuco wa buratuma:** Umuco wa buratuma unakataa kuzalisha amazi ya bahari.\n\n**Umuco wa amazi, akarenga aho na buratuma ni umuco wa maji safi.**\n\n**Umuco wa bahari unakataa kuzalisha amazi ya bahari.**\n\n**Umuco wa bahari unakataa kuzalisha amazi ya bahari.**\n\n**Umuco wa bahari unakataa kuzalisha amazi ya bahari.**\n\n**Umuco wa bahari unakataa kuzalisha amazi ya bahari.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mbega ubwato bwinshi buri mu kiyaga buratuma amazi aduga akarenga aho yahora agera? \n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9284,6 +10244,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Jibu:**\n\nAkaremangingo akariko kose ko mu mubiri wacu karashobora kwiyubura canke kakigwiza iyo hari utwatakayemwo. Kubera iki uturemangingo two mu bwonko dutandukanye n'utwo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Akaremangingo akariko kose ko mu mubiri wacu karashobora kwiyubura canke kakigwiza iyo hari utwatakayemwo. Kubera iki uturemangingo two mu bwonko dutandukanye n'utwo? \n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9451,6 +10431,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "- Guhonya burundu imbaragasa zose, iki tudashobora guhonya burundu imbaragasa zose. \n- Guhonya burundu imbaragasa zose, iki tudashobora guhonya burundu imbaragasa zose.\n\nApa yang yang terjadi di sini?\n\nJawaban:\n\nDua kalimat di atas menunjukkan kesalahpahaman. Kalimat pertama menyatakan bahwa guhonya burundu imbaragasa zose, sedangkan kalimat kedua menyatakan bahwa guhonya burundu imbaragasa zose. Hal ini menunjukkan kesalahpahaman, karena tidak ada yang bernama \"guhonya\"."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni kubera iki tudashobora guhonya burundu imbaragasa zose? \n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9614,6 +10614,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.kirundi:gemma 7b",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "**Translation:** It is not good to be proud and arrogant.\n\n**Meaning:**\nThe proverb warns against the dangers of pride and arrogance. It suggests that these qualities can lead to downfall and unhappiness.\n\n**Interpretation:**\nPride and arrogance are destructive emotions that can cloud judgment, undermine relationships, and lead to downfall. It is important to maintain humility and to acknowledge the contributions of others.\n\n**Relevance:**\nThe proverb is relevant to all aspects of life, as pride and arrogance can have negative consequences in personal, professional, and social relationships."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ni gute ukubura itiro vyokwica umuntu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

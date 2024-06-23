@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "La respuesta es:\n\nLos aviones no se embarcan de adelante hacia atrás. Los aviones se embarcan de la parte delantera hacia la parte trasera."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué se embarcan los aviones de adelante hacia atrás?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\nFumar es dañino para el corazón por varias razones:\n\n* **Aumento de la presión arterial:** el monóxido de carbono (CO) en el humo del cigarillo aumenta la presión arterial.\n* **Aumento de la viscosidad del torrente sanguíneo:** las sustancias químicas en el humo del cigarillo aumentan la viscosidad del torrente sanguíneo, lo que significa que es más probable que se coagule.\n* **Daño a las células del corazón:** el humo del cigarillo contiene sustancias químicas que pueden dañar las células del corazón, lo que puede conducir a enfermedades cardíacas.\n* **Inflamación del corazón:** el humo del cigarillo puede causar inflamación del corazón.\n* **Aumento de los niveles de colesterol malo:** el humo del cigarillo puede aumentar los niveles de colesterol malo (LDL) y disminuir los niveles de colesterol bueno (HDL)."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué es tan malo fumar para el corazón?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "* Los archivos y fotos eliminados en un iPhone se envían a la **basura virtual** del sistema.\n* La basura virtual es un espacio de almacenamiento temporal donde los archivos eliminados se almacenan hasta que sean realmente borrados o reutilizados.\n* Los archivos y fotos en la basura virtual aún pueden ser recuperados, incluso después de haber sido borrados de 'eliminados recientemente'."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿A dónde van los archivos y fotos eliminados en un iPhone después de ser borrados de 'eliminados recientemente'?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\nCorrer antes de saltar aumenta la velocidad de la corriente de aire sobre las piernas, creando un efecto de empuje que aumenta la altura del salto."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué correr antes de saltar nos hace saltar más alto?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\nLa leche materna contiene factores biológicos únicos que no se pueden reproducir en la fórmula para bebés. Estos factores incluyen:\n\n* **Proteínas inmunitarias:** los anticuerpos específicos de la madre.\n* **Factores de crecimiento:** proteínas y nutrientes esenciales para el desarrollo del bebé.\n* **Enzimas:** enzimas que ayudan a digerir los alimentos.\n* **Hormonas:** hormonas que ayudan a regular el crecimiento y el desarrollo.\n\nAl no poder reproducir estos factores, las fórmulas para bebés no pueden proporcionar los mismos beneficios que la leche materna."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué no se pueden añadir anticuerpos/u otros beneficios de la leche materna a la fórmula para bebés?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "El proveedor de wifi controla el límite de velocidad de internet a través de diferentes métodos:\n\n**1. Restricción de ancho de banda:**\n\n* El proveedor puede limitar el ancho de banda de la conexión, lo que reduce la cantidad de datos que pueden transmitirse por segundo.\n* Esto puede conducir a velocidades de descarga más lento, especialmente para actividades como streaming o videojuego.\n\n**2. Limitar el tiempo de conexión:**\n\n* Algunos proveedores limitan el tiempo de conexión a la red, lo que puede resultar en una reducción de la cantidad de tiempo que puede usar la conexión.\n* Esto puede afectar la experiencia de usuarios que necesitan acceso a internet durante períodos prolongos.\n\n**3. Priorización del tráfico:**\n\n* Algunos proveedores priorizan el tráfico de ciertas aplicaciones o servicios, lo que puede conducir a velocidades de descarga más lento para otras aplicaciones.\n* Por ejemplo, algunos proveedores priorizan el tráfico de correo electrónico, mientras que pueden limitar las velocidades de descarga de contenido multimedia.\n\n**4. Limitación de la cantidad de dispositivos conectados:**\n\n* Algunos proveedores limitan la cantidad de dispositivos que pueden conectarse a la red simultáneamente.\n* Esto puede conducir a velocidades de descarga más lento si hay muchos dispositivos conectados a la red.\n\n**5. Restricción de IP:**\n\n* Algunos proveedores restringen el número de IP (direcciónes de red) que pueden conectarse a la red.\n* Esto puede conducir a velocidades de descarga más lento si hay muchos usuarios conectados a la red."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Cómo controla mi proveedor de wifi el límite de velocidad de internet?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\nLa extracción de sangre típica en el pliegue de tu brazo se realiza por dos razones principales:\n\n**1. Es un sitio fácil de acceso y seguridad:**\n- La región del brazo es relativamente fácil de acceder y limpiar.\n- La distancia entre la arteria y la vena es suficiente para evitar lesiones.\n\n**2. Es un sitio con suficiente tejido vasculo: **\n- El brazo tiene una cantidad significativa de tejido vasculo, lo que significa que hay suficientes vasos sanguíneos para extraer sangre sin causar daños.\n\nEstos factores combinados hacen que el pliegue del brazo sea el sitio ideal para realizar una extracción de sangre típica."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué se realiza una extracción de sangre típica en el pliegue de tu brazo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "Las cámaras gigantes de estudio de televisión se siguen utilizando por varias razones:\n\n**1. Calidad de imagen:** Las cámaras gigantes ofrecen una mayor resolución y calidad de imagen que las cámaras más pequeñas. Esto es importante para programas de televisión con alto presupuesto y que requieren imágenes nítidas y detalladas.\n\n**2. Tamaño del sensor:** Los sensores más grandes permiten capturar más luz y detalles, lo que resulta en mejores imágenes.\n\n**3. Objeto de enfoque:** Las cámaras gigantes pueden capturar un objeto de enfoque más amplio, lo que es útil para programas que incluyen múltiples personas o escenarios complejos.\n\n**4. Flexibilidad:** Las cámaras gigantes suelen tener más flexibilidad en cuanto a la configuración y el movimiento.\n\n**5. Precio:** Las cámaras gigantes pueden ser más baratas que las cámaras más pequeñas, a pesar de que pueden ofrecer mejores características."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué seguimos utilizando cámaras gigantes de estudio de televisión cuando la misma tecnología ahora cabe en el tamaño de un teléfono celular?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "Las temperaturas del núcleo interno de la Tierra se estiman en alrededor de 5.700 °C. Sin embargo, existen diferentes métodos para determinar la temperatura del núcleo.\n\n**Método 1: Estudio de ondas sísmicas**\n\n* Las ondas sísmicas que pasan a través del núcleo pueden proporcionar información sobre la temperatura.\n* Al analizar la velocidad y el comportamiento de las ondas, los científicos pueden determinar la temperatura del núcleo.\n\n**Método 2: Observación de magmas y volcánes**\n\n* Los magmas y los volcánes que emergen de la tierra pueden haber sido fundidos en el núcleo.\n* La composición y la temperatura de los magmas pueden proporcionar pistas sobre la temperatura del núcleo.\n\n**Método 3: Modelización y simulación**\n\n* Los científicos pueden utilizar modelos y simulaciones para calcular las temperaturas del núcleo.\n* Estos modelos consideran factores como la presión, la composición y las condiciones de temperatura y presión del núcleo.\n\n**¿Qué método se utiliza para determinar la temperatura del núcleo interno de la Tierra?**\n\nLa respuesta está en el primer párrafo.\n\n**El método 1: Estudio de ondas sísmicas se utiliza para determinar la temperatura del núcleo interno de la Tierra.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Cómo saben cuál es la temperatura del núcleo de la Tierra?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\n* Durante la pubertad, los niveles de andrógeno y estrógeno aumentan, lo que puede conducir a la producción de más sebo.\n* El exceso de sebo puede obstruir los poros de la piel, lo que puede conducir a la formación de acné.\n* La mayor actividad de las glándulas sebosas puede producir un exceso de producción de sebo, lo que puede obstruir los poros y causar acné."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué ocurre frecuentemente el acné durante la pubertad?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "Las ovejas convierten el pasto y el agua en leche, lana y más ovejas a través de un proceso complejo de digestión y metabolismo.\n\n**Fase 1: Digestión**\n\n* Las ovejas comen pasto y lo mezclan con saliva, que contiene amiloasa.\n* La amiloasa ayuda a romper los enlaces químicos en las moléculas de amilosa (un tipo de azúcar presente en el pasto).\n* Esto facilita la digestión de los nutrientes en el pasto.\n\n**Fase 2: Metabolización**\n\n* Los nutrientes de la comida se absorben en el intestino.\n* Estos nutrientes se utilizan para producir energía, tejidos y productos de desecho.\n* La energía se utiliza para mantener las funciones vitales de la oveja, mientras que los tejidos se utilizan para reparar y mantener el cuerpo.\n\n**Fase 3: Producción de leche**\n\n* Las ovejas producen leche a través de un proceso llamado lactancia.\n* Durante la lactancia, las glándulas mamarias de la oveja liberan leche a través de los telios.\n* La leche contiene lactosa, proteínas, grasas y otros nutrientes.\n\n**Fase 4: Producción de lana**\n\n* La lana es un subproducto de la producción de leche.\n* Cuando se separa la leche, queda un residuo sólido llamado escudero.\n* El escudero se puede usar para producir lana.\n\n**Fase 5: Crecimiento y reproducción**\n\n* Los nutrientes de la comida se utilizan para producir nuevas células y tejidos.\n* Esto permite que las ovejas crezcan y se reproduzcan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Cómo convierten las ovejas el pasto y el agua en leche, lana y más ovejas?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "%\n\nEl porcentaje de grasa corporal (PGC) se puede determinar mediante diferentes métodos:\n\n**1. Métodos de imagen:**\n\n* **Tomografía Computizada (TC):** Es el método más preciso y completo, pero es invasivo y costoso.\n* **Resonancia Magnética (RM):** Es menos invasivo que la TC, pero es más costoso.\n* **Ultrasonido:** Es un método menos costoso que los anteriores, pero es menos preciso.\n\n**2. Métodos no invasivos:**\n\n* **Bioimpedancia:** Es el método más común y fácil de usar, pero es menos preciso que los métodos de imagen.\n* **Caliperiometría:** Es un método más preciso que la bioimpedancia, pero es más invasivo y costoso.\n\nEl porcentaje de grasa corporal se estima tomando en cuenta el tamaño, la composición corporal y el estado físico de la persona."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Cómo se sabe el porcentaje de grasa corporal de una persona, o es algo que simplemente se estima?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "La parálisis del sueño (PS) es un fenómeno en el que las personas experimentan una sensación de parálisis física al despertar. A pesar de que es un fenómeno común, aún no se comprende completamente la ciencia detrás de la PS. Sin embargo, existen varias teorías y explicaciones:\n\n**Teoría neurofisiológica:**\n\n* La PS se explica como un error de procesamiento del cerebro al despertar.\n* Durante el sueño, el cuerpo se encuentra en un estado de hipersensibilidad, con conexiones neuronales más fuertes. Al despertar, este exceso de actividad se reduce y puede conducir a una sensación de parálisis.\n\n**Teoría del estado de transición:**\n\n* La PS se asocia a un estado de transición entre el sueño y el estado de vigilia.\n* Durante este estado, las funciones del cerebro están en un estado de cambio y pueden conducir a una pérdida de control muscular.\n\n**Teoría de la activación del sistema nervioso:**\n\n* La PS se puede desencadenar por un aumento de la actividad del sistema nervioso autónomo (SNA) al despertar.\n* Este aumento puede conducir a una disminución de la actividad muscular y una sensación de parálisis.\n\n**Factores de riesgo:**\n\n* Historia familiar de PS\n* Estres y ansiedad\n* Despertar de un sueño profundo\n* Niveles elevados de actividad del SNA\n\nAunque aún no se comprende completamente la ciencia detrás de la PS, estas teorías y explicaciones ofrecen algunas pistas sobre el fenómeno."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Cuál es la ciencia detrás de la parálisis del sueño?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "Considering the current rate of metal extraction and consumption, how is it possible that we haven't run out of metal resources yet?\n\n**Possible explanations:**\n\n* **Recycling:** Metals can be recycled and reused, reducing the need for new extraction.\n* **Technological advancements:** New technologies are emerging that allow for the production of metals from alternative sources, such as seawater or air.\n* **Resource estimation:** Our understanding of metal resources is constantly evolving, and new discoveries are being made.\n* **Substitution:** Metals can be substituted with other materials, reducing the demand for certain metals.\n\n\n**Which explanation(s) are most likely to contribute to the fact that we haven't run out of metal resources yet?**\n\n**A.** Recycling and technological advancements\n**B.** Resource estimation and substitution\n**C.** All of the above\n**D.** None of the above\n\n\n**Answer:** **C.**\n\n**Explanation:** The combination of recycling, technological advancements, and resource estimation, along with substitution, has enabled us to avoid a metal shortage so far. Recycling and technological advancements have reduced the need for new extraction, while resource estimation and substitution have expanded the availability of metal resources."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Cómo es que aún no nos hemos quedado sin metal?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "Esta afirmación es falsa. No hay evidencia que respalde la afirmación de que una empresa en Taiwán fabrica los mejores microchips del mundo y nadie más puede replicarlos."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi entendimiento es que una empresa en Taiwán fabrica los mejores microchips del mundo y nadie más puede replicarlos. ¿Cómo es eso posible?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "La respuesta es:\n\nLa sangre roja es la forma más eficiente de transportar oxígeno por todo el cuerpo. La mayoría de los animales tienen sangre roja porque es la mejor manera de asegurar que los tejidos y órganos reciben el oxígeno que necesitan para funcionar correctamente."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué casi todos los animales tienen sangre roja?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "La respuesta es:\n\nEl ejercicio y el culturismo, cuando se realizan de forma saludable, aumentan la capacidad del cuerpo para reparar y restaurar los tejidos dañados. \n\nAl aumentar la cantidad de masa muscular, el cuerpo se vuelve más eficiente en la producción de proteínas, que es el material de construcción de los tejidos. \n\nAdemás, el ejercicio y el culturismo mejoran la salud cardiovascular, lo que aumenta la eficiencia del cuerpo para transportar oxígeno y nutrientes a las células dañadas."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Si el envejecimiento es, en resumen, el agotamiento de la capacidad del cuerpo para repararse a sí mismo, ¿por qué el ejercicio y el culturismo (de manera saludable) no empeoran esa capacidad?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "* La empresa puede cobrar más por los productos en otros mercados.\n* La empresa puede aumentar las ventas de productos.\n* La empresa puede reducir los costos de producción.\n* La empresa puede ofrecer productos de menor calidad.\n\n**Respuesta:**\n\nLa respuesta correcta es **B: La empresa puede aumentar las ventas de productos.**\n\nAl vender sus productos con grandes descuentos, la empresa puede atraer a más compradores y aumentar las ventas de productos."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Cómo gana dinero una empresa al vender sus productos con grandes descuentos?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Causas de las náuseas matutinas:**\n\n* **Niveles hormonales elevados:** Durante el embarazo, los niveles de algunas hormonas, como el estrógeno y la progesterona, aumentan y pueden causar náuseas.\n* **Cambios en el sistema digestivo:** Las cambios en los niveles hormonales pueden afectar el movimiento de los alimentos a través del estómago y el intestino, lo que puede conducir a náuseas.\n* **Sensibilidad del estómago:** Algunas mujeres pueden tener un estómago más sensible a los cambios hormonales, lo que aumenta el riesgo de náuseas.\n* **Estres y estilo de vida:** El estrés, la ansiedad y los hábitos dietéticos pueden afectar los niveles hormonales y aumentar el riesgo de náuseas.\n\n\n**Por qué algunas mujeres experimentan náuseas matutinas y otras no:**\n\n* **Variaciones en los niveles hormonales:** Los niveles hormonales individuales pueden variar, lo que puede conducir a diferentes niveles de náuseas.\n* **Diferencias en la sensibilidad del estómago:** Algunas mujeres pueden tener un estómago más sensible a los cambios hormonales que otras.\n* **Factores genéticos:** Hay evidencia de que los factores genéticos pueden influir en la probabilidad de experimentar náuseas matutinas.\n\n**Por qué muchas mujeres solo lo tienen en el primer trimestre pero algunas lo experimentan durante todo el embarazo:**\n\n* **Niveles hormonales más altos en el primer trimestre:** Los niveles de algunos de los hormonas que pueden causar náuseas están más altos en el primer trimestre, lo que aumenta el riesgo de náuseas.\n* **Adaptación del cuerpo:** A medida que el cuerpo se adapta al embarazo, los niveles hormonales pueden estabilizarse y las náuseas pueden disminuir."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué algunas mujeres experimentan \"náuseas matutinas\" durante el embarazo y otras no? ¿Por qué muchas solo lo tienen en el primer trimestre pero algunas lo experimentan durante todo el embarazo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\nLa misma temperatura puede sentirse completamente diferente en distintos días o estaciones debido a:\n\n**1. Humedad del aire:**\n- Un aire más húmedo siente más cálido, ya que la humedad aumenta la cantidad de calor que se transfiere de la piel a la atmósfera.\n- Un aire más seco siente más frío, ya que la humedad es menor y se transfiere menos calor de la piel a la atmósfera.\n\n**2. Velocidad del viento:**\n- Un viento más fuerte puede hacer que se sienta más frío, ya que el aire en movimiento toma el calor de la piel.\n- Un viento más débil puede hacer que se sienta más cálido, ya que el aire en movimiento es menos efectivo para llevar el calor de la piel.\n\n**3. Radiación solar:**\n- La cantidad de radiación solar que llega a la superficie puede variar, lo que puede afectar la temperatura percibida.\n- Por ejemplo, un día nublado puede sentirse más frío que un día soleado.\n\n**4. Tiempo del día:**\n- La temperatura del cuerpo humano es más baja por la noche que durante el día.\n- Esto puede hacer que un día de 80°F (27°C) por la mañana se sienta más cálido que un día de 80°F por la tarde.\n\n**5. Estaciones:**\n- Las temperaturas promedio pueden variar según la estación del año.\n- Por ejemplo, es más cálido en verano que en invierno."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué la misma temperatura puede sentirse completamente diferente en distintos días o estaciones?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\nEl estrés puede provocar problemas de salud física de varias maneras:\n\n**1. Alteraciones del sistema inmunológico:**\n* El estrés puede debilitar el sistema inmunológico, haciéndole más vulnerable a enfermedades.\n* Puede aumentar la probabilidad de enfermedades autoinmunitarias.\n\n\n**2. Disfunciones del sistema digestivo:**\n* El estrés puede causar problemas como dolor de estómago, pérdida de apetito y cambios en los hábitos alimentarios.\n* Puede aumentar la producción de ácido clorhídrico, lo que puede dañar las células del estómago.\n\n\n**3. Alteraciones del ritmo cardíaco:**\n* El estrés puede aumentar la frecuencia cardíaca y la presión arterial.\n* Puede aumentar el riesgo de ataques cardíacos y accidentes cerebrovasculares.\n\n\n**4. Dolor y dolor de cabeza:**\n* El estrés puede aumentar la producción de hormonas que están involucradas en el dolor.\n* Puede causar dolor de cabeza y dolor generalizado.\n\n\n**5. Desregulación del sueño:**\n* El estrés puede causar problemas de sueño como ansiedad, depresión y dificultad para dormir.\n* La falta de sueño puede afectar el funcionamiento del cuerpo y aumentar el riesgo de enfermedades.\n\n\n**6. Desregulación de los niveles de cortisol:**\n* El cortisol es una hormona que se libera en respuesta al estrés.\n* Niveles elevados de cortisol pueden causar problemas de salud como aumento de la presión arterial, dolor y pérdida de memoria."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Cómo provoca el estrés problemas de salud física?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "No, el dolor no es un indicador completamente preciso del estado de las lesiones físicas.\n\n**Factores que pueden afectar la relación dolor-lesión:**\n\n* **Variabilidad del umbral de dolor:** las personas tienen diferentes umbrales de dolor, lo que significa que pueden experimentar dolor para niveles diferentes de lesión.\n* **Factores psicológicos:** el estado de ánimo, las emociones y los factores de estrés pueden afectar la experiencia del dolor.\n* **Factores biológicos:** la condición general del cuerpo, las condiciones subyacentes y los medicamentos utilizados pueden afectar la experiencia del dolor.\n* **Tipo de lesión:** diferentes tipos de lesiones pueden producir dolor de diferentes maneras.\n\n**El dolor puede:**\n\n* Ser un indicador de una lesión física.\n* No ser un indicador de una lesión física.\n\n**Es importante buscar atención médica si se experimenta dolor, pero no debe basarse únicamente en el dolor para determinar el estado de la lesión.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Es el dolor un indicador completamente preciso del estado de las lesiones físicas?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "Existen varias razones por las que los animales tienen diferentes esperanzas de vida.\n\n**1. Factores biológicos:**\n\n* Genética: algunos animales tienen genes que los hacen más susceptibles a enfermedades o condiciones que otros.\n* Metabolismo: los animales con metabolismos más rápidos tienden a tener vidas más cortas.\n* Anatomía: los animales con órganos internos más complejos pueden tener vidas más largas.\n\n\n**2. Factores ambientales:**\n\n* Nutrición: los animales que comen alimentos más ricos en nutrientes tienden a tener vidas más largas.\n* Calidad del agua: el agua de calidad baja puede causar enfermedades y reducir la esperanza de vida.\n* Clima: los animales que viven en climas más cálidos tienden a tener vidas más cortas.\n\n\n**3. Factores conductuales:**\n\n* Actividad física: los animales más activos tienden a tener vidas más cortas.\n* Dieta: los animales que comen alimentos más ricos en proteínas tienden a tener vidas más largas.\n* Comportamiento social: los animales que viven en grupos más grandes tienden a tener vidas más cortas.\n\n\n**4. Factores de riesgo:**\n\n* Enfermedades: algunos animales son más susceptibles a enfermedades que otros.\n* Ataques de depredadores: los animales que viven en áreas donde hay depredadores tienen una esperanza de vida más corta.\n* Desastres naturales: los animales que viven en áreas donde hay desastres naturales tienen una esperanza de vida más corta."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué tienen diferentes animales diferentes esperanzas de vida?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\nLos humanos y los animales pertenecen a especies diferentes, lo que significa que sus genética y fisiología son distintas. Los humanos no pueden quedar embarazadas de animales debido a que sus cuerpos no están adaptados para sostener un embarazo con un embrión de otro especie."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué los humanos no pueden quedar embarazados de animales?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "* A) Reparar los tejidos del cuerpo.\n* B) Procesar y almacenar recuerdos.\n* C) Regular los estados de ánimo.\n* D) Todas las opciones anteriores.\n\n\n**Respuesta:** D\n\n**Explicación:** El sueño es un proceso complejo que desempeña varias funciones importantes en el cuerpo y la mente. Ayuda a reparar los tejidos del cuerpo, procesar y almacenar recuerdos, regular los estados de ánimo y mantener la salud mental y física."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Cuál es la función del sueño?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "* La actividad de correr aumenta la demanda de oxígeno y la producción de dióxido de carbono.\n* La frecuencia cardíaca es un indicador de la capacidad de la corazón para bombear sangre.\n* Correr aumenta la cantidad de sangre que se envía a los músculos.\n\nBasándose en las afirmaciones anteriores, explica cómo la actividad de correr afecta la frecuencia cardíaca.\n\n**Explicación:**\n\nLa actividad de correr aumenta la demanda de oxígeno y la producción de dióxido de carbono. Esto significa que el cuerpo necesita más oxígeno y eliminar más dióxido de carbono. La frecuencia cardíaca es un indicador de la capacidad del corazón para bombear sangre. Correr aumenta la cantidad de sangre que se envía a los músculos. Para satisfacer la mayor demanda de oxígeno y eliminar el dióxido de carbono, el corazón necesita bombear más sangre por minuto. Esto aumenta la frecuencia cardíaca."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué la frecuencia cardíaca de un corredor es más baja que la de alguien que no corre?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "* Es un ritual cultural.\n* Es para aumentar la temperatura corporal.\n* Es para aliviar el dolor muscular.\n* Es para prevenir la deshidratación.\n\n**Respuesta:**\n\n* **Es para aumentar la temperatura corporal.**\n\nEl sudo es un efecto secundario de la aumento de la temperatura corporal. Al salir de la ducha, la temperatura corporal aumenta y el cuerpo necesita aumentar la temperatura para mantener la homeostasis."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué sudo más después de salir de la ducha?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\nCuando una bicicleta está en movimiento, la fuerza de Coriolis y las fuerzas de reacción de la superficie del suelo mantienen el equilibrio. Sin embargo, cuando la bicicleta está quieta, solo hay la fuerza de la gravedad que actúa sobre ella, lo que la hace difícil mantener en equilibrio."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué es fácil mantener el equilibrio en una bicicleta cuando está en movimiento pero casi imposible cuando está quieta?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\nComer alimentos quemados es malo para la salud debido a que:\n\n* **Contenido de toxinas:** Los alimentos quemados contienen toxinas, como los poliaromáticos policíclicos (PAHs), que se forman cuando los alimentos se calientan a altas temperaturas. Estas toxinas pueden causar problemas de salud, incluyendo cáncer, problemas del sistema digestivo y problemas del corazón.\n* **Oxidación de los nutrientes:** El proceso de quemar alimentos puede oxidar los nutrientes, lo que significa que se pierden algunos de los nutrientes esenciales que contiene el alimento.\n* **Inflamación:** Los alimentos quemados pueden causar inflamación en el cuerpo, lo que puede conducir a problemas de salud a largo plazo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué es malo para la salud comer alimentos quemados?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "* La ruido puede aumentar las niveles de cortisol, un hormona que estimula el estado de vigilia.\n* La ruido puede interferir con el proceso de ondas cerebrales que se necesitan para conciliar el sueño.\n* La ruido puede aumentar las actividades del cuerpo, como la frecuencia cardíaca y la presión arterial.\n* Todas las opciones anteriores.\n\n\n**La respuesta correcta es: Todas las opciones anteriores.**\n\nEl ruido puede aumentar las niveles de cortisol, interferir con el proceso de ondas cerebrales y aumentar las actividades del cuerpo, lo que hace más difícil conciliar el sueño en ambientes ruidosos."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué es más difícil conciliar el sueño en ambientes ruidosos?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Bloqueo de computadora:**\n\n* La computadora se vuelve inoperable o se congela.\n* Las aplicaciones y los juegos seotong o se congelan.\n* Los movimientos del mouse y los teclado se vuelven ineficientes o se congelan.\n\n**Posibles causas:**\n\n* Hardware fallo\n* Software fallo\n* Interrupciones del sistema\n* Sobrecarga de procesos\n\n**¿Qué sucede en el lado físico de la computadora cuando se bloquea?**\n\nAl bloquearse la computadora, hay un comportamiento errático en los componentes electrónicos. Específicamente:\n\n**1. Cache de instrucciones:**\n\n* La memoria caché de instrucciones se llena de instrucciones que aún no se han ejecutado.\n* Cuando se bloquea la computadora, las instrucciones almacenadas en el caché se vuelven inválidas o se convierten en referencias erróneas.\n\n**2. Unidad de control de la unidad (CPU):**\n\n* La CPU se encuentra en un estado incierto, con instrucciones incompletas o erróneas en el caché.\n* Puede conducir a un comportamiento errático y un bloqueo de la computadora.\n\n**3. Memoria:**\n\n* La memoria se puede corromper o perder la sincronización, lo que puede conducir a errores de datos y un bloqueo.\n\n**4. Interrupciones:**\n\n* Las interrupciones del sistema, como errores de hardware o software, pueden interrumpir el flujo de instrucciones y causar un bloqueo.\n\n**5. Cache de datos:**\n\n* El cache de datos se utiliza para almacenar resultados de cálculos complejos.\n* Cuando se bloquea la computadora, los datos almacenados en el caché pueden ser inválidos o desactualizados."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Qué es exactamente lo que pasa con mi computadora cuando se bloquea?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "* Su cuerpo se deshidraría y finalmente se desgastaría.\n* Su cuerpo se nutriría de los tejidos existentes.\n* Su cuerpo podría sobrevivir sin comida durante un tiempo.\n* Su cuerpo se volvería más fuerte.\n\n**Respuesta:**\n\nSu cuerpo podría sobrevivir sin comida durante un tiempo. Sin embargo, a largo plazo, la falta de nutrientes podría afectar el funcionamiento de sus órganos y sistemas. Su cuerpo se deshidraría y finalmente se desgastaría."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Qué le pasaría a mi cuerpo si estuviera atrapado en algún lugar con un suministro de agua confiable pero sin comida?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "Esta es una pregunta que ha estado en la mente de la humanidad desde que existen las primeras culturas. Hay varias teorías y creencias sobre el más allá, pero nadie sabe con certeza qué sucede después de morir.\n\n**Teorias y creencias:**\n\n* **Teoría del cielo y el infierno:** Esta teoría afirma que después de morir, los humanos van al cielo o al infierno, dependiendo de sus acciones en la vida.\n* **Teoría de la reencarnación:** Esta teoría sugiere que los humanos se reencarnan en nuevos cuerpos después de morir.\n* **Teoría de la evolución espiritual:** Esta teoría afirma que los humanos evolucionan espiritualmente después de la muerte.\n\n**Ciencia y investigación:**\n\n* Los científicos han realizado estudios sobre la muerte y el más allá, pero aún no hay evidencia científica definitiva sobre lo que sucede después de morir.\n* Hay estudios que indican que los humanos pueden tener experiencias transitorias después de la muerte, como sueños o visiones.\n\n**Conclusión:**\n\nLa naturaleza del más allá es un misterio, y es probable que nunca sabremos con certeza qué sucede después de morir. Sin embargo, existen varias teorías y creencias sobre el asunto, y los estudios científicos pueden proporcionar pistas sobre las experiencias transitorias que pueden tener los humanos después de la muerte."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Alguna vez sabremos qué nos sucede después de morir?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "Los huesos no pueden regenerarse por completo, ya que el proceso de regeneración es complejo y requiere tiempo. Sin embargo, los huesos pueden curarse y volver a su estado original después de una lesión."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué no pueden regenerarse los huesos?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**El oro es tan valioso por:**\n\n* **Raraidad:** solo hay un pequeño suministro de oro en la tierra, lo que aumenta su valor.\n* **Durabilidad:** el oro es un metal muy duro y resistente a la corrosión, lo que significa que puede durar para siempre.\n* **Elegancia:** el oro tiene un brillo y un tono metálicos muy especiales que lo convierten en un material muy elegante.\n* **Inmutabilidad:** el oro no se deforme ni se oxida fácilmente, lo que significa que puede usarse y almacenarse sin que se deteriore.\n\n**El oro es más valioso que la plata porque:**\n\n* **Raraidad:** el oro es más raro que la plata.\n* **Durabilidad:** el oro es más duro y resistente a la corrosión que la plata.\n* **Elegancia:** el oro tiene un brillo y un tono metálicos más especiales que la plata."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué es el oro tan valioso? ¿Y por qué es más valioso que otros metales, como la plata?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**La respuesta:**\n\n**Las tierra emergentes y los procesos geológicos** mantienen los océanos a raya de inundar la Tierra.\n\n* Las **tierra emergentes**, como los continentes y las islas, crean un barriere físico que evita que los océanos se expandan y cubran la tierra.\n* Los **procesos geológicos**, como la subducción y la formación de montañas, mantienen la estructura y el tamaño de los océanos y las tierra emergentes en un equilibrio dinámico."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Qué impide que los océanos inunden la Tierra?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "Los teléfonos inteligentes utilizan tecnologías de detección de movimiento y ubicación para determinar cuándo estás durmiendo. La mayoría de los teléfonos utilizan una combinación de los siguientes métodos:\n\n* **Detección de movimiento:** El teléfono detecta cambios en la posición y el movimiento del cuerpo, como los movimientos respiratorios y los cambios en la presión arterial.\n* **Detección de ubicación:** El teléfono utiliza GPS o Wi-Fi para determinar tu ubicación y detectar si estás en un lugar donde es probable que estés durmiendo, como tu cama o dormitorio.\n\nAdemás de estos métodos, algunos teléfonos inteligentes también utilizan sensores adicionales, como un acelerómetro o un giroscopio, para detectar movimientos más específicos relacionados con el sueño."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Cómo sabe mi teléfono cuándo estoy durmiendo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\nLa percepción del gusto y el olfato es compleja y puede ser influenciada por varios factores, incluyendo la experiencia previa, las emociones y las características físicas de los alimentos.\n\n* **Diferencias en la percepción:** Las personas pueden tener diferentes experiencias y reacciones a los mismos sabores y aromas. Lo que parece agradable a alguien puede parecer desagradable a otro.\n* **Efectos de la experiencia previa:** La experiencia previa con un sabor o olor puede afectar la percepción actual. Por ejemplo, alguien que ha comido un alimento específico puede tener una reacción diferente a otro que nunca haya probado.\n* **Emociones:** Las emociones pueden influir en la percepción del sabor y el olor. Por ejemplo, los sabores fuertes o los aromas agradables pueden estar asociados a emociones positivas como la alegría o el amor.\n* **Características físicas:** Algunos alimentos tienen características físicas que pueden afectar la percepción del sabor y el olor. Por ejemplo, los alimentos con un sabor fuerte o un olor intenso pueden ser más difíciles de digerir o pueden causar reacciones alérgicas."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Si la mayoría de lo que percibimos al probar es determinado por el olfato, ¿por qué hay cosas que huelen bien pero saben mal?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\nEl jabón elimina la grasa y las proteínas de las manos, pero no puede eliminar la fragancia porque la fragancia es un compuesto volátil que se evapora fácilmente."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué el jabón puede lavar casi cualquier cosa de tus manos pero no elimina su fragancia de ti?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "Los animales pueden percibir un terremoto que está por ocurrir a través de varios sentidos, como el oído, el olfato y el sentido del equilibrio.\n\n**Oído:**\n\n* Los animales pueden escuchar los movimientos y los sonidos de los objetos en movimiento durante un terremoto.\n* Los sonidos de los objetos en movimiento pueden ser tan fuertes como para causar daños físicos.\n\n**Olfato:**\n\n* Los animales pueden detectar los cambios en la composición del aire durante un terremoto.\n* Estos cambios pueden indicar la presencia de gases liberados por el suelo en movimiento.\n\n**Sentido del equilibrio:**\n\n* Los animales tienen un sentido del equilibrio interno que les permite mantener la posición y el equilibrio.\n* Este sentido puede detectar los movimientos del suelo debajo de ellos, indicando la probabilidad de un terremoto.\n\nAdemás de estos sentidos, los animales también pueden percibir un terremoto a través de sus movimientos y comportamiento. Por ejemplo, algunos animales pueden huir de un área con movimiento del suelo, mientras que otros pueden permanecer en un lugar seguro."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Cómo perciben los animales un terremoto que está por ocurrir?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "La saliva es un líquido producido por las glándulas salivas para ayudar a digerir los alimentos y mantener la salud de los dientes. Cuando bostezas, la presión de la garganta aumenta y puede causar que la saliva se acumule en la boca."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué a veces mi boca rocía saliva cuando bostezo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Control y creación artificial del clima**\n\nEl control y la creación artificial del clima es una tecnología en desarrollo que tiene el potencial de transformar la gestión de los recursos hídricos, la agricultura y la energía.\n\n**Métodos de control:**\n\n**1. Circulación del aire:**\n- Instalación de sistemas de bombeo y enfriamiento para manipular la temperatura y humedad del aire.\n- Creación de zonas de clima controlados.\n\n**2. Manipulación de la humedad:**\n- Instalación de sistemas de humidificación y deshumidificación para ajustar la humedad relativa del aire.\n- Control de la condensación y la lluvia.\n\n**3. Control de la radiación:**\n- Instalación de reflectores y absorbentes de radiación para controlar la cantidad de calor que ingresa y sale de un área.\n- Modificación de las propiedades del suelo para controlar la absorción y liberación de calor.\n\n**4. Ingeniería de la tierra:**\n- Creación de áreas verdes y de bosque para aumentar la biomasa y capturar el dióxido de carbono.\n- Instalación de sistemas de almacenamiento de carbono.\n\n**Puntos clave:**\n\n- El control y la creación artificial del clima aún están en desarrollo y hay desafíos técnicos y económicos.\n- Los métodos de control disponibles tienen un impacto limitado en las condiciones climáticas a gran escala.\n- Las actividades humanas, como las emisiones de gases de efecto invernadero, siguen siendo los principales factores que influyen en el cambio climático.\n\n**Posibles aplicaciones:**\n\n- Control de las condiciones climáticas en los cultivos.\n- Reducción de los daños causados por las tormentas.\n- Mejora de la eficiencia de la energía.\n- Creación de zonas de clima más agradables.\n\n**Limitaciones:**\n\n- La tecnología aún es joven y no es capaz de controlar completamente el clima.\n- Hay preocupaciones ambientales sobre los posibles impactos del control del clima.\n- Las condiciones climáticas complejas pueden hacer que el control sea difícil."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Se puede controlar o crear artificialmente el clima? De ser así, ¿hasta qué punto y cómo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Cuando le arrancas una hoja a una planta, le estás causando estrés y dolor.** La hoja es un órgano vital para la planta, ya que es responsable de la fotosíntesis, que es el proceso por el cual las plantas producen alimentos.\n\n**El estrés causado por la pérdida de una hoja puede conducir a:**\n\n* Reducción de las tasas de crecimiento\n* Reducción de las cosechas\n* Débil estado general de la planta\n\n**Sin embargo, las plantas tienen la capacidad de recuperarse de la pérdida de una hoja.** La planta puede producir nuevas hojas para reemplazar las que se han perdido.\n\n**El proceso de recuperación puede tomar tiempo, dependiendo de:**\n\n* El tipo de planta\n* La tamaño de la hoja que se ha perdido\n* Las condiciones ambientales\n\n**En general, las plantas pueden adaptarse a la pérdida de una hoja y seguir creciendo y prosperando.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Qué le sucede a una planta cuando le arrancas una hoja? ¿La estás lastimando y es capaz la planta de recuperarse?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "* La actividad mental se reduce y se vuelve menos eficiente.\n* La concentración se mejora y se vuelve más fácil.\n* La actividad mental se intensifica y se vuelve más difícil.\n* La actividad mental se mantiene igual.\n\n**Respuesta:**\n\n* La actividad mental se intensifica y se vuelve más difícil.\n\nAlrededor del bedtime, nuestros cerebros están más propensos a procesar y almacenar información, lo que puede conducir a un mayor pensamiento y dificultad para dormir."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué tendemos a pensar mucho antes de dormir?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Cuando cortamos las cebollas, liberan un gas llamado etenio que es responsable de las lágrimas.**\n\nEl etenio se libera al romper las células de la cebolla y se combina con el agua de la superficie de la cebolla para formar ácido etenio. El ácido etenio es un irritante que se une a los receptores nerviosos de las lágrimas y desencadena la producción de lágrimas.\n\n**Hay algunas maneras de prevenir las lágrimas al cortar cebollas:**\n\n* **Enfriar las cebollas antes de cortarlo.** El enfriamiento reduce la cantidad de etenio liberado.\n* **Cortar las cebollas bajo agua.** El agua absorbe el etenio y lo evita de llegar a los ojos.\n* **Utilizar un máscara de plástico o una banda alrededor de la nariz y la boca.** Esto crea un barriere físico que evita que el etenio llegue a los ojos.\n* **Cortar las cebollas en un lugar bien ventilado.** La buena ventilación ayuda a eliminar el etenio de la habitación."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Qué nos hace llorar cuando cortamos cebollas? ¿Hay alguna manera de prevenirlo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "* A la mayoría de los animales domésticos les gusta que los acaricien porque les ayuda a combatir los ácaros y las pulgas.\n* A la mayoría de los animales domésticos les gusta que los acaricien porque les da un sentido de seguridad y tranquilidad.\n* A la mayoría de los animales domésticos les gusta que los acaricien porque les ayuda a prevenir enfermedades.\n\n**La respuesta correcta es:** A la mayoría de los animales domésticos les gusta que los acaricien porque les ayuda a combatir los ácaros y las pulgas.\n\nLos acaricidas ayudan a combatir los ácaros y las pulgas, que pueden causar problemas de salud en los animales domésticos."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué a la mayoría de los animales domésticos les gusta que los acaricien?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Necesidad de actualizar el software:**\n\n* **Seguridad:** los ataques cibernéticos y las vulnerabilidades del software pueden exponer los datos y las operaciones. Las actualizaciones de seguridad corrigen estas vulnerabilidades y mejoran la protección.\n* **Compatibilidad:** el desarrollo de nuevas tecnologías y funciones puede hacer que el software obsoleto sea incompatible con los nuevos dispositivos, sistemas o aplicaciones. Las actualizaciones de compatibilidad mejoran la capacidad del software para trabajar con otros elementos del sistema.\n* **Mejoras:** las actualizaciones de software pueden incluir nuevas funciones, mejoras en el rendimiento y correcciones de errores.\n* **Estabilidad:** las nuevas versiones del software pueden tener mejor estabilidad y menos errores que las versiones antiguas.\n\n\n**Si no se actualizan el software:**\n\n* **Vulnerabilidades:** el software obsoleto es más probable que contenga vulnerabilidades que puedan ser explotadas por los cibercriminales.\n* **Falta de compatibilidad:** el software obsoleto puede ser incompatible con nuevos dispositivos o sistemas, lo que puede afectar la eficiencia y la productividad.\n* **Falta de nuevas funciones:** el software obsoleto carece de las nuevas funciones y mejoras disponibles en las últimas versiones.\n* **Problemas de seguridad:** las versiones antiguas del software pueden tener errores de seguridad que pueden exponer los datos y las operaciones."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué necesitamos actualizar constantemente el software? ¿Qué pasa si no lo hago?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Respuesta:**\n\nNo, los barcos en sí mismos no causan cambios en el nivel del océano. Sin embargo, la actividad humana relacionada con los barcos, como las operaciones de carga y descarga, puede afectar el nivel del mar localmente."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Causan los barcos que el nivel del océano sea más alto de lo que normalmente sería?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "* La estructura del cerebro es compleja y organizada de forma precisa.\n* Las células del cerebro tienen una función específica y no pueden ser reemplazadas por otras células.\n* Las células del cerebro tienen un alto contenido de información y es difícil copiar o restaurar la información contenida.\n\n¿Qué implica esto para las posibles tratamientos de enfermedades del cerebro?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Casi todas las células de nuestro cuerpo son capaces de regenerarse. ¿Por qué las células del cerebro son diferentes?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "**Posibles razones:**\n\n* **Evolución y resistencia:** Las pulgas han evolucionado y desarrollado resistencia a los insecticidas.\n* **Ciclo de vida complejo:** Las pulgas tienen un ciclo de vida complejo con diferentes etapas, lo que requiere diferentes estrategias de control.\n* **Poblaciones dispersas:** Las pulgas pueden dispersarse fácilmente a través de diferentes huéspedes o ambientes.\n* **Factores ambientales:** Los factores ambientales, como la temperatura y la humedad, pueden afectar la eficacia de los insecticidas.\n* **Posibles efectos secundarios:** Algunos insecticidas pueden tener efectos secundarios negativos en los animales o el medio ambiente.\n\n**En resumen, es difícil exterminar completamente a las pulgas debido a su capacidad de evolución, resistencia a los insecticidas, ciclo de vida complejo y factores ambientales.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Por qué no podemos exterminar completamente a las pulgas?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.spanish:gemma 7b",
+          "language": "Spanish",
+          "translations": {
+            "Spanish": {
+              "language": "Spanish",
+              "text": "El sueño es esencial para la salud y el funcionamiento normal del cuerpo. La falta de sueño puede afectar negativamente la salud, provocando problemas como la disminución de las funciones inmunitarias, el aumento de las enfermedades y la disminución de la concentración. Sin embargo, no hay estudios que demuestren que la falta de sueño pueda matar a alguien."
+            }
+          },
+          "prompting_state": {
+            "prompt": "¿Cómo puede la falta de sueño matar a alguien?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

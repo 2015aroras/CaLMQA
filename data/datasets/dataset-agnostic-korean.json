@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**답변:**\n\n비행기 앞에서 뒤로 탑승시키는 이유는 다음과 같습니다.\n\n* **중앙에 가진 무게 분포:** 비행기 앞부분은 날개과 엔진 등 비교적으로 무거운 구성 요소를 포함합니다. 이러한 무게 분포는 비행기의 안전성을 위협할 수 있습니다. 따라서 비행기 앞에서 뒤로 탑승시키는 것은 중앙에 가진 무게를 분산하여 비행기의 안전성을 향상시킵니다.\n* **비행기의 동적 성능:** 비행기 앞에서 뒤로 탑승시키는 것은 비행기의 동적 성능을 향상시킵니다. 비행기 앞부분에 사람들이 탑승하면 비행기의 중앙 부분이 가벼워지고, 이는 비행기가 더 잘 회전할 수 있도록 합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "비행기를 앞에서 뒤로 탑승시키는 이유는 무엇인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "* **혈액 응고:** 흡연은 혈액 응고를 증가시켜 심근경색증과 같은 심혈관 질환의 위험을 높입니다.\n* **혈관 협착:** 흡연은 혈관을 협착하여 순환을 방해하고 산소 공급을 제한합니다.\n* **심근 손상:** 흡연은 심근 세포에 손상을 입히고 심근 기능을 저하시킵니다.\n* **염증:** 흡연은 염증 반응을 유발하여 심장 건강에 해롭습니다.\n* **산화물 손상:** 흡연은 산소와 결합하여 독성 물질을 생성하고 이는 심장 건강에 해롭습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "담배가 심장에 왜 그렇게 해로운가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "* **iOS 기기:** 최근 삭제된 항목은 '최근 삭제된 항목' 폴더에 저장됩니다. 이 폴더는 '내 문서' 앱에서 찾을 수 있습니다.\n* **Mac:** 최근 삭제된 항목은 'Trash' 폴더에 저장됩니다. 이 폴더는 macOS Finder에서 찾을 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "아이폰에서 '최근 삭제된 항목'에서 삭제된 파일이나 사진은 어디로 가나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**근력과 탄수화물 저장**\n\n근력은 근육에서 ATP를 생산하여 운동을 수행할 수 있는 에너지를 제공합니다. 탄수화물은 근력을 제공하고 운동 시간을 연장하는 데 도움이 됩니다.\n\n**고지방 상태**\n\n고지방 상태에서 근력은 감소하고, 탄수화물 저장은 증가합니다. 이는 운동 시 근력을 제공하고 운동 시간을 연장하는 데 도움이 됩니다.\n\n**호르몬**\n\n호르몬은 근력과 성능에 영향을 줄 수 있습니다. 예를 들어, 에스트로겐은 근력을 감소시키고, 테스트로겐은 근력을 증가시킵니다.\n\n**피지컬 트레이닝**\n\n피지컬 트레이닝은 근력과 성능을 향상시키는 데 도움이 됩니다. 트레이닝 프로그램은 근력과 성능을 향상시키는 다양한 기술을 포함합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "달리기를 하고 나서 뛰면 왜 더 높이 뛸 수 있나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "모유 분유는 일반적으로 모유 자체만 제공하고, 항체나 다른 이점들을 포함하지 않습니다. 이는 모유 분유의 목적이 모유 자체를 제공하고, 추가적인 성분을 포함하여 위험을 높이는 것을 피하기 위해입니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "왜 모유의 항체나 다른 이점들을 분유에 추가할 수 없나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "\n\n**와이파이 제공업체는 인터넷 속도 제한을 조절하기 위해 다음 방법을 사용합니다.**\n\n**1. MAC 주소 기반 제한:**\n* 제공업체는 고객의 MAC 주소를 기반으로 속도 제한을 설정할 수 있습니다.\n* 이 방법은 특정 사용자를 식별하여 속도 제한을 설정하거나 해제할 수 있습니다.\n\n\n**2. IP 주소 기반 제한:**\n* 제공업체는 고객의 IP 주소를 기반으로 속도 제한을 설정할 수 있습니다.\n* 이 방법은 특정 사용자를 식별하여 속도 제한을 설정하거나 해제할 수 있습니다.\n\n\n**3. 데이터 계획 기반 제한:**\n* 제공업체는 고객의 데이터 계획에 제한을 설정할 수 있습니다.\n* 이 방법은 데이터 계획에 포함된 데이터 양을 초과하여 속도 제한을 설정합니다.\n\n\n**4. 시간 기반 제한:**\n* 제공업체는 특정 시간대에 속도 제한을 설정할 수 있습니다.\n* 이 방법은 특정 시간대에 데이터 사용량을 제한하여 속도 제한을 설정합니다.\n\n\n**5. 사용자 기반 제한:**\n* 제공업체는 사용자 요청에 따라 속도 제한을 설정할 수 있습니다.\n* 이 방법은 사용자가 특정 속도 제한을 요청하면 제공업체가 설정합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "제 인터넷 속도 제한을 와이파이 제공업체가 어떻게 조절하나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "* 팔꿈치 부위는 손과 팔의 연결부에 위치하여 혈액 채취 시 손과 팔의 움직임을 최소화하여 정확한 혈액 검사 결과를 얻을 수 있습니다.\n* 팔꿈치 부위는 피부가 가늘고 두께가 얇아 혈액 채취 시 피부 자극을 최소화하여 환자의 불편을 최소화할 수 있습니다.\n\n위 두 가지 이유 중 어느 하나가 주된 이유와 가장 유사합니다?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "팔꿈치 부위에서 혈액 채취를 주로 하는 이유는 무엇인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "<br>\n**답:**\n\nTV 스튜디오 카메라는 휴대폰 크기로 축소된 기술과는 별개로 발전했습니다. TV 스튜디오 카메라는 여전히 고해상도 영상을 제공하고, 휴대폰 카메라보다 더 많은 기능과 성능을 제공합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "우리가 같은 기술이 이제 휴대폰 크기로 축소되었음에도 불구하고 여전히 거대한 TV 스튜디오 카메라를 사용하는 이유는 무엇인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "* 지구의 핵은 매우 높은 압력과 온도에서 구성되어 직접 접근이 불가능합니다.\n* 그러나 지구 물리학자들은 다양한 방법으로 핵의 온도를 추정합니다.\n\n**1. 지진파 분석**\n\n* 지진파는 지구 핵의 진동을 전달합니다.\n* 분석한 지진파의 속도와 진동 패턴을 통해 핵의 온도를 추정합니다.\n\n\n**2. 자기장 연구**\n\n* 지구 자기장은 지구 핵의 활동에 영향을 미치습니다.\n* 자기장의 변화율과 강도를 통해 핵의 온도를 추정합니다.\n\n\n**3. 지구 물리 모델링**\n\n* 지구 물리학자들은 지구 핵의 구성 요소와 물리 현상을 모델링하여 핵의 온도를 예측합니다.\n\n\n**4. 우주선 자료 분석**\n\n* 우주선은 지구 핵에 도달하여 직접 온도를 측정할 수 없지만, 핵에서 방출되는 열과 입자를 분석하여 핵의 온도를 추정합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "지구의 핵이 얼마나 뜨거운지 어떻게 알 수 있나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "\n\n**답변:**\n\n여드름은 청소년기 특히 성장기의 여드름 피부에 흔히 발생합니다. 이는 여러 요인이 복합적으로 작용하여 발생합니다.\n\n**1. 호르몬 변화:**\n* 청소년기 동안 성장과 관련하여 호르몬 수준이 급격히 변합니다.\n* 이 호르몬 변화는 여드름 피부의 기름막 세포 성장과 분화를 자극하여 여드름 발생 가능성을 높입니다.\n\n\n**2. 기름막 세포 과다 성장:**\n* 청소년기 동안 기름막 세포가 과다하게 성장하여 여드름 피부의 기름막 두께가 두꺼워지고 여드름 발생 가능성이 높아집니다.\n\n\n**3. 오염물 쌓임:**\n* 청소년기 동안 여드름 피부의 기름막 세포는 오염물을 쌓아들이기 쉽습니다.\n* 이 오염물은 기름막 세포의 성장과 분화를 방해하고 여드름 발생 가능성을 높입니다.\n\n\n**4. 스트레스:**\n* 스트레스는 여드름 피부의 기름막 세포 성장과 분화에 영향을 줄 수 있습니다.\n\n\n**5. 식단:**\n* 일부 식단은 여드름 피부의 기름막 세포 성장과 분화에 영향을 줄 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "사춘기에 여드름이 자주 발생하는 이유는 무엇인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**양의 변환**\n\n양은 다른 단위로 변환할 수 있습니다. 이 과정은 단위 간의 관계를 이해하고 공식을 사용하여 수행합니다.\n\n**양의 단위 변환 공식:**\n\n$$Q_1 = Q_2 \\times \\frac{U_1}{U_2}$$\n\n여기서:\n\n* Q1 = 새로운 양\n* Q2 = 초기 양\n* U1 = 새로운 단위\n* U2 = 초기 단위\n\n**양의 우유**\n\n양은 우유하여 다른 단위로 변환할 수 있습니다. 예를 들어, 1 리터는 1000 밀리리터로 우유할 수 있습니다.\n\n**양의 물**\n\n양은 물을 우유하여 다른 단위로 변환할 수 있습니다. 예를 들어, 1 그램은 1 밀리리터의 물로 우유할 수 있습니다.\n\n**양모**\n\n양모는 다른 단위로 변환할 수 있습니다. 예를 들어, 1 그램은 1000 섬으로 변환할 수 있습니다.\n\n**더 많은 양**\n\n양은 더 많은 양으로 변환할 수 있습니다. 예를 들어, 100 그램은 1 kilogram으로 변환할 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "양은 어떻게 풀과 물을 우유, 양모, 그리고 더 많은 양으로 변환하나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "% 체지방률 = (체중 - 근육량) / 체중 * 100\n\n이 공식을 사용하여 체지방률을 계산할 수 있습니다. 하지만, 이 공식은 정확하지 않습니다. 근육량을 정확하게 측정하기 위해서는 비교적 비침습적 검사(DXA)나 체지방 분석기기(BIA)와 같은 특수 장비가 필요합니다.\n\n따라서, 일반적으로는 체지방률을 추정하는 것이 좋습니다. 체지방률을 추정하는 간단하고 빠른 방법으로는 다음과 같은 것이 있습니다.\n\n* **체형 관찰:** 체형은 체지방률과 상관관계가 있지만, 정확하지 않습니다.\n* **복근둘레:** 복근둘레는 체지방률과 약간 상관관계가 있지만, 다른 요인에 영향을 받습니다.\n* **피부 두께:** 피부 두께는 체지방률과 약간 상관관계가 있지만, 정확하지 않습니다.\n\n따라서, 체지방률을 정확하게 측정하려면 특수 장비가 필요합니다. 하지만, 일반적으로는 체지방률을 추정하는 것이 좋습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "사람들은 어떻게 자신의 체지방률을 알 수 있나요, 아니면 그냥 추정하나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "수면 마비는 무슨 요인에 영향을 받는지 이해하는 것이 중요합니다.\n\n**수면 마비의 과학적 원리:**\n\n**1. 뉴런 활동의 감소:**\n* 수면 동안 뉴런 활동이 감소하여 정보 처리 및 기억 기능이 저하됩니다.\n* 이는 수면 마비의 주요 원인 중 하나입니다.\n\n**2. 기억 과정의 영향:**\n* 수면 동안 기억 과정이 영향을 받습니다.\n* 기억 정보를 정확하게 회상하거나 새로운 정보를 학습하는 데 어려움을 겪습니다.\n\n**3. 운동 기능의 영향:**\n* 수면 마비는 운동 기능에 영향을 줄 수 있습니다.\n* 수면 후 운동 기능이 저하되거나 정확하게 제어하기 어렵습니다.\n\n**4. 스트레스 및 감정:**\n* 스트레스, 우울, 분노 등 감정 상태는 수면 마비의 위험성을 높일 수 있습니다.\n\n**5. 영양 및 생리학적 요인:**\n* 영양 섭취, 생리학적 상태, 약물 사용 등 영양 및 생리학적 요인도 수면 마비에 영향을 줄 수 있습니다.\n\n**요인 영향:**\n\n* **시간:** 수면 시간과 품질은 수면 마비의 위험성에 영향을 줄 수 있습니다.\n* **연령:** 연령에 따라 수면 마비의 위험성이 달라질 수 있습니다.\n* **개인 차이:** 개인의 생리학적 상태, 기억 스타일, 운동 기능 등 개인 차이도 수면 마비의 발생에 영향을 줄 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "수면 마비의 과학적 원리는 무엇인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "금속은 매우 유용하고 다양한 용도에 사용할 수 있습니다. 그러나 금속을 다 쓰지 않은 이유에 대해서는 여러 가지 설명이 있습니다.\n\n**1. 금속의 가격:** 금속은 비교적 비싼 물질입니다. 따라서 많은 사람들은 금속을 절약하고 다른, 저렴한 물질을 사용합니다.\n\n**2. 금속의 부식:** 금속은 공기 중에서 부식하여 손상될 수 있습니다. 이는 금속을 사용하기 위해 특별한 조건과 보호막이 필요하다는 것을 의미합니다.\n\n**3. 금속의 가공:** 금속을 가공하고 제작하는 과정은 비교적 복잡하고 비용이 많이 드립니다.\n\n**4. 금속의 대체물:** 금속을 대체할 수 있는 다른 물질들이 존재합니다. 이러한 물질들은 금속보다 저렴하고 더 간단하게 사용할 수 있습니다.\n\n따라서 금속을 다 쓰지 않은 이유는 금속의 가격, 부식, 가공, 그리고 대체물 등 다양한 요인이 복합적으로 작용하기 때문입니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "우리는 어떻게 아직까지 금속을 다 쓰지 않았나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "* **대만 회사의 기술 독점:** 대만 회사는 마이크로칩 제조에 필요한 특수 기술과 설비를 독점하고 있으며, 다른 회사가 이를 복제할 수 없도록 하기 위해 특수 기술과 설비에 대한 보안을 강화했습니다.\n* **대만 정부의 지원:** 대만 정부는 마이크로칩 제조를 지원하기 위해 특수 기술과 설비에 대한 연구 개발 예산을 제공하고 있으며, 이를 통해 대만 회사가 다른 회사보다 우위를 확보했습니다.\n\n하지만 이 설명은 정확하지 않습니다. 현재 세계에서 가장 뛰어난 마이크로칩을 제조할 수 있는 회사는 여러 개 있으며, 그 기술은 다른 회사들에 복제 가능합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "제가 알기로는 대만의 한 회사만이 세계에서 가장 뛰어난 마이크로칩을 제조할 수 있고, 다른 어떤 회사도 그것을 복제할 수 없다고 합니다. 어떻게 그런 일이 가능한가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "동물들의 피는 사람들처럼 적색이 아니고, 대부분 빨간색입니다. 이는 동물들의 피에 포함된 헤모글로빈 단백질의 특성에 기인합니다. 헤모글로빈은 산소를 운반하는 역할을 하며, 동물들의 피에서 적색보다는 빨간색으로 보입니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "대부분의 동물들의 피가 왜 빨간색인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": " \n**답:**\n\n건강하게 운동하고 근육을 키우는 것은 근본적으로 몸이 스스로를 수리하는 능력을 향상시키는 데 도움이 될 수 있습니다. 연구에 따르면 운동은 근력과 유연성을 향상시키고, 이는 근본적으로 몸이 손상을 수리하고 회복하는 능력을 향상시킵니다.\n\n건강한 운동은 또한 면역 체계를 강화하고 스트레스를 감소시켜 건강 상태를 개선하고 질병 예방에 도움이 됩니다.\n\n따라서 건강하게 운동하고 근육을 키우는 것은 근본적으로 몸이 스스로를 수리하는 능력을 향상시키고 질병 예방 및 건강 개선에 도움이 됩니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "노화가 근본적으로 몸이 스스로를 수리하는 능력이 고갈되는 것이라면, 왜 건강하게 운동하고 근육을 키우는 것이 그 능력을 더 악화시키지 않나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "* 할인 상품의 가격을 낮추는 것\n* 상품의 가격을 절약하여 판매하는 것\n* 상품의 가격을 할인하여 판매하는 것\n\n\n**답: **\n\n3가지 방법이 있습니다.\n\n* **할인 상품의 가격을 낮추는 것** - 할인 상품의 가격을 낮추는 것은 가장 간단하고 직관적인 방법입니다. 하지만, 가격을 너무 낮추면 상품의 가치를 손상하고, 이윤을 얻기 위해서는 적절한 가격을 설정해야 합니다.\n* **상품의 가격을 절약하여 판매하는 것** - 상품의 가격을 절약하여 판매하는 것은 할인 상품의 가격을 낮추는 것보다 더 높은 할인율을 제공할 수 있습니다. 하지만, 상품의 가격을 절약하여 판매하면 상품의 가치를 손상할 위험이 높아지므로, 적절한 가격 절약 정책을 설정해야 합니다.\n* **상품의 가격을 할인하여 판매하는 것** - 상품의 가격을 할인하여 판매하는 것은 할인 상품의 가격을 낮추는 것보다 더 높은 할인율을 제공할 수 있고, 상품의 가치를 손상하지 않으며 이윤을 얻을 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "회사가 제품을 큰 할인으로 판매하면 어떻게 돈을 벌 수 있나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**아침 메스꺼움**은 임신 중 일부 여성들이 아침 식사를 하거나 식단을 변경하더라도 발생하는 메스꺼움, 구토, 식욕 저하를 일컫습니다.\n\n**아침 메스꺼움의 원인:**\n\n* **호르몬 변화:** 임신 중 여성의 체내율이 증가하고, 에스트로겐과 프로게스테론과 같은 호르몬의 변화는 식욕 저하, 메스꺼움, 구토를 일으킬 수 있습니다.\n* **소화기계 변화:** 임신 중 여성의 위와 식도가 팽창하고, 소화기계 기능이 약화하여 아침 식사 후 메스꺼움, 구토가 발생할 수 있습니다.\n* **피로:** 임신 중 여성의 체력이 증가하고, 피로는 식욕 저하, 메스꺼움, 구토를 일으킬 수 있습니다.\n\n**아침 메스꺼움의 발생 빈도:**\n\n* 첫 삼분기에 가장 흔하며, 이 기간 동안 80% 이상의 임신 여성들이 아침 메스꺼움을 경험합니다.\n* 임신 기간 내내 겪는 경우는 20% 정도입니다.\n\n**아침 메스꺼움의 예방:**\n\n* 식단을 변경하여 단순한 음식으로 변경\n* 식사 간격을 늘리기\n* 충분한 수면을 취하기\n* 스트레스를 최소화하기"
+            }
+          },
+          "prompting_state": {
+            "prompt": "임신 중 일부 여성들이 왜 \"아침 메스꺼움\"을 겪고 다른 여성들은 겪지 않는 걸까요? 왜 많은 여성들은 첫 삼분기에만 이 증상을 겪고, 일부는 임신 기간 내내 겪는 걸까요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**답:**\n\n**1. 기후 조건:**\n* 온도, 습도, 풍속, 강우량과 같은 기후 조건은 감각 온도를 영향을 줄 수 있습니다.\n* 습한 날에는 공기가 포화되어 열을 보유하고, 건조한 날에는 공기가 건조하여 열을 보유하기가 어렵습니다.\n\n**2. 피부 상태:**\n* 피부의 수분 상태, 두께 및 기타 요인은 감각 온도를 영향을 줄 수 있습니다.\n* 건조한 피부는 열을 보유하기가 더 잘하고, 습한 피부는 열을 보유하기가 더 잘 않습니다.\n\n**3. 의상:**\n* 의상의 두께, 소재 및 색상은 감각 온도를 영향을 줄 수 있습니다.\n* 두꺼운 의상은 열을 보유하고, 가벼운 의상은 열을 보유하기가 어렵습니다.\n\n**4. 활동 수준:**\n* 활동 수준은 감각 온도를 영향을 줄 수 있습니다.\n* 활동하는 동안 체온이 상승하고, 휴식하는 동안 체온이 하락합니다.\n\n**5. 개인 차이:**\n* 사람들은 기후 조건에 적응하는 데 다양한 반응을 보일 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "같은 온도가 다른 날이나 계절에 완전히 다르게 느껴지는 이유는 무엇인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**신체 건강 문제:**\n\n* 고지혈증\n* 고혈압\n* 당뇨병\n* 심근경색증\n* 암\n* 정신 건강 문제\n\n**신체 건강 문제 발생 메커니즘:**\n\n**1. 스트레스 호르몬 분비:**\n* 스트레스 상황에서 코르티솔과 같은 스트레스 호르몬이 분비됩니다.\n* 이 호르몬은 다양한 생리 과정에 영향을 미치고, 특히 음식 대사, 혈관 기능 및 면역 체계를 영향을 줄 수 있습니다.\n\n**2. 자율신경계 영향:**\n* 스트레스는 자율신경계를 교란하여 심박수, 호흡, 피부 온도 및 소화 기능을 영향을 줄 수 있습니다.\n\n**3. 면역 체계 약화:**\n* 스트레스는 면역 체계를 약화하여 감염, 만성 질병 및 암 위험을 증가시킬 수 있습니다.\n\n**4. 항상성 손실:**\n* 스트레스는 생리 과정의 정상적인 항상성을 손실하여 건강 문제를 일으킬 수 있습니다.\n\n**5. 영양 섭취 저하:**\n* 스트레스는 식욕 저하, 영양 섭취 저하 및 건강 식단 변경으로 영양 영양 부족을 일으킬 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "스트레스가 어떻게 신체 건강 문제를 일으키나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "\n\n신체 상해 상태를 평가할 때는 여러 가지 요인을 고려해야 합니다. 신체 상해 상태를 완벽하게 나타내는 지표는 단순한 신체 통증 하나만은 아닙니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "통증이 신체 상해의 상태를 완전히 정확하게 나타내는 지표인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**동물의 수명에 영향을 미치는 요인:**\n\n**1. 유전적 요인:**\n* 유전자 변이\n* 부모의 수명\n* 생리학적 특징\n\n**2. 생리학적 요인:**\n* 종 특성\n* 성장 단계\n* 영양 섭취\n* 활동 수준\n* 스트레스 수준\n\n**3. 환경적 요인:**\n* 기후\n* 식단\n* 생태계\n\n**4. 생리학적 상태:**\n* 질병\n* 부상\n* 노화\n\n**동물의 수명 차이를 설명하는 모델:**\n\n**1. 체질률 모델:**\n* 동물의 체질률(metabolic rate)은 수명과 음의 상관관계를 가집니다.\n* 높은 체질률은 더 많은 에너지를 소모하고, 이는 수명을 단축합니다.\n\n**2. 노화 과정 모델:**\n* 동물은 노화 과정을 통해 체력이 저하하고 질병 위험이 높아지습니다.\n* 이 과정은 종에 따라 다양하고, 이는 수명 차이를 발생시킵니다.\n\n**3. 생리학적 상태 모델:**\n* 동물의 생리학적 상태, 특히 질병, 부상, 그리고 노화 상태는 수명에 영향을 줄 수 있습니다.\n\n**4. 환경적 스트레스 모델:**\n* 동물은 환경적 스트레스 요인에 직면하여 수명을 단축할 수 있습니다.\n\n**5. 유전자 조절 모델:**\n* 일부 유전자는 동물의 수명을 조절할 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "다양한 동물들이 왜 다른 수명을 가지고 있을까요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "인간은 동물과는 다른 종으로, 인간의 생리 체계는 동물과는 다른 방식으로 작동합니다. 인간은 동물과는 다른 생식 과정을 가지고 있으며, 동물에게서 임신할 수 없도록 설계되었습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "인간이 동물에게서 임신할 수 없는 이유는 무엇인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "* 수면은 신경계를 휴식시켜 스트레스를 감소하고 회복력을 증가시킵니다.\n* 수면은 기억과 학습에 도움이 되고 집중력을 향상시킵니다.\n* 수면은 체력을 회복하고 성장을 촉진합니다.\n* 수면은 감정을 조절하고 스트레스를 감소시킵니다.\n\n따라서 수면은 건강과 생산성에 매우 중요합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "수면의 기능은 무엇인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "달리기를 하는 사람의 심박수가 하락하는 이유는 아래와 같습니다.\n\n* **피로 회복:** 달리기는 신체에 피로를 발생시킵니다. 피로 회복 과정에서 심박수가 하락합니다.\n* **호르몬 변화:** 달리기는 스트레스 호르몬을 감소하고 휴식 호르몬을 증가시킵니다. 이는 심박수를 낮추는 효과를 가집니다.\n* **혈액 순환 개선:** 달리기는 혈액 순환을 개선하고 순환 저하를 방지합니다. 이는 심박수를 낮추는 효과를 가집니다.\n\n따라서 달리기를 하는 사람의 심박수가 하락하는 것은 피로 회복, 호르몬 변화, 혈액 순환 개선의 결과입니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "달리기를 하는 사람의 심박수가 달리기를 하지 않는 사람보다 왜 낮을까요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**답변:**\n\n샤워 후에 더 많이 땀을 흘리는 이유는 다음과 같습니다.\n\n* **피부이온 교환:** 샤워 후에 피부에 물이 접촉하면 피부 이온이 교환되고, 이온 균형이 바뀌면서 더 많이 땀을 분비합니다.\n* **피부 수분 손실:** 샤워 후에 피부에 물이 접촉하면 피부에서 수분이 손실되고, 이로 인해 피부이온 균형이 바뀌고 더 많이 땀을 분비합니다.\n* **온도 변화:** 샤워 후에 체온이 상승하면 더 많이 땀을 분비합니다.\n\n따라서 샤워 후에 더 많이 땀을 흘리는 것은 피부이온 교환, 피부 수분 손실, 온도 변화 등의 영향이 합해 발생합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "샤워 후에 왜 더 많이 땀을 흘리나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**답:**\n\n**움직일 때:**\n\n* **각운동 모멘트:** 자전거가 움직일 때는 자전거의 각운동 모멘트가 균형을 유지하는 데 도움이 됩니다. 자전거가 움직일 때는 자전거의 중심이 회전축에 대해 이동하여 각운동 모멘트가 발생합니다.\n* **자전거의 회전성:** 자전거는 회전성을 가지고 있어 자전거의 중심이 회전축에 대해 이동할 때 각운동 모멘트를 발생시킵니다.\n\n**정지해 있을 때:**\n\n* **각운동 모멘트 없음:** 자전거가 정지해 있을 때는 자전거의 각운동 모멘트가 없어 균형을 유지하기가 매우 어렵습니다.\n* **중심 위치:** 자전거가 정지해 있을 때는 자전거의 중심이 회전축에 대해 고정되어 각운동 모멘트를 발생시키지 않습니다.\n\n따라서 자전거가 정지해 있을 때는 균형을 잡기가 거의 불가능합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "자전거가 움직일 때는 왜 균형을 잡기 쉬운데, 정지해 있을 때는 거의 불가능한가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "* 과도한 설탕 섭취는 인슐린 저항성을 유발하여 비만과 당뇨병 위험을 높입니다.\n* 과도한 설탕 섭취는 간 손상과 관련된 연구도 있습니다.\n* 과도한 설탕 섭취는 위장 건강에 해롭고 설사와 같은 위장 문제를 유발할 수 있습니다.\n* 과도한 설탕 섭취는 영양소 섭취를 방해하고 건강에 해롭습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "탄 음식을 먹으면 왜 건강에 해로운가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**1. 스트레스 호르몬 증가:**\n- 높은 소음은 스트레스 호르몬을 분비하여 잠들기 능력을 저하합니다.\n\n\n**2. 자극성 신경계 활동 증가:**\n- 소음은 자극성 신경계를 활발하게 하여 잠들기 능력을 저하합니다.\n\n\n**3. 멜라토닌 분비 저하:**\n- 소음은 멜라토닌 분비를 저하하여 잠들기 능력을 저하합니다.\n\n\n**4. 시각적 자극:**\n- 높은 소음 환경은 시각적 자극을 증가시켜 잠들기 능력을 저하합니다.\n\n\n**5. 온도 변화:**\n- 높은 소음 환경은 온도 변화를 일으켜 잠들기 능력을 저하합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "시끄러운 환경에서는 왜 잠들기가 더 어려운가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**컴퓨터 충돌 현상의 원인:**\n\n**1. 하드웨어 문제:**\n- 부정확한 연결\n- 손상된 부품\n- 열 문제\n\n**2. 소프트웨어 문제:**\n- 바이러스 감염\n- 응용 프로그램 충돌\n- 운영 체제 버전 문제\n\n**3. 응용 프로그램 문제:**\n- 설치된 응용 프로그램이 충돌\n- 응용 프로그램 설정 문제\n\n**4. 하드 드라이브 문제:**\n- 손상된 하드 드라이브\n- 데이터 손실\n\n**5. 전원 문제:**\n- 불안전한 전원 공급\n- 전원 코드 손상\n\n**충돌 현상의 과정:**\n\n1. **문제 발생:** 하드웨어, 소프트웨어, 응용 프로그램, 하드 드라이브, 전원 문제 중 하나가 발생합니다.\n2. **버스트:** 문제가 해결되지 않고 계속될 때, 시스템 자원이 과부하되고 응용 프로그램 실행이 중단됩니다.\n3. **디스패치:** 시스템은 응용 프로그램을 종료하고 기본 기능을 수행하기 위해 디스패치 상태로 전환합니다.\n4. **충돌:** 시스템은 응용 프로그램을 다시 시작하려고 시도하지만, 문제가 해결되지 않으면 다시 디스패치 상태로 전환하고 충돌이 발생합니다.\n\n**충돌 증상:**\n\n- 응용 프로그램 실행 중 오류 메시지 발생\n- 시스템 응답 시간 지연\n- 창 멈춰 동결\n- 데이터 손실\n- 시스템 재부팅"
+            }
+          },
+          "prompting_state": {
+            "prompt": "내 컴퓨터가 충돌할 때 정확히 무슨 일이 일어나는 건가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "* 음식 없이 물만 먹으면 체중은 어떻게 바뀌나요?\n* 음식 없이 물만 먹으면 영양소는 어떻게 영향을 받나요?\n* 음식 없이 물만 먹으면 건강에 어떤 영향을 미칠까요?\n\n**음식 없이 물만 먹으면 체중은 어떻게 바뀌나요?**\n\n음식 없이 물만 먹으면 체중은 감소할 수 있습니다. 물은 체내 과정에서 열을 발생시키고, 체액을 유지하는 데 필요합니다. 하지만 음식 없이 물만 먹으면 영양소를 얻지 못하고, 체내 과정에서 필요한 영양소를 손실할 수 있습니다.\n\n**음식 없이 물만 먹으면 영양소는 어떻게 영향을 받나요?**\n\n음식 없이 물만 먹으면 영양소를 얻지 못하고, 영양소 섭취 부족으로 영양소 결점이 발생할 수 있습니다. 영양소 결점은 다양한 건강 문제를 일으킬 수 있습니다.\n\n**음식 없이 물만 먹으면 건강에 어떤 영향을 미칠까요?**\n\n음식 없이 물만 먹으면 영양소 결점, 피로, 두통, 기억력 저하, 피부 건강 악화 등 건강에 부정적인 영향을 미칠 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "만약 물은 충분히 있지만 음식이 전혀 없는 곳에 갇혔다면 제 몸에는 어떤 일이 일어날까요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**답:**\n\n죽은 후에 일어나는 일에 대해서는 아직 확실히 알려지지 않았으며, 과학자들조차 이에 대해서는 명확한 답을 제시하지 못했습니다. 하지만, 여러 가지 가설과 이론이 존재합니다.\n\n**1. 과학적 가설:**\n\n* 일부 과학자들은 생명체의 정보는 물리적으로 저장되어 있어, 죽은 후에 이 정보는 다른 형태로 복원될 수 있다고 가정합니다.\n* 다른 과학자들은 생명체의 기억은 신경망에 저장되어 있어, 이 기억은 죽은 후에 손실된다고 가정합니다.\n\n\n**2. 종교적 및 철학적 가설:**\n\n* 많은 종교와 철학 체계는 죽은 후에 영혼이 영원히 존재한다고 가정합니다.\n* 이 가설은 영혼이 새로운 신체를 얻거나 다른 차원으로 이동하여 새로운 경험을 할 수 있다고 말합니다.\n\n\n**3. 현실적 관점:**\n\n* 현실적으로 볼 때, 우리가 죽은 후에 무슨 일이 일어날지는 우리가 이해할 수 없으며, 이는 과학, 종교, 철학 모두에 대한 답을 제공하지 않습니다.\n\n\n따라서, 우리가 죽은 후에 무슨 일이 일어나는지에 대한 확실한 답은 아직 없습니다. 하지만, 여러 가지 가설과 이론이 존재하며, 앞으로 이에 대한 더 많은 연구가 이루어지기를 바랍니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "우리가 죽은 후에 무슨 일이 일어나는지 우리는 결국 알게 될까요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**골은 자라는 과정은 매우 복잡하고, 단순히 다시 자라는 것은 아닙니다.**\n\n골은 성장 단계에서만 자랍니다. 성장 단계를 벗어나면 골은 더 이상 자라지 않습니다. 이는 골이 성장 완료 후에는 더 이상 새로운 세포를 생성하거나 기존 세포를 교체할 수 없다는 것을 의미합니다.\n\n따라서, 성장 단계를 벗어난 골은 다시 자라지 않습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "뼈는 왜 다시 자라지 않나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**금의 귀중성의 이유:**\n\n**1. 가치 기반:**\n* 금은 다른 금속들에 비해 매우 안전하고 부식에 강합니다.\n* 금은 가치 기반 투자에서 신뢰도가 높고 안전합니다.\n* 금은 경제 불안, 인플레이션, 그리고 통화율 증가 시 가치 보호 및 투자 목적으로 사용됩니다.\n\n**2. 물리적 특징:**\n* 금은 다른 금속들에 비해 높은 전기저항력과 열전도를 가지고 있습니다.\n* 금은 광택이 우수하고 가사품에 사용하기 위해 특별히 연마하여 표면을 개선합니다.\n\n**3. 역사적 가치:**\n* 금은 오래 전부터 가치를 가지고 있으며, 특히 중앙아시아에서 금화물은 사회와 경제의 발전에 중요했습니다.\n* 금은 문화와 역사에 가치를 가지고 있으며, 이는 금의 가격에 영향을 줄 수 있습니다.\n\n**4. 공급 제한:**\n* 금은 지상에서 매우 드물게 발생하며, 공급이 제한되어 가격에 영향을 줄 수 있습니다.\n\n**금과 은의 가치 비교:**\n\n금은 은보다 가치가 높은 이유는 다음과 같습니다.\n\n* **안전성:** 금은 다른 금속들에 비해 더 안전하고 부식에 강합니다.\n* **투자 가치:** 금은 가치 기반 투자에서 신뢰도가 높고 안전합니다.\n* **공급 제한:** 금은 은보다 공급이 제한되어 가격에 영향을 줄 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "왜 금은 그렇게 귀중한가요? 그리고 왜 금이 은 같은 다른 금속들보다 더 가치가 있나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**해안선**\n\n해안선은 바다와 육지를 분리하고 육지를 범람으로부터 보호하는 자연적인 방벽체입니다. 해안선은 높고 경사가 완만하여 바다의 파도에 의해 침식되는 것을 방지하고 육지를 보호합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "지구의 바다가 육지를 범람하지 않게 하는 것은 무엇인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "대부분의 휴대폰은 위치 추적 기능을 제공하며, 이 기능을 사용하면 휴대폰이 어디에 위치했는지 추적할 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "내 휴대폰은 어떻게 내가 잠들었는지 알 수 있나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**답:**\n\n냄새와 맛은 서로 다른 감각 체계를 통해 인지됩니다. 냄새는 후각기에서 인지되고, 맛은 입에서 인지됩니다. 두 감각 체계는 다른 물리학적 특징을 가지고 있고, 따라서 같은 물질에 대해 서로 다른 반응을 나타낼 수 있습니다.\n\n따라서, 좋은 냄새가 나는 일부 물질들은 맛이 나쁜 경우도 있고, 나쁜 냄새가 나는 일부 물질들은 맛이 좋은 경우도 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "우리가 맛보는 것의 대부분이 냄새에 의해 결정된다면, 왜 좋은 냄새가 나는 일부 것들은 맛이 나쁜가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "[답 ]\n\n비누 향기는 물에 용해하여 용액 상태로 존재하기 때문에 씻기 전까지는 물에 용해하지 않습니다. 하지만 씻기 과정에서 물과 비누가 접촉하면 비누 성분은 물에 용해하여 용액 상태로 바뀌고, 이 용액은 물과 함께 씻겨 나갑니다. 그러나 비누 향기는 물에 용해하여 용액 상태로 존재하기 때문에 씻기 전까지는 물에 용해하지 않습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "손에서 거의 모든 것을 씻어낼 수 있는데 왜 비누 향기는 씻겨 나가지 않는 걸까요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**다가오는 지진을 감지하는 다양한 생리학적 반응이 존재합니다.**\n\n**1. 기계적 감지:**\n* 지진 진동은 토양을 진동시켜 동물들의 체계를 자극합니다.\n* 이 자극은 신경계를 통해 다가오는 지진을 감지하고 반응에 필요합니다.\n\n\n**2. 감각계 활동:**\n* 동물들은 자극을 감지하는 감각계를 가지고 있습니다.\n* 이 감각계는 지진 진동에 의해 자극을 받고 신경계에 정보를 전달합니다.\n\n\n**3. 행동 반응:**\n* 다가오는 지진을 감지하면 동물들은 다양한 행동 반응을 보인다.\n* 이 반응은 종에 따라 다양하지만, 일반적으로는 위험을 피하고 보호를 찾는 경향이 있습니다.\n\n\n**4. 생리학적 반응:**\n* 지진 진동은 스트레스 호르몬을 방출하고 생리학적 반응을 일으킨다.\n* 이 반응은 동물들의 행동과 건강에 영향을 줄 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "동물들은 어떻게 다가오는 지진을 감지하나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "* 가끔 입에서 침이 튀어나오는 것은 상기관의 기울임, 삼출물의 과다, 또는 입의 건조 등으로 발생할 수 있습니다.\n* 상기관의 기울임은 입을 열고 닫을 때 침이 튀어나오는 현상을 일으킬 수 있습니다.\n* 삼출물의 과다는 입에서 삼출물이 과도하게 생산되어 침이 튀어나오는 현상을 일으킬 수 있습니다.\n* 입의 건조는 입에서 침이 튀어나오는 현상을 일으킬 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "하품을 할 때 왜 가끔 입에서 침이 튀어나오나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "인위적인 날씨 조절은 현재 기술적으로 불가능합니다. 날씨는 복잡한 기후계와 대기 과학 현상의 결과로 형성되며, 인위적으로 이를 조절하는 기술은 아직 개발되지 않습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "날씨를 인위적으로 조절하거나 만들 수 있나요? 만약 가능하다면, 어느 정도까지이며 어떻게 할 수 있나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**식물의 잎을 떼어내면 식물에게 다음과 같은 일이 발생합니다.**\n\n**1. 스트레스**\n잎을 떼어내면 식물은 광합작용을 수행할 수 없게 되고, 이로 인해 영양분 생산이 저하됩니다. 이는 식물에 스트레스를 발생시킵니다.\n\n**2. 수분 손실**\n잎은 식물의 수분 보호 장벽 역할을 합니다. 잎을 떼어내면 식물은 수분을 손실하고, 이로 인해 식물이 건조할 수 있습니다.\n\n**3. 열 손실**\n잎은 식물의 열을 보호하는 역할을 합니다. 잎을 떼어내면 식물은 열을 손실하고, 이로 인해 식물의 온도가 떨어날 수 있습니다.\n\n**4. 성장 지연**\n잎은 식물의 성장과 발달에 중요합니다. 잎을 떼어내면 식물의 성장이 지연될 수 있습니다.\n\n**식물은 회복할 수 있습니다.** 식물은 새로운 잎을 발생하여 손실된 잎을 대체할 수 있습니다. 하지만, 잎을 떼어내는 과정은 식물에 상처를 입히고, 이는 식물의 성장과 발달에 영향을 줄 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "당신이 식물의 잎을 떼어내면 식물에게 어떤 일이 발생하나요? 식물이 아프다고 느끼는 건가요, 그리고 식물은 회복할 수 있나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "$$ $$\n\n**잠들기 전에 많은 생각을 하는 이유:**\n\n**1. 스트레스 해소:**\n* 잠들기 전에 스트레스를 해소하기 위해 두뇌는 활동적으로 문제 해결, 기억, 집중력을 향상시킵니다.\n\n**2. 기억 처리:**\n* 잠들기 전에 두뇌는 기억을 처리하고 저장합니다. 이 과정은 새로운 정보를 기억하고 기억을 유지하는 데 도움이 됩니다.\n\n**3. 문제 해결:**\n* 잠들기 전에 두뇌는 문제 해결 및 새로운 아이디어를 도출하기 위해 활동합니다. 이 과정은 새로운 해결책을 찾고 문제 해결 능력을 향상시킵니다.\n\n**4. 정서 처리:**\n* 잠들기 전에 두뇌는 정서를 처리하고 조절합니다. 이 과정은 스트레스, 분노, 기쁨과 같은 정서를 정리하고 평화 상태를 유지하는 데 도움이 됩니다.\n\n**5. 두뇌 활동 증가:**\n* 잠들기 전에 두뇌 활동이 증가하여 많은 생각을 하게 합니다. 이 활동은 스트레스 해소, 기억 처리 및 문제 해결 과정을 포함합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "우리가 잠들기 전에 왜 많은 생각을 하게 되나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "양파 자를 때 눈물이 나는 이유는 양파에 함유된 두 가지 화학 물질 때문입니다. 하나는 sulfur dioxide, 다른 하나는 allyl methyl sulfide입니다. 이 두 가지 물질은 양파를 자르거나 절 때 공기와 접촉하면 자동적으로 산화하여 아황산과 같은 화합을 형성합니다. 이 화합들은 눈에 접촉하여 자극을 주고 눈물을 분비합니다.\n\n**방지 방법:**\n\n* **양파를 잘라 직taway 사용:** 양파를 자르고 바로 요리하거나 식단에 포함하여 눈물을 피합니다.\n* **물을 적신 손으로 양파를 잘라:** 물을 적신 손으로 양파를 잘라 눈물을 덜 발생시킵니다.\n* **양파를 절 때 마스크를 입기:** 양파를 절 때 마스크를 입어 눈물을 피합니다.\n* **양파를 절 때 가스 마스크를 사용:** 가스 마스크를 사용하여 양파에서 발생하는 아황산 가스를 막습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "양파를 자를 때 왜 눈물이 나는 걸까요? 이를 방지할 방법이 있나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**답: 애완동물은 자연적으로 흥분과 스트레스를 해소하기 위해 쓰다듬기를 한다.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "대부분의 애완동물이 쓰다듬어지는 것을 좋아하는 이유는 무엇인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**소프트웨어 업데이트를 지속적으로 해야 하는 이유:**\n\n**1. 보안 개선:**\n* 새로운 버그 및 취약점을 수정하여 해킹, 데이터 손실, 데이터 노출 위험을 최소화합니다.\n* 업데이트는 보안 기능을 개선하여 해킹 공격에 더 안전해집니다.\n\n**2. 성능 향상:**\n* 새로운 기능, 개선된 알고리즘 및 향상된 성능을 제공합니다.\n* 업데이트는 응용 프로그램의 속도와 효율성을 개선하여 사용자 경험을 향상시킵니다.\n\n**3. 새로운 기능 추가:**\n* 새로운 기능과 개선된 사용자 인터페이스를 제공합니다.\n* 업데이트는 사용자의 작업 성과를 향상시키고 새로운 작업을 수행할 수 있게 합니다.\n\n**4. 기술 진화:**\n* 소프트웨어 개발 기술이 빠르게 진화하고 새로운 표준과 기능이 개발됩니다.\n* 업데이트는 이러한 기술 진화를 반영하여 사용자에게 최첨단 기능을 제공합니다.\n\n**5. 법적 요건:**\n* 일부 산업에서 소프트웨어 업데이트는 법적으로 요구될 수 있습니다.\n* 업데이트는 데이터 보안 및 개인정보 보호 기준을 만족해야 합니다.\n\n**업데이트를 하지 않으면 발생할 수 있는 문제:**\n\n* **보안 위험:** 취약점이 수정되지 않으면 해킹 공격에 취약해질 수 있습니다.\n* **성능 저하:** 새로운 버그 및 기능이 추가되어 성능이 저하될 수 있습니다.\n* **기능 결점:** 새로운 기능이 제공되지 않아 작업 성과가 저하될 수 있습니다.\n* **법적 문제:** 법적으로 요구되는 업데이트를 제공하지 않으면 법적 문제에 처할 수 있습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "우리는 왜 소프트웨어 업데이트를 지속적으로 해야 할까요? 업데이트를 하지 않으면 어떤 일이 발생하나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "바다의 수위는 달리 변동하며, 바다들이 바다의 수위를 평소보다 높게 만드는 것은 아닙니다. 하지만, 바다들이 바다의 수위를 높이는 정도는 상당하지 않습니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "배들이 바다의 수위를 평소보다 높게 만드나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "**뇌 세포는 다른 세포와는 달리 재생할 수 없으며, 손상된 뇌 세포는 영구적으로 손상됩니다.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "우리 몸의 거의 모든 세포는 재생할 수 있는데, 왜 뇌 세포는 다른 걸까요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "* 박멸 과정에서 벼룩 DNA가 완벽하게 제거되지 않습니다.\n* 박멸 과정에서 벼룩 DNA가 다른 생물체에 전염될 수 있습니다.\n* 박멸 과정에서 벼룩 DNA가 환경에 유출될 수 있습니다.\n\n이 중 어떤 설명이 가장 정확합니다?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "우리가 벼룩을 완전히 박멸할 수 없는 이유는 무엇인가요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.korean:gemma 7b",
+          "language": "Korean",
+          "translations": {
+            "Korean": {
+              "language": "Korean",
+              "text": "\n\n**수면 부족은 사람을 죽일 수 있습니다.** 연구에 따르면 수면 부족은 심박계 이상, 면역 체계 약화, 스트레스 증가, 그리고 사망 위험을 높이는 다양한 건강 문제를 일으킬 수 있습니다.\n\n**수면 부족의 위험 요인:**\n\n* **심박계 이상:** 수면 부족은 심박수와 혈압을 증가시켜 심근경색증과 같은 심혈관 질환 위험을 높입니다.\n* **면역 체계 약화:** 수면 부족은 면역 체계를 약화하여 감염 위험을 높입니다.\n* **스트레스 증가:** 수면 부족은 스트레스 호르몬을 증가시켜 정신 건강에 부정적인 영향을 미칠 수 있습니다.\n* **사망 위험 증가:** 연구에 따르면 수면 부족은 사망 위험을 20%까지 높일 수 있습니다.\n\n따라서 수면 부족은 매우 위험한 건강 문제이며, 충분한 수면을 취하는 것이 매우 중요합니다."
+            }
+          },
+          "prompting_state": {
+            "prompt": "수면 부족이 어떻게 사람을 죽일 수 있나요?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

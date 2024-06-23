@@ -164,6 +164,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tongan:0:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nE hā 'oku 'ikai ke lava ai ke ma'u 'api 'a ha'a fafine Tonga. Tonga e 'ikai ke lava ai ke ma'u 'api 'a ha'a fafine, ia e ke ia e 'ikai ke lava ai ke ma'u 'api 'a ha'a fafine Tonga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'oku 'ikai ke lava ai ke ma'u 'api 'a ha'a fafine Tonga?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -330,6 +350,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tongan:1:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Fakalele e fonua:**\n\n* Tu'i Fitima\n* Tu'i Malie\n* Tu'i Nanumea\n* Tu'i Ha'a\n\n**Hono fale:**\n\n* Hono Fale\n* Hono Nofo\n* Hono Tauma\n\n**E tu'i e fakatonga 'i he fakalele e fonua e hono fale:**\n\n* Tu'i Fitima - Hono Fale\n* Tu'i Malie - Hono Nofo\n* Tu'i Nanumea - Hono Tauma\n* Tu'i Ha'a - Hono Fale\n\n**Fale atu:**\n\n* Tu'i Fitima e tu'i Hono Fale e tu'i Malie e tu'i Hono Nofo e tu'i Nanumea e tu'i Hono Tauma e tu'i Ha'a e tu'i Hono Fale.\n\n**Pōne tu'i e fakatonga 'i he fakalele e fonua e hono fale e fale atu:**\n\n* Tu'i Fitima - Hono Fale - Tu'i Malie - Hono Nofo - Tu'i Nanumea - Hono Tauma - Tu'i Ha'a - Hono Fale."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā e fatongia 'o e Tu'i mo hono fale 'i he fakalele e fonua?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -498,6 +538,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tongan:2:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Answer:**\n\nKo e ha 'oku kosi ai e lou 'ulu he hili ha me'a faka'eiki, ko e 'oku 'ikai 'a e hili ha me'a faka'eiki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku kosi ai e lou 'ulu he hili ha me'a faka'eiki?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -664,6 +724,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tongan:3:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Esi! Kei e ha 'oku kei 'aonga nai ai e lau mahina faka-Tonga he kuonga ni.**\n\n**He ngākau fakamalumalo:**\n\n* Ko e ha 'oku kei 'aonga nai ai e lau mahina faka-Tonga he kuonga ni, ko e 'a e ngākau fakamalumalo 'a e Tongan government.\n* Ko e ngākau fakamalumalo e 'a e ngākau fakamalumalo 'a e Tongan government, ko e 'a e ngākau fakamalumalo 'a e Tongan people.\n\n**Esi! Kei e ha 'oku kei 'aonga nai ai e lau mahina faka-Tonga he kuonga ni.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e ha 'oku kei 'aonga nai ai e lau mahina faka-Tonga he kuonga ni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -832,6 +912,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tongan:4:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "* Faka'anga 'a e Tonga e 'ikai he ngaahi katoanga lalahi.\n* Faka'anga 'a e Tonga e 'ikai he ngaahi katoanga lalahi.\n\nKo e fahu 'oku fakalangilangi'i 'i he ngaahi katoanga lalahi 'a e Tonga?\n**Faka'anga 'a e Tonga e 'ikai he ngaahi katoanga lalahi.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e fahu 'oku fakalangilangi'i 'i he ngaahi katoanga lalahi 'a e Tonga. Ko hai 'oku totonu ke fahu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -998,6 +1098,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tongan:5:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "* Nā te Tupu o te Tu'i, e levu mai te ngāue'aki ki he Tu'i.\n* Nā te Tupu o te Tu'i, e levu mai te ngāue'aki ki he Nōpele.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nE levu mai te mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele, e levu mai te mea e levu mai te ngāue'aki ki he Tu'i.\n\nHe mea e levu mai te ngāue'aki ki he Nōpele,"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'oku kehe ai 'a e lea 'oku ngāue'aki ki he Tu'i, kau Nōpele mei he tu'a?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -1166,6 +1286,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tongan:6:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Fokotu'utu'u:**\n\n* Nofo'anga: 100\n* Kau matāpule: 50\n* Nōpele: 20\n\n**Taumafa kava:**\n\n* Nofo'anga: 100\n* Kau matāpule: 50\n* Nōpele: 20\n\n**Tatau e hā hono fokotu'utu'u 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava?**\n\n**Fokotu'utu'u:**\n\n* Nofo'anga: 100\n* Kau matāpule: 50\n* Nōpele: 20\n\n**Taumafa kava:**\n\n* Nofo'anga: 100\n* Kau matāpule: 50\n* Nōpele: 20\n\nE ko e hā hono fokotu'utu'u 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava? **E ko e 100 fokotu'utu'u.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā hono fokotu'utu'u 'a e nofo'anga 'o e kau matāpule moe kau Nōpele 'i he taumafa kava?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1332,6 +1472,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tongan:7:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Tonga**\n\n* Ko e hā 'a e founga hono tuku mai 'a e ngaahi tala 'o Tonga 'i ono 'aho.\n* Tonga e 'ikai 'a e ngaahi tala 'o Tonga 'i tuku mai 'a e founga hono.\n* Ko e hā 'a e ngaahi tala 'o Tonga 'i tuku mai 'a e founga hono.\n\nTranslation:\n\n**Tonga**\n\n* The people of Tonga highly value their traditions and customs.\n* Tonga respects and treasures its traditions and customs.\n* The people of Tonga hold their traditions and customs in high regard."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'a e founga hono tuku mai 'a e ngaahi tala 'o Tonga 'i ono 'aho?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -1500,6 +1660,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "tongan:8:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Translation:**\n\nI am unable to provide information that involves gossip or speculation about individuals or families. It is important to respect the privacy of others and to avoid spreading rumors or misinformation."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'a e anga 'oe nofo 'a fāmili 'i he fale fakatonga pea ko e hā ha ngaahi liliu 'i he nofo fakatonga 'i he 'aho ni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1666,6 +1846,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "tongan:9:language.tongan:gemma 7b",
+          "language": "Tongan",
+          "translations": {
+            "Tongan": {
+              "language": "Tongan",
+              "text": "**Fakamatalaga:**\n\n* Tonga e 'ikai fakamālolu 'a e fa kave'i koula.\n* Ko e hā 'a e fa kave'i koula 'a e Tonga e 'ikai fakamālolu 'a e fa kave'i koula 'a e Pasifica.\n* Ko e hā 'a e fa kave'i koula 'a e Tonga e 'ikai fakamālolu 'a e fa kave'i koula 'a e Tongan.\n\n**Takitaha:**\n\n* Ko e hā 'a e fa kave'i koula 'a e Tonga e 'ikai fakamālolu 'a e fa kave'i koula 'a e Pasifica.\n* Ko e hā 'a e fa kave'i koula 'a e Tonga e 'ikai fakamālolu 'a e fa kave'i koula 'a e Tongan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ko e hā 'a e fa kave'i koula 'a e Tonga? Fakamatala'i 'e nau 'uhinga takitaha.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]

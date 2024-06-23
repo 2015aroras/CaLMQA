@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n飞机的登机方式是从前到后的并非因为任何特定原因，而是因为这种方式更安全。\n\n在飞机登机时，从前到后排列可以确保：\n\n* 乘客在登机时有足够的空间，避免拥挤。\n* 乘客在登机时可以更容易地看到周围的人和环境。\n* 乘客在登机时可以更容易地找到自己的座位。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么飞机的登机方式是从前到后的？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**吸烟对心脏有害的原因：**\n\n**1. 碳烟和烟气：**\n* 碳烟和烟气会进入肺部，并通过血液进入心脏。\n* 这些化学物质会损害心脏的细胞和组织。\n\n**2. 氧化应激：**\n* 吸烟会导致体内氧化应激的增加，这是一种对身体健康有损的反应。\n* 氧化应激会导致心脏纤维的破裂和心肌的病变。\n\n**3. 血液凝固：**\n* 吸烟会增加血液凝固的风险，这会导致心血管疾病和中风。\n\n**4. 提高血压和胆固醇：**\n* 吸烟会提高血压和胆固醇水平，这会导致心脏病的风险增加。\n\n**5. 减少血流：**\n* 吸烟会减少血液流入心脏的量，这会导致心肌缺氧和心肌梗塞。\n\n**6. 损伤心脏内膜：**\n* 吸烟会损伤心脏内膜，这会导致心脏功能不正常和心律不正常。\n\n**7. 增加心脏病的风险：**\n* 所有吸烟者都有增加心脏病发作、心肌梗塞和心脏衰竭的风险。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么吸烟对心脏有害？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "\"最近删除\"只是iPhone存储系统中对最近删除的文件和照片的缓存，并不代表它们已经从设备中删除。这些文件和照片仍然存在于设备的内部存储中，直到您真正将其删除。\n\n**从「最近删除」中删除的文件和照片：**\n\n1. 打开「照片」或「文件」应用程序。\n2. 找到「最近删除」标签。\n3. 选择您要删除的文件和照片。\n4. 点击「删除」按钮。\n\n**注意：**\n\n* 即使您从「最近删除」中删除了文件和照片，它们仍然存在于设备的内部存储中，直到您真正将其删除。\n* 如果您想确保文件和照片已被永久删除，请将其放入垃圾桶中，然后将其删除。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "在iPhone中，从「最近删除」中删除的文件和照片去哪里了？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n跑步之前跳跃可以让我们跳得更高，是因为跑步可以增加我们的**动量**和**弹性**。\n\n* **动量**：跑步可以增加我们的身体总动量，使其在跳跃时有更大的势能。动量等于质量乘以速度，因此我们的速度越高，动量就越大。\n* **弹性**：跑步可以提高我们的肌肉和骨骼的弹性，使其在跳跃时能够吸收更多能量并将其转换为动能。\n\n因此，跑步之前跳跃可以让我们跳得更高。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么跑步之前跳跃会让我们跳得更高？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n将母乳中的抗体/其他益处添加到婴儿配方奶粉中存在一些挑战：\n\n**1. 稳定性问题：**\n- 母乳中的抗体在高温或光照下会分解。\n- 将抗体添加到配方奶粉中可能会导致分解和失去其生物活性。\n\n**2. 吸收问题：**\n- 母乳中的抗体可能无法在配方奶粉中被完全吸收。\n- 吸收率低会导致抗体的生物有效性降低。\n\n**3. 质量控制问题：**\n- 每个母乳样本都不同，抗体浓度和质量各不相同。\n- 制定一个一致的标准来确保配方奶粉中抗体的质量和有效性非常困难。\n\n**4. 潜在的免疫反应：**\n- 一些儿童可能对母乳中的抗体产生免疫反应。\n- 这可能会导致过敏或免疫系统疾病。\n\n**5. 存在替代品：**\n- 婴儿配方奶粉本身含有各种营养成分，可以支持婴儿的健康生长。\n- 替代母乳中的抗体/益处成分有更好的科学和技术解决方案。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么不能将母乳中的抗体/其他益处添加到婴儿配方奶粉中呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**互联网速度限制控制方法：**\n\n**1. 流量限制：**\n* 限制用户在特定时间段或整体时间内可使用的流量。\n* 通过检测和限制特定 IP 地址或设备的流量来实现。\n\n\n**2. 速度限制：**\n* 将用户连接的速率限制为特定值。\n* 这通常通过在路由器或网络提供商的设备中实施速率限制器来实现。\n\n\n**3. 时间限制：**\n* 限制用户在特定时间段或特定日期内使用互联网的时长。\n* 这通常通过在路由器或网络提供商的设备中实施时间限制器来实现。\n\n\n**4. 协议限制：**\n* 限制用户连接特定协议或端口的流量。\n* 例如，某些网络提供商可能会限制 P2P 流量或特定游戏协议的流量。\n\n\n**5. DPI（数据包分析）：**\n* 分析数据包以识别并限制特定类型的流量。\n* 例如，某些网络提供商可能会限制视频流或游戏流量。\n\n\n**控制方法的目的是：**\n\n* 确保所有用户公平地使用互联网。\n* 避免网络拥塞和性能下降。\n* 控制特定用户的流量或速度。\n\n\n**如何识别互联网速度限制？**\n\n* 观察您的网络连接速度。\n* 检查您的网络提供商的条款和条件。\n* 使用网络分析工具来跟踪您的流量和速度。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "我的WiFi提供商是如何控制互联网速度限制的？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n在你的手臂内侧进行抽血可以最大限度地减少血液流动和疼痛。手臂内侧的动脉和静脉相对较小，因此对血液的抽取影响较小。同时，手臂内侧的皮肤也更薄，更容易穿刺并取得血液样本。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么通常会在你的手臂内侧进行抽血？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n大型电视演播室摄像机仍然有其独特的功能和优势，即使手机大小的摄像技术已发展成熟。\n\n**大型电视演播室摄像机的优势：**\n\n* **更高的分辨率和图像质量：**大型摄像机拥有更大的传感器和更先进的成像系统，从而提供更高的分辨率和更清晰的图像。\n* **更广泛的镜头选择：**大型摄像机提供了更广泛的镜头选择，允许更灵活的控制景深和拍摄风格。\n* **更好的光线控制：**大型摄像机有更大的光圈和更强大的照明系统，以确保更好的光线控制和更清晰的图像。\n* **专业级功能：**大型摄像机提供专业级功能，例如多轨音频输入和输出、时间码和自动对焦。\n\n**尽管手机摄像技术已发展成熟，但它仍然存在一些局限性：**\n\n* **较低的分辨率：**手机摄像机通常具有较低的分辨率，导致图像质量较差。\n* **受光条件限制：**手机摄像机的光线收集能力有限，在低光线条件下效果不佳。\n* **受手震影响：**手机摄像机更易受手震影响，导致图像模糊。\n\n因此，大型电视演播室摄像机仍然是专业内容创作和高质量视频录制的首选。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么我们还在使用巨大的电视演播室摄像机，当同样的技术现在已经缩小到手机大小了呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "地球核心的温度有多高，是因为：\n\n* 随着深度的增加，地壳的温度逐渐升高。\n* 地核的热能主要来自于地球内核。\n* 内核的温度很高，因为它是由铁和 nickel 等高熔点物质组成。\n\n因此，地球内核的温度很高。\n\n**但如何知道内核的温度有多高？**\n\n有几种方法可以确定地球内核的温度：\n\n**1. 地壳波研究**\n\n* 地壳波在通过地球内核时会发生变化。\n* 分析这些变化可以提供有关内核温度和密度的信息。\n\n**2. 地球重力测量**\n\n* 地球重力场会受到内核温度的影响。\n* 通过测量重力场，可以推断内核的温度。\n\n**3. 地核波研究**\n\n* 地核波在通过地球内核时会发生散射。\n* 分析散射模式可以提供有关内核温度和密度的信息。\n\n**4. 矿物分析**\n\n* 某些矿物在高温下会发生变化。\n* 分析这些矿物的变化可以提供有关内核温度的信息。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "他们是如何知道地球核心的温度有多高的？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n青春期经常会出现Acne（Acne vulgaris）的原因有：\n\n**1. 荷尔蒙变化：**\n* 青春期是人体荷尔蒙水平变化的时期，包括皮质醇和雄性激素的增加。\n* 这些激素会导致毛囊孔的扩张和油脂分泌增加，从而导致 acne 的形成。\n\n**2. 毛囊孔发育不完善：**\n* 青春期毛囊孔的结构尚未成熟，更容易受到感染和堵塞。\n\n**3. 油脂分泌增加：**\n* 青春期皮脂腺的活动增加，导致毛囊孔中油脂的积累。\n* 这些油脂会阻塞毛囊孔，并提供细菌生长和繁殖的基底。\n\n**4. 细菌感染：**\n* 毛囊孔中的油脂和死皮细胞可以提供细菌生长和繁殖的基底。\n* 当细菌数量增加时，它们会引起炎症和 acne 的形成。\n\n**5. 压力和饮食：**\n* 压力和特定饮食模式可以加剧 acne 的风险。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么青春期经常会出现痤疮？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n羊通过以下过程将草和水转化为牛奶、羊毛和更多的羊：\n\n**1. 消化：**\n- 羊通过其消化系统将草和水分解成更小的分子。\n- 它们有特殊的微生物在胃中帮助他们消化草。\n\n\n**2. 吸收：**\n- 消化后的草和水被吸收进入羊的血液。\n\n\n**3. 代谢：**\n- 羊的血液中包含各种营养素，这些营养素用于生产牛奶、羊毛和新的羊。\n\n\n**4. 牛乳生产：**\n- 牛乳的生产需要蛋白质、碳水化合物和乳酸等营养素。\n- 羊通过代谢过程生产这些营养素，并将其用于牛奶的生产。\n\n\n**5. 羊毛生产：**\n- 羊毛由角蛋白组成，角蛋白是羊血液中的一种蛋白质。\n- 羊毛的生产需要蛋白质和碳水化合物等营养素。\n\n\n**6. 新羊生产：**\n- 羊通过繁殖过程生产新的羊。\n- 新羊的生产需要能量和营养素。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "羊是如何将草和水转化为牛奶、羊毛和更多的羊呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "体脂百分比可以准确测量，也可以进行估算。\n\n**准确测量：**\n\n* **生物电阻量法（BIA）：**在水和盐的帮助下，测量身体对电流的阻力，从而确定体脂百分比。\n* **X射线体积法（DXA）：**使用X射线技术测量身体的体积和脂肪量，从而确定体脂百分比。\n\n**估算：**\n\n* **皮下脂肪厚度（WSF）：**通过测量身体特定区域的皮下脂肪厚度来估算体脂百分比。\n* **身体测量：**通过测量身体的腰围、胸围和腰部周长等来估算体脂百分比。\n\n**准确测量比估算更准确，但也更昂贵。**对于大多数人来说，估算方法可以提供足够准确的信息。\n\n**以下是一些可以帮助你估算体脂百分比的工具：**\n\n* **在线工具：**例如BodyMassIndex.com和Health.com\n* **手机应用程序：**例如Fitbit和Apple Health\n* **身体测量师：**专业身体测量师可以提供更准确的估算。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "人们如何知道自己的体脂百分比，还是只能估算呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "睡眠瘫痪背后的科学原理是：\n\n**睡眠期间的脑电波变化**\n\n睡眠过程中，脑电波的频率和振幅会发生变化，这会导致运动控制和认知功能的障碍。\n\n**运动控制神经元抑制**\n\n睡眠期间，运动控制神经元的活动会受到抑制，这会导致运动技能的下降。\n\n**认知功能障碍**\n\n睡眠期间，认知功能会受到抑制，这会导致运动控制和决策的障碍。\n\n**神经元代谢变化**\n\n睡眠期间，神经元的代谢过程会发生变化，这会导致运动控制和认知功能的障碍。\n\n**激素变化**\n\n睡眠期间，激素水平会发生变化，这会导致运动控制和认知功能的障碍。\n\n**睡眠深度**\n\n睡眠深度与运动控制和认知功能的障碍程度有关。深度睡眠会导致更大的障碍。\n\n**睡眠时间**\n\n睡眠时间也对运动控制和认知功能的影响。睡眠时间不足会导致更大的障碍。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "那么，睡眠瘫痪背后的科学原理是什么呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n金属在自然界中是有限的，但它们可以被回收和再利用。因此，我们还没有用完金属，但我们必须高效地使用和回收它们，以确保这些资源在未来可用。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "我们为什么还没有用完金属呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "这句说法不正确。目前没有证据表明台湾有一家公司生产的微芯片是世界上最顶尖的，无法复制。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "我的理解是台湾有一家公司生产的微芯片是世界上最顶尖的，其他公司无法复制。这是怎么做到的？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "这错误的。大多数动物都有黑色或无色血液。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么几乎所有的动物都有红色的血液？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "衰老是身体自我修复能力的耗尽，意味着身体无法像以前那样有效地修复损伤和疾病。健康的锻炼和健身可以提高身体的整体功能和健康水平，并有助于延缓衰老的进程。\n\n**健康锻炼和健身可以：**\n\n* 提高免疫系统功能，使其更有效地应对疾病和损伤。\n* 提高肌肉和骨骼功能，使其更能抵抗损伤和疾病。\n* 提高血液循环功能，使其更能将氧气和营养素输送到身体的各个部位。\n* 提高身体的整体能量水平，使其更能应对压力和生活方式的影响。\n\n因此，健康的锻炼和健身可以帮助延缓衰老的进程，并改善身体的整体健康水平。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "如果简而言之，衰老是身体自我修复能力的耗尽，为什么健康的锻炼和健身不会让这种能力变得更差呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n**1. 提高产品销量：**\n\n* 大幅度折扣可以吸引更多消费者，提高产品销量。\n* 降低价格可以使消费者更愿意购买更多产品。\n\n\n**2. 提高产品定价：**\n\n* 通过大幅度折扣销售，企业可以积累消费者对产品的认可度和需求。\n* 随着产品的受欢迎程度提高，企业可以提高产品的定价。\n\n\n**3. 提高品牌价值：**\n\n* 大幅度折扣可以表明企业对产品的认可度和信心。\n* 这可以提高品牌的价值，并使消费者更愿意为产品支付更高的价格。\n\n\n**4. 扩大客户群体：**\n\n* 大幅度折扣可以吸引新客户，并使现有客户更愿意尝试新的产品或服务。\n\n\n**5. 提高客户忠诚度：**\n\n* 大幅度折扣可以使消费者更满意，并更愿意再次购买产品。\n\n\n**6. 提高销售额：**\n\n* 通过大幅度折扣，企业可以提高产品销量和销售额。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "公司如何通过大幅度折扣销售他们的产品来赚钱？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**晨吐的发生原因：**\n\n* **激素变化：**孕妇体内激素水平的改变，特别是人绒素和内源性甲状腺激素（hCG），会导致胃酸分泌增加和胃内容快速流失，从而导致晨吐。\n* **空腹时间：**空腹时间较长会导致胃内容浓缩，更容易引起晨吐。\n* **饮食习惯：**摄入刺激性食物或空腹时间较长会导致晨吐。\n* **情绪变化：**情绪波动或压力会加剧晨吐。\n\n**晨吐的发生阶段：**\n\n* **第一孕期：**这一阶段，hCG水平最高，晨吐的发生率最高。\n* **第二孕期：**hCG水平下降，晨吐的发生率降低。\n* **第三孕期：**hCG水平再次上升，晨吐的发生率可能再次增加。\n\n**晨吐的预防和缓解方法：**\n\n* 早饭时间固定，避免空腹时间过长。\n* 摄入富含维生素和矿物质的饮食。\n* 避免摄入刺激性食物和咖啡因。\n* 休息充足，避免压力。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么有些孕妇会有“晨吐”现象，而其他人则没有？为什么许多人只在怀孕的第一孕期有这种情况，但有些人整个孕期都会经历呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n温度感与多种因素有关，包括：\n\n**1. 湿度：**\n- 湿度高的空气中有更多水蒸气，会使皮肤和身体更潮湿，从而感觉更热。\n- 湿度低的空气中有更少的水蒸气，会使皮肤和身体更干燥，从而感觉更冷。\n\n**2. 风速：**\n- 风速高的空气中有更多动能，会使皮肤和身体更冷却。\n- 风速低的空气中有更少的动能，会使皮肤和身体更温暖。\n\n**3. 阳光照射：**\n- 阳光照射会直接增加皮肤温度，并通过热传导和对流来增加身体温度。\n\n**4. 体内温度：**\n- 体内温度会影响皮肤和身体的温度感。\n\n**5. 外部环境：**\n- 外部环境的温度和湿度会影响身体的温度感。\n\n**6. 个人因素：**\n- 个人因素，如年龄、健康状况和服装，也会影响温度感。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么同样的温度在不同的日子或季节里感觉完全不同？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**身体健康问题的潜在原因：**\n\n**1. 应激反应失衡：**\n* 应激激素的过度释放或不足会导致身体各器官功能失调。\n* 这种失衡可能会导致焦虑、抑郁、注意力不足和记忆障碍。\n\n\n**2. 免疫系统功能下降：**\n* 应激会导致免疫细胞功能下降，使其更容易受到疾病的侵害。\n* 这种下降可能会导致免疫系统无法有效地保护身体免受疾病和感染。\n\n\n**3. 血液流失：**\n* 应激会导致血液流失，从而导致血压下降和心肺功能障碍。\n\n\n**4. 身体激素水平变化：**\n* 应激会导致激素水平变化，例如皮质醇和内啡肽。\n* 这种变化可能会导致情绪波动、身体疼痛和免疫系统功能下降。\n\n\n**5. 细胞损伤：**\n* 应激会导致体内自由基的产生，这些自由基可以损坏细胞 DNA 和蛋白质。\n* 这种损坏可能会导致疾病和健康问题。\n\n\n**6. 睡眠障碍：**\n* 应激会导致睡眠障碍，例如失眠和早醒。\n* 这种障碍可能会导致精力低下、集中力差和身体健康问题。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "压力是如何导致身体健康问题的？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n并非完全准确。疼痛只是身体伤害状况的反映，但并非所有身体伤害都会引起疼痛，反之亦然。\n\n**原因：**\n\n* **疼痛的个体差异：**不同的人对疼痛的敏感程度不同。\n* **伤害的性质：**不同的伤害类型可能导致不同的疼痛模式。\n* **身体状况：**其他身体状况，例如疼痛障碍或精神健康问题，可能会影响疼痛的准确性。\n* **心理因素：**心理因素，例如焦虑或压力，可能会影响疼痛的感知。\n\n因此，疼痛只能作为身体伤害状况的可能指示符，但不能完全准确地反映身体伤害的状况。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "疼痛是否能完全准确地反映身体伤害的状况？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**不同的动物有不同的寿命，主要受以下因素影响：**\n\n**1. 物理因素：**\n\n* 体重和大小\n* 身体器官的成熟程度和功能\n* 遗传因素\n\n**2. 生理因素：**\n\n* 代谢水平\n* 免疫系统功能\n* 生殖频率和周期\n\n**3. 外部因素：**\n\n* 食物和水质量\n* 温度和湿度\n* 压力和生活方式\n* 自然环境的条件\n\n\n**不同的动物有不同的寿命，主要是因为：**\n\n**1. 遗传因素：**不同的动物有不同的遗传物质，这些遗传物质会影响它们的寿命。例如，某些动物有基因，这些基因与长寿有关。\n\n**2. 代谢水平：**不同的动物有不同的代谢水平，这意味着它们消耗能量的方式不同。高代谢的动物需要更多能量，这意味着它们需要更频繁地进食，这也可能会缩短它们的寿命。\n\n**3. 免疫系统功能：**不同的动物有不同的免疫系统功能，这意味着它们对疾病和感染的抵抗能力不同。免疫系统功能差的动物更容易患病，这也可能会缩短它们的寿命。\n\n**4. 生殖频率和周期：**不同的动物有不同的生殖频率和周期，这意味着它们繁殖的频率不同。繁殖频率高的动物需要更频繁地繁殖，这也可能会缩短它们的寿命。\n\n**5. 外部因素：**不同的动物在不同的环境下生活，这些环境条件也会影响它们的寿命。例如，在炎热潮湿的地区，动物的寿命可能更短，因为高温和高湿度可以加速衰老。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么不同的动物有不同的寿命？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "人类和动物有不同的繁殖系统，这意味着人类不能从动物那里怀孕。人类有双生殖器官，而大多数动物只有单生殖器官。这意味着人类可以产生精子和卵子，而大多数动物只能产生精子或卵子。这意味着人类可以彼此交配，而大多数动物只能与自己交配。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么人类不能从动物那里怀孕？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**睡眠的功能：**\n\n**1. 记忆和学习：**\n* 睡眠有助于巩固记忆和提高学习效率。\n* 睡眠后，人对事件的记忆更清晰，并更容易回忆。\n\n**2. 情绪调节：**\n* 睡眠可以平稳情绪，减少焦虑和抑郁。\n* 睡眠充足的人更积极和乐观。\n\n**3. 身体健康：**\n* 睡眠对免疫系统功能有益。\n* 睡眠充足的人更不容易患病。\n\n**4. 认知功能：**\n* 睡眠可以提高注意力和解决问题的能力。\n* 睡眠充足的人更能集中精力。\n\n**5. 社会功能：**\n* 睡眠可以提高人际交往能力和领导力。\n* 睡眠充足的人更能有效地表达自己的观点。\n\n**6. 身体恢复：**\n* 睡眠可以帮助身体恢复和修复。\n* 睡眠充足的人更能保持活力和精力。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "睡眠的功能是什么？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n跑步会导致身体的氧需求增加，而心脏的效率提高，以满足这种需求。这会导致心率降低，因为心脏每拍出更多的血液，从而更有效地将氧气输送到身体的各个器官和组织。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么跑步者的心率比非跑步者的心率低？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n洗澡后出汗更多是因为：\n\n**1. 体温升高：**\n* 洗澡会使身体温度升高，因为身体在水中吸收热量。\n* 出汗是身体调节温度的一种方式。\n\n**2. 湿度增加：**\n* 洗澡后，空气湿度会增加，这会导致身体水分流失增加。\n* 随着水分流失，身体温度会升高，并导致出汗。\n\n**3. 身体活动增加：**\n* 洗澡后，人们通常会进行一些活动，例如穿衣或干燥身体。\n* 这些活动会导致身体温度升高并导致出汗。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么我洗完澡后出汗更多？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n自行车在运动时能够保持平衡，是因为：\n\n**1. 旋转运动：**自行车轮子的旋转运动提供了额外的稳定性。当自行车在运动时，轮子在旋转时会产生一个力矩，该力矩有助于将自行车保持平衡。\n\n**2. 人体平衡系统：**人体的平衡系统在自行车运动过程中发挥着重要作用。人体的身体感知器收集有关自行车运动的运动信息，并将其传递给大脑。大脑使用这个信息来控制身体的姿势和动作，以确保自行车保持平衡。\n\n**3. 速度和动量：**自行车在运动时具有速度和动量，这意味着自行车有抵抗力，并有助于将其保持平衡。\n\n然而，在静止时，自行车没有旋转运动或动量，因此它更难以保持平衡。即使一个人非常小心，也很难在静止时将自行车保持平衡。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么骑自行车移动时容易保持平衡，但几乎不可能在静止时做到？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**烧焦的食物含有：**\n\n* **焦炭：**会损坏胃和肠道。\n* **自由基：**会损坏 DNA、蛋白质和脂肪。\n* **有毒物质：**一些烧焦的食物中含有有毒物质。\n\n这些成分可以导致：\n\n* **胃灼热和胃炎**\n* **肠道损伤**\n* **癌症**\n* **免疫系统低下**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么吃烧焦的食物对你不好？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n在嘈杂的环境中更难以入睡是因为：\n\n**1. 刺激性刺激：**\n* 繁忙的活动和噪音会激发兴奋和警觉，并阻止睡眠的开始。\n* 视觉和听觉刺激会激活大脑，并阻止深度睡眠的发生。\n\n**2. 压力和焦虑：**\n* 嘈杂的环境可以增加压力和焦虑，这些情绪会干扰睡眠的质量。\n* 压力会释放出激素，这些激素会抑制睡眠。\n\n**3. 睡眠-觉醒周期失调：**\n* 繁忙的生活方式和夜间噪音可能会破坏睡眠-觉醒周期，并导致入睡困难。\n\n**4. 呼吸和心率加速：**\n* 嘈杂的环境可以加速呼吸和心率，并导致睡眠的质量下降。\n\n**5. 身体活动增加：**\n* 繁忙的活动会导致身体活动水平增加，并阻止睡眠的开始。\n\n这些因素共同作用，使在嘈杂的环境中更难以入睡。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么在嘈杂的环境中更难以入睡？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**电脑崩溃可能发生以下情况：**\n\n**1. 硬件故障：**\n- 存储器故障（内存条损坏或失效）\n- 主板故障（连接器损坏或失效）\n- 存储器连接器故障\n- 电源供应故障\n- 主机板故障\n\n**2. 软件故障：**\n- 操作系统故障\n- 驱动程序故障\n- antivirus软件故障\n- 软件冲突\n\n**3. 病毒或木马软件感染：**\n- 病毒感染会导致系统崩溃或不稳定运行\n- 木马软件可以窃取个人信息或破坏系统\n\n**4. 硬件温度过高：**\n- 过高的硬件温度可以损坏硬件和导致崩溃\n\n**5. 电源问题：**\n- 不稳定的电力供应可以导致崩溃\n\n**6. 其他原因：**\n- 硬件连接不良\n- 驱动程序更新不足\n- 软件更新不兼容"
+            }
+          },
+          "prompting_state": {
+            "prompt": "我的电脑崩溃时到底发生了什么情况？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n在有可靠饮水供应但没有食物的地方被困，身体会发生以下变化：\n\n**短期：**\n\n* 脱水和脱盐\n* 肌肉无力和疲劳\n* 精神萎缩和情绪波动\n* 身体温度下降\n* 尿液变浓\n\n**中期：**\n\n* 营养素缺乏，导致身体功能下降\n* 免疫系统功能低下\n* 皮肤干燥和脱落\n* 头发变暗或脱落\n* 骨质密度下降\n\n**长期：**\n\n* 营养素缺乏导致器官衰竭\n* 死亡\n\n这些变化的发生时间取决于个人的身体状况和环境条件。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "如果我被困在一个有可靠饮水供应但没有食物的地方，我的身体会发生什么变化？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "这个问题的答案可能取决于你所信仰的宗教或哲学观点。\n\n**宗教观点：**\n\n* **基督教：**基督教认为死亡只是生命的一个阶段，最终会与基督在天堂相遇。天堂是一个与痛苦和悲伤无关的完美世界。\n* **伊斯兰教：**伊斯兰教认为死亡是到最终的审判，然后前往天堂或地狱。天堂是一个与痛苦无关的完美世界，而地狱则是对罪恶者的惩罚。\n* **佛教：**佛教认为死亡是生命周期的一个部分，但灵魂会继续存在。灵魂会经历不同的转世，直到最终解脱。\n\n**哲学观点：**\n\n* **理性哲学：**理性哲学家认为死亡是一个生物学过程，不会有意识或情感。\n* **精神哲学：**精神哲学家认为死亡是一个精神事件，会对我们的意识产生影响。他们认为灵魂可能存在于另一个维度或形式。\n\n**科学观点：**\n\n* 科学无法提供有关死后的任何信息，因为我们还没有观察到任何有意识的死亡事件。\n\n**结论：**\n\n死后的本质仍然是一个未知的领域，但不同的宗教、哲学和科学观点提供了对这一问题的各种解释。最终，我们可能永远不会知道死后会发生什么事情，但我们可以相信我们的信仰和希望。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "我们是否能够知道死后会发生什么事情呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n骨头不能再生长是因为：\n\n* **骨组织缺乏血管供血：**骨组织缺乏血液供应，无法提供必需的营养和氧气。\n* **骨蛋白缺乏再生能力：**骨蛋白缺乏自我修复和再生能力。\n* **骨matrix缺乏柔性：**骨matrix缺乏柔性，无法适应应力变化并促进再生。\n* **免疫系统攻击：**免疫系统会攻击骨组织，以防止骨再生。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么骨头不能再生长呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**黄金的珍贵性有以下几个原因：**\n\n**1. 稀有性：**\n* 黄金在地壳中仅占0.0035%，比其他金属更稀有。\n* 这种稀有性使其更具价值，因为更少的黄金意味着更高的价值。\n\n**2. 稳定性：**\n* 黄金具有高度的化学稳定性，不会像其他金属那样发生氧化或腐蚀。\n* 这种稳定性使其更适合作为货币和投资品。\n\n**3. 美观性：**\n* 黄金具有独特的光泽和颜色，使其非常美观。\n* 这种美观性使其更受欢迎，并为其增加了价值。\n\n**4. 历史价值：**\n* 黄金在历史上有很长的使用历史，被用作货币、投资品和装饰品。\n* 这种历史价值使其更具价值。\n\n**5. 投资价值：**\n* 黄金被认为是安全的投资，因为它不受经济周期的影响。\n* 这种投资价值使其更具价值。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么黄金如此珍贵？它为何比其他金属，如银，更有价值？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n海洋淹没地球的可能性很低，因为：\n\n* **地球的地壳结构：**地球的地壳被分隔成不同的板，这些板在运动中相互碰撞和分离。这些碰撞和分离过程有助于保持地球表面的高度。\n* **海平面的波动：**海平面不断变化，但这些变化很小，不足以淹没地球。\n* **地球的引力场：**地球的引力场保持着海洋的液态状态，并防止它们变成气体。\n* **生物演化：**海洋生物的演化有助于平衡海洋水体的增加。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "是什么阻止了海洋淹没地球？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "一些手机应用程序可以监测睡眠模式，但它们如何知道我什么时候在睡觉？它们使用哪些技术来识别睡眠状态？\n\n**睡眠监测技术的原理：**\n\n**1. 加速计和加速度传感器：**\n* 这些传感器可以监测身体的加速度变化，包括呼吸和心跳。\n* 睡眠期间，呼吸和心跳的频率和幅度会降低。\n\n**2. 方向传感器：**\n* 方向传感器可以监测身体的姿势和方向变化。\n* 睡眠期间，身体的姿势会保持静止或低活动状态。\n\n**3. 光线传感器：**\n* 光线传感器可以监测环境光线水平。\n* 睡眠期间，环境光线水平通常很低。\n\n**4. 睡眠模式分析：**\n* 这些应用程序使用这些传感器收集的数据来分析睡眠模式。\n* 它们识别睡眠和清醒状态的模式，并根据这些模式来确定睡眠时间和频率。\n\n**技术：**\n\n* **信号处理和机器学习：**这些应用程序使用信号处理技术来提取睡眠模式的特征，并使用机器学习算法来识别睡眠状态。\n* **深度学习：**一些应用程序使用深度学习技术来更准确地识别睡眠状态。\n\n**其他因素：**\n\n* **用户的反馈：**一些应用程序允许用户提供反馈，以帮助它们更准确地识别睡眠状态。\n* **用户的睡眠习惯：**用户的睡眠习惯可以影响睡眠模式的识别。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "我的手机怎么知道我什么时候在睡觉？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n这主要是因为味觉和嗅觉在处理信息时是独立的。嗅觉可以激发对特定香气或气味的兴奋，而味觉则对味物质的化学成分进行分析。\n\n有些闻起来很香的东西尝起来却很难吃，是因为它们在味觉系统中没有相应的味物质。例如，一些香气很强，但它们在味觉系统中没有对应的味物质，因此我们无法从这些香气中获得味道。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "如果我们尝到的大部分味道是由嗅觉决定的，为什么有些闻起来很香的东西尝起来却很难吃呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n肥皂可以洗掉手上几乎所有东西，因为它们有表面活性剂。表面活性剂有能力在水中形成乳状，并与污垢和油脂混合，使其更容易被冲洗掉。然而，肥皂不能洗掉身上的香味，因为香气是气体，不会在水中形成乳状。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么肥皂能洗掉手上几乎所有东西，但却洗不掉身上的香味呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**动物如何感知到即将发生的地震？**\n\n动物如何感知到即将发生的地震的机制尚不清楚，但有研究表明，某些动物可能能够感知到地震的预兆。这些预兆包括：\n\n**1. 磁场变化：**\n* 地震前，地磁场可能会发生变化，这可能会影响动物的行为和生理过程。\n\n**2. 应激波：**\n* 地震发生时，会产生应激波，这些波在动物的身体中传播，可能会导致身体紧张和兴奋。\n\n**3. 气体释放：**\n* 地震前，土壤和岩石可能会释放出气体，这些气体可能会对动物产生刺激。\n\n**4. 土壤振动：**\n* 地震发生时，土壤会振动，这可能会对动物的平衡和身体结构产生影响。\n\n**5. 光学变化：**\n* 地震前，可能会有光学变化，例如亮度变化或光束折射。\n\n**动物的感知能力：**\n\n* **嗅觉：**某些动物有很敏锐的嗅觉，可以检测出地震前释放的气体。\n* **听觉：**一些动物有很敏锐的听觉，可以检测出地震前产生的应激波。\n* **视觉：**一些动物有很敏锐的视觉，可以检测出地震前发生的任何光学变化。\n* **身体感受：**一些动物可以感觉土壤振动和身体紧张，从而感知到地震的预兆。\n\n**研究表明：**\n\n* 一些动物，例如猫和狗，能够感知到地震的预兆并进行避难。\n* 其他动物，例如马和牛，也可能能够感知到地震的预兆，但他们的感知能力可能不如猫和狗。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "动物是如何感知到即将发生的地震的？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "打哈欠的时候，喷出口水是正常现象，因为哈欠的时候，胃内容会流入食道，并通过食道进入肺部。当胃内容进入肺部时，会引起肺部刺激，并导致喷出口水。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么我打哈欠的时候，有时候会喷出口水？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**控制或人为制造天气**\n\n目前，我们还没有技术来完全控制或人为制造天气。然而，我们可以通过以下方式影响天气：\n\n**1.  cloud seeding**\n\n- 在云层中加入凝结或降雨核，以促进降雨或积雪。\n- 可以增加降雨量或改变降雨模式。\n\n\n**2. 积云控制**\n\n- 利用飞机或其他平台释放化学物质，以影响云层的形成和发展。\n- 可以减少或增加降雨量，或改变降雨区域。\n\n\n**3. 灌云**\n\n- 在特定区域释放水汽，以制造人工云层和降雨。\n- 这种技术在沙漠地区和干旱地区特别有用。\n\n\n**4. 改变海面温度**\n\n- 海面温度变化会影响大气的温度和湿度，从而影响天气。\n- 通过改变海面温度，我们可以影响沿海地区的降雨量和气温。\n\n\n**5. 改变土地覆盖**\n\n- 土地覆盖变化会影响地表温度和湿度，从而影响天气。\n- 通过改变土地覆盖，我们可以影响降雨量和气温。\n\n\n**控制程度**\n\n这些技术可以影响天气，但我们还没有能力完全控制天气。我们只能在特定的区域和特定的时间内影响天气。\n\n**未来可能性**\n\n随着技术的进步，我们未来可能会拥有更强大的控制天气的能力。例如，我们可能会能够通过基因工程技术改变云层的组成，或通过光学技术直接影响气流。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "我们能否控制或人为制造天气？如果可以，能达到什么程度，又该如何做呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**影响：**\n\n摘取叶子会对植物产生以下影响：\n\n**1. 影响光合作用：**\n- 叶子是光合作用的中心部位。\n- 摘取叶子会减少植物的光合面积，从而降低光合效率和碳固定能力。\n\n**2. 影响气体交换：**\n- 叶子是植物的呼吸和气体交换中心。\n- 摘取叶子会减少植物的呼吸和蒸腾，并可能导致气体平衡失衡。\n\n**3. 影响水和矿物质吸收：**\n- 叶子是植物吸收水和矿物质的表面。\n- 摘取叶子会减少植物的表面积，从而降低其吸收能力。\n\n**4. 影响生长和繁殖：**\n- 摘取叶子会减少植物的叶面积，从而影响生长和繁殖。\n- 叶子是植物生产新叶和繁殖材料的根源。\n\n**5. 影响免疫系统：**\n- 摘取叶子会对植物的免疫系统产生负面影响。\n- 叶子含有抗氧化剂和免疫蛋白，这些物质有助于植物抵抗病原体和环境应激。\n\n\n**恢复：**\n\n植物能够恢复从摘取叶子造成的伤害，但需要时间和条件。\n\n**条件：**\n\n- 摘取的叶子数量有限。\n- 摘取的叶子是健康成熟的。\n- 植物有充足的光照、水和营养。\n\n**时间：**\n\n- 小叶：几周\n- 大叶：几个月或更长时间\n- 大型树木：几年或更长时间\n\n**结论：**\n\n摘取叶子会对植物产生短期影响，但植物能够恢复从这种伤害造成的伤害。通过采取适当的措施，可以最大限度地减少对植物的影响。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "当你从植物上摘下一片叶子时，会对植物产生什么影响？你真的在伤害它吗，植物能够恢复过来吗？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n睡前思考很多事情与生物钟和睡眠状态有关。当睡眠时间接近时，我们的身体会进入放松和恢复阶段，而我们的大脑则开始准备进入睡眠状态。这种状态下，我们的思维活动会减弱，但我们的情感和意识仍然存在。这可能导致我们思考更多事情，因为我们的大脑没有被睡眠所完全休息。\n\n此外，睡前思考很多事情也可能与我们的焦虑或压力有关。当我们感到焦虑或压力时，我们的大脑会更活跃，并更可能产生思考和回忆。这意味着我们睡前更容易思考很多事情。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么我们在睡前会倾向于思考很多事情？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "洋葱切成薄片或小块时，会释放出乙醇胺和二氧化硫酸，这两种化学物质会相互作用，生成硫酸乙醇胺。硫酸乙醇胺会刺激眼部神经，导致眼部泪水分泌增加，并最终导致洋葱切时流泪。\n\n**避免洋葱切泪的方法：**\n\n* **在切洋葱之前用冰冻洋葱 5-10 分钟。**这可以降低洋葱中的乙醇胺和二氧化硫酸的活性，减少流泪。\n* **在切洋葱时戴上防护眼镜。**防护眼镜可以防止硫酸乙醇胺进入眼睛，减少流泪。\n* **切洋葱时保持呼吸道通畅，避免吸入硫酸乙醇胺气体。**\n* **切洋葱时尽量减少切面面积。**\n* **切洋葱时使用剪刀或刀片，而不是手剪。**手剪洋葱时更容易将洋葱的肉汁切入洋葱中，导致流泪。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "我们切洋葱时为什么会流泪？有没有办法避免这种情况？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n大多数家养动物喜欢被人抚摸是因为：\n\n* **它能释放内啡素。**抚摸可以释放内啡素，这是一种与快乐和放松相关的激素。\n* **它能减少应激。**抚摸可以减少应激激素的水平，并使动物感到放松和舒适。\n* **它可以建立人动物联系。**抚摸可以建立人动物联系，并使动物感到被爱和受保护。\n* **它可以缓解疼痛。**抚摸可以缓解一些动物的疼痛，例如肌肉疼痛或关节疼痛。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么大多数家养动物喜欢被人抚摸？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**我们需要不断进行软件更新的原因：**\n\n**1. 安全漏洞：**\n* 新的软件版本通常会修复在发布时已知的安全漏洞。\n* 攻击者可能会利用这些漏洞来攻击您的系统，因此更新软件可以提高安全性。\n\n**2. 新功能：**\n* 新的软件版本通常会添加新的功能和特性。\n* 这些新功能可以提高用户体验和生产力。\n\n**3. 改进性能：**\n* 新的软件版本通常会改进性能和效率。\n* 这可以减少系统停机时间并提高用户体验。\n\n**4. 兼容性更新：**\n* 新的软件版本通常会更新对其他软件和硬件的兼容性。\n* 这可以确保您的软件能够与您的系统和网络正常工作。\n\n\n**如果你不更新：**\n\n* **安全风险增加：**您的系统可能更容易受到攻击。\n* **功能限制：**你可能无法使用新的功能和特性。\n* **性能下降：**您的系统可能运行更缓慢和效率低下。\n* **兼容性问题：**您的软件可能无法与您的系统和网络正常工作。\n\n\n**因此，定期更新软件非常重要，以确保您的系统安全、功能强大和高效。**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么我们需要不断地进行软件更新？如果我不更新会怎样？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "不是这样。海平面的变化由许多因素决定，包括海流、气压和温度。当海流改变方向或速度时，海平面可能会升高或下降。气压变化也会导致海平面升高或下降。温度变化会导致海水膨胀或收缩，从而影响海平面高度。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "船只会导致海平面比正常情况下更高吗？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n大脑细胞的再生能力有限，主要因为：\n\n* **神经元间隙的限制：**神经元之间的间隙很小，限制了新神经元的生长和连接。\n* **神经元分化和生成过程的复杂性：**生成新的神经元需要复杂的分子和生物学过程，这在大脑中比其他器官更困难。\n* **免疫系统的攻击：**大脑中的免疫系统可能会攻击新的神经元，因为它被认为是异物。\n* **年龄的影响：**随着年龄的增长，大脑的再生能力会下降。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "我们身体中几乎每个细胞都能再生。为什么大脑细胞不同呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "跳蚤有自己的免疫系统，它们可以识别并攻击外来体，包括杀毒剂。即使我们能够杀死跳蚤的大多数，但它们会迅速繁殖，以至于我们无法完全消除它们。\n\n此外，跳蚤在自然环境中扮演着重要的角色。它们是某些动物的宿主，并有助于传播某些疾病。因此，我们不能完全灭绝跳蚤。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么我们不能彻底灭绝跳蚤？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**睡眠不足会导致以下健康问题：**\n\n* 认知功能下降\n* 记忆障碍\n* 情绪波动\n* 免疫系统低下\n* 身体疼痛\n* 呼吸系统疾病\n* 心脏疾病\n* 癌症\n\n**然而，睡眠不足并不会直接导致死亡。**然而，睡眠不足会导致上述健康问题，这些健康问题可能会加剧其他疾病的风险，最终导致死亡。例如：\n\n* **认知功能下降和记忆障碍**会导致个人在工作或日常生活中遇到困难，这可能会导致失业或生活质量下降。\n* **情绪波动**可能会导致个人做出危险的决定，例如自杀或自残。\n* **免疫系统低下**会导致个人更容易感染疾病，这些疾病可能会加剧其他健康问题的风险。\n* **呼吸系统疾病和心脏疾病**可能会导致呼吸或心脏停止，最终导致死亡。\n\n因此，睡眠不足并不会直接导致死亡，但它可能会加剧其他疾病的风险，最终导致死亡。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "缺乏睡眠如何会导致死亡？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "これは誤情報です。飛行機は、通常、乗客は前から後ろに向かって搭乗します。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ飛行機は前から後ろに向かって搭乗するのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**喫煙は、心臓に以下のような影響を与える。**\n\n* **血栓の形成の促進：** タバコは、血栓の形成を促進するプロスタグランジンという化学物質を生成します。\n* **血圧の向上：** タバコは、血圧を向上させる可能性があります。\n* **心筋の損傷：** タバコは、心筋に損傷を与える可能性があります。\n* **心膜炎の発生：** タバコは、心膜炎の発生のリスクを増加させます。\n* **心筋の狭窄：** タバコは、心筋の狭窄の発生のリスクを増加させます。\n\nこれらのすべての効果は、喫煙が心臓にとって非常に悪いという結果に貢献します。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ喫煙は心臓にとって非常に悪いのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "「最近削除した項目」は、iPhoneのユーザーインターフェースに表示されるメニューで、ユーザーが最近削除したファイルや写真を表示します。\n\nしかし、このメニューから削除したファイルや写真は、単に消去されるわけではありません。これらのファイルや写真は、以下の場所に保存されます。\n\n* **ゴミ箱**：iPhoneのユーザーは、設定からゴミ箱を有効にすることができます。有効になっている場合は、削除したファイルや写真はゴミ箱に保存されます。\n* **タイムカプセル**：iPhoneは、ユーザーの行動を記録する機能としてタイムカプセルを備えています。タイムカプセルは、ユーザーが削除したファイルや写真を定期的にバックアップし、ユーザーが必要な場合に復元することができます。\n* **iCloud**：iPhoneと連携するiCloudサービスは、ユーザーのファイルや写真を自動的にバックアップします。ユーザーは、iCloudから削除したファイルや写真を復元することができます。\n\nしたがって、ユーザーは、ゴミ箱、タイムカプセル、iCloudのいずれかの場所から、最近削除したファイルや写真を復元することができます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "iPhoneで、「最近削除した項目」から削除したファイルや写真はどこに行くのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：重力によるエネルギーの蓄積**\n\n跳ぶ前に立ち止まる際に、体重の重力によって下向きにエネルギーが蓄積されます。このエネルギーは、跳びの高さに転換されます。\n\nつまり、立ち止まる際により多くのエネルギーを蓄積すると、跳びの高さも高くなり、より高く跳ぶことができます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "走ってから跳ぶと、なぜもっと高く跳べるのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\n赤ちゃんのミルクは、自然に抗体やその他の利点を含んでおり、追加の抗体や利点を追加する必要はありません。赤ちゃんのミルクは、赤ちゃんの健康に最適であり、適切な栄養素と抗体を提供します。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "母乳の抗体やその他の利点を、なぜ赤ちゃんのミルクに加えることができないのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "\"\"\"\n\n**インターネットの速度制限を管理するプロバイダーの一般的な方法：**\n\n**1. コストベースの制限：**\n* 高い料金プランに高い速度のアクセスを提供。\n* 低い料金プランに低い速度のアクセスを提供。\n\n\n**2. 時間ベースの制限：**\n* 時間帯によって速度を制限。例えば、早朝や深夜は低速、昼間は高速。\n\n\n**3. データ量ベースの制限：**\n* データ量に制限を設定。超過したデータ量に対しては、速度を制限する。\n\n\n**4. 使用者ベースの制限：**\n* 使用者数に制限を設定。多くのユーザーが同時に接続すると、速度が低下する。\n\n\n**5. ネットワーク状況の監視：**\n* ネットワークの状況を監視し、速度制限が必要かどうかを決定。\n\n\n**6. 手動制御：**\n* プロバイダーが手動で速度制限を設定することも可能。\n\n\n**7. AIベースの制御：**\n* AIアルゴリズムを使用して、ユーザーのオンライン活動とネットワーク状況を分析し、最適な速度制限を設定。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "私のWi-Fiプロバイダーはどのようにしてインターネットの速度制限を管理しているのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\n採血は、腕の内側の折れ曲がる部分で行われる理由は、以下のようなものが考えられます。\n\n* **動脈の近接性：**腕の内側の折れ曲がる部分は、動脈が比較的近接しているため、採血の際動脈に損傷を与える可能性が低くなります。\n* **静脈の広がり：**腕の内側の折れ曲がる部分は、静脈が広がり、採血の際静脈に損傷を与える可能性が低くなります。\n* **組織の厚さ：**腕の内側の折れ曲がる部分は、他の部位よりも組織の厚さが薄いため、採血の際組織に損傷を与える可能性が低くなります。\n\nこれらの理由から、一般的な採血は腕の内側の折れ曲がる部分で行われます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ一般的な採血は腕の内側の折れ曲がる部分で行われるのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\nこれは、テレビ業界の技術進歩の遅さと、視聴者のニーズに適した技術の選択の問題に関連しています。\n\n* **テレビ業界の技術進歩の遅さ：**テレビ業界は、携帯電話やその他のモバイルデバイスの技術進歩よりも遅く、テレビカメラの小型化に関連する技術は進歩していません。\n* **視聴者のニーズ：**視聴者は、テレビで高い解像度と色度を必要とする傾向があり、携帯電話サイズでこの要求を満たすテレビカメラは現在存在していません。\n\nしたがって、テレビ業界は、視聴者のニーズに適した技術を選択し、巨大なテレビスタジオのカメラを使用する必要があり、テレビカメラの小型化には進歩が必要です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ同じ技術が今や携帯電話サイズになっているのに、私たちはまだ巨大なテレビスタジオのカメラを使い続けているのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "地球の中心部の温度は、地球の年齢、構成、熱源の量によって異なります。地球の中心部の温度を推測する最も正確な方法は、地球の磁気活動の記録を調べることです。地球の磁気活動は、地質的な時間スケールで変化し、その変化は地球の中心部の温度に影響を与える可能性があります。\n\n地球の中心部の温度を推測するもう一つの方法として、地球の熱流出を調べることができます。地球の熱流出は、地球の表面から熱が失われる量を測定したものです。地球の熱流出は、地球の中心部の温度に関連しており、地球の中心部の温度を推測することができます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "地球の中心部の温度はどのようにして分かるのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "\n\n**答え：**\n\nニキビは、荷重の大きい皮下腺や毛根の根元などの毛孔の奥に発生する感染症です。ニキビは、荷重の大きい皮下腺や毛根の根元などの毛孔の奥に発生する感染症です。ニキビは、荷重の大きい皮下腺や毛根の根元などの毛孔の奥に発生する感染症です。\n\nニキビは、荷重の大きい皮下腺や毛根の根元などの毛孔の奥に発生する感染症です。ニキビは、荷重の大きい皮下腺や毛根の根元などの毛孔の奥に発生する感染症です。\n\nニキビは、荷重の大きい皮下腺や毛根の根元などの毛孔の奥に発生する感染症です。ニキビは、荷重の大きい皮下腺や毛根の根元などの毛孔の奥に発生する感染症です。\n\nニキビは、荷重の大きい皮下腺や毛根の根元などの毛孔の奥に発生する感染症です。ニキビは、荷重の大きい皮下腺や毛根の根元などの毛孔の奥に発生する感染症です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "思春期にニキビがよく発生するのはなぜですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "これは、人間が農場や家畜場で行うような自然なプロセスです。\n\n答え：\n羊は草と水を、乳酸やタンパク質などの栄養素に変換し、さらにそれを使って新しい羊を生産します。このプロセスは、動物の栄養サイクルという自然なプロセスです。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "羊はどのようにして草と水を牛乳や羊毛、そしてもっと多くの羊に変えるのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**体脂肪率を知る方法**\n\n**1.BIA（電気インピーダンス分析）**\n\n* 体内の水分の電気的特性を測定して体脂肪率を計算します。\n* 高度な機器が必要ですが、非常に正確です。\n\n\n**2. 水分計**\n\n* 体内の水分を測定し、体脂肪率を推測します。\n*BIAよりも正確度が低い傾向があります。\n\n\n**3. デンシメトリックスキャン**\n\n* 体の断面をスキャンし、体脂肪率を計算します。\n* 高度な機器が必要ですが、非常に正確です。\n\n\n**4. インスレッド・ボディ・スキャン**\n\n* 体の画像をキャプチャし、体脂肪率を計算します。\n*BIAやデンシメトリックスキャンよりも正確度が低い傾向があります。\n\n\n**5. ホーム・ボディ・スキャン**\n\n* ホームで体脂肪率を測定するためのデバイスがあります。\n* これらのデバイスは、プロの機器よりも正確度が低い傾向があります。\n\n\n**推測**\n\n* 体脂肪率を直接知ることは難しい場合があり、人々は単に推測する必要があります。\n* 推測には、年齢、体重、体形、生活様式などの情報が必要です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "自分の体脂肪率をどうやって知ることができるの？それとも、人々は単に推測するだけ？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "睡眠麻痺は、睡眠中の脳の電気活動の低下と関連していることが知られています。\n\n**電気活動の低下**\n\n* 睡眠中の脳の電気活動は、覚醒状態よりも大幅に低下します。\n* この電気活動の低下は、睡眠麻痺の症状である記憶障害や集中力低下に関連している可能性があります。\n\n**脳の構造変化**\n\n* 睡眠中の脳の構造も変化します。\n* 睡眠中の脳は、覚醒状態よりも多くの長鎖脂肪酸を生産します。\n* これらの長鎖脂肪酸は、脳の記憶と記憶関連の機能に影響を与える可能性があります。\n\n**脳の機能の低下**\n\n* 睡眠中の脳の機能も低下します。\n* 睡眠中の脳は、覚醒状態よりも多くの非線形な活動をします。\n* これらの非線形な活動は、記憶の統合や問題解決に必要です。\n\nこれらの科学的な説明は、睡眠麻痺の症状である記憶障害や集中力低下の根源を理解する可能性があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "睡眠麻痺の科学的な説明は何ですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n金属は、地球の表面や地下に豊富に存在しており、まだ尽きていない。ただし、特定の金属は、その産出量や需要量に制限があり、将来に不足する可能性があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜまだ金属が尽きていないのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "これは誤情報であり、そのような情報は存在しない。世界で最も優れたマイクロチップを製造する会社は複数存在し、その技術は競争によって進歩しています。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "私の理解では、台湾の1社だけが世界で最も優れたマイクロチップを製造しており、他の誰もそれを再現できないということですが、それはどうして可能なのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "血中の色素であるヘモglobinに鉄が含まれているため、鉄の酸化状態によって色を変化させ、血が赤い。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ほとんどの動物の血が赤い理由は何ですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "要するに、運動やボディビルディングは、体力の自己修復能力を向上させるのか？\n\n**運動やボディビルディングは、体力の自己修復能力を向上させる。**\n\n以下、運動やボディビルディングが体力の自己修復能力を向上させる理由を説明する。\n\n**1. 細胞レベルの自己治癒の促進**\n\n運動やボディビルディングは、細胞レベルの自己治癒の促進に役立つ。運動は、細胞の DNA 修復や再構築を促進し、傷や損傷を速やかに治すことができます。\n\n**2. 血液循環の向上**\n\n運動は、血液循環を向上させ、体内のすべての細胞に必要な栄養素と酸素を届けることができます。これは、体力の自己修復能力を向上させ、傷や損傷を速やかに治すことができます。\n\n**3. 免疫系の強化**\n\n運動は、免疫系の強化に役立ち、体内のすべての細胞を保護します。運動は、白血球の増殖を促進し、感染症や病原体の感染を軽減します。\n\n**4. 肉質の増量**\n\n運動やボディビルディングは、肉質の増量に役立ち、体力の自己修復能力を向上させます。肉質は、体内のすべての細胞をサポートし、傷や損傷を速やかに治すことができます。\n\nこれらの理由から、運動やボディビルディングは、体力の自己修復能力を向上させ、要するに体力が自己修復する能力の消耗を防ぐものではありません。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "老化が、要するに体が自己修復する能力の消耗であるとしたら、なぜ運動やボディビルディング（健康的な方法で）がその能力を悪化させないのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\n割引で商品を売ると、企業は単価の販売収入は減少するが、販売量を増やすことで、全体的な利益を得ることは可能です。割引で商品を売ると、企業は単価の販売収入は減少するが、販売量を増やすことで、全体的な利益を得ることは可能です。割引で商品を売ると、企業は単価の販売収入は減少するが、販売量を増やすことで、全体的な利益を得ることは可能です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "大幅な割引で商品を売ることから、企業はどのようにして利益を得るのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**つわりの発生メカニズム**\n\nつわりは、妊娠中の女性において、子宮のサイズ拡大や子宮内膜の増殖、子宮の筋肉の緊張の増加などの変化によって発生する可能性があります。これらの変化は、妊娠中の女性におけるつわりの発生に関連している可能性があります。\n\n**つわりの発生要因**\n\n* 子宮のサイズ拡大\n* 子宮内膜の増殖\n* 子宮の筋肉の緊張の増加\n* 妊娠中のストレス\n* 栄養状態の悪さ\n* 睡眠不足\n\n**つわりの頻度と継続時間**\n\nつわりの頻度と継続時間は、女性によって異なります。多くの女性は、妊娠初期にのみつわりを経験するのに対し、他の女性は、妊娠期間中ずっと経験する可能性があります。つわりの継続時間は、数秒から数分まで異なります。\n\n**つわりの管理**\n\nつわりを管理するためのいくつかの方法があります。\n\n* ストレスを軽減する\n* 栄養状態を向上させる\n* 睡眠を確保する\n* 子宮の運動を制限する\n* 医者の指導を受ける"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ妊娠中の一部の女性は「つわり」に悩まされ、他の女性はそうではないのでしょうか？また、多くの女性が妊娠初期にのみつわりを経験するのに対し、なぜか妊娠期間中ずっと経験する女性もいるのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "これは、気象の特性や季節の変化に関連しています。\n\n**気象の特性**\n\n* 温度、気圧、風速、降雨量などの気象要素は、場所や時間によって異なる。\n* 異なる気象要素は、さまざまな現象を引き起こす可能性があります。\n\n**季節の変化**\n\n* 季節は、気象要素の特性を変更する。\n* 例えば、夏は他の季節よりも高い気温と降雨量があります。\n\nこれらの要素は、異なる日や季節に全く異なる現象を引き起こす可能性があります。\n\n**例**\n\n* **夏は他の季節よりも高い気温です。**これは、夏に熱波や高温の現象が発生する可能性を高める可能性があります。\n* **夏は他の季節よりも降雨量が多いです。**これは、夏に嵐や雨の発生の頻度を高める可能性があります。\n* **冬は他の季節よりも低い気温です。**これは、冬に氷や雪の発生の可能性を高める可能性があります。\n\nしたがって、異なる日や季節に全く異なる感じがする理由は、気象の特性や季節の変化に関連しています。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "同じ気温でも、なぜ異なる日や季節に全く違う感じがするのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**身体の健康問題を引き起こすためのストレスのメカニズム**\n\nストレスは、身体の健康に悪影響を与える可能性のあるさまざまなメカニズムを通じて身体の健康問題を引き起こすことができます。\n\n**1. 生理的な応答の乱れ**\n\n* ストレスは、体内のストレス応答システムを活性化し、アドレナリンやコルチコステロイドなどのストレス関連の化学物質を放出します。\n* このような化学物質の過度または不適切な放出は、心血管系、内分泌系、免疫系などの重要な機能に影響を与える可能性があります。\n\n\n**2. 免疫系の弱化**\n\n* ストレスは、免疫系の機能を弱め、病原体に対する防御力を低下させる可能性があります。\n* これは、発病のリスクを高め、身体の健康問題を引き起こす可能性があります。\n\n\n**3. 心血管系の影響**\n\n* ストレスは、高血圧、高脂質、心筋炎などの心血管系関連の疾病のリスクを増加させる可能性があります。\n* これは、心血管系の損傷と心筋発射の増加に関連しています。\n\n\n**4. 内分泌系の影響**\n\n* ストレスは、内分泌tokineのバランスを乱し、ストレス関連の化学物質の過度放出によって、インスリンの感度や成長ホルモンの生産に影響を与える可能性があります。\n* このような内分泌系の変化は、体重増加、発育障害、そして関連する健康問題を引き起こす可能性があります。\n\n\n**5. 脳の影響**\n\n* ストレスは、脳の機能に影響を与える可能性があり、記憶障害、集中力低下、発作の増加などの認知機能に悪影響を与える可能性があります。\n* これは、身体の健康問題を引き起こす可能性のあるさまざまな行動や決断の障害に関連しています。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ストレスがどのようにして身体の健康問題を引き起こすのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "画像やX線などの診断結果も考慮した上で、身体の怪我の状態を詳細に説明してください。\n\n**詳細説明：**\n\n* 怪我の部位と種類\n* 怪我の程度と進展\n* 可能性のある損傷\n* 診断結果の分析\n* 治療計画\n\n**詳細説明の例：**\n\n**怪我の部位と種類：**\n右腕の肘部\n\n**怪我の程度と進展：**\n2週間前に発生した、表面の傷で、現在、痛みと腫れは残っている。\n\n**可能性のある損傷：**\n骨の損傷、肉離れ、神経損傷\n\n**診断結果の分析：**\nX線は骨の損傷を示していませんが、MRIは肉離れを疑う可能性があります。\n\n**治療計画：**\n痛み管理、物理療法、リハビリテーション"
+            }
+          },
+          "prompting_state": {
+            "prompt": "痛みは身体の怪我の状態を完全に正確に示すものですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**異なる動物には異なる寿命がある理由はいくつかあります。**\n\n* **遺伝的な要因:** 一部の動物は、他の動物よりも寿命の長い遺伝子を持っている可能性があります。\n* **環境的な要因:** 環境の条件、特に食料の質と量、気候、そして生活様式は、動物の寿命に影響を与えることができます。\n* **生物的な要因:** 動物の種や種内集団の進化歴も、その寿命に影響を与えることができます。\n* **生 مُعرِّف的な要因:** 動物の細胞や組織の再生能力は、その寿命に影響を与えることができます。\n\nこれらの要因は、異なる動物の異なる寿命の理由を説明します。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ異なる動物には異なる寿命があるのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "これは誤情報です。人間は動物から妊娠することが可能です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ人間は動物から妊娠することができないのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "* 記憶の強化\n* 精神的なリソースの充電\n* 感情の調整\n* 身体的なリソースの充電\n* すべて\n\n**答え：すべて**\n\n睡眠は、記憶の強化、精神的なリソースの充電、感情の調整、身体的なリソースの充電に役立ち、すべての機能を向上させることができます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "睡眠の機能は何ですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "* ランナーは、非ランナーよりも多くの酸素を体内に取り込み、消費します。\n* ランナーは、非ランナーよりも多くの血を心から体中に送ります。\n* ランナーは、非ランナーよりも多くの血液を心から体中に送るためのエネルギーが必要です。\n\nこれらの3つの理由から、ランナーの心拍数が非ランナーよりも低いことが説明されます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ランナーの心拍数が非ランナーよりも低いのはなぜですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\nシャワー浴びた後、より多く汗をかくのは、シャワーの熱で体内の水分が蒸発し、その蒸気を体から放出するからです。シャワー浴びると、体表面の水分は温まることで、体内の水分も温まるため、体内の水分が蒸発しやすくなります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "シャワーを浴びた後、なぜより多く汗をかくのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\nバランスを取りやすいのは、自転車が動いている時に、車輪の回転によって生じる慣性力です。慣性力は、物体の運動状態を変更しようとする力です。\n\n自転車が動いている時、車輪は常に回転しており、慣性力によって自転車はバランスを取りやすくなります。しかし、自転車が停止している時には、車輪は停止し、慣性力が存在しなくなります。したがって、自転車はバランスを取りやすくなくなります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "自転車が動いている時にバランスを取りやすいのに、停止している時にはほぼ不可能なのはなぜですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "焦げた食べ物を食べると、体内に有毒物質が発生し、健康に悪影響を与える可能性があります。\n\n**有毒物質の発生Mechanism**\n\n* 焦れた食べ物は、高温で熱処理される際に、アミノコラスやリノール酸などのアミノコラス基と脂肪酸が結合して、有毒物質であるヒムリンとホモヒムリンを生成します。\n* これらは、体内で発汗や尿に排泄されますが、一部は体内に残り、健康に悪影響を与える可能性があります。\n\n**健康への影響**\n\n* **発射性病原体の増殖：**ヒムリンは、発射性病原体の増殖を促進し、下痢や発炎などの病症の発生のリスクを高める可能性があります。\n* **心血管系の問題：**ヒムリンは、心血管系の損傷や血栓症のリスクを高める可能性があります。\n* **発ガン症：**ヒムリンは、発ガン症の発生のリスクを高める可能性があります。\n* **神経障害：**ヒムリンは、神経障害の発生のリスクを高める可能性があります。\n\nしたがって、焦げた食べ物を食べることは、健康に悪影響を与える可能性があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ焦げた食べ物を食べると体に悪いのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**以下、いくつかの可能性を挙げます。**\n\n* **ストレス**：ストレスは、脳の活動に影響を与える可能性があります。\n* **光線**：光線は、脳のリズムに影響を与える可能性があります。\n* **音**：音は、脳の活動に影響を与える可能性があります。\n* **睡眠不足**：睡眠不足は、眠りにつきにくくなる可能性があります。\n\nこれらの可能性を検討し、なぜ眠りにつきにくいかを理解する必要があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "騒がしい環境ではなぜ眠りにつきにくいのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**コンピュータがクラッシュするとき、以下のことが起こっている可能性があります。**\n\n**1. ハードウェアの故障**\n- プロセッサーの故障\n- メモリの故障\n- SSDの故障\n- USB接続の故障\n\n**2. ソフトウェアの故障**\n- コミュニケーションエラー\n- リソースの不足\n-Malwareの感染\n- ソフトウェアのバグ\n\n**3. データの損失**\n- データの保存に失敗\n- データの損失\n- データの改ざん\n\n**4.システムのダウンタイム**\n- コンピュータの使用が停止\n- データの入出が停止\n- ネットワークの接続が停止\n\n**5. ログの生成**\n- コンピュータがクラッシュしたときのイベントを記録\n- ログは、問題の特定と解決に役立つことができます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "コンピュータがクラッシュするとき、実際に何が起こっているのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "}\n\n**解答：**\n\n信頼できる水の供給がない環境で、食べ物がない場所に閉じ込められた場合、あなたの体には以下のような影響を与える可能性があります。\n\n* **脱水：**水は、体内のすべての細胞と組織の機能にとって不可欠です。脱水は、体内の水分の不足を意味し、様々な症状を引き起こす可能性があります。\n* **発汗：**高温や運動など、様々な状況で発汗は起こります。発汗は、水分の失失を意味し、脱水のリスクを増加させる可能性があります。\n* **脱水症：**脱水は、ひどい場合に脱水症という状態に陥る可能性があります。脱水症は、意識障害、発射、失調などの症状を引き起こす可能性があります。\n* **筋肉の弱化：**水分は、筋肉の機能にとって重要です。脱水は、筋肉の弱化を引き起こし、行動の制限や障害を与える可能性があります。\n* **頭部障害：**水分は、脳の機能にとって重要です。脱水は、頭部障害や意識障害を引き起こす可能性があります。\n\nしたがって、信頼できる水の供給がない環境で、食べ物がない場所に閉じ込められた場合、あなたの体には様々な影響を与える可能性があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "もし信頼できる水の供給はあるけれども食べ物がない場所に閉じ込められたら、私の体にはどういうことが起こるでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\n現在の科学は、死後の世界やその仕組みについて明確な答えを与えることはできません。死のメカニズムやその後の状態は、まだ完全には理解されていない領域です。\n\nしかし、いくつかの仮説と論理的推論は存在します。\n\n**仮説：**\n\n* **意識の転移：**意識は、死後の世界に別の形または形式で転移する可能性があります。\n* **エネルギーの転換：**意識はエネルギーに変換され、他の形に転換する可能性があります。\n* **デジタル化：**意識はデジタルデータにエンコードされ、死後の世界で保存される可能性があります。\n\n**論理的推論：**\n\n* **宇宙の広がり：**宇宙は非常に大きく、死後の世界は私たちの意識の規模よりも大きく、私たちが理解できないような状態かもしれません。\n* **時間と空間の曲率：**死後の世界は、私たちの経験する時間と空間の概念とは異なる可能性があります。\n\nこれらの仮説と論理的推論は、死後の世界について私たちにいくつかのヒントを与えることができますが、まだ明確な答えを与えることはできません。\n\n将来、科学は死のメカニズムとその後の状態を理解し、私たちに詳細な情報を提供する可能性があります。しかし、その日まではわかりません。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "私たちが死んだ後に何が起こるのか、いつか分かることはあるのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "骨は、成長期に大きく成長し、その後は再生能力を失う。これは、骨の構造が複雑で、再生過程が非常に難しいことに関連している。\n\n骨は、カルシウムやリンなど、多くの栄養素を含む骨質で構成されている。骨質は、骨の構造を維持する重要な要素であり、再生過程では再構築する必要がある。しかし、骨質の再構築は、非常に複雑なプロセスであり、多くのステップが必要です。\n\nさらに、骨の再生過程には、成長因子やその他の成長関連の物質が必要となります。これらの物質は、骨の再生過程を促進する重要な要素であり、不足すると骨の再生が遅延する可能性があります。\n\nこれらのすべての要因から、骨は再生能力を失う。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ骨は再生しないのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**金は、他の金属よりも価値がある理由は以下のようなものが考えられます。**\n\n**1. 稀少性**\n金は、他の金属よりも非常に稀少です。地球に存在する金は、他のすべての金属の合計の約2000分の1です。この稀少性は、金に高い価値を与える可能性を秘めています。\n\n**2. 持続的な需要**\n金は、歴史的に価値があり、将来の世代にも価値があると信じられています。これは、金に投資する価値があることを意味します。\n\n**3. 価値の安定性**\n金は、他の資産に比べて安定した価値を持っています。金は、経済の不安やインフレーションの状況に関係なく、常に高い価値を持っている傾向があります。\n\n**4. 投資の保護**\n金は、資産を保護するための良い選択肢です。金は、経済の不安やインフレーションの状況に関連して、資産の価値を維持する可能性があります。\n\nこれらの理由から、金は他の金属よりも価値があり、投資家や資産管理者は、金に投資する傾向があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ金はとても価値があるのでしょうか？そして、なぜ金は銀のような他の金属よりも価値があるのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：潮汐**\n\n潮汐は、月と太陽の引力によって海面に起こる波動です。潮汐は、海面を上げ下げ、洪水を引き起こさずに海を保持します。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "地球上で洪水を引き起こさずに海を保持しているのは何ですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "ほとんどの携帯は、ユーザーの行動を監視し、特定の状況やイベントを特定して、ユーザーの行動パターンを分析する機能を持っている。これらの機能を使用して、ユーザーがどのように行動したかを推測し、ユーザーがどのように寝ているかを推測することができます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "私の携帯はどうやって私が寝ているかを知っているの？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "* 匂いは、人間にとって重要な情報であり、良い匂いがするものは良いものだという単純な関係は存在しない。\n* 匂いは、様々な要因によって評価され、良い匂いがするものは必ずしも良いものではない。\n\nこれらの文は、匂いが良いかどうかで物物の良い悪いの評価をするときには、匂い以外の要因も考慮する必要があることを教えてくれます。\n\nしかし、匂いは人間にとって重要な情報であり、良い匂いがするものは良いものだという単純な関係は存在する。つまり、良い匂いがするものは良いものだという単純な関係は存在するものの、匂いのみで物物の良い悪いの評価をするときには、匂い以外の要因も考慮する必要がある。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "私たちが味わうもののほとんどが嗅覚によって決まるのであれば、なぜ良い匂いがするのに味が悪いものがあるのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\n石鹸は、水と反応して表面に泡を発生させ、その泡が汚れを捕獲して落とす。一方、香は、石鹸の分子構造に含まれているため、泡を形成する際に落とされず、残留します。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ石鹸で手のほとんどの汚れは落とせるのに、香りは落とせないのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "動物はどのようにして将来の地震を予測するかどうかは、現在、まだ明確な答えは存在していません。しかし、いくつかの研究では、動物の行動や挙動が、将来の地震を予測する可能性があるという仮説が提示されています。\n\nこれらの研究によると、動物は以下のような行動を取る可能性があります。\n\n* 地震の予期症状として、動物の行動や挙動が変化する。\n* 地震発生前に、動物の体調や心拍数などの身体的な変化が起こる。\n* 地震発生前に、動物の行動範囲や活動量が増加する。\n\nこれらの行動は、将来の地震を予測する可能性があるという仮説を裏付ける可能性があります。\n\nただし、これらの研究は、動物の行動が将来の地震を予測するかどうかを明確に証明するものではありません。さらに、これらの研究は、動物の行動が将来の地震を予測するかどうかを決定するような単一の指標ではありません。他の要因も考慮する必要があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "動物はどのようにしてこれから起こる地震を感知するのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\nあくびの際に口から唾液が噴射する理由は、以下のようなものが考えられます。\n\n* **口内圧の変化：** あくびの際に口内圧は変化し、その変化は唾液の噴射に関連しています。\n* **舌の運動：** あくびの際に舌は大きく動かすため、唾液の分布に変化を与えることができます。\n* **唾液の粘度：** 唾液の粘度も、噴射の発生に影響を与えることができます。\n* **口内構造の構造：** 口内構造の構造も、唾液の噴射に影響を与えることができます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜあくびをするときに時々口から唾液が噴射するのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**制御または人工的に作り出すことができますか？**\n\nはい、制御または人工的に天気を制御または作り出すことができます。\n\n**方法：**\n\n**1. 雲制御**\n- 雲の生成を促進または遅延させる。\n- 雲の粒度を調整して降雨の量を制御する。\n\n\n**2. 霧制御**\n- 霧の発生を促進または防止する。\n- 霧の濃度を調整して視界を向上させる。\n\n\n**3. 雨量制御**\n- 特定の地域に降雨を集中させる。\n- 乾燥した地域の降雨量を増やす。\n\n\n**4. 温度制御**\n- 特定の地域の気温を調整する。\n- 暑気や寒気を軽減する。\n\n\n**5. 風速制御**\n- 特定の地域の風速を調整する。\n- 暴風や風雨を軽減する。\n\n\n**制御の程度：**\n\n- 現在の天気状況を監視し、必要に応じて制御する。\n- 特定の地域や時間帯にのみ制御する。\n- 制御の影響を最小限にする。\n\n\n**制限：**\n\n- 天気制御は、技術の進歩と環境の複雑さによって制限されます。\n- 天気制御は、環境に悪影響を与える可能性があります。\n- 天気制御は、現在、商業的に実施されていません。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "天気は制御または人工的に作り出すことができますか？もしそうなら、どの程度まで、どのようにして？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**影響：**\n\n* **葉の機能の低下：**葉は光合成や発汗の機能が必要です。葉を一枚引き抜くと、これらの機能が低下し、植物の成長に影響を与える可能性があります。\n* **ストレス：**葉を一枚引き抜くことは、植物にとってストレスになる可能性があります。これは、葉の再生や成長に影響を与える可能性があります。\n* **感染症の可能性：**葉を一枚引き抜くと、感染症の可能性も高まることができます。これは、葉の再生や成長に影響を与える可能性があります。\n\n**傷つけではない：**\n\n葉を一枚引き抜くことは、植物を傷つけているわけではない。葉は自然に再生でき、植物は回復できます。\n\n**回復：**\n\n葉を一枚引き抜くことは、植物に短期間の影響を与える可能性がありますが、長期的な影響はありません。葉は自然に再生し、植物は回復できます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "葉を一枚引き抜くと、植物にどのような影響がありますか？それは植物を傷つけていることになるのでしょうか、そして植物は回復できるのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\n* **脳の活動：**眠る前に考えることは、脳の活動の最終段階です。脳は、意識を失う前に最後の思考や記憶を処理する必要があります。\n* **ストレスの影響：**ストレスや不安は、脳の活動に影響を与えることができます。眠る前にこれらの感情を処理すると、思考が集中し、多くの考えが浮かび上がる可能性があります。\n* **脳の電気活動：**眠る前に脳の電気活動は低下します。これは、思考の能力を制限し、多くの考えが浮かび上がる可能性を増加させます。\n* **深い睡眠の必要性：**深い睡眠は、脳の回復と記憶の再編成に役立ちます。眠る前に多くの考えを処理すると、深い睡眠を得ることが難しく、多くの考えが浮かび上がる可能性があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ寝る前にたくさん考えが浮かぶのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "タマネギに含まれる硫酸メチルは、目や鼻の神経に刺激を与えることで涙がでます。\n\n**涙がでる原因：**\n\n* タマネギに含まれる硫酸メチルは、水素と反応してメチルヒドロキソラートという物質に変換されます。\n* この物質は、目や鼻の神経に刺激を与えることで涙がでます。\n\n\n**涙がでることを防ぐ方法：**\n\n* **手袋を使う：**手袋を使うことで、タマネギの汁が手に付着し、目や鼻に刺激を与えることを防ぐことができます。\n* **水を使う：**タマネギを水に浸すことで、硫酸メチルが水に溶解し、目や鼻に刺激を与えることを軽減することができます。\n* **冷気を使う：**タマネギを冷気下で切ると、硫酸メチルの発生を遅やかることができます。\n* **マスクを使う：**マスクを使うことで、タマネギの蒸気を口や鼻から受け付け、涙がでることを防ぐことができます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "タマネギを切るときに涙が出る原因は何ですか？これを防ぐ方法はありますか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "人間は、多くの動物に対して撫でられることを教えてくれます。しかし、ほとんどの家庭動物は撫でられるのを好むわけではありません。実際、多くの動物は撫でられることを嫌うかもしれません。\n\n撫でられることを好む動物は、主に人間とのコミュニケーションを取る動物です。これらの動物は、人間からの撫でを好むことで人間とのコミュニケーションを取るようになります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜほとんどの家庭動物は撫でられるのを好むのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**ソフトウェアを常に更新する必要がある理由は以下のようなものが考えられます。**\n\n* **セキュリティ対策：**新しいセキュリティホールや脆弱性が発見されると、ソフトウェアを更新する必要があります。これは、悪意のある者による攻撃からシステムを守るための重要なステップです。\n* **機能向上：**新しい機能や改善された機能が追加されると、ソフトウェアを更新する必要があります。これは、ユーザーの体験を向上させるための重要なステップです。\n* **互換性：**新しいデバイスやプラットフォームがリリースされると、ソフトウェアを更新する必要があります。これは、ユーザーのデバイスやプラットフォームに互換性のあるようにするための重要なステップです。\n\n\n**ソフトウェアを更新しなかったら、以下のような問題が発生する可能性があります。**\n\n* **セキュリティホールの利用：**セキュリティホールが利用されると、悪意のある者によるシステムの乗っ取りやデータの盗用などの可能性があります。\n* **機能の制限：**新しい機能や改善された機能がないため、ユーザーの体験が低下します。\n* **互換性の問題：**新しいデバイスやプラットフォームとの互換性がありません。\n\n\nしたがって、ソフトウェアを常に更新する必要があることは理解できます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ常にソフトウェアを更新する必要があるのですか？更新しなかったらどうなりますか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "答え：はい。船は通常、海の水位を高くする浮力を持つように設計されています。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "船は通常よりも海の水位を高くしますか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\n脳細胞は他の細胞と異なるように、通常は再生ではなく置き換える必要があります。これは、脳細胞の特殊性と複雑さ、特に記憶や意識の維持に必要であるという重要な機能に関連しています。脳細胞の損傷は、記憶や意識に影響を与える可能性があり、完全な再生は可能ではなく、新しい脳細胞の構築が必要です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "私たちの体のほとんどの細胞は再生することができます。なぜ脳細胞は異なるのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\nノミの完全な駆除は、経済システムの複雑さ、人間行動の多様性、そしてノミの定義そのものが不明確であるという3つの主要な理由から不可能です。\n\n**1. 経済システムの複雑さ：**\n\n* 経済は、多くの異なる要因が交錯し、その間でノミの影響を与える。\n* 異なる産業、企業、そして個人は、ノミの影響を受ける程度が異なります。\n\n**2. 人間行動の多様性：**\n\n* 人間は、ノミの定義そのものについて合意することはできず、異なる行動を選択します。\n* 一部の人間は、ノミを減らし、他の人間は増やす傾向があります。\n\n**3. ノミの定義の不明確さ：**\n\n* 「ノミ」という用語は、明確に定義されていません。\n* 異なる経済学者や政策者は、ノミを異なる方法で測定し、異なる政策を提案します。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜノミを完全に駆除することができないのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "睡眠不足は、心血管系、神経系、免疫系に影響を与える可能性があります。これらの系が正常に機能できなくなると、心血管系で血栓の形成や心筋梗塞、神経系で脳の損傷や記憶障害、免疫系で感染症の発生のリスクを高める可能性があります。これらの結果、睡眠不足は心血管系関連の死因や脳関連の死因の発生のリスクを高める可能性があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "睡眠不足がどのようにして人を死に至らせるのか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

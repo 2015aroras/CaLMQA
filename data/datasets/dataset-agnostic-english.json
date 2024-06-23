@@ -177,6 +177,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "The boarding process of airplanes is typically done from the front to the back to ensure that passengers have enough time to find their seats and stow their carry-on luggage before the aircraft reaches its cruising altitude."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why are airplanes boarded front to back?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -373,6 +393,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:1:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Smoking negatively impacts the heart in several ways:**\n\n**1. Increased Blood Pressure:**\n- Nicotine in cigarettes narrows blood vessels, raising blood pressure.\n- This increased pressure can damage blood vessels and organs.\n\n\n**2. Elevated Heart Rate:**\n- Smoking speeds up the heart rate, leading to increased oxygen consumption and stress on the heart.\n\n\n**3. Thickening of Blood:**\n- Nicotine promotes the thickening of blood, making it more likely to clot and block blood flow.\n\n\n**4. Damage to Blood Vessel Walls:**\n- Cigarette smoke contains harmful chemicals that damage the inner lining of blood vessels, making them more prone to narrowing and plaque buildup.\n\n\n**5. Increased Risk of Heart Attack:**\n- Smoking weakens the heart's ability to pump blood efficiently, increasing the risk of heart attack.\n\n\n**6. Heart Inflammation:**\n- Cigarette smoke can trigger inflammation in the heart, leading to damage and scarring.\n\n\n**7. Atherosclerosis:**\n- Smoking accelerates the process of atherosclerosis, where plaque builds up in blood vessels, narrowing them and increasing the risk of heart attack.\n\n\n**8. Cardiomyopathy:**\n- Smoking can cause cardiomyopathy, a condition where the heart muscle becomes weakened and enlarged.\n\n\n**9. Increased Risk of Stroke:**\n- Nicotine can narrow blood vessels in the brain, increasing the risk of stroke.\n\n\n**10. Impaired Heart Function:**\n- Smoking can damage the heart's electrical system and overall function, leading to impaired heart performance."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why is smoking so bad for the heart?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -549,6 +589,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:2:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "* **iCloud storage**\n* **Local storage**\n* **Trash bin**\n* **System storage**\n\n**Answer:**\n\n**Local storage**\n\nDeleted files and photos from'recently deleted' are stored in the local storage of the iPhone until they are permanently deleted or recovered."
+            }
+          },
+          "prompting_state": {
+            "prompt": "In an iPhone, where do deleted files and photos go after being deleting from 'recently deleted'?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -733,6 +793,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:3:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\n\nThis premise is inaccurate. Running before jumping does not affect the height of a jump."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why does running before jumping make us jump higher?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -913,6 +993,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\n\nAdding antibodies/other benefits of breastmilk to baby formula is challenging due to:\n\n**1. Complex composition:** Breastmilk is a complex fluid containing numerous proteins, lipids, carbohydrates, immunoglobulins, growth factors, and other bioactive components that work in synergy.\n\n**2. Stability issues:** These components are sensitive to heat, light, and oxidation, making it difficult to preserve them during processing and storage.\n\n**3. Manufacturing challenges:** It is technologically challenging to replicate the intricate composition and functionality of breastmilk in formula.\n\n**4. Regulatory constraints:** Regulatory agencies have strict guidelines regarding the ingredients allowed in formula milk to ensure safety and efficacy.\n\n**5. Limited efficacy:** Studies have shown that adding antibodies or other breastmilk components to formula milk may not provide the same benefits as breastfeeding."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why can’t antibodies/other benefits of breastmilk, be added to baby formula?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1089,6 +1189,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Your wifi provider controls the speed limit of the internet by:**\n\n**1. Network Architecture:**\n\n* The provider's network infrastructure determines the maximum speed available to customers.\n* Different areas may have different infrastructure capabilities.\n\n\n**2. Plan Tier:**\n\n* Different internet plans offer different speed tiers.\n* Customers choose a plan that aligns with their usage and budget.\n\n\n**3. Bandwidth Allocation:**\n\n* The provider allocates bandwidth to customers based on their plan and usage.\n* During peak hours, when more customers are online, the speed may be throttled to ensure equitable access.\n\n\n**4. Quality of Service (QoS):**\n\n* Providers prioritize certain traffic types, such as voice and video, to ensure better quality.\n* Non-prioritized traffic may be throttled to maintain network stability.\n\n\n**5. Network Management:**\n\n* Providers use network management tools to control traffic flow, prioritize connections, and manage speeds.\n* This allows them to optimize network performance and ensure fair usage.\n\n\n**6. Dynamic Speed Adjustment:**\n\n* Some providers dynamically adjust speeds based on network conditions and customer usage.\n* This helps to maintain a consistent level of service even during peak hours."
+            }
+          },
+          "prompting_state": {
+            "prompt": "How does my wifi provider control the speed limit of the internet?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1289,6 +1409,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\n\nA typical blood draw is done at the fold of your arm because this area has a large vein that is close to the surface of the skin, making it easy for the phlebotomist to locate and insert the needle into the vein."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why is a typical blood draw done at the fold of your arm?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1481,6 +1621,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "The transition to smaller, more portable camera technology has been gradual, but it has been happening steadily over the past few decades. While large TV studio cameras are still used in some situations, such as high-budget productions or live broadcasts, cell phone cameras have become the primary camera for most people.\n\nHere are some reasons why we still use gigantic TV studio cameras:\n\n**1. Cost:** Large TV studio cameras are still more expensive than cell phone cameras.\n**2. Quality:** Large TV studio cameras offer higher quality and resolution than cell phone cameras.\n**3. Features:** Large TV studio cameras have more advanced features, such as multiple lenses, tracking and robotic heads, and green screen capabilities.\n**4. Specialized applications:** Large TV studio cameras are still needed for specialized applications, such as live broadcasts, sports coverage, and documentaries.\n\nUltimately, the choice between using a large TV studio camera or a cell phone camera depends on the specific needs of the production."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why do we still use gigantic TV studio cameras when the same technology is now cell phone sized?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1681,6 +1841,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "The temperature of the Earth's core is estimated based on various geological and geophysical observations, including:\n\n**1. Heat flow measurements:**\n- Measurements of heat flowing out of the Earth's surface provide clues about the heat generated deep beneath.\n- By measuring heat flow in different regions, scientists can infer the temperature and composition of the mantle and core.\n\n\n**2. Seismological studies:**\n- Studying seismic waves passing through the Earth can provide information about the temperature and composition of the mantle and core.\n- Different seismic waves are affected differently by temperature changes, allowing scientists to determine the temperature gradient of the Earth's interior.\n\n\n**3. Electrical conductivity measurements:**\n- Electrical conductivity of rocks changes with temperature.\n- By measuring the electrical conductivity of samples from the surface, scientists can infer the temperature of deeper regions.\n\n\n**4. Isotopic studies:**\n- Isotopic ratios of elements like helium, neon, and argon in the atmosphere can provide clues about the temperature and composition of the mantle and core.\n- These elements are produced in the Earth's interior and their ratios can change depending on temperature.\n\n\n**5. Numerical modeling:**\n- Computer models of the Earth's interior can be used to simulate the heat flow and temperature distribution.\n- By comparing the results of these models with observations, scientists can refine their estimates of the Earth's core temperature."
+            }
+          },
+          "prompting_state": {
+            "prompt": "How do they know how hot the earth's core is?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1861,6 +2041,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:9:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\n\n**1. Hormonal changes:**\n\n* During puberty, the body undergoes rapid hormonal fluctuations, primarily due to the increased production of androgen and estrogen.\n* Androgens stimulate the production of sebum (oil) in the skin, while estrogen can thicken the skin and clog pores.\n\n\n**2. Increased oil production:**\n\n* Hormonal changes trigger increased production of sebum, which is a combination of oil and proteins.\n* This excess oil can clog pores and trap dirt, bacteria, and dead skin cells, leading to acne formation.\n\n\n**3. Pores widening:**\n\n* During puberty, the pores in the skin widen due to the increased production of sebum.\n* Wider pores allow for easier trapping of dirt and oil, increasing the risk of acne.\n\n\n**4. Increased cell turnover:**\n\n* The rate of cell turnover in the skin increases during puberty, leading to a buildup of dead skin cells.\n* These cells can clog pores and contribute to acne formation.\n\n\n**5. Bacteria proliferation:**\n\n* Hormonal changes can alter the balance of bacteria on the skin, leading to increased proliferation of acne-causing bacteria.\n\n\n**6. Stress and diet:**\n\n* Emotional stress and certain dietary factors can also influence acne occurrence during puberty."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why does acne occur frequently during puberty?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2037,6 +2237,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:10:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "Sheep do not turn grass and water into milk, wool and more sheep. They consume grass and water to produce milk, wool and offspring, not to create more sheep."
+            }
+          },
+          "prompting_state": {
+            "prompt": "How do sheep turn grass and water into milk, wool and more sheep?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2237,6 +2457,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:11:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "Body fat percentage (BFP) can be accurately measured using several methods:\n\n**1. Bioelectrical Impedance Analysis (BIA)**\n\n- Measures resistance to electrical current through the body.\n- Provides estimates of BFP, muscle mass, and hydration.\n- Convenient and widely available, but can be affected by hydration levels and equipment accuracy.\n\n\n**2. Skinfold Calipers**\n\n- Measure the thickness of subcutaneous fat at specific body sites (e.g., abdomen, thigh, tricep).\n- Requires trained personnel and standardized protocols for accurate measurements.\n- Considered the gold standard for BFP measurement.\n\n\n**3. Dual-Energy X-ray Absorptiometry (DXA)**\n\n- Measures bone density and soft tissue composition.\n- Provides precise and accurate BFP measurements.\n- Expensive and not widely available.\n\n\n**4. Hydrostatic Weighing**\n\n- Involves weighing a person underwater.\n- Fat floats, while muscle and bone remain submerged.\n- Provides a highly accurate measure of BFP.\n- Requires specialized facilities and equipment.\n\n\n**5. Bod Pod**\n\n- Uses air displacement to measure body volume.\n- BFP can be calculated based on body volume and weight.\n- Provides a relatively accurate measure of BFP.\n\n\n**Estimation**\n\nWhile these methods provide accurate measurements, estimating BFP is also possible. Factors such as waist circumference, body composition, and visual assessment can provide rough estimates. However, these estimates are less reliable and may not be as accurate as professional measurements."
+            }
+          },
+          "prompting_state": {
+            "prompt": "How does one know their body fat percentage, or do people just estimate?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2413,6 +2653,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:12:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "## Science behind Sleep Paralysis:\n\n**1. Neurotransmitter fluctuations:**\n\n* Sleep paralysis is associated with abnormal levels of neurotransmitters like serotonin, dopamine, and acetylcholine.\n* Serotonin, involved in mood regulation, may be low, leading to impaired awareness and perception.\n* Dopamine, involved in movement and attention, may also be low, contributing to muscle stiffness and paralysis.\n\n**2. Hypnagogic and hypnopompic states:**\n\n* Sleep paralysis occurs during transitions between sleep and wakefulness (hypnagogic) or waking up from sleep (hypnopompic).\n* During these states, the brain is vulnerable and susceptible to temporary disruptions in sensory processing and motor control.\n\n**3. Limbic system activation:**\n\n* The limbic system, involved in emotional processing and memory, is highly active during sleep paralysis.\n* This heightened activity can lead to vivid hallucinations and emotional distress.\n\n**4. Sensory gating dysfunction:**\n\n* Sleep paralysis may be related to impaired sensory gating, where the brain selectively filters out irrelevant sensory information during sleep.\n* This dysfunction can result in heightened awareness of environmental sounds, smells, and even physical sensations.\n\n**5. Emotional factors:**\n\n* Psychological factors like anxiety, depression, and sleep debt can increase the risk of sleep paralysis.\n* Emotional distress can activate the limbic system and contribute to the vividness of hallucinations.\n\n**6. Physical factors:**\n\n* Sleep position, sleep duration, and caffeine intake can also influence the risk of sleep paralysis.\n* Sleeping in a supine position (face up) and sleep deprivation are associated with increased episodes.\n\n\n**Possible mechanisms:**\n\n* **Neurotransmitter-induced muscle paralysis:** Low dopamine levels may temporarily paralyze skeletal muscles, leading to the feeling of being unable to move.\n* **Sensory overload:** Increased sensory awareness during sleep paralysis can overwhelm the brain, leading to hallucinations and confusion.\n* **Emotional arousal:** Emotional distress can trigger the release of neurochemicals that disrupt sleep architecture and contribute to sleep paralysis.\n\n\n**Research is ongoing to better understand the complex mechanisms underlying sleep paralysis.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "So what’s the science behind sleep paralysis?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2597,6 +2857,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:13:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "Considering the rate at which we are consuming metals, it seems like we should have exhausted their supply by now.\n\n**Factors contributing to the continued availability of metals:**\n\n**1. Recycling:**\n- Metals can be easily recycled and reused, reducing the need for new extraction.\n- Technological advancements have improved recycling processes, increasing the efficiency and quality of recycled metals.\n\n\n**2. New discoveries:**\n- New deposits of metals are still being discovered, albeit at a slower rate than in the past.\n- Technological innovations have allowed for the extraction of metals from less traditional sources, such as seawater and air.\n\n\n**3. Substitution:**\n- As technology advances, metals can be substituted with other materials that are more sustainable or abundant.\n- For example, plastics and composites are increasingly used in place of metals in various applications.\n\n\n**4. Resource management:**\n- Governments and industries are becoming more aware of the need to conserve and manage metal resources responsibly.\n- Measures such as recycling mandates and resource efficiency programs are being implemented to reduce waste and increase the use of recycled materials.\n\n\n**5. Technological innovations:**\n- Research and development efforts are ongoing to develop new technologies that can extract metals from less conventional sources or with reduced environmental impact.\n\n\n**6. Global metal reserves:**\n- Estimates suggest that there are sufficient known metal reserves to meet current and future demand.\n- However, the distribution of these reserves is uneven, with some regions having significantly larger reserves than others."
+            }
+          },
+          "prompting_state": {
+            "prompt": "How have we not run out of metal yet?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2773,6 +3053,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:14:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "This premise is inaccurate. There are multiple companies in Taiwan that manufacture microchips, and their technology is not exclusive or unreplicable."
+            }
+          },
+          "prompting_state": {
+            "prompt": "My understanding is that 1 company in Taiwan makes the greatest microchips in the world and no one else can replicate them. How is that possible?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2957,6 +3257,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:15:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "This premise is inaccurate. Many animals have different colored blood, such as blue whales and spiders."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why do almost all animals have red blood?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3133,6 +3453,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:16:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "Exercise and bodybuilding can actually enhance the body's ability to repair and regenerate itself, leading to improved resilience to age-related damage.\n\n**Mechanisms:**\n\n* **Increased production of stem cells:** Exercise promotes the release of growth factors, which stimulate the production of stem cells in the body. Stem cells are unspecialized cells that can develop into various specialized cell types, including those involved in tissue repair and regeneration.\n* **Enhanced cell regeneration:** Exercise encourages the regeneration of damaged cells and tissues through the activation of cellular pathways involved in tissue repair.\n* **Improved protein synthesis:** Exercise promotes the synthesis of new proteins, which are essential for tissue repair and regeneration.\n* **Increased production of antioxidants:** Exercise can boost the production of antioxidants, which help neutralize free radicals that damage cells and contribute to aging.\n\nTherefore, exercise and bodybuilding can actually counteract the negative effects of aging on the body's repair capabilities."
+            }
+          },
+          "prompting_state": {
+            "prompt": "If aging is, in a nutshell, the exhaustion of the body's capability to fix itself, why don't exercise and bodybuilding (in a healthy manner) make that capability worse?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3333,6 +3673,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:17:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**1. Increased Sales Volume:**\n\n* Selling products at steep discounts can attract new customers and encourage existing customers to purchase more frequently.\n* High volume of sales can lead to economies of scale, reducing overall production and distribution costs.\n\n\n**2. Data Collection and Analytics:**\n\n* Discounts can provide valuable data on customer preferences, purchasing habits, and market trends.\n* This data can be used for targeted marketing campaigns, product development, and pricing strategies.\n\n\n**3. Brand Positioning and Customer Engagement:**\n\n* Steep discounts can create a sense of urgency and exclusivity, enhancing brand awareness and customer engagement.\n* It can position the company as a value-driven brand, fostering loyalty and trust.\n\n\n**4. Upselling and Cross-Selling:**\n\n* Discounts can encourage customers to purchase additional items or higher-priced versions of the product.\n* By offering discounts on complementary products, companies can increase the average transaction value.\n\n\n**5. Reduced Inventory Costs:**\n\n* Selling products at steep discounts can help reduce inventory carrying costs and obsolescence risks.\n* This frees up cash flow for other business purposes.\n\n\n**6. Increased Customer Acquisition Cost Efficiency:**\n\n* Discounts can attract new customers at a lower cost compared to traditional marketing campaigns.\n* This improves the overall return on investment (ROI) of marketing efforts."
+            }
+          },
+          "prompting_state": {
+            "prompt": "How does a company make money from selling their products at a steep discount?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3509,6 +3869,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:18:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Morning sickness during pregnancy:**\n\n**1. Hormonal changes:**\n- Pregnancy triggers a surge of hormones, including estrogen and progesterone, which can affect the sensitivity of the stomach and intestines to certain foods and smells.\n- These hormones can cause muscle spasms and nausea.\n\n\n**2. Changes in blood flow:**\n- Increased blood flow to the uterus and breasts can lead to temporary blood flow reductions in other parts of the body, including the stomach.\n- This reduced blood flow can affect the processing of nutrients and waste products, leading to nausea.\n\n\n**3. Acidity in the stomach:**\n- Pregnancy can increase stomach acid production, which can irritate the lining of the stomach and esophagus, leading to nausea and vomiting.\n\n\n**4. Sensitivity to smells:**\n- Certain smells, such as those associated with food or motion sickness, can trigger nausea and vomiting during pregnancy.\n\n\n**5. Individual susceptibility:**\n- Some women are more susceptible to morning sickness than others due to factors such as genetics, diet, and lifestyle.\n\n\n**Factors influencing the duration and severity:**\n\n- **Trimester:** First trimester is most common for severe morning sickness due to higher levels of hormones.\n- **Individual susceptibility:** Some women experience it throughout their pregnancy, while others only have it for a short period.\n- **Diet and lifestyle:** Certain foods and activities can trigger or alleviate symptoms.\n- **Underlying health conditions:** Some medical conditions, such as motion sickness or anxiety disorders, can contribute to morning sickness."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why do some women get “morning sickness” when pregnant and others do not? Why do many only have it in the 1st trimester but some experience it their whole pregnancy?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3693,6 +4073,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:19:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\n\n**1. Humidity:**\n- Different days or seasons can have varying humidity levels.\n- Higher humidity holds more water vapor in the air, leading to a \"wet\" and oppressive feel.\n- Lower humidity levels result in drier air, making it feel colder.\n\n\n**2. Wind speed:**\n- Wind speed can impact the perceived temperature.\n- Strong winds can increase the rate of heat transfer from the body, making it feel cooler.\n- Calm or still air allows heat to linger, making it feel warmer.\n\n\n**3. Solar radiation:**\n- The intensity of sunlight can vary significantly throughout the day or season.\n- More direct sunlight can increase the temperature of the surface and air, making it feel hotter.\n\n\n**4. Cloud cover:**\n- Clouds can block or filter sunlight, affecting the amount of heat reaching the surface.\n- Cloudy days typically have less direct sunlight, leading to lower temperatures.\n\n\n**5. Surface conditions:**\n- Different surfaces absorb and release heat differently.\n- For example, asphalt absorbs heat more efficiently than grass, leading to higher temperatures in urban areas.\n\n\n**6. Personal factors:**\n- Individual factors such as clothing, activity level, and metabolic rate can influence the perceived temperature.\n- People may feel warmer or colder depending on their clothing or activity level."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why can the same temperature feel completely different on different days or seasons?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3869,6 +4269,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:20:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**1. Increased Inflammation:**\n\n* Stress triggers the release of inflammatory hormones, leading to tissue damage and disease.\n* Chronic stress can elevate levels of C-reactive protein (CRP), a marker of inflammation.\n\n\n**2. Dysregulation of the HPA Axis:**\n\n* The hypothalamus-pituitary-adrenal (HPA) axis is involved in the body's stress response.\n* Chronic stress can disrupt the balance of hormones released by the HPA axis, leading to abnormal immune function and inflammation.\n\n\n**3. Changes in Immune Function:**\n\n* Stress can weaken the immune system, making the body more susceptible to infections and diseases.\n* Prolonged stress can increase the risk of autoimmune disorders.\n\n\n**4. Cardiovascular Problems:**\n\n* Stress can elevate blood pressure, heart rate, and cholesterol levels.\n* It can also contribute to the development of heart disease and stroke.\n\n\n**5. Digestive Issues:**\n\n* Stress can disrupt the gut microbiome and alter digestive function.\n* It can also cause abdominal pain, diarrhea, and constipation.\n\n\n**6. Skin Problems:**\n\n* Stress can exacerbate skin conditions such as acne, eczema, and psoriasis.\n* It can also contribute to hair loss and changes in skin texture.\n\n\n**7. Sleep Disturbances:**\n\n* Stress can disrupt sleep patterns, leading to insomnia, nightmares, and fatigue.\n* Poor sleep quality can have negative effects on physical health.\n\n\n**8. Weight Gain:**\n\n* Stress can trigger emotional eating, leading to weight gain and related health problems.\n\n\n**9. Chronic Pain:**\n\n* Stress can contribute to the development and persistence of chronic pain conditions.\n\n\n**10. Increased Risk of Disease:**\n\n* Studies have linked stress to an increased risk of various diseases, including cancer, heart disease, and stroke."
+            }
+          },
+          "prompting_state": {
+            "prompt": "How does stress cause physical health issues?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4053,6 +4473,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:21:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "Explain your answer.\n\n**Answer:**\n\nPain is not always an accurate indicator of the condition of physical injuries. There are several reasons for this:\n\n**1. Pain perception is subjective:**\n- Pain is a subjective experience that varies widely between individuals.\n- Cultural, psychological, and socioeconomic factors can influence pain perception.\n\n\n**2. Different types of pain:**\n- Different types of pain (acute, chronic, neuropathic) have different mechanisms and may not be directly related to the severity of the injury.\n\n\n**3. Presence of other factors:**\n- Other factors such as inflammation, tissue damage, and neurological involvement can influence pain perception.\n- These factors may not be fully reflected in the intensity of the pain.\n\n\n**4. Pain can be delayed:**\n- Pain may not be immediately apparent after an injury, especially if the injury is minor or if the person is in denial.\n\n\n**5. Pain can be masked:**\n- Certain medications, such as analgesics, can temporarily mask pain, making it difficult to assess the true extent of the injury."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Is pain a completely accurate indicator of the condition of physical injuries?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4233,6 +4673,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**1. Genetic Factors:**\n\n* Different species have varying rates of cellular senescence and apoptosis (programmed cell death), influencing lifespan.\n* Genetic variations in telomere maintenance and repair genes impact lifespan.\n\n\n**2. Environmental Factors:**\n\n* Temperature, diet, and light cycles can affect lifespan.\n* Exposure to toxins, pathogens, and radiation can also influence lifespan.\n\n\n**3. Physiological Factors:**\n\n* Body size, metabolic rate, and organ function play a role.\n* Animals with larger bodies or higher metabolic rates tend to have shorter lifespans.\n\n\n**4. Hormonal Factors:**\n\n* Hormones such as growth hormone, insulin, and estrogen influence lifespan.\n* Changes in hormone levels during different life stages can affect lifespan.\n\n\n**5. Cellular Senescence:**\n\n* Cells accumulate damage over time, leading to cellular senescence (permanent cell cycle arrest).\n* Different species have varying rates of cellular senescence, influencing lifespan.\n\n\n**6. Telomere Length:**\n\n* Telomeres (protective caps at the ends of chromosomes) shorten with each cell division.\n* Animals with shorter telomeres tend to have shorter lifespans.\n\n\n**7. Repair and Regeneration Abilities:**\n\n* Some animals have enhanced abilities to repair and regenerate tissues and organs, extending lifespan.\n\n\n**8. Evolutionary History:**\n\n* Different species have evolved different lifespan strategies based on their ecological niches and selective pressures.\n\n\n**9. Epigenetic Modifications:**\n\n* Changes in gene expression patterns (epigenetic modifications) can influence lifespan.\n\n\n**10. Other Factors:**\n\n* Social interactions, stress, and psychological factors can also impact lifespan in some animals."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why do different animals have different life spans?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4409,6 +4869,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\nHumans and animals belong to different species with distinct reproductive systems and genetic material. Their reproductive systems are not compatible, and their genetic material is not able to combine in a way that would allow for successful pregnancy."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why can't humans get pregnant from animals?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4609,6 +5089,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "Sleep serves multiple functions, including:\n\n**1. Physical restoration:**\n- Repair and regeneration of tissues and organs\n- Synthesis of hormones and neurotransmitters\n- Production of growth hormone\n\n**2. Cognitive restoration:**\n- Consolidation of memories\n- Emotional regulation\n- Attention restoration\n\n**3. Emotional regulation:**\n- Processing and storing emotional experiences\n- Reducing stress and anxiety\n\n**4. Neurocognitive enhancement:**\n- Improved memory consolidation and retention\n- Enhanced creativity and problem-solving abilities\n- Improved attention and focus\n\n**5. Immune system regulation:**\n- Strengthening the immune system\n- Reducing inflammation\n\n**6. Growth and development:**\n- Production of growth hormone, which promotes skeletal and muscular growth\n\n**7. Social and emotional bonding:**\n- Strengthening social connections\n- Enhancing empathy and emotional intelligence\n\n**8. Disease prevention:**\n- Reducing the risk of chronic diseases such as heart disease, stroke, and diabetes"
+            }
+          },
+          "prompting_state": {
+            "prompt": "What is the function of sleep?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4785,6 +5285,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\n\nA runner's heart rate is lower than that of a non-runner due to:\n\n**1. Increased cardiovascular efficiency:**\n- Regular running improves the heart's ability to pump blood more efficiently, requiring less effort to maintain blood flow throughout the body.\n\n\n**2. Enhanced vascularization:**\n- Endurance training increases the density of blood vessels throughout the body, improving circulation and oxygen delivery to tissues.\n\n\n**3. Increased stroke volume:**\n- Runners have a larger stroke volume (the amount of blood ejected from the heart with each heartbeat), which means their hearts can pump more blood with each contraction.\n\n\n**4. Reduced resting heart rate:**\n- Regular physical activity lowers the resting heart rate, as the body becomes more efficient at delivering oxygen and nutrients to tissues.\n\n\n**5. Improved baroreflex sensitivity:**\n- Runners have enhanced baroreflex sensitivity, which allows them to quickly adjust their heart rate in response to changes in blood pressure, ensuring optimal circulation during exercise."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why is a runner's heart rate lower than that of a non-runner?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4969,6 +5489,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\n\n**1. Increased body temperature:**\n- The warm water in the shower raises your body temperature.\n- When you step out, the sudden drop in temperature causes your body to release heat through sweating.\n\n\n**2. Humidity:**\n- The high humidity in the bathroom during a shower can trap moisture on your skin and clothing.\n- When you step out into a drier environment, the moisture evaporates, leading to sweating.\n\n\n**3. Activation of sweat glands:**\n- The sudden change in temperature can activate sweat glands throughout your body.\n- These glands release sweat to cool your skin and regulate your body temperature.\n\n\n**4. Psychological factors:**\n- The act of showering can trigger psychological responses that can lead to sweating.\n- For example, the anticipation or enjoyment of the shower can activate your sympathetic nervous system, which triggers sweating."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why do I sweat more after getting out of the shower?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5145,6 +5685,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\n\nWhen a bicycle is moving, its **momentum** and **angular momentum** help to stabilize it. \n\n* **Momentum:** The forward motion of the bicycle gives it resistance to tipping over. \n* **Angular momentum:** The rotating wheels and the spinning of the handlebars create a counter-torque that helps to keep the bicycle upright.\n\nWhen a bicycle is stationary, it has no momentum or angular momentum to counteract the forces that tend to tip it over. \n\n* **Gravity:** Gravity pulls the center of mass of the bicycle downwards, tending to tilt it. \n* **Wind and friction:** Wind and friction can also apply forces that can destabilize the bicycle."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why is it easy to balance on a bicycle when it is moving but nearly impossible when it is stationary? \n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5329,6 +5889,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\n\nEating burnt food is bad for you due to the presence of harmful compounds and toxins that can:\n\n* **Produce free radicals:** Burning food generates reactive oxygen species (ROS) and other free radicals that damage cells and DNA.\n* **Release toxic chemicals:** Burnt food releases harmful chemicals such as acrylamide, benzene, and polycyclic aromatic hydrocarbons (PAHs), which have been linked to cancer, neurological problems, and other health issues.\n* **Promote inflammation:** Burnt food contains compounds that can trigger inflammation and damage tissues.\n* **Impair digestion:** The high levels of carbon and ash in burnt food can disrupt the digestive process and cause discomfort.\n* **Toxic to the gut microbiome:** Burning food can damage the delicate balance of bacteria in the gut microbiome, leading to potential health problems."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why is eating burnt food bad for you?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5505,6 +6085,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answers:**\n\n* **Increased arousal:** Noise can stimulate the sympathetic nervous system, leading to increased alertness and arousal, making it harder to relax and fall asleep.\n\n\n* **Elevated cortisol levels:** Noise exposure can elevate cortisol levels, a stress hormone that can suppress sleep-promoting hormones and disrupt sleep architecture.\n\n\n* **Sensory overload:** Noise can be a form of sensory overload, competing with other sensory inputs and making it difficult to shut down and relax.\n\n\n* **Neurotransmitter disruption:** Noise can disrupt the release of neurotransmitters involved in sleep regulation, such as melatonin and acetylcholine.\n\n\n* **Psychological associations:** Noise can be associated with negative events or experiences, leading to increased anxiety and making it harder to relax and sleep."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why is it harder to fall asleep in noisy environments?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5689,6 +6289,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Hardware Failure:**\n\n* Hardware components like the motherboard, RAM, or hard drive can malfunction or fail, causing system instability and crashes.\n* Electrical or thermal issues can damage hardware components, leading to crashes.\n\n\n**Software Errors:**\n\n* Bugs or errors in the operating system, drivers, or applications can cause system instability and crashes.\n* Corrupted system files or improper configuration can lead to crashes.\n\n\n**Driver Issues:**\n\n* Incompatible or outdated drivers can cause hardware and software conflicts, leading to crashes.\n* Faulty or malicious drivers can damage system files or hijack system resources.\n\n\n**Operating System Errors:**\n\n* Kernel errors or instability in the operating system can cause system crashes.\n* Outdated or unsupported operating systems may have security vulnerabilities or stability issues.\n\n\n**Application Conflicts:**\n\n* Incompatible or poorly written applications can conflict with each other or the operating system, leading to crashes.\n* Running too many applications simultaneously can overload system resources and cause instability.\n\n\n**Malware Infections:**\n\n* Viruses, spyware, or other malware can corrupt system files, hijack system resources, or cause system instability.\n\n\n**Power Surges or Electrical Issues:**\n\n* Sudden power changes or electrical problems can damage hardware components or corrupt system files.\n\n\n**Logical Errors:**\n\n* Data corruption or logical errors in files or storage devices can cause system crashes.\n\n\n**Other Possible Causes:**\n\n* Physical damage to the computer, such as a cracked case or loose connections.\n* Overheating or underclocking of hardware components.\n* Driver conflicts or compatibility issues."
+            }
+          },
+          "prompting_state": {
+            "prompt": "What exactly is going on with my computer when it crashes?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5865,6 +6485,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Immediate effects:**\n\n* Muscle breakdown and fatigue\n* Low blood sugar levels leading to weakness and impaired cognitive function\n* Dehydration and electrolyte imbalances\n* Hypothermia or hyperthermia depending on the environment\n\n**Short-term effects (1-3 weeks):**\n\n* Weakening of bones and muscles\n* Loss of appetite and weight loss\n* Impaired immune function\n* Fatigue and weakness\n* Confusion and hallucinations\n\n**Medium-term effects (1-3 months):**\n\n* Organ failure, including kidney and liver damage\n* Muscle and nerve damage\n* Skin and hair loss\n* Brittle nails\n* Impaired wound healing\n\n**Long-term effects (3+ months):**\n\n* Organ failure and death\n* Severe malnutrition and wasting away of the body\n* Cognitive impairment and dementia\n\n**Factors influencing the outcome:**\n\n* Duration of the deprivation\n* Individual health and physical condition\n* Environmental temperature and conditions\n* Quality and quantity of water available\n* Presence of any medical interventions or supplies"
+            }
+          },
+          "prompting_state": {
+            "prompt": "What would happen to my body if I were trapped somewhere with a reliable water supply but no food?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6049,6 +6689,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "There is no definitive answer to this question, as the concept of death and what happens afterwards is a philosophical and spiritual inquiry rather than a scientific one.\n\n**Scientific Perspectives:**\n\n* Neuroscience suggests that consciousness is a product of brain activity, and therefore ceases to exist upon death.\n* Biology and anatomy indicate that the physical body ceases to function after death.\n* Quantum physics raises the possibility of non-locality, where consciousness or information could exist outside of the physical body.\n\n**Philosophical and Spiritual Perspectives:**\n\n* Many philosophical and spiritual traditions offer various theories about the afterlife, such as heaven, hell, reincarnation, or transmigration.\n* Some believe in an ethereal realm where spirits linger.\n* Others suggest that death is simply a transition to another plane of existence.\n\n**Scientific Limitations:**\n\n* Science cannot provide definitive answers about phenomena that lie beyond its realm of understanding.\n* The study of consciousness and its relationship to death is an ongoing area of research, but no conclusive findings have been reached.\n\n**Conclusion:**\n\nThe question of what happens after death remains a mystery, and it is likely that we will never have a definitive answer. However, scientific, philosophical, and spiritual perspectives offer insights and hypotheses to ponder."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Will we ever know what happens to us after we die?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6225,6 +6885,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "This premise is inaccurate. Bones can regenerate and heal after injury or fracture."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why can't bones grow back?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6409,6 +7089,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Gold's value stems from:**\n\n**1. Scarcity:**\n- Limited supply in the Earth's crust (about 5 billion troy ounces)\n- High demand for gold in jewelry, investment, and technology\n\n**2. Durability:**\n- Does not corrode or tarnish easily\n- Remains in its pure form for millennia\n\n**3. Transportability:**\n- Lightweight and easy to transport\n- Highly valued in international trade\n\n**4. Aesthetic appeal:**\n- Golden color is aesthetically pleasing to many\n- Symbolic of wealth and status\n\n**5. Investment demand:**\n- Investors value gold as a safe haven during economic uncertainty\n- High demand for gold bars and coins as a store of value\n\n**Gold is more valuable than silver due to:**\n\n**1. Relative scarcity:**\n- Gold is rarer than silver in the Earth's crust\n\n**2. Chemical properties:**\n- Gold is more chemically inert than silver, meaning it is less likely to react with other substances\n\n**3. Market demand:**\n- Gold has a higher demand than silver in jewelry, investment, and technology\n\n**4. Psychological factors:**\n- Gold has been valued as a precious metal for centuries, while silver has been more commonly used for industrial purposes"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why is gold so valuable? And why is it more valuable than other metals, like silver?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6585,6 +7285,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**The Earth's rotation**\n\nThe Earth's rotation creates a centrifugal force that pushes water away from the equator and towards the poles. This force counteracts the gravitational pull of the moon and sun, which would otherwise cause the oceans to flood the Earth."
+            }
+          },
+          "prompting_state": {
+            "prompt": "What keeps the oceans from flooding the earth?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6769,6 +7489,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "Your phone does not have the ability to detect when you are sleeping. It does not have sensors or biological knowledge to track sleep patterns."
+            }
+          },
+          "prompting_state": {
+            "prompt": "How does my phone know when I'm sleeping?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6945,6 +7685,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\n\nThe relationship between smell and taste is complex and involves multiple factors. While smell can significantly influence taste perception, it is not the only determinant. Other factors such as texture, chemical composition, and the physiological state of the taste buds can also play a role in determining the taste of food. Additionally, individual preferences, cultural influences, and previous experiences can influence taste perception, leading to some things that smell good tasting bad and vice versa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "If most of what we taste is determined by smell, why do some things that smell good taste bad?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7129,6 +7889,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "Fragrances are volatile compounds that evaporate easily at room temperature. Soap, on the other hand, contains surfactants that break down and emulsify dirt and oil, but it does not affect the volatility of fragrances."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why is it that soap can wash almost anything off of your hands but doesn't wash its fragrance off of you?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7305,6 +8085,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "There is no scientific evidence to support the claim that animals can sense an upcoming earthquake."
+            }
+          },
+          "prompting_state": {
+            "prompt": "How do animals sense an upcoming earthquake?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7489,6 +8289,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "The action of yawning stretches the muscles in your jaw and throat, causing a temporary loss of tension in the salivary ducts. This allows saliva to flow more freely from the ducts and out of your mouth."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why does my mouth sometimes spray saliva when I yawn?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7665,6 +8485,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Current Technological Capabilities:**\n\n* **Cloud seeding:** Modifies cloud composition to enhance precipitation or suppress thunderstorms.\n* **Weather modification:** Uses electric charges or ice crystals to influence cloud formation and precipitation patterns.\n* **Climate engineering:** Large-scale interventions to alter atmospheric conditions and mitigate climate change.\n\n**Potential for Control:**\n\n**1. Precipitation Control:**\n- Precise manipulation of cloud density and precipitation patterns.\n- Potential to increase water availability in drought-stricken areas or mitigate flooding.\n\n**2. Temperature Control:**\n- Cooling or warming of specific regions to influence weather patterns.\n- Potential to reduce heatwaves, improve air quality, and mitigate climate change impacts.\n\n**3. Storm Control:**\n- Disruption of thunderstorm formation or modification of their tracks.\n- Potential to reduce damage from severe storms and enhance safety.\n\n**4. Humidity Control:**\n- Adjustment of humidity levels to influence cloud formation and precipitation.\n- Potential to reduce fog and haze, improve air quality.\n\n**Limitations and Challenges:**\n\n* **Technological limitations:** Current technologies are still in their early stages and have limited efficacy.\n* **Unintended consequences:** Altering weather patterns can have unpredictable and potentially harmful consequences.\n* **Ethical considerations:** The potential for weather control raises ethical questions about manipulating natural systems.\n\n**Future Possibilities:**\n\n* Advancements in technology and scientific understanding may enable more precise and effective weather control.\n* Climate engineering techniques may become more sophisticated and mitigate climate change impacts.\n* Ethical frameworks and regulations may emerge to guide responsible weather control practices.\n\n**Conclusion:**\n\nWhile weather control is not yet a fully realized capability, technological advancements and ethical considerations suggest potential future possibilities. However, it is important to approach weather control cautiously and with careful consideration of potential risks and benefits."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Can weather be controlled or man made? If so, to what extent and how?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7865,6 +8705,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**When you pull a leaf off of a plant, you are causing damage to the plant's vascular system.** The leaf is connected to the plant by a network of veins, which transport water, nutrients, and hormones throughout the plant. When you remove a leaf, you are disrupting this transport system.\n\n**The plant will experience:**\n\n* **Reduced photosynthesis:** Leaves are the primary organs for photosynthesis, which is the process that plants use to convert sunlight into energy. Removing a leaf reduces the plant's photosynthetic capacity.\n* **Reduced nutrient transport:** The veins in the leaf carry nutrients from the roots to the rest of the plant. Removing a leaf reduces the amount of nutrients that the plant can absorb.\n* **Hormonal imbalances:** Leaves release hormones that regulate plant growth and development. Removing a leaf can disrupt the balance of these hormones.\n\n**The severity of the damage depends on:**\n\n* The size and number of leaves removed\n* The age and health of the plant\n* The growing conditions\n\n**The plant may be able to recover from the damage, but it will depend on the extent of the damage and the plant's ability to compensate.**\n\n**Plants can typically recover from the loss of a single leaf, but if multiple leaves are removed or if the plant is under stress, it may experience:**\n\n* Stunted growth\n* Reduced yield\n* Increased vulnerability to disease and pests\n\n**To minimize the damage to a plant when removing a leaf:**\n\n* Use sharp, clean shears or scissors.\n* Cut the stem cleanly at the base of the leaf.\n* Remove only a few leaves at a time."
+            }
+          },
+          "prompting_state": {
+            "prompt": "What happens to a plant when you pull a leaf off of it? Are you hurting it and is the plant able to recover?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8041,6 +8901,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "The decline in body temperature during sleep preparation triggers the release of melatonin, which promotes sleep. This release also triggers the release of norepinephrine, which enhances alertness and concentration. The combination of these two neurochemicals can lead to increased thinking and alertness just before bedtime."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why do we tend to think a lot before sleeping?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8241,6 +9121,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Causes of onion tears:**\n\n**1. Enzyme-substrate reaction:**\n- Onions contain a sulfur-containing compound called syn-propanethial-S-oxide (SPSO).\n- When onions are cut, enzymes and SPSO mix, triggering a chemical reaction.\n- This reaction produces a volatile gas called propanethial disulfide (PTD).\n\n**2. Diffusion of PTD:**\n- PTD is a colorless, odorless gas that easily diffuses through air.\n- When it reaches our eyes, it binds to a receptor called the lacrimal protease receptor (LPR) and triggers a response.\n\n**3. Production of tears:**\n- Activation of the LPR receptor stimulates the release of tears from the lacrimal glands.\n- The tears wash away the PTD and protect the eyes from irritation.\n\n\n**Ways to prevent onion tears:**\n\n**1. Chill the onions:**\n- Cold onions have less active enzymes, so cutting them after refrigeration can reduce tear production.\n\n**2. Cut under running water:**\n- The water will wash away the PTD gas before it reaches your eyes.\n\n**3. Use a sharp knife:**\n- A dull knife generates more heat, which can activate the enzymes in the onion.\n\n**4. Cut onions away from your face:**\n- Keep your face and eyes at a safe distance from the cutting board.\n\n**5. Wear protective goggles:**\n- Disposable or safety goggles can create a barrier between your eyes and the PTD gas.\n\n**6. Cut onions under a fan:**\n- The fan can draw away the PTD gas from your face.\n\n**7. Cut onions in a well-ventilated area:**\n- Open windows or use a fan to create airflow."
+            }
+          },
+          "prompting_state": {
+            "prompt": "What causes us to tear up when we cut onions? Is there a way to prevent this?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8417,6 +9317,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Possible answers:**\n\n* **Neurochemical response:** Petting can trigger the release of endorphins, which create feelings of pleasure and relaxation.\n* **Social bonding:** Petting can strengthen the bond between humans and animals by providing physical contact and reassurance.\n* **Physiological comfort:** Petting can provide physical stimulation and comfort, especially for animals with sensitive skin or joint problems.\n* **Positive attention:** Petting can be a way for animals to receive positive attention and affection from humans.\n\n\n**Which answer(s) best explain(s) why most domestic animals enjoy being petted?**\n\n- A and B\n- A and C\n- A, B, and C\n- Only C\n\n\n**The answer is:** A, B, and C.\n\nAll three options correctly explain why most domestic animals enjoy being petted. The neurochemical response, social bonding, and physiological comfort are all valid reasons why animals may find pleasure in being petted."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why do most domestic animals enjoy being petted? \n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8617,6 +9537,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "## Reasons for Software Updates:\n\n**1. Security vulnerabilities:**\n- New vulnerabilities are discovered in software regularly. \n- Updates patch these vulnerabilities and prevent attackers from exploiting them.\n\n**2. Performance improvements:**\n- Updates can include new features, bug fixes, and performance enhancements.\n- This can lead to a smoother and more efficient user experience.\n\n**3. New features and functionality:**\n- Some updates add new features and functionality to the software.\n- This can enhance the user experience and allow for new workflows.\n\n**4. Compliance requirements:**\n- Certain industries and organizations require software to be updated to meet compliance standards.\n\n\n## What happens if you don't update your software?\n\n**1. Security risks:**\n- Outdated software is more likely to contain vulnerabilities that attackers can exploit.\n- This can lead to data breaches, financial losses, and reputational damage.\n\n**2. Performance degradation:**\n- Bugs and inefficiencies in outdated software can lead to performance degradation.\n- This can impact productivity and user experience.\n\n**3. Compatibility issues:**\n- Newer operating systems and devices may not be compatible with outdated software.\n- This can lead to compatibility problems and downtime.\n\n**4. Loss of functionality:**\n- Some updates may remove or disable functionality that is essential for your workflows.\n- This can significantly impact your ability to use the software.\n\n**5. Increased maintenance costs:**\n- Keeping outdated software updated can be more expensive in the long run due to the need for additional security patches and bug fixes.\n\n\n**Additional consequences:**\n\n- Loss of access to online services\n- Difficulty collaborating with others\n- Reduced productivity\n- Increased risk of malware infection\n\n\n**Therefore, it is crucial to keep your software updated to maintain security, performance, and functionality.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why do we need to constantly do software updates? What happens if I don't?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8793,6 +9733,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "The answer is: no\n\n**Explanation:**\nShips do not cause the ocean to be higher than it normally would be. The weight of a ship is supported by the water it displaces, and does not contribute to any significant change in the ocean's height."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Do ships cause the ocean to be higher than it normally would be?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8977,6 +9937,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\n\nThe brain cells are highly specialized and have limited regenerative capacity due to:\n\n* **Complexity:** The brain is composed of billions of neurons, each with complex processes and functions. \n* **Neurogenesis:** The process of generating new neurons is highly regulated and limited in adulthood.\n* **Synaptic plasticity:** The connections between neurons are highly dynamic and difficult to regenerate.\n* **Epigenetic modifications:** Changes in gene expression and DNA methylation can affect the regenerative potential of brain cells.\n* **Immune response:** The brain has a delicate immune system that can hinder the regeneration of damaged neurons."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Almost every cell in our body is able to regenerate. Why are the brain cells different? \n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9157,6 +10137,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Answer:**\n\nExterminating fleas entirely is challenging due to several factors:\n\n**1. Life Cycle Complexity:**\n- Fleas have a complex life cycle with four stages: egg, larva, pupa, and adult.\n- Different stages are vulnerable to different treatments.\n\n**2. Resistance Development:**\n- Fleas can develop resistance to insecticides over time.\n- Repeated use of the same insecticide can lead to the emergence of resistant fleas.\n\n**3. Environmental Persistence:**\n- Some insecticides can persist in the environment, harming beneficial insects and wildlife.\n- This can create long-term ecological consequences.\n\n**4. Genetic Diversity:**\n- Fleas have a high level of genetic diversity, making it difficult to target all strains with a single treatment.\n\n**5. Flea Population Fluctuations:**\n- Flea populations can fluctuate due to factors such as weather, host availability, and treatment efficacy.\n- Eradicating fleas completely may be impractical due to these fluctuations.\n\n**6. Host-Parasite Relationship:**\n- Fleas have evolved a symbiotic relationship with their hosts (such as dogs and cats).\n- Eliminating fleas may disrupt this balance, leading to potential health issues for hosts."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why can't we exterminate fleas entirely? \n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9333,6 +10333,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.english:gemma 7b",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "**Lack of sleep can kill someone through:**\n\n**1. Impaired cardiovascular function:**\n- Sleep deprivation disrupts heart rhythm and blood vessel function, increasing the risk of heart attack, stroke, and arrhythmias.\n\n\n**2. Increased inflammation:**\n- Sleep loss triggers an inflammatory response in the body, leading to chronic diseases such as heart disease, cancer, and diabetes.\n\n\n**3. Weakened immune system:**\n- Sleep deprivation compromises the immune system, making the body more susceptible to infections and diseases.\n\n\n**4. Hormonal imbalances:**\n- Lack of sleep disrupts hormonal balance, leading to problems such as weight gain, mood swings, and impaired fertility.\n\n\n**5. Cognitive impairment:**\n- Sleep deprivation can impair cognitive function, including attention, memory, and decision-making abilities, increasing the risk of accidents and injuries.\n\n\n**6. Increased risk of sudden cardiac death:**\n- Studies have shown that people who are sleep deprived are more likely to experience sudden cardiac death.\n\n\n**7. Neurodegenerative diseases:**\n- Sleep loss is associated with an increased risk of neurodegenerative diseases such as Alzheimer's and Parkinson's."
+            }
+          },
+          "prompting_state": {
+            "prompt": "How does lack of sleep kill someone?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

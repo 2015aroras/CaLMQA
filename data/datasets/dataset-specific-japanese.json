@@ -193,6 +193,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:0:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**コメント：**\n\n警察に補導されることはあり得ません。新幹線の発車時間によって、11時から12時までに家に着く可能性があります。もし、新幹線に乗ることができなければ、学校の規則に従う必要があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "広島から大阪へ行く学生です。\n広島に帰る時訳あって11時を超えそうなのですが、親の許可を貰っていますと言えば警察に補導されないですかね？\nもしかしたら新幹線の時点で11時過ぎるかもですが、12時には家にいます。\n(もしかしたら早く新幹線に乗れて11時までに家に着くかもしれません。)\n学校が厳しいのでバレたら休学かもしれないのですが、どうしても早く帰れそうにないです。\n心ないコメントはやめてくださいm(_ _)m\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -388,6 +408,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:1:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "仙台の牛タン弁当は、国産の牛タンではなく、主にオーストラリアやアメリカ合衆国で生産された牛タンを使用しています。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "仙台の牛タン弁当って国産の牛タンですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -585,6 +625,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:2:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**結果は、翌月2月の支払です。**\n\nPaidyは、支払日より2日前に支払う必要があります。したがって、お急ぎ便で明日届くものは、翌月2月の支払となります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Paidyで今日(月末)買うと翌月の2月に支払うことになりますか？それとも翌々月の3月ですか？\nコンビニ払いにしてるので、翌月だと手数料もかかるし損した気がします(笑)\nちなみにpaidyを利用するのはAmazonで、お急ぎ便で明日届くみたいです。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -780,6 +840,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:3:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "上記2つの質問に答え、新ステイタスプログラムについて詳細を説明します。\n\n**1. ステイタスポイントの貯め方はどうなるのか？JALカードの買い物でいくらで何ポイントたまるのか？**\n\n新ステイタスプログラムでは、以下の3つのポイントプログラムが導入されています。\n\n* **ステイタスポイント**：ステイタスレベルに応じて、特定のチャネルでの購入でポイントが貯まる。\n* **チャネル特典ポイント**：チャネルによって異なるポイントが貯まる。\n* **キャンペーンポイント**：キャンペーンによって異なるポイントが貯まる。\n\n* JALカードの買い物で、ステイタスポイントは100円につき1ポイントが貯まります。\n\n\n**2. JGCになるとこれまで通りサファイアが永久に維持されるのか？**\n\n新ステイタスプログラムでは、JGCのサファイアは継続されます。サファイアは、ステイタスレベルの維持に必要となります。\n\n\n**3. 新ステイタスプログラムは改善と改悪どちらなのか？**\n\n新ステイタスプログラムは、従来のステイタスプログラムよりも多くのポイントが貯まるように設計されています。そのため、改善と改悪のどちらではなく、より多くのポイントを得ることができるプログラムとして位置付けされています。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "JALの新ステイタスプログラムが発表されましたが、何度読んでも肝心の下記2点がどうなるのか分かりませんでした。どうなるのでしょうか？\n1. ステイタスポイントの貯め方はどうなるのか？JALカードの買い物でいくらで何ポイントたまるのか？\n2. JGCになるとこれまで通りサファイアが永久に維持されるのか？\n3. 新ステイタスプログラムは改善と改悪どちらなのか？\n新ステイタスプログラム\nhttps://www.jal.co.jp/jp/ja/jmb/life-status-program/\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -977,6 +1057,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:4:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**関連情報**\n* 社会人5年目\n* 医療専門卒\n* 自業自得\n* 韓国語学習の経験あり\n\n**希望の回答**\n* 社会人の語学学習の経験と予算の制限を考慮した語学学習計画の提案\n* 語学学校入学または語学留学の具体的な選択肢と手順\n* 1年で言語を身につけ、通訳になれるための具体的な取り組み\n\n**その他**\n* 語学学習の継続的な取り組みと維持の重要性\n* 社会人の語学学習におけるコミュニケーションの重要性\n\n\n**その他情報**\n* 友人が中国語の通訳をしている\n* 24歳女\n\n**希望の回答のポイント**\n* 社会人の語学学習の経験と予算の制限を考慮した語学学習計画の提案\n* 語学学校入学または語学留学の具体的な選択肢と手順\n* 1年で言語を身につけ、通訳になれるための具体的な取り組み\n* 社会人の語学学習におけるコミュニケーションの重要性\n\n\n**関連情報**\n* 社会人5年目\n* 医療専門卒\n* 自業自得\n* 韓国語学習の経験あり"
+            }
+          },
+          "prompting_state": {
+            "prompt": "【至急】【100枚】仕事と留学について\n私は、医療専門卒・医療関係で働いていました。\nしかし職場環境が合わず、3社を自己都合で退社しました。\n現在社会人5年目になります。\n自業自得ですが、だいぶ傷だらけの職歴になり心機一転したいと思っています。\n以前より韓国語が気になっていて、友人が中国語の通訳をしているのもあり『私も韓国語を学んでそれを活かしたい』と思うようになりました。\n24歳女と年齢もそろそろ厳しいですし、何かに挑戦するにしても退職した今しかタイミングがないと思い、語学学校入学か語学留学を考えています。\n今まで外国語と無縁の環境にいたので、何から手をつければ良いか分かりません。\n『社会人になってから語学学校に入学・語学留学をした方』がいればその方に回答して欲しいです。\n昨日決心した事で、何から手をつければ良いか分かりません。\n貯金はあるので、ある程度の出費・自己投資は覚悟の上です。\n・何から始めるべきか\n・語学学校に入学するにはどうすれば良いか\n・語学留学するにはどうすれば良いか\n・1年で言語を身につけ、通訳になれるか\n(もしくは活かした職につけるか)\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1172,6 +1272,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:5:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**運技+と運極になったキャラのクリティカルをかけたら何倍になりますか？**\n\n運技+は、クリティカル発生確率を10%増加します。運極は、クリティカル発生確率を20%増加します。\n\nしたがって、運技+と運極になったキャラのクリティカル発生確率は、10% + 20% = **30%** となります。\n\n**運極になったらクリティカルの出やすさが上がるらしいのですが、ラックが上がるごとにどれくらいの%で上昇するかがわからないので計算方法とかも教えていただけると幸いです**\n\n運極は、クリティカル発生確率を20%増加します。これは、運極がない場合のクリティカル発生確率の30%の20% = **60%** の増加に相当します。\n\nしたがって、運極になったキャラのクリティカルは、運極がない場合のクリティカルの約**1.6倍**になります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "モンストについてです\n運技+と運極になったキャラのクリティカルをかけたら何倍になりますか？\n運極になったらクリティカルの出やすさが上がるらしいのですが、ラックが上がるごとにどれくらいの%で上昇するかがわからないので計算方法とかも教えていただけると幸いです\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -1369,6 +1489,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:6:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**質問：**\nLineモバイルのSIMをどのように処分したらいいのでしょうか？\n\n**回答：**\nLineモバイルのSIMは、以下のいずれかを選択できます。\n\n* **返送する**：Lineモバイルに返送すると、料金を返還されます。\n* **解約する**：解約すると、残りの料金は返還され、SIMは返送されます。\n* **利用する**：LineモバイルのSIMは、別のモバイルネットワークに転送して利用できます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "LineモバイルからLINEMOに変更すると割引キャンペーンがあったので変更しました。\nLINEMOのSIMは届きましたがLineモバイルのSIMはどうすればいいのでしょうか？\n調べても回答が得られません。\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1564,6 +1704,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:7:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\n湯田温泉駅から神戸まで、鈍行でいった場合、約3時間30分かかる。\n\n**情報提供サイト：**\n\n* **Google Maps**：https://goo.gl/maps/z5Q8q3Q8q3Q8q3Q8\n* **Hyperdia**：https://www.hyperdia.com/en/\n* **Japan-Guide**：https://www.japan-guide.com/e/e2364.html"
+            }
+          },
+          "prompting_state": {
+            "prompt": "こんにちは！\n突然ですが知りたいことがあります！\n湯田温泉駅から神戸まで、鈍行でいったらいくらかかるのか知りたいです！\nまた、それがわかるサイトやアプリなどあれば教えて欲しいです！\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -1761,6 +1921,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:8:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "どのように調査すれば、相手がブロックしたかどうかを特定できますか？\n\n**調査方法**\n\n1. **相手との最後のメッセージを確認する**：相手との最後のメッセージがブロックされた時に発生するかどうかを確認します。\n2. **相手からのメッセージを確認する**：相手からのメッセージがブロックされた時に発生するかどうかを確認します。\n3. **相手のリクエストを確認する**：相手のリクエストがブロックされた時に発生するかどうかを確認します。\n4. **相手とのブロック設定を確認する**：相手とのブロック設定を確認します。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ライン 一人だけトーク履歴消える\n相手からブロックされてるのでしょうか？\n一人だけトーク履歴が消えてる人を発見しました\n数ケ月に一度くらいしか連絡を入れない人なので\nいつから消えていたか分かりません\nこういった原因をネットで検索すると\n1．自分がトーク履歴を削除した\n２．相手が退出した、となっている\n３，相手が別のアカウントにした\n１，２は無いですし\n３は相手のアイコンを見てもインスタなどのリンクを貼っていて\n現在も使用していることが分かります\n残念ながら自分のトークバックアップが設定されてませんでした\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1956,6 +2136,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:9:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "調査する際に使用する情報源はどんなものでしょうか？\n\n\n**調査する際に使用する情報源**\n\n* 地域の行政機関のウェブサイト\n* 地域の不動産会社\n* 物件の所有者からの直接確認\n* 公共の不動産情報データベース\n\n\n**調査する内容**\n\n* 地域の土砂災害警戒区域の有無\n* 地域の市街化区域の有無\n* 物件のガス供給の種別\n* 物件の下水道と上水道の状況\n* 物件の所有者の生活年数\n* 物件の過去の事故の有無\n* 物件の雨漏りの有無\n* 物件の近隣トラブルの有無\n* 物件の騒音の有無\n* 物件の田舎の臭いの有無\n* 物件のシロアリの有無\n* 物件の管理の状況\n* 物件の駐車場の軽度\n* 物件の駐車場の建て替えの可能性"
+            }
+          },
+          "prompting_state": {
+            "prompt": "不動産投資について質問です\n高い不動産が買えず、○○ヶ丘など程々人が\n住んでそうなエリアの古い戸建て駐車場付き\n新幹線有名駅から電車数駅位の物件、角地を\n買おうか迷っています。\nその家について調べた方がいい内容は\nどんな事でしょうか？\n例えば、土砂災害警戒区域、市街化区域、\nガスは都市ガスかプロパンか、下水道、上水道か、人は何年住んでないか、事故はなかったか、雨漏りはないか、近隣トラブル、騒音、田舎だと臭いなど、シロアリ、管理をしてくれる不動産か、駐車場は軽か、普通車か建て替えは可能か？思いつきましたが。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -2153,6 +2353,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:10:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "特定口座分は売却した方が良いでしょう。旧ニーサは、非課税期間はほったらかしに、新ニーサに15万円は入ってくるので、売却する必要はありません。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "現金2000万、特定口座に260万、旧ニーサ200万あります。今月から新ニーサに、15万いれます。特定口座、旧ニーサ分はすぐ、売却すべき？\n特定口座分は売却して、ニーサは非課税期間はほったらかしにしようかと思いますが、どうでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2348,6 +2568,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:11:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "日本テレビのホームページや関連情報を見つけたが、具体的な名前は記載されていません。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "本日1月16日日本テレビZipの番組で栃木県益子町吉岡農園さんで苺特集をやってましたがそこで取材されてた女性の名前わかる方教えてください。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -2545,6 +2785,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:12:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "上記の記事には、米アップルが血中酸素濃度計測機能を「Series 9」と「Ultra 2」から除外する計画があることが記載されていますが、日本における血中酸素濃度計測機能の状況は記載されていません。\n\n記事から、日本における血中酸素濃度計測機能の状況に関する情報は含まれていません。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ネット記事にこのような記事がありました。\n米アップルは特許紛争に絡み同社に有利な高裁判断が下されなかった場合、スマートウオッチの最新機種「Series 9」と「Ultra 2」から血中酸素濃度の計測機能を除外する計画だ。医療機器メーカーのマシモとの紛争に起因する米国内での販売停止措置を回避するのが目的。\nマシモが15日明らかにしたところによると、米税関・国境警備局（ＣＢＰ）が12日にアップル側の変更措置を承認した。税関当局は、アップルによる変更で米国際貿易委員会（ＩＴＣ）が決定した販売停止の「範囲」からは外れると判断。これにより、「Series 9」と「Ultra 2」は販売継続が可能になるとみられる。\nＩＴＣは昨年10月、Apple Watchがマシモの保有する特許を侵害しているとして輸入禁止を命じていた。そのためアップルはクリスマスを目前に「Series 9」と「Ultra 2」の直販を停止したが、先月27日に連邦特別行政高裁からＩＴＣ命令の一時停止判断を得て直販を再開することができていた。\n問題への対応として、アップルはApple Watch用のソフトウエアをアップデート。輸入禁止措置を執行する税関当局に先週、同アップデートの計画を提出していた。マシモによると、アップルは税関当局に対し、パルスオキシメトリとして知られる問題の技術は変更後のApple Watchには「明らかに」含まれていないと説明している。\n日本でも血中酸素濃度計測機能が使えなくなるのですか？\n知っている方教えてください？\n迅速な回答ください？\n迅速な回答をいただければ幸いです。\n宜しくお願い致します。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2740,6 +3000,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:13:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**共テ利用の合格最低点：約80%**\n\n共テ利用の合格最低点は、学習院大学の共テボーダー(英米文三科)である80%に換算した値です。ただし、共テの素点ではなく、共テボーダーは共テの素点に換算した値です。\n\nしたがって、共テ利用の合格は厳しいとは言い難く、現実的なレベルです。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "学習院大学の共テ利用の合格最低点は大体どの程度か分かる方いらっしゃいますか？\nパスナビなどのサイトに記載されている共テボーダー(英米文三科)は80%なのですが、これは学習院大学の得点に換算したものなのか、共テの素点なのかが分かりません。また、素点なら丁度80%でも換算したら78%まで下がってしまいます。共テ利用での合格は厳しいでしょうか。現実的なご意見お待ちしています。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -2937,6 +3217,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:14:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**目標：関西学院大学社会学科入試**\n\n**入試点：40点**\n\n**受験科目：国語、理数、社会**\n\n**質問：**\n\n1. 社会学科が受からなかった場合はどの学科を受けるのが良いでしょうか？\n2. ここからあと2年で関西学院大学に受かるにはどのような勉強をして、何点取れば余裕で合格できますでしょうか？\n\n\n**解答：**\n\n1. 社会学科が受からなかった場合は、理数や国語のどちらかを専攻する方が良いでしょう。理数は、入試点の40点の中で最も点数の高い科目です。国語は、入試点の40点の中で最も点数の低い科目です。理数や国語のどちらかを専攻する方が、入試点の40点で関西学院大学に受かる可能性が高まります。\n\n\n2. ここからあと2年で関西学院大学に受かるには、以下の勉強が必要です。\n\n**国語：**\n- 問題集を定期的に解く。\n- 文章の読解や文法の理解を深める。\n\n\n**理数：**\n- 基礎的な数学の理解を深める。\n- 定期的に問題集を解く。\n\n\n**社会：**\n- 社会の基礎知識を学ぶ。\n- 社会のニュースや論文を定期的に読む。\n\n\n- 毎日の勉強時間を決めて、定期的に勉強する。\n- 理解したことを書き留む。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "現在高校1年生偏差値40ですが、関西学院大学の社会学科に行きたいと思っています。\n中学から勉強は全くしておらず、英語なんて単語も文法も全く分かりません。\nここからあと2年で関西学院大学に受かるにはどのような勉強をして、何点取れば余裕で合格できますでしょうか。\n理系は本当に苦手なので、３教科で受験したいと考えています。\n国語は高校入試の問題で半分取れるくらいです。\n漢文や文法、古文はあまり得意じゃないです。\n社会はわかりません…\n中学の時はほぼノー勉で20〜30点ぐらいでした。\n英語は本当にお恥ずかしながら中学の時は1桁代から良くても20点ぐらいでした。\n問題集やおすすめの勉強法なども良ければ教えていただけると嬉しいです。\nそれと、社会学科が受からなかった場合はどの学科を受けるのが良いのでしょうか。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3132,6 +3432,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:15:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "黒磯～新白河の区間は、東北本線の乗客数が多い路線です。しかし、列車の定数は多く、乗車人数に対する列車の数は多くありません。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "東北本線の黒磯～新白河の区間は、乗車人数に対する列車の数が多いと感じるのですが、なぜですか？いつもガラガラです。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -3329,6 +3649,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:16:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**ユーザーが直接使用する部分で、大きな仕様変更はどの部分なのでしょうか？**\n\n**SAP S4/HANA**\n\n* 新しいイン Memory Database を使用する。\n* 従来の ERPシステムよりも高速で、よりスケーラブル。\n* データの分析に最適。\n\n**SAP ERP**\n\n* 従来の relationalデータベースを使用する。\n* 性能に優れているが、スケーラビリティに制限がある。\n* データの分析に少し遅いが、従来の BIツールとの互換性が高い。\n\n\n**ユーザーが直接使用する部分で、大きな仕様変更はどの部分なのでしょうか？**\n\nユーザーが直接使用する部分で、大きな仕様変更は、以下の部分です。\n\n* **アプリケーションのインターフェース**：ユーザーがアプリケーションと対話するインターフェースは、大きく異なる。S4/HANA は、従来の ERPシステムよりもユーザーフレンドリーで、より直感的なインターフェースを提供します。\n* **機能**：S4/HANA は、従来の ERPシステムよりも多くの機能を提供します。特に、データ分析に最適な機能が充実しています。\n* **データモデル**：S4/HANA は、従来の ERPシステムよりもデータモデルがシンプルで、より直感的にデータを使用できます。\n\n\nこれらの変更は、ユーザーにとって大きな違いであり、新しいスキルやトレーニングが必要です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "SAP S4/HANA と SAP ERPの違い\n教えてください。\nSAP S4/HANA と SAP ERPの違いは何でしょうか？\nデータベースの部分が大きく異なるのは理解していますが、\nユーザーが直接使用する部分で、大きな仕様変更はどの部分なのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3524,6 +3864,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:17:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**具体的なソフトや方法を教えてください。**\n\n**環境:**\n- Windows 10\n- Adobe Acrobat Pro DC\n\n**需求:**\n- 電子帳簿にタイムスタンプを付与する\n- 時間は保存した日時のものにする\n\n**手順:**\n\n1. スキャナーでPDFを作成する\n2. Adobe Acrobat Pro DCを使用してタイムスタンプを付与する\n\n\n**具体的なソフトや方法:**\n\n- **Adobe Acrobat Pro DCのタイムスタンプ機能を使う**\n- **Adobe Acrobat Pro DCの「コメントとマーク」ツールを使う**\n\n\n**詳細説明:**\n\n**1. Adobe Acrobat Pro DCのタイムスタンプ機能を使う**\n\n- Adobe Acrobat Pro DCを起動する。\n- PDFを開く。\n- 「ファイル」メニューから「タイムスタンプ」を選択する。\n- 「タイムスタンプを追加」ボタンをクリックする。\n- 時間を指定する。\n- 「OK」をクリックする。\n\n\n**2. Adobe Acrobat Pro DCの「コメントとマーク」ツールを使う**\n\n- Adobe Acrobat Pro DCを起動する。\n- PDFを開く。\n- 「コメントとマーク」ツールを選択する。\n- 「タイムスタンプ」タブを選択する。\n- 時間を指定する。\n- 「OK」をクリックする。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "電子帳簿保存法のタイムスタンプ付与\n顧客から預かった資料をに電子帳簿保存法対応のタイムスタンプ付与をやってほしいと言われました。\nスキャナー自体はシンプルなものでメーカーに聞いたらスキャナーにはタイムスタンプを付与する機能はないといわれました。\nそこでスキャナーでPDF化した後にタイムスタンプを付与したいのですが、そういったソフトはあるのでしょうか。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -3721,6 +4081,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:18:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "これは、北海道の気候や環境、そしてソフトクリームの製造方法に関連しているためです。\n\n**気候**\n\n北海道は、他の地域に比べて冷涼した気候です。この気候は、ソフトクリームの製造に使用する乳製品の品質に影響を与えることができます。冷涼した気候では、乳製品に含まれる乳酸の含量が低くなり、ソフトクリームに甘みと香ばしさが増します。\n\n**環境**\n\n北海道は、他の地域に比べて緑の豊かな環境です。この環境は、ソフトクリームの製造に使用する乳製品に含まれる栄養素の含量に影響を与えることができます。緑の豊かな環境では、乳製品に含まれる栄養素の含量が高くなり、ソフトクリームに栄養価と風味が増します。\n\n**製造方法**\n\n北海道のソフトクリームは、他の地域に比べて手作りの要素が大きいです。多くのソフトクリーム店は、独自のレシピを作成し、高品質のソフトクリームを生産しています。手作りの要素は、ソフトクリームの品質に大きな影響を与えることができます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "北海道現地のソフトクリームが美味しい理由\n北海道物産展で食べれるソフトクリームは微妙なのに、北海道の現地で食べるソフトクリームは美味しいのはなぜですか？\n同じ北海道なのに。。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3916,6 +4296,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:19:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "北海道は呪われているというような印象を受けます。\n\n**答え**\n\n北海道に対するこれらのコメントは、単に北海道の人々が悪いことを意味するものではありません。北海道の人々は、他のどんな人と同じように、良い点と悪い点があります。北海道は素晴らしい場所であり、多くの良い思い出が残っています。これらのコメントは、単に北海道に対する誤解や偏見にすぎず、むしろ、これらのコメントをした人の自分の問題に関連している可能性があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "北海道が目の敵にされるのはなぜ！？\n犯罪や事件がニュースになった時、\n北海道以外では普通のコメントなのですが、\n北海道で起きた瞬間(また北海道かよ！？)（北海道は呪われてる）\nとか書かれることが多くて、道民である僕はショックを受けます\n北海道が何をしたって言うんだ！ってなってしまいます\nもしかして北海道には、僕が知らない過去があるんでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -4113,6 +4513,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:20:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "東京のスキー用品店やオンラインショップで、旧モデルのスキー用品を見つけた場所を教えてください。\n\n**東京のスキー用品店**\n\n* **スポーツデポ東京**：品揃えは新モデルがメインですが、旧モデルも一部販売しています。\n* **アソビュー東京**：旧モデルのスキー用品も販売しています。\n* **スポーツプラザ**：旧モデルのスキー用品も販売しています。\n\n**オンラインショップ**\n\n* **Amazon**：旧モデルのスキー用品も販売しています。\n* **Yahoo!auctions**：旧モデルのスキー用品も販売しています。\n* **Rakuten**：旧モデルのスキー用品も販売しています。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "スキー用品　旧モデル　5月～8月頃　買い物\nスキー用品を安く買いたいのですが、東京に行けば5～8月頃に旧モデルが安く売っていますか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4308,6 +4728,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:21:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "障害年金2級の認定を受けると、国民健康保険の金額は減免されます。減免率は、障害年金2級の認定を受けた月からの12ヶ月間分の国民健康保険料の50%です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "病気になり障害年金2級に認定されました\n国民健康保険の金額は減免されますか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -4505,6 +4945,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:22:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**解決方法：**\n\n* **長襦袢のサイズを調整する** - 服のサイズが大きい場合、首のvの部分が下がる傾向があります。サイズを小さくすると、首のvの部分が正しい高さになり、半襟も見えるようになります。\n* **長襦袢の襟の高さを変更する** - 襟の高さは、着物のサイズやデザインによって異なります。襟の高さは、首のvの部分の高さに合うように調整する必要があります。\n* **長襦袢を着る際に襟を正しく設定する** - 長襦袢を着る際に、襟を正しく設定する必要があります。襟を正しく設定すると、首のvの部分が正しい高さになり、半襟も見えるようになります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "着物初心者です。\n長襦袢を着るとき衣紋をかなり抜いてから着物を着て衿元(首もと)もよい感じなのですが歩いている間にだんだん衣紋がつまり、首あたりの衿が緩んできて胸元がたるんだ感じになります。\n首のvの部分が下がる感じです。\n同時に半襟と着物の衿が重なってきて半襟が見えなくなってしまいます。\n解決方法を教えていただきたいです。宜しくお願い致します。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4700,6 +5160,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:23:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "各宗の仏様は異なるという理解は正しいですか？\n\n**各宗の仏様は異なるという理解は正しいですか？**\n\n各宗の仏様は異なるという理解は正しいです。各宗は、その宗の創立者やその思想に基づいて、独自の仏様を定めています。\n\n**仏壇などの仏様に、天台宗のお経を時宗の仏様にあげるということは大丈夫でしょうか？**\n\n各宗の仏様は異なることは理解した上で、異なる宗の仏様に対するお経は、その仏様に対する深い理解がない限り、適切ではないかもしれません。しかし、単に各宗の仏様は異なるという理解のみならず、それぞれの宗の経典や思想も理解した上で、適切なお経を選択する必要があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ほんとに単純な質問かもしれませんが、\n仏壇などの仏様に、（例えば）天台宗のお経を時宗の仏様にあげるということは大丈夫でしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -4897,6 +5377,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:24:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**「ハード・オフ」と「お宝中古市場漫画倉庫」系のお店のどちらの方が高く買い取って頂けるもの**\n\n**ハード・オフ**\n\n* 多くの人が立ち合い、競争が激しいため、高値で買い取ることは少ない。\n* 特に、フィギュアやコミックスなどの高値商品は、ハード・オフではあまり買い取られない。\n\n\n**お宝中古市場漫画倉庫**系のお店\n\n* 多くの人が立ち合い、競争は激しいため、高値で買い取ることは少ない。\n* 特に、フィギュアやコミックスなどの高値商品は、お宝中古市場漫画倉庫系のお店ではあまり買い取られない。\n\n\n**結論**\n\nハード・オフやお宝中古市場漫画倉庫系のお店では、高値で買い取ることは少ない。高値のフィギュアやコミックスなどの商品を売りたい場合は、オンライン販売サイトや専門の中古品販売店の方が良い。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "こんにちは \n思い切って部屋に飾ってあるフィギュアや同人誌やその他グッズや洋服、コミックなどを売ってお金にかえようとおもうのですが、「ハード・オフ」と「お宝中古市場漫画倉庫」系のお店では、どちらの方が高く買い取って頂けるものなのでしょう？\nフィギュアなどはfigmaの初音ミクシリーズなのですが… \nなるべくお金になるほうがいいのですが、どなたか実際に売ってきたという方いらっしゃいましたら、教えて下さいm(__)m\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5092,6 +5592,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:25:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**お盆にお墓参りをする理由**\n\nお盆にお墓参りをする理由はいくつかあります。\n\n* **魂の帰還**：お盆は、古来より魂が家に戻るとされる日です。お墓参りをすることで、魂が家に戻って、家族や友人に対する感謝の気持ちを示すことができます。\n* **供養の必要性**：お墓には、亡くなった人の思い出や願いが残り、供養が必要です。お盆にお墓参りをすることで、亡くなった人の思い出を呼び出し、彼らを忘れず、彼らを愛し続けることができます。\n* **家族の集会**：お盆は、家族や友人が集まる日です。お墓参りをすることで、家族や友人が集まり、亡くなった人を悼むことができます。\n\nこれらの理由から、お盆にお墓参りをすることは、多くの家庭にとって重要な伝統です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "お盆のお墓参り\nずっと気になってたんですが お盆にお墓参りってするところ多いじゃないですか でも お盆の時って 魂が家に来てるじゃないですか 空の墓にお供え物をして お参りするのって変じゃないですか？？ お墓参りするなら お盆前とか お盆後にしたほうが正しいように思うんですが・・・ 何故お盆にお墓参りをするのか その理由を知りたいのです よろしくお願いします\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -5289,6 +5809,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:26:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**方言の違い**\n\n* 方言は、特定の地域または集団によって話される言語の異なる形式です。\n* 方言は、同じ言語の異なる発音、語彙、文法などの違いを示します。\n* 例：東京弁と大阪弁は、発音や語彙に違いがあります。\n\n\n**言語の違い**\n\n* 言語は、異なる文化や社会によって話される言語の全体的なシステムです。\n* 言語は、異なる語彙、文法、発音システムなどの違いを示します。\n* 例：日本語と中国語は、語彙、文法、発音システムなどの根本的な違いがあります。\n\n\n**方言の違いと言語の違いの違い**\n\n* **方言の違い**は、同じ言語の異なる形式ですが、**言語の違い**は、異なる言語です。\n* 方言は、地域または集団によって話されますが、言語は、文化や社会によって話されます。\n* 方言は、相互に理解可能ですが、言語は、相互に理解可能ではありません。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "方言と他言語との違いは？\n方言と多言語の違いはなんでしょうか？ たとえば東京弁と大阪弁の関係は方言の違い 日本語と中国語は他言語同士 「方言の違い」と「言語の違い」の違いは何が違うのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5484,6 +6024,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:27:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "これは、それぞれの地域の文化や生活様式に関連しているという説があります。東京は、人々が速いペースで生活する都市であり、大阪は、より穏やかで緩いペースで生活する都市です。この違いは、それぞれの地域の笑いの様式に影響を与える可能性があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "東京のお笑いと大阪のお笑いの違いはなんですか？\nよく、友達が「あれは東京の笑いや」とか言っています。 ちなみに今は大阪住んでます。 自分なりに解釈したところ 東京・・・言葉より体を使った、よく意味のわからない 一発芸が多い。 大阪・・・喋りでとにかく笑わせる。 僕的には見ていて面白くうなずけるお笑いは 大阪の方が面白いです。 僕は地方出身ですが、東京お笑いと大阪お笑いの 違いが分かるようになりました。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -5681,6 +6241,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:28:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "発音や意味、文法など、どのような違いがあるのでしょうか。\n\n**大阪弁**\n\n大阪弁は、大阪市周辺の地域で話される日本語の方言です。関西弁の亜種であり、関西弁と似通っていますが、独自の語彙や発音の特徴があります。\n\n**関西弁**\n\n関西弁は、関西地方の広域で話される日本語の方言です。大阪弁も関西弁の亜種であり、共通の語彙や発音の基礎を共有しています。\n\n\n**違い**\n\n大阪弁と関西弁は、発音、意味、文法などの点で異なる場合があります。\n\n**発音**\n\n* 大阪弁は、関西弁よりも口頭語の要素が強い傾向があります。\n* 大阪弁では、a, i, u, e, oの5つの母音は、関西弁よりも少し短くなっています。\n\n\n**意味**\n\n* 大阪弁には、関西弁にない独自の語彙が存在します。\n* 大阪弁では、同じ意味の語彙でも、関西弁よりも意味が強い傾向があります。\n\n\n**文法**\n\n* 大阪弁は、関西弁よりも文法的な傾向があります。\n* 大阪弁では、文の構造が複雑になりやすく、関西弁よりも多くの助詞を使用します。\n\n\nこれらの違いは、大阪弁と関西弁が異なる地域に話されると、異なる生活様式や文化に影響を与えることを意味します。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "大阪弁と関西弁\n大阪弁と関西弁は違うのですか？\n違うとしたら、何がどう違うのでしょうか\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5876,6 +6456,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:29:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "早稲田大学は国立の大学ではなく、私立の大学です。したがって、早稲田大学の工学部のレベルは、国立の大学と比較するものではありません。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "私立と国立\n僕は受験生なのですが、私立と国立の偏差値表がバラバラなのが、よく分かりません。そこで質問です。例えば早稲田大学の工学部のレベルは、国立で言うとどこの大学の工学部のレベルと一緒なのでしょうか？この質問に意味がないのかも知れませんが、回答よろしくお願いします。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -6073,6 +6673,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:30:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "* **カップラーメン**\n    * **ごんぶ**：関西で販売されている、ごんぶ風風船のカップラーメン。甘辛いスープで、ごんぶ風風船の定番味。\n    * **赤いきつね**：関西で販売されている、赤いきつね風風船のカップラーメン。甘辛いスープで、赤いきつね風風船の定番味。\n    * **緑のたぬき**：関西で販売されている、緑のたぬき風風船のカップラーメン。甘辛いスープで、緑のたぬき風風船の定番味。\n\n\n* **袋麺**\n    * **麺の達人**：関西で販売されている、麺の達人の袋麺。甘辛いスープで、麺の達人の定番味。\n    * **出前一丁**：関西で販売されている、出前一丁の袋麺。甘辛いスープで、出前一丁の定番味。\n    * **どん兵衛**：関西で販売されている、どん兵衛の袋麺。甘辛いスープで、どん兵衛の定番味。\n\n\n**地域限定**\n\n* **北海道**：北海道限定のカップラーメンとして、札幌風風船のカップラーメンがあります。\n* **九州**：九州限定のカップラーメンとして、福岡風風船のカップラーメンがあります。\n* **沖縄**：沖縄限定のカップラーメンとして、沖縄風風船のカップラーメンがあります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ラーメンの東西\nカップラーメンや袋麺に関東と関西で味の違いがあるようなのですが、具体的な商品名や味の違いを教えていただきたいと思います。 私が調べてわかったものは ごんぶと、赤いきつね、緑のたぬき、麺の達人、出前一丁、どん兵衛です。 味の方は全部入手できないので比べることが出来ずにいます。 また、他にも地域限定（北海道、九州、沖縄）などもあるのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6268,6 +6888,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:31:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え**\n\n北海道のコンビニでしか売っていっている、北海道限定のデザートやアイスや飲み物として以下のものが知られています。\n\n* **北海道限定のアイス**\n    * 北海道産アイスクリーム\n    * 北海道風アイスクリーム\n    * 海辺のアイスクリーム\n* **北海道限定の飲み物**\n    * 北海道の風を伝えるコーヒー\n    * 北海道の海風を伝えるソフトドリンク\n    * 北海道の果実を使ったソーダ\n* **北海道限定のデザート**\n    * 北海道の農家から作ったパン\n    * 北海道の伝統的な焼き物\n\nこれらの商品は、他のコンビニでは購入できず、北海道のコンビニでしか手に入れるものです。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "北海道のコンビニ\n北海道のコンビニでしか売っていなくて 北海道限定のデザートやアイスや飲み物って ありますか？ お土産とかではなくて、すぐに食べるので どんなものでもいいです。 オレンジの看板のセイコーマートが、 北海道ではたくさんあるので、セイコーマートだと いいですが\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -6465,6 +7105,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:32:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "どちらかは正しいでしょうか？\n\n**答え：両者とも正しいです。**\n\nVISAデビットカードは、VISAマークのある店またはVISA PLUSのマークのある店に使用することができます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "VISAデビットカードが使える店は？\nVISAデビットカードが使える店はVISAマークのある店でしょうか？ それともVISA PLUSのマークのある店でしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6660,6 +7320,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:33:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "文学座や俳優座などの劇団における新劇俳優の給料は、月給としてどのくらいになるでしょうか？\n\n**新劇俳優の給料**\n\n新劇俳優の給料は、劇団によって大きく異なります。しかし、一般的に月給として以下の範囲になるでしょう。\n\n* **初年度：約3万円～5万円**\n* **2年目：約5万円～7万円**\n* **3年目：約7万円～9万円**\n\nただし、劇団や役柄、経験によって、この範囲は大きく異なります。\n\n**文学座や俳優座などの劇団における新劇俳優の給料**\n\n文学座や俳優座などの劇団における新劇俳優の給料は、上記のような範囲になるでしょう。\n\n* **文学座：約4万円～6万円**\n* **俳優座：約5万円～7万円**\n\nこれらの劇団は、新劇俳優に月給としてこれらの範囲の給料を支払います。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "新劇俳優の給料\n文学座や俳優座などの名門といわれる劇団では四季のように給料は保障されているんですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -6857,6 +7537,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:34:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**世界で一番休日が多い国はどの国ですか？**\n\n世界で一番休日が多い国は、日本です。日本は、年間に104日間の休日があります。\n\n**世界で一番休日が多い国に関するその他の情報**\n\n* 世界で2番目に休日が多い国は、韓国です。韓国は、年間に98日間の休日があります。\n* 世界で3番目に休日が多い国は、インドです。インドは、年間に97日間の休日があります。\n* 世界で最も休日が少ない州は、アメリカ州のアメリカです。アメリカは、年間に10 federal holidaysと48 state holidaysがあります。\n\n**世界で一番休日が多い国に関する記事**\n\n* [World's Most Generous Vacation Policies](https://fortune.com/2018/08/28/worlds-most-generous-vacation-policies/)\n* [Which Countries Have the Most Paid Time Off?](https://money.usnews.com/money/personal-finance/articles/paid-time-off-rankings)"
+            }
+          },
+          "prompting_state": {
+            "prompt": "世界で一番休日が多い国！\n世界で一番休日が多い国は日本というあるホームページを見ましたが本当にそうなのでしょうか？ そのホームページを見てから実際に世界で一番休日が多い国はどこなのだろうとふと疑問に感じました。 どなたかご存知の方やそんな疑問を解決できるホームページなどをご存知の方いらっしゃいましたら情報をお願いします！\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7052,6 +7752,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:35:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "「海外でそんなに利益がでるかどうか」は、単に海外人気があるかどうかではなく、販売戦略やマーケティングの強さと関係します。\n\n**「海外人気」から収入を得る方法**\n\n* **デジタルコンテンツの販売**：オンラインプラットフォームやデジタルストストアでの販売\n* **コンテンツのライセンス**：映画やドラマの視聴権を他のプラットフォームに販売\n* **コンテンツの配信**：映画やドラマをオンラインで配信するサービス\n* **関連商品の販売**：関連した商品の販売、例えば、Tシャツや関連書籍\n\n\nこれらの方法を通じて、海外で高い収入を得ることができます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "アニメ 海外人気\n「日本では売れてないけど、海外人気があるから問題ない」という話を某掲示板やSNSなどで見ますが、海外でそんなに利益がでるんですか？日本で全くDVDが売れなくても大丈夫、ということもあるんでしょうか？\n「海外人気」とは、例えばどういうところから収入が入ってくるのか、わかる方がいれば回答よろしくお願いします。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -7249,6 +7969,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:36:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え**\n\n日本の新学期が4月となった理由は、歴史的な理由と気候条件に関連しています。\n\n**歴史的な理由：**\n\n* 江戸時代、日本の学校は農作業や季節労働に関連し、新学期は農事の休期である4月と定められました。\n* 19世紀に、日本の教育制度が近代化すると、新学期はさらに4月と定められました。\n\n**気候条件：**\n\n* 4月は、日本の気候に最も良い時期であり、桜が咲くなど、美しい自然の景観が特徴です。\n* 4月の新学期は、生徒にとって集中力と学習の効率に優れています。\n\nこれらの理由から、日本の新学期は4月と定められました。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "日本の新学期はなぜ４月？\n欧米や中国の新学期は９月、韓国では３月と聞きます。日本の新学期が４月となったのは、どのような理由で何時決められたのでしょうか。個人的には桜咲く４月の新学期を大変好ましく思っているのですが。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7444,6 +8184,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:37:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**日本と韓国の野球の強さの理由：**\n\n**1. 社会的な影響：**\n\n* 日本と韓国は、アメリカからの入国者や留学生を通じて、野球を愛好する文化を受け継いだ。\n* 社会的なステータスや人気のあるスポーツとして、野球は受け入れられました。\n\n\n**2. 教育システム：**\n\n* 日本と韓国の学校では、野球の指導が盛んであり、子供から野球を学ぶ機会を得られます。\n* 教師やコーチの専門性も高くなっています。\n\n\n**3. 社会的な投資：**\n\n* 日本と韓国は、野球の育成に多くの社会的な投資をします。\n* プロリーグの運営、選手の育成、そして野球関連のインフラの構築などが行われています。\n\n\n**4. 文化的な影響：**\n\n* 日本と韓国は、アメリカの影響を受け、野球を愛好する文化が根付いている。\n* 野球は、これらの国の文化に深く根付いている。\n\n\n**5. 技術的な進歩：**\n\n* 日本と韓国の選手たちは、技術的に進歩したプレイを披露しています。\n* 現代的なトレーニング方法や分析ツールを使用して、選手たちの能力を向上させます。\n\n\n**6. プロリーグの強さ：**\n\n* 日本と韓国のプロリーグは、世界的に高いレベルのプレイを誇っています。\n* 強い選手たちや、高いレベルの試合が開催されています。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜアジアの中で日本や韓国の野球が強いのか　\nアジアの中では日本、韓国が野球で圧倒的な強さをみせています。 その理由は何なのか。 できるだけ詳しく教えてください！ お願いします！\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -7641,6 +8401,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:38:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**回答**\n\n日本におけるハロウィンの風習は、アメリカやヨーロッパの影響を受け、1980年代以降に広まったものです。その原因として、以下のようなものが考えられます。\n\n* **メディアの影響**：テレビや雑誌などのメディアが、ハロウィンをより人気のあるイベントとして紹介するようになり、多くの人がその風習を認識する機会を得ました。\n* **商業的な推進**：企業は、ハロウィンを販売機会として活用し、関連するグッズやイベントを主催するようになりました。\n* **日本人の興味**：日本人は、アメリカやヨーロッパの人々に比べて、ハロウィンを興味を持ち、その風習を受け入れる傾向があります。\n\n\n復活祭は、キリスト教の祭日であり、日本においてはあまり盛んでいません。これは、日本人の宗教的背景や風習に、復活祭が特にイベント的なものではないというものが影響している可能性があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "日本でのハロウィンについて\nもうすぐハロウィンということで、日本でもいろいろなところでグッズなど販売しているのを見かけます。15年くらい前は、ここまで騒いでいなかったと記憶しています。 中学の頃は、学校で飾り付けなどしていたのは覚えていますが、街でグッズやハロウィン用のお菓子が販売されていた記憶はありません。 ハロウィンはクリスチャンの行事ではないですが、日本ではクリスマスを祝ったりしますね。それも何故か24日のほうが盛大なパーティーをしていると思います。 不思議なのは復活祭（イースター）は特にイベント的なことをしません。 私は無宗教なのですが、子供の頃からこのような風習を不思議に思っていました。 むしろ、ハロウィンはお盆のように死者が蘇るような印象で、あのカボチャのランタンも怖かったです。日本で、ハロウィンが楽しそうなイベントとして扱われるようになったきっかけというものはあるのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7836,6 +8616,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:39:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**九州は雪が降らないという情報は誤情報です。九州の各地域で、雪が降った記録が存在します。**\n\n九州の各地域で、過去に雪が降った記録が存在します。例えば、福岡県や長崎県、熊本県では、過去に数回、雪が降ったことが確認されています。\n\nただし、九州の各地域で、雪が降ることはあまり多くはありません。九州は、他の地域に比べて、雪の降らない地域です。しかし、それでも、九州の各地域で、雪が降ることがあることは認識する必要があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "九州は雪が降らない？！\n私は、九州生まれ九州育ちで、現在は信州在住です。 こちらで、生まれは九州だという話しをすると決まって、 「いいですねー。九州は雪が降らなくて。」と言われます。 九州は雪が降らない？！ これだけ情報が溢れてる時代にまだそんなこと思ってる人がいっぱいいるなんて！ 鹿児島の桜島に雪が降ったＴＶニュース見たこと無いの？ 福岡や長崎、熊本で雪が降ってる映像、ＴＶで見たこと無い？ 沖縄ならいざ知らず、九州本土は雪降りますよ。 コレ、読んで「え゛？九州雪降るの？」と思った方 いらっしゃいますか？ どのくらいの方が、九州は、雪が降らないって、信じているのでしょう？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -8033,6 +8833,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:40:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**オランダ、エストニアは英語話者が多く、ビジネスも英語で行われます。** しかし、これらの国は日本人の就労ビザを取りやすく、仕事もそれなりにはありません。\n\n**以下、日本人が就労ビザを取りやすく、仕事もそれなりな国です。**\n\n* **アイルランド**：アイルランドは英語話者が多く、ビジネスも英語で行われます。アイルランドは日本人の就労ビザを取りやすく、仕事もそれなりです。\n* **ニュージーランド**：ニュージーランドは英語話者が多く、ビジネスも英語で行われます。ニュージーランドは日本人の就労ビザを取りやすく、仕事もそれなりです。\n* **カナダ**：カナダは英語話者が多く、ビジネスも英語で行われます。カナダは日本人の就労ビザを取りやすく、仕事もそれなりです。\n* **イギリス**：イギリスは英語話者が多く、ビジネスも英語で行われます。イギリスは日本人の就労ビザを取りやすく、仕事もそれなりです。\n\nこれらの国は、日本人が就労ビザを取りやすく、仕事もそれなりな国です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "日本人が就労ビザを取りやすい国（英語話者多い国）　\n日本人が就労ビザを取りやすく、仕事がそれなりにある国をお教えください。 完全な公用語や母国語でなくても、英語話者がそこそこいる国（英語でビジネスがある程度できる国）でお願いしたいです。 オランダ、エストニア辺りがそうであるとは聞いたことはあります。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8228,6 +9048,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:41:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "<h3>オンライン自動車保険の比較サイト</h3>\n\nオンライン自動車保険の比較サイトは、複数の自動車保険会社から保険を比較し、最も安くて充実した保険を見つけることができます。 有名なオンライン自動車保険の比較サイトには、以下のものがあります。\n\n* **損保ラボ**\n* **アフィリエイト証券**\n* **損害保険ラボ**\n\n\nこれらのサイトは、それぞれの自動車保険会社から保険の料金や特典を比較し、最も安くて充実した保険を見つけることができます。\n\n\n<h3>オンライン自動車保険の選び方</h3>\n\nオンライン自動車保険の選び方には、以下のものが重要です。\n\n* **保険の料金**：保険の料金は、年齢、運転歴、乗員数、車両の種類、保険の期間によって異なります。\n* **特典**：保険の特典は、損失発生時のサポートや、保険の期間中のサポートなど、様々なものが含まれます。\n* **保険会社**：保険会社は、信頼性と経験が重要です。\n\n\nオンライン自動車保険の比較サイトを使用して、最も安くて充実した保険を見つけてください。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "自動車保険保険　\nはじめて車を買いました。 来月あたまに納車です。 しかし、まだ自動車保険をどこにするか決めておりません。 そこで、安くて、充実しているインターネットの自動車保険をお教え願います。。 素人なので、わかりやすく説明いただけますと幸甚です。。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -8425,6 +9265,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:42:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**日本のパスポートの信用度について、以下に詳細を記します。**\n\n**1. 日本のパスポートの信頼性と安全性の高い歴史**\n\n* 日本は、19世紀から国際的な旅行や外交の必要性から、パスポートの発行を開始。\n* 以来、日本はパスポートの信頼性と安全性を維持するために、厳格な発行基準と管理システムを導入。\n\n**2. 国際的な信頼性評価の高さ**\n\n* 国際的な組織である「International Civil Aviation Organization (ICAO)」や「United Nations Office on Drugs and Crime (UNODC)」などの評価で、日本のパスポートは世界一の信用度であることが確認されている。\n* これらの組織は、パスポートの偽造や偽造品への悪用を防止するための重要な役割を果たしています。\n\n**3. 厳格な発行基準と管理システム**\n\n* 日本は、パスポートの発行に、以下の stringentな基準を設定。\n* - 申請者の身分証明の確認\n* - 申請者の顔写真と指紋の取得\n* - パスポートの発行に使用する紙の品質の向上\n* - デジタル化による管理の効率化\n\n**4. 国際的な旅行の便利性**\n\n* 日本のパスポートは、世界的な旅行の便利性にも優れています。\n* 多くの国では、日本のパスポートは入国に必要かどうか、または入国に際して特別な手続きが必要です。\n\nこれらの要因から、日本のパスポートは世界一の信用度であり、国際的な旅行やビジネスに信頼できるものです。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "日本のパスポートの信用度\n日本のパスポートは、世界一の信用があるそうですが、どういう経緯でそのようになったのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8620,6 +9480,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:43:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**年収の目安**\n\n* **20代：**300万円～500万円\n* **30代：**500万円～800万円\n* **40代：**800万円～1000万円\n\n**都内における年収の平均**\n\n* **会社員：**600万円～700万円\n* **専門職：**800万円～900万円\n\n**高収入の部類**\n\n* **専門職：**1000万円～1500万円\n* **経営層：**1500万円～2000万円\n\n**重要な注意点**\n\n* 上記の数字はあくまで目安であり、実際の年収は企業、業界、経験、スキルによって異なります。\n* 都内における年収は、地域によって大きく異なります。\n* 高収入を得るためには、専門的なスキルや経験が必要です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "東京で働く男性の年収\n東京や近郊で働く20後半から40までの男性の年収について。 会社員でいうと全国平均400万とか聞いたことありますが、都内では家賃も地方より高いし既婚なら尚更やって行けないのでは…と思っていてこの数字は怪しいと思っています。 また都内では年収600～800万なんて普通にいるとも聞いたことがあります。だいたい幾らぐらいからが高収入の部類に入りますか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -8817,6 +9697,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:44:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**京都の平均家賃**\n\n京都の平均家賃は、2023年7月時点で以下の通りです。\n\n* **1K：約7万円**\n* **2K：約12万円**\n* **2DK：約18万円**\n\nこれらのデータから、2DKで5万円は無理です。\n\n**上に行くほど高くなる**\n\n上に行くほど高くなることは、京都の不動産市場の特性です。これは、中心部や交通の便利な地域の家賃が他の地域よりも高いことを意味します。\n\n**出町柳あたりや、銀閣寺近くがいいな**\n\n出町柳あたりや、銀閣寺近くは、京都の中心部に位置し、交通の便利な地域です。そのため、これらの地域の家賃は他の地域よりも高い傾向があります。\n\n**2万円で良い家賃を見つけることは可能**\n\n2万円で良い家賃を見つけることは可能ですが、中心部や交通の便利な地域のマンションを見つけることは難しいかもしれません。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "京都の平均家賃\n京都の不動産屋さんに 聞くところによると、上に行けば行くほど 高くなる、とのことですが本当でしょうか？ 出町柳あたりや、銀閣寺近くがいいな、と思っているのですが・・・。 ２ｋ、２DK、で５万円は無理なんでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9012,6 +9912,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:45:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**平均家賃：**\n\n* 東京都の平均家賃は、2023年7月時点で100万円/月です。\n* 国分寺市内の平均家賃は、2023年7月時点で90万円/月です。\n\n**xtickラインの目安：**\n\n* **低位：** 60万円/月\n* **中位：** 80万円/月\n* **高位：** 100万円/月\n\n**具体的な物件の例：**\n\n* **徒歩20分、築10年、専有：** 80万円/月\n* **徒歩15分、築5年、専有：** 70万円/月\n\n**結論：**\n\n国分寺駅から徒歩20分位までで、築数年は最低10年以内、できれば5年位の家賃は、**中位**の80万円/月程度です。これは贅沢ではなく、東京都の平均家賃よりも少し安い方です。\n\n**脱衣場がないことは問題ではありません。** 脱衣場がない物件は、多くの物件で存在します。しかし、ベランダがないことは、特に夏の時期に問題になるかもしれません。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "学生の平均家賃ってどれくらいなのでしょう？\n今年の春から東京の国分寺市内の大学に通うのですが、家からだと２時間以上かかるので一人暮らしをしたいと思っています。 親も許してくれているので前向きに物件などを探しているのですが、何しろ初めて物件を探したりするので分からないことだらけで・・・。 ここに居られる学生、または学生時代ではどれ位の家賃の所などにすんでいたのでしょうか？差し支えなければ教えてほしいのですが。。。。 自分の希望としては国分寺駅から徒歩20分位まででトイレ、バス別ならOKだとは思っています、築数年は最低10年以内、できれば５年位と思っています。これは贅沢なのでしょうか？ 後、聞きたいのですが脱衣場がないって冬とか寒くないですか？希望を言ったらキリがないのですが脱衣場とベランダは実際あってほしいと思っています。 それだと週間賃貸などで調べると65000前後なりそうなのですが、学生にしてはやはり贅沢なのでしょうか？？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -9209,6 +10129,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:46:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**食費と食材**\n\n* 平均食費：約10万円/月\n* 食材：約7万円/月\n* 外食代：約3万円/月\n\n**家賃や光熱費**\n\n* 家賃：約3万円/月\n* 光熱費：約2万円/月\n\n**合計：約22万円/月**\n\nこれらの数字は、一人暮らしで生活費の約43%を食費関連に、家賃や光熱費を合わせて約60%を費やすことを意味します。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "一人暮らしの食費と食材\n一人暮らしで生活費のうち、食費や飲食代、外食代など 平均してどのくらいかかりますか？家賃や光熱費なども教えて下さい。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9404,6 +10344,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:47:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**日本の高校生は夏の間も部活はできます。多くの部活は夏休みの間も活動しています。**\n\n**部活の参加は、それぞれの学校によって異なります。** それぞれの学校の部活の参加方法を確認する必要があります。\n\n**多くの学校では、夏休みの間も部活の参加を受け付け、一部の部活は夏休みの間も活動しています。** 具体的な部活は、それぞれの学校のホームページや生徒会などのページで確認が必要です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "海外に住んでる僕が2ヶ月間の間、高校の部活に参加できるんでしょうか？\n海外に住んでる僕が2ヶ月間の間、高校の部活に参加できるんでしょうか？\n実は海外在住の高3の学生なんですけれども、夏休みの間の二ヶ月間に日本帰るんです・・・\nその間にスポーツをしたいんです。\nでまず日本の高校生は夏の間も部活ってあるのでしょうか？\nあるとしたら僕はどの高校でもいいからその間参加はできるのでしょうか？\n宜しくお願いします\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -9601,6 +10561,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:48:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**中学と高校の違い**\n\n**1. 教育の目的**\n\n* 中学校：基礎的な読解、算数、科学、歴史などの基本的な知識を身につける。\n* 高学校：専門的なスキルや知識を身につけるための基礎を築く。\n\n**2. 教育内容**\n\n* 中学校：より基礎的な課程が中心。\n* 高学校：より専門的な課程が中心。例えば、数学や科学の分野で、高校ではより高度な内容が教えてされます。\n\n**3. 教育時間**\n\n* 中学校：通常、6年間。\n* 高学校：通常、3年間。\n\n**4. 入学の年齢**\n\n* 中学校：通常、12歳から13歳。\n* 高学校：通常、15歳から16歳。\n\n**5. 入学の選択**\n\n* 中学校：入学は義務です。\n* 高学校：入学は選択です。ただし、多くの国では、高校への進学は非常に競争が激しく、入学が難しい場合もあります。\n\n**6. 教師の資格**\n\n* 中学校：教員は、専門的な教育の資格が必要です。\n* 高学校：教員は、さらに高度な教育の資格が必要です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "中学と高校の違い\n中学は義務教育ですが、高校では中学とは何が違うんですか？詳しく教えてください。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9796,6 +10776,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:49:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**質問：**\n* auの海外使用は可能かどうか？\n* 海外で使える携帯会社はどこになるのでしょうか？\n* 一番気にするものは値段です。現在の毎月の支払料金は約2500円くらいです。\n\n\n**回答：**\n\n**1. auの海外使用**\n\n- auの学割プランは、海外での使用には制限があります。\n- 外国での使用は、特定の地域やネットワークでは使用できず、制限されています。\n\n\n**2. 海外で使える携帯会社**\n\n- T-Mobile\n- Singtel\n- Telstra\n- Vodafone\n\n\n**3. 値段**\n\n- 上記の携帯会社は、月額料金が約2500円より高い場合があります。\n- 最安のプランは、約4000円程度です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "海外でも使える携帯　　\n今度、約2か月海外に行くので、これを機会に海外でも使える携帯にしたいのです。現在はauを使用しています。auの学割プランです。auでも海外の使用は可能なのでしょうか？ 海外で使える携帯会社はどこになるのでしょうか？ 一番気にするところは値段です。現在の毎月の支払料金は約2500円くらいです。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -9993,6 +10993,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:50:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "シャッター音は、デジタルカメラやデジタルカメラのシャッターボタンを押した時に発生する音です。これは、シャッターの動作によって発生する機械的な音です。シャッター音は、カメラの性能に影響を与えることはなく、単に音の発生を嫌うための問題です。\n\nシャッター音を消す方法として、以下のものが考えられます。\n\n* **デジタル処理**：シャッター音のデジタル処理で消去する。\n* **ハードウェアの改善**：シャッターの構造を変更し、音の発生を軽減する。\n\nデジタル処理は、カメラの画像処理アルゴリズムを使用して、シャッター音の発生を軽減するものです。ハードウェアの改善は、シャッターの構造を変更し、音の発生を軽減するものです。\n\nしかし、これらの方法は、それぞれに利点と欠点があります。デジタル処理は、画像の品質に影響を与える可能性があり、ハードウェアの改善は、カメラの構造を変更する必要があり、コストがかかります。\n\nしたがって、シャッター音を消す最も効果的な方法は、デジタル処理とハードウェアの改善の組み合わせです。\n\n**デジタル処理とハードウェアの改善の組み合わせで、シャッター音を消すための具体的な手順は次のとおりです。**\n\n1. **デジタル処理の導入**：画像処理アルゴリズムを使用して、シャッター音の発生を軽減する。\n2. **ハードウェアの改善**：シャッターの構造を変更し、音の発生を軽減する。\n3. **組み合わせ**：デジタル処理とハードウェアの改善の組み合わせで、シャッター音を効果的に消す。\n\nこの手順を実行すると、シャッター音を消し、同時に画像の品質に影響を与えることが少ないカメラを得ることができます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "携帯のシャッター音\nサイトをサーフィンしていたら『シャッター音を消せるアプリ』というものがありました。シャッター音というものはアプリなどのプログラミングでどうにかなるものなのでしょうか学校の詳しい友達はスピーカーの配線を切るとか物理的な方法しかないと言っていたのですがサイトを見て歩くともっともらしいことが書いてあるのですがどうなのでしょう？お教え下さい。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10188,6 +11208,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:51:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**成人の年齢は、国によって異なります。**\n\n日本においては、20歳が成人年齢ですが、他の国では18歳や21歳など、異なる年齢で成人が定められています。これは、それぞれの国の文化や社会的な背景に関連しています。\n\n* **日本における20歳の成人年齢の理由**\n    * 日本においては、伝統的に年齢20歳を成人年齢として定めています。これは、日本人の社会構造や生活様式に関連しています。\n    * 20歳という年齢は、日本においては社会的に成熟したとみなされ、その年齢になると社会的に責任を負うようになります。\n\n\n* **18歳の年齢は成人ではなく、成熟した状態の指標**\n    * 18歳の年齢は、多くの国においては成人ではなく、成熟した状態の指標として定められています。\n    * 18歳は、社会的に責任を負うことができる年齢ではなく、さらに年齢を重ねると社会的に更なる責任を負うようになります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "20歳ではなく18歳な理由\n現在、日本では ・運転免許証の取得 ・男性の結婚 ・パチンコ店の入店 ・大人向けの店の入店と大人向け商品の購入などが18歳からできますが なぜ成人である20歳ではなく18歳からなんですか？また18歳の年齢は成人ではなくなんと言うのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -10385,6 +11425,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:52:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**楽天カードのJCBとVISAについて**\n\n**ポイントの獲得**\n\n* JCB：楽天ポイント100=1ポイント\n* VISA：楽天ポイント100=1ポイント\n\n**チケットの特典**\n\n* JCB：映画チケットやレストランチケットなどが特典として用意されています。\n* VISA：旅行関連のチケットやレストランチケットなどが特典として用意されています。\n\n**海外利用**\n\n* JCB：シンガポールやバリなどの東南アジア諸国では広く受けられますが、一部の店では受け付けられない場合もあります。\n* VISA：世界的に受け入れられているため、海外での利用に問題はありません。\n\n**メリット**\n\n* **JCB**：日本発のカードで、日本国内の店での利用に優れます。\n* **VISA**：国際的なカードで、海外での利用に優れます。\n\n**デメリット**\n\n* **JCB**：海外での利用が制限されます。\n* **VISA**：日本国内の店での利用に比べてポイントの獲得率が低いです。\n\n**結論**\n\nどちらのカードも優点があり、使用する目的によって異なります。\n\n* **海外旅行に使用する場合は、VISAの方が良い。**\n* **日本国内で主に使用する場合は、JCBの方が良い。**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "楽天カードのJCBとVISAについて\n近々、楽天カードをつくる予定です。 初めてのクレジットカードなので、 いくつか教えてください。 現在、JCBかVISAかで迷っています。 ディズニーが好きでよく行くのですが、 楽天カードのJCBでもポイントが付いたり、 チケットが当たるなどのチャンスはありますか？ また、ポイントでお買い物はできますか？ そして、海外に行く予定があるのですが、 JCBとVISAではどちらがオススメですか？ 今の段階での行き先は、シンガポールとバリです。 いつかはもっと色々な所に行きたいです。 その他、メリットやデメリット、 違いがあれば教えていただけると嬉しいです。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10580,6 +11640,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:53:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**接客の違い**\n\n* **コミュニケーションスタイル：**アメリカは直接的なコミュニケーションスタイルで、ゲストとの間で積極的に質問や意見を求めます。一方、日本は間接的なコミュニケーションスタイルで、ゲストの気持ちを理解し、必要に応じてコミュニケーションをします。\n* **接客サービス：**アメリカはゲストに積極的にサービスを提供し、積極的にサポートします。一方、日本はゲストに自分のニーズを明確にし、必要に応じてサービスをします。\n* **接客者：**アメリカは、年齢層や文化に多様なゲストを受け付け、様々なニーズに合わせた接客をします。一方、日本は、年齢層や文化に限定されたゲストを受け付け、特定のニーズに合わせた接客をします。\n\n\n**印象**\n\n* **アメリカは、ゲストに積極的にサービスを提供し、積極的にサポートする文化です。**\n* **アメリカは、ゲストのニーズを理解し、必要に応じてコミュニケーションをします。**\n* **アメリカは、様々な年齢層や文化のゲストを受け付け、様々なニーズに合わせた接客をします。**\n\n**日本文化とアメリカ文化の違いからマニュアルも日本式にされた部分**\n\n* **食事：**アメリカは、肉食が多く、野菜は少ない食生活です。一方、日本は、野菜食が多く、肉食は少ない食生活です。そのため、アメリカのディズニーランドのメニューは、日本人の味に合うように調整されています。\n* **言語：**アメリカは、英語が公用語です。一方、日本は、日本語が公用語です。そのため、アメリカのディズニーランドのスタッフは、日本語を理解し、日本語で接客をします。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "日本とアメリカのディズニーランドの接客の違い\n卒業論文でディズニーランドの接客について調べています。 アメリカのディズニーランドには行ったことがないのですが、日本のディズニーランドとの違いや接客で差を感じることなどはありますでしょうか？またアメリカのディズニーランドの印象はどのようなものでしょうか？ 日本文化とアメリカ文化の違いからマニュアルも日本式にされた部分などもあれば知りたいのですが・・・ もし、ご存知の方がいらっしゃったら教えて頂きたいです★\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -10777,6 +11857,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:54:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**日本アニメと外国アニメの1カットの枚数の違いは、主に以下の3つの要因から発生します。**\n\n**1. アニメーション技術の進歩**\n\n* 日本アニメは、歴史的にアニメーション技術の進歩が遅かったため、1カットの枚数が少ない傾向があります。\n* 外国アニメは、より進んだアニメーション技術を使用できるため、1カットの枚数が多く、より詳細な表現が可能になります。\n\n\n**2. アニメーションのスタイルとジャンル**\n\n* 日本アニメは、伝統的なアニメーションスタイルの影響を受け、より簡潔で簡素な表現を好む傾向があります。\n* 外国アニメは、より幅広いアニメーションスタイルがあり、より詳細な表現を好む傾向があります。\n\n\n**3. アニメーターの経験とスキル**\n\n* 日本アニメーターは、歴史的にアニメーション業界に経験が少なかったため、1カットの枚数が少ない傾向があります。\n* 外国アニメーターは、より多くの経験を持つ傾向があり、より詳細な表現が可能になります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "日本アニメと外国アニメの1カットの枚数の違い\n日本アニメと外国アニメの1カットの枚数の違い なんで日本アニメは1カット5枚？10枚？位なのに、 ディズニー、ワーナー等の1カットは24枚なのですか？ ただ動きがなめらかになるって だけですか？ それとも『しきたり』や『伝統』や『ルール』などからそうなっているのですか？ 分かる人教えて下さい。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10972,6 +12072,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:55:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "文化や食生活の異なる国間で、同じ味で同じメニューの食品は存在しないことはよく知られています。 異なる食生活や文化は、さまざまな食文化や料理の異なる特徴をもたらします。\n\nアメリカと日本のマクドナルドのハンバーガーは、それぞれ異なる食生活や文化に影響を受け、異なる味やメニューを提供しています。\n\n**アメリカにおけるマクドナルドのハンバーガー**\n\n* 多くの食文化の影響を受け、肉質や香ばしさが異なる。\n* 肉はアメリカ人の食生活に多く採用されており、肉食主義の強い傾向があります。\n* 多くのアメリカ人は、マクドナルドのハンバーガーを定番の食生活の一部としています。\n\n\n**日本のマクドナルドのハンバーガー**\n\n* 伝統的な日本の食生活の影響を受け、肉質や香ばしさが異なる。\n* 肉は日本人の食生活に多く採用されており、肉食主義は弱いです。\n* 多くの日本人は、マクドナルドのハンバーガーを単に食事としてではなく、文化的な体験として受けます。\n\n\nしたがって、アメリカと日本のマクドナルドのハンバーガーは、異なる味やメニューを提供しています。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "アメリカと日本のマクドナルド\nアメリカと日本のマクドナルドのハンバーガーって同じ味なのですか。 はっきりいって、マクドナルド好きじゃないです。 でも、アメリカで食べるとおいしい。 これって雰囲気だけの問題なのでしょうか。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -11169,6 +12289,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:56:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**海外企業の入社試験の一般的な特徴**\n\n* **より専門的なスキルを要求する**：海外企業は、より専門的なスキルを要求する傾向があり、入社試験も専門的なスキルを評価する傾向があります。\n* **より競争が激烈的**：海外企業の入社試験は、日本よりも競争が激烈的傾向があり、より多くの応募者が競争する傾向があります。\n* **より多くの面接段階がある**：海外企業の入社試験は、日本よりも多くの面接段階がある傾向があり、より深い評価を受ける傾向があります。\n\n\n**具体的な違い**\n\n* **面接の形式が異なる**：海外企業の面接は、日本よりもより形式的な傾向があり、より多くの準備が必要です。\n* **質問の形式が異なる**：海外企業の入社試験は、日本よりもより専門的な質問をする傾向があり、より深い理解が必要です。\n* **評価の基準が異なる**：海外企業の入社試験は、日本よりもより総合的な評価を受ける傾向があり、より多くの要素が考慮されます。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "海外企業の入社試験\n海外(特にアメリカとドイツ)の企業の入社試験(新入社員)は、 日本と比べてどんな違いがあるのでしょうか？ 業種によって違いはあると思いますが、日本では大まかに記入して 下記のような過程があると思っています。 一般入社 (1)卒業大学のレベルによる選考。 (2)時事問題、SPI試験による知識を問う筆記試験による選考。 (3)人間性を見る数回の面接試験による選考。 他に縁故入社と、研究室からの教授推薦。 海外企業は他に何か決定的に違う事などがあるのでしょうか？ だいたい上記と同じような入社過程なのでしょうか？ 宜しくお願いします。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -11364,6 +12504,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:57:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**青ペンと黒ペンの文化的な違いはどのように説明できるのでしょうか？**\n\n**以下、青ペンと黒ペンの文化的な違いを説明するいくつかの仮説を挙げてみましょう。**\n\n* **社会的なステータス：**青ペンは、より高級で専門的な分野に関連しているという印象を与える。\n* **コミュニケーションスタイル：**青ペンは、より間接で洗練されたコミュニケーションに適しているという印象を与える。\n* **文化的な価値観：**青ペンは、より創造的で発想的な価値観に関連しているという印象を与える。\n\n\n**これらの仮説は、青ペンと黒ペンの文化的な違いを説明する可能性がありますが、まだ十分に確立されたものではありません。**\n\n**青ペンと黒ペンの文化的な違いは、単に言語や文化の異なるために発生するものではありません。**これらの違いは、それぞれの社会が異なる歴史、社会構造、価値観を持っているため発生するものです。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "青ペンと黒ペン　日本と海外\n欧州（アメリカもかな？）では圧倒的に青ペンなのですが、 なぜ日本では黒ペンしかだめなのでしょうか？ よく見かける理由に、 １：青より黒の方が劣化が少ない ２：印象が悪い ３：コピーに写りにくい 等の意見があるようですが、特に1、３だとどうしても矛盾してしまうと思うのです。また２では、どのような経緯で青（濃紺を含む）ペンの印象が悪くなったのでしょうか？ 万年筆は別として、なぜ日本では上記のような理由で青（濃紺を含む）ペンに否定的なのでしょうか？ 海外とやり取りされてる国内企業・外資系に勤務されてる方はどのようにこの文化の違いを認識されているのでしょうか？公文書や契約書等は万年筆を使ってるとしても、たとえば外国人が日本での就労の際、黒ペンを使うよう指導などされているのでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -11561,6 +12721,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:58:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**欧米やその他外国における親子会社の概念**\n\n欧米やその他外国においても、中央集権的な共同体グループの概念は存在しますが、日本と異なる点があります。\n\n**1. 独立性と責任の重視**\n\n欧米の企業では、子会社は親会社から独立した経営を行い、責任を負うことができます。子会社の経営は、子会社の管理層によって行われ、親会社は子会社の経営に干渉することは少ないです。\n\n**2. 市場ベースの経営**\n\n欧米の企業は、市場ベースの経営を心がけており、利益を得るための最も効果的な方法を見つけることができます。子会社の存続は、市場での競争における優位性と関連しています。\n\n**3. 持続的な成長の重視**\n\n欧米の企業は、持続的な成長を重視しており、子会社の成長と発展に投資します。子会社は、親会社から資金を受け取るだけでなく、独自に資金を調べることもできます。\n\n**4. コミュニティの形成**\n\n欧米の企業は、子会社間のコミュニケーションを強化し、共同体を形成します。子会社は、親会社との間だけでなく、子会社間で情報共有と共同作業をします。\n\n**結論**\n\n欧米の親子会社の概念は、日本とは異なる点があり、独立性、責任の重視、市場ベースの経営、持続的な成長の重視、コミュニティの形成が特徴です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "日本以外にも親子会社の概念はありますか？\n日本では、まず大きな親会社があり、それにたくさんの子会社がくっついて一つの企業グループを形成するという文化がありますよね（例えば日立グループ、NTTグループ、パナソニックグループなど）。 一部を除き、これらの企業体では、子会社は親会社ビジネスの利益や戦略のために作られ存在するという封建的な考えが根づいていイメージがあります。つまり、企業間でも縦社会ができあがっているという感覚です。子会社は親会社の伺い無しには勝手に動けないというような。（説明ベタで申し訳ありませんが、わかりますでしょうか？） そこで質問なのですが、欧米やその他外国でもこのような中央集権的な共同体グループ概念は存在するのでしょうか？ 私の勝手なイメージですが、各個人の独立心が強い米国などでは株式保有はあくまで株主の利益のために存在するのであり、利益のでない所有会社（子会社？）はすぐに潰すか売却するイメージがあります。それは共同体というより、もっとビジネスライクな印象です。 日本では親会社への依存度が高過ぎるのか、親会社が子会社の自由を奪っているのかわかりませんが、多くの子会社はいつまでたっても自立できない子供のようで、それがいろいろと今の社会へ弊害を招いている気がしています。（例えば子会社プロパー社員のモチベーションの低下など） もし海外の企業や組織論に詳しい方がいらっしゃいましたら、日本との違いやその事情を聞かせていただけませんでしょうか？ 質問が抽象的過ぎるようでしたら、申し訳ありません。何卒よろしくお願い致します。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -11756,6 +12936,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:59:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**回答**\n\n日本の法律では、カジノギャンブルは違法であり、日本人が海外でギャンブルをすることは違法です。しかし、実際には、日本の警察はラスベガスでギャンブルをして来た人間を牢屋にぶち込むことは多くありません。これは、以下の理由からです。\n\n* **国際的な取り決め**：アメリカと日本は、ギャンブルに関する国際的な取り決めを結んでおり、両国の法律は、その取り決めを考慮して定められています。これらの取り決めは、ギャンブルを犯罪ではなく、単に違法な行為として扱います。\n* **実務的な考慮**：日本の警察は、ラスベガスでギャンブルをして来た人間をすべて逮捕し、牢屋にぶち込むことは、非常に費用がかかります。そのため、警察は、ギャンブルをしていることを単に認識しただけで、逮捕し、牢屋にぶち込むことは通常は行いません。\n* **犯罪の程度**：ギャンブルの犯罪の程度は、その頻度や規模によって異なります。小さなギャンブルは、大きなギャンブルよりも犯罪の程度が低くなります。そのため、警察は、小さなギャンブルをしていることを単に認識しただけで、逮捕し、牢屋にぶち込むことは通常は行いません。\n\nテレビで公然とギャンブルを語る芸能人も、違法な行為です。しかし、実際には、テレビでギャンブルを語る芸能人も多くいます。これは、以下の理由からです。\n\n* **自由の権利**：日本人は、自由の権利を有しており、ギャンブルをすることは自由です。\n* **メディアの自由**：メディアは、情報の発信の自由を有しており、ギャンブルをする芸能人をテレビで紹介することができます。\n\nしたがって、日本の警察は、ラスベガスでギャンブルをして来た人間を牢屋にぶち込むことは多くありません。また、テレビでギャンブルを語る芸能人も、違法な行為ですが、逮捕し、起訴することは通常は行いません。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "日本人がカジノギャンブルをやることは法的に犯罪なの\n日本でカジノなどでギャンブルをやることは違法であるため、日本人が海外旅行へ行きギャンブルをすることは違法で犯罪行為であるのだと 日本人弁護士さんが言っていました。 なんで日本の警察はラスベガスでギャンブルをして来た人間を牢屋にぶち込まないのでしょう？またそのような犯罪行為をテレビで公然と語る芸能人だけでも逮捕起訴するべきではないでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -11953,6 +13153,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:60:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**答え：**\n\n日本にカジノが存在しない理由は、主に以下の3つの理由からです。\n\n**1. 社会的な価値観**\n\n* 日本は、ギャンブルを伴う娯楽をあまり好まない社会的な価値観を持っている。\n* 多くの人がギャンブルに関連する負の影響を懸念しており、カジノの導入を容認していません。\n\n**2. 政治的な決定**\n\n* 現在の日本政府は、カジノの導入に反対の立場です。\n* 政府は、カジノの導入が社会に与える可能性のある負の影響を検討しており、導入を容認していません。\n\n**3. 経済的な理由**\n\n* カジノの導入には、多くの投資と管理が必要です。\n* 現在の日本経済は、カジノの導入に必要となる投資をサポートするだけの能力がない。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "日本にカジノが出来ない理由とは何でしょう？\n日本にはパチンコ・競馬・競輪・・・・など公に認められたギャンブルが存在しますが、なぜか？カジノはありません。 日本にカジノが出来ない理由とは何でしょう？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -12148,6 +13368,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:61:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**パチンコはアメリカには存在します。** しかし、アメリカではパチンコは州によって規制が異なるため、すべての州でパチンコが許可されているわけではありません。 さらに、パチンコは多くの州でギャンブルとして禁止されています。\n\n**パチンコが禁止されている州の理由として、以下のようなものが考えられます。**\n\n* パチンコはギャンブルに関連し、その結果、社会に負の影響を与える可能性があります。\n* パチンコは、特に低所得層に、その結果、経済的な問題に直す可能性があります。\n* パチンコは、犯罪の発生の増加に関連する可能性があります。\n\n**しかし、パチンコは、一部の州では許可されています。** 許可されている州では、パチンコは、州によって設定されたルールと規制に従う必要があります。\n\n**日本のパチンコ店がアメリカへ進出しない理由として、以下のようなものが考えられます。**\n\n* アメリカの法律は、日本のパチンコ店がアメリカで営業することを禁止しています。\n* アメリカの人々は、日本のパチンコ店に慣れているわけではありません。\n* アメリカの経済状況は、日本のパチンコ店がアメリカで成功する可能性がないことを意味します。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "アメリカでパチンコってありますか？\nパチンコは、日本でこんなにはやっているのですが、アメリカではなぜないのでしょうか? アメリカでもギャンブルってありますよね。 ラスベガスみたいな・・・・・ 公営ギャンブルみたいなものがあるのに、パチンコがないのが不思議です。（もしかしてあるのでしょうか?） もしないとすれば、なぜ日本のパチンコ店はアメリカへ進出しないのでしょうか? 日本の寿司とか日本文化は結構アメリカに進出しているのに・・・・ 進出できない理由ってあるのでしょうか? ちょっと疑問に思っただけなのですが。 もし知っている方いらっしゃったら教えてください。お願いします。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -12345,6 +13585,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:62:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**アイスホッケーの試合を日本で生で見る方法**\n\n**1. 日本で開催される試合**\n\n* 日本アイスホッケーリーグ（JHL）の試合は、日本全国のアイスホッケー施設で行われます。\n* JHLの試合は、日本アイスホッケー連盟の公式ウェブサイトでチケットの購入が必要です。\n* チケットの相場は、試合の規模や開催場所によって異なります。一般的に、トップリーグの試合のチケットは10,000円から30,000円程度です。\n\n\n**2. 海外の試合を日本から生見る**\n\n* 海外のアイスホッケー試合を日本から生見ることはできます。\n* 海外の試合は、専門のスポーツ放送会社やインターネットサービスを通じて生放送されます。\n* 視聴には、専門のスポーツ放送会社またはインターネットサービスの契約が必要です。\n\n\n**3. オンラインライブストリーム**\n\n* 一部のアイスホッケー試合は、オンラインライブストリームで視聴することができます。\n* オンラインライブストリームは、試合の主催者によって提供されます。\n* 視聴には、オンラインライブストリームのサービスに登録が必要です。\n\n\n**試合を見た経験のアドバイス**\n\n* 試合の開催場所を事前に確認してください。\n* チケットの購入は、できるだけ早く行う必要があります。\n* 試合の開始前に、会場の雰囲気を味わうことができます。\n* 試合を見終わった後、選手やチームについて感想を書いてください。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "アイスホッケー\nアイスホッケーの試合を日本で生で見ることはできますか？ どこへ何処へ行けば試合を見ることが出来るのでしょうか？チケットの相場も分かるとうれしいです。 試合を見に行ったことのある方宜しくお願いします。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -12540,6 +13800,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:63:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**回答**\n\nアイスホッケーの乱闘シーンは、選手同士の競争の激しさやストレスの集中が大きいスポーツであることを意味します。レフリーは、乱闘シーンを最小限に発生させ、選手や観客の安全を保護する責任があります。\n\nしかし、乱闘シーンが起きると、レフリーはすぐにその場に入り、選手同士の争いを止める必要があります。これは、レフリーが常に選手たちの行動を監視し、乱闘シーンが発生する可能性があることを意味します。\n\nまた、レフリーは、乱闘シーンの規模や激度を判断し、適切な行動を取る必要があります。小さな乱闘シーンでは、レフリーは静観する可能性があります。しかし、大きな乱闘シーンでは、レフリーは選手同士の争いを止める必要があります。\n\nそのため、レフリーがしばらく静観している場合、乱闘シーンの規模や激度を判断し、適切な行動を取る必要があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "アイスホッケー\n知っている人にとっては当然のことだと思いますが・・。 先日の「世界まるみえテレビ・・」でアイスホッケーの乱闘シーンが放送されてました。 このスポーツには乱闘シーンはおなじみですが、よく見るとレフリーが止めもせずすぐ近くでその様子を見守ってる（？）のです。しかも３人（？）とも・・。 そして倒れこんで初めて止めに入ってました。 乱闘シーンは昔からよく見てたのですが、レフリーがしばらく静観してるのにはまったく気づきませんでした。 あれって何故ですか。昔からですか。日本でもそうなのですか。（すいません実際には見たことないもので・・）\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -12737,6 +14017,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:64:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**韓国人の親は、日本人の親よりも厳しい傾向があります。**親からの期待は非常に大きく、失敗を恐れず、努力を続けることが求められます。韓国人の親は、自分の子供を守ることを非常に重視しており、彼らを常に保護しようとして、彼らの自由を制限する傾向があります。\n\n**韓国人の親は、日本人の親よりも、子供に対する期待が大きい傾向があります。**韓国人は、子供に優秀な人間になることを期待しており、彼らを常に競争に駆動します。韓国人の親は、自分の子供に将来の夢を与えることを非常に重視しており、彼らを将来のリーダーにすることを期待します。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "外国人・・・\n私は今外人と付き合ってます。と言っても韓国人なんだけど。＾＾まだ付き合い始めて全然たっていません。だけどなんかヤバめです！？（笑）最初のうちは普通のカップルしてました。でも最近向こうが忙しいみたいで全然会えなくなってしまったんです。それに態度も前と違うし。今まで付き合ってた人とは毎日のように会ってたのでちょっと心配になって。家に関係するのかとも考えました。韓国の親とかって厳しいのでしょうか？日本との分化の違い？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -12932,6 +14232,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:65:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "園児が奇声あげているのは、まだ言語を理解できず、発声の仕組みを理解していないためです。しかし、外国の人々が奇声あげているかどうかは、言語や文化によって異なります。\n\n例えば、アジアの多くの国では、声の大きい声量は、礼儀やコミュニケーションの表現として受け付けられます。一方、ヨーロッパやアメリカでは、声の小さい声量は、礼儀やコミュニケーションの表現として受け付けられます。\n\nしたがって、外国の人々が奇声あげているかどうかは、文化によって異なります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "外国人\nなんで大きな声で話すのかな、お店とか道路とかでも騒がしいというか 存在を誇示したいのかは知りませんけど、話してはいけないということ ではありませんけど、園児が奇声あげているのとさほど変わらないような 気もします、外国いけば普通なのでしょうか。 宜しくお願いします。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -13129,6 +14449,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:66:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "これは日本文化の問題なのか、それとも日本人の意識の問題なのか、それとも社会構造の問題なのか？\n\nこれらの質問に答え、日本における差別や集団いじめの問題を分析する。\n\n**日本における差別と集団いじめの問題**\n\n日本における差別と集団いじめの問題は、日本文化の問題、日本人の意識の問題、社会構造の問題の組み合わせで発生する。\n\n**日本文化の問題**\n\n日本文化は、集団の調和と規範に重き傾向があり、個人は集団に服従する傾向があります。これは、差別や集団いじめの発生を可能にする可能性があります。\n\n**日本人の意識の問題**\n\n日本人は、差別や集団いじめを認識する傾向があり、それを止めるための努力をします。しかし、日本人は、これらの問題をどのように解決するべきかどうかを検討する機会を得ることが少ない傾向があります。\n\n**社会構造の問題**\n\n日本における社会構造は、他の先進国と異なるように、階層が明確で、下層の人々は上位の人々に従う傾向があります。これは、差別や集団いじめの発生の可能性を向上させる可能性があります。\n\n**解決策**\n\n日本における差別や集団いじめの問題を解決するために、以下の取り組みが必要です。\n\n* 差別や集団いじめを認識する必要があります。\n* 差別や集団いじめを止めるための努力が必要です。\n* 社会構造を変更する必要があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なぜ日本人同士で差別いじめ？\nアメリカ人は肌の色や人種の違いで差別するのに、どうして日本人は同じ日本人どうしで酷い差別や集団いじめをするのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -13324,6 +14664,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:67:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**以下、いくつかの可能性を考えます。**\n\n* **日本人のコミュニケーションスタイルが異なる**：日本人は、他人を直面して意見を表明する傾向が少なく、間接的なコミュニケーションスタイルを取る。これは、イジメの発生に関連している可能性があります。\n* **日本社会の階層構造**：日本社会は、伝統的に階層構造が明確で、上位者は下位者を支配する傾向があります。これは、イジメの発生に関連している可能性があります。\n* **日本人のストレスの管理**：日本人は、ストレスを適切に管理する方法を多くとらず、これはイジメの発生に関連している可能性があります。\n\nこれらの可能性は、イジメの発生の根源を理解するための重要なヒントです。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "日本はどうしてイジメが多いのか？\nイジメはどこの国でも起きていますが、日本は 殊の外多く、イジメのやり方も陰湿なようです。 それで、「イジメ」という言葉は 英語や韓国語にも入っているほどだそうです。 そこで質問ですが、どうして 日本は イジメが多いんでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -13521,6 +14881,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:68:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**日本と海外の教育方針の違い**\n\n**1. 教育の目的**\n\n* **日本:** 受講者の社会参加と生活の基礎を身につけること。\n* **海外:** 受講者の将来の職業機会と社会貢献を促進すること。\n\n\n**2. 教育内容**\n\n* **日本:** 受講者の記憶を強化する集中力重視の教育法。\n* **海外:** 異なる分野からの統合的なアプローチと、問題解決能力やコミュニケーションスキルを重視する教育法。\n\n\n**3. 教師の役割**\n\n* **日本:** 教師は生徒の記憶を記憶させるための指導者として機能する。\n* **海外:** 教師は、生徒の興味や関心を引くようなエンゲージメントや指導者として機能する。\n\n\n**4. 受講者の関心**\n\n* **日本:** 受講者は、教育の目的を理解し、積極的に関心する。\n* **海外:** 受講者は、自分の興味や関心を表現し、積極的に関心する。\n\n\n**5. 教育の評価**\n\n* **日本:** 受講者の定期的な評価と、最終的な評価の両方が行われる。\n* **海外:** 受講者の進歩と理解の確認に、定期的な評価が行われる。\n\n\n**学力の差の要因**\n\n* **教育の目的の違い:** 教育の目的によって、教育内容や評価の基準が異なる。\n* **教育内容の違い:** 教育内容によって、生徒のスキルや知識のレベルに違いがある。\n* **教師の役割の違い:** 教師の役割によって、生徒の学習体験に違いがある。\n* **受講者の関心度の違い:** 受講者の関心度によって、生徒の学習の質に違いがある。\n* **教育の評価の違い:** 教育の評価によって、生徒の進歩の度合いが異なる。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "日本と海外の教育方針\n日本と海外の教育方針の違いには、どのようなものがあるのでしょうか。 なにが学力の差を生み出しているのでしょうか。 教えてください\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -13716,6 +15096,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:69:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**海外のスポーツ部活での教育**\n\n海外のスポーツが強い学校では、スポーツと学業の両方を重視した教育が実施されています。以下、海外のスポーツ部活での教育の例をいくつかご紹介します。\n\n**1. コミュニケーションとリーダーシップ**\n\n* 異なる文化や言語の選手やコーチとのコミュニケーション能力を身につける。\n* リーダーシップの役割を学び、チームのコミュニケーションを効果的に行う。\n\n**2. 体力と健康**\n\n* 正確なトレーニング計画を作成し、適切な栄養食を食べる。\n* スポーツ関連の怪我の予防と管理。\n\n**3. チームワークと協調**\n\n* 異なるスキルや経験を持つ選手を組み合わせ、チームワークを強化。\n* 協調して課題を解決し、チームの目標を達成する。\n\n**4. 教育とスキル開発**\n\n* 専門的なスポーツスキルを身につける。\n* コミュニケーション、リーダーシップ、チームワークなどのスキルを身につける。\n\n**5. 社会貢献**\n\n* 社会に貢献する機会を与える。\n* スポーツを通じて、社会に正の影響を与える。\n\nこれらの教育は、海外のスポーツが強い学校で選手やコーチに重要な役割を果たしています。これらの学校では、スポーツを通して人間としての成長を促し、将来の社会に貢献することを期待しています。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "海外のスポーツ部活での教育\n日本のスポーツが強い学校の教育は超スパルタなイメージがあります 海外のスポーツが強い学校ではどういう教育がされているのでしょうか？ 日本では 「水を飲ませない」 「後輩は先輩の付き人のように身の回りの世話をする」 「体罰」 など独特の慣習がありますが、海外も似たようなものなんでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -13913,6 +15313,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:70:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**回答**\n\nテコンドーと空手の基本的な部分は似通っていることは事実ですが、両者は異なるルールと戦略を採用しています。テコンドーは、空手よりもより力強く、より多くのコンタクトを伴う傾向があります。そのため、テコンドーの選手は、空手よりもより強い体力を発揮する必要があります。\n\nさらに、テコンドーは、韓国の国民的なスポーツであり、韓国政府の支援を受けています。これは、韓国のテコンドー選手に、世界的なレベルのトレーニングと競争の機会を与えることができます。\n\nこれらの違いは、日本がテコンドーで弱くなっていることを意味するわけではありません。しかし、日本は、テコンドーの世界的なレベルに達するための努力が必要です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "テコンドーは空手の亜流なのに、なぜ、日本は弱いの?\nテコンドーと空手の細かいルールの違いは私にはよくわかりませんが、戦前、朝鮮で空手道場を運営していた日本人空手家の弟子だった朝鮮人が戦後、始めたのがテコンドーですよね。 それなら基本的な部分は両方とも同じような気がします。 日本の空手家がオリンピックのテコンドー競技に出場すれば、メダル獲得は固いのではないでしょうか? 台湾はテコンドーが結構、強いのに日本は弱いとなると何か腑に落ちないものを感じます。 事情通のみなさん、どうなんでしょうか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -14108,6 +15528,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:71:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**基礎練習メニュー**\n\n**15分：温アップ**\n\n- 軽度ストレッチ\n- 呼吸訓練\n\n\n**45分：基本動作**\n\n- 構手（両手、片手）\n- 突き手\n- 受け手\n- 返手\n- 膝受け\n\n\n**30分：基礎組手**\n\n- 構手組手\n- 突き手組手\n- 受け手組手\n\n\n**15分：ストレッチ**\n\n- 手のストレッチ\n- 膝のストレッチ\n- 全体のストレッチ\n\n\n**その他**\n\n- 毎日の基礎練習に加えて、オンラインで空手の動画を観察し、専門家の指導を受ける。\n- 空手の専門家とオンラインやオフラインで会って、指導を受ける。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "空手経験者の方、教えて下さい。\n海外で空手を始めた成人女性です。日本空手協会です。（だけど道場に日本人は私一人です。） 強くなりたいので、家で基礎練習をしたいのですが、どんな練習をしたらいいでしょうか？ 一日一時間くらいで出来るメニューを具体的に教えて頂けるとありがたいです。 週末は２時間くらい時間が取れそうです。 経験者の方、どうぞよろしくお願いいたします。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -14305,6 +15745,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:72:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "アフリカや中東は熱帯地域で、日本は温帯地域です。 しかし、日本は他の温帯地域よりも暑くなる理由はいくつかあります。\n\n* **日本は高い湿度で、夏の平均湿度は90%を超えます。** 湿度は、空気中の水分の量を測定したものです。湿度が高いほど、空気は重くなり、熱をより効率的に保持します。\n* **日本は、夏の平均気温が他の温帯地域よりも高いです。** 夏の平均気温は、20-25℃に達します。\n* **日本は、夏の日射量も他の温帯地域よりも高いです。** 日射量は、太陽からのエネルギーの量を測定したものです。日射量が高いほど、空気はより熱くなり、人間はより熱く感じます。\n\nこれらの要因は、日本が他の温帯地域よりも暑くなる原因です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "日本の暑さ\nアフリカや中東出身者のほとんどは 母国よりも日本の方が暑いといいます。 ということは日本は世界有数の暑い国と 言ってよろしいですか？ なんで日本はこんなに暑いのですか？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -14501,6 +15961,26 @@
             "top_p": 1.0,
             "logprobs": false
           }
+        },
+        {
+          "name": "japanese:73:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "日本は、五輪やサッカーのレベルは世界的に高いレベルです。しかし、そのレベルは、日本の人々がそれを維持し、向上させるための努力や取り組みが不足しているという点で、弱さの理由ではないでしょう。\n\n日本は、五輪やサッカーのレベルを維持するために、多くの努力が必要です。しかし、その努力は、日本の人々が単にそのレベルを維持するための努力ではなく、日本の人々がそのレベルを維持し、向上させるための努力が必要です。\n\n日本の人々は、五輪やサッカーのレベルを維持し、向上させるための努力が必要です。しかし、その努力は、単にそのレベルを維持するための努力ではなく、日本の人々がそのレベルを維持し、向上させるための努力が必要です。\n\n日本は、五輪やサッカーのレベルを維持するために、多くの努力が必要です。しかし、その努力は、日本の人々が単にそのレベルを維持するための努力ではなく、日本の人々がそのレベルを維持し、向上させるための努力が必要です。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "なんで日本って弱いん？\n今、W杯で日本が負けてひしひしと感じています 個人的に世界で通用するレベルの選手がいてるのも事実です でも、メディアはそこまで取り上げないし、パブリックビューイングでここまで盛り上がらないし、別にドンチャン騒ぎするわけでもありません はっきり言うと弱い＝五輪＆サッカーを指して言いたいのですが…\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -14696,6 +16176,26 @@
             "temperature": 0.0,
             "top_p": 1.0,
             "logprobs": false
+          }
+        },
+        {
+          "name": "japanese:74:language.japanese:gemma 7b",
+          "language": "Japanese",
+          "translations": {
+            "Japanese": {
+              "language": "Japanese",
+              "text": "**国籍の取得の条件**\n\n国籍の取得には、以下の条件が必要です。\n\n* 出生国またはその国に永住する。\n* 出生国またはその国に定住する。\n* 出生国またはその国に入籍する。\n\n\n**日本人の三つの国籍の取得**\n\n日本人は、上記の国籍の取得の条件を満たすことで、三つの国籍を取得することができます。\n\n* **日本国籍**：日本に生まれ、日本に永住または定住する。\n* **その他の国籍**：その他の国に生まれ、その他の国に永住または定住する。\n\n\n**注意点**\n\n* 三つの国籍を保持することは可能ですが、それぞれの国における入籍の制限や国籍の取得の条件は異なります。\n* 三つの国籍を保持したまま、それぞれの国の法律に違反するような行動を取ると、それぞれの国から入籍の取り消しや国籍の剥奪を受ける可能性があります。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "海外生まれ育ちの国籍\n海外生まれ育ちの国籍 海外で生まれた日本人が三つの国籍保有したままで暮らせるのですか？ よく映画やTVドラマで二重国籍の登場人物は聞きますし、それが可能 な国はあると聞いています。 このミステリーみたいな事実は可能かどうか事情へ詳しい方より 教えて下されば助かります。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
