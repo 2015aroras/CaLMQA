@@ -26,6 +26,7 @@ class ModelName(enum.Enum):
     MIXTRAL_8X22B_TOGETHER = "Mixtral 8x22B (together.ai)"
     XGLM_7_5B = "XGLM 7.5B"
     CLAUDE_OPUS = "Claude Opus"
+    CLAUDE_3_5_SONNET = "Claude 3.5 Sonnet"
 
 
 @dataclass(frozen=True)

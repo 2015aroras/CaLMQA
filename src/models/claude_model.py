@@ -26,7 +26,7 @@ class ClaudePromptParameters(PromptingState):
 
 class ClaudeModel(Model):
     # Add all Claude models in this tuple. This shouldn't need to change.
-    SUPPORTED_MODELS = (ModelName.CLAUDE_OPUS,)
+    SUPPORTED_MODELS = (ModelName.CLAUDE_OPUS, ModelName.CLAUDE_3_5_SONNET)
     # Set some defaults. This shouldn't need to change.
     DEFAULT_PARAMETERS = ClaudePromptParameters(
         prompt=None,
@@ -64,6 +64,8 @@ class ClaudeModel(Model):
     def model_version(self) -> str:
         if self.name == ModelName.CLAUDE_OPUS:
             return "claude-3-opus-20240229"
+        if self.name == ModelName.CLAUDE_3_5_SONNET:
+            return "claude-3-5-sonnet-20240620"
         raise NotImplementedError
 
     def _get_prompting_state(self, prompt: str) -> ClaudePromptParameters:
