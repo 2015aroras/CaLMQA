@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "- Un viaggio di un'ora e 15 minuti.\n- Un viaggio di 2 ore e 30 minuti.\n- Un viaggio di 4 ore e 15 minuti.\n\nQual è la durata totale dei viaggi?\n\n**Risposta:**\n\nLa durata totale dei viaggi è di **7 ore e 45 minuti**.\n\nUn viaggio di un'ora e 15 minuti + un viaggio di 2 ore e 30 minuti + un viaggio di 4 ore e 15 minuti = 7 ore e 45 minuti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko avionnan ta wordo abordá di dilanti pa tras?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Answer:**\n\nFumar ta asina malu pa e kurason e causa diversos problemas de saúde. O consumo de tabaco pode levar a doenças cardíacas, como ataques cardíacos e ataques cerebrovasculares. Além disso, o tabaquismo pode aumentar o risco de doenças como o cancro e a doença de Alzheimer."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko fuma ta asina malu pa e kurason?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "* **Non è possibile.** Una volta eliminati i foto dalla cartella \"Recentemente borrá\", non possono essere recuperati."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Den un iPhone, unda e fayl y fotunan ku a wordo borrá ta bai despues di ser eliminá for di 'recientemente borrá'?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Respuesta:** Pakiko corremento promé, pero cuanto más alto salta, menos rápido corre."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko corremento promé ku bo salta ta hasi bo salta mas halto?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "* **Lactancia materna:** es un alimento completo y rico en nutrientes que proporciona todas las necesidades nutricionales a un bebé.\n* **Antioxidantes:** los antioxidantes presentes en las leches de pecho ayudan a proteger el cuerpo de los radicales libres.\n* **Proteína:** las leches de pecho contienen proteínas de alta calidad que ayudan a construir y reparar tejidos.\n* **Calcio:** las leches de pecho contienen calcio en forma de fosfat de calcio, que es la forma más absorbida por el cuerpo.\n* **Vitamina D:** las leches de pecho contienen vitamina D, que ayuda a la absorción del calcio.\n\n**Beneficios adicionales:**\n\n* **Fortalece el sistema inmunológico:** las leches de pecho contienen inmunoglobulinas que ayudan a proteger al bebé de enfermedades.\n* **Mejora la salud de la piel:** las leches de pecho contienen aceite de linoleo, que ayuda a mantener la piel suave y flexible.\n* **Reduce el riesgo de alergias:** las leches de pecho contienen proteínas de baja alergenicidad, lo que reduce el riesgo de alergias."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko no por añadi e antikuernan/otro beneficionan di lechi di pecho den fórmula pa mucha?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Il tuo provider di internet può controllare e limitare la velocità di internet in diversi casi, come:\n\n* **Traffico di picco:** durante gli orari di picco, quando molti utenti connettono al network, la velocità potrebbe essere limitata per garantire un servizio stabile a tutti.\n* **Connessione inefficienti:** se il tuo connessione è instabile o se il tuo router non è ottimizzato, la velocità potrebbe essere limitata per evitare problemi di connettività.\n* **Limitazioni impostate:** alcuni provider potrebbero impostare limitazioni di velocità per alcuni servizi o piani di abbonamento.\n* **Problema di rete:** se ci sono problemi nella rete di internet, come sovraccimento o guasti, la velocità potrebbe essere limitata per mantenere la qualità del servizio.\n\nSe hai ancora domande o dubbi, è sempre possibile contattare il tuo provider di internet per ottenere informazioni specifiche."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Con mi proveedor di wifi ta controlá e límite di velocidad di internet?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Un tòpmento di sanger típiko na e doblèz di bo brasa è un movimento anomalo del corpo umano che può essere causato da diversi fattori, tra cui danni ai nervi o ai muscoli del torace, infezioni, tumori o condizioni neurologiche."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Waarom ta hasi un tòpmento di sanger típiko na e doblèz di bo brasa?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "La risposta è: **La tecnologia ha avanzato e ora i dispositivi di registrazione video possono essere piccoli come un cellulare.**\n\nLa tecnologia ha avanzato significativamente negli ultimi anni e i dispositivi di registrazione video possono ora essere piccoli come un cellulare. Ciò significa che i professionisti della televisione possono ora utilizzare tecnologie avanzate senza dover utilizzare grandi e pesanti dispositivi di registrazione."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko nos ainda ta usa kameranan gigantesco di studio di television ora ku e mesun tecnologia awor ta di tamaño di un celular?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "La temperatura media del centro della Terra è di circa -1°C, mentre la temperatura media della superficie è di 15°C."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Con ta sa kon ta e temperatura di e centro di tera?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Jawaban:**\n\nYa, acne merupakan masalah yang biasa terjadi selama pubertad. Hal ini disebabkan oleh perubahan hormonal yang terjadi di tubuh remaja, yang menyebabkan peningkatan produksi sebumu dan aktivitas bakteri pada kulit."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko acne ta sosode frecuentemente durante pubertad?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "La respuesta es: La leche, la lana y las ovejas se producen a partir de la producción de las ovejas.\n\nLas ovejas producen leche, la cual se puede usar para hacer lechi. La leche también se puede usar para hacer lana. La lana se puede usar para hacer ropa y otros productos."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Con ta ovejanan ta transforma yerba y awa den lechi, lana y mas oveja?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "% Grasa corporea = (Massa grassa corporea / Massa corporea totale) * 100\n\nPer calcolare la massa grassa corporea, puoi utilizzare la seguente formula:\n\nMassa grassa corporea = Massa corporea totale - Massa magra corporea\n\nMassa magra corporea può essere stimata come:\n\nMassa magra corporea = 0,9 * Massa corporea totale\n\nPertanto, la formula per calcolare il % di grassa corporea diventa:\n\n% Grasa corporea = (Massa corporea totale - (0,9 * Massa corporea totale)) / Massa corporea totale * 100 = 10%\n\nPertanto, un uomo di 80 kg con 10% di grassa corporea avrebbe una massa grassa corporea di 8 kg e una massa magra corporea di 72 kg."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Con ta conoce e porcentaje di grasa den bo curpa, of ta solamente un estimashon hende ta hasi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "La scienza tras il paralisio del sonno è un campo di ricerca relativamente nuovo e in crescita. Tuttavia, i progressi fatti fino ad oggi hanno portato a nuove scoperte e applicazioni.\n\n**Scoperte:**\n\n* Nuove informazioni sulle neurochimie del sonno e come esse possono influenzare la guarigione del paralisio del sonno.\n* Un miglioramento delle tecniche di trattamento e riabilitazione per i pazienti con paralisio del sonno.\n* Nuove opzioni di trattamento non farmaceutiche, come la terapia di neurofeedback e la biofeedback.\n\n**Applicazioni:**\n\n* La terapia del paralisio del sonno è diventata un trattamento standard per i pazienti con questo disturbo.\n* I progressi nella ricerca hanno portato a nuove opzioni di trattamento per i pazienti con disturbi del sonno correlati al paralisio del sonno.\n* I risultati della ricerca possono essere utilizzati per sviluppare nuove tecnologie e strumenti per la diagnosi e il trattamento del paralisio del sonno.\n\nPertanto, la scienza tras il paralisio del sonno è un campo in crescita con un grande potenziale per migliorare la vita dei pazienti con questo disturbo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e siensia tras di parálisis di sueño?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "A resposta é: nunca.\n\nO metal nunca se decompõe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Con ta cu ainda nos no a kaba cu metal?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "* A kompania ta a krije nano-teknologiya?\n* A kompania ta a krije nanomateriály?\n* A kompania ta a krije microchips?\n\nNan, a kompania ta a krije nano-teknologiya e nanomateriály, mas e microchips."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi entendemento ta cu 1 kompania na Taiwan ta hasi e mihó mikrochipnan den mundo y ningun otro por imitá nan. Con esey ta posibel?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Jawaban:**\n\nAnimal yang memiliki sangker yang pendek termasuk:\n\n- Harimau\n- Haribon\n- Hariku\n- Koala\n- Panda"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko casi tur animal tin sanger ku ta kòrá?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "En realidad, el envejecimiento natural del cuerpo está asociado a un deterioro gradual de las funciones físicas y cognitivas. Sin embargo, es posible tomar medidas para minimizar los efectos negativos del envejecimiento, como el ejercicio físico regular, la dieta saludable y el estilo de vida adecuado.\n\nEl ejercicio físico, como el ejercicio aeróbico y el entrenamiento de fuerza, puede ayudar a mantener la capacidad física y la salud en general. La dieta saludable y el estilo de vida adecuado pueden ayudar a prevenir el exceso de peso, la presión arterial alta y otros factores de riesgo relacionados con el envejecimiento.\n\nEn cuanto a las actividades como el pakiko ehersisio y el bodybuilding, es importante tener en cuenta que pueden tener efectos negativos en el cuerpo a largo plazo. Estos deportes pueden aumentar el riesgo de lesiones, dolor y problemas de salud relacionados con el uso de esteroides.\n\nEn general, es recomendable realizar un ejercicio físico regular, mantener una dieta saludable y seguir un estilo de vida adecuado para minimizar los efectos negativos del envejecimiento."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Si, en resumen, envejecer ta significa e agotamento di e capacidad di e cuerpo pa repará su mes, pakiko ehersisio y bodybuilding (di un manera saludabel) no ta haci e capacidad aki bira peor?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Kompania ta deventa nan produktonan ma non ta deventa nan deskuwento.\n\nQuante plaka dor ta gana kompania?\n\nRisposta: Ta gana plaka dor nan produktonan ma non nan deskuwento."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Con ta un kompania ta gana plaka dor di bende nan produktonan na un deskuwento grandi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Risposta:**\n\nDurante l'embarso, alcuni muhénan possono soffrire di malora di mainta. Questo è un problema comune che può verificarsi a causa di diversi fattori, come movimenti bruschi, posizioni scorrette o condizioni fisiche preesistenti.\n\nSecondo studi, circa il 20% dei muhénan può sperimentare malora di mainta durante l'embarso. Tuttavia, questo numero può variare a seconda della durata e della natura dell'embarso.\n\nI sintomi comuni della malora di mainta durante l'embarso includono:\n\n- Dormiglio\n- Cefalea\n- Vertigine\n- Palpitazioni\n- Fatica\n\nPer evitare la malora di mainta durante l'embarso, i muhénan dovrebbero:\n\n- Prima di iniziare l'embarso, eseguire un'esplorazione medica approfondita.\n- Evitare movimenti bruschi e posizioni scorrette.\n- Dormire di sufficientemente.\n- Bere molta acqua.\n- Evitare caffeina e alcolici."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko algun muhénan ta sufri di \"malora di mainta\" ora nan ta embarsá y otronan no? Pakiko hopi bes ta solamente den e promé trimestre pero algun ta eksperensiá esaki durante henter nan embarsaso?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "- **Temperatura corporea:** la temperatura media del corpo umano è di 37°C (98,6°F).\n- **Temperatura ambiente:** la temperatura ambiente può variare da 0°C (32°F) a 40°C (104°F).\n- **Temperatura della pelle:** la temperatura della pelle può variare da 32°C (90°F) a 35°C (95°F).\n\nPertanto, la sensazione di caldo o freddo dipende dalla differenza tra la temperatura corporea e la temperatura ambiente o della pelle."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko e mesun temperatura por sinti completamente diferente riba diferente dianan òf tempoadanan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Risposta:**\n\nSì, lo stress può causare problemi di salute fisica. L'eccessivo stress può portare a diversi problemi di salute, tra cui:\n\n* Alterazioni del sonno\n* Miglioramento della pressione sanguigna\n* Acidosi\n* Disfunzione immunitaria\n* Patologie gastrointestinali\n* Ac)))); dolore muscolare e articolare\n* Fatigue e diminuzione della motivazione\n* Ridotto della capacità di concentrarsi e prendere decisioni"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Con stress ta causa problemanan di salud físico?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "La precisione di un indicatore dipende dalla sua validità e dalla sua sensibilità.\n\n**Validità:** un indicatore è valido se misura realmente la condizione di interesse.\n**Sensibilità:** un indicatore è sensibile se è in grado di distinguere tra persone con diverse condizioni di interesse.\n\nUn indicatore preciso deve essere sia valido che sensibile. Un indicatore non valido non misura correttamente la condizione di interesse, mentre un indicatore non sensibile non è in grado di distinguere tra persone con diverse condizioni di interesse."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ta dolor ta un indicador completamente preciso di e condición di lesiónnan físico?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Jawaban:**\n\n* **Mamalia:** Memiliki durasi hidup rata-rata 20-30 tahun.\n* **Reptil:** Memiliki durasi hidup rata-rata 20-100 tahun.\n* **Amphibi:** Memiliki durasi hidup rata-rata 10-20 tahun.\n* **Aves:** Memiliki durasi hidup rata-rata 5-30 tahun.\n* **Fish:** Memiliki durasi hidup rata-rata 2-50 tahun."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko diferente animalnan tin diferente duracion di bida?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Respuesta:**\n\nLas mujeres pueden quedar embarazadas por keda preña de animales, pero es un riesgo muy bajo y potencialmente peligroso. La gestación de animales es muy diferente a la humana y puede llevar a problemas de salud y riesgos para la madre y el bebé."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko hende no por keda preña for di animal?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "* A) Regular o ritmo circadiano\n* B) Reduzir o estresse\n* C) Aumentar o consumo de alimentos\n* D) Desregular o ritmo circadiano\n\n**Resposta:** A\n\n**Explicação:**\nA função do sono é regular o ritmo circadiano, ou seja, controlar o ciclo de despertar e dormir. O sono é essencial para o bom funcionamento do corpo e da mente."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e función di soño?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "* Un korredó ha un ritmo di kurason più alto di un no-korredó.\n* Un korredó ha un ritmo di kurason più basso di un no-korredó.\n* Il ritmo di kurason è lo stesso sia per un korredó che per un no-korredó.\n\nQual è la risposta corretta?\n\n**Un korredó ha un ritmo di kurason più alto di un no-korredó.**\n\nI korredó hanno un ritmo di kurason più elevato rispetto ai no-korredó come parte della loro fisiologia di adattamento al lavoro."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko e ritmo di kurason di un korredó ta mas abou ku esun di un no-korredó?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "- Esiste un'eccessiva attività del corpo\n- Un aumento della temperatura corporea\n- Un aumento della pressione sanguigna\n- Un aumento della frequenza cardiaca\n\nLa risposta corretta è: Un aumento della frequenza cardiaca.\n\nL'aumento della frequenza cardiaca è un effetto collaterale comune della sali for di e della ducha."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko mi ta sufri mas despues di sali for di e ducha?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Respuesta:**\n\nEl equilibrio del bicicleta se basa en la distribución del peso y la presión de los neumáticos. Cuando se mueve, la fuerza de la gravedad se distribuye de forma diferente, lo que puede afectar el equilibrio. Si el movimiento es demasiado rápido o si hay condiciones de superficie difíciles, es posible que el bicicleta pierda el equilibrio y caiga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko ta fásil pa mantene balans riba un bisikleta ora e ta moviendo pero kasi imposibel ora e ta keda kieto?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Komunidad:**\n\n* Kima ay isang malaking pangkat ng halaman na karaniwang ginagamit sa pagluluto.\n* Ang mga kima ay maaaring maglakad mula sa maliliit na dahon hanggang sa malalaking dahon.\n* Ang mga kima ay maaaring magkaroon ng iba't ibang kulay, mula sa kayumanggi hanggang sa puti.\n\n**Pagluluto:**\n\n* Ang kima ay maaaring magagamit sa iba't ibang paraan, tulad sa pagluluto sa stek, pag-roast, pag-grill, at pag-sauté.\n* Ang pinakamahalagang bahagi ng kima ay ang dahon.\n* Ang dahon ng kima ay maaaring magkaroon ng iba't ibang lasa, mula sa malasa hanggang sa maalat.\n\n**Mga Tip:**\n\n* Ang kima ay maaaring magkaroon ng iba't ibang uri, tulad sa kima ng loofah at kima ng talong.\n* Ang kima ay maaaring maglaman ng mga kemikal na maaaring magdulot ng mga epekto sa kalusugan.\n* Ang kima ay dapat na malinis at maaga töö upang maiwasan ang pagkasira."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko ta malo pa bo come cuminda kima?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "* Dormir en un autobús.\n* Dormir en un tren.\n* Dormir en un avión.\n\nLa respuesta es dormir en un autobús.\n\nLos autobuses tienen menos espacio y menos aire que los trenes o los aviones, lo que hace que sea más difícil dormir en ellos."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko ta mas difísil pa drumi den ambiento rumuroso?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Komputeri:**\n- Windows 10\n- Intel Core i7 4770K\n- 16GB RAM\n- NVIDIA GTX 970\n\n**Simptomi:**\n- Sistemul a devenit inutilizabil.\n- Ekranul se oprește și se restabilă periodic.\n- Programele se încruntă și se oprește.\n\n**Ce am deja încercat:**\n- Actualizarea driverilor.\n- Instalarea unui nou driver de video.\n- Scanarea pentru viruse.\n- Reinstalarea sistemului.\n\n**Ce pot face acum:**\n\n- Aș putea schimba cardul de video?\n- Aș putea schimba procesorul?\n- Aș putea schimba RAM-ul?\n\nCare dintre opțiunile de mai sus este cea mai probabilă?\n\n**Soluție:**\n\nProbabil cel mai probabil este **schimbarea cardului de video**. Cardul de video este o parte esențială a sistemului și un card vechi sau defectat poate provoca instabilitatea sistemului."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kiko eksaktamente ta pasando ku mi komputador ora e ta crash?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "En este caso, la mejor opción sería:\na) Tomar un descanso y esperar a que la situación se normalice.\nb) Llamado a la policía o a un servicio de emergencia.\nc) Buscar un lugar seguro y esperar a que la situación se normalice.\nd) Intentar escapar de la situación.\n\n**Respuesta:** c) Buscar un lugar seguro y esperar a que la situación se normalice.\n\nEn este caso, es importante buscar un lugar seguro y esperar a que la situación se normalice. Es importante evitar cualquier movimiento que pueda aumentar el riesgo de ser atrapado."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kiko lo pasa ku mi kurpa si mi keda atrapá na un lugá ku sufisiente awa pero sin kuminda?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Kiko es un amigo cercano, pero nunca sabemos cuándo va a pasar.\n\n¿Qué significa la frase?\n\nLa frase significa que nunca sabemos cuándo Kiko va a morir. Es un amigo cercano, pero su muerte es un evento que nadie puede predecir."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lo nos sa algun dia kiko ta pasa ku nos despues ku nos muri?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Respuesta:**\n\nEl huesnan no puede crecer de espalda. Su crecimiento se produce a través de la elongación de sus patas y el crecimiento de sus órganos internos."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko huesnan no por krese bèk?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "\n\n**Respuesta:**\n\nEl oro es el metal más valioso. Su precio es mayor que cualquier otro metal, incluyendo la plata. El precio del oro se basa en la demanda y la oferta en el mercado, y también en su rareza y utilidad."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko oro ta asina valioso? Y pakiko e ta mas valioso ku otro metalnan, manera plata?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Odgovor:**\n\nKiko ta tene e oseanonan pa no inunda e tera, kiko ta basa e oscilera e makalit na e terama."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kiko ta tene e oseanonan pa no inunda e tera?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Non ho accesso a internet o dati mobili, quindi non posso consultare l'orologio online."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Con mi telefoon sa kico ora mi ta drumi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "* Vaniglia\n* Cannella\n* Lavanda\n* Rosa\n* Limone\n\nQual è la risposta corretta?\n\nLa risposta corretta è **Vaniglia**.\n\nLa vaniglia è un odore molto apprezzato da molte persone e viene frequentemente associato a sentimenti di gioia e serenità."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Si mayoria di loke nos ta gusta ta determiná pa olfato, pakiko algun kos ku ta huela bon ta gusta malu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "[Answer]\n\nSabun dapat digunakan untuk berbagai keperluan, termasuk untuk menjaga kebersihan diri dan rumah. Namun, sabun yang digunakan untuk keperluan pribadi biasanya memiliki aroma yang menarik, sedangkan sabun yang digunakan untuk keperluan rumah biasanya tidak memiliki aroma."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko sabun por kita kasi tur kos for di bo mannan pero no ta kita su fragancia for di bo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Resposta:** Um animal pode sentir um terremoto quando a terra treme sob os pés ou quando há movimentos de solo consideráveis."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Con ta animales ta sinti un terremoto cu ta biniendo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Spuite bèshi biaha, dar ne spuite bèshi biaha."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko boka mi ta spuit bèshi biaha ora mi habri?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "* Clima controlá: 25°C\n* Creá pa hende: 18°C\n\nA partir de los datos proporcionados, podemos concluir que la diferencia de temperatura entre el clima controlado y la creá para hombres es de 7°C."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Por clima ser controlá of creá pa hende? Si ta asina, te cu ki grado y con?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Respuesta:**\n\nEl movimiento brusco del blachi de dje puede causar daños a la planta. Sin embargo, la planta puede adaptarse y recuperarse de los daños. Dependiendo de la gravedad de los daños, la planta puede tomar un tiempo más o menos para recuperarse. Es importante cuidar de la planta y proporcionar las condiciones adecuadas para que pueda sanar y volver a crecer."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kiko ta pasá ku un planta ora bo saka un blachi di dje? Bo ta hasié daño y e planta por rekuperá?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "No, no, no! No ta tende hopi promé ku nos drumi. Ta drumi ku ta drumi, ku ta ta e."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko nos ta tende di pensa hopi promé ku nos drumi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Respuesta:**\n\n* **Mantener una buena hidratación.** La deshidratación puede aumentar la viscosidad de la sangre y aumentar el riesgo de coágulos.\n* **Evitar alimentos ricos en grasa.** Estos alimentos pueden aumentar el riesgo de coágulos.\n* **Tomar suficiente fibra dietética.** La fibra ayuda a regular los movimientos intestinales y a prevenir la formación de coágulos.\n* **Evitar el consumo de bebidas azucaradas.** Estas bebidas pueden aumentar el riesgo de coágulos.\n* **Realizar ejercicio físico regular.** El ejercicio ayuda a mejorar la salud cardiovascular y a prevenir la formación de coágulos.\n* **Evitar el consumo de tabaco.** El tabaco aumenta el riesgo de coágulos."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kiko ta kousa nos pa yora ora nos ta kòrtá seyba? Tin un manera pa prevení esaki?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Gatos, perros o ambos?\n\nLa respuesta es: ambos.\n\nLos gatos y los perros son animales domésticos que suelen ser amados y acariciados."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko mayoria di e animalnan domestico ta gusta ser acaricia?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "El software necesita ser actualizado constantemente para asegurar la seguridad y la funcionalidad. La actualización del software se realiza para corregir errores, mejorar las características y abordar nuevas necesidades."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko nos mester ta hasi actualizashonnan di software konstantemente? Kiko ta pasa si mi no hasi'é?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Odgovor:**\nKousa pa oseano tabi pod utjecajem gravitacije, pa kada se kosa pa oseano počne kretati, gravitacija ga pokreće u stranu. To uzrokuje da kosa pa oseano postane veća i dublja."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ta bapornan ta kousa pa oseano subi mas haltu ku lo e ta normalmente?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "**Resposta:**\n\nAs células do cérebro são diferentes das células do corpo devido a suas funções e estruturas específicas. \n\n* **Células do cérebro:**\n    * Tem uma estrutura complexa e especializada, incluindo sinapses e neurotransmissores.\n    * São responsáveis por processos como a aprendizagem, memória e movimento.\n    * Tem um metabolismo mais lento e são mais suscetíveis a danos.\n\n\n* **Células do corpo:**\n    * Tem uma estrutura mais simples e genérica.\n    * São responsáveis por funções básicas como o crescimento e o metabolismo.\n    * Tem um metabolismo mais rápido e são mais tolerantes a danos."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Casi tur celula den nos curpa por regenerá. Pakiko e celulan di cerebro ta diferente?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "* Sí\n* No\n\n**Respuesta:** Sí.\n\nLa pulga completa es un ciclo de vida de la pulga, que incluye la etapa de adulto. Para exterminar completamente las pulgas, es necesario eliminar todos los estadios del ciclo de vida, incluyendo los huevos, las larvas y los adultos."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Pakiko nos no por exterminá pulga kompleto?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "* Verdadeiro\n* Falso\n\n**Resposta:** Falso. A falta de sono pode levar a diversos problemas de saúde, mas não pode causar a morte de alguém."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Con falta di sueño por mata un hende?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

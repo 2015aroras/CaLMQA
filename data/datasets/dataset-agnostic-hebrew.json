@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\n\nהנוסעים מעלים למטוס מהחלק הקדמי אל האחורי כדי להבטיח יציבה ומקצועית של הטיסה.\n\n* **המטוס יציב יותר כאשר הנוסעים נמצאים מאחורי המרכז של הכובד.**\n* **המטוס קל יותר לטוס כאשר הנוסעים נמצאים קרוב לקדמת המטוס.**\n\nלכן, נוסעים מעלים למטוס מהחלק הקדמי אל האחורי כדי להשיג את שתי התנאים האלה."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה מעלים נוסעים למטוס מהחלק הקדמי אל האחורי?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**עישון משפיע שלישית על מערכות הגוף, כולל הלב. כמה מההשפעות הרעות הן:**\n\n* **עלייה בלחץ הדם:** עישון גורם לעלייה בלחץ הדם, מה שמגדיל את הסיכון להתקף לב.\n* **עלייה בטמפרטור של הדם:** עישון גורם לעלייה בטמפרטור של הדם, מה שמגדיל את הסיכון להתקף לב.\n* **הצטקה של כלי הדם:** עישון גורם להצטקה של כלי הדם, מה שמגדיל את הסיכון להתקף לב.\n* **הפרעה בפעילות של תאי הלב:** עישון גורם להפרעה בפעילות של תאי הלב, מה שמגדיל את הסיכון להתקף לב.\n\n**לכן עישון כל כך רע ללב.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה עישון כל כך רע ללב?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\n\nתמונות שנמחקו עוברים נמצאות **בתיקיית 'מחקר'.**\n\nההעדפות של תיקיית 'נמחקו לאחרונה' הן להציג רק תמונות שנמחקו לאחרונה, ולא לשמור אותן."
+            }
+          },
+          "prompting_state": {
+            "prompt": "באייפון, לאן קבצים ותמונות שנמחקו עוברים לאחר מחיקתם מתיקיית 'נמחקו לאחרונה'?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\n\nריצה לפני קפיצה גורמת לנו לקפוץ גבוה יותר משום שהיא מעניקה לנו תנע. תנע הוא כמות התנועה של גוף, ומופחת על ידי המסה של הגוף. ככל שהמסה קטנה יותר, כך התנע גדול יותר.\n\nבמקרה של קפיצה, הריצה גורמת לנו להשיג תנע גבוה יותר, מה שמוביל לקפיצה גבוה יותר."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה ריצה לפני קפיצה גורמת לנו לקפוץ גבוה יותר?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\n\nהוספת נוגדנים או יתרונות אחרים של חלב לתרכובת תינוקות אינה מומלצת. חלב תינוקות מכיל תרכובת מורכבת של חלב, חלבון, שומן, מינרלים וחלבונים מזינים. תרכובת זו נותנת לתינוקות את התזונה והה 영양 הדרושים להם. הוספת נוגדנים או יתרונות אחרים של חלב יכולה לשנות את התרכובת זו ולהוביל לתופעות לוואי."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה לא ניתן להוסיף נוגדנים או יתרונות אחרים של חלב אם לתרכובת תינוקות?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "* **רשת האינטרנט:** רשת האינטרנט היא רשת מורכבת של מחשבים המחוברים זה לזה. מהירות האינטרנט תלויה במספר גורמים, כולל כמות הנתונים שנשלחים, טכנולוגיית הרשת, והתעבורה.\n* **ספק הווי-פי:** ספק הווי-פי שלך אחראי על העברת נתונים מרשת האינטרנט אל המחשב שלך. מהירות האינטרנט תלויה בטכנולוגיית הספק הווי-פי, כמו ADSL, DSL, cable, או fiber.\n* **האינטרנט:** האינטרנט הוא מערכת מורכבת של מחשבים, רשתות, ושרתרים. מהירות האינטרנט תלויה במידת העומס על המערכת.\n\n**ההשפעה של ספק הווי-פי על מהירות האינטרנט:**\n\n* **טכנולוגיה:** ספקי הווי-פי משתמשים בטכנולוגיות שונות כדי להעביר נתונים. טכנולוגיות טובות יותר יעילות.\n* **רשת:** ספקי הווי-פי יכולים להשפיע על מהירות האינטרנט על ידי ניהול הרשת שלהם.\n* **שירות:** חלק מהספקי הווי-פי מציעים שירותי מעולה יותר מהאחרים.\n\n**לסיכום:**\n\nספק הווי-פי שלך משליט על מהירות האינטרנט שלך, אך הוא רק אחד הגורמים. גורמים אחרים כוללים את רשת האינטרנט, האינטרנט, והטכנולוגיה המשמשת."
+            }
+          },
+          "prompting_state": {
+            "prompt": "איך ספק הווי-פי שלי משליט על מהירות האינטרנט?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "* **הקפל שביד מכיל כמות רבה של כלי דם קטנים**, מה שמקל על איסוף הדם.\n* **הקפל שביד נמצא במרחק זמין מהלב**, מה שמקל על הזרימת הדם.\n* **הקפל שביד ניתן להגיע אליו בקלות**, מה שמקל על איסוף הדם."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה בדרך כלל לוקחים דגימת דם מהקפל שביד?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובות:**\n\n* **איכות תמונה:** מצלמות ענק מספקות איכות תמונה גבוהה יותר מזו שניתנה בטלפונים הסלולריים.\n* **אפקט ויזואלי:** מצלמות ענק מייצרות אפקט ויזואלי ייחודי, כולל עומק שדה קטן, שנוי בהירות זום, ותנועה חלקה.\n* **שליטה ידנית:** מצלמות ענק מאפשרות שליטה ידנית מלאה על כל aspect של הצילם, כולל הגדרת נקודה, התאמה של ISO, ושימוש במטריצות.\n* **התקנה והinstalliציה:** מצלמות ענק הן התקנות סטנדרטיות, מה שמאפשר התקנה פשוטה ומהירה.\n* **שירות ותמיכה:** מצלמות ענק מציעות שירות ותמיכה מקצועיים, כולל תיקון, תחזית, וטיפים."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה עדיין משתמשים במצלמות ענק לסטודיו טלוויזיה כשאותה טכנולוגיה כבר קיימת בגודל של טלפון סלולרי?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "They use satellites and climate models to track the temperature of the Earth's surface and atmosphere."
+            }
+          },
+          "prompting_state": {
+            "prompt": "איך הם יודעים כמה חם ליבת כדור הארץ?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\n\nאקנה מופיעה לעיתים קרובות בתקופת ההתבגרות בגלל מספר גורמים:\n\n**1. שינויים הורמונליים:**\n* בתקופת ההתבגרות, גוף האדם מייצר כמויות גדולות יותר של הורמוני מגע, כולל אנדרוסטened וסטרואידים.\n* הורמונים אלו יכולים לעורר זוהר, יבושת ומלכושות, מה שמוביל לאקנה.\n\n**2. שינויים בפעילות הגוף:**\n* בתקופת ההתבגרות, הגוף עובד קשה יותר, מה שמוביל להפרשות הורמונים רבה יותר.\n* ההפרשה הגבוהה של הורמונים יכולה לעורר זוהר.\n\n**3. שינויים במערכת החיסון:**\n* בתקופת ההתבגרות, המערכת החיסון הופכת להיות יעילה יותר.\n* יעילות זו יכולה לעזור להילחם זיהומים, אך היא גם יכולה לגרום להפרשה יתר של הורמונים, מה שמוביל לאקנה."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה אקנה מופיעה לעיתים קרובות בתקופת ההתבגרות?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**כבשים אינן יכולות לבצע תהליך זה.** הן אינן יכולות לבצע תגובות כימיות מורכבות אלה."
+            }
+          },
+          "prompting_state": {
+            "prompt": "איך כבשים הופכים דשא ומים לחלב, צמר ועוד כבשים?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "% שומן = (משקל הגוף - משקל השרירים) / משקל הגוף * 100\n\nהמשקל השרירים ניתן להעריך על ידי:\n\n* בדיקה פיזיולוגית\n* בדיקה רפואית\n\n**בדיקה פיזיולוגית:**\n\n* בדיקה של גוף נקי - מעריכים את אחוז השומן לפי צורה, גודל ו色 של העור.\n* בדיקה של מבנה גוף - מעריכים את אחוז השומן לפי מבנה של השרירים, העצמות והשומן.\n\n**בדיקה רפואית:**\n\n* MRI - מעריכים את אחוז השומן לפי תיאור המרחק בין השרירים לשומן.\n* CT - מעריכים את אחוז השומן לפי תיאור צפיפות השומן."
+            }
+          },
+          "prompting_state": {
+            "prompt": "איך אפשר לדעת את אחוז השומן בגוף, או שפשוט מעריכים?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תסמונת השיתוק בשינה (Sleep Bruxism)**\n\n**מדע:**\n\n* **ביולוגיה:** תסמונת השיתוק בשינה נגרמת על ידי פעילות יתר של neurotransmitters, כולל acetylcholine, norepinephrine, ו-gamma-aminobutyric acid (GABA).\n* **התפתחות:** תסמונת השיתוק בשינה היא תנהולת, ויכולה להתפתל עוד לפני גיל ההתבגרות.\n* **משפחה:** יש הסיכוי הגבוה יותר להפגין תסמונת השיתוק בשינה אם יש משפחה עם תסמונת.\n* **תנאים פיזיולוגיים:** תנאים כמו חוסר שינה, מתח, אלכוהול, תרופות, ומצבי רוח יכולים להחמיר את תסמונת השיתוק בשינה.\n\n**מנגנון:**\n\n* תסמונת השיתוק בשינה נוצרת כאשר אזורים מסוימים במוח, המעורבים בהפעלת השרירים, הופכים להיות פעילים יותר מאשר הרגיל.\n* זה גורם לכך שהשרירים של השיניים נעים באופן לא רצוני.\n\n**סימפטומים:**\n\n* שיניים נשברות\n* שיניים מתפתחות\n* כאבי ראש בבוקר\n* עייות בבוקר\n* תחושת עייות\n\n**טיפול:**\n\n* טיפול תרופתי\n* טיפול פסיכולוגי\n* שימוש במעטפת שיניים\n* שיפור אור החיים"
+            }
+          },
+          "prompting_state": {
+            "prompt": "מה המדע מאחורי תסמונת השיתוק בשינה?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\n\nהמתכת לא נגמרה, מכיוון שהיא מורכבת מיסודות יציבים, כולל ברזל, אלומיניום ונחושת. אלו הן תרכובות יציבות, שמעלות את נקודת התכה הגבוהה של המתכת."
+            }
+          },
+          "prompting_state": {
+            "prompt": "איך עדיין לא נגמר לנו המתכת?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "ההבנה הזו אינה נכונה. אין שום חברה אחת בטיוואן שיוצרת את המיקרוצ'יפים הטובים ביותר בעולם. יש מספר יצרנים מובילים בטיוואן, אך אין אחד שיוצרת את המיקרוצ'יפים הטובים ביותר בעולם."
+            }
+          },
+          "prompting_state": {
+            "prompt": "הבנתי היא שחברה אחת בטיוואן יוצרת את המיקרוצ'יפים הטובים ביותר בעולם ואף אחד אחר לא יכול לשכפל אותם. איך זה אפשרי?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\nהדם אדום מכיל חלבון hemoglobin, שהוא אחראי לשאת חמצן ברקמות. hemoglobin נקשר לחמצן ומעבירו דרך הדם. החלבון hemoglobin נמצא בדם האדום של mayoría החיות."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה לרוב החיות יש דם אדום?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**התשישות של היכולת של הגוף לתקן את עצמו** היא תוצאה של עומס רב על הגוף, שמעבר ליכולת של הגוף לתקן את עצמו.\n\n**אימונים ובניית גוף** מבוצעים בדרך כלל בתנאים מבוקרים, תוך שימוש בטכנולוגיה מתקדמת, כך שיתרמו לתיקון ופיתוח הגוף.\n\nלכן, אימונים ובניית גוף לא מחמירים את התשישות של היכולת של הגוף לתקן את עצמו, מכיוון שהם אינם מייצגים עומס רב על הגוף שמעבר ליכולת שלו לתקן את עצמו."
+            }
+          },
+          "prompting_state": {
+            "prompt": "אם ההזדקנות, בקצרה, היא התשישות של היכולת של הגוף לתקן את עצמו, למה אימונים ובניית גוף (בצורה בריאה) לא מחמירים את היכולת הזו?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\n\nחברה מרוויחה כסף ממכירת המוצרים שלה בהנחה גדולה על ידי:\n\n* **הגדלת מכירות:** בהנחה גדולה, אנשים נוטים לרכוש יותר מוצרים.\n* **ההנחה הגדולה משמשת כמשוך:** אנשים נמשכים להנחה, מה שמוביל לכך שמוכרים יותר מוצרים.\n* **ההנחה גורמת לכך שמוכרים מוצרים יקרים יותר:** אנשים מוכנים לשלם יותר עבור מוצרים אם הם מקבלים הנחה."
+            }
+          },
+          "prompting_state": {
+            "prompt": "איך חברה מרוויחה כסף ממכירת המוצרים שלה בהנחה גדולה?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**בחילות בוקר** היא תופעה נפוצה בהריון, המתרחשת עקב שינויים הורמונליים.\n\n**גורמים המשפיעים על התופעה:**\n\n* **שלב ההריון:** בחילות בוקר נפוצה יותר ברבעון הראשון, אך ניתן להופיע בכל שלבי ההריון.\n* **הורמונים:** הורמונים, כגון אסטרוגן, יכולים לגרום לחילות בוקר.\n* **אורך ההריון:** בחילות בוקר נפוצה יותר בהריונים קצרים.\n* **משקל האם:** בחילות בוקר נפוצה יותר אצל נשים עם משקל גוף נמוך.\n\n**סיבות אפשריות לחילות בוקר:**\n\n* **הפרעה הורמונלית:** שינויים הורמונליים בהריון, במיוחד בהפרעה של אסטרוגן, יכולים לגרום לחילות בוקר.\n* **לחץ נפשי:** לחץ נפשי יכול לגרום להפרעה הורמונלית ולהחמיר את בחילות הבוקר.\n* **תזונה:** תזונה לא תקינה יכולה לגרום לחילות בוקר.\n* **פעילות גופנית:** פעילות גופנית כבדה יכולה לגרום לחילות בוקר."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה חלק מהנשים חוות \"בחילות בוקר\" בהריון ואחרות לא? למה רבות סובלות מזה רק ברבעון הראשון אבל חלק חוות את זה במשך כל ההריון?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובות:**\n\n* **השפעת הטמפרטורה על גוף האדם:** הטמפרטורה יכולה להשפיע על רמות החום, הלחץ, והמטבוליזם, מה שמוביל להרגשה שונה.\n* **השפעת הטמפרטורה על המוח:** הטמפרטורה יכולה להשפיע על המצב המנטלי, כולל מצבי הרוח, התשוקה, וההכרה.\n* **השפעת הטמפרטורה על ההרגשה:** הטמפרטורה יכולה להשפיע על ההרגשה הכללית, כולל תחושת חום, קור, או נוחות.\n* **השפעת העונה:** בכל עונה, הטמפרטורה, הלחות, והשמש יכולים להיות שונים, מה שמוביל להרגשה שונה.\n* **השפעת הזמן של היממה:** בשעות שונות של היממה, הטמפרטורה יכולה להיות שונה, מה שמוביל להרגשה שונה."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה אותה טמפרטורה יכולה להרגיש שונה לגמרי בימים או עונות שונות?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "** גורמים פיזיולוגיים:**\n\n* גן\n* תזונה\n* תרגול\n* משקל\n* מצב רפואי\n\n** גורמים סביבתיים:**\n\n* איכות אוויר\n* איכות 물\n* חשיפה לאור\n* צליל\n\n** גורמים 심리-התנהגותיים:**\n\n* לחץ\n* מתח\n* דיכאון\n* מצב הרוח\n\n** גורמים חברתיים:**\n\n* משפחה\n* חברים\n* תרבות\n\n** גורמים תרבותיים:**\n\n* אורח חיים\n* תרבות האכילה\n* תרבות הרפואה\n\n** גורמים כלליים:**\n\n* מזג אוח\n* תקופה\n* אירועים חוץ מרגעים\n\n** איך לחץ גורם לבעיות בריאות פיזיות:**\n\n**1. זיהוי גורמים:**\n* שימוש במחקר רפואי\n* בדיקות רפואיות\n* שיחה עם רופא\n\n**2. שליטה על גורמים:**\n* תזונה מאזנת\n* תרגול סדיר\n* הימנעות משקל עודף\n* טיפול בפעילות נפשית\n\n**3. הגעה לשיווי משקל:**\n* יעד הגעה לשיווי משקל\n* תוכנית תזונה\n* תוכנית תרגול\n\n**4. טיפול בפעילות נפשית:**\n* טיפול פסיכולוגי\n* mindfulness\n* תרגול יוגה\n\n**5. שימוש בטכנולוגיה:**\n* יישומים רפואיים\n* מעקב אחר הבריאות\n\n**6. אורח חיים בריא:**\n* שימוש במוצרי מזון בריאים\n* הימנעות משקאות מתוקים\n* שימוש בטיפים בריאותיים"
+            }
+          },
+          "prompting_state": {
+            "prompt": "איך לחץ גורם לבעיות בריאות פיזיות?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**לא.** כאב הוא מדד לא מדויק לחלוטין למצבם של פציעות גופניות.\n\n**גורמים רבים יכולים להשפיע על כאב:**\n\n* Nature of the injury\n* Severity of the injury\n* Duration of the injury\n* Individual pain tolerance\n* Psychological and emotional factors\n\nלכן, כאב לא יכול לבטא את מצבם של הפציעה באופן מלא."
+            }
+          },
+          "prompting_state": {
+            "prompt": "האם כאב הוא מדד מדויק לחלוטין למצבם של פציעות גופניות?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**מספר גורמים משפיעים על תוחלת החיים של החיות:**\n\n**1. גנטיקה:**\n* גנים מסוימים יכולים להשפיע על תוחלת החיים.\n* חלק מהגנים יכולים להגן על החיה מפני מחלות, תאונות או זקנה.\n\n**2. סביבה:**\n* תנאי הסביבה, כגון טמפרטורה, לחות, ותזמיון, יכולים להשפיע על תוחלת החיים.\n* חיות שחיות בטמפרטורות קרות או לחות גבוהה lifespanן קצר יותר.\n\n**3. דירוג החיה:**\n* חלק מהחיות הן דירוגים יותר מאחרים.\n* חיות דירוגים נמוכים lifespanן קצר יותר.\n\n**4. אורח החיים:**\n* אורח החיים של החיה, כגון הרגלי תזונה, פעילות גופנית ותחושת לחץ, יכולים להשפיע על תוחלת החיים.\n* חיות שחיות אורח חיים בריא lifespanן ארוך יותר.\n\n**5. מחלות:**\n* מחלות הן גורם משמעותי לתמותה.\n* חיות מסוימות הן יותר נתונות למחלות מאחרים.\n\n**6. תאונות:**\n* תאונות הן גורם משמעותי לתמותה.\n* חיות מסוימות הן יותר נתונות לתאונות מאחרים."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה ישנם חיות שיש להם תוחלת חיים שונה?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "Η γέννηση είναι ένα πολύπλοκό διαδικαίωμα που απαιτεί την επέμβαση των ωω και των σперματιών."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה בני אדם לא יכולים להיכנס להריון מחיות?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "* שינה תורמת לשחזת גוף ומוח.\n* שינה תורמת לשיפור זיכרון.\n* שינה תורמת לשיפור מצב הרוח.\n* כולם.\n\n**תשובה:** כולם.\n\nשינה תורמת לשחזת גוף ומוח, לשיפור זיכרון, ולשיפור מצב הרוח."
+            }
+          },
+          "prompting_state": {
+            "prompt": "מהי פונקציית השינה?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "* **הפעילות הפיזית גורמת להפחתת קצב לב.** כאשר אנו רצים, שרירים שלנו צורבים חמצן, ומערכת העצבים שלנו תורמת להעברת חמצן זה לכל חלקי הגוף. \n* **ההפחתה בקצב לב מאפשרת לספק את החמצן הדרוש לכל חלקי הגוף בצורה יעילה יותר.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה קצב לב של רץ נמוך יותר מזה של אדם שלא רץ?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובות:**\n\n* **טמפרטורת הגוף:** לאחר יציאה מהמקלחת, גוף האדם עוד warm, מה שמוביל לה beading (ציצים קטנים) של זיעה.\n* **לחץ אוויר:** לחץ האוויר החיצון נמוך יותר מהלחץ האוויר בתוך המקלחת, מה שמוביל לה beading.\n* **הפרשה של הורמונים:** יציאה מהמקלחת גורמת להפרשת הורמונים מסוימים, כולל קורטיזול, שמעורר beading.\n* **הזעה:** פעילות גופנית, כזו שמתרחשת במקלחת, גורמת להזעה.\n* **הפרשה של זיעה:** יציאה מהמקלחת גורמת להפרשת זיעה, מכיוון שהגוף עוד warm."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה אני יותר מזיע אחרי שיוצא מהמקלחת?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\n\nההבדל נובע מהתנאים של המשק הבין-השכירות.\n\n**במצב ניע:**\n\n* ככל שמהירות ההתנועה עולה, כך עולה כוח הכבידה הפעיל.\n* כוח הכבידה הפעיל גורם לכך שהמסה נעה מעט כלפי מעלה, מה שמפחית את כוח הכבידה הכולל הפעיל על אופניים.\n\n**במצב נייח:**\n\n* אין כוח כבידה הפעיל שמפחית את כוח הכבידה הכולל.\n* כתוצאה מכך, מסה אופניים נתונה לכוח הכבידה הכולל, מה שמפחית את יציבותו."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה קל לשמור על איזון על אופניים כשהם בתנועה אבל כמעט בלתי אפשרי כשהם עומדים במקום?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**ההנחה:** מזון שרוף מכיל תרכובות אורגניות מזיקות.\n\n**הסבר:**\nה מזון שרוף מכיל תרכובות אורגניות מזיקות, כולל פחמן חד אוקסיל (CO) ומימן חמצני (NOx). תרכובות אלה יכולות להיות מסוכנות לבריאות, מכיוון שהן יכולות לגרום להפרעות בנזיגם, להגדיל את הסיכון להתקפות לב, ולהגדיל את הסיכון לפעילות סרטנית.\n\n**לכן אכילת מזון שרוף זה רע לך.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה אכילת מזון שרוף זה רע לך?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\n\nהסביבות הרועשות גורמות להפרשת הורמונים, כמו קורטיזול, שהן אחראיות על עלייה ברמת הדופק, הלחץ וההתרגשות. הורמונים אלה יכולים להפחית את יעילותם של תרופות להירדם.\n\nבנוסף, הסביבות הרועשות יכולות לגרום לעלייה ברמת האנדורפינים, הורמונים שמעוררים תחושת הנאה. האנדורפינים יכולים להפחית את יעילותם של תרופות להירדם."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה קשה יותר להירדם בסביבות רועשות?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**המחשב מייצר מתח חשמלי, שהוא גורם לכמה תופעות:**\n\n* **חום:** קורס גורם להגברת הטמפרטורה של המעבד, המטא-הדווים והשאר רכיבי המחשב.\n* **מתח:** קורס גורם להגברת מתח החשמלי במעבד, המטא-הדווים והשאר רכיבי המחשב.\n* **רעש:** קורס גורם להגברת הרעש של המעבד, המטא-הדווים והשאר רכיבי המחשב.\n\n**ההשפעה של קורס על המחשב תלויה במעבד, במטא-הדווים, ובשאר רכיבי המחשב.**\n\n**ההשפעה האפשרית של קורס על המחשב:**\n\n* **הצטלקות:** קורס יכול לגרום להצטלקות, מכיוון שהחום יכול לגרום לכך שהרכיבי המחשב לא יעבדו בצורה אופטימלית.\n* **התקלה:** קורס יכול לגרום להתקלה, מכיוון שהמתח החשמלי הגבוה יכול לגרום לפגם במעבד, במטא-הדווים או בשאר רכיבי המחשב.\n* **הרעה:** קורס יכול להרעיב המחשב, מכיוון שהרעש של המעבד, המטא-הדווים והשאר רכיבי המחשב יכול להיות רעיב."
+            }
+          },
+          "prompting_state": {
+            "prompt": "מה בדיוק קורה עם המחשב שלי כשהוא קורס?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "* **ההשפעה הקצירה:**\n    * תחושת תשישות, חולשה, חום, ושינוי במצב הרוח.\n    * חוסר יציבה, קשיים בפעולה, ודיספקיה.\n\n\n* **ההשפעה הארוכה:**\n    * חלשון, איבוד משקל, תסמונת, ובעיות בכושר.\n    * נזק לרקמות, אי-ספיקה, ומוות.\n\n\n**מה יקרה לגופי אם אני אתקע במקום עם אוכל אבל בלי אספקת מים?**\n\n* **ההשפעה הקצירה:**\n    * תחושת תשישות, חולשה, חום, ושינוי במצב הרוח.\n    * חוסר יציבה, קשיים בפעולה, ודיספקיה.\n\n\n* **ההשפעה הארוכה:**\n    * חלשון, איבוד משקל, תסמונת, ובעיות בכושר.\n    * נזק לרקמות, אי-ספיקה, ומוות."
+            }
+          },
+          "prompting_state": {
+            "prompt": "מה יקרה לגופי אם אני אתקע במקום עם אספקת מים אמינה אבל בלי אוכל?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "השאלה הזו אינה ניתנת לענה, מכיוון שאין הוכחה מדעית לקיום מעבר נשמה או מצב אחרי המות."
+            }
+          },
+          "prompting_state": {
+            "prompt": "האם נדע אי פעם מה קורה לנו לאחר שנמות?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\n\nעצמות אינן יכולות לגדול בחזרה מכיוון שהן בנויות מרקם קשיח, שאינו יכול להתכווץ. בנוסף, תהליך גידול עצמות מתרחש רק בזמן ההתפתחות, ולא לאחר היווצרות."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה עצמות לא יכולות לגדול בחזרה?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**זהב יקר ערך בשל:**\n\n* **העדפות אנושיות:** זהב מייצג עשירות, יוקרה, וחשיבה. אנשים נוהגים להעדיף זהב על פני מתכות אחרות.\n* **העדפות כלכליות:** זהב הוא יציב מבחינה כלכלית, ומשמש כסף מוחלט.\n* **הניחות:** זהב נמצא בשפע קטן, מה שמקנה לו ערך ייחודי.\n* **היציבות:** זהב יציב מבחינה כימית, מה שמבטיח את ערכו לאורך זמן.\n\n**זהב יותר יקר מכסף בשל:**\n\n* **העדפות אנושיות:** כמו שהוזכר קודם, אנשים נוהגים להעדיף זהב על פני כסף.\n* **העדפות כלכליות:** זהב הוא יציב מבחינה כלכלית, בעוד כסף נגזר בקלות.\n* **הניחות:** זהב נמצא בשפע קטן יותר מכסף."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה זהב כל כך יקר ערך? ולמה הוא יותר יקר ממתכות אחרות, כמו כסף?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**הגורמים הבאים מונעים מהאוקיינוסים להציף את כדור הארץ:**\n\n**1. חוק שימור המסה:**\n* חוק זה קובע שאף לא ניתן להיציר או להשמיד מסה.\n* מכיוון שהאוקיינוסים מכילים 97% מהמים בכדור הארץ, אם הם היו מציפים אותו, המסה הכוללת של המערכת לא הייתה נשארה יציבה.\n\n**2. כוח גרביטציה:**\n* כוח הגרביטציה של כדור הארץ אחראי על יציבותו.\n* אם האוקיינוסים היו מציפים את כדור הארץ, המסה הכוללת שלו הייתה גדולה יותר, וכתוצאה מכך כוח הגרביטציה שלו היה חלש יותר.\n* חלשון כוח הגרביטציה יגרום לכדור הארץ להתנדנד, ולא יציב.\n\n**3. לחץ אוקיינוס:**\n* לחץ האוקיינוס עולה עם עומקו.\n* אם האוקיינוסים היו מציפים את כדור הארץ, לחץ האוקיינוס העמוק היה גבוה יותר, מה שיצר לחץ יתר על כדור הארץ.\n* לחץ יתר כזה יכול לגרום לכדור הארץ להתמוט.\n\n**4. תנועה רציפה:**\n* האוקיינוסים נעים באופן רצוף, מה שמניע את כדור הארץ.\n* תנועה זו תורמת לשיוויון של כדור הארץ."
+            }
+          },
+          "prompting_state": {
+            "prompt": "מה מונע מהאוקיינוסים להציף את כדור הארץ?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "טלפונים אינם יכולים להבין מתי אדם ישן."
+            }
+          },
+          "prompting_state": {
+            "prompt": "איך הטלפון שלי יודע מתי אני ישן?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "ריח הוא חלק מניסוח הטעמה, אך לא היחיד. הטעמה מורכבת מריח, טעם, והרגש הכללי של האדם."
+            }
+          },
+          "prompting_state": {
+            "prompt": "אם רוב מה שאנו טועמים נקבע על פי הריח, למה ישנם דברים שנראים טובים אך טעמם רע?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\n\nהסבון מכיל תרכובות יוניות, שיוצרים כוח משיכה בין החלקיקים. כאשר הסבון נגע במים, התרכובות היווניות נקשרות לאלקטרונים בחלקיקי המים. זה יוצר תרכובות יוניות חדשות, שיוצרים כוח משיכה חזק יותר.\n\nהניחוח של הסבון נובע מתרכובות אורגניות, שנקשרות לאלקטרונים בחלקיקי המים. מכיוון שהניחוח נקשר לאלקטרונים, הוא לא יכול להיות משוחף על ידי תרכובות היווניות של הסבון."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה סבון יכול לשטוף כמעט הכל מהידיים אבל לא משטף את הניחוח שלו ממך?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "* **הן מודעות לכך** ומנסות להתכונן.\n* **הן לא מודעות לכך** ולא יכולות להתכונן.\n* **הן יכולות להרגיש** את הרעידת האדמה, אך הן לא יכולות להבין את המשמעות.\n\n**תשובה:** *הן מודעות לכך* ומנסות להתכונן.\n\n**הסבר:** חיות יכולות להרגיש את הרעידת האדמה על ידי התחושות הפיזיולוגיות, כגון תנועה, לחץ או קול. הן מודעות לכך ומנסות להתכונן, כמו בריחת מקום בטוח או מציאת מקלט."
+            }
+          },
+          "prompting_state": {
+            "prompt": "איך חיות מרגישות ברעידת אדמה שמתקרבת?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובות:**\n\n* **הפרעה בלוק הספין:** ריסוס רוק יכול להיות תוצאה של הפרעה בלוק הספין, שהוא הרשת של עצבים הקשורים לספין.\n* **הפרעה במערכת העצבים המרכזית:** ריסוס רוק יכול להיות תוצאה של הפרעה במערכת העצבים המרכזית, כמו למשל תסמונת שבר.\n* **הפרעה בלחץ הדם:** ריסוס רוק יכול להיות תוצאה של הפרעה בלחץ הדם, כאשר לחץ הדם גבוה או נמוך.\n* **צריכת אלכוהול:** צריכת אלכוהול יכולה לגרום לריסוס רוק.\n* **תזרים הדם:** תזרים הדם לא תקין יכול לגרום לריסוס רוק."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה לפעמים יוצא ריסוס של רוק מהפה שלי כשאני פוער?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**שליטה במזג האוויר:**\n\n* **השפעה על טמפרטור:** ניתן לשלוט בטמפרטור באמצעות שימוש בטכנולוגיות כגון אווורור, חימום, קירור ואקלימצר.\n* **השפעה על לחץ האוויר:** ניתן לשלוט בלחץ האוויר באמצעות שימוש בטכנולוגיות כגון יצירת אוויר לחץ גבוה.\n* **השפעה על רמת הלחות:** ניתן לשלוט ברמת הלחות באמצעות שימוש בטכנולוגיות כגון מייצור, ספיגה ואוויר לחץ גבוה.\n\n**יצירה מלאכותית של מזג האוויר:**\n\n* **מערכות מזג אוויר מלאכותיות:** ניתן ליצור מזג אוויר מלאכותי באמצעות שימוש בטכנולוגיות כגון יצירת אוויר לחץ גבוה, קירור, חימום, ניהול טמפרטור ולחץ.\n* **השפעה על תנאי מזג האוויר:** ניתן להשפיע על תנאי מזג האוויר באזור מסוים באמצעות יצירת אוויר מלאכותי.\n\n**מידה של השליטה:**\n\n* **שליטה בטמפרטור:** ניתן לשלוט בטמפרטור במידה רבה, אך יש מגבלות בטכנולוגיות.\n* **שליטה בלחץ האוויר:** ניתן לשלוט בלחץ האוויר במידה רבה, אך יש מגבלות בטכנולוגיות.\n* **שליטה ברמת הלחות:** ניתן לשלוט ברמת הלחות במידה רבה, אך יש מגבלות בטכנולוגיות.\n* **יצירה מלאכותית:** ניתן ליצור מזג אוויר מלאכותי, אך יש מגבלות בטכנולוגיות."
+            }
+          },
+          "prompting_state": {
+            "prompt": "האם ניתן לשלוט במזג האוויר או ליצור אותו באופן מלאכותי? אם כן, באיזו מידה ואיך?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**מה קורה לצמח כשנוקרים ממנו עלה?**\n\n* **פגיעה בפונקציות:** נוקירת עלה מפגעה בפונקציות קריטיות, כולל ספירת נוטריינטים, יצירת מזון וניצול אור.\n* **הפחתת צמיחה:** עלה הוא חלק חשוב בתהליך הצמיחה של הצמח. נוקירת עלה יכולה להוביל להפחתת צמיחה, תלוי על גודל העלה, מספר העלים שננקרו ומשך הזמן בו ננקרו.\n* **הזלת:** נוקירת עלה יכולה להוביל להזלת, מכיוון שהצמח לא יכול לספק את הדרישות שלו לאנרגיה.\n\n**האם הצמח יכול להתאושש?**\n\n* **התאוששות קצרה:** הצמח יכול להתאושש מהנוקירה של עלה קטן בתוך מספר ימים.\n* **התאוששות ארוכה:** הצמח יכול להתאושש מהנוקירה של עלה גדול יותר, אך זה ייקח זמן רב יותר.\n* **התאוששות תלויה:** התאוששות הצמח תלויה בגודל העלה, מספר העלים שננקרו,משך הזמן בו ננקרו, והמצב הבריאותי של הצמח.\n\n**גורמים המשפיעים על התאוששות:**\n\n* גודל העלה\n* מספר העלים שננקרו\n*משך הזמן בו ננקרו\n* מצב הבריאותי של הצמח"
+            }
+          },
+          "prompting_state": {
+            "prompt": "מה קורה לצמח כשנוקרים ממנו עלה? האם זה פוגע בו והאם הצמח יכול להתאושש?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובות:**\n\n* **ההפרשה של הורמוני שינה:** הורמוני השינה, כמו melatonin, משפיעים על מצב הרוח ועל יכולת ההיזמות.\n* **הפעילות של המוח:** המוח נותן מענה לכל stimulus, כולל מחשבות.\n* **ההפרשה של נוירוטרנסמיטרים:** נוירוטרנסמיטרים, כמו serotonin, משפיעים על מצב הרוח ועל יכולת ההיזמות.\n* **הלחץ וה应טרס:** לחץ וה应טרס יכולים לגרום להפרעה בשינה, ולכן להחשיבה רבה.\n* **פעילות גופנית:** פעילות גופנית יכולה לגרום להפרעה בשינה, ולכן להחשיבה רבה."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה אנחנו נוטים לחשוב הרבה לפני השינה?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**גורם:**\n\n* **חום:** חום של ההכנה גורם לשחרור של גזים נדיפים, כולל תיאוצן, שהוא הגורם העיקרי לדמוע.\n* **pH:** pH נמוך של הצלים גורם לשחרור של תיאוצן.\n* **אנזים:** אנזים שנמצאים בצלים מסייעים לשחרור תיאוצן.\n\n**דרך למנוע:**\n\n* **הכנה בטמפרטורה נמוכה:** חתכו את הצלים בטמפרטורה נמוכה (למשל, 0-5 מעלות צלזיוס) כדי להפחית את שחרור התיאוצן.\n* **הוספת בסיס:** הוספת בסיס, כגון מלח בישול, לסלט הצלים לפני ההכנה יעזור להעלות את pH.\n* **הוספת חומצה:** הוספת חומצה, כגון חומצה לימונית, לסלט הצלים לפני ההכנה יעזור להפחית את פעילות האנזים.\n* **הכנה במים:** חתכו את הצלים במים כדי להמיס את התיאוצן.\n* **הדמיה:** ניתן להדמיה את הצלים לפני ההכנה, מה שמפחית את שחרור התיאוצן."
+            }
+          },
+          "prompting_state": {
+            "prompt": "מה גורם לנו לדמוע כשאנו חותכים בצלים? האם יש דרך למנוע זאת?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובה:**\n\nרוב החיות הביתיות נהנות להיחבק מכמה סיבות:\n\n* **הרגעה בטוחה:** יחבק גורם להפרשת הורמונים המרגיעים, מה שמוביל להרגעה בטוחה.\n* **הנאה:** יחבק מפחית מתח, גורם לשחרור של חומרים המביאים להנאה.\n* **התחברות:** יחבק הוא דרך להביע חיבה, התחבר עם בני משפחה אחרים.\n* **הקלה על כאבים:** יחבק יכול להקל על כאבים, כמו כאבי ראש או כאבי בטן."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה רוב החיות הביתיות נהנות להיחבק?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**עדכון תוכנות באופן קבוע נדרש מכמה סיבות:**\n\n**1. אבולוציה של הטכנולוגיה:**\n* תוכנות שנכתבו בעבר עשויות להיות לא רלוונטיים או לא יעילים בהתאם להתקדמות הטכנולוגיה.\n* מעדכנים חדשים יכולים להכיל ת功能 חדשות, ביצועים טובים יותר, ותמיכה באתרים חדשים.\n\n**2. תיקון שגיאות:**\n* תוכנות יש סבירות גבוהה להכיל שגיאות.\n* מעדכנים תוקנים שגיאות אלה, מה שמבטיח יציבות ומעילות טוב יותר.\n\n**3. תמיכה באתרים חדשים:**\n* תוכנות יש צורך לעדכן את תמימותן לאתרים חדשים.\n* מעדכנים חדשים תומכים באתרים חדשים, מה שמבטיח יעילות.\n\n**4. אבולוציה של הדרישות:**\n* דרישות המשתמשים יכולות להשתנות לאורך הזמן.\n* מעדכנים חדשים יכולים להתאים לצרכים משתמשים משתנים.\n\n**5. אבולוציה של המפתחים:**\n* מפתחים יכולים להתפתל ולהתנסח בטכנולוגיות חדשות.\n* מעדכנים חדשים יכולים להכיל תכנות חדשים ומעודכנים.\n\n**אם לא מעדכן תוכנות באופן קבוע:**\n\n* **ביצועים ירודים:** תוכנות יש יכולת ביצוע ירודה.\n* **שגיאות רבות:** תוכנות יהיו סבירות גבוהה לשגיאות.\n* **תמימות נמוכה:** תוכנות יהיו תמימות נמוכה לאתרים חדשים.\n* **דרישות משתמשים לא מתוקנות:** תוכנות לא יהיו מתאימות לצרכים משתמשים.\n* **המפתחים יהיו בעיות:** מפתחים יהיו קשה יותר לעדכן תוכנות."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה צריך לעדכן תוכנות באופן קבוע? מה יקרה אם לא אעשה זאת?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**לא**. ספינות אינן גורמות לרמת הים לעלות מעל לנורמה.\n\n**ההשפעה של ספינות על רמת הים:**\n\n* ספינות מייצרות תנועה, אך הן אינן גורמות לרמת הים לעלות.\n* תנועה זו גורמת להפרעה זמנית של שיווי המשקל, אך לא להעלאת רמת הים.\n\n**גורמים אחרים המעלים את רמת הים:**\n\n* גאות\n* גשמים\n* שינויים באקלים\n* פעילות אנושית, כגון בנייה ודיג"
+            }
+          },
+          "prompting_state": {
+            "prompt": "האם ספינות גורמות לרמת הים לעלות מעל לנורמה?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תאי המוח אינם יכול להתחדש באופן עצמאי** כרוב התאים בגוף. הם תלויים בתהליך מורכב של גידול, התחדשות ומוות, המנוהל על ידי מנגנונים מיוחדות."
+            }
+          },
+          "prompting_state": {
+            "prompt": "כמעט כל תא בגופנו יכול להתחדש. למה תאי המוח שונים?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**תשובות:**\n\n* **כינים הן יצורים 살יים:** הן הן חלק מהאיкосистема, ושרשרת המזון. השמדת כל הכינים יעורר תגובת שרשרת, שתוביל להשמדת מינים רבים אחרים.\n* **כינים הן גורם מרכיב בביולוגיה של האזור:** הן משמשות מזון לאחרים, ומסייעות בהפרשת חומצות ביקרבונט.\n* **השמדת הכינים יעורר יצירת כינים חדשות:** הן יכולות להתפתחות מחדש, אפילו לאחר השמדת כל הכינים הנוכחיים.\n* **ההשמדת הכינים גורמת להעצמת המטופול:** הן יכולות להפוך למטופול, מה שמוביל להשמדת מינים אחרים."
+            }
+          },
+          "prompting_state": {
+            "prompt": "למה לא ניתן להשמיד כינים לחלוטין?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.hebrew:gemma 7b",
+          "language": "Hebrew",
+          "translations": {
+            "Hebrew": {
+              "language": "Hebrew",
+              "text": "**חוסר שינה יכול להרוג מישהו על ידי:**\n\n* **הפרעה בפעילות המוח:** חוסר שינה משפיע על המטבוליזם, ההתמדה, וההליכה.\n* **הפרעה בתפקוד האוטומטי:** חוסר שינה יכול להוביל להקלה בתפקוד האוטומטי, כמו נהיג או עבודה.\n* **הפרעה בתפקוד החיסוני:** חוסר שינה יכול להעליק את הסיכונים להידבקות בחייד.\n* **הפרעה בתפקוד הקוגניטי:** חוסר שינה יכול להוביל להקלה בתשומת לב, הזכרון, וההבנה."
+            }
+          },
+          "prompting_state": {
+            "prompt": "איך חוסר שינה יכול להרוג מישהו?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

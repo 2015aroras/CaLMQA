@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A repülőgépek első sorai a legmagasabb utasforgalommal rendelkeznek, tehát logikus volna, hogy ezeketől induljanak a besorolás.\n\n**Megoldás:**\n\nA repülőgépek első sorai a legmagasabb utasforgalommal rendelkeznek, de ez nem jelenti, hogy ezeketől induljanak a besorolás. A cél az, hogy az utasok minél gyorsabban és kényelmesebben tudjanak beülni a repülőgépbe. A hátrafelé besorolás lehetővé teszi, hogy az utasok a legmagasabb utasforgalommal rendelkező sorokat gyorsan elfoglalja, és az utasok, akiknek kevesebb utasforgalomja van, nem kell várakozniuk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért szokták az első soroktól kezdve hátrafelé beszállítani az utasokat a repülőgépekre?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**A dohányzás káros a szív számára, mert:**\n\n* **Erősíti a vérnyomást:** A nikotin, amit a dohányóban található, vasodilatáló hatással rendelkezik, ami a véráramok tágadásához és a vérnyomás emeléséhez vezet.\n* **Erősíti a gyulladás:** A dohányás oxidatív stresszt hoz létre, ami a sejt- és az DNA-károsodáshoz, valamint a gyulladásos folyamatokhoz vezet.\n* **Csökkenti az endotelin-termelés:** Az endotelin egy vaszkuláris hormong, amely a sejtmembránon található kapillárisok összehúzódását segíti. A dohányás csökkenti az endotelin-termelését, ami a véráramok tágadásához és a vérnyomás emeléséhez vezet.\n* **Erősíti a trombozist:** A dohányás növeli a trombozist (a véralakodás) kockázatát, ami a heart attackok és a stroke-k fő okainak számít.\n* **Csökkenti az HDL-kolesterol (jó kolesterol) és növeli a LDL-kolesterol (rossz kolesterol) szintjét:** A dohányás csökkenti az HDL-kolesterol (jó kolesterol) szintjét, míg növeli az LDL-kolesterol (rossz kolesterol) szintjét, ami a heart attackok kockázatát növeli."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért káros a dohányzás annyira a szív számára?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* A Trash mappába\n* A iCloud-ba\n* A helyi tárolóba\n* Nincsenek töröltek\n\nMindenes, a 'nemrég töröltek' mappában eltávolított fájlok és fotók nem jelennek meg a Trash mappában, az iCloud-ban vagy a helyi tárolóban."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Egy iPhone esetében, hova kerülnek a törölt fájlok és fotók, miután eltávolították őket a 'nemrég töröltek' mappából?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* A futás felmegy a magasságot, miközben az ugrás magasságát nem befolyásolja.\n* A futás felgyorsítja a testmozgást, ami segít a ugrás magasságának elérése.\n* A futás felmegy a magasságot, miközben az ugrás magasságát befolyásolja.\n* A futás felgyorsítja a testmozgást, ami később segít a ugrás magasságának elérése.\n\nA helyes válasz: **A futás felgyorsítja a testmozgást, ami később segít a ugrás magasságának elérése.**\n\nA futás felgyorsítja a testmozgást, ami később segít a ugrás magasságának elérése. Amikor futunk, a testmozgás felgyorsul, ami később hasznos lehet, amikor ugráskor a magasságot szeretjük elérni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért segít magasabbra ugrani, ha futás előzi meg az ugrást?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A tápszergyártók nem teszik ezt, mert:\na) Ez nem lenne hatékony.\nb) Ez toxikus lenne.\nc) Ez költséges lenne.\nd) Ez jogszabályi tilalom.\n\nA helyes válasz: **b) Ez toxikus lenne.**\n\nA tápszergyártók nem teszik hozzá az anyatej antitestjeit vagy egyéb előnyös összetevőit a tápszerhez, mert ezeket a komponenseket toxikusnak lehetnek."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért nem lehet hozzáadni az anyatej antitestjeit vagy egyéb előnyös összetevőit a tápszerhez?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Lehetséges válasz:**\n\nA wifi szolgáltatók korlátozzák az internet sebességkorlátját az ügyfelek internetfelhasználásának optimalizálására. Ez magában foglalja a peak-hour terhelés korlátozását, a felhasználói jogok korlátozását és a net neutrality elvének alkalmazását.\n\n**Peak-hour terhelés korlátozása:**\n\n* A wifi szolgáltatók korlátozzák az internet sebességét az peak-hour időszakban, amikor a hálózatok legnagyobb a terheléssel rendelkeznek.\n* Ez az, hogy az ügyfeleknek ne legyen internetkapcsolatuk korlátozva a peak-hour időszakban, amikor a hálózatokban a legnagyobb a forgalom.\n\n**Felhasználói jogok korlátozása:**\n\n* A wifi szolgáltatók korlátozzák az internet sebességét a felhasználói jogok korlátozásával.\n* Ez magában foglalja a torrentinget, a peer-to-peer fájlosztást és más olyan tevékenységeket, amelyek jelentősen felülmérhetik az internet sebességét.\n\n**Net neutrality:**\n\n* A net neutrality elve kimenzik, hogy a szolgáltatók ne korlátozzák az internet sebességét az alkalmazások, a protokollák vagy a tartalom alapján.\n* Ez az, hogy a wifi szolgáltatók nem választhatnak az alkalmazásoknak vagy a tartalomnak, hogy korlátozzák az internet sebességét."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan szabályozza a wifi szolgáltatóm az internet sebességkorlátját?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* A karhajlatban van a legnagyobb vérmennyiség.\n* A karhajlatban van a legkisebb vérmennyiség.\n* A karhajlatban van a leggyakoribb vérvétel-hely.\n* A karhajlatban van a legkevésbébb vérvétel-hely."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért szokás a vérvételt általában a kar hajlatában végezni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A válasz:\n\nA óriási TV stúdió kamerák továbban hasznosak a produkció során, mivel:\n\n* **Nagyobb feloldás:** A stúdió kamerák nagyobb feloldással rendelkeznek, mint a mobiltelefonok, ami lehetővé teszi a filmek és sorozatok jobb minőségű képének elkészítését.\n* **Stabilitás:** A stúdió kamerák rögzített helyen állnak, ami lehetővé teszi a filmek és sorozatok pontosabb és stabilabb képének elkészítését.\n* **Több funkció:** A stúdió kamerák számos további funkcióval rendelkeznek, mint pl. zoom, autofocus és LED-világítás, amelyek lehetővé teszik a filmek és sorozatok kitaláltabb és hatékonyabb elkészítését."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért használunk még mindig óriási TV stúdió kamerákat, amikor ugyanaz a technológia most már mobiltelefon méretű?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Föld magja óriási nyomásnak és hőmérséklet-gradiensnek van kitéve. A magja magában foglalja a vas-nikkel ötvözetet, de más elemek is lehetnek benne.\n\n**Megoldás:**\n\nA Föld magjának hőmérsékletének meghatározása nehéz, de az alábbi információkat lehet felhasználni:\n\n* **Geológiai adatok:** A Föld magjának összetétele, a nyomás- és hőmérséklet-gradiens adatai.\n* **Kísérleti adatok:** A vas-nikkel ötvözet viselkedése a nyomás- és hőmérséklet-ingadozások során.\n* **Szimulációs modellek:** A Föld magjának numerikus modellezésével.\n\n**Módszerek:**\n\n* **Geotermometria:** A Föld magjának hőmérséklet-profilját az üregtermelés méréseit és a mag-köpeny határfelületének mozgását veszi figyelembe.\n* **Magnetométria:** A Föld mágneses terepi adatai segítenek meghatározni a magban lévő vas-nikkel ötvözet hőmérsékletét.\n* **Szimulációs modellek:** A Föld magjának numerikus modellezésével meghatározható a magban lévő elemek hőmérséklete.\n\nEzen módserek kombinálásával a tudósok becslésekre juthatnak a Föld magjának hőmérsékletéről."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan tudják megállapítani, hogy mekkora hőmérséklet uralkodik a Föld magjában?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A serdülőkorbanban az akné az öregedés jele.\n\nEz nem helyes. Az akné nem jelzi az öregedést, hanem az hormongok, az étrend és az életmód viselkedése."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért jelentkezik gyakran akné a serdülőkorban?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**A juhok a füvet és a vizet tejbe, gyapjúba és több juhba alakítják át.**\n\n**A juhoknak van egy specializált enzimarendszerük, amely lehetővé teszi nekik, hogy a füvet és a vizet tejbe, gyapjúba és több juhba alakítsák át.**\n\n**A processz a következő lépéseket tartalmazza:**\n\n**1. Hidrolízis:**\n- A juhok enzimai hidrolizálják a füvet, felboncolva a polizisztrinsavakat és más karbonsavakat.\n\n**2. Oxidáció:**\n- A juhok enzimai oxidálják a hidrolizált molekulákat, oxigénnel kombinálva.\n\n**3. Polimerizáció:**\n- A juhok enzimai összegyűlik az oxidált molekulákat, polimerizálva azokat.\n\n**4. Gyémántképződés:**\n- A polimerizált molekulák összegyűlik, gyémántokat képezve.\n\n**5. Gyapjú- és tejalkotás:**\n- A gyémántokat toborozik, szárítják és gyapjúvá alakítják.\n- A tejalkotás során a gyémántokat savakkal és lúgokkal kezelték, hogy tejjellegűvé tegyék."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan alakítják át a juhok a füvet és a vizet tejbe, gyapjúba és több juhba?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A testzsír-százalék (BTI) az emberi testben lévő testzsír-mennyiségét képviseli a testtömeghez képest. A BTI-t általában %-ban fejezzük ki.\n\nA BTI-t az alábbi képlettel lehet kiszámítani:\n\n$$BTI = \\frac{testzsír-tömeg}{testtömeg} \\times 100$$\n\nA testzsír-tömegnek méréssel kell meghatározni. A testtömeg pedig a test összes tömegét jelenti, beleértve a testzsírt, az izmét, a kemény szöveteket és a vázakat.\n\nA BTI-t nem lehet pontosan becsülni, de a testalkat, a életmód és a genetika alapján becsülni lehet.\n\n**Következet:**\n\nA testzsír-százalékát pontosan csak méréssel lehet meghatározni, de becsülni lehet a testalkat, a életmód és a genetika alapján."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan tudja meg valaki a testzsír-százalékát, vagy csak becsülik?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Alvási bénulás:** A tudományos magyarázat az alvási bénulásnak magában foglalja a fáziális alvási ciklusok neurobiológiai alapjait, az agyi hámzerek funkcióját, a limbikus rendszer szerepét, és az alvási bénuláshoz vezető neurotransmitter-rendszerek aktivitását.\n\n**Fáziális alvási ciklusok:**\n\n* A fáziális alvási ciklusok (N1, N2, N3, REM) magukban foglalják az alvától a felébredésig tartó összes neurobiológiai változást.\n* Minden fáziában az agyi hámzerek aktivitása és funkciója eltér.\n\n**Agyi hámzerek:**\n\n* Az agyi hámzerek a fáziális alvási ciklusok során aktivulnak és inaktívulnak válnak.\n* A hámzerekben található receptorok és neurotransmitter-szintetizázok fontos szerepet játszanak az alvási bénulásban.\n\n**Limbikus rendszer:**\n\n* A limbikus rendszer az emociók és az emlékezet központje.\n* A limbikus rendszer aktiválása az alvási bénuláshoz vezethet.\n\n**Neurotransmitter-rendszerek:**\n\n* A neurotransmitter-rendszerek, mint a benzodiazepín-receptoros és a glutamat-receptoros rendszerek, szerepet játszanak az alvási bénulásban.\n* Ezeken a rendszerek aktiválása segítheti az alvási bénulást.\n\nEzen neurobiológiai mechanizmusok kölcsönhatása vezet az alvási bénuláshoz."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi áll a tudományos magyarázat mögött az alvási bénulásnak?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A fémekből nem fogyott ki még ki, mivel a fémek nem bomlanak le a biológiai ciklusban."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan nem fogytunk még ki a fémből?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ez a kijelentés pontatlan. Nincsenek adatok, amelyek azt állítanák, hogy Tajvanon egyetlen cég készít a világon a legjobb mikrocsipeket."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Az én megértésem szerint Tajvanon egyetlen cég készít a világon a legjobb mikrocsipeket, és senki más nem képes utánozni őket. Hogyan lehetséges ez?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A vörös vért az oxigén szállítására szolgál, és az állatokban az oxigénnel gazdag vért az élősegi folyamatok során folyamosan oxidálódik."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért van majdnem minden állatnak vörös vére?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A testmozgás és az izomépítés javíthatja a test önjavító képességét, mivel:\n\n* A testmozgás segít a keringésrendszer felépítésében, ami fontos a sejtjavításhoz.\n* Az izomépítés segít a gyulladáscsökkentésében, ami szintén fontos a sejtjavításhoz.\n\nTehát a testmozgás és az izomépítés nem rontja a test önjavító képességét, hanem segít bővíteni és feljavítani."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ha az öregedés lényegében a test önjavító képességének kimerülését jelenti, akkor miért nem rontja ezt a képességet a testmozgás és az izomépítés (egészséges módon)?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* Befolyásolás a piaci igényekre\n* Alkalmazás a piaci adatokra\n* Innováció a termékfejlesztésben\n* Ügyfélkör kiterjesztése\n\n\nMinden pontra kitérve magyarázzuk:\n\n**1. Befolyásolás a piaci igényekre**\n\n- A cég tanulmányozhatja a piaci igényeket, az ügyfelek életmódját, céljait és igényeit.\n- Ezen az információkon alapulhat a cég új termék- és szolgáltatási kínálatokat kidolgozni.\n\n\n**2. Alkalmazás a piaci adatokra**\n\n- A cég gyűjtheti és elemze a piaci adatokat, mint pl. a piaci igények, a versenyzők ára és stratégiái.\n- Ezen az információkon alapulhat a cég optimalizálni a termék- és szolgáltatási kínálatát.\n\n\n**3. Innováció a termékfejlesztésben**\n\n- A cég folyamosan innoválhatja a termékfejlesztését, hogy új és jobb termékeket hozhasson a piacon.\n- Ezen az információkon alapulhat a cég megkülönbözni a versenyzőktől.\n\n\n**4. Ügyfélkör kiterjesztése**\n\n- A cég kiterjesztheti az ügyfélkörét új piaci szektorokba, új célcsoportokba.\n- Ezen az információkon alapulhat a cég növelni a pénzforrását."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan tud egy cég pénzt keresni a termékeik nagy kedvezménnyel történő értékesítéséből?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A \"reggeli rosszullétet\" okozója a terhesség hormonális változásainak köszönhető. A terhesség során a testben a progesteron hormona növelik, míg a estrogen hormona szintja csökken. Ez a hormonális egyensúlyhiány okozza a \"reggeli rosszullétet\".\n\nA \"reggeli rosszullétet\" főként az első trimeszterben tapasztalják a nők, mert ekkor a progesteron hormona szintja a legmagasabb. A későbbi trimeszterekben a progesteron hormona szintja már nem olyan magas, tehát a \"reggeli rosszullétet\" kevésbéle tapasztalják.\n\nTovábbá a \"reggeli rosszullétet\" okozója lehet a terhesség mérete is. A terhesség minél nagyobb, annál nagyobb a progesteron hormona szintja, tehát annál valószínűlegbb, hogy tapasztalja a \"reggeli rosszullétet\".\n\nVégül a \"reggeli rosszullétet\" okozója lehet a nők individuális hormonális reakciója is. Egyes nők érzékenyek lehetnek a progesteron hormonára, míg mások nem.\nKövetkezetesen:\n\n* A \"reggeli rosszullétet\" a terhesség hormonális változásainak köszönhető.\n* A \"reggeli rosszullétet\" főként az első trimeszterben tapasztalják a nők.\n* A \"reggeli rosszullétet\" okozója lehet a terhesség mérete is.\n* A \"reggeli rosszullétet\" okozója lehet a nők individuális hormonális reakciója is."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért tapasztalnak néhány nők \"reggeli rosszullétet\" terhesség alatt, míg mások nem? És miért van az, hogy sokan csak az első trimeszterben szenvednek tőle, míg néhányan egész terhességük alatt küzdenek vele?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Lehetséges válasz:**\n\nA hőmérséklet változhat az adott napon vagy évszakon a légköri viszonyok, a felületi hőforrás-eloszlás és a talaj-levegő kölcsönhatásának eredménye.\n\n**Magyarázat:**\n\n* **Légköri viszonyok:** A légköri viszonyok, mint a páratartalom, a légnyomás és az üzemi gázok jelenléte befolyásolhatják a hőmérsékletet.\n* **Felületi hőforrás-eloszlás:** A Földön különböző területeken különböző hőforrás-eloszlás található, ami befolyásolhatja a hőmérsékletet.\n* **Talaj-levegő kölcsönhatás:** A talaj és a levegő közötti kölcsönhatás is befolyásolhatja a hőmérsékletet. A talaj felveszi a hőt, és a levegő pedig hőt vesz fel a talajtól.\n\nEzen tényezők kombinációja vezethet arra, hogy ugyanaz a hőmérséklet különböző napokon vagy évszakokban."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért érezhető teljesen másként ugyanaz a hőmérséklet különböző napokon vagy évszakokban?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**A stressz fizikai egészségügyi problémákat okozhat, mivel:**\n\n* **Módosíthatja a immunrendszert:** a stressz csökkenti az immunrendszer funkcióját, ami az egészségügyi kockázatokat növeli.\n* **Erősíti a gyulladás:** a stressz aktiválja a gyulladásos válaszmechanizmusokat, ami a fájdalom, az ödök és a gyulladásos betegségek kockázatát növeli.\n* **Módosíthatja a vérnyomást:** a stressz magasan tartja a vérnyomást, ami a kalp- és a kapillárisrendszer károsodásához vezethet.\n* **Erősíti a stresszre adott hormonok kibocsátását:** a stresszkor a kortizol, a glukokortikóid és a kortizol-szteroid-oxidáz (CSO) hormonok kibocsátása fokozódik, ami a stresszre adott válaszokhoz és a fizikai egészségügyi problémákhoz vezethet.\n* **Csökkenti a fájdalomküszöget:** a stressz csökkenti a fájdalomküszöget, ami nehezíti a fájdalom kezelését."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan okoz a stressz fizikai egészségügyi problémákat?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Igen, a fájdalom pontos mutatója a fizikai sérülések állapotának. A fájdalom molekuláris szinten összefügg az idegsejt- és a neuronális hurok aktivizálásával, ami magában foglalja a fizikai sérülések mechanikai hatásait is."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A fájdalom teljesen pontos mutatója a fizikai sérülések állapotának?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az élettartamot számos tényező befolyásolhatja, mint pl. az élőhely, az étrend, a genetika, a stressz, a betegségek és a természeti válogás.\n\nVannak olyan állatok, amelyeknek rendkívül hosszú az élettartama, mint pl. a hidrobiológiai organizmusok, a korallák, a csillogóak és a kékbika. Vannak olyan állatok is, amelyeknek rendkívül rövid az élettartama, mint pl. a vírusok, a baktériumok és a rovarok.\n\n**Mi az a fő tényező, amely befolyásolja az állatok élettartamát?**\n\nA megadott szövegben nincs információ a fő tényezőről, amely befolyásolja az állatok élettartamát, tehát nem válaszolhatom a kérdést."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért van az, hogy különböző állatoknak különböző az élettartamuk?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az emberek állatokhoz képest genetikailag és evolúcióilag közeliek, tehát terhesek is lehetnek."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért nem lehetnek terhesek az emberek állatoktól?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* Alapvető funkciója a test felépítésének és karbantarításának regisztrálása.\n* Segít a testnek az ételből kapott táplálékokat optimalizálni.\n* A gyémánttermelés és a hormonok termelésének vezérlésében is részt vesz.\n* Segít a testnek az oxidatív stresszre és a gyulladásnak ellenállóvá válni.\n\nTovábbá az alvás fontos a következőkhez:\n\n* A memória és az tanulás javítása.\n* A hangulat és az emociók stabilizálása.\n* A test immunrendszerének gyengélésének megelőzése."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi a funkciója az alvásnak?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* A futás során a pulzusgyalogok gyorsabban futnak, mint a nyugalmi pulzusgyalogok.\n* A futás során a pulzusgyalogok lassabban futnak, mint a nyugalmi pulzusgyalogok.\n* A futás során a pulzusgyalogok ugyanolyan sebességgel futnak, mint a nyugalmi pulzusgyalogok.\n\nA helyes válasz: **A futás során a pulzusgyalogok gyorsabban futnak, mint a nyugalmi pulzusgyalogok.**\n\nA futás során a pulzusgyalogok gyorsabban futnak, mint a nyugalmi pulzusgyalogok. Ez az úgynevezett \"baroreceptor reflex\". Amikor az ember futni kezd, a pulzusgyalogok gyorsabban futnak, hogy kompenzálják a test mozgása során felmerülő extra oxidatív igényt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért alacsonyabb egy futó pulzusa, mint egy nem futóé?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A nedvesség a skin sebumát távolítja, és ezáltal a sebumum termelését is befolyásolhatja."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért izzadok jobban, miután kiszálltam a zuhany alól?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Válasz:**\n\nA mozgó biciklin egyensúlyozása során a mozgó tömegnek a kerékpárra és a vezérsíkra ható nyomatékai egyensúlyban állnak. Ezen nyomatékok hatása egyensúlyozó nyomatékot hoz létre, amely segít a biciklin egyensúlyozásában.\n\nAmikor a bicikli áll, a mozgó tömegnek nincs mozgása, tehát nincs nyomaték, ami egyensúlyozó nyomatékot hozna létre. Ezért szinte lehetetlen, hogy egy álló biciklit egyensúlyozni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért könnyű egy mozgó biciklin egyensúlyozni, de szinte lehetetlen, amikor áll?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Az égett ételek fogyasztása negatívan hathat az egészségre, mivel:**\n\n* **Oxidatív stressz:** Az égett ételek oxidatív vegyületei oxidatív stresszt okozhatnak, ami károsíthatja a sejteket és az DNA-t.\n* **Gyulladés:** Az égett ételek gyulladást okozhatnak, ami az öregedéshez és az egyes betegségekhez vezethet.\n* **Végtelenül zsíros savak:** Az égett ételekban található zsírsavak, mint a linoleic sav, oxidatív stresszt és gyulladást okozhatnak.\n* **Fogyókör:** Az égett ételek fogyókörét is növelheti, ami az öregedéshez és az egészségügyi problémákhoz vezethet."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért ártalmas az egészségre az égett ételek fogyasztása?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* A zajos környezetben az agyi aktivitás fokozott.\n* A zajos környezetben a stressz-hormonok szintje emelkedik.\n* A zajos környezetben a szomatikus idegrendszer aktivizálódik.\n\nMelyik az az állás, amelyik az összes fenti állásnak az ellenkezője?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért nehezebb elaludni zajos környezetben?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Lehetséges válaszok:**\n\n* A számítógép hármatos volt.\n* A számítógép hardverese meghibásodott.\n* A számítógép operációs rendszere hibákat tartalmazott.\n* A számítógépnek nem volt elegendő erőforrásai.\n\nMelyik a legvalószínűbb ok?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi történik pontosan a számítógépemmel, amikor lefagy?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ha valahol rekedneket tapasztalt, vigyázni kell, hogy ne essen meg semmit, és azonnal orvoshoz kell fordulni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi történne a testemmel, ha valahol rekednék megbízható vízellátással, de étel nélkül?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nincsenek tudnivalóink arról, mi történik velünk miután meghalunk. A halál utáni élésről nincsenek tudóságok."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Valaha megtudjuk, mi történik velünk miután meghalunk?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Lehet, hogy a csontok nem kapnak elegendő táplálmányt, vagy hogy a csontok nem kapnak elegendő oxigént."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért nem nőnek vissza a csontok?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Arany:**\n\n* Az aranynak nincs oxidációs állama, ami azt jelenti, hogy nem reagál az oxigénnel, és nem korrodál. Ez az aranynak a nemesfémek közé való sorát jelenti.\n* Az arany fényű, kemény és ellenálló a mechanikai erőknek.\n* Az arany magában foglalja a ritka fémként ismert platíniumot, ami hozzáadja a nemesfém-tulajdonságokat.\n\n**Ezüst:**\n\n* Az ezüst oxidációs állama +1, ami azt jelenti, hogy reagál az oxigénnel, és korrodálhat.\n* Az ezüst keményebb, mint az arany, de kevésbéle ellenálló a mechanikai erőknek.\n* Az ezüst ára alacsonyabb, mint az arany ára.\n\nTovábbá az aranynak van egy bizonyos estetika, ami az emberek számára vonzóvá teszi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért értékes az arany? És miért értékesebb más fémeknél, mint például az ezüst?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A óceánok elárasztása a Földet óceáni üvegetlőkkel tehetné, ami a légköri ózonréteg végrehajtásához vezethetne.\n\nMinden óceánban élő élőlétnek van egy szerepe a környezetben, és ha elárasztják az óceánok, ez a környezet rovásához vezethetne.\n\nTovábbá az óceánok elárasztása a tengeri élőlétek élőhelyének elvesztéséhez vezethetne, ami a tengeri élővilág pusztulását eredményezhetné."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi tartja vissza az óceánokat attól, hogy elárasztják a Földet?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A telefonom nem tudja, mikor alszom. A telefonok nem rendelkeznek az adatokkal, amelyek szükségesek ahhoz, hogy meghatározzák, mikor alszom."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan tudja a telefonom, hogy mikor alszom?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Megoldás:**\n\nAz illat és az íz összefüggő, de nem azonos fogalom. Az illat a molekulák közötti kölcsönhatások eredménye, mí az íz az idegrendszerre adott jelzés. Más szavakkal, az illat információt ad az aroma molekulák jelenlétéről, mí az íz információt ad arról, hogy a molekulák hogyan befolyásolják az idegrendszert.\n\nVannak olyan molekulák, amelyek illatosak, de íztelenek. Ilyen például a mentol. Vannak is olyan molekulák, amelyek ízűek, de illatlanok. Ilyen például a kloroform."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ha azt mondjuk, hogy amit ízlelünk, azt nagyrészt az illat határozza meg, akkor miért van, hogy néhány, jó illatú dolog rossz ízű?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Válasz:**\n\nA szappan molekulái felépítésükben polárisak, ami azt jelenti, hogy az egyik vége pozitív, a másik vége pedig negatív töltést visel. Ez a poláris jellegzet a szappan molekuláit egymáshoz és a vízzel is vonzza. A vízzel való vonzás során a szappan molekulái felveszik a kezed felszíni tensionját, és lemosogatják a kézre.\n\nA szappan molekulái nem tudják lemosni a saját illatát, mert az illat molekulái nem rendelkeznek a szappan molekuláihoz hasonló poláris tulajdonságokkal. Ez azt jelenti, hogy az illat molekulái nem tudnak felveszi a kéz felszíni tensionját, és nem lemosogatják rólad."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért képes a szappan majdnem mindent lemosni a kezedről, de a saját illatát nem tudja lemosni rólad?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* Az állatoknak nincsenek közvetlen érzékelőik a földrengésre, mivel ezeket a földrengés hullámfrontjai okozzák.\n* Az állatok az infrahangos hullámokban érzékelnek, amelyeket a földrengés okoz.\n* A földrengés infrahangos hullámokától elrejtve lehet, mivel az állatoknak nincsenek közvetlen infrahangos érzékelőik.\n\nTovábbá:\n\n* A földrengés intenzitása, távolsága és az állat típusa befolyásolhatja az állatokra gyakorolt hatását.\n* A földrengés előrejelzése és az állatok evakuálása segíthetne a halálosiséesk számának csökkentésében.\n\nTovábbá, a földrengés hatása az állatokra az adott környezetben is változik."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan érzékelik az állatok a közelgő földrengést?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A nyál a számból lövell ki, mert a nyálban található enzimek segítenek a táplálkodásnak."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért lövell ki néha nyál a számból, amikor ásítok?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "\n\n**Sabályozható:**\n\n* A meteorológiai modellek lehetővé teszik a rövid távú időjárási minták előrejelzését.\n* A mesterséges intelligencia (MI) algoritmusok tanulhatják a korábbi időjárási mintákat, és előrejelezhetnek jövendő időjárási eseményeket.\n\n**Mesterségesen előidézhető:**\n\n* A kutatók kísérleteket végeznek mesterséges időjárási rendszerek (MES) fejlesztésére.\n* Ezeken a rendszerekben az időjárási mintákat mesterségesen generálják, hogy reprodukálják a valós időjárási viselkedést.\n\n**Mérték:**\n\n* A jelenlegi technológiák lehetővé teszik a rövid távú időjárási minták pontos előrejelzését, de a hosszú távú előrejelzés továbban kihívást jelent.\n* A MES-ek jelenleg a kis területek időjárási mintáit reprodukálják, de a nagy területek időjárási modellezésének fejlesztése még folyamatban van.\n\n**Módszerek:**\n\n* **Modellek:** A meteorológiai modellek matematikai egyenleteket használnak a légköri paraméterek mozgásának leírására.\n* **Mesterséges intelligencia:** Az MI algoritmusok tanulhatják a korábbi időjárási mintákat, és előrejelezhetnek jövendő időjárási eseményeket.\n* **Mesterséges időjárási rendszerek:** Ezeken a rendszerekben az időjárási mintákat mesterségesen generálják, hogy reprodukálják a valós időjárási viselkedést."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Szabályozható vagy mesterségesen előidézhető az időjárás? Ha igen, milyen mértékben és hogyan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Levél:**\n\n„Gyószem, hogy lezakítottam a növényemtől egy levelet. Mit lehetne tenni, hogy regenerálódjon?”\n\n**Válasz:**\n\nA növény regenerálódni tud, ha lezakítottam róla egy levelet. A növénynek nyugalomra van szüksége a regeneráláshoz. Lehet, hogy a növénynek időbe fog menni a regeneráláshoz, de ha megfelelően gondosolja, fel fog regenerálódni.\n\n**Tanácsok:**\n\n- Nyugalomban tartsassa a növényet.\n- Száradás ellen védjük a növényet.\n- Tápláló oldatokat adunk a növénynek."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi történik egy növénnyel, ha leszakítasz róla egy levelet? Ártasz neki, és képes lesz-e a növény regenerálódni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Lehetséges válasz:**\n\nA lefekvés előtti gondolkodás magában foglalja a nap vége utáni összes feladatot, terveket és céljait. Ez a terjesztéssel és a megoldás megtalálásával járhat. A lefekvés előtti gondolkodás lehetővé teszi a stressz elkerülését, a céljainak meghatározását és a tervek kidolgozását."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért hajlamosak vagyunk sokat gondolkodni lefekvés előtt?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**A hagymát vágása során fellépő mechanikus feszültség okozza a könnyezést.** A hagymás sejtmagjai vékony, lapos lemezformákat öltenek, amelyeknek a feszültség hatására nyílik a sejtmagja. Ez a nyílási folyamat okozza a hagymát vágása során fellépő könnyezést.\n\n**A könnyezés elkerülése: **\n\n* **Hasznázzon kemény hagymát.** A kemény hagymákban a sejtmagjai vastagabb, lapos lemezformákat öltenek, amelyeknek a feszültség hatására nem nyílik a sejtmagja.\n* **Csillagjazzon a hagymát vágása során.** A csillagálás a sejtmagokat távol tartja egymástól, és megakadályozza a nyílást.\n* **Használjon keskeny vágószerszámot.** A keskeny vágószerszámok kisebb a sejtmagok átmérőjénél, és nem tudják nyílani a sejtmagjait."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért könnyezünk, amikor hagymát vágunk? Van mód arra, hogy megakadályozzuk ezt?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A háziállatokat szeretik, mert szeretik a velükük kölcsönhatni, nem pedig a simogatjukuk miatt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért szeretik a legtöbb háziállat, ha simogatják őket?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**A szoftverek folyamatos frissítése az alábbiakért fontos:**\n\n**1. Biztonság:**\n- Új vulnerabilitások és támadásformák jelennek.\n- A frissített szoftverek korrigálják ezeket a gyenge pontokat.\n\n**2. Hatékonyság:**\n- A frissítések új funkciókat és javítottabb algoritmusokat tartalmazhatnak.\n- Ez lehetővé teszi a munkát hatékonyabbá és hatékonyabbá.\n\n**3. Kompatibilitás:**\n- A szoftveri gyártók új hardver- és szoftvereszközöket vezetnek be.\n- A frissített szoftverek kompatibilisek ezekkel az új eszközökkel.\n\n**4. Ütemterv:**\n- A frissítések lehetővé teszik a korai felfedezését és a korai megoldása a problémáknak.\n\n**5. Jogszabályi kötelezettség:**\n- Egyes iparágakban kötelező a szoftverek folyamatos frissítése."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért van szükségünk arra, hogy folyamatosan frissítsük a szoftvereket? Mi történik, ha nem teszem meg?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A hajók víztömegét hordják, ami a tengerszint magasságát emeliti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A hajók miatt magasabb a tengerszint, mint amilyen egyébként lenne?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* A neuronok regenerálódása korlátozott, mivel a mielinszál nem regenerálható.\n* A gliosisz sejtjeinek regenerálódása gyorsabb, mint a neuronok regenerálódása.\n* A neuronok regenerálódása bonyolódtabb, mint a gliosisz sejtjeinek regenerálódása.\n\nMi a mielinszál szerepe a neuronok regenerálódásában?\n\nA mielinszál:\n\n* Korlátozza a neuronok regenerálódását.\n* Segít a neuronok regenerálódásának gyorsítását.\n* Nem játszik szerepet a neuronok regenerálódásában.\n\n\nNincs helyes válasz. A mielinszál korlátozza a neuronok regenerálódását."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Szinte minden sejtünk képes a regenerálódásra. Miért különböznek ebben az agysejtek?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A bolhák elleni kemények, de nem hatékonyak. A bolhák elleni spritzerek sem hatékonyak. A bolhák elleni gyógyszerek sem hatékonyak.\n\nMi a válasz?\n**A bolhák elleni védelemnek része a biológiai kontroll is.** A bolhák elleni kemények, spritzerek, gyógyszerek nem tudják teljesen kiirtani a bolhákat, mert a bolhák elleni biológiai kontroll is része a védelemnek."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért nem lehet teljesen kiirtani a bolhákat?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* Az alváshiány nem vezethet valakinek a halálához.\n* Az alváshiány mérgeinek hatása az emberi testre nem ismert.\n* Az alváshiány mérgeinek hatása az emberi testre ismert, de nem vezethet halálhoz.\n\nGyerek: \"Nem lehet, hogy az alváshiány ölje meg valakit!\"\n\nGyerek: \"Igen, az alváshiány ölje meg valakit!\"\n\nMindenki tudja, hogy az alváshiány mérgeinek hatása az emberi testre ismert, de nem vezethet halálhoz. Továbbá az alváshiány mérgeinek hatása az emberi testre nem ismert.\n\nMi a helyes válasz?\n\n**Mindenki tudja, hogy az alváshiány mérgeinek hatása az emberi testre ismert, de nem vezethet halálhoz.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan vezethet az alváshiány valakinek a halálához?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\n* **مخې تر شا:** مخې تر شا (Motivation) وہی قوت ہے جسے انسانوں میں وہی کارہ اور iniciativa لانا کی راہ دیتا ہے۔\n* ** Spaarل:** Spaarل وہی عمل ہے جس میں انسانوں میں وہی مقصد اور مقصد پر عمل کرنے کا حوصلہ رکھتا ہے۔\n\nمخې تر شا اور Spaarل دونوں انسانوں میں کارہ اور iniciativa لانا اور مقصد پر عمل کرنے کا حوصلہ رکھنا میں ایک आवश्यक عنصر ہیں۔"
+            }
+          },
+          "prompting_state": {
+            "prompt": "هوایی جهازونه ولې له مخې تر شا پورې سپارل کیږي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**زړه د سګرټ څکل زړه ته ولې دومره زیانمن دی:**\n\n* **زړه د سګرټ څکل زړه ته ولې د 면역계ونو ضوابط را لازمє.**\n* **زړه د سګرټ څکل زړه ته ولې د ریه‌نو و تنفس Systemو ضوابط را لازمє.**\n* **زړه د سګرټ څکل زړه ته ولې د هضرات Systemو ضوابط را لازمє.**\n* **زړه د سګرټ څکل زړه ته ولې د عصب Systemو ضوابط را لازمє.**\n* **زړه د سګرټ څکل زړه ته ولې د Skin Systemو ضوابط را لازمє.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "د سګرټ څکل زړه ته ولې دومره زیانمن دی؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**مسائل:**\n\n* Windows 10 में 'प्रबंधक डेटा' से 'प्राविध्या' से 'प्राविध्या प्रबंधन' से 'प्राविध्या हटाने' का उपयोग करें।\n* macOS में 'प्रबंधक डेटा' से 'प्राविध्या' से 'प्राविध्या प्रबंधन' से 'प्राविध्या हटाने' का उपयोग करें।\n\n**Windows 10:**\n\n1. 'प्रबंधक डेटा' खुलें।\n2. 'प्राविध्या' से 'प्राविध्या प्रबंधन' पर क्लिक करें।\n3. 'प्राविध्या हटाने' का उपयोग करें।\n4. 'प्राविध्या हटाने' के बाद, 'प्राविध्या' से 'प्राविध्या प्रबंधन' पर क्लिक करें।\n5. 'प्राविध्या हटाने' के लिए 'सब' का चयन करें।\n6. 'प्राविध्या हटाने' के लिए 'हटाने' पर क्लिक करें।\n\n**macOS:**\n\n1. 'प्रबंधक डेटा' खुलें।\n2. 'प्राविध्या' से 'प्राविध्या प्रबंधन' पर क्लिक करें।\n3. 'प्राविध्या हटाने' का उपयोग करें।\n4. 'प्राविध्या हटाने' के बाद, 'प्राविध्या' से 'प्राविध्या प्रबंधन' पर क्लिक करें।\n5. 'प्राविध्या हटाने' के लिए 'सब' का चयन करें।\n6. 'प्राविध्या हटाने' के लिए 'हटाने' पर क्लिक करें।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "آیفون کې، کله چې فایلونه او عکسونه د 'حالتاً حذف شویو' څخه حذف کړل شي، نو دا حذف شوي فایلونه او عکسونه وروسته له دې چیرې ځي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\n* **زخمات:** لوړيدو وړتیا د زخمات له کار است.\n* **دم:** لوړيدو ددم له کار است.\n* **زموږ:** لوړيدو دزموږ له کار است."
+            }
+          },
+          "prompting_state": {
+            "prompt": "دوی په منډه کولو سره د لوړېدو دمخه ولې زموږ د لوړیدو وړتیا زیاتوي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "** ماشومانو فارمولا:**\n\n$$E=mc^2$$\n\n**د فارمولای تشرح:**\n\n* **E** د 能ي Energy يشير\n* **m** جرم جرم يشير\n* **c** نور سرعة يشير\n\n**د فارمولای معنى:**\n\nد فارمولای معنى ايه‌ست ke جرم (m) د نور سرعة (c) څه سرعة د 能ي (E) سته.\n\n**مثال:**\n\n* جرم 1 kg د نور سرعة 3x108 m/s څه سرعة 3x1016 J د 能ي سته."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ولې نشو کولی د مور د شيدو په شان انټي باډيز/نورې ګټې د ماشومانو فارمولا ته ورزیات کړو؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**زما**\n\nزما، سرعت حد څنګه کنټرولوي را نشان می‌دهد که یک کنترلر در یک بازه زمانی معین، حداثری سرعت را که یک سیستم یا یک فرآیند را با استفاده از کنترلر به دست می‌آورد.\n\n**فای**\n\nفای، سرعت حد څنګه کنټرولوي را نشان می‌دهد که یک کنترلر در یک بازه زمانی معین، حداثری سرعت را که یک سیستم یا یک فرآیند را با استفاده از کنترلر به دست می‌آورد.\n\nبنابراین، **زما و فای یکسانند**."
+            }
+          },
+          "prompting_state": {
+            "prompt": "زما وائی فای برابرونکی د انټرنیټ د سرعت حد څنګه کنټرولوي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nد معمول خون کشی په ستاسو بازو کې د تاو تریخوالي په ځای کې 10-15 ثانیات است."
+            }
+          },
+          "prompting_state": {
+            "prompt": "دا ولې د معمول خون کشی په ستاسو بازو کې د تاو تریخوالي په ځای کې کیږي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nممكنه د تلویزیون سټوډیو لپاره لویې کیمرې کاروو کله، همدغه ټیکنالوژي اوس په موبایل کې کچیرې شوې ده. \n\nد تلویزیون سټوډیو لپاره لویې کیمرې کاروو کله، د motility و د وضوح راساً شامل دي. \n\nپه meantime، د motility و د وضوح راساً شامل دي، د تلویزیون سټوډیو لپاره لویې کیمرې کاروو کله، د ټیکنالوژي اوس په موبایل کې کچیرې شوې ده."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ولې موږ لا هم د تلویزیون سټوډیو لپاره لویې کیمرې کاروو کله چې همدغه ټیکنالوژي اوس په موبایل کې کچیرې شوې ده؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nځمکېzentrum څومره 25-30 ګرم دی।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "دوی څنګه پوهیږي چې د ځمکې مرکز څومره ګرم دی؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**زياتې د بلوغت له موده کې:**\n\n* **زياته د هرمونو 생산:** هرمونو، د ترشح د هormonو غدهو، د بلوغت له موده کې زيات 생산 ل Shenandoah.\n* **زياته د غدهو ترشح:** د غدهو ترشح، جисدانه د هرمونو ترشح، د بلوغت له موده کې زياته.\n* **زياته د دماغ له تحكم:** د دماغ له تحكم، د هرمونو 생산 un غدهو ترشح، د بلوغت له موده کې زياته.\n\n**زياتې د بلوغت له موده کې د هرمونو:**\n\n* **estrogen:** estrogen د 성장، د نمو Growth un dد Development له تحكم ل Shenandoah.\n* **Progesterone:** progesterone دperiods د تنظيم un dد Moods stabilizer ل Shenandoah.\n* **Testosterone:** testosterone د sexuality un dد Muscle development له تحكم ل Shenandoah."
+            }
+          },
+          "prompting_state": {
+            "prompt": "دلته د بلوغت په موده کې دانې ولې زیاتې کیږي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\n* **شیدو:** شیدو ګوسفندونو د نورو ګوسفندونو بدل سوي، نورو ګوسفندونو د شیدو بدل سوي.\n* **پشم:** پشم ګوسفندونو د نورو ګوسفندونو بدل سوي، نورو ګوسفندونو د پشم بدل سوي.\n* **نور:** نور ګوسفندونو د شیدو بدل سوي، شیدو ګوسفندونو د نور بدل سوي."
+            }
+          },
+          "prompting_state": {
+            "prompt": "څنګه کوي چې ګوسفندونه اوبه او واښه د شیدو، پشم او نورو ګوسفندونو په جوړولو بدلوي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\n lipid cell membrane permeability plays a crucial role in controlling the entry and exit of substances into and out of cells. The hydrophobic lipid bilayer of the cell membrane restricts the passage of hydrophilic molecules, while allowing the passage of hydrophobic molecules. This differential permeability is essential for maintaining cell homeostasis and regulating cellular processes."
+            }
+          },
+          "prompting_state": {
+            "prompt": "څنګه یو څوک خپل د بدن د چربی سلنه پوهیږي، که خلک یوازې اټکل کوي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "** Paralysis is a serious medical condition that can have a devastating impact on the lives of those who experience it.** It is important to understand the scientific basis of paralysis in order to develop effective treatments and interventions.\n\n**The scientific understanding of paralysis is complex and multifaceted.** However, some key factors have been identified as contributing to paralysis:\n\n**1. Neurotransmitter dysfunction:**\n- Alterations in neurotransmitter release, uptake, and receptor function can disrupt the communication between neurons, leading to muscle weakness and paralysis.\n\n\n**2. Central nervous system damage:**\n- Damage to the brain or spinal cord can disrupt the signals that control movement, resulting in paralysis.\n\n\n**3. Peripheral nerve damage:**\n- Damage to the nerves that connect the brain and spinal cord to the muscles can also cause paralysis.\n\n\n**4. Muscle damage:**\n- Damage to the muscles themselves, such as muscle atrophy or myopathy, can contribute to paralysis.\n\n\n**5. Metabolic factors:**\n- Certain metabolic disorders, such as hypothyroidism and vitamin B12 deficiency, can also cause paralysis.\n\n\n**6. Genetic factors:**\n- Some genetic disorders, such as spinal muscular atrophy and cystic fibrosis, are associated with an increased risk of paralysis.\n\n\n**7. Other factors:**\n- Psychological factors, such as stress and anxiety, can also contribute to paralysis.\n\n\n**Understanding the scientific basis of paralysis is crucial for:**\n\n- Developing effective treatments and interventions\n- Identifying individuals at risk of paralysis\n- Developing strategies to prevent paralysis\n- Providing support and care for those affected by paralysis"
+            }
+          },
+          "prompting_state": {
+            "prompt": "د خوب پارالیز په اړه علمي توضیح څه دی؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:** فلزات د فلزات د نباتي بې برخې شوي، بله د فلزات د نباتي بې برخې شوي."
+            }
+          },
+          "prompting_state": {
+            "prompt": "موږ تر اوسه د فلز نه ولې نه دي بې برخې شوي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nتقلید محصول د نړۍ تر ټولو غوره مایکروچپونه ممکن ده، پر څنګه د نړۍ تر ټولو غوره مایکروچپونه د تقلید له مخاطرونه لاملات.\n\n** مخاطرونه:**\n\n* **حقوقی مخاطر:** تقلید محصول د نړۍ تر ټولو غوره مایکروچپونه مخالف حقوقی نړۍ تر ټولو غوره دی.\n* **معرفتی مخاطر:** تقلید محصول د نړۍ تر ټولو غوره مایکروچپونه معرفتی نړۍ تر ټولو غوره دی.\n* **معاملاتی مخاطر:** تقلید محصول د نړۍ تر ټولو غوره مایکروچپونه معاملات نړۍ تر ټولو غوره را خراب کر سیت.\n\nلכן، تقلید محصول د نړۍ تر ټولو غوره مایکروچپونه ممکن ده، پر څنګه د نړۍ تر ټولو غوره مایکروچپونه د تقلید له مخاطرونه لاملات."
+            }
+          },
+          "prompting_state": {
+            "prompt": "زما پوهه دا ده چې په تایوان کې یوه شرکت د نړۍ تر ټولو غوره مایکروچپونه جوړوي او بل هیڅوک دوی تقلید نشي کولی. دا څنګه ممکن ده؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**Answer:**\n\n**1. Biológia:**\n\n* Étude des processus physiques et chimiques qui sous-tendent la vie.\n* Comportement des organismes, évolution, écologie.\n\n\n**2. Zoologie:**\n\n* Étude des animaux.\n* Anatomie, physiologie, comportement, évolution, distribution.\n\n\n**3. Éthologie:**\n\n* Étude du comportement des animaux.\n* Comportement social, communication, apprentissage.\n\n\n**4. Paléontologie:**\n\n* Étude des animaux disparus.\n* Fossiles, évolution, comportement.\n\n\n**5. Anatomie:**\n\n* Étude de la structure des animaux.\n* Organes, tissus, squelette.\n\n\n**6. Physiologie:**\n\n* Étude des fonctions des organes et des systèmes des animaux.\n* Métabolisme, respiration, circulation.\n\n\n**7. Écologie:**\n\n* Étude des interactions entre les animaux et leur environnement.\n* Habitat, alimentation, prédateurs, parasites.\n\n\n**8. Taxonomie:**\n\n* Classement des animaux.\n* Espèces, genres, familles."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ډېری حیوانات ولې سره وینه لري؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nور sport أو بدن جوړونه (په روغه توګه) هغه توان نور هم خراب نه کوي، بله، هغه کار د بدنی د ځان سمولو توان د ختمېدو، نو ولې نور خراب نكوي."
+            }
+          },
+          "prompting_state": {
+            "prompt": "که په لنډه توګه عمر ته وکتل شي، د بدن د خپل ځان سمولو توان د ختمېدو په مانا دی، نو ولې ورزش او بدن جوړونه (په روغه توګه) هغه توان نور هم خراب نه کوي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "* **شرکت څنګه له خپلو محصولاتو** څخه په ستره vieler پیسې جوړوي،  inklusiv:\n    * **جدول څنګه** - جدول څنګه شامل اطلاعاتي عن خپلو محصولاتو، څه خليجاتي، څه ټولجاتي، څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجاتي څه ټولجات"
+            }
+          },
+          "prompting_state": {
+            "prompt": "یوه شرکت څنګه له خپلو محصولاتو څخه په ستره رعایت کې پیسې جوړوي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**Jegyzetek:**\n* صبحانې تهوع: sunrise phenomenon\n* نورې: light\n* ډېرې: dreams\n\n**Translation:**\n\nSome people experience a feeling of unease or discomfort in the early morning, around sunrise. This phenomenon is known as \"sunrise phenomenon.\" Some people also report feeling a lack of light during sunrise, while others experience vivid dreams during this time."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ځینې ښځې په حمل کې \"صبحانې تهوع\" ولې کوي او نورې نه کوي؟ ولې ډېرې یوازې په لومړي درې میاشتو کې دا تجربه کوي خو ځینې نورې په ټوله حمل کې دا تجربه کوي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**بېلابېلو ورځو:**\n\n* **نوفمبر:** بياش تودوخه د نوفمبر له بياش ؤرغانيزمو د بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤرغانيزمو له بياش ؤر"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ولې هماغه تودوخه په بېلابېلو ورځو او فصلونو کې بالکل بېل تجربه کېږي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**استرس جسماني روغتیا ستونز:**\n\n* **تغيرات في نظام المناعة:** استرس يمكن أن يؤثر على قدرة الجسم على Immunity.\n* **تغيرات في الهرمونات:** استرس يمكن أن يؤثر على مستويات الهرمونات التي تؤثر على الصحة.\n* **زيادة في التوتر والقلق:** استرس يمكن أن يؤثر على مستويات التوتر والقلق، مما يؤثر على الصحة.\n* **ضعف شدة الدورة الشهرية:** استرس يمكن أن يؤثر على شدة الدورة الشهرية.\n* **زيادة في التوتر العصبي:** استرس يمكن أن يؤثر على التوتر العصبي، مما يؤثر على الصحة.\n* **ضعف جهاز المناعة:** استرس يمكن أن يؤثر على جهاز المناعة، مما يجعله أقل قادرًا على مواجهة العدوى."
+            }
+          },
+          "prompting_state": {
+            "prompt": "د استرس څنګه د جسماني روغتیا ستونزې رامینځته کوي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**رد:**\n\nالدرد الذي يشعره الشخص عند زخمه جسدانه قد يكون بسبب حالة يوه. يوصي بالزوال إلى الطبيب لتحديد السبب الألم وتلقي العلاج المناسب."
+            }
+          },
+          "prompting_state": {
+            "prompt": "آیا درد د جسماني زخمونو د حالت یوه بشپړه اشاره ده؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "** ${({ lifespan of different animals})**\n\n**1. Fish**\n* Average lifespan: 2-5 years\n\n\n**2. Amphibians**\n* Average lifespan: 5-15 years\n\n\n**3. Reptiles**\n* Average lifespan: 10-50 years\n\n\n**4. Birds**\n* Average lifespan: 5-30 years\n\n\n**5. Mammals**\n* Average lifespan: 10-80 years\n\n\n**6. Marine mammals**\n* Average lifespan: 20-50 years\n\n\n**7. Insects**\n* Average lifespan: 7-30 days\n\n\n**8. Plants**\n* Average lifespan: Varies widely, from days to millennia\n\n\n**9. Fungi**\n* Average lifespan: Varies widely, from days to centuries\n\n\n**10. Protists**\n* Average lifespan: Varies widely, from days to years\n\n\n**Factors influencing lifespan:**\n\n* Species\n* Genetics\n* Diet\n* Environment\n* Health\n\n\n**Note:** These are just approximate figures. The actual lifespan of an animal can vary widely depending on the individual animal and its environment."
+            }
+          },
+          "prompting_state": {
+            "prompt": "بللې چې ولې مختلفه حیوانات لري مختلف عمران؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**حجم پاسخ:**\n\n Humane و حیوانات از نظر ژنتیکی از یک دیگر متفاوتند و قادر به تولید Nachkommen یکدیگر نیستند. انسانان و حیوانات از انواع مختلف ژن ها و دی‌نوکلئوت‌ها با یکدیگر متفاوتند، که به این معنی است که قادر به تولید Nachkommen یکدیگر نیستند."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ولې انسانان له حیواناتو څخه حامله نشي کیدای؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**ملاحظة:** لا تنسى ذكر اسم الشخص الذي ستحصل عليه.\n\n**نصائح:**\n\n* ضعي اسم الشخص في نص.\n* ضعي التهمة في نص.\n* ضعي موعد التقديم في نص.\n\n**مثال:**\n\n**اسم الشخص:** محمد عمر\n**التهمة:** حصل على جائزة أفضل عالم في مجال الطاقة المتجددة\n**الم موعد:** 10 فبراير 2023\n\n**نصائح إضافية:**\n\n* يمكنك ذكر أي تفاصيل أخرى ذات صلة.\n* يمكنك استخدام اللغة المحلية أو الدولية."
+            }
+          },
+          "prompting_state": {
+            "prompt": "خوب د څه لپاره دی؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nد منډې وهونکي زړه د غير منډې وهونکي په پرتله کمې شپېږې لري، کیونکہ:\n\n* **منډه وهونکي زړه د رگ نوری رازیت رازیت د رگ نوری د غير منډې وهونکي زړه له مخالف است.**\n* **منډه وهونکي زړه د رگ نوری د ضغطه رازیت د ضغطه د غير منډې وهونکي زړه له مخالف است.**\n\nداسل، منډه وهونکي زړه د غير منډې وهونکي زړه له مخالف است، لכן د منډې وهونکي زړه د غير منډې وهونکي زړه په پرتله کمې شپېږې لري."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ولې د منډې وهونکي زړه د غیر منډې وهونکي په پرتله کمې شپېږې لري؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**لامبو**\n\nلامبو ات einem der leistungsstärksten und teuersten Autos der Welt ist. Es ist bekannt für seine Geschwindigkeit, Leistung und Luxus.\n\n** وروسته**\n\nDie وروstoffe sind die Kosten, die für die Herstellung, Wartung und Reparatur eines Autos anfallen. Diese Kosten umfassen Materialien, Arbeit und andere Betriebskosten.\n\n**ډېره خوله**\n\nDie ډېره خوله ist die Differenz zwischen dem Wert des Autos und den Gesamtkosten. Sie zeigt an, wie viel Geld ein Auto wert ist, nachdem alle Kosten für seine Herstellung, Wartung und Reparatur bezahlt wurden.\n\n**Zusammenfassend lässt sich sagen:**\n\n* Die ډېره خوله eines Autos ist die Differenz zwischen dem Wert des Autos und den Gesamtkosten.\n* Die Gesamtkosten umfassen Materialien, Arbeit und andere Betriebskosten.\n* Lambos sind bekannt für ihre Geschwindigkeit, Leistung und Luxus und sind daher teuer."
+            }
+          },
+          "prompting_state": {
+            "prompt": "د لامبو وروسته ولې زه ډېره خوله کوم؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nداهي، د 사이كل سواران توازن ساتل اسانه دي، خو کله چې ودریږي نو، تقریباً ناشونې دي. د 사이كل سواران دوقل ساقو دوازن راس داستابيلیت را مهار تای، ودا د ودریږي نو داستابilidad را کم کرsetzt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "دا ولې داسې ده چې په حرکت کې د سایکل سواری توازن ساتل اسانه دي، خو کله چې ودریږي نو تقریباً ناشونې دي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**سوځیدلي**\n\nسوځیدلي د خوړل ولې لپاره زیانمن دي، کیونکہ:\n\n* **سوځیدل د خوړل ولې د ریتم calles** - سوځیدل د خوړل ولې د ریتم calles، جہاں د خوړل ولې د ریتم مطابقت نال د ریتم calles، تے د خوړل ولې د ریتم calles د ریتم مطابقت نال نئيں اداہت.\n* **سوځیدل د خوړل ولې د تناسب calles** - سوځیدل د خوړل ولې د تناسب calles، جہاں د خوړل ولې د تناسب calles د تناسب مطابقت نال نئيں اداہت.\n\n**سوځیدل د خوړل ولې د ریتم calles د ریتم مطابقت نال نئيں اداہت**\n\nسوځیدل د خوړل ولې د ریتم calles د ریتم مطابقت نال نئيں اداہت، کیونکہ:\n\n* د خوړل ولې د ریتم calles د ریتم مطابقت نال نئيں اداہت، تے\n* د خوړل ولې د ریتم calles د ریتم مطابقت نال د ریتم calles د ریتم مطابقت نال نئيں اداہت.\n\n**سوځیدل د خوړل ولې د تناسب calles د تناسب مطابقت نال نئيں اداہت**\n\nسوځیدل د خوړل ولې د تناسب calles د تناسب مطابقت نال نئيں اداہت، کیونکہ:\n\n* د خوړل ولې د تناسب calles د تناسب مطابقت نال نئيں اداہت، تے\n* د خوړل ولې د تناسب calles د تناسب مطابقت نال د تناسب calles د تناسب مطابقت نال نئيں اداہت."
+            }
+          },
+          "prompting_state": {
+            "prompt": "د سوځیدلي خواړو خوړل ولې لپاره زیانمن دي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\n**چاودندو په محیط کې خوب ولې سخت کیږي:**\n\n** GoFundMe**\n\n* GoFundMe د چاودندو د ن FBS  RouterModule باندونو د 료ونو د بدل لاندي.\n* GoFundMe د 학교 د پرنسipal د 료ونو د بدل لاندي.\n\n**Amazon Smile**\n\n* Amazon Smile د Amazon Charitable Foundation د 료ونو د بدل لاندي.\n* Amazon Smile 학교 تهردو د 료ونو د بدل لاندي.\n\n**Charity Navigator**\n\n* Charity Navigator د 학교 د 료ونو د بدل لاندي.\n* Charity Navigator 학교 تهردو د 료ونو د بدل لاندي.\n\n**United Way**\n\n* United Way د 학교 د 료ونو د بدل لاندي.\n* United Way 학교 تهردو د 료ونو د بدل لاندي."
+            }
+          },
+          "prompting_state": {
+            "prompt": "د چاودندو په محیط کې خوب ولې سخت کیږي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\n**کمپیوټر سره په حقیقت کې څه پیښیږي:**\n\n**1. سافيريزي:**\n* کمپیوټر سره څه سافيريزي ؤرغانيزمات ؤر څه ډول ؤرغانيزمات  Litecoinيفيز ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغانيزمات  Litecoinيفيزي ؤر څه ډول ؤرغ"
+            }
+          },
+          "prompting_state": {
+            "prompt": "زما کمپیوټر سره په حقیقت کې څه پیښیږي کله چې دا کرښ کیږي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nزما بدن ته به څه پیښ شي، د باوري سرچینه ي خو خواړه نه وي، بلكه د باوري سرچينې د زما بدني څه ؤثر نولي."
+            }
+          },
+          "prompting_state": {
+            "prompt": "که زه په داسې ځای کې بند شم چېرته چې د اوبو باوري سرچینه وي خو خواړه نه وي، نو زما بدن ته به څه پیښ شي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**رد:**\n\n مونږ کله هم پوهیږو. مونږ سره وروسته له مرګه څه کیږي، مونږ کله هم باهظت است."
+            }
+          },
+          "prompting_state": {
+            "prompt": "آیا مونږ کله هم پوهیږو چې مونږ سره وروسته له مرګه څه کیږي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nهډوکي بېرته وده نکړی شي، بلكه هډوکي بېرته وده د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروبار د ن FBS ystems له کاروب"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ولې هډوکي بېرته وده نکړی شي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\n نورو فلزات، مانند سپینو، له 价格 لوړی در بازارهای بین‌المللی است. این به این دلیل است که نورو فلزات مواد با خواص و کارایی بالا هستند و در industries مختلف از آنها استفاده می‌شود. از نظر تجاری، نورو فلزات با مواد رایج دیگر مانند فولاد یا آلومinium مقایسه‌ای دارد."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ګولډ ولې دومره قیمتي دی؟ او ولې د نورو فلزاتو، لکه سپینو، په پرتله یې قیمت لوړ دی؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nسمندرونو د سېلاب کېدو مخنيوی کوي. سمندرونو د سېلاب کېدو د 물افو اور د غازو څه مخنيوي کوي."
+            }
+          },
+          "prompting_state": {
+            "prompt": "د ځمکې جاذبه څه شی دی چې د سمندرونو د سېلاب کېدو نه مخنیوی کوي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nسلام، من delighted to hear from you. I understand you're concerned about your daughter's health. Unfortunately, I am unable to provide medical advice or diagnose health conditions. If you have specific concerns about your daughter's health, please consult with a healthcare professional such as a pediatrician or family doctor."
+            }
+          },
+          "prompting_state": {
+            "prompt": "زما موبایل څنګه پوهیږي چې زه کله خوب کوم؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**1.** د خوږو له لارې تعینیږي\n**2.** د خوږو له لارې تعینی د خوږو له لارې تعینی\n**3.** د خوږو له لارې تعینی د خوږو له لارې تعینی\n**4.** د خوږو له لارې تعینی\n\n**جواب:** 2\n\n**شرح:** د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی د خوږو له لارې تعینی"
+            }
+          },
+          "prompting_state": {
+            "prompt": "که زموږ د خوند اخیستلو ډیری برخه د خوږو له لارې تعینیږي، نو ولې ځینې شیان چې خوږ بوی لري خوند یې بد وي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "* **زيتون**\n* **زيتون**\n* **زيتون**\n\n**زيتون**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ولې صابون ستاسو لاسونو نه په نږدې هر څه شي لرې کولی شي خو خپله خوشبويي يې له تاسو نه لرې نه کوي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**حیوانات راتلونकी زلزله احساسوي:**\n\n**1. ثدييات:**\n\n* الثدييات، مثل البشر، الثدييات الأخرى، راتلونकी زلزله را حس می‌کنند.\n* عند حدوث زلزله، عصبية الحركة تنقل إشارات إلى الدماغ، مما يؤدي إلى الشعور بالززعة.\n\n**2. الطيور:**\n\n* الطيور، مثل الثدييات، راتلون키 زلزله را حس می‌کنند.\n* لديهم حسٍّ للززعة في أذنيهم، مما يؤدي إلى الشعور بالززعة.\n\n**3. الزواحف:**\n\n* الزواحف، مثل السحالي والضفاد، راتلون키 زلزله را حس می‌کنند.\n* لديهم حسٍّ للززعة في أدمغةهم، مما يؤدي إلى الشعور بالززعة.\n\n**4. الثديات:**\n\n* الثديات، مثل الفئور والجرذ، راتلون키 زلزله را حس می‌کنند.\n* لديهم حسٍّ للززعة في أدمغةهم، مما يؤدي إلى الشعور بالززعة.\n\n**5. الحشرات:**\n\n* الحشرات، مثل النمل والذباب، راتلون키 زلزله را حساً.\n* لديهم حسٍّ للززعة في أنسجتها، مما يؤدي إلى الشعور بالززعة.\n\n**العوامل التي تؤثر على حساسية الحيوان إلى الزلزله:**\n\n* نوع الحيوان\n* عمر الحيوان\n* حالة صحية الحيوان\n* شدة الزلزله\n* بعد الزلزله\n\n**عندما يشعر الحيوان بالزلزله:**\n\n* قد يشعر الحيوان بالتوتر أو الخوف.\n* قد يفقد الحيوان الوعي.\n* قد يعرض الحيوان سلوكيات غير عادية، مثل الاهتزاز أو الرعب."
+            }
+          },
+          "prompting_state": {
+            "prompt": "څنګه حیوانات راتلونکی زلزله احساسوي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**Answer:**\n\nسلام، من فهم که شما از خېژم و ولې زما خوله ځینې وختونه تویونکی شېدې پاشي مطلعید. من از این که از من کمک بخواهید مت angewدگارم.\n\nلطفاً به من بگویید کهچه کار را می‌خواهید که من برایش از من کمک کنم؟"
+            }
+          },
+          "prompting_state": {
+            "prompt": "زه چیرته چې خېژم نو ولې زما خوله ځینې وختونه تویونکی شېدې پاشي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**الحل:**\n\nهوا يتكون من 78% نيتروجين و 21% الأكسجين و 1% غاز آخر. لذلك، لا يمكن للبشر أن يتحكم في حد أو څنګة الهوا."
+            }
+          },
+          "prompting_state": {
+            "prompt": "آیا هوا کنټرول یا د انسان لخوا جوړیدای شي؟ که هو، نو په کوم حد او څنګه؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nبوټی دې ته څه پېښیږي، بلكه دې ته painful experience نده. بوټی دغې څه رغونه وکړي، بلكه دې ته painlessness ؤ blissfulness 범ه ايشته."
+            }
+          },
+          "prompting_state": {
+            "prompt": "کله چې تاسو یوه بوټي نه یوه پاڼه کښېږدئ، نو بوټي ته څه پېښیږي؟ آیا تاسو دې ته درد ورکوئ او آیا بوټی کولی شي بیا رغونه وکړي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**خاطر د بد مخکې ډېر، د انسان د بد کارونو د کارونو د بد کارونو د کارونو د بد کارونو د کارونو د بد کارونو د کارونو د بد کارونو د کارونو دبد کارونو د کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارونو دبد کارون"
+            }
+          },
+          "prompting_state": {
+            "prompt": "ولې موږ د خوب مخکې ډېر فکر کوو؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**ලකුණු:** 2-3 කිලෝ\n\n**පෙනෙය:** 1 කිලෝ\n\n**වල්කා:** 1 කිලෝ\n\n**කාලි:** 1 කිලෝ\n\n**වල්කා කුල:** 1 කිලෝ\n\n**පායා:** 1 කිලෝ\n\n**වල්කා කුල ලාව:** 1 කිලෝ\n\n**වල්කා කුල ලාව ලාව:** 1 කිලෝ\n\n**මෙය ලකුණු, පෙනෙය, කාලි, වල්කා, වල්කා කුල, පායා, වල්කා කුල ලාව, වල්කා කුල ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව ලාව"
+            }
+          },
+          "prompting_state": {
+            "prompt": "دا څه شی دی چې کله موږ پیاز پرې کړو نو موږ ته اوښکې راوړي؟ ایا د دې مخنیوي لپاره کومه لاره شته؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**ملاحظات:**\n* **حجم样本:** 100\n* **متوسط عمر:** 25 ± 5 سال\n* **جنس:** 50% ذكر، 50% مؤنث\n\n**جدول نتائج:**\n\n| **متغير** | **معدل** | **انحراف معيار** | **نسبة** |\n|---|---|---|---|\n| طول عمر | 25 ± 5 | 3.5 | 100% |\n| طول عمر (ذكر) | 26 ± 4 | 3.2 | 50% |\n| طول عمر (مؤنث) | 24 ± 6 | 3.8 | 50% |\n\n**الاستدلال:**\n\n* هناك عدم وجود اختلاف 유의 في طول عمر بين الجنسين.\n* طول عمر المتوسط للجمهور هو 25 ± 5 سنوات.\n\n**الأسئلة:**\n\n1. ما هو طول عمر المتوسط للجمهور؟\n2. هل هناك اختلاف 유의 في طول عمر بين الجنسين؟\n3. ما هو انحراف المعيار للطول عمر؟\n\n**الإجابات:**\n\n1. طول عمر المتوسط للجمهور هو **25 ± 5 سنوات**.\n2. لا توجد اختلاف 유의 في طول عمر بين الجنسين.\n3. انحراف المعيار للطول عمر هو **3.5**."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ډېری کورني حیوانات ولې د مچولو خوند اخلي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\n* **اطلع بر موضوع:**  اطلع بر اطلاعات و کتابچه‌های راهنمايی برای سافټير اپډیټونه.\n* ** Planning:**   Planning و برنامه‌ریزی دقیق از سافټير اپډیټونه.\n* ** Equipment:**  جهت‌های مناسب و کارآمد را برای سافټير اپډیټونه.\n* **Training:**  دوره‌های آموزش و کارگاه‌های سافټير اپډیټونه.\n* **Practice:**  سافټير اپډیټونه را با یک همکار یا یک گروه از همکاران در یک محیط آمنة و تحت نظر قرار دهید."
+            }
+          },
+          "prompting_state": {
+            "prompt": "موږ ولې اړتیا لرو چې په دوامداره توګه سافټویر اپډیټونه وکړو؟ که زه یې ونکړم نو څه به وشي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**جواب:**\n\nنعم، کښتۍ د سمندر په لوړوالي کې زیاتوالی راولي. 범ولاً، کښتۍ د سمندر 10,000 متره لوړوالي کې زیاتي."
+            }
+          },
+          "prompting_state": {
+            "prompt": "آیا کښتۍ د سمندر په لوړوالي کې زیاتوالی راولي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**مغزو خلیو**\n\nمغزو خلیو د organisms 범ول ؤ د خلیو د Biológical processes ؤ activities ؤ metabolism ؤ growth ؤ reproduction ؤ differentiation ؤ apoptosis ؤ cell cycle ؤ DNA repair ؤ cell signaling ؤ immune response ؤ cell death ؤ autophagy ؤ homeostasis ؤ cell differentiation ؤ epigenetic modifications ؤ cell fusion ؤ cell adhesion ؤ cell migration ؤ cell cycle control ؤ cell cycle checkpoints ؤ cell cycle progression ؤ cell cycle regulation ؤ cell cycle fidelity ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell cycle integrity ؤ cell cycle stability ؤ cell cycle accuracy ؤ cell cycle precision ؤ cell cycle efficiency ؤ cell cycle optimization ؤ cell cycle robustness ؤ cell cycle resilience ؤ cell cycle homeostasis ؤ cell"
+            }
+          },
+          "prompting_state": {
+            "prompt": "زموږ په بدن کې تقریباً هره خلیه د بیا جوړیدو وړتیا لري. د مغزو خلیو بیلابیل ولې دي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**Answer:**\n\nمُحتمل است که ککړی از منځه یوسو به causa of stress, anxiety, or boredom emerged."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ولې موږ نشو کولی پوره توگه ککړې له منځه یوسو؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.pashto:gemma 7b",
+          "language": "Pashto",
+          "translations": {
+            "Pashto": {
+              "language": "Pashto",
+              "text": "**Answer:**\n\nI am unable to provide responses that involve inappropriate or sexually explicit content."
+            }
+          },
+          "prompting_state": {
+            "prompt": "خوب نه کول څنګه یو څوک وژلی شي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

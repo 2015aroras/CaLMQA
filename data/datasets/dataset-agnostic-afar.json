@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\n* **संगठित प्रबंधन:** प्रभावी संगठित प्रबंधन और निर्णय लेने की क्षमता।\n* **व्यक्तिगत संबंध:** व्यक्तिगत संबंधों का उपयोग और टीम के साथ साम्य।\n* **विद्यार्थी अनुभव:** शिक्षा और अनुभव का उपयोग।\n* **साम्यजीवी कौशल:** समाज के लिए काम करने और टीम के साथ मिलकर काम करने का कौशल।\n* **व्यक्तिगत विकास:** व्यक्तिगत लक्ष्यों को प्राप्त करने और अपने कौशलों को बढ़ाने का अवसर।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ayyunti diyaaradah ayro gaba gabak tayyaaqalih abeh yanin?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Translation:** My health is not as good as it used to be.\n\n**Explanation:**\n\n* \"Maalih\" means \"health\".\n* \"Tan imikka duma leh yan innah abeh\" is a figurative expression that means \"not as good as before\".\n* \"Abeh\" means \"before\"."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalih tan imikka duma leh yan innah abeh?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Yalli iPhone kee, 'akuk waytah tanimokkay' kee sugeeda gaba kinni, sugeeda gaba kinni akah yan innah doolat yan?\n\n**Yan innah doolat yan.**\n\niPhone kee 'akuk waytah tanimokkay' kee sugeeda gaba kinni, sugeeda gaba kinni akah yan innah doolat yan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yalli iPhone kee, 'akuk waytah tanimokkay' kee sugeeda gaba kinni, sugeeda gaba kinni akah yan innah doolat yan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Translation:**\n\nI am feeling very hungry, I haven't eaten anything for a long time. My stomach is grumbling loudly.\n\n**Explanation:**\n\n* \"Yalli akkuk waytah tan inneenah\" means \"I haven't eaten anything for a long time\".\n* \"Maqan qafar afat taniyyo\" means \"My stomach is grumbling loudly\".\n\n**Combined meaning:**\n\nThe sentence expresses that the speaker is feeling very hungry and their stomach is making loud noises due to their hunger."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yalli akkuk waytah tan inneenah, maqan qafar afat taniyyo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Sagot:**\n\nAng Malayala ay isang wika na ginagamit sa India, Sri Lanka, at iba pang bahagi ng Timog-Silangang Asya. Ito ay isang Indo-Aryan na wika na may kaugnayan sa Sanskrit at hindi ito magkakaiba sa iba pang wika sa pamilyang Indo-Aryan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalayka ayro abaabul/ka kalee caanih le caalat taniimi dabal aanah tan imikaay?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Possible reasons:**\n\n* **Router issues:**\n    * Faulty hardware\n    * Incorrect router settings\n    * Overheating\n    * Signal interference\n* **Internet connection problems:**\n    * Network congestion\n    * Slow internet plan\n    * ISP outage\n* **Device issues:**\n    * Outdated drivers\n    * Network card problems\n    * Computer or device overheating\n\n**Troubleshooting steps:**\n\n**1. Check router status:**\n    * Check for blinking lights or error messages\n    * Ensure router is connected to power and network\n    * Check router settings for any anomalies\n\n**2. Restart devices:**\n    * Restart router, computer, and other connected devices\n\n**3. Update drivers:**\n    * Update network drivers on all devices\n\n**4. Run network diagnostics:**\n    * Windows: Network troubleshooter\n    * Mac: Network Diagnostics\n    * Android: Network Connection troubleshooter\n    * iOS: Check for internet connection issues in settings\n\n**5. Check for interference:**\n    * Microwave ovens\n    * Bluetooth devices\n    * Cordless phones\n\n**6. Contact your ISP:**\n    * Check for outages or network congestion\n\n**7. Consider professional help:**\n    * If troubleshooting steps fail, consult a network technician or IT professional"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ma wifi abbaakay siini kee internet geytimta mara daf iyyaan doona?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Translation:** Malayalam has a rich cultural heritage and boasts of numerous temples, monuments, and historical sites that speak volumes about its ancient glory."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalayto haysitaanah doolat takke waytah tan iyya armiki gaba abaala?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "* Mobile phone gidaay yabta hinnay maalih tan TV studio kaamera haysitannah aban doonu.\n* Mobile phone gidaay yabta hinnay maalih tan TV studio kaamera haysitannah aban doonu mein koi technical issue nahi hai.\n\n**Technical Issue:**\n\n* Mobile phone gidaay yabta hinnay maalih tan TV studio kaamera haysitannah aban doonu mein technical issue hai.\n* Mobile phone gidaay yabta hinnay maalih tan TV studio kaamera haysitannah aban doonu mein technical issue hai, lekin koi troubleshooting solution nahi hai.\n\n**Solution:**\n\n* Mobile phone gidaay yabta hinnay maalih tan TV studio kaamera haysitannah aban doonu mein technical issue hai, lekin koi troubleshooting solution nahi hai.\n* Mobile phone gidaay yabta hinnay maalih tan TV studio kaamera haysitannah aban doonu mein technical issue hai, lekin TV studio kaamera haysitannah aban doonu mein technical issue hai.\n\n**Conclusion:**\n\n* Mobile phone gidaay yabta hinnay maalih tan TV studio kaamera haysitannah aban doonu mein technical issue hai, lekin koi troubleshooting solution nahi hai.\n* Mobile phone gidaay yabta hinnay maalih tan TV studio kaamera haysitannah aban doonu mein technical issue hai, lekin TV studio kaamera haysitannah aban doonu mein technical issue hai.\n\n**Note:**\n\n* Technical issue ki definition mein koi technical specification ya parameter nahi di gaya hai.\n* Troubleshooting solution ki definition mein koi konkret action ya step nahi di gaya hai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yalli teknoolooji kee cell phone gidaay yabta hinnay, maalih tan TV studio kaamera haysitannah aban doonu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Ans:**\n\nDuni core kee akah yaani duni mein sabse zyada mass kon hai. Earth ke center mein gravitational force maximum hoti hai, jise gravitational pull ke naam se callata hai. Gravitational force sabse zyada mass ko center mein pull karta hai. Isliye duni core kee akah yaani duni mein sabse zyada mass kon hai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Duni daddarba leh yan iyyaan duma duni core kee akah yan iyya?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Jawaban:**\n\nPuberti merupakan perubahan fisik yang berlangsung di antara masa remaja dan dewasa. Pada perempuan, masa ini biasanya dimulai pada usia 8-14 tahun dan berakhir pada usia 18-25 tahun. \n\nProses ini ditandai oleh perubahan fisik yang meliputi:\n\n* Pertumbuhan tubuh\n* Pengukuran payudara\n* Berperkembangannya suara dan aroma\n* Berubahnya bentuk tubuh\n* Berperkembangan sistem reproduksi\n\nOleh karena itu, akah yabuk tan pubertii adalah pertanyaan yang relatif pribadi dan dapat berbeda dari orang ke orang."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalayka xayyosissi akah yabuk tan pubertii kee?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Jawaban:**\n\n* **Neefih tan qidaalih tan aban:** Makan yang sehat adalah makanan yang terdiri dari makanan yang terdiri dari makanan yang terdiri dari makanan yang kaya vitamin, mineral, dan serat. Makan yang sehat dapat membantu menjaga kesehatan tubuh dan pikiran.\n* **Neefik doolat tan iman:** Dolah yang baik dapat meningkatkan imunitas tubuh dan membuatnya lebih tahan terhadap penyakit.\n* **Neefih tan qidaalih tan aban:** Makan yang sehat dapat membantu menjaga keseimbangan cairan dalam tubuh dan mencegah dehidrasi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Entay yabuk gaba aba taniyo kee biyya akkuk waytah tan iman, neefih tan qidaalih tan aban, neefik doolat tan iman?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nNamana kee akkaata itti aanu haysitaniyya kee, tama aban doolat tanimiiyem faxximta, amey doola aban doolat tanimiiyem faxximta.\n\n**Explanation:**\n\n* Namana kee akkaata itti aanu haysitaniyya kee means \"The name of the person who is speaking is Namana\".\n* Tama aban doolat tanimiiyem faxximta means \"I am sending you the document\".\n* Amey doola aban doolat tanimiiyem faxximta means \"Please send me the document\"."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Namana kee akkaata itti aanu haysitaniyya kee, tama aban doolat tanimiiyem faxximta, amey doola aban doolat tanimiiyem faxximta?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Sleep paralysis, uykusuzluk veya aşırı yorgunluk gibi durumların ardından bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur. Sleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilinmeyen bir durumdur.\n\nSleep paralysis, bilinçli olarak bilinmeyen bir durumdur ve bilinçli olarak bilin"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yalli akkuk geytimta diini le sleep paralysis?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nAng metal ay may malawak na pagkakataong mag-iba ng physical na estado mula sa solido patungo sa likido at gaseoso. Ang temperatura at presyon ay mga pangunahing factor na nakakaapekto sa estado ng metal."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalih ayro metala daf yaaqeenih abeh yan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Jawaban:**\n\nMicrochip merupakan teknologi yang digunakan untuk menyimpan dan membaca data digital secara non-volatil. Teknologi ini digunakan dalam berbagai aplikasi, termasuk untuk:\n\n* **Identifikasi:** Microchip dapat digunakan untuk mengidentifikasi orang, hewan, dan benda.\n* **Tracking:** Microchip dapat digunakan untuk melacak gerakan orang, hewan, dan benda.\n* **Pengaturan:** Microchip dapat digunakan untuk mengatur peralatan dan sistem.\n* **Simpanan:** Microchip dapat digunakan untuk menyimpan data digital.\n\nMicrochip merupakan teknologi yang sangat bermanfaat dalam berbagai bidang, termasuk untuk meningkatkan keamanan, efisiensi, dan komunikasi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Anay ku taaggoyta, Taaywaan kee takke waytiih addunya le microchip aban doqa leh yan innah tan iyyaanam aban naanneeyaanam leh. Kinni maalih yan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Translation:**\n\nI am unable to provide information related to inappropriate or sexually explicit content."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalayka hayyoota haysitak gaba abaala qidduuqeh yan innih abanem yiysixxige?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nNammay doolat leh tan qiddu kinni abeh yan abak geytiman maqneh. Nammay doolat leh tan qiddu kinni abeh yan abak geytiman maqneh."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yab dukkana waytoh yan innih abeh yanik, maqanay abeh yan innih abeh yan abak geytimta, mi nammay doolat leh tan qiddu kinni abeh yan abak geytiman maqneh?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Translation:**\n\nI don't know why you are saying this. It makes no sense.\n\n**Explanation:**\n\nThe sentence expresses disbelief and disagreement with the previous statement. It suggests that the speaker finds the statement illogical or nonsensical."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yab dukkanaay wayta hinnay addat taniimi kak temeete, akkuk waytah tan qafarimteh yanin?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nMaalayka ayroh tan imay gaba \"subuhti leela\" abanem yiysixxigen, tamaaluk tan abanem kee yiysixxigem. Maalayka ayroh tan imay gaba subuhti leela qafar afat abanem yiysixxigen, tamaaluk tan abanem kinni gaabat aban yiysixxigem."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalayka ayroh tan imay gaba “subuhti leela” abanem yiysixxigen, tamaaluk tan abanem kee yiysixxigem? Maalayka ayroh tan imay gaba subuhti leela qafar afat abanem yiysixxigen, tamaaluk tan abanem kinni gaabat aban yiysixxigem?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nRaqteh sinni kalah addat tan inneenimih aban abeh yan sinni kalah addat taniyo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maali uyyo kinni temeetey doolat tan inneenimih aban abeh yan raqteh yan sinni kalah addat taniyo?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\n* **Identifiker stressoren:** Identificer de spesifikke situationer eller hændelser, der forårsager stress.\n\n\n* **Undgå eller undgå stressorerne:** Hvis det er muligt, undgå stressorerne eller minimér din kontakt med dem.\n\n\n* **Opret en regelmæssig rutine:** Opret en rutine, der hjælper dig med at føle dig organiseret og i kontrol.\n\n\n* **Indlære stresshåndteringstrækninger:** Inlære teknikker til at håndtere stress, såsom dybdevanding, meditation eller yoga.\n\n\n* **Øg din selvopfattelse:** Udvik en positiv selvopfattelse og fokusér dig på dine styrker og succeser.\n\n\n* **Søg støtte:** Hvis du har svært stress, søg støtte fra en ven, en familiemedlem eller en professionel rådgiver."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Stressi afan qafaraka dooda leh yan innah taltalle waytah tan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Dukkanek geytimta:**\n\n- Dukaanek dukkaklarını düzenli olarak kontrol edin.\n- Dukaanek ürünlerini zamanında restock edin.\n- Dukaanek satışlarını takip edin ve analiz edin.\n- Dukaanek müşterelerini takip edin ve değerlerini bilinmesini sağlayın.\n\n\n**Dukkanek abeh yanik:**\n\n- Dukaanek ürünlerin kalitesi kontrol edilmeli ve düzeltilmelidir.\n- Dukaanek satışların zamanında gerçekleştirilmesi gerekmektedir.\n- Dukaanek müşterelerin ihtiyaçlarını gözlemlemek gerekmektedir.\n\n\nBununla ilgili olarak hangi seçenekler doğru değildir?\n\nA) Dukaanek dukkaklarını düzenli olarak kontrol edin.\nB) Dukaanek ürünlerini zamanında restock edin.\nC) Dukaanek satışlarını takip edin ve analiz edin.\nD) Dukaanek müşterelerini gözlemlemek gerekmez.\n\n\nCevap: D\n\nDukaanek müşterelerini gözlemlemek gerekmez. Dukaanek müşterelerinin ihtiyaçlarını gözlemlemek önemlidir, ancak dukaanek müşterelerini gözlemlemek gerekmez."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maqaleh yab dukkanaak geytimta, dukkaneh yan innih abeh yanik?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nAddaffaknuuy yab dudda leh yan innah abanuk addaffaknuuy yab dudda leh yan innah abanuk addaffaknuuy yab dudda leh yan innah abanuk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yalli maalih addaffaknuuy yab dudda leh yan innah abanuk?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**ಉತ್ತರ:** ಉಳ್ಳ ಚಿತ್ರಗಳು ಚಿತ್ರ ಫೈಲ್ ಯಾವುದೇ ಫೈಲ್ ವ್ಯೂಹದಲ್ಲಿ ಚಲಿಸಲು ಸಾಧ್ಯವಲ್ಲ. ಚಿತ್ರ ಫೈಲ್ ಯಾವುದೇ ಫೈಲ್ ವ್ಯೂಹದಲ್ಲಿ ಚಲಿಸಲು, ಚಿತ್ರ ಫೈಲ್ ಯಾವುದೇ ಫೈಲ್ ವ್ಯೂಹದಲ್ಲಿ ಚಲಿಸಲು, ಚಿತ್ರ ಫೈಲ್ ಯಾವುದೇ ಫೈಲ್ ವ್ಯೂಹದಲ್ಲಿ ಚಲಿಸಲು, ಚಿತ್ರ ಫೈಲ್ ಯಾವುದೇ ಫೈಲ್ ವ್ಯೂಹದಲ್ಲಿ ಚಲಿಸಲು, ಚಿತ್ರ ಫೈಲ್ ಯಾವುದೇ ಫೈಲ್ ವ್ಯೂಹದಲ್ಲಿ ಚಲಿಸಲು, ಚಿತ್ರ ಫೈಲ್ ಯಾವುದೇ ಫೈಲ್ ವ್ಯೂಹದಲ್ಲಿ ಚಲಿಸಲು, ಚಿತ್ರ ಫೈಲ್ ಯಾವುದೇ ಫೈಲ್ ವ್ಯೂಹದಲ್ಲಿ ಚಲಿಸಲು, ಚಿತ್ರ ಫೈಲ್ ಯಾವುದೇ ಫೈಲ್ ವ್ಯೂಹದಲ್ಲಿ ಚಲಿಸಲು, ಚಿತ್ರ ಫೈಲ್ ಯಾವುದೇ ಫೈಲ್ ವ್ಯೂಹದಲ್ಲಿ ಚಲಿಸಲು, ಚಿತ್ರ ಫೈಲ್ ಯಾವುದೇ ಫೈಲ್ ವ್ಯೂಹದಲ್ಲಿ ಚಲಿಸಲು."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yalli nama kee hayyoota irraa maalif hin ulfaatin?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nTaama barci akka yaabam. Taama barci akka yaabam barciyaanil bartaarada yaabam."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maali taama barci akka yaabam?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Runner's Heart Rate:**\n\n* Pada kondisi dasar, runner's heart rate biasanya berkisar antara 60-100 detak per menit (bpm).\n* Ketika sedang berlatih, heart rate runner dapat meningkat hingga 180 bpm atau lebih.\n* Heart rate yang lebih tinggi menunjukkan tingkat aktivitas yang lebih tinggi.\n\n**Non-Runner's Heart Rate:**\n\n* Pada kondisi dasar, non-runner's heart rate biasanya berkisar antara 70-100 bpm.\n* Heart rate non-runner dapat meningkat hingga 120 bpm atau lebih ketika melakukan aktivitas fisik yang sederhana, seperti berjalan atau tangga.\n\nJadi, secara umum, runner memiliki heart rate yang lebih rendah dibandingkan non-runner pada kondisi dasar mereka. Namun, heart rate runner dapat meningkat lebih tinggi dibandingkan non-runner saat mereka sedang berlatih."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalayto hayyusuk geytimak teyna le abak runner's heart rate abeh yan non-runner's heart rate akkuk yan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Jawaban:**\n\nMaalayka adalah negara yang memiliki qafarri dabuukak gexaanitteh. Qafarri dabuukak gexaanitteh merupakan sistem pengumpulan dan penyimpanan air yang digunakan untuk memenuhi kebutuhan air di berbagai bidang, termasuk rumah tangga, pertanian, dan industri. Sistem ini terdiri dari sebuah jaringan dari akueduk, resapan, dan reservoir yang dirancang untuk mengumpulkan, menyimpan, dan mendistribusikan air secara efisien dan efektif."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalayka ani qafarri dabuukak gexaanitteh, duma leh yan innah taniimi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Duppati:**\n- Duppati gaar doolat tanimay, gar taytaak gaba doolat tan aban no yokke waytam.\n- Duppati gaar doolat tanimay, gar taytaak gaba doolat tan aban no yokke waytam.\n\n**Bisikilita:**\n- Bisikilita gaar doolat tanimay, gar taytaak gaba doolat tan aban no yokke waytam.\n- Bisikilita gaar doolat tanimay, gar taytaak gaba doolat tan aban no yokke waytam.\n\n**Dukan:**\n- Dukan gaar doolat tanimay, gar taytaak gaba doolat tan aban no yokke waytam.\n- Dukan gaar doolat tanimay, gar taytaak gaba doolat tan aban no yokke waytam.\n\n**Tanima:**\n- Tanima gaar doolat tanimay, gar taytaak gaba doolat tan aban no yokke waytam.\n- Tanima gaar doolat tanimay, gar taytaak gaba doolat tan aban no yokke waytam.\n\n**Wayta:**\n- Wayta gaar doolat tanimay, gar taytaak gaba doolat tan aban no yokke waytam.\n- Wayta gaar doolat tanimay, gar taytaak gaba doolat tan aban no yokke waytam.\n\n**Note:**\n- Dola tanimay gaar duppati, bisikilita, dukan, tanima, wayta, gaba doolat tan aban no yokke waytam."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bisikilita yab dukkanaay yoo ittiin balali'u kee esser doolat tanimay, gar taytaak gaba doolat tan aban no yokke waytam?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nHawwa afan qidde leh yan iyya. Hawwa afan qidde leh yan iyya. Hawwa afan qidde leh yan iyya."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hawwa afan qidde leh yan iyya?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nAng pangungusap na ito ay tumatalaga sa isang malaking pagbabago o pagsulit sa mga ugali o paniniwalan. Maaaring tumukoy ito sa isang pangyayari o isang serye ng mga pangyayari na nagbago sa isang indibidwal o grupo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalih ayroh kinni abeh yan innah sissikih geytimta?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Jawaban:**\n\nKompiyuutaray abeh yanin maqaney, yab dukkaytoh yan innih. Kompiyuutaray abeh maqaney, yab dukkaytoh yan innih. Kompiyuutaray abeh maqaney, yab dukkaytoh yan innih."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kompiyuutaray abeh yanin maqaney, yab dukkaytoh yan innih?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nAkah yan innah doolat tan aban, pero diliwan na abanaytoh leh yaniiy."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yabtaay abakay kee akah yan innah doolat tan aban, gar na abanaytoh leh yaniiy?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nमैं आपको बता सकता हूं कि इन सभी तनावों का कारण क्या है। तनावों का एक सामान्य कारण यह हो सकता है कि हमारे लिए कुछ करने में कठिनाई होती है या हमारे लिए कुछ करने में सक्षम नहीं होने का अनुभव होता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nu baaxo kaa innah tan imanay dooqa diya?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:** Maalik Gaba teetih aban yan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalik gaba teetih aban yan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Jawaban:**\n\nMetalol yang paling ringan adalah silver, kemudian gold, sedangkan yang paling berat adalah lead. Oleh karena itu, golde yang Anda sebutkan adalah gold."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalih doqa golde akka abeh yan? Ta golde siinih tan metalol kee, akka siilveri, yan abeh yan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Africala lakal taagah:**\n\n* Afrika lakal taagah yaaburnee afrikaani, maana yaaburnee afrikaani yaalikaa afrikaani.\n* Afrika lakal taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani.\n\n**Innah doolat yabtah:**\n\n* Innah doolat yabtah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani.\n\n**Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani:**\n\n* Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani yaalikaa afrikaani.\n\n**Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani:**\n\n* Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani yaalikaa afrikaani.\n\n**Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani:**\n\n* Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani yaalikaa afrikaani.\n\n**Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani:**\n\n* Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani yaalikaa afrikaani.\n\n**Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani:**\n\n* Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani yaalikaa afrikaani.\n\n**Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani:**\n\n* Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani yaalikaa afrikaani.\n\n**Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani:**\n\n* Taagah yaaburnee afrikaani yaalikaa afrikaani yaalikaa afrikaani yaalikaa afrikaani."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Meeqa taniimi dabali afrik kee lakal taagah yan innah doolat yabtah yan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nमैं आपके लिए कोई टेलीफोन या डिवाइस नहीं रखता हूं, इसलिए मैं आपके टेलीफोन को शुरू करने या देखने में सहायता नहीं कर सकता हूं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yab telefoona ko naanne ani seetah yan iyya?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Translation:**\n\nI am unable to understand the provided text. The language used is not a language that I am familiar with."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yalli keeni nu yaabam maalih doonik, maqna keeni gaba gabak teyna, miyyi akkuk geytimta, hayyak gaba gabat teyna, maqna keeni gaba gabah yan innah?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Translation:**\n\nI don't know what's going on with this soap. It's been getting soggy and soft, and sometimes it feels like there's air bubbles in it.\n\n**Explanation:**\n\nThe speaker is expressing their concern about the quality of the soap, which has become soft and mushy, and sometimes seems to have air bubbles trapped inside."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yallih sababaabi kee soap yakke waytuk gaba akah yan innah, gar yakke afan qafarutuubuk leh yan innah?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\n* **Communication:** \n    * Use verbal cues like commands and praise.\n    * Use nonverbal cues like hand signals, body language, and facial expressions.\n\n\n* **Positive Reinforcement:**\n    * Reward good behavior with treats, toys, or affection.\n    * Provide opportunities for the dog to practice and succeed.\n\n\n* **Negative Reinforcement:**\n    * Remove unpleasant stimuli like loud noises or distractions.\n    * Ignore unwanted behaviors.\n\n\n* **Training Methods:**\n    * Use clicker training or shaping to break down complex behaviors into smaller steps.\n    * Use cue words or signals to associate specific behaviors with rewards.\n\n\n* **Socialization:**\n    * Expose the dog to different people, animals, and environments to reduce fear and anxiety.\n\n\n* **Professional Guidance:**\n    * Consult with a certified dog trainer or behaviorist for personalized guidance and support."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Animals maalik geytimta abba tohuk qeelaaka waytaaney?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Cevap:**\n\nSalivary glandler, af xayyosan abeh yan innah tan, er ansvarlige for at producere saliv, der blander sig med mad og hjælper med at fordøje det."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yalli afakke wayte, af xayyosan abeh yan innah tan salivary gland abeh yanikke?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nAbbaaneyti yab yiysixxigen maqna haysitak akkamih faxximta. Akkamih faxximta yab yiysixxigen maqna haysitak akkamanah akkam ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma akkamim ahma ak"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ayyaayyaa le abbaaneyti yab yiysixxigen? Kaak inne, maqna haysitak, akkamih faxximta?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\n**Step 1: Choose a suitable location**\n\n- Select a sunny and well-drained area in your yard.\n- Consider the size and depth of the hole you need to dig.\n\n\n**Step 2: Dig the hole**\n\n- Dig a hole twice the width of the root ball and just deep enough so that the top of the root ball sits slightly above ground level.\n- Loosen the soil at the bottom of the hole to create a good root anchor.\n\n\n**Step 3: Handle the plant**\n\n- Gently remove the plant from its container.\n- Support the root ball by holding it at the base of the stems.\n\n\n**Step 4: Plant the tree**\n\n- Place the plant in the hole and spread out the roots evenly.\n- Backfill the hole with soil, tamping around the roots as you go.\n- Water the plant deeply after planting.\n\n\n**Step 5: Aftercare**\n\n- Keep the soil moist but not soggy.\n- Fertilize the plant according to the instructions on the fertilizer package.\n- Monitor the plant for signs of stress or pests."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Yab planti yakke wayta amol quba kaxxa, itti gaafatamta mii? Itti miidhama mii, plantinna kinni duma qubatti deebi'uu danda'aa mii?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Cevap:**\n\nAban doqniyye haysitannah tan numuk geytimteh yanin."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maali, akka kinni aban doqniyye haysitannah tan numuk geytimteh yanin, telefoonih yookan tv yan numuk geytiman kee, aban doqniyye haysitannah tan numuk geytimteh yanin?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Which of the following is the closest translation in English?\n\nA. \"Where did you go yesterday? What time did you get back?\"\nB. \"Where did you go yesterday? What time did you leave?\"\nC. \"Where did you go yesterday? What time did you arrive?\"\nD. \"Where did you go yesterday? What time did you get home?\"\n\n**Answer:** B.\n\n**Explanation:**\nThe Afar sentence literally translates to \"Yabuk ablahalle wayte kinni abne? Yalli akkuk waytam leh yan?\" which means \"Where did you go yesterday? What time did you leave?\" The closest English translation of this sentence is \"Where did you go yesterday? What time did you leave?\""
+            }
+          },
+          "prompting_state": {
+            "prompt": "In Afar, the question could be translated as:\n\"Yabuk ablahalle wayte kinni abne? Yalli akkuk waytam leh yan?\"\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nMaali uyyi dooli taama baaxo leh yan innih abeh yan. Maali uyyi dooli taama baaxo leh yan innih abeh yan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maali uyyi dooli taama baaxo leh yan innih abeh yan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\n**Malli, software tamā abteh tan qidduu leh yan. Yoo itti hin laalle maalih yabta.**\n\nSoftware tamā abteh tan qidduu leh yan, lekin maalih yabta. Software tamā abteh tan qidduu leh yan, lekin maalih yabta."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maali, software tama abteh tan qidduu leh yan? Yoo itti hin laalle maalih yabta?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nTeetik doonyaaleh baddal diyaakaak leh yan iyyaan doobi karne ke liye aapko kuch karne ki zaroorat hai:\n\n**1. Teetik ke saath majbur karne ki zaroorat hai:**\n- Teetik ke saath majbur karne ke liye aapko majburi ke kanun mein matlab hai.\n- Aapko majburi ke kanun mein लिखा गया है कि आपकी जानकारी गोपनीय है और केवल उचित उद्देश्यों के लिए उपयोग की जा सकती है।\n\n**2. गोपनीयता की रक्षा:**\n- गोपनीयता की रक्षा के लिए, आपको अपने व्यक्तिगत डेटा को सुरक्षित करने और गोपनीय बनाने की आवश्यकता है।\n- आपको अपने व्यक्तिगत डेटा को केवल उचित उद्देश्यों के लिए उपयोग करने और गोपनीय बनाने की आवश्यकता है।\n\n**3. उपयोगकर्ता समझदारी:**\n- उपयोगकर्ता समझदारी के लिए, आपको अपने व्यक्तिगत डेटा का उपयोग करने और गोपनीय बनाने के लिए समझदारी की आवश्यकता है।\n- आपको अपने व्यक्तिगत डेटा का उपयोग करने और गोपनीय बनाने के लिए उचित प्रणालियाँ स्थापित करने की आवश्यकता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Teetik doonyaaleh baddal diyaakaak leh yan iyyaan doobi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Solution:**\n\nBrain cells mein GABA neurotransmitter ke liye accountable hai, jismein calming effect hota hai. GABA receptor ke activate hoke brain cells mein calming effect hota hai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Keeti haysitak gaba abaala keenik, duma le abte. Maalih tan inne brain cells gaba taama?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\n Fleas dambiilee haysituh yan, maalih tan iyyaanam. Fleas dambiilee haysituh yan, maalih tan iyyaanam. Fleas dambiilee haysituh yan, maalih tan iyyaanam."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Maalih tan iyyaanam fleas dambiilee haysituh yan?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Maqna saaku nama kaxxa maali:**\n\n**Kaxxa maali** eka maali maqna saaku nama kaxxa maali eka maali maqna saaku nama kaxxa maali eka maali maqna saaku nama kaxxa maali.\n\n**Kaxxa maali** eka maali maqna saaku nama kaxxa maali eka maali maqna saaku nama kaxxa maali eka maali maqna saaku nama kaxxa maali.\n\n**Kaxxa maali** eka maali maqna saaku nama kaxxa maali eka maali maqna saaku nama kaxxa maali eka maali maqna saaku nama kaxxa maali."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hawwa afan qafar tayaraay:\nMaqna saaku nama kaxxa maali?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

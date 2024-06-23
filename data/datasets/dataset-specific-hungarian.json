@@ -193,6 +193,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:0:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "15-16 éves srácnak pénzt adni a locsolásért? Nem szokás."
+            }
+          },
+          "prompting_state": {
+            "prompt": "15-16 éves srácnak szokás még pénzt adni a locsolásért? Ha igen, mennyit? Testvér kisfia.\nA legátmenetibb korosztály. Aki korban még gyereknek tűnik, de bulizik, barátnője van, bulikban iszogat...tehát kamasz fiatalemberként él.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -388,6 +408,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:1:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A MÁV IC kocsik utasterében a fékezések során elviselhetetlen égett fékporszag keletkezik. Ez a fékezések során felgyült gázok oxidációja következtében jön létre. A gázok oxidációja exoterm folyamat, ami hőt termel. A hő a fékezések során felgyült gázok oxidációja során keletkező oxigén- és nitrogén-oxidok miatt is megnövelik.\n\nA MÁV IC kocsik utasterében a fékezések során elviselhetetlen égett fékporszag keletkezése miatt az emberek köhögni kezdenek. Ez a fékezések során keletkező oxigén- és nitrogén-oxidok belépésének következtében jön létre. Az oxigén- és nitrogén-oxidok belépésével a tüdőkben a kapillárisok oxidációja megnövelik, ami köhöngéshez vezet.\n\nA MÁV IC kocsik utasterében a fékezések során elviselhetetlen égett fékporszag keletkezése és az emberek köhögni kezdenek. Ez a fékezések során felgyült gázok oxidációja következtében jön létre. A hő a fékezések során felgyült gázok oxidációja során keletkező oxigén- és nitrogén-oxidok miatt is megnövelik.\nKövetkeztetni lehet, hogy a MÁV IC kocsik utasterében a fékezések során elviselhetetlen égett fékporszag keletkezése és az emberek köhögni kezdenek. Ez a fékezések során felgyült gázok oxidációja következtében jön létre."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért keletkezik a MÁV IC kocsik utasterében minden fékezésnél elviselhetetlen égett fékporszag?\nAnnyira durva már, hogy konkrétan köhögni kezdenek az emberek egy-egy fékezésnél. Ez mennyire egészséges dolog? Miért nem tesz valamit a MÁV ez ellen?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -585,6 +625,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:2:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nem találok információt arról, hogy a BKV-nél mennyi BKV-busz égett már le az elmúlt 20 évben. Továbbá nincsenek adatok arról, hogy mennyi kigyulladó busz volt az elmúlt 2 évtizedben."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mennyi BKV-busz égett már le az elmúlt 20 évben?\nAz utóbbi pár évben/évtizedben mi ez a rengeteg tűzeset meg kigyulladó busz a BKV-nál?\nVolt egy időszak kb. 20 éve, amikor az Ikarus 412-esek égtek ki sorra azzal kezdődött, aztán volt pár 415/435-ös, aztán pár évig viszonylag nem volt, csak 1-2 kisebb, aztán (már a bilikék korszakban, kb ) pár Mercedes Citaro is égett, de teljesen, kb 7-8 éve, majd néhány behozott szóló Volvo 7000, asszem néhány éve volt egy Karsan kisbusz is, az utóbbi 2-3 évben meg a csuklós Volvo 7700A-k lángolnak, ez a ma hajnali már legalább a 4. ilyen.\nValaki tudja, hogy miért van/volt ez a rengeteg kigyulladó busz a BKV-nál? Melyikkel mi volt a gond? Illetve mennyi ilyen komolyabb/látványosabb égés volt már az elmúlt 2 évtizedben? Szerintem legalább 30\nMás országok fővárosaiban is ilyen magas az arány?\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -780,6 +840,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:3:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Lehetséges megoldások:**\n\n- Megbeszéljük a szomszédunkkal, hogy megértsük a problémát, és találokunk egy közös megoldást.\n- Kérjük a helyi önkormányzatot, hogy tájékoztassa minket a helyi állattartási szabályokról.\n- Fordulunk a helyi állatvédelemhez, hogy kérjünk tanácsot.\n\n\n**Javaslom:**\n\n- Próbáljuk megbeszélni a szomszédunkkal, hogy megértsük a problémát, és találokunk egy közös megoldást. Lehetséges, hogy a szomszédunk félreértésben van, vagy nem tudja, hogy az állatokat normális körülmények között tartjuk.\n- Ha ez nem segít, kérjük a helyi önkormányzatot, hogy tájékoztassa minket a helyi állattartási szabályokról."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A szomszédunk ma közölte, hogy fel akar jelenteni minket, mert zavarja a haszonállataink szaga. Megteheti- e ezt, és ha igen, milyen következménye lesz?\nEgy vidéki nagyvárosban élünk, de olyan külvárosi részen, ahol az állattartás már megengedett. Tyúkokat és egy malacot tartunk, teljesen normális körülmények között. Ez a család két éve költözött a mellettünk lévő házba, idáig semmiféle ilyen jellegű panaszuk nem volt, erre ma közölték, hogy fel fognak jelenteni minket a rendőrségen, mert idén nyáron már nem hajlandóak elviselni az állataink szagát és szerintük szabálytalanok vagyunk, mert a telkünkön belül a trágya helye az ő házuk felőli oldalon van. Tényleg tehetnek feljelentést? Ha igen, kinek van igaza? Nekik, vagy nekünk? Mi úgy gondoljuk nincs semmi szabálytalan abban ahogy az állatokat tartjuk, de nem tudjuk, kihez fordulhatnánk segítségért. Ha mégis igazuk van, mi lesz a büntetésünk?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -977,6 +1057,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:4:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nem. A tűzijátékozás korhatása 18-18-6 között van."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Szilveszterkor ugyanúgy 18-6 között lehet majd tűzijátékozni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1172,6 +1272,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:5:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Csehek nemzeti identitása nem volt jelen a magyar történelem során, tehát nem lehetne őket elismerni nemzeti nézetként.\n\nEz az állásfoglalás. De van egy ellenpont is: a Cseheknek van egy önálló története, kultúrája és nyelvi sajátossága, ami indokolja a nemzeti identitásukat.\n\nMelyik állásfoglalás helyes?\n\n**A helyes állásfoglalás:** a Cseheknek van egy önálló története, kultúrája és nyelvi sajátossága, ami indokolja a nemzeti identitásukat.\n\n**A helytelen állásfoglalás:** A Csehek nemzeti identitása nem volt jelen a magyar történelem során, tehát nem lehetne őket elismerni nemzeti nézetként."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Csehek miért nem elismert nemzetiség Magyarországon?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -1369,6 +1489,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:6:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Adókedvezményre jogosult vagy sem?\n\nMinden információt közzéteszem, amennyire tudok."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A családi adókedvezmény akkor is jár minden hónapban,ha nem volt 1 év munkaviszonyom?\nTehát januártól augusztusig volt munkám és erre az időre egy összegben kértem az adóvisszatérítést,de a könyvelő 12 hónappal számolt,annak ellenére,hogy csak 8 hónap munkaviszonyom volt és a munkaügyiben sem voltam regisztrálva a maradék 4 hónapra. Ez most hogy van akkor?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1564,6 +1704,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:7:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**A 25 év alatti szja mentesség az alábbi módon működik:**\n\n* A Szja adó 23%-os.\n* A bruttó fizetésből vonják le a Szja adót.\n* A cégnek nem kell visszafizetnie a Szja adót.\n* A nettó fizetés a bruttó fizetésből levonta a Szja adót.\n\n**Továbbá a 25 év alatti szja mentességben az alábbi pontok is szerepelnek:**\n\n* A Szja adó az alkalmazottak bruttó fizetésének 23%-át teszi ki.\n* A Szja adó fizetésének hatályos időtartama a fizetés napjától a következő hónap 28. napig tart.\n* A Szja adó fizetésének kötelezettsége a fizetés napjától a következő hónap 15. napig tart."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan működik a 25 év alatti szja mentesség?\nNagyon nem értem ezt az egészet mert senki nem magyarázta még el nekem hogy hogyan is működik a szja mentesség. Eddig úgy hittem, hogy azt a 15%-ot amit fizetnem kellene szja adóra azt nem kell befizetnem, így megmarad a nettó fizetésembe. Szóval most ha 100.000 ft a nettóm akkor ugye 15.000 ft a szja adó ezen felül. Ezt a 15.000ft én vissza kapom ( így a nettó fizu az 115.000ft lesz) vagy ezt mivel a cégnek nem kell visszafizetnie így a bruttóm lesz csak kevesebb( így a nettó fizu az marad 100.000ft és a bruttó 15% kevesebb) ?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -1761,6 +1921,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:8:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Előrehozott érettségi:**\n\nAdott egy 10 cm sugarú kör. Határozza meg a kör kerületét!\n\n**Megoldás:**\n\nA kör kerülete:\n\n$$K=2r$$\n\nItt:\n\n* K - a kör kerülete\n* r - a kör sugara\n\nAdott, hogy a kör sugara 10 cm. Így a kör kerülete:\n\n$$K=2\\cdot10\\text{ cm}=\\boxed{20\\text{ cm}}$$"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi az az előrehozott érettségi?És mondjuk matekból lehet ilyet tenni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1956,6 +2136,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:9:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* Igen\n* Nem\n\n**A helyes válasz:** Igen\n\n**Ma a felsőoktatási intézményekben a hátrányos helyzetű családi pótlékra vonatkozó \"hátrányos helyzetű\" többletpont a családi pótlék összeállításakor figyelembe vehető, ha a jelölt hátrányos helyzetűnek minősül.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ha jelentkezek egy felsőoktatási intézménybe, akkor a családi pótlékra vonatkozik a \"hátrányos helyzetű\" többletpont?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -2153,6 +2353,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:10:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* A töltött tojás egy kemény tojás, amelybe töltet van töltetéssel.\n* A kaszinótojás egy sült tojás, amelyben a tojást magában foglaló kemény magot távolítják el, és a tojást töltetéssel töltik meg."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi a különbség a töltött tojás és a kaszinótojás között?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2348,6 +2568,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:11:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Lehet-e kérni vezetői engedély cseréjét a 102-es kód miatt?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan lehet kérni vezetői engedély cseréjét a 102-es kód miatt?\nMost lett meg a 2. Csoportu orvosi alkalmasságim és munka miatt kellene jogosítványba bejegyzett 102-es kód, most 101-es van. Ügyfélkapun nem találtam ilyen információt, a kormányablakban pedig szépen szólva el lettem küldve melegebb éghajlatra mert miért nem tudom ezt. Annyit elárultak, hogy lehet azt amit akarok, de azt már nem mondták el, hogy hogyan.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -2545,6 +2785,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:12:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Mindenképpen köszönjük a tippeket!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lehet még valahol kimért vagy fagyasztott sprotnit kapni?\nugy értem hogy esetleg lidl vagy tescoban van?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2740,6 +3000,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:13:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nagyon köszönjük a válaszát!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért költöznek haza a kivándorolt magyarok?\nBeszélgettünk baráti és családi körben is arról, hányan terveznek kiköltözni, hány olyan ismerős van, aki végül kiköltözött, és levegőbe beszélés helyett kíváncsiságból olvastunk is statisztikákat. Összességében az elmúlt pár évben több kivándorolt magyar költözik haza, mint ahány magyar külföldre költözik.\nTaláltunk cikkeket arról is, hogy aki kiköltözik, mivel indokolja, mik az okai erre, viszont arról nem találtunk statisztikát, cikket, adatot, felmérést, hogy a visszatérők miért költöztek vissza.\nÍgy kérdésem egyrészt azokhoz szól, ha vannak itt olyanok, akik külföldről költöztek vissza Magyarországra, vagy ismernek ilyen embereket: miért költöztek ki és miért jöttek haza? Mennyi idő után?\nA kérdésem másik fele pedig inkább egy kérés: tudnátok-e néhány erre vonatkozó felmérés eredményeit linkelni?\nLáttam 1-2 ilyesmi kérdést is itt gyakorin, de értelmes válaszokat nem igazán találtam benne. Ezért kérlek, amennyire lehet, politikamentes, és spekulációktól mentes válaszokat írjatok! Vagy saját/ismerős tapasztalatát, vagy hivatalos adatokkal alátámasztott válaszokat (Tehát a \"rájöttek hogy nincs kolbászból a kerítés\" típusú válaszokkal, légyszi, kíméljétek a válaszszekciót!)\nTöbbek közt ezeket a statisztikákat futottunk át (a teljesség igénye nélkül):\n[link]\n[link]\n[link]\n[link]\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -2937,6 +3217,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:14:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nagyon köszönjük a válaszát."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Most akkor a Brexit után érvényes vagy sem a személyim ha haza akarok utazni?\nHa jól tudom, Október 31.-e után megtörtént a Brexit, és elvileg már nem jó a személyi, ha repülővel haza akarok utazni.\nSajnos az útlevelem lejárt, vagy az útlevelem se lenne alkalmas ha nem járt volna le?\nNem tudom, hol tájékozódjak a témában, akár idevonatkozó cikket is linkelhettek.\nKöszi előre is a válaszokat.\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3132,6 +3432,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:15:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A válasz: Igen.\n\nA Fidesz-KDNP biztos szavazóinak száma jelenleg legfeljebb 1,5 millió körül lehet, mivel a nemzeti konzultációs kérdőívet kitöltők száma alapján helytálló az a következtetés."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A nemzeti konzultációs kérdőívet kitöltők száma alapján helytálló az a következtetés, hogy a Fidesz-KDNP biztos szavazóinak száma jelenleg legfeljebb 1,5 millió körül lehet?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -3329,6 +3649,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:16:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A jogszabályi változások hatályosak.\n\nMely adóról van szó?\n\nA válasz: Adóbevétel"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Magyarországnak bevált az egy kulcsos adó?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3524,6 +3864,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:17:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Pick szalámi nem olcsóbb Ausztriában, mint itthon. A magyar pick szalámi ára az európai piacok legmagasabbainak egyike."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért olcsobb Ausztriába a magyar pick szalámi mint itthon? Oda meg ki is kell szállitani.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -3721,6 +4081,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:18:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Nato tagság nem egy öncélű cél, hanem egy eszköz arra, hogy a tagországok közösen oldják meg a nemzetközi problémákat. A Nato nem állhat helyett a nemzetközi diplomácianak, de segít abban, hogy a tagországok egymással és a világ többi részeével kölcsönösen megértődjön.\n\nMindenkinek más a prioritása, de a Nato tagság a magyarországi biztonság és a nemzetközi kapcsolatok szempontjából is fontos.\n\nTovábbá a Nato tagság lehetővé teszi a magyarországi katonai fejlesztésnek a modernizálását, és lehetővé teszi a magyarország számára, hogy aktív részt vegyen a nemzetközi katonai együttműködésben.\n\nMindenkinek más a prioritása, de a Nato tagság a magyarországi biztonság és a nemzetközi kapcsolatok szempontjából is fontos.\n**Összefoglalás:**\n\n* A Nato tagság nem az egyetlen fontos cél, hanem egy eszköz arra, hogy a tagországok közösen oldják meg a nemzetközi problémákat.\n* A Nato nem állhat helyett a nemzetközi diplomácianak, de segít abban, hogy a tagországok egymással és a világ többi részeével kölcsönösen megértődjön.\n* A Nato tagság a magyarországi biztonság és a nemzetközi kapcsolatok szempontjából is fontos.\n* A Nato tagság lehetővé teszi a magyarországi katonai fejlesztésnek a modernizálását, és lehetővé teszi a magyarország számára, hogy aktív részt vegyen a nemzetközi katonai együttműködésben."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A svédeknek nem is olyan fontos a Nato tagság? Hiszen nem tettek lépést a problémák megoldására, elutasították Orbán Viktor meghívóját.\nHa még tárgyalni sem akarnak, akkor gondolom nem érdekli őket.\nHa nekik nem fontos, akkor nekünk miért legyen az?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3916,6 +4296,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:19:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Válasz:**\n\nA magyar rendőrség már rendelkezik kiberbűnöző elleni csoportokkal, amelyek az internetes bűnelkövetések nyomozására specializálódnak. Továbbá a rendőrség folyamosan fejleszti és bővíti ezeket a csoportokat, hogy hatékonyabban tudjanak üldözni a kiberbűnözőket.\n\nA rendőrség munkája során figyelemmel követi a bűncselekmények trendjeit, és az ügyeletek alapján adaptálja a kiberbűnöző elleni stratégiáit. A rendőrségnek korlátai is vannak, és nem tudja megoldani az összes kiberbűnözési esetet.\n\nMindenkinek, aki interneten aktív, vigyáznia kell a kiberbűnözésre, és ha bármikor bűncselekményt tapasztal, az ügyeletet a rendőrséghez kell jelenteni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Miért nem hoz létre a magyar rendőrség kiberbűnöző elleni csoportokat ország-szerte?\nAhogy tapasztalom az elmúlt néhány évben jócskán elszaporodott az internetes bűnelkövetések száma. Ide sorolok mindent, amit interneten követnek el kezdve a banki adatok ellopásával egészen a marketplaces és egyéb használt holmival kereskedő oldalakon elkövetett csalásokig. És ezzel közel sem merítettem ki a netes bűncselekmények repertoáját. Jómagam is voltam már áldozata ilyesminek, a kártyám adatai bent maradtak egy felhasználói fiókban, amit feltörtek és 120.000 Forintot levásároltak a számlámról. Természetesen rögtön a rendőrséghez fordultam, de pechemre egy kőkorszaki nyomozót fogtam ki, aki az éjszaka közepén ügyeletes volt, elég nehéz volt neki elmagyarázni a dolgokat. Szerencsére a bank vissza tudta szerezni a pénzemet, de ha a rendőrségen múlt volna ihattam volna rá egy pohár vizet. Felmerült tehát bennem, hogy a rendőrség miért nem hoz létre legalább megyénként egy-egy ilyen csoportot, ahol hozzáértők foglalkoznának ilyen esetekkel? Szerintem lassan gyakoribbá válnak az ilyen bűncselekmények, mint pl. utcai kifosztás, rablás és sorra azt tapasztalom, hogy a rendőrség az esetek többségében tehetetlen.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -4113,6 +4513,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:20:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Van-e lehetősége, hogy a NAV nem kapta meg az utalást, vagy hogy nem regisztrálták volna a tb-m?\n\nLehetséges-e, hogy a NAV hibákat vétett volna a rendszerében, ami az utalás elvesztése vagy a tb-m regisztrációja közötti bármikori késéshez vezethet?\n\nKöszönhetően!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Jelenleg munkanélküli vagyok, így fizetem magam után az egészségügyi biztosítását árát, de erről nem szokott visszaigazolást küldeni a NAV, hogy megkapták az utalást?\nValamilyen módon nem ellenőrizhető le a rendszerükben, hogy biztosan rendezve van-e a tb-m?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4308,6 +4728,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:21:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nincsenek adatok arra, hogy a Németországban sózott utakat az Ausztriában sózott utakatól jobban rohadnának.\n\nMindenek köszönhetően, hogy a Németországban és Ausztriában más a talajtani viszonyok. A Németországban a talajok keményebbek, míaz Ausztriában lágyabbak. A keményebb talajok jobban ellenállnak a sózásnak."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Németországból,Ausztriából behozott autók tényleg sokkal könnyebben rohadnak?\nEzt már nagyon sok helyen olvastam, oknak pedig azt írják, hogy ott sokkal erősebben sózzák az utakat télen. Ez valóban igaz lenne? Érdekelne ha van valakinek tapsztalata ezzel. Ha ez tényleg így van akkor minek vesznek az emberek onnan, gondolom más is hallott már erről.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -4505,6 +4945,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:22:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nagyon köszönjük a válaszát!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Ukrán határon mennyit szokás a vámosnak adni, hogy ne szívózzon, vagy szedje szét a kocsit?\nKifele és befele is kell, Eurot is elfogadnak?\nNem hozok semmit, csak hallottam, hogy pénz nélkül valamikor órákat váratnak és akadékoskodnak.\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4700,6 +5160,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:23:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* Igen\n* Nem"
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Telekom Mobilvásárlás alkalmazással lehet menetjegyet venni debreceni DKV trolikra/buszokra?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -4897,6 +5377,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:24:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Továbbá a KRESZ 14. § (7) pontja kimondja, hogy a táblák hatálya addig tart, amíg a járművet a tulajdonos vagy üzemeltetője a tilalomra vonatkozó utasítást nem vonja vissza."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A behajtási tilalmat szabályozó táblák (pl. szélesség, magasság, segédmotorkerékpár, kézikocsi, űrhajó stb.) hatálya meddig tart?\nLogikusan adná magát, hogy a következő kereszteződésig, hiszen a keresztúton érkező csak ilyen módon értesül a tilalomról.\nDe ez le van így valahol írva kifejezetten?\nA KRESZ 14. § (6) pontja hasonlót szabályoz, de az csak a 14. § (1) bekezdés c-g) pontjaiban jelölt táblákra vonatkozik (pl. megfordulni tilos, előzni tilos), a továbbiakra nem.\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5092,6 +5592,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:25:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* A távolság: 7,5 km\n* A közlekedési idő: 25 perc\n\nA tömegközlekedés költsége: 300 Ft/fő\n\n**Számítás:**\n\n1. **Határozza meg a közlekedési sebességet:**\n- Távolság: 7,5 km\n- Idő: 25 perc\n- Sebesség = Távolság / Idő = 7,5 km / 0,25 h = 30 km/h\n\n2. **Számítsa ki a megtett utat:**\n- Sebesség: 30 km/h\n- Idő: 25 perc = 0,25 h\n- Utat = Sebesség x Idő = 30 km/h x 0,25 h = 7,5 km\n\n3. **Számítsa ki a költséget:**\n- Költés: 300 Ft/fő\n\n**Eredmény:**\n\n* A tömegközlekedésvel a Bp.Déli pályaudvarról a Mátyás templomig 7,5 km-t lehet megtenni 25 perc alatt.\n* A költsége 300 Ft/fő."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tömegközlekedéssel hogyan jutok el a Bp.Déli pályaudvarról a Mátyás templomig?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -5289,6 +5809,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:26:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A jogsi jogszabályok nem kötelezőek más országban, mint a jogszabályok hatályterülete. Franciaországban megszerzett jogsi érvényes Magyarországon, de nem kötelező. Ha Franciaországban leteszem a jogosítványt, akkor Magyarországon is használhatom, de nem kötelező. Továbbá a jogszabályok nem egyformák az országok között, tehát a Franciaországban megszerzett jogsi nem feltétlenül alkalmas Magyarországon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Franciaországban megszerzett jogsi érvényes Magyarországon?\nHa Franciaországban leteszem a jogosítványt, akkor Magyarországon is használhatom? Vagy újra kell csinálni az egészet itthon?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5484,6 +6024,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:27:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": ""
+            }
+          },
+          "prompting_state": {
+            "prompt": "Útvonal engedélyt csak tulajdonos vagy üzembentartó kérhet?\nEladtam az autómat, viszont anyukámék nevén van az autó, nincs rajta műszaki és messzire szeretnék vinni innen, én is kérhetek rá útvonalengedélyt vagy csak ők?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -5681,6 +6241,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:28:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Metró M3 metró motorkocsivezető tanuló állás tájékoztatása:\n\n**Feladatok:**\n\n* Motorkocsi üzemeltetés\n* Járművek karbantartása\n* Járművek rendszerek ellenőrzése\n* Jelentés írása\n\n**Tárgyak:**\n\n* Metró M3 metró motorkocsi\n* Járművek karbantartható elemei\n* Járművek elektronik rendszerei\n\n**Kor követelmény:**\n\n* 18-35 éves\n\n**Továbbá:**\n\n* Gyógyszerezettel rendelkezni\n* Kommunikációs és csapatmunkái készségek\n\n**Mit szeretne tudni a tanuló állásról?**\n\n* A tanuló állás célja\n* A munkaidő\n* A fizikai igények\n* A munkakör\n* A javadalmazás\n\nTovábbá kérdelek:\n\n* Mit lehetne a tanuló állás céljainak elérése érdekében?\n* Mit lehetne a tanuló állás fizikai igényainak csökkentésére?\n\nNagyon köszönjük a figyelmet!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mire számítsak az M3 metró motorkocsivezető tanuló állás tájékoztatón?\nSziasztok. Holnapra megyek meghallgatásra és tájékoztatóra. Inkább a meghallgatás részre érdekelne, hogy ott mikre lesznek kíváncsiak?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5876,6 +6456,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:29:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* Vizsgálati eredmények alapján a kocimok minősége nem volt megfelelő.\n* A kocimok minőségének javítására vonatkozó utasítások adtak.\n\nLehetséges-e, hogy a vizsga ponton kívül más helyen is vizsgálhatják a kocsimok minőségét?\n\nIgen, lehetséges. A kocimok minőségét más helyen is vizsgálhatják, mint a vizsga pont. A következő helyekre is vizsgálhatják a kocimok minőségét:\n\n* A kocimok forrását\n* A kocimok tárolási helyét\n* A kocimok szállítási folyamatát"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tényleg csak a lakóhelyemhez legközelebbi vizsga ponton lehet vizsgáztatni a kocsimat?\nKonkrétan ha püspökszilágyon lakom a szerelőm műszakiztathatja Rétságon?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -6073,6 +6673,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:30:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A pszichiátria rendelkezik telekommunikációs szolgáltatással is, ami lehetővé teszi a konzultációkat távolról is."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Járhatok a lakóhelyemtől messzebb lévő pszichiátriára?l vagy csak a legközelebbi köteles fogadni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6268,6 +6888,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:31:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Xiaomi telefonok kritikái:**\n\n* **Szoftver:** A Xiaomi telefonokban használt operációs rendszer nem stabil, és gyakran hibákat okoz.\n* **Hardver:** A Xiaomi telefonok hardware-ja is gyenge, és nem megfelelő a modern igényeknek.\n* **Akku:** A Xiaomi telefonok akkói is gyenge, és nem tarthatók a versengőkkel.\n* **Gyártosi garancia:** A Xiaomi telefonok gyártosi garanciája is gyenge, és nem fedezteti a vásárlók igényeit.\n\n\nXiaomi telefonok ellenére is népszerűek, mert:\n\n* **Ár:** A Xiaomi telefonok olcsóbbak, mint a versengőik.\n* **Külső:** A Xiaomi telefonoknak modern és vonzó külsője van.\n\n\nXiaomi telefonokról szóló összes kritika ellenére is népszerűek, mert az embereknek más értékek is vannak, mint a minőség. A Xiaomi telefonok olcsósága, vonzó külsője és a megfelelő funkciók vonzzák a vásárlókat.\n\n**Xiaomi telefonokról szóló összes kritika ellenére is népszerűek, mert az embereknek más értékek is vannak, mint a minőség.**\n\nXiaomi telefonokról szóló összes kritika ellenére is népszerűek, mert az embereknek más értékek is vannak, mint a minőség. A Xiaomi telefonok olcsósága, vonzó külsője és a megfelelő funkciók vonzzák a vásárlókat."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Xiaomi telefonokról miért van annyi kritika ?\nNagyon sok helyen olvasni hogy kerülendő márka ,de pontosan mi az oka hogy rengeteg kritika éri?\nDe egyébként ennek ellenére elég érdekes hogy sokan veszik.\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -6465,6 +7105,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:32:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nagyon köszönjük!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hugomnak előfizettünk próba PrémiumYt-ra, de ma 24-én járt le,- és jött is egy 2300Ft-os számla ami febr.24-ig tart. Mit tegyünk, hogy lemonjduk? Ma nem engedi lemondani, és félünk hogy soha nem is fogja...mit tegyünk? Teljes SOS-be vagyunk.\nAki tud valamit ajánlani segítsen légyszíves\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6660,6 +7320,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:33:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Adatok:**\n* Kovászos uborka: 2400 Ft/kg\n* Savanyított dinnye: nincs adat a áráról\n* Ecetes almapaprika: nincs adat a áráról\n\nNincs adat arról, hogy a kofa mennyi volt, tehát nem tudom, hogy 3600 Ft-ba került-e."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Létezik, hogy ez 3600 Ft, vagy átvert a kofa?\nMa, a piacon vásároltam fél kiló kovászos uborkát (kilója 2400 Ft-volt, sajnos ez az egy ami megamaradt) fél kiló savanyított dinnyét és 4 szem (közepes méretűek) ecetes almapaprikát. Létezik, hogy ez 3600 Ft-ba került, vagy több száz forinttal megkárosított az eladó?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -6857,6 +7537,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:34:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* Ausztria\n* Anglia\n* Franciaország\n* Kanada\n\n**Ausztria:**\n\nNem lehet Ausztriában Dormit venni. A Dormit nevű drog nem kapható üzleti célú célra a jogszabályok alapján.\n\n**Anglia:**\n\nNem lehet Angliában Dormit venni. A Dormit nevű drog nem kapható üzleti célú célra a jogszabályok alapján.\n\n**Franciaország:**\n\nNem lehet Franciaországban Dormit venni. A Dormit nevű drog nem kapható üzleti célú célra a jogszabályok alapján.\n\n**Kanada:**\n\nNem lehet Kanadában Dormit venni. A Dormit nevű drog nem kapható üzleti célú célra a jogszabályok alapján."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lehet Ausztriában Dörmit venni?\nVannak olyan országok, ahol Barni néven megtalálható, érdekelni, hogy ott is ez-e a helyzet. Ha nincs, milyen alternatíva van kint?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7052,6 +7752,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:35:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* Minden nap 12:00-14:00 és 18:00-20:00 között.\n* Hétfájön, pénzdeken és vasárnap délutáján.\n\nTovábbá:\n\n* A promo nem érvényes a karácsony utáni vasárnapjainkon.\n* A promo nem érvényes a vendégteremben.\n\nTovábbá:\n\n* A promo nem érvényes az ünnepi napokon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Peaches and Cream, Nagymező utca 46-48. Tényleg 1000 Ft-ért All you can drink van?\nEzt reklámozzák videóban a Facebookon. Mik a feltételei ennek? Bizonyos időpontokban csak?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -7249,6 +7969,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:36:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Metroban applikációs kártyával nem lehet a Metro Chef termékeket vásárolni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Lehet a metroban applikációs kártyával a Metro Chef termékekből vásárolni?\nSziasztok! Tervezek benézni a Metro-ba, applikáción keresztül csináltam is kártyát. Viszont azt sehol sem találtam, hogy minden terméket (beleérte a Metro Chef termékeket) is vásárolhatom? Előre is köszönöm a válaszokat! :D\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7444,6 +8184,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:37:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Gyógyszertárakban sem kapható.\n\nTudja-e, hogy mi a ok? Gyógyszertárakban sem kapható?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Lidl-ben vagy máshol nem lehet már kapni Chipsy Kings chipset?\nHónapok óta nem láttam, pedig az volt a kedvencem.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -7641,6 +8401,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:38:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Minden információt közzéteszem a Tesco weboldalán."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Tesco önkiszolgáló kasszánál mikor kell a kuponkódot szkennelni?\nElőször ugye a club kártya kódját kell beszkennelni, utána meg a termékek.\nA termékekre vonatkozó kedvezményeket mikor kell érvényesíteni? Van ilyen opció fizetés előtt ahol minden kódot enged szkennelni?\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7836,6 +8616,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:39:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Minden információt a gépészmérnökökről gyűjtöttük, és a kapott adatok alapján a legközegbbi ütemtervvel rendelkező gépészmérnököket kerestük. A kapott ütemterv alapján a következő gépészmérnökök megtartva:\n\nSZE győr\nGamf kecskemét\n\nTovábbá a gépészmérnökök csak szombaton vagy péntek szombat ütemtervvel rendelkeznek.\n\nKeressük a gépészmérnököket, akiknek ütemtervük van mind a szombaton, mind a péntek szombatján.\n\nMinden információt a gépészmérnökökről gyűjtöttük, és a kapott adatok alapján a legközegbbi ütemtervvel rendelkező gépészmérnököket kerestük. A kapott ütemterv alapján a következő gépészmérnökök megtartva:\n\nSZE győr\nGamf kecskemét\n\nTovábbá a gépészmérnökök csak szombaton vagy péntek szombat ütemtervvel rendelkeznek.\n\nA keresett gépészmérnökök: **SZE győr**."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Az alábbi gépészmérnök képzések levelező szakon hogy vannak megtartva?\nSZE győr\nGamf kecskemét\nCsak szombaton vagy péntek szombat?\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -8033,6 +8833,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:40:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Mit jelent az üzenet?\n**Nincs lehetősége új diákhitel igénylésének, ha már egy korábbi diákhitel rendelkezik.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Diákhitel 1 kérdés?\nSziasztok!\nIgényeltem az őszi félévben diákhitel 1-et, egyösszegű kifizetéssel. Szeretnék a tavaszi félévre is igényelni azonban az alábbi üzenetet írta ki, ez mit jelent nem igényelhetek már?\nLétező szabad felhasználású hiteligénylés Tájékoztatjuk, hogy Ön már rendelkezik azonos hitelcelú szerződéssel. Üzletszabályzatunk értelmében egy Hitelfelvevo egyidejüleg legfeljebb kettő, eltérő hitelcélú (DH1 és DH2) érvényes rendelkezhet. Kérjük, vegye fel a kapcsolatot telefonos diákhitelszerzödéssel\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8228,6 +9048,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:41:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Minden információt köszönjük!\n\nMinden információt köszönjük!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Melyik technikumok amik kevesebb pontszámmal is felvesznek gyerekeket?\nMost esedékes az iskola választás, nem sikerült valami jól a központi írásbeli.Próbálom böngészni az iskolák honlapját, de hátha valaki tudja konkrétan melyek a gyengébb sulik.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -8425,6 +9265,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:42:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Gazdálkodás:**\n\n- Mit lehetne mondani a gazdálkodás alapfogalmairól?\n- Mit jelent a gazdálkodás célja?\n- Mit lehetne mondani a gazdálkodás fő típusairól?\n\n**Menedzsment/Nemzetközi Gazdálkodás:**\n\n- Mit jelent a menedzsment fogalma?\n- Mit lehetne mondani a menedzsment fő feladatairól?\n- Mit lehetne mondani a nemzetközi gazdálkodás fogalma és céljainak specificsitásairól?\n\n\nMinden információt előrehaladósan, pontosan és olvasható nyelvi formában adjon meg."
+            }
+          },
+          "prompting_state": {
+            "prompt": "BME gtk mennyire bejárós, részt kell e venni az órákon? Tudom, hogy ELTE-n kb. semmire se kötelező bemenni és ez fontos szempont lenne számomra.\nEzenfelül ennek a két egyetemnek a gazdálkodási és menedzsment/nemzetközi gazdálkodás alapszakjairól is szívesen meghallgatnék egy-két véleményt. Köszi\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8620,6 +9480,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:43:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nagyon köszönjük!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Dzsúdló milyen magas?\nNem voltam még koncerten, élőben nem láttam még őt. Viszont sok zenéjében utal arra hogy nagyra nőtt.\nValaki esetleg tudja milyen magas Dzsúdló?\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -8817,6 +9697,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:44:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Minden információt megadok, hogy segítsem a meghatározását."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mennyire elfogadott napjainkban a susogós melegítő viselése?\nAz igazi nylon anyagú márkás susogós melegítőkre gondolok, nem a poliészterre. Leginkább azok írjanak, akik hordanak ilyet.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9012,6 +9912,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:45:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A napjainkban a magánéleti jogok és a reprodukció jogai is fontosak. Vannak olyanok, akik nem szeretnek gyereket, de ez nem jelenti, hogy nem szeretnek embert.\n\nMindenki magánéleti jogai vannak, és senki nem kötelezhet bennünket, hogy magánéleti jogunk alapján magunknak sem reprodukáljunk.\n\nMindenki magánéleti jogai vannak, és senki nem kötelezhet bennünket, hogy magánéleti jogunk alapján magunknak sem reprodukáljunk.\n\nMindenki magánéleti jogai vannak, és senki nem kötelezhet bennünket, hogy magánéleti jogunk alapján magunknak sem reprodukáljunk.\n\nVannak olyanok, akik nem szeretnek gyereket, de ez nem jelenti, hogy nem szeretnek embert.\n\nVannak olyanok, akik nem szeretnek gyereket, de ez nem jelenti, hogy nem szeretnek embert.\n\nVannak olyanok, akik nem szeretnek gyereket, de ez nem jelenti, hogy nem szeretnek embert.\n\nNagyon fontos, hogy tisztelemük az emberi jogokat, és hogy ne támadjunk azokat, akik magánéleti joguk alapján maguknak sem reprodukálnak.\n\nNagyon fontos, hogy tisztelemük az emberi jogokat, és hogy ne támadjunk azokat, akik magánéleti joguk alapján maguknak sem reprodukálnak.\n\nNagyon fontos, hogy tisztelemük az emberi jogokat, és hogy ne támadjunk azokat, akik magánéleti joguk alapján maguknak sem reprodukálnak.\n\nA magánéleti jogok és a reprodukció jogai is fontosak, de nem mindegyiknek köteleznie kell magunknak sem reprodukálni.\n**Összefoglalás:**\n\n- A napjainkban magánéleti jogok és reprodukció jogai is fontosak.\n- Vannak olyanok, akik nem szeretnek gyereket, de ez nem jelenti, hogy nem szeretnek embert.\n- Mindenki magánéleti jogai vannak, és senki nem kötelezhet bennünket, hogy magánéleti jogunk alapján magunknak sem reprodukáljunk.\n- Tisztelemük az emberi jogokat, és ne támadjunk azokat, akik magánéleti joguk alapján maguknak sem reprodukálnak."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Társadalmilag mennyire elfogadott napjainkban, ha valaki önszántából nem szeretne gyereket?\nMennyire néznek furán valakire, mennyire tartják ördögtől valónak, ha valaki nem vállal gyereket?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -9209,6 +10129,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:46:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Rossmanban kapható krémet. Továbbá a Rossmann weboldalán is rendelkezik krémekkel."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Bb krémet lehet kapni rossmanban? Vagy hol lehet kapni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9404,6 +10344,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:47:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Jogosan-e ez a megoldása a problémámnak?\n\n**Igen, jogosan.** A fogyasztói jogok alapján a fogyasztó visszaküldheti a nem megfelelő terméket az üzletnek, és kérheti a helyettesítését."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Decathlonba vitt már valaki vissza így terméket?\nVettem egy hótaposót, álló munkát végzek a szabadban, nem sokat mozgok. Rá volt írva, hogy *Komforthőmérséklet statikus helyzetben: -8 °C. mozgás közben: -17 °C\", ezért mertem megvenni. Egyszer használtam pár órát, de semmit nem ért, ugyanúgy fázott a lábam benne, hiába húztam fel több zoknit is, gyapjút is.\nVisszamentem az áruházba, de nem vették vissza, mert már használtam. Azt tudták volna csinálni, hogy kicserélik valami hasonlóra, ezt persze nem kértem.\nEgyből eszembe jutott, hogy azt fogom csinálni, rendelek a netről egy ugyanilyet, aztán visszaküldöm a mostanit, az újat meg visszaviszem egy másik üzletbe és úgy már vissza kell vegyék.\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -9601,6 +10561,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:48:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A bolt véglegesen bezárta kapszulát."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Debrecenben a Dózsa GY. úton a kínai bolt (Ázsia Centrum) átköltözött? Vagy véglegesen bezárt a kiköltözéssel?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9796,6 +10776,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:49:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Budapesten van-e katonai ruhaüzlet?\n\n**Katonai ruhaüzlet Budapesten:**\n\n* **Military Surplus Budapest:** Budapest, Váci út 13-15.\n* **Military Shop Budapest:** Budapest, Bajcsy-Zsilmann utca 10.\n* **Katonai Ruhabolt Budapest:** Budapest, Üveg utca 10.\n\n**Használt katonai ruhak vásárlása:**\n\n* **eBay:** Nagyon sok használt katonai ruhak kapható eBay-n.\n* **Etsy:** Etsy-n is sok használt katonai ruhak kapható.\n* **Amazon:** Amazon-on is kapható használt katonai ruhak.\n\n**Fontos tanácsok:**\n\n* A katonai ruhak vásárlása során ügyeljen arra, hogy a ruhak minőségesek legyenek.\n* Vizsgálja a ruhak méretét, hogy illeszkedjen a testéhez.\n* Kérdezzen a árut a boltban."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Honnan lehet venni katonai dolgokat?\nFőleg Budapesten keresek használt katonai ruhákat.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -9993,6 +10993,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:50:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A sofőrnek nem kell tudnia, hogy ki az a nyugdíjas, de a bérleti adatok alapján meghatározható, hogy van-e jogszabályi alapja a járatnak.\n\nTovábbá a BKV járatain az utasoknak nincsenek jogszabályi kötelezettségei a bérleti adatok bemutatása iránt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A BKV járatain egy (külföldi) nyugdíjas miként igazolja, hogy nyugdíjas a sofőrnél?\nÉdesanyámmal szeretnénk menni majd Budapestre egyet kirándulni. Ő már nyugdíjas, így tudtommal EU-s állampolgárként ő is ingyen használhatja a BKV járatait.\nDe, ugye első ajtós felszállásnál vagy lyukasztunk, vagy a bérletet mutatjuk fel, stb.\nNyudíjasként, főleg külföldi nyugdíjasként mit mutasson fel? Személyit esetleg? (Nyilván abból a sofőr semmit nem olvas le. De, szerintem a bérletem dátumát sem tudja olyan gyorsan, ahogy én általában megvillantom neki.)\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10188,6 +11208,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:51:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A bontási terület parkolónak használása a belvárosban logikailag nem helytálló. A parkolónak a belvárosban az utcai parkolás helyett, a parkolók hatékonyabb elhelyezésére van igény.\n\nLehetséges megoldások:\n\n* A bontási területet parkolónak alakítaná.\n* A bontási területet pihenőterré, játszóterré vagy más ütemes célra alakítaná.\n\nMinden megoldásnak elő- és hátrányai vannak.\n\nGyerek- és ifjúságnevelés szempontjából a pihenőter és játszóter megoldása jobban megfelelne, mivel a parkolók hatékonyabb elhelyezésével a játszóterek és pihenőterek elhelyezésére is lehetne megoldást találnani.\n\nDebrecen belvárosában jelenleg nincsenek játszóterek, pihenőterek. A bontási területek jelenleg parkolóként funkcionálnak.\n\nA probléma megoldása a játszóterek, pihenőterek és parkolók hatékonyabb elhelyezésére van igény."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Debrecen belvárosának kellős közepén miért van egy hatalmas bontási terület parkolónak használva?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -10385,6 +11425,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:52:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Idegenforgalmi adó (IFAD) az alábbi városokban van érvényben:\n\n- Budapest\n- Szentendre\n- Óbuda\n- Tatabánya\n- Miskolc\n- Szeged\n\nHa a lakás/ingatlan tulajdonosa nem lakik a városokban, ahovan az IFAD-t fizetnie kell?\n\n**A válasz:**\n\nAz idegenforgalmi adó (IFAD) Budapest, Szentendre, Óbuda, Tatabánya, Miskolc, Szeged városokban van érvényben. Ha a lakás/ingatlan tulajdonosa nem lakik ezeken a városokban, az IFAD-t a **lakás/ingatlan tulajdonosa** fizetnie kell."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kiket érint XY városban az idegenforgalmi adó?\nPl ha egy bevásárlóközpont parkolójában 2 napig a furgonamban alszok az már díjköteles?\nVagy ha egy idenforgalmi adót beszedő városban van egy lakásom/ingatlanon a saját nevemen,de nem oda vagyok bejelentve,akkor is fizetni kell?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10580,6 +11640,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:53:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Sima menetjegy:**\n\n* A vonat menetjege a vasút honlapján vagy a MÁV alkalmazásában található.\n* A vonatokon nincsenek speciális funkciók, mint Wi-Fi, USB-port, vagy más.\n\n**Okos jegy:**\n\n* A vonat menetjege a MÁV alkalmazásában található.\n* A vonatokon Wi-Fi, USB-port, Bluetooth-kapcsolatok, és más funkciók állnak rendelkezésre.\n* A okos jegyekkel összekapcsolhatók a vonatokon található Wi-Fi hálózatok, és a vonatokon található USB-porton keresztül más eszközöket is csatlakoztathatunk."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A MÁV-ban illetve a vonatokon mi a különbség a sima menetjegy és az okos jegy között? Mind a 2 őt meg lehet venni telefonon ez takar valamit?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -10777,6 +11857,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:54:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Lehetséges válasz:**\n\nA hatályos önkormányzati jogszabályok alapján a jövedelmek felülvizsgálata során az önkormányzatok kötelesek arra, hogy figyelemmel kísérjék a jövedelmek változását, és ha az új jövedelem nem felel meg a jogszabályokban meghatározott követelményeknek, az önkormányzatok jogosultak a szerződés felmondása vagy a jövedelemmel összefüggő kötelezettségek módosítása. Emellett az önkormányzatoknak joga van arra, hogy a jövedelmek felülvizsgálata során az ügyfelek adósságát is figyelemmel kísérjék."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Önkormányzati jövedelem felülvizsgálatkor teendő?\nSziasztok, 2014-ben önkormányzati lakásba kerültem, akkor nettó 90ezer ft volt a jövedelmem friss pályakezdőként, viszont azóta a munkahelyemen 4x annyival többet keresek, mert előléptettek és emelték a fizetésem a 10 év alatt. Eddig az éves önkormányzati felülvizsgálati szemlekor csak azt nézték a vagyonkezelő dolgozói, hogy a lakbér és a közmű számlák rendezve vannak-e, viszont most kaptam egy olyan levelet, hogy a jövedelmem is igazoljam. Határozatlan az önkormányzati szerződésem, ilyenkor szerintetek felmondhatják, hogy ekkora jövedelemmel nem vagyok jogosult, vagy csak a lakbért fogják emelni? Köszönöm szépen előre is a válaszokat!\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10972,6 +12072,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:55:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* Lehet-e, hogy a szigetelés penészes?\n* Mit lehet tenni, ha a szigetelés penészes?\n* Mit lehet tenni, ha a szigetelés nem penészes?\n\n**Lehet-e, hogy a szigetelés penészes?**\n\n* A penészes EPS szigetelés jelei:\n    * Kemény, nyálkás réteg\n    * Szúrós, nyálkás nedv\n    * Fekete vagy barnás foltok\n    * Kemény, üvegdarabok\n\n**Mit lehet tenni, ha a szigetelés penészes?**\n\n* Eltávolítás:\n    * A penészes EPS-t el kell távolítani a falfelületről.\n    * A falfelületet vízzel mosogatóval és savakkal kell tisztogatni.\n* Új szigetelés:\n    * A falfelületet új EPS-sel kell szigetelni.\n    * A szigeteléshez vízelnyugta réteget is fel kell rakni.\n\n**Mit lehet tenni, ha a szigetelés nem penészes?**\n\n* Ellenőrizze a szigetelés minőségét.\n* Ellenőrizze a falfelület nedvességtartalmát.\n* Vizsgálja a falfelületet a penészesedésre vonatkozó jelei alapján."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Vásároltam egy panel lakást és fel szeretném újítani, de az egyik belső falra 5cm EPS szigetelést raktak. Szerintetek leszedjem mert penészes lehet, vagy honnan lehet ezt megtudni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -11169,6 +12289,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:56:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A Horthy-kori sisakokban a piros és a kék szín dominál. A piros szín a vérre utal, a kék szín pedig a világot jelképezi.\n\nVannak olyan elmélettek is, hogy a Horthy-kori sisakokban a piros és a kék szín egyaránt a nemzetességre utal. A piros a magyar nemzeti jelkép, a kék pedig a nemzetközi kapcsolatokban játszott szerepet.\n\nMindenesetre a Horthy-kori sisakok színét nem lehet kikeverni, mivel a piros és a kék szín egymással kölcsönhatásba lépnek, és a kikeverés során új színű keverék jönne létre.\n\nTovábbá a Horthy-kori sisakok színét nem lehet kikeverni, mivel a piros és a kék szín a sisakok gyártásához használt festékanyagok eredménye. A festékanyagok minősége és a gyártási folyamat határozza meg a sisakok színét."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan lehet kikeverni a Horthy-kori sisakok színét?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -11364,6 +12504,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:57:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Újépítésűnek számít egy ház, ha:**\n\n* Új épülelemmel helyettesíti egy korábbi épülemet.\n* A ház alaprajza vagy az épülemek magassága jelentősen megváltozik.\n* A ház új funkcióval rendelkezik.\n\n**Az építési jogszabály köteleti az új építésű házaknál az energiatakarékosságot, fenntarthatóságot, 0 energiaigényt az alábbiak alapján:**\n\n* **2018. évi 439/2018. (XII. 27.) Kormányszabály:** Az építési jogszabály köteleti az új építésű házaknál az energiatakarékosságot, fenntarthatóságot, 0 energiaigényt.\n\n**A 2018. évi 439/2018. Kormányszabály alapján újépítésűnek számít egy ház, ha:**\n\n* A ház új épülelemmel helyettesíti egy korábbi épülemet.\n* A ház alaprajza vagy az épülemek magassága jelentősen megváltozik.\n* A ház új funkcióval rendelkezik.\n\n**Meddig lehet elmenni az régi falakat?**\n\nA 2018. évi 439/2018. Kormányszabály nem határozza meg a falak elmenésének idejét. A hatályos építési jogszabályokban nincsenek előírások arról, hogy mikor kell felújítani a falakat."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mitől számít újépítésűnek egy ház? Mitől kell alkalmazni azt az építési jogszabájt, ami köteleti az új építésű házaknál az energiatakarékosságot, fenntarthatóságot, 0 energiaigényt.\nÚgy értem hogy például van egy régi ház, és ha meghagyjuk a falakat, akkor nyilván nem lesz új építésű, de meddig lehet elmenni?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -11561,6 +12721,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:58:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Jogszabályi megoldások:**\n\n* **Hatályos bérleti szerződés:** Ellenőrizd, hogy a bérleti szerződésben van-e bármikor kapott károsítás-e vagy bármikor meghatározott javítási kötelezettség.\n* **Igazolások:** Gyűjts össze bármikor kapott igazolásokat (pl. fényképek, videók) a károsításokról.\n* **Ügyezés:** Próbálj meg megállapodni a főbérlővel a károsítások összegével.\n* **Bérleti bíróság:** Ha nem sikerül megállapodni a főbérlővel, fordulj a bérleti bírósághoz."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mit tehetek, ha a főbérlő olyan károkozással vádol, amit nem követtem el?\nÁtköltöztem egy másik albérletbe, mert az elöző igencsak igénytelen volt, az elöző főbérlő szinte semmit nem akart megjavítani. Penészes falak, beázás, stb.\nElköltöztem, de most egy bútornak az árrát akarja rám verni (150000) mert egy vágás volt rajta, ami a kiköltözésemnél 100%, hogy nem volt ott.Mit tehetek?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -11756,6 +12936,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:59:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Lehetséges, hogy van-e olyan, amit magában foglal az építési engedély?\n\nMinden információt előre örömmel fogok felvenni.\n\nKöszönjük!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Milyen engedélyek kötelezőek ha lakást szeretnék újítani?\nFigyelt kérdés\nEgy régi kissé romos lakást szeretnék felújítani. Tető csere az 100%, szobák/helységek átrendezése, falak bontása, illetve újak építése. Van közvetlen a ház mellett egy pajta, ugyan az a tető fedi mint magát a lakást, csak egy fal válassza el a kettőt, abba ajtót tennék és lakható szobának kialakítanám. Ajtókat, ablakokat is szeretnék kialakítani egy-két helyen.\nAzt tudom hogy mindenhez nem kell engedély.\nPersze ezt nyilván nehéz mind előre megmondani, de a kérdésem az volna, hogy nagyjából melyik engedélyekre lesz mindezek elvégzéséhez szükségem?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -11953,6 +13153,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:60:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Minden mobilháznak van egy IMEI-száma, ami egyedi az összes mobilháznak. Ezen a szám alapján lehet az tulajdonosát az operátorhoz kérdezni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mobilházat ha vesz valaki, mi alapján lesz a nevén?\nPl. egy telekre lerakva, ami a szülők nevén van, a mobilház mi alapján azonosítható be, hogy annak ki a tulajdonosa?\nNyilván van vételi szerződés, de a mobilházon van valami szám, vagy egyéb dolog, ami alapján az kimondható egyértelműen, hogy ki a tulajdonosa?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -12148,6 +13368,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:61:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Lehetséges megoldások:**\n\n* **Vasradiátort lecserélni modern radiátorokra:** modern radiátorok jobban szigetelnek, mint a vasradiátorok.\n* **Betonfalakat szigetelni polisztirol lemezre:** a polisztirol lemez hatékonyan szigetel, és nem igényel vízforrásot.\n* **Álmennyezet szigetelés:** a álmennyezet szigetelésével a tető is szigeteltebbé válik.\n\n**Tanácsok:**\n\n* A szigetelés költségeit figyelembe kell venni.\n* A megoldásoknak a lakás igényeinek és költségvetésének megfelelőnek kell lennie.\n* A munka végrehajtása során tapasztalt építőmestert kell igénylni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "‘G’ energetikai besorolást kapott a vásárolni kívánt lakásom. Ez mit jelent és hogyan lehetne segíteni rajta?\nEz egy 4 emeletes legfelső lakás. Szigetelt épület, új, korszerű műanyag nyílászárókkal.\nA tető nincs csak víz ellen szigetelve elvileg.\nBeton épület, 44nm\nVasradiátorok vannak benne, simán egy tekerős csappal.\nMajd ha újítom fel álmennyezet van tervben, oda szeretnék szigetelést rakni.\nA fűtéssel mit lehet kezdeni? Érdemes valamit vagy csak én gondolom túl a dolgot?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -12345,6 +13585,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:62:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A hangosbemondókat a vasút üzemeltetője üzemelteti, és a hangosbemondó-hálózatot a Magyar Vasút (MVM) üzemelteti.\n\nLehetséges okok:\n\n* **Hangosbemondó-hibák:** A hangosbemondók bármikor meghibásodhatnak.\n* **Hálózati problémák:** A hangosbemondó-hálózatban hiba lehet.\n* **Infrastruktúra-problémák:** A hangosbemondó-berendezéseknek megfelelő tápláló- és internetkapcsolatuk lehet hiányos.\n* **Felhasználói hiba:** A hangosbemondókat nem megfelelően lehet használni.\n\nGyömrőn a hangosbemondó-hálózatban egyedi problémák is lehetnek. A vasút üzemeltetője nyomon követheti a hangosbemondó-adatokat, és az MVM-nek is információi vannak a helyi problémákról.\n\n**Lehetséges megoldások:**\n\n* A hangosbemondó-berendezéseket fel kell cserélni.\n* A hangosbemondó-hálózatot fel kell frissíteni.\n* A hangosbemondó-berendezéseknek megfelelő tápláló- és internetkapcsolatukat kell biztosítani.\n* A vasút üzemeltetője és az MVM közösen kell megoldani a hálózati problémákat.\n\n**Javaslat:**\n\n* Kapcsold meg a vasút üzemeltetőjét, és tájékoztasd róla a hangosbemondó-problémákat.\n* Lehet, hogy a vasút üzemeltetője már is tudja a problémát, és munkálkodni fog rajta."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Gyömrőn és Sülysápon a vasútállomáson miért akadozik a hangosbemondó?\nFőleg Gyömrőn, szinte állandóan megakad, miközben bemondja az érkező vonatot. Miért akad? Más állomásokon nem szoktam ilyen megakadást hallani.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -12540,6 +13800,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:63:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Minden információt előrehalasztam a válaszban.\n\n**A szóbeli felvételin az alábbiakat figyelik fel:**\n\n* **Nyelvi készség:** az beszélő nyelvi alapjait, a nyelvi formai elemeit, a nyelvi funkciókat, a nyelvi összefüggés formákat.\n* **Hangminőség:** a beszélő hangja, a hangsúly, a ritmus, a hangmagasság.\n* **Szókinventarizáció:** a beszélő szókintege, a szóösszetépés, a logikai következeteség.\n* **Kommunikációs készség:** a beszélő kommunikációs céljainak meghatározása, a beszélő-hallgató kölcsönhatás.\n\n**Tippek, trükkök, taktikák:**\n\n* Ügyeljen a nyelvi alapjait, a nyelvi formai elemeit, a nyelvi funkciókat, a nyelvi összefüggés formákat tanulmányozni.\n* Gyógjen a hangminőségét: hangsúly, ritmus, hangmagasság.\n* Tanulja a szókinventarizációt: a szókintege, a szóösszetépés, a logikai következeteség.\n* Ügyeljen a kommunikációs készségét: a kommunikációs céljainak meghatározása, a beszélő-hallgató kölcsönhatás.\n* Próbáljon mockó felvételizni, hogy felkészüljen a szóbelire."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mire figyeljünk az egri Szilágyi Erzsébet Gimiben a szóbeli felvételin?\nEgy hét múlva megyek felvételizni magyarból! Humán vagy általános szakra szeretnék bejutni! A sulit első helyen jelöltem. Sajnos a központim nem lett valami fényes, nagyon kellene egy jó szóbeli!\nHogyan zajlik a szóbeli?\nMire figyeljek?\nTippek, trükkök, taktikák? :)\nElőre is köszönöm!\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -12737,6 +14017,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:64:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Pontszámítás:**\n\n* Informatikus diplomás (BA): 180 pont\n* Emelt történelem érettség: 50 pont\n* 2 db B2-es nyelvvizsgás: 60 pont\n\n**Összesen:** 180 + 50 + 60 = **290 pont**\n\n**Többletpont:**\n\nA történelem érettségért 10 pontot, a nyelvvizsgáké pedig 5 pontot kap.\n\n**Összesen:** 290 + 10 + 5 = **305 pont**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Diplomával egy másik alapszakra jelentkezés hogy történik? Többletpontot hogy számítanak?\nTegyük fel, hogy van egy informatikus diplomám(BA) és szeretnék jelentkezni pszichológiára.\nA pontszámítás hogy történik? A többletpontokat hogy számítják? Ez érdekelne a a legjobban.\nVan egy emelt történelem érettségim és 2 db B2-es nyelvvizsgám, az így mennyi pontot érne? Mármint többletpontban ugye.\nElőre is köszönöm a válaszokat!\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -12932,6 +14232,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:65:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Apontozás pontjaiban az oklevél alapján a következő pontokat veszi figyelembe:**\n\n* A diplomásként elért összes pont (a nyelvi Vizsgák pontjaitól külön).\n* A diplomásként elért pontok minősége (pl. 5-ös, 4-es, 3-as).\n\n**A pontok számítása:**\n\n* A pontokat az adott oklevél alapján sorolják.\n* A pontokat az adott oklevél alapján súlyozzák.\n* A pontokat összegyűlik, és a kapott összeg a pontszám.\n\n**A pontok alapján a felvételi eredmény:**\n\n* A pontok alapján határozzák meg a felvételi határért.\n* A pontok alapján sorolják a jelölteket.\n\n**A pontok alapján nem fogadják el a következőket:**\n\n* A nyelvi Vizsgák pontjai.\n* A diplomásként elért pontok minősége.\n\n**A pontok alapján fogadják el a következőket:**\n\n* A diplomásként elért összes pont."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hogyan működik egyetemi felvételinél pontszámítás felsőoktatási oklevél alapján?\nPróbáltam utánanézni, de egyszerűen nem tudok kiigazodni. Nekem van már egy ötös diplomám és szeretnék elkezdeni egy másik alapszakot. Az előző diploma ha jól értem 400 pontot ér. De ha a szakra, amire jelentkeznék a tavalyi ponthatár 435 volt, és többletpontom nincs (nyelvvizsgám van, de ennyi) akkor nincs esélyem bekerülni?\nAz érettségi pontjaim alapján nem lenne meg, ezért szeretném oklevél alapján számolni.\nIlletve hol találom meg, hogy mely szakokon fogadják el ezt a fajta pontszámítást? A szakleírásban nem találtam.\nKöszönöm, ha tudtok segíteni.\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -13129,6 +14449,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:66:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A aranycsapat sikereinek fő okai:\n\n* **Gyenge ellenfelek:** A Golden State Warriors ellenfelei gyenge volt, nem rendelkeztek megfelelő játékosokkal, hogy versenyezzenek a Warriors-ral.\n* **Gyémántos trió:** Stephen Curry, Klay Thompson és Draymond Green alkottak egy kiváló trió, amelynek összehangolása és együttes játéka volt a csapat sikerének kulcsa.\n* **Erős vezetés:** Steve Kerr vezetésének köszönhetően a csapat optimalizált játékszerkezet és taktikát alkalmazott.\n\nTovábbá a Golden State Warriors rendelkezett kiváló edzői stábbal, modernizált arénával és egy stabil pénzügyi alapjával is."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Az aranycsapat mitől volt olyan sikeres és miért volt évekig egyértelműen a világ legjobb csapata?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -13324,6 +14664,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:67:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Nem, a nők 60 évesen nem kapnak előnyugdíjat."
+            }
+          },
+          "prompting_state": {
+            "prompt": "60 évesen a nők is elmehetnek előnyugdíjba?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -13521,6 +14881,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:68:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* Éjfél előtt\n* Éjfél után\n* Semmikor\n* Lencsét nem szokás enni szilveszterkor\n\nNincs helyes válasz, mivel a lencsét nem szokás enni szilveszterkor."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mikor szokás a lencsét enni szilveszterkor, éjfél előtt vagy után?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -13716,6 +15096,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:69:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A válasz: **Elfazikzik.**\n\nA hagyomány szerint, ha valaki nem locsolja meg az elfazikziket, elfazikzikzik."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A hagyomány szerint mi történik azzal, akit nem locsolnak meg?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -13913,6 +15313,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:70:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Az autóadók alábbiak:\n\n* Gyógyszámtörzs adó (GT)\n* Autószedés-adó (ASA)\n* Járművek adója (JA)\n\nMelyik adó az autó üzemanyagára vonatkozik?\n\nA megadott szövegben nincs információ arról, hogy az autó üzemanyagára vonatkozó adó melyik adó. A kérdésre nem válaszolható a megadott szövegből."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Milyen adók vannak az autókra?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -14108,6 +15528,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:71:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "Ez a kérdés nem korrekt. A Köztársasági elnöknek nincsenek állandó rezidenciái."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A Köztársasági elnök mindig a Sándor-palotában tartózkodik? Úgy tudom, hogy a Sváb-hegyen is van egy Köztársasági elnöki rezidencia. Melyik helyen tartózkodik állandó jelleggel? Illetve minek van szükség kettő rezidenciára?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -14305,6 +15745,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:72:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "**Nemzeti ünnep:**\n- A nemzeti ünnepek nem kötelezőek, de mégis fontosak a nemzeti identitás részeként.\n- Általában egy adott nemzet történelmi, kulturális vagy vallási ünnepét jelentik.\n- A nemzeti ünnepekre az adott nemzet tagjai emlékeznek.\n\n**Általami ünnep:**\n- Az állami ünnepek kötelezőek, és az állam jogszabályainak részeként vannak.\n- Általában egy adott állam alapvető jogainak, történelmi eseményeinek vagy céljainak ünnepét jelentik.\n- Az állami ünnepekre az állam polgói emlékeznek."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi a különbség a nemzeti és az állami ünnep között?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -14501,6 +15961,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "hungarian:73:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "A jogilag közterületek részeként a földes utak is tartoznak."
+            }
+          },
+          "prompting_state": {
+            "prompt": "A földes utak jogilag közterületnek minősülnek?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -14696,6 +16176,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "hungarian:74:language.hungarian:gemma 7b",
+          "language": "Hungarian",
+          "translations": {
+            "Hungarian": {
+              "language": "Hungarian",
+              "text": "* **Kardinális:**\n    * Gyémántfehér magvaszár\n    * Színes virággyémántok díszítik\n    * Gyémántgyémántos üveg\n* **Rákóczi túrós:**\n    * Fekete magvaszár\n    * Arany- és zöld zöldek díszítik\n    * Üveg üveg\n* **Női szeszély:**\n    * Fekete magvaszár\n    * Arany- és piros zöldek díszítik\n    * Üveg üveg\n\nMi a fő különbség a Kardinális és a Rákóczi túrós között?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Mi a különbség a Kardinális, Rákóczi túrós és a Női szeszély között?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]

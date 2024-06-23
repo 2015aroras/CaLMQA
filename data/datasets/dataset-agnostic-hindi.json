@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:** हवाई जहाजों को आगे से पीछे की ओर चढ़ाया जाता है ताकि जहाज के पिछले हिस्से को हवा के प्रणोतक से सुरक्षित रखा जा सके।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "हवाई जहाजों को आगे से पीछे की ओर क्यों चढ़ाया जाता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\n**1. रक्तचयनी प्रणाली को प्रभावित करना:**\n\n* धूम्रपान रक्त में ऑक्सीजन की आपूर्ति को कम करता है।\n* यह बढ़ा हुआ रक्तचयनी दबाव, उच्च रक्तचयनी तनाव और हृदय के workload को बढ़ाता है।\n\n\n**2. वांछित पदार्थों का उत्पादन:**\n\n* धूम्रपान में तेल और वांछित पदार्थों का उत्पादन शामिल है।\n* ये पदार्थों में विषैले पदार्थ भी शामिल हैं जो हृदय के लिए हानिकारक हैं।\n\n\n**3. ऑक्सीडेटिव स्ट्रॉम:**\n\n* धूम्रपान में ऑक्सीडेटिव स्ट्रॉम भी शामिल है।\n* यह स्ट्रॉम ऑक्सीजन और ऑक्सीडेटरों के बीच अभिक्रियाओं का परिणाम है।\n* यह स्ट्रॉम हृदय के ऊतकों को क्षति दे सकता है।\n\n\n**4. धमरीय रोग की संभावना:**\n\n* धूम्रपान धमरीय रोग की संभावना को बढ़ाता है।\n* धमरीय रोग हृदय के लिए बहुत हानिकारक हो सकता है।\n\n\n**5. तनाव और वरीयता:**\n\n* धूम्रपान तनाव और वरीयता में भी मदद करता है।\n* यह तनाव और वरीयता के कारण हृदय workload को बढ़ावा सकता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "धूम्रपान हृदय के लिए इतना हानिकारक क्यों होता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\n'हाल ही में हटाए गए' से हटाए गए फाइल्स और फोटोज 'चूकबिन' या 'ट्रASH' फोल्डर में स्थित होते हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "iPhone में, 'हाल ही में हटाए गए' से हटाए गए फाइल्स और फोटोज कहाँ जाते हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nदौड़ने से हमारे मस्तेबो में ऐसी रसायनें बनती हैं जो कूदने की प्रक्रिया में मदद करते हैं। इन रसायनों में नॉरएड्रिन और एड्रिनलिन शामिल हैं। ये रसायन हमारे मस्तेबो को उत्तेजित करते हैं और हमारे पिछले पैरों को ऊँची स्थिति में लाने में मदद करते हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "कूदने से पहले दौड़ने से हमें ऊँचा क्यों कूदने में मदद मिलती है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nबेबी फॉर्मूला में एंटीबॉडीज मिलाना सुरक्षा के लिए एक बड़ी समस्या होगी। बेबी फॉर्मूला में एंटीबॉडीज मिलाने से विभिन्न स्वास्थ्य समस्याओं का कारण बन सकता है, जैसे कि प्रतिरक्षा प्रणाली के अव्यक्तिक विकास, विषाशय के लिए सुरक्षा के कमजोर होने और अन्य स्वास्थ्य समस्याओं का कारण बन सकता है।\n\nइसके अलावा, बेबी फॉर्मूला में एंटीबॉडीज मिलाने का उपयोग करने में कई तकनीकी और सुरक्षा संबंधी मुद्दें भी हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "स्तनपान के दूध के एंटीबॉडीज/अन्य लाभों को बेबी फॉर्मूला में क्यों नहीं मिलाया जा सकता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "\n\n**इंटरनेट की गति सीमा को नियंत्रित करने के लिए वाईफाई प्रदाता कुछ तरीकों का उपयोग करते हैं:**\n\n**1. बिटर को सीमित करें:**\n* वाईफाई प्रदाता बिटर की संख्या को सीमित करके इंटरनेट की गति सीमा को नियंत्रित करते हैं। बिटर डेटा के प्रणाली में जानकारी का प्रतिनिधित करते हैं।\n\n**2. प्रणाली की तालुड को सीमित करें:**\n* वाईफाई प्रदाता प्रणाली की तालुड को सीमित करके इंटरनेट की गति सीमा को भी नियंत्रित करते हैं। तालुड डेटा प्रणाली में जानकारी का प्रतिनिधित करता है।\n\n**3. उपयोगकर्ता की संख्या को सीमित करें:**\n* वाईफाई प्रदाता उपयोगकर्ता की संख्या को सीमित करके इंटरनेट की गति सीमा को भी नियंत्रित करते हैं। कई उपयोगकर्ता एक साथ बिटर का उपयोग करते हैं, जो इंटरनेट की गति को प्रभावित कर सकता है।\n\n**4. प्रौद्योगिकी का उपयोग:**\n* कुछ वाईफाई प्रदाता प्रौद्योगिकी का उपयोग करते हैं, जैसे QOS (Quality of Service) और OFDMA (Orthogonal Frequency Division Multiple Access), इंटरनेट की गति सीमा को बेहतर बनाने के लिए।\n\n**5. उपयोगकर्ता की आवश्यकता के अनुसरण:**\n* कुछ वाईफाई प्रदाता उपयोगकर्ता की आवश्यकता के अनुसरण करते हैं। उदाहरण के लिए, वे उच्च गति की आवश्यकता वाले उपयोगकर्ताओं को उच्च गति की योजनाओं का प्रस्तुत करते हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "मेरा वाईफाई प्रदाता इंटरनेट की गति सीमा को कैसे नियंत्रित करता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:** बांह के मोड़ पर रक्त नमूना लिया जाता है क्योंकि यह वांछित ऊतकों और ऊतकों के रोगाणों का प्रतिनिधित करता है। यह जानकारी विभिन्न रोगों के लिए महत्वपूर्ण है, जैसे कि संक्रमण, रोगाणों का अनुपात और रोग की प्रगति का अनुसरण करने में मदद करता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "आपकी बांह के मोड़ पर रक्त नमूना आमतौर पर क्यों लिया जाता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nटीवी स्टूडियो कैमरों का उपयोग करने के कुछ कारण हैं:\n\n* **उच्च गुणवत्ता का इमेज:** टीवी स्टूडियो कैमरें उच्च गुणवत्ता के इमेज बनाने के लिए विशेष रूप से डिज़ाइन किए गए हैं।\n* **व्यासार और लेंस की रेंज:** टीवी स्टूडियो कैमरों में विभिन्न लेंस और व्यासार की रेंज होती है, जो विभिन्न परिस्थितियों में विभिन्न प्रकार के फोटोग्राफिक परिणामों का उत्पादन करने में सहायता करती है।\n* **व्यक्तिगत नियंत्रण:** टीवी स्टूडियो कैमरें व्यक्तिगत नियंत्रण की सुविधाएं भी प्रदान करते हैं, जैसे लेंस की रेंज और ऑटो फोकस।\n* **विशेष सुविधाएं:** टीवी स्टूडियो कैमरें विभिन्न विशेष सुविधाओं का भी उपयोग करते हैं, जैसे इलेक्ट्रॉनिक इन्सुलेटर और हस्तक्षेप रद्द।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "हम अभी भी विशाल टीवी स्टूडियो कैमरों का उपयोग क्यों करते हैं, जबकि वही तकनीक अब सेल फोन के आकार में उपलब्ध है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nइनका उपयोग किया जाता है:\n\n* **सौर रेडिएशन मापने के लिए उपग्रहों का उपयोग**।\n* **तापमान प्रणालियों का उपयोग**।\n* **भौतिक मॉडलिंग**।\n\nइन सभी तरीकों का उपयोग करके वैज्ञानिकों को पृथ्वी के केंद्र का तापमान जानने में सक्षम बनाता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "वे पृथ्वी के केंद्र का तापमान कैसे जानते हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nजौवन के दौरान मुँहासे अक्सर होते हैं क्योंकि:\n\n* **हार्मोनों के बदलते स्तर:** जौवन के दौरान हार्मोनों के स्तर बदलते हैं, जो मुँहासे की संभावना को बढ़ाता है।\n* **वृह्दिशालिक प्रणाली के बदलते काम करने का तरीका:** जौवन के दौरान वृह्दिशालिक प्रणाली के काम करने का तरीका बदलता है, जो मुँहासे की संभावना को बढ़ाता है।\n* **भार की स्थिति:** जौवन के दौरान महिलाओं का वजन बदलता है, जो मुँहासे की संभावना को बढ़ाता है।\n* **जीवनील रोगाण:** कुछ जीवनजीवनील रोगाण भी मुँहासे की संभावना को बढ़ावा सकते हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "यौवन के दौरान मुँहासे अक्सर क्यों होते हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**घास और पानी के बदलने के लिए भेड़ों का उपयोग:**\n\n**1. दूध:**\n* भेड़ों के पाचन तंत्र में घास के कारबोहॉइड और पानी के मिलकर दूध बनता है।\n* दूध में लिपिड, प्रोटीन, कारबोहॉइड और विटामिन शामिल हैं।\n\n**2. ऊन:**\n* भेड़ों के ऊन की रेशा में ऊन के छोटे कण होते हैं।\n* इन कणों को पानी के साथ मिलाकर ऊन बनता है।\n* ऊन एक प्रौद्योगिक पदार्थ है जो विभिन्न उद्देश्यों के लिए उपयोगी है।\n\n**3. भेड़ों:**\n* भेड़ों के पाचन तंत्र में घास के कारबोहॉइड और पानी के मिलकर भेड़ों का उत्पादन होता है।\n* भेड़ों में प्रोटीन, कारबोहॉइड और विटामिन शामिल हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "भेड़ें घास और पानी को दूध, ऊन और और भेड़ों में कैसे बदल देती हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**शरीर की वसा का प्रतिशत जानने के लिए विभिन्न तरीकों का उपयोग किया जाता है:**\n\n**1. जैविक अनुमान**\n\n* व्यक्तिगत विशेषताओं, वजह और जीवनशैली के आधार पर अनुमान।\n* यह तरीका सटीता नहीं है और केवल एक अनुमान है।\n\n\n**2. परिणामों का उपयोग**\n\n* वसा प्रबंधन और स्वास्थ्य के लिए विभिन्न परिणामों का उपयोग।\n* उदाहरण के लिए, एक व्यक्ति का वसा का प्रतिशत जानने के लिए, उसका वजह और परिणामों का उपयोग किया जा सकता है।\n\n\n**3. वसा प्रबंधन प्रणालियाँ**\n\n* वसा प्रबंधन प्रणालियाँ व्यक्तिगत वसा का प्रतिशत जानने में मदद करती हैं।\n* वे विभिन्न कारकों का उपयोग करते हैं, जैसे वजह, परिणाम और स्वास्थ्य के लिए उपयोगी कारकों का अनुभव।\n\n\n**4. जैविक जांच**\n\n* विभिन्न जैविक जांच वसा का प्रतिशत जानने में मदद करते हैं।\n* उदाहरण के लिए, Bioelectrical Impedance Analysis (BIA) और Dual-Energy X-ray Absorptiometry (DXA) जैसी तकनीकें उपयोग की जा सकती हैं।\n\n\n**5. स्वास्थ्य विशेषजों का सलाह**\n\n* स्वास्थ्य विशेषज व्यक्तिगत वसा का प्रतिशत जानने में मदद करते हैं।\n* वे विभिन्न तरीकों का उपयोग करते हैं, जैसे जैविक जांच और परिणामों का उपयोग।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "लोग अपने शरीर की वसा का प्रतिशत कैसे जानते हैं, या वे सिर्फ अनुमान लगाते हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**विज्ञान:**\n\n**1. रासायनिक प्रक्रियाएं:**\n\n* नींद के पक्षाघात के पीछे रासायनिक प्रक्रियाएं होती हैं।\n* नींद के अवस्थाओं में डोपामाइन, सेरोटोनिन और ग्लाइकोलिन जैसी रासायनिक पदार्थों के स्तर बदलते हैं।\n* डोपामाइन एक उत्तेजक तेल है जो जागृति और ध्यान को बढ़ाता है।\n* सेरोटोनिन एक अवयय तेल है जो सुकून, भनन और नींद की गुणवत्ता में मदद करता है।\n\n**2. बिद्युतिक प्रक्रियाएं:**\n\n* नींद के पक्षाघात के पीछे बिद्युतिक प्रक्रियाएं भी होती हैं।\n* नींद के अवस्थाओं में मस्तेबो की बिद्युतिकता बदलती है।\n* नींद की अवस्थाओं में मस्तेबो की लहरों की तीव्रता और आवृत्ति बदलती है।\n\n**3. जैविक प्रक्रियाएं:**\n\n* नींद के पक्षाघात के पीछे जैविक प्रक्रियाएं भी होती हैं।\n* नींद के अवस्थाओं में विभिन्न ऊर्जा स्तरों का उपयोग किया जाता है।\n* नींद की अवस्थाओं में ऊर्जा का उपयोग कम हो जाता है, जो सुकून और भनन में मदद करता है।\n\n**4. व्यवस्थिक कारक:**\n\n* नींद के पक्षाघात के पीछे व्यवस्थिक कारक भी हो सकते हैं।\n* नींद की गुणवत्ता, मात्रा और समय के अनुभव में विभिन्न कारक शामिल हो सकते हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "नींद के पक्षाघात के पीछे का विज्ञान क्या है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:** धातुओं से अभी तक चूके नहीं हैं। वे हमारे लिए सुरक्षित हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "हम अभी तक धातु से कैसे नहीं चूके?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "ताइवान में स्थित कोई भी कंपनी दुनिया के सबसे उत्कृष्ट माइक्रोचिप्स बनाने में सक्षम नहीं है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "मेरी समझ यह है कि ताइवान में एक कंपनी दुनिया के सबसे उत्कृष्ट माइक्रोचिप्स बनाती है और कोई और उन्हें नकल नहीं कर सकता। यह कैसे संभव है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nजानवरों के खून में लाल वर्णक hemoglobin होता है, जो ऑक्सीजनीकृत रक्त में लाल रंग देता है। hemoglobin के कारण जानवरों के खून लाल होता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "लगभग सभी जानवरों का खून लाल क्यों होता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nस्वस्थ तरीके से व्यायाम और बॉडीबिल्डिंग, उम्र बढ़ने के साथ शरीर की क्षमता को ठीक करने की क्षमता को बढाता है।\n\n* **व्यायाम** के माध्यम से, ऊर्जा उत्पादन में सुधार लाए गए हैं, जो ऊर्जा की खपत को कम करने में मदद करता है।\n* **बॉडीबिल्डिंग** के माध्यम से, मसान और वसा को कम करने में मदद करता है, जो स्वास्थ्य और ऊर्जा के लिए लाभप्रद है।\n\nइसके अलावा, ये अभियान स्वास्थ्य और विषाशय प्रबंधन में मदद करते हैं, जो स्वास्थ्य और ऊर्जा के लिए लाभप्रद है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "यदि उम्र बढ़ने को संक्षेप में, शरीर की स्वयं को ठीक करने की क्षमता का थकावट माना जाए, तो स्वस्थ तरीके से व्यायाम और बॉडीबिल्डिंग उस क्षमता को और खराब क्यों नहीं बनाते हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nकंपनी अपने उत्पादों को भारी छूट पर बेचकर पैसे कमाने का उपयोग नहीं करती है। छूट के माध्यम से कंपनी अपने लाभ को कम करने का उद्देश्य रखता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "कंपनी अपने उत्पादों को भारी छूट पर बेचकर पैसे कैसे कमाती है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**सुबह की मिचली** एक सामान्य प्रतीक है जो कुछ महिलाओं में गर्भावस्था के दौरान उठता है। यह एक विषाशयिक प्रणाली की प्रतिकार है।\n\n**सुबह की मिचली के कुछ कारण हैं:**\n\n* **एस्ट्रोजन और प्रोजेस्टरोन के बदलते स्तर:** गर्भावस्था के दौरान एस्ट्रोजन और प्रोजेस्टरोन के स्तर बदलते हैं, जो सुबह की मिचली का कारण बनता है।\n* **गर्भाशय की दबाव:** गर्भावस्था के दौरान भावाशय की दबाव बढ़ाता है, जो भी सुबह की मिचली का कारण बनता है।\n* **गर्भाशय की स्थिति:** कुछ महिलाओं में भावाशय की स्थिति सुबह की मिचली का कारण बनता है।\n\n**सुबह की मिचली केवल पहली तिमाही में क्यों होती है?**\n\nसुबह की मिचली केवल पहली तिमाही में क्यों होती है क्योंकि पहली तिमाही में एस्ट्रोजन और प्रोजेस्टरोन के स्तर सबसे अधिक होते हैं।\n\n**सुबह की मिचली अपनी पूरी गर्भावस्था में क्यों होती है?**\n\nसुबह की मिचली अपनी पूरी गर्भावस्था में भी होती है, लेकिन उसका स्तर पहली तिमाही में सबसे अधिक होता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "कुछ महिलाओं को गर्भावस्था के दौरान \"सुबह की मिचली\" क्यों होती है और अन्यों को नहीं होती? कई महिलाओं को यह केवल पहली तिमाही में ही क्यों होती है लेकिन कुछ अपनी पूरी गर्भावस्था में इसका अनुभव क्यों करती हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nतापमान का अनुभव विभिन्न दिनों या मौसमों में भिन्न हो सकता है। कुछ कारक हैं जो तापमान का अनुभव को प्रभावित करते हैं:\n\n**1. स्थानीय जलवाही:**\n* विभिन्न क्षेत्रों में भिन्न जलवाही के कारण तापमान भिन्न हो सकता है।\n* गर्म और नमीदार क्षेत्रों में उच्च तापमान और नमीदार क्षेत्रों में कम तापमान होता है।\n\n**2. ऊंचाई:**\n* ऊँची ऊंचाई पर तापमान कम होता है।\n* उच्च ऊंचाई पर वायुदाब कम होने से तापमान कम हो जाता है।\n\n**3. समय का चक्र:**\n* दिन के विभिन्न समयों पर तापमान भिन्न हो सकता है।\n* सुबह और रात में तापमान कम होता है और दिन में तापमान अधिक होता है।\n\n**4. मौसम की स्थिति:**\n* विभिन्न मौसमों में तापमान भिन्न हो सकता है।\n* गर्मियों में तापमान अधिक और शरद ऋतु में तापमान कम होता है।\n\n**5. वायुमंडलीय परिस्थितियाँ:**\n* वायुमंडलीय परिस्थितियाँ भी तापमान का अनुभव को प्रभावित कर सकती हैं।\n* धुआ, धूल और बादल तापमान को कम करने में मदद करते हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "एक ही तापमान अलग-अलग दिनों या मौसमों में बिलकुल अलग क्यों महसूस होता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**तनाव शारीरिक स्वास्थ्य समस्याओं का कारण बनता है:**\n\n**1. तनाव का प्रभाव पर हॉर्मों:**\n* तनाव बढ़ाए cortisol और स्ट्रॉन्डोलॉस्टन हॉर्मों का स्तर।\n* ये हॉर्मों तनाव की स्थिति में स्वास्थ्य के लिए हानिकारक प्रभाव डाल सकते हैं।\n\n\n**2. तनाव का प्रभाव पर रोगाणिक प्रणालियाँ:**\n* तनाव के कारण रोगाणिक प्रणालियों में तनाव और अपेक्षा का अनुभव हो सकता है।\n* यह तनाव के कारण स्वास्थ्य समस्याओं का कारण बन सकता है।\n\n\n**3. तनाव का प्रभाव पर वित्तीय स्वास्थ्य:**\n* तनाव के कारण वित्तीय स्थिरता और सुरक्षा में कमी लाए सकती है।\n* यह तनाव के कारण स्वास्थ्य समस्याओं का कारण बन सकता है।\n\n\n**4. तनाव का प्रभाव पर व्यवहारिक स्वास्थ्य:**\n* तनाव के कारण व्यक्तिगत और व्यवसायिक संबंधों में कठिनाईयाँ लाए सकती हैं।\n* यह तनाव के कारण स्वास्थ्य समस्याओं का कारण बन सकता है।\n\n\n**5. तनाव का प्रभाव पर भौतिक स्वास्थ्य:**\n* तनाव के कारण भौतिक स्वास्थ्य में कई समस्याएं हो सकती हैं, जैसे कि उच्च रक्तचयित दबाव, उच्च कोलेस्ट्रोल और वसा जमा।\n* यह तनाव के कारण स्वास्थ्य समस्याओं का कारण बन सकता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "तनाव शारीरिक स्वास्थ्य समस्याओं का कारण कैसे बनता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nनहीं, दर्द हमेशा शारीरिक चोटों की स्थिति का सही संकेतक नहीं होता है। कई अन्य कारक भी दर्द का कारण बन सकते हैं, जैसे मानसिक तनाव, भावनात्मक स्थिति, या कुछ रोग।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "क्या दर्द हमेशा शारीरिक चोटों की स्थिति का सही संकेतक होता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**भिन्न जानवरों की आयु सीमा में भिन्नता के कुछ कारण:**\n\n**1. जीनोटाइप:**\n* विभिन्न जानवरों के जीनोम में विभिन्न आयु प्रबंधन जीन हैं।\n* कुछ जीन अधिक समय तक जीवित रहने की प्रवृत्ति रखते हैं।\n\n\n**2. भौतिक कारक:**\n* तापमान, आर्द्रता और प्रकाश की मात्रा जैसी भौतिक स्थितियाँ जानवरों की आयु सीमा को प्रभावित कर सकती हैं।\n* उदाहरण के लिए, गर्म क्षेत्रों में जानवरों की आयु सीमा कम होती है।\n\n\n**3. आहार की गुणवत्ता:**\n* जानवरों के आहार की गुणवत्ता भी उनके स्वास्थ्य और आयु सीमा को प्रभावित कर सकती है।\n* उदाहरण के लिए, उच्च गुणवत्ता वाले आहार में अधिक विटामिन और खनिज होते हैं, जो जानवरों की आयु सीमा को बढ़ावा सकता है।\n\n\n**4. स्वास्थ्य की स्थिति:**\n* जानवरों के स्वास्थ्य की स्थिति भी उनके आयु सीमा को प्रभावित कर सकती है।\n* उदाहरण के लिए, बीमार या चोटों से पीड़ित जानवरों की आयु सीमा कम होती है।\n\n\n**5. प्रजनन की स्थिति:**\n* प्रजनन की स्थिति भी जानवरों की आयु सीमा को प्रभावित कर सकती है।\n* उदाहरण के लिए, प्रजनन करने के लिए तैयार जानवरों की आयु सीमा कम होती है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "विभिन्न जानवरों की आयु सीमा में भिन्नता क्यों होती है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nमानुष्य पशुओं से गर्भवती नहीं हो सकता है क्योंकि हमारे पास पशुओं के साथ प्रजनन के लिए आवश्यक सभी लक्षण नहीं हैं। हमारे पास पशुओं के साथ प्रजनन के लिए एक शुक्राणु और एक अंडाणु नहीं है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "मनुष्य पशुओं से गर्भवती क्यों नहीं हो सकते?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:** नींद का कार्य है:\n\n* मानसिक और भौतिक स्वास्थ्य को सुधारना।\n* विषा और तनाव को हटाना।\n* याद और सीखने में मदद करना।\n* भौतिक और मानसिक प्रदर्शन में सुधार लाना।\n* विषा और तनाव को प्रबंधित करने में मदद करना।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "नींद का क्या कार्य होता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nधावकों की हृदय गति गैर-धावकों की तुलना में कम होती है क्योंकि धावन एक तीव्र कार्यात्मक अभियान है जो ऊँची हृदय गति की आवश्यकता नहीं रखता है। धावन के दौरान, शरीर के विभिन्न अंगों में ऑक्सीजन की आपूर्ति में सुधार लाता है, जो हृदय को कम workload पर रखता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "धावकों की हृदय गति गैर-धावकों की तुलना में कम क्यों होती है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**संभावित कारण:**\n\n* **उचित तापमान में शॉवर लेना:** शॉवर के उच्च तापमान में पसीना की उत्पादन में वृद्धि होती है।\n* **गर्मी की स्थिति:** गर्म तापमान में पसीना की अधिक उत्पादन होती है।\n* **उचित वस्त्र पहनना:** कुछ वस्त्र पसीना की अधिक उत्पादन करते हैं।\n* **शरीर की स्थिति:** कुछ लोग अधिक पसीना बहाते हैं।\n* **चिंता या तनाव:** चिंता या तनाव भी पसीना की अधिक उत्पादन में मदद कर सकते हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "मैं शॉवर से निकलने के बाद अधिक क्यों पसीना बहाता हूँ?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nजब साइकिल चल रही होती है, तो गुरुत्व के प्रभाव और साइकिल के वेग के कारण संतुलन बनाए रखने में मदद करते हैं। जब साइकिल स्थिर होती है, तो गुरुत्व के प्रभाव केवल साइकिल के पदार्थ को धरती पर रखता है, और वेग के प्रभाव नहीं होते हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "चलती हुई साइकिल पर संतुलन बनाना आसान क्यों होता है लेकिन जब वह स्थिर होती है तो लगभग असंभव क्यों होता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**जला हुआ खाना खाने से आपके लिए हानिकारक है क्योंकि:**\n\n* **जला की कमी:** जला हुआ खाना खाने में कम पानी की मात्रा होती है, जो स्वास्थ्य के लिए महत्वपूर्ण है।\n* **उचित पोषक:** जला हुआ खाना खाने में कुछ पोषकों की कमी होती है।\n* **उचित तापमान:** जला हुआ खाना खाने का तापमान उच्च हो सकता है, जो स्वास्थ्य के लिए हानिकारक हो सकता है।\n* **संक्रमण का जोखम:** जला हुआ खाना खाने में संक्रमण का जोखम भी हो सकता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "जला हुआ खाना खाने से आपके लिए क्यों हानिकारक है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nशोर वाले वातावरण में सोना मुश्किल होता है क्योंकि:\n\n**1. तनाव और प्रणाली की प्रतिक्रिया:**\n* शोर तनाव और उत्तेजना का कारण बनता है, जो सोने की प्रक्रिया को बाधित करता है।\n* हमारे पिछले हिस्सों में तनाव की प्रतिक्रिया होती है, जो सोने की गुणवत्ता को प्रभावित करती है।\n\n**2. नींद की प्रणाली का व्यवधान:**\n* शोर नींद की प्रणाली को व्यवस्थित करता है, जो सोने की अवस्था को प्रभावित करता है।\n* यह सोने की अवस्था को छोटा बनाता है और सुबह उठने का समय बढ़ाता है।\n\n**3. रासायनिक प्रतिक्रियाएं:**\n* शोर के कारण स्ट्रॉम और डोपामाइन जैसे रासायनिक पदार्थों के स्तर में उछौल लाता है।\n* ये रासायनिक पदार्थ सोने की प्रक्रिया को प्रभावित करते हैं।\n\n**4. ऊर्जा का अवययनीकरण:**\n* शोर के कारण हमारे ऊर्जा का अवययनीकरण हो सकता है, जो सोने की गुणवत्ता को प्रभावित करता है।\n\n**5. वायुमंडलीय तनाव:**\n* शोर वायुमंडलीय तनाव का एक स्रोत बनता है, जो सोने की प्रक्रिया को बाधित करता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "शोर वाले वातावरण में सोना क्यों मुश्किल होता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**संभावित कारण:**\n\n**1. हार्डवेयर समस्याएं:**\n* कणिकी भंग\n* रेंज बॉस की विफलता\n* मांबोर्ड की विफलता\n\n**2. सॉफ्टवेयर समस्याएं:**\n* विद्यार्थ प्रबंधन प्रणाली (OS) की विफलता\n* अनुप्रयोगों के साथ संगति के मुद्दें\n* भंडारण प्रबंधन की कमी\n\n**3. हार्डवेयर और सॉफ्टवेयर के बीच की बातचीत:**\n* बूस्ट स्टोर प्रबंधन (BSM) की समस्याएं\n* रेंज बॉस और मांबोर्ड के बीच की कनेक्टिविटी समस्याएं\n\n**4. अन्य:**\n* बिद्यार्थ की कमी\n* तापमान का उच्च स्तर\n\n**कदम:**\n\n* **प्रारंभिक जांच:** कंप्यूटर को सुरक्षित क्षेत्र में रखें और किसी भी भौतिक क्षति का अवलोकन न करें।\n* **डिस्क स्कैन:** डिस्क स्कैनिंग के लिए विभिन्न उपकरणों का उपयोग करें।\n* **वर्धित जांच:** यदि डिस्क स्कैनिंग कोई त्रुटि नहीं खोजता है, तो आपको हार्डवेयर की आवश्यकता होगी।\n* **सॉफ्टवेयर अपडेट:** सभी अनुप्रयोगों और ऑपरेटिंग सिस्टम को नवीन संस्करणों में अपडेट करें।\n* **टेलिफोन समर्पित:** कंप्यूटर के साथ किसी भी प्रकार की संबंध न करें।\n* **विद्यार्थ की आपूर्ति:** कंप्यूटर को सुसंगठित बिद्यार्थ की आपूर्ति से जोड़ें।\n* **तापमान प्रबंधन:** कंप्यूटर के लिए ठीक तापमान का प्रबंधन करें।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "मेरे कंप्यूटर के साथ ठीक क्या हो रहा है जब यह क्रैश होता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "* पानी की आपूर्ति के साथ खाना की कमी के बीच संबंध है।\n* पानी की आपूर्ति के साथ खाना की कमी के बीच कोई संबंध नहीं है।\n\n**उत्तार:**\n\n* पानी की आपूर्ति के साथ खाना की कमी के बीच संबंध है।\n\n**विषय की जानकारी:**\n\n* पानी की आपूर्ति और खाना की कमी के बीच एक संबंध है।\n* खाना की कमी के कारण हमारे शरीर में विभिन्न जैविक प्रक्रियाओं को प्रभावित करने के लिए पानी की आवश्यकता होती है।\n* पानी की कमी के कारण हमारे शरीर में विटामिन और खनिजों का अवशोषण भी प्रभावित हो सकता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "अगर मैं कहीं फंस जाऊं जहाँ पानी की भरपूर आपूर्ति हो लेकिन खाना न हो, तो मेरे शरीर पर क्या असर पड़ेगा?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "क्या हमारे लिए कोई आत्मकल्पना या विश्वास है कि हमारे लिए कुछ है जो मृत्यु के बाद हमारे साथ रहता है?\n\nइन सभी प्रश्नों का जवाब देना कठिन है, लेकिन हम कुछ जानते हैं।\n\n**विद्यार्थी और वैज्ञानिकों का अनुभव:**\n\n* कई लोग बताते हैं कि वे मृत्यु के बाद अपने साथ कुछ अनुभव करते हैं।\n* कुछ लोग बताते हैं कि वे अपने साथ अपने परिचित लोगों को देखते हैं।\n* कुछ लोग बताते हैं कि वे अपने साथ एक उच्च शक्ति या प्रणाली का अनुभव करते हैं।\n\n**धार्मिक और आध्यात्मिक विश्वास:**\n\n* कई धर्मों में विश्वास है कि मृत्यु के बाद लोग स्वर्लोक या अन्य आध्यात्मिक क्षेत्रों में रहते हैं।\n* कुछ धर्मों में विश्वास है कि मृत्यु के बाद लोग अपने परिचित लोगों से मिलते हैं।\n\n**वैज्ञानिक प्रेरणा:**\n\n* कुछ वैज्ञानिकों का मानना है कि मृत्यु के बाद हमारे लिए कुछ है।\n* वे बताते हैं कि हमारे मस्तेबो में कुछ प्रणालियाँ हैं जो मृत्यु के बाद हमारे लिए कुछ अनुभव करने में मदद कर सकती हैं।\n\n**निष्कर्षण:**\n\nयह एक खुला प्रश्न है, और हमारे लिए अभी भी बहुत कुछ जानने की आवश्यकता है। लेकिन हम जानते हैं कि कई लोग मृत्यु के बाद अपने साथ कुछ अनुभव करते हैं, और कि हमारे लिए धार्मिक, आध्यात्मिक और वैज्ञानिक विश्वास हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "क्या हमें कभी पता चलेगा कि हमारी मृत्यु के बाद हमारे साथ क्या होता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तरी:**\n\n* हड्डियों को उगना और वापस लेना एक जटिल प्रक्रिया है।\n* हड्डियों को उगने के लिए रोगाणिक कारकों और वित्तीय कारकों की आवश्यकता होती है।\n* कई कारकों में शामिल हैं: आहार, जीवनशैली और स्वास्थ्य की स्थिति।\n\n**विस्तार:**\n\n* **रोगाणिक कारक:** हड्डियों को उगने के लिए ऑक्सीजन, पोषक तेल और अन्य महत्वपूर्ण रसायनों की आवश्यकता होती है।\n* **वित्तीय कारक:** हड्डियों को उगने के लिए ऊर्जा और पानी की आवश्यकता होती है।\n* **आहार:** कुछ खाद्य पदार्थ हड्डियों को उगने में मदद करते हैं, और कुछ खाद्य पदार्थ हड्डियों को रुकवा करते हैं।\n* **जीवनशैली:** धीरे चलने, तनाव और अनुचित भोजन हड्डियों को उगने में मदद नहीं करते हैं।\n* **स्वास्थ्य की स्थिति:** कुछ स्वास्थ्य स्थितियाँ, जैसे कि हिप्पोटैमस और थायरायड की कमी, हड्डियों को उगने में मदद नहीं करते हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "हड्डियाँ वापस क्यों नहीं उग सकतीं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**सनना की कीमतीता के कुछ कारण:**\n\n* **उच्च तापमान प्रणाली:** सोना एक उच्च तापमान प्रणाली धातु है, जो इसका मतलब है कि यह उच्च तापमानों पर भी अपने आकार और आकर्षण को बनाए रखता है।\n* **उच्च विद्युतीय प्रणाली:** सोना एक उच्च विद्युतीय प्रणाली धातु है, जो इसका मतलब है कि यह इलेक्ट्रॉनों को बलों से बांधता है।\n* **उच्च रासायनिक स्थिरता:** सोना एक उच्च रासायनिक स्थिर धातु है, जो इसका मतलब है कि यह अन्य रासायनिक पदार्थों के साथ बहुत कम अभिक्रिया करता है।\n\nइन सभी विशेषताओं के कारण, सोना अन्य धातुओं की अपेक्षा अधिक कीमती है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "सोना इतना कीमती क्यों है? और यह अन्य धातुओं, जैसे कि चांदी, से अधिक कीमती क्यों है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार**\n\n**सुसंगठित समुद्री प्रणालियाँ** (Marine Ecosystem Management Organizations) समुद्रों को बाढ़ से बचाने में मदद करती हैं। वे विभिन्न उपायों का उपयोग करते हैं, जैसे कि:\n\n* **समुद्री क्षेत्रों का प्रबंधन:** समुद्री क्षेत्रों को सुरक्षित बनाए रखने और उपयोग को व्यवस्थित करने में मदद करता है।\n* **बाढ़ प्रबंधन:** समुद्रों में बाढ़ की रोकथाम और प्रबंधन योजनाओं को बनाने में मदद करता है।\n* **समुद्री जैविक विविधता का सुरक्षा:** जैविक विविधता के सुरक्षण के लिए कदम उठाता है, जो बाढ़ के प्रभावों को कम करने में मदद करता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "समुद्रों को पृथ्वी को बाढ़ से बचाने में कौन सी शक्ति मदद करती है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "Android या iPhone के लिए यह कैसे काम करता है?\n\n**Android:**\n\nAndroid में, सोते समय पहचानने के लिए विभिन्न तकनीकें हैं:\n\n* **Motion sensors:** वे धरती के अनुसरण में बदलते हैं, जो सोते की स्थिति में कम हो जाती है।\n* **Accelerometer:** यह तीव्रता और गुरुत्व के त्वरण को मापता है। सोते की स्थिति में, त्वरण कम हो जाती है।\n* **Magnetic field sensor:** यह मोबाइल डिवाइस के आस-पास के चुंबकीय क्षेत्र को मापता है। सोते की स्थिति में, चुंबकीय क्षेत्र कम हो जाता है।\n\n**iPhone:**\n\niPhone में, सोते समय पहचानने के लिए भी विभिन्न तकनीकें हैं:\n\n* **Motion sensors:** iPhone में भी motion sensors हैं जो धरती के अनुसरण में बदलते हैं।\n* **Accelerometer:** iPhone में भी accelerometer है।\n* **Gyroscope:** iPhone में एक gyroscope भी है जो घूर्णन को मापता है। सोते की स्थिति में, घूर्णन कम हो जाता है।\n\nइन सभी तकनीकों का उपयोग करके, Android और iPhone सोते समय पहचान सकते हैं।\n\n**प्रक्रिया:**\n\n1. डिवाइस इन सेंसरों का उपयोग करके विभिन्न प्रकार के संकेतों को एकत्र करता है।\n2. यह संकेतों को प्रोसेसिंग और सोते की स्थिति का अनुमान करने के लिए उपयोग करता है।\n3. यदि डिवाइस सोते की स्थिति में है, तो यह उपयोगकर्ता को जानकारी दे सकता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "मेरा फोन मुझे सोते समय कैसे पहचानता है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nयह एक सामान्य धारणा है कि जो कुछ भी चखते हैं वह ज्यादातर हमारी गंध से निर्धारित होता है। लेकिन यह सत्य नहीं है। स्वाद और गंध विभिन्न तंत्रों द्वारा अनुभव किए जाते हैं। स्वाद की जानकारी तेलमेटिक तंत्र से मिलती है, और गंध की जानकारी पेटलटोरल तंत्र से मिलती है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "अगर हम जो कुछ भी चखते हैं वह ज्यादातर हमारी गंध से निर्धारित होता है, तो कुछ चीजें जो अच्छी खुशबू देती हैं वे स्वाद में बुरी क्यों होती हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\nसबबुन की खुशबू को हम नहीं धो पाता है क्योंकि यह बायोलॉजिकल प्रक्रिया है। जब आपकी हस्तों को साबुन से धोते हैं, तो यह केवल धूल और गंदगी को हटाता है। साबुन की खुशबू के लिए आवश्यक कुछ रासायनिक पदार्थ हैं जो धोने से नहीं हटते हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "साबुन आपके हाथों से लगभग सब कुछ धो सकता है लेकिन इसकी खुशबू को आपसे क्यों नहीं धो पाता?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**विधियाँ:**\n\n**1. भूकंप की ऐतिहासिक रिकॉर्डिंग:**\n\n* भूकंप के पिछले इतिहास में भूकंप की तीव्रता, समय और स्थान का अध्ययन।\n* भूकंपों के पैटर्न से भविष्य के भूकंपों का अनुमान।\n\n\n**2. भूविज्ञानिक सर्वेक्षण:**\n\n* भूविज्ञानिक विभिन्न प्रकार के भूकंप के संभावित क्षेत्रों का मानचित्र बनाते हैं।\n* भूकंप की संभावना के लिए विभिन्न कारकों का उपयोग करते हैं, जैसे भूकंप की तीव्रता, क्षेत्र में भूकंप की इतिहासिक रिकॉर्डिंग और भूविज्ञानिक संरचनाएं।\n\n\n**3. ज्वार और उभार:**\n\n* ज्वार और उभार भूकंपों के कारण भूविषयक तनावों का कारण बनता है।\n* भूकंप की संभावना के लिए ज्वार और उभार का उपयोग करते हैं।\n\n\n**4. रेडार और GPS:**\n\n* रेडार और GPS प्रणालियाँ भूकंपों का पता लगाने और भूकंप के कारण भूविषयक तनावों का अनुसरण करने में मदद करते हैं।\n\n\n**5. भूकंप के लिए सामाजिक डेटा:**\n\n* लोग भूकंपों का अनुभव करते हैं और जानकारी भूकंप के लिए सामाजिक डेटा प्रणालियों में रिपोर्ट करते हैं।\n* यह जानकारी भूकंप की भविष्य की भविष्य की भूकंपों का अनुमान करने में मदद करती है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "जानवर आने वाले भूकंप का पूर्वानुमान कैसे लगाते हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nजब आप जम्हाई लेते हैं, तो आपके मुँह में रुकुसताएं होती हैं, जो लार को बाहर करने का कारण बनता है। यह रुकुसताएं विभिन्न कारकों से हो सकती हैं, जैसे:\n\n* **गंभीर जम्हाई:** गंभीर जम्हाई में अधिक रुकुसताएं होती हैं, जो लार को बाहर करने की संभावना को बढ़ाता है।\n* **गर्म तापमान:** गर्म तापमान पर लार की गाढ़ता कम हो जाती है, जो लार को बाहर करने की संभावना को बढ़ाता है।\n* **शुद्ध जम्हाई:** शुद्ध जम्हाई में रुकुसताएं कम होती हैं, जो लार को बाहर करने की संभावना को कम करती है।\n\nइन कारकों के कारण, आपके मुँह से जम्हाई लेते समय कभी-कभी लार छिटकती है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "मेरे मुँह से जब मैं जम्हाई लेता हूँ तो कभी-कभी लार क्यों छिटकती है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**मौसम को नियंत्रित या मानव निर्मित किया जा सकता है:**\n\n**1. कृत्रीय वायुमंडलीय प्रबंधन (AMET)**\n\n* वायुमंडलीय प्रणालियों का उपयोग और मनुष्यों के लिए सुरक्षा और सुलभता के लिए उन्हें प्रबंधित करने के लिए।\n* तापमान, नमी, वायु प्रणालियों और ध्वनि की स्थिति को समर्पित करने में मदद।\n\n\n**2. वायुमंडलीय प्रणालियों का अनुसरण**\n\n* वायुमंडलीय प्रणालियों का उपयोग और भविष्य में होने वाली स्थितियों का अनुसरण।\n* ध्वनि की स्थिति को बदलने और सुरक्षा के लिए उपायों को खोजने में मदद।\n\n\n**3. ऊर्जा प्रबंधन**\n\n* ऊर्जा का उपयोग और उत्सर्जन को कम करने के लिए।\n* तापमान और नमी को समर्पित करने में मदद।\n\n\n**4. वनस्पति विस्तार**\n\n* वनस्पति के साथ वायुमंडलीय संबंधों का उपयोग।\n* वायुमंडलीय तापमान और नमी को बदलने में मदद।\n\n\n**5. पानी प्रबंधन**\n\n* पानी के उपयोग और भंडारण को प्रबंधित करने के लिए।\n* वायुमंडलीय तापमान और नमी को बदलने में मदद।\n\n\n**हद तक:**\n\n* मौसम को कुछ हद तक नियंत्रित किया जा सकता है, लेकिन यह एक जटिल प्रक्रिया है।\n* वायुमंडलीय प्रणालियों को प्रभावित करने और तापमान, नमी और ध्वनि की स्थिति को बदलने में मदद।\n* यह एक लम्बे समय में प्रक्रिया है और तुरंत परिणाम नहीं दिखाएगा।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "क्या मौसम को नियंत्रित या मानव निर्मित किया जा सकता है? यदि हाँ, तो किस हद तक और कैसे?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**असर:**\n\n* **चोट:** पत्ता खींचने से पौधे पर चोट हो सकती है। पत्ता की रीढ़ और तापमान के आधार पर, चोट की गंभीरता भिन्न हो सकती है।\n* **सुसंगठित प्रणाली के क्षति:** पत्ता खींचने से पौधे की सुसंगठित प्रणाली के कुछ हिस्सों को क्षति दे सकती है।\n* **ताजी पदार्थों का रिलीज:** पत्ता खींचने से पौधे में ताजी पदार्थों का रिलीज हो सकता है, जो पौधे की रक्षा और उबरने में मदद कर सकता है।\n\n**उबरने की क्षमता:**\n\n* **स्वच्छ परिस्थितियाँ:** पौधा स्वच्छ परिस्थितियों में उबरने में सक्षम है।\n* **उचित तापमान:** उचित तापमान भी पौधे के उबरने में मदद करता है।\n* **सुसंगठित प्रणाली का शुद्धिकरण:** पौधा अपनी सुसंगठित प्रणाली को शुद्ध करने में सक्षम है।\n\n**यह ध्यान में रखना है कि:**\n\n* पत्ता खींचने की गंभीरता पत्ता की रीढ़ और तापमान पर निर्भर करती है।\n* अधिकांश पौधों में पत्ता खींचने से उबरने की क्षमता होती है।\n* यदि पत्ता खींचने की गंभीरता बहुत बड़ी है या पौधा बहुत कमजोर है, तो उबरने की क्षमता कम हो सकती है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "जब आप एक पौधे से पत्ता खींचते हैं तो उस पौधे पर क्या असर पड़ता है? क्या आप उसे चोट पहुँचा रहे हैं और क्या पौधा उससे उबर पाने में सक्षम है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nसोने से पहले हमारे दिमाग में बहुत से सक्रिय प्रक्रियाएं होती हैं। हमारे दिमाग में कई क्षेत्रों में तथार और विचारों का प्रबंधन करने के लिए तंत्र काम करते हैं। सोने से पहले हमारे दिमाग में बहुत से काम करते हैं, इसलिए हम सोचते हैं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "हम सोने से पहले बहुत क्यों सोचते हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**आंसू आने का कारण:**\n\n* प्याज में एक रसायन है, जिसे allyl methyl sulfide (AMS) कहा जाता है।\n* जब प्याज काटते समय या कुदते समय यह रसायन पानी के साथ अभिक्रिया करता है।\n* यह अभिक्रिया एक विषैला ध्वनि उत्पन्न करती है, जो हमारे आँसों में प्रवेश करता है।\n* ध्वनि के संपर्क में हमारे आँसों के रेशेदारों को तनाव देता है, जो आंसूओं का उत्पादन शुरू करता है।\n\n**इसकी रोकथाम के लिए उपाय:**\n\n**1. ठीक समय पर प्याज काटें:**\n* प्याज को ठीक उस समय काटें जब आप उन्हें तैयार करने जा रहे हों।\n* इस स्थिति में, प्याज में कम से कम समय तक ध्वनि उत्पन्न होती है।\n\n**2. प्याज को ठीक तापमान पर काटें:**\n* गर्म या ठंडे प्याज में AMS की मात्रा कम होती है।\n* इस स्थिति में, आंसूओं का उत्पादन कम हो जाता है।\n\n**3. प्याज को धीरे से काटें:**\n* धीरे से प्याज काटने से AMS की मात्रा कम होती है।\n\n**4. पानी की सहायता लें:**\n* प्याज को पानी में डुबोई हुई धीरे से काटें।\n* पानी AMS को पानी में घोलता है और ध्वनि उत्पन्न करने से रोकता है।\n\n**5. लाल मिर्च या तेल का उपयोग करें:**\n* लाल मिर्च या तेल प्याज में AMS की अभिक्रिया को धीरे बनाने में मदद करते हैं।\n\n**6. प्याज को काटने के बाद तुरंत उपयोग करें:**\n* प्याज को काटने के बाद तुरंत उपयोग करें या जमा न करें।\n* जमा होने पर प्याज में AMS की मात्रा बढ़ जाती है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "प्याज काटते समय हमें आंसू क्यों आते हैं? क्या इसे रोकने का कोई उपाय है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nथपथपाए जाने का आनंद लेने में पालतू जानवरों में विभिन्न कारक शामिल हैं। कुछ जानवरों में थपथपाए जाने का स्वास्थ्य लाभ भी हो सकती है।\n\n* **संवेदी प्रणालियों का अनुभव:** थपथपाए जाने का अनुभव करने में कुछ जानवरों में संवेदी प्रणालियों का अनुभव शामिल है। यह अनुभव उन्हें रбые और सुकून की भावनाओं का अनुभव करने में मदद करता है।\n* **हॉर्मों का प्रभाव:** थपथपाए जाने का अनुभव करने में कुछ जानवरों में हॉर्मों का भी प्रभाव शामिल है। हॉर्मों के प्रभाव थपथपाए जाने का अनुभव करने में मदद करते हैं।\n* **स्वास्थ्य लाभ:** कुछ जानवरों में थपथपाए जाने का स्वास्थ्य लाभ भी हो सकती है। उदाहरण के लिए, थपथपाए जाने का अनुभव करने में कुछ जानवरों में रक्तचयनी प्रणाली में सुधार लाता है।\n\nयह ध्यान में रखना है कि सभी पालतू जानवरों में थपथपाए जाने का आनंद लेने का विभिन्न कारण हो सकते हैं। कुछ जानवरों में थपथपाए जाने का अनुभव करने का कोई लाभ नहीं हो सकता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "अधिकांश पालतू जानवर थपथपाए जाने का आनंद क्यों लेते हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**सॉफ्टवेयर अपडेट की आवश्यकता:**\n\n**1. सुरक्षा के लिए:**\n* नया सुरक्षा खंड रिलीज करते हैं जो पिछले संस्करणों में सुरक्षा के लिए कमजोरियों को ठीक करते हैं।\n* अपडेट सुरक्षा संबंधी बग्स को भी सुधारता है।\n\n**2. सुविधाओं में सुधार:**\n* नया अपडेट नई सुविधाओं और सुधारों को शामिल करता है।\n* यह उपयोगकर्ता के अनुभव में सुधार लाता है।\n\n**3. सुसंगठित प्रबंधन:**\n* कई सॉफ्टवेयर प्रबंधकों में अपडेट की आवश्यकता होती है ताकि वे अपने समर्पित टीमों को नवीन सुविधाओं और सुरक्षा सुधारों का लाभ उठाए।\n\n**4. मानक और विनियम:**\n* कुछ क्षेत्रों में, सॉफ्टवेयर प्रबंधकों को अपडेट करने का मानक बन गया है।\n\n**5. सुसंगठित प्रबंधन:**\n* कई संगठनों में अपडेट की आवश्यकता होती है ताकि वे अपने सुरक्षा और सुविधाओं को समर्पित टीमों के लिए व्यवस्थित रखें।\n\n**यदि आप ऐसा नहीं करते हैं:**\n\n* **सुरक्षा के लिए:** वित्तीय डेटा और व्यक्तिगत जानकारी के लिए सुरक्षा के लिए खतरा हो सकता है।\n* **सुविधाओं में कमी:** उपयोगकर्ता की अनुभव में कमी ला सकती है।\n* **व्यवस्थापनों में कमी:** समर्पित टीमों के लिए व्यवस्थापनों में कमी ला सकती है।\n* **मानक और विनियमों का उल्ल्नन:** कुछ क्षेत्रों में मानक और विनियमों का उल्ल्नन हो सकता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "हमें लगातार सॉफ्टवेयर अपडेट क्यों करने की आवश्यकता होती है? अगर मैं ऐसा नहीं करूँ तो क्या होगा?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**जहाज समुद्र के जल स्तर को सामान्य से अधिक बढ़ा करते हैं:**\n\n* **भारतीय तेल और गैस कंपनी (IOC)** के जहाजों में एक प्रणाली है जो जहाजों के पानी की खपत को कम करने और जल स्तर को सामान्य से अधिक बढ़ाने से रोकथाम करने में मदद करती है।\n* **अन्य जहाजों** में भी इसी तरह की प्रणालियाँ होती हैं।\n* जहाजों के पानी की खपत को कम करने के लिए विभिन्न उपायों का उपयोग किया जाता है, जैसे कि:\n    * जहाजों के लिए अधिक कुशल इंजनों का उपयोग।\n    * जहाजों के लिए ऊर्जा प्रबंधन प्रणालियाँ स्थापित।\n    * जहाजों के लिए पानी की खपत को कम करने के लिए अन्य उपायों का उपयोग।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "क्या जहाज समुद्र के जल स्तर को सामान्य से अधिक बढ़ा देते हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nमस्तिष्क की कोशिकाएं अन्य कोशिकाओं की अपेक्षा अधिक जटिल और विशेष हैं। वे स्थाई होती हैं और आसानी से बदलने या पुनर्जनित नहीं होती हैं। मस्तिष्क की कोशिकाओं में उच्च स्तरीय जटिलता और समन्वय है, जो उन्हें अन्य कोशिकाओं से भिन्न बनाता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "हमारे शरीर की लगभग हर कोशिका पुनर्जनन करने में सक्षम होती है। मस्तिष्क की कोशिकाएँ इससे अलग क्यों हैं?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:** पिस्सुओं का सफाया करने में कई कारण हैं।\n\n* **पिस्सुओं का स्वास्थ्य:** पिस्सुओं के स्वास्थ्य और सुरक्षा के लिए सुरक्षा की आवश्यकता होती है।\n* **पिस्सुओं के लिए सुरक्षित पदार्थ:** पिस्सुओं के लिए सुरक्षित पदार्थों का उपयोग करने की आवश्यकता होती है।\n* **पिस्सुओं के लिए प्रभावी समाधान:** पिस्सुओं के लिए प्रभावी समाधानों का उपयोग करने की आवश्यकता होती है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "हम पूरी तरह से पिस्सुओं का सफाया क्यों नहीं कर सकते?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.hindi:gemma 7b",
+          "language": "Hindi",
+          "translations": {
+            "Hindi": {
+              "language": "Hindi",
+              "text": "**उत्तार:**\n\nनींद की कमी किसी व्यक्ति की मौत के लिए कई तरीकों से कारण बन सकती है।\n\n**1. ऑक्सीकरण की कमी:**\n* नींद की कमी से रुकुसिक ऑक्सीकरण की कमी होती है, जो ऊर्जा उत्पादन में कमी लाता है।\n* यह कमजोर बनाता है और मनुष्यों को मृत्यु के लिए अधिक संवेदनशील बनाता है।\n\n**2. हॉर्मों का अराजकता:**\n* नींद की कमी से हॉर्मों के अराजकता भी होता है।\n* यह विभिन्न bodily प्रक्रियाओं को प्रभावित कर सकता है, जैसे भोजन का उपयोग और ऊर्जा उत्पादन।\n\n**3. तनाव और प्रसंगति:**\n* नींद की कमी से तनाव और प्रसंगति में भी कमी होती है।\n* यह मानसिक और भौतिक स्वास्थ्य को प्रभावित कर सकता है।\n\n**4. मनुष्यों के लिए सुरक्षा की कमी:**\n* नींद की कमी से मनुष्यों के लिए सुरक्षा की कमी भी होती है।\n* यह कमजोर बनाता है और मनुष्यों को मृत्यु के लिए अधिक संवेदनशील बनाता है।\n\n**5. रोग की संभावना:**\n* नींद की कमी से रोग की संभावना भी बढ़ जाती है।\n* यह कमजोर बनाता है और मनुष्यों को मृत्यु के लिए अधिक संवेदनशील बनाता है।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "नींद की कमी किसी व्यक्ति की मौत कैसे कर सकती है?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

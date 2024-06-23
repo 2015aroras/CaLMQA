@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**إجابتها:**\n\nلا يتم صعود الطائرات من الأمام إلى الخلف. يتم صعودها عمودياً من الأرض."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا يتم صعود الطائرات من الأمام إلى الخلف؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**يتسبب التدخين في:**\n\n* **زيادة ضغط الدم:** يؤثر التدخين على نظام الدورة الدموية، مما يؤدي إلى زيادة ضغط الدم.\n* **زيادة التوتر الوعائي:** يؤثر التدخين على صفيحة الوعاء، مما يؤدي إلى زيادة التوتر الوعائي.\n* **زيادة التخثر:** يؤثر التدخين على عملية التخثر، مما يؤدي إلى زيادة الخاطر من تشكل التخثر.\n* **زيادة إفراز الهرمونات الضارة:** يؤثر التدخين على إفراز الهرمونات الضارة، مثل الستéroيدات والكورتيزول.\n* **تلف الأوعية:** يؤثر التدخين على صفيحة الأوعية، مما يؤدي إلى تلف الأوعية."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا يُعتبر التدخين ضارًا جدًا بالقلب؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "* يتم تخزين الملفات المحذوفة في \"سجل المحذوفات\".\n* يتم تخزين الصور المحذوفة في \"سجل الصور المحذوفة\".\n* يتم تخزين جميع البيانات المحذوفة في \"سجل المحذوفات\"."
+            }
+          },
+          "prompting_state": {
+            "prompt": "في جهاز آيفون، إلى أين تذهب الملفات والصور المحذوفة بعد حذفها من \"المحذوفات مؤخرًا\"؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**الركض قبل القفز يجعلنا نقفز أعلى بسبب ما يلي:**\n\n* **تحسين التوازن:** الركض قبل القفز يجعلنا أكثر توازنًا، مما يسمح لنا بالتحكم بشكل أفضل في جسدنا أثناء القفز.\n* **زيادة سرعة البدء:** الركض قبل القفز يجعلنا يمكننا البدء القفز بشكل أسرع، مما يسمح لنا بالوصول إلى Höhe أعلى.\n* **تحسين استعداد الجسم:** الركض قبل القفز يجعلنا أكثر استعدادًا جسديًا للقفز، مما يسمح لنا بالاستفادة بشكل أفضل من الطاقة الخاصة بنا."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا يجعلنا الركض قبل القفز نقفز أعلى؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**إجابة:**\n\nلا يمكن إضافة الأجسام المضادة أو الفوائد الأخرى لحليب الأم إلى حليب الأطفال الصناعي بسبب:\n\n**1. التغيرات في التركيب الحليب:**\n* حليب الأم له تركيب فريد من البروتينات والسكريات والدهون والفيتامينات والمعادن.\n* حليب الأطفال الصناعي له تركيب مختلف، مما يعني أنه لا يمكن استبدال حليب الأم بهذه السهولة.\n\n**2. وجود بروتينات محددة:**\n* حليب الأم يحتوي بروتينات محددة (IgG) التي تلعب دورًا في حماية الأطفال من الأمراض.\n* هذه البروتينات غير موجودة في حليب الأطفال الصناعي.\n\n**3. وجود فوائد محددة:**\n* حليب الأم يحتوي على فوائد محددة، مثل الأحماض yağية Omega-3 والفيتامينات B12.\n* هذه الفوائد غير موجودة في حليب الأطفال الصناعي.\n\n**4. مخاوف صحية:**\n* إضافة الأجسام المضادة أو الفوائد الأخرى لحليب الأطفال الصناعي قد يؤدي إلى حدوث حساسية أو استجابات متزايدة."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا لا يمكن إضافة الأجسام المضادة أو الفوائد الأخرى لحليب الأم إلى حليب الأطفال الصناعي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "\n\n**لا يمكن للمزود خدمة الواي فاي التحكم في حد سرعة الإنترنت.** يتم تحديد حد سرعة الإنترنت من قبل شبكة الاتصال الخاصة بك.\n\n**قد يؤثر بعض العوامل على سرعة الإنترنت الخاصة بك:**\n\n* نوع شبكة الاتصال (DSL، Cable، Fiber)\n* سرعة خط الاتصال\n* وقت الإ Echo\n* التداخل\n* سرعة المعالج والشبكة المحلية\n\n**إذا كنت تواجه مشاكل سرعة الإنترنت، يجب أن تواصل مع مزود خدمة الواي فاي الخاص بك للحصول على المساعدة.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "كيف يتحكم مزود خدمة الواي فاي الخاص بي في حد سرعة الإنترنت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**إجابت:**\n\nيتم سحب الدم عادة من ثنية ذراعك بسبب وجود شريان كبير في المنطقة يسمى \"شريان تحت الذراع\" الذي يوفر تدفقًا مستمرًا للدم. هذا الشريان كبير يسهل عملية سحب الدم دون أن تسبب أي ضرر."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا يتم سحب الدم عادة من ثنية ذراعك؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": " استوديوهات التلفزيون الضخمة تستخدم كاميرات كبيرة الحجم لتوفير جودة عالية من الصور ومقاطع الفيديو. بينما الهاتف المحمول لا يملك كاميرا ذات جودة مماثلة.\n\n**إجابة:**\n\nهذا البيان غير دقيق. الهاتف المحمول الحديثة يتمتع بكاميرا ذات جودة عالية، مما يسمح له بتوفير جودة عالية من الصور ومقاطع الفيديو."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا ما زلنا نستخدم كاميرات استوديوهات التلفزيون الضخمة عندما أصبحت نفس التقنية الآن بحجم الهاتف المحمول؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "* باستخدام نماذج الكمبيوتر\n* باستخدام البيانات من محطات المراقبة\n* باستخدام المعادلات الفيزيائية\n\n**الاجابة:**\n\nتستخدم العلماء جميع هذه الأساليب الثلاثة لتحديد درجة حرارة لُبّ الأرض.\n\n**1. نماذج الكمبيوتر:**\n\n* تستخدم نماذج الكمبيوتر لحاكى العمليات الفيزيائية في لُبّ الأرض.\n* يمكن استخدام هذه النماذج لتحديد درجة حرارة لُبّ الأرض في ظروف مختلفة.\n\n**2. البيانات من محطات المراقبة:**\n\n* تستخدم البيانات من محطات المراقبة الأرضية لتحديد درجة حرارة السطح.\n* يمكن استخدام هذه البيانات لت추بط درجة حرارة لُبّ الأرض.\n\n**3. المعادلات الفيزيائية:**\n\n* تستخدم المعادلات الفيزيائية لتحديد درجة حرارة لُبّ الأرض.\n* يمكن استخدام هذه المعادلات لتحديد درجة حرارة لُبّ الأرض من البيانات الأخرى، مثل ضغط الغاز."
+            }
+          },
+          "prompting_state": {
+            "prompt": "كيف يعرف العلماء درجة حرارة لُبّ الأرض؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**السبب:**\n\n* **التطور المعرفي:** في هذه الفترة، يطور الشباب فهمهم لنفسهم والآخرين، مما يسمح لهم بتقدير وتقدير الآخرين.\n* **الخبرات الشخصية:** تجربة الشباب العديد من الخبرات الشخصية المختلفة، مثل التوتر والفرح والدمج، مما يؤثر على كيفية تعاملهم مع الآخرين.\n* **الهرمونات:** في هذه الفترة، يتم إفراز هرمونات مثل الستéroيدات، التي يمكن أن تؤثر على المزاج والشهية.\n* **البيئة:** يمكن أن تؤثر البيئة المحيطة، مثل الأصدقاء والعائلة، على حب الشباب."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا يحدث حب الشباب بكثرة خلال فترة البلوغ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**الخطوة 1: التحويل إلى السكر**\n\n* يتم تحويل الأغنام العشب والماء إلى السكر عن طريق عملية التمثيل الضوئي.\n* في هذه العملية، يستخدم النباتات الطاقة من أشعة الشمس لتحويلها إلى كربول.\n\n**الخطوة 2: التحويل إلى بروتين**\n\n* يتم تحويل السكر إلى بروتين عن طريق عملية التمثيل الهوائي.\n* في هذه العملية، يتم استخدام الأكسجين والهيدروجين لتحويل السكر إلى بروتين.\n\n**الخطوة 3: التحويل إلى حليب**\n\n* يتم تحويل البروتين إلى حليب عن طريق عملية التقطير.\n* في هذه العملية، يتم فصل البروتين من السوائل الأخرى.\n\n**الخطوة 4: التحويل إلى صوف**\n\n* يتم تحويل البروتين إلى صوف عن طريق عملية الاستنساخ.\n* في هذه العملية، يتم استنساخ البروتين إلى ألياف صوف.\n\n**الخطوة 5: تحويل الصوف إلى ألياف**\n\n* يتم تحويل الصوف إلى ألياف عن طريق عملية التبلور.\n* في هذه العملية، يتم تحويل الصوف إلى ألياف يمكن استخدامها في صناعة."
+            }
+          },
+          "prompting_state": {
+            "prompt": "كيف تحول الأغنام العشب والماء إلى حليب وصوف ومزيد من الأغنام؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "* **التحليل بالصدأ:** يتم قياس كمية الدهون الجسم من خلال الأشعة X.\n* **MRI:** التصوير بالرنين المغناطيسي يمكن أيضًا تحديد كمية الدهون الجسم.\n* **DEXA:** اختبار التصوير بالأشعة السينية بالأشعة السينية بالأشعة السينية (DEXA) هو أداة قياس مستخدمة لتحديد كمية الدهون الجسم.\n* **القياس اليدوي:** يمكن تقدير كمية الدهون الجسم من خلال القياس اليدوي، ولكن هذا أقل دقة من الأساليب الأخرى."
+            }
+          },
+          "prompting_state": {
+            "prompt": "كيف يمكن للمرء معرفة نسبة الدهون في جسمه، أم أن الناس يقومون فقط بالتقدير؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**علم Behind Sleep Paralysis**\n\n**شلل النوم** هو ظاهرة نفسي يتميز بالخبرة المستحقة من عدم القدرة على التحكم بالجسد أو الحركة خلال النوم.\n\n**علميًا، هناك ثلاثة أنواع رئيسية من شلل النوم:**\n\n**1. شلل النوم العرضي:**\n* يحدث عند الانتقال من النوم إلى اليقظة.\n* يتميز بالمشاعر غير الطبيعية، مثل الخوف والقلق.\n\n**2. شلل النوم المتكرر:**\n* يحدث بشكل متكرر في نفس الوقت كل ليلة.\n* قد يكون بسبب مشاكل في النوم، مثل قلة النوم أو عدم انتظام.\n\n**3. شلل النوم غير العرضي:**\n* يحدث بشكل غير متكرر.\n* قد يكون بسبب التوتر أو الإجهاد.\n\n**العلم وراء شلل النوم:**\n\n* **الشبكة العصبية:** شلل النوم يُرتبط بالشبكة العصبية التي تنظم الحركة.\n* **النوم:** يحدث شلل النوم عندما تكون الشبكة العصبية غير نشطة بشكل كافٍ لتنظيم الحركة.\n* **القلق:** يمكن أن يزيد القلق من شدة شلل النوم.\n\n**العوامل التي تزيد شلل النوم:**\n\n* قلة النوم\n* عدم انتظام النوم\n* التوتر\n* الإجهاد\n* بعض الأدوية\n\n**العوامل التي تقلل شلل النوم:**\n\n* كمية النوم الكافية\n* انتظام النوم\n* تقليل التوتر\n* ممارسة الرياضة\n* بعض التمارين التأملية\n\n**الخلاصة:**\n\nشلل النوم ظاهرة نفسي غامض يرتبط بالشبكة العصبية والنوم. يمكن أن يحدث بسبب قلة النوم، عدم انتظام النوم، التوتر والإجهاد."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ما هو العلم وراء شلل النوم؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**إجابة:**\n\nلم ننفد من المعادن بعد بسبب:\n\n**1. تخزين المعادن:**\n* يتم تخزين المعادن في مرافق آمنة ومحمية من التآكل.\n* يتم استخدام مواد حافظة لتقليل التآكل.\n\n**2. الاستخدام المستمر:**\n* يتم استهلاك المعادن بشكل مستمر في العديد من الصناعات.\n* ومع ذلك، يتم استبدال المعادن المستنفدة بكميات جديدة.\n\n**3. اكتشاف المعادن الجديدة:**\n* يتم اكتشاف المعادن الجديدة بشكل متكرر.\n* يمكن استخدام هذه المعادن الجديدة في المنتجات المختلفة.\n\n**4. تحسين تقنيات الاستخراج:**\n* يتم تحسين تقنيات استخراج المعادن لزيادة الكفاءة.\n* يمكن استخراج المعادن من كميات أقل من خام.\n\n**5. التجديد:**\n* يمكن تجديد المعادن المستنفدة إلى أشياء جديدة."
+            }
+          },
+          "prompting_state": {
+            "prompt": "كيف لم ننفد من المعادن بعد؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "This premise is inaccurate. There are multiple companies worldwide that manufacture high-quality microchips, and competition within the industry is intense."
+            }
+          },
+          "prompting_state": {
+            "prompt": "فهمي هو أن هناك شركة واحدة في تايوان تصنع أفضل رقائق ميكروية في العالم ولا أحد آخر يستطيع تقليدها. كيف يكون ذلك ممكنًا؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**إجابتها:**\n\nدم جميع الحيوانات أحمر اللون بسبب وجود بروتينات محددة في الدم تدعى \"hemoglobين\". هيموglobين يربط بال산 الأكسجين ويحمله عبر الجسم. عندما يتم نقل الأكسجين إلى الأنسجة، يتم تحويله إلى ثاني أكسيد الكربون، الذي يتم نقله إلى الرئتين للتنفس."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا يكون دم معظم الحيوانات أحمر اللون؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "\n\n**الجواب:**\n\nتعد التمارين الرياضية وبناء العضلات (بطريقة صحية) على تحسين قدرة الجسم على إصلاح نفسه. لا تجعل هذه الأنشطة القدرة الجسم على إصلاح نفسه أسوأ.\n\n**السبب:**\n\n* **تحسين الدورة الدموية:** تزيد التمارين الرياضية من تدفق الدم في الجسم، مما يساعد على إمداد الأنسجة والأعضاء بالoxyجين والغذاء.\n* **تحسين الاسترداد:** تساعد البناء العضلي على تحسين استرداد الجسم بعد التمارين، مما يعني قدرة الجسم على إصلاح نفسه بشكل أسرع.\n* **تحسين الصحة العامة:** تزيد التمارين الرياضية من الصحة العامة، مما يجعل الجسم أكثر قدرة على التعامل مع التوتر والضغط.\n\nلذلك، فإن التمارين الرياضية وبناء العضلات (بطريقة صحية) يمكن أن يساعد على تحسين قدرة الجسم على إصلاح نفسه."
+            }
+          },
+          "prompting_state": {
+            "prompt": "إذا كان الشيخوخة، باختصار، هي استنفاد قدرة الجسم على إصلاح نفسه، لماذا لا تجعل التمارين الرياضية وبناء العضلات (بطريقة صحية) هذه القدرة أسوأ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**تُستخدم الخُصومات الكبرى لتحسين المبيعات وتنمية العملاء.**\n\n**يمكن للشركات استخدام الخُصومات الكبرى لتحسين المبيعات وتنمية العملاء من خلال:**\n\n* **زيادة التفضيل:** يمكن للشركات استخدام الخُصومات الكبرى لزيادة التفضيل لمنتجاتها من قبل العملاء.\n* **تحسين المصداقية:** يمكن للشركات استخدام الخُصومات الكبرى لتحسين المصداقية بين العملاء.\n* **زيادة التفاعل:** يمكن للشركات استخدام الخُصومات الكبرى لزيادة التفاعل بين العملاء.\n\n**ومع ذلك، هناك بعض المخاطر في استخدام الخُصومات الكبرى، مثل:**\n\n* **الخُصومات الكبرى يمكن أن تؤدي إلى فقدان الربح.**\n* **الخُصومات الكبرى يمكن أن تؤدي إلى فقدان العملاء.**\n* **الخُصومات الكبرى يمكن أن تؤدي إلى زيادة التوتر.**\n\n**للحصول على نتائج إيجابية من استخدام الخُصومات الكبرى، يجب للشركات اتباع بعض الإرشادات، مثل:**\n\n* **حدد هدفًا محدداً للخصم.**\n* **حدد جمهورك المستهدف.**\n* **ضع شروط وشرطات للخصم.**\n* ** مراقب وتقييم فعالية الخُصومات الكبرى.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "كيف تربح الشركات المال من بيع منتجاتها بخصومات كبيرة؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "Morning sickness is a common symptom experienced by many women during pregnancy. However, it is not fully understood why some women experience it while others do not, and why it often affects only the first trimester of pregnancy in most cases.\n\n**Possible factors contributing to morning sickness:**\n\n* **Genetic factors:** Some women are more likely to experience morning sickness due to their genes.\n* **Hormonal changes:** Pregnancy triggers significant hormonal changes, which can contribute to nausea and vomiting.\n* **Dietary factors:** Certain foods and smells can trigger nausea and vomiting during pregnancy.\n* **Psychological factors:** Stress, anxiety, and mood changes can also contribute to morning sickness.\n\n\n**Factors influencing the duration of morning sickness:**\n\n* **Individual susceptibility:** Some women are more likely to experience morning sickness for longer periods than others.\n* **Severity of the symptoms:** The intensity of the symptoms can also influence the duration of morning sickness.\n* **Pregnancy complications:** Certain pregnancy complications, such as hyperemesis gravidarum, can cause prolonged morning sickness.\n\n\n**Possible reasons why some women experience morning sickness throughout pregnancy:**\n\n* **Different hormonal sensitivities:** Some women may have heightened sensitivity to certain hormones during pregnancy, leading to ongoing nausea and vomiting.\n* **Underlying medical conditions:** Some medical conditions, such as gastrointestinal disorders, can contribute to persistent morning sickness.\n* **Psychological factors:** Ongoing stress or anxiety can perpetuate morning sickness throughout pregnancy.\n\n\n**Note:** It is important to consult with a healthcare provider if you experience severe or persistent morning sickness during pregnancy.\n\n**Possible solutions for morning sickness:**\n\n* Ginger and peppermint supplements\n* Acupressure or acupuncture\n* Dietary modifications\n* Medications (in severe cases)\n\n**Disclaimer:** This information is for educational purposes only and does not constitute medical advice. Always consult with a healthcare provider for diagnosis and treatment of any medical condition."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا تعاني بعض النساء من \"غثيان الصباح\" أثناء الحمل بينما لا تعاني أخريات منه؟ ولماذا يقتصر ذلك على الثلث الأول من الحمل لدى الكثيرات بينما تستمر بعضهن في تجربته طوال فترة الحمل؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**العديد من العوامل تؤثر على درجة الحرارة التي تشعر بها، بما في ذلك:**\n\n**1. الظروف الجوية:**\n* سرعة الرياح\n* الرطوبة\n* درجة الحرارة الحقيقية\n\n**2. حالة الجسم:**\n* مستويات الأدرينال\n* مستويات السيروتونين\n* الصحة العامة\n\n**3. نمط الحياة:**\n* الأكل\n* النوم\n* النشاط البدني\n\n**4. الظروف البيئية:**\n* نوع المادة الصلبة\n* وجود أو عدم وجود طبقة عازلة\n\n**5. العوامل النفسية:**\n* مزاج\n* مستويات الإجهاد\n* تجربة\n\n**يمكن أن تؤثر بعض هذه العوامل على درجة الحرارة التي تشعر بها بشكل كبير.**\n\n* **سرعة الرياح:** يمكن أن تزيد سرعة الرياح من شعورك بال برودة.\n* **الرطوبة:** يمكن أن تزيد الرطوبة من شعورك بال Warmth.\n* **درجة الحرارة الحقيقية:** يمكن أن تؤثر درجة الحرارة الحقيقية على شعورك بال برودة أو الحارة.\n* **مستويات الأدرينال:** يمكن أن تزيد مستويات الأدرينال من شعورك بال Warmth.\n* **النشاط البدني:** يمكن أن يؤثر النشاط البدني على شعورك بال برودة أو الحارة."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا يمكن أن تشعر بنفس درجة الحرارة بشكل مختلف تمامًا في أيام أو فصول مختلفة؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**التوتر يسبب مشاكل صحية جسدية من خلال آليات مختلفة:**\n\n**1. نظام المناعة:**\n\n* يمكن التوتر أن يؤثر على نظام المناعة، مما يجعله أقل قدرة على مكافحة العدوى.\n* يؤثر التوتر على إفراز الهرمونات المناعية، مما يؤثر على استجابتها.\n\n**2. نظام الغدد الصituitary:**\n\n* يمكن التوتر أن يؤثر على الغدة الصituitary، مما يؤثر على إفرازها للهرمونات.\n* يؤثر التوتر على إفراز هرمونات الاستجهاد، مثل الكورتيزول.\n\n**3. Sistema العصبي:**\n\n* يمكن التوتر أن يؤثر على Sistema العصبي، مما يؤثر على وظائف الأعضاء.\n* يؤثر التوتر على إفراز الناقلات العصبية، مما يؤثر على التواصل بين الخلايا.\n\n**4. الأوعية الدموية:**\n\n* يمكن التوتر أن يؤثر على الأوعية الدموية، مما يؤثر على تدفق الدم.\n* يؤثر التوتر على ضغط الدم والنبض.\n\n**5. الخلايا:**\n\n* يمكن التوتر أن يؤثر على الخلايا، مما يؤثر على وظائفها.\n* يؤثر التوتر على إفراز الهرمونات الخلوية.\n\n**6. الممتزات:**\n\n* يمكن التوتر أن يؤثر على امتصاص بعض الممتزات.\n* يؤثر التوتر على امتصاصVitam B12."
+            }
+          },
+          "prompting_state": {
+            "prompt": "كيف يسبب التوتر مشاكل صحية جسدية؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "لا، لا يمكن أن يكون مؤشر الألم دقيقًا تمامًا لحالة الإصابات الجسدية.\n\n**الأسباب:**\n\n* **التنوع في حساسية الألم:** الناس مختلفون في حساسية الألم. ما يشعر بعض الناس بال آلام شديدة، قد يشعر آخرون بال آلام خفيفة أو لا يشعرون بالألم على الإطلاق.\n* **نوع الإصابة:** نوع الإصابة يمكن أيضًا أن يؤثر على دقة مؤشر الألم. على سبيل المثال، قد يشير مؤشر الألم العالي إلى إصابة خفيفة إذا كانت الإصابة جديدة، بينما قد يشير مؤشر الألم المنخفض إلى إصابة شديدة إذا كانت الإصابة قديمة.\n* **التاريخ الطبي:** تاريخ الإصابة يمكن أيضًا أن يؤثر على دقة مؤشر الألم. على سبيل المثال، قد يشير مؤشر الألم العالي إلى إصابة قديمة إذا كانت الإصابة قد تلقت العلاج.\n* **العوامل النفسية:** العوامل النفسية، مثل التوتر والقلق، يمكن أيضًا أن تؤثر على دقة مؤشر الألم.\n\n**لذلك، من المهم استخدام مؤشر الألم في combinatie مع andere معايير لتقييم حالة الإصابة الجسدية.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "هل الألم مؤشر دقيق تمامًا لحالة الإصابات الجسدية؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**تختلف أعمار الحيوانات المختلفة بسبب:**\n\n**1. معدل نمو:**\n* بعض الحيوانات نمو بسرعة، بينما نمو آخرين بطء.\n* الحيوانات التي نمو بسرعة تتطلب أطعمة أكثر تكلفة لتناسب احتياجاتها.\n\n**2. دورة حياة:**\n* بعض الحيوانات لديها دورة حياة قصيرة، بينما آخرين لديها دورة حياة طويلة.\n* الحيوانات التي لديها دورة حياة طويلة يمكنها التعرض لمزيد من التحديات، مثل التغيرات المناخية والافتراس.\n\n**3. ظروف البيئية:**\n* ظروف البيئية يمكن أن تؤثر على معدل نمو الحيوانات.\n* الحيوانات التي تعيش في ظروف بيئية شديدة يمكنها نمو أبطأ من الحيوانات التي تعيش في ظروف بيئية أكثر اعتدال.\n\n**4. الجينات:**\n* بعض الحيوانات لديها جينات تؤثر على معدل نموهم.\n* يمكن أن تؤثر هذه الجينات على طول عمر الحيوان.\n\n**5. التغذية:**\n* التغذية يمكن أن تؤثر على معدل نمو الحيوانات.\n* الحيوانات التي تتغذى على أطعمة الغنية بالبروتين والسكريات يمكنها نمو أسرع من الحيوانات التي تتغذى على أطعمة الفقيرة بالبروتين والسكريات."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا تختلف أعمار الحيوانات المختلفة؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**إجابة:**\n\nلا يمكن للبشر الحمل من الحيوانات بسبب الاختلافات الوراثية الكبرى بين البشر والحيوانات. لا يمكن للبشر حمل صغار الحيوانيين، ولا يمكن الحيوانات حمل صغار البشر."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا لا يمكن للبشر الحمل من الحيوانات؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "* **تحسين الذاكرة والتركيز.**\n* **تقليل التوتر والقلق.**\n* **تحسين الصحة العامة.**\n* **كل ذلك على التوالى.**\n\n**إجابة:** كل ذلك على التوالى.\n\nالنوم مهم لتحسين الذاكرة والتركيز، وتقليل التوتر والقلق، وتحسين الصحة العامة."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ما هي وظيفة النوم؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "* **زيادة في كمية الدم في الجسم**\n* **نقص في كمية الدم في الجسم**\n* **تغيّر في ضغط الدم**\n* **تغيّر في معدل الأيض**\n\n**الإجابة:** *زيادة في كمية الدم في الجسم*\n\nمعدل ضربات قلب العدّاء أقل من غير العدّاء بسبب زيادة في كمية الدم في الجسم. عندما يكون الجسم مصمماً على أداء مجهود، يتم تحويل كمية أكبر من الدم إلى العضلات والمسالك، مما يؤدي إلى زيادة في كمية الدم في الجسم."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا معدل ضربات قلب العدّاء أقل من غير العدّاء؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "Your body temperature drops slightly after you step out of the shower, causing your blood vessels to dilate and your heart rate to increase in order to restore your body temperature to its normal level. This dilation of blood vessels can cause a temporary increase in blood flow to the surface of your skin, leading to increased sweating."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا أتعرق أكثر بعد الخروج من الدش؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**إجابة:**\n\nتُسهل الحفاظ على التوازن على الدراجة عندما تكون في حالة حركة بسبب:\n\n**1. الزخم الزاوي:**\n- عندما تتحرك الدراجة، يتم إنشاء الزخم الزاوي حول المحور الرأسي.\n- هذا الزخم الزاوي يقاوم أي محاولة عكس التوازن.\n\n**2. تأثير Coriolis:**\n- عندما تتحرك الدراجة، يتم إنشاء تأثير Coriolis، الذي هو القوة التي تؤثر على الجسم في movimento الدوراني.\n- هذا التأثير Coriolis يمسح الجسم في الاتجاه الذي يدور.\n\n**3. موقف الجسم:**\n- عندما يكون الجسم في حالة الحركة، يكون موقف الجسم على الدراجة أكثر استقرارًا.\n- يتم تحسين التوازن عن طريق تحسين موقف الجسم.\n\nمن ناحية أخرى، عندما تكون الدراجة ثابتة، لا يتم إنشاء الزخم الزاوي أو التأثير Coriolis، مما يجعل الحفاظ على التوازن أكثر صعوبةًا."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا يسهل الحفاظ على التوازن على الدراجة عندما تكون في حالة حركة، بينما يكاد يكون من المستحيل ذلك عندما تكون ثابتة؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**إجابة:**\n\n Eats المحروق ضارًا بك بسبب وجود مواد كيميائية السامّة في النقل. هذه المواد الكيميائية يمكن أن تسبب مشاكل صحية، بما في ذلك الإسهال والصدأ والسرطين."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا يُعتبر تناول الطعام المحروق ضارًا بك؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**البيئات الصاخبة يمكن أن تزيد من مستويات الهرمونات المنبعة للتنفس، مما يؤدي إلى صعوبة النوم.**\n\n* **هرمونات المنبعة للتنفس:** مثل الهرمونات beta-endorphin وnorepinephrine، يتم إفرازها في استجاب للضغط والقلق.\n* **النوم:** يتطلب استرخاء وت릴 من هذه الهرمونات.\n\n**في البيئات الصاخبة:**\n\n* **مستويات الهرمونات المنبعة للتنفس عالية.**\n* **النوم غير ممكن أو صعب.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا يصعب النوم في البيئات الصاخبة؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**قد يحدث بعض أو جميع الأمور التالية:**\n\n* فقدان البيانات\n* فقدان الوقت\n* تكاليف إصلاح عالية\n* فقدان سمعة\n\n**قد يكون السبب التعطيل:**\n\n* خطأ في البرامج\n* مشاكل في الصلب\n* مشاكل في الطاقة\n* مشاكل في الدارات\n\n**قد تؤثر التعطيل على:**\n\n* عملك\n* حياتك الشخصية\n* financesك\n\n**من المهم أن يكون لديك خطة استعداد في حالة التعطيل.**\n\n**خطوة 1: حفظ البيانات**\n\n* ضع نسخة احتياطية من جميع البيانات الخاصة بك على أجهزة تخزين آمنة.\n* ضع جميع البيانات الخاصة بك على شبكة.\n\n**خطوة 2: فحص الأجهزة**\n\n* فحص جهاز الكمبيوتر الخاص بك بحثًا عن أي مشاكل في البرامج أو الصلب.\n* فحص الطاقة الخاصة بك بحثًا عن أي مشاكل.\n\n**خطوة 3: استرداد البيانات**\n\n* إذا فقدت البيانات، يمكنك استردادها من نسخة الاحتياطية.\n* إذا فقدت البيانات من شبكة، يمكنك استردادها من خزن البيانات.\n\n**خطوة 4: إصلاح جهاز الكمبيوتر**\n\n* إذا كان هناك مشاكل في الصلب أو الدارات، يمكنك إصلاح جهاز الكمبيوتر.\n* إذا كان هناك خطأ في البرامج، يمكنك تجديد البرامج."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ما الذي يحدث بالضبط مع جهاز الكمبيوتر الخاص بي عندما يتعطل؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "\n\nسوف يبدأ الجسم بالضعف والضعف، وسوف يحدث انخفاض في مستويات الطاقة والتركيز. وسوف يؤثر ذلك على الصحة بشكل عام.\n\nيمكن أن يحدث فقدان للوظائف الحيوية، مثل انخفاض في معدل ضربات قلب، وتقلص في معدل التنفس. وسوف يؤثر ذلك على قدرة الجسم على الحفاظ على Homeostasis.\n\nسوف يؤثر ذلك أيضًا على قدرة الجسم على المناعة، مما قد يؤدي إلى زيادة التوتر والضعف.\n\nوأخيرًا، سوف يؤثر ذلك على قدرة الجسم على التعامل مع الضغط، مما قد يؤدي إلى الاكتئاب والقلق."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ماذا سيحدث لجسمي إذا كنت عالقًا في مكان ما مع وجود مصدر موثوق للماء ولكن بدون طعام؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "لا يمكننا معرفة ما يحدث بعد الموت، حيث لا يوجد دليل علمي موثوق على ما يحدث. ومع ذلك، هناك العديد من التفسيرات والأidée حول ما قد يحدث.\n\n**تفسيرات الشعب:**\n\n* **التح reincarnation:** الفكرة التي تنتمي روح الفرد إلى جسدي آخر بعد موته.\n* **الجنون:** الفكرة أن الروح يمكن أن تستمر في الوجود على شكل روح.\n* **البارز:** الفكرة أن الروح يمكن أن تعيش في العالم الآخر.\n\n**التفسيرات العلمية:**\n\n* **النظرية الكوانتية:** تفسر هذه النظرية الظاهرة غير المتوقعة من خلال مفهوم \"الكمال\".\n* **نظرية التوحيد:** تفسر هذه النظرية الظاهرة غير المتوقعة من خلال مفهوم \"الكون المتماسك\".\n\nمن المهم ملاحظة أن هذه التفسيرات لا تزال نظرية ولا يوجد دليل علمي يدعم أي منها."
+            }
+          },
+          "prompting_state": {
+            "prompt": "هل سنعرف يومًا ما يحدث لنا بعد الموت؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**الرد:**\n\nلا تستطيع العظام أن تنمو مجددًا بسبب وجود طبقة من الكالسيوم على السطوح الخلوي للخلايا العظمية، مما يجعل هذه الخلايا غير قادرين على التكاثر."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا لا تستطيع العظام أن تنمو مجددًا؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**ال الذهب يعتبر ثمنًا عالياً بسبب:**\n\n**1. نادرة:**\n- يوجد الذهب في الطبيعة بكميات ضئلة.\n- عملية استخراج الذهب صعبة ومعقدة.\n\n**2. استخدامها في الصناعة:**\n- يستخدم الذهب في صناعة الإلكترونية، والتحويل، والطب.\n- له خصائص كهرومغناطيسية فريدة تجعله مثاليًا لعدة تطبيقات.\n\n**3. الطلب:**\n- هناك طلب كبير للذهب من قبل المصرفيين والشركات.\n- يتم استخدامه كوس من الاحتياط وكمال للممتازة.\n\n**4. القيمة الحقيقية:**\n- الذهب له قيمة حقيقية، مما يعني أنه يمكن استبداله بالنقود.\n- يتم تقدير قيمة الذهب بالروبية، ولا يمكن استبداله بالنقود.\n\n**في المقابل، الفضة أقل ثمنًا من الذهب بسبب:**\n\n**1. وفيرة:**\n- يوجد الفضة في الطبيعة بكثرة.\n- عملية استخراج الفضة أسهل من استخراج الذهب.\n\n**2. استخدامها:**\n- يتم استخدام الفضة في صناعة أقل من الذهب.\n- لا يتم استخدامه كوس من الاحتياط أو كمال للممتازة.\n\n**3. القيمة:**\n- الفضة له قيمة أقل من الذهب.\n- يتم تقدير قيمة الفضة بالنقود."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا يعتبر الذهب ثمينًا جدًا؟ ولماذا هو أثمن من المعادن الأخرى، مثل الفضة؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**الجزر**\n\nالجزر ت entgegen التوتر بين المحيطات والكرة الأرضية، مما يمنع المحيطات من غمر الأرض."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ما الذي يمنع المحيطات من غمر الأرض؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "هاتف متى ينام هو عندما يتم إيقاف تشغيل العمليات الإلكترونية الداخلية. يحدث هذا عندما يتم إيقاف التي توفر الطاقة للهاتف.\n\n**عوامل تؤثر على وقت النوم الهاتف:**\n\n* نوع البطارية\n* شحنة البطارية\n* درجة الحرارة\n* النشاط الالكهربائي\n\n**عندما ينام الهاتف؟**\n\n* عندما يتم إيقاف تشغيل العمليات الإلكترونية الداخلية.\n* عندما يتم إيقاف التي توفر الطاقة للهاتف.\n\n**ما هو وقت النوم الهاتف عادة؟**\n\n* يختلف وقت النوم الهاتف من هاتف إلى آخر.\n* عادةً يDormي الهاتف لمدة 2-3 ساعات."
+            }
+          },
+          "prompting_state": {
+            "prompt": "كيف يعرف هاتفي متى أكون نائمًا؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**إجابة:**\n\nيمكن أن يكون هناك تفسيرات مختلفة لظاهرة أن بعض الأشياء التي تشم رائحتها جيدة تكون طعمها سيئًا.\n\n* **التنوع في حسية الرائحة-ذوق:** بعض الناس أكثر حساسية للرائحة من anderen. يمكن أن يشعر بعض الأشخاص بالرائحة الجيدة للأشياء التي لا يعتبرها الآخرين.\n* **التنوع في ذوق:** بعض الأشخاص يفضلون الأطعمة ذات الرائحة قوية، بينما آخرون يفضلون الأطعمة ذات الرائحة ضعيفة.\n* **التركيز:** يمكن أن تؤثر التركيز على ذوق على ما ن حسبه. يمكن أن يشعر بعض الأشخاص بالرائحة الجيدة للأشياء عندما يكونوا متمركزين، بينما يشعرون بالرائحة السيئة عندما يكونوا غير متمركزين.\n* **الخبرة:** يمكن أن تؤثر الخبرة على ذوق. يمكن أن يشعر بعض الأشخاص بالرائحة الجيدة للأشياء التي كانوا قد رأواها أو عاصرواها قبل.\n\nبمجensemble، يمكن أن يكون هناك العديد من العوامل التي تؤثر على ما ن حسبه من الرائحة الأشياء."
+            }
+          },
+          "prompting_state": {
+            "prompt": "إذا كان معظم ما نتذوقه يتحدد بالشم، لماذا بعض الأشياء التي تشم رائحتها جيدة تكون طعمها سيئًا؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**إجابته:**\n\nيتكون الصابون من جزيئات شحوم ذات شحوم موجودة في الماء. عندما يتم Applied الصابون إلى الماء، يتم تشكل جزيئات شحوم متعددة الشحوم. هذه الجزيئات المتعددة الشحوم هي التي ت REMOVE تقريبًا أي شيء من على يديك.\n\nلا يمكن للصابون إزالة عطره عنك لأن عطرة تتكون من بخار الماء والهيدروجين. هذه الجزيئات هي ضارة للغاية ولا يمكن للصابون إزالتها."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا يمكن للصابون أن يزيل تقريبًا أي شيء من على يديك ولكنه لا يزيل عطره عنك؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**تُستخدم شعر الحيوانات الزلازل القادمة في العديد من الأنشطة، بما في ذلك:**\n\n* **التشخيص:** يمكن استخدام شعر الحيوانات الزلازل لتصنيفها وتحديد نوعها.\n* **التشخيص البيئي:** يمكن استخدام شعر الحيوانات الزلازل لتحديد نوع الموائل التي تعيش فيها.\n* **التشخيص الطبي:** يمكن استخدام شعر الحيوانات الزلازل لتصنيفها من الناحية الوظيفية.\n* **التنمية:** يمكن استخدام شعر الحيوانات الزلازل لتطوير أدوية جديدة.\n\n**يمكن استخدام شعر الحيوانات الزلازل القادمة أيضًا في: **\n\n* **التعليم:** يمكن استخدام شعر الحيوانات الزلازل لتعليم الأطفال عن أنواع الحيوانات الزلازل المختلفة.\n* **الترفيه:** يمكن استخدام شعر الحيوانات الزلازل لإنشاء نماذج ورسوم.\n* **الصحتة:** يمكن استخدام شعر الحيوانات الزلازل لتصنيع مستحلبات ومسكنات."
+            }
+          },
+          "prompting_state": {
+            "prompt": "كيف يستشعر الحيوانات الزلازل القادمة؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**إجابة:**\n\nتطاير اللعاب من فمي أحيانًا عندما أتثاءب بسبب التغيرات في ضغط الهواء والرطوبة في الفم. عندما تتثاءب، ينخفض ضغط الهواء في الفم، مما يؤدي إلى فقدان الرطوبة من اللعاب. يمكن أن يؤدي فقدان الرطوبة هذا إلى تطاير اللعاب."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا تتطاير اللعاب من فمي أحيانًا عندما أتثاءب؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**تحكم الطقس**\n\nلا يمكن التحكم بالطقس بشكل كامل، ولكن يمكن للبشر التأثیر على بعض جوانبها.\n\n**التحكم في الظروف الجوية**\n\n* **إدارة الملوحة:** يمكن التحكم في تركيز الملوحة في البحر، مما يؤثر على شدة الأعاصير.\n* **إدارة الغبار:** يمكن استخدام التكنولوجيا لمنع غبار البحر من الوصول إلى الساحل.\n* **إدارة الأمطار:** يمكن استخدام الأنظمة لتوجيه الأمطار إلى المناطق الذين تحتاجون إليها.\n\n**التحكم في المناخ**\n\n* **تقنيات امتصاص الكربون:** يمكن استخدام هذه التقنيات لتقليل كمية ثاني أكسيد الكربون في الغلاف الجوي.\n* **تقنيات تخزين الطاقة:** يمكن استخدام هذه التقنيات لتخزين الطاقة المتجددة، مما يؤثر على دورة الكربون.\n\n**التحكم في الأحداث المناخية**\n\n* **إدارة الأحداث المنظمة:** يمكن استخدام الأنظمة لتقليل تأثير الأحداث المناخية على السكان.\n* **تحسين الاستعداد:** يمكن تحسين استعداد المجتمعات لمواجهة الأحداث المناخية.\n\n**التحكم في الظروف الجوية المستقبلية**\n\n* **البحوث والتطوير:** يمكن للعلماء والمهندسين تطوير تقنيات جديدة لتحكم بالطقس.\n* **السياسة الحكومية:** يمكن الحكومات اتخاذ قرارات سياسية لتشجيع التحكم بالطقس."
+            }
+          },
+          "prompting_state": {
+            "prompt": "هل يمكن التحكم بالطقس أو صنعه من قبل الإنسان؟ وإذا كان ذلك ممكنًا، فإلى أي مدى وكيف؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": " \n\n**عندما تقوم بقطف ورقة من النبات، يحدث ما يلي:**\n\n* **تضرر الخلايا:** يتم تقطيف الخلايا في ورقة النبات، مما يؤدي إلى فقدان بعض الخلايا والنضارة.\n* **تلف الأنساب:** يتم تقطيف الأنساب التي تربط الخلايا ببعضها البعض، مما يؤدي إلى فقدان الاتصال بين الخلايا.\n* **تلف البوليمرات:** يتم تقطيف البوليمرات التي تشكل الهيكل الأساسي للورقة، مما يؤدي إلى فقدان Structural integrity.\n\n** Effek هذه التغييرات:**\n\n* **تلف الوظائف:** يمكن أن يؤدي التلف الخلوي والأنسيبي إلى فقدان الوظائف التي تقوم بها ورقة النبات، مثل امتصاص الماء والتربة.\n* **زيادة التوتر:** يمكن أن يؤدي التلف إلى زيادة التوتر في النبات، مما يؤدي إلى إضعاف نمو.\n* **زيادة حساسية للظروف البيئية:** يمكن أن يؤدي التلف إلى زيادة حساسية النبات للظروف البيئية، مثل الجوع والرطوبة.\n\n**يمكن النبات التعافي من التقطيف، ولكن هذا يعتمد على نوع النبات، شدة التقطيف، وظروف البيئية.**\n\n* **النباتات الخضراء:** يمكن للالنباتات الخضراء التعافي من التقطيف بسهولة، نظرًا لقدرتها على التجديد الخلوي.\n* **النباتات Woody:** يمكن للالنباتات Woody التعافي من التقطيف، ولكنها قد تستغرق وقتًا أطول.\n* **ظروف البيئية الجيدة:** يمكن للالنباتات التعافي من التقطيف في ظروف البيئية الجيدة، مثل الرطوبة والضوء."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ماذا يحدث للنبات عندما تقوم بقطف ورقة منه؟ هل تؤذيه وهل يستطيع النبات التعافي؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "* **زيادة النشاط العصبي:** قبل النوم، يتم تحفيز أنشطة الدماغ، مما يؤدي إلى تفكير أكثر.\n* **نقص التوتر:** عندما يكون التوتر منخفضًا، يصبح من الصعب إيقاف التفكير.\n* **زيادة مستويات هرمون السيروتونين:** هرمون السيروتونين يرتبط بالتفكير والتركيز.\n* **نقص الترويح:** قبل النوم، يتم تقليل مستويات الترويح، مما يؤدي إلى تفكير أكثر."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا نميل إلى التفكير كثيرًا قبل النوم؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "\\\n\n**عوامل تكوين ندمة البصل عند التقطيع:**\n\n* **البولين:** البصل يحتوي على بروتينات البولين، والتي يمكن أن تتحول إلى حمض البوليك عند التقطيع.\n* **الزنجبر:** يوجد إنزيم في البصل يسمى الزنجبر، الذي يؤثر على البولين.\n* **الحمض الكبريتيك:** يتم تحويل البولين إلى حمض البوليك من قبل الحمض الكبريتيك، الذي يوجد في البصل.\n\n**عوامل تؤثر على شدة ندمة البصل:**\n\n* **نوع البصل:** بعض أنواع البصل أكثر تميل إلى الندمة من غيرها.\n* **درجة الحرارة:** البصل الذي يتم تخزينه في درجات حرارة عالية أكثر تميل إلى الندمة.\n* **الضغط:** يتم تحويل البولين إلى حمض البوليك بشكل أسرع عند الضغط العالي.\n\n**طرق لمنع ندمة البصل:**\n\n* **إضافة الملح:** يمكن إضافة الملح إلى البصل قبل التقطيع لتقليل الندمة.\n* **إضافة الليمون:** يمكن إضافة الليمون إلى البصل قبل التقطيع لتقليل الندمة.\n* **تبريد البصل:** يمكن تبريد البصل قبل التقطيع لتقليل الندمة.\n* **تقطيع البصل تحت الماء:** يمكن تقطيع البصل تحت الماء لتقليل الندمة.\n* **استخدام المقصات ذات الم سرعات المنخفضة:** يمكن استخدام المقصات ذات الم سرعات المنخفضة لتقطيع البصل لتقليل الندمة."
+            }
+          },
+          "prompting_state": {
+            "prompt": "ما الذي يجعلنا ندمع عند تقطيع البصل؟ وهل هناك طريقة لمنع ذلك؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "* **تزيد مداعبة من مستويات اليوريا في البول.**\n* **تزيد مداعبة من إفرازات الغدة Pineal.**\n* **تزيد مداعبة من إفرازات هرمونات الاسترخاء.**\n* **تزيد مداعبة من إفرازات هرمونات النشاط.**\n\n**إجابة:**\n\nتزيد مداعبة من إفرازات هرمونات الاسترخاء.\n\n**المداعبة هي وسيلة لتقليل التوتر والتوتر، مما يؤدي إلى إفراز هرمونات الاسترخاء، والتي تساعد على الشعور بالهدوء وال 安مان.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا تستمتع معظم الحيوانات الأليفة بالمداعبة؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**تحتاج إلى تحديث البرمجيات باستمرار لعدة أسباب:**\n\n**1. تحسين الأداء:**\n* تحسين سرعة المعالجة.\n* تحسين استهلاك الموارد.\n* تصليح الأداء الضعيف.\n\n**2. تصليح الأضرار:**\n* إصلاح الأعيوب والعيوب.\n* إصلاح الأضرار الناجمة عن الأخطاء.\n* تحسين أمان البرامج.\n\n**3. التكيف مع التغيرات في الاحتياجات:**\n* إدخال الميزات الجديدة.\n* تحسين واجهة المستخدم.\n* التكيف مع التغيرات في المعالجة.\n\n**4. تحسين أمان:**\n* إصلاح الثغرات الأمان.\n* تحسين الموثوقية.\n* حماية البيانات من الاحتيال.\n\n**5. الحفاظ على التواضع:**\n* الحفاظ على تواضع البرامج مع التغيرات في أنظمة التشغيل والمتصاتير.\n* ضمان التواضع مع الأحدث من التطبيقات.\n\n**إذا لم تفعل ذلك، ستواجه مشاكل مثل:**\n\n* أداء ضعيف.\n* أضرار كبيرة.\n* أمان ضعيف.\n* فقدان التواضع.\n* صعوبة الحفاظ على البرامج."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا نحتاج إلى تحديث البرمجيات باستمرار؟ ماذا يحدث إذا لم أفعل؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**لا.** لا تسبب السفن في ارتفاع مستوى المحيط عن المعتاد."
+            }
+          },
+          "prompting_state": {
+            "prompt": "هل تتسبب السفن في ارتفاع مستوى المحيط عن المعتاد؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**إجابتها:**\n\nخلايا الدماغ لا يمكن التجدد بنفسها مثل الخلايا الأخرى في الجسم. فهي متخصصة للغاية وتعتمد على الخلايا الأخرى في الدماغ لتجددها. إذا لم تكن الخلايا الأخرى في الدماغ قد تزال متاحةً، فلن يمكنخلايا الدماغ التجدد."
+            }
+          },
+          "prompting_state": {
+            "prompt": "تقريبًا كل خلية في جسمنا قادرة على التجدد. لماذا تختلف خلايا الدماغ؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**الرد:**\n\nلا يمكننا القضاء على البراغيث بشكل كامل بسبب:\n\n**1. المقاومة:**\n* يمكن البراغيث أن تطوير مقاومة للأدوية التي يتم استخدامها لمهاجمتها.\n* يمكن أن تؤدي تكرار استخدام الأدوية المختلفة إلى مقاومة.\n\n**2. التنوع:**\n* توجد أنواع عديدة من البراغيث، بعضها أكثر حساسية للأدوية من غيرها.\n* يمكن أن تؤدي التنوع إلى صعوبة القضاء عليها بشكل كامل.\n\n**3. البيئة:**\n* يمكن البراغيث أن تتكيف مع البيئة وتستمر في النمو.\n* يمكن أن تؤدي ظروف البيئية المختلفة إلى نمو البراغيث.\n\n**4. تكرار الاستخدام:**\n* من المهم استخدام الأدوية لمهاجم البراغيث بانتظام لتجنب التطور المقاومة.\n* يمكن أن تؤدي تكرار الاستخدام غير المنتظم إلى مقاومة.\n\n**5. البراغيث المستقرة:**\n* يمكن أن توجد براغيث مستقرة في بعض المناطق، مما يعني أنها لا يمكن القضاء عليها."
+            }
+          },
+          "prompting_state": {
+            "prompt": "لماذا لا يمكننا القضاء على البراغيث بشكل كامل؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.arabic:gemma 7b",
+          "language": "Arabic",
+          "translations": {
+            "Arabic": {
+              "language": "Arabic",
+              "text": "**قد يؤدي قلة النوم إلى الوفاة من خلال آليات مختلفة:**\n\n**1. التغيرات في الدماغ:**\n- قلة النوم تؤثر على الدماغ بشكل سلبي، مما يؤدي إلى انخفاض في الوعي والتركيز.\n- يمكن أن يؤدي هذا إلى خطأ في اتخاذ القرارات والحكم على الأنشطة، مما قد يؤدي إلى موقف dangerous.\n\n\n**2. التغيرات في الهرمونات:**\n- قلة النوم يمكن أن تؤثر على مستويات الهرمونات في الجسم، مما يؤثر على الصحة بشكل عام.\n- يمكن أن يؤدي هذا إلى زيادة التوتر والقلق، مما قد يؤدي إلى موقف dangerous.\n\n\n**3. التغيرات في المناعة:**\n- قلة النوم يمكن أن تؤثر على المناعة الجسم، مما يجعله أكثر عرضة للأمراض.\n- يمكن أن يؤدي هذا إلى موقف dangerous، حيث يمكن للأمراض أن تؤثر على الصحة بشكل سلبي.\n\n\n**4. التغيرات في المزاج:**\n- قلة النوم يمكن أن تؤثر على المزاج، مما يؤدي إلى الاكتئاب والقلق.\n- يمكن أن يؤدي هذا إلى موقف dangerous، حيث يمكن الاكتئاب والقلق أن يؤثر على الصحة بشكل سلبي."
+            }
+          },
+          "prompting_state": {
+            "prompt": "كيف يمكن أن يؤدي قلة النوم إلى الوفاة؟\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false

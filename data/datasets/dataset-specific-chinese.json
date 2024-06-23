@@ -193,6 +193,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:0:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**以下是一些原因：**\n\n* **日本文化和历史丰富。**日本拥有悠久的历史和丰富的文化，从其传统艺术和传统美食到其现代建筑和科技。\n* **日本自然美丽。**日本拥有各种各样的自然风景，从其山脉和湖泊到其森林和瀑布。\n* **日本交通便利。**日本拥有一个完善的交通系统，包括高铁、地铁和公交车。\n* **日本食品安全可靠。**日本食品安全水平高，因此可以放心食用当地美食。\n* **日本人热情友好。**日本人以其热情友好和礼仪著称。\n\n除了这些原因，日本还拥有以下一些特点，使其成为一个受欢迎的旅游目的地：\n\n* **日本有许多世界遗产。**日本拥有八个世界遗产，包括其历史遗迹和自然景觀。\n* **日本有许多特色景点。**日本有许多特色景点，例如其温泉、其寺庙和其神社。\n* **日本有许多美食文化。**日本有许多美食文化，例如其寿司和其拉面。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么那么多人喜欢去日本旅游？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -388,6 +408,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:1:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**生活方面：**\n\n* 减少交通拥堵和空气污染\n* 提高交通可持续性\n* 降低交通成本\n* 改变人们对交通的 dependents性\n\n**产业方面：**\n\n* 改变能源产业的格局\n* 促进汽车产业的转型\n* 提高能源安全和能源效率\n* 创造新的就业机会\n\n\n**以下是一些具体的可能性：**\n\n* **交通方式的改变：**人们可能会更倾向于使用公共交通、自行车或步行，而不是驾驶汽车。\n* **城市设计和规划的改变：**城市可能会设计更适合非汽车交通的区域。\n* **新技术和新产业的出现：**例如，用于充电和维修电动汽车的企业。\n* **对能源政策的重新思考：**政府可能会改变对能源的政策，以支持电动汽车的普及。\n\n\n**以下是一些可能存在的问题：**\n\n* **电动汽车的成本：**电动汽车的成本可能仍然很高。\n* **充电基础设施：**电动汽车的充电基础设施可能不足。\n* **电动汽车的可靠性：**电动汽车的可靠性可能存在问题。\n\n\n**总而言之，2024年新能源车渗透率超过50%可能会对生活和产业产生重大影响，但也可能存在一些挑战。**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "假设2024年，新能源车的渗透率超过50%，甚至60%，会对我们的生活以及国内产业产生什么样的影响？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -585,6 +625,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:2:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**解决方案：**\n\n* **安排视频通话：**每天或每隔几天与爷爷奶奶进行视频通话，让孙子看到爷爷奶奶的爱和关心。\n* **准备照片和礼物：**为爷爷奶奶准备一些照片和礼物，以表达对他们的爱和尊重。\n* **安排外派：**如果孙子身体健康，可以考虑将孙子外派给爷爷奶奶，以满足爷爷奶奶的见面愿望。\n* **寻求专业建议：**与孩子的心理学家或家庭顾问合作，寻找适合孙子的解决方案。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "宝宝太小不想回家过年，可是爷爷奶奶想见孙子，怎么办？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -780,6 +840,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:3:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n西餐菜的量很少是因为：\n\n* **烹饪风格：**西餐烹饪风格更注重品味和香气，而不是大份量。\n* **饮食习惯：**西人通常以小餐量摄食，并更注重营养价值。\n* **餐具大小：**西餐餐具通常比中国餐具更小，这也会影响菜的量。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么西餐菜的量很少？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -977,6 +1057,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:4:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n这取决于如何定义“安全”。\n\n**中国在某些方面是安全的：**\n\n* 犯罪率低，与其他发达国家相比很安全。\n* 社会政治稳定，没有政变或战争的可能性。\n* 公安系统强大，能够有效地应对各种安全威胁。\n\n**然而，中国在某些方面也存在安全风险：**\n\n* 社会分化加剧，社会矛盾加深。\n* 外部安全威胁增加，例如美国对中国的军事压力。\n* 生态环境问题日益严重。\n\n因此，中国是否安全是一个相对问题。它在某些方面是安全的，但也在某些方面存在安全风险。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "中国算是世界上最安全的国家之一吗？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1172,6 +1272,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:5:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n这并非一个普遍的趋势。美国电影经常宣扬爱国主义，以表达国家价值观和历史。然而，并非所有美国电影都以爱国主义为主题。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么美国电影很少宣扬爱国主义？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -1369,6 +1489,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:6:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**一、经济影响**\n\n* 促进两国间旅游业发展，推动两国经济增长。\n* 扩大两国间贸易和投资合作。\n* 提高两国对彼此的了解和信任。\n\n\n**二、政治影响**\n\n* 增强中国和新加坡之间的政治联系。\n* 促进两国在国际政治和安全事务上的合作。\n* 提高两国在世界上的地位。\n\n\n**三、社会影响**\n\n* 促进两国文化交流和人际交往。\n* 提高两国居民的生活水平和生活质量。\n* 促进两国社会发展和进步。\n\n\n**四、安全影响**\n\n* 提高两国对彼此的安全信任。\n* 促进两国在应对各种安全威胁方面的合作。\n* 提高两国在世界上的安全地位。\n\n\n**五、旅游影响**\n\n* 吸引更多中国和新加坡游客。\n* 促进两国旅游业的专业化和多样化。\n* 提高两国旅游业的竞争力。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "2月9日起，中国和新加坡互免签证，将带来哪些影响？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1564,6 +1704,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:7:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n个人风格和外貌变化是人随着年龄和经历的变化而自然发生的。周杰伦作为一位成熟的音乐家和公众人物，其个人风格和外貌的变化是正常和可预料的。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "周杰伦是不是变了个人？\n和年轻的时候相比，现在有点崇洋媚外了。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -1761,6 +1921,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:8:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**以下是一些可能的原因：**\n\n* **经济原因：**年轻人通常收入较低，房价较高，难以负担。\n* **生活方式：**年轻人更倾向于租房，以获得更大的灵活性和可移动性。\n* **家庭责任：**年轻人还没有家庭责任，不需要拥有自己的家。\n* **投资选择：**年轻人更倾向于将资金投资于教育、旅行或其他有回报的项目。\n* **社会压力：**年轻人面临着很大的社会压力和责任，他们可能不愿意承担房贷的责任。\n\n\n**除了这些原因，还有其他一些可能的原因吗？**\n\n**请提供您的观点和想法。**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么年轻人都不愿意买房了？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1956,6 +2136,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:9:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**主要原因：**\n\n* **能源收入增加：**俄罗斯在全球能源市场上的特权地位使其能够以高价出售天然气和石油，从而增加能源收入。\n* **货币政策的放松：**俄罗斯央行在面对经济衰退的风险时放松了货币政策，并增加了货币供应量，以刺激经济增长。\n* **政府支出增加：**俄罗斯政府在应对经济衰退的风险时增加了政府支出，以增加需求。\n* **外来投资的回流：**一些外来投资者在俄罗斯经济状况好转后回流了投资。\n\n**未来展望：**\n\n俄罗斯经济的未来展望不确定，但大多数分析师预计俄罗斯经济将继续增长。然而，俄罗斯经济面临着一些挑战，例如高通胀率和利率，以及国际社会对俄罗斯的制裁。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "俄罗斯经济为什么不降反升？\n自开战以来，俄罗斯不仅仅承受前线战事压力，而且在经济领域遭受异常严厉的全方位经济制裁，甚至被踢出SWIFT，可是俄罗斯经济却逆势上行了？？\n参考消息网11月17日报道据俄新社11月15日报道，根据俄联邦国家统计局的初步评估，2023年三季度俄罗斯国内生产总值（GDP）按年率计算增长5.5%，这好于俄经济发展部和央行的评估。二季度这一指标为4.9%。\n11月15日，欧洲委员会发布了最新版本的秋季经济展望报告，大幅上调了今年俄罗斯经济的增长预期。据欧委会最新预测数据显示，2023年俄罗斯GDP将增长2%，2024年和2025年俄罗斯经济有望每年增长1.6%。今年5月份，欧委会预测俄罗斯2023年GDP将下降0.9%。报告还预测，2023年俄罗斯居民消费价格指数增长率将达到6%，但紧缩的货币政策有望在2024年将通胀率降至4.6%，在2025年降至4%。\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -2153,6 +2353,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:10:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "不发朋友圈的年轻人可能存在以下心理：\n\n**1. 寻求隐私和安静**\n\n* 他们可能对社交媒体的负面影响感到担忧，例如信息过度，隐私侵犯和虚拟世界与现实世界之间的分隔。\n* 他们可能需要一些时间独自思考和放松，以避免过度使用电子设备的负面影响。\n\n\n**2. 避免社会压力**\n\n* 他们可能担心朋友圈的压力和期望，例如获得关注、获得赞美或与他人比较。\n* 他们可能需要一些时间来放松并避免这种压力。\n\n\n**3. 专注于个人目标**\n\n* 他们可能专注于个人目标和价值观，而不是在社交媒体上展示自己。\n* 他们可能认为朋友圈不适合他们个人目标或价值观。\n\n\n**4. 尊重他人隐私**\n\n* 他们可能尊重朋友圈的隐私，并避免在朋友圈中分享敏感信息或照片。\n* 他们可能认为朋友圈不适合分享个人信息。\n\n\n**5. 避免过度使用电子设备**\n\n* 他们可能避免过度使用电子设备，并专注于其他活动，例如与家人朋友见面、阅读或户外运动。\n* 他们可能认为朋友圈使用量太多会影响他们的健康和生活方式。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "不喜欢发朋友圈的年轻人他们是什么心理？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2348,6 +2568,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:11:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**主要原因：**\n\n**1. 中国学生对海外教育的兴趣下降：**\n\n* 社会发展和生活水平的提高，导致中国学生对海外教育的追求不再那么强烈。\n* 随着中国教育体系的完善，学生对国内教育的满意度提高。\n\n\n**2. 经济因素：**\n\n* 汇率波动和全球经济不确定性，导致海外教育的成本更高。\n* 中国政府对留学生政策的调整，例如限制留学生数量和提供更多国内教育机会。\n\n\n**3. 社会和文化因素：**\n\n* 社会价值观的变化，中国学生更倾向于在国内发展职业和生活。\n* 随着中国文化的进步，学生对海外文化的兴趣下降。\n\n\n**4. 政策和法律因素：**\n\n* 一些国家对中国留学生的入境和居留政策更加严格。\n* 一些大学对留学生入学和留校政策发生了变化。\n\n\n**5. 其他因素：**\n\n* 学生的个人情况和兴趣变化。\n* 一些国家对中国留学生的竞争加剧。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "中国留学生数量下跌，这是什么原因？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -2545,6 +2785,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:12:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "这个说法不正确。许多学校和机构允许学生有gap year。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么我们不被允许有gap year？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2740,6 +3000,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:13:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "美国房屋永久产权不需要交税。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "美国房屋永久产权为什么还要交税？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -2937,6 +3217,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:14:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**以下是一些可能解释：**\n\n* **历史和文化：**英国拥有悠久的历史和丰富的文化，这对其世界强国的地位产生了持久的影响。其文化和传统在世界各地都有着广泛的影响力。\n* **政治和经济体系：**英国的政治和经济体系虽然有其局限性，但它们仍然是世界最成熟和稳定之一。\n* **军事力量：**尽管英国的军事力量在过去几年中有所下降，但它仍然拥有强大的军事能力。\n* **软实力：**英国在文化、教育和研究等领域拥有强大的软实力。\n\n**以下是一些可能反驳的观点：**\n\n* **经济表现：**英国的经济在过去几年中表现不佳，其国民收入和生活水平都低于美国。\n* **政治局势：**英国的政治局势复杂，其政府在处理各种挑战方面表现不佳。\n* **军事能力：**英国的军事能力在过去几年中有所下降，其武器系统陈旧，无法与美国或其他大国相抗衡。\n\n**最终，是否将英国视为世界强国是一个主观问题。**不同的观察者可能会对英国的强国地位有不同的观点。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么英国仍然被认为是世界强国？至少就很多国人的印象观之，英国似乎在国际上表现并不出彩，政治、经济都很难跟100年前的自己和现在的美国相比，那为什么还要英美并称呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3132,6 +3432,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:15:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**人工智能**\n\n* 美国在人工智能领域领先，拥有更先进的算法和模型。\n* 中国在人工智能领域发展迅速，但仍然落后于美国。\n* 中国需要加强人工智能基础研究，并鼓励更多企业参与人工智能的应用。\n\n\n**互联网**\n\n* 美国在互联网领域拥有更大的基础和更先进的技术。\n* 中国在互联网领域发展迅速，但仍然存在一些差距。\n* 中国需要加强互联网基础设施的建设，并鼓励更多企业参与互联网的应用。\n\n\n**航天**\n\n* 美国在航天领域领先，拥有更先进的卫星和飞船。\n* 中国在航天领域发展迅速，但仍然落后于美国。\n* 中国需要加强航天基础研究，并鼓励更多企业参与航天的应用。\n\n\n**生物**\n\n* 美国在生物领域拥有更先进的技术和更多的人才。\n* 中国在生物领域发展迅速，但仍然存在一些差距。\n* 中国需要加强生物基础研究，并鼓励更多企业参与生物的应用。\n\n\n**如何追上美国？**\n\n* **加强基础研究**：中国需要加强人工智能、互联网、航天和生物等领域的基础研究，以提高其技术水平。\n* **鼓励企业应用**：中国需要鼓励更多企业参与人工智能、互联网、航天和生物的应用，以提高其技术水平。\n* **引进人才**：中国需要引进更多高素质的人才，以提高其技术水平。\n* **加强国际合作**：中国需要加强与其他国家之间的科技合作，以提高其技术水平。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "中国与美国，科技水平差距有多大？\n人工智能，互联网，航天，生物等领域，中国与美国的差距究竟有多大？我们要怎么才能追上美国呢？头脑风暴一下\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -3329,6 +3649,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:16:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "副业可以增加收入，也可以增加技能和经验。以下是一些副业建议：\n\n**数字副业：**\n\n* 写博客或写作文章\n* 制作和销售电子书\n* 建立在线课程或培训计划\n* 成为自由撰稿人或内容创作人\n* 运营数字产品或软件\n\n**传统副业：**\n\n* 成为家教或家庭教师\n* 提供家务服务\n* 提供宠物 sitting或 walkers服务\n* 成为外包工作者或自由职业者\n* 销售手工制品或艺术品\n\n**其他副业：**\n\n* 运营在线商店或电子商务平台\n* 成为旅行导游或旅行代理\n* 提供咨询或培训服务\n* 参与社会活动或志愿者工作\n\n选择副业时要考虑以下因素：\n\n* 你的兴趣和技能\n* 你的时间安排\n* 你的资金投入\n* 你的目标和期望\n\n希望这些建议能帮助你找到适合自己的副业！"
+            }
+          },
+          "prompting_state": {
+            "prompt": "下班后可以做点什么副业赚钱呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3524,6 +3864,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:17:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**生活方式差距：**\n\n* **饮食习惯：**\n    * 台灣人更倾向于吃新鲜的水果和蔬菜，而大陆人更倾向于吃肉类和面食。\n    * 台灣人更喜欢使用香料和香草，而大陆人更喜欢使用酱油和香醋。\n\n\n* **生活节奏：**\n    * 台灣人更放松和悠闲，而大陆人更紧张和有竞争性。\n    * 台灣人更喜欢享受生活，而大陆人更注重效率和成就。\n\n\n* **社会文化：**\n    * 台灣人更开放和自由，而大陆人更传统和保守。\n    * 台灣人更重视个人自由，而大陆人更重视集体主义。\n\n\n* **生活水平：**\n    * 台灣的的生活水平总体上比大陆高，但大陆的经济增长速度更快。\n\n\n**文化差异：**\n\n* **语言：**台灣和大陆的官方语言都是中文，但有很大的差异。台灣人使用的是台灣話，而大陆人使用的是普通話。\n* **习俗：**台灣和大陆有很大的习俗差异。例如，台灣人更喜欢在节日上举行派对，而大陆人更喜欢在节日上举行家庭聚餐。\n\n\n**社会差异：**\n\n* **社会保障：**台灣的社会保障体系比大陆完善。\n* **教育水平：**台灣的教育水平比大陆高。\n\n\n**生活成本：**\n\n* **生活成本：**台灣的生活成本比大陆高。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "台湾和大陆生活方式差距有多大？\n一次看天天向上，陈乔恩居然不知道有健胃消食片这种大陆老少皆知的药物，很多台湾人到大陆来也都很诧异一些我们习以为常的事情，本人没有去过台湾，但是对台湾很感兴趣，想问一下台湾和大陆的生活方式差距有多大\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -3721,6 +4081,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:18:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "周迅的演技在如懿传中得到了广泛的认可，她的演技被认为是如懿传中最出色的一项。\n\n**以下是一些对周迅演技的评价：**\n\n* **情感真挚：**周迅的演技能够真挚地表达人物的情感，例如她的悲伤、愤怒和爱。\n* **细节丰富：**周迅的演技细节丰富，能够展现人物的个性和特点。\n* **语速灵活：**周迅的演技语速灵活，能够表达人物的各种情绪和态度。\n* **感染力强：**周迅的演技感染力强，能够将人物的情感和性格传递给观众。\n\n**一些学者对周迅演技的评价：**\n\n* \"周迅的演技能够将人物的内心世界展现出来，并与观众产生共鸣。”\n* \"周迅的演技能够将人物的个性和特点展现出来，并为观众留下深刻的印象。”\n\n**总体而言，周迅的演技在如懿传中得到了广泛的认可，她的演技被认为是如懿传中最出色的一项。**\n\n**以下是一些对周迅演技的评价的补充：**\n\n* 周迅的演技能够将人物的成长和变化展现出来。\n* 周迅的演技能够将人物的社会背景和文化背景展现出来。\n* 周迅的演技能够将人物的爱情和家庭关系展现出来。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "如何评价如懿传中周迅的演技？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3916,6 +4296,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:19:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**餐补的频率和金额因企业而异，一般每月发一次或两次，金额在50-150元之间。**\n\n一些企业每月发一次餐补，金额在50-100元之间；而另一些企业每月发两次餐补，金额在100-150元之间。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "你公司每月发多少餐补？\n有些企业是通过自办食堂来解决员工吃饭的问题，有些是通过发餐补的形式解决？相信各有各的优势和劣势。请知友回答。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -4113,6 +4513,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:20:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n弃婴者将受到最高为三年有期监禁的刑事处罚。根据相关法律，弃婴行为被列为刑事犯罪，并受到法律的制裁。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "女子在一公厕废纸篓里救出被弃男婴，已送往医院救治，弃婴者将受到什么惩罚？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4308,6 +4728,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:21:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n中国古代的领土大是因为以下几个因素：\n\n**1. 政治制度和社会组织**\n\n* 中国古代的政治制度以中央集权为主，政府拥有强大的军事和行政能力。\n* 社会组织以农奴制为基础，农奴对政府的服从和义务为政府提供了强大的政治和军事力量。\n\n**2. 军事技术**\n\n* 中国古代的军事技术水平较高，他们发展了各种武器和战术。\n* 他们利用了地形和环境条件，建立了强大的防御体系。\n\n**3. 文化和价值观**\n\n* 中国古代的文化和价值观强调和平与合作，这导致他们对其他地区的尊重和包容。\n* 他们避免了大规模的侵略和战争。\n\n**4. 经济发展**\n\n* 中国古代的经济发展水平较高，这为他们提供了强大的军事和政治力量。\n* 他们能够负担大规模的军事行动和领土扩张。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么中国古代看上去侵略性不强，却有那么大的领土？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -4505,6 +4945,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:22:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**可能存在以下心态：**\n\n* **自私和自顾：**他们只对自己的信息感兴趣，并不会对其他人有兴趣。\n* **自负和内疚：**他们可能对自己的信息没有信心，或他们可能对他们发送的信息产生了内疚。\n* **不尊重和不负责任：**他们可能不尊重你或你的信息，或他们可能不负责任地处理信息。\n* **焦虑和不安：**他们可能焦虑或不安，并无法及时回复信息。\n* **专注和忙碌：**他们可能专注于其他事物，并无法及时回复信息。\n\n请注意，这些只是可能存在的心态。并非所有已读不回的人都有这些心态。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "微信已读不回的人都是什么心态?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4700,6 +5160,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:23:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**微信支付比支付宝更受欢迎的原因：**\n\n**1. 触手可及的支付体验：**\n- 简单的支付流程，只需扫码或输入密码即可完成支付。\n- 多种支付方式，支持微信钱包、银行卡、信用卡等多种支付方式。\n\n**2. 社交化支付：**\n- 与朋友、家人共享支付记录，方便追踪消费。\n- 支持支付群聊，方便团队支付。\n\n**3. 多功能性：**\n- 支持支付、充值、转账、红包等多种功能。\n- 与其他微信服务相互兼容，方便生活管理。\n\n**4. 完善的售后服务：**\n- 提供多种售后服务，例如支付纠正、资金安全等。\n- 有专业的客服团队提供帮助。\n\n**5. 广泛的商家合作：**\n- 与众多商家合作，覆盖各种商品和服务。\n- 提供便捷的支付体验。\n\n**此外，微信支付还拥有以下优势：**\n\n- **更具地域性：**微信在中国拥有更大的用户基础和商家合作。\n- **更便捷的支付流程：**微信支付的支付流程更简洁，更易于使用。\n- **更强大的功能集：**微信支付的功能更丰富，更能满足用户的需求。\n\n**总之，微信支付比支付宝更受欢迎的原因是其触手可及的支付体验、社交化支付、多功能性、完善的售后服务和广泛的商家合作等因素。**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "马云也搞不明白：为什么现在用户偏爱微信支付，而不是支付宝？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -4897,6 +5377,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:24:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n剥夺政治权利终身是死刑的附带刑罚，其目的是防止死刑犯在死亡后继续对社会产生负面影响。即使死刑犯已经死刑，但他们仍然有可能会通过他们的家人或其他方式影响社会。因此，剥夺政治权利终身可以防止死刑犯在死亡后继续对社会产生负面影响。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "通常一个人被判了死刑，为什么要加个剥夺政治权利终身，明明已经死刑了呀？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5092,6 +5592,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:25:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n**在中国：**\n\n* **大规模的移动电话普及：**中国有超过10亿移动电话用户，移动支付基础设施完善。\n* **政府政策支持：**中国政府鼓励和支持移动支付行业的发展。\n* **消费者的习惯：**中国消费者习惯于使用手机进行支付，并对便捷和高效的支付方式感兴趣。\n* **电子商务的流行：**中国电子商务市场巨大，移动支付在电子商务中的应用非常广泛。\n\n\n**在发达国家：**\n\n* **传统支付方式的根深蒂固：**发达国家有成熟的信用卡和银行卡支付体系，人们习惯于使用这些传统支付方式。\n* **数字支付的局限性：**数字支付在发达国家中的应用受限于网络基础设施和消费者习惯等因素。\n* **数据安全和隐私的担忧：**发达国家对数据安全和隐私的关注更高，移动支付的风险更高。\n\n\n因此，扫码支付在中国流行，而在发达国家被排斥。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为何扫码支付在中国流行，在发达国家被排斥？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -5289,6 +5809,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:26:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**可能原因：**\n\n* **城市发展方向的改变：**上海近年来发展方向更加注重生活质量和环境保护，减少了以娱乐为中心的活动。\n* **社会消费模式的改变：**年轻一代更倾向于在家消遣，减少对夜生活场所的追求。\n* **疫情的影响：**疫情的发生和防控措施限制了夜生活场所的开放和活动。\n* **交通和安全问题：**上海的交通和安全问题也影响了夜生活。\n* **经济因素：**上海的经济增长放缓，导致对夜生活场所的消费下降。\n\n**其他观点：**\n\n* 夜生活在上海已经存在，只是人们对它的认可和追求发生了变化。\n* 上海的夜生活主要集中在某些特定区域，而不是整个城市。\n* 夜生活在上海的成本较高，这可能会导致人们更倾向于在家消遣。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么现在上海越来越没有夜生活，晚上越来越冷清了？\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5484,6 +6024,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:27:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**香港交通系統非常複雜，需要花費時間學習如何使用。**\n* 港鐵系統繁複，需要了解路線和站點。\n* 公共巴士系統遍布市區，但路線繁多且難以理解。\n* 小巴服務有限，主要在繁忙的市區提供。\n\n**入境和出境程序非常繁瑣。**\n* 需要準備各種文件，包括護照、入境許可證和健康證明。\n* 出境檢查通常很嚴格，需要排隊檢查行李和身分證。\n\n**生活成本很高。**\n* 住房、交通和食物等生活開銷都比内地更高。\n* 稅率也比内地更高。\n\n**文化和生活方式不同。**\n* 香港文化以自由和多元為著稱，但這也意味著生活方式更自由。\n* 香港人通常更積極和有競爭心。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么去香港这么麻烦？\n麻烦是相对内地其他城市，其他城市直接去就行\n(2023年10月補充更新:港澳通行證屬於中國邊防發出證件,唯一例外的是深圳戶口居民可以全年無限次數申請港澳通行證每週一次每次最多七天,其他地區每年申請次數不一)\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -5681,6 +6241,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:28:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**故事：**\n\n* 一些网友发现，央视体育频道在播出欧冠特别节目《冠军欧洲》时，有意删除梅西的镜头。\n* 这种行为引起了许多球迷的热议，因为梅西是巴塞罗那足球队的旗帜。\n* UserList认为，这种行为是央视对梅西的封杀，并表达了对央视的失望。\n\n**潜在原因：**\n\n* 央视可能担心梅西的受欢迎程度会影响节目收视率。\n* 或者，央视可能对梅西的政治立场持怀疑态度。\n\n**网友观点：**\n\n* 一些网友认为，这种行为是 censorship，并表达了对央视的失望。\n* 一些网友则表示永远支持央视做出的决定。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "央视疑似还在封杀梅西，王牌节目有意删除梅西镜头，这背后有何故事？\n近日，有网友发现，央视还在继续封杀梅西。\n事情是这样的，北京时间4月11日18：35分，央视体育频道（CCTV5）如期播出欧冠特别节目《冠军欧洲》。\n《冠军欧洲》显示播出了头天晚上欧冠两场比赛的集锦和集锦，然后又播出了“观察家”板块，紧接着推出最新的“城记”特别栏目。\n恰巧，当天晚上介绍的城市为巴塞罗那。\n众所周知，一提到巴塞罗那这座西班牙俱乐部，大部分球迷第一时间想到的自然是里奥.梅西，毕竟梅西几乎可以说是巴塞罗那的旗帜。\n然而令人没有想到的是，节目从头到尾几乎提到了曾在巴塞罗那足球队效力的十几名球星名字，唯独不见梅西。\n最令人深刻的，当属在视频画面当中，央视刻意避开所有与梅西相关的镜头。\n甚至就连梅西与内马尔以及苏亚雷斯的MSN著名合照，央视也有意将梅西的镜头避开，直接变成了SN合照。\n值得一提的是，在《冠军欧洲》播放结束后，央视的这一举动迅速在网上引起了许多球迷的热议。\n支持梅西的球迷认为：简直离谱至极，（《冠军欧洲》）作为一档公开节目，制作刊载发布的视频，公然\"篡改\"队史。一部巴萨传，半部梅西史，梅西的名字和巴塞罗那，和这座俱乐部息息相关，作为队史第一人，诺坎普的过往，梅西是所有真正巴萨球迷心里不可磨灭的存在，竟然在一档官方发布的节目中删除所有镜头和画面，闭口不提。\n当然，也有不少球迷表示永远支持央视做出的决定。\n此外，也有网友提到，此前梅西被《天下足球》删除的片头镜头，在后来的节目中，央视又给补回去了。\n也正因为此，这次央视5台的《冠军欧洲》（再次将梅西的镜头）才会引出如此大的争议。\n当然，央视到底是失误所至，还是其他原因，咱们不得而知。\n不过在大是大非面前，相信大部分球迷还是会和央视站在一起。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5876,6 +6456,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:29:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**三星堆可以深挖却紧急叫停？**\n\n三星堆可以深挖，但紧急叫停。史书毫无记载的地外物品专家如何解答这个问题？\n\n**答案：**\n\n三星堆可以深挖，但紧急叫停是为了防止堆体发生失稳或损坏。当堆体深度超过一定程度时，应及时叫停以避免潜在的风险。\n\n**地外物品专家观点：**\n\n三星堆的紧急叫停可能是由于以下因素：\n\n* **堆体稳定性：**随着堆体深度的增加，其稳定性会下降，从而增加失稳的风险。\n* **材料特性：**三星堆的材料特性可能无法承受深部挖掘的应力。\n* **工程设计：**三星堆的工程设计可能无法有效地处理深部挖掘的挑战。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "三星堆为啥不敢继续挖了?\n三星堆可以深挖却紧急叫停？史书毫无记载的地外物品专家如何解答\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -6073,6 +6673,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:30:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "莫言的作品存在一些对中国文化和价值观的攻击，例如对传统文化和价值观的否定，对中国人的价值观的贬低，以及对中国社会和政治制度的批判。这些攻击可能会对中国人的文化认同和价值观产生负面影响。\n\n**具体而言，莫言的作品对中国人的伤害包括：**\n\n* **对传统文化和价值观的否定：**莫言的作品中对传统文化和价值观的否定，例如对儒家思想和传统习俗的批判，可能会导致中国人的传统文化和价值观受到损害。\n* **对中国人的价值观的贬低：**莫言的作品中对中国人的价值观进行贬低，例如对中国人的懒惰和贪婪的刻画，可能会导致中国人的自我价值感受到损害。\n* **对中国社会和政治制度的批判：**莫言的作品中对中国社会和政治制度的批判，例如对政府的腐败和社会问题的反映，可能会导致中国人的对政府和社会制度的质疑。\n\n**然而，莫言的作品也存在一些对中国人的积极影响：**\n\n* **提高中国人的意识：**莫言的作品可以提高中国人的意识，使其对自身和社会存在更深刻的理解。\n* **促进中国人的思考：**莫言的作品可以促进中国人的思考，使其对中国文化和价值观的理解更加全面。\n* **激励中国人的行动：**莫言的作品可以激励中国人行动，使其为改善社会和解决社会问题而努力。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "莫言的作品到底伤害中国人什么了？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6268,6 +6888,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:31:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**剩女结局通常包括以下几种：**\n\n**1. 孤独终身**\n\n* 女主角独自面对生活，没有 romantic 关系或家庭。\n* 这种结局通常与女主角选择追求自己的梦想和生活目标有关。\n\n\n**2. 找一个伴侣**\n\n* 女主角最终找到了一个伴侣，并与之建立家庭。\n* 这种结局通常与女主角在生活中遇到合适的伴侣有关。\n\n\n**3. 追求个人成长**\n\n* 女主角最终意识到自己的价值，并专注于个人成长。\n* 这种结局通常与女主角选择独立生活和追求自己的目标有关。\n\n\n**4. 死亡**\n\n* 女主角最终死亡，但并非因为悲伤或绝望。\n* 这种结局通常与女主角选择追求自己的梦想和生活目标有关。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "大龄剩女结局是什么？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -6465,6 +7105,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:32:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**可能后果：**\n\n* **存款被冻结：**澳门赌场可能会冻结你的存款，以确保你不会再赌博。\n* **被要求返还款项：**澳门赌场可能会要求你返还你赢的款项。\n* **被禁止进入赌场：**澳门赌场可能会禁止你进入赌场。\n* **受到法律追究：**澳门政府可能会对你的行为进行调查，并对你的行为进行法律追究。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "假如在澳门赌场赢了800万，不赌了不想玩了，会出现什么后果？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6660,6 +7320,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:33:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "这取决于未来会发生什么。我们无法预测未来，但我们可以分析历史和当代的书法发展，以了解书法发展的可能性。\n\n**历史上的书法家**\n\n* 王羲之是书法史上最伟大的代表人物之一，但并非唯一。\n* 许多其他书法家在王羲之之后发展出自己的书法风格和技巧。\n\n**当代的书法家**\n\n* 当代的书法家正在探索新的风格和技巧，以挑战传统书法的界限。\n* 有些书法家已经超越了王羲之的水平。\n\n**未来可能的书法家**\n\n* 未来可能出现超越王羲之的书法家，但我们无法预测何时或如何会发生。\n* 书法的发展是一个持续的过程，随着时间的推移，新的书法家和风格会不断出现。\n\n**影响书法发展的因素**\n\n* 技术进步\n* 社会文化变化\n* 新的书法家和风格的出现\n\n**结论**\n\n虽然超越王羲之的书法家可能出现，但我们无法预测未来。书法的发展是一个复杂的过程，受多种因素影响。然而，我们可以期待未来会出现新的书法家和风格，以丰富书法艺术的传统。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "中国将来会出现超越王羲之的书法家吗？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -6857,6 +7537,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:34:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**观点：**\n\n**是：**\n\n* **社会矛盾和不平等：**清朝统治下，社会存在巨大的人口差异和阶层分化，导致社会矛盾和不平等。\n* **政治腐败：**清朝政府腐败横行，官僚贪污，百姓生活在腐败的阴影下。\n* **战争和饥荒：**清朝统治期间，中国经常发生战争和饥荒，百姓生活在不稳定的环境下。\n* **文化停滞：**清朝统治下，中国文化发展停滞，社会进步缓慢。\n\n**不是：**\n\n* **存在正面的方面：**清朝统治下也存在一些正面的方面，例如中央政权的建立和对外关系的管理。\n* **与现代社会比较：**清朝统治下的中国与现代社会有很大差异，因此不能将其与现代社会进行直接比较。\n* **生活水平的提高：**清朝统治期间，生活水平在某些方面有所提高，例如人口增长和农业生产的增加。\n\n**结论：**\n\n清朝统治下的中国是地狱吗？这是一个有争议的问题。有证据表明，清朝统治下中国存在社会矛盾、政治腐败和战争等负面方面，但也有正面的方面。最终的判断取决于个人的观点和价值观。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "清朝统治下的中国是地狱吗？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7052,6 +7752,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:35:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "慈禧当年的生活非常奢侈，以至于当时有传言称她每天花费银元1000以上。她的生活方式包括：\n\n* **奢华的饮食：**每天食用金银鱼、海胆、海星等昂贵美食，并有专门的厨师和服务员。\n* **奢华的服装：**每天穿着高档服装，包括由欧洲设计师设计的高端服装和宝石装饰的服装。\n* **奢华的住处：**居住在京华的紫禁城，拥有大量的宫殿和房间。\n* **奢华的娱乐：**定期举办大型宴会和舞会，并有专门的乐队和演员。\n\n总而言之，慈禧当年的生活非常奢侈，以至于当时有传言称她每天花费银元1000以上。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "慈禧当年的生活有多奢侈？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -7249,6 +7969,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:36:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**分析：**\n\n阿b的未来可活时间取决于以下因素：\n\n* **债务偿还：**阿b需要还几十亿的债务，这将对其财务状况产生重大影响。\n* **盈利点：**阿b目前没有可行的盈利点，这意味着它必须找到新的收入来源才能继续运营。\n* **运营成本：**阿b可以省下一些运营成本，这将有助于提高其盈利能力。\n\n根据以上因素，阿b的未来可活时间可能只有 **1-2 年**。\n\n**建议：**\n\n* 阿b应尽快找到新的盈利点，以缓解其财务压力。\n* 阿b应努力降低运营成本，以提高其盈利能力。\n* 阿b应积极寻求外部投资，以筹集资金偿还债务和运营。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "b站真的要凉凉了吗？\n一个大网站突然就开始走下坡路了，现在完全没有任何比较好的盈利点，股价暴跌，背后的资本纷纷撤资 up主激励都砍了。之前有大佬分析按照阿b现在的现金来算估计还能再折腾个两三年，但是今年和明天还要还几十亿的债务……阿b虽然官方恶心但是视频资源好多都是全网独一份的，目前国内没有其他代替品，还是希望它能再挺一挺#(不高兴) 其实阿b的亏损并不是必要的运营成本，好多钱是可以省下来的，但是叔叔可能会继续砸钱来赌一把，就看接下来怎么操做了吧，希望大佬们能分析一下阿b大概还有几年可活呀？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7444,6 +8184,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:37:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n1000元和500元面额的钞票存在于市场上。它们只是比100元和50元面额的更少。这主要是因为更高的面额钞票在流通中更容易被盗或伪造。因此，货币管理机构更倾向于发行更低的面额的钞票。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "人民币为什么不出1000，500这样的大面额钞票？\n无论是使用还是结算都方便很多啊。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -7641,6 +8401,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:38:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**繁体字是华夏文明的传承**\n\n繁体字是中华民族文化传承的宝贵成果。繁体字的结构和意义都体现了华夏文明的精髓。繁体字的传承和使用是中华民族文化自我的体现。\n\n**简化字的优缺点**\n\n简化字的推行有其优缺点。\n\n**优点：**\n\n* 简化字的书写速度比繁体字更快。\n* 简化字的印刷成本比繁体字更低。\n\n**缺点：**\n\n* 简化字的表达能力比繁体字更差。\n* 简化字的学习曲线比繁体字更陡峭。\n\n**简化字的局限性**\n\n简化字的局限性在于：\n\n* 简化字无法完全表达繁体字的丰富含义和情感。\n* 简化字的推广和使用存在一些争议。\n\n**结论**\n\n繁体字是华夏文明的传承，简化字是现代中国语言的进步成果。两种字体都有其优缺点，在不同的场合有不同的应用。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么中国大陆停用繁体字，推行简化字？\n题主个人比较推崇繁体字，无他，主要是因为繁体字是华夏文明的传承。简化字哪里比繁体字好了？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7836,6 +8616,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:39:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n现在的学生打游戏和学习之间存在平衡。游戏可以帮助学生培养重要的技能，例如解决问题、团队合作和创造力。然而，学习仍然是学生最重要的目标。\n\n**学生打游戏为什么厉害？**\n\n* **增强解决问题的能力：**游戏需要玩家快速解决问题和做出最佳的决定。这可以帮助学生培养他们的解决问题能力和批判性思维技能。\n* **提高团队合作技能：**许多游戏需要玩家合作才能取得成功。这可以帮助学生培养他们的团队合作技能和人际交往技能。\n* **培养创造力：**游戏可以激发学生的想象力和创造力。这可以帮助他们在未来的职业和生活中解决新问题和提出新想法。\n\n**学生学习为什么烂？**\n\n* **缺乏激励：**学生可能对学习内容缺乏兴趣或激励。\n* **缺乏参与：**学生可能没有足够的参与或互动，以真正了解和掌握材料。\n* **过度使用电子设备：**学生可能过度使用电子设备，而忽略了学习。\n\n**学生如何才能同时打游戏和学习？**\n\n* **平衡时间：**学生应该为游戏和学习分配时间。\n* **选择合适的游戏：**学生应该选择与他们的学习内容相关的游戏。\n* **寻求帮助：**学生应该寻求老师或父母的帮助，以了解如何更好地学习。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "现在的学生打游戏怎么厉害而学习这么烂？?\n为什么现在的学生打游戏这么厉害，而学习这么烂？？说他们不聪明，打游戏有这么会，现在的学生是怎么了？ #游戏 #学生\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -8033,6 +8833,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:40:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**以下是一些关于百度搜索引擎下降的观点：**\n\n* **内容质量下降：**搜索结果中包含更多垃圾内容和广告，内容质量下降。\n* **相关性下降：**搜索结果与搜索词相关性下降，用户难以找到相关信息。\n* **排名算法不完善：**百度排名算法存在漏洞，导致一些不合格的网站排名高。\n* **用户体验下降：**搜索结果页面加载速度慢，用户体验下降。\n\n**这些观点是否合理？**\n\n**观点合理。**\n\n百度搜索引擎近年来存在一些问题，包括内容质量下降、相关性下降和排名算法不完善。这些问题会导致用户体验下降，并最终导致百度搜索引擎的下降。\n\n**以下是一些支持观点的证据：**\n\n* **百度搜索结果中垃圾内容和广告的增加：**百度搜索结果中垃圾内容和广告的增加，导致内容质量下降。\n* **百度搜索结果与搜索词相关性下降：**百度搜索结果与搜索词相关性下降，用户难以找到相关信息。\n* **百度排名算法存在漏洞：**百度排名算法存在漏洞，导致一些不合格的网站排名高。\n* **百度搜索结果页面加载速度慢：**百度搜索结果页面加载速度慢，用户体验下降。\n\n**百度需要解决这些问题，才能恢复其昔日辉煌。**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么百度搜索引擎越做越差？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8228,6 +9048,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:41:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n根据目前科学技术的水平和地球地质过程，中国国土面积在未来50年~100年内不会通过收回、发现或购买等手段增加。\n\n地球地质过程表明，中国国土面积的改变主要受地壳运动和海平升降的影响，其变化率非常缓慢，在人类历史尺度上可以忽略。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "中国的国土面积有可能再增加吗？\n除了现有的960万平方公里的陆地面积，和300多万平方公里的海洋面积，中国在将来50年~100年以内能否通过收回，发现，购买等手段增加国土面积，谢谢。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -8425,6 +9265,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:42:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n蒙古与中国相邻，但文化和历史差异很大。蒙古人与中国人有不同的语言、宗教和习俗。因此，蒙古与中国之间的交流相对较少。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么蒙古离中国这么近，我却几乎从没有听过关于蒙古的事情？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8620,6 +9480,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:43:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "钱行卡收到过陌生人转账，支付宝显示“账号不存在或对方设置了隐私保护”，请问我该怎么办？"
+            }
+          },
+          "prompting_state": {
+            "prompt": "你们收到过陌生人转账吗？\n三天前钱行卡收到一笔支付宝转账，今天因为打开了网上银行app，才发现这笔转账，在支付宝添加转账账号，显示“账号不存在或对方设置了隐私保护”，转账金额1481.48，我该怎么办？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -8817,6 +9697,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:44:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n一般来说，警犬是工作犬，不能随意摸摸。它们是工作工具，需要专注工作。如果你想摸摸警犬，最好与警察或警犬的主人取得联系。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "看到警犬能摸吗？\n在火车站看到一条卧趴着的拉布拉多警犬，请问能上去摸摸它么，好喜欢，有个绳拉着的。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9012,6 +9912,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:45:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**汉字在外国人眼中有不同的评价：**\n\n* **一些人认为汉字很美。**他们认为汉字有独特的形状和美感，它们就像艺术作品。他们还认为汉字可以表达丰富的含义和情感。\n* **另一些人认为汉字很丑。**他们认为汉字过于复杂，难以读写。他们还认为汉字缺乏美感，就像一组杂乱的符号。\n* **还有一些人对汉字没有感觉。**他们认为汉字只是语言的一种形式，它们没有特殊的美感或丑感。\n\n**总体来说，汉字在外国人眼中有不同的评价，没有统一的观点。**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "外国人眼中的汉字是怎样的？\n是真的很美，还是真的很丑，或者没感觉？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -9209,6 +10129,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:46:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**原因分析：**\n\n* **城市发展方向的改变：**上海作为金融中心和商务中心，近年来更加注重高端商务和生活方式，对夜生活的需求下降。\n* **交通发展：**上海地铁的普及和公交的完善，使人们更方便地前往家中或其他活动场所，减少对夜生活的需求。\n* **生活方式的改变：**上海居民的生活方式更加追求高效和便捷，对夜生活的需求下降。\n* **政策和监管：**上海政府在近年来对夜生活进行了一些管控，以减少噪音和安全问题。\n\n**潜在的解决方案：**\n\n* **鼓励混合使用：**将商业和居住空间混合使用，为夜晚提供更多活动和娱乐选择。\n* **支持小型企业：**为小型酒吧和餐馆提供政策和资金支持，以提高夜生活多样性。\n* **提高交通便利性：**完善夜间交通系统，以方便人们前往夜生活场所。\n* **提高生活质量：**提高城市环境和生活质量，为居民提供更多休闲和娱乐选择。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么现在上海越来越没有夜生活，晚上越来越冷清了？\n我初中之前住在现在的法华镇路附近，记忆里那时候每天晚上出了小区的门就很热闹，沿街商铺很多，初中的时候搬到了现在的威宁路附近，晚上也还是很热闹的，特别是沿街商铺很多，晚上如果沿着路边走，有吃有喝有逛。大学的时候我家搬到了联洋一代，等我15年毕业回国，为了上班近，我自己住在了张江，一开始以为是我们住的地方太偏远了，所以一到晚上八九点钟，除了急匆匆的上下班赶地铁的人，整个街区都变得很冷清，特别是晚上九点以后。联洋附近的嘉里中心，大拇指广场这些就变得冷冷清清，张江就一个长泰还像点样子，也就是到八点就冷清了，别的商场都快半死不活的了。\n现在慢慢发现，不光是因为我家住的远了，整个上海的夜晚都变得很冷清，经常过了八点半，商场就一副开始准备打样的感觉，饭店慢慢都开在了商场里，晚上想吃点宵夜，也越来越没得选，就剩下了一些火锅烧烤龙虾小吃，即使去新天地静安寺或者人广，也是八点就开始渐渐冷清，前些年整治破墙开店，沿街的店铺也越来越少。\n前些日子跟同学聚会，大家都在感慨现在上海越来越没有夜生活了，不知道是我们这些90后年纪大了还是真的上海越来越冷清了。不知道其他城市是不是也这样。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9404,6 +10344,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:47:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n大米和小麦的美味性是相对的，不同的人对美味的定义不同。最初的人可能只是发现这些作物可以满足他们的食物需求，并随着时间的推移，他们逐渐了解到这些作物可以制作出美味的食品。大米和小麦的美味性可能与文化和环境有关，而不是它们本身的特性。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "第一批人是怎么知道大米小麦可以吃的？\n第一感觉大米和小麦没有煮熟也不好吃。即使煮熟也不咋好吃，为啥人门就学会了并选择种植大米小麦等作物是饿得到处啃草？发现这个还不错，还是以前的大米小麦好吃些？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -9601,6 +10561,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:48:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**高铁检票提前停止的可能原因：**\n\n* **系统故障：**检票系统可能存在故障，导致提前停止检票。\n* **客流波动：**高铁客流可能波动，导致检票员需要提前停止检票以处理人流。\n* **列车运行时间调整：**列车运行时间可能调整，导致检票时间提前停止。\n* **检票员休息：**检票员可能需要休息，导致检票时间提前停止。\n\n**高铁检票提前停止的解决方案：**\n\n* **提高检票系统可靠性：**改善检票系统以减少故障。\n* **调整客流管理：**制定客流管理措施以减少人流波动。\n* **提高列车运行时间准确性：**减少列车运行时间调整。\n* **增加检票员数量：**增加检票员数量以处理人流。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么高铁提前三分钟停止检票？\n为什么高铁开车三分钟前停止检票，还没明明还没发车，就晚了两秒就进不去了\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9796,6 +10776,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:49:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "狗肉是某些文化中传统饮食的一部分，并被一些人认为是美味的。然而，狗肉消费存在着一些争议和道德问题。\n\n**争议：**\n\n* 狗肉消费与动物福利有关。狗是人类的伙伴，应该得到尊重和保护。\n* 狗肉消费可能导致狗的虐待和剥削。\n* 狗肉消费可能传播疾病和细菌。\n\n**道德问题：**\n\n* 狗肉消费与人类价值观有关。狗被认为是朋友和家庭成员，而不是食物。\n* 狗肉消费可能导致社会分歧和冲突。\n\n总而言之，狗肉消费存在着一些争议和道德问题，因此应该避免食用狗肉。\n\n**以下是一些与狗肉消费相关的观点：**\n\n* **支持狗肉消费的人：**认为狗肉是美味的，并应被作为一种饮食选择。\n* **反对狗肉消费的人：**认为狗肉消费是虐待和剥削狗的，并应被禁止。\n\n这个话题存在着不同的观点，并有不同的文化和社会对狗肉消费的看法。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么会有人吃狗肉，我真的不理解?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -9993,6 +10993,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:50:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "缅甸目前是否允许外國人入境？\n\n**缅甸目前允许外國人入境。**然而，入境要求严格，需要遵守以下规定：\n\n* 入境前需提供以下文件：\n    * 负面核酸检测证明（核酸检测结果需在入境前72小时内完成）\n    * 疫苗接种证明（已接种至少两支COVID-19疫苗，且接种时间在入境前28天内）\n    * 入境许可证（由缅甸政府提供）\n    * 其他入境文件（例如护照、签证等）\n\n\n* 入境后需遵守以下规定：\n    * 必须在入境后7天内进行核酸检测\n    * 必须在入境后21天内进行隔离\n    * 必须在入境后21天内每天进行核酸检测"
+            }
+          },
+          "prompting_state": {
+            "prompt": "现在在缅甸有什么办法可以回来吗？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10188,6 +11208,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:51:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n腾讯的垄断存在一些争议，但国家并未视而不见。政府在监管和政策方面采取了一些措施来应对腾讯的市场影响力。\n\n**政府监管措施：**\n\n* **反反排查政策：**政府制定反反排查政策，以防止大企业利用其市场地位排查竞争对手。\n* **数据安全监管：**政府制定数据安全监管措施，以确保大企业对用户数据的安全和隐私。\n* **市场竞争政策：**政府制定市场竞争政策，以促进市场竞争和防止大企业独占市场。\n\n**政府政策措施：**\n\n* **支持新企业发展：**政府支持新企业发展，以增加市场竞争。\n* **提高行业内竞争：**政府提高行业内竞争，以减少大企业的市场份额。\n* **促进技术创新：**政府促进技术创新，以发展新的和更好的技术和产品。\n\n尽管政府采取了这些措施，但腾讯仍然保持着很大的市场份额和影响力。这主要是因为：\n\n* **腾讯的平台和服务非常受欢迎：**腾讯的平台和服务非常受欢迎，这使其具有强大的市场影响力。\n* **腾讯的生态系统非常成熟：**腾讯的生态系统非常成熟，这使其能够更好地利用数据和流量。\n* **腾讯的政治支持：**腾讯有政治支持，这使其能够避免一些监管措施。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "腾讯的垄断为什么国家视而不见？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -10385,6 +11425,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:52:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**工作压力和工时都是全球之最**\n\n东亚国家的工作文化以高强度和长工时著称。例如，日本的工作时间平均为1700小时/年，而美国的工作时间平均为1950小时/年。这种高强度的工作文化会导致工作压力大，并最终导致东亚人生活得累。\n\n**生活方式和饮食习惯**\n\n东亚国家的生活方式和饮食习惯与西方国家不同。东亚人更倾向于追求工作，并对休闲和娱乐有更少的兴趣。这种生活方式会导致生活压力大，并最终导致东亚人生活得累。\n\n**文化和社会价值观**\n\n东亚国家文化和社会价值观与西方国家不同。东亚文化更注重集体主义和奉献精神，而西方文化更注重个人主义和自由。这种文化差异会导致工作压力大，并最终导致东亚人生活得累。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "东亚人为什么活得累？\n大陆人，台湾人，香港人，日本人，韩国人\n工作压力和工时都是全球之最\n为什么东亚人为什么活得累？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10580,6 +11640,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:53:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**以下是一些我的想法：**\n\n* 西方文化对审美标准的影响是巨大的，但并非所有人都被西方审美标准所影响。\n* 不同的文化有不同的审美标准，欧美人只是其中一种。\n* 东方文化对审美标准的理解与西方文化不同，东方文化更注重整体的和谐与平衡。\n\n**请问您对这个问题有什么想法？**\n\n**以下是一些其他人的想法：**\n\n* 西方文化对审美标准的影响是巨大的，但并非所有人都被西方审美标准所影响。许多年轻人仍然对传统审美标准有自己的认可。\n* 不同的文化有不同的审美标准，欧美人只是其中一种。东方文化对审美标准的理解与西方文化不同，东方文化更注重整体的和谐与平衡。\n* 西方文化对审美标准的影响是复杂的，并非只是因为西方文化更美丽。西方文化对审美标准的影响也体现在对身体的追求和对完美主义的追求。\n\n**请问您对这个问题有什么想法？**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "现在的年轻人已经被西方驯化审美了吗？\n比如：感觉欧美人更好看。深目高鼻，浅色瞳孔更好看？\n还有没有类似的例子呢？\n是不是整个东方都这样呢？\n是因为什么才有这种变化呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -10777,6 +11857,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:54:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "旺仔牛奶这家公司有什么值得注意的地方吗？\n\n**有趣地方：**\n\n* **历史悠久：**旺仔牛奶成立于1924年，拥有超过90年的历史。\n* **全球化：**旺仔牛奶在世界各地区都有分公司，并以其高品质的牛奶和乳制品而闻名。\n* **创新：**旺仔牛奶一直致力于创新，开发出各种新产品和技术。例如，他们开发了可生物降解的包装材料和可再利用的乳制品。\n* **社会责任：**旺仔牛奶积极参与社会责任活动，并为当地社区做出贡献。例如，他们建立了旺仔牛奶儿童基金会，以帮助有需要的儿童获得教育机会。\n\n**值得注意的地方：**\n\n* **市场领导者：**旺仔牛奶是全球最大的牛奶公司之一，拥有超过20%的市场份额。\n* **产品多样性：**旺仔牛奶生产各种牛奶和乳制品，以满足不同顾客的需求。\n* **质量控制：**旺仔牛奶以其高质量的牛奶和乳制品而闻名，并拥有严格的质量控制措施。\n* **可持续发展：**旺仔牛奶致力于可持续发展，并正在采取措施来减少其环境影响。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "旺仔牛奶这家公司有什么有趣地方吗？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10972,6 +12072,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:55:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n大多数海外华人的后代对中国有感情，他们对中国文化、历史和人民有兴趣，并可能对中国有认同感或归属感。然而，这取决于个人经历和家庭背景。一些海外华人的后代可能对中国持负面看法，因为他们或他们的家人在离开中国时经历了负面事件。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "海外华人的后代对中国有感情吗？\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -11169,6 +12289,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:56:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：这句文字没有提供健身房倒闭的具体信息，因此我无法回答这个问题。**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么健身房 10 家有 9.5 家倒闭?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -11364,6 +12504,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:57:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**后果可能包括：**\n\n* **刑事责任：**丢枪是违反法律的，将面临刑事起诉和处罚。\n* **职业责任：**如果枪是工作相关，丢枪可能会导致职业资格的丧失或限制。\n* **社会责任：**丢枪可能会对社会产生负面影响，因为它表明对枪的管理不当。\n* **个人责任：**丢枪可能会对个人产生负面影响，因为它表明个人没有负起对枪的责任。\n\n**在使徒行者2中，丢枪的后果是特别严重的。**在该书中，丢枪会导致人们失去神圣的灵力，并最终导致他们的灭亡。这表明丢枪是一个非常严重的罪行，因为它会导致人们失去最重要的东西。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "警察丢枪会有什么后果？\n在看使徒行者2，好像后果真的很严重\n逃学威龙1也专门围绕这主题来写\n会怎么样呢\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -11561,6 +12721,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:58:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "公网IP的所在地会影响网络性能吗？\n**公网IP所在地会影响网络性能吗？**\n\n公网IP所在地会影响网络性能，但并非所有情况都如此。以下是一些可能影响网络性能的因素：\n\n**1. 网络拓扑：**\n- 公网IP所在地与网络拓扑有关。如果公网IP位于网络的中心，则任何流量都必须通过该IP。这可能会增加网络延迟和拥塞。\n\n\n**2. 网络基础设施：**\n- 公网IP所在地的网络基础设施也会影响性能。如果网络基础设施良好，则公网IP所在地的影响将更小。\n\n\n**3. 网络流量：**\n- 公网IP所在地的网络流量也会影响性能。如果网络流量很大，则公网IP所在地的影响将更大。\n\n\n**4. 公网IP的分配：**\n- 公网IP的分配方式也会影响性能。如果公网IP被分配给多个设备，则公网IP所在地的影响将更小。\n\n\n**为什么你感觉网络上清净多了？**\n\n公网IP所在地的影响可能因网络而异。如果你感觉网络上清净多了，可能是因为：\n\n- 公网IP所在地的网络基础设施良好。\n- 公网IP的分配方式良好。\n- 网络流量很小。\n\n**注意：**\n\n- 公网IP所在地的影响可能随时间而变化。\n- 并非所有公网IP所在地都会影响网络性能。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "公开IP属地后，为什么我感觉网络上清净多了?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -11756,6 +12936,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:59:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**以下是一些可能的原因：**\n\n* **社会因素：**社会竞争加剧，网络社会对青少年心理健康的影响，以及社会对成功和价值观的定义。\n* **家庭因素：**家庭环境不稳定，父母与孩子的关系问题，以及家庭成员的心理健康状况。\n* **个人因素：**个人的生物学特征和心理发展状况。\n* **环境因素：**环境污染和化学物质对青少年的影响。\n\n**以下是一些可以帮助青少年的资源：**\n\n* **专业帮助：**心理学家和精神科医生。\n* **社会支持：**家人朋友和社区组织。\n* **教育和技能：**学习应对压力和焦虑的技术。\n* **运动和健康饮食：**保持健康的生活方式。\n\n**请分享您的想法和建议，以帮助我们更好地了解这个问题。**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么现在那么多小孩得抑郁？\n题主本就是一个重度抑郁，所以经常刷抖音，或者知乎会看到好多有关抑郁的视频或者问题，可是我最近经常看到一些只有十几岁的，十一二岁的病友，不知为何我看着这些真的好心痛！\n我因为抑郁太久，深知这种无助与绝望，所以一直想着能尽自己所能去帮助到别人！可是最近我发现，我一个连自己都度不了的人，哪有资格去渡别人！\n看着那些年纪只有十一二岁的小孩，因为抑郁自残，住院，拿着诊断证明，说着放弃的言语，我真的心痛加无法理解！是这个社会怎么了？还是我们这一代人怎么了？为什么啊？我没有去怀疑那些小孩是为什么抑郁，但是我想知道的是为什么抑郁的得病群体越发低龄化呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -11953,6 +13153,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:60:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n富士山和五岳都是世界上的著名山岳，但它们在知名度和影响力方面存在差异。\n\n**富士山：**\n\n* 富士山位于日本，是世界上最高的火山，也是世界遗产。\n* 富士山拥有雄壮的自然景觀和丰富的历史文化，吸引了来自世界各地的游客。\n* 富士山在日本和世界各地都享有极高的知名度，并代表着日本文化和自然之美。\n\n\n**五岳：**\n\n* 五岳位于中国南部，是中华民族传统文化和信仰的中心。\n* 五岳拥有丰富的历史文化和精神意义，是佛教和道教的重要圣地。\n* 五岳在国内享有很高的知名度，但其知名度在世界范围内并不高。\n\n\n**主要原因：**\n\n* **文化差异：**富士山在日本文化中占有重要的地位，而五岳在中国文化中则更具精神意义。\n* **游客流量：**富士山吸引了来自世界各地的游客，而五岳主要吸引的是中国游客。\n* **媒体和宣传：**富士山在世界媒体和旅游宣传中得到更多关注。\n\n\n因此，富士山在全球都那么有名，而五岳则只在国内知名。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么富士山在全球都那么有名，而我们的五岳好像就只在国内知名呢？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -12148,6 +13368,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:61:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n这种观点不正确。古代的武将画像肚子挺大并不代表他们有将军肚能上战场。武将的形象和现实人物的体征可能有所不同，以强调他们的英雄形象或特定特征。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么古代的武将画像肚子挺大，挺着将军肚能上战场吗？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -12345,6 +13585,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:62:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**以下是一些建议：**\n\n* **练字对孩子的语言发展有益。**练习手写可以帮助孩子提高他们的语言表达能力和阅读理解能力。\n* **练字可以帮助孩子培养专注和纪律。**练习手写可以帮助孩子培养专注和纪律的能力，并能够更有效地完成任务。\n* **练字可以帮助孩子提高他们的自尊心。**练习手写可以帮助孩子提高他们的自尊心，并能够更自信地面对生活和学习的挑战。\n\n**然而，练字也应该有合适的平衡。**孩子应该有足够的活动时间来进行运动和游戏，以保持健康的生活方式。\n\n**最终的决定权在于父母。**根据孩子的年龄和发展水平，父母可以决定是否应该让孩子花时间练字。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "小学生到底要不要花时间练字？\n最近疫情放假在家。每天都花很长的时间练字。确实是有点成效的。但是有时候又再想到底要不要花这么长的时间写字？\n感觉这些时间用来干什么不好呢？\n我到底应不应该让孩子花时间练字？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -12540,6 +13800,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:63:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "* 了解催收公司和法律规定。\n* 沟通和协商。\n* 记录所有沟通和协商内容。\n* 寻求法律帮助。\n\n**了解催收公司和法律规定**\n\n* 了解催收公司的法律权力和限制。\n* 了解当地法律和法规。\n* 了解催收公司如何收集和使用个人信息。\n\n\n**沟通和协商**\n\n* 了解催收公司的目标和立场。\n* 尝试与催收公司协商解决方案。\n* 提供有价值的信息，以帮助催收公司了解您的情况。\n\n\n**记录所有沟通和协商内容**\n\n* 记录所有与催收公司的沟通和协商内容。\n* 记录所有与网贷公司的沟通和协商内容。\n* 记录所有与紧急联系人之间的沟通和协商内容。\n\n\n**寻求法律帮助**\n\n* 如果您无法与催收公司协商解决方案，请寻求法律帮助。\n* 寻求法律帮助以了解您的权利和选择。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "朋友网贷时把我填成紧急联系人，现在钱还不上，催收天天给我打电话该怎么办？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -12737,6 +14017,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:64:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "美国媒体在阿富汗战争期间一直对阿富汗的报道非常详细，但自从美国政府在2021年8月从阿富汗撤军后，美国媒体对阿富汗的报道就突然停止了。\n\n**以下是一些可能的原因：**\n\n* **美国政府的指示：**美国政府可能指示媒体不要再报道阿富汗，以避免对新政府的认可或对美国政府在撤军后对阿富汗的政策的批评。\n* **媒体的商业利益：**媒体可能决定不再报道阿富汗，因为其不再有足够的广告收入或读者兴趣来支持这种报道。\n* **阿富汗政府的限制：**阿富汗政府可能要求媒体不要再报道阿富汗，以避免对政府的批评或对阿富汗的负面形象的传播。\n\n这些只是可能的原因，真实的原因可能更复杂。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "央视为什么突然不报道阿富汗了？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -12932,6 +14232,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:65:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**杭州市不填平西湖盖房，主要有以下几点原因：**\n\n* **西湖是杭州市最重要的文化遗产和生态系统。**填平西湖盖房会对这些遗产和生态系统造成不可逆转的破坏。\n* **西湖是杭州市重要的旅游景点。**填平西湖盖房会对旅游业产生负面影响。\n* **西湖的填平盖房会引发社会争议。**大多数杭州市民都反对填平西湖盖房。\n\n**如果杭州西湖那片土地换成房地产，城市经济可能会得到改善，但也会带来以下风险：**\n\n* **房地产市场存在风险。**房地产市场可能会出现下跌，导致杭州市政府失去投资的收益。\n* **城市环境会恶化。**房地产开发可能会导致环境污染和交通拥堵。\n* **社会矛盾会加剧。**房地产开发可能会导致一些杭州市民的财富差距扩大。\n\n**因此，杭州市政府决定保留西湖，并将其发展为一个文化、生态和旅游目的地。**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么杭州市不把西湖填平盖房挣钱呢？\n如果杭州西湖那片土地换成房地产，是否城市经济更好，规模更大，城市功能更强\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -13129,6 +14449,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:66:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n三代从商比寒窗苦比更轻松。寒窗苦比需要自己做一切，从市场调研到产品开发、销售推广、客户服务等，而三代从商平台则可以提供完整的从商解决方案，包括市场调研、产品开发、销售推广、客户服务等，并提供专业的指导和支持。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "十年寒窗苦比不上三代从商吗?\n\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -13324,6 +14664,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:67:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**上海房价是否已经达到高点？**\n\n从2004年房地产开始进入快速上升通道一直持续到2017年，上海房价经历了大幅度上涨，但自2017年以来，受政策引导和市场因素影响，上海房价增长放缓。\n\n**2020年是否为近十五年来上海房价的最高点？**\n\n2020年受疫情影响，上海房价增长放缓，但仍保持在较高水平。根据统计，2020年上海住宅价格平均为1.83万元/平米，比2019年增长了6.5%。\n\n**未来趋势**\n\n未来，上海房价的走势将受到以下因素影响：\n\n* **政策引导：**政府将继续推出政策措施来控制房价增长。\n* **市场需求：**上海经济增长和人口增长将继续推动对住房的需求。\n* **房市政策：**上海市政府将继续完善房市政策，以提高市场透明度和稳定性。\n\n**结论**\n\n目前，上海房价尚未达到高点，但未来存在一定风险。政府政策和市场需求将继续影响房价走势。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "上海房价已经到高点了吗?\n从2004年房地产开始进入快速上升通道一直持续到2017年，经过漫长的楼市周期，在疫情影响下的2020年是否已经成为近十五年来上海房价的至高点。目前上海新开楼盘价格屡创新高，未来趋势又是如何？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -13521,6 +14881,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:68:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**单反相机研发并不比其他相机更难，但它需要更高的技术水平和更复杂的工程设计。**\n\n单反相机需要以下关键技术：\n\n* **高精度光学系统：**单反相机需要高精度的镜面和镜头，以确保清晰的图像。\n* **高速处理器：**单反相机需要高速的处理器，以处理来自相机的光学数据并生成图像。\n* **大容量存储器：**单反相机需要大容量的存储器，以存储来自相机的光学数据的图像。\n* **高精度控制系统：**单反相机需要高精度控制系统，以确保相机可以准确地控制镜面和镜头的运动。\n\n\n**中国在单反相机研发方面存在一些挑战：**\n\n* **技术水平不足：**中国在光学、电子和控制技术方面还有待提高。\n* **资源不足：**中国在单反相机研发方面缺乏足够的资源。\n* **市场竞争激烈：**中国在单反相机市场上面临着来自世界各地的竞争。\n\n\n尽管存在这些挑战，但中国在单反相机研发方面取得了一些进展。一些中国公司正在生产单反相机，并正在努力提高其技术水平和产品质量。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么中国一直造不出单反相机，单反相机研发有多难？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -13716,6 +15096,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:69:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "答案：错误。\n\n汉语并非当今世界最简练的语言。有研究表明，一些南岛语族语言比汉语更简练。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "汉语是当今世界最简练的语言吗？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -13913,6 +15313,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:70:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "为什么新闻要追求高分？分就意味着有误差，分就意味着有虚假。\n新闻的价值在于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于于"
+            }
+          },
+          "prompting_state": {
+            "prompt": "有没有发现，央视新闻很多采访，被采访人都是读稿子的？\n为什么很多人央视新闻都没看过，就以为新闻应该是制作出来的？\n不应该把一个月内的新闻整理出来可以质疑的点吗？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -14108,6 +15528,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:71:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**答案：**\n\n背文言文并非旨在培养一字不差、随机背取汉字的习惯。其意义在于：\n\n* **理解历史文化：**文言文承载着丰富的历史文化和思想，背文言文可以帮助学生了解中国传统文化的底层。\n* **提高语言能力：**文言文与白话文在语法、词汇等方面存在差异，背文言文可以帮助学生提高语言理解和表达能力。\n* **培养批判性思维：**文言文表达的思想和观点与现代社会可能存在差异，背文言文可以培养学生的批判性思维能力。\n\n**应对背文言文习惯的担忧：**\n\n* **选择合适的背法：**不要试图一字不差地背文言文，可以根据自己的理解和记忆能力选择合适的背法。\n* **与其他学习内容结合：**将文言文背入其他学习内容中，例如历史、文学等，可以提高背文的效果。\n* **不要害怕犯错：**背文言文是一个学习过程，会存在犯错的情况，不要害怕。\n\n**关于古文被白话文取代的观点：**\n\n古文被白话文全面取代的观点存在一定争议。虽然白话文在现代社会中更方便易懂，但古文承载着丰富的历史文化和思想，仍有其价值。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "古文被白话文全面取代的今下，要求学生背文言文的意义是什么？\n问题补充：因为我觉得背文言文会让我养成经常无意识地、一字不差地去背东西的坏习惯，感觉就是在背一堆「随机组成的汉字一样」不知道该怎么办才好。\n并且古文以及古文承载的思想，在1850年到1930年这段时间里，不仅没能抵御、改变那段悲惨的历史，而且古文本身反倒被新时代的白话文全面取代了。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]
@@ -14305,6 +15745,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:72:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "**汉族人的基因有以下特殊地方：**\n\n**1. 乳糖不耐受：**\n\n* 汉族人群中约有20%的人缺乏乳糖酶基因，导致他们无法有效分解乳糖，从而导致乳糖不耐受。\n* 这使得汉族人避免乳制品，以避免胃不适。\n\n**2. 血型：**\n\n* 汉族人群中A型和O型血的频率较高，而B型和AB型血的频率较低。\n* 这对血液相容性有影响，并可能影响血液类型相关的医疗决策。\n\n**3. 遗传疾病：**\n\n* 汉族人群中某些遗传疾病的发生率较高，例如唐氏综合征和色素沉着病。\n* 这需要对高风险人群进行早期检测和治疗。\n\n**4. 身体特征：**\n\n* 汉族人的身体特征有其独特的特点，例如面部特征和体质特征。\n* 这可能与基因差异有关。\n\n**5. 微生物组：**\n\n* 汉族人的微生物组与其他民族不同，这可能对健康和疾病风险有影响。\n\n**这些特殊特征可以帮助汉族人了解自己的健康状况，并做出相应的健康选择。**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "汉族人的基因有何较为特殊的地方吗？\n如题，想知道汉族人的基因相对于其他人种或者民族，有没有特殊地方。比如乳糖不耐受等，方便我们在生活习惯上作出妥善安排。\n谢谢。\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -14501,6 +15961,26 @@
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
           }
+        },
+        {
+          "name": "chinese:73:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": " 答案：防止乘客看到外部环境，避免影响睡眠。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "火车夜晚经过某些站，乘务员为什么要求拉窗帘？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -14696,6 +16176,26 @@
             "other_state": {},
             "model": "gemini-1.5-pro-preview-0514",
             "temperature": 0.0
+          }
+        },
+        {
+          "name": "chinese:74:language.chinese:gemma 7b",
+          "language": "Chinese",
+          "translations": {
+            "Chinese": {
+              "language": "Chinese",
+              "text": "这个说法存在误解，中国并非基建狂魔。"
+            }
+          },
+          "prompting_state": {
+            "prompt": "为什么说中国是基建狂魔？\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
           }
         }
       ]

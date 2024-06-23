@@ -224,6 +224,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:0:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e fa'asolo ai pasese i luga o le tulaga ma le fa'aoga?\n\n**Tulaga ma le fa'aoga**\n\n* Le tulaga ma le fa'aoga e le fa'aoga ma le tulaga.\n* Le fa'aoga ma le tulaga e le fa'aoga ma le fa'aoga.\n\n**Va'alele mai luma**\n\n* Le tulaga ma le fa'aoga e le fa'aoga ma le tulaga.\n* Le fa'aoga ma le tulaga e le fa'aoga ma le fa'aoga.\n\n**Fa'asolo ai pasese**\n\n* Le tulaga ma le fa'aoga e le fa'aoga ma le tulaga.\n* Le fa'aoga ma le tulaga e le fa'aoga ma le fa'aoga.\n\n**E le fa'aoga ma le tulaga e le fa'aoga ma le fa'aoga e le fa'aoga ma le tulaga.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e fa'asolo ai pasese i luga o le va'alele mai luma i tua?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -447,6 +467,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:1:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e matuā leaga ai le ulaula mo le fatu?\n\n**Ulaula**\n\n* Le aoga e le maua le ulaula.\n* Le ulaula e le maua le fatu.\n\n**Fatu**\n\n* Le fatu e le maua le ulaula.\n\nLe ulaula e le fatu e le maua le maua le lelei."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e matuā leaga ai le ulaula mo le fatu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -678,6 +718,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:2:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "- Il tuo iPhone non ha una funzione di rimozione delle vecchie app.\n- È possibile rimuovere manualmente le app non utilizzate.\n- È possibile utilizzare strumenti di pulizia del telefono per rimuovere le app vecchie."
+            }
+          },
+          "prompting_state": {
+            "prompt": "I le iPhone, o fea e alu i ai faila ma ata ua tape mai le 'ua tape nei'?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -901,6 +961,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:3:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e maualuga ai le oso pe a tatou tamo'e muamua.\n\n**Answer:**\n\nAiseā e maualuga ai le oso pe a tatou tamo'e muamua."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e maualuga ai le oso pe a tatou tamo'e muamua?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1132,6 +1212,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:4:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Fa'aopoopo atu:**\n\n* Le susu o le tinā i le fōmula mo pepe e le mafai ai ona fa'aopoopo atu.\n* Aneti-poti/fa'amanuiaga eseese o le susu o le tinā i le fōmula mo pepe e le mafai ai ona fa'aopoopo atu.\n\n**Sōlua:**\n\n* Le susu o le tinā i le fōmula mo pepe e le mafai ai ona fa'aopoopo atu.\n* Aneti-poti/fa'amanuiaga eseese o le susu o le tinā i le fōmula mo pepe e le mafai ai ona fa'aopoopo atu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e le mafai ai ona fa'aopoopo atu ni aneti-poti/fa'amanuiaga eseese o le susu o le tinā i le fōmula mo pepe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1355,6 +1455,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:5:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Fa'afefea:**\n\n* Le wifi le saoasaoa o le initaneti e le fa'aoga e le fa'amolemolega e le fa'apulea e le fa'amolemolega o le fa'aoga e le fa'apulea o le fa'amolemolega.\n\n**Kamupani:**\n\n* Vodafone\n* Digicel\n* Orange\n* Airtel\n\n**Solusion:**\n\n* Vodafone le saoasaoa o le initaneti e le fa'aoga e fa'apulea e fa'amolemolega.\n* Digicel le saoasaoa o le initaneti e le fa'amolemolega.\n* Orange le saoasaoa o le initaneti e le fa'apulea.\n* Airtel le saoasaoa o le initaneti e le fa'amolemolega.\n\n**Falema:**\n\nLe Vodafone, Digicel, Orange e Airtel le saoasaoa o le initaneti e le fa'aoga e fa'apulea e fa'amolemolega."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa'afefea ona pulea e lo'u kamupani o le wifi le saoasaoa o le initaneti?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -1586,6 +1706,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:6:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e masani ai ona faia le toto mai i le pilipa o lou lima?\n\n**Fa'aauau:**\n\n* Le pilipa o lou lima e le fa'aauau e le masani ai ona faia le toto.\n* Le masani ai e le fa'aauau e le pilipa o lou lima e le masani ai ona faia le toto."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e masani ai ona faia le toto mai i le pilipa o lou lima?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -1809,6 +1949,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:7:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā tatou te fa'aogāina pea meapueata tele o faletelevise pe a o lea ua iai tekinolosi tutusa i telefoni feavea'i.\n\n**Fa'aogāina pea meapueata tele o faletelevise pe a o lea ua iai tekinolosi tutusa i telefoni feavea'i.**\n\n* **Fa'aogāina tele o faletelevise:**\n    * Te fa'aogāina o faletelevise i te tulaga o te lelei.\n    * Te fa'aogāina o faletelevise i te tulaga o te lelei.\n\n\n* **Lea ua iai tekinolosi tutusa i telefoni feavea'i:**\n    * Te fa'aogāina o tekinolosi tutusa i telefoni feavea'i i te tulaga o te lelei.\n    * Te fa'aogāina o tekinolosi tutusa i telefoni feavea'i i te tulaga o te lelei.\n\n\n**Tasi te fa'aogāina pea meapueata tele o faletelevise pe a o lea ua iai tekinolosi tutusa i telefoni feavea'i.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā tatou te fa'aogāina pea meapueata tele o faletelevise pe a o lea ua iai tekinolosi tutusa i telefoni feavea'i?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2040,6 +2200,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:8:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Fa'afefea:** Le lalolagi o le ogatotonu o le lalolagi e le vevela o le lalolagi.\n\n**Latou:** Oga, le lalolagi o le ogatotonu o le lalolagi e le vevela o le lalolagi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa'afefea ona latou iloa le vevela o le ogatotonu o le lalolagi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2263,6 +2443,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:9:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e masani ai ona tupu le 'ava malosi i le vaitau o le talavou?\n\n**Masani:**\n\n- Le 'ava malosi e le 'ava taumafa e le 'ava te fitima e le 'ava te ma'afiti.\n\n**Talavou:**\n\n- Le talavou o le Va'a o Fitima.\n\n**Vaitau:**\n\n- Le vaitau o le Va'a o Fitima e le vaitau o le Va'a o Te Fitima.\n\n**Solusion:**\n\nLe 'ava malosi e le 'ava taumafa e le 'ava te fitima e le 'ava te ma'afiti e le 'ava malosi e le 'ava taumafa e le 'ava te fitima e le 'ava te ma'afiti e le 'ava malosi e le 'ava taumafa e le 'ava te fitima e le 'ava te ma'afiti."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e masani ai ona tupu le 'ava malosi i le vaitau o le talavou?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2494,6 +2694,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:10:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Fa'afefea:**\n\n* Le mutia ma le vai i le susu, fulufulu mamoe ma nisi mamoe.\n\n**Translation:**\n\n* The rooster crows and the mother hen goes to drink from the milk, the chicks peck at the mother hen but leave her alone."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa'afefea ona liua e mamoe le mutia ma le vai i le susu, fulufulu mamoe ma nisi mamoe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -2717,6 +2937,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:11:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Le pasene o ga'o i totonu o latou tino ma le fa'atatauina lava le tasi le fa'afefea ona iloa e le fa'afola e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga.\n\nTranslation:\nThe rooster crows early in the morning, before the sun has risen and the rooster's shadow has disappeared. The rooster crows loudly and clearly, but the rooster's crow is faint and weak.\n\nExplanation:\nThe sentence describes a rooster that crows early in the morning but its crow is weak and faint. Despite crowing loudly and clearly, its shadow has disappeared and its crow is not as strong as before."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa'afefea ona iloa e se tasi le pasene o ga'o i totonu o latou tino, pe na'o le fa'atatauina lava?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -2948,6 +3188,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:12:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Le mafai ona neʻi le saienisi i tua atu o le pō le mafai ona neʻi?\n\nLe mafai ona neʻi le saienisi i tua atu o le pō le mafai ona neʻi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le ā le saienisi i tua atu o le pō le mafai ona neʻi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3171,6 +3431,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:13:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā tatou te le'i uma ai lava i u'amea?\n\n**Te le'i uma ai lava i u'amea.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā tatou te le'i uma ai lava i u'amea?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3402,6 +3682,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:14:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Fa'afefea:**\n\n* Le kamupani i Taiwan e gaosia ma leai se isi mafai ona fa'ata'ita'iina ai microchips sili ona lelei i le lalolagi.\n* Le fa'ata'ita'iina ma leai se isi mafai ona mafai lena mea.\n\n**Tasi:**\n\n* Le kamupani i Taiwan e gaosia ma leai se isi mafai ona fa'ata'ita'iina ai microchips sili ona lelei i le lalolagi ma e leai se isi mafai ona mafai lena mea."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O lo'u malamalamaaga, e na'o le tasi kamupani i Taiwan e gaosia ai microchips sili ona lelei i le lalolagi ma e leai se isi e mafai ona fa'ata'ita'iina. Fa'afefea ona mafai lena mea?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -3625,6 +3925,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:15:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e lanu mumu ai le toto o le tele o manu?\n\nAnswer: Le tele o manu e le manu e le tele o manu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e lanu mumu ai le toto o le tele o manu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -3856,6 +4176,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:16:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Fa'aupuga faigofie:**\n\n- Le fa'aupuga faigofie e le fa'amalositino ma le fa'atupu tino.\n- Le fa'aupuga faigofie e le fa'amalositino ma le fa'atupu tino.\n\n**Vaivai o le gafatia:**\n\n- Le vaivai o le gafatia e le fa'amalositino ma le fa'atupu tino.\n- Le vaivai o le gafatia e le fa'amalositino ma le fa'atupu tino.\n\n**Tino e toe fa'aleleia ai o ia lava:**\n\n- Le tino e toe fa'aleleia ai o ia lava e le fa'amalositino ma le fa'atupu tino.\n- Le tino e toe fa'aleleia ai o ia lava e le fa'amalositino ma le fa'atupu tino.\n\n**Fa'aleagaina ai e le fa'amalositino ma le fa'atupu tino:**\n\n- Le fa'aleagaina ai e le fa'amalositino ma le fa'atupu tino.\n- Le fa'aleagaina ai e le fa'amalositino ma le fa'atupu tino."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Afai o le matua, i le fa'aupuga faigofie, o le vaivai o le gafatia o le tino e toe fa'aleleia ai o ia lava, aisea e le fa'aleagaina ai e le fa'amalositino ma le fa'atupu tino (i se auala maloloina) lena gafatia?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4079,6 +4419,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:17:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Fa'atauina o a latou oloa i se pa'u tele i le tau:**\n\n* Le fa'atauina o a latou oloa i se pa'u tele i le tau e le maua e se kamupani tupe le fa'atauina o a latou oloa i se pa'u tele i le tau.\n* Le maua e se kamupani tupe le fa'atauina o a latou oloa i se pa'u tele i le tau e le fa'atauina o a latou oloa i se pa'u tele i le tau.\n\n**Fa'atauina o a latou oloa i se pa'u tele i le tau e le maua e se kamupani tupe:**\n\n* Le fa'atauina o a latou oloa i se pa'u tele i le tau e le maua e se kamupani tupe le fa'atauina o a latou oloa i se pa'u tele i le tau.\n* Le maua e se kamupani tupe le fa'atauina o a latou oloa i se pa'u tele i le tau.\n\n**Fa'atauina o a latou oloa i se pa'u tele i le tau, le maua e se kamupani tupe, le fa'atauina o a latou oloa i se pa'u tele i le tau:**\n\n* Le fa'atauina o a latou oloa i se pa'u tele i le tau, le maua e se kamupani tupe le fa'atauina o a latou oloa i se pa'u tele i le tau, le fa'atauina o a latou oloa i se pa'u tele i le tau.\n\n**Le maua e se kamupani tupe le fa'atauina o a latou oloa i se pa'u tele i le tau e le fa'atauina o a latou oloa i se pa'u tele i le tau.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa'afefea ona maua e se kamupani tupe mai le fa'atauina o a latou oloa i se pa'u tele i le tau?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4310,6 +4670,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:18:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Solusion:**\n\nE maua ai nisi tamaitai i le \"ma'i o le taeao\" pe a ma'itaga ae le maua ai isi. Aiseā e tele ai e na'o le trimester muamua e maua ai, ae o nisi e maua i le taimi atoa o le maitaga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e maua ai nisi tamaitai i le \"ma'i o le taeao\" pe a ma'itaga ae le maua ai isi? Aiseā e tele ai e na'o le trimester muamua e maua ai, ae o nisi e maua i le taimi atoa o le maitaga?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4533,6 +4913,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:19:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e lagona ai le vevela tutusa i ni auala eseese i aso eseese po o vaitau eseese?\n\n**Tupe i auala eseese:**\n\n* Auala eseese i aso eseese\n* Auala eseese o vaitau eseese\n\n**Tupe i vevela tutusa:**\n\n* Vevela tutusa i aso eseese\n* Vevela tutusa o vaitau eseese\n\n**Tupe i auala eseese i aso eseese:**\n\n* Auala eseese i aso eseese e le vevela tutusa i aso eseese.\n* Auala eseese i aso eseese e le vevela tutusa o vaitau eseese.\n\n**Tupe i auala eseese o vaitau eseese:**\n\n* Auala eseese o vaitau eseese e le vevela tutusa i aso eseese.\n* Auala eseese o vaitau eseese e le vevela tutusa o vaitau eseese.\n\n**Fa'a-sane:**\n\n* Auala eseese i aso eseese e le vevela tutusa i aso eseese.\n* Auala eseese o vaitau eseese e le vevela tutusa o vaitau eseese."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e lagona ai le vevela tutusa i ni auala eseese i aso eseese po o vaitau eseese?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -4764,6 +5164,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:20:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Fa'afitauli o le soifua maloloina fa'aletino:**\n\n* Le soifua maloloina fa'aletino e le ma'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga e le fa'aoga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa'afefea ona mafua ai fa'afitauli o le soifua maloloina fa'aletino ona o le popole?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -4987,6 +5407,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:21:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "* Lea o tulaga o manu'a tino\n* Fa'ailoga sa'o lea o le tulaga o manu'a tino\n\n**Lea o tulaga o manu'a tino**\n\nLe tulaga o manu'a tino lea se le manu'a tino le ma'u le tulaga o le fa'aoga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le tiga, o se fa'ailoga sa'o lea o le tulaga o manu'a tino?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5218,6 +5658,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:22:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e le umi o le ola o manu eseese?\n\nLe ola o manu eseese e le umi o le ola o manu eseese e le umi o le ola o manu eseese e le umi o le ola o manu eseese."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e eseese ai le umi o le ola o manu eseese?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5393,6 +5853,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:23:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e le mafai ai e tagata ona ma’itaga mai manu.\n\n**Fa’afolau:**\n\n* Le mafai ai e tagata ona ma’itaga mai manu e le mafai ai e tagata ona ma’itaga e le mafai ai e tagata ona ma’itaga ma’afano.\n* Le mafai ai e tagata ona ma’itaga manu e le mafai ai e tagata ona ma’itaga e le mafai ai e tagata ona ma’itaga ma’afano.\n\n**Tusi:**\n\n* Le mafai ai e tagata ona ma’itaga manu e le mafai ai e tagata ona ma’itaga e le mafai ai e tagata ona ma’itaga ma’afano.\n\n**Fa’afolau:**\n\n* Le mafai ai e tagata ona ma’itaga manu e le mafai ai e tagata ona ma’itaga e le mafai ai e tagata ona ma’itaga ma’afano.\n\n**Tusi:**\n\n* Le mafai ai e tagata ona ma’itaga manu e le mafai ai e tagata ona ma’itaga e le mafai ai e tagata ona ma’itaga ma’afano.\n\n**Fa’afolau:**\n\n* Le mafai ai e tagata ona ma’itaga manu e le mafai ai e tagata ona ma’itaga e le mafai ai e tagata ona ma’itaga ma’afano.\n\n**Tusi:**\n\n* Le mafai ai e tagata ona ma’itaga manu e le mafai ai e tagata ona ma’itaga e le mafai ai e tagata ona ma’itaga ma’afano.\n\n**Fa’afolau:**\n\n* Le mafai ai e tagata ona ma’itaga manu e le mafai ai e tagata ona ma’itaga e le mafai ai e tagata ona ma’itaga ma’afano.\n\n**Tusi:**\n\n* Le mafai ai e tagata ona ma’itaga manu e le mafai ai e tagata ona ma’itaga e le mafai ai e tagata ona ma’itaga ma’afano."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e le mafai ai e tagata ona ma’itaga mai manu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5576,6 +6056,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:24:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "* Galuega a le moe a causa di emozioni negative come la rabbia o lo stress.\n* Galuega a le moe per ottenere un risultato positivo.\n* Galuega a le moe per ottenere un risultato negativo.\n* Galuega a le moe a causa di emozioni positive come la gioia o la felicità.\n\nRisposta: Galuega a le moe a causa di emozioni negative come la rabbia o lo stress.\n\nSpiegazione: le galuega a le moe vengono spesso attivate da emozioni negative come la rabbia o lo stress. Queste emozioni possono portare ad un aumento della produzione di adrenalina, un ormone che può aumentare la frequenza del cuore, la pressione sanguigna e la respirazione."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le a le galuega a le moe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -5751,6 +6251,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:25:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e.\n\n**Fatu:**\n\n* Le tagata tamo'e nai lo le tagata e le'o tamo'e."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e maualalo ai le fua o le fatu o se tagata tamo'e nai lo le tagata e le'o tamo'e?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -5934,6 +6454,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:26:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā ou te fufusu ai pe a uma ona ou alu i fafo mai le taele?\n\n**Resposta:**\n\nA uma ona ou alu i fafo le taele."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā ou te fufusu ai pe a uma ona ou alu i fafo mai le taele?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6109,6 +6649,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:27:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e faigofie ai ona paleni i luga o se uila vilivae pe a o loʻo agaʻi ae faigatā tele pe a taofi.\n\nTranslation: I cannot provide responses that involve harmful or inappropriate content."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e faigofie ai ona paleni i luga o se uila vilivae pe a o loʻo agaʻi ae faigatā tele pe a taofi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6292,6 +6852,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:28:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e leaga ai mo oe le 'ai o mea'ai ua mu?\n\n**Fa'afolau:**\n\n* Le mea'ai ua mu e le a'a e le ma'a.\n* Le mea'ai ua mu e le ma'a e le a'a.\n\n**Fa'afolau:**\n\n* Le mea'ai ua mu e le ma'a e le a'a.\n* Le mea'ai ua mu e le ma'a e le a'a.\n\n**Fa'afolau:**\n\n* Le mea'ai ua mu e le ma'a e le a'a.\n* Le mea'ai ua mu e le ma'a e le a'a.\n\n**Fa'afolau:**\n\n* Le mea'ai ua mu e le ma'a e le a'a.\n* Le mea'ai ua mu e le ma'a e le a'a."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e leaga ai mo oe le 'ai o mea'ai ua mu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6467,6 +7047,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:29:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e faigatā ai ona moe i te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u e te tu'u ete."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e faigatā ai ona moe i si'osi'omaga pisapisao?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -6650,6 +7250,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:30:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Esi i le mea o lo'o tupu i la'u komepiuta pe a pa'u:**\n\n* **Fa'a'auau le konfigurasipe** - Le konfigurasipe o le komepiuta e le aoga e le fa'a'auau le lelei.\n* **Fa'a'auau le software** - Le software o le komepiuta e le aoga e le fa'a'auau le lelei.\n* **Fa'a'auau le hardware** - Le hardware o le komepiuta e le aoga e le fa'a'auau le lelei.\n\n**Fa'a'auau le konfigurasipe**\n\n* Le tupe o le konfigurasipe o le komepiuta e le aoga e le fa'a'auau le lelei.\n* Le tupe o le konfigurasipe o le komepiuta e le aoga e le fa'a'auau le lelei.\n\n**Fa'a'auau le software**\n\n* Le tupe o le software o le komepiuta e le aoga e le fa'a'auau le lelei.\n* Le tupe o le software o le komepiuta e le aoga e le fa'a'auau le lelei.\n\n**Fa'a'auau le hardware**\n\n* Le tupe o le hardware o le komepiuta e le aoga e le fa'a'auau le lelei.\n* Le tupe o le hardware o le komepiuta e le aoga e le fa'a'auau le lelei."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le ā tonu lava le mea o lo'o tupu i la'u komepiuta pe a pa'u?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -6825,6 +7445,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:31:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Soluzione:**\n\nLe misure e i tupi possono essere utilizzati per misurare la lunghezza, la larghezza e l'altezza di un oggetto."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le a le mea e tupu i lo'u tino pe afai ou te ma'i i se mea e iai le vai fa'atuatuaina ae leai ni mea'ai?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7008,6 +7648,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:32:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Answer:**\n\nLe mea e tupu ia tatou pe a tatou oti, le a tatou iloa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le a tatou iloa ea le mea e tupu ia tatou pe a tatou oti?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7183,6 +7843,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:33:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e le mafai ai ona toe tupu mai ivi?\n\n**Fa'afolau:**\n\n* Le mafai ai ona toe tupu mai ivi e le mafai ai ona toe tupu ma'a.\n* Le mafai ai ona toe tupu ma'a e le mafai ai ona toe tupu mai ivi.\n\n**Sā'o:**\n\n* Le mafai ai ona toe tupu mai ivi e le mafai ai ona toe tupu ma'a.\n* Le mafai ai ona toe tupu ma'a e le mafai ai ona toe tupu mai ivi.\n\n**Tāmaki:**\n\n* Le mafai ai ona toe tupu ma'a e le mafai ai ona toe tupu mai ivi.\n* Le mafai ai ona toe tupu mai ivi e le mafai ai ona toe tupu ma'a.\n\n**Ulu:**\n\n* Le mafai ai ona toe tupu mai ivi e le mafai ai ona toe tupu ma'a.\n* Le mafai ai ona toe tupu ma'a e le mafai ai ona toe tupu mai ivi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e le mafai ai ona toe tupu mai ivi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7366,6 +8046,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:34:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Tāua e sili atu ai lona tāua nai lo isi u'amea, pei o le siliva.**\n\nLe siliva e le auro le tatau ai le auro."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā ua tāua ai le auro? Ma aiseā e sili atu ai lona tāua nai lo isi u'amea, pei o le siliva?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7541,6 +8241,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:35:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "* Le ā e le lolovaia o le lalolagi le maua le same.\n* Le ā e le lolovaia o le lalolagi le maua le fiti.\n\nQual è la risposta corretta?\n\n**Le ā e le lolovaia o le lalolagi le maua le same.**\n\nLa frase significa che le ā (una forma plurale di \"una\") e le lolovaia o le lalolagi (una forma plurale di \"un\") hanno lo stesso significato."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le ā e taofia ai le sami mai le lolovaia o le lalolagi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -7724,6 +8444,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:36:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "I'a lo'a'a iloa e la'u telefoni pe a ou moe, ma'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'a e'"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa'afefea ona iloa e la'u telefoni pe a ou moe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -7899,6 +8639,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:37:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Afai e fa'atatau le tele o mea tatou te tofo i le manogi, aisea e iai nisi mea e manogi lelei ae tofo leaga.\n\nTranslation:\n\nIf I turn on the television and the sound comes out of the speakers, but I neither hear my voice nor the voices of others, it means that the sound is coming from the speakers but not reaching my ears."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Afai e fa'atatau le tele o mea tatou te tofo i le manogi, aisea e iai nisi mea e manogi lelei ae tofo leaga?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8082,6 +8842,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:38:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e le mafai ona fufulu ese mea uma mai ou lima ae le mafai ona fufulu ese lona manogi mai ia te oe?\n\n**Answer:**\n\nLe mafai ona fufulu ese mea uma mai ou lima ae le mafai ona fufulu ese lona manogi mai ia te oe."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e mafai ai e le fasimoli ona fufulu ese mea uma mai ou lima ae le mafai ona fufulu ese lona manogi mai ia te oe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8257,6 +9037,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:39:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Fa'afefea:**\n\n* Le lūlū e loma e le manu le lūlū e loma e le lagona e manu le lūlū e loma.\n\n**Lagona:**\n\n* Le manu le lūlū e loma e le lagona e manu le lūlū e loma e le lūlū e loma.\n\n**Manu le lūlū e loma:**\n\n* Le lagona e manu le lūlū e loma e le lūlū e loma e le lūlū e loma.\n\n**Le lūlū e loma:**\n\n* Le manu le lūlū e loma e le lagona e manu le lūlū e loma e le lūlū e loma.\n\n**Esi le tulaga e le fakatupu?**\n\nLe tulaga e le fakatupu non sono stati specificati nel testo fornito."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa'afefea ona lagona e manu le lūlū e loma?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8440,6 +9240,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:40:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e fa'asusu ai lo'u gutu i nisi taimi pe a ou momoe.\n\nTranslation: I am feeling sick today and yesterday.\n\nExplanation:\n* \"Aiseā e fa'asusu ai lo'u gutu i nisi taimi pe a ou momoe\" means \"I am feeling sick today and yesterday.\"\n* \"Aiseā\" means \"today.\"\n* \"E fa'asusu ai lo'u gutu\" means \"I am feeling sick.\"\n* \"I nisi taimi\" means \"yesterday.\"\n* \"Pe a ou momoe\" means \"and today.\""
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e fa'asusu ai lo'u gutu i nisi taimi pe a ou momoe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8615,6 +9435,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:41:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Tatau le tau:**\n\n* Le tau le tau ma le tau le taunā e le tau le taunaki.\n\n**Pulea:**\n\n* Le tau le tau ma le tau le taunā e le tau le taunaki le mafai ona pulea.\n\n**Faia:**\n\n* Le tau le tau ma le tau le taunā e le tau le taunaki le mafai ona faia.\n\n**Tulaga:**\n\n* Le tau le tau ma le tau le taunā e le tau le taunaki le mafai ona tulaga.\n\n**Fa'afefea:**\n\n* Le tau le tau ma le tau le taunā e le tau le taunaki le mafai ona fa'afefea.\n\n**Solusion:**\n\n* Le tau le tau ma le tau le taunā e le tau le taunaki le mafai ona tulaga.\n\n**Tulaga ma fa'afefea:**\n\n* Le tau le tau ma le tau le taunā e le tau le taunaki le mafai ona tulaga ma fa'afefea."
+            }
+          },
+          "prompting_state": {
+            "prompt": "E mafai ona pulea pe faia e le tagata le tau? Afai o lea, i le ā le tulaga ma fa'afefea?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -8798,6 +9638,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:42:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Tautolo:**\n\n* Le mea e tupu i le la'au pe a e toso ese se lau mai ai.\n* Le mea e fa'atigāina ea ma e mafai ea ona toe malosi le la'au.\n\n**Fale:**\n\n* Le mea e tupu i le la'au pe a e toso ese se lau mai ai.\n* Le mea e fa'atigāina ea ma e mafai ea ona toe malosi le la'au.\n\n**Esi: **\n\n* Le mea e tupu i le la'au pe a e toso ese se lau mai ai. Le mea e fa'atigāina ea ma e mafai ea ona toe malosi le la'au."
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le ā le mea e tupu i le la'au pe a e toso ese se lau mai ai? O lo'o e fa'atigāina ea ma e mafai ea ona toe malosi le la'au?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -8973,6 +9833,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:43:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā tatou te mafaufau tele ai a'o le'i moe?\n\n**Fa'afolau:**\n\n* Le'i moe te ma'u le'a e le'i te fa'afolau.\n* Le'i moe te ma'u le'a e le'i te fa'afolau.\n\n**Fa'afolau:**\n\n* Le'i moe te ma'u le'a e le'i te fa'afolau.\n* Le'i moe te ma'u le'a e le'i te fa'afolau.\n\n**Fa'afolau:**\n\n* Le'i moe te ma'u le'a e le'i te fa'afolau.\n* Le'i moe te ma'u le'a e le'i te fa'afolau."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā tatou te mafaufau tele ai a'o le'i moe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9156,6 +10036,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:44:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**1. Le mea e mafua ai ona tatou tagi pe a tatou tipi aniani.**\n\n- Le mea e mafua ai ona tatou tagi pe a tatou tipi aniani e le mea e le aniani e le aniani e le mea.\n- Le mea e le aniani e le aniani e le mea.\n- Le mea e le aniani e le mea e le aniani.\n\n**2. Le mea e mafua ai ona tatou tagi pe a tatou tipi aniani.**\n\n- Le mea e le aniani e le mea e le aniani.\n- Le mea e le aniani e le aniani e le mea.\n- Le mea e le aniani e le mea e le aniani.\n\n**3. Le mea e mafua ai ona tatou tagi pe a tatou tipi aniani.**\n\n- Le mea e le aniani e le mea e le aniani.\n- Le mea e le aniani e le aniani e le mea.\n- Le mea e le aniani e le mea e le aniani.\n\nQual è la risposta corretta?\n\nLa risposta corretta è **2. Le mea e le aniani e le aniani e le mea.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "O le ā le mea e mafua ai ona tatou tagi pe a tatou tipi aniani? E iai se auala e taofia ai lenei mea?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9331,6 +10231,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:45:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e le ma'aiga ai le tele o manu fale i le mālie i le pa'i atu?\n\nLe tele o manu fale i le mālie i le pa'i atu e le ma'aiga ai le tele o manu fale i le mālie i le pa'i atu e le aisea e le ma'aiga ai le tele o manu fale i le mālie i le pa'i atu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e fiafia ai le tele o manu fale i le mālie i le pa'i atu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9514,6 +10434,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:46:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e tatau ai ona tatou fa'afouina pea polokalame. O le ā se mea e tupu pe afai ou te le faia?\n\n**Tatau ai ona tatou fa'afouina pea polokalame.**\n\n**O le ā se mea e tupu pe afai ou te le faia?**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e tatau ai ona tatou fa'afouina pea polokalame? O le ā se mea e tupu pe afai ou te le faia?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -9689,6 +10629,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:47:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Masani:**\n- Le mafi a le ma'a o le masani ai.\n- Le mafi a le ma'a o le masani ai.\n\n**Si'itia:**\n- Le si'itia o le sami i luga atu nai lo le masani ai.\n\n**Soluzione:**\nLe mafi a le ma'a o le masani ai, le si'itia o le sami i luga atu nai lo le masani ai."
+            }
+          },
+          "prompting_state": {
+            "prompt": "E mafua ai e va'a le si'itia o le sami i luga atu nai lo le masani ai?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
@@ -9872,6 +10832,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:48:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Fa'afouina e tasi ma le tasi si'osi'omaga i totonu o tatou tino**\n\nLe tasi ma le tasi si'osi'omaga i totonu o tatou tino e le fa'afouina e le tasi ma le tasi si'osi'omaga e le fa'afouina ma le tasi ma le tasi si'osi'omaga.\n\n* **Fa'afouina e tasi ma le tasi si'osi'omaga:**\n    * Le tasi ma le tasi si'osi'omaga e le fa'afouina ma le tasi ma le tasi si'osi'omaga.\n    * Le tasi ma le tasi si'osi'omaga e le fa'afouina ma le tasi ma le tasi si'osi'omaga.\n\n* **Fa'afouina ma le tasi ma le tasi si'osi'omaga:**\n    * Le tasi ma le tasi si'osi'omaga e le fa'afouina e le tasi ma le tasi si'osi'omaga.\n    * Le tasi ma le tasi si'osi'omaga e le fa'afouina e le tasi ma le tasi si'osi'omaga.\n\n**Le tasi ma le tasi si'osi'omaga e le fa'afouina ma le tasi ma le tasi si'osi'omaga e le fa'afouina e tasi ma le tasi si'osi'omaga e le fa'afouina ma le tasi ma le tasi si'osi'omaga.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "E mafai ona toe fa'afouina e tasi ma le tasi si'osi'omaga i totonu o tatou tino. Aiseā e ese ai si'osi'omaga o le fai'ā?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10051,6 +11031,26 @@
             "return_dict_in_generate": false,
             "do_sample": false
           }
+        },
+        {
+          "name": "non_cultural:49:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "Aiseā e le mafai ai ona tatou faʻaumatia atoa utu?\n\n**Faʻaumatia atoa utu:**\n\n* Le mafai ai ona tatou faʻaumatia atoa utu e le mafai ai ona faʻaumatia atoa maʻa.\n* Le mafai ai ona tatou faʻaumatia atoa utu e le mafai ai ona faʻaumatia atoa maʻa e le mafai ai ona faʻaumatia atoa maʻa.\n\n**Faʻaumatia atoa maʻa:**\n\n* Le mafai ai ona faʻaumatia atoa maʻa e le mafai ai ona faʻaumatia atoa maʻa e le mafai ai ona faʻaumatia atoa maʻa.\n\n**Faʻaumatia atoa maʻa e le mafai ai ona faʻaumatia atoa maʻa:**\n\n* Le mafai ai ona faʻaumatia atoa maʻa e le mafai ai ona faʻaumatia atoa maʻa e le mafai ai ona faʻaumatia atoa maʻa.\n\n**Tāufaʻa:**\n\n* Le mafai ai ona tatou faʻaumatia atoa utu e le mafai ai ona faʻaumatia atoa maʻa e le mafai ai ona faʻaumatia atoa maʻa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Aiseā e le mafai ai ona tatou faʻaumatia atoa utu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
         }
       ]
     },
@@ -10226,6 +11226,26 @@
             "max_output_tokens": 2048,
             "other_state": {},
             "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "non_cultural:50:language.samoan:gemma 7b",
+          "language": "Samoan",
+          "translations": {
+            "Samoan": {
+              "language": "Samoan",
+              "text": "**Fa'afefea:**\n\n* Le oti i se tagata ona o le le lava o le moe.\n* Le oti i se tagata ona o le le lava o le moe.\n\n**Mafua:**\n\n* Le oti i se tagata ona o le le lava o le moe.\n\n**Fa'afefea:**\n\n* Le oti i se tagata ona o le le lava o le moe.\n\n**Mafua:**\n\n* Le oti i se tagata ona o le le lava o le moe.\n\n**Fa'afefea:**\n\n* Le oti i se tagata ona o le le lava o le moe.\n\n**Mafua:**\n\n* Le oti i se tagata ona o le le lava o le moe.\n\n**Le lava o le moe o le tagata?**\n\nLe lava o le moe o le tagata?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Fa'afefea ona mafua ai le oti i se tagata ona o le le lava o le moe?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
             "output_scores": false,
             "return_dict_in_generate": false,
             "do_sample": false
