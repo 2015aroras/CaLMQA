@@ -43,7 +43,7 @@ def detect_texts_language(
             try:
                 detector = Detector(text)
                 predicted_lang = detector.language.code
-            except RuntimeError:  # apply langid if polyglot complains
+            except:  # apply langid if polyglot complains
                 predicted_lang, _ = langid.classify(text)
         else:
             predicted_lang, _ = langid.classify(text)
