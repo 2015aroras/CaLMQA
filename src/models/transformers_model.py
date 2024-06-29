@@ -88,6 +88,7 @@ class TransformersModel(Model):
         self,
         gpus: list[int] | None = None,
         max_mem_per_gpu: int | None = None,
+        torch_dtype: Any | None = None
     ) -> PreTrainedModel:
         max_memory = self._get_max_memory_map(gpus, max_mem_per_gpu)
         device_map = "auto" if gpus is not None and len(gpus) > 0 else None
@@ -96,11 +97,16 @@ class TransformersModel(Model):
         assert isinstance(default_parameters, TransformersPromptParameters)
         assert default_parameters.model_path is not None
 
+        kwargs = {}
+        if torch_dtype is not None:
+            kwargs["torch_dtype"] = torch_dtype
+
         return AutoModelForCausalLM.from_pretrained(
             default_parameters.model_path,
             device_map=device_map,
             max_memory=max_memory,
             token=self.token,
+            **kwargs,
         )
 
     def _get_prompting_state(
@@ -281,7 +287,7 @@ class Gemma2Model(TransformersModel):
             model_path="google/gemma-2-27b-it",
         )
         self.tokenizer = self._init_tokenizer()
-        self.model = self._init_model(gpus, max_mem_per_gpu)
+        self.model = self._init_model(gpus, max_mem_per_gpu, torch_dtype=torch.bfloat16)
 
     @property
     def default_parameters(self) -> PromptingState:
