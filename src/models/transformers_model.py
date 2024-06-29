@@ -13,7 +13,6 @@ from transformers import (
     AutoModelForCausalLM,
     AutoModelForSeq2SeqLM,
     AutoTokenizer,
-    BatchEncoding,
     PreTrainedModel,
     PreTrainedTokenizer,
     PreTrainedTokenizerFast,
@@ -39,6 +38,7 @@ class TransformersModel(Model):
     SUPPORTED_MODELS = (
         ModelName.AYA_101,
         ModelName.GEMMA_7B,
+        ModelName.GEMMA_2_27B,
         ModelName.MIXTRAL_8X7B,
         ModelName.XGLM_7_5B,
     )
@@ -68,7 +68,9 @@ class TransformersModel(Model):
         if model_name == ModelName.AYA_101:
             return Aya101Model(model_name, max_output_tokens, **kwargs)
         if model_name == ModelName.GEMMA_7B:
-            return Gemma7BModel(model_name, max_output_tokens, **kwargs)
+            return Gemma1Model(model_name, max_output_tokens, **kwargs)
+        if model_name == ModelName.GEMMA_2_27B:
+            return Gemma2Model(model_name, max_output_tokens, **kwargs)
         if model_name == ModelName.MIXTRAL_8X7B:
             return Mixtral8x7BModel(model_name, max_output_tokens, **kwargs)
         if model_name == ModelName.XGLM_7_5B:
@@ -152,7 +154,7 @@ class TransformersModel(Model):
         )
 
 
-class Gemma7BModel(TransformersModel):
+class Gemma1Model(TransformersModel):
     DEFAULT_PARAMETERS = TransformersPromptParameters(
         prompt=None,
         model_name=ModelName.GEMMA_7B,
@@ -252,6 +254,74 @@ class Gemma7BModel(TransformersModel):
             skip_special_tokens=True,
         )
         return output_str, token_probabilities, prompting_state
+
+
+class Gemma2Model(TransformersModel):
+    DEFAULT_PARAMETERS = TransformersPromptParameters(
+        prompt=None,
+        model_name=ModelName.GEMMA_2_27B,
+        max_output_tokens=2048,
+        model_path="google/gemma-2-27b-it",
+    )
+
+    def __init__(
+        self,
+        name: ModelName,
+        max_output_tokens: int,
+        gpus: list[int] | None = None,
+        max_mem_per_gpu: int | None = None,
+        **kwargs,
+    ) -> None:
+        super().__init__(name, max_output_tokens, **kwargs)
+
+        self._default_parameters = TransformersPromptParameters(
+            prompt=None,
+            model_name=name,
+            max_output_tokens=max_output_tokens,
+            model_path="google/gemma-2-27b-it",
+        )
+        self.tokenizer = self._init_tokenizer()
+        self.model = self._init_model(gpus, max_mem_per_gpu)
+
+    @property
+    def default_parameters(self) -> PromptingState:
+        return self._default_parameters
+
+    def _get_prompting_state(
+        self,
+        prompt: str,
+        **prompting_state_kwargs,
+    ) -> TransformersPromptParameters:
+
+        return super()._get_prompting_state(
+            prompt,
+            **prompting_state_kwargs,
+        )
+
+    def get_prompting_state(self, prompt: str) -> PromptingState:
+        return self._get_prompting_state(prompt)
+
+    def prompt(self, prompt: str) -> tuple[str, PromptingState]:
+        encoding = self.tokenizer.encode(prompt, return_tensors="pt").to(self.model.device)
+
+        prompting_state = self._get_prompting_state(prompt)
+
+        outputs = self._call_generate(
+            self.model, prompting_state, model_input_dict={"input_ids": encoding}
+        )
+
+        return self.tokenizer.decode(
+            outputs[0, encoding.shape[1] :],
+            skip_special_tokens=True,
+            clean_up_tokenization_spaces=True,
+        ), prompting_state
+
+    def prompt_and_next_token_probs(
+        self,
+        prompt: str,
+        max_new_tokens: int = 128,
+    ) -> tuple[str, dict[str, float], PromptingState]:
+        raise NotImplementedError
 
 
 class Mixtral8x7BModel(TransformersModel):

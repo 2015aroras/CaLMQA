@@ -20,6 +20,7 @@ class ModelName(enum.Enum):
     AYA_101 = "AYA 13B"
     GEMINI_1_5_PRO = "Gemini 1.5 Pro"
     GEMMA_7B = "Gemma 7B"
+    GEMMA_2_27B = "Gemma 2 27B"
     LLAMA_3_70B_TOGETHER = "Llama 3 70B (together.ai)"
     MIXTRAL_8X7B = "Mixtral 8x7B"
     MIXTRAL_8X22B_API = "Mixtral 8x22B (API)"
