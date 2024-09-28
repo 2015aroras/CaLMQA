@@ -2,6 +2,193 @@
   "entries": [
     {
       "question": {
+        "name": "afar:0",
+        "type": 5,
+        "source": "worker",
+        "collector": "684",
+        "language": "Afar",
+        "translations": {
+          "Afar": {
+            "language": "Afar",
+            "text": "Awsi sultaanet mannal xissiimeeh?"
+          },
+          "English": {
+            "language": "English",
+            "text": "How was the sultanate of Aussa established?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "history"
+      },
+      "answers": [
+        {
+          "name": "afar:0:language.afar:mixtral 8x22b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": " I'm sorry for any confusion, but it seems like the text you've provided is not in a language that I can currently understand or translate. I can assist with questions in several languages, including English, Spanish, French, German, Italian, Dutch, Russian, Chinese, Japanese, and Korean. If you could please provide your question in one of these languages, I'd be more than happy to help!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Awsi sultaanet mannal xissiimeeh?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:0:language.afar:gpt 4 turbo",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Awsi sultaanet mannal xissiimeeh? Kuni Oromoo keessatti gaaffii dha. Garuu, gaaffiin kun sirriitti hin ibsamneefi hiika qabaachuu danda'u. Yoo gaaffiin kun \"Awwi sultanate maal irraa dhufe?\" jechuun ta'e, deebii kennuuf, seenaa fi bakka bu'ummaa gaaffii kanaaf barbaachisaa ta'e qorachuun barbaachisaa dha.\n\nAwwi sultanate ykn sultanoota biroo ilaalchisee, seenaan sultanoota Afrikaa keessatti hedduu dheerataa fi garaagaraa dha. Fakkeenyaaf, Itoophiyaa keessatti sultanootni akka Adal, Ifat, fi Harar seenaa keessatti beekamu. Garuu, \"Awwi\" jedhamu kun bakka ykn sultanate tokko akka ta'e mirkaneessuuf odeeffannoo dabalataa barbaachisa.\n\nYoo gaaffiin kun seenaa, aadaa, ykn siyaasa Oromoo ykn naannoo tokko keessatti xiyyeeffannoo gaafatu ta'e, deebii kennuuf odeeffannoo dabalataa fi qorannoo barbaachisa. Oromoonni sultanoota ykn mootummaa dhaabbilee garaagaraa qabu turan, fakkeenyaaf, mootummaa Gadaa, kan seenaa fi aadaa Oromoo keessatti iddoo guddaa qabu. Garuu, \"Awwi\" jedhamuun walqabatee, odeeffannoo dabalataa fi qorannoo barbaachisa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Awsi sultaanet mannal xissiimeeh?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:0:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Awsi sultaanet mannal xissiimeeh yascaaneh:\n\n1. Awsi sultaanet kee nagayih baaxo kee nammay baaxo kinni.\n2. Awsi sultaanet Soomaaliya baaxol taniimih.\n3. Awsi sultaanet Soomaaliya baaxol 13kki qarni gadda fakkimteh.\n4. Awsi sultaanet Soomaaliya baaxol inki nammay kee xaggay kinniimih.\n5. Awsi sultaanet Ajuuraan Sultaanet kee Adal Sultaanet kinni.\n\nAwsi sultaanet Soomaaliya baaxol sanat kee nagay baaxo kee nammay baaxo kinniimih. Toh Soomaaliya baaxol sanat kee nagay baaxo kee nammay baaxo kinni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Awsi sultaanet mannal xissiimeeh?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:0:language.afar:llama 3 70b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "I think I can help you with that!\n\nIt seems like you're speaking Maldivian (Dhivehi), and you're asking \"Awsi sultaanet mannal xissiimeeh?\" which roughly translates to \"How are you, Sultan of the island?\"\n\nHowever, I'm a large language model, I don't have a physical presence, so I'm not a Sultan of any island. But I'm happy to chat with you and help with any questions or topics you'd like to discuss!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Awsi sultaanet mannal xissiimeeh?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:0:language.afar:gpt 4o",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Awsi Sultaanet waggoota dheeraaf naannoo Harargee Bahaa, Oromiyaa keessatti argamu ture. Sultaanonni Awsi Sultaanet yeroo dheeraaf ummata isaanii bulchaa turan. Sultaan Alii Mirah Huseen, sultaanota beekamoo keessaa tokko, bara 1944 hanga 2011tti Sultaanii Awsi ture. Sultaan Alii Mirah Huseen, yeroo bulchinsa isaa keessatti, ummata isaa fi naannoo isaa keessatti nageenya, misoomaa fi aadaa dagaagsuuf hojjateera.\n\nSultaan Alii Mirah Huseen erga du'ee booda, Sultaan Siraaj Alii Mirah bakka isaa bu'e. Sultaanonni Awsi Sultaanet, aadaa fi seenaa ummata isaanii eeguuf tattaafachaa turan. Awsi Sultaanet, aadaa, seenaa fi duudhaa ummata Oromoo fi ummata naannoo sanaa keessatti iddoo guddaa qaba."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Awsi sultaanet mannal xissiimeeh?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:0:language.afar:aya 13b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Mohammad Ali"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Awsi sultaanet mannal xissiimeeh?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "afar:0:language.afar:gemini 1.5 pro",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Awsi sultaanet mannal xissiimeeh?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:0:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nAsu sultaanet mannal xissiimeeh. Sultaanet mannal xissiimeeh, sultaanid ja mannal on samaa lajia."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Awsi sultaanet mannal xissiimeeh?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
         "name": "afar:1",
         "type": 5,
         "source": "worker",
@@ -376,6 +563,380 @@
     },
     {
       "question": {
+        "name": "afar:3",
+        "type": 5,
+        "source": "worker",
+        "collector": "684",
+        "language": "Afar",
+        "translations": {
+          "Afar": {
+            "language": "Afar",
+            "text": "Qasxago mannal abnu dudnaah?"
+          },
+          "English": {
+            "language": "English",
+            "text": "How can we make asdago (tradiional hair style)?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "religion, beliefs, customs, and traditions"
+      },
+      "answers": [
+        {
+          "name": "afar:3:language.afar:mixtral 8x22b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": " I'm sorry for any confusion, but it seems you're using a language I'm not currently programmed to understand or translate. I can translate and understand a variety of languages, but I'm not familiar with the one you're using. Could you please rephrase your question in English? I'm here to help with any questions you have to the best of my ability."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qasxago mannal abnu dudnaah?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:3:language.afar:gpt 4 turbo",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waan ka xumahay, laakiin su'aashaada ma fahmin. Waxay u muuqataa inay tahay luqad ama xarfo aan la aqoonsan karin. Fadlan, ma ii sheegi kartaa luqadda ama waxaad raadineyso si aan si fiican kuu caawiyo?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qasxago mannal abnu dudnaah?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:3:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waxaan ka xumahay, laakiin ma fahmin waxaad i weydiisay. Ma ahan luqadda Soomaaliga oo sax ah. Fadlan mar kale isku day inaad su'aashaada ku qorto Af Soomaali oo sax ah si aan u fahmo uuna kuu jawaabo si fiican."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qasxago mannal abnu dudnaah?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:3:language.afar:llama 3 70b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "I apologize, but I'm having trouble understanding what you're saying. The text \"Qasxago mannal abnu dudnaah\" doesn't appear to be a valid sentence or phrase in any language I'm familiar with. Could you please rephrase or provide more context so I can better understand and assist you?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qasxago mannal abnu dudnaah?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:3:language.afar:gpt 4o",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Maaf, saya tidak mengerti apa yang Anda maksud dengan \"Qasxago mannal abnu dudnaah.\" Mungkin ada kesalahan ketik atau bahasa yang tidak saya kenali. Bisakah Anda memberikan lebih banyak konteks atau memperjelas pertanyaan Anda? Saya akan dengan senang hati membantu jika saya bisa."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qasxago mannal abnu dudnaah?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:3:language.afar:aya 13b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Qasxago mannal abnu dudnaah ee aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay aay "
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qasxago mannal abnu dudnaah?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "afar:3:language.afar:gemini 1.5 pro",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qasxago mannal abnu dudnaah?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:3:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**उत्तार:** क्लास के बाहर जाकर खेलने या पढ़ने में कुछ समय बिताएं।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qasxago mannal abnu dudnaah?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "afar:4",
+        "type": 5,
+        "source": "worker",
+        "collector": "684",
+        "language": "Afar",
+        "translations": {
+          "Afar": {
+            "language": "Afar",
+            "text": "Nee akke sinni mari Danaakil macah nek iyyaah?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why do outsiders call us Danakil?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "language, art and literature"
+      },
+      "answers": [
+        {
+          "name": "afar:4:language.afar:mixtral 8x22b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": " I'm sorry for any confusion, but it seems like you're using a mix of languages that I'm unable to fully understand. I can communicate in English and many other languages, but I'm not able to interpret mixed language messages. Could you please rephrase your question in English or another single language? I'm here to help with any questions you have to the best of my ability."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nee akke sinni mari Danaakil macah nek iyyaah?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:4:language.afar:gpt 4 turbo",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Danaakil macah, yookan Afar macah, Etiyoophiyaa, Eretriyaa fi xiqqoo Djiibuutii keessatti argama. Macah kun \"Dallol\" jedhamuun beekama. Dallol keessatti, aduu rooba hinqabneen walqabatee, lafa irratti argaman keessaa tokko ta'ee, addunyaarratti iddoo garmalee ho'aa ta'ee dha. Akka gabaasa qorannoo adda addaatti, Dallol keessatti gadi aanaan isaa digirii seentigireedii 34.4 ta'uun galmeeffameera. Garuu, kunis yeroo fi haala qilleensaa irratti hundaa'uun jijjiirama.\n\nDanaakil macah keessatti, bishaan achi keessaa ba'u gar-malee aashidii fi milkaa'ina adda addaatiin guutameera. Kunis, iddoowwan kunniin akka addunyaatti adda taasisa. Bineeldonni fi biqiltoonni naannoo kana keessa jiraatanis, haalli kun akkaataa ittiin jiraatan irratti dhiibbaa guddaa qaba.\n\nYoo si gaafatan, Danaakil macah akka daawwannaa gochuuf, qophii taasisuun barbaachisaa dha. Sababni isaas, naannoon kun baay'ee ho'aa fi haalli qilleensaa ulfaataa waan ta'eef, qophii fi of eeggannoo cimaa gochuun barbaachisaa dha. Kanaaf, daawwataa ta'uuf karoorfachuun dura, qorannoo fi qophii ga'aa taasisuun, giddu-gala qorannoo yookiin dhaabbilee daldaalaa naannichatti argaman waliin haala mijeessuun murteessaadha."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nee akke sinni mari Danaakil macah nek iyyaah?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:4:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Nek iyyaah Afar af kee namma mari Danaakil baaxo kee ummatta kinni. Danaakil baaxol Afar ummatta radeh yan. Afar af Kuuxi af kin xaagu kinni, toh Kuuxi afak Afar afih inki mara kinni. Afar afak yaabimta kee yaabah af kinni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nee akke sinni mari Danaakil macah nek iyyaah?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:4:language.afar:llama 3 70b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "I see you're speaking in Somali!\n\nThe translation of your sentence is: \"What's the news, my dear Danaakil friend, how are you?\"\n\nHere's a breakdown of the sentence:\n\n* \"Nee\" means \"what\"\n* \"akke\" is a term of endearment, similar to \"my dear\"\n* \"sinni\" means \"news\"\n* \"mari\" is a question marker, similar to \"is\" or \"are\"\n* \"Danaakil\" is a Somali clan name\n* \"macah\" means \"friend\"\n* \"nek\" is a question marker, similar to \"how\" or \"what about\"\n* \"iyyaah\" means \"you\" (singular, informal)\n\nSo, the sentence is asking about the news and well-being of a friend from the Danaakil clan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nee akke sinni mari Danaakil macah nek iyyaah?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:4:language.afar:gpt 4o",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Maaf, saya tidak mengerti bahasa yang Anda gunakan. Bisakah Anda memberikan lebih banyak konteks atau menggunakan bahasa lain seperti Bahasa Indonesia atau Bahasa Inggris? Saya akan dengan senang hati membantu Anda."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nee akke sinni mari Danaakil macah nek iyyaah?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:4:language.afar:aya 13b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waxaa la dhihi jiray ninkii Danaakil ahaa ee macaha neecawda ayaa nin kale macaha neecawda u keenay."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nee akke sinni mari Danaakil macah nek iyyaah?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "afar:4:language.afar:gemini 1.5 pro",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nee akke sinni mari Danaakil macah nek iyyaah?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:4:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nAkke sinni mari Danaakil macah nek iyyaah. Macha akke sinni mariyaan, iyyaah."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Nee akke sinni mari Danaakil macah nek iyyaah?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
         "name": "afar:5",
         "type": 5,
         "source": "worker",
@@ -737,6 +1298,380 @@
           },
           "prompting_state": {
             "prompt": "Qafar rakaakayih doolat inaytâ magaala Aysaqiitak Samara fan kah milaagem macaay?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "afar:7",
+        "type": 5,
+        "source": "worker",
+        "collector": "684",
+        "language": "Afar",
+        "translations": {
+          "Afar": {
+            "language": "Afar",
+            "text": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What do Adoimara and Asaimara mean?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "language, art and literature"
+      },
+      "answers": [
+        {
+          "name": "afar:7:language.afar:mixtral 8x22b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": " I'm sorry for any confusion, but it seems like the text you've provided is not in a language that I can currently translate. I can translate between English, Spanish, French, German, and several other languages. If you're looking for a translation, could you please provide the text in one of these languages? If you need help with something else, feel free to ask!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:7:language.afar:gpt 4 turbo",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Qadooyaamaraa kee Qasaayamara, afaan Oromoo keessatti, hiika guddaa qabu. Jechoonni kun lamaanuu, yeroo baay'ee, walitti dhufeenya qabu. \n\n1. **Qadooyaamaraa** - Jechi kun hiika adda addaa qabaachuu danda'a. Garuu, yeroo baay'ee, jechi kun kan ibsamu yoo ta'u, \"qadooyaa\" jechuun waan tokko ykn namni tokko akkaataa ittiin qadoomu, ykn jaalala, kabaja, fi ulfina guddaa agarsiisu dha. Kanaaf, \"Qadooyaamaraa\" jechuun, namni ykn waan tokko jaalala, kabaja, fi ulfina guddaa agarsiisuun, ykn akkaataa ittiin qadoomu agarsiisu dha.\n\n2. **Qasaayamara** - Jechi kunis, hiika adda addaa qabaachuu danda'a. Garuu, yeroo baay'ee, \"Qasaaya\" jechuun waan tokko ykn namni tokko akkaataa ittiin qasa'amu, ykn miidhaa, gadadoo, ykn rakkoolee adda addaa agarsiisu dha. Kanaaf, \"Qasaayamara\" jechuun, namni ykn waan tokko miidhaa, gadadoo, ykn rakkoolee adda addaa agarsiisuun, ykn akkaataa ittiin qasa'amu agarsiisu dha.\n\nYeroo tokko tokkoon, jechoonni kun lamaanuu walitti dhufeenya qabu, akkaataa ittiin namoonni ykn waan tokko tokko jaalala fi kabaja guddaa agarsiisuun alatti, miidhaa fi gadadoo keessatti argamu agarsiisuun. Kanaaf, \"Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay?\" jechuun, jaalalli fi kabajni ati agarsiistu miidhaa fi gadadoon naaf ta'e, ykn na miidhe, na qasa'e jechuun dha. Hiika guddaa qabu, yeroo baay'ee, namoonni walitti dhufeenya isaanii keessatti jaalala fi miidhaa, kabaja fi gadadoo gidduu jiru ilaaluuf itti fayyadamu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:7:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay jechuun Afaan Oromootiin:\n\nQadooyaamaraa fi Qasaayamara gidduutti yoom deemuu dandeessa? jechuudha.\n\nKunis iddoo lama gidduutti karaa ykn yeroo meeqaatti akka deemuu danda'amu gaafachuu dha. Fakkeenyaaf, magaalaa lama gidduutti konkolaataan sa'aatii meeqaan akka geenyu gaafachuu jechuudha."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:7:language.afar:llama 3 70b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "I apologize, but I'm a large language model, I am not familiar with the language or script you are using. The text you provided appears to be in a non-Latin script and I'm not trained to read or understand it.\n\nCould you please provide a translation or transliteration of the text into a language I can understand, such as English? I'll do my best to assist you with your question."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:7:language.afar:gpt 4o",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:7:language.afar:aya 13b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay? Qadooyaamaraa kee Q"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "afar:7:language.afar:gemini 1.5 pro",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:7:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Answer:**\n\nक्वादूयामा रामा की कथा एक ऐसी कथा है जो दुनिया में सबसे अधिक पढ़ी गई और अनुवादित कथाओं में से एक है। यह कथा रमा के जीवन और वनन के बाद के अनुभवों पर आधारित है। रमा की कथा में कई विषय हैं जिनमें धर्म, प्रेम, वकालत और शिक्षा शामिल हैं। यह कथा विभिन्न कला रूपों में व्यक्त हुई है, जैसे कि रंगमाल, नाटक और फिल्म।"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qadooyaamaraa kee Qasaayamara yaanam maca yaanamaay?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "afar:8",
+        "type": 5,
+        "source": "worker",
+        "collector": "684",
+        "language": "Afar",
+        "translations": {
+          "Afar": {
+            "language": "Afar",
+            "text": "Keeke digir mannal Abaanaah?"
+          },
+          "English": {
+            "language": "English",
+            "text": "How is keeke dance performed?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "religion, beliefs, customs, and traditions"
+      },
+      "answers": [
+        {
+          "name": "afar:8:language.afar:mixtral 8x22b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": " I'm sorry for any confusion, but it seems like your message is written in a language I'm not able to understand or translate. I can assist you in various ways if you write in English. If you're looking for a translation, could you please provide the language and the text you'd like translated?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Keeke digir mannal Abaanaah?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:8:language.afar:gpt 4 turbo",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Keeke digir mannal Abaanaah, waxay ka mid tahay su'aalaha aan si toos ah uga jawaabi karin maadaama ay u muuqato inay tahay qoraal ku saabsan luqad aanan aqoon u lahayn ama aan si cad u fahmi karin. Haddii ay tahay su'aal ku saabsan mawduuc gaar ah ama codsi macluumaad, fadlan si cad u qeex su'aashaada ama bixi macluumaad dheeraad ah si aan kuu caawin karo. Waxaan ku dadaalayaa inaan bixiyo jawaabta ugu fiican ee suurtogalka ah marka la eego xogta aan hayo iyo awooddayda fahamka."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Keeke digir mannal Abaanaah?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:8:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waan ka xumahay, laakiin ma fahmin waxaad i weydiisay. Waxaad ku hadashaa af Soomaali, kaas oo aanan aqoon. Haddii aad ku hadasho Ingiriis, waxaan isku dayaa inaan kaa caawiyo sidii aan awoodo. Fadlan iigu soo celi su'aashaada Ingiriis ahaan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Keeke digir mannal Abaanaah?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:8:language.afar:llama 3 70b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "I see you're speaking Somali!\n\n\"Keeke digir mannal Abaanaah\" roughly translates to \"How are you, my father?\" in English.\n\nHere's a breakdown of the sentence:\n\n* \"Keeke\" means \"how\" or \"what\"\n* \"digir\" means \"are you\" (informal way of asking)\n* \"mannal\" means \"my father\" (a term of respect)\n* \"Abaanaah\" means \"father\" (again, a term of respect)\n\nSo, the sentence is a way of showing respect and asking about someone's well-being, similar to saying \"How are you, sir?\" or \"How are you, respected father?\""
+            }
+          },
+          "prompting_state": {
+            "prompt": "Keeke digir mannal Abaanaah?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:8:language.afar:gpt 4o",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "\"Keeke digir mannal Abaanaah?\" jechuun maal jechuu akka ta'e ifa miti. Mee, gaaffii kee sirriitti ibsuu dandeessa? Yookaan, wanta ati gaafachuu barbaadde irratti odeeffannoo dabalataa kennuu dandeessa? Anis siif gargaara."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Keeke digir mannal Abaanaah?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:8:language.afar:aya 13b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Keeke digir mannal Abaanaah eqqal a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan a eqqalan "
+            }
+          },
+          "prompting_state": {
+            "prompt": "Keeke digir mannal Abaanaah?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "afar:8:language.afar:gemini 1.5 pro",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Keeke digir mannal Abaanaah?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:8:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Abaanaah** (1983-2018) was a Pakistani singer, songwriter, and composer. He is considered one of the most influential figures in Pakistani music history. His songs resonated with generations of listeners and transcended cultural boundaries. Abaanaah's music reflected the socio-political realities of his time, addressing themes of love, loss, identity, and the human condition."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Keeke digir mannal Abaanaah?\n",
             "model_name": "Gemma 7B",
             "max_output_tokens": 2048,
             "other_state": {},
@@ -2807,6 +3742,193 @@
     },
     {
       "question": {
+        "name": "afar:20",
+        "type": 5,
+        "source": "worker",
+        "collector": "684",
+        "language": "Afar",
+        "translations": {
+          "Afar": {
+            "language": "Afar",
+            "text": "Sultaan Macammad Yayyo 1939 Room fan kah gexem macak teneeh?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why did Sultan Mohammed Yayo travel to Rome in 1939?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "history"
+      },
+      "answers": [
+        {
+          "name": "afar:20:language.afar:mixtral 8x22b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": " I'm sorry for any confusion, but it seems like your message is a mix of different languages and possibly a specific date. I'm here to help answer questions in a variety of languages, but I need a clear question to provide an accurate response.\n\nIf you're asking about a fan in a room in 1939, I'd be happy to help with that. However, I need more context to provide a meaningful response. Could you please clarify your question?\n\nIf you're asking about a historical figure, Sultan Muhammad V of Kelantan (who was born in 1969, not 1939), I'd be happy to help with information about him, but I need a clear question.\n\nPlease provide more details so I can assist you better."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sultaan Macammad Yayyo 1939 Room fan kah gexem macak teneeh?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:20:language.afar:gpt 4 turbo",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Sultaan Macammad Yayyo, 1939 Room (Rome) kee fan kah gexem macak teneeh, yab tamaatitte qafar afat yaniinim kee yab diinih yan maritte qafar afat yan xayyosanitteh yanik geytimta. Sultaan Macammad Yayyo, Afrika kee Arabiyah gexso Afar kee Sitti magaalal gaba tanih yan sittinah doolat yabta. Itiyoppiya dawladal geytimtah tan qunxa garab saqalah yan, Afar sultanatek gaba tanih yan rakaakayal geytimta.\n\n1939 Room fanah, Dagaaral Addunya Qidduu (Second World War) yabta. Itiyoppiya, 1935-1936 kee fanah, Italiya dawladal gexxam yascasseh tan, Mussolini dawladal geytimtah tan dagaaral kaxxa le marih yan. Sultaan Macammad Yayyo, dagaaral addunya qiddu fanah, Italiya dawladal gexxam yascassah tanimiiy, Afar sultanatek geytimta kee itiyoppiya dawladal geytimtah tan mara kinni.\n\nSultaan Macammad Yayyo, Afar sultanatek rakaakayak geytimta kee, Afar afat yan marih yan, itiyoppiya kee ertra dawladal geytimtah tan mara kinni. Itiyoppiya dawladal geytimtah tan, Haile Selassie I, 1941 kee fanah, Italiya dawladal gexxam yascasseh tanimiiy, Itiyoppiya dawladal geytimta. Sultaan Macammad Yayyo, Afar sultanatek rakaakayak geytimta kee, Afar afat yan marih yan, itiyoppiya kee ertra dawladal geytimtah tan mara kinni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sultaan Macammad Yayyo 1939 Room fan kah gexem macak teneeh?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:20:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Waan ka xumahay, ma garanayo in Sultaan Macammad Yayyo sanadkii 1939 room fan isticmaalay iyo in kale. Ma hayo macluumaad ku filan oo ku saabsan nolosha shakhsiyadeed ee Sultaan Macammad Yayyo si aan u sheego haddii uu lahaa room fan sanadkaas. Haddii aad rabto macluumaad dheeraad ah oo ku saabsan taariikhda qalabka korontada ee Soomaaliya, waxaan kugula talin lahaa inaad raadiso ilo kale sida buugaag ama maqaallo ku saabsan mowduucan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sultaan Macammad Yayyo 1939 Room fan kah gexem macak teneeh?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:20:language.afar:llama 3 70b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "I apologize, but I'm having trouble understanding your question. It appears to be written in a dialect or language that I'm not familiar with. Could you please rephrase or translate your question into a language I can understand, such as English? I'll do my best to assist you.\n\nHowever, I noticed that \"Sultaan Macammad Yayyo\" seems to be a Somali name, and \"1939\" is a year. If you're asking about something related to Somalia or a historical event in 1939, I'd be happy to try and help if you can provide more context or clarify your question."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sultaan Macammad Yayyo 1939 Room fan kah gexem macak teneeh?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:20:language.afar:gpt 4o",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Sultaan Maxamed Yaasiin Xasan, oo sidoo kale loo yaqaan Maxamed Yaasiin Xasan (Maxamed Yaasiin), wuxuu ahaa sarkaal sare oo Soomaaliyeed iyo siyaasi caan ah. Wuxuu ku dhashay magaalada Muqdisho sanadkii 1939. Maxamed Yaasiin Xasan wuxuu door muhiim ah ka ciyaaray siyaasadda Soomaaliya, gaar ahaan xilligii dowladdii kacaanka ee Maxamed Siyaad Barre.\n\nHaddii aad su'aal ka qabto taariikh nololeedkiisa ama waxqabadkiisa, fadlan sii faahfaahin dheeraad ah si aan si fiican kuugu caawiyo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sultaan Macammad Yayyo 1939 Room fan kah gexem macak teneeh?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:20:language.afar:aya 13b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Hana"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sultaan Macammad Yayyo 1939 Room fan kah gexem macak teneeh?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "afar:20:language.afar:gemini 1.5 pro",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Maaf, laakin ma'lumot yeh nahin hai ke Sultan Muhammad Yayyo ne 1939 mein kaun sa room fan use kiya tha. \n\nYeh jaankaari shayad kisi bhi historical record mein available nahin hogi. \n"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sultaan Macammad Yayyo 1939 Room fan kah gexem macak teneeh?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:20:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Sultaan Macammad Yayyo 1939 Room fan kah gexem macak teneeh?\n\n**Answer:** I am unable to provide information related to individuals or specific events."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Sultaan Macammad Yayyo 1939 Room fan kah gexem macak teneeh?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
         "name": "afar:21",
         "type": 5,
         "source": "worker",
@@ -3355,6 +4477,193 @@
           },
           "prompting_state": {
             "prompt": "Qadaal sultaanet inayta magaala Hararak Aysaqiita fan kah korsem macak teneeh?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "afar:24",
+        "type": 5,
+        "source": "worker",
+        "collector": "684",
+        "language": "Afar",
+        "translations": {
+          "Afar": {
+            "language": "Afar",
+            "text": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why was the sale of milk considered taboo in Afar culture?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "religion, beliefs, customs, and traditions"
+      },
+      "answers": [
+        {
+          "name": "afar:24:language.afar:mixtral 8x22b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": " I'm sorry for any confusion, but it seems you're using a mix of languages or codes that I'm unable to understand. I'm designed to understand and generate responses in English and a few other languages, but I don't recognize the language or code in your message. Could you please rephrase your question in English? I'm here to help with any questions you have to the best of my ability."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:24:language.afar:gpt 4 turbo",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay yabta leh yanin, macaayta kah sugte kee qafar afat yaniinik, qafar af kee aada, seeni, diini, kee aadaa qiddaaseh tanimiiy sugte. Qafar afat yaniinik, qafar rakaakayak sugteh tan qunxa garab saqalah yan mara. \n\n1. **Qafar Af**: Qafar afat yaniinik, qafar af kee aada, seeni, kee diini sugteh tan qunxa garab saqalal yan mara. Qafar afal qafar rakaakayak sugteh tan qunxa garab saqalal yan mara. Qafar afal qafar rakaakayak sugteh tan qunxa garab saqalal yan mara.\n\n2. **Aada**: Qafar qaadah canti maylammo kalaatah kah sugtem macaay yabta leh yanin, aada kee aadaa qiddaaseh tanimiiy sugte. Aada kee aadaa qiddaaseh tanimiiy sugteh tan qunxa garab saqalal yan mara.\n\n3. **Seeni**: Qafar qaadah canti maylammo kalaatah kah sugtem macaay yabta leh yanin, seeni sugteh tan qunxa garab saqalal yan mara. Seeni sugteh tan qunxa garab saqalal yan mara.\n\n4. **Diini**: Qafar qaadah canti maylammo kalaatah kah sugtem macaay yabta leh yanin, diini sugteh tan qunxa garab saqalal yan mara. Diini sugteh tan qunxa garab saqalal yan mara.\n\nQafar qaadah canti maylammo kalaatah kah sugtem macaay yabta leh yanin, qafar afat yaniinik, qafar af kee aada, seeni, diini, kee aadaa qiddaaseh tanimiiy sugte."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:24:language.afar:claude opus",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Qafar af kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak.\n\nAnaa kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak kee naba caddoyta geytaamak."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:24:language.afar:llama 3 70b (together.ai)",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "I apologize, but I'm a large language model, I am not familiar with the language or script you are using. The text you provided appears to be in a non-Latin script and is not recognizable to me.\n\nCould you please provide more context or translate the text into a language I can understand, such as English? I'll do my best to assist you with your question."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:24:language.afar:gpt 4o",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sugtem macaay, canti maylammo kah sug"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "afar:24:language.afar:aya 13b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "afar:24:language.afar:gemini 1.5 pro",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "afar:24:language.afar:gemma 7b",
+          "language": "Afar",
+          "translations": {
+            "Afar": {
+              "language": "Afar",
+              "text": "**Jawaban:**\n\nQafar qaadah canti maylammo kalaatah kah sugtem macaay adalah:\n\n- **Menjadikan orang-orang biasa menjadi orang-orang penting.**\n- **Menjadikan orang-orang yang terpencil menjadi bagian dari kelompok.**\n- **Menjadikan orang-orang yang terlambat menjadi orang-orang yang terdepan.**\n- **Menjadikan orang-orang yang tidak memiliki sesuatu menjadi orang-orang yang memiliki sesuatu.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Qafar qaadah canti maylammo kalaatah kah sugtem macaay?\n",
             "model_name": "Gemma 7B",
             "max_output_tokens": 2048,
             "other_state": {},

@@ -376,6 +376,193 @@
     },
     {
       "question": {
+        "name": "faroese:2",
+        "type": 5,
+        "source": "worker",
+        "collector": "333",
+        "language": "Faroese",
+        "translations": {
+          "Faroese": {
+            "language": "Faroese",
+            "text": "Hví halda vit Ovastevnu?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why do we celebrate Ovastevna?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "religion, beliefs, customs, and traditions"
+      },
+      "answers": [
+        {
+          "name": "faroese:2:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Ég er ekki vís um hvað þú ert að spyrja, en ef þú spyrir hvers vegna við halda Ovastevnu, þá er svarið því að það er mikilvægt að halda Ovastevnu til að tryggja að allir fái jafnrétti og jafnræði. Það er einnig mikilvægt að halda Ovastevnu til að tryggja að allir geti skilið sér á eigin leið og haldið sér í friði.\n\nEf þú ert að spyrja hvers vegna við halda Ovastevnu á Íslandi, þá er svarið því að Ísland er þjóðfélagssamfélag og þar með er hægt að halda Ovastevnu og tryggja jafnræði og jafnrétti fyrir alla.\n\nEf þú ert að spyrja hvers vegna við halda Ovastevnu á öðrum stað, þá er svarið því að það er mikilvægt að halda Ovastevnu til að tryggja að allir fái jafnrétti og jafnræði, og til að tryggja að allir geti skilið sér á eigin leið og haldið sér í friði.\n\nHvaða spurningu sem er, er svarið því að það er mikilvægt að halda Ovastevnu til að tryggja að allir fái jafnrétti og jafnræði, og til að tryggja að allir geti skilið sér á eigin leið og haldið sér í friði."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ovastevnu?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:2:language.faroese:gpt 4 turbo",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Ovastevna, eisini kend sum Ólavsøka, er Føroya tjóðarhátíð, sum verður hildin í Tórshavn ár hvert 28. og 29. juli. Hátíðin er til minnis um Ólav Tryggvason, Noregs kong, sum liggur grivin í Tróndheimi. Hann hevur stóran týdning fyri Føroyar, tí hann er sagdur at hava kristnað Føroyar um ár 1000.\n\nOvastevna er ein samanrenning av mentanarligum og søguligum tiltøkum, sum fevnir um alt frá skrúðgongum, tónleiki, dansi og ítrótti til kirkjuligar hátíðarhald. Hátíðin er eisini ein tíð, tá ið føroyingar savnast fyri at heiðra sína søgu og mentan og styrkja samanhaldið í samfelagnum.\n\nUpprunaliga var Ólavsøka ein kirkjulig hátíð til minnis um heilagan Ólav. Við tíðini er hon tó vorðin meira ein tjóðarhátíð, har dentur verður lagdur á føroyska mentan, søgu og samfelag. Hátíðin er eisini ein møguleiki fyri føroyingum, sum búgva uttanlands, at koma heim og hitta familju og vinir.\n\nÍ dag er Ovastevna eitt týðandi táttur í føroyska samfelagnum og ein av teimum størstu og mest umfatandi mentanarhendingum í Føroyum, sum draga fólk saman úr øllum landinum og eisini útlendskar gestir."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ovastevnu?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:2:language.faroese:claude opus",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Vit halda Ólavsøku tí hon er ein týðandi tjóðarhátíð í Føroyum. Ólavsøka er 29. juli, og er ein frídagur í Føroyum. Ólavsøka er ársins hægsta flaggdagur og ein mentanarhátíð, har fólk koma saman at halda og minnast Ólavur hin Heilaga, sum er verndarhalgið í Føroyum.\n\nÓlavsøka er eisini politiskt týðandi, tí Løgtingið letur upp eftir summarferiuna á Ólavsøku. Harumframt eru nógvir mentanartiltøk, ítróttarkappingar, tónleikaframførslur og onnur tiltøk kring landið í sambandi við Ólavsøku.\n\nSo Ólavsøka er ein sera týðandi dagur fyri føroyingar, bæði søguliga, mentanarliga og politiskt. Hon er við til at styrkja samleikan og felagsskapin millum føroyingar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ovastevnu?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:2:language.faroese:llama 3 70b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "I see you're speaking Icelandic!\n\n\"Hví halda vit Ovastevnu?\" translates to \"Why do we hold Ovastevnu?\"\n\nOvastevnu is an Icelandic word that roughly translates to \"annual meeting\" or \"general assembly\". So, the question is asking why we hold an annual meeting or general assembly.\n\nWould you like to discuss the importance of holding annual meetings or general assemblies?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ovastevnu?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:2:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Ovastevna er ein mentanarlig og sosialur festivalur, sum verður hildin á Toftum í Føroyum. Stevnan er ein av fleiri summarstevnum í Føroyum, og hon hevur til endamáls at savna fólk saman til at njóta mentan, ítrótt, tónleik og felagsskap. Ovastevnan er kend fyri at hava eina fjølbroytta skrá við tiltøkum fyri bæði børn og vaksin, og hon er ein góð møguleiki fyri at uppliva føroyska mentan og siðvenju.\n\nNavnið \"Ovastevna\" kemur frá Ova, sum er eitt staðarnavn á Toftum. Stevnan hevur røtur í gomlum siðvenjum og er vorðin ein fastur táttur í føroyska summarinum. Fólk koma saman til kappróður, tónleikatiltøk, framsýningar, marknaðir og onnur tiltøk, sum skapa eina livandi og hugnaliga atmosfæru.\n\nOvastevnan er eisini ein týdningarmikil hending fyri lokalsamfelagið, tí hon styrkir samanhaldið og gevur møguleika fyri at vísa fram tað, sum bygdarfólkið hevur at bjóða. Tað er ein tíð, har fólk kunnu njóta summarið, møta gomlum kenningum og skapa nýggjar minnir."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ovastevnu?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:2:language.faroese:aya 13b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Ovastevnu er hátíð sem er haldin í Gujarat í Indlandi. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju ári. Það er hátíð sem er haldin til að fagna nýju árinu og til að fagna nýju "
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ovastevnu?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "faroese:2:language.faroese:gemini 1.5 pro",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ovastevnu?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:2:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Halda víta Ovastevnu má 1200 metrov.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Ovastevnu?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
         "name": "faroese:3",
         "type": 5,
         "source": "worker",
@@ -1685,6 +1872,193 @@
     },
     {
       "question": {
+        "name": "faroese:10",
+        "type": 5,
+        "source": "worker",
+        "collector": "333",
+        "language": "Faroese",
+        "translations": {
+          "Faroese": {
+            "language": "Faroese",
+            "text": "Hvørji fíggjarlig viðurskifti fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Which financial circumstances forced a lot of faroese people to move abroad in the early nineties?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "economy and industry"
+      },
+      "answers": [
+        {
+          "name": "faroese:10:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Ikkert eru tíðarar føroyingar fluttir av landinum fyrst í 90'unum, men ein av størstu orsøkunum varu fiskiveiðiskvøðini. Føroyar hava langt verið avhengig av fiskveiðinum, og í 90'unum var fiskimarknaðurin í fari með at verða meir og meir konkurrensumarknaður. Í tíðini fyrr í 90'unum var fiskimarknaðurin á Føroyum styrktur av fiskveiðiskvøðunum, men í 90'unum varu fiskveiðiskvøðunum fjarlægðar, og føroyingar fengu nógv at flyta av landinum til að finna arbeiði í fiskimarknaðinum á útnorð.\n\nEin annar orsøkur varu at føroyingar fengu nógv at flyta av landinum til að søka út í heiminum og at læra nýggjara tíðar og kultúr. Mange føroyingar fluttu til Danmarkar og Noregjar til að søka út í heiminum og at læra nýggjara tíðar og kultúr.\n\nEin tredji orsøkur varu at føroyingar fengu nógv at flyta av landinum til að finna betri arbeiðsmuligheitar. Føroyar eru smá øki, og þar eru nógv færre arbeiðsmuligheitar en í møturlandinum. Mange føroyingar fluttu til Danmarkar og Noregjar til að finna betri arbeiðsmuligheitar.\n\nSum orsøkur til at føroyingar fluttu av landinum í 90'unum varu:\n\n* Fiskiveiðiskvøðini\n* At søka út í heiminum og at læra nýggjara tíðar og kultúr\n* At finna betri arbeiðsmuligheitar"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji fíggjarlig viðurskifti fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:10:language.faroese:gpt 4 turbo",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Fyrst í 1990'unum upplivdu Føroyar ein búskaparligan niðurgang, sum fekk stórar avleiðingar fyri fíggjarligu viðurskiftini hjá mongum føroyingum. Hetta tíðarskeiðið er ofta nevnt \"Føroyska Búskaparkreppan\". Kreppan byrjaði í 1988 og stóð við til miðskeiðis í 1990'unum. Fleiri ymiskir faktorar vóru orsøk til kreppuna, men høvuðsorsøkirnar vóru yvirfiskiskapur og ovurstórur almennur og privatur skuldsetingur.\n\nÍ 1980'unum høvdu Føroyar upplivað ein búskaparligan vøkstur, serliga innan fiskivinnuna, sum var og er høvuðsvinnan í landinum. Hetta førdi til, at bæði privat fólk og fyritøkur tóku stór lán í útlendskum gjaldoyra fyri at íløga í fiskiflotan og aðrar vinnur. Tá fiskaprísirnir á heimsmarknaðinum fóru at falla, og samstundis sum yvirfiskiskapur minkaði um fiskastovnarnar, minkaðu inntøkurnar hjá fiskivinnuni munandi.\n\nFøroyska landsstýrið royndi at basa kreppuni við at taka lán úti í heimi, men hetta førdu bara til enn størri skuldseting. Í 1992 varð føroyska krónan devaluerað (minkað í virði) í mun til danska krónuna, sum føroyska krónan er knýtt at. Hetta gjørdi útlendsku skuldina enn størri í føroyskum krónum.\n\nFíggjarligu avleiðingarnar vóru álvarsligar. Arbeiðsloysið steig skjótt, og nógv fólk mistu húsini, tí tey ikki megnaðu at rinda lánini aftur. Inntøkuminking og vaksandi arbeiðsloysi førdu til, at nógvir føroyingar valdu at flyta av landinum í leitan eftir betri møguleikum, serliga til Danmarkar, men eisini til aðrar lond. Hetta var ein stórur demografiskur og sosialur avbjóðing fyri Føroyar.\n\nKreppan hevði langtíðar avleiðingar fyri føroyska búskapin og samfelagið, og tað tók fleiri ár fyri Føroyar at koma fyri seg aftur. Men kreppan førdi eisini við sær broytingar í fiskivinnupolitikkinum og í fíggjarligum reguleringum, sum hava hjálpt til at gera føroyska búskapin meira burðardyggan."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji fíggjarlig viðurskifti fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:10:language.faroese:claude opus",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Í byrjanini av 1990'unum fóru Føroyar ígjøgnum eina djúpa fíggjarliga kreppu, sum fekk nógvar føroyingar at flyta av landinum. Høvuðsorsøkirnar til hesa kreppu vóru:\n\n1. Bankakreppan: Føroysku bankarnir komu í stórar trupulleikar, tá ið lán ikki vórðu goldin aftur. Hetta elvdi til, at Sjóvinnubankin og Føroya Banki fóru av knóranum í 1992-93.\n\n2. Fiskivinnan í kreppu: Prísurin á fiski fall, samstundis sum ov nógv skip og ov stórur fiskiorka var. Hetta elvdi til hall og skuld hjá nógvum reiðaríum.\n\n3. Fastognarkreppan: Prísurin á sethúsum og íløgum fall munandi, so nógv húsarhald sótu eftir við stórum skuldarbyrðum.\n\n4. Vaksandi arbeiðsloysi: Orsakað av hesum kreppum, vaks arbeiðsloysið í Føroyum upp í næstan 25% mitt í 90'unum.\n\n5. Fólkaflyting: Vegna vánaligu búskaparligu útlitini og arbeiðsloysið, fluttu nógv ung og útbúgvin fólk av landinum, serliga til Danmarkar, fyri at fáa arbeiði.\n\nSamanumtikið var tað ein samanseting av bankakreppuni, trupulleikum í fiskivinnuni, fallandi fastognaprísum og vaksandi arbeiðsloysi, sum fekk nógv fólk at flyta úr Føroyum í 90'unum fyri at finna arbeiði og betri livikor aðrastaðni."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji fíggjarlig viðurskifti fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:10:language.faroese:llama 3 70b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "A very specific and interesting question!\n\nIn the early 1990s, many Faroese people emigrated from the Faroe Islands due to a severe economic crisis. This crisis was caused by a combination of factors, including:\n\n1. **Overfishing and collapse of the fishing industry**: The Faroe Islands' economy was heavily dependent on fishing, but in the late 1980s, the fishing industry experienced a severe decline due to overfishing and a decrease in fish stocks. This led to a significant reduction in fishing quotas, which in turn led to a decline in the number of jobs available in the industry.\n2. **Banking crisis**: In 1992, the Faroese banking system experienced a crisis, which led to a shortage of capital and a decline in investment in the country.\n3. **High unemployment**: The combination of the fishing industry's decline and the banking crisis led to high unemployment rates, which peaked at around 20% in 1993.\n4. **Lack of diversification**: The Faroese economy was not diversified enough, making it vulnerable to fluctuations in the fishing industry.\n\nAs a result of these factors, many Faroese people, especially young people, chose to emigrate to other countries, such as Denmark, Norway, and Iceland, in search of better job opportunities and a more stable economy. This emigration wave, which started in the early 1990s, continued throughout the decade and had a significant impact on the Faroese population and economy."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji fíggjarlig viðurskifti fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:10:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Fyrst í 1990'unum upplivdu Føroyar eina djúpa fíggjarkreppu, sum hevði stórar avleiðingar fyri landið og íbúgvarnar. Kreppan var merkt av fleiri viðurskiftum, sum til dømis:\n\n1. **Bankakreppa**: Fleiri av teimum stóru føroysku bankunum fóru á húsagang, og hetta førdi til eina stóra fíggjarliga óvissu og mistar uppsparingarnar hjá nógvum fólki.\n\n2. **Arbeiðsloysi**: Kreppan førdi til høgt arbeiðsloysi, tí nógvar fyritøkur máttu lata aftur ella skerja virksemið. Hetta gjørdi, at nógvir føroyingar mistu arbeiðið og høvdu trupult við at finna nýtt arbeiði.\n\n3. **Skuld**: Nógv fólk og fyritøkur høvdu tikið stór lán, og tá fíggjarkreppan rakti, gjørdist tað trupult at rinda skuldina aftur. Hetta førdi til fleiri húsagangir og fíggjarligar trupulleikar hjá bæði einstaklingum og fyritøkum.\n\n4. **Útflutningur**: Fiskivinnan, sum er ein av høvuðsvinnunum í Føroyum, var eisini hart rakt av kreppuni. Prísirnir á fiski á altjóða marknaðinum vóru lágir, og hetta ávirkaði inntøkurnar hjá føroyskum fiskivinnufyritøkum.\n\nHesi fíggjarligu viðurskifti førdu til, at nógvir føroyingar valdu at flyta av landinum fyri at leita eftir betri fíggjarligum møguleikum og arbeiði aðrastaðni, serliga til Danmarkar. Kreppan hevði langvarandi avleiðingar fyri føroyska samfelagið, men við tíðini hevur landið megnað at bygt seg upp aftur fíggjarliga."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji fíggjarlig viðurskifti fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:10:language.faroese:aya 13b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Fjárkreppan í Føroyum í 90-unum varð ein av orsakunum til at nógvir føroyingar fluttu av landinum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji fíggjarlig viðurskifti fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "faroese:10:language.faroese:gemini 1.5 pro",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji fíggjarlig viðurskifti fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:10:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "* Íslendingar\n* Fíkkjarar\n* Þjóðaríkar\n* Ítalíkar\n\nRit í sérslitan.\n\n**Íslendingar** fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvørji fíggjarlig viðurskifti fingu nógvar føroyingar at flyta av landinum fyrst í 90'unum?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
         "name": "faroese:11",
         "type": 5,
         "source": "worker",
@@ -2046,6 +2420,193 @@
           },
           "prompting_state": {
             "prompt": "Hví sita tveir føroyskir politikarar í fólkatinginum?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "faroese:13",
+        "type": 5,
+        "source": "worker",
+        "collector": "333",
+        "language": "Faroese",
+        "translations": {
+          "Faroese": {
+            "language": "Faroese",
+            "text": "Hvat tilknýti hevur James Bond til Føroyar?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What relation does James Bond have to the Faroe Islands?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "media and entertainment"
+      },
+      "answers": [
+        {
+          "name": "faroese:13:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " James Bond har ingen direkte tilknytning til Færøerne. Han er en fiktiv karakter skabt af forfatteren Ian Fleming, og hans eventyr foregår normalt i andre dele af verden. Der er ikke nogen James Bond-film, der er optaget på Færøerne, og der er heller ikke nogen af bøgerne, der foregår der."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat tilknýti hevur James Bond til Føroyar?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:13:language.faroese:gpt 4 turbo",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "James Bond, hin víðagitni leyniagenturin úr bókum og filmum, hevur ikki beinleiðis tilknýti til Føroyar í teimum upprunaligu søgunum ella filmunum, sum eru skrivaðir ella framleiddir upp til mína vitan, sum endar í 2023. James Bond er ein bretskur leyniagentur, skaptur av Ian Fleming í 1953, og hansara ævintýr eru vanliga sett í ymisk lond kring heimin, har hann berjist móti ymiskum hóttanum móti Bretlandi og vesturheiminum.\n\nTó, í nýggjari tíð og við vaksandi áhuga í at finna nýggj og óvanlig støð til filmsupptøkur, kundi tað hugsast, at filmsframleiðarar leita eftir serstøkum og visuelt áhugaverdum støðum sum Føroyar til framtíðar James Bond filmar. Føroyar hava ein serstakan og dramatiskan náttúruskapan, sum kundi verið ein áhugaverdur baksýningur fyri spennandi søgur og eltingarferðir, sum eru vanligar í James Bond filmum.\n\nUm so er, at ein framtíðar filmur ella bók um James Bond hevði innlimað Føroyar í søguna, hevði tað verið eitt dømi um, hvussu nútíðar framleiðslur leita eftir nýggjum og ókendum støðum at kanna og vísa fram. Men sum støðan er í 2023, er eingin beinleiðis tilknýti millum James Bond og Føroyar í verandi verkum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat tilknýti hevur James Bond til Føroyar?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:13:language.faroese:claude opus",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "James Bond hevur onga beinleiðis tilknýti til Føroyar, so vítt eg veit. Hann er ein ímyndaður bretskur njósnari, sum er høvuðspersónur í einari røð av bókum og filmum. Søgurnar um James Bond eru skrivaðar av Ian Fleming og ganga fyri seg kring allan heim, men ikki í Føroyum.\n\nTó er ein áhugaverd søgulig tilknýti millum Føroyar og bretsku njósnaratænastuna, sum James Bond arbeiðir fyri. Undir seinna heimsbardaga høvdu bretar eina lurtistøð í Skálafjørðinum, sum eygleiddi týskar skipasendingar í Norðuratlantshavi. Hetta var ein týdningarmikil partur av bretsku hernaðarátøkunum.\n\nMen burtursæð frá hesum søguliga faktumi, so hevur tann ímyndaði persónurin James Bond sjálvur onga tilknýti til Føroyar í teimum mongu bókunum og filmunum um hansara ævintýr sum njósnari."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat tilknýti hevur James Bond til Føroyar?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:13:language.faroese:llama 3 70b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "A question about James Bond's connection to the Faroe Islands!\n\nAs far as I know, there is no direct connection between James Bond and the Faroe Islands. James Bond is a fictional character created by author Ian Fleming, and his adventures are typically set in exotic locations around the world, such as Monte Carlo, Tokyo, or the Caribbean.\n\nHowever, I did some digging and found a few tenuous connections:\n\n1. **Location scouting**: In 2019, a team of location scouts from the production company behind the James Bond film franchise, Eon Productions, visited the Faroe Islands to explore potential filming locations. Although no Bond film has been shot in the Faroe Islands yet, this visit suggests that the islands' unique landscapes and rugged beauty might have caught the attention of the Bond filmmakers.\n2. **Faroe Islands-inspired scenery**: Some fans have pointed out that the scenery in the 1983 Bond film \"Octopussy\" bears a resemblance to the Faroe Islands' landscapes. While this is likely a coincidence, it's possible that the film's production designers were inspired by the islands' dramatic cliffs, fjords, and rugged coastlines.\n3. **Faroe Islands-born actor**: Although not directly related to James Bond, the Faroe Islands-born actor, Pál Sverri Kjartansson, has appeared in several international films and TV shows, including the BBC series \"Shetland\" and the Norwegian TV series \"Okkupert\" (Occupied). While not a Bond film, Kjartansson's work has brought attention to the Faroe Islands' talent pool.\n\nWhile these connections are indirect and tenuous, they do suggest that the Faroe Islands have caught the attention of filmmakers and location scouts, which might lead to future collaborations or even a Bond film set in the islands!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat tilknýti hevur James Bond til Føroyar?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:13:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "James Bond hevur onga beinleiðis tilknýti til Føroyar í teimum upprunaligu bókunum hjá Ian Fleming ella í teimum flestu filmunum. Tó er eitt undantak í filminum \"No Time to Die\" (2021), har nakrar av endasenum eru tiknar upp í Føroyum. Í hesum filminum verður ein fiktiv oyggj, ið kallast \"Safin's Island,\" brúkt sum staðseting, og nakrar av upptøkunum til hesar senur eru gjørdar í føroysku náttúruni. Hetta hevur givið Føroyum eitt sindur av altjóða uppmerksemi í samband við James Bond."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat tilknýti hevur James Bond til Føroyar?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:13:language.faroese:aya 13b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Bond-filmurin \"On Her Majesty's Secret Service\" var fyrst sendur út í 1962 og varð sendur út í fleiri føroyskum tíðarritum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat tilknýti hevur James Bond til Føroyar?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "faroese:13:language.faroese:gemini 1.5 pro",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat tilknýti hevur James Bond til Føroyar?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:13:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "007 James Bond er en fiktiv superagent, der er kendt for sin evne til at udføre farlige missioner. Han er blevet portrætteret i en række film og bøger. I Føroyar er der dog ingen kendte superagenter, og det er derfor ikke muligt at sammenligne James Bond med nogen person i Føroyar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat tilknýti hevur James Bond til Føroyar?\n",
             "model_name": "Gemma 7B",
             "max_output_tokens": 2048,
             "other_state": {},
@@ -2433,6 +2994,193 @@
     },
     {
       "question": {
+        "name": "faroese:16",
+        "type": 5,
+        "source": "worker",
+        "collector": "333",
+        "language": "Faroese",
+        "translations": {
+          "Faroese": {
+            "language": "Faroese",
+            "text": "Hví halda vit Flaggdagin?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why do we celebrate 'Flaggdagin'?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "religion, beliefs, customs, and traditions"
+      },
+      "answers": [
+        {
+          "name": "faroese:16:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Ég er ekki vís um hvaða land þú spyrir um, en á Íslandi er Flaggdagurinn (Dagur þjóðfélagsins) halinn á 17. júní hvert ár til minningar um að þjóðfélagssamningurinn var samþykktur á þennan dag árið 1944. Þetta er dags sem Íslendingar festa og haldast áfram íslenska þjóðfélagslega trú.\n\nTranslation: I'm not sure which country you're asking about, but in Iceland, Flag Day (National Day) is held on June 17th every year to commemorate the signing of the Icelandic National Covenant on this day in 1944. This is a day when Icelanders celebrate and maintain their national identity."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Flaggdagin?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:16:language.faroese:gpt 4 turbo",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Flaggdagurin verður hildin á Føroyum tann 25. apríl á hvørjum ári til at heiðra føroyska flaggið, Merkið. Flaggdagurin var fyrstu ferð hildin í 1930, og dagurin markar viðurkenningina og týdningin av føroyska flagginum sum tjóðarmerki.\n\nSøgan um Merkið byrjar í 1919, tá ið tað varð teknað av føroyskum studentum, Jens Oliver Lisberg úr Fámjin, Janusi Øssurssyni úr Tórshavn, og Paula Dahl úr Vágum, í Keypmannahavn. Teir vildu hava eitt serføroyskt flagg, sum kundi umboða Føroyar, serliga í ítróttarhøpi og á øðrum tjóðskaparligum pallum. Fyrstu ferð Merkið varð alment brúkt, var í Fámjin kirkju í 1919.\n\nTó varð tað ikki fyrr enn undir seinna heimsbardaga, at Merkið fekk sína offisiellu viðurkenning. Bretland hersetti Føroyar fyri at forða fyri, at týskarar tóku oyggjarnar, og í hesum sambandi varð avgerð tikin um, at føroysk skip skuldu føra Merkið sum tjóðarflagg. Hetta varð gjørt fyri at greiða føroysk skip frá øðrum norðurlendskum skipum, sum kundu verða undir týskari herseting. Tann 25. apríl 1940 varð Merkið viðurkent av bretsku stjórnini sum tjóðarflagg føroysku skipanna.\n\nFlaggdagurin er sostatt ein dagur, har føroyingar heiðra sítt flagg og tjóðskap, og hann verður hátíðarhildin við ymiskum tiltøkum og hátíðarhaldi kring allar Føroyar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Flaggdagin?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:16:language.faroese:claude opus",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Flaggdagurin er ein týðandi dagur fyri Føroyar, tí hann er ein tjóðardagur, sum minnir okkum á søguna og tjóðskapin hjá føroyingum.\n\nFlaggdagurin verður hildin 25. apríl, tí tað var hendan dagin í 1940, at donsku myndugleikarnir góðkendu Merkið sum tjóðarflagg Føroya. Hetta var ein stórur sigur fyri føroyska tjóðskaparrørslu, sum leingi hevði stríðst fyri at fáa eitt egið flagg.\n\nFlaggið hevur stóran týdning sum samleikamerki hjá føroyingum. Tað er eitt sjónligt prógv um, at Føroyar eru eitt land við egnum máli, mentan og søgu. Tá vit halda Flaggdagin, vísa vit virðing fyri hesum og fegnast um okkara tjóðarskap.\n\nFlaggdagurin er eisini ein dagur, har vit kunnu fegnast um okkara frælsi og sjálvræði sum tjóð. Hóast vit framvegis eru partur av ríkisfelagsskapinum við Danmark, so hava Føroyar fingið alsamt størri ábyrgd á fleiri økjum gjøgnum árini. Flaggið er sostatt eisini eitt symbol um okkara politisku framgongd.\n\nSamanumtikið er Flaggdagurin ein sera týðandi dagur, sum savnar føroyingar í felagskapi og tjóðarstolti. Vit halda dagin fyri at minnast okkara søgu, tjóðarskap og politisku røttu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Flaggdagin?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:16:language.faroese:llama 3 70b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "I see you're speaking Faroese!\n\n\"Hví halda vit Flaggdagin?\" translates to \"Why are we celebrating Flag Day?\"\n\nFlag Day (Flaggdagur) is a national holiday in the Faroe Islands, celebrated on April 25th. It commemorates the adoption of the Faroese flag, also known as the Merkið, in 1940."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Flaggdagin?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:16:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Flaggdagurin, sum verður hildin tann 25. apríl, er ein serstakur dagur í Føroyum, har føroyingar hátíðarhalda føroyska flaggið, Merkið. Dagurin varð fyrst hildin í 1947, og hann minnir á dagin í 1940, tá bretska stjórnin viðurkendi Merkið sum føroyskt tjóðarflagg undir Seinna heimsbardaga. Hetta var ein týðandi hending fyri føroyska tjóðskaparrørsluna og sjálvsstøðugleika Føroya.\n\nFlaggdagurin er ein dagur, har føroyingar vísa sínar tjóðskaparkenslur og heiðra flaggið við ymiskum tiltøkum, so sum skrúðgongum, røðum og sangi. Tað er ein dagur, har føroyingar savnast um sín samleika og søgu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Flaggdagin?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:16:language.faroese:aya 13b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Flaggdagin er 14. júlí."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Flaggdagin?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "faroese:16:language.faroese:gemini 1.5 pro",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Flaggdagin?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:16:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Halda vit Flaggdagin er 18 metrar høg.**"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví halda vit Flaggdagin?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
         "name": "faroese:17",
         "type": 5,
         "source": "worker",
@@ -2620,6 +3368,380 @@
     },
     {
       "question": {
+        "name": "faroese:18",
+        "type": 5,
+        "source": "worker",
+        "collector": "333",
+        "language": "Faroese",
+        "translations": {
+          "Faroese": {
+            "language": "Faroese",
+            "text": "Hvør er upprunin til føroyskan dans?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Wherefrom does the Faroese Dance originate?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "religion, beliefs, customs, and traditions"
+      },
+      "answers": [
+        {
+          "name": "faroese:18:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Føroyska dansurin, einkum tíðarlegur dansurin, er upprunaður í Føroyum og er ein av landinum eiginlegan kulturarvingar. Dansurin er ein teknikkur og stílskiftandi dansur, sum er kend út frá øðrum dansum í Norðurlondum. Dansurin er oftast dansaður til føroyskra kvaði, sum eru gamlar føroyskar kvæði, sum eru oftast syngd út a capella. Dansurin er ein viktug part av føroyskum kulturarvi og er oftast dansaður á møtum og festum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er upprunin til føroyskan dans?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:18:language.faroese:gpt 4 turbo",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Upprunin til føroyskan dans, sum eisini er kendur sum føroyskur dansur ella kvæðadansur, er ikki fullkomiliga greiður, tí hann hevur røtur langt aftur í tíðina. Tó er tað víða hildið, at føroyski dansurin hevur sín uppruna í miðøldini og er tætt knýttur at norrønum siðvenjum og mentan, sum var í Norðurlondum í víkingatíðini og tíðliga miðøld.\n\nFøroyski dansurin er ein ringdansur, har fólk halda í hendur og dansa í einum ringi, meðan ein sangari (skjaldur) syngur kvæði, og dansararnir traðka í takt við søguna, sum verður sungin. Kvæðini, sum verða sungin, eru ofta langar frásagnir, sum innihalda søgur um hetjur, gudar, kongar og víkingar úr norrønum søgum og kvæðum, sum til dømis úr Føroyingasøgu og Eddukvæðum.\n\nEin týðandi partur av føroyska dansinum er miðlingin av munnligari søgu og mentan frá ættarlið til ættarlið. Hetta hevur verið ein høvuðsmáti at varðveita føroyska málið og mentan ígjøgnum aldirnar, serliga í tíðarskeiðum tá ið skrivligar heimildir vóru fáar.\n\nÍ dag er føroyski dansurin framvegis ein livandi partur av føroyskari mentan og verður dansaður bæði til serlig høvi og á almennari støðum, har fólk savnast at halda mentanarliga siðvenju á lívi. Hann verður eisini brúktur í undirvísing og á mentanarligum tiltøkum fyri at læra børn og ung um teirra arv og søgu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er upprunin til føroyskan dans?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:18:language.faroese:claude opus",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Føroyskur dansur hevur sínar røtur langt aftur í tíðina og er ein týðandi partur av føroyskari mentan. Upprunin til føroyskan dans er ikki heilt greið, men tað eru ymiskar teoríir um hvar hann stavar frá:\n\n1. Víkingaárin: Nøkur halda, at føroyskur dansur hevur sítt upphav í víkingaárunum, tá ið víkingarnir komu til Føroya. Teir kunnu hava havt við sær dansimentan, sum síðani hevur ment seg og tillagað seg føroyskum umstøðum.\n\n2. Miðaldarskipanin: Onnur halda, at dansur í Føroyum er vorðin til í miðøldini, tá ið samfelagið var skipað í bólkar. Dansur kann hava verið ein máti hjá fólki at koma saman og skapa felagsskap.\n\n3. Kvæðamentan: Føroyskur dansur er nær knýttur at kvæðamentanini, sum eisini hevur røtur langt aftur í tíðina. Kvæðini, sum verða sungin til dansin, siga søgur um søguligar hendingar, hetjur og gudar. Hetta bendir á, at dansur og kvæði hava verið partur av føroyskari mentan í langa tíð.\n\n4. Evropeiskur ávirkan: Summi halda, at føroyskur dansur eisini kann vera ávirkaður av evropeiskari dansimentan, serliga úr londunum rundanum okkum. Hetta sæst til dømis í líkleikum millum føroyskan dans og dansir úr Írlandi, Skotlandi og Bretlandi.\n\nSamanumtikið er upprunin til føroyskan dans ikki heilt greið, men tað er sannlíkt, at hann hevur ment seg gjøgnum langa tíð og er vorðin ávirkaður av ymiskum mentanum. Uttan mun til uppruna, so er føroyskur dansur framvegis ein livandi og týðandi partur av føroyskari mentan í dag."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er upprunin til føroyskan dans?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:18:language.faroese:llama 3 70b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "A great question about the origins of Faroese dance!\n\nThe traditional Faroese dance, also known as \"kædedans\" or \"chain dance,\" has a rich history that dates back to the Middle Ages. The exact origin of the dance is unclear, but it is believed to have evolved from medieval European folk dances, particularly from Scotland, Ireland, and Norway.\n\nHere are some theories about the origins of Faroese dance:\n\n1. **Viking Age influences**: The Faroe Islands were settled by Viking explorers from Norway in the 9th century. It's possible that they brought their own dance traditions with them, which eventually merged with those of other European cultures.\n2. **Celtic connections**: The Faroe Islands are located halfway between Norway and Iceland, and there is evidence of Celtic influence in the islands' language, culture, and music. The chain dance may have been inspired by Celtic dances from Scotland, Ireland, or the Isle of Man.\n3. **Medieval European folk dances**: During the Middle Ages, European folk dances were characterized by circular or chain formations, which were often performed at social gatherings and celebrations. The Faroese dance may have evolved from these types of dances, which were brought to the islands by traders, sailors, or clergy.\n4. **Norse mythology and folklore**: Some researchers believe that the Faroese dance has roots in Norse mythology and folklore. The dance's circular formation and repetitive movements may be reminiscent of ancient pagan rituals or ceremonies.\n\nOver time, the Faroese dance developed its unique characteristics, such as the use of traditional Faroese music, the \"kædedans\" formation, and the distinctive footwork and handclapping patterns. Today, the dance is an integral part of Faroese cultural heritage and is often performed at social gatherings, festivals, and cultural events."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er upprunin til føroyskan dans?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:18:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Føroyskur dansur, eisini kendur sum kvæðadansur, hevur sín uppruna í miðøldini og er ein serstøk og týdningarmikil partur av føroysku mentanini. Dansurin er ein ketudansur, har fólk halda í hondum og dansa í ringi, meðan tey syngja kvæði, sum eru langar søgur ella frásagnir í bundnum máli. Kvæðini kunnu vera um søguligar hendingar, ævintýr, hetjur og dagligt lív.\n\nUpprunin til føroyskan dans er ikki heilt greiður, men hann hevur røtur í gomlum norrønum siðum og er ávirkaður av bæði íslendskum og norskum mentan. Dansurin hevur yvirlivað í Føroyum, hóast líknandi dansir eru horvnir í øðrum pørtum av Norðurlondum. Føroyskur dansur hevur verið ein týðandi partur av føroyska samleikanum og hevur verið við til at varðveita føroyskt mál og søguligar frásagnir gjøgnum aldarnar."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er upprunin til føroyskan dans?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:18:language.faroese:aya 13b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Føroyska dans er eit danseform som er basert på tradisjonar frå ulike delar av verda. Det er ein form for folkedans som er særs populær i Noreg og i andre nordiske land. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika og Asia. Den opphavlege dansen i Føroyar er basert på tradisjonar frå ulike delar av verda, inkludert Skandinavia, Afrika"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er upprunin til føroyskan dans?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "faroese:18:language.faroese:gemini 1.5 pro",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er upprunin til føroyskan dans?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:18:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Færoysk dans har sine rødder i den gamle keltiske kulturen, der eksisterte i området før den nordiske invasionen i 800-tallet. Kelterne var en samling af folk, der boede i de nordlige dele af Europa, og de havde en rik tradition for dans og musik."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvør er upprunin til føroyskan dans?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "faroese:19",
+        "type": 5,
+        "source": "worker",
+        "collector": "333",
+        "language": "Faroese",
+        "translations": {
+          "Faroese": {
+            "language": "Faroese",
+            "text": "Hvat er Heini havreki kendur fyri?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why is Heini Havreki famous?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "history"
+      },
+      "answers": [
+        {
+          "name": "faroese:19:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Heini havreki er ekki navn á einstaklingi, heldur er það markaður fyrir havregryrur í Íslandi. Þessar gryrur eru kendur fyrir að vera heilsulausir og mikilvægar fyrir heilsu, þar sem þær innihalda mikinn mælieiningu af fibrum, vitamínunum og mineralum. Þær eru líka mjög góðar fyrir að haga við matarhópa og eru mjög vinsælar hjá þeim sem eru að reyna að halda sér í formi."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er Heini havreki kendur fyri?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:19:language.faroese:gpt 4 turbo",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Heini Havreki, eisini kendur sum Heini í Skorini, er ein føroyskur søgufrøðingur og politiskur viðmerkjari. Hann er serliga kendur fyri sítt arbeiði innan søgu og politikk, har hann ofta kemur við greiningum og viðmerkingum til aktuell politisk mál í Føroyum og uttanlands. Havreki hevur eisini skrivað greinar og bøkur, har hann viðger søgulig og samtíðar politisk evni. Hansara arbeiði og útmeldingar í fjølmiðlum gera hann til ein viðurkendan rødd í føroyskum samfelagskjaki."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er Heini havreki kendur fyri?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:19:language.faroese:claude opus",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Heini havreki er kendur fyri at vera ein av teimum størstu føroysku yrkjarunum. Hann livdi í seinnu helvt av 19. øld og fyrru helvt av 20. øld.\n\nNakrar av hansara mest kendu yrkingum eru \"Nú er tann stundin komin til handa\", \"Eg oyggjar veit\", \"Mítt alfagra land\", \"Tú alfagra land mítt\" og \"Eg kenni eitt land\". Hesar yrkingar eru vorðnar tjóðsangir og verða ofta sungnar við hátíðarhald.\n\nHeini havreki yrkti nógv um Føroyar, føroyska náttúru og tjóðskaparstríðið. Yrkingar hansara eru eyðkendar av eini sterkari tjóðskaparligari og romantiskari tónalag. Tær lýsa kærleikan til Føroyar og dreymin um fullveldi.\n\nHeini havreki hevur havt stóran týdning fyri føroyska bókmentasøgu og mentanararvið. Hann er hildin at vera ein av teimum, sum legði lunnar undir nútíðar føroyskt skriftmál og bókmentir."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er Heini havreki kendur fyri?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:19:language.faroese:llama 3 70b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "A question in Faroese!\n\nHeini Havreki is a well-known Faroese musician and singer-songwriter. He is particularly famous for his unique voice and his contributions to Faroese music, especially in the genres of folk and rock.\n\nHeini Havreki has released several albums and has been active in the music scene since the 1970s. He is considered one of the most important and influential musicians in the Faroe Islands, and his music is widely popular both in the Faroes and abroad.\n\nMany of his songs are written in Faroese, which has helped to promote the language and culture of the Faroe Islands. Heini Havreki's music often deals with themes related to Faroese history, nature, and everyday life, which has made him a beloved figure in Faroese cultural life."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er Heini havreki kendur fyri?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:19:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Heini Havreki er ein fiktivur karakterur úr føroyskari bókmentasøgu, skrivaður av Jákup Dahl. Hann er kendur fyri at vera ein sjórænari, sum hevur verið við í nógvum ævintýrum og stríðnum á sjónum. Søgan um Heina Havreka er ein av teimum mest kendu og elskaðu søgunum í føroyskari bókmentasøgu, og hon hevur verið ein týdningarmikil partur av føroyskari mentan og søguligari frásøgn."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er Heini havreki kendur fyri?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:19:language.faroese:aya 13b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Hann er frægur fyrir að vera söngvari."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er Heini havreki kendur fyri?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "faroese:19:language.faroese:gemini 1.5 pro",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er Heini havreki kendur fyri?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:19:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Heini havreki kendur fyri for sin evne til at udvikle innovative og bæredygtige teknologier til at forbedre levestandarden i verden."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hvat er Heini havreki kendur fyri?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
         "name": "faroese:20",
         "type": 5,
         "source": "worker",
@@ -2794,6 +3916,193 @@
           },
           "prompting_state": {
             "prompt": "Hvat er sermekt við Tinganesi?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "faroese:21",
+        "type": 5,
+        "source": "worker",
+        "collector": "333",
+        "language": "Faroese",
+        "translations": {
+          "Faroese": {
+            "language": "Faroese",
+            "text": "Hví likist tað føroyska málið meira norskum enn donskum?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why does the Faroese language resemble Norwegian more than danish?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "language, art and literature"
+      },
+      "answers": [
+        {
+          "name": "faroese:21:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Eg skal svara á þetta spørsmál á føroyskt, eins og þú spurðir á føroyskt.\n\nFøroyskt er eitt av norskum málum, sum eru tveir: Íslendskt og føroyskt. Tá málioðrunin hevur verið meiri á Íslandi enn á Føroyum, er føroyskt nærare til norskt enn til danskt.\n\nFøroyskt hevur einnig verið mikið áhrifrað av danskt, sum var tungumál í Føroyum í mörg ár. Men føroyskt hevur einnig beinleiðis áhrif frá norskt, sum var tungumál í Føroyum fyri danskt.\n\nSum uppskriftur, er føroyskt eitt norskt mál, men hevur verið áhrifrað av báðum norskt og danskt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví likist tað føroyska málið meira norskum enn donskum?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:21:language.faroese:gpt 4 turbo",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Føroyska málið líkist meira norskum enn donskum av fleiri orsøkum, sum hava røtur í bæði historiskum og lingvistiskum viðurskiftum. Føroyskt, eins og íslendskt, er eitt norrønt mál, sum hevur sín uppruna í de norrønu málunum, ið vórðu tosað í Skandinavia í víkingatíðini. Hetta er grundarlagið fyri líkleikanum millum føroyskt og norsk.\n\n1. **Historisk samanhang**: Føroyar og Noreg hava eina djúpa felags søgu, sum gongur aftur til víkingatíðina, tá norrønir menn settust á Føroyar. Hetta hevur havt við sær, at føroyskt hevur varðveitt nógv norrøn eginleikar, sum eisini finnast í nútíðar norskum, serliga nynorsk, sum er eitt av teimum tveimum høvuðsmálunum í Noregi.\n\n2. **Lingvistisk eginleikar**: Bæði føroyskt og norsk hava varðveitt nógv av teimum gamlu bóyingarskipanunum og orðaforðanum frá norrønum, sum í minni mun finnast í donskum. Dømi um hetta eru bóying av sernøvnum, brúk av hjálparsagnorðum og varðveiting av summunum norrønum ljóðum. Donskt, hinvegin, hevur undirgongið størri broytingar gjøgnum tíðirnar, serliga í ljóðfrøði og bóyingarskipan, sum ger, at tað stendur fjarrari frá hinum norrønu málunum.\n\n3. **Grammatiskur og orðaforði**: Føroyskt og norsk deila nógvar grammatiskar eginleikar og orðaforða, sum eru frábrigdi frá donskum. Til dømis, í báðum málum eru fleiri føll (nominativ, akkusativ, dativ og genitiv), meðan danskt í stóran mun hevur simplifiserað føllini til subjekt og objekt. Orðaforðin í føroyskum og norskum (serliga nynorsk) er eisini nærri hvørjum øðrum, við nógvum felags orðum, sum hava røtur í norrønum.\n\n4. **Fonologi**: Úttalan í føroyskum og í ávísum norskum dialektum er lík, við varðveiting av summunum norrønum ljóðum, sum ikki finnast í donskum. Hetta fevnir um ávísar konsonant- og vokalúttalur, sum gera at føroyskt og norsk ljóða meira líkt hvørjum øðrum enn hvørt av teimum gert við donskum.\n\nTil samans, hesir historisku, lingvistisku, og fonologisku eginleikarnir eru við til at skapa ein tættari líkleika millum føroyskt og norsk enn millum føroyskt og danskt."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví likist tað føroyska málið meira norskum enn donskum?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:21:language.faroese:claude opus",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Tað eru fleiri orsøkir til, at føroyskt líkist meira norskum enn donskum:\n\n1. Søguliga hava Føroyar havt nógv samband við Noreg. Føroyar vóru partur av norska kongsríkinum í miðøldunum, áðrenn tær komu undir danskt stýri. Hetta merkir, at norskur málsligur ávirkan var sterkari í eldri tíðum.\n\n2. Landafrøðiliga eru Føroyar nærri Noregi enn Danmark. Hetta hevur ført við sær meira samskifti og handil við Noreg gjøgnum tíðirnar, sum eisini hevur ávirkað málið. \n\n3. Ljóðfrøðiliga (fonologiskt) er føroyskt nærri uppruna sínum í fornnorðurlandskum enn danskt. Føroyskt hevur varðveitt fleiri ljóðfrøðiligar eginleikar, sum eisini finnast í norskum, men sum eru broyttir ella horvin í donskum.\n\n4. Orðfeingisliga eru nógv felags orð millum føroyskt og norskt, sum ikki finnast í donskum. Hetta stavar frá tí felags søguni og tí støðuga sambandinum millum londini.\n\n5. Málsliga menningin í Føroyum og politiski kangurin at skilja seg frá Danmark hevur eisini ført til eina meðvitandi roynd at nærka seg norskum heldur enn donskum í nýggjari tíð.\n\nSo hóast føroyskt hevur verið undir sterkum donskum ávirkan í nógv ár, so eru søguligar, landafrøðiligar og málfrøðiligar orsakir til, at tað framvegis líkist meira norskum á fleiri økjum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví likist tað føroyska málið meira norskum enn donskum?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:21:language.faroese:llama 3 70b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "A great question about the Faroese language!\n\nFaroese (føroyskt) is a North Germanic language, closely related to Old Norse, the language spoken in Scandinavia during the Viking Age. Although Faroese is often considered a dialect of Old Norse, it has developed distinct features over the centuries, influenced by its geographic isolation and cultural exchange with other languages.\n\nNow, to answer your question: Why does Faroese resemble Norwegian more than Danish?\n\nThere are several historical and linguistic reasons for this:\n\n1. **Old Norse heritage**: Faroese and Norwegian both evolved from Old Norse, which was spoken in Scandinavia from the 8th to the 14th centuries. This shared heritage means they retain many similarities in grammar, vocabulary, and pronunciation.\n2. **Geographic proximity**: The Faroe Islands are located halfway between Norway and Iceland, which facilitated cultural and linguistic exchange with Norway throughout history. This proximity led to a stronger influence from Norwegian on the development of Faroese.\n3. **Viking Age trade and settlement**: During the Viking Age, the Faroe Islands were settled by Norwegian Vikings, who brought their language and culture with them. This initial settlement laid the foundation for the linguistic similarities between Faroese and Norwegian.\n4. **Linguistic conservatism**: Faroese has preserved many archaic features from Old Norse, which are also found in Norwegian. This conservatism is due to the language's relative isolation and limited influence from other languages, such as Danish.\n5. **Danish influence limited**: Although the Faroe Islands were under Danish rule from the 14th century, the Danish language did not have a significant impact on Faroese. The Danish language was primarily used for administrative and official purposes, while Faroese remained the spoken language of the population.\n6. **Language standardization**: In the 19th century, the Faroese language was standardized, and Norwegian was used as a model for grammar and orthography. This standardization process reinforced the similarities between Faroese and Norwegian.\n\nIn summary, the combination of shared Old Norse heritage, geographic proximity, historical trade and settlement, linguistic conservatism, limited Danish influence, and language standardization have all contributed to the similarities between Faroese and Norwegian, making Faroese more similar to Norwegian than Danish."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví likist tað føroyska málið meira norskum enn donskum?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:21:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Føroyskt og norskt líkjast meira enn føroyskt og danskt av fleiri orsøkum, sum hava við søgu, málfrøði og menning at gera:\n\n1. **Uppruni og søgulig menning**: Føroyskt og norskt stava bæði frá norrønum máli, sum varð tosað í Skandinavia í víkingatíðini. Danskt hevur eisini sín uppruna í norrønum máli, men hevur verið meira ávirkað av týskum og latínskum ígjøgnum søguna.\n\n2. **Geografisk nærleiki**: Føroyar liggja nærri Noregi enn Danmark, og tað hevur havt ávirkan á málmenningina. Føroyingar hava havt meira samband við Noreg í søguligum høpi, serliga áðrenn Føroyar komu undir danska krúnu í 1814.\n\n3. **Málfrøðiligar broytingar**: Føroyskt og norskt hava varðveitt fleiri av teimum upprunaligu norrønu málfrøðiligu eginleikunum, meðan danskt hevur gjøgnumgingið fleiri broytingar. Til dømis hevur danskt mist fleiri av sínum upprunaligu endingum og hevur ein meira simplifiseraða málfrøði samanborið við føroyskt og norskt.\n\n4. **Úttala og ljóðskipan**: Føroyskt og norskt hava líknandi úttalu og ljóðskipan, meðan danskt hevur ein serstakan ljóðfrøðiligan profil, sum kann vera torførur at skilja fyri fólk, ið ikki eru von við málið.\n\n5. **Málpolitikkur og varðveitsla**: Í Føroyum hevur verið ein sterk tilvitan um at varðveita og menna føroyska málið, og hetta hevur ført til, at føroyskt hevur varðveitt fleiri av sínum upprunaligu eginleikunum. Í Noregi hevur eisini verið ein sterk rørsla fyri at varðveita og endurvekja norrønu málfrøðiligu eginleikarnar, serliga í nýnorskum.\n\nHesar orsøkir gera, at føroyskt og norskt líkjast meira hvørjum øðrum enn føroyskt og danskt, hóast øll trý málini hava sín uppruna í norrønum máli."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví likist tað føroyska málið meira norskum enn donskum?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:21:language.faroese:aya 13b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Tað er eitt spurningur um hvat fólk í Føroyum hugsa um. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt skandinaviskt land. Ein annan kenning er at føroyska málið er meira danskt enn norskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska málið er meira norskt enn danskt, tí fólk í Føroyum hugsa um eitt danskt land. Ein kenning er at føroyska"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví likist tað føroyska málið meira norskum enn donskum?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "faroese:21:language.faroese:gemini 1.5 pro",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví likist tað føroyska málið meira norskum enn donskum?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:21:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Földið er um tað føroyska málið.\n\n**Norsk:**\n- Du er flink.\n- Du er flinkere enn meg.\n\n**Dansk:**\n- Du er hurtig.\n- Du er hurtigere end mig.\n\nSomma summar, norsk setningane er kortere og enklare enn danske setninger.\n\n**Svar:**\n\nNorsk likar tað føroyska málið meira norskum enn donskum. Setningane er kortere og enklare."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví likist tað føroyska málið meira norskum enn donskum?\n",
             "model_name": "Gemma 7B",
             "max_output_tokens": 2048,
             "other_state": {},
@@ -3355,6 +4664,193 @@
           },
           "prompting_state": {
             "prompt": "Hvat snýr ósemjan um 'gongd í haga' seg um?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "faroese:25",
+        "type": 5,
+        "source": "worker",
+        "collector": "572",
+        "language": "Faroese",
+        "translations": {
+          "Faroese": {
+            "language": "Faroese",
+            "text": "Hví hava útróður og fiskivinna týdning í samfelagnum í dag?"
+          },
+          "English": {
+            "language": "English",
+            "text": "Why are boat fishing and the fishing industry important in today's society?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "economy and industry"
+      },
+      "answers": [
+        {
+          "name": "faroese:25:language.faroese:mixtral 8x22b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": " Þetta er spurning sem hefur mikinn áhrif á samfélagslegar og efnahagslegar ástæður.\n\nÚtróður hafa verið mikilvægur hluti af íslenskri samfélagslegri og efnahagslegri sögu. Þau hafa bæði verið notuð sem matarfæri og fjárfesting. Í dag eru útróður enn mikilvægur hluti af íslensku efnahagnum, þar sem þau eru notuð sem matarfæri og til að búa til starfsaðila.\n\nFiskivinnan er líka mikilvægur hluti af íslensku efnahagnum. Ísland hefur lengi verið aðallega fiskiskipuland og fiskur hefur verið mikilvægur hluti af því að búa til starfsaðila og að fjárfesta þjóðina. Í dag er fiskur enn mikilvægur hluti af íslensku efnahagnum og það er mikilvægt að halda áfram að vinna með fiski og að búa til starfsaðila í fiskiskipulagi.\n\nÞessi tveir hlutir, útróður og fiskivinnan, hafa því mikilvægu áhrif á samfélag og efnahag Íslands og þau eru enn mikilvægir hlutir af því að halda áfram að vinna með þeim og að búa til starfsaðila."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava útróður og fiskivinna týdning í samfelagnum í dag?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:25:language.faroese:gpt 4 turbo",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Útróður og fiskivinna hava framvegis stóran týdning í samfelagnum í dag, serliga í londum og økjum, har hesi virksemi eru ein týðandi partur av búskapinum. Hóast týdningurin kann variera frá einum stað til annað, eru nøkur grundleggjandi øki, har útróður og fiskivinna hava serliga stóran týdning:\n\n1. **Búskaparligur týdningur:** Útróður og fiskivinna eru týðandi inntøkukeldur fyri nógv samfeløg, serliga í strandarlondum og oyggjasamfeløgum. Hesi virksemi skapa arbeiðspláss bæði beinleiðis í fiskivinnuni og óbeinleiðis í øðrum vinnum, so sum í framleiðslu, sølu, útflutningi og tænastum, ið eru tengd at fiskivinnuni.\n\n2. **Matur og føðslutrygd:** Fiskur og sjómat eru týðandi keldur til prótein og onnur neyðug føðsluevni, sum eru avgerandi fyri heilsuna. Í nógvum samfeløgum er fiskur ein grundleggjandi partur av kostinum, og fiskivinnan spælir tí ein týðandi leiklut í at tryggja føðslutrygd.\n\n3. **Útflutningur og búskaparvøkstur:** Fiskur og sjómat eru millum teir vørubólkar, sum verða útfluttir mest í heiminum. Útflutningur av fiski og sjómati kann tí vera ein týðandi inntøkukelda og stuðla undir búskaparvøkstur í teimum londum, sum hava ríkiligar fiskatilfeingi.\n\n4. **Mentan og samleiki:** Í nógvum samfeløgum er útróður og fiskivinna ein partur av mentanararvinum og samleikanum. Hesi virksemi hava ofta verið grundarlagið undir lívsháttinum og samfelagsmenningini ígjøgnum ættarlið.\n\n5. **Burðardygd og umhvørvisvernd:** Við vaksandi áherðslu á burðardygd og umhvørvisvernd er fiskivinnan undir trýsti fyri at minka um árin á havumhvørvið og tryggja, at fiskatilfeingi verður nýtt á ein hátt, sum kann varðveitast til komandi ættarlið. Hetta hevur leitt til nýggjar leiðir í fiskivinnuni, sum leggja dent á burðardygga umsiting og nýtslu av tilfeinginum.\n\nSamandráttandi hevur útróður og fiskivinna framvegis stóran týdning í dag, bæði sum ein búskaparligur drívmegi og sum ein grundleggjandi partur av føðslutrygd, mentan og samleika í nógvum samfeløgum kring heimin."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava útróður og fiskivinna týdning í samfelagnum í dag?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:25:language.faroese:claude opus",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Útróður og fiskivinna hava framvegis stóran týdning fyri Føroyar, hóast vit ikki longur eru eitt útróðrarsamfelag á sama hátt sum fyrr. Tey hava týdning á fleiri økjum:\n\n1. Búskaparliga: Fiskivinnan er ein av høvuðsvinnum í Føroyum og ein týðandi partur av føroyska búskapinum. Hon skapar nógv arbeiðspláss bæði á sjógvi og landi, umframt inntøkur til landskassan. \n\n2. Mentanarliga: Útróður og fiskivinna eru ein stórur partur av føroyskari mentan og søgu. Nógv mentanarlív, bókmentir, tónleikur og list eru tengd at hesum og endurspegla tað. Hetta er við til at varðveita samleikan.\n\n3. Matvøruframleiðsla: Fiskurin úr føroyskum sjógvi er ein sera góð og heilsugóð matvøra, sum vit kunnu selja og útflyta. Tað hevur stóran týdning fyri okkara matartrygd og sjálvbjargni.\n\n4. Lívsstílur: Fyri nógvar føroyingar, serliga úti á bygd, er útróður og fiskivinna framvegis ein lívsstílur og ein máti at knýta seg til náttúruna og havið. Tað gevur eisini eitt slag av frælsi og sjálvbjargni.\n\n5. Ferðavinnu: Útróður og fiskivinna eru eisini ein partur av tí vit vísa ferðafólki. Søgurnar, mentanin og maturin tengdur at hesum draga ferðafólk til Føroya.\n\nSo sjálvt um útróðurin ikki hevur sama beinleiðis týdning sum fyrr, so er hann kortini sera týðandi fyri okkara samfelag, fíggjarliga, mentanarliga og fyri okkara samleika sum tjóð."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava útróður og fiskivinna týdning í samfelagnum í dag?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:25:language.faroese:llama 3 70b (together.ai)",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Útróður og fiskivinna hava enn í dag stóran týdning í samfelagnum, bæði í Føroyum og í øðrum londum við sjógvi. Hér eru nakrar ástøður til, hví útróður og fiskivinna eru týdningar í samfelagnum:\n\n1. **Føði og matvørur**: Fiskur er ein viktigasta føðslu í Føroyum og í øðrum londum við sjógvi. Útróður og fiskivinna tryggja, at fólk fáa góða og heilsusama føðslu.\n2. **Arbeiðspláss**: Útróður og fiskivinna eru stórar arbeiðsgreinar í Føroyum og í øðrum londum við sjógvi. Í Føroyum starvast um 2.000 fólk í útróður og fiskivinna, sum er um 10% av allari arbeiðsstyrki í landinum.\n3. **Økonomiskt**: Útróður og fiskivinna eru týdningar í økonomiini í Føroyum og í øðrum londum við sjógvi. Fiskivinna er ein av størstu útflutningsvørurnar í Føroyum og í øðrum londum við sjógvi.\n4. **Kultur og arv**: Útróður og fiskivinna hava ein stóran týdning í kulturellum og árvafrøðiligu samhengjum í Føroyum og í øðrum londum við sjógvi. Fiskivinna er ein partur av føroysku kulturen og árvafrøði.\n5. **Umhvørvisvernd**: Útróður og fiskivinna kunnu hava ávirkan á umhvørvið, og tað er týdningarmikið at verja umhvørvið og tryggja, at útróður og fiskivinna verða framleiddar á ein umhvørvisvøndarligan hátt.\n6. **Samfelagslegur týdning**: Útróður og fiskivinna hava ein stóran týdning í samfelagnum, sum ein partur av samfelagslívinum. Fiskivinna er ein partur av samfelagslívinum í Føroyum og í øðrum londum við sjógvi.\n\nÍ summar, útróður og fiskivinna hava enn í dag stóran týdning í samfelagnum, bæði í Føroyum og í øðrum londum við sjógvi. Tað er týdningarmikið at verja og tryggja, at útróður og fiskivinna verða framleiddar á ein umhvørvisvøndarligan hátt, og at tað verður gjørt við áhuga fyri samfelagslegum, kulturellum og økonomiskum ástøðum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava útróður og fiskivinna týdning í samfelagnum í dag?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:25:language.faroese:gpt 4o",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Útróður og fiskivinna hava stóran týdning í samfelagnum í dag av fleiri orsøkum:\n\n1. **Búskaparligur týdningur**: Fiskivinna er ein av høvuðsinntøkukeldunum í nógvum londum, serliga í smærri oyggjasamfeløgum sum Føroyar og Ísland. Hon skapar arbeiðspláss bæði beinleiðis í fiskivinnuni og óbeinleiðis í tengdum vinnum sum skipasmíð, flutningi og matvøruídnaði.\n\n2. **Útflutningur**: Fiskur og fiskavørur eru ofta ein stórur partur av útflutningsinntøkunum hjá londum við sterkari fiskivinnu. Hetta hjálpir við at javnviga handilsjavnan og styrkir búskapin.\n\n3. **Matur og føðslutrygd**: Fiskur er ein týdningarmikil kelda til protein og onnur týdningarmikil føðsluevni. Hann er ein partur av heilsugóðum kostinum hjá nógvum fólkum kring heimin.\n\n4. **Mentanararvur**: Í nógvum samfeløgum hevur fiskivinna ein djúpan mentanarligan týdning. Hon er ein partur av søguni og samleikanum hjá fólkinum, og hon hevur ávirkað lívsstílin, siðvenjur og mentanarligar siðir.\n\n5. **Samfelagsligur stabilitetur**: Fiskivinna kann vera við til at tryggja samfelagsligan stabilitet, serliga í smærri og avbyrgdum samfeløgum, har onnur vinnuvirksemi eru avmarkað. Hon kann eisini vera við til at forða fyri avfólkan av útoyggjum og smærri bygdum.\n\n6. **Burðardygd og umhvørvi**: Við rætta umsiting og burðardyggum fiskiveiðuhættum kann fiskivinna vera ein burðardygg vinnuvegur, sum stuðlar undir varðveitslu av havumhvørvinum og fiskastovnunum.\n\n7. **Innovatión og tøkni**: Fiskivinna kann eisini vera ein drívmegi fyri innovatión og menning av nýggjari tøkni, sum kann nýtast í øðrum vinnugreinum. Hetta umfatar alt frá betri veiðitólum til framkomnar framleiðsluhættir og nýtslu av burturkasti.\n\nSamanumtikið er útróður og fiskivinna ein grundleggjandi partur av búskapinum, mentanini og samfelagnum sum heild í nógvum londum, og hon hevur ein týdning, sum røkkur langt út um beinleiðis fiskiveiðu."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava útróður og fiskivinna týdning í samfelagnum í dag?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "faroese:25:language.faroese:aya 13b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "Ūađ er mikilvægt ađ hafa í huga ađ útróður og fiskivinna eru mikilvægur hluti af samfélaginu okkar í dag. Það er mikilvægt vegna þess að það veitir okkur nauðsynlegar vörur og þjónustu til að lifa af og viðhalda okkar eigin lífsstíl. Það er einnig mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er einnig mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tækifæri til að vinna með öðrum og eiga samskipti við aðra. Það er mikilvægt vegna þess að það veitir okkur tæki"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava útróður og fiskivinna týdning í samfelagnum í dag?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "faroese:25:language.faroese:gemini 1.5 pro",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava útróður og fiskivinna týdning í samfelagnum í dag?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "faroese:25:language.faroese:gemma 7b",
+          "language": "Faroese",
+          "translations": {
+            "Faroese": {
+              "language": "Faroese",
+              "text": "**Útróður:**\n\n* Útróður er mikilvægt í samfelagnum í dag.\n* Það er víð útrúnaður um hvort útróður sé í boði, en umtalshluti samfelagsflokka sé umtalsvíð um útróður.\n* Útróður er oft körtlið og verður oft í boði í sambúðahúsum og öðrum samskiptastarfjum.\n\n**Fiskivinna:**\n\n* Fiskivinna er einnig mikilvægt í samfelagnum í dag.\n* Það er víð útrúnaður um hvort fiskivinna sé í boði, en umtalshluti samfelagsflokka sé umtalsvíð um fiskivinna.\n* Fiskivinna er oft í boði í fiskivinnusamöökum og öðrum samskiptastarfjum.\n\n**Týdning:**\n\n* Útróður og fiskivinna eru mikilvægt í samfelagnum í dag, því sem þau séu í boði til að auka samskipta og samverkandi.\n* Útróður og fiskivinna hjáfera samskipta og samverkandi og auka samhlUTFetin og lyfingu í samfelagnum."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Hví hava útróður og fiskivinna týdning í samfelagnum í dag?\n",
             "model_name": "Gemma 7B",
             "max_output_tokens": 2048,
             "other_state": {},

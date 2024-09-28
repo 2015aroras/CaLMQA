@@ -937,6 +937,193 @@
     },
     {
       "question": {
+        "name": "papiamento:5",
+        "type": 5,
+        "source": "worker",
+        "collector": "488",
+        "language": "Papiamento",
+        "translations": {
+          "Papiamento": {
+            "language": "Papiamento",
+            "text": "Kua ta e historia di Kòrsou i kon e ta influensia e kultura aktual?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the colonial history of Curaçao, and how has it influenced the island's current culture?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "history"
+      },
+      "answers": [
+        {
+          "name": "papiamento:5:language.papiamento:mixtral 8x22b (together.ai)",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": " Historia di Kòrsou ta inicia ku ta un pueblo di Arawak, ta un grupo di indígenas di Amerika. Den e 15-i siglo, e Spaniñolen ta laga e isla, ma ta no ta hasi e isla e lokashon permanente. Den e 1634, e Nederlanden ta hasi e isla e lokashon permanente den e 1634, e ta hasi e isla e base pa e komersio di esklavu.\n\nE influensia di e Nederlanden ta keda aktual den e kultura di Kòrsou. E ta hasi e idioma oficial di e isla, Papiamentu, ta un miks di Spaniñol, Portuges, Ingles, e Nederlandes. E ta hasi e religión dominante di e isla ta Katoliko, ma ta hasi e influensia di e Nederlanden ta hasi e Protestantismo ta un influensia importante den e isla.\n\nE kultura di Kòrsou ta keda aktual den e musika, e karnaval, e gastronomia, e arte, e tradishon. E ta hasi e musika di Kòrsou ta un miks di influensia di Afrika, Europa, e Amerika. E ta hasi e karnaval di Kòrsou ta un evento importante den e isla, ta un evento di musika, baile, e desfile. E ta hasi e gastronomia di Kòrsou ta un miks di influensia di Afrika, Europa, e Amerika, ta un miks di sabores, teknikas di kukin, e ingredientes. E ta hasi e arte di Kòrsou ta un miks di influensia di Afrika, Europa, e Amerika, ta un miks di estilos, teknikas, e temas. E ta hasi e tradishon di Kòrsou ta un miks di influensia di Afrika, Europa, e Amerika, ta un miks di praktikas, simbolos, e valores.\n\nEn resumen, e historia di Kòrsou ta un miks di influensia di Arawak, Spaniñol, Nederlandes, Afrika, Europa, e Amerika. E ta hasi e kultura di Kòrsou ta un miks di influensia di Afrika, Europa, e Amerika, ta un miks di musika, karnaval, gastronomia, arte, e tradishon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e historia di Kòrsou i kon e ta influensia e kultura aktual?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:5:language.papiamento:gpt 4 turbo",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "E historia di Kòrsou ta unu riku i kompleho ku a kuminsá ku e orihinal Arawak indjanan ku tabata biba riba e isla promé ku e yegada di e Europeonan. E influensia di e Arawaknan ainda por wòrdu mirá den algun aspekto di e kultura Kòrsou aktual, manera den e kuminda i den algun palabra den Papiamentu, e idioma lokal.\n\nNa 1499, e exploradó Españó Alonso de Ojeda a yega na Kòrsou, marcando e kuminsamentu di e periodo kolonial. E isla a bira parti di e imperio Españó, pero no tabata konsiderá di gran importansia pa e Españónan debí ku no tabatin oro. E indjanan Arawak a wòrdu forsa pa bai traha na otro lugánan den e imperio Españó, ku a kousa ku nan kasi a desaparesé kompletamente for di e isla.\n\nNa 1634, e isla a keda konkerí pa e Olandésnan, ku a transformá Kòrsou den un sentro importante di komersio i esklavitud. Willemstad, e kapital, a desaroyá komo un puerto importante pa e komersio di esklavo i produktonan agríkola. E influensia Olandés ta evidente te ainda den e arkitektura kolonial, sistema legal, i edukashon.\n\nE komersio di esklavo a trese afrikanonan na Kòrsou, kende a kontribuí signifikantemente na e kultura di e isla. E influensia Afrikano por wòrdu mirá den e músika, baile, kuminda, i tradishonnan religioso di Kòrsou. Tambe, e meskla di kulturanan a krea e idioma Papiamentu, ku ta un meskla di Españó, Olandés, Portugés, i idiomanan Afrikano.\n\nDespues di abolido di esklavitud na 1863, Kòrsou a sigui desaroyá komo un sentro di refinashon di petróleo na e siglo 20, ku a trese prosperidat ekonómiko pero tambe desafionan sosial i ambiental.\n\nE influensia di e historia kolonial i di esklavitud ainda ta presente den e sosiedat Kòrsouañu, ku ta reflehá den e diskushonnan aktual tokante identidat, herensia kultural, i derechonan sivil. E kultura di Kòrsou aktual ta un refleho di su historia riku i diverso, ku ta selebrá su herensia multikultural den festivalnan, arte, músika, i tradishonnan. E esfuersonan pa preservá i promové e kultura lokal ta evidente den e enseñansa di Papiamentu na skolnan, festivalnan kultural manera e Karnaval, i e promoshon di arte i artesanía lokal."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e historia di Kòrsou i kon e ta influensia e kultura aktual?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:5:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "E historia di Kòrsou ta un historia largu i kompleks ku a influensiá e kultura aktual di e isla den hopi manera. Algun di e puntonan klave ta:\n\n- Kòrsou tabata habitá dor di pueblo indígena Caquetío promé ku yegada di europeonan. Nan a laga un influensia den e nòmbernan di sierto lugánan.\n\n- Kolonisashon hulandes for di siglo 17 a pone Kòrsou bira parti di e imperio hulandes. Esaki a trese e idioma hulandes i aspektonan di kultura hulandes, manera algun fiesta i kostumber. \n\n- Kòrsou tabata un sentro importante den komèrsio di katibo durante tempu di sklabitut. Esaki a hasi ku hopi katibo for di Afrika a yega Kòrsou, tresiendo nan idioma, kultura i religion. Esaki ta mirá den e influensia afrikano den Papiamentu i muzik, entre otro.\n\n- Despues di abolishon di sklabitut na 1863, a bini hopi imigrante for di otro islanan karibense pa traha den refineria di petroli i otro sektornan. Esaki a hasi e poblashon di Kòrsou mas diverso.\n\n- Kòrsou a haña outonomia den Reino Hulandes na 1954, loke a stimulá formashon di un identidad i kultura propio. Esaki ta reflehá den e movemento pa promové Papiamentu i otro aspektonan di kultura.\n\nTur e faktornan aki a kontribuí na e kultura diverso i multifasétiko ku Kòrsou tin awe, kaminda influensianan hulandes, afrikano, karibense i otro ta kombiná. E historia a forma e idioma, muzik, gastronomia, arte i maneranan di biba di e isla."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e historia di Kòrsou i kon e ta influensia e kultura aktual?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "papiamento:5:language.papiamento:llama 3 70b (together.ai)",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "What a great question!\n\nThe history of Curaçao has had a profound impact on the island's current culture. Here are some ways in which the past continues to influence the present:\n\n1. **Dutch colonial legacy**: Curaçao was a Dutch colony from 1634 to 1954, which has left an indelible mark on the island's language, architecture, and customs. Many Curaçaoans still speak Papiamento, a creole language that emerged as a result of the contact between enslaved Africans, European colonizers, and indigenous peoples. The Dutch influence is also visible in the island's architecture, with many buildings featuring Dutch-style facades and ornate details.\n2. **African roots**: The transatlantic slave trade brought enslaved Africans to Curaçao, who were forced to work on plantations and in other industries. Despite the brutal conditions, African cultures and traditions were preserved and passed down through generations. Today, African influences can be seen in Curaçao's music, dance, and art, as well as in the island's cuisine, which features dishes like stamppot (a hearty stew) and funchi (a dish made with cornmeal and okra).\n3. **Indigenous Taino heritage**: Before the arrival of European colonizers, Curaçao was inhabited by the Taino people, an indigenous group that migrated from the mainland hundreds of years earlier. Although the Taino population was decimated by disease and violence, their legacy lives on in the island's place names, folklore, and cultural practices. For example, the Taino word \"Curaçao\" is believed to mean \"island of the thorny bush.\"\n4. **Multiculturalism**: Curaçao's history as a colonial outpost and trading hub has created a rich cultural melting pot. The island has been shaped by the interactions between people from different ethnic and national backgrounds, including Africans, Europeans, Asians, and Latin Americans. This diversity is reflected in the island's cuisine, festivals, and artistic expressions.\n5. **Resilience and adaptability**: Curaçaoans have developed a strong sense of resilience and adaptability in response to the challenges posed by their history, including slavery, colonialism, and economic uncertainty. These traits are still evident today, as the island's people continue to navigate the complexities of globalization and economic development.\n6. **Pride and identity**: The history of Curaçao has instilled a strong sense of pride and identity among its people. Curaçaoans are fiercely proud of their cultural heritage and their ability to thrive in the face of adversity. This pride is reflected in the island's vibrant cultural scene, which includes festivals like the Curaçao Carnival and the Curaçao North Sea Jazz Festival.\n\nIn summary, the history of Curaçao has had a profound impact on the island's current culture, shaping its language, architecture, customs, and values. The island's rich cultural heritage continues to inspire and influence its people, fostering a sense of pride, resilience, and adaptability that is essential to its ongoing development."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e historia di Kòrsou i kon e ta influensia e kultura aktual?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:5:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Kòrsou, konosí ofisialmente komo Kurasao, tin un historia riku i komplika ku a influensia su kultura aktual di manera signifikante. E isla a ser deskubrí pa e eksploradó español Alonso de Ojeda den 1499, pero pronto a bini bou di kontrol di e Holandesnan den 1634. E periodo kolonial a marká un tempu di desaroyo ekonomiko i sosial, inkluíendo e plantashonnan di suku i e trafiko di esklavitud.\n\nE meskla di diferente kultura a forma e fundashon di e identidad di Kòrsou. E idioma Papiamentu, ku ta un meskla di Pòrtuges, Spañó, Holandés, Afrikano i otro idioma, ta un testimonio di e diversidat linguístiko i kultural di e isla. E kultura di Kòrsou ta reflehá influensia di e indíjenan Arawak, e kolonisadónan europeo, i e esklavonan Afrikano, asina komo e inmigrantenan di otro parti di mundu.\n\nE kultura di Kòrsou ta inkluí tradishon musikal riku, manera tambú i tumba, ku ta reflehá e erensia Afrikano. E isla tambe ta konosí pa su arte, gastronomia, i festivales, manera Karnaval, ku ta un di e mas grandi i kolóritu den Karibe.\n\nE historia di kolonialismo i esklavitud a kreá un fundashon pa un komunidat ku ta balorá su libertad i identidad kultural. E lucha pa autonomia i e desaroyo di un identidad nashonal a influensia e manera den kua e hende di Kòrsou ta mira nan mes i nan lugar den mundu.\n\nDen resumen, e historia di Kòrsou ta un meskla di influensianan di diferente kultura i evento históriconan ku a forma su kultura aktual, duna e isla un karácter uniko i divers."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e historia di Kòrsou i kon e ta influensia e kultura aktual?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:5:language.papiamento:aya 13b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Kòrsou e ta e kolonia e s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a s-a"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e historia di Kòrsou i kon e ta influensia e kultura aktual?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "papiamento:5:language.papiamento:gemini 1.5 pro",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e historia di Kòrsou i kon e ta influensia e kultura aktual?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "papiamento:5:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Kòrsou, un'isola del Mar Mediterraneo, ha una ricca storia e una cultura unica.\n\n**Storia:**\n\n* Le origini di Kòrsou risalgono al Neolitico.\n* Nel Medioevo, l'isola era un importante centro della cultura e della civiltà.\n* Nel Rinascimento, Kòrsou divenne un importante centro del commercio e della cultura.\n* Nel XIX secolo, l'isola fu occupata dagli spagnoli e poi dai francesi.\n* Nel XX secolo, Kòrsou divenne un territorio autonomo all'interno della Francia.\n\n**Influenza e cultura:**\n\nLa storia di Kòrsou ha avuto un profondo impatto sulla cultura e l'influenza dell'isola.\n\n* **Architettura:** L'isola è ricca di architetture tradizionali, come le case a torre e i castelli.\n* **Cucina:** La cucina korse è ricca di sapori e ingredienti locali.\n* **Lingua:** La lingua korse è un dialetto del francese con un ricco vocabolario e una grammatica unica.\n* **Tradizioni:** Kòrsou ha numerose tradizioni e festività locali, come la festa di Sant'Antonio.\n\n**Influenza attuale:**\n\nL'isola di Kòrsou è diventata un luogo di interesse turistico e un centro di cultura e arte.\n\n* **Turismo:** Kòrsou è un luogo ideale per chi cerca un viaggio di relax e scoperta.\n* **Arte:** L'isola è un importante centro dell'arte contemporanea e ospita numerose esposizioni e eventi artistici.\n* **Ricerca:** Kòrsou è un luogo di ricerca scientifica e ospita numerose università e centri di ricerca.\n\nLa storia, la cultura e l'influenza di Kòrsou hanno lasciato una profonda impronta sulla cultura e l'influenza dell'isola."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e historia di Kòrsou i kon e ta influensia e kultura aktual?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
         "name": "papiamento:6",
         "type": 5,
         "source": "worker",
@@ -1298,6 +1485,380 @@
           },
           "prompting_state": {
             "prompt": "Kua ta e retonan di medio ambiente ku Kòrsou ta enfrentá i kon Kòrsou ta enfrentá e problemanan aki?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "papiamento:8",
+        "type": 5,
+        "source": "worker",
+        "collector": "488",
+        "language": "Papiamento",
+        "translations": {
+          "Papiamento": {
+            "language": "Papiamento",
+            "text": "Kon Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?"
+          },
+          "English": {
+            "language": "English",
+            "text": "How is cultural diversity celebrated in Curaçao, and what are some of the most important festivities?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "religion, beliefs, customs, and traditions"
+      },
+      "answers": [
+        {
+          "name": "papiamento:8:language.papiamento:mixtral 8x22b (together.ai)",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": " Kon Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?\n\nTranslation: How does Curaçao celebrate diversity and what is the most important part of the festival?\n\nCuraçao celebrates diversity through various cultural events and festivals throughout the year. One of the most important events is the Curaçao Carnival, which is a month-long celebration that takes place in January and February. The carnival features parades, music, dance, and colorful costumes that showcase the island's rich cultural heritage.\n\nAnother important event is the Curaçao North Sea Jazz Festival, which takes place in August. This festival brings together musicians from around the world to perform a variety of genres, including jazz, blues, soul, and pop. The festival celebrates the island's diverse musical traditions and attracts visitors from all over the world.\n\nIn addition to these events, Curaçao also celebrates its cultural diversity through food, art, and language. The island is home to a variety of cuisines, including Dutch, Spanish, African, and Caribbean, and its art scene reflects the island's multicultural heritage. The official languages of Curaçao are Dutch, Papiamentu, and English, which further highlights the island's cultural diversity.\n\nOverall, the most important part of any festival or cultural event in Curaçao is the opportunity to celebrate and appreciate the island's rich cultural heritage and diversity."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:8:language.papiamento:gpt 4 turbo",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Kòrsou, un isla den Karibe ku ta parte di Reino Hulandes, ta selebrá su diversidat kultural na varios manera i tin hopi dianan di fiesta importante den su kalendario. E diversidat aki ta reflehá den su historia riku, influensianan kultural di Afro-Karibeño, Europeo, Latino, i mas. Aki ta algun di e dianan di fiesta mas importante ku ta reflehá e diversidat kultural di Kòrsou:\n\n1. **Karnaval** - Karnaval ta un di e selebrashonnan mas grandi i koló na Kòrsou, ku ta tuma lugá generalmente na febrüari òf mart. E ta inklui parada grandi, festinan di kaya, i traje koló. E ta un manifestashon vibrante di e diversidat kultural di e isla.\n\n2. **Dia di Bandera** (Dia di Himno i Bandera) - Gevierd op 2 juli, e dia aki ta selebrá e orguyo nashonal i kultura di Kòrsou. Aktividatnan inklui seremonianan ofisial, presentashonnan kultural, kantamentu di e himno nashonal, i mas.\n\n3. **Siman di Seú (Siman Santa)** - E ta un tradishon agríkola ku ta selebrá kosecha, partikularmente di yuana (maishi). Durante e siman aki, tin parada i festivitatinan ku ta enfoká riba tradishonnan kultural i kulinario di Kòrsou.\n\n4. **Pasku** - Manera hopi otro lugá, Pasku ta un tempu di famia i selebrashon relihioso. E ta inklui misanan di meianochi, kantamentu di aginaldo (kansionnan di Pasku tradishonal), i kompartimentu di kuminda tradishonal.\n\n5. **Aña Nobo i Dia di Aña Nobo** - E selebrashon di Aña Nobo ta kuminsá ku pagara (fuegonan artifisial) na meianochi pa duna bon bini na e aña nobo. E siguiente dia, Dia di Aña Nobo, ta tradishonalmente un dia di deskanso i refleho.\n\n6. **Rei di Dia (Koningsdag)** - Gevierd op 27 april, e dia aki ta selebrá kumpleaño di Rey Willem-Alexander di Hulanda. E ta inklui merkadonan di kaya, aktividatnan pa mucha, i festivitatinan den henter e isla.\n\nE dianan di fiesta aki ta solo algun ehèmpel di kon Kòrsou ta selebrá su diversidat kultural. Kada festividat ta reflehá un aspekto diferente di su identidat kultural, desde su herensia históriko te su tradishonnan moderno."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:8:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Na Kòrsou tin diferente selebrashon ku ta mustra e diversidat di e isla. Algun di e dianan di fiesta mas importante ta:\n\n- Karnaval - Esaki ta e selebrashon mas grandi, ku desfilenan, muzik i baile durante vários dia na yanüari òf febrüari.\n\n- Dia di Rei (Koningsdag) - Riba 27 di aprel ta selebrá aña di rei di Hulanda ku diferente aktividat.\n\n- Dia di Bandera (Dia di Himno i Bandera) - 2 di yüli ta selebrá e dia ku Kòrsou a haña su status aparte den Reino Hulandes na 1954. \n\n- Siman di kultura - Na sèptèmber tin un siman yen di aktividat kultural manera muzik, arte, baile, gastronomia etc.\n\n- Pasco i Aña Nobo - E dianan akí tambe ta ser selebrá na un manera amplio riba e isla.\n\nAdemas, Kòrsou tin hopi otro fiesta religioso i kultural di e diferente gruponan étnico ku ta forma parti di e komunidat multikultura, manera di e komunidat hudiu, chines, surinam etc. Tur esaki ta reflehá e rikesa i diversidat di Kòrsou su poblashon."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "papiamento:8:language.papiamento:llama 3 70b (together.ai)",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "What a great question!\n\nCuraçao is indeed a melting pot of cultures, and it celebrates its diversity in many ways. One of the most important and festive events on the island is the Curaçao Carnival, also known as \"Karnaval\" in Papiamento.\n\nThe Curaçao Carnival is a vibrant and colorful celebration that takes place every year, usually in February or March. It's a time when the island comes alive with music, dance, costumes, and parades. The carnival is a fusion of African, European, and indigenous influences, reflecting the island's rich cultural heritage.\n\nDuring the carnival, you can expect to see:\n\n1. Grand parades: Elaborate floats, costumes, and performances fill the streets of Willemstad, the capital city.\n2. Music and dance: Live bands and DJs play a mix of traditional and modern music, including soca, calypso, and zouk.\n3. Costumes and masks: Participants wear intricate and colorful costumes, often with African and indigenous influences.\n4. Food and drinks: Traditional Curaçaoan dishes, such as stamppot and keshi yen, are served alongside refreshing cocktails and beers.\n5. Cultural performances: Folkloric groups and cultural organizations showcase their traditions through music, dance, and theater.\n\nThe Curaçao Carnival is a time for the community to come together, celebrate their diversity, and express themselves through art, music, and culture. It's an unforgettable experience that attracts visitors from around the world.\n\nSo, if you ever find yourself on Curaçao during carnival season, be sure to join in the fun and experience the island's vibrant culture firsthand!"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:8:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Kòrsou, konosí ofisialmente komo Kòrsou, ta un isla ku ta forma parti di e Reino Hulandes. E isla ta konosí pa su rikeza kultural i diversidat, ku ta reflektá den su idioma, gastronomia, i tradishon. E idioma ofisial ta Papiamentu, un idioma kreol ku ta kombiná elementu di Hulandes, Spañó, Portugués, i otro idioma.\n\nKòrsou ta selebrá diversidat na diferente manera, inkluíendo atravez di su dianan di fiesta. E dianan di fiesta mas importante na Kòrsou ta:\n\n1. **Dia di Reinashon (Koningsdag)** - 27 di April: Un fiesta nashonal pa selebrá e aña nobo di bida di e Rei di Hulanda, Willem-Alexander. E dia aki ta yena ku aktividatnan kulturel i deporte.\n\n2. **Dia di Bandera (Dia di Bandera di Kòrsou)** - 2 di Juli: Un dia pa selebrá e bandera i identidat di Kòrsou. Ta un okashon pa reflektá riba e historia i kultura di e isla.\n\n3. **Karnaval** - E temporada di Karnaval ta un di e evento mas grandi i koló di Kòrsou, ku ta inkluí desfilé grandi, musika, i baile. E evento aki ta tuma lugá den e semana anterior na e Kuáresma katóliko.\n\n4. **Dia di Tula (Dia di Libertat)** - 17 di Augustus: Un dia pa komemorá e rebelion di Tula, un lider di e rebelion di esklabonan na 1795. E dia aki ta un momentu pa reflektá riba e lucha pa libertat i justisia.\n\n5. **Dia di Reino (Koninkrijksdag)** - 15 di Desèmber: Un dia pa selebrá e formashon di e Reino Hulandes, ku Kòrsou ta un parti di dje.\n\n6. **Pasku i Aña Nobo** - E selebrashon di Pasku i Aña Nobo ta inkluí tradishon lokal, kuminda spesial, i fiesta familiar.\n\nE dianan di fiesta aki ta reflektá e diversidat i e rikeza di e kultura di Kòrsou, i ta duna e komunidat un oportunidad pa uní i selebrá su identidat uniko."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:8:language.papiamento:aya 13b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "papiamento:8:language.papiamento:gemini 1.5 pro",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "papiamento:8:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "(A) Dia Internacional van de Vrouwen\n(B) Koningsdag\n(C) Internationale Dag van de Kinder\n(D) Kerstmis\n\n**Antwoord:** (A)\n\n**Toelichting:** Kon Kòrsou viert jaarlijks op 8 maart de Dia Internacional van de Vrouwen. Deze feestdag wordt georganiseerd om de vooruitgang van vrouwen te herdenken en te eren."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kon Kòrsou ta selebrá diversidat i kua ta e dianan di fiesta mas importante?\n",
+            "model_name": "Gemma 7B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "google/gemma-1.1-7b-it",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "name": "papiamento:9",
+        "type": 5,
+        "source": "worker",
+        "collector": "488",
+        "language": "Papiamento",
+        "translations": {
+          "Papiamento": {
+            "language": "Papiamento",
+            "text": "Kua ta e situashon polítiko aktual di Korsou i kua ta e temanan prinsipal di debate den sosiedat?"
+          },
+          "English": {
+            "language": "English",
+            "text": "What is the current political situation in Curaçao, and what are the main debate topics in society?"
+          }
+        },
+        "human_evaluated": false,
+        "category": "governance and society"
+      },
+      "answers": [
+        {
+          "name": "papiamento:9:language.papiamento:mixtral 8x22b (together.ai)",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": " La situación política actual en Curazao es compleja y está marcada por varios temas principales en el debate social. Algunos de los temas más destacados incluyen:\n\n1. Corrupción: La corrupción es un problema importante en Curazao, y ha habido varios casos de corrupción política en los últimos años. Esto ha llevado a un aumento en la demanda de transparencia y rendición de cuentas en el gobierno.\n2. Economía: La economía de Curazao ha sido afectada por la pandemia de COVID-19, y muchas empresas han tenido que cerrar o reducir sus operaciones. La recuperación económica es un tema importante en el debate político actual.\n3. Medio ambiente: Curazao es un país con una gran biodiversidad y recursos naturales valiosos. Sin embargo, la contaminación y la degradación ambiental son problemas importantes en la isla. La protección del medio ambiente y la promoción de prácticas sostenibles son temas clave en el debate político actual.\n4. Educación: La educación es un tema importante en Curazao, y muchos ciudadanos están preocupados por la calidad de la educación y la falta de oportunidades para los jóvenes. La mejora del sistema educativo es un tema clave en el debate político actual.\n5. Derechos humanos: Los derechos humanos son un tema importante en Curazao, y muchos ciudadanos están preocupados por la discriminación y la violencia contra ciertos grupos, como las mujeres y la comunidad LGBTQ+. La promoción de los derechos humanos y la igualdad es un tema clave en el debate político actual."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e situashon polítiko aktual di Korsou i kua ta e temanan prinsipal di debate den sosiedat?\n",
+            "model_name": "Mixtral 8x22B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:9:language.papiamento:gpt 4 turbo",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Te mi último punto de conocemento en 2023, Curaçao ha enfrentado varios desafíos políticos y sociales, reflejando una dinámica compleja tanto a nivel local como en su relación con el Reino de los Países Bajos. Los temas principales de debate en la sociedad de Curaçao suelen girar en torno a varios ejes fundamentales:\n\n1. **Economía y Finanzas Públicas**: La economía de Curaçao ha enfrentado desafíos significativos, incluyendo la necesidad de diversificación económica más allá del turismo y los servicios financieros, la gestión de la deuda pública y la recuperación económica post-pandemia. Las discusiones también se centran en la dependencia económica de la refinería de petróleo y la búsqueda de alternativas sostenibles.\n\n2. **Relaciones con el Reino de los Países Bajos**: La autonomía y el estatus dentro del Reino de los Países Bajos es un tema recurrente, especialmente en lo que respecta a la asistencia financiera y las condiciones que a menudo se imponen a esta ayuda. Las negociaciones sobre la autonomía, la gobernanza y la intervención del gobierno neerlandés son puntos de fricción.\n\n3. **Salud y Educación**: La calidad y accesibilidad de los servicios de salud y educación son preocupaciones constantes. La inversión en estas áreas y la reforma de los sistemas para mejorar la atención y los resultados educativos son temas de debate.\n\n4. **Corrupción y Gobernanza**: La transparencia, la corrupción y la eficacia del gobierno son temas críticos. La sociedad civil y los partidos políticos discuten sobre la necesidad de fortalecer las instituciones democráticas y combatir la corrupción.\n\n5. **Identidad y Cultura**: La preservación de la identidad cultural y el idioma papiamento, frente a las influencias externas y la globalización, es un tema de orgullo y debate. La discusión sobre la identidad también se relaciona con las políticas de inmigración y la integración de los migrantes.\n\n6. **Medio Ambiente y Sostenibilidad**: La protección del medio ambiente y la promoción del desarrollo sostenible, especialmente en lo que respecta al turismo y la industria, son de creciente importancia. La gestión de los recursos naturales y la mitigación del cambio climático son temas de interés.\n\n7. **Derechos Humanos y Justicia Social**: La igualdad de derechos, incluidos los derechos de la comunidad LGBTQ+, y la justicia social, son temas de discusión activa. La lucha contra la discriminación y la promoción de una sociedad más inclusiva son objetivos clave para muchos grupos.\n\nEs importante notar que la situación política y social en Curaçao puede cambiar rápidamente, y los temas de debate pueden evolucionar en respuesta a eventos locales e internacionales. La sociedad de Curaçao es vibrante y diversa, con un compromiso activo en discusiones sobre su futuro."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e situashon polítiko aktual di Korsou i kua ta e temanan prinsipal di debate den sosiedat?\n",
+            "model_name": "GPT 4 Turbo",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4-0125-preview",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:9:language.papiamento:claude opus",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "E situashon polítiko na Kòrsou ta komplehá. Tin hopi debate tokante e krísis ekonómiko ku e isla ta pasando aden, ku ta krea retanan pa gobièrnu. Desempleo i pobresa ta algu ku hopi hende ta preokupá kuné. Korupshon polítiko tambe ta un tema di diskushon, ku akusashonnan kontra algun polítiko. Banda di esei, futuro di refineria Isla i kon pa diversifiká e ekonomia ta puntonan importante. E krísis di Venezuela i imigrashon for di e pais ei pa Kòrsou tambe ta krea debate. Tur e temanan aki ta dominá e diskushon polítiko i sosial riba e isla aktualmente."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e situashon polítiko aktual di Korsou i kua ta e temanan prinsipal di debate den sosiedat?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "papiamento:9:language.papiamento:llama 3 70b (together.ai)",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Aktualmente, e situashon polítiko di Korsou ta karakterisá pa un klima di inestabilidad polítiko i sosial. Despues di aña 2017, ku e isla a enfrenta un krise polítiko ku a kuminsa ku e desmantelamentu di e gobièrnu di Korsou, e situashon polítiko a keda inestable.\n\nE temanan prinsipal di debate den sosiedat aktualmente ta:\n\n1. **Status polítiko di Korsou**: E status polítiko di Korsou ta un di e temanan mas debatí den sosiedat. E isla ta buska pa haya un status definitivo, ku ta inklui e posibilidat di outonomia o independensia.\n2. **Korupshon i transparansia**: E tema di korupshon i transparansia ta un di e mas debatí den sosiedat. E sosiedat ta eksigi mas transparansia i akshon kontra e korupshon den gobièrnu i institushonnan.\n3. **Ekonomia i desarrollo**: E ekonomia di Korsou ta enfrenta desafíonan grandi, inkluyendo e dependensia di e isla di e petróleo i e falta di diversifikashon ekonomiko. E tema di desarrollo ekonomiko i kresementu sostenibel ta un di e mas debatí den sosiedat.\n4. **Educashon i kapasitashon**: E tema di educashon i kapasitashon ta un di e mas importante den sosiedat. E sosiedat ta eksigi mas enfokamentu riba e desarrollo di kapasitashon i e mejora di e sistema di educashon.\n5. **Kultura i identidat**: E tema di kultura i identidat ta un di e mas debatí den sosiedat. E sosiedat ta buska pa preserva i promove e kultura di Korsou, inkluyendo e idioma, e musika, e dansa i e tradishonnan.\n6. **Medio ambiente**: E tema di medio ambiente ta un di e mas importante den sosiedat. E sosiedat ta eksigi mas akshon pa proteha e medio ambiente i e recursos natural di e isla.\n7. **Seguridat**: E tema di seguridat ta un di e mas debatí den sosiedat. E sosiedat ta eksigi mas akshon pa redukto e krímen i e violensia den e isla.\n\nEsaki ta solo algun di e temanan prinsipal di debate den sosiedat aktualmente. E situashon polítiko di Korsou ta kompleks i ta karakterisá pa un klima di inestabilidad polítiko i sosial."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e situashon polítiko aktual di Korsou i kua ta e temanan prinsipal di debate den sosiedat?\n",
+            "model_name": "Llama 3 70B (together.ai)",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "meta-llama/Llama-3-70b-chat-hf",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:9:language.papiamento:gpt 4o",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "Awe, e situashon polítiko di Kòrsou ta karakterisá pa un serie di desafiu i desaroyo ku ta influensia e islanan di Karibe Hulandes. E temanan prinsipal di debate den sosiedat ta inkluí:\n\n1. **Ekonomia i Finansas**: Kòrsou ta enfrenta desafiu ekonómiko, inkluí un deuda públiko signifikante i un nesesidat pa diversifiká su ekonomia. E pandemia di COVID-19 a agrava e situashon, i e isla ta buskando manera pa rekobrá i stimulá kreshimentu ekonómiko.\n\n2. **Gobernashon i Transparensia**: Ta kontinuamente tin diskushon riba e tema di gobernashon bon i transparensia. Korupshon i mal manejamentu di fondo públiko ta un preokupashon persistente, i ta pidi pa mas kontrol i responsabilidat den e sektornan públiko.\n\n3. **Salú Públiko**: E sistema di salú ta bai na un proseso di reforma pa mehorá su efektividat i aksesibilidat. E pandemia a pone un preshon adicional riba e sistema di salú, i ta pidi pa mehoras struktural.\n\n4. **Edukashon**: E kalidat di edukashon ta un otro tema di importansia. Ta pidi pa mehoras den e sistema edukativo pa garantisá ku e hobenan ta haña e konosementu i destrezanan nesesario pa prosperá den un mundo ku ta kambia rapidamente.\n\n5. **Medioambiente**: Ta pidi pa mas atenshon riba protekshon di e medioambiente, inkluí maneho di deshecho, protekshon di e rifnan di koral, i sostenibilidat di e sektor turístiko.\n\n6. **Relashon ku Hulanda**: E relashon di Kòrsou ku Hulanda ta un tema kontinua di diskushon, spesialmente den kontektu di autonomia i e ayuda finansiero ku Hulanda ta duna. Ta pidi pa klaridat riba e kondishonnan di e ayuda i e futuro di e relashon politik.\n\n7. **Kriminalidat i Seguridat**: Kriminalidat, inkluí violensia i trafiko di droga, ta un preokupashon mayor. Ta pidi pa mehoras den e sistema di hustisia i mas resursonan pa e fuerzan di seguridat.\n\nE situashon polítiko di Kòrsou ta diná pa e desafiu i oportunidatnan ku e isla ta enfrenta, i e debatunan den sosiedat ta reflehá e nesesidat pa solushon duradero i inklusivo."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e situashon polítiko aktual di Korsou i kua ta e temanan prinsipal di debate den sosiedat?\n",
+            "model_name": "GPT 4o",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gpt-4o-2024-05-13",
+            "n": 1,
+            "presence_penalty": 0.0,
+            "temperature": 0.0,
+            "top_p": 1.0,
+            "logprobs": false
+          }
+        },
+        {
+          "name": "papiamento:9:language.papiamento:aya 13b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "E situashon polítiko aktual di Korsou ta un demokrasia parlementario, e Parlamento a electá un presidente y un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá un Presidente a electá"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e situashon polítiko aktual di Korsou i kua ta e temanan prinsipal di debate den sosiedat?\n",
+            "model_name": "AYA 13B",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model_path": "CohereForAI/aya-101",
+            "output_scores": false,
+            "return_dict_in_generate": false,
+            "do_sample": false
+          }
+        },
+        {
+          "name": "papiamento:9:language.papiamento:gemini 1.5 pro",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "OTHER"
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e situashon polítiko aktual di Korsou i kua ta e temanan prinsipal di debate den sosiedat?\n",
+            "model_name": "Gemini 1.5 Pro",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "gemini-1.5-pro-preview-0514",
+            "temperature": 0.0
+          }
+        },
+        {
+          "name": "papiamento:9:language.papiamento:gemma 7b",
+          "language": "Papiamento",
+          "translations": {
+            "Papiamento": {
+              "language": "Papiamento",
+              "text": "* **Situashon polítiko aktual di Korsou:**\n\nKorsou ta es un país europeo con un sistema político democrático de tipo republicano. Il potere es diviso tra il Presidente della Repubblica, il Parlamento e il Governo.\n\n* **Temanan prinsipal di debate:**\n\n- **Politica estera:** le relazioni con i paesi confinanti e la sicurezza internazionale.\n- **Politica interna:** la gestione della pandemia del COVID-19, l'economia e l'emigrazione.\n\n\n**Analisi:**\n\n**Politica estera:**\n\n- I rapporti con i paesi confinanti sono un tema di grande interesse, in quanto Korsou è un paese con una posizione geografica strategica.\n- La sicurezza internazionale è un altro tema importante, in quanto Korsou è un paese membro dell'Unione Europea e della NATO.\n\n**Politica interna:**\n\n- La gestione della pandemia del COVID-19 è un tema centrale, in quanto Korsou ha uno dei tassi di vaccinazione più alti d'Europa.\n- L'economia è un altro tema importante, in quanto Korsou ha una crescita economica tra le più alte d'Europa.\n- L'emigrazione è un problema persistente, in quanto Korsou ha una forte emigrazione di giovani professionisti.\n\n\n**Conclusione:**\n\nI temi principali di debate nella società korsiana riguardano la politica estera e interna. In entrambi i casi, i temi sono politici delicati e richiedono soluzioni innovative e sostenibili."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kua ta e situashon polítiko aktual di Korsou i kua ta e temanan prinsipal di debate den sosiedat?\n",
             "model_name": "Gemma 7B",
             "max_output_tokens": 2048,
             "other_state": {},
