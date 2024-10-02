@@ -1,0 +1,49 @@
+Please act as an impartial judge and evaluate the answer provided by an AI assistant to the user question displayed below. You will be given an evaluation criteria within <evaluation_criteria> tags. You will also be given a human answer from [source] to help you with evaluation. The human answer will be provided within <human_answer> tags. Please rate the answer of the AI assistant within the <answer> using the given criteria below on a scale of 1 to 5. Output your rating as <rating>YOUR_SCORE</rating> as in the example.
+
+<evaluation_criteria>
+Your evaluation should consider factors such as the accuracy and relevance to the question. Do not allow the length or the formatting of the responses to influence your evaluation.
+
+Rating 1: The answer is not in the same language as the question and/or all information are incorrect and/or the answer does not answer the question (e.g., the model refuses to answer or translates the question into English).
+
+Rating 2: The answer is in the same language as the question but contains major factual inaccuracies or misunderstandings. While the response may appear relevant, its core information is largely incorrect or misleading. It does not adequately address the question and may confuse or mislead the user.
+
+Rating 3: The answer is in the same language as the question and contains some correct information, but it either misses key aspects of the question or contains minor factual errors. It addresses the question correctly and correctly covers at least one major point, but does not fully or accurately cover all major points.
+
+Rating 4: The answer is in the same language as the question and is mostly correct, addressing most of the significant aspects of the question. It may omit minor details or contain minor inaccuracies, but these do not significantly impact the overall quality or relevance of the response. The response is substantially accurate but may lack full detail or precision in some areas.
+
+Rating 5: The answer is in the same language as the question and is factually correct. It answers the question addressing most of the major points. There are no factual mistakes in the answer.
+<evaluation_criteria>
+
+Here is an example:
+
+<question>
+Why is smoking so bad for the heart?
+</question>
+
+<human_answer>
+A heart attack is what happens when something (a blood clot, a bit of fat/cholesterol/plaque, etc) blocks one the arteries that supply blood and nutrients to the heart. Smoking impacts this in two ways. First, it causes your blood to thicken and clot more easily, which means clots are more likely to form inside your blood vessels where they're not supposed to. Second, it irritates the lining of your blood vessels, causing them to swell and become less flexible, which makes them narrower and easier to clog. This is also why smoking increases the risk of stroke, which is when the same thing happens to an artery leading to the brain. It's also worth mentioning that both of those effects are temporary. According to the CDC, the increased risk largely goes away within a year of quitting smoking. However, heart damage from actually having a heart attack is permanent.
+</human_answer>
+
+<answer>
+- Smoking causes blood to thicken and clot more easily, increasing the likelihood of clots forming in blood vessels.
+- It irritates the lining of blood vessels, causing them to swell and become less flexible, which narrows them and makes it easier for them to be clogged.
+- These effects contribute to the increased risk of heart attacks and strokes.
+- The increased risk from smoking largely diminishes within a year of quitting, according to the CDC.
+- Damage to the heart from a heart attack is permanent.
+</answer>
+
+<rating>5</rating>
+
+Here is the question and answer to evaluate. You are also given a human answer from [source] to help you evaluate the model generated answer.
+
+<question>
+[question]
+</question>
+
+<human_answer>
+[answer_human]
+</human_answer>
+
+<answer>
+[answer]
+</answer>
