@@ -85,6 +85,8 @@ class Question:
     url: str | None = PyField(default=None)
     human_evaluated: bool = PyField(default=False)
     category: Category | None = PyField(default=None)
+    # criteria: {"answer1|answer2": best_answer_idx}
+    pairwise_best_answers: dict[str, dict[str, int]] | None = PyField(default=None)
 
     @property
     def untranslated(self) -> QuestionTranslation:
@@ -105,6 +107,7 @@ class Answer:
     translations: dict[Language, AnswerTranslation]
     prompting_state: PromptingStateAnnotation
     option_probs: dict[str, float] | None = PyField(default=None)
+    ratings: dict[str, int] | None = PyField(default=None)
 
     @classmethod
     def make(
