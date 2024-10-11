@@ -737,6 +737,32 @@
           }
         },
         {
+          "name": "english:3:language.english:claude opus",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "The nickname \"Dick\" for \"Richard\" has a long and somewhat convoluted history. It is believed to have originated through a process called \"rhyming slang,\" which was popular in medieval England.\n\nHere's how it likely evolved:\n\n1. In Middle English, the name \"Richard\" was often shortened to \"Rick\" or \"Rich.\"\n\n2. People then started to use rhyming words to create nicknames, so \"Rick\" became \"Dick\" (as in \"Dick and Rick\" rhyme).\n\n3. This practice was common with other names too. For example, \"Bob\" became a nickname for \"Robert\" (as in \"Bob and Rob\" rhyme).\n\n4. Over time, \"Dick\" stuck as a nickname for \"Richard,\" even though the original rhyming connection was lost.\n\nIt's worth noting that while \"Dick\" was a common nickname for \"Richard\" in the past, it has fallen out of favor in recent decades due to the word's other, more vulgar meaning."
+            }
+          },
+          "prompting_state": {
+            "prompt": "How did “Dick” become the shortened version of “Richard”? \n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 5,
+            "rating|Human": 5,
+            "factuality|Human": 5,
+            "omissions|Human": 5,
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
+          }
+        },
+        {
           "name": "english:3:language.english:gpt 4 turbo",
           "language": "English",
           "translations": {
@@ -762,32 +788,8 @@
             "rating|Human": 5,
             "factuality|Human": 5,
             "omissions|Human": 5,
-            "language_correct|Human": 5
-          }
-        },
-        {
-          "name": "english:3:language.english:claude opus",
-          "language": "English",
-          "translations": {
-            "English": {
-              "language": "English",
-              "text": "The nickname \"Dick\" for \"Richard\" has a long and somewhat convoluted history. It is believed to have originated through a process called \"rhyming slang,\" which was popular in medieval England.\n\nHere's how it likely evolved:\n\n1. In Middle English, the name \"Richard\" was often shortened to \"Rick\" or \"Rich.\"\n\n2. People then started to use rhyming words to create nicknames, so \"Rick\" became \"Dick\" (as in \"Dick and Rick\" rhyme).\n\n3. This practice was common with other names too. For example, \"Bob\" became a nickname for \"Robert\" (as in \"Bob and Rob\" rhyme).\n\n4. Over time, \"Dick\" stuck as a nickname for \"Richard,\" even though the original rhyming connection was lost.\n\nIt's worth noting that while \"Dick\" was a common nickname for \"Richard\" in the past, it has fallen out of favor in recent decades due to the word's other, more vulgar meaning."
-            }
-          },
-          "prompting_state": {
-            "prompt": "How did “Dick” become the shortened version of “Richard”? \n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 5,
-            "rating|Human": 5,
-            "factuality|Human": 5,
-            "omissions|Human": 5,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         },
         {
@@ -816,7 +818,8 @@
             "rating|Human": 3,
             "factuality|Human": 3,
             "omissions|Human": 1,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 3
           }
         }
       ]
@@ -1558,6 +1561,32 @@
           }
         },
         {
+          "name": "english:7:language.english:claude opus",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "In early 2021, GameStop, a struggling video game retailer, experienced a massive surge in its stock price due to a short squeeze orchestrated by retail investors, primarily coordinated through the Reddit forum r/WallStreetBets. Here's a summary of the events:\n\n1. Short selling: Hedge funds and institutional investors heavily shorted GameStop stock, betting that the share price would fall due to the company's declining business.\n\n2. Reddit investors: Users on r/WallStreetBets noticed the high short interest in GameStop and began buying shares and call options en masse to drive up the price and force a short squeeze.\n\n3. Stock price surge: The stock price skyrocketed from around $17 in early January 2021 to a peak of $483 on January 28, 2021, as retail investors continued to buy and short-sellers were forced to cover their positions at higher prices.\n\n4. Trading restrictions: The extreme volatility led some brokerages, like Robinhood, to restrict trading in GameStop and other heavily shorted stocks, drawing criticism from investors and politicians.\n\n5. Aftermath: The event garnered significant media attention and raised concerns about market manipulation, the power of retail investors, and the fairness of the financial system. It also led to congressional hearings and ongoing investigations by regulators.\n\nThe GameStop short squeeze highlighted the potential impact of coordinated retail investor actions and the power of social media in shaping financial markets. It also exposed the complexities and potential risks associated with short selling and options trading."
+            }
+          },
+          "prompting_state": {
+            "prompt": "What happened during the Game Stop stock craze in 2020? \n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 4,
+            "rating|Human": 4,
+            "factuality|Human": 5,
+            "omissions|Human": 3,
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
+          }
+        },
+        {
           "name": "english:7:language.english:gpt 4 turbo",
           "language": "English",
           "translations": {
@@ -1583,32 +1612,8 @@
             "rating|Human": 4,
             "factuality|Human": 5,
             "omissions|Human": 5,
-            "language_correct|Human": 5
-          }
-        },
-        {
-          "name": "english:7:language.english:claude opus",
-          "language": "English",
-          "translations": {
-            "English": {
-              "language": "English",
-              "text": "In early 2021, GameStop, a struggling video game retailer, experienced a massive surge in its stock price due to a short squeeze orchestrated by retail investors, primarily coordinated through the Reddit forum r/WallStreetBets. Here's a summary of the events:\n\n1. Short selling: Hedge funds and institutional investors heavily shorted GameStop stock, betting that the share price would fall due to the company's declining business.\n\n2. Reddit investors: Users on r/WallStreetBets noticed the high short interest in GameStop and began buying shares and call options en masse to drive up the price and force a short squeeze.\n\n3. Stock price surge: The stock price skyrocketed from around $17 in early January 2021 to a peak of $483 on January 28, 2021, as retail investors continued to buy and short-sellers were forced to cover their positions at higher prices.\n\n4. Trading restrictions: The extreme volatility led some brokerages, like Robinhood, to restrict trading in GameStop and other heavily shorted stocks, drawing criticism from investors and politicians.\n\n5. Aftermath: The event garnered significant media attention and raised concerns about market manipulation, the power of retail investors, and the fairness of the financial system. It also led to congressional hearings and ongoing investigations by regulators.\n\nThe GameStop short squeeze highlighted the potential impact of coordinated retail investor actions and the power of social media in shaping financial markets. It also exposed the complexities and potential risks associated with short selling and options trading."
-            }
-          },
-          "prompting_state": {
-            "prompt": "What happened during the Game Stop stock craze in 2020? \n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 4,
-            "rating|Human": 4,
-            "factuality|Human": 5,
-            "omissions|Human": 3,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         },
         {
@@ -1637,7 +1642,8 @@
             "rating|Human": 4,
             "factuality|Human": 5,
             "omissions|Human": 3,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 4
           }
         }
       ]
@@ -3979,6 +3985,32 @@
           }
         },
         {
+          "name": "english:19:language.english:claude opus",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "The British Army is not called the \"Royal Army\" because of historical reasons and the way the British military is structured.\n\n1. Historical development: The British Army has its roots in the English Army, which existed before the formation of the United Kingdom. The term \"British Army\" came into use after the Acts of Union in 1707, which united England and Scotland.\n\n2. Royal Navy and Royal Air Force: The British Navy and Air Force are called \"Royal\" because they were established under the direct authority of the monarch. The Royal Navy traces its origins to the 16th century, and the Royal Air Force was founded in 1918 by royal decree.\n\n3. Army's relationship with Parliament: The British Army has historically been under the control of Parliament rather than the monarch. This arrangement dates back to the English Bill of Rights in 1689, which established Parliament's authority over the army.\n\n4. Regiments and corps: While the army as a whole is not called \"Royal,\" many individual regiments and corps within the British Army have been granted the \"Royal\" title as a mark of distinction for their service, such as the Royal Regiment of Fusiliers or the Royal Tank Regiment.\n\nIn summary, the British Army is not called the \"Royal Army\" due to its historical development and its relationship with Parliament, even though many individual regiments and corps within the army have been granted the \"Royal\" title."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why is the British Army not Royal Army? \n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 5,
+            "rating|Human": 5,
+            "factuality|Human": 5,
+            "omissions|Human": 5,
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 4
+          }
+        },
+        {
           "name": "english:19:language.english:gpt 4 turbo",
           "language": "English",
           "translations": {
@@ -4004,32 +4036,8 @@
             "rating|Human": 4,
             "factuality|Human": 5,
             "omissions|Human": 5,
-            "language_correct|Human": 5
-          }
-        },
-        {
-          "name": "english:19:language.english:claude opus",
-          "language": "English",
-          "translations": {
-            "English": {
-              "language": "English",
-              "text": "The British Army is not called the \"Royal Army\" because of historical reasons and the way the British military is structured.\n\n1. Historical development: The British Army has its roots in the English Army, which existed before the formation of the United Kingdom. The term \"British Army\" came into use after the Acts of Union in 1707, which united England and Scotland.\n\n2. Royal Navy and Royal Air Force: The British Navy and Air Force are called \"Royal\" because they were established under the direct authority of the monarch. The Royal Navy traces its origins to the 16th century, and the Royal Air Force was founded in 1918 by royal decree.\n\n3. Army's relationship with Parliament: The British Army has historically been under the control of Parliament rather than the monarch. This arrangement dates back to the English Bill of Rights in 1689, which established Parliament's authority over the army.\n\n4. Regiments and corps: While the army as a whole is not called \"Royal,\" many individual regiments and corps within the British Army have been granted the \"Royal\" title as a mark of distinction for their service, such as the Royal Regiment of Fusiliers or the Royal Tank Regiment.\n\nIn summary, the British Army is not called the \"Royal Army\" due to its historical development and its relationship with Parliament, even though many individual regiments and corps within the army have been granted the \"Royal\" title."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Why is the British Army not Royal Army? \n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 5,
-            "rating|Human": 5,
-            "factuality|Human": 5,
-            "omissions|Human": 5,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 4
           }
         },
         {
@@ -4058,7 +4066,8 @@
             "rating|Human": 3,
             "factuality|Human": 5,
             "omissions|Human": 1,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 3
           }
         }
       ]
@@ -4400,6 +4409,32 @@
           }
         },
         {
+          "name": "english:21:language.english:claude opus",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "The term \"internal medicine\" can be a bit confusing, as it doesn't refer to the location of treatment (i.e., inside the body) but rather to a specific medical specialty. Internal medicine is a branch of medicine that focuses on the diagnosis, treatment, and prevention of adult diseases.\n\nHere are some key differences between internal medicine and primary care physicians (PCPs):\n\n1. Training: Internal medicine physicians, also known as internists, undergo specialized training in adult care after completing medical school. They typically complete a three-year residency in internal medicine.\n\n2. Focus: Internists focus on the diagnosis and treatment of complex medical conditions in adults. They are trained to handle a wide range of diseases affecting different organ systems.\n\n3. Patient population: While PCPs treat patients of all ages, internists primarily care for adults, particularly those with complex or chronic medical conditions.\n\n4. Scope of practice: PCPs often provide a broad range of services, including preventive care, routine check-ups, and treatment of common illnesses. Internists, on the other hand, tend to focus more on diagnosing and managing complex medical problems.\n\nIn some cases, an internist may serve as a patient's primary care physician, especially if the patient has multiple chronic conditions or requires specialized care. However, many internists work as specialists, focusing on a particular area of internal medicine, such as cardiology, gastroenterology, or endocrinology."
+            }
+          },
+          "prompting_state": {
+            "prompt": "why is there a specialty called ” internal medicine”? \nIsn’t all medicine internal? How is a it different from a PCP? \n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 2,
+            "rating|Human": 2,
+            "factuality|Human": 1,
+            "omissions|Human": 3,
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 4
+          }
+        },
+        {
           "name": "english:21:language.english:gpt 4 turbo",
           "language": "English",
           "translations": {
@@ -4425,32 +4460,8 @@
             "rating|Human": 5,
             "factuality|Human": 5,
             "omissions|Human": 5,
-            "language_correct|Human": 5
-          }
-        },
-        {
-          "name": "english:21:language.english:claude opus",
-          "language": "English",
-          "translations": {
-            "English": {
-              "language": "English",
-              "text": "The term \"internal medicine\" can be a bit confusing, as it doesn't refer to the location of treatment (i.e., inside the body) but rather to a specific medical specialty. Internal medicine is a branch of medicine that focuses on the diagnosis, treatment, and prevention of adult diseases.\n\nHere are some key differences between internal medicine and primary care physicians (PCPs):\n\n1. Training: Internal medicine physicians, also known as internists, undergo specialized training in adult care after completing medical school. They typically complete a three-year residency in internal medicine.\n\n2. Focus: Internists focus on the diagnosis and treatment of complex medical conditions in adults. They are trained to handle a wide range of diseases affecting different organ systems.\n\n3. Patient population: While PCPs treat patients of all ages, internists primarily care for adults, particularly those with complex or chronic medical conditions.\n\n4. Scope of practice: PCPs often provide a broad range of services, including preventive care, routine check-ups, and treatment of common illnesses. Internists, on the other hand, tend to focus more on diagnosing and managing complex medical problems.\n\nIn some cases, an internist may serve as a patient's primary care physician, especially if the patient has multiple chronic conditions or requires specialized care. However, many internists work as specialists, focusing on a particular area of internal medicine, such as cardiology, gastroenterology, or endocrinology."
-            }
-          },
-          "prompting_state": {
-            "prompt": "why is there a specialty called ” internal medicine”? \nIsn’t all medicine internal? How is a it different from a PCP? \n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 2,
-            "rating|Human": 2,
-            "factuality|Human": 1,
-            "omissions|Human": 3,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         },
         {
@@ -4479,7 +4490,8 @@
             "rating|Human": 3,
             "factuality|Human": 1,
             "omissions|Human": 3,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 3
           }
         }
       ]
@@ -5621,6 +5633,32 @@
           }
         },
         {
+          "name": "english:27:language.english:claude opus",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "RICO stands for the Racketeer Influenced and Corrupt Organizations Act, a federal law passed in 1970. The law was initially designed to combat organized crime, particularly the Mafia, but its application has since expanded to include various forms of organized criminal activity.\n\nRICO allows prosecutors to bring charges against individuals engaged in racketeering activities performed as part of an ongoing criminal enterprise. Racketeering activities can include crimes such as illegal gambling, bribery, kidnapping, murder, money laundering, counterfeiting, embezzlement, drug trafficking, slavery, and more.\n\nUnder RICO, a person who commits at least two acts of racketeering activity within a 10-year period can be charged with racketeering if such acts are related in one of four specified ways to an enterprise. An enterprise is defined as any individual, partnership, corporation, association, or other legal entity, and any union or group of individuals associated in fact, even if not a legal entity.\n\nIn the context of rappers, RICO charges often stem from their alleged involvement in organized crime groups or gangs engaging in criminal activities such as drug trafficking, assault, murder, and other offenses. Prosecutors use RICO to target the entire criminal organization and its leaders, not just individual members who may have committed specific crimes.\n\nRICO charges are serious and can lead to severe penalties, including lengthy prison sentences and substantial fines."
+            }
+          },
+          "prompting_state": {
+            "prompt": "What are RICO charges??\nI keep on seeing rappers getting charged with RICO charges. What exactly are they?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 3,
+            "rating|Human": 3,
+            "factuality|Human": 5,
+            "omissions|Human": 3,
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
+          }
+        },
+        {
           "name": "english:27:language.english:gpt 4 turbo",
           "language": "English",
           "translations": {
@@ -5646,32 +5684,8 @@
             "rating|Human": 5,
             "factuality|Human": 5,
             "omissions|Human": 5,
-            "language_correct|Human": 5
-          }
-        },
-        {
-          "name": "english:27:language.english:claude opus",
-          "language": "English",
-          "translations": {
-            "English": {
-              "language": "English",
-              "text": "RICO stands for the Racketeer Influenced and Corrupt Organizations Act, a federal law passed in 1970. The law was initially designed to combat organized crime, particularly the Mafia, but its application has since expanded to include various forms of organized criminal activity.\n\nRICO allows prosecutors to bring charges against individuals engaged in racketeering activities performed as part of an ongoing criminal enterprise. Racketeering activities can include crimes such as illegal gambling, bribery, kidnapping, murder, money laundering, counterfeiting, embezzlement, drug trafficking, slavery, and more.\n\nUnder RICO, a person who commits at least two acts of racketeering activity within a 10-year period can be charged with racketeering if such acts are related in one of four specified ways to an enterprise. An enterprise is defined as any individual, partnership, corporation, association, or other legal entity, and any union or group of individuals associated in fact, even if not a legal entity.\n\nIn the context of rappers, RICO charges often stem from their alleged involvement in organized crime groups or gangs engaging in criminal activities such as drug trafficking, assault, murder, and other offenses. Prosecutors use RICO to target the entire criminal organization and its leaders, not just individual members who may have committed specific crimes.\n\nRICO charges are serious and can lead to severe penalties, including lengthy prison sentences and substantial fines."
-            }
-          },
-          "prompting_state": {
-            "prompt": "What are RICO charges??\nI keep on seeing rappers getting charged with RICO charges. What exactly are they?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 3,
-            "rating|Human": 3,
-            "factuality|Human": 5,
-            "omissions|Human": 3,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         },
         {
@@ -5700,7 +5714,8 @@
             "rating|Human": 2,
             "factuality|Human": 5,
             "omissions|Human": 1,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         }
       ]
@@ -6042,6 +6057,32 @@
           }
         },
         {
+          "name": "english:29:language.english:claude opus",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "There are several reasons why there is insufficient construction of housing in Western Europe despite the high demand:\n\n1. Land scarcity: Many Western European countries have limited land available for new construction, especially in urban areas where demand is highest.\n\n2. Strict regulations: Building regulations, zoning laws, and planning permissions can be strict in many Western European countries, making it difficult and time-consuming for developers to obtain the necessary approvals.\n\n3. High construction costs: The cost of construction materials, labor, and compliance with regulations can be high in Western Europe, making it less profitable for developers to build new housing.\n\n4. Speculation and investment: In some cases, investors may purchase properties as investments rather than for living purposes, reducing the available housing stock for those who need it.\n\n5. Demographic changes: An aging population and smaller household sizes in some Western European countries may lead to a mismatch between the types of housing available and the types of housing needed.\n\n6. Preservation of historical buildings and areas: Many Western European cities place a strong emphasis on preserving historical buildings and neighborhoods, which can limit the amount of land available for new construction.\n\n7. Political and social factors: Housing policies, social housing programs, and political priorities can also impact the supply of new housing construction.\n\nWhile there is demand for housing, the supply is not always able to keep up due to these various factors. Governments and local authorities are often working to address these issues through various policies and initiatives, but it remains a complex challenge."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why is there insufficient construction of living houses all over Western Europe? \nIf there's a demand, shouldn't there be a supply as well?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 4,
+            "rating|Human": 4,
+            "factuality|Human": 3,
+            "omissions|Human": 5,
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
+          }
+        },
+        {
           "name": "english:29:language.english:gpt 4 turbo",
           "language": "English",
           "translations": {
@@ -6067,32 +6108,8 @@
             "rating|Human": 5,
             "factuality|Human": 5,
             "omissions|Human": 5,
-            "language_correct|Human": 5
-          }
-        },
-        {
-          "name": "english:29:language.english:claude opus",
-          "language": "English",
-          "translations": {
-            "English": {
-              "language": "English",
-              "text": "There are several reasons why there is insufficient construction of housing in Western Europe despite the high demand:\n\n1. Land scarcity: Many Western European countries have limited land available for new construction, especially in urban areas where demand is highest.\n\n2. Strict regulations: Building regulations, zoning laws, and planning permissions can be strict in many Western European countries, making it difficult and time-consuming for developers to obtain the necessary approvals.\n\n3. High construction costs: The cost of construction materials, labor, and compliance with regulations can be high in Western Europe, making it less profitable for developers to build new housing.\n\n4. Speculation and investment: In some cases, investors may purchase properties as investments rather than for living purposes, reducing the available housing stock for those who need it.\n\n5. Demographic changes: An aging population and smaller household sizes in some Western European countries may lead to a mismatch between the types of housing available and the types of housing needed.\n\n6. Preservation of historical buildings and areas: Many Western European cities place a strong emphasis on preserving historical buildings and neighborhoods, which can limit the amount of land available for new construction.\n\n7. Political and social factors: Housing policies, social housing programs, and political priorities can also impact the supply of new housing construction.\n\nWhile there is demand for housing, the supply is not always able to keep up due to these various factors. Governments and local authorities are often working to address these issues through various policies and initiatives, but it remains a complex challenge."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Why is there insufficient construction of living houses all over Western Europe? \nIf there's a demand, shouldn't there be a supply as well?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 4,
-            "rating|Human": 4,
-            "factuality|Human": 3,
-            "omissions|Human": 5,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         },
         {
@@ -6121,7 +6138,8 @@
             "rating|Human": 5,
             "factuality|Human": 5,
             "omissions|Human": 5,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         }
       ]
@@ -12463,6 +12481,32 @@
           }
         },
         {
+          "name": "english:61:language.english:claude opus",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "Lethal injection is a method of execution that involves administering a combination of drugs intravenously to cause death. The typical lethal injection protocol involves three drugs given in sequence:\n\n1. Sodium thiopental or pentobarbital: These are barbiturates that act as anesthetics to induce unconsciousness and suppress respiratory function.\n\n2. Pancuronium bromide: This is a paralytic agent that causes muscle paralysis, including the diaphragm, which is essential for breathing.\n\n3. Potassium chloride: This drug stops the heart by disrupting the electrical signaling that maintains a regular heartbeat, leading to cardiac arrest.\n\nThe intended effect of this combination is to first render the person unconscious, then stop their breathing and finally cause cardiac arrest, resulting in death. However, there have been concerns raised about the effectiveness of the anesthetic agents used and whether they reliably prevent the experience of pain and suffering during the execution process.\n\nIt's important to note that the specific drugs and protocols used for lethal injection vary by jurisdiction and have changed over time due to drug availability issues and legal challenges. The use of lethal injection, and capital punishment more broadly, remains a controversial issue with ongoing debate about its constitutionality, humaneness, and effectiveness as a deterrent to crime."
+            }
+          },
+          "prompting_state": {
+            "prompt": "How does lethal injection work? What does it actually do to the person? \n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 5,
+            "rating|Human": 5,
+            "factuality|Human": 5,
+            "omissions|Human": 5,
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
+          }
+        },
+        {
           "name": "english:61:language.english:gpt 4 turbo",
           "language": "English",
           "translations": {
@@ -12488,32 +12532,8 @@
             "rating|Human": 4,
             "factuality|Human": 5,
             "omissions|Human": 3,
-            "language_correct|Human": 5
-          }
-        },
-        {
-          "name": "english:61:language.english:claude opus",
-          "language": "English",
-          "translations": {
-            "English": {
-              "language": "English",
-              "text": "Lethal injection is a method of execution that involves administering a combination of drugs intravenously to cause death. The typical lethal injection protocol involves three drugs given in sequence:\n\n1. Sodium thiopental or pentobarbital: These are barbiturates that act as anesthetics to induce unconsciousness and suppress respiratory function.\n\n2. Pancuronium bromide: This is a paralytic agent that causes muscle paralysis, including the diaphragm, which is essential for breathing.\n\n3. Potassium chloride: This drug stops the heart by disrupting the electrical signaling that maintains a regular heartbeat, leading to cardiac arrest.\n\nThe intended effect of this combination is to first render the person unconscious, then stop their breathing and finally cause cardiac arrest, resulting in death. However, there have been concerns raised about the effectiveness of the anesthetic agents used and whether they reliably prevent the experience of pain and suffering during the execution process.\n\nIt's important to note that the specific drugs and protocols used for lethal injection vary by jurisdiction and have changed over time due to drug availability issues and legal challenges. The use of lethal injection, and capital punishment more broadly, remains a controversial issue with ongoing debate about its constitutionality, humaneness, and effectiveness as a deterrent to crime."
-            }
-          },
-          "prompting_state": {
-            "prompt": "How does lethal injection work? What does it actually do to the person? \n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 5,
-            "rating|Human": 5,
-            "factuality|Human": 5,
-            "omissions|Human": 5,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         },
         {
@@ -12542,7 +12562,8 @@
             "rating|Human": 4,
             "factuality|Human": 3,
             "omissions|Human": 5,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         }
       ]
@@ -13484,6 +13505,32 @@
           }
         },
         {
+          "name": "english:66:language.english:claude opus",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "The requirement for the President of the United States to be a natural-born citizen is outlined in Article II, Section 1, Clause 5 of the U.S. Constitution. It states that \"No Person except a natural born Citizen, or a Citizen of the United States, at the time of the Adoption of this Constitution, shall be eligible to the Office of President.\"\n\nThe reasoning behind this requirement is rooted in historical context and concerns about foreign influence. When the Constitution was drafted, the Founding Fathers wanted to ensure that the President would have undivided loyalty to the United States and would not be subject to foreign influence or allegiance.\n\nHowever, the relevance of this requirement in modern times is debatable. Many argue that a person's birthplace does not necessarily determine their loyalty, abilities, or qualifications to lead a country. Some believe that the natural-born citizen requirement is outdated and that the focus should be on a candidate's experience, skills, and vision for the country.\n\nIt's worth noting that there have been attempts to amend the Constitution to allow naturalized citizens to run for President, but none have been successful so far. Ultimately, any change to this requirement would need to be made through a constitutional amendment, which is a complex and challenging process."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why does the President of the United States need to be born in the United States to be eligible to run?\nIt seems like the country that a person was born in has little to do with their abilities to lead. \n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 5,
+            "rating|Human": 5,
+            "factuality|Human": 5,
+            "omissions|Human": 5,
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
+          }
+        },
+        {
           "name": "english:66:language.english:gpt 4 turbo",
           "language": "English",
           "translations": {
@@ -13509,32 +13556,8 @@
             "rating|Human": 5,
             "factuality|Human": 5,
             "omissions|Human": 5,
-            "language_correct|Human": 5
-          }
-        },
-        {
-          "name": "english:66:language.english:claude opus",
-          "language": "English",
-          "translations": {
-            "English": {
-              "language": "English",
-              "text": "The requirement for the President of the United States to be a natural-born citizen is outlined in Article II, Section 1, Clause 5 of the U.S. Constitution. It states that \"No Person except a natural born Citizen, or a Citizen of the United States, at the time of the Adoption of this Constitution, shall be eligible to the Office of President.\"\n\nThe reasoning behind this requirement is rooted in historical context and concerns about foreign influence. When the Constitution was drafted, the Founding Fathers wanted to ensure that the President would have undivided loyalty to the United States and would not be subject to foreign influence or allegiance.\n\nHowever, the relevance of this requirement in modern times is debatable. Many argue that a person's birthplace does not necessarily determine their loyalty, abilities, or qualifications to lead a country. Some believe that the natural-born citizen requirement is outdated and that the focus should be on a candidate's experience, skills, and vision for the country.\n\nIt's worth noting that there have been attempts to amend the Constitution to allow naturalized citizens to run for President, but none have been successful so far. Ultimately, any change to this requirement would need to be made through a constitutional amendment, which is a complex and challenging process."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Why does the President of the United States need to be born in the United States to be eligible to run?\nIt seems like the country that a person was born in has little to do with their abilities to lead. \n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 5,
-            "rating|Human": 5,
-            "factuality|Human": 5,
-            "omissions|Human": 5,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         },
         {
@@ -13563,7 +13586,8 @@
             "rating|Human": 5,
             "factuality|Human": 5,
             "omissions|Human": 5,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         }
       ]
@@ -13905,6 +13929,32 @@
           }
         },
         {
+          "name": "english:68:language.english:claude opus",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "In baseball, when a fight breaks out on the field, it is common for players from both teams to leave their respective dugouts and bullpens to join the altercation or to defend their teammates. This is known as \"benches clearing\" or a \"bench-clearing brawl.\"\n\nThere are several reasons why players leave the benches during a fight:\n\n1. Team solidarity: Players want to show support for their teammates and stand up for them in a confrontational situation.\n\n2. Protecting teammates: Players may feel the need to intervene to protect their teammates from harm or to break up the fight.\n\n3. Retaliation: If a player from one team is perceived to have acted inappropriately or aggressively towards a player from the other team, the latter team's players may leave the bench to confront or retaliate against the offending player.\n\n4. Emotions running high: The intense competition and high stakes of professional baseball can lead to heightened emotions, causing players to react strongly to perceived slights or aggressive actions.\n\nIt's important to note that bench-clearing incidents are generally against the rules and can result in fines, suspensions, or ejections for the players involved. However, the practice of benches emptying during fights has been a long-standing tradition in baseball."
+            }
+          },
+          "prompting_state": {
+            "prompt": "Why do benches empty when there is a fight in baseball?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 5,
+            "rating|Human": 5,
+            "factuality|Human": 5,
+            "omissions|Human": 5,
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 4
+          }
+        },
+        {
           "name": "english:68:language.english:gpt 4 turbo",
           "language": "English",
           "translations": {
@@ -13930,32 +13980,8 @@
             "rating|Human": 4,
             "factuality|Human": 5,
             "omissions|Human": 5,
-            "language_correct|Human": 5
-          }
-        },
-        {
-          "name": "english:68:language.english:claude opus",
-          "language": "English",
-          "translations": {
-            "English": {
-              "language": "English",
-              "text": "In baseball, when a fight breaks out on the field, it is common for players from both teams to leave their respective dugouts and bullpens to join the altercation or to defend their teammates. This is known as \"benches clearing\" or a \"bench-clearing brawl.\"\n\nThere are several reasons why players leave the benches during a fight:\n\n1. Team solidarity: Players want to show support for their teammates and stand up for them in a confrontational situation.\n\n2. Protecting teammates: Players may feel the need to intervene to protect their teammates from harm or to break up the fight.\n\n3. Retaliation: If a player from one team is perceived to have acted inappropriately or aggressively towards a player from the other team, the latter team's players may leave the bench to confront or retaliate against the offending player.\n\n4. Emotions running high: The intense competition and high stakes of professional baseball can lead to heightened emotions, causing players to react strongly to perceived slights or aggressive actions.\n\nIt's important to note that bench-clearing incidents are generally against the rules and can result in fines, suspensions, or ejections for the players involved. However, the practice of benches emptying during fights has been a long-standing tradition in baseball."
-            }
-          },
-          "prompting_state": {
-            "prompt": "Why do benches empty when there is a fight in baseball?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 5,
-            "rating|Human": 5,
-            "factuality|Human": 5,
-            "omissions|Human": 5,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 4
           }
         },
         {
@@ -13984,7 +14010,8 @@
             "rating|Human": 2,
             "factuality|Human": 5,
             "omissions|Human": 1,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 3
           }
         }
       ]
@@ -14926,6 +14953,32 @@
           }
         },
         {
+          "name": "english:73:language.english:claude opus",
+          "language": "English",
+          "translations": {
+            "English": {
+              "language": "English",
+              "text": "Aspirin, Tylenol (acetaminophen), and Advil (ibuprofen) are all pain relievers, but they have some differences in terms of their mechanisms of action and potential side effects. Here's a brief overview:\n\n1. Aspirin: Aspirin is an NSAID (non-steroidal anti-inflammatory drug) that reduces pain, fever, and inflammation. It can also thin the blood, which is why it's sometimes recommended for people at risk of heart attacks or strokes. However, it may cause stomach irritation and bleeding in some people.\n\n2. Tylenol (acetaminophen): Tylenol works by reducing pain and fever, but it does not have significant anti-inflammatory effects. It is generally considered safer for the stomach than NSAIDs but can cause liver damage if taken in high doses or combined with alcohol.\n\n3. Advil (ibuprofen): Advil is another NSAID that reduces pain, fever, and inflammation. It is less likely to cause stomach irritation than aspirin but may still cause digestive issues in some people. It should be used with caution in people with kidney problems.\n\nIn general, for minor aches and pains, any of these options can be effective. However, if you have specific health concerns or are taking other medications, it's best to consult with your doctor or pharmacist to determine the most appropriate choice for you. Additionally, always follow the dosage instructions on the packaging and do not take these medications for an extended period without consulting a healthcare professional."
+            }
+          },
+          "prompting_state": {
+            "prompt": "if I need pain relief, how do I know whether to choose between aspirin, Tylenol, Advil, etc.? They are all labeled as pain relievers.\nI'm sure there are differences, but the packaging was not helpful in explaining the differences to a layperson like me.\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 3,
+            "rating|Human": 3,
+            "factuality|Human": 5,
+            "omissions|Human": 1,
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
+          }
+        },
+        {
           "name": "english:73:language.english:gpt 4 turbo",
           "language": "English",
           "translations": {
@@ -14951,32 +15004,8 @@
             "rating|Human": 5,
             "factuality|Human": 5,
             "omissions|Human": 5,
-            "language_correct|Human": 5
-          }
-        },
-        {
-          "name": "english:73:language.english:claude opus",
-          "language": "English",
-          "translations": {
-            "English": {
-              "language": "English",
-              "text": "Aspirin, Tylenol (acetaminophen), and Advil (ibuprofen) are all pain relievers, but they have some differences in terms of their mechanisms of action and potential side effects. Here's a brief overview:\n\n1. Aspirin: Aspirin is an NSAID (non-steroidal anti-inflammatory drug) that reduces pain, fever, and inflammation. It can also thin the blood, which is why it's sometimes recommended for people at risk of heart attacks or strokes. However, it may cause stomach irritation and bleeding in some people.\n\n2. Tylenol (acetaminophen): Tylenol works by reducing pain and fever, but it does not have significant anti-inflammatory effects. It is generally considered safer for the stomach than NSAIDs but can cause liver damage if taken in high doses or combined with alcohol.\n\n3. Advil (ibuprofen): Advil is another NSAID that reduces pain, fever, and inflammation. It is less likely to cause stomach irritation than aspirin but may still cause digestive issues in some people. It should be used with caution in people with kidney problems.\n\nIn general, for minor aches and pains, any of these options can be effective. However, if you have specific health concerns or are taking other medications, it's best to consult with your doctor or pharmacist to determine the most appropriate choice for you. Additionally, always follow the dosage instructions on the packaging and do not take these medications for an extended period without consulting a healthcare professional."
-            }
-          },
-          "prompting_state": {
-            "prompt": "if I need pain relief, how do I know whether to choose between aspirin, Tylenol, Advil, etc.? They are all labeled as pain relievers.\nI'm sure there are differences, but the packaging was not helpful in explaining the differences to a layperson like me.\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 3,
-            "rating|Human": 3,
-            "factuality|Human": 5,
-            "omissions|Human": 1,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         },
         {
@@ -15005,7 +15034,8 @@
             "rating|Human": 3,
             "factuality|Human": 5,
             "omissions|Human": 1,
-            "language_correct|Human": 5
+            "language_correct|Human": 5,
+            "Overall|GPT_4O": 5
           }
         }
       ]

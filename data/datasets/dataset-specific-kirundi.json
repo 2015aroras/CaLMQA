@@ -224,6 +224,48 @@
           }
         },
         {
+          "name": "kirundi:0:language.kirundi:claude opus",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu muco nyarwanda, nta mategeko abuza umugore gukubita ingoma. Ahubwo hari ingoma zitandukanye zivuzwa n'abagore nk'ingoma z'imbyino gakondo cyangwa mu birori by'umuco. \n\nIcyakora hari igihe habagaho imyumvire y'uko ingoma zimwe na zimwe zitari gukwiriye abagore kubera imyemerere ya kera cyangwa se idini. Ariko ubu iyo myumvire ntikigaragara cyane kuko abagore benshi bavuza ingoma mu buryo bunyuranye nta nkomyi.\n\nMuri rusange rero, nta tegeko ribuzwa umugore gukubita ingoma mu Rwanda ubu, ahubwo ni umuco wemewe kandi uterwa inkunga."
+            },
+            "English": {
+              "language": "English",
+              "text": "In Rwandan culture, there are no laws prohibiting women from playing drums. In fact, women play various types of drums, such as those used in traditional dances or cultural celebrations. However, there was a time when some drums were considered unsuitable for women due to ancient beliefs or religious views. But nowadays, this mindset has largely disappeared, and many women play drums in different ways without any restrictions.\n\nOverall, there is no law that forbids women from playing drums in Rwanda today. On the contrary, it is a recognized and encouraged cultural practice.",
+              "prompting_state": {
+                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nKubera iki bitemewe ko umukenyezi avuza ingoma?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nMu muco nyarwanda, nta mategeko abuza umugore gukubita ingoma. Ahubwo hari ingoma zitandukanye zivuzwa n'abagore nk'ingoma z'imbyino gakondo cyangwa mu birori by'umuco. \nIcyakora hari igihe habagaho imyumvire y'uko ingoma zimwe na zimwe zitari gukwiriye abagore kubera imyemerere ya kera cyangwa se idini. Ariko ubu iyo myumvire ntikigaragara cyane kuko abagore benshi bavuza ingoma mu buryo bunyuranye nta nkomyi.\nMuri rusange rero, nta tegeko ribuzwa umugore gukubita ingoma mu Rwanda ubu, ahubwo ni umuco wemewe kandi uterwa inkunga.\n",
+                "model_name": "GPT 4o",
+                "max_output_tokens": 2048,
+                "other_state": {},
+                "model": "gpt-4o-2024-05-13",
+                "n": 1,
+                "presence_penalty": 0.0,
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "logprobs": false
+              }
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki bitemewe ko umukenyezi avuza ingoma?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 1,
+            "rating|Human": 1,
+            "factuality|Human": 1,
+            "omissions|Human": 1,
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
+          }
+        },
+        {
           "name": "kirundi:0:language.kirundi:gpt 4 turbo",
           "language": "Kirundi",
           "translations": {
@@ -265,48 +307,8 @@
             "rating|Human": 3,
             "factuality|Human": 3,
             "omissions|Human": 3,
-            "language_correct|Human": 3
-          }
-        },
-        {
-          "name": "kirundi:0:language.kirundi:claude opus",
-          "language": "Kirundi",
-          "translations": {
-            "Kirundi": {
-              "language": "Kirundi",
-              "text": "Mu muco nyarwanda, nta mategeko abuza umugore gukubita ingoma. Ahubwo hari ingoma zitandukanye zivuzwa n'abagore nk'ingoma z'imbyino gakondo cyangwa mu birori by'umuco. \n\nIcyakora hari igihe habagaho imyumvire y'uko ingoma zimwe na zimwe zitari gukwiriye abagore kubera imyemerere ya kera cyangwa se idini. Ariko ubu iyo myumvire ntikigaragara cyane kuko abagore benshi bavuza ingoma mu buryo bunyuranye nta nkomyi.\n\nMuri rusange rero, nta tegeko ribuzwa umugore gukubita ingoma mu Rwanda ubu, ahubwo ni umuco wemewe kandi uterwa inkunga."
-            },
-            "English": {
-              "language": "English",
-              "text": "In Rwandan culture, there are no laws prohibiting women from playing drums. In fact, women play various types of drums, such as those used in traditional dances or cultural celebrations. However, there was a time when some drums were considered unsuitable for women due to ancient beliefs or religious views. But nowadays, this mindset has largely disappeared, and many women play drums in different ways without any restrictions.\n\nOverall, there is no law that forbids women from playing drums in Rwanda today. On the contrary, it is a recognized and encouraged cultural practice.",
-              "prompting_state": {
-                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nKubera iki bitemewe ko umukenyezi avuza ingoma?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nMu muco nyarwanda, nta mategeko abuza umugore gukubita ingoma. Ahubwo hari ingoma zitandukanye zivuzwa n'abagore nk'ingoma z'imbyino gakondo cyangwa mu birori by'umuco. \nIcyakora hari igihe habagaho imyumvire y'uko ingoma zimwe na zimwe zitari gukwiriye abagore kubera imyemerere ya kera cyangwa se idini. Ariko ubu iyo myumvire ntikigaragara cyane kuko abagore benshi bavuza ingoma mu buryo bunyuranye nta nkomyi.\nMuri rusange rero, nta tegeko ribuzwa umugore gukubita ingoma mu Rwanda ubu, ahubwo ni umuco wemewe kandi uterwa inkunga.\n",
-                "model_name": "GPT 4o",
-                "max_output_tokens": 2048,
-                "other_state": {},
-                "model": "gpt-4o-2024-05-13",
-                "n": 1,
-                "presence_penalty": 0.0,
-                "temperature": 1.0,
-                "top_p": 1.0,
-                "logprobs": false
-              }
-            }
-          },
-          "prompting_state": {
-            "prompt": "Kubera iki bitemewe ko umukenyezi avuza ingoma?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 1,
-            "rating|Human": 1,
-            "factuality|Human": 1,
-            "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 4
           }
         },
         {
@@ -351,7 +353,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 1
+            "language_correct|Human": 1,
+            "Overall|GPT_4O": 1
           }
         }
       ]
@@ -3770,6 +3773,48 @@
           }
         },
         {
+          "name": "kirundi:11:language.kirundi:claude opus",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Inyenyeri eshatu ziri hagati mu idarapo ry'u Rwanda zisigura ibintu bitatu by'ingenzi:\n\n1. Ubumwe: Inyenyeri ya mbere isigura ubumwe bw'Abanyarwanda, uko bose bangana kandi bakwiye gukorera hamwe. \n\n2. Umurimo: Inyenyeri ya kabiri ivuga ku kamaro k'umurimo, ko ari wo shingiro ryo kuzamura igihugu no guteza imbere abaturage.\n\n3. Iterambere: Inyenyeri ya gatatu isobanura ko intego y'igihugu ari ukugera ku iterambere rirambye rizana imibereho myiza y'abaturage.\n\nMuri rusange rero, izo nyenyeri zisigura ko Abanyarwanda bagomba kwiyemeza gukorera hamwe, baharanira iterambere rishingiye ku bumwe n'umurimo kugira ngo igihugu kigere ku ntego zacyo."
+            },
+            "English": {
+              "language": "English",
+              "text": "The three stars in the center of the Rwandan flag symbolize three main elements:\n\n1. Unity: The first star represents the unity of Rwandans, emphasizing equality and the need for everyone to work together.\n2. Work: The second star underscores the importance of work as the foundation for national development and the improvement of citizens' welfare.\n3. Development: The third star signifies the country's goal of achieving sustainable development that ensures the well-being of its people.\n\nOverall, these stars symbolize the commitment of Rwandans to work together, striving for development based on unity and hard work, to achieve the nation's objectives.",
+              "prompting_state": {
+                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nKw'idarapo ry' igihugu inyenyeri zitatu ziri hagati zisigura iki?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nInyenyeri eshatu ziri hagati mu idarapo ry'u Rwanda zisigura ibintu bitatu by'ingenzi:\n1. Ubumwe: Inyenyeri ya mbere isigura ubumwe bw'Abanyarwanda, uko bose bangana kandi bakwiye gukorera hamwe. \n2. Umurimo: Inyenyeri ya kabiri ivuga ku kamaro k'umurimo, ko ari wo shingiro ryo kuzamura igihugu no guteza imbere abaturage.\n3. Iterambere: Inyenyeri ya gatatu isobanura ko intego y'igihugu ari ukugera ku iterambere rirambye rizana imibereho myiza y'abaturage.\nMuri rusange rero, izo nyenyeri zisigura ko Abanyarwanda bagomba kwiyemeza gukorera hamwe, baharanira iterambere rishingiye ku bumwe n'umurimo kugira ngo igihugu kigere ku ntego zacyo.\n",
+                "model_name": "GPT 4o",
+                "max_output_tokens": 2048,
+                "other_state": {},
+                "model": "gpt-4o-2024-05-13",
+                "n": 1,
+                "presence_penalty": 0.0,
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "logprobs": false
+              }
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kw'idarapo ry' igihugu inyenyeri zitatu ziri hagati zisigura iki?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 1,
+            "rating|Human": 1,
+            "factuality|Human": 1,
+            "omissions|Human": 1,
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
+          }
+        },
+        {
           "name": "kirundi:11:language.kirundi:gpt 4 turbo",
           "language": "Kirundi",
           "translations": {
@@ -3811,48 +3856,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
-          }
-        },
-        {
-          "name": "kirundi:11:language.kirundi:claude opus",
-          "language": "Kirundi",
-          "translations": {
-            "Kirundi": {
-              "language": "Kirundi",
-              "text": "Inyenyeri eshatu ziri hagati mu idarapo ry'u Rwanda zisigura ibintu bitatu by'ingenzi:\n\n1. Ubumwe: Inyenyeri ya mbere isigura ubumwe bw'Abanyarwanda, uko bose bangana kandi bakwiye gukorera hamwe. \n\n2. Umurimo: Inyenyeri ya kabiri ivuga ku kamaro k'umurimo, ko ari wo shingiro ryo kuzamura igihugu no guteza imbere abaturage.\n\n3. Iterambere: Inyenyeri ya gatatu isobanura ko intego y'igihugu ari ukugera ku iterambere rirambye rizana imibereho myiza y'abaturage.\n\nMuri rusange rero, izo nyenyeri zisigura ko Abanyarwanda bagomba kwiyemeza gukorera hamwe, baharanira iterambere rishingiye ku bumwe n'umurimo kugira ngo igihugu kigere ku ntego zacyo."
-            },
-            "English": {
-              "language": "English",
-              "text": "The three stars in the center of the Rwandan flag symbolize three main elements:\n\n1. Unity: The first star represents the unity of Rwandans, emphasizing equality and the need for everyone to work together.\n2. Work: The second star underscores the importance of work as the foundation for national development and the improvement of citizens' welfare.\n3. Development: The third star signifies the country's goal of achieving sustainable development that ensures the well-being of its people.\n\nOverall, these stars symbolize the commitment of Rwandans to work together, striving for development based on unity and hard work, to achieve the nation's objectives.",
-              "prompting_state": {
-                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nKw'idarapo ry' igihugu inyenyeri zitatu ziri hagati zisigura iki?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nInyenyeri eshatu ziri hagati mu idarapo ry'u Rwanda zisigura ibintu bitatu by'ingenzi:\n1. Ubumwe: Inyenyeri ya mbere isigura ubumwe bw'Abanyarwanda, uko bose bangana kandi bakwiye gukorera hamwe. \n2. Umurimo: Inyenyeri ya kabiri ivuga ku kamaro k'umurimo, ko ari wo shingiro ryo kuzamura igihugu no guteza imbere abaturage.\n3. Iterambere: Inyenyeri ya gatatu isobanura ko intego y'igihugu ari ukugera ku iterambere rirambye rizana imibereho myiza y'abaturage.\nMuri rusange rero, izo nyenyeri zisigura ko Abanyarwanda bagomba kwiyemeza gukorera hamwe, baharanira iterambere rishingiye ku bumwe n'umurimo kugira ngo igihugu kigere ku ntego zacyo.\n",
-                "model_name": "GPT 4o",
-                "max_output_tokens": 2048,
-                "other_state": {},
-                "model": "gpt-4o-2024-05-13",
-                "n": 1,
-                "presence_penalty": 0.0,
-                "temperature": 1.0,
-                "top_p": 1.0,
-                "logprobs": false
-              }
-            }
-          },
-          "prompting_state": {
-            "prompt": "Kw'idarapo ry' igihugu inyenyeri zitatu ziri hagati zisigura iki?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 1,
-            "rating|Human": 1,
-            "factuality|Human": 1,
-            "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
           }
         },
         {
@@ -3897,7 +3902,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 1
           }
         }
       ]
@@ -6678,6 +6684,48 @@
           }
         },
         {
+          "name": "kirundi:20:language.kirundi:claude opus",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu migenzo y'Abarundi, iyo umuntu yitavye Imana afise abana, asezerwa ku buryo bukurikira kugeza ku rubanza rwa nyuma:\n\n1. Umuryango n'incuti bakorera uwitabye Imana imigenzo yo kumushyingura nk'uko bisanzwe bikorwa mu muco nyarundi. Ibi birimo kumwambika imyenda yihariye, kumushyira mu cyumba yihariye, no gutegura imigenzo yo gusezera.\n\n2. Mu gihe cy'imigenzo yo gusezera, abana b'uwitabye Imana baba bari imbere mu gutanga icyubahiro cya nyuma. Bashobora kuvuga amajambo yo gushima no kwibuka se cyangwa nyina.\n\n3. Nyuma y'imigenzo yo gusezera, abana b'uwapfuye bafata inshingano zo gukomeza umurage wa se cyangwa nyina. Ibi bishobora kuba birimo kwita ku muryango, gukomeza ibikorwa byiza yakoraga, cyangwa kurangiza imishinga yari afite.\n\n4. Mu muco nyarundi, abana b'uwapfuye bemera ko azabakurikiranira no kubafasha mu buzima bwabo. Ibi biha icyizere n'inkomezi mu gihe cy'agahinda.\n\n5. Abana bashobora gukomeza kwibuka no gusenga uwitabye Imana mu minsi n'imyaka iri imbere, bakamusabira no kwifuriza ko yapfuye amahoro.\n\nMuri rusange, mu muco nyarundi abana bafite inshingano ihebuje yo guha icyubahiro uwitabye Imana no gukomeza umurage we mu buzima bwabo."
+            },
+            "English": {
+              "language": "English",
+              "text": "In Burundian customs, when a person with children passes away, they are bid farewell in the following manner until the final judgment:\n1. The family and friends perform burial rituals for the deceased as dictated by Burundian culture. This includes dressing the deceased in special attire, placing them in a designated room, and preparing ceremonial farewells.\n2. During the farewell rituals, the children of the deceased are at the forefront, paying their final respects. They may express words of gratitude and remembrance for their late father or mother.\n3. After the farewell rituals, the deceased's children take on the responsibility of carrying forward their parent's legacy. This could involve caring for the family, continuing the good works their parent did, or completing projects left unfinished.\n4. In Burundian culture, the deceased's children believe that their parent will continue to watch over and assist them in their lives. This belief provides comfort and strength during the period of mourning.\n5. The children may continue to remember and pray for the deceased in the days and years that follow, wishing them peace in death.\nOverall, in Burundian tradition, children have the significant duty of honoring the deceased and upholding their legacy throughout their lives.",
+              "prompting_state": {
+                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nUmuntu afise abana iyo yitavye Imana, mu migenzo y’abarundi asezerwa gute gushika ku rubanza rwa nyuma?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nMu migenzo y'Abarundi, iyo umuntu yitavye Imana afise abana, asezerwa ku buryo bukurikira kugeza ku rubanza rwa nyuma:\n1. Umuryango n'incuti bakorera uwitabye Imana imigenzo yo kumushyingura nk'uko bisanzwe bikorwa mu muco nyarundi. Ibi birimo kumwambika imyenda yihariye, kumushyira mu cyumba yihariye, no gutegura imigenzo yo gusezera.\n2. Mu gihe cy'imigenzo yo gusezera, abana b'uwitabye Imana baba bari imbere mu gutanga icyubahiro cya nyuma. Bashobora kuvuga amajambo yo gushima no kwibuka se cyangwa nyina.\n3. Nyuma y'imigenzo yo gusezera, abana b'uwapfuye bafata inshingano zo gukomeza umurage wa se cyangwa nyina. Ibi bishobora kuba birimo kwita ku muryango, gukomeza ibikorwa byiza yakoraga, cyangwa kurangiza imishinga yari afite.\n4. Mu muco nyarundi, abana b'uwapfuye bemera ko azabakurikiranira no kubafasha mu buzima bwabo. Ibi biha icyizere n'inkomezi mu gihe cy'agahinda.\n5. Abana bashobora gukomeza kwibuka no gusenga uwitabye Imana mu minsi n'imyaka iri imbere, bakamusabira no kwifuriza ko yapfuye amahoro.\nMuri rusange, mu muco nyarundi abana bafite inshingano ihebuje yo guha icyubahiro uwitabye Imana no gukomeza umurage we mu buzima bwabo.\n",
+                "model_name": "GPT 4o",
+                "max_output_tokens": 2048,
+                "other_state": {},
+                "model": "gpt-4o-2024-05-13",
+                "n": 1,
+                "presence_penalty": 0.0,
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "logprobs": false
+              }
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umuntu afise abana iyo yitavye Imana, mu migenzo y’abarundi asezerwa gute gushika ku rubanza rwa nyuma?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 2,
+            "rating|Human": 2,
+            "factuality|Human": 1,
+            "omissions|Human": 1,
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
+          }
+        },
+        {
           "name": "kirundi:20:language.kirundi:gpt 4 turbo",
           "language": "Kirundi",
           "translations": {
@@ -6719,48 +6767,8 @@
             "rating|Human": 4,
             "factuality|Human": 3,
             "omissions|Human": 3,
-            "language_correct|Human": 3
-          }
-        },
-        {
-          "name": "kirundi:20:language.kirundi:claude opus",
-          "language": "Kirundi",
-          "translations": {
-            "Kirundi": {
-              "language": "Kirundi",
-              "text": "Mu migenzo y'Abarundi, iyo umuntu yitavye Imana afise abana, asezerwa ku buryo bukurikira kugeza ku rubanza rwa nyuma:\n\n1. Umuryango n'incuti bakorera uwitabye Imana imigenzo yo kumushyingura nk'uko bisanzwe bikorwa mu muco nyarundi. Ibi birimo kumwambika imyenda yihariye, kumushyira mu cyumba yihariye, no gutegura imigenzo yo gusezera.\n\n2. Mu gihe cy'imigenzo yo gusezera, abana b'uwitabye Imana baba bari imbere mu gutanga icyubahiro cya nyuma. Bashobora kuvuga amajambo yo gushima no kwibuka se cyangwa nyina.\n\n3. Nyuma y'imigenzo yo gusezera, abana b'uwapfuye bafata inshingano zo gukomeza umurage wa se cyangwa nyina. Ibi bishobora kuba birimo kwita ku muryango, gukomeza ibikorwa byiza yakoraga, cyangwa kurangiza imishinga yari afite.\n\n4. Mu muco nyarundi, abana b'uwapfuye bemera ko azabakurikiranira no kubafasha mu buzima bwabo. Ibi biha icyizere n'inkomezi mu gihe cy'agahinda.\n\n5. Abana bashobora gukomeza kwibuka no gusenga uwitabye Imana mu minsi n'imyaka iri imbere, bakamusabira no kwifuriza ko yapfuye amahoro.\n\nMuri rusange, mu muco nyarundi abana bafite inshingano ihebuje yo guha icyubahiro uwitabye Imana no gukomeza umurage we mu buzima bwabo."
-            },
-            "English": {
-              "language": "English",
-              "text": "In Burundian customs, when a person with children passes away, they are bid farewell in the following manner until the final judgment:\n1. The family and friends perform burial rituals for the deceased as dictated by Burundian culture. This includes dressing the deceased in special attire, placing them in a designated room, and preparing ceremonial farewells.\n2. During the farewell rituals, the children of the deceased are at the forefront, paying their final respects. They may express words of gratitude and remembrance for their late father or mother.\n3. After the farewell rituals, the deceased's children take on the responsibility of carrying forward their parent's legacy. This could involve caring for the family, continuing the good works their parent did, or completing projects left unfinished.\n4. In Burundian culture, the deceased's children believe that their parent will continue to watch over and assist them in their lives. This belief provides comfort and strength during the period of mourning.\n5. The children may continue to remember and pray for the deceased in the days and years that follow, wishing them peace in death.\nOverall, in Burundian tradition, children have the significant duty of honoring the deceased and upholding their legacy throughout their lives.",
-              "prompting_state": {
-                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nUmuntu afise abana iyo yitavye Imana, mu migenzo y’abarundi asezerwa gute gushika ku rubanza rwa nyuma?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nMu migenzo y'Abarundi, iyo umuntu yitavye Imana afise abana, asezerwa ku buryo bukurikira kugeza ku rubanza rwa nyuma:\n1. Umuryango n'incuti bakorera uwitabye Imana imigenzo yo kumushyingura nk'uko bisanzwe bikorwa mu muco nyarundi. Ibi birimo kumwambika imyenda yihariye, kumushyira mu cyumba yihariye, no gutegura imigenzo yo gusezera.\n2. Mu gihe cy'imigenzo yo gusezera, abana b'uwitabye Imana baba bari imbere mu gutanga icyubahiro cya nyuma. Bashobora kuvuga amajambo yo gushima no kwibuka se cyangwa nyina.\n3. Nyuma y'imigenzo yo gusezera, abana b'uwapfuye bafata inshingano zo gukomeza umurage wa se cyangwa nyina. Ibi bishobora kuba birimo kwita ku muryango, gukomeza ibikorwa byiza yakoraga, cyangwa kurangiza imishinga yari afite.\n4. Mu muco nyarundi, abana b'uwapfuye bemera ko azabakurikiranira no kubafasha mu buzima bwabo. Ibi biha icyizere n'inkomezi mu gihe cy'agahinda.\n5. Abana bashobora gukomeza kwibuka no gusenga uwitabye Imana mu minsi n'imyaka iri imbere, bakamusabira no kwifuriza ko yapfuye amahoro.\nMuri rusange, mu muco nyarundi abana bafite inshingano ihebuje yo guha icyubahiro uwitabye Imana no gukomeza umurage we mu buzima bwabo.\n",
-                "model_name": "GPT 4o",
-                "max_output_tokens": 2048,
-                "other_state": {},
-                "model": "gpt-4o-2024-05-13",
-                "n": 1,
-                "presence_penalty": 0.0,
-                "temperature": 1.0,
-                "top_p": 1.0,
-                "logprobs": false
-              }
-            }
-          },
-          "prompting_state": {
-            "prompt": "Umuntu afise abana iyo yitavye Imana, mu migenzo y’abarundi asezerwa gute gushika ku rubanza rwa nyuma?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 2,
-            "rating|Human": 2,
-            "factuality|Human": 1,
-            "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 3
           }
         },
         {
@@ -6805,7 +6813,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 1
           }
         }
       ]
@@ -7353,6 +7362,48 @@
           }
         },
         {
+          "name": "kirundi:22:language.kirundi:claude opus",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Umukobwa yasaziye iwabo kera ashobora kuba yarahuye n'ingorane nyinshi zitandukanye:\n\n1. Gusaza ubusa: Ashobora kuba yarasanze ari wenyene, adafite umuryango cyangwa incuti zo kumuherekeza kandi bikaba byaramugizeho ingaruka ku mutima no ku mitekerereze ye.\n\n2. Kunanirwa kubona ibikenewe: Ashobora kuba yarigeze agira ikibazo cyo kubona ibyo kurya, aho kuba n'ibindi bikenewe mu buzima bwa misi yose kubera amafaranga make cyangwa kubura uwo yishingikiriza.\n\n3. Kutisanzura: Iyo umuntu ari wenyine, birashoboka ko yumva adasanzwe cyane mu bandi kandi akumva adahanitse bihagije.\n\n4. Guhura n'ingorane z'umutekano: Umukobwa uri wenyine ashobora kuba yarahuye n'ingorane z'umutekano nko gufatwa nabi, guhohoterwa cyangwa gukorerwaho ihohoterwa rishingiye ku gitsina.\n\n5. Guhangana n'amarushwa n'agahinda: Gusaza ubusa birashobora guteza ibibazo byo kwiheba, guta icyizere no kwiheba.\n\nAriko rero, umukobwa yakomeje gukora cyane, akubaka ubuzima bushya kandi akanashaka uburyo bwo kwifashisha ashobora kuba yarabashije gutsinda izo ngorane no kubaka ubuzima bwiza."
+            },
+            "English": {
+              "language": "English",
+              "text": "A girl who stayed single at home a long time ago might have faced numerous different challenges:\n\n1. Growing old alone: She might have found herself alone, without family or friends to accompany her, which could have impacted her emotionally and mentally.\n2. Struggling to meet basic needs: She may have encountered issues with obtaining food, shelter, and other daily necessities due to limited finances or lack of support.\n3. Feeling isolated: Being alone can lead to feelings of being out of place and not fully connected with others.\n4. Facing security concerns: A girl on her own might have faced safety issues such as being mistreated, experiencing violence, or facing gender-based harassment.\n5. Coping with hardship and sadness: Growing old alone can lead to depression, loss of hope, and despair.\n\nHowever, by working hard, building a new life, and finding ways to support herself, she might have been able to overcome these challenges and create a good life for herself.",
+              "prompting_state": {
+                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nUmukobwa yasaziye iwabo kera vyamugendera gute?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nUmukobwa yasaziye iwabo kera ashobora kuba yarahuye n'ingorane nyinshi zitandukanye:\n1. Gusaza ubusa: Ashobora kuba yarasanze ari wenyene, adafite umuryango cyangwa incuti zo kumuherekeza kandi bikaba byaramugizeho ingaruka ku mutima no ku mitekerereze ye.\n2. Kunanirwa kubona ibikenewe: Ashobora kuba yarigeze agira ikibazo cyo kubona ibyo kurya, aho kuba n'ibindi bikenewe mu buzima bwa misi yose kubera amafaranga make cyangwa kubura uwo yishingikiriza.\n3. Kutisanzura: Iyo umuntu ari wenyine, birashoboka ko yumva adasanzwe cyane mu bandi kandi akumva adahanitse bihagije.\n4. Guhura n'ingorane z'umutekano: Umukobwa uri wenyine ashobora kuba yarahuye n'ingorane z'umutekano nko gufatwa nabi, guhohoterwa cyangwa gukorerwaho ihohoterwa rishingiye ku gitsina.\n5. Guhangana n'amarushwa n'agahinda: Gusaza ubusa birashobora guteza ibibazo byo kwiheba, guta icyizere no kwiheba.\nAriko rero, umukobwa yakomeje gukora cyane, akubaka ubuzima bushya kandi akanashaka uburyo bwo kwifashisha ashobora kuba yarabashije gutsinda izo ngorane no kubaka ubuzima bwiza.\n",
+                "model_name": "GPT 4o",
+                "max_output_tokens": 2048,
+                "other_state": {},
+                "model": "gpt-4o-2024-05-13",
+                "n": 1,
+                "presence_penalty": 0.0,
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "logprobs": false
+              }
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umukobwa yasaziye iwabo kera vyamugendera gute?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 2,
+            "rating|Human": 2,
+            "factuality|Human": 1,
+            "omissions|Human": 1,
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
+          }
+        },
+        {
           "name": "kirundi:22:language.kirundi:gpt 4 turbo",
           "language": "Kirundi",
           "translations": {
@@ -7394,48 +7445,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
-          }
-        },
-        {
-          "name": "kirundi:22:language.kirundi:claude opus",
-          "language": "Kirundi",
-          "translations": {
-            "Kirundi": {
-              "language": "Kirundi",
-              "text": "Umukobwa yasaziye iwabo kera ashobora kuba yarahuye n'ingorane nyinshi zitandukanye:\n\n1. Gusaza ubusa: Ashobora kuba yarasanze ari wenyene, adafite umuryango cyangwa incuti zo kumuherekeza kandi bikaba byaramugizeho ingaruka ku mutima no ku mitekerereze ye.\n\n2. Kunanirwa kubona ibikenewe: Ashobora kuba yarigeze agira ikibazo cyo kubona ibyo kurya, aho kuba n'ibindi bikenewe mu buzima bwa misi yose kubera amafaranga make cyangwa kubura uwo yishingikiriza.\n\n3. Kutisanzura: Iyo umuntu ari wenyine, birashoboka ko yumva adasanzwe cyane mu bandi kandi akumva adahanitse bihagije.\n\n4. Guhura n'ingorane z'umutekano: Umukobwa uri wenyine ashobora kuba yarahuye n'ingorane z'umutekano nko gufatwa nabi, guhohoterwa cyangwa gukorerwaho ihohoterwa rishingiye ku gitsina.\n\n5. Guhangana n'amarushwa n'agahinda: Gusaza ubusa birashobora guteza ibibazo byo kwiheba, guta icyizere no kwiheba.\n\nAriko rero, umukobwa yakomeje gukora cyane, akubaka ubuzima bushya kandi akanashaka uburyo bwo kwifashisha ashobora kuba yarabashije gutsinda izo ngorane no kubaka ubuzima bwiza."
-            },
-            "English": {
-              "language": "English",
-              "text": "A girl who stayed single at home a long time ago might have faced numerous different challenges:\n\n1. Growing old alone: She might have found herself alone, without family or friends to accompany her, which could have impacted her emotionally and mentally.\n2. Struggling to meet basic needs: She may have encountered issues with obtaining food, shelter, and other daily necessities due to limited finances or lack of support.\n3. Feeling isolated: Being alone can lead to feelings of being out of place and not fully connected with others.\n4. Facing security concerns: A girl on her own might have faced safety issues such as being mistreated, experiencing violence, or facing gender-based harassment.\n5. Coping with hardship and sadness: Growing old alone can lead to depression, loss of hope, and despair.\n\nHowever, by working hard, building a new life, and finding ways to support herself, she might have been able to overcome these challenges and create a good life for herself.",
-              "prompting_state": {
-                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nUmukobwa yasaziye iwabo kera vyamugendera gute?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nUmukobwa yasaziye iwabo kera ashobora kuba yarahuye n'ingorane nyinshi zitandukanye:\n1. Gusaza ubusa: Ashobora kuba yarasanze ari wenyene, adafite umuryango cyangwa incuti zo kumuherekeza kandi bikaba byaramugizeho ingaruka ku mutima no ku mitekerereze ye.\n2. Kunanirwa kubona ibikenewe: Ashobora kuba yarigeze agira ikibazo cyo kubona ibyo kurya, aho kuba n'ibindi bikenewe mu buzima bwa misi yose kubera amafaranga make cyangwa kubura uwo yishingikiriza.\n3. Kutisanzura: Iyo umuntu ari wenyine, birashoboka ko yumva adasanzwe cyane mu bandi kandi akumva adahanitse bihagije.\n4. Guhura n'ingorane z'umutekano: Umukobwa uri wenyine ashobora kuba yarahuye n'ingorane z'umutekano nko gufatwa nabi, guhohoterwa cyangwa gukorerwaho ihohoterwa rishingiye ku gitsina.\n5. Guhangana n'amarushwa n'agahinda: Gusaza ubusa birashobora guteza ibibazo byo kwiheba, guta icyizere no kwiheba.\nAriko rero, umukobwa yakomeje gukora cyane, akubaka ubuzima bushya kandi akanashaka uburyo bwo kwifashisha ashobora kuba yarabashije gutsinda izo ngorane no kubaka ubuzima bwiza.\n",
-                "model_name": "GPT 4o",
-                "max_output_tokens": 2048,
-                "other_state": {},
-                "model": "gpt-4o-2024-05-13",
-                "n": 1,
-                "presence_penalty": 0.0,
-                "temperature": 1.0,
-                "top_p": 1.0,
-                "logprobs": false
-              }
-            }
-          },
-          "prompting_state": {
-            "prompt": "Umukobwa yasaziye iwabo kera vyamugendera gute?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 2,
-            "rating|Human": 2,
-            "factuality|Human": 1,
-            "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
           }
         },
         {
@@ -7480,7 +7491,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 1
           }
         }
       ]
@@ -8347,6 +8359,48 @@
           }
         },
         {
+          "name": "kirundi:25:language.kirundi:claude opus",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Imbere y'uko abakoloni baza mu Burundi, umwuga wo kudandaza wakorwaga mu buryo bw'imvange y'ubucuruzi n'ubworozi. Abantu baracuruzaga ibintu nk'amatungo, ibiribwa n'ibikoresho by'ingenzi mu buzima bwa buri munsi. Ariko kandi hari n'ubworozi buke bw'amatungo n'ubuhinzi.\n\nUbucuruzi bwari bushingiye cyane ku gucuruza ibintu hagati y'uturere two mu gihugu no mu bihugu bituranye. Abantu bajyaga mu masoko yo mu turere two hafi kugira ngo bacuruze ibyo bari bafite cyangwa bakagura ibyo bakeneye. Hari kandi n'ubucuruzi buke bw'ibintu by'agaciro nk'amabuye y'agaciro n'umukondo.\n\nMuri rusange, umwuga wo kudandaza wari uciriritse kandi utanoze cyane nk'uko byari bimeze mu bindi bihugu byo muri Afurika y'Uburengerazuba mbere y'uko abakoloni baza. Ariko nyuma y'uko abakoloni baje, umwuga wo kudandaza wariyongereye cyane kubera ko haje uburyo bushya bwo gucuruza n'ikoreshwa ry'amafaranga."
+            },
+            "English": {
+              "language": "English",
+              "text": "### Context: \nHow was the trade conducted in Burundi before the arrival of colonizers?\n\n### Translation:\nBefore the colonizers came to Burundi, the trade profession was a mix of commerce and livestock rearing. People traded items like livestock, food, and essential tools for daily life. Additionally, there was some small-scale animal husbandry and agriculture.\n\nTrade mainly involved exchanging goods between different regions within the country and with neighboring countries. People would go to local markets to sell what they had or to buy what they needed. There was also a bit of trade in valuable items like minerals and ivory.\n\nOverall, the trade profession was modest and not as developed as it was in other parts of West Africa before the colonizers arrived. However, after the colonizers came, the trade profession expanded significantly due to the introduction of new trading methods and the use of money.",
+              "prompting_state": {
+                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nImbere y'uko abakoloni baza umwuga wo kudandaza wakorwa gute mu Burundi?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nImbere y'uko abakoloni baza mu Burundi, umwuga wo kudandaza wakorwaga mu buryo bw'imvange y'ubucuruzi n'ubworozi. Abantu baracuruzaga ibintu nk'amatungo, ibiribwa n'ibikoresho by'ingenzi mu buzima bwa buri munsi. Ariko kandi hari n'ubworozi buke bw'amatungo n'ubuhinzi.\nUbucuruzi bwari bushingiye cyane ku gucuruza ibintu hagati y'uturere two mu gihugu no mu bihugu bituranye. Abantu bajyaga mu masoko yo mu turere two hafi kugira ngo bacuruze ibyo bari bafite cyangwa bakagura ibyo bakeneye. Hari kandi n'ubucuruzi buke bw'ibintu by'agaciro nk'amabuye y'agaciro n'umukondo.\nMuri rusange, umwuga wo kudandaza wari uciriritse kandi utanoze cyane nk'uko byari bimeze mu bindi bihugu byo muri Afurika y'Uburengerazuba mbere y'uko abakoloni baza. Ariko nyuma y'uko abakoloni baje, umwuga wo kudandaza wariyongereye cyane kubera ko haje uburyo bushya bwo gucuruza n'ikoreshwa ry'amafaranga.\n",
+                "model_name": "GPT 4o",
+                "max_output_tokens": 2048,
+                "other_state": {},
+                "model": "gpt-4o-2024-05-13",
+                "n": 1,
+                "presence_penalty": 0.0,
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "logprobs": false
+              }
+            }
+          },
+          "prompting_state": {
+            "prompt": "Imbere y'uko abakoloni baza umwuga wo kudandaza wakorwa gute mu Burundi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 2,
+            "rating|Human": 2,
+            "factuality|Human": 1,
+            "omissions|Human": 1,
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
+          }
+        },
+        {
           "name": "kirundi:25:language.kirundi:gpt 4 turbo",
           "language": "Kirundi",
           "translations": {
@@ -8388,48 +8442,8 @@
             "rating|Human": 5,
             "factuality|Human": 3,
             "omissions|Human": 5,
-            "language_correct|Human": 3
-          }
-        },
-        {
-          "name": "kirundi:25:language.kirundi:claude opus",
-          "language": "Kirundi",
-          "translations": {
-            "Kirundi": {
-              "language": "Kirundi",
-              "text": "Imbere y'uko abakoloni baza mu Burundi, umwuga wo kudandaza wakorwaga mu buryo bw'imvange y'ubucuruzi n'ubworozi. Abantu baracuruzaga ibintu nk'amatungo, ibiribwa n'ibikoresho by'ingenzi mu buzima bwa buri munsi. Ariko kandi hari n'ubworozi buke bw'amatungo n'ubuhinzi.\n\nUbucuruzi bwari bushingiye cyane ku gucuruza ibintu hagati y'uturere two mu gihugu no mu bihugu bituranye. Abantu bajyaga mu masoko yo mu turere two hafi kugira ngo bacuruze ibyo bari bafite cyangwa bakagura ibyo bakeneye. Hari kandi n'ubucuruzi buke bw'ibintu by'agaciro nk'amabuye y'agaciro n'umukondo.\n\nMuri rusange, umwuga wo kudandaza wari uciriritse kandi utanoze cyane nk'uko byari bimeze mu bindi bihugu byo muri Afurika y'Uburengerazuba mbere y'uko abakoloni baza. Ariko nyuma y'uko abakoloni baje, umwuga wo kudandaza wariyongereye cyane kubera ko haje uburyo bushya bwo gucuruza n'ikoreshwa ry'amafaranga."
-            },
-            "English": {
-              "language": "English",
-              "text": "### Context: \nHow was the trade conducted in Burundi before the arrival of colonizers?\n\n### Translation:\nBefore the colonizers came to Burundi, the trade profession was a mix of commerce and livestock rearing. People traded items like livestock, food, and essential tools for daily life. Additionally, there was some small-scale animal husbandry and agriculture.\n\nTrade mainly involved exchanging goods between different regions within the country and with neighboring countries. People would go to local markets to sell what they had or to buy what they needed. There was also a bit of trade in valuable items like minerals and ivory.\n\nOverall, the trade profession was modest and not as developed as it was in other parts of West Africa before the colonizers arrived. However, after the colonizers came, the trade profession expanded significantly due to the introduction of new trading methods and the use of money.",
-              "prompting_state": {
-                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nImbere y'uko abakoloni baza umwuga wo kudandaza wakorwa gute mu Burundi?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nImbere y'uko abakoloni baza mu Burundi, umwuga wo kudandaza wakorwaga mu buryo bw'imvange y'ubucuruzi n'ubworozi. Abantu baracuruzaga ibintu nk'amatungo, ibiribwa n'ibikoresho by'ingenzi mu buzima bwa buri munsi. Ariko kandi hari n'ubworozi buke bw'amatungo n'ubuhinzi.\nUbucuruzi bwari bushingiye cyane ku gucuruza ibintu hagati y'uturere two mu gihugu no mu bihugu bituranye. Abantu bajyaga mu masoko yo mu turere two hafi kugira ngo bacuruze ibyo bari bafite cyangwa bakagura ibyo bakeneye. Hari kandi n'ubucuruzi buke bw'ibintu by'agaciro nk'amabuye y'agaciro n'umukondo.\nMuri rusange, umwuga wo kudandaza wari uciriritse kandi utanoze cyane nk'uko byari bimeze mu bindi bihugu byo muri Afurika y'Uburengerazuba mbere y'uko abakoloni baza. Ariko nyuma y'uko abakoloni baje, umwuga wo kudandaza wariyongereye cyane kubera ko haje uburyo bushya bwo gucuruza n'ikoreshwa ry'amafaranga.\n",
-                "model_name": "GPT 4o",
-                "max_output_tokens": 2048,
-                "other_state": {},
-                "model": "gpt-4o-2024-05-13",
-                "n": 1,
-                "presence_penalty": 0.0,
-                "temperature": 1.0,
-                "top_p": 1.0,
-                "logprobs": false
-              }
-            }
-          },
-          "prompting_state": {
-            "prompt": "Imbere y'uko abakoloni baza umwuga wo kudandaza wakorwa gute mu Burundi?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 2,
-            "rating|Human": 2,
-            "factuality|Human": 1,
-            "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 5
           }
         },
         {
@@ -8474,7 +8488,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
           }
         }
       ]
@@ -8703,6 +8718,48 @@
           }
         },
         {
+          "name": "kirundi:26:language.kirundi:claude opus",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu Burundi, iyo imvura itaze, abantu bakoresha uburyo butandukanye kugira ngo isubire kugwa. Bamwe mu buryo bakunze gukoresha harimo:\n\n1. Gusaba Imana: Abarundi benshi bemera Imana kandi bakizera ko ari yo itanga imvura. Muri iki gihe basaba Imana ngo ibahe imvura.\n\n2. Gukora imihango yo gusaba imvura: Hari imihango yihariye ikorwa n'abatware b'idini gakondo basaba imvura. Iyi mihango kenshi ijyana no gutanga ibitambo.\n\n3. Gutera ibiti: Gutera ibiti bituma ibidukikije bisubira mu buryo busanzwe bityo bigafasha kugabanya isuri no kongera imvura.\n\n4. Kubungabunga ibidukikije: Kurinda ibidukikije nko kutabukamo imisaka, gukoresha neza ubutaka no kurwanya isuri bituma haba ikirere kiza kandi gishobora gutuma imvura igwa.\n\nRero mu Burundi, abantu barasaba Imana, bagakora imihango, bakitwararika ibidukikije kugira ngo imvura isubire kugwa iyo itaze. Ariko izi ngamba ntizihita zituma imvura igwa ako kanya, ahubwo ni uburyo bwo gufasha ko imvura yagwa mu buryo busanzwe."
+            },
+            "English": {
+              "language": "English",
+              "text": "In Burundi, when the rains fail to come, people utilize various methods to encourage its return. Some of the commonly used approaches include:\n\n1. Praying to God: Many Burundians believe in God and trust that He provides rain. During such times, they pray to God to grant them rainfall.\n2. Performing rain ceremonies: There are specific rituals conducted by traditional religious leaders to request rain. These ceremonies often involve offering sacrifices.\n3. Planting trees: Planting trees helps restore the natural environment, thereby reducing erosion and increasing the likelihood of rain.\n4. Environmental conservation: Protecting the environment, such as avoiding deforestation, making good use of land, and preventing soil erosion, creates favorable conditions that can lead to rainfall.\n\nTherefore, in Burundi, people pray to God, perform ceremonies, and take care of the environment to help bring back the rain if it doesn't come. However, these measures do not guarantee immediate rain; rather, they are ways to support the natural occurrence of rainfall.",
+              "prompting_state": {
+                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nImvura iyo itaze mu Burundi babigenza gute kugira isubire kugwa?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nMu Burundi, iyo imvura itaze, abantu bakoresha uburyo butandukanye kugira ngo isubire kugwa. Bamwe mu buryo bakunze gukoresha harimo:\n1. Gusaba Imana: Abarundi benshi bemera Imana kandi bakizera ko ari yo itanga imvura. Muri iki gihe basaba Imana ngo ibahe imvura.\n2. Gukora imihango yo gusaba imvura: Hari imihango yihariye ikorwa n'abatware b'idini gakondo basaba imvura. Iyi mihango kenshi ijyana no gutanga ibitambo.\n3. Gutera ibiti: Gutera ibiti bituma ibidukikije bisubira mu buryo busanzwe bityo bigafasha kugabanya isuri no kongera imvura.\n4. Kubungabunga ibidukikije: Kurinda ibidukikije nko kutabukamo imisaka, gukoresha neza ubutaka no kurwanya isuri bituma haba ikirere kiza kandi gishobora gutuma imvura igwa.\nRero mu Burundi, abantu barasaba Imana, bagakora imihango, bakitwararika ibidukikije kugira ngo imvura isubire kugwa iyo itaze. Ariko izi ngamba ntizihita zituma imvura igwa ako kanya, ahubwo ni uburyo bwo gufasha ko imvura yagwa mu buryo busanzwe.\n",
+                "model_name": "GPT 4o",
+                "max_output_tokens": 2048,
+                "other_state": {},
+                "model": "gpt-4o-2024-05-13",
+                "n": 1,
+                "presence_penalty": 0.0,
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "logprobs": false
+              }
+            }
+          },
+          "prompting_state": {
+            "prompt": "Imvura iyo itaze mu Burundi babigenza gute kugira isubire kugwa?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 2,
+            "rating|Human": 2,
+            "factuality|Human": 3,
+            "omissions|Human": 1,
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
+          }
+        },
+        {
           "name": "kirundi:26:language.kirundi:gpt 4 turbo",
           "language": "Kirundi",
           "translations": {
@@ -8744,48 +8801,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
-          }
-        },
-        {
-          "name": "kirundi:26:language.kirundi:claude opus",
-          "language": "Kirundi",
-          "translations": {
-            "Kirundi": {
-              "language": "Kirundi",
-              "text": "Mu Burundi, iyo imvura itaze, abantu bakoresha uburyo butandukanye kugira ngo isubire kugwa. Bamwe mu buryo bakunze gukoresha harimo:\n\n1. Gusaba Imana: Abarundi benshi bemera Imana kandi bakizera ko ari yo itanga imvura. Muri iki gihe basaba Imana ngo ibahe imvura.\n\n2. Gukora imihango yo gusaba imvura: Hari imihango yihariye ikorwa n'abatware b'idini gakondo basaba imvura. Iyi mihango kenshi ijyana no gutanga ibitambo.\n\n3. Gutera ibiti: Gutera ibiti bituma ibidukikije bisubira mu buryo busanzwe bityo bigafasha kugabanya isuri no kongera imvura.\n\n4. Kubungabunga ibidukikije: Kurinda ibidukikije nko kutabukamo imisaka, gukoresha neza ubutaka no kurwanya isuri bituma haba ikirere kiza kandi gishobora gutuma imvura igwa.\n\nRero mu Burundi, abantu barasaba Imana, bagakora imihango, bakitwararika ibidukikije kugira ngo imvura isubire kugwa iyo itaze. Ariko izi ngamba ntizihita zituma imvura igwa ako kanya, ahubwo ni uburyo bwo gufasha ko imvura yagwa mu buryo busanzwe."
-            },
-            "English": {
-              "language": "English",
-              "text": "In Burundi, when the rains fail to come, people utilize various methods to encourage its return. Some of the commonly used approaches include:\n\n1. Praying to God: Many Burundians believe in God and trust that He provides rain. During such times, they pray to God to grant them rainfall.\n2. Performing rain ceremonies: There are specific rituals conducted by traditional religious leaders to request rain. These ceremonies often involve offering sacrifices.\n3. Planting trees: Planting trees helps restore the natural environment, thereby reducing erosion and increasing the likelihood of rain.\n4. Environmental conservation: Protecting the environment, such as avoiding deforestation, making good use of land, and preventing soil erosion, creates favorable conditions that can lead to rainfall.\n\nTherefore, in Burundi, people pray to God, perform ceremonies, and take care of the environment to help bring back the rain if it doesn't come. However, these measures do not guarantee immediate rain; rather, they are ways to support the natural occurrence of rainfall.",
-              "prompting_state": {
-                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nImvura iyo itaze mu Burundi babigenza gute kugira isubire kugwa?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nMu Burundi, iyo imvura itaze, abantu bakoresha uburyo butandukanye kugira ngo isubire kugwa. Bamwe mu buryo bakunze gukoresha harimo:\n1. Gusaba Imana: Abarundi benshi bemera Imana kandi bakizera ko ari yo itanga imvura. Muri iki gihe basaba Imana ngo ibahe imvura.\n2. Gukora imihango yo gusaba imvura: Hari imihango yihariye ikorwa n'abatware b'idini gakondo basaba imvura. Iyi mihango kenshi ijyana no gutanga ibitambo.\n3. Gutera ibiti: Gutera ibiti bituma ibidukikije bisubira mu buryo busanzwe bityo bigafasha kugabanya isuri no kongera imvura.\n4. Kubungabunga ibidukikije: Kurinda ibidukikije nko kutabukamo imisaka, gukoresha neza ubutaka no kurwanya isuri bituma haba ikirere kiza kandi gishobora gutuma imvura igwa.\nRero mu Burundi, abantu barasaba Imana, bagakora imihango, bakitwararika ibidukikije kugira ngo imvura isubire kugwa iyo itaze. Ariko izi ngamba ntizihita zituma imvura igwa ako kanya, ahubwo ni uburyo bwo gufasha ko imvura yagwa mu buryo busanzwe.\n",
-                "model_name": "GPT 4o",
-                "max_output_tokens": 2048,
-                "other_state": {},
-                "model": "gpt-4o-2024-05-13",
-                "n": 1,
-                "presence_penalty": 0.0,
-                "temperature": 1.0,
-                "top_p": 1.0,
-                "logprobs": false
-              }
-            }
-          },
-          "prompting_state": {
-            "prompt": "Imvura iyo itaze mu Burundi babigenza gute kugira isubire kugwa?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 2,
-            "rating|Human": 2,
-            "factuality|Human": 3,
-            "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
           }
         },
         {
@@ -8830,7 +8847,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 1
           }
         }
       ]
@@ -12249,6 +12267,48 @@
           }
         },
         {
+          "name": "kirundi:37:language.kirundi:claude opus",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ayo ni amahimbano adasanzwe abavyeyi bakoresha kugira ngo baterere abana babo. Ariko ntibigira akamaro gukoresha ubwoba canke amahimbano kugira ngo abana bakore ibikwiye. Ahubwo birakenewe ko abavyeyi bafasha abana gutahura impamvu bafise amategeko kanaka, bakabigisha indangagaciro nziza mu buryo bw'urukundo no kubumvikanisha. Gukoresha ubwoba ntibigira akamaro kandi birashobora kugira ingaruka mbi ku bwizigirwe bw'umwana no ku buzima bwiwe bwo mu mutwe."
+            },
+            "English": {
+              "language": "English",
+              "text": "Those are just made-up stories that parents use to scare their children. However, it doesn't help to use fear or fabrications to get kids to do the right thing. Instead, parents should help their children understand the reasons behind certain rules and teach them good values in a loving and understanding way. Using fear is ineffective and can negatively affect a child's confidence and mental health.",
+              "prompting_state": {
+                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nKubera iki abavyeyi babwira abana ko bishe imiserebanyi, canke ibikere nyina wabo aca acika amabere?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nAyo ni amahimbano adasanzwe abavyeyi bakoresha kugira ngo baterere abana babo. Ariko ntibigira akamaro gukoresha ubwoba canke amahimbano kugira ngo abana bakore ibikwiye. Ahubwo birakenewe ko abavyeyi bafasha abana gutahura impamvu bafise amategeko kanaka, bakabigisha indangagaciro nziza mu buryo bw'urukundo no kubumvikanisha. Gukoresha ubwoba ntibigira akamaro kandi birashobora kugira ingaruka mbi ku bwizigirwe bw'umwana no ku buzima bwiwe bwo mu mutwe.\n",
+                "model_name": "GPT 4o",
+                "max_output_tokens": 2048,
+                "other_state": {},
+                "model": "gpt-4o-2024-05-13",
+                "n": 1,
+                "presence_penalty": 0.0,
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "logprobs": false
+              }
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki abavyeyi babwira abana ko bishe imiserebanyi, canke ibikere nyina wabo aca acika amabere?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 2,
+            "rating|Human": 2,
+            "factuality|Human": 1,
+            "omissions|Human": 1,
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
+          }
+        },
+        {
           "name": "kirundi:37:language.kirundi:gpt 4 turbo",
           "language": "Kirundi",
           "translations": {
@@ -12290,48 +12350,8 @@
             "rating|Human": 4,
             "factuality|Human": 3,
             "omissions|Human": 5,
-            "language_correct|Human": 3
-          }
-        },
-        {
-          "name": "kirundi:37:language.kirundi:claude opus",
-          "language": "Kirundi",
-          "translations": {
-            "Kirundi": {
-              "language": "Kirundi",
-              "text": "Ayo ni amahimbano adasanzwe abavyeyi bakoresha kugira ngo baterere abana babo. Ariko ntibigira akamaro gukoresha ubwoba canke amahimbano kugira ngo abana bakore ibikwiye. Ahubwo birakenewe ko abavyeyi bafasha abana gutahura impamvu bafise amategeko kanaka, bakabigisha indangagaciro nziza mu buryo bw'urukundo no kubumvikanisha. Gukoresha ubwoba ntibigira akamaro kandi birashobora kugira ingaruka mbi ku bwizigirwe bw'umwana no ku buzima bwiwe bwo mu mutwe."
-            },
-            "English": {
-              "language": "English",
-              "text": "Those are just made-up stories that parents use to scare their children. However, it doesn't help to use fear or fabrications to get kids to do the right thing. Instead, parents should help their children understand the reasons behind certain rules and teach them good values in a loving and understanding way. Using fear is ineffective and can negatively affect a child's confidence and mental health.",
-              "prompting_state": {
-                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nKubera iki abavyeyi babwira abana ko bishe imiserebanyi, canke ibikere nyina wabo aca acika amabere?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nAyo ni amahimbano adasanzwe abavyeyi bakoresha kugira ngo baterere abana babo. Ariko ntibigira akamaro gukoresha ubwoba canke amahimbano kugira ngo abana bakore ibikwiye. Ahubwo birakenewe ko abavyeyi bafasha abana gutahura impamvu bafise amategeko kanaka, bakabigisha indangagaciro nziza mu buryo bw'urukundo no kubumvikanisha. Gukoresha ubwoba ntibigira akamaro kandi birashobora kugira ingaruka mbi ku bwizigirwe bw'umwana no ku buzima bwiwe bwo mu mutwe.\n",
-                "model_name": "GPT 4o",
-                "max_output_tokens": 2048,
-                "other_state": {},
-                "model": "gpt-4o-2024-05-13",
-                "n": 1,
-                "presence_penalty": 0.0,
-                "temperature": 1.0,
-                "top_p": 1.0,
-                "logprobs": false
-              }
-            }
-          },
-          "prompting_state": {
-            "prompt": "Kubera iki abavyeyi babwira abana ko bishe imiserebanyi, canke ibikere nyina wabo aca acika amabere?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 2,
-            "rating|Human": 2,
-            "factuality|Human": 1,
-            "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 4
           }
         },
         {
@@ -12376,7 +12396,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 1
+            "language_correct|Human": 1,
+            "Overall|GPT_4O": 1
           }
         }
       ]
@@ -12924,6 +12945,48 @@
           }
         },
         {
+          "name": "kirundi:39:language.kirundi:claude opus",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Mu muco nyarwanda, Kubera iki cazira ko umwana arya mugahinga ku mwaka mushasha bifite impamvu zikurikira:\n\n1. Mugahinga ni ibiryo by'abakuru: Mu muco nyarwanda, mugahinga ufatwa nk'ibiryo by'abakuru kubera ko ari ibiryo bikomeye kandi bifite ingufu nyinshi. Abana bato bafatwa nk'abatarashobora kubimira neza.\n\n2. Kwirinda indwara: Mugahinga ushobora gutera indwara ku bana bato bataramenya gukoresha ibiryo bikomeye neza. Ibi bishobora gutuma barwara indwara z'umutima cyangwa izindi ndwara zijyanye n'ibiryo.\n\n3. Imyemerere y'abazimu: Abantu bamwe bemera ko iyo umwana ariye mugahinga ku mwaka mushasha, abazimu bashobora kumugirira nabi cyangwa bakamuteza ibyago.\n\n4. Kubahiriza imigenzo n'imico: Mu muco nyarwanda, hari imigenzo n'imico igomba kubahirizwa. Kutarya mugahinga ku mwaka mushasha ni umwe mu migenzo igomba kubahirizwa n'abana.\n\nAriko rero, izi mpamvu ntizishingiye ku bumenyi bwa gihanga ahubwo zishingiye ku myemerere n'imigenzo y'abanyarwanda. Ubu hari abana benshi barya mugahinga ku mwaka mushasha kandi nta ngaruka mbi babona."
+            },
+            "English": {
+              "language": "English",
+              "text": "In Rwandan culture, there are several reasons why it is forbidden for a child to eat \"mugahinga\" during the New Year:\n\n1. Mugahinga is considered food for adults: In Rwandan culture, mugahinga is regarded as food meant for adults because it is dense and nutritious. Young children are perceived as not being able to digest it properly.\n\n2. Preventing illnesses: Mugahinga can cause illnesses in young children who are not yet able to handle dense foods properly. This could lead to heart diseases or other food-related illnesses.\n\n3. Beliefs about spirits: Some people believe that if a child eats mugahinga during the New Year, spirits might harm them or bring bad luck.\n\n4. Respecting traditions and customs: In Rwandan culture, certain traditions and customs must be respected. Not eating mugahinga during the New Year is one of the customs that children are expected to follow.\n\nHowever, it's important to note that these reasons are not based on scientific knowledge but rather on cultural beliefs and customs. Nowadays, many children eat mugahinga during the New Year without experiencing any negative effects.",
+              "prompting_state": {
+                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nKubera iki cazira ko umwana arya mugahinga ku mwaka mushasha?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nMu muco nyarwanda, Kubera iki cazira ko umwana arya mugahinga ku mwaka mushasha bifite impamvu zikurikira:\n1. Mugahinga ni ibiryo by'abakuru: Mu muco nyarwanda, mugahinga ufatwa nk'ibiryo by'abakuru kubera ko ari ibiryo bikomeye kandi bifite ingufu nyinshi. Abana bato bafatwa nk'abatarashobora kubimira neza.\n2. Kwirinda indwara: Mugahinga ushobora gutera indwara ku bana bato bataramenya gukoresha ibiryo bikomeye neza. Ibi bishobora gutuma barwara indwara z'umutima cyangwa izindi ndwara zijyanye n'ibiryo.\n3. Imyemerere y'abazimu: Abantu bamwe bemera ko iyo umwana ariye mugahinga ku mwaka mushasha, abazimu bashobora kumugirira nabi cyangwa bakamuteza ibyago.\n4. Kubahiriza imigenzo n'imico: Mu muco nyarwanda, hari imigenzo n'imico igomba kubahirizwa. Kutarya mugahinga ku mwaka mushasha ni umwe mu migenzo igomba kubahirizwa n'abana.\nAriko rero, izi mpamvu ntizishingiye ku bumenyi bwa gihanga ahubwo zishingiye ku myemerere n'imigenzo y'abanyarwanda. Ubu hari abana benshi barya mugahinga ku mwaka mushasha kandi nta ngaruka mbi babona.\n",
+                "model_name": "GPT 4o",
+                "max_output_tokens": 2048,
+                "other_state": {},
+                "model": "gpt-4o-2024-05-13",
+                "n": 1,
+                "presence_penalty": 0.0,
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "logprobs": false
+              }
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki cazira ko umwana arya mugahinga ku mwaka mushasha?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 1,
+            "rating|Human": 1,
+            "factuality|Human": 1,
+            "omissions|Human": 1,
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
+          }
+        },
+        {
           "name": "kirundi:39:language.kirundi:gpt 4 turbo",
           "language": "Kirundi",
           "translations": {
@@ -12965,48 +13028,8 @@
             "rating|Human": 2,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
-          }
-        },
-        {
-          "name": "kirundi:39:language.kirundi:claude opus",
-          "language": "Kirundi",
-          "translations": {
-            "Kirundi": {
-              "language": "Kirundi",
-              "text": "Mu muco nyarwanda, Kubera iki cazira ko umwana arya mugahinga ku mwaka mushasha bifite impamvu zikurikira:\n\n1. Mugahinga ni ibiryo by'abakuru: Mu muco nyarwanda, mugahinga ufatwa nk'ibiryo by'abakuru kubera ko ari ibiryo bikomeye kandi bifite ingufu nyinshi. Abana bato bafatwa nk'abatarashobora kubimira neza.\n\n2. Kwirinda indwara: Mugahinga ushobora gutera indwara ku bana bato bataramenya gukoresha ibiryo bikomeye neza. Ibi bishobora gutuma barwara indwara z'umutima cyangwa izindi ndwara zijyanye n'ibiryo.\n\n3. Imyemerere y'abazimu: Abantu bamwe bemera ko iyo umwana ariye mugahinga ku mwaka mushasha, abazimu bashobora kumugirira nabi cyangwa bakamuteza ibyago.\n\n4. Kubahiriza imigenzo n'imico: Mu muco nyarwanda, hari imigenzo n'imico igomba kubahirizwa. Kutarya mugahinga ku mwaka mushasha ni umwe mu migenzo igomba kubahirizwa n'abana.\n\nAriko rero, izi mpamvu ntizishingiye ku bumenyi bwa gihanga ahubwo zishingiye ku myemerere n'imigenzo y'abanyarwanda. Ubu hari abana benshi barya mugahinga ku mwaka mushasha kandi nta ngaruka mbi babona."
-            },
-            "English": {
-              "language": "English",
-              "text": "In Rwandan culture, there are several reasons why it is forbidden for a child to eat \"mugahinga\" during the New Year:\n\n1. Mugahinga is considered food for adults: In Rwandan culture, mugahinga is regarded as food meant for adults because it is dense and nutritious. Young children are perceived as not being able to digest it properly.\n\n2. Preventing illnesses: Mugahinga can cause illnesses in young children who are not yet able to handle dense foods properly. This could lead to heart diseases or other food-related illnesses.\n\n3. Beliefs about spirits: Some people believe that if a child eats mugahinga during the New Year, spirits might harm them or bring bad luck.\n\n4. Respecting traditions and customs: In Rwandan culture, certain traditions and customs must be respected. Not eating mugahinga during the New Year is one of the customs that children are expected to follow.\n\nHowever, it's important to note that these reasons are not based on scientific knowledge but rather on cultural beliefs and customs. Nowadays, many children eat mugahinga during the New Year without experiencing any negative effects.",
-              "prompting_state": {
-                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nKubera iki cazira ko umwana arya mugahinga ku mwaka mushasha?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nMu muco nyarwanda, Kubera iki cazira ko umwana arya mugahinga ku mwaka mushasha bifite impamvu zikurikira:\n1. Mugahinga ni ibiryo by'abakuru: Mu muco nyarwanda, mugahinga ufatwa nk'ibiryo by'abakuru kubera ko ari ibiryo bikomeye kandi bifite ingufu nyinshi. Abana bato bafatwa nk'abatarashobora kubimira neza.\n2. Kwirinda indwara: Mugahinga ushobora gutera indwara ku bana bato bataramenya gukoresha ibiryo bikomeye neza. Ibi bishobora gutuma barwara indwara z'umutima cyangwa izindi ndwara zijyanye n'ibiryo.\n3. Imyemerere y'abazimu: Abantu bamwe bemera ko iyo umwana ariye mugahinga ku mwaka mushasha, abazimu bashobora kumugirira nabi cyangwa bakamuteza ibyago.\n4. Kubahiriza imigenzo n'imico: Mu muco nyarwanda, hari imigenzo n'imico igomba kubahirizwa. Kutarya mugahinga ku mwaka mushasha ni umwe mu migenzo igomba kubahirizwa n'abana.\nAriko rero, izi mpamvu ntizishingiye ku bumenyi bwa gihanga ahubwo zishingiye ku myemerere n'imigenzo y'abanyarwanda. Ubu hari abana benshi barya mugahinga ku mwaka mushasha kandi nta ngaruka mbi babona.\n",
-                "model_name": "GPT 4o",
-                "max_output_tokens": 2048,
-                "other_state": {},
-                "model": "gpt-4o-2024-05-13",
-                "n": 1,
-                "presence_penalty": 0.0,
-                "temperature": 1.0,
-                "top_p": 1.0,
-                "logprobs": false
-              }
-            }
-          },
-          "prompting_state": {
-            "prompt": "Kubera iki cazira ko umwana arya mugahinga ku mwaka mushasha?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 1,
-            "rating|Human": 1,
-            "factuality|Human": 1,
-            "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
           }
         },
         {
@@ -13051,7 +13074,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 1
+            "language_correct|Human": 1,
+            "Overall|GPT_4O": 1
           }
         }
       ]
@@ -13280,6 +13304,48 @@
           }
         },
         {
+          "name": "kirundi:40:language.kirundi:claude opus",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Ikibazo cyawe kiravuga ku bantu bo mu muryango umwe bahonyorwa n'inka zishotse kunywa amazi hasi y'umuganuro Kubera. Ibi ni ikintu gishobora kuba cyabaye, ariko nta makuru ahagije mfite yo kugira ngo nkwemeze niba ari ukuri cyangwa atari byo.\n\nMu gihe habaye impanuka nk'iyo, bishobora gutera ibikomere bikomeye cyangwa urupfu ku bantu bahohotewe. Inka zishobora kandi gukomereka cyangwa gupfa. Ni ngombwa ko abantu bafata ingamba zo kwirinda ibyago nk'ibyo, nko gukumira inka kujya ahantu hari abantu benshi cyane cyane igihe zishaka kunywa amazi. Gukorera ahantu hafunze cyangwa gushyiraho imipaka hagati y'inka n'abantu bishobora gutuma habaho umutekano."
+            },
+            "English": {
+              "language": "English",
+              "text": "Your question refers to people from the same family being trampled by cows heading to drink water on the day of the Umuganuro festival. This could indeed have happened, but I don't have enough information to confirm whether it's true or not.\n\nIf such an accident occurred, it could cause serious injuries or even death to the people involved. The cows could also get injured or die. It's important for people to take safety measures to avoid such dangers, such as preventing cows from going to places with large crowds, especially when they are headed to drink water. Working in enclosed areas or establishing boundaries between cows and people can help ensure safety.",
+              "prompting_state": {
+                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nKubera iki ku munsi w'umuganuro hari abantu bo mu muryango umwe bahonyorwa n'inka zishotse kunywa amazi?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nIkibazo cyawe kiravuga ku bantu bo mu muryango umwe bahonyorwa n'inka zishotse kunywa amazi hasi y'umuganuro Kubera. Ibi ni ikintu gishobora kuba cyabaye, ariko nta makuru ahagije mfite yo kugira ngo nkwemeze niba ari ukuri cyangwa atari byo.\nMu gihe habaye impanuka nk'iyo, bishobora gutera ibikomere bikomeye cyangwa urupfu ku bantu bahohotewe. Inka zishobora kandi gukomereka cyangwa gupfa. Ni ngombwa ko abantu bafata ingamba zo kwirinda ibyago nk'ibyo, nko gukumira inka kujya ahantu hari abantu benshi cyane cyane igihe zishaka kunywa amazi. Gukorera ahantu hafunze cyangwa gushyiraho imipaka hagati y'inka n'abantu bishobora gutuma habaho umutekano.\n",
+                "model_name": "GPT 4o",
+                "max_output_tokens": 2048,
+                "other_state": {},
+                "model": "gpt-4o-2024-05-13",
+                "n": 1,
+                "presence_penalty": 0.0,
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "logprobs": false
+              }
+            }
+          },
+          "prompting_state": {
+            "prompt": "Kubera iki ku munsi w'umuganuro hari abantu bo mu muryango umwe bahonyorwa n'inka zishotse kunywa amazi?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 1,
+            "rating|Human": 1,
+            "factuality|Human": 1,
+            "omissions|Human": 1,
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
+          }
+        },
+        {
           "name": "kirundi:40:language.kirundi:gpt 4 turbo",
           "language": "Kirundi",
           "translations": {
@@ -13321,48 +13387,8 @@
             "rating|Human": 2,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
-          }
-        },
-        {
-          "name": "kirundi:40:language.kirundi:claude opus",
-          "language": "Kirundi",
-          "translations": {
-            "Kirundi": {
-              "language": "Kirundi",
-              "text": "Ikibazo cyawe kiravuga ku bantu bo mu muryango umwe bahonyorwa n'inka zishotse kunywa amazi hasi y'umuganuro Kubera. Ibi ni ikintu gishobora kuba cyabaye, ariko nta makuru ahagije mfite yo kugira ngo nkwemeze niba ari ukuri cyangwa atari byo.\n\nMu gihe habaye impanuka nk'iyo, bishobora gutera ibikomere bikomeye cyangwa urupfu ku bantu bahohotewe. Inka zishobora kandi gukomereka cyangwa gupfa. Ni ngombwa ko abantu bafata ingamba zo kwirinda ibyago nk'ibyo, nko gukumira inka kujya ahantu hari abantu benshi cyane cyane igihe zishaka kunywa amazi. Gukorera ahantu hafunze cyangwa gushyiraho imipaka hagati y'inka n'abantu bishobora gutuma habaho umutekano."
-            },
-            "English": {
-              "language": "English",
-              "text": "Your question refers to people from the same family being trampled by cows heading to drink water on the day of the Umuganuro festival. This could indeed have happened, but I don't have enough information to confirm whether it's true or not.\n\nIf such an accident occurred, it could cause serious injuries or even death to the people involved. The cows could also get injured or die. It's important for people to take safety measures to avoid such dangers, such as preventing cows from going to places with large crowds, especially when they are headed to drink water. Working in enclosed areas or establishing boundaries between cows and people can help ensure safety.",
-              "prompting_state": {
-                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nKubera iki ku munsi w'umuganuro hari abantu bo mu muryango umwe bahonyorwa n'inka zishotse kunywa amazi?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nIkibazo cyawe kiravuga ku bantu bo mu muryango umwe bahonyorwa n'inka zishotse kunywa amazi hasi y'umuganuro Kubera. Ibi ni ikintu gishobora kuba cyabaye, ariko nta makuru ahagije mfite yo kugira ngo nkwemeze niba ari ukuri cyangwa atari byo.\nMu gihe habaye impanuka nk'iyo, bishobora gutera ibikomere bikomeye cyangwa urupfu ku bantu bahohotewe. Inka zishobora kandi gukomereka cyangwa gupfa. Ni ngombwa ko abantu bafata ingamba zo kwirinda ibyago nk'ibyo, nko gukumira inka kujya ahantu hari abantu benshi cyane cyane igihe zishaka kunywa amazi. Gukorera ahantu hafunze cyangwa gushyiraho imipaka hagati y'inka n'abantu bishobora gutuma habaho umutekano.\n",
-                "model_name": "GPT 4o",
-                "max_output_tokens": 2048,
-                "other_state": {},
-                "model": "gpt-4o-2024-05-13",
-                "n": 1,
-                "presence_penalty": 0.0,
-                "temperature": 1.0,
-                "top_p": 1.0,
-                "logprobs": false
-              }
-            }
-          },
-          "prompting_state": {
-            "prompt": "Kubera iki ku munsi w'umuganuro hari abantu bo mu muryango umwe bahonyorwa n'inka zishotse kunywa amazi?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 1,
-            "rating|Human": 1,
-            "factuality|Human": 1,
-            "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
           }
         },
         {
@@ -13407,7 +13433,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 1
           }
         }
       ]
@@ -17145,6 +17172,48 @@
           }
         },
         {
+          "name": "kirundi:52:language.kirundi:claude opus",
+          "language": "Kirundi",
+          "translations": {
+            "Kirundi": {
+              "language": "Kirundi",
+              "text": "Umugabo yemeye kwigura umwami Mwezi Gisabo yitwaga Birori. Birori yari umutware w'ingabo z'umwami Mwezi Gisabo. \n\nMu 1897, Birori yagize uruhare mu guhirika umwami Mwezi Gisabo. Yashakaga ko umwami yegura kugira ngo we abe umwami mushya. Ariko Mwezi Gisabo ntiyemeye kwegura, ahubwo yategetse ko Birori yicwa kubera kwigometsa. Birori yishe, maze Mwezi Gisabo akomeza kuyobora igihugu.\n\nIki gikorwa cya Birori cyeretse ko hari abatavuga rumwe n'ubutegetsi bwa Mwezi Gisabo, ndetse bashakaga guhindura ubutegetsi. Ariko Mwezi Gisabo yari afite ububasha buhagije bwo gukomeza kuyobora igihugu."
+            },
+            "English": {
+              "language": "English",
+              "text": "The man who attempted to overthrow King Mwezi Gisabo was named Birori. Birori was a chief in King Mwezi Gisabo’s army. In 1897, Birori played a role in trying to overthrow King Mwezi Gisabo. He wanted the king to step down so that he could become the new king. However, Mwezi Gisabo refused to abdicate and instead ordered that Birori be executed for his rebellion. Birori was killed, and Mwezi Gisabo continued to rule the country.\n\nBirori’s actions showed that there were people who opposed Mwezi Gisabo’s rule and wanted a change in leadership. Nevertheless, Mwezi Gisabo had enough power to maintain his leadership of the country.",
+              "prompting_state": {
+                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nUmugabo yemeye kwigura umwami Mwezi Gisabo yitwa gute? Hari habaye iki?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nUmugabo yemeye kwigura umwami Mwezi Gisabo yitwaga Birori. Birori yari umutware w'ingabo z'umwami Mwezi Gisabo. \nMu 1897, Birori yagize uruhare mu guhirika umwami Mwezi Gisabo. Yashakaga ko umwami yegura kugira ngo we abe umwami mushya. Ariko Mwezi Gisabo ntiyemeye kwegura, ahubwo yategetse ko Birori yicwa kubera kwigometsa. Birori yishe, maze Mwezi Gisabo akomeza kuyobora igihugu.\nIki gikorwa cya Birori cyeretse ko hari abatavuga rumwe n'ubutegetsi bwa Mwezi Gisabo, ndetse bashakaga guhindura ubutegetsi. Ariko Mwezi Gisabo yari afite ububasha buhagije bwo gukomeza kuyobora igihugu.\n",
+                "model_name": "GPT 4o",
+                "max_output_tokens": 2048,
+                "other_state": {},
+                "model": "gpt-4o-2024-05-13",
+                "n": 1,
+                "presence_penalty": 0.0,
+                "temperature": 1.0,
+                "top_p": 1.0,
+                "logprobs": false
+              }
+            }
+          },
+          "prompting_state": {
+            "prompt": "Umugabo yemeye kwigura umwami Mwezi Gisabo yitwa gute? Hari habaye iki?\n",
+            "model_name": "Claude Opus",
+            "max_output_tokens": 2048,
+            "other_state": {},
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.0
+          },
+          "ratings": {
+            "Factuality|Human": 1,
+            "rating|Human": 1,
+            "factuality|Human": 1,
+            "omissions|Human": 1,
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
+          }
+        },
+        {
           "name": "kirundi:52:language.kirundi:gpt 4 turbo",
           "language": "Kirundi",
           "translations": {
@@ -17186,48 +17255,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
-          }
-        },
-        {
-          "name": "kirundi:52:language.kirundi:claude opus",
-          "language": "Kirundi",
-          "translations": {
-            "Kirundi": {
-              "language": "Kirundi",
-              "text": "Umugabo yemeye kwigura umwami Mwezi Gisabo yitwaga Birori. Birori yari umutware w'ingabo z'umwami Mwezi Gisabo. \n\nMu 1897, Birori yagize uruhare mu guhirika umwami Mwezi Gisabo. Yashakaga ko umwami yegura kugira ngo we abe umwami mushya. Ariko Mwezi Gisabo ntiyemeye kwegura, ahubwo yategetse ko Birori yicwa kubera kwigometsa. Birori yishe, maze Mwezi Gisabo akomeza kuyobora igihugu.\n\nIki gikorwa cya Birori cyeretse ko hari abatavuga rumwe n'ubutegetsi bwa Mwezi Gisabo, ndetse bashakaga guhindura ubutegetsi. Ariko Mwezi Gisabo yari afite ububasha buhagije bwo gukomeza kuyobora igihugu."
-            },
-            "English": {
-              "language": "English",
-              "text": "The man who attempted to overthrow King Mwezi Gisabo was named Birori. Birori was a chief in King Mwezi Gisabo’s army. In 1897, Birori played a role in trying to overthrow King Mwezi Gisabo. He wanted the king to step down so that he could become the new king. However, Mwezi Gisabo refused to abdicate and instead ordered that Birori be executed for his rebellion. Birori was killed, and Mwezi Gisabo continued to rule the country.\n\nBirori’s actions showed that there were people who opposed Mwezi Gisabo’s rule and wanted a change in leadership. Nevertheless, Mwezi Gisabo had enough power to maintain his leadership of the country.",
-              "prompting_state": {
-                "prompt": "Your task is to translate the answer of a Kirundi question from Kirundi into English. You will be given the Kirundi question as the context.\n\nHere is the Kirundi question. Use it as the context to make the translation sound natural in the English:\nUmugabo yemeye kwigura umwami Mwezi Gisabo yitwa gute? Hari habaye iki?\n\nTranslate the following answer from Kirundi into English. Make it sound as natural as possible:\nUmugabo yemeye kwigura umwami Mwezi Gisabo yitwaga Birori. Birori yari umutware w'ingabo z'umwami Mwezi Gisabo. \nMu 1897, Birori yagize uruhare mu guhirika umwami Mwezi Gisabo. Yashakaga ko umwami yegura kugira ngo we abe umwami mushya. Ariko Mwezi Gisabo ntiyemeye kwegura, ahubwo yategetse ko Birori yicwa kubera kwigometsa. Birori yishe, maze Mwezi Gisabo akomeza kuyobora igihugu.\nIki gikorwa cya Birori cyeretse ko hari abatavuga rumwe n'ubutegetsi bwa Mwezi Gisabo, ndetse bashakaga guhindura ubutegetsi. Ariko Mwezi Gisabo yari afite ububasha buhagije bwo gukomeza kuyobora igihugu.\n",
-                "model_name": "GPT 4o",
-                "max_output_tokens": 2048,
-                "other_state": {},
-                "model": "gpt-4o-2024-05-13",
-                "n": 1,
-                "presence_penalty": 0.0,
-                "temperature": 1.0,
-                "top_p": 1.0,
-                "logprobs": false
-              }
-            }
-          },
-          "prompting_state": {
-            "prompt": "Umugabo yemeye kwigura umwami Mwezi Gisabo yitwa gute? Hari habaye iki?\n",
-            "model_name": "Claude Opus",
-            "max_output_tokens": 2048,
-            "other_state": {},
-            "model": "claude-3-opus-20240229",
-            "temperature": 0.0
-          },
-          "ratings": {
-            "Factuality|Human": 1,
-            "rating|Human": 1,
-            "factuality|Human": 1,
-            "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 2
           }
         },
         {
@@ -17272,7 +17301,8 @@
             "rating|Human": 1,
             "factuality|Human": 1,
             "omissions|Human": 1,
-            "language_correct|Human": 3
+            "language_correct|Human": 3,
+            "Overall|GPT_4O": 1
           }
         }
       ]
